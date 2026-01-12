@@ -55,6 +55,14 @@ export default function Navbar() {
                 >
                   Dashboard
                 </Link>
+                  {user?.role === 'admin' && (
+                  <Link
+                    href="/reports"
+                    className="text-gray-700 hover:text-gray-900 transition"
+                  >
+                    Reports
+                  </Link>
+                )}
                 <Link
                   href="/map"
                   className="text-gray-700 hover:text-gray-900 transition"

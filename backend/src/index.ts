@@ -14,10 +14,14 @@ app.use(express.urlencoded({ extended: true }));
 import authRoutes from './routes/authRoutes';
 import userRoutes from './routes/userRoutes';
 import clipRoutes from './routes/clipRoutes';
+import reportRoutes from './routes/reportRoutes';
 
 app.use('/api/auth', authRoutes);
 app.use('/api/admin', userRoutes);
 app.use('/api/clip', clipRoutes);
+app.use('/api/reports', reportRoutes);
+
+
 // Health check
 app.get('/api/health', (req: Request, res: Response) => {
   res.status(200).json({ status: 'ok', message: 'Server is running' });
@@ -54,6 +58,34 @@ async function initializeDatabase() {
 
     await pool.query(`
       CREATE INDEX IF NOT EXISTS idx_users_role ON users(role)
+    `);
+  // Create invalid_data_reports table
+    await pool.query(`
+      CREATE TABLE IF NOT EXISTS invalid_data_reports (
+        id SERIAL PRIMARY KEY,
+        user_id INTEGER NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+        original_polygon JSONB NOT NULL,
+        original_layer VARCHAR(255) NOT NULL,
+        original_colormap VARCHAR(255) NOT NULL,
+        invalid_area_polygon JSONB NOT NULL,
+        comment TEXT NOT NULL,
+        status VARCHAR(50) NOT NULL DEFAULT 'invalid' CHECK (status IN ('invalid', 'fixed')),
+        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+        updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+      )
+    `);
+
+    // Create indexes for reports
+    await pool.query(`
+      CREATE INDEX IF NOT EXISTS idx_reports_user_id ON invalid_data_reports(user_id)
+    `);
+
+    await pool.query(`
+      CREATE INDEX IF NOT EXISTS idx_reports_status ON invalid_data_reports(status)
+    `);
+
+    await pool.query(`
+      CREATE INDEX IF NOT EXISTS idx_reports_created_at ON invalid_data_reports(created_at DESC)
     `);
 
     console.log('Database tables initialized successfully');
