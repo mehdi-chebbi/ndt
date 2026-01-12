@@ -3,6 +3,8 @@
 import { useEffect, useRef, useState } from 'react'
 import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
+import 'leaflet-draw'
+import { FeatureGroup } from 'leaflet'
 
 // Fix for default marker icon in Next.js
 delete (L.Icon.Default.prototype as any)._getIconUrl
@@ -17,11 +19,16 @@ const MapComponent = () => {
   const mapContainerRef = useRef<HTMLDivElement>(null)
   const baseLayersRef = useRef<{ [key: string]: L.TileLayer | L.TileLayer.WMS }>({})
   const dataLayersRef = useRef<{ [key: string]: L.TileLayer }>({})
+  const drawnItemsRef = useRef<FeatureGroup | null>(null)
   const [activeBasemap, setActiveBasemap] = useState('OpenStreetMap')
   const [sidebarOpen, setSidebarOpen] = useState(true)
-  const [activeTab, setActiveTab] = useState<'basemaps' | 'data'>('basemaps')
+  const [activeTab, setActiveTab] = useState<'basemaps' | 'data' | 'clip'>('basemaps')
   const [activeDataLayers, setActiveDataLayers] = useState<string[]>([])
   const [selectedColormap, setSelectedColormap] = useState('viridis')
+  const [selectedLayer, setSelectedLayer] = useState('africa-ndvi')
+  const [isClipping, setIsClipping] = useState(false)
+  const [clipMessage, setClipMessage] = useState('')
+  const [hasDrawnPolygon, setHasDrawnPolygon] = useState(false)
 
   // Available colormaps
   const colormaps = [
@@ -39,6 +46,11 @@ const MapComponent = () => {
     { name: 'Cool', value: 'cool' },
     { name: 'Greens', value: 'greens' },
     { name: 'Blues', value: 'blues' },
+  ]
+
+  // Available layers for clipping
+  const availableLayers = [
+    { id: 'africa-ndvi', name: 'Africa Landsat LC 2000' },
   ]
 
   // Basemaps configuration
@@ -125,6 +137,44 @@ const MapComponent = () => {
     defaultBasemap.addTo(map)
     baseLayersRef.current['OpenStreetMap'] = defaultBasemap
 
+    // Create drawn items feature group
+    const drawnItems = new FeatureGroup()
+    map.addLayer(drawnItems)
+    drawnItemsRef.current = drawnItems
+
+    // Initialize draw control
+    const drawControl = new L.Control.Draw({
+      draw: {
+        polygon: {
+          allowIntersection: false,
+          showArea: true,
+        },
+        polyline: false,
+        rectangle: true,
+        circle: false,
+        marker: false,
+        circlemarker: false,
+      },
+      edit: {
+        featureGroup: drawnItems,
+        remove: true,
+      },
+    })
+    map.addControl(drawControl)
+
+    // Handle draw created
+    map.on(L.Draw.Event.CREATED, (event: any) => {
+      const layer = event.layer
+      drawnItems.addLayer(layer)
+      setHasDrawnPolygon(true)
+    })
+
+    // Handle draw deleted
+    map.on(L.Draw.Event.DELETED, () => {
+      const layers = drawnItems.getLayers()
+      setHasDrawnPolygon(layers.length > 0)
+    })
+
     // Add zoom control to bottom-right
     L.control.zoom({ position: 'bottomright' }).addTo(map)
 
@@ -196,6 +246,96 @@ const MapComponent = () => {
     }
   }
 
+  const handleClip = async () => {
+    if (!mapRef.current || !drawnItemsRef.current) return
+
+    const layers = drawnItemsRef.current.getLayers()
+    if (layers.length === 0) {
+      setClipMessage('Please draw a polygon first')
+      return
+    }
+
+    setIsClipping(true)
+    setClipMessage('Clipping layer...')
+
+    try {
+      // Get the first drawn layer (polygon)
+      const drawnLayer = layers[0] as L.Polygon
+      const latlngs = drawnLayer.getLatLngs()[0] as L.LatLng[]
+
+      // Convert to GeoJSON polygon
+      const coordinates = latlngs.map((latlng) => [latlng.lng, latlng.lat])
+
+      // Close the polygon by adding the first coordinate to the end
+      const closedCoordinates = [...coordinates, coordinates[0]]
+
+      const polygon = {
+        type: 'Polygon' as const,
+        coordinates: [closedCoordinates],
+      }
+
+      // Call backend clip endpoint
+      const response = await fetch('/api/clip/clip', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          polygon,
+          layer: selectedLayer,
+          colormap: selectedColormap,
+        }),
+      })
+
+      if (!response.ok) {
+        const error = await response.json()
+        throw new Error(error.error || 'Failed to clip layer')
+      }
+
+      // Get the image blob
+      const blob = await response.blob()
+      const imageUrl = URL.createObjectURL(blob)
+
+      // Calculate bounds from the polygon
+      const bounds = drawnLayer.getBounds()
+
+      // Add image overlay to map
+      const imageOverlay = L.imageOverlay(imageUrl, bounds, {
+        opacity: 0.8,
+        interactive: true,
+      })
+
+      if (mapRef.current) {
+        mapRef.current.addLayer(imageOverlay)
+        mapRef.current.fitBounds(bounds)
+      }
+
+      setClipMessage('Layer clipped successfully!')
+
+      // Auto-hide message after 3 seconds
+      setTimeout(() => {
+        setClipMessage('')
+      }, 3000)
+
+    } catch (error: any) {
+      console.error('Clip error:', error)
+      setClipMessage(error.message || 'Failed to clip layer')
+      setTimeout(() => {
+        setClipMessage('')
+      }, 5000)
+    } finally {
+      setIsClipping(false)
+    }
+  }
+
+  const handleClearDrawings = () => {
+    if (drawnItemsRef.current) {
+      drawnItemsRef.current.clearLayers()
+      setHasDrawnPolygon(false)
+      setClipMessage('')
+    }
+  }
+
   return (
     <div className="flex w-full h-full relative">
       {/* Sidebar */}
@@ -238,6 +378,16 @@ const MapComponent = () => {
               }`}
             >
               Data
+            </button>
+            <button
+              onClick={() => setActiveTab('clip')}
+              className={`flex-1 py-3 text-sm font-semibold transition ${
+                activeTab === 'clip'
+                  ? 'text-gray-900 border-b-2 border-gray-900'
+                  : 'text-gray-500 hover:text-gray-700'
+              }`}
+            >
+              Clip
             </button>
           </div>
 
@@ -312,6 +462,96 @@ const MapComponent = () => {
                   </div>
                 </div>
               )}
+            </div>
+          )}
+
+          {/* Clip Tab */}
+          {activeTab === 'clip' && (
+            <div className="mb-8">
+              <h3 className="text-sm font-semibold text-gray-700 uppercase mb-3">Clip Layer to Polygon</h3>
+
+              <div className="mb-4">
+                <p className="text-sm text-gray-600 mb-3">
+                  1. Draw a polygon on the map using the draw tools
+                </p>
+                <p className="text-sm text-gray-600 mb-3">
+                  2. Select a layer and colormap
+                </p>
+                <p className="text-sm text-gray-600 mb-4">
+                  3. Click submit to clip
+                </p>
+              </div>
+
+              {/* Layer Selection */}
+              <div className="mb-4">
+                <label className="block text-sm font-medium text-gray-700 mb-2">Layer</label>
+                <select
+                  value={selectedLayer}
+                  onChange={(e) => setSelectedLayer(e.target.value)}
+                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                >
+                  {availableLayers.map((layer) => (
+                    <option key={layer.id} value={layer.id}>
+                      {layer.name}
+                    </option>
+                  ))}
+                </select>
+              </div>
+
+              {/* Colormap Selection */}
+              <div className="mb-4">
+                <label className="block text-sm font-medium text-gray-700 mb-2">Color Scheme</label>
+                <select
+                  value={selectedColormap}
+                  onChange={(e) => setSelectedColormap(e.target.value)}
+                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                >
+                  {colormaps.map((colormap) => (
+                    <option key={colormap.value} value={colormap.value}>
+                      {colormap.name}
+                    </option>
+                  ))}
+                </select>
+              </div>
+
+              {/* Status Message */}
+              {clipMessage && (
+                <div className={`mb-4 p-3 rounded-lg text-sm ${
+                  clipMessage.includes('success')
+                    ? 'bg-green-100 text-green-800'
+                    : clipMessage.includes('Please')
+                    ? 'bg-yellow-100 text-yellow-800'
+                    : 'bg-red-100 text-red-800'
+                }`}>
+                  {clipMessage}
+                </div>
+              )}
+
+              {/* Submit Button */}
+              <button
+                onClick={handleClip}
+                disabled={isClipping || !hasDrawnPolygon}
+                className={`w-full py-3 rounded-lg font-medium transition mb-3 ${
+                  isClipping || !hasDrawnPolygon
+                    ? 'bg-gray-300 text-gray-500 cursor-not-allowed'
+                    : 'bg-blue-600 text-white hover:bg-blue-700'
+                }`}
+              >
+                {isClipping ? 'Clipping...' : 'Submit Clip'}
+              </button>
+
+              {/* Clear Button */}
+              <button
+                onClick={handleClearDrawings}
+                disabled={!hasDrawnPolygon}
+                className={`w-full py-3 rounded-lg font-medium transition ${
+                  !hasDrawnPolygon
+                    ? 'bg-gray-100 text-gray-400 cursor-not-allowed'
+                    : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
+                }`}
+              >
+                Clear Drawings
+              </button>
             </div>
           )}
         </div>

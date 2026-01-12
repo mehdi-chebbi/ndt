@@ -13,10 +13,11 @@ app.use(express.urlencoded({ extended: true }));
 // Routes
 import authRoutes from './routes/authRoutes';
 import userRoutes from './routes/userRoutes';
+import clipRoutes from './routes/clipRoutes';
 
 app.use('/api/auth', authRoutes);
 app.use('/api/admin', userRoutes);
-
+app.use('/api/clip', clipRoutes);
 // Health check
 app.get('/api/health', (req: Request, res: Response) => {
   res.status(200).json({ status: 'ok', message: 'Server is running' });
