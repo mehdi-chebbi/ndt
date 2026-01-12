@@ -22,13 +22,16 @@ const MapComponent = () => {
   const drawnItemsRef = useRef<FeatureGroup | null>(null)
   const [activeBasemap, setActiveBasemap] = useState('OpenStreetMap')
   const [sidebarOpen, setSidebarOpen] = useState(true)
-  const [activeTab, setActiveTab] = useState<'basemaps' | 'data' | 'clip'>('basemaps')
+  const [activeTab, setActiveTab] = useState<'basemaps' | 'data' | 'clip' | 'stats'>('basemaps')
   const [activeDataLayers, setActiveDataLayers] = useState<string[]>([])
   const [selectedColormap, setSelectedColormap] = useState('viridis')
   const [selectedLayer, setSelectedLayer] = useState('africa-ndvi')
   const [isClipping, setIsClipping] = useState(false)
   const [clipMessage, setClipMessage] = useState('')
   const [hasDrawnPolygon, setHasDrawnPolygon] = useState(false)
+  const [isLoadingStats, setIsLoadingStats] = useState(false)
+  const [statsMessage, setStatsMessage] = useState('')
+  const [statistics, setStatistics] = useState<any>(null)
 
   // Available colormaps
   const colormaps = [
@@ -144,6 +147,7 @@ const MapComponent = () => {
 
     // Initialize draw control
     const drawControl = new L.Control.Draw({
+            position: 'topright',
       draw: {
         polygon: {
           allowIntersection: false,
@@ -333,6 +337,76 @@ const MapComponent = () => {
       drawnItemsRef.current.clearLayers()
       setHasDrawnPolygon(false)
       setClipMessage('')
+      setStatistics(null)
+      setStatsMessage('')
+    }
+  }
+
+  const handleGetStatistics = async () => {
+    if (!mapRef.current || !drawnItemsRef.current) return
+
+    const layers = drawnItemsRef.current.getLayers()
+    if (layers.length === 0) {
+      setStatsMessage('Please draw a polygon first')
+      return
+    }
+
+    setIsLoadingStats(true)
+    setStatsMessage('Loading statistics...')
+    setStatistics(null)
+
+    try {
+      // Get the first drawn layer (polygon)
+      const drawnLayer = layers[0] as L.Polygon
+      const latlngs = drawnLayer.getLatLngs()[0] as L.LatLng[]
+
+      // Convert to GeoJSON polygon
+      const coordinates = latlngs.map((latlng) => [latlng.lng, latlng.lat])
+
+      // Close the polygon by adding the first coordinate to the end
+      const closedCoordinates = [...coordinates, coordinates[0]]
+
+      const polygon = {
+        type: 'Polygon' as const,
+        coordinates: [closedCoordinates],
+      }
+
+      // Call backend statistics endpoint
+      const response = await fetch('/api/clip/statistics', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          polygon,
+          layer: selectedLayer,
+        }),
+      })
+
+      if (!response.ok) {
+        const error = await response.json()
+        throw new Error(error.error || 'Failed to get statistics')
+      }
+
+      // Get the statistics
+      const stats = await response.json()
+      console.log('Statistics received:', stats)
+      setStatistics(stats)
+      setStatsMessage('Statistics loaded successfully!')
+
+      // Auto-hide message after 3 seconds
+      setTimeout(() => {
+        setStatsMessage('')
+      }, 3000)
+
+    } catch (error: any) {
+      console.error('Statistics error:', error)
+      setStatsMessage(error.message || 'Failed to get statistics')
+      setTimeout(() => {
+        setStatsMessage('')
+      }, 5000)
+    } finally {
+      setIsLoadingStats(false)
     }
   }
 
@@ -388,6 +462,16 @@ const MapComponent = () => {
               }`}
             >
               Clip
+            </button>
+            <button
+              onClick={() => setActiveTab('stats')}
+              className={`flex-1 py-3 text-sm font-semibold transition ${
+                activeTab === 'stats'
+                  ? 'text-gray-900 border-b-2 border-gray-900'
+                  : 'text-gray-500 hover:text-gray-700'
+              }`}
+            >
+              Stats
             </button>
           </div>
 
@@ -552,6 +636,123 @@ const MapComponent = () => {
               >
                 Clear Drawings
               </button>
+            </div>
+          )}
+
+          {/* Stats Tab */}
+          {activeTab === 'stats' && (
+            <div className="mb-8">
+              <h3 className="text-sm font-semibold text-gray-700 uppercase mb-3">Raster Statistics</h3>
+
+              <div className="mb-4">
+                <p className="text-sm text-gray-600 mb-3">
+                  1. Draw a polygon on the map
+                </p>
+                <p className="text-sm text-gray-600 mb-4">
+                  2. Click "Get Statistics" to analyze the data within the polygon
+                </p>
+              </div>
+
+              {/* Layer Selection */}
+              <div className="mb-4">
+                <label className="block text-sm font-medium text-gray-700 mb-2">Layer</label>
+                <select
+                  value={selectedLayer}
+                  onChange={(e) => setSelectedLayer(e.target.value)}
+                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                >
+                  {availableLayers.map((layer) => (
+                    <option key={layer.id} value={layer.id}>
+                      {layer.name}
+                    </option>
+                  ))}
+                </select>
+              </div>
+
+              {/* Status Message */}
+              {statsMessage && (
+                <div className={`mb-4 p-3 rounded-lg text-sm ${
+                  statsMessage.includes('success')
+                    ? 'bg-green-100 text-green-800'
+                    : statsMessage.includes('Please')
+                    ? 'bg-yellow-100 text-yellow-800'
+                    : 'bg-red-100 text-red-800'
+                }`}>
+                  {statsMessage}
+                </div>
+              )}
+
+              {/* Get Statistics Button */}
+              <button
+                onClick={handleGetStatistics}
+                disabled={isLoadingStats || !hasDrawnPolygon}
+                className={`w-full py-3 rounded-lg font-medium transition mb-3 ${
+                  isLoadingStats || !hasDrawnPolygon
+                    ? 'bg-gray-300 text-gray-500 cursor-not-allowed'
+                    : 'bg-blue-600 text-white hover:bg-blue-700'
+                }`}
+              >
+                {isLoadingStats ? 'Loading...' : 'Get Statistics'}
+              </button>
+
+              {/* Clear Button */}
+              <button
+                onClick={handleClearDrawings}
+                disabled={!hasDrawnPolygon}
+                className={`w-full py-3 rounded-lg font-medium transition ${
+                  !hasDrawnPolygon
+                    ? 'bg-gray-100 text-gray-400 cursor-not-allowed'
+                    : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
+                }`}
+              >
+                Clear Drawings
+              </button>
+
+              {/* Statistics Display */}
+              {statistics && (
+                <div className="mt-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
+                  <h4 className="text-sm font-semibold text-gray-900 mb-4">Statistics Results</h4>
+
+               
+
+                  {/* Band Statistics */}
+                  {statistics.properties && statistics.properties.statistics && statistics.properties.statistics.b1 && (
+                    <div className="space-y-3">
+                      <div className="flex justify-between items-center py-2 border-b border-gray-200">
+                        <span className="text-sm text-gray-600">Minimum</span>
+                        <span className="text-sm font-medium text-gray-900">
+                          {statistics.properties.statistics.b1.min?.toFixed(4)}
+                        </span>
+                      </div>
+                      <div className="flex justify-between items-center py-2 border-b border-gray-200">
+                        <span className="text-sm text-gray-600">Maximum</span>
+                        <span className="text-sm font-medium text-gray-900">
+                          {statistics.properties.statistics.b1.max?.toFixed(4)}
+                        </span>
+                      </div>
+                      <div className="flex justify-between items-center py-2 border-b border-gray-200">
+                        <span className="text-sm text-gray-600">Mean</span>
+                        <span className="text-sm font-medium text-gray-900">
+                          {statistics.properties.statistics.b1.mean?.toFixed(4)}
+                        </span>
+                      </div>
+                      <div className="flex justify-between items-center py-2 border-b border-gray-200">
+                        <span className="text-sm text-gray-600">Std Dev</span>
+                        <span className="text-sm font-medium text-gray-900">
+                          {statistics.properties.statistics.b1.std?.toFixed(4)}
+                        </span>
+                      </div>
+                      <div className="flex justify-between items-center py-2 border-b border-gray-200">
+                        <span className="text-sm text-gray-600">Median</span>
+                        <span className="text-sm font-medium text-gray-900">
+                          {statistics.properties.statistics.b1.median?.toFixed(4)}
+                        </span>
+                      </div>
+                    </div>
+                  )}
+
+                </div>
+              )}
             </div>
           )}
         </div>
