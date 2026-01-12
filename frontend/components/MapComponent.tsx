@@ -22,7 +22,7 @@ const MapComponent = () => {
   const drawnItemsRef = useRef<FeatureGroup | null>(null)
   const [activeBasemap, setActiveBasemap] = useState('OpenStreetMap')
   const [sidebarOpen, setSidebarOpen] = useState(true)
-  const [activeTab, setActiveTab] = useState<'basemaps' | 'data' | 'clip' | 'stats'>('basemaps')
+  const [activeTab, setActiveTab] = useState<'basemaps' | 'data' | 'stats'>('basemaps')
   const [activeDataLayers, setActiveDataLayers] = useState<string[]>([])
   const [selectedColormap, setSelectedColormap] = useState('viridis')
   const [selectedLayer, setSelectedLayer] = useState('africa-ndvi')
@@ -147,14 +147,28 @@ const MapComponent = () => {
 
     // Initialize draw control
     const drawControl = new L.Control.Draw({
-            position: 'topright',
+      position: 'topright',
       draw: {
         polygon: {
           allowIntersection: false,
           showArea: true,
+          shapeOptions: {
+            color: '#3388ff',
+            fillColor: 'transparent',
+            fillOpacity: 0,
+            weight: 3,
+          },
         },
         polyline: false,
         rectangle: true,
+        rectangle: {
+          shapeOptions: {
+            color: '#3388ff',
+            fillColor: 'transparent',
+            fillOpacity: 0,
+            weight: 3,
+          },
+        },
         circle: false,
         marker: false,
         circlemarker: false,
@@ -263,7 +277,14 @@ const MapComponent = () => {
     setClipMessage('Clipping layer...')
 
     try {
-      // Get the first drawn layer (polygon)
+      // Clear old overlays (image overlays only)
+      mapRef.current.eachLayer((layer: any) => {
+        if (layer instanceof L.ImageOverlay) {
+          mapRef.current.removeLayer(layer)
+        }
+      })
+
+      // Get the first/newest drawn layer (polygon)
       const drawnLayer = layers[0] as L.Polygon
       const latlngs = drawnLayer.getLatLngs()[0] as L.LatLng[]
 
@@ -305,7 +326,7 @@ const MapComponent = () => {
 
       // Add image overlay to map
       const imageOverlay = L.imageOverlay(imageUrl, bounds, {
-        opacity: 0.8,
+        opacity: 1,
         interactive: true,
       })
 
@@ -454,16 +475,6 @@ const MapComponent = () => {
               Data
             </button>
             <button
-              onClick={() => setActiveTab('clip')}
-              className={`flex-1 py-3 text-sm font-semibold transition ${
-                activeTab === 'clip'
-                  ? 'text-gray-900 border-b-2 border-gray-900'
-                  : 'text-gray-500 hover:text-gray-700'
-              }`}
-            >
-              Clip
-            </button>
-            <button
               onClick={() => setActiveTab('stats')}
               className={`flex-1 py-3 text-sm font-semibold transition ${
                 activeTab === 'stats'
@@ -497,60 +508,8 @@ const MapComponent = () => {
             </div>
           )}
 
-          {/* Data Layers */}
+          {/* Data Tab */}
           {activeTab === 'data' && (
-            <div className="mb-8">
-              <h3 className="text-sm font-semibold text-gray-700 uppercase mb-3">Data Layers</h3>
-              <div className="space-y-2 pb-4">
-                <button
-                  onClick={() => handleDataLayerToggle('Africa Landsat LC 2000')}
-                  className={`w-full text-left px-4 py-3 rounded-lg transition flex items-center justify-between ${
-                    activeDataLayers.includes('Africa Landsat LC 2000')
-                      ? 'bg-gray-900 text-white font-medium'
-                      : 'bg-gray-100 hover:bg-gray-200 text-gray-900'
-                  }`}
-                >
-                  <span>Africa Landsat LC 2000</span>
-                  <div className={`w-4 h-4 rounded border-2 flex items-center justify-center ${
-                    activeDataLayers.includes('Africa Landsat LC 2000')
-                      ? 'bg-white border-white'
-                      : 'border-gray-400'
-                  }`}>
-                    {activeDataLayers.includes('Africa Landsat LC 2000') && (
-                      <svg className="w-3 h-3 text-gray-900" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
-                      </svg>
-                    )}
-                  </div>
-                </button>
-              </div>
-
-              {/* Colormap Selection */}
-              {activeDataLayers.includes('Africa Landsat LC 2000') && (
-                <div className="mt-6">
-                  <h3 className="text-sm font-semibold text-gray-700 uppercase mb-3">Color Scheme</h3>
-                  <div className="space-y-2">
-                    {colormaps.map((colormap) => (
-                      <button
-                        key={colormap.value}
-                        onClick={() => handleColormapChange(colormap.value)}
-                        className={`w-full text-left px-4 py-2 rounded-lg transition text-sm ${
-                          selectedColormap === colormap.value
-                            ? 'bg-blue-600 text-white font-medium'
-                            : 'bg-gray-100 hover:bg-gray-200 text-gray-900'
-                        }`}
-                      >
-                        {colormap.name}
-                      </button>
-                    ))}
-                  </div>
-                </div>
-              )}
-            </div>
-          )}
-
-          {/* Clip Tab */}
-          {activeTab === 'clip' && (
             <div className="mb-8">
               <h3 className="text-sm font-semibold text-gray-700 uppercase mb-3">Clip Layer to Polygon</h3>
 
@@ -713,7 +672,15 @@ const MapComponent = () => {
                 <div className="mt-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
                   <h4 className="text-sm font-semibold text-gray-900 mb-4">Statistics Results</h4>
 
-               
+                  {/* Show raw stats for debugging */}
+                  {true && (
+                    <details className="mb-4">
+                      <summary className="text-xs text-gray-500 cursor-pointer">Raw Data (Debug)</summary>
+                      <pre className="text-xs bg-gray-100 p-2 mt-2 overflow-auto max-h-40">
+                        {JSON.stringify(statistics, null, 2)}
+                      </pre>
+                    </details>
+                  )}
 
                   {/* Band Statistics */}
                   {statistics.properties && statistics.properties.statistics && statistics.properties.statistics.b1 && (
@@ -742,7 +709,7 @@ const MapComponent = () => {
                           {statistics.properties.statistics.b1.std?.toFixed(4)}
                         </span>
                       </div>
-                      <div className="flex justify-between items-center py-2 border-b border-gray-200">
+                      <div className="flex justify-between items-center py-2">
                         <span className="text-sm text-gray-600">Median</span>
                         <span className="text-sm font-medium text-gray-900">
                           {statistics.properties.statistics.b1.median?.toFixed(4)}
@@ -750,7 +717,6 @@ const MapComponent = () => {
                       </div>
                     </div>
                   )}
-
                 </div>
               )}
             </div>
