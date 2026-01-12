@@ -16,13 +16,32 @@ const MapComponent = () => {
   const mapRef = useRef<L.Map | null>(null)
   const mapContainerRef = useRef<HTMLDivElement>(null)
   const baseLayersRef = useRef<{ [key: string]: L.TileLayer | L.TileLayer.WMS }>({})
-  const dataLayersRef = useRef<{ [key: string]: L.TileLayer.WMS }>({})
+  const dataLayersRef = useRef<{ [key: string]: L.TileLayer }>({})
   const [activeBasemap, setActiveBasemap] = useState('OpenStreetMap')
   const [sidebarOpen, setSidebarOpen] = useState(true)
   const [activeTab, setActiveTab] = useState<'basemaps' | 'data'>('basemaps')
   const [activeDataLayers, setActiveDataLayers] = useState<string[]>([])
+  const [selectedColormap, setSelectedColormap] = useState('viridis')
 
-  // Basemaps configuration (no GeoServer layer)
+  // Available colormaps
+  const colormaps = [
+    { name: 'Viridis', value: 'viridis' },
+    { name: 'Terrain', value: 'terrain' },
+    { name: 'Earth', value: 'gist_earth' },
+    { name: 'Ocean', value: 'ocean' },
+    { name: 'Blue-Red', value: 'RdBu_r' },
+    { name: 'Yellow-Green', value: 'YlGn' },
+    { name: 'Schwarzwald', value: 'schwarzwald' },
+    { name: 'Plasma', value: 'plasma' },
+    { name: 'Inferno', value: 'inferno' },
+    { name: 'Rainbow', value: 'rainbow' },
+    { name: 'Hot', value: 'hot' },
+    { name: 'Cool', value: 'cool' },
+    { name: 'Greens', value: 'greens' },
+    { name: 'Blues', value: 'blues' },
+  ]
+
+  // Basemaps configuration
   const basemaps: { [key: string]: L.TileLayer | L.TileLayer.WMS } = {
     'OpenStreetMap': L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: '© OpenStreetMap contributors',
@@ -78,16 +97,17 @@ const MapComponent = () => {
     }),
   }
 
-  // Data layers configuration
-  const dataLayers: { [key: string]: L.TileLayer.WMS } = {
-    'Africa NDVI': L.tileLayer.wms('http://localhost:8080/geoserver/africa/wms', {
-      layers: 'africa:Africa_NDVI_2020',
-      format: 'image/png',
-      transparent: true,
-      attribution: 'GeoServer - Africa NDVI',
-      version: '1.3.0',
-      crs: L.CRS.EPSG4326,
-    }),
+  // Function to create data layer with colormap
+  const createDataLayer = (colormap: string) => {
+    return L.tileLayer(
+      `http://localhost:5000/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@1x.png?url=C:/Users/mehdi/OneDrive/Desktop/New folder (5)/clip_Africa_Landsat_LC_2000_v8_cog.tif&bidx=1&colormap_name=${colormap}`,
+      {
+        attribution: 'TiTiler - Africa Landsat LC 2000',
+        maxZoom: 18,
+        opacity: 1,
+        bounds: [[-34.83, -25.36], [37.56, 60.00]],
+      }
+    )
   }
 
   useEffect(() => {
@@ -121,8 +141,6 @@ const MapComponent = () => {
   const handleBasemapChange = (basemapName: string) => {
     if (!mapRef.current) return
 
-    console.log('Switching to basemap:', basemapName)
-
     // Remove current basemap
     if (baseLayersRef.current[activeBasemap]) {
       mapRef.current.removeLayer(baseLayersRef.current[activeBasemap] as L.Layer)
@@ -132,15 +150,6 @@ const MapComponent = () => {
     const newBasemap = basemaps[basemapName]
     newBasemap.addTo(mapRef.current)
     baseLayersRef.current[basemapName] = newBasemap
-
-    // Add error handling for WMS layers
-    newBasemap.on('tileerror', (error) => {
-      console.error('WMS Tile Error:', error)
-    })
-
-    newBasemap.on('load', () => {
-      console.log('Basemap loaded successfully:', basemapName)
-    })
 
     setActiveBasemap(basemapName)
   }
@@ -156,21 +165,34 @@ const MapComponent = () => {
       }
       setActiveDataLayers(activeDataLayers.filter(name => name !== layerName))
     } else {
-      // Add layer
-      const newLayer = dataLayers[layerName]
+      // Add layer with current colormap
+      const newLayer = createDataLayer(selectedColormap)
       newLayer.addTo(mapRef.current)
       dataLayersRef.current[layerName] = newLayer
 
-      // Add error handling
-      newLayer.on('tileerror', (error) => {
-        console.error('Data Layer Tile Error:', error)
-      })
-
-      newLayer.on('load', () => {
-        console.log('Data layer loaded successfully:', layerName)
-      })
+      // Zoom to layer bounds
+      if (newLayer.options.bounds) {
+        mapRef.current.fitBounds(newLayer.options.bounds as L.LatLngBoundsExpression)
+      }
 
       setActiveDataLayers([...activeDataLayers, layerName])
+    }
+  }
+
+  const handleColormapChange = (colormap: string) => {
+    setSelectedColormap(colormap)
+
+    // If layer is active, reload it with new colormap
+    if (activeDataLayers.includes('Africa Landsat LC 2000') && mapRef.current) {
+      // Remove old layer
+      if (dataLayersRef.current['Africa Landsat LC 2000']) {
+        mapRef.current.removeLayer(dataLayersRef.current['Africa Landsat LC 2000'] as L.Layer)
+      }
+
+      // Add new layer with new colormap
+      const newLayer = createDataLayer(colormap)
+      newLayer.addTo(mapRef.current)
+      dataLayersRef.current['Africa Landsat LC 2000'] = newLayer
     }
   }
 
@@ -246,31 +268,50 @@ const MapComponent = () => {
             <div className="mb-8">
               <h3 className="text-sm font-semibold text-gray-700 uppercase mb-3">Data Layers</h3>
               <div className="space-y-2 pb-4">
-                {Object.keys(dataLayers).map((layerName) => (
-                  <button
-                    key={layerName}
-                    onClick={() => handleDataLayerToggle(layerName)}
-                    className={`w-full text-left px-4 py-3 rounded-lg transition flex items-center justify-between ${
-                      activeDataLayers.includes(layerName)
-                        ? 'bg-gray-900 text-white font-medium'
-                        : 'bg-gray-100 hover:bg-gray-200 text-gray-900'
-                    }`}
-                  >
-                    <span>{layerName}</span>
-                    <div className={`w-4 h-4 rounded border-2 flex items-center justify-center ${
-                      activeDataLayers.includes(layerName)
-                        ? 'bg-white border-white'
-                        : 'border-gray-400'
-                    }`}>
-                      {activeDataLayers.includes(layerName) && (
-                        <svg className="w-3 h-3 text-gray-900" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
-                        </svg>
-                      )}
-                    </div>
-                  </button>
-                ))}
+                <button
+                  onClick={() => handleDataLayerToggle('Africa Landsat LC 2000')}
+                  className={`w-full text-left px-4 py-3 rounded-lg transition flex items-center justify-between ${
+                    activeDataLayers.includes('Africa Landsat LC 2000')
+                      ? 'bg-gray-900 text-white font-medium'
+                      : 'bg-gray-100 hover:bg-gray-200 text-gray-900'
+                  }`}
+                >
+                  <span>Africa Landsat LC 2000</span>
+                  <div className={`w-4 h-4 rounded border-2 flex items-center justify-center ${
+                    activeDataLayers.includes('Africa Landsat LC 2000')
+                      ? 'bg-white border-white'
+                      : 'border-gray-400'
+                  }`}>
+                    {activeDataLayers.includes('Africa Landsat LC 2000') && (
+                      <svg className="w-3 h-3 text-gray-900" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
+                      </svg>
+                    )}
+                  </div>
+                </button>
               </div>
+
+              {/* Colormap Selection */}
+              {activeDataLayers.includes('Africa Landsat LC 2000') && (
+                <div className="mt-6">
+                  <h3 className="text-sm font-semibold text-gray-700 uppercase mb-3">Color Scheme</h3>
+                  <div className="space-y-2">
+                    {colormaps.map((colormap) => (
+                      <button
+                        key={colormap.value}
+                        onClick={() => handleColormapChange(colormap.value)}
+                        className={`w-full text-left px-4 py-2 rounded-lg transition text-sm ${
+                          selectedColormap === colormap.value
+                            ? 'bg-blue-600 text-white font-medium'
+                            : 'bg-gray-100 hover:bg-gray-200 text-gray-900'
+                        }`}
+                      >
+                        {colormap.name}
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              )}
             </div>
           )}
         </div>
