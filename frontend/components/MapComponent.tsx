@@ -21,54 +21,40 @@ const MapComponent = () => {
   const dataLayersRef = useRef<{ [key: string]: L.TileLayer }>({})
   const drawnItemsRef = useRef<FeatureGroup | null>(null)
   const drawControlRef = useRef<any>(null)
-  const currentImageOverlayRef = useRef<L.ImageOverlay | null>(null)
-  const currentBoundsRef = useRef<L.LatLngBounds | null>(null)
   
   const [activeBasemap, setActiveBasemap] = useState('OpenStreetMap')
   const [sidebarOpen, setSidebarOpen] = useState(true)
-  const [activeTab, setActiveTab] = useState<'basemaps' | 'data' | 'stats'>('basemaps')
+  const [activeTab, setActiveTab] = useState<'basemaps' | 'data'>('basemaps')
   const [activeDataLayers, setActiveDataLayers] = useState<string[]>([])
-  const [selectedColormap, setSelectedColormap] = useState('viridis')
-  const [selectedLayer, setSelectedLayer] = useState('africa-ndvi')
-  const [isClipping, setIsClipping] = useState(false)
+  const [availableLayers, setAvailableLayers] = useState<any[]>([])
   const [clipMessage, setClipMessage] = useState('')
   const [hasDrawnPolygon, setHasDrawnPolygon] = useState(false)
-  const [isLoadingStats, setIsLoadingStats] = useState(false)
-  const [statsMessage, setStatsMessage] = useState('')
-  const [statistics, setStatistics] = useState<any>(null)
 
   // Invalid data reporting state
-  const [hasClippedImage, setHasClippedImage] = useState(false)
   const [reportingMode, setReportingMode] = useState(false)
   const [reportingStep, setReportingStep] = useState<'draw' | 'comment'>('draw')
   const [invalidAreaPolygon, setInvalidAreaPolygon] = useState<any>(null)
   const [reportComment, setReportComment] = useState('')
   const [currentPolygon, setCurrentPolygon] = useState<any>(null)
+  const [selectedLayerId, setSelectedLayerId] = useState<string>('')
   const [isSubmittingReport, setIsSubmittingReport] = useState(false)
   const [reportMessage, setReportMessage] = useState('')
 
-  // Available colormaps
-  const colormaps = [
-    { name: 'Viridis', value: 'viridis' },
-    { name: 'Terrain', value: 'terrain' },
-    { name: 'Earth', value: 'gist_earth' },
-    { name: 'Ocean', value: 'ocean' },
-    { name: 'Blue-Red', value: 'RdBu_r' },
-    { name: 'Yellow-Green', value: 'YlGn' },
-    { name: 'Schwarzwald', value: 'schwarzwald' },
-    { name: 'Plasma', value: 'plasma' },
-    { name: 'Inferno', value: 'inferno' },
-    { name: 'Rainbow', value: 'rainbow' },
-    { name: 'Hot', value: 'hot' },
-    { name: 'Cool', value: 'cool' },
-    { name: 'Greens', value: 'greens' },
-    { name: 'Blues', value: 'blues' },
-  ]
-
-  // Available layers for clipping
-  const availableLayers = [
-    { id: 'africa-ndvi', name: 'Africa Landsat LC 2000' },
-  ]
+  // Fetch available layers from backend on mount
+  useEffect(() => {
+    fetch('/api/clip/layers')
+      .then(res => res.json())
+      .then(data => {
+        setAvailableLayers(data)
+        if (data.length > 0) {
+          setSelectedLayerId(data[0].id)
+        }
+      })
+      .catch(err => {
+        console.error('Failed to fetch layers:', err)
+        setClipMessage('Failed to load layers')
+      })
+  }, [])
 
   // Basemaps configuration
   const basemaps: { [key: string]: L.TileLayer | L.TileLayer.WMS } = {
@@ -126,17 +112,15 @@ const MapComponent = () => {
     }),
   }
 
-  // Function to create data layer with colormap
-  const createDataLayer = (colormap: string) => {
-    return L.tileLayer(
-      `http://localhost:5000/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@1x.png?url=C:/Users/mehdi/OneDrive/Desktop/New folder (5)/clip_Africa_Landsat_LC_2000_v8_cog.tif&bidx=1&colormap_name=${colormap}`,
-      {
-        attribution: 'TiTiler - Africa Landsat LC 2000',
-        maxZoom: 18,
-        opacity: 1,
-        bounds: [[-34.83, -25.36], [37.56, 60.00]],
-      }
-    )
+  // Function to create WMS data layer from GeoServer
+  const createWMSLayer = (layerConfig: any) => {
+    return L.tileLayer.wms(layerConfig.wmsUrl, {
+      layers: layerConfig.layerName,
+      format: 'image/png',
+      transparent: true,
+      attribution: `GeoServer - ${layerConfig.name}`,
+      bounds: layerConfig.bounds,
+    })
   }
 
   // Function to enable polygon drawing programmatically
@@ -291,7 +275,7 @@ const MapComponent = () => {
     setActiveBasemap(basemapName)
   }
 
-  const handleDataLayerToggle = (layerName: string) => {
+  const handleDataLayerToggle = (layerId: string, layerName: string) => {
     if (!mapRef.current) return
 
     if (activeDataLayers.includes(layerName)) {
@@ -302,131 +286,26 @@ const MapComponent = () => {
       }
       setActiveDataLayers(activeDataLayers.filter(name => name !== layerName))
     } else {
-      // Add layer with current colormap
-      const newLayer = createDataLayer(selectedColormap)
+      // Find layer config
+      const layerConfig = availableLayers.find(l => l.id === layerId)
+      if (!layerConfig) {
+        console.error('Layer not found:', layerId)
+        return
+      }
+
+      // Add WMS layer
+      const newLayer = createWMSLayer(layerConfig)
       newLayer.addTo(mapRef.current)
       dataLayersRef.current[layerName] = newLayer
 
       // Zoom to layer bounds
-      if (newLayer.options.bounds) {
-        mapRef.current.fitBounds(newLayer.options.bounds as L.LatLngBoundsExpression)
+      if (layerConfig.bounds) {
+        mapRef.current.fitBounds(layerConfig.bounds)
       }
 
       setActiveDataLayers([...activeDataLayers, layerName])
-    }
-  }
-
-  const handleColormapChange = (colormap: string) => {
-    setSelectedColormap(colormap)
-
-    // If layer is active, reload it with new colormap
-    if (activeDataLayers.includes('Africa Landsat LC 2000') && mapRef.current) {
-      // Remove old layer
-      if (dataLayersRef.current['Africa Landsat LC 2000']) {
-        mapRef.current.removeLayer(dataLayersRef.current['Africa Landsat LC 2000'] as L.Layer)
-      }
-
-      // Add new layer with new colormap
-      const newLayer = createDataLayer(colormap)
-      newLayer.addTo(mapRef.current)
-      dataLayersRef.current['Africa Landsat LC 2000'] = newLayer
-    }
-  }
-
-  const handleClip = async () => {
-    if (!mapRef.current || !drawnItemsRef.current) return
-
-    const layers = drawnItemsRef.current.getLayers()
-    if (layers.length === 0) {
-      setClipMessage('Please draw a polygon first')
-      return
-    }
-
-    setIsClipping(true)
-    setClipMessage('Clipping layer...')
-
-    try {
-      // Clear old overlays (image overlays only)
-      mapRef.current.eachLayer((layer: any) => {
-        if (layer instanceof L.ImageOverlay) {
-          mapRef.current!.removeLayer(layer)
-        }
-      })
-
-      // Get the first/newest drawn layer (polygon)
-      const drawnLayer = layers[0] as L.Polygon
-      const latlngs = drawnLayer.getLatLngs()[0] as L.LatLng[]
-
-      // Convert to GeoJSON polygon
-      const coordinates = latlngs.map((latlng) => [latlng.lng, latlng.lat])
-
-      // Close the polygon by adding the first coordinate to the end
-      const closedCoordinates = [...coordinates, coordinates[0]]
-
-      const polygon = {
-        type: 'Polygon' as const,
-        coordinates: [closedCoordinates],
-      }
-
-      // Call backend clip endpoint
-      const response = await fetch('/api/clip/clip', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          polygon,
-          layer: selectedLayer,
-          colormap: selectedColormap,
-        }),
-      })
-
-      if (!response.ok) {
-        const error = await response.json()
-        throw new Error(error.error || 'Failed to clip layer')
-      }
-
-      // Get the image blob
-      const blob = await response.blob()
-      const imageUrl = URL.createObjectURL(blob)
-
-      // Calculate bounds from the polygon
-      const bounds = drawnLayer.getBounds()
-
-      // Add image overlay to map
-      const imageOverlay = L.imageOverlay(imageUrl, bounds, {
-        opacity: 1,
-        interactive: true,
-      })
-
-      if (mapRef.current) {
-        mapRef.current.addLayer(imageOverlay)
-        mapRef.current.fitBounds(bounds)
-      }
-
-      // Store references
-      currentImageOverlayRef.current = imageOverlay
-      currentBoundsRef.current = bounds
-
-      // Store the polygon data for reporting and show metadata box
-      setCurrentPolygon(polygon)
-      setHasClippedImage(true)
-
-      setClipMessage('Layer clipped successfully!')
-
-      // Auto-hide message after 3 seconds
-      setTimeout(() => {
-        if (!reportingMode) setClipMessage('')
-      }, 3000)
-
-    } catch (error: any) {
-      console.error('Clip error:', error)
-      setClipMessage(error.message || 'Failed to clip layer')
-      setTimeout(() => {
-        setClipMessage('')
-      }, 5000)
-    } finally {
-      setIsClipping(false)
+      setSelectedLayerId(layerId)
+      setCurrentPolygon(null)
     }
   }
 
@@ -435,41 +314,45 @@ const MapComponent = () => {
       drawnItemsRef.current.clearLayers()
       setHasDrawnPolygon(false)
       setClipMessage('')
-      setStatistics(null)
-      setStatsMessage('')
-      setHasClippedImage(false)
       setCurrentPolygon(null)
       setReportingMode(false)
       setReportingStep('draw')
       setInvalidAreaPolygon(null)
       setReportComment('')
       setReportMessage('')
-      
-      // Clear image overlay
-      if (currentImageOverlayRef.current && mapRef.current) {
-        mapRef.current.removeLayer(currentImageOverlayRef.current)
-        currentImageOverlayRef.current = null
-      }
-      currentBoundsRef.current = null
     }
   }
 
   const handleStartReport = () => {
-    // Clear only the drawn polygons, keep the image
+    // Clear only the drawn polygons
     if (drawnItemsRef.current) {
       drawnItemsRef.current.clearLayers()
       setHasDrawnPolygon(false)
     }
-    
-    // Keep the image overlay and maintain current view
-    // Don't reset bounds or zoom
-    
+
+    // Set the current view bounds as the polygon for reporting
+    if (mapRef.current && selectedLayerId) {
+      const bounds = mapRef.current.getBounds()
+      const layerConfig = availableLayers.find(l => l.id === selectedLayerId)
+      if (layerConfig) {
+        // Create a polygon from the current view bounds
+        const boundsPolygon = {
+          type: 'Polygon' as const,
+          coordinates: [[
+            [bounds.getWest(), bounds.getSouth()],
+            [bounds.getEast(), bounds.getSouth()],
+            [bounds.getEast(), bounds.getNorth()],
+            [bounds.getWest(), bounds.getNorth()],
+            [bounds.getWest(), bounds.getSouth()]
+          ]],
+        }
+        setCurrentPolygon(boundsPolygon)
+      }
+    }
+
     setReportingMode(true)
     setReportingStep('draw')
     setClipMessage('Draw a polygon around the invalid area')
-    
-    // REMOVED: setTimeout(() => { enablePolygonDrawing() }, 100)
-    // The drawing tool will no longer auto-enable.
   }
 
   const handleSubmitReport = async () => {
@@ -495,8 +378,8 @@ const MapComponent = () => {
         },
         body: JSON.stringify({
           original_polygon: currentPolygon,
-          original_layer: selectedLayer,
-          original_colormap: selectedColormap,
+          original_layer: selectedLayerId,
+          original_colormap: 'default',
           invalid_area_polygon: invalidAreaPolygon,
           comment: reportComment,
         }),
@@ -553,74 +436,6 @@ const MapComponent = () => {
     }
   }
 
-  const handleGetStatistics = async () => {
-    if (!mapRef.current || !drawnItemsRef.current) return
-
-    const layers = drawnItemsRef.current.getLayers()
-    if (layers.length === 0) {
-      setStatsMessage('Please draw a polygon first')
-      return
-    }
-
-    setIsLoadingStats(true)
-    setStatsMessage('Loading statistics...')
-    setStatistics(null)
-
-    try {
-      // Get the first drawn layer (polygon)
-      const drawnLayer = layers[0] as L.Polygon
-      const latlngs = drawnLayer.getLatLngs()[0] as L.LatLng[]
-
-      // Convert to GeoJSON polygon
-      const coordinates = latlngs.map((latlng) => [latlng.lng, latlng.lat])
-
-      // Close the polygon by adding the first coordinate to the end
-      const closedCoordinates = [...coordinates, coordinates[0]]
-
-      const polygon = {
-        type: 'Polygon' as const,
-        coordinates: [closedCoordinates],
-      }
-
-      // Call backend statistics endpoint
-      const response = await fetch('/api/clip/statistics', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          polygon,
-          layer: selectedLayer,
-        }),
-      })
-
-      if (!response.ok) {
-        const error = await response.json()
-        throw new Error(error.error || 'Failed to get statistics')
-      }
-
-      // Get the statistics
-      const stats = await response.json()
-      console.log('Statistics received:', stats)
-      setStatistics(stats)
-      setStatsMessage('Statistics loaded successfully!')
-
-      // Auto-hide message after 3 seconds
-      setTimeout(() => {
-        setStatsMessage('')
-      }, 3000)
-
-    } catch (error: any) {
-      console.error('Statistics error:', error)
-      setStatsMessage(error.message || 'Failed to get statistics')
-      setTimeout(() => {
-        setStatsMessage('')
-      }, 5000)
-    } finally {
-      setIsLoadingStats(false)
-    }
-  }
-
   return (
     <div className="flex w-full h-full relative">
       {/* Sidebar */}
@@ -664,16 +479,6 @@ const MapComponent = () => {
             >
               Data
             </button>
-            <button
-              onClick={() => setActiveTab('stats')}
-              className={`flex-1 py-3 text-sm font-semibold transition ${
-                activeTab === 'stats'
-                  ? 'text-gray-900 border-b-2 border-gray-900'
-                  : 'text-gray-500 hover:text-gray-700'
-              }`}
-            >
-              Stats
-            </button>
           </div>
 
           {/* Tab Content */}
@@ -698,150 +503,59 @@ const MapComponent = () => {
 
             {activeTab === 'data' && (
               <div className="space-y-6">
-                {/* Layer Selection */}
+                {/* Layer List */}
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-3">
-                    Data Layer
+                    Data Layers
                   </label>
-                  <select
-                    value={selectedLayer}
-                    onChange={(e) => setSelectedLayer(e.target.value)}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-900 focus:border-transparent"
-                  >
-                    {availableLayers.map((layer) => (
-                      <option key={layer.id} value={layer.id}>
-                        {layer.name}
-                      </option>
-                    ))}
-                  </select>
+                  <div className="space-y-2">
+                    {availableLayers.map((layer) => {
+                      const isActive = activeDataLayers.includes(layer.name)
+                      return (
+                        <button
+                          key={layer.id}
+                          onClick={() => handleDataLayerToggle(layer.id, layer.name)}
+                          className={`w-full text-left px-4 py-3 rounded-lg transition ${
+                            isActive
+                              ? 'bg-green-100 text-green-900 border-2 border-green-600'
+                              : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                          }`}
+                        >
+                          <div className="flex justify-between items-center">
+                            <span>{layer.name}</span>
+                            {isActive && (
+                              <span className="text-xs font-semibold">Active</span>
+                            )}
+                          </div>
+                        </button>
+                      )
+                    })}
+                  </div>
                 </div>
-
-                {/* Colormap Selection */}
-                <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-3">
-                    Colormap
-                  </label>
-                  <select
-                    value={selectedColormap}
-                    onChange={(e) => handleColormapChange(e.target.value)}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-900 focus:border-transparent"
-                  >
-                    {colormaps.map((colormap) => (
-                      <option key={colormap.value} value={colormap.value}>
-                        {colormap.name}
-                      </option>
-                    ))}
-                  </select>
-                </div>
-
-                {/* Clip Button */}
-                <button
-                  onClick={handleClip}
-                  disabled={isClipping || reportingMode}
-                  className={`w-full py-3 rounded-lg font-medium transition ${
-                    isClipping || reportingMode
-                      ? 'bg-gray-300 text-gray-500 cursor-not-allowed'
-                      : 'bg-gray-900 text-white hover:bg-gray-700'
-                  }`}
-                >
-                  {isClipping ? 'Clipping...' : reportingMode ? 'Reporting...' : 'Clip Layer'}
-                </button>
 
                 {/* Clear Button */}
-                <button
-                  onClick={handleClearDrawings}
-                  disabled={!hasDrawnPolygon && !hasClippedImage}
-                  className={`w-full py-3 rounded-lg font-medium transition ${
-                    !hasDrawnPolygon && !hasClippedImage
-                      ? 'bg-gray-100 text-gray-400 cursor-not-allowed'
-                      : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
-                  }`}
-                >
-                  Clear Drawings
-                </button>
-              </div>
-            )}
-
-            {activeTab === 'stats' && (
-              <div>
-                {!statistics && (
-                  <div className="p-4 bg-gray-50 rounded-lg border border-gray-200">
-                    <p className="text-sm text-gray-600">
-                      Use the Data tab to draw a polygon and clip the layer. Then return here to view statistics.
-                    </p>
-                    {/* Get Statistics Button moved here */}
-                    <button
-                      onClick={handleGetStatistics}
-                      disabled={isLoadingStats || reportingMode}
-                      className={`w-full mt-4 py-3 rounded-lg font-medium transition ${
-                        isLoadingStats || reportingMode
-                          ? 'bg-gray-300 text-gray-500 cursor-not-allowed'
-                          : 'bg-blue-600 text-white hover:bg-blue-700'
-                      }`}
-                    >
-                      {isLoadingStats ? 'Loading...' : 'Get Statistics'}
-                    </button>
-                  </div>
+                {activeDataLayers.length > 0 && (
+                  <button
+                    onClick={handleClearDrawings}
+                    disabled={!hasDrawnPolygon}
+                    className={`w-full py-3 rounded-lg font-medium transition ${
+                      !hasDrawnPolygon
+                        ? 'bg-gray-100 text-gray-400 cursor-not-allowed'
+                        : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
+                    }`}
+                  >
+                    Clear Drawings
+                  </button>
                 )}
 
-                {statistics && (
-                  <div className="p-4 bg-gray-50 rounded-lg border border-gray-200">
-                    <div className="flex justify-between items-center mb-4">
-                       <h4 className="text-sm font-semibold text-gray-900">Statistics Results</h4>
-                       <button 
-                         onClick={() => setStatistics(null)}
-                         className="text-xs text-red-600 hover:text-red-800 underline"
-                       >
-                         Clear Stats
-                       </button>
-                    </div>
-                   
-                    {/* Show raw stats for debugging */}
-                    {true && (
-                      <details className="mb-4">
-                        <summary className="text-xs text-gray-500 cursor-pointer">Raw Data (Debug)</summary>
-                        <pre className="text-xs bg-gray-100 p-2 mt-2 overflow-auto max-h-40">
-                          {JSON.stringify(statistics, null, 2)}
-                        </pre>
-                      </details>
-                    )}
-
-                    {/* Band Statistics */}
-                    {statistics.properties && statistics.properties.statistics && statistics.properties.statistics.b1 && (
-                      <div className="space-y-3">
-                        <div className="flex justify-between items-center py-2 border-b border-gray-200">
-                          <span className="text-sm text-gray-600">Minimum</span>
-                          <span className="text-sm font-medium text-gray-900">
-                            {statistics.properties.statistics.b1.min?.toFixed(4)}
-                          </span>
-                        </div>
-                        <div className="flex justify-between items-center py-2 border-b border-gray-200">
-                          <span className="text-sm text-gray-600">Maximum</span>
-                          <span className="text-sm font-medium text-gray-900">
-                            {statistics.properties.statistics.b1.max?.toFixed(4)}
-                          </span>
-                        </div>
-                        <div className="flex justify-between items-center py-2 border-b border-gray-200">
-                          <span className="text-sm text-gray-600">Mean</span>
-                          <span className="text-sm font-medium text-gray-900">
-                            {statistics.properties.statistics.b1.mean?.toFixed(4)}
-                          </span>
-                        </div>
-                        <div className="flex justify-between items-center py-2 border-b border-gray-200">
-                          <span className="text-sm text-gray-600">Std Dev</span>
-                          <span className="text-sm font-medium text-gray-900">
-                            {statistics.properties.statistics.b1.std?.toFixed(4)}
-                          </span>
-                        </div>
-                        <div className="flex justify-between items-center py-2">
-                          <span className="text-sm text-gray-600">Median</span>
-                          <span className="text-sm font-medium text-gray-900">
-                            {statistics.properties.statistics.b1.median?.toFixed(4)}
-                          </span>
-                        </div>
-                      </div>
-                    )}
-                  </div>
+                {/* Report Invalid Data Button */}
+                {activeDataLayers.length > 0 && (
+                  <button
+                    onClick={handleStartReport}
+                    className="w-full py-3 bg-red-600 text-white rounded-lg hover:bg-red-700 transition font-medium"
+                  >
+                    Report Invalid Data
+                  </button>
                 )}
               </div>
             )}
@@ -875,41 +589,6 @@ const MapComponent = () => {
         />
       </div>
 
-      {/* Metadata Box (Bottom Right) */}
-      {hasClippedImage && !reportingMode && (
-        <div className="absolute bottom-4 right-4 bg-white rounded-lg shadow-xl p-4 max-w-sm z-50 border border-gray-200">
-          <div className="flex justify-between items-start mb-3">
-            <h3 className="text-sm font-bold text-gray-900">Layer Metadata</h3>
-            <button
-              onClick={() => setHasClippedImage(false)}
-              className="text-gray-400 hover:text-gray-600 transition"
-            >
-              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-              </svg>
-            </button>
-          </div>
-          <div className="space-y-2 text-sm text-gray-600">
-            <div className="flex justify-between">
-              <span className="font-medium">Layer:</span>
-              <span>{availableLayers.find(l => l.id === selectedLayer)?.name}</span>
-            </div>
-            <div className="flex justify-between">
-              <span className="font-medium">Colormap:</span>
-              <span className="capitalize">{selectedColormap}</span>
-            </div>
-          </div>
-
-          {/* Report Button */}
-          <button
-            onClick={handleStartReport}
-            className="w-full mt-4 px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700 transition font-medium text-sm"
-          >
-            Report Invalid Data
-          </button>
-        </div>
-      )}
-
       {/* Reporting Mode Indicator */}
       {reportingMode && (
         <div className="absolute bottom-4 right-4 bg-white rounded-lg shadow-xl p-4 max-w-sm z-50 border-2 border-red-300">
@@ -921,9 +600,7 @@ const MapComponent = () => {
           {reportingStep === 'draw' && (
             <div>
               <div className="text-sm text-gray-600 mb-3">
-                <p className="mb-2">Draw a polygon around the area with invalid data.</p>
-                {/* Updated text since drawing is no longer auto-enabled */}
-                <p className="text-xs text-gray-500">Click the pentagon icon in the top-left toolbar to start drawing.</p>
+                Draw a polygon around the area with invalid data.
               </div>
               <button
                 onClick={handleCancelReport}
@@ -980,9 +657,9 @@ const MapComponent = () => {
       )}
 
       {/* Message Display */}
-      {(clipMessage || statsMessage) && !reportingMode && (
+      {clipMessage && !reportingMode && (
         <div className="absolute top-4 right-4 bg-gray-900 text-white px-6 py-3 rounded-lg shadow-lg z-50">
-          {clipMessage || statsMessage}
+          {clipMessage}
         </div>
       )}
     </div>
