@@ -2,7 +2,7 @@ import { Pool } from 'pg';
 
 // PostgreSQL connection configuration
 const pool = new Pool({
-  host: 'localhost',
+  host: 'db',
   port: 5432,
   database: 'platform_db',
   user: 'postgres',

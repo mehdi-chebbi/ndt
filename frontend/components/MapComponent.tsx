@@ -128,7 +128,7 @@ const MapComponent = () => {
     if (!mapRef.current) return
     
     // Enable polygon drawing mode
-    const drawPolygonHandler = new L.Draw.Polygon(mapRef.current, drawControlRef.current.options.draw.polygon)
+    const drawPolygonHandler = new L.Draw.Polygon(mapRef.current as any, drawControlRef.current.options.draw.polygon)
     drawPolygonHandler.enable()
   }
 
