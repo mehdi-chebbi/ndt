@@ -26,6 +26,9 @@ services:
     image: kartoza/geoserver:2.24.0
     container_name: ndt-geoserver
     restart: unless-stopped
+    environment:
+      GEOSERVER_ADMIN_USER: admin
+      GEOSERVER_ADMIN_PASSWORD: geoserver
     ports:
       - "8080:8080"
     volumes:
@@ -54,7 +57,6 @@ services:
       db:
         condition: service_healthy
 
-
   # Frontend Next.js
   frontend:
     build:
@@ -64,7 +66,6 @@ services:
     restart: unless-stopped
     ports:
       - "3000:3000"
-
 
 volumes:
   postgres_data:

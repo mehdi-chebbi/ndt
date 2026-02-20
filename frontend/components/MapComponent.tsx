@@ -29,6 +29,8 @@ const MapComponent = () => {
   const [availableLayers, setAvailableLayers] = useState<any[]>([])
   const [clipMessage, setClipMessage] = useState('')
   const [hasDrawnPolygon, setHasDrawnPolygon] = useState(false)
+  const [isLoadingLayers, setIsLoadingLayers] = useState(true)
+  const [layerError, setLayerError] = useState('')
 
   // Invalid data reporting state
   const [reportingMode, setReportingMode] = useState(false)
@@ -40,20 +42,31 @@ const MapComponent = () => {
   const [isSubmittingReport, setIsSubmittingReport] = useState(false)
   const [reportMessage, setReportMessage] = useState('')
 
-  // Fetch available layers from backend on mount
+  // Fetch available layers from backend
+  const fetchLayers = async () => {
+    setIsLoadingLayers(true)
+    setLayerError('')
+    try {
+      const res = await fetch('/api/clip/layers')
+      if (!res.ok) {
+        throw new Error('Failed to fetch layers')
+      }
+      const data = await res.json()
+      setAvailableLayers(data)
+      if (data.length > 0) {
+        setSelectedLayerId(data[0].id)
+      }
+    } catch (err: any) {
+      console.error('Failed to fetch layers:', err)
+      setLayerError('Failed to load layers from GeoServer')
+    } finally {
+      setIsLoadingLayers(false)
+    }
+  }
+
+  // Fetch layers on mount
   useEffect(() => {
-    fetch('/api/clip/layers')
-      .then(res => res.json())
-      .then(data => {
-        setAvailableLayers(data)
-        if (data.length > 0) {
-          setSelectedLayerId(data[0].id)
-        }
-      })
-      .catch(err => {
-        console.error('Failed to fetch layers:', err)
-        setClipMessage('Failed to load layers')
-      })
+    fetchLayers()
   }, [])
 
   // Basemaps configuration
@@ -503,11 +516,61 @@ const MapComponent = () => {
 
             {activeTab === 'data' && (
               <div className="space-y-6">
-                {/* Layer List */}
-                <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-3">
+                {/* Layer List Header with Refresh */}
+                <div className="flex items-center justify-between">
+                  <label className="block text-sm font-medium text-gray-700">
                     Data Layers
                   </label>
+                  <button
+                    onClick={fetchLayers}
+                    disabled={isLoadingLayers}
+                    className="p-1.5 hover:bg-gray-100 rounded-lg transition disabled:opacity-50"
+                    title="Refresh layers"
+                  >
+                    <svg 
+                      className={`w-4 h-4 text-gray-600 ${isLoadingLayers ? 'animate-spin' : ''}`} 
+                      fill="none" 
+                      stroke="currentColor" 
+                      viewBox="0 0 24 24"
+                    >
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+                    </svg>
+                  </button>
+                </div>
+
+                {/* Loading State */}
+                {isLoadingLayers && (
+                  <div className="flex items-center justify-center py-8">
+                    <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-gray-900"></div>
+                  </div>
+                )}
+
+                {/* Error State */}
+                {layerError && !isLoadingLayers && (
+                  <div className="bg-red-50 border border-red-200 text-red-700 px-4 py-3 rounded-lg text-sm">
+                    <p>{layerError}</p>
+                    <button 
+                      onClick={fetchLayers}
+                      className="mt-2 text-red-800 underline text-sm font-medium"
+                    >
+                      Try again
+                    </button>
+                  </div>
+                )}
+
+                {/* Empty State */}
+                {!isLoadingLayers && !layerError && availableLayers.length === 0 && (
+                  <div className="text-center py-8">
+                    <svg className="w-12 h-12 text-gray-300 mx-auto mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" />
+                    </svg>
+                    <p className="text-gray-500 text-sm">No layers available</p>
+                    <p className="text-gray-400 text-xs mt-1">Add layers to GeoServer</p>
+                  </div>
+                )}
+
+                {/* Layer List */}
+                {!isLoadingLayers && !layerError && availableLayers.length > 0 && (
                   <div className="space-y-2">
                     {availableLayers.map((layer) => {
                       const isActive = activeDataLayers.includes(layer.name)
@@ -522,7 +585,12 @@ const MapComponent = () => {
                           }`}
                         >
                           <div className="flex justify-between items-center">
-                            <span>{layer.name}</span>
+                            <div>
+                              <span className="font-medium">{layer.name}</span>
+                              {layer.description && layer.description !== layer.name && (
+                                <p className="text-xs text-gray-500 mt-0.5">{layer.description}</p>
+                              )}
+                            </div>
                             {isActive && (
                               <span className="text-xs font-semibold">Active</span>
                             )}
@@ -531,7 +599,7 @@ const MapComponent = () => {
                       )
                     })}
                   </div>
-                </div>
+                )}
 
                 {/* Clear Button */}
                 {activeDataLayers.length > 0 && (
