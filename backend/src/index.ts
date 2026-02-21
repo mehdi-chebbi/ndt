@@ -16,12 +16,14 @@ import userRoutes from './routes/userRoutes';
 import clipRoutes from './routes/clipRoutes';
 import reportRoutes from './routes/reportRoutes';
 import layerRoutes from './routes/layerRoutes';
+import groupRoutes from './routes/groupRoutes';
 
 app.use('/api/auth', authRoutes);
 app.use('/api/admin', userRoutes);
 app.use('/api/clip', clipRoutes);
 app.use('/api/reports', reportRoutes);
 app.use('/api/layers', layerRoutes);
+app.use('/api/groups', groupRoutes);
 
 
 // Health check
@@ -53,7 +55,7 @@ async function initializeDatabase() {
       )
     `);
 
-    // Create indexes
+    // Create indexes for users
     await pool.query(`
       CREATE INDEX IF NOT EXISTS idx_users_email ON users(email)
     `);
@@ -61,7 +63,67 @@ async function initializeDatabase() {
     await pool.query(`
       CREATE INDEX IF NOT EXISTS idx_users_role ON users(role)
     `);
-  // Create invalid_data_reports table
+
+    // Create layer_groups table (supports nested groups via parent_id)
+    await pool.query(`
+      CREATE TABLE IF NOT EXISTS layer_groups (
+        id SERIAL PRIMARY KEY,
+        name VARCHAR(255) NOT NULL,
+        parent_id INTEGER REFERENCES layer_groups(id) ON DELETE CASCADE,
+        description TEXT,
+        sort_order INTEGER DEFAULT 0,
+        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+        updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+      )
+    `);
+
+    // Create indexes for layer_groups
+    await pool.query(`
+      CREATE INDEX IF NOT EXISTS idx_layer_groups_name ON layer_groups(name)
+    `);
+
+    await pool.query(`
+      CREATE INDEX IF NOT EXISTS idx_layer_groups_parent_id ON layer_groups(parent_id)
+    `);
+
+    await pool.query(`
+      CREATE INDEX IF NOT EXISTS idx_layer_groups_sort_order ON layer_groups(sort_order)
+    `);
+
+    // Create layers table
+    await pool.query(`
+      CREATE TABLE IF NOT EXISTS layers (
+        id SERIAL PRIMARY KEY,
+        geoserver_name VARCHAR(255) NOT NULL UNIQUE,
+        display_name VARCHAR(255),
+        group_id INTEGER REFERENCES layer_groups(id) ON DELETE SET NULL,
+        file_path VARCHAR(500),
+        class_labels JSONB,
+        is_active BOOLEAN DEFAULT true,
+        sort_order INTEGER DEFAULT 0,
+        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+        updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+      )
+    `);
+
+    // Create indexes for layers
+    await pool.query(`
+      CREATE INDEX IF NOT EXISTS idx_layers_geoserver_name ON layers(geoserver_name)
+    `);
+
+    await pool.query(`
+      CREATE INDEX IF NOT EXISTS idx_layers_group_id ON layers(group_id)
+    `);
+
+    await pool.query(`
+      CREATE INDEX IF NOT EXISTS idx_layers_is_active ON layers(is_active)
+    `);
+
+    await pool.query(`
+      CREATE INDEX IF NOT EXISTS idx_layers_sort_order ON layers(sort_order)
+    `);
+
+    // Create invalid_data_reports table
     await pool.query(`
       CREATE TABLE IF NOT EXISTS invalid_data_reports (
         id SERIAL PRIMARY KEY,
@@ -88,23 +150,6 @@ async function initializeDatabase() {
 
     await pool.query(`
       CREATE INDEX IF NOT EXISTS idx_reports_created_at ON invalid_data_reports(created_at DESC)
-    `);
-
-    // Create layer_metadata table
-    await pool.query(`
-      CREATE TABLE IF NOT EXISTS layer_metadata (
-        id SERIAL PRIMARY KEY,
-        geoserver_name VARCHAR(255) NOT NULL UNIQUE,
-        file_path VARCHAR(500) NOT NULL,
-        class_labels JSONB NOT NULL,
-        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-        updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-      )
-    `);
-
-    // Create index for layer_metadata
-    await pool.query(`
-      CREATE INDEX IF NOT EXISTS idx_layer_metadata_geoserver_name ON layer_metadata(geoserver_name)
     `);
 
     console.log('Database tables initialized successfully');

@@ -15,15 +15,57 @@ CREATE INDEX IF NOT EXISTS idx_users_email ON users(email);
 -- Create index on role for filtering
 CREATE INDEX IF NOT EXISTS idx_users_role ON users(role);
 
--- Create layer_metadata table
-CREATE TABLE IF NOT EXISTS layer_metadata (
+-- Create layer_groups table (supports nested groups via parent_id)
+CREATE TABLE IF NOT EXISTS layer_groups (
   id SERIAL PRIMARY KEY,
-  geoserver_name VARCHAR(255) NOT NULL UNIQUE,
-  file_path VARCHAR(500) NOT NULL,
-  class_labels JSONB NOT NULL,
+  name VARCHAR(255) NOT NULL,
+  parent_id INTEGER REFERENCES layer_groups(id) ON DELETE CASCADE,
+  description TEXT,
+  sort_order INTEGER DEFAULT 0,
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
   updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
--- Create index for layer_metadata
-CREATE INDEX IF NOT EXISTS idx_layer_metadata_geoserver_name ON layer_metadata(geoserver_name);
+-- Create indexes for layer_groups
+CREATE INDEX IF NOT EXISTS idx_layer_groups_name ON layer_groups(name);
+CREATE INDEX IF NOT EXISTS idx_layer_groups_parent_id ON layer_groups(parent_id);
+CREATE INDEX IF NOT EXISTS idx_layer_groups_sort_order ON layer_groups(sort_order);
+
+-- Create layers table (combines layer info + metadata)
+CREATE TABLE IF NOT EXISTS layers (
+  id SERIAL PRIMARY KEY,
+  geoserver_name VARCHAR(255) NOT NULL UNIQUE,
+  display_name VARCHAR(255),
+  group_id INTEGER REFERENCES layer_groups(id) ON DELETE SET NULL,
+  file_path VARCHAR(500),
+  class_labels JSONB,
+  is_active BOOLEAN DEFAULT true,
+  sort_order INTEGER DEFAULT 0,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Create indexes for layers
+CREATE INDEX IF NOT EXISTS idx_layers_geoserver_name ON layers(geoserver_name);
+CREATE INDEX IF NOT EXISTS idx_layers_group_id ON layers(group_id);
+CREATE INDEX IF NOT EXISTS idx_layers_is_active ON layers(is_active);
+CREATE INDEX IF NOT EXISTS idx_layers_sort_order ON layers(sort_order);
+
+-- Create invalid_data_reports table
+CREATE TABLE IF NOT EXISTS invalid_data_reports (
+  id SERIAL PRIMARY KEY,
+  user_id INTEGER NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+  original_polygon JSONB NOT NULL,
+  original_layer VARCHAR(255) NOT NULL,
+  original_colormap VARCHAR(255) NOT NULL,
+  invalid_area_polygon JSONB NOT NULL,
+  comment TEXT NOT NULL,
+  status VARCHAR(50) NOT NULL DEFAULT 'invalid' CHECK (status IN ('invalid', 'fixed')),
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Create indexes for reports
+CREATE INDEX IF NOT EXISTS idx_reports_user_id ON invalid_data_reports(user_id);
+CREATE INDEX IF NOT EXISTS idx_reports_status ON invalid_data_reports(status);
+CREATE INDEX IF NOT EXISTS idx_reports_created_at ON invalid_data_reports(created_at DESC);

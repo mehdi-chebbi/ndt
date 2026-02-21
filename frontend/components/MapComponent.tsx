@@ -14,6 +14,32 @@ L.Icon.Default.mergeOptions({
   shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-shadow.png',
 })
 
+interface Layer {
+  id: number
+  name: string
+  geoserver_name: string
+  layerName: string
+  wmsUrl: string
+  bounds: [[number, number], [number, number]]
+  hasStats: boolean
+  group_id: number | null
+  group_name: string | null
+}
+
+interface Group {
+  id: number
+  name: string
+  description: string | null
+  parent_id: number | null
+  children: Group[]
+  layers: Layer[]
+}
+
+interface GroupedLayers {
+  groups: Group[]
+  ungroupedLayers: Layer[]
+}
+
 const MapComponent = () => {
   const mapRef = useRef<L.Map | null>(null)
   const mapContainerRef = useRef<HTMLDivElement>(null)
@@ -21,12 +47,13 @@ const MapComponent = () => {
   const dataLayersRef = useRef<{ [key: string]: L.TileLayer }>({})
   const drawnItemsRef = useRef<FeatureGroup | null>(null)
   const drawControlRef = useRef<any>(null)
-  
+
   const [activeBasemap, setActiveBasemap] = useState('OpenStreetMap')
   const [sidebarOpen, setSidebarOpen] = useState(true)
   const [activeTab, setActiveTab] = useState<'basemaps' | 'data' | 'stats'>('basemaps')
   const [activeDataLayers, setActiveDataLayers] = useState<string[]>([])
-  const [availableLayers, setAvailableLayers] = useState<any[]>([])
+  const [groupedLayers, setGroupedLayers] = useState<GroupedLayers>({ groups: [], ungroupedLayers: [] })
+  const [expandedGroups, setExpandedGroups] = useState<Set<number | string>>(new Set())
   const [clipMessage, setClipMessage] = useState('')
   const [hasDrawnPolygon, setHasDrawnPolygon] = useState(false)
   const [isLoadingLayers, setIsLoadingLayers] = useState(true)
@@ -38,19 +65,39 @@ const MapComponent = () => {
   const [invalidAreaPolygon, setInvalidAreaPolygon] = useState<any>(null)
   const [reportComment, setReportComment] = useState('')
   const [currentPolygon, setCurrentPolygon] = useState<any>(null)
-  const [selectedLayerId, setSelectedLayerId] = useState<string>('')
+  const [selectedLayerId, setSelectedLayerId] = useState<number | null>(null)
   const [isSubmittingReport, setIsSubmittingReport] = useState(false)
   const [reportMessage, setReportMessage] = useState('')
 
   // Stats state
   const [statsMode, setStatsMode] = useState(false)
-  const [statsLayerId, setStatsLayerId] = useState<string>('')
+  const [statsLayerId, setStatsLayerId] = useState<number | null>(null)
   const [statsPolygon, setStatsPolygon] = useState<any>(null)
   const [statsResults, setStatsResults] = useState<any>(null)
   const [isCalculatingStats, setIsCalculatingStats] = useState(false)
   const [statsError, setStatsError] = useState('')
 
-  // Fetch available layers from backend
+  // Get all layers flat for easy access
+  const flattenLayers = (groups: Group[]): Layer[] => {
+    const result: Layer[] = []
+    const flatten = (groupList: Group[]) => {
+      groupList.forEach(g => {
+        result.push(...g.layers)
+        if (g.children?.length > 0) {
+          flatten(g.children)
+        }
+      })
+    }
+    flatten(groups)
+    return result
+  }
+
+  const allLayers = [
+    ...flattenLayers(groupedLayers.groups),
+    ...groupedLayers.ungroupedLayers
+  ]
+
+  // Fetch available layers from database
   const fetchLayers = async () => {
     setIsLoadingLayers(true)
     setLayerError('')
@@ -59,14 +106,33 @@ const MapComponent = () => {
       if (!res.ok) {
         throw new Error('Failed to fetch layers')
       }
-      const data = await res.json()
-      setAvailableLayers(data)
-      if (data.length > 0) {
-        setSelectedLayerId(data[0].id)
+      const data: GroupedLayers = await res.json()
+      setGroupedLayers(data)
+      
+      // Expand all groups by default
+      const allGroupIds = new Set<number | string>()
+      const collectIds = (groupList: Group[]) => {
+        groupList.forEach(g => {
+          allGroupIds.add(g.id)
+          if (g.children?.length > 0) {
+            collectIds(g.children)
+          }
+        })
+      }
+      collectIds(data.groups)
+      allGroupIds.add('ungrouped')
+      setExpandedGroups(allGroupIds)
+      
+      // Set first layer as selected
+      const firstLayer = data.groups[0]?.layers[0] || 
+                         data.groups[0]?.children?.[0]?.layers[0] || 
+                         data.ungroupedLayers[0]
+      if (firstLayer) {
+        setSelectedLayerId(firstLayer.id)
       }
     } catch (err: any) {
       console.error('Failed to fetch layers:', err)
-      setLayerError('Failed to load layers from GeoServer')
+      setLayerError('Failed to load layers')
     } finally {
       setIsLoadingLayers(false)
     }
@@ -76,6 +142,19 @@ const MapComponent = () => {
   useEffect(() => {
     fetchLayers()
   }, [])
+
+  // Toggle group expansion
+  const toggleGroup = (groupId: number | string) => {
+    setExpandedGroups(prev => {
+      const newSet = new Set(prev)
+      if (newSet.has(groupId)) {
+        newSet.delete(groupId)
+      } else {
+        newSet.add(groupId)
+      }
+      return newSet
+    })
+  }
 
   // Basemaps configuration
   const basemaps: { [key: string]: L.TileLayer | L.TileLayer.WMS } = {
@@ -134,7 +213,7 @@ const MapComponent = () => {
   }
 
   // Function to create WMS data layer from GeoServer
-  const createWMSLayer = (layerConfig: any) => {
+  const createWMSLayer = (layerConfig: Layer) => {
     return L.tileLayer.wms(layerConfig.wmsUrl, {
       layers: layerConfig.layerName,
       format: 'image/png',
@@ -142,15 +221,6 @@ const MapComponent = () => {
       attribution: `GeoServer - ${layerConfig.name}`,
       bounds: layerConfig.bounds,
     })
-  }
-
-  // Function to enable polygon drawing programmatically
-  const enablePolygonDrawing = () => {
-    if (!mapRef.current) return
-    
-    // Enable polygon drawing mode
-    const drawPolygonHandler = new L.Draw.Polygon(mapRef.current as any, drawControlRef.current.options.draw.polygon)
-    drawPolygonHandler.enable()
   }
 
   useEffect(() => {
@@ -271,11 +341,8 @@ const MapComponent = () => {
   }, [reportingMode, reportingStep])
 
   // Effect to handle reporting mode changes
-  // Removed automatic enablePolygonDrawing() call
   useEffect(() => {
     if (reportingMode && reportingStep === 'draw') {
-      // We no longer force enable drawing here. 
-      // The user will trigger drawing manually or via a button if you add one.
       console.log("Reporting mode active. Waiting for user action.")
     }
   }, [reportingMode, reportingStep])
@@ -326,36 +393,31 @@ const MapComponent = () => {
     setActiveBasemap(basemapName)
   }
 
-  const handleDataLayerToggle = (layerId: string, layerName: string) => {
+  const handleDataLayerToggle = (layer: Layer) => {
     if (!mapRef.current) return
 
-    if (activeDataLayers.includes(layerName)) {
-      // Remove layer
-      if (dataLayersRef.current[layerName]) {
-        mapRef.current.removeLayer(dataLayersRef.current[layerName] as L.Layer)
-        delete dataLayersRef.current[layerName]
-      }
-      setActiveDataLayers(activeDataLayers.filter(name => name !== layerName))
-    } else {
-      // Find layer config
-      const layerConfig = availableLayers.find(l => l.id === layerId)
-      if (!layerConfig) {
-        console.error('Layer not found:', layerId)
-        return
-      }
+    const layerKey = layer.geoserver_name
 
+    if (activeDataLayers.includes(layerKey)) {
+      // Remove layer
+      if (dataLayersRef.current[layerKey]) {
+        mapRef.current.removeLayer(dataLayersRef.current[layerKey] as L.Layer)
+        delete dataLayersRef.current[layerKey]
+      }
+      setActiveDataLayers(activeDataLayers.filter(name => name !== layerKey))
+    } else {
       // Add WMS layer
-      const newLayer = createWMSLayer(layerConfig)
+      const newLayer = createWMSLayer(layer)
       newLayer.addTo(mapRef.current)
-      dataLayersRef.current[layerName] = newLayer
+      dataLayersRef.current[layerKey] = newLayer
 
       // Zoom to layer bounds
-      if (layerConfig.bounds) {
-        mapRef.current.fitBounds(layerConfig.bounds)
+      if (layer.bounds) {
+        mapRef.current.fitBounds(layer.bounds)
       }
 
-      setActiveDataLayers([...activeDataLayers, layerName])
-      setSelectedLayerId(layerId)
+      setActiveDataLayers([...activeDataLayers, layerKey])
+      setSelectedLayerId(layer.id)
       setCurrentPolygon(null)
     }
   }
@@ -389,7 +451,7 @@ const MapComponent = () => {
     // Set the current view bounds as the polygon for reporting
     if (mapRef.current && selectedLayerId) {
       const bounds = mapRef.current.getBounds()
-      const layerConfig = availableLayers.find(l => l.id === selectedLayerId)
+      const layerConfig = allLayers.find(l => l.id === selectedLayerId)
       if (layerConfig) {
         // Create a polygon from the current view bounds
         const boundsPolygon = {
@@ -417,6 +479,12 @@ const MapComponent = () => {
       return
     }
 
+    const selectedLayer = allLayers.find(l => l.id === selectedLayerId)
+    if (!selectedLayer) {
+      setReportMessage('Please select a layer')
+      return
+    }
+
     setIsSubmittingReport(true)
     setReportMessage('Submitting report...')
 
@@ -434,7 +502,7 @@ const MapComponent = () => {
         },
         body: JSON.stringify({
           original_polygon: currentPolygon,
-          original_layer: selectedLayerId,
+          original_layer: selectedLayer.geoserver_name,
           original_colormap: 'default',
           invalid_area_polygon: invalidAreaPolygon,
           comment: reportComment,
@@ -453,7 +521,7 @@ const MapComponent = () => {
       setReportComment('')
       setReportMessage('')
       setClipMessage('')
-      
+
       // Clear the drawn polygon from reporting
       if (drawnItemsRef.current) {
         drawnItemsRef.current.clearLayers()
@@ -484,7 +552,7 @@ const MapComponent = () => {
     setReportComment('')
     setReportMessage('')
     setClipMessage('')
-    
+
     // Clear any polygons drawn during reporting
     if (drawnItemsRef.current) {
       drawnItemsRef.current.clearLayers()
@@ -499,7 +567,7 @@ const MapComponent = () => {
       drawnItemsRef.current.clearLayers()
       setHasDrawnPolygon(false)
     }
-    
+
     setStatsMode(true)
     setStatsPolygon(null)
     setStatsResults(null)
@@ -519,10 +587,15 @@ const MapComponent = () => {
       return
     }
 
-    // Find the layer name
-    const layerConfig = availableLayers.find(l => l.id === statsLayerId)
+    // Find the layer
+    const layerConfig = allLayers.find(l => l.id === statsLayerId)
     if (!layerConfig) {
       setStatsError('Layer not found')
+      return
+    }
+
+    if (!layerConfig.hasStats) {
+      setStatsError('This layer is not configured for statistics. Please contact an admin.')
       return
     }
 
@@ -537,7 +610,7 @@ const MapComponent = () => {
           'Authorization': `Bearer ${token}`,
         },
         body: JSON.stringify({
-          layer_name: layerConfig.layerName,
+          layer_name: layerConfig.geoserver_name,
           polygon: statsPolygon,
         }),
       })
@@ -563,11 +636,86 @@ const MapComponent = () => {
     setStatsResults(null)
     setStatsError('')
     setClipMessage('')
-    
+
     if (drawnItemsRef.current) {
       drawnItemsRef.current.clearLayers()
       setHasDrawnPolygon(false)
     }
+  }
+
+  // Render a layer button
+  const renderLayerButton = (layer: Layer) => {
+    const isActive = activeDataLayers.includes(layer.geoserver_name)
+    return (
+      <button
+        key={layer.id}
+        onClick={() => handleDataLayerToggle(layer)}
+        className={`w-full text-left px-3 py-2 rounded-lg transition text-sm ${
+          isActive
+            ? 'bg-green-100 text-green-900 border border-green-600'
+            : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+        }`}
+      >
+        <div className="flex justify-between items-center">
+          <span className="font-medium">{layer.name}</span>
+          <div className="flex items-center gap-2">
+            {!layer.hasStats && (
+              <span className="text-xs text-amber-600">(no stats)</span>
+            )}
+            {isActive && (
+              <span className="text-xs font-semibold text-green-700">Active</span>
+            )}
+          </div>
+        </div>
+      </button>
+    )
+  }
+
+  // Render nested groups recursively
+  const renderGroup = (group: Group, depth = 0) => {
+    const isExpanded = expandedGroups.has(group.id)
+    const hasContent = group.layers.length > 0 || (group.children?.length > 0)
+
+    return (
+      <div key={group.id} className="border border-gray-200 rounded-lg overflow-hidden">
+        {/* Group header */}
+        {hasContent && (
+          <button
+            onClick={() => toggleGroup(group.id)}
+            className="w-full flex items-center justify-between px-3 py-2 bg-gray-50 hover:bg-gray-100 transition"
+            style={{ paddingLeft: `${depth * 16 + 12}px` }}
+          >
+            <div className="flex items-center gap-2">
+              <svg
+                className={`w-4 h-4 text-gray-600 transition-transform ${isExpanded ? 'rotate-180' : ''}`}
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+              </svg>
+              <span className="font-semibold text-gray-800">{group.name}</span>
+              <span className="text-xs text-gray-500">({group.layers.length})</span>
+            </div>
+          </button>
+        )}
+
+        {/* Expanded content */}
+        {isExpanded && (
+          <div className="bg-white">
+            {/* Child groups */}
+            {group.children?.map(child => renderGroup(child, depth + 1))}
+            
+            {/* Layers in this group */}
+            {group.layers.length > 0 && (
+              <div className="p-2 space-y-2" style={{ paddingLeft: `${depth * 16 + 8}px` }}>
+                {group.layers.map(renderLayerButton)}
+              </div>
+            )}
+          </div>
+        )}
+      </div>
+    )
   }
 
   return (
@@ -646,29 +794,7 @@ const MapComponent = () => {
             )}
 
             {activeTab === 'data' && (
-              <div className="space-y-6">
-                {/* Layer List Header with Refresh */}
-                <div className="flex items-center justify-between">
-                  <label className="block text-sm font-medium text-gray-700">
-                    Data Layers
-                  </label>
-                  <button
-                    onClick={fetchLayers}
-                    disabled={isLoadingLayers}
-                    className="p-1.5 hover:bg-gray-100 rounded-lg transition disabled:opacity-50"
-                    title="Refresh layers"
-                  >
-                    <svg 
-                      className={`w-4 h-4 text-gray-600 ${isLoadingLayers ? 'animate-spin' : ''}`} 
-                      fill="none" 
-                      stroke="currentColor" 
-                      viewBox="0 0 24 24"
-                    >
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
-                    </svg>
-                  </button>
-                </div>
-
+              <div className="space-y-3">
                 {/* Loading State */}
                 {isLoadingLayers && (
                   <div className="flex items-center justify-center py-8">
@@ -680,55 +806,52 @@ const MapComponent = () => {
                 {layerError && !isLoadingLayers && (
                   <div className="bg-red-50 border border-red-200 text-red-700 px-4 py-3 rounded-lg text-sm">
                     <p>{layerError}</p>
-                    <button 
-                      onClick={fetchLayers}
-                      className="mt-2 text-red-800 underline text-sm font-medium"
-                    >
-                      Try again
-                    </button>
                   </div>
                 )}
 
                 {/* Empty State */}
-                {!isLoadingLayers && !layerError && availableLayers.length === 0 && (
+                {!isLoadingLayers && !layerError && allLayers.length === 0 && (
                   <div className="text-center py-8">
                     <svg className="w-12 h-12 text-gray-300 mx-auto mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" />
                     </svg>
                     <p className="text-gray-500 text-sm">No layers available</p>
-                    <p className="text-gray-400 text-xs mt-1">Add layers to GeoServer</p>
+                    <p className="text-gray-400 text-xs mt-1">Contact admin to add layers</p>
                   </div>
                 )}
 
-                {/* Layer List */}
-                {!isLoadingLayers && !layerError && availableLayers.length > 0 && (
+                {/* Nested Groups */}
+                {!isLoadingLayers && !layerError && allLayers.length > 0 && (
                   <div className="space-y-2">
-                    {availableLayers.map((layer) => {
-                      const isActive = activeDataLayers.includes(layer.name)
-                      return (
+                    {/* Root Groups */}
+                    {groupedLayers.groups.map(group => renderGroup(group))}
+
+                    {/* Ungrouped Layers */}
+                    {groupedLayers.ungroupedLayers.length > 0 && (
+                      <div className="border border-gray-200 rounded-lg overflow-hidden">
                         <button
-                          key={layer.id}
-                          onClick={() => handleDataLayerToggle(layer.id, layer.name)}
-                          className={`w-full text-left px-4 py-3 rounded-lg transition ${
-                            isActive
-                              ? 'bg-green-100 text-green-900 border-2 border-green-600'
-                              : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-                          }`}
+                          onClick={() => toggleGroup('ungrouped')}
+                          className="w-full flex items-center justify-between px-3 py-2 bg-gray-50 hover:bg-gray-100 transition"
                         >
-                          <div className="flex justify-between items-center">
-                            <div>
-                              <span className="font-medium">{layer.name}</span>
-                              {layer.description && layer.description !== layer.name && (
-                                <p className="text-xs text-gray-500 mt-0.5">{layer.description}</p>
-                              )}
-                            </div>
-                            {isActive && (
-                              <span className="text-xs font-semibold">Active</span>
-                            )}
+                          <div className="flex items-center gap-2">
+                            <svg
+                              className={`w-4 h-4 text-gray-600 transition-transform ${expandedGroups.has('ungrouped') ? 'rotate-180' : ''}`}
+                              fill="none"
+                              stroke="currentColor"
+                              viewBox="0 0 24 24"
+                            >
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                            </svg>
+                            <span className="font-semibold text-gray-600">Other Layers</span>
                           </div>
                         </button>
-                      )
-                    })}
+                        {expandedGroups.has('ungrouped') && (
+                          <div className="p-2 space-y-2 bg-white">
+                            {groupedLayers.ungroupedLayers.map(renderLayerButton)}
+                          </div>
+                        )}
+                      </div>
+                    )}
                   </div>
                 )}
 
@@ -771,17 +894,20 @@ const MapComponent = () => {
                     Select Layer
                   </label>
                   <select
-                    value={statsLayerId}
-                    onChange={(e) => setStatsLayerId(e.target.value)}
+                    value={statsLayerId || ''}
+                    onChange={(e) => setStatsLayerId(parseInt(e.target.value) || null)}
                     className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-900 focus:border-transparent"
                   >
                     <option value="">Select a layer...</option>
-                    {availableLayers.map((layer) => (
+                    {allLayers.filter(l => l.hasStats).map((layer) => (
                       <option key={layer.id} value={layer.id}>
-                        {layer.name}
+                        {layer.group_name ? `${layer.group_name} / ` : ''}{layer.name}
                       </option>
                     ))}
                   </select>
+                  {allLayers.filter(l => l.hasStats).length === 0 && (
+                    <p className="text-xs text-amber-600 mt-1">No layers configured for statistics</p>
+                  )}
                 </div>
 
                 {/* Stats Mode Actions */}
@@ -837,7 +963,7 @@ const MapComponent = () => {
                 {statsResults && (
                   <div className="mt-4 border-t pt-4">
                     <h3 className="font-semibold text-gray-900 mb-3">Results</h3>
-                    
+
                     <div className="bg-gray-50 rounded-lg p-3 mb-4">
                       <div className="grid grid-cols-2 gap-2 text-sm">
                         <div>

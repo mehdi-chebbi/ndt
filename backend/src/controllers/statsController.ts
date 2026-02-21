@@ -12,26 +12,40 @@ export const getStatsForPolygon = async (req: AuthRequest, res: Response) => {
       return res.status(400).json({ error: 'Missing layer_name or polygon' });
     }
 
-    // Get layer metadata from database
+    // Get layer from database
     const result = await pool.query(
-      'SELECT * FROM layer_metadata WHERE geoserver_name = $1',
+      'SELECT * FROM layers WHERE geoserver_name = $1',
       [layer_name]
     );
 
     if (result.rows.length === 0) {
-      return res.status(404).json({ 
-        error: 'Layer not configured for stats',
-        message: 'This layer has not been configured with file path. Please contact an admin.'
+      return res.status(404).json({
+        error: 'Layer not found',
+        message: 'This layer does not exist in the database.'
       });
     }
 
-    const metadata = result.rows[0];
-    const filePath = metadata.file_path;
-    const classLabels = metadata.class_labels;
+    const layer = result.rows[0];
+    const filePath = layer.file_path;
+    const classLabels = layer.class_labels;
+
+    if (!filePath) {
+      return res.status(400).json({
+        error: 'Layer not configured for stats',
+        message: 'This layer has not been configured with a file path. Please contact an admin.'
+      });
+    }
+
+    if (!classLabels) {
+      return res.status(400).json({
+        error: 'Layer not configured for stats',
+        message: 'This layer has not been configured with class labels. Please contact an admin.'
+      });
+    }
 
     // Call Python script for raster processing
     const scriptPath = path.join(__dirname, '..', '..', 'scripts', 'raster_stats.py');
-    
+
     const pythonProcess = spawn('python3', [
       scriptPath,
       '--file', filePath,
@@ -52,7 +66,7 @@ export const getStatsForPolygon = async (req: AuthRequest, res: Response) => {
     pythonProcess.on('close', (code) => {
       if (code !== 0) {
         console.error('Python script error:', errorData);
-        return res.status(500).json({ 
+        return res.status(500).json({
           error: 'Failed to process raster',
           details: errorData
         });
@@ -60,7 +74,7 @@ export const getStatsForPolygon = async (req: AuthRequest, res: Response) => {
 
       try {
         const stats = JSON.parse(outputData);
-        
+
         // Calculate percentage for each class
         const totalPixels = stats.total_pixels;
         const classesWithPercentage = stats.classes.map((cls: any) => ({

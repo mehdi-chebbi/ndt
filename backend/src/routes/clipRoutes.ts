@@ -1,10 +1,11 @@
 import { Router, Request, Response } from 'express';
+import pool from '../config/database';
 
 const router = Router();
 
 // GeoServer configuration
-const GEOSERVER_REST_URL = 'http://geoserver:8080/geoserver/rest';
-const GEOSERVER_WMS_URL = 'http://localhost:8080/geoserver';
+const GEOSERVER_REST_URL = process.env.GEOSERVER_REST_URL || 'http://geoserver:8080/geoserver/rest';
+const GEOSERVER_WMS_URL = process.env.GEOSERVER_WMS_URL || 'http://localhost:8080/geoserver';
 const GEOSERVER_USER = process.env.GEOSERVER_USER || 'admin';
 const GEOSERVER_PASSWORD = process.env.GEOSERVER_PASSWORD || 'geoserver';
 
@@ -17,13 +18,8 @@ const GEOSERVER_HEADERS = {
   'Authorization': GEOSERVER_AUTH
 };
 
-// Cache for layers (refresh every 5 minutes)
-let layersCache: any[] = [];
-let lastCacheTime = 0;
-const CACHE_TTL = 5 * 60 * 1000; // 5 minutes
-
-// Common bounds for all layers (as per user requirement)
-const DEFAULT_BOUNDS = [[-34.83, -25.36], [37.56, 60.00]];
+// Common bounds for all layers (south-west, north-east corners)
+const DEFAULT_BOUNDS: [[number, number], [number, number]] = [[-34.83, -25.36], [37.56, 60.00]];
 
 // Fetch layers from GeoServer REST API
 async function fetchLayersFromGeoServer(): Promise<any[]> {
@@ -32,11 +28,11 @@ async function fetchLayersFromGeoServer(): Promise<any[]> {
     const layersListResponse = await fetch(`${GEOSERVER_REST_URL}/layers.json`, {
       headers: GEOSERVER_HEADERS
     });
-    
+
     if (!layersListResponse.ok) {
       throw new Error(`Failed to fetch layers list: ${layersListResponse.status}`);
     }
-    
+
     const layersListData = await layersListResponse.json();
     const layersList = layersListData.layers?.layer || [];
 
@@ -46,33 +42,29 @@ async function fetchLayersFromGeoServer(): Promise<any[]> {
         const detailResponse = await fetch(layerItem.href, {
           headers: GEOSERVER_HEADERS
         });
-        
+
         if (!detailResponse.ok) {
           console.error(`Failed to fetch layer details for ${layerItem.name}`);
           return null;
         }
-        
+
         const detailData = await detailResponse.json();
         const layer = detailData.layer;
 
-        // Extract workspace from resource name (e.g., "LC:LandcoverOSS2000" -> "LC")
+        // Extract workspace from resource name
         const resourceName = layer.resource?.name || layerItem.name;
-        const workspace = resourceName.includes(':') 
-          ? resourceName.split(':')[0] 
+        const workspace = resourceName.includes(':')
+          ? resourceName.split(':')[0]
           : layerItem.name.split(':')[0] || 'default';
 
-        // Construct layer object
         return {
-          id: layer.name,
-          name: layer.name,
-          description: layer.name,
+          geoserver_name: layerItem.name,
+          display_name: layer.name,
           wmsUrl: `${GEOSERVER_WMS_URL}/${workspace}/wms`,
-          layerName: layerItem.name, // Full name with workspace (e.g., "LC:LandcoverOSS2000")
+          layerName: layerItem.name,
           bounds: DEFAULT_BOUNDS,
           type: layer.type,
           style: layer.defaultStyle?.name,
-          dateCreated: layer.dateCreated,
-          dateModified: layer.dateModified,
         };
       } catch (error) {
         console.error(`Error fetching details for layer ${layerItem.name}:`, error);
@@ -80,7 +72,6 @@ async function fetchLayersFromGeoServer(): Promise<any[]> {
       }
     });
 
-    // Wait for all detail requests and filter out failed ones
     const layerDetails = await Promise.all(layerDetailsPromises);
     return layerDetails.filter(layer => layer !== null);
   } catch (error) {
@@ -89,54 +80,147 @@ async function fetchLayersFromGeoServer(): Promise<any[]> {
   }
 }
 
-// Get available layers (dynamic from GeoServer)
+// Build nested group structure
+function buildGroupTree(groups: any[], layers: any[]): any[] {
+  // Create a map for quick lookup
+  const groupMap: { [key: number]: any } = {};
+  groups.forEach((g: any) => {
+    groupMap[g.id] = {
+      id: g.id,
+      name: g.name,
+      description: g.description,
+      parent_id: g.parent_id,
+      children: [],
+      layers: layers.filter((l: any) => l.group_id === g.id)
+    };
+  });
+
+  // Build tree
+  const rootGroups: any[] = [];
+  groups.forEach((g: any) => {
+    const group = groupMap[g.id];
+    if (g.parent_id && groupMap[g.parent_id]) {
+      groupMap[g.parent_id].children.push(group);
+    } else {
+      rootGroups.push(group);
+    }
+  });
+
+  return rootGroups;
+}
+
+// Get all active layers grouped (for map display)
 router.get('/layers', async (req: Request, res: Response) => {
   try {
-    // Check cache
-    const now = Date.now();
-    if (layersCache.length > 0 && (now - lastCacheTime) < CACHE_TTL) {
-      return res.json(layersCache);
-    }
+    // Get all active layers with group info
+    const layersResult = await pool.query(`
+      SELECT l.id, l.geoserver_name, l.display_name, l.group_id, l.file_path, l.class_labels, l.sort_order,
+             g.id as group_table_id, g.name as group_name, g.parent_id as group_parent_id
+      FROM layers l
+      LEFT JOIN layer_groups g ON l.group_id = g.id
+      WHERE l.is_active = true
+      ORDER BY l.sort_order ASC, l.created_at ASC
+    `);
 
-    // Fetch fresh data from GeoServer
-    const layers = await fetchLayersFromGeoServer();
-    
-    // Update cache
-    layersCache = layers;
-    lastCacheTime = now;
+    // Get all groups
+    const groupsResult = await pool.query(`
+      SELECT id, name, description, parent_id, sort_order
+      FROM layer_groups
+      ORDER BY sort_order ASC, created_at ASC
+    `);
 
-    res.json(layers);
+    // Transform layers to include WMS info
+    const layers = layersResult.rows.map(layer => {
+      // Extract workspace from geoserver_name (e.g., "LC:LandcoverOSS2000" -> "LC")
+      const workspace = layer.geoserver_name.includes(':')
+        ? layer.geoserver_name.split(':')[0]
+        : 'default';
+
+      return {
+        id: layer.id,
+        name: layer.display_name || layer.geoserver_name,
+        geoserver_name: layer.geoserver_name,
+        layerName: layer.geoserver_name,
+        wmsUrl: `${GEOSERVER_WMS_URL}/${workspace}/wms`,
+        bounds: DEFAULT_BOUNDS,
+        hasStats: !!layer.file_path && !!layer.class_labels,
+        group_id: layer.group_id,
+        group_name: layer.group_name,
+      };
+    });
+
+    // Build nested group structure
+    const groups = buildGroupTree(groupsResult.rows, layers);
+
+    // Layers without a group (ungrouped)
+    const ungroupedLayers = layers.filter(l => !l.group_id);
+
+    res.json({
+      groups,
+      ungroupedLayers
+    });
   } catch (error: any) {
-    console.error('Error in /layers endpoint:', error);
-    
-    // Return cached data if available, otherwise return empty array
-    if (layersCache.length > 0) {
-      return res.json(layersCache);
-    }
-    
-    res.status(500).json({ 
-      error: 'Failed to fetch layers from GeoServer',
-      message: error.message 
+    console.error('Error fetching layers from database:', error);
+    res.status(500).json({
+      error: 'Failed to fetch layers',
+      message: error.message
     });
   }
 });
 
-// Force refresh cache (admin endpoint)
-router.post('/layers/refresh', async (req: Request, res: Response) => {
+// Sync layers from GeoServer to database
+router.post('/layers/sync', async (req: Request, res: Response) => {
   try {
-    const layers = await fetchLayersFromGeoServer();
-    layersCache = layers;
-    lastCacheTime = Date.now();
-    
-    res.json({ 
-      message: 'Layers cache refreshed successfully',
-      count: layers.length,
-      layers 
+    // Fetch layers from GeoServer
+    const geoserverLayers = await fetchLayersFromGeoServer();
+
+    // Get existing layers from database
+    const existingResult = await pool.query('SELECT geoserver_name FROM layers');
+    const existingNames = new Set(existingResult.rows.map(r => r.geoserver_name));
+
+    let added = 0;
+    let updated = 0;
+
+    for (const gsLayer of geoserverLayers) {
+      if (existingNames.has(gsLayer.geoserver_name)) {
+        // Update existing layer (only display_name)
+        await pool.query(`
+          UPDATE layers
+          SET display_name = $1, updated_at = CURRENT_TIMESTAMP
+          WHERE geoserver_name = $2
+        `, [gsLayer.display_name, gsLayer.geoserver_name]);
+        updated++;
+      } else {
+        // Insert new layer
+        await pool.query(`
+          INSERT INTO layers (geoserver_name, display_name)
+          VALUES ($1, $2)
+        `, [gsLayer.geoserver_name, gsLayer.display_name]);
+        added++;
+      }
+    }
+
+    // Get all layers after sync
+    const allLayers = await pool.query(`
+      SELECT l.id, l.geoserver_name, l.display_name, l.group_id, l.file_path, l.class_labels, l.is_active, l.sort_order,
+             g.name as group_name
+      FROM layers l
+      LEFT JOIN layer_groups g ON l.group_id = g.id
+      ORDER BY g.sort_order ASC, l.sort_order ASC, l.created_at ASC
+    `);
+
+    res.json({
+      message: 'Layers synced successfully',
+      added,
+      updated,
+      total: allLayers.rows.length,
+      layers: allLayers.rows
     });
   } catch (error: any) {
-    res.status(500).json({ 
-      error: 'Failed to refresh layers',
-      message: error.message 
+    console.error('Error syncing layers:', error);
+    res.status(500).json({
+      error: 'Failed to sync layers',
+      message: error.message
     });
   }
 });

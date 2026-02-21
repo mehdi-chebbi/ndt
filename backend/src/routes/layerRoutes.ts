@@ -1,24 +1,26 @@
 import { Router } from 'express';
 import { authenticate, requireAdmin } from '../middleware/auth';
 import {
-  getAllLayerMetadata,
-  getLayerMetadataByName,
-  createLayerMetadata,
-  updateLayerMetadata,
-  deleteLayerMetadata
+  getAllLayers,
+  getLayerById,
+  getLayerByName,
+  createLayer,
+  updateLayer,
+  deleteLayer
 } from '../controllers/layerController';
 import { getStatsForPolygon } from '../controllers/statsController';
 
 const router = Router();
 
 // Public routes (authenticated users can view)
-router.get('/metadata', authenticate, getAllLayerMetadata);
-router.get('/metadata/:name', authenticate, getLayerMetadataByName);
+router.get('/', authenticate, getAllLayers);
+router.get('/id/:id', authenticate, getLayerById);
+router.get('/name/:name', authenticate, getLayerByName);
 
-// Admin only routes for managing metadata
-router.post('/metadata', authenticate, requireAdmin, createLayerMetadata);
-router.put('/metadata/:id', authenticate, requireAdmin, updateLayerMetadata);
-router.delete('/metadata/:id', authenticate, requireAdmin, deleteLayerMetadata);
+// Admin only routes for managing layers
+router.post('/', authenticate, requireAdmin, createLayer);
+router.put('/:id', authenticate, requireAdmin, updateLayer);
+router.delete('/:id', authenticate, requireAdmin, deleteLayer);
 
 // Stats endpoint (authenticated users can request stats)
 router.post('/stats', authenticate, getStatsForPolygon);
