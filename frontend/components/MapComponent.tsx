@@ -24,7 +24,7 @@ const MapComponent = () => {
   
   const [activeBasemap, setActiveBasemap] = useState('OpenStreetMap')
   const [sidebarOpen, setSidebarOpen] = useState(true)
-  const [activeTab, setActiveTab] = useState<'basemaps' | 'data'>('basemaps')
+  const [activeTab, setActiveTab] = useState<'basemaps' | 'data' | 'stats'>('basemaps')
   const [activeDataLayers, setActiveDataLayers] = useState<string[]>([])
   const [availableLayers, setAvailableLayers] = useState<any[]>([])
   const [clipMessage, setClipMessage] = useState('')
@@ -41,6 +41,14 @@ const MapComponent = () => {
   const [selectedLayerId, setSelectedLayerId] = useState<string>('')
   const [isSubmittingReport, setIsSubmittingReport] = useState(false)
   const [reportMessage, setReportMessage] = useState('')
+
+  // Stats state
+  const [statsMode, setStatsMode] = useState(false)
+  const [statsLayerId, setStatsLayerId] = useState<string>('')
+  const [statsPolygon, setStatsPolygon] = useState<any>(null)
+  const [statsResults, setStatsResults] = useState<any>(null)
+  const [isCalculatingStats, setIsCalculatingStats] = useState(false)
+  const [statsError, setStatsError] = useState('')
 
   // Fetch available layers from backend
   const fetchLayers = async () => {
@@ -272,6 +280,36 @@ const MapComponent = () => {
     }
   }, [reportingMode, reportingStep])
 
+  // Effect to handle draw created event for stats
+  useEffect(() => {
+    if (!mapRef.current) return
+
+    const handleDrawCreatedForStats = (event: any) => {
+      // If in stats mode, capture the polygon
+      if (statsMode) {
+        const layer = event.layer
+        const drawnLayer = layer as L.Polygon
+        const latlngs = drawnLayer.getLatLngs()[0] as L.LatLng[]
+        const coordinates = latlngs.map((latlng) => [latlng.lng, latlng.lat])
+        const closedCoordinates = [...coordinates, coordinates[0]]
+        const polygon = {
+          type: 'Polygon' as const,
+          coordinates: [closedCoordinates],
+        }
+        setStatsPolygon(polygon)
+        setClipMessage('Polygon captured. Click "Calculate Stats" to proceed.')
+      }
+    }
+
+    mapRef.current.on(L.Draw.Event.CREATED, handleDrawCreatedForStats)
+
+    return () => {
+      if (mapRef.current) {
+        mapRef.current.off(L.Draw.Event.CREATED, handleDrawCreatedForStats)
+      }
+    }
+  }, [statsMode])
+
   const handleBasemapChange = (basemapName: string) => {
     if (!mapRef.current) return
 
@@ -333,6 +371,11 @@ const MapComponent = () => {
       setInvalidAreaPolygon(null)
       setReportComment('')
       setReportMessage('')
+      // Clear stats
+      setStatsMode(false)
+      setStatsPolygon(null)
+      setStatsResults(null)
+      setStatsError('')
     }
   }
 
@@ -449,6 +492,84 @@ const MapComponent = () => {
     }
   }
 
+  // Stats functions
+  const handleStartStats = () => {
+    // Clear previous drawings
+    if (drawnItemsRef.current) {
+      drawnItemsRef.current.clearLayers()
+      setHasDrawnPolygon(false)
+    }
+    
+    setStatsMode(true)
+    setStatsPolygon(null)
+    setStatsResults(null)
+    setStatsError('')
+    setClipMessage('Select a layer and draw a polygon to calculate statistics')
+  }
+
+  const handleCalculateStats = async () => {
+    if (!statsPolygon || !statsLayerId) {
+      setStatsError('Please select a layer and draw a polygon')
+      return
+    }
+
+    const token = localStorage.getItem('token')
+    if (!token) {
+      setStatsError('You must be logged in to calculate statistics')
+      return
+    }
+
+    // Find the layer name
+    const layerConfig = availableLayers.find(l => l.id === statsLayerId)
+    if (!layerConfig) {
+      setStatsError('Layer not found')
+      return
+    }
+
+    setIsCalculatingStats(true)
+    setStatsError('')
+
+    try {
+      const response = await fetch('/api/layers/stats', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': `Bearer ${token}`,
+        },
+        body: JSON.stringify({
+          layer_name: layerConfig.layerName,
+          polygon: statsPolygon,
+        }),
+      })
+
+      const data = await response.json()
+
+      if (!response.ok) {
+        throw new Error(data.error || data.message || 'Failed to calculate statistics')
+      }
+
+      setStatsResults(data)
+      setClipMessage('')
+    } catch (err: any) {
+      setStatsError(err.message)
+    } finally {
+      setIsCalculatingStats(false)
+    }
+  }
+
+  const handleCancelStats = () => {
+    setStatsMode(false)
+    setStatsPolygon(null)
+    setStatsResults(null)
+    setStatsError('')
+    setClipMessage('')
+    
+    if (drawnItemsRef.current) {
+      drawnItemsRef.current.clearLayers()
+      setHasDrawnPolygon(false)
+    }
+  }
+
   return (
     <div className="flex w-full h-full relative">
       {/* Sidebar */}
@@ -491,6 +612,16 @@ const MapComponent = () => {
               }`}
             >
               Data
+            </button>
+            <button
+              onClick={() => setActiveTab('stats')}
+              className={`flex-1 py-3 text-sm font-semibold transition ${
+                activeTab === 'stats'
+                  ? 'text-gray-900 border-b-2 border-gray-900'
+                  : 'text-gray-500 hover:text-gray-700'
+              }`}
+            >
+              Stats
             </button>
           </div>
 
@@ -624,6 +755,123 @@ const MapComponent = () => {
                   >
                     Report Invalid Data
                   </button>
+                )}
+              </div>
+            )}
+
+            {activeTab === 'stats' && (
+              <div className="space-y-6">
+                <div className="text-sm text-gray-600 mb-4">
+                  Calculate land cover statistics for a selected area.
+                </div>
+
+                {/* Layer Selection */}
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                    Select Layer
+                  </label>
+                  <select
+                    value={statsLayerId}
+                    onChange={(e) => setStatsLayerId(e.target.value)}
+                    className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-900 focus:border-transparent"
+                  >
+                    <option value="">Select a layer...</option>
+                    {availableLayers.map((layer) => (
+                      <option key={layer.id} value={layer.id}>
+                        {layer.name}
+                      </option>
+                    ))}
+                  </select>
+                </div>
+
+                {/* Stats Mode Actions */}
+                {!statsMode ? (
+                  <button
+                    onClick={handleStartStats}
+                    disabled={!statsLayerId}
+                    className={`w-full py-3 rounded-lg font-medium transition ${
+                      !statsLayerId
+                        ? 'bg-gray-100 text-gray-400 cursor-not-allowed'
+                        : 'bg-gray-900 text-white hover:bg-gray-800'
+                    }`}
+                  >
+                    Start Drawing
+                  </button>
+                ) : (
+                  <div className="space-y-4">
+                    <div className="bg-blue-50 border border-blue-200 rounded-lg p-3">
+                      <p className="text-sm text-blue-800">
+                        Draw a polygon on the map to define your area of interest, then click Calculate.
+                      </p>
+                    </div>
+
+                    <div className="flex gap-2">
+                      <button
+                        onClick={handleCalculateStats}
+                        disabled={!statsPolygon || isCalculatingStats}
+                        className={`flex-1 py-2 rounded-lg font-medium transition ${
+                          !statsPolygon || isCalculatingStats
+                            ? 'bg-gray-100 text-gray-400 cursor-not-allowed'
+                            : 'bg-green-600 text-white hover:bg-green-700'
+                        }`}
+                      >
+                        {isCalculatingStats ? 'Calculating...' : 'Calculate Stats'}
+                      </button>
+                      <button
+                        onClick={handleCancelStats}
+                        className="px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 transition font-medium"
+                      >
+                        Cancel
+                      </button>
+                    </div>
+
+                    {statsError && (
+                      <div className="bg-red-50 border border-red-200 text-red-700 px-3 py-2 rounded-lg text-sm">
+                        {statsError}
+                      </div>
+                    )}
+                  </div>
+                )}
+
+                {/* Stats Results */}
+                {statsResults && (
+                  <div className="mt-4 border-t pt-4">
+                    <h3 className="font-semibold text-gray-900 mb-3">Results</h3>
+                    
+                    <div className="bg-gray-50 rounded-lg p-3 mb-4">
+                      <div className="grid grid-cols-2 gap-2 text-sm">
+                        <div>
+                          <span className="text-gray-600">Pixel Size:</span>
+                          <span className="font-medium ml-1">{statsResults.pixel_size_m}m</span>
+                        </div>
+                        <div>
+                          <span className="text-gray-600">Total Area:</span>
+                          <span className="font-medium ml-1">{statsResults.total_area_km2?.toLocaleString()} km²</span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="max-h-60 overflow-y-auto">
+                      <table className="w-full text-sm">
+                        <thead className="sticky top-0 bg-white">
+                          <tr className="border-b">
+                            <th className="text-left py-2 text-gray-600">Class</th>
+                            <th className="text-right py-2 text-gray-600">Area (km²)</th>
+                            <th className="text-right py-2 text-gray-600">%</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {statsResults.classes?.map((cls: any, idx: number) => (
+                            <tr key={idx} className="border-b border-gray-100">
+                              <td className="py-2 text-gray-900">{cls.class_name}</td>
+                              <td className="py-2 text-right text-gray-600">{cls.area_km2?.toLocaleString()}</td>
+                              <td className="py-2 text-right text-gray-600">{cls.percentage}%</td>
+                            </tr>
+                          ))}
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
                 )}
               </div>
             )}

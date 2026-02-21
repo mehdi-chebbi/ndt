@@ -14,3 +14,16 @@ CREATE INDEX IF NOT EXISTS idx_users_email ON users(email);
 
 -- Create index on role for filtering
 CREATE INDEX IF NOT EXISTS idx_users_role ON users(role);
+
+-- Create layer_metadata table
+CREATE TABLE IF NOT EXISTS layer_metadata (
+  id SERIAL PRIMARY KEY,
+  geoserver_name VARCHAR(255) NOT NULL UNIQUE,
+  file_path VARCHAR(500) NOT NULL,
+  class_labels JSONB NOT NULL,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Create index for layer_metadata
+CREATE INDEX IF NOT EXISTS idx_layer_metadata_geoserver_name ON layer_metadata(geoserver_name);

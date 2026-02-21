@@ -15,11 +15,13 @@ import authRoutes from './routes/authRoutes';
 import userRoutes from './routes/userRoutes';
 import clipRoutes from './routes/clipRoutes';
 import reportRoutes from './routes/reportRoutes';
+import layerRoutes from './routes/layerRoutes';
 
 app.use('/api/auth', authRoutes);
 app.use('/api/admin', userRoutes);
 app.use('/api/clip', clipRoutes);
 app.use('/api/reports', reportRoutes);
+app.use('/api/layers', layerRoutes);
 
 
 // Health check
@@ -86,6 +88,23 @@ async function initializeDatabase() {
 
     await pool.query(`
       CREATE INDEX IF NOT EXISTS idx_reports_created_at ON invalid_data_reports(created_at DESC)
+    `);
+
+    // Create layer_metadata table
+    await pool.query(`
+      CREATE TABLE IF NOT EXISTS layer_metadata (
+        id SERIAL PRIMARY KEY,
+        geoserver_name VARCHAR(255) NOT NULL UNIQUE,
+        file_path VARCHAR(500) NOT NULL,
+        class_labels JSONB NOT NULL,
+        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+        updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+      )
+    `);
+
+    // Create index for layer_metadata
+    await pool.query(`
+      CREATE INDEX IF NOT EXISTS idx_layer_metadata_geoserver_name ON layer_metadata(geoserver_name)
     `);
 
     console.log('Database tables initialized successfully');

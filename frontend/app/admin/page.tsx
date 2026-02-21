@@ -101,6 +101,16 @@ export default function AdminPage() {
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
       {/* Main Content */}
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        {/* Quick Actions */}
+        <div className="mb-6 flex gap-4">
+          <Link 
+            href="/admin/layers" 
+            className="px-4 py-2 bg-gray-900 text-white rounded-lg hover:bg-gray-800 transition font-medium"
+          >
+            Manage Layer Metadata
+          </Link>
+        </div>
+
         {/* Stats Cards */}
         <div className="grid md:grid-cols-3 gap-6 mb-8">
           <div className="bg-white rounded-xl shadow-sm p-6">
