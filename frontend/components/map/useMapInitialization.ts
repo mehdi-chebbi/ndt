@@ -38,6 +38,7 @@ interface UseMapInitializationReturn {
   handleDataLayerToggle: (layer: Layer) => void
   clearDrawnItems: () => void
   getMapBounds: () => L.LatLngBounds | null
+  viewReportOnMap: (layerName: string, polygon: Polygon) => void
 }
 
 export function useMapInitialization(props: UseMapInitializationProps): UseMapInitializationReturn {
@@ -70,6 +71,7 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
   const baseLayersRef = useRef<{ [key: string]: L.TileLayer | L.TileLayer.WMS }>({})
   const dataLayersRef = useRef<{ [key: string]: L.TileLayer }>({})
   const drawnItemsRef = useRef<FeatureGroup | null>(null)
+  const reportPolygonRef = useRef<L.Polygon | null>(null)
 
   // Helper to collect group IDs
   const collectGroupIds = useCallback((groupList: Group[]): Set<number | string> => {
@@ -84,6 +86,28 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
     }
     collectIds(groupList)
     return allGroupIds
+  }, [])
+
+  // Helper to find layer by geoserver_name
+  const findLayerByName = useCallback((name: string, groups: Group[], ungroupedLayers: Layer[]): Layer | null => {
+    // Search in groups
+    const searchInGroups = (groupList: Group[]): Layer | null => {
+      for (const group of groupList) {
+        const found = group.layers.find(l => l.geoserver_name === name)
+        if (found) return found
+        if (group.children?.length > 0) {
+          const childFound = searchInGroups(group.children)
+          if (childFound) return childFound
+        }
+      }
+      return null
+    }
+
+    const groupResult = searchInGroups(groups)
+    if (groupResult) return groupResult
+
+    // Search in ungrouped layers
+    return ungroupedLayers.find(l => l.geoserver_name === name) || null
   }, [])
 
   // Fetch layers
@@ -355,11 +379,75 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
     return null
   }, [])
 
+  // View report on map - enable layer, draw polygon, zoom to it
+  const viewReportOnMap = useCallback((layerName: string, polygon: Polygon) => {
+    if (!mapRef.current) return
+
+    // Find the layer
+    const layer = findLayerByName(layerName, groupedLayers.groups, groupedLayers.ungroupedLayers)
+    
+    if (!layer) {
+      console.warn(`Layer ${layerName} not found`)
+      setClipMessage(`Warning: Layer "${layerName}" not found in available layers`)
+      return
+    }
+
+    // Enable the layer if not already active
+    if (!activeDataLayers.includes(layerName)) {
+      // Add WMS layer
+      const newLayer = L.tileLayer.wms(layer.wmsUrl, {
+        layers: layer.layerName,
+        format: 'image/png',
+        transparent: true,
+        attribution: `GeoServer - ${layer.name}`,
+        bounds: layer.bounds,
+      })
+      newLayer.addTo(mapRef.current)
+      dataLayersRef.current[layerName] = newLayer
+      setActiveDataLayers([...activeDataLayers, layerName])
+      setSelectedLayerId(layer.id)
+    }
+
+    // Remove previous report polygon if exists
+    if (reportPolygonRef.current) {
+      mapRef.current.removeLayer(reportPolygonRef.current)
+    }
+
+    // Convert GeoJSON polygon coordinates to Leaflet LatLng array
+    // GeoJSON: [longitude, latitude], Leaflet: [latitude, longitude]
+    const coordinates = polygon.coordinates[0]
+    const latLngs: L.LatLng[] = coordinates.map(coord => 
+      L.latLng(coord[1], coord[0])
+    )
+
+    // Create polygon with red styling for invalid area
+    const reportPolygon = L.polygon(latLngs, {
+      color: '#dc2626',        // Red border
+      fillColor: '#dc2626',     // Red fill
+      fillOpacity: 0.3,         // Semi-transparent
+      weight: 3,
+      dashArray: '10, 5',       // Dashed border
+    })
+
+    reportPolygon.addTo(mapRef.current)
+    reportPolygonRef.current = reportPolygon
+
+    // Zoom to the polygon bounds
+    mapRef.current.fitBounds(reportPolygon.getBounds(), {
+      padding: [50, 50],
+      maxZoom: 16,
+    })
+
+    setHasDrawnPolygon(true)
+    setClipMessage(`Viewing report for layer: ${layer.name}`)
+  }, [groupedLayers, activeDataLayers, findLayerByName, setActiveDataLayers, setSelectedLayerId, setHasDrawnPolygon, setClipMessage])
+
   return {
     mapContainerRef,
     handleBasemapChange,
     handleDataLayerToggle,
     clearDrawnItems,
     getMapBounds,
+    viewReportOnMap,
   }
 }
