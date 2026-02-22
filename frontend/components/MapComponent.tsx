@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect } from 'react'
+import { ReactNode, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
 
 // Import tab components
@@ -25,9 +25,11 @@ interface ReportToView {
 
 interface MapComponentProps {
   reportToView?: ReportToView | null
+  readonlyReportMode?: boolean
+  reportSidebarContent?: ReactNode
 }
 
-const MapComponent = ({ reportToView }: MapComponentProps) => {
+const MapComponent = ({ reportToView, readonlyReportMode = false, reportSidebarContent }: MapComponentProps) => {
   const router = useRouter()
   
   // Get all state from custom hook
@@ -69,6 +71,7 @@ const MapComponent = ({ reportToView }: MapComponentProps) => {
     setActiveDataLayers: state.setActiveDataLayers,
     setSelectedLayerId: state.setSelectedLayerId,
     setCurrentPolygon: state.setCurrentPolygon,
+    readonlyView: readonlyReportMode,
   })
 
   // Get business logic handlers
@@ -125,7 +128,7 @@ const MapComponent = ({ reportToView }: MapComponentProps) => {
   return (
     <div className="flex w-full h-full relative">
       {/* Report Viewing Indicator */}
-      {reportToView && (
+      {reportToView && !readonlyReportMode && (
         <div className="absolute top-4 left-1/2 transform -translate-x-1/2 z-50 bg-red-600 text-white px-6 py-3 rounded-lg shadow-lg flex items-center gap-4">
           <div className="flex items-center gap-2">
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -152,26 +155,28 @@ const MapComponent = ({ reportToView }: MapComponentProps) => {
       )}
 
       {/* Sidebar */}
-      <div
-        className={`left-0 top-0 bg-white shadow-lg transition-all duration-300 z-50 h-full ${
-          state.sidebarOpen ? 'w-80' : 'w-0'
-        } overflow-hidden absolute`}
-      >
-        <div className="h-full overflow-y-auto p-6">
-          <div className="flex items-center justify-between mb-6">
-            <h2 className="text-lg font-bold text-gray-900">Map Controls</h2>
-            <button
-              onClick={() => state.setSidebarOpen(false)}
-              className="p-2 hover:bg-gray-100 rounded-lg transition"
-            >
-              <svg className="w-5 h-5 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-              </svg>
-            </button>
-          </div>
+      {!readonlyReportMode && (
+        <>
+          <div
+            className={`left-0 top-0 bg-white shadow-lg transition-all duration-300 z-50 h-full ${
+              state.sidebarOpen ? 'w-80' : 'w-0'
+            } overflow-hidden absolute`}
+          >
+            <div className="h-full overflow-y-auto p-6">
+              <div className="flex items-center justify-between mb-6">
+                <h2 className="text-lg font-bold text-gray-900">Map Controls</h2>
+                <button
+                  onClick={() => state.setSidebarOpen(false)}
+                  className="p-2 hover:bg-gray-100 rounded-lg transition"
+                >
+                  <svg className="w-5 h-5 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                </button>
+              </div>
 
-          {/* Tabs */}
-          <div className="flex mb-6 border-b border-gray-200">
+              {/* Tabs */}
+              <div className="flex mb-6 border-b border-gray-200">
             <button
               onClick={() => state.setActiveTab('basemaps')}
               className={`flex-1 py-3 text-sm font-semibold transition ${
@@ -204,8 +209,8 @@ const MapComponent = ({ reportToView }: MapComponentProps) => {
             </button>
           </div>
 
-          {/* Tab Content */}
-          <div className="space-y-6">
+              {/* Tab Content */}
+              <div className="space-y-6">
             {state.activeTab === 'basemaps' && (
               <BasemapsTab
                 activeBasemap={state.activeBasemap}
@@ -254,26 +259,34 @@ const MapComponent = ({ reportToView }: MapComponentProps) => {
                 onStatsLayerChange={state.setStatsLayerId}
               />
             )}
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
 
-      {/* Sidebar Toggle Button */}
-      <button
-        onClick={() => state.setSidebarOpen(!state.sidebarOpen)}
-        className={`left-0 top-1/2 transform -translate-y-1/2 bg-gray-900 text-white p-3 rounded-r-lg shadow-lg transition-all duration-300 z-50 absolute ${
-          state.sidebarOpen ? 'ml-80' : 'ml-0'
-        }`}
-      >
-        <svg
-          className={`w-5 h-5 transition-transform duration-300 ${state.sidebarOpen ? '' : 'rotate-180'}`}
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-        >
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-        </svg>
-      </button>
+          {/* Sidebar Toggle Button */}
+          <button
+            onClick={() => state.setSidebarOpen(!state.sidebarOpen)}
+            className={`left-0 top-1/2 transform -translate-y-1/2 bg-gray-900 text-white p-3 rounded-r-lg shadow-lg transition-all duration-300 z-50 absolute ${
+              state.sidebarOpen ? 'ml-80' : 'ml-0'
+            }`}
+          >
+            <svg
+              className={`w-5 h-5 transition-transform duration-300 ${state.sidebarOpen ? '' : 'rotate-180'}`}
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+            </svg>
+          </button>
+        </>
+      )}
+
+      {readonlyReportMode && reportSidebarContent && (
+        <div className="absolute left-0 top-0 bottom-0 w-80 bg-white shadow-lg z-40 overflow-y-auto">
+          {reportSidebarContent}
+        </div>
+      )}
 
       {/* Map Container */}
       <div className="flex-1 h-full relative">
@@ -285,16 +298,18 @@ const MapComponent = ({ reportToView }: MapComponentProps) => {
       </div>
 
       {/* Reporting Mode Overlay */}
-      <ReportingOverlay
-        reportingMode={state.reportingMode}
-        reportingStep={state.reportingStep}
-        reportComment={state.reportComment}
-        isSubmittingReport={state.isSubmittingReport}
-        reportMessage={state.reportMessage}
-        onSubmitReport={handleSubmitReport}
-        onCancelReport={handleCancelReport}
-        onReportCommentChange={state.setReportComment}
-      />
+      {!readonlyReportMode && (
+        <ReportingOverlay
+          reportingMode={state.reportingMode}
+          reportingStep={state.reportingStep}
+          reportComment={state.reportComment}
+          isSubmittingReport={state.isSubmittingReport}
+          reportMessage={state.reportMessage}
+          onSubmitReport={handleSubmitReport}
+          onCancelReport={handleCancelReport}
+          onReportCommentChange={state.setReportComment}
+        />
+      )}
 
       {/* Message Display */}
       {state.clipMessage && !state.reportingMode && !reportToView && (

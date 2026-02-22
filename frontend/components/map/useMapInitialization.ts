@@ -30,6 +30,7 @@ interface UseMapInitializationProps {
   setActiveDataLayers: (value: string[]) => void
   setSelectedLayerId: (value: number | null) => void
   setCurrentPolygon: (value: Polygon | null) => void
+  readonlyView?: boolean
 }
 
 interface UseMapInitializationReturn {
@@ -63,6 +64,7 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
     setActiveDataLayers,
     setSelectedLayerId,
     setCurrentPolygon,
+    readonlyView = false,
   } = props
 
   // Refs
@@ -171,39 +173,41 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
     map.addLayer(drawnItems)
     drawnItemsRef.current = drawnItems
 
-    // Initialize draw control
-    const drawControl = new L.Control.Draw({
-      position: 'topright',
-      draw: {
-        polygon: {
-          allowIntersection: false,
-          showArea: true,
-          shapeOptions: {
-            color: '#3388ff',
-            fillColor: 'transparent',
-            fillOpacity: 0,
-            weight: 3,
+    if (!readonlyView) {
+      // Initialize draw control
+      const drawControl = new L.Control.Draw({
+        position: 'topright',
+        draw: {
+          polygon: {
+            allowIntersection: false,
+            showArea: true,
+            shapeOptions: {
+              color: '#3388ff',
+              fillColor: 'transparent',
+              fillOpacity: 0,
+              weight: 3,
+            },
           },
-        },
-        polyline: false,
-        rectangle: {
-          shapeOptions: {
-            color: '#3388ff',
-            fillColor: 'transparent',
-            fillOpacity: 0,
-            weight: 3,
+          polyline: false,
+          rectangle: {
+            shapeOptions: {
+              color: '#3388ff',
+              fillColor: 'transparent',
+              fillOpacity: 0,
+              weight: 3,
+            },
           },
+          circle: false,
+          marker: false,
+          circlemarker: false,
         },
-        circle: false,
-        marker: false,
-        circlemarker: false,
-      },
-      edit: {
-        featureGroup: drawnItems,
-        remove: true,
-      },
-    })
-    map.addControl(drawControl)
+        edit: {
+          featureGroup: drawnItems,
+          remove: true,
+        },
+      })
+      map.addControl(drawControl)
+    }
 
     // Add zoom control to bottom-right
     L.control.zoom({ position: 'bottomright' }).addTo(map)
@@ -219,10 +223,11 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
         mapRef.current = null
       }
     }
-  }, [fetchLayers])
+  }, [fetchLayers, readonlyView])
 
   // Handle draw created for basic polygon tracking
   useEffect(() => {
+    if (readonlyView) return
     if (!mapRef.current) return
 
     const handleDrawCreated = (event: any) => {
@@ -249,10 +254,11 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
         mapRef.current.off(L.Draw.Event.DELETED, handleDrawDeleted)
       }
     }
-  }, [setHasDrawnPolygon])
+  }, [setHasDrawnPolygon, readonlyView])
 
   // Handle draw created for reporting mode
   useEffect(() => {
+    if (readonlyView) return
     if (!mapRef.current) return
 
     const handleDrawCreated = (event: any) => {
@@ -279,10 +285,11 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
         mapRef.current.off(L.Draw.Event.CREATED, handleDrawCreated)
       }
     }
-  }, [reportingMode, reportingStep, setReportingStep, setInvalidAreaPolygon, setClipMessage])
+  }, [reportingMode, reportingStep, setReportingStep, setInvalidAreaPolygon, setClipMessage, readonlyView])
 
   // Handle draw created for stats mode
   useEffect(() => {
+    if (readonlyView) return
     if (!mapRef.current) return
 
     const handleDrawCreated = (event: any) => {
@@ -308,7 +315,7 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
         mapRef.current.off(L.Draw.Event.CREATED, handleDrawCreated)
       }
     }
-  }, [statsMode, setStatsPolygon, setClipMessage])
+  }, [statsMode, setStatsPolygon, setClipMessage, readonlyView])
 
   // Basemap change handler
   const handleBasemapChange = useCallback((basemapName: string) => {
