@@ -1,3 +1,8 @@
+export interface LegendItem {
+  class: string
+  color: string
+}
+
 export interface Layer {
   id: number
   name: string
@@ -14,6 +19,7 @@ export interface Group {
   id: number
   name: string
   description: string | null
+  legend: LegendItem[] | null
   parent_id: number | null
   children: Group[]
   layers: Layer[]

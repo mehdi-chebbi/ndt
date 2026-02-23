@@ -4,6 +4,11 @@ import { useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation'
 import Link from 'next/link'
 
+interface LegendItem {
+  class: string
+  color: string
+}
+
 interface Layer {
   id: number
   geoserver_name: string
@@ -24,6 +29,7 @@ interface Group {
   parent_id: number | null
   parent_name: string | null
   description: string | null
+  legend: LegendItem[] | null
   sort_order: number
   layer_count: string
   child_count: string
@@ -78,6 +84,7 @@ export default function LayerManagementPage() {
     name: '',
     parent_id: '',
     description: '',
+    legend: [] as LegendItem[],
     sort_order: 0
   })
   const [groupFormError, setGroupFormError] = useState('')
@@ -306,6 +313,7 @@ export default function LayerManagementPage() {
         name: group.name,
         parent_id: group.parent_id ? String(group.parent_id) : '',
         description: group.description || '',
+        legend: group.legend || [],
         sort_order: group.sort_order
       })
     } else {
@@ -314,6 +322,7 @@ export default function LayerManagementPage() {
         name: '',
         parent_id: '',
         description: '',
+        legend: [],
         sort_order: 0
       })
     }
@@ -351,6 +360,7 @@ export default function LayerManagementPage() {
           name: groupFormData.name,
           parent_id: groupFormData.parent_id ? parseInt(groupFormData.parent_id) : null,
           description: groupFormData.description || null,
+          legend: groupFormData.legend.length > 0 ? groupFormData.legend : null,
           sort_order: groupFormData.sort_order
         })
       })
@@ -962,6 +972,79 @@ export default function LayerManagementPage() {
                   placeholder="e.g., Land Cover layers"
                   rows={3}
                 />
+              </div>
+
+              {/* Legend Editor */}
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-2">
+                  Legend
+                </label>
+                <div className="border border-gray-200 rounded-lg overflow-hidden">
+                  <div className="bg-gray-50 px-3 py-2 border-b border-gray-200 flex justify-between items-center">
+                    <span className="text-xs font-medium text-gray-600">Class - Color</span>
+                    <button
+                      type="button"
+                      onClick={() => setGroupFormData({
+                        ...groupFormData,
+                        legend: [...groupFormData.legend, { class: '', color: '#000000' }]
+                      })}
+                      className="text-sm text-gray-900 hover:text-gray-600 font-medium flex items-center gap-1"
+                    >
+                      <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" />
+                      </svg>
+                      Add Class
+                    </button>
+                  </div>
+                  <div className="max-h-48 overflow-y-auto">
+                    {groupFormData.legend.length === 0 ? (
+                      <div className="px-3 py-6 text-center text-gray-400 text-sm">
+                        No legend items. Click "Add Class" to start.
+                      </div>
+                    ) : (
+                      groupFormData.legend.map((item, index) => (
+                        <div key={index} className="flex items-center gap-2 px-3 py-2 border-b border-gray-100 last:border-b-0">
+                          <input
+                            type="text"
+                            value={item.class}
+                            onChange={(e) => {
+                              const newLegend = [...groupFormData.legend]
+                              newLegend[index] = { ...newLegend[index], class: e.target.value }
+                              setGroupFormData({ ...groupFormData, legend: newLegend })
+                            }}
+                            placeholder="Class name"
+                            className="flex-1 px-2 py-1 border border-gray-300 rounded text-sm focus:ring-1 focus:ring-gray-900 focus:border-transparent"
+                          />
+                          <input
+                            type="color"
+                            value={item.color}
+                            onChange={(e) => {
+                              const newLegend = [...groupFormData.legend]
+                              newLegend[index] = { ...newLegend[index], color: e.target.value }
+                              setGroupFormData({ ...groupFormData, legend: newLegend })
+                            }}
+                            className="w-10 h-8 border border-gray-300 rounded cursor-pointer"
+                          />
+                          <button
+                            type="button"
+                            onClick={() => {
+                              const newLegend = groupFormData.legend.filter((_, i) => i !== index)
+                              setGroupFormData({ ...groupFormData, legend: newLegend })
+                            }}
+                            className="p-1 text-red-500 hover:text-red-700"
+                          >
+                            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+                            </svg>
+                          </button>
+                        </div>
+                      ))
+                    )}
+                  </div>
+                </div>
+                <p className="text-xs text-gray-500 mt-1">
+                  Legend will be displayed on the map for all layers in this group. Child groups without a legend will inherit this.
+                </p>
               </div>
 
               <div>

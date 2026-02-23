@@ -89,6 +89,7 @@ function buildGroupTree(groups: any[], layers: any[]): any[] {
       id: g.id,
       name: g.name,
       description: g.description,
+      legend: g.legend,
       parent_id: g.parent_id,
       children: [],
       layers: layers.filter((l: any) => l.group_id === g.id)
@@ -122,9 +123,9 @@ router.get('/layers', async (req: Request, res: Response) => {
       ORDER BY l.sort_order ASC, l.created_at ASC
     `);
 
-    // Get all groups
+    // Get all groups with legend
     const groupsResult = await pool.query(`
-      SELECT id, name, description, parent_id, sort_order
+      SELECT id, name, description, parent_id, legend, sort_order
       FROM layer_groups
       ORDER BY sort_order ASC, created_at ASC
     `);

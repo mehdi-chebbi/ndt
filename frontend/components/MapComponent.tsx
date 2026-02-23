@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect } from 'react'
+import { useEffect, useMemo } from 'react'
 import { useRouter } from 'next/navigation'
 
 // Import tab components
@@ -8,6 +8,10 @@ import BasemapsTab from './map/BasemapsTab'
 import DataTab from './map/DataTab'
 import StatsTab from './map/StatsTab'
 import ReportingOverlay from './map/ReportingOverlay'
+import Legend from './map/Legend'
+
+// Import types
+import { Group, LegendItem } from './map/types'
 
 // Import hooks
 import { useMapState, flattenLayers } from './map/useMapState'
@@ -27,6 +31,40 @@ interface MapComponentProps {
   reportToView?: ReportToView | null
 }
 
+// Helper: Find a group by ID in the tree
+function findGroupById(groups: Group[], id: number): Group | null {
+  for (const group of groups) {
+    if (group.id === id) return group
+    if (group.children.length > 0) {
+      const found = findGroupById(group.children, id)
+      if (found) return found
+    }
+  }
+  return null
+}
+
+// Helper: Find inherited legend by traversing parent chain
+function findInheritedLegend(
+  groupId: number,
+  groups: Group[]
+): LegendItem[] | null {
+  const group = findGroupById(groups, groupId)
+  if (!group) return null
+
+  // If this group has a legend, use it
+  if (group.legend && group.legend.length > 0) {
+    return group.legend
+  }
+
+  // If no legend and has parent, check parent
+  if (group.parent_id) {
+    return findInheritedLegend(group.parent_id, groups)
+  }
+
+  // No legend and no parent = no legend to show
+  return null
+}
+
 const MapComponent = ({ reportToView }: MapComponentProps) => {
   const router = useRouter()
   
@@ -38,6 +76,28 @@ const MapComponent = ({ reportToView }: MapComponentProps) => {
     ...flattenLayers(state.groupedLayers.groups),
     ...state.groupedLayers.ungroupedLayers
   ]
+
+  // Find the active layer and its inherited legend
+  const { activeLayerLegend, activeLayerName } = useMemo(() => {
+    if (state.activeDataLayers.length === 0) {
+      return { activeLayerLegend: null, activeLayerName: null }
+    }
+
+    const activeLayer = allLayers.find(l => l.geoserver_name === state.activeDataLayers[0])
+    if (!activeLayer) {
+      return { activeLayerLegend: null, activeLayerName: null }
+    }
+
+    // Find inherited legend from group hierarchy
+    const legend = activeLayer.group_id
+      ? findInheritedLegend(activeLayer.group_id, state.groupedLayers.groups)
+      : null
+
+    return {
+      activeLayerLegend: legend,
+      activeLayerName: activeLayer.name
+    }
+  }, [state.activeDataLayers, allLayers, state.groupedLayers.groups])
 
   // Initialize map and get handlers
   const {
@@ -301,6 +361,11 @@ const MapComponent = ({ reportToView }: MapComponentProps) => {
         <div className="absolute top-4 right-4 bg-gray-900 text-white px-6 py-3 rounded-lg shadow-lg z-50">
           {state.clipMessage}
         </div>
+      )}
+
+      {/* Legend - bottom right */}
+      {activeLayerLegend && activeLayerLegend.length > 0 && !state.reportingMode && (
+        <Legend legend={activeLayerLegend} layerName={activeLayerName} />
       )}
     </div>
   )

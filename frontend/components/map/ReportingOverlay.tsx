@@ -24,7 +24,7 @@ export default function ReportingOverlay({
   if (!reportingMode) return null
 
   return (
-    <div className="absolute bottom-4 right-4 bg-white rounded-lg shadow-xl p-4 max-w-sm z-50 border-2 border-red-300">
+    <div className="absolute bottom-4 left-1/2 -translate-x-1/2 bg-white rounded-lg shadow-xl p-4 max-w-sm z-50 border-2 border-red-300">
       <div className="flex items-center gap-2 mb-3">
         <div className="w-3 h-3 bg-red-500 rounded-full animate-pulse"></div>
         <h3 className="text-sm font-bold text-gray-900">Report Invalid Data</h3>

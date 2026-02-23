@@ -121,7 +121,7 @@ export const getGroupById = async (req: AuthRequest, res: Response) => {
 // Create group (admin only)
 export const createGroup = async (req: AuthRequest, res: Response) => {
   try {
-    const { name, parent_id, description, sort_order } = req.body;
+    const { name, parent_id, description, legend, sort_order } = req.body;
 
     if (!name) {
       return res.status(400).json({ error: 'Group name is required' });
@@ -136,10 +136,10 @@ export const createGroup = async (req: AuthRequest, res: Response) => {
     }
 
     const result = await pool.query(
-      `INSERT INTO layer_groups (name, parent_id, description, sort_order)
-       VALUES ($1, $2, $3, $4)
+      `INSERT INTO layer_groups (name, parent_id, description, legend, sort_order)
+       VALUES ($1, $2, $3, $4, $5)
        RETURNING *`,
-      [name, parent_id || null, description || null, sort_order || 0]
+      [name, parent_id || null, description || null, legend ? JSON.stringify(legend) : null, sort_order || 0]
     );
 
     res.status(201).json({
@@ -156,7 +156,7 @@ export const createGroup = async (req: AuthRequest, res: Response) => {
 export const updateGroup = async (req: AuthRequest, res: Response) => {
   try {
     const { id } = req.params;
-    const { name, parent_id, description, sort_order } = req.body;
+    const { name, parent_id, description, legend, sort_order } = req.body;
 
     const groupId = parseInt(id);
     if (isNaN(groupId)) {
@@ -201,11 +201,12 @@ export const updateGroup = async (req: AuthRequest, res: Response) => {
        SET name = COALESCE($1, name),
            parent_id = CASE WHEN $2::integer IS NULL THEN NULL ELSE COALESCE($2, parent_id) END,
            description = COALESCE($3, description),
-           sort_order = COALESCE($4, sort_order),
+           legend = COALESCE($4, legend),
+           sort_order = COALESCE($5, sort_order),
            updated_at = CURRENT_TIMESTAMP
-       WHERE id = $5
+       WHERE id = $6
        RETURNING *`,
-      [name, parent_id === null ? null : (parent_id || undefined), description, sort_order, groupId]
+      [name, parent_id === null ? null : (parent_id || undefined), description, legend ? JSON.stringify(legend) : undefined, sort_order, groupId]
     );
 
     res.status(200).json({

@@ -327,21 +327,30 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
     setActiveBasemap(basemapName)
   }, [activeBasemap, setActiveBasemap])
 
-  // Data layer toggle handler
+  // Data layer toggle handler (radio behavior - only one active at a time)
   const handleDataLayerToggle = useCallback((layer: Layer) => {
     if (!mapRef.current) return
 
     const layerKey = layer.geoserver_name
 
     if (activeDataLayers.includes(layerKey)) {
-      // Remove layer
+      // Remove layer (deselect)
       if (dataLayersRef.current[layerKey]) {
         mapRef.current.removeLayer(dataLayersRef.current[layerKey] as L.Layer)
         delete dataLayersRef.current[layerKey]
       }
-      setActiveDataLayers(activeDataLayers.filter(name => name !== layerKey))
+      setActiveDataLayers([])
+      setSelectedLayerId(null)
     } else {
-      // Add WMS layer
+      // Remove all existing layers first (radio behavior)
+      activeDataLayers.forEach(activeKey => {
+        if (dataLayersRef.current[activeKey]) {
+          mapRef.current!.removeLayer(dataLayersRef.current[activeKey] as L.Layer)
+          delete dataLayersRef.current[activeKey]
+        }
+      })
+
+      // Add new WMS layer
       const newLayer = L.tileLayer.wms(layer.wmsUrl, {
         layers: layer.layerName,
         format: 'image/png',
@@ -357,7 +366,7 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
         mapRef.current.fitBounds(layer.bounds)
       }
 
-      setActiveDataLayers([...activeDataLayers, layerKey])
+      setActiveDataLayers([layerKey])
       setSelectedLayerId(layer.id)
       setCurrentPolygon(null)
     }
@@ -392,21 +401,26 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
       return
     }
 
-    // Enable the layer if not already active
-    if (!activeDataLayers.includes(layerName)) {
-      // Add WMS layer
-      const newLayer = L.tileLayer.wms(layer.wmsUrl, {
-        layers: layer.layerName,
-        format: 'image/png',
-        transparent: true,
-        attribution: `GeoServer - ${layer.name}`,
-        bounds: layer.bounds,
-      })
-      newLayer.addTo(mapRef.current)
-      dataLayersRef.current[layerName] = newLayer
-      setActiveDataLayers([...activeDataLayers, layerName])
-      setSelectedLayerId(layer.id)
-    }
+    // Remove all existing layers first (radio behavior)
+    activeDataLayers.forEach(activeKey => {
+      if (dataLayersRef.current[activeKey]) {
+        mapRef.current!.removeLayer(dataLayersRef.current[activeKey] as L.Layer)
+        delete dataLayersRef.current[activeKey]
+      }
+    })
+
+    // Add WMS layer
+    const newLayer = L.tileLayer.wms(layer.wmsUrl, {
+      layers: layer.layerName,
+      format: 'image/png',
+      transparent: true,
+      attribution: `GeoServer - ${layer.name}`,
+      bounds: layer.bounds,
+    })
+    newLayer.addTo(mapRef.current)
+    dataLayersRef.current[layerName] = newLayer
+    setActiveDataLayers([layerName])
+    setSelectedLayerId(layer.id)
 
     // Remove previous report polygon if exists
     if (reportPolygonRef.current) {

@@ -21,6 +21,7 @@ CREATE TABLE IF NOT EXISTS layer_groups (
   name VARCHAR(255) NOT NULL,
   parent_id INTEGER REFERENCES layer_groups(id) ON DELETE CASCADE,
   description TEXT,
+  legend JSONB,
   sort_order INTEGER DEFAULT 0,
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
   updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
