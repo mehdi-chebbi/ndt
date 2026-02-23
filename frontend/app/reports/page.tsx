@@ -403,7 +403,7 @@ export default function ReportsPage() {
 
                   {/* View on Map Button */}
                   <button
-                    onClick={() => router.push(`/map?viewReport=${selectedReport.id}`)}
+                    onClick={() => router.push(`/report-view?viewReport=${selectedReport.id}`)}
                     className="w-full mt-2 px-4 py-2 bg-gray-900 text-white rounded-lg hover:bg-gray-700 transition font-medium"
                   >
                     View on Map
