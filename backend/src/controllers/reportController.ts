@@ -1,5 +1,6 @@
 import { Request, Response } from 'express';
 import pool from '../config/database';
+import { sendReportNotification } from '../services/emailService';
 
 // Create a new invalid data report
 export const createReport = async (req: any, res: Response) => {
@@ -48,6 +49,15 @@ export const createReport = async (req: any, res: Response) => {
         user: userResult.rows[0],
       }
     });
+
+    // Send email notification (async, don't wait for it)
+    sendReportNotification({
+      reportId: report.id,
+      reporterName: userResult.rows[0].name,
+      reporterEmail: userResult.rows[0].email,
+      layer: original_layer,
+      comment: comment,
+    }).catch(err => console.error('Failed to send notification email:', err));
   } catch (error: any) {
     console.error('Create report error:', error);
     res.status(500).json({ error: 'Internal server error' });

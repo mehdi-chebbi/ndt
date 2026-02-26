@@ -18,6 +18,13 @@ interface Report {
   updated_at: string
 }
 
+interface NotificationRecipient {
+  id: number
+  email: string
+  is_active: boolean
+  created_at: string
+}
+
 export default function ReportsPage() {
   const router = useRouter()
   const [reports, setReports] = useState<Report[]>([])
@@ -26,6 +33,13 @@ export default function ReportsPage() {
   const [filterStatus, setFilterStatus] = useState<'all' | 'invalid' | 'fixed'>('invalid')
   const [selectedReport, setSelectedReport] = useState<Report | null>(null)
   const [isUpdating, setIsUpdating] = useState(false)
+
+  // Notification modal state
+  const [showNotificationModal, setShowNotificationModal] = useState(false)
+  const [recipients, setRecipients] = useState<NotificationRecipient[]>([])
+  const [newEmail, setNewEmail] = useState('')
+  const [isLoadingRecipients, setIsLoadingRecipients] = useState(false)
+  const [isAddingEmail, setIsAddingEmail] = useState(false)
 
   useEffect(() => {
     checkAuth()
@@ -157,13 +171,105 @@ export default function ReportsPage() {
     })
   }
 
+  // Notification recipients functions
+  const fetchRecipients = async () => {
+    setIsLoadingRecipients(true)
+    try {
+      const token = localStorage.getItem('token')
+      const response = await fetch('/api/notifications', {
+        headers: {
+          'Authorization': `Bearer ${token}`,
+        },
+      })
+
+      if (!response.ok) {
+        throw new Error('Failed to fetch recipients')
+      }
+
+      const data = await response.json()
+      setRecipients(data.recipients || [])
+    } catch (err) {
+      console.error('Fetch recipients error:', err)
+    } finally {
+      setIsLoadingRecipients(false)
+    }
+  }
+
+  const addRecipient = async () => {
+    if (!newEmail.trim()) return
+
+    setIsAddingEmail(true)
+    try {
+      const token = localStorage.getItem('token')
+      const response = await fetch('/api/notifications', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': `Bearer ${token}`,
+        },
+        body: JSON.stringify({ email: newEmail.trim() }),
+      })
+
+      if (!response.ok) {
+        const error = await response.json()
+        throw new Error(error.error || 'Failed to add recipient')
+      }
+
+      const data = await response.json()
+      setRecipients([...recipients, data.recipient])
+      setNewEmail('')
+    } catch (err: any) {
+      console.error('Add recipient error:', err)
+      alert(err.message || 'Failed to add recipient')
+    } finally {
+      setIsAddingEmail(false)
+    }
+  }
+
+  const removeRecipient = async (id: number) => {
+    try {
+      const token = localStorage.getItem('token')
+      const response = await fetch(`/api/notifications/${id}`, {
+        method: 'DELETE',
+        headers: {
+          'Authorization': `Bearer ${token}`,
+        },
+      })
+
+      if (!response.ok) {
+        throw new Error('Failed to remove recipient')
+      }
+
+      setRecipients(recipients.filter(r => r.id !== id))
+    } catch (err) {
+      console.error('Remove recipient error:', err)
+      alert('Failed to remove recipient')
+    }
+  }
+
+  const openNotificationModal = () => {
+    setShowNotificationModal(true)
+    fetchRecipients()
+  }
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         {/* Header */}
-        <div className="mb-8">
-          <h1 className="text-3xl font-bold text-gray-900 mb-2">Invalid Data Reports</h1>
-          <p className="text-gray-600">Manage and review reports about invalid data</p>
+        <div className="mb-8 flex justify-between items-start">
+          <div>
+            <h1 className="text-3xl font-bold text-gray-900 mb-2">Invalid Data Reports</h1>
+            <p className="text-gray-600">Manage and review reports about invalid data</p>
+          </div>
+          <button
+            onClick={openNotificationModal}
+            className="flex items-center gap-2 px-4 py-2 bg-gray-900 text-white rounded-lg hover:bg-gray-700 transition font-medium"
+          >
+            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
+            </svg>
+            Configure Notifications
+          </button>
         </div>
 
         {/* Filters */}
@@ -422,6 +528,107 @@ export default function ReportsPage() {
           </div>
         )}
       </div>
+
+      {/* Notification Modal */}
+      {showNotificationModal && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+          <div className="bg-white rounded-lg shadow-xl w-full max-w-md mx-4">
+            <div className="flex justify-between items-center p-4 border-b">
+              <h2 className="text-lg font-bold text-gray-900">Notification Recipients</h2>
+              <button
+                onClick={() => setShowNotificationModal(false)}
+                className="text-gray-400 hover:text-gray-600 transition"
+              >
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
+            </div>
+
+            <div className="p-4">
+              <p className="text-sm text-gray-600 mb-4">
+                These email addresses will receive notifications when a new invalid data report is submitted.
+              </p>
+
+              {/* Add Email Form */}
+              <div className="flex gap-2 mb-4">
+                <input
+                  type="email"
+                  value={newEmail}
+                  onChange={(e) => setNewEmail(e.target.value)}
+                  placeholder="Enter email address"
+                  className="flex-1 px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-900"
+                  onKeyDown={(e) => {
+                    if (e.key === 'Enter') {
+                      addRecipient()
+                    }
+                  }}
+                />
+                <button
+                  onClick={addRecipient}
+                  disabled={isAddingEmail || !newEmail.trim()}
+                  className={`px-4 py-2 bg-gray-900 text-white rounded-lg font-medium transition ${
+                    isAddingEmail || !newEmail.trim()
+                      ? 'opacity-50 cursor-not-allowed'
+                      : 'hover:bg-gray-700'
+                  }`}
+                >
+                  {isAddingEmail ? 'Adding...' : 'Add'}
+                </button>
+              </div>
+
+              {/* Recipients List */}
+              <div className="max-h-64 overflow-y-auto">
+                {isLoadingRecipients ? (
+                  <div className="flex items-center justify-center py-8">
+                    <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-gray-900"></div>
+                  </div>
+                ) : recipients.length === 0 ? (
+                  <div className="text-center py-8 text-gray-500">
+                    <svg className="w-12 h-12 mx-auto mb-2 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                    </svg>
+                    <p>No recipients added yet</p>
+                  </div>
+                ) : (
+                  <div className="space-y-2">
+                    {recipients.map((recipient) => (
+                      <div
+                        key={recipient.id}
+                        className="flex items-center justify-between p-3 bg-gray-50 rounded-lg"
+                      >
+                        <div className="flex items-center gap-2">
+                          <svg className="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                          </svg>
+                          <span className="text-sm text-gray-900">{recipient.email}</span>
+                        </div>
+                        <button
+                          onClick={() => removeRecipient(recipient.id)}
+                          className="text-red-500 hover:text-red-700 transition"
+                        >
+                          <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+                          </svg>
+                        </button>
+                      </div>
+                    ))}
+                  </div>
+                )}
+              </div>
+            </div>
+
+            <div className="p-4 border-t bg-gray-50 rounded-b-lg">
+              <button
+                onClick={() => setShowNotificationModal(false)}
+                className="w-full px-4 py-2 bg-gray-900 text-white rounded-lg hover:bg-gray-700 transition font-medium"
+              >
+                Done
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   )
 }

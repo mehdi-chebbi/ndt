@@ -70,3 +70,15 @@ CREATE TABLE IF NOT EXISTS invalid_data_reports (
 CREATE INDEX IF NOT EXISTS idx_reports_user_id ON invalid_data_reports(user_id);
 CREATE INDEX IF NOT EXISTS idx_reports_status ON invalid_data_reports(status);
 CREATE INDEX IF NOT EXISTS idx_reports_created_at ON invalid_data_reports(created_at DESC);
+
+-- Create notification_recipients table (emails that receive report notifications)
+CREATE TABLE IF NOT EXISTS notification_recipients (
+  id SERIAL PRIMARY KEY,
+  email VARCHAR(255) UNIQUE NOT NULL,
+  is_active BOOLEAN DEFAULT true,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Create index for notification_recipients
+CREATE INDEX IF NOT EXISTS idx_notification_recipients_email ON notification_recipients(email);
+CREATE INDEX IF NOT EXISTS idx_notification_recipients_is_active ON notification_recipients(is_active);

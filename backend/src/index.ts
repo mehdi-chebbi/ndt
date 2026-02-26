@@ -17,6 +17,7 @@ import clipRoutes from './routes/clipRoutes';
 import reportRoutes from './routes/reportRoutes';
 import layerRoutes from './routes/layerRoutes';
 import groupRoutes from './routes/groupRoutes';
+import notificationRoutes from './routes/notificationRoutes';
 
 app.use('/api/auth', authRoutes);
 app.use('/api/admin', userRoutes);
@@ -24,6 +25,7 @@ app.use('/api/clip', clipRoutes);
 app.use('/api/reports', reportRoutes);
 app.use('/api/layers', layerRoutes);
 app.use('/api/groups', groupRoutes);
+app.use('/api/notifications', notificationRoutes);
 
 
 // Health check
@@ -151,6 +153,25 @@ async function initializeDatabase() {
 
     await pool.query(`
       CREATE INDEX IF NOT EXISTS idx_reports_created_at ON invalid_data_reports(created_at DESC)
+    `);
+
+    // Create notification_recipients table
+    await pool.query(`
+      CREATE TABLE IF NOT EXISTS notification_recipients (
+        id SERIAL PRIMARY KEY,
+        email VARCHAR(255) UNIQUE NOT NULL,
+        is_active BOOLEAN DEFAULT true,
+        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+      )
+    `);
+
+    // Create indexes for notification_recipients
+    await pool.query(`
+      CREATE INDEX IF NOT EXISTS idx_notification_recipients_email ON notification_recipients(email)
+    `);
+
+    await pool.query(`
+      CREATE INDEX IF NOT EXISTS idx_notification_recipients_is_active ON notification_recipients(is_active)
     `);
 
     console.log('Database tables initialized successfully');
