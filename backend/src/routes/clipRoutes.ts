@@ -5,7 +5,7 @@ const router = Router();
 
 // GeoServer configuration
 const GEOSERVER_REST_URL = process.env.GEOSERVER_REST_URL || 'http://geoserver:8080/geoserver/rest';
-const GEOSERVER_WMS_URL = process.env.GEOSERVER_WMS_URL || 'http://localhost:8080/geoserver';
+const GEOSERVER_WMS_URL = process.env.GEOSERVER_WMS_URL || 'http://geoserver:8080/geoserver';
 const GEOSERVER_USER = process.env.GEOSERVER_USER || 'admin';
 const GEOSERVER_PASSWORD = process.env.GEOSERVER_PASSWORD || 'geoserver';
 
@@ -20,6 +20,64 @@ const GEOSERVER_HEADERS = {
 
 // Common bounds for all layers (south-west, north-east corners)
 const DEFAULT_BOUNDS: [[number, number], [number, number]] = [[-34.83, -25.36], [37.56, 60.00]];
+
+// ============================================
+// WMS Proxy Endpoint - Secure GeoServer Access
+// ============================================
+// This endpoint proxies all WMS requests to GeoServer, keeping it private.
+// Frontend calls: GET /api/clip/wms?workspace=LC&service=WMS&version=1.1.1&request=GetMap&...
+// Backend forwards to: http://geoserver:8080/geoserver/LC/wms?service=WMS&...
+router.get('/wms', async (req: Request, res: Response) => {
+  try {
+    const { workspace, ...wmsParams } = req.query;
+
+    if (!workspace) {
+      return res.status(400).json({ error: 'workspace parameter is required' });
+    }
+
+    // Build GeoServer WMS URL
+    const geoserverUrl = `${GEOSERVER_WMS_URL}/${workspace}/wms`;
+
+    // Build query string from WMS parameters
+    const queryString = new URLSearchParams(
+      Object.entries(wmsParams).map(([key, value]) => [key, String(value)])
+    ).toString();
+
+    const fullUrl = `${geoserverUrl}?${queryString}`;
+
+    // Forward request to GeoServer with auth
+    const response = await fetch(fullUrl, {
+      headers: {
+        'Authorization': GEOSERVER_AUTH,
+      },
+    });
+
+    if (!response.ok) {
+      console.error(`GeoServer WMS error: ${response.status} ${response.statusText}`);
+      return res.status(response.status).json({ 
+        error: 'Failed to fetch from GeoServer',
+        status: response.status 
+      });
+    }
+
+    // Get content type from GeoServer response
+    const contentType = response.headers.get('content-type');
+    if (contentType) {
+      res.setHeader('Content-Type', contentType);
+    }
+
+    // Stream the response body directly to client (no buffering)
+    const arrayBuffer = await response.arrayBuffer();
+    res.send(Buffer.from(arrayBuffer));
+
+  } catch (error: any) {
+    console.error('WMS proxy error:', error);
+    res.status(500).json({ 
+      error: 'WMS proxy error',
+      message: error.message 
+    });
+  }
+});
 
 // Fetch layers from GeoServer REST API
 async function fetchLayersFromGeoServer(): Promise<any[]> {
@@ -60,7 +118,7 @@ async function fetchLayersFromGeoServer(): Promise<any[]> {
         return {
           geoserver_name: layerItem.name,
           display_name: layer.name,
-          wmsUrl: `${GEOSERVER_WMS_URL}/${workspace}/wms`,
+          wmsUrl: `/api/clip/wms?workspace=${workspace}`,
           layerName: layerItem.name,
           bounds: DEFAULT_BOUNDS,
           type: layer.type,
@@ -142,7 +200,9 @@ router.get('/layers', async (req: Request, res: Response) => {
         name: layer.display_name || layer.geoserver_name,
         geoserver_name: layer.geoserver_name,
         layerName: layer.geoserver_name,
-        wmsUrl: `${GEOSERVER_WMS_URL}/${workspace}/wms`,
+        // Use WMS proxy endpoint instead of direct GeoServer URL
+        // This keeps GeoServer private and adds auth/rate limiting capabilities
+        wmsUrl: `/api/clip/wms?workspace=${workspace}`,
         bounds: DEFAULT_BOUNDS,
         hasStats: !!layer.file_path && !!layer.class_labels,
         group_id: layer.group_id,
