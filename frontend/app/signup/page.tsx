@@ -9,7 +9,6 @@ export default function SignupPage() {
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const [confirmPassword, setConfirmPassword] = useState('')
-  const [role, setRole] = useState<'user' | 'admin'>('user')
   const [error, setError] = useState('')
   const [loading, setLoading] = useState(false)
   const router = useRouter()
@@ -36,7 +35,7 @@ export default function SignupPage() {
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ name, email, password, role }),
+        body: JSON.stringify({ name, email, password }),
       })
 
       const data = await response.json()
@@ -49,12 +48,8 @@ export default function SignupPage() {
       localStorage.setItem('token', data.token)
       localStorage.setItem('user', JSON.stringify(data.user))
 
-      // Redirect based on role
-      if (data.user.role === 'admin') {
-        router.push('/admin')
-      } else {
-        router.push('/dashboard')
-      }
+      // Redirect to dashboard
+      router.push('/dashboard')
     } catch (err: any) {
       setError(err.message)
     } finally {
@@ -117,21 +112,6 @@ export default function SignupPage() {
                 className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-900 focus:border-transparent outline-none transition"
                 placeholder="you@example.com"
               />
-            </div>
-
-            <div>
-              <label htmlFor="role" className="block text-sm font-medium text-gray-700 mb-2">
-                Account Type
-              </label>
-              <select
-                id="role"
-                value={role}
-                onChange={(e) => setRole(e.target.value as 'user' | 'admin')}
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-900 focus:border-transparent outline-none transition"
-              >
-                <option value="user">User</option>
-                <option value="admin">Admin</option>
-              </select>
             </div>
 
             <div>

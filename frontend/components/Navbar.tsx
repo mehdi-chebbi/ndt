@@ -13,13 +13,17 @@ export default function Navbar() {
 
   useEffect(() => {
     setMounted(true)
+  }, [])
+
+  // Re-check auth state when pathname changes
+  useEffect(() => {
     const token = localStorage.getItem('token')
     const userData = localStorage.getItem('user')
     setIsAuthenticated(!!token)
     if (userData) {
       setUser(JSON.parse(userData))
     }
-  }, [])
+  }, [pathname])
 
   const handleLogout = () => {
     localStorage.removeItem('token')

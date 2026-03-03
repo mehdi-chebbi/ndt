@@ -127,6 +127,29 @@ export default function DataTab({
         </div>
       )}
 
+      {/* Action Buttons - At the top */}
+      {!isLoadingLayers && !layerError && activeDataLayers.length > 0 && (
+        <div className="space-y-2 pb-2 border-b border-gray-200">
+          <button
+            onClick={onStartReport}
+            className="w-full py-3 bg-red-600 text-white rounded-lg hover:bg-red-700 transition font-medium"
+          >
+            Report Invalid Data
+          </button>
+          <button
+            onClick={onClearDrawings}
+            disabled={!hasDrawnPolygon}
+            className={`w-full py-2 rounded-lg font-medium transition text-sm ${
+              !hasDrawnPolygon
+                ? 'bg-gray-100 text-gray-400 cursor-not-allowed'
+                : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
+            }`}
+          >
+            Clear Drawings
+          </button>
+        </div>
+      )}
+
       {/* Nested Groups */}
       {!isLoadingLayers && !layerError && allLayers.length > 0 && (
         <div className="space-y-2">
@@ -160,31 +183,6 @@ export default function DataTab({
             </div>
           )}
         </div>
-      )}
-
-      {/* Clear Button */}
-      {activeDataLayers.length > 0 && (
-        <button
-          onClick={onClearDrawings}
-          disabled={!hasDrawnPolygon}
-          className={`w-full py-3 rounded-lg font-medium transition ${
-            !hasDrawnPolygon
-              ? 'bg-gray-100 text-gray-400 cursor-not-allowed'
-              : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
-          }`}
-        >
-          Clear Drawings
-        </button>
-      )}
-
-      {/* Report Invalid Data Button */}
-      {activeDataLayers.length > 0 && (
-        <button
-          onClick={onStartReport}
-          className="w-full py-3 bg-red-600 text-white rounded-lg hover:bg-red-700 transition font-medium"
-        >
-          Report Invalid Data
-        </button>
       )}
     </div>
   )

@@ -228,6 +228,8 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
     const handleDrawCreated = (event: any) => {
       const layer = event.layer
       if (drawnItemsRef.current) {
+        // Clear existing polygons before adding new one (only keep one at a time)
+        drawnItemsRef.current.clearLayers()
         drawnItemsRef.current.addLayer(layer)
       }
       setHasDrawnPolygon(true)
