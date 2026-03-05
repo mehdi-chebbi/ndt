@@ -112,9 +112,6 @@ const MapComponent = ({ reportToView }: MapComponentProps) => {
     setActiveBasemap: state.setActiveBasemap,
     groupedLayers: state.groupedLayers,
     setGroupedLayers: state.setGroupedLayers,
-    expandedGroups: state.expandedGroups,
-    setExpandedGroups: state.setExpandedGroups,
-    isLoadingLayers: state.isLoadingLayers,
     setIsLoadingLayers: state.setIsLoadingLayers,
     setLayerError: state.setLayerError,
     setHasDrawnPolygon: state.setHasDrawnPolygon,
@@ -307,11 +304,14 @@ const MapComponent = ({ reportToView }: MapComponentProps) => {
                 statsResults={state.statsResults}
                 isCalculatingStats={state.isCalculatingStats}
                 statsError={state.statsError}
+                groupedLayers={state.groupedLayers}
+                expandedGroups={state.expandedGroups}
                 allLayers={allLayers}
                 onStartStats={handleStartStats}
                 onCalculateStats={handleCalculateStats}
                 onCancelStats={handleCancelStats}
                 onStatsLayerChange={state.setStatsLayerId}
+                onToggleGroup={handleToggleGroup}
               />
             )}
           </div>

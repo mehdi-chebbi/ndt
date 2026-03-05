@@ -13,9 +13,6 @@ interface UseMapInitializationProps {
   setActiveBasemap: (value: string) => void
   groupedLayers: GroupedLayers
   setGroupedLayers: (value: GroupedLayers) => void
-  expandedGroups: Set<number | string>
-  setExpandedGroups: (value: Set<number | string>) => void
-  isLoadingLayers: boolean
   setIsLoadingLayers: (value: boolean) => void
   setLayerError: (value: string) => void
   setHasDrawnPolygon: (value: boolean) => void
@@ -47,8 +44,6 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
     setActiveBasemap,
     groupedLayers,
     setGroupedLayers,
-    expandedGroups,
-    setExpandedGroups,
     setIsLoadingLayers,
     setLayerError,
     setHasDrawnPolygon,
@@ -72,21 +67,6 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
   const dataLayersRef = useRef<{ [key: string]: L.TileLayer }>({})
   const drawnItemsRef = useRef<FeatureGroup | null>(null)
   const reportPolygonRef = useRef<L.Polygon | null>(null)
-
-  // Helper to collect group IDs
-  const collectGroupIds = useCallback((groupList: Group[]): Set<number | string> => {
-    const allGroupIds = new Set<number | string>()
-    const collectIds = (groups: Group[]) => {
-      groups.forEach(g => {
-        allGroupIds.add(g.id)
-        if (g.children?.length > 0) {
-          collectIds(g.children)
-        }
-      })
-    }
-    collectIds(groupList)
-    return allGroupIds
-  }, [])
 
   // Helper to find layer by geoserver_name
   const findLayerByName = useCallback((name: string, groups: Group[], ungroupedLayers: Layer[]): Layer | null => {
@@ -122,10 +102,7 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
       const data: GroupedLayers = await res.json()
       setGroupedLayers(data)
 
-      // Expand all groups by default
-      const allGroupIds = collectGroupIds(data.groups)
-      allGroupIds.add('ungrouped')
-      setExpandedGroups(allGroupIds)
+      // Groups are collapsed by default (empty Set)
 
       // Set first layer as selected
       const firstLayer = data.groups[0]?.layers[0] ||
@@ -140,7 +117,7 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
     } finally {
       setIsLoadingLayers(false)
     }
-  }, [setIsLoadingLayers, setLayerError, setGroupedLayers, collectGroupIds, setExpandedGroups, setSelectedLayerId])
+  }, [setIsLoadingLayers, setLayerError, setGroupedLayers, setSelectedLayerId])
 
   // Initialize map
   useEffect(() => {

@@ -410,15 +410,6 @@ export default function LayerManagementPage() {
     }
   }
 
-  // Get parent groups (for dropdown - exclude current group and its descendants)
-  const getParentGroupOptions = (excludeId?: number) => {
-    return groups.filter(g => {
-      if (excludeId && g.id === excludeId) return false
-      // Could add more logic to exclude descendants
-      return true
-    })
-  }
-
   // Build group tree for display
   const buildGroupTree = () => {
     const groupMap: { [key: number]: any } = {}
@@ -498,19 +489,25 @@ export default function LayerManagementPage() {
   const activeLayers = layers.filter(l => l.is_active).length
   const ungroupedLayers = layers.filter(l => !l.group_id).length
 
-  // Get all groups for layer dropdown (flatten with indentation)
+  // Get all groups for layer dropdown (flatten with full path)
   const getFlatGroupOptions = () => {
-    const options: { id: number; name: string; depth: number }[] = []
-    const addGroup = (groupList: any[], depth = 0) => {
+    const options: { id: number; name: string; path: string }[] = []
+    const addGroup = (groupList: any[], parentPath = '') => {
       groupList.forEach(g => {
-        options.push({ id: g.id, name: g.name, depth })
+        const currentPath = parentPath ? `${parentPath} → ${g.name}` : g.name
+        options.push({ id: g.id, name: g.name, path: currentPath })
         if (g.children?.length > 0) {
-          addGroup(g.children, depth + 1)
+          addGroup(g.children, currentPath)
         }
       })
     }
     addGroup(buildGroupTree())
     return options
+  }
+
+  // Get parent group options with full path (for group modal)
+  const getParentGroupOptionsWithPath = (excludeId?: number) => {
+    return getFlatGroupOptions().filter(g => g.id !== excludeId)
   }
 
   return (
@@ -828,7 +825,7 @@ export default function LayerManagementPage() {
                   <option value="">No Group (Ungrouped)</option>
                   {getFlatGroupOptions().map((g) => (
                     <option key={g.id} value={g.id}>
-                      {'  '.repeat(g.depth)}{g.name}
+                      {g.path}
                     </option>
                   ))}
                 </select>
@@ -950,9 +947,9 @@ export default function LayerManagementPage() {
                   className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-900 focus:border-transparent"
                 >
                   <option value="">No Parent (Root Group)</option>
-                  {getParentGroupOptions(editingGroup?.id).map((g) => (
+                  {getParentGroupOptionsWithPath(editingGroup?.id).map((g) => (
                     <option key={g.id} value={g.id}>
-                      {g.name}
+                      {g.path}
                     </option>
                   ))}
                 </select>

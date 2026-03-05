@@ -84,9 +84,12 @@ export interface StatsTabProps {
   statsResults: StatsResult | null
   isCalculatingStats: boolean
   statsError: string
+  groupedLayers: GroupedLayers
+  expandedGroups: Set<number | string>
   allLayers: Layer[]
   onStartStats: () => void
   onCalculateStats: () => void
   onCancelStats: () => void
   onStatsLayerChange: (layerId: number | null) => void
+  onToggleGroup: (groupId: number | string) => void
 }

@@ -2,6 +2,17 @@
 
 import { DataTabProps, Layer, Group } from './types'
 
+// Recursively count all layers in a group and its children
+function countAllLayers(group: Group): number {
+  let total = group.layers.length
+  if (group.children?.length > 0) {
+    for (const child of group.children) {
+      total += countAllLayers(child)
+    }
+  }
+  return total
+}
+
 export default function DataTab({
   groupedLayers,
   expandedGroups,
@@ -77,7 +88,7 @@ export default function DataTab({
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
               </svg>
               <span className="font-semibold text-gray-800">{group.name}</span>
-              <span className="text-xs text-gray-500">({group.layers.length})</span>
+              <span className="text-xs text-gray-500">({countAllLayers(group)})</span>
             </div>
           </button>
         )}
