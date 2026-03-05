@@ -67,6 +67,7 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
   const dataLayersRef = useRef<{ [key: string]: L.TileLayer }>({})
   const drawnItemsRef = useRef<FeatureGroup | null>(null)
   const reportPolygonRef = useRef<L.Polygon | null>(null)
+  const drawControlRef = useRef<L.Control.Draw | null>(null)
 
   // Helper to find layer by geoserver_name
   const findLayerByName = useCallback((name: string, groups: Group[], ungroupedLayers: Layer[]): Layer | null => {
@@ -148,7 +149,7 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
     map.addLayer(drawnItems)
     drawnItemsRef.current = drawnItems
 
-    // Initialize draw control
+    // Initialize draw control (but don't add it yet - only show when needed)
     const drawControl = new L.Control.Draw({
       position: 'topright',
       draw: {
@@ -180,7 +181,8 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
         remove: true,
       },
     })
-    map.addControl(drawControl)
+    // Store reference but don't add to map yet
+    drawControlRef.current = drawControl
 
     // Add zoom control to bottom-right
     L.control.zoom({ position: 'bottomright' }).addTo(map)
@@ -288,6 +290,36 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
       }
     }
   }, [statsMode, setStatsPolygon, setClipMessage])
+
+  // Show/hide draw control based on reporting mode or stats mode
+  useEffect(() => {
+    if (!mapRef.current || !drawControlRef.current) return
+
+    const shouldShowDrawControl = reportingMode || statsMode
+    const map = mapRef.current
+    const drawControl = drawControlRef.current
+
+    if (shouldShowDrawControl) {
+      // Add draw control to map
+      map.addControl(drawControl)
+    } else {
+      // Remove draw control from map
+      try {
+        map.removeControl(drawControl)
+      } catch (e) {
+        // Control might not be on map, ignore error
+      }
+    }
+
+    return () => {
+      // Cleanup: remove control if it's on the map
+      try {
+        map.removeControl(drawControl)
+      } catch (e) {
+        // Ignore if not on map
+      }
+    }
+  }, [reportingMode, statsMode])
 
   // Basemap change handler
   const handleBasemapChange = useCallback((basemapName: string) => {

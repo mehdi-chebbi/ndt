@@ -358,7 +358,7 @@ const MapComponent = ({ reportToView }: MapComponentProps) => {
 
       {/* Message Display */}
       {state.clipMessage && !state.reportingMode && !reportToView && (
-        <div className="absolute top-4 right-4 bg-gray-900 text-white px-6 py-3 rounded-lg shadow-lg z-50">
+        <div className="absolute top-4 left-1/2 -translate-x-1/2 bg-gray-900 text-white px-6 py-3 rounded-lg shadow-lg z-50">
           {state.clipMessage}
         </div>
       )}

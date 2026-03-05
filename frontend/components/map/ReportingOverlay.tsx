@@ -46,18 +46,16 @@ export default function ReportingOverlay({
 
       {reportingStep === 'comment' && (
         <div className="space-y-3">
-          <div>
-            <label className="block text-sm font-medium text-gray-700 mb-2">
-              Comment
-            </label>
-            <textarea
-              value={reportComment}
-              onChange={(e) => onReportCommentChange(e.target.value)}
-              placeholder="Describe the issue (e.g., 'Blue should be water, not sand')"
-              className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-500 focus:border-transparent resize-none"
-              rows={3}
-            />
+          <div className="text-sm text-gray-600">
+            Describe the issue with the selected area.
           </div>
+          <textarea
+            value={reportComment}
+            onChange={(e) => onReportCommentChange(e.target.value)}
+            placeholder="e.g., 'Blue should be water, not sand'"
+            className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-500 focus:border-transparent resize-none text-sm"
+            rows={2}
+          />
 
           <div className="flex gap-2">
             <button
@@ -67,11 +65,11 @@ export default function ReportingOverlay({
                 isSubmittingReport ? 'opacity-50 cursor-not-allowed' : 'hover:bg-red-700'
               }`}
             >
-              {isSubmittingReport ? 'Submitting...' : 'Submit Report'}
+              {isSubmittingReport ? 'Submitting...' : 'Submit'}
             </button>
             <button
               onClick={onCancelReport}
-              className="px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 transition font-medium text-sm"
+              className="flex-1 px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 transition font-medium text-sm"
             >
               Cancel
             </button>
