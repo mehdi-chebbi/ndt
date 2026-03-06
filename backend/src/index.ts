@@ -1,6 +1,8 @@
 import express, { Application, Request, Response } from 'express';
 import cors from 'cors';
 import pool from './config/database';
+import path from 'path';
+import fs from 'fs';
 
 const app: Application = express();
 const PORT = 3001;
@@ -9,6 +11,37 @@ const PORT = 3001;
 app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+
+// Static serving for GeoJSON files
+app.use('/geojson', express.static(path.join(__dirname, '../geojson')));
+
+// Countries API - auto-generate from filesystem
+app.get('/api/countries', (req: Request, res: Response) => {
+  try {
+    const geojsonDir = path.join(__dirname, '../geojson');
+    const files = fs.readdirSync(geojsonDir);
+    
+    const countries = files
+      .filter(file => file.endsWith('.geojson'))
+      .map(file => {
+        // Convert filename to country name
+        // e.g., "Cote_d_Ivoire.geojson" -> "Cote d Ivoire"
+        const name = file
+          .replace('.geojson', '')
+          .replace(/_/g, ' ');
+        return {
+          name,
+          file
+        };
+      })
+      .sort((a, b) => a.name.localeCompare(b.name));
+    
+    res.json(countries);
+  } catch (error) {
+    console.error('Error reading countries:', error);
+    res.status(500).json({ error: 'Failed to load countries' });
+  }
+});
 
 // Routes
 import authRoutes from './routes/authRoutes';

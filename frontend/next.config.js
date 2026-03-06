@@ -7,6 +7,10 @@ const nextConfig = {
         source: '/api/:path*',
         destination: 'http://backend:3001/api/:path*',
       },
+      {
+        source: '/geojson/:path*',
+        destination: 'http://backend:3001/geojson/:path*',
+      },
     ];
   },
 };

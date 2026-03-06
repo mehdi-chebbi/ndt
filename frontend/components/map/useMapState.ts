@@ -1,6 +1,11 @@
 import { useState, SetStateAction, Dispatch } from 'react'
 import { Group, GroupedLayers, Layer, Polygon, StatsResult } from './types'
 
+export interface Country {
+  name: string
+  file: string
+}
+
 interface MapState {
   // UI state
   activeBasemap: string
@@ -25,6 +30,10 @@ interface MapState {
   setLayerError: Dispatch<SetStateAction<string>>
   hasDrawnPolygon: boolean
   setHasDrawnPolygon: Dispatch<SetStateAction<boolean>>
+
+  // Country polygon state
+  selectedCountry: Country | null
+  setSelectedCountry: Dispatch<SetStateAction<Country | null>>
 
   // Reporting state
   reportingMode: boolean
@@ -74,6 +83,9 @@ export function useMapState(): MapState {
   const [layerError, setLayerError] = useState('')
   const [hasDrawnPolygon, setHasDrawnPolygon] = useState(false)
 
+  // Country polygon state
+  const [selectedCountry, setSelectedCountry] = useState<Country | null>(null)
+
   // Reporting state
   const [reportingMode, setReportingMode] = useState(false)
   const [reportingStep, setReportingStep] = useState<'draw' | 'comment'>('draw')
@@ -116,6 +128,10 @@ export function useMapState(): MapState {
     setLayerError,
     hasDrawnPolygon,
     setHasDrawnPolygon,
+
+    // Country polygon state
+    selectedCountry,
+    setSelectedCountry,
 
     // Reporting state
     reportingMode,

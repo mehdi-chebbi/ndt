@@ -6,6 +6,7 @@ import { FeatureGroup } from 'leaflet'
 
 import { basemaps } from './basemaps'
 import { Group, GroupedLayers, Layer, Polygon } from './types'
+import { Country } from './useMapState'
 
 interface UseMapInitializationProps {
   // State values
@@ -27,6 +28,9 @@ interface UseMapInitializationProps {
   setActiveDataLayers: (value: string[]) => void
   setSelectedLayerId: (value: number | null) => void
   setCurrentPolygon: (value: Polygon | null) => void
+  // Country polygon state
+  selectedCountry: Country | null
+  setSelectedCountry: (value: Country | null) => void
 }
 
 interface UseMapInitializationReturn {
@@ -34,8 +38,10 @@ interface UseMapInitializationReturn {
   handleBasemapChange: (basemapName: string) => void
   handleDataLayerToggle: (layer: Layer) => void
   clearDrawnItems: () => void
+  clearCountryPolygon: () => void
   getMapBounds: () => L.LatLngBounds | null
   viewReportOnMap: (layerName: string, polygon: Polygon) => void
+  loadCountryPolygon: (country: Country) => Promise<void>
 }
 
 export function useMapInitialization(props: UseMapInitializationProps): UseMapInitializationReturn {
@@ -58,6 +64,8 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
     setActiveDataLayers,
     setSelectedLayerId,
     setCurrentPolygon,
+    selectedCountry,
+    setSelectedCountry,
   } = props
 
   // Refs
@@ -68,6 +76,7 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
   const drawnItemsRef = useRef<FeatureGroup | null>(null)
   const reportPolygonRef = useRef<L.Polygon | null>(null)
   const drawControlRef = useRef<L.Control.Draw | null>(null)
+  const countryPolygonRef = useRef<L.GeoJSON | null>(null)
 
   // Helper to find layer by geoserver_name
   const findLayerByName = useCallback((name: string, groups: Group[], ungroupedLayers: Layer[]): Layer | null => {
@@ -234,10 +243,18 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
 
   // Handle draw created for reporting mode
   useEffect(() => {
-    if (!mapRef.current) return
+    const map = mapRef.current
+    if (!map) return
 
     const handleDrawCreated = (event: any) => {
       if (reportingMode && reportingStep === 'draw') {
+        // Clear country polygon (single active polygon rule)
+        if (countryPolygonRef.current) {
+          map.removeLayer(countryPolygonRef.current)
+          countryPolygonRef.current = null
+          setSelectedCountry(null)
+        }
+
         const layer = event.layer
         const drawnLayer = layer as L.Polygon
         const latlngs = drawnLayer.getLatLngs()[0] as L.LatLng[]
@@ -253,21 +270,27 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
       }
     }
 
-    mapRef.current.on(L.Draw.Event.CREATED, handleDrawCreated)
+    map.on(L.Draw.Event.CREATED, handleDrawCreated)
 
     return () => {
-      if (mapRef.current) {
-        mapRef.current.off(L.Draw.Event.CREATED, handleDrawCreated)
-      }
+      map.off(L.Draw.Event.CREATED, handleDrawCreated)
     }
-  }, [reportingMode, reportingStep, setReportingStep, setInvalidAreaPolygon, setClipMessage])
+  }, [reportingMode, reportingStep, setReportingStep, setInvalidAreaPolygon, setClipMessage, setSelectedCountry])
 
   // Handle draw created for stats mode
   useEffect(() => {
-    if (!mapRef.current) return
+    const map = mapRef.current
+    if (!map) return
 
     const handleDrawCreated = (event: any) => {
       if (statsMode) {
+        // Clear country polygon (single active polygon rule)
+        if (countryPolygonRef.current) {
+          map.removeLayer(countryPolygonRef.current)
+          countryPolygonRef.current = null
+          setSelectedCountry(null)
+        }
+
         const layer = event.layer
         const drawnLayer = layer as L.Polygon
         const latlngs = drawnLayer.getLatLngs()[0] as L.LatLng[]
@@ -282,14 +305,12 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
       }
     }
 
-    mapRef.current.on(L.Draw.Event.CREATED, handleDrawCreated)
+    map.on(L.Draw.Event.CREATED, handleDrawCreated)
 
     return () => {
-      if (mapRef.current) {
-        mapRef.current.off(L.Draw.Event.CREATED, handleDrawCreated)
-      }
+      map.off(L.Draw.Event.CREATED, handleDrawCreated)
     }
-  }, [statsMode, setStatsPolygon, setClipMessage])
+  }, [statsMode, setStatsPolygon, setClipMessage, setSelectedCountry])
 
   // Show/hide draw control based on reporting mode or stats mode
   useEffect(() => {
@@ -391,6 +412,15 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
     }
   }, [setHasDrawnPolygon])
 
+  // Clear country polygon
+  const clearCountryPolygon = useCallback(() => {
+    if (countryPolygonRef.current && mapRef.current) {
+      mapRef.current.removeLayer(countryPolygonRef.current)
+      countryPolygonRef.current = null
+    }
+    setSelectedCountry(null)
+  }, [setSelectedCountry])
+
   // Get map bounds
   const getMapBounds = useCallback((): L.LatLngBounds | null => {
     if (mapRef.current) {
@@ -398,6 +428,60 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
     }
     return null
   }, [])
+
+  // Load country polygon from GeoJSON
+  const loadCountryPolygon = useCallback(async (country: Country) => {
+    if (!mapRef.current) return
+
+    try {
+      // Fetch GeoJSON file - Next.js rewrites will proxy to backend
+      const res = await fetch(`/geojson/${country.file}`)
+      if (!res.ok) throw new Error('Failed to fetch country GeoJSON')
+      const geojson = await res.json()
+
+      // Clear existing country polygon
+      if (countryPolygonRef.current) {
+        mapRef.current.removeLayer(countryPolygonRef.current)
+      }
+
+      // Clear drawn items (single active polygon rule)
+      if (drawnItemsRef.current) {
+        drawnItemsRef.current.clearLayers()
+        setHasDrawnPolygon(false)
+      }
+
+      // Clear report polygon if exists
+      if (reportPolygonRef.current) {
+        mapRef.current.removeLayer(reportPolygonRef.current)
+        reportPolygonRef.current = null
+      }
+
+      // Add country polygon with border-only styling
+      const countryLayer = L.geoJSON(geojson, {
+        style: {
+          color: '#3388ff',      // Blue border
+          weight: 2,
+          fill: false,           // No fill
+        }
+      })
+
+      countryLayer.addTo(mapRef.current)
+      countryPolygonRef.current = countryLayer
+      setSelectedCountry(country)
+
+      // Zoom to country bounds
+      const bounds = countryLayer.getBounds()
+      mapRef.current.fitBounds(bounds, {
+        padding: [20, 20],
+        maxZoom: 10,
+      })
+
+      setClipMessage(`Viewing: ${country.name}`)
+    } catch (error) {
+      console.error('Failed to load country polygon:', error)
+      setClipMessage(`Failed to load ${country.name}`)
+    }
+  }, [setHasDrawnPolygon, setSelectedCountry, setClipMessage])
 
   // View report on map - enable layer, draw polygon, zoom to it
   const viewReportOnMap = useCallback((layerName: string, polygon: Polygon) => {
@@ -419,6 +503,13 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
         delete dataLayersRef.current[activeKey]
       }
     })
+
+    // Clear country polygon (single active polygon rule)
+    if (countryPolygonRef.current) {
+      mapRef.current.removeLayer(countryPolygonRef.current)
+      countryPolygonRef.current = null
+      setSelectedCountry(null)
+    }
 
     // Add WMS layer
     const newLayer = L.tileLayer.wms(layer.wmsUrl, {
@@ -465,14 +556,16 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
 
     setHasDrawnPolygon(true)
     setClipMessage(`Viewing report for layer: ${layer.name}`)
-  }, [groupedLayers, activeDataLayers, findLayerByName, setActiveDataLayers, setSelectedLayerId, setHasDrawnPolygon, setClipMessage])
+  }, [groupedLayers, activeDataLayers, findLayerByName, setActiveDataLayers, setSelectedLayerId, setHasDrawnPolygon, setClipMessage, setSelectedCountry])
 
   return {
     mapContainerRef,
     handleBasemapChange,
     handleDataLayerToggle,
     clearDrawnItems,
+    clearCountryPolygon,
     getMapBounds,
     viewReportOnMap,
+    loadCountryPolygon,
   }
 }

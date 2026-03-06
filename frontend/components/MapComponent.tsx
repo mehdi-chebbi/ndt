@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useMemo } from 'react'
+import { useEffect, useMemo, useCallback } from 'react'
 import { useRouter } from 'next/navigation'
 
 // Import tab components
@@ -9,9 +9,11 @@ import DataTab from './map/DataTab'
 import StatsTab from './map/StatsTab'
 import ReportingOverlay from './map/ReportingOverlay'
 import Legend from './map/Legend'
+import CountrySelector from './map/CountrySelector'
 
 // Import types
 import { Group, LegendItem } from './map/types'
+import { Country } from './map/useMapState'
 
 // Import hooks
 import { useMapState, flattenLayers } from './map/useMapState'
@@ -105,8 +107,10 @@ const MapComponent = ({ reportToView }: MapComponentProps) => {
     handleBasemapChange,
     handleDataLayerToggle,
     clearDrawnItems,
+    clearCountryPolygon,
     getMapBounds,
     viewReportOnMap,
+    loadCountryPolygon,
   } = useMapInitialization({
     activeBasemap: state.activeBasemap,
     setActiveBasemap: state.setActiveBasemap,
@@ -126,7 +130,18 @@ const MapComponent = ({ reportToView }: MapComponentProps) => {
     setActiveDataLayers: state.setActiveDataLayers,
     setSelectedLayerId: state.setSelectedLayerId,
     setCurrentPolygon: state.setCurrentPolygon,
+    selectedCountry: state.selectedCountry,
+    setSelectedCountry: state.setSelectedCountry,
   })
+
+  // Handle country selection
+  const handleCountrySelect = useCallback((country: Country | null) => {
+    if (country) {
+      loadCountryPolygon(country)
+    } else {
+      clearCountryPolygon()
+    }
+  }, [loadCountryPolygon, clearCountryPolygon])
 
   // Get business logic handlers
   const {
@@ -334,6 +349,19 @@ const MapComponent = ({ reportToView }: MapComponentProps) => {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
         </svg>
       </button>
+
+      {/* Country Selector - positioned right next to sidebar */}
+      <div
+        className={`absolute top-4 z-40 transition-all duration-300 ${
+          state.sidebarOpen ? 'left-[340px]' : 'left-[60px]'
+        }`}
+      >
+        <CountrySelector
+          selectedCountry={state.selectedCountry?.name || null}
+          onSelectCountry={handleCountrySelect}
+          disabled={state.reportingMode || state.statsMode}
+        />
+      </div>
 
       {/* Map Container */}
       <div className="flex-1 h-full relative">
