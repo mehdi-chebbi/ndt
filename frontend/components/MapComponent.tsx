@@ -12,7 +12,7 @@ import Legend from './map/Legend'
 import CountrySelector from './map/CountrySelector'
 
 // Import types
-import { Group, LegendItem } from './map/types'
+import { Group, LegendItem, Layer } from './map/types'
 import { Country } from './map/useMapState'
 
 // Import hooks
@@ -45,6 +45,50 @@ function findGroupById(groups: Group[], id: number): Group | null {
   return null
 }
 
+// Helper: Flatten groups with their layers for easy selection (including nested groups)
+interface GroupWithLayers {
+  id: number | string
+  name: string
+  path: string // Full path like "Parent → Child"
+  layers: Layer[]
+}
+
+function flattenGroupsWithLayers(groups: Group[], ungroupedLayers: Layer[]): GroupWithLayers[] {
+  const result: GroupWithLayers[] = []
+  
+  const flatten = (groupList: Group[], parentPath = '') => {
+    for (const group of groupList) {
+      const currentPath = parentPath ? `${parentPath} → ${group.name}` : group.name
+      
+      result.push({
+        id: group.id,
+        name: group.name,
+        path: currentPath,
+        layers: group.layers,
+      })
+      
+      // Process children recursively
+      if (group.children?.length > 0) {
+        flatten(group.children, currentPath)
+      }
+    }
+  }
+  
+  flatten(groups)
+  
+  // Add "Other Layers" for ungrouped layers
+  if (ungroupedLayers.length > 0) {
+    result.push({
+      id: 'ungrouped',
+      name: 'Other Layers',
+      path: 'Other Layers',
+      layers: ungroupedLayers,
+    })
+  }
+  
+  return result
+}
+
 // Helper: Find inherited legend by traversing parent chain
 function findInheritedLegend(
   groupId: number,
@@ -73,6 +117,20 @@ const MapComponent = ({ reportToView }: MapComponentProps) => {
   
   // Get all state from custom hook
   const state = useMapState()
+
+  // Compare mode state
+  const [isCompareMode, setIsCompareMode] = useState(false)
+  const [showComparePicker, setShowComparePicker] = useState(false)
+  const [leftGroupId, setLeftGroupId] = useState<number | string | null>(null)
+  const [leftLayerId, setLeftLayerId] = useState<string>('')
+  const [rightGroupId, setRightGroupId] = useState<number | string | null>(null)
+  const [rightLayerId, setRightLayerId] = useState<string>('')
+  const [sidebarWasOpen, setSidebarWasOpen] = useState(true)
+
+  // Get all groups with their layers for compare picker
+  const allGroupsWithLayers = useMemo(() => {
+    return flattenGroupsWithLayers(state.groupedLayers.groups, state.groupedLayers.ungroupedLayers)
+  }, [state.groupedLayers])
 
   // Get all layers flattened
   const allLayers = [
@@ -113,6 +171,8 @@ const MapComponent = ({ reportToView }: MapComponentProps) => {
     viewReportOnMap,
     loadCountryPolygon,
     handleExport,
+    handleStartCompare,
+    handleExitCompare,
   } = useMapInitialization({
     activeBasemap: state.activeBasemap,
     setActiveBasemap: state.setActiveBasemap,
@@ -195,6 +255,46 @@ const MapComponent = ({ reportToView }: MapComponentProps) => {
       return () => clearTimeout(timer)
     }
   }, [reportToView, state.isLoadingLayers, allLayers.length, viewReportOnMap])
+
+  // Handle starting compare mode
+  const onStartCompare = useCallback(() => {
+    if (!leftLayerId || !rightLayerId) return
+    
+    const leftLayer = allLayers.find(l => l.geoserver_name === leftLayerId)
+    const rightLayer = allLayers.find(l => l.geoserver_name === rightLayerId)
+    
+    if (!leftLayer || !rightLayer) return
+    
+    // Remember sidebar state
+    setSidebarWasOpen(state.sidebarOpen)
+    
+    // Collapse sidebar
+    state.setSidebarOpen(false)
+    
+    // Start compare mode
+    handleStartCompare(leftLayer, rightLayer)
+    setIsCompareMode(true)
+    setShowComparePicker(false)
+  }, [leftLayerId, rightLayerId, allLayers, state.sidebarOpen, state.setSidebarOpen, handleStartCompare])
+
+  // Handle exiting compare mode
+  const onExitCompare = useCallback(() => {
+    handleExitCompare()
+    setIsCompareMode(false)
+    setLeftGroupId(null)
+    setLeftLayerId('')
+    setRightGroupId(null)
+    setRightLayerId('')
+    // Restore sidebar state
+    state.setSidebarOpen(sidebarWasOpen)
+  }, [handleExitCompare, state.setSidebarOpen, sidebarWasOpen])
+
+  // Helper to get layers for a selected group
+  const getLayersForGroup = useCallback((groupId: number | string | null): Layer[] => {
+    if (groupId === null) return []
+    const group = allGroupsWithLayers.find(g => g.id === groupId)
+    return group?.layers || []
+  }, [allGroupsWithLayers])
 
   return (
     <div className="flex w-full h-full relative">
@@ -409,6 +509,146 @@ const MapComponent = ({ reportToView }: MapComponentProps) => {
       >
         {isExporting ? 'Exporting...' : 'Export JPEG'}
       </button>
+
+      {/* Compare Layers Button - top right */}
+      {!isCompareMode && !state.reportingMode && !state.statsMode && !reportToView && (
+        <button
+          onClick={() => setShowComparePicker(true)}
+          className="absolute top-4 right-4 z-[1000] bg-white hover:bg-gray-100
+                     text-gray-700 text-sm font-medium px-3 py-2 rounded shadow-md
+                     border border-gray-300 flex items-center gap-2 transition-colors"
+        >
+          <span className="text-lg">⇔</span>
+          Compare Layers
+        </button>
+      )}
+
+      {/* Compare Mode Banner */}
+      {isCompareMode && (
+        <div className="absolute top-4 left-1/2 -translate-x-1/2 z-[1000] bg-blue-600 text-white
+                        text-sm font-medium px-4 py-2 rounded shadow-md flex items-center gap-3">
+          <span>Compare Mode Active</span>
+          <button
+            onClick={onExitCompare}
+            className="bg-white text-blue-600 px-2 py-0.5 rounded text-xs font-semibold hover:bg-blue-50"
+          >
+            Exit
+          </button>
+        </div>
+      )}
+
+      {/* Compare Layer Picker Modal */}
+      {showComparePicker && (
+        <div className="absolute inset-0 z-[2000] flex items-center justify-center bg-black/30">
+          <div className="bg-white rounded-lg shadow-xl p-6 w-[600px]">
+            <h3 className="text-lg font-semibold mb-6 text-gray-900">Compare Layers</h3>
+
+            {/* Left Layer Selection */}
+            <div className="mb-5">
+              <label className="block text-sm font-medium text-gray-700 mb-2">
+                Left Layer
+              </label>
+              <div className="flex gap-2">
+                <select
+                  value={leftGroupId ?? ''}
+                  onChange={(e) => {
+                    setLeftGroupId(e.target.value ? (isNaN(Number(e.target.value)) ? e.target.value : Number(e.target.value)) : null)
+                    setLeftLayerId('')
+                  }}
+                  className="flex-1 border border-gray-300 rounded-lg px-3 py-2 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-blue-500"
+                >
+                  <option value="">Select group...</option>
+                  {allGroupsWithLayers.filter(g => g.layers.length > 0).map(group => (
+                    <option key={group.id} value={group.id}>
+                      {group.path}
+                    </option>
+                  ))}
+                </select>
+                <select
+                  value={leftLayerId}
+                  onChange={(e) => setLeftLayerId(e.target.value)}
+                  disabled={!leftGroupId}
+                  className="flex-1 border border-gray-300 rounded-lg px-3 py-2 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-blue-500 disabled:bg-gray-100 disabled:cursor-not-allowed"
+                >
+                  <option value="">Select layer...</option>
+                  {getLayersForGroup(leftGroupId).map(layer => (
+                    <option key={layer.geoserver_name} value={layer.geoserver_name}>
+                      {layer.name}
+                    </option>
+                  ))}
+                </select>
+              </div>
+            </div>
+
+            {/* Right Layer Selection */}
+            <div className="mb-5">
+              <label className="block text-sm font-medium text-gray-700 mb-2">
+                Right Layer
+              </label>
+              <div className="flex gap-2">
+                <select
+                  value={rightGroupId ?? ''}
+                  onChange={(e) => {
+                    setRightGroupId(e.target.value ? (isNaN(Number(e.target.value)) ? e.target.value : Number(e.target.value)) : null)
+                    setRightLayerId('')
+                  }}
+                  className="flex-1 border border-gray-300 rounded-lg px-3 py-2 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-blue-500"
+                >
+                  <option value="">Select group...</option>
+                  {allGroupsWithLayers.filter(g => g.layers.length > 0).map(group => (
+                    <option key={group.id} value={group.id}>
+                      {group.path}
+                    </option>
+                  ))}
+                </select>
+                <select
+                  value={rightLayerId}
+                  onChange={(e) => setRightLayerId(e.target.value)}
+                  disabled={!rightGroupId}
+                  className="flex-1 border border-gray-300 rounded-lg px-3 py-2 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-blue-500 disabled:bg-gray-100 disabled:cursor-not-allowed"
+                >
+                  <option value="">Select layer...</option>
+                  {getLayersForGroup(rightGroupId).map(layer => (
+                    <option key={layer.geoserver_name} value={layer.geoserver_name}>
+                      {layer.name}
+                    </option>
+                  ))}
+                </select>
+              </div>
+            </div>
+
+            {/* Error message if same layer selected */}
+            {leftLayerId && rightLayerId && leftLayerId === rightLayerId && (
+              <p className="text-sm text-red-600 mb-4">
+                Please select different layers for comparison
+              </p>
+            )}
+
+            {/* Action Buttons */}
+            <div className="flex gap-3">
+              <button
+                onClick={onStartCompare}
+                disabled={!leftLayerId || !rightLayerId || leftLayerId === rightLayerId}
+                className="flex-1 bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium py-2.5 rounded-lg disabled:opacity-50 disabled:cursor-not-allowed transition"
+              >
+                Compare
+              </button>
+              <button
+                onClick={() => {
+                  setShowComparePicker(false)
+                  setLeftGroupId(null)
+                  setLeftLayerId('')
+                  setRightGroupId(null)
+                  setRightLayerId('')
+                }}
+                className="flex-1 bg-gray-100 hover:bg-gray-200 text-gray-700 text-sm font-medium py-2.5 rounded-lg transition"
+              >
+                Cancel
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   )
 }

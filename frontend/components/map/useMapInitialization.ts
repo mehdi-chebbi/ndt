@@ -2,6 +2,7 @@ import { useEffect, useRef, useCallback } from 'react'
 import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 import 'leaflet-draw'
+import 'leaflet-side-by-side'
 import { FeatureGroup } from 'leaflet'
 import leafletImage from 'leaflet-image'
 
@@ -44,6 +45,8 @@ interface UseMapInitializationReturn {
   viewReportOnMap: (layerName: string, polygon: Polygon) => void
   loadCountryPolygon: (country: Country) => Promise<void>
   handleExport: (setIsExporting: (value: boolean) => void) => void
+  handleStartCompare: (leftLayer: Layer, rightLayer: Layer) => void
+  handleExitCompare: () => void
 }
 
 export function useMapInitialization(props: UseMapInitializationProps): UseMapInitializationReturn {
@@ -79,6 +82,9 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
   const reportPolygonRef = useRef<L.Polygon | null>(null)
   const drawControlRef = useRef<L.Control.Draw | null>(null)
   const countryPolygonRef = useRef<L.GeoJSON | null>(null)
+  const compareControlRef = useRef<L.Control.SideBySide | null>(null)
+  const compareLeftLayerRef = useRef<L.TileLayer.WMS | null>(null)
+  const compareRightLayerRef = useRef<L.TileLayer.WMS | null>(null)
 
   // Helper to find layer by geoserver_name
   const findLayerByName = useCallback((name: string, groups: Group[], ungroupedLayers: Layer[]): Layer | null => {
@@ -582,6 +588,70 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
     })
   }, [])
 
+  // Start compare mode with two layers side by side
+  const handleStartCompare = useCallback((leftLayer: Layer, rightLayer: Layer) => {
+    if (!mapRef.current) return
+
+    // Remove any existing compare layers
+    if (compareLeftLayerRef.current) mapRef.current.removeLayer(compareLeftLayerRef.current)
+    if (compareRightLayerRef.current) mapRef.current.removeLayer(compareRightLayerRef.current)
+    if (compareControlRef.current) compareControlRef.current.remove()
+
+    // Remove all active data layers (radio behavior)
+    activeDataLayers.forEach(activeKey => {
+      if (dataLayersRef.current[activeKey]) {
+        mapRef.current!.removeLayer(dataLayersRef.current[activeKey] as L.Layer)
+        delete dataLayersRef.current[activeKey]
+      }
+    })
+    setActiveDataLayers([])
+
+    // Create two WMS layers
+    const leftWMSLayer = L.tileLayer.wms(leftLayer.wmsUrl, {
+      layers: leftLayer.layerName,
+      format: 'image/png',
+      transparent: true,
+      crossOrigin: 'anonymous',
+      attribution: leftLayer.name,
+    }).addTo(mapRef.current)
+
+    const rightWMSLayer = L.tileLayer.wms(rightLayer.wmsUrl, {
+      layers: rightLayer.layerName,
+      format: 'image/png',
+      transparent: true,
+      crossOrigin: 'anonymous',
+      attribution: rightLayer.name,
+    }).addTo(mapRef.current)
+
+    compareLeftLayerRef.current = leftWMSLayer
+    compareRightLayerRef.current = rightWMSLayer
+
+    // Create the side-by-side control
+    compareControlRef.current = L.control.sideBySide(leftWMSLayer, rightWMSLayer).addTo(mapRef.current)
+
+    // Zoom to bounds if available
+    if (leftLayer.bounds) {
+      mapRef.current.fitBounds(leftLayer.bounds)
+    }
+  }, [activeDataLayers, setActiveDataLayers])
+
+  // Exit compare mode
+  const handleExitCompare = useCallback(() => {
+    if (!mapRef.current) return
+    if (compareControlRef.current) {
+      compareControlRef.current.remove()
+      compareControlRef.current = null
+    }
+    if (compareLeftLayerRef.current) {
+      mapRef.current.removeLayer(compareLeftLayerRef.current)
+      compareLeftLayerRef.current = null
+    }
+    if (compareRightLayerRef.current) {
+      mapRef.current.removeLayer(compareRightLayerRef.current)
+      compareRightLayerRef.current = null
+    }
+  }, [])
+
   return {
     mapContainerRef,
     handleBasemapChange,
@@ -592,5 +662,7 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
     viewReportOnMap,
     loadCountryPolygon,
     handleExport,
+    handleStartCompare,
+    handleExitCompare,
   }
 }
