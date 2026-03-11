@@ -3,6 +3,7 @@ import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 import 'leaflet-draw'
 import { FeatureGroup } from 'leaflet'
+import leafletImage from 'leaflet-image'
 
 import { basemaps } from './basemaps'
 import { Group, GroupedLayers, Layer, Polygon } from './types'
@@ -42,6 +43,7 @@ interface UseMapInitializationReturn {
   getMapBounds: () => L.LatLngBounds | null
   viewReportOnMap: (layerName: string, polygon: Polygon) => void
   loadCountryPolygon: (country: Country) => Promise<void>
+  handleExport: (setIsExporting: (value: boolean) => void) => void
 }
 
 export function useMapInitialization(props: UseMapInitializationProps): UseMapInitializationReturn {
@@ -146,6 +148,7 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
       center: [0, 20],
       zoom: 3,
       zoomControl: false,
+      preferCanvas: true, // required for polygons to appear in export
     })
 
     // Add default basemap (OpenStreetMap)
@@ -389,6 +392,7 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
         transparent: true,
         attribution: `GeoServer - ${layer.name}`,
         bounds: layer.bounds,
+        crossOrigin: 'anonymous',
       })
       newLayer.addTo(mapRef.current)
       dataLayersRef.current[layerKey] = newLayer
@@ -518,6 +522,7 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
       transparent: true,
       attribution: `GeoServer - ${layer.name}`,
       bounds: layer.bounds,
+      crossOrigin: 'anonymous',
     })
     newLayer.addTo(mapRef.current)
     dataLayersRef.current[layerName] = newLayer
@@ -558,6 +563,25 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
     setClipMessage(`Viewing report for layer: ${layer.name}`)
   }, [groupedLayers, activeDataLayers, findLayerByName, setActiveDataLayers, setSelectedLayerId, setHasDrawnPolygon, setClipMessage, setSelectedCountry])
 
+  // Export map as JPEG
+  const handleExport = useCallback((setIsExporting: (value: boolean) => void) => {
+    if (!mapRef.current) return
+    setIsExporting(true)
+
+    leafletImage(mapRef.current, (err, canvas) => {
+      if (err) {
+        console.error('Export failed:', err)
+        setIsExporting(false)
+        return
+      }
+      const link = document.createElement('a')
+      link.download = 'map-export.jpg'
+      link.href = canvas.toDataURL('image/jpeg', 0.92) // 0.92 = high quality, smaller file
+      link.click()
+      setIsExporting(false)
+    })
+  }, [])
+
   return {
     mapContainerRef,
     handleBasemapChange,
@@ -567,5 +591,6 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
     getMapBounds,
     viewReportOnMap,
     loadCountryPolygon,
+    handleExport,
   }
 }

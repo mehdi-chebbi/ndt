@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useMemo, useCallback } from 'react'
+import { useEffect, useMemo, useCallback, useState } from 'react'
 import { useRouter } from 'next/navigation'
 
 // Import tab components
@@ -69,6 +69,7 @@ function findInheritedLegend(
 
 const MapComponent = ({ reportToView }: MapComponentProps) => {
   const router = useRouter()
+  const [isExporting, setIsExporting] = useState(false)
   
   // Get all state from custom hook
   const state = useMapState()
@@ -111,6 +112,7 @@ const MapComponent = ({ reportToView }: MapComponentProps) => {
     getMapBounds,
     viewReportOnMap,
     loadCountryPolygon,
+    handleExport,
   } = useMapInitialization({
     activeBasemap: state.activeBasemap,
     setActiveBasemap: state.setActiveBasemap,
@@ -395,6 +397,18 @@ const MapComponent = ({ reportToView }: MapComponentProps) => {
       {activeLayerLegend && activeLayerLegend.length > 0 && !state.reportingMode && (
         <Legend legend={activeLayerLegend} layerName={activeLayerName} />
       )}
+
+      {/* Export JPEG Button - bottom right above zoom controls */}
+      <button
+        onClick={() => handleExport(setIsExporting)}
+        disabled={isExporting}
+        className="absolute bottom-24 right-3 z-[1000] bg-white hover:bg-gray-100
+                   text-gray-700 text-sm font-medium px-3 py-2 rounded shadow-md
+                   border border-gray-300 disabled:opacity-50 disabled:cursor-not-allowed
+                   flex items-center gap-2 transition-colors"
+      >
+        {isExporting ? 'Exporting...' : 'Export JPEG'}
+      </button>
     </div>
   )
 }
