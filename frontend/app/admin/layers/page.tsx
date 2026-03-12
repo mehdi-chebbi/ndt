@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation'
 import Link from 'next/link'
+import { api } from '@/lib/authFetch'
 
 interface LegendItem {
   class: string
@@ -100,26 +101,22 @@ export default function LayerManagementPage() {
     }
 
     setCurrentUser(user)
-    fetchData(token)
+    fetchData()
   }, [router])
 
-  const fetchData = async (token: string) => {
+  const fetchData = async () => {
     try {
       setLoading(true)
 
       // Fetch layers
-      const layersRes = await fetch('/api/layers', {
-        headers: { 'Authorization': `Bearer ${token}` }
-      })
+      const layersRes = await api.get('/layers')
       if (layersRes.ok) {
         const layersData = await layersRes.json()
         setLayers(layersData.layers || [])
       }
 
       // Fetch groups
-      const groupsRes = await fetch('/api/groups', {
-        headers: { 'Authorization': `Bearer ${token}` }
-      })
+      const groupsRes = await api.get('/groups')
       if (groupsRes.ok) {
         const groupsData = await groupsRes.json()
         setGroups(groupsData.groups || [])
@@ -138,12 +135,7 @@ export default function LayerManagementPage() {
     setError('')
 
     try {
-      const token = localStorage.getItem('token')
-
-      const response = await fetch('/api/clip/layers/sync', {
-        method: 'POST',
-        headers: { 'Authorization': `Bearer ${token}` }
-      })
+      const response = await api.post('/clip/layers/sync')
 
       const data = await response.json()
 
@@ -157,7 +149,7 @@ export default function LayerManagementPage() {
         total: data.total
       })
 
-      fetchData(token!)
+      fetchData()
     } catch (err: any) {
       setError(err.message)
     } finally {
@@ -205,8 +197,6 @@ export default function LayerManagementPage() {
     setLayerFormError('')
     setIsLayerSubmitting(true)
 
-    const token = localStorage.getItem('token')
-
     try {
       let classLabelsObj = null
       if (layerFormData.class_labels.trim()) {
@@ -219,28 +209,25 @@ export default function LayerManagementPage() {
         }
       }
 
-      const url = editingLayer
-        ? `/api/layers/${editingLayer.id}`
-        : '/api/layers'
-
-      const method = editingLayer ? 'PUT' : 'POST'
-
-      const response = await fetch(url, {
-        method,
-        headers: {
-          'Content-Type': 'application/json',
-          'Authorization': `Bearer ${token}`
-        },
-        body: JSON.stringify({
-          geoserver_name: layerFormData.geoserver_name,
-          display_name: layerFormData.display_name || null,
-          group_id: layerFormData.group_id ? parseInt(layerFormData.group_id) : null,
-          file_path: layerFormData.file_path || null,
-          class_labels: classLabelsObj,
-          is_active: layerFormData.is_active,
-          sort_order: layerFormData.sort_order
-        })
-      })
+      const response = editingLayer
+        ? await api.put(`/layers/${editingLayer.id}`, {
+            geoserver_name: layerFormData.geoserver_name,
+            display_name: layerFormData.display_name || null,
+            group_id: layerFormData.group_id ? parseInt(layerFormData.group_id) : null,
+            file_path: layerFormData.file_path || null,
+            class_labels: classLabelsObj,
+            is_active: layerFormData.is_active,
+            sort_order: layerFormData.sort_order
+          })
+        : await api.post('/layers', {
+            geoserver_name: layerFormData.geoserver_name,
+            display_name: layerFormData.display_name || null,
+            group_id: layerFormData.group_id ? parseInt(layerFormData.group_id) : null,
+            file_path: layerFormData.file_path || null,
+            class_labels: classLabelsObj,
+            is_active: layerFormData.is_active,
+            sort_order: layerFormData.sort_order
+          })
 
       const data = await response.json()
 
@@ -249,7 +236,7 @@ export default function LayerManagementPage() {
       }
 
       handleCloseLayerModal()
-      fetchData(token!)
+      fetchData()
     } catch (err: any) {
       setLayerFormError(err.message)
     } finally {
@@ -262,44 +249,30 @@ export default function LayerManagementPage() {
       return
     }
 
-    const token = localStorage.getItem('token')
-
     try {
-      const response = await fetch(`/api/layers/${id}`, {
-        method: 'DELETE',
-        headers: { 'Authorization': `Bearer ${token}` }
-      })
+      const response = await api.delete(`/layers/${id}`)
 
       if (!response.ok) {
         throw new Error('Failed to delete')
       }
 
-      fetchData(token!)
+      fetchData()
     } catch (err: any) {
       setError(err.message)
     }
   }
 
   const handleToggleLayerActive = async (layer: Layer) => {
-    const token = localStorage.getItem('token')
-
     try {
-      const response = await fetch(`/api/layers/${layer.id}`, {
-        method: 'PUT',
-        headers: {
-          'Content-Type': 'application/json',
-          'Authorization': `Bearer ${token}`
-        },
-        body: JSON.stringify({
-          is_active: !layer.is_active
-        })
+      const response = await api.put(`/layers/${layer.id}`, {
+        is_active: !layer.is_active
       })
 
       if (!response.ok) {
         throw new Error('Failed to update')
       }
 
-      fetchData(token!)
+      fetchData()
     } catch (err: any) {
       setError(err.message)
     }
@@ -341,29 +314,22 @@ export default function LayerManagementPage() {
     setGroupFormError('')
     setIsGroupSubmitting(true)
 
-    const token = localStorage.getItem('token')
-
     try {
-      const url = editingGroup
-        ? `/api/groups/${editingGroup.id}`
-        : '/api/groups'
-
-      const method = editingGroup ? 'PUT' : 'POST'
-
-      const response = await fetch(url, {
-        method,
-        headers: {
-          'Content-Type': 'application/json',
-          'Authorization': `Bearer ${token}`
-        },
-        body: JSON.stringify({
-          name: groupFormData.name,
-          parent_id: groupFormData.parent_id ? parseInt(groupFormData.parent_id) : null,
-          description: groupFormData.description || null,
-          legend: groupFormData.legend.length > 0 ? groupFormData.legend : null,
-          sort_order: groupFormData.sort_order
-        })
-      })
+      const response = editingGroup
+        ? await api.put(`/groups/${editingGroup.id}`, {
+            name: groupFormData.name,
+            parent_id: groupFormData.parent_id ? parseInt(groupFormData.parent_id) : null,
+            description: groupFormData.description || null,
+            legend: groupFormData.legend.length > 0 ? groupFormData.legend : null,
+            sort_order: groupFormData.sort_order
+          })
+        : await api.post('/groups', {
+            name: groupFormData.name,
+            parent_id: groupFormData.parent_id ? parseInt(groupFormData.parent_id) : null,
+            description: groupFormData.description || null,
+            legend: groupFormData.legend.length > 0 ? groupFormData.legend : null,
+            sort_order: groupFormData.sort_order
+          })
 
       const data = await response.json()
 
@@ -372,7 +338,7 @@ export default function LayerManagementPage() {
       }
 
       handleCloseGroupModal()
-      fetchData(token!)
+      fetchData()
     } catch (err: any) {
       setGroupFormError(err.message)
     } finally {
@@ -392,19 +358,14 @@ export default function LayerManagementPage() {
       return
     }
 
-    const token = localStorage.getItem('token')
-
     try {
-      const response = await fetch(`/api/groups/${id}`, {
-        method: 'DELETE',
-        headers: { 'Authorization': `Bearer ${token}` }
-      })
+      const response = await api.delete(`/groups/${id}`)
 
       if (!response.ok) {
         throw new Error('Failed to delete')
       }
 
-      fetchData(token!)
+      fetchData()
     } catch (err: any) {
       setError(err.message)
     }

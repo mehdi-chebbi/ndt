@@ -3,6 +3,7 @@
 import { Suspense, useEffect, useState } from 'react'
 import { useRouter, useSearchParams } from 'next/navigation'
 import dynamic from 'next/dynamic'
+import { api } from '@/lib/authFetch'
 
 interface ReportData {
   id: number
@@ -59,16 +60,8 @@ function ReportViewContent() {
       setError('')
 
       try {
-        const token = localStorage.getItem('token')
-        if (!token) {
-          router.push('/login')
-          return
-        }
-
         // Fetch report
-        const reportRes = await fetch(`/api/reports/${viewReportId}`, {
-          headers: { 'Authorization': `Bearer ${token}` },
-        })
+        const reportRes = await api.get(`/reports/${viewReportId}`)
 
         if (!reportRes.ok) {
           throw new Error('Failed to fetch report')
@@ -78,9 +71,7 @@ function ReportViewContent() {
         setReport(reportData.report)
 
         // Fetch layers to find the one referenced in the report
-        const layersRes = await fetch('/api/clip/layers', {
-          headers: { 'Authorization': `Bearer ${token}` },
-        })
+        const layersRes = await api.get('/clip/layers', { skipAuth: true })
 
         if (layersRes.ok) {
           const layersData = await layersRes.json()

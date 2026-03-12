@@ -14,6 +14,69 @@ const transporter = nodemailer.createTransport({
   },
 });
 
+// Generate alphanumeric code (6 characters)
+export function generateResetCode(): string {
+  const chars = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789'; // Removed confusing chars: I, O, 0, 1
+  let code = '';
+  for (let i = 0; i < 6; i++) {
+    code += chars.charAt(Math.floor(Math.random() * chars.length));
+  }
+  return code;
+}
+
+// Send password reset email
+export async function sendPasswordResetEmail(
+  email: string,
+  resetCode: string
+): Promise<void> {
+  const mailOptions = {
+    from: EMAIL_USER,
+    to: email,
+    subject: '[NDT Platform] Password Reset Code',
+    html: `
+      <!DOCTYPE html>
+      <html>
+      <head>
+        <style>
+          body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+          .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+          .header { background: #1f2937; color: white; padding: 20px; border-radius: 8px 8px 0 0; text-align: center; }
+          .content { background: #f9fafb; padding: 30px; border: 1px solid #e5e7eb; border-top: none; text-align: center; }
+          .code { font-size: 32px; font-weight: bold; letter-spacing: 8px; color: #1f2937; background: white; padding: 20px; border-radius: 8px; border: 2px dashed #1f2937; margin: 20px 0; }
+          .footer { text-align: center; padding: 20px; color: #6b7280; font-size: 12px; }
+          .warning { color: #dc2626; font-size: 14px; margin-top: 20px; }
+        </style>
+      </head>
+      <body>
+        <div class="container">
+          <div class="header">
+            <h2 style="margin: 0;">Password Reset</h2>
+          </div>
+          <div class="content">
+            <p>You requested to reset your password.</p>
+            <p>Enter this code on the reset page:</p>
+            <div class="code">${resetCode}</div>
+            <p class="warning">This code expires in 10 minutes.</p>
+            <p>If you didn't request this, please ignore this email.</p>
+          </div>
+          <div class="footer">
+            <p>This is an automated message from the NDT Platform.</p>
+          </div>
+        </div>
+      </body>
+      </html>
+    `,
+  };
+
+  try {
+    await transporter.sendMail(mailOptions);
+    console.log(`Password reset email sent to ${email}`);
+  } catch (error) {
+    console.error('Error sending password reset email:', error);
+    throw error;
+  }
+}
+
 // Get all active notification recipients
 export async function getNotificationRecipients(): Promise<string[]> {
   try {

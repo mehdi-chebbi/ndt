@@ -1,6 +1,7 @@
 import { Request, Response } from 'express';
 import pool from '../config/database';
 import { hashPassword, comparePassword, generateToken } from '../utils/auth';
+import { generateResetCode, sendPasswordResetEmail } from '../services/emailService';
 
 export const signup = async (req: Request, res: Response) => {
   try {
@@ -105,6 +106,165 @@ export const login = async (req: Request, res: Response) => {
     });
   } catch (error: any) {
     console.error('Login error:', error);
+    res.status(500).json({ error: 'Internal server error' });
+  }
+};
+
+export const forgotPassword = async (req: Request, res: Response) => {
+  try {
+    const { email } = req.body;
+
+    if (!email) {
+      return res.status(400).json({ error: 'Email is required' });
+    }
+
+    // Find user
+    const userResult = await pool.query(
+      'SELECT id, name, email FROM users WHERE email = $1',
+      [email]
+    );
+
+    if (userResult.rows.length === 0) {
+      return res.status(400).json({ error: 'No account found with this email' });
+    }
+
+    const user = userResult.rows[0];
+
+    // Generate reset code
+    const resetCode = generateResetCode();
+    const expiresAt = new Date(Date.now() + 10 * 60 * 1000); // 10 minutes
+
+    // Invalidate any existing reset tokens for this user
+    await pool.query(
+      'UPDATE password_reset_tokens SET used = true WHERE user_id = $1 AND used = false',
+      [user.id]
+    );
+
+    // Store new reset token
+    await pool.query(
+      'INSERT INTO password_reset_tokens (user_id, token, expires_at) VALUES ($1, $2, $3)',
+      [user.id, resetCode, expiresAt]
+    );
+
+    // Send email
+    await sendPasswordResetEmail(email, resetCode);
+
+    res.status(200).json({ 
+      message: 'Reset code sent successfully' 
+    });
+  } catch (error: any) {
+    console.error('Forgot password error:', error);
+    res.status(500).json({ error: 'Internal server error' });
+  }
+};
+
+export const verifyResetCode = async (req: Request, res: Response) => {
+  try {
+    const { email, code } = req.body;
+
+    if (!email || !code) {
+      return res.status(400).json({ error: 'Email and code are required' });
+    }
+
+    // Find user
+    const userResult = await pool.query(
+      'SELECT id FROM users WHERE email = $1',
+      [email]
+    );
+
+    if (userResult.rows.length === 0) {
+      return res.status(400).json({ error: 'Invalid or expired reset code' });
+    }
+
+    const user = userResult.rows[0];
+
+    // Find valid reset token (don't mark as used yet!)
+    const tokenResult = await pool.query(
+      `SELECT id FROM password_reset_tokens 
+       WHERE user_id = $1 AND token = $2 AND used = false AND expires_at > NOW()`,
+      [user.id, code.toUpperCase()]
+    );
+
+    if (tokenResult.rows.length === 0) {
+      return res.status(400).json({ error: 'Invalid or expired reset code' });
+    }
+
+    res.status(200).json({ 
+      valid: true, 
+      message: 'Code verified successfully' 
+    });
+  } catch (error: any) {
+    console.error('Verify reset code error:', error);
+    res.status(500).json({ error: 'Internal server error' });
+  }
+};
+
+export const resetPassword = async (req: Request, res: Response) => {
+  try {
+    const { email, code, newPassword } = req.body;
+
+    if (!email || !code || !newPassword) {
+      return res.status(400).json({ error: 'Email, code, and new password are required' });
+    }
+
+    if (newPassword.length < 6) {
+      return res.status(400).json({ error: 'Password must be at least 6 characters' });
+    }
+
+    // Find user
+    const userResult = await pool.query(
+      'SELECT id, name, email, role, created_at FROM users WHERE email = $1',
+      [email]
+    );
+
+    if (userResult.rows.length === 0) {
+      return res.status(400).json({ error: 'Invalid or expired reset code' });
+    }
+
+    const user = userResult.rows[0];
+
+    // Find valid reset token
+    const tokenResult = await pool.query(
+      `SELECT id FROM password_reset_tokens 
+       WHERE user_id = $1 AND token = $2 AND used = false AND expires_at > NOW()`,
+      [user.id, code.toUpperCase()]
+    );
+
+    if (tokenResult.rows.length === 0) {
+      return res.status(400).json({ error: 'Invalid or expired reset code' });
+    }
+
+    // Mark token as used
+    await pool.query(
+      'UPDATE password_reset_tokens SET used = true WHERE id = $1',
+      [tokenResult.rows[0].id]
+    );
+
+    // Hash new password
+    const hashedPassword = await hashPassword(newPassword);
+
+    // Update user password
+    await pool.query(
+      'UPDATE users SET password = $1, updated_at = NOW() WHERE id = $2',
+      [hashedPassword, user.id]
+    );
+
+    // Generate token for auto-login
+    const token = generateToken(user.id, user.role);
+
+    res.status(200).json({
+      message: 'Password reset successful',
+      token,
+      user: {
+        id: user.id,
+        name: user.name,
+        email: user.email,
+        role: user.role,
+        created_at: user.created_at
+      }
+    });
+  } catch (error: any) {
+    console.error('Reset password error:', error);
     res.status(500).json({ error: 'Internal server error' });
   }
 };

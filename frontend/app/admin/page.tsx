@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
+import { api } from '@/lib/authFetch'
 
 interface User {
   id: number
@@ -30,16 +31,12 @@ export default function AdminPage() {
     }
 
     setCurrentUser(user)
-    fetchUsers(token)
+    fetchUsers()
   }, [router])
 
-  const fetchUsers = async (token: string) => {
+  const fetchUsers = async () => {
     try {
-      const response = await fetch('/api/admin/users', {
-        headers: {
-          'Authorization': `Bearer ${token}`,
-        },
-      })
+      const response = await api.get('/admin/users')
 
       const data = await response.json()
 
@@ -60,21 +57,15 @@ export default function AdminPage() {
       return
     }
 
-    const token = localStorage.getItem('token')
     try {
-      const response = await fetch(`/api/admin/users/${userId}`, {
-        method: 'DELETE',
-        headers: {
-          'Authorization': `Bearer ${token}`,
-        },
-      })
+      const response = await api.delete(`/admin/users/${userId}`)
 
       if (!response.ok) {
         throw new Error('Failed to delete user')
       }
 
       // Refresh users list
-      fetchUsers(token!)
+      fetchUsers()
     } catch (err: any) {
       setError(err.message)
     }

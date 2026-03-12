@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useEffect, useRef } from 'react'
+import { authFetch } from '@/lib/authFetch'
 
 interface Country {
   name: string
@@ -24,8 +25,7 @@ export default function CountrySelector({ selectedCountry, onSelectCountry, disa
   useEffect(() => {
     const fetchCountries = async () => {
       try {
-        // Use relative path - Next.js rewrites will proxy to backend
-        const res = await fetch('/api/countries')
+        const res = await authFetch('/countries', { skipAuth: true })
         if (!res.ok) throw new Error('Failed to fetch countries')
         const data = await res.json()
         setCountries(data)

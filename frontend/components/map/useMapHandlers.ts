@@ -1,5 +1,6 @@
 import { useCallback } from 'react'
 import { Layer, Polygon } from './types'
+import { api } from '@/lib/authFetch'
 
 interface UseMapHandlersProps {
   // State setters
@@ -172,24 +173,12 @@ export function useMapHandlers(props: UseMapHandlersProps): UseMapHandlersReturn
     setReportMessage('Submitting report...')
 
     try {
-      const token = localStorage.getItem('token')
-      if (!token) {
-        throw new Error('You must be logged in to report invalid data')
-      }
-
-      const response = await fetch('/api/reports', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          'Authorization': `Bearer ${token}`,
-        },
-        body: JSON.stringify({
-          original_polygon: currentPolygon,
-          original_layer: selectedLayer.geoserver_name,
-          original_colormap: 'default',
-          invalid_area_polygon: invalidAreaPolygon,
-          comment: reportComment,
-        }),
+      const response = await api.post('/reports', {
+        original_polygon: currentPolygon,
+        original_layer: selectedLayer.geoserver_name,
+        original_colormap: 'default',
+        invalid_area_polygon: invalidAreaPolygon,
+        comment: reportComment,
       })
 
       if (!response.ok) {
@@ -284,12 +273,6 @@ export function useMapHandlers(props: UseMapHandlersProps): UseMapHandlersReturn
       return
     }
 
-    const token = localStorage.getItem('token')
-    if (!token) {
-      setStatsError('You must be logged in to calculate statistics')
-      return
-    }
-
     // Find the layer
     const layerConfig = allLayers.find(l => l.id === statsLayerId)
     if (!layerConfig) {
@@ -306,16 +289,9 @@ export function useMapHandlers(props: UseMapHandlersProps): UseMapHandlersReturn
     setStatsError('')
 
     try {
-      const response = await fetch('/api/layers/stats', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          'Authorization': `Bearer ${token}`,
-        },
-        body: JSON.stringify({
-          layer_name: layerConfig.geoserver_name,
-          polygon: statsPolygon,
-        }),
+      const response = await api.post('/layers/stats', {
+        layer_name: layerConfig.geoserver_name,
+        polygon: statsPolygon,
       })
 
       const data = await response.json()

@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation'
+import { api } from '@/lib/authFetch'
 
 interface Report {
   id: number
@@ -67,16 +68,11 @@ export default function ReportsPage() {
     setError('')
 
     try {
-      const token = localStorage.getItem('token')
       const url = filterStatus === 'all'
-        ? '/api/reports/all'
-        : `/api/reports/all?status=${filterStatus}`
+        ? '/reports/all'
+        : `/reports/all?status=${filterStatus}`
 
-      const response = await fetch(url, {
-        headers: {
-          'Authorization': `Bearer ${token}`,
-        },
-      })
+      const response = await api.get(url)
 
       if (!response.ok) {
         const error = await response.json()
@@ -97,16 +93,7 @@ export default function ReportsPage() {
     setIsUpdating(true)
 
     try {
-      const token = localStorage.getItem('token')
-
-      const response = await fetch(`/api/reports/${reportId}/status`, {
-        method: 'PATCH',
-        headers: {
-          'Content-Type': 'application/json',
-          'Authorization': `Bearer ${token}`,
-        },
-        body: JSON.stringify({ status: newStatus }),
-      })
+      const response = await api.patch(`/reports/${reportId}/status`, { status: newStatus })
 
       if (!response.ok) {
         const error = await response.json()
@@ -135,14 +122,7 @@ export default function ReportsPage() {
     }
 
     try {
-      const token = localStorage.getItem('token')
-
-      const response = await fetch(`/api/reports/${reportId}`, {
-        method: 'DELETE',
-        headers: {
-          'Authorization': `Bearer ${token}`,
-        },
-      })
+      const response = await api.delete(`/reports/${reportId}`)
 
       if (!response.ok) {
         const error = await response.json()
@@ -175,12 +155,7 @@ export default function ReportsPage() {
   const fetchRecipients = async () => {
     setIsLoadingRecipients(true)
     try {
-      const token = localStorage.getItem('token')
-      const response = await fetch('/api/notifications', {
-        headers: {
-          'Authorization': `Bearer ${token}`,
-        },
-      })
+      const response = await api.get('/notifications')
 
       if (!response.ok) {
         throw new Error('Failed to fetch recipients')
@@ -200,15 +175,7 @@ export default function ReportsPage() {
 
     setIsAddingEmail(true)
     try {
-      const token = localStorage.getItem('token')
-      const response = await fetch('/api/notifications', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          'Authorization': `Bearer ${token}`,
-        },
-        body: JSON.stringify({ email: newEmail.trim() }),
-      })
+      const response = await api.post('/notifications', { email: newEmail.trim() })
 
       if (!response.ok) {
         const error = await response.json()
@@ -228,13 +195,7 @@ export default function ReportsPage() {
 
   const removeRecipient = async (id: number) => {
     try {
-      const token = localStorage.getItem('token')
-      const response = await fetch(`/api/notifications/${id}`, {
-        method: 'DELETE',
-        headers: {
-          'Authorization': `Bearer ${token}`,
-        },
-      })
+      const response = await api.delete(`/notifications/${id}`)
 
       if (!response.ok) {
         throw new Error('Failed to remove recipient')

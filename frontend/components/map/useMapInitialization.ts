@@ -9,6 +9,7 @@ import leafletImage from 'leaflet-image'
 import { basemaps } from './basemaps'
 import { Group, GroupedLayers, Layer, Polygon } from './types'
 import { Country } from './useMapState'
+import { authFetch } from '@/lib/authFetch'
 
 interface UseMapInitializationProps {
   // State values
@@ -113,7 +114,7 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
     setIsLoadingLayers(true)
     setLayerError('')
     try {
-      const res = await fetch('/api/clip/layers')
+      const res = await authFetch('/clip/layers', { skipAuth: true })
       if (!res.ok) {
         throw new Error('Failed to fetch layers')
       }
