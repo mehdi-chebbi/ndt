@@ -165,6 +165,20 @@ function buildGroupTree(groups: any[], layers: any[]): any[] {
     }
   });
 
+  // Sort children by sort_order within each group
+  const sortChildren = (groupList: any[]) => {
+    groupList.forEach(group => {
+      if (group.children?.length > 0) {
+        group.children.sort((a: any, b: any) => (a.sort_order || 0) - (b.sort_order || 0));
+        sortChildren(group.children);
+      }
+    });
+  };
+  sortChildren(rootGroups);
+
+  // Sort root groups by sort_order
+  rootGroups.sort((a: any, b: any) => (a.sort_order || 0) - (b.sort_order || 0));
+
   return rootGroups;
 }
 
@@ -244,10 +258,10 @@ router.post('/layers/sync', async (req: Request, res: Response) => {
 
     for (const gsLayer of geoserverLayers) {
       if (existingNames.has(gsLayer.geoserver_name)) {
-        // Update existing layer (only display_name)
+        // Only update display_name if it was never set (preserve user customizations)
         await pool.query(`
           UPDATE layers
-          SET display_name = $1, updated_at = CURRENT_TIMESTAMP
+          SET display_name = COALESCE(display_name, $1), updated_at = CURRENT_TIMESTAMP
           WHERE geoserver_name = $2
         `, [gsLayer.display_name, gsLayer.geoserver_name]);
         updated++;

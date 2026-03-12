@@ -387,6 +387,20 @@ export default function LayerManagementPage() {
       }
     })
 
+    // Sort children by sort_order within each group
+    const sortChildren = (groupList: any[]) => {
+      groupList.forEach(group => {
+        if (group.children?.length > 0) {
+          group.children.sort((a: any, b: any) => (a.sort_order || 0) - (b.sort_order || 0))
+          sortChildren(group.children)
+        }
+      })
+    }
+    sortChildren(rootGroups)
+
+    // Sort root groups by sort_order
+    rootGroups.sort((a: any, b: any) => (a.sort_order || 0) - (b.sort_order || 0))
+
     return rootGroups
   }
 
