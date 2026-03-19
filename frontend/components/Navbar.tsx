@@ -53,6 +53,13 @@ export default function Navbar() {
           <nav className="flex items-center gap-6">
             {isAuthenticated ? (
               <>
+                {/* WaterWatch Africa - visible only to authenticated users */}
+                <Link
+                  href="/waterwatch-africa"
+                  className="text-gray-700 hover:text-gray-900 transition"
+                >
+                  WaterWatch Africa
+                </Link>
                 <Link
                   href={user?.role === 'admin' ? '/admin' : '/dashboard'}
                   className="text-gray-700 hover:text-gray-900 transition"

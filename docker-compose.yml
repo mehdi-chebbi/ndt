@@ -55,6 +55,12 @@ services:
       - "3001:3001"
     volumes:
       - ./data/tiffs:/data/tiffs:ro
+    environment:
+      - DB_HOST=db
+      - DB_PORT=5432
+      - DB_NAME=platform_db
+      - DB_USER=postgres
+      - DB_PASSWORD=postgres
     depends_on:
       db:
         condition: service_healthy
