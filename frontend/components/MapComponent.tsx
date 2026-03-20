@@ -127,6 +127,12 @@ const MapComponent = ({ reportToView }: MapComponentProps) => {
   const [rightLayerId, setRightLayerId] = useState<string>('')
   const [sidebarWasOpen, setSidebarWasOpen] = useState(true)
 
+  // Layer change modal state
+  const [showLayerChangeModal, setShowLayerChangeModal] = useState(false)
+  const [editingSide, setEditingSide] = useState<'left' | 'right' | null>(null)
+  const [tempGroupId, setTempGroupId] = useState<number | string | null>(null)
+  const [tempLayerId, setTempLayerId] = useState<string>('')
+
   // Get all groups with their layers for compare picker
   const allGroupsWithLayers = useMemo(() => {
     return flattenGroupsWithLayers(state.groupedLayers.groups, state.groupedLayers.ungroupedLayers)
@@ -288,6 +294,47 @@ const MapComponent = ({ reportToView }: MapComponentProps) => {
     // Restore sidebar state
     state.setSidebarOpen(sidebarWasOpen)
   }, [handleExitCompare, state.setSidebarOpen, sidebarWasOpen])
+
+  // Handle opening layer change modal
+  const handleOpenLayerChange = useCallback((side: 'left' | 'right') => {
+    setEditingSide(side)
+    if (side === 'left') {
+      setTempGroupId(leftGroupId)
+      setTempLayerId(leftLayerId)
+    } else {
+      setTempGroupId(rightGroupId)
+      setTempLayerId(rightLayerId)
+    }
+    setShowLayerChangeModal(true)
+  }, [leftGroupId, leftLayerId, rightGroupId, rightLayerId])
+
+  // Handle confirming layer change
+  const handleConfirmLayerChange = useCallback(() => {
+    if (editingSide === 'left') {
+      setLeftGroupId(tempGroupId)
+      setLeftLayerId(tempLayerId)
+      // Update the map with new left layer
+      const newLeftLayer = allLayers.find(l => l.geoserver_name === tempLayerId)
+      if (newLeftLayer) {
+        const rightLayer = allLayers.find(l => l.geoserver_name === rightLayerId)
+        if (rightLayer) {
+          handleStartCompare(newLeftLayer, rightLayer)
+        }
+      }
+    } else if (editingSide === 'right') {
+      setRightGroupId(tempGroupId)
+      setRightLayerId(tempLayerId)
+      // Update the map with new right layer
+      const newRightLayer = allLayers.find(l => l.geoserver_name === tempLayerId)
+      if (newRightLayer) {
+        const leftLayer = allLayers.find(l => l.geoserver_name === leftLayerId)
+        if (leftLayer) {
+          handleStartCompare(leftLayer, newRightLayer)
+        }
+      }
+    }
+    setShowLayerChangeModal(false)
+  }, [editingSide, tempGroupId, tempLayerId, leftLayerId, rightLayerId, allLayers, handleStartCompare])
 
   // Helper to get layers for a selected group
   const getLayersForGroup = useCallback((groupId: number | string | null): Layer[] => {
@@ -556,17 +603,31 @@ const MapComponent = ({ reportToView }: MapComponentProps) => {
       {/* Compare Mode Layer Labels */}
       {isCompareMode && (
         <>
-          {/* Left Layer Label - Top Left */}
-          <div className="absolute top-4 left-4 z-[1000] bg-black/75 text-white
-                          text-sm font-medium px-3 py-2 rounded shadow-lg
-                          max-w-xs truncate">
+          {/* Left Layer Label - Top Left (Clickable) */}
+          <div
+            onClick={() => handleOpenLayerChange('left')}
+            className="absolute top-4 left-4 z-[1000] bg-black/75 text-white
+                            text-sm font-medium px-3 py-2 rounded shadow-lg
+                            max-w-xs truncate cursor-pointer hover:bg-black/85
+                            transition-colors flex items-center gap-2"
+          >
             <span>{getFullLayerLabel(leftGroupId, leftLayerId)}</span>
+            <svg className="w-4 h-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
+            </svg>
           </div>
 
-          {/* Right Layer Label - Top Right */}
-          <div className="absolute top-4 right-4 z-[1000] bg-black/75 text-white
-                          text-sm font-medium px-3 py-2 rounded shadow-lg
-                          max-w-xs truncate">
+          {/* Right Layer Label - Top Right (Clickable) */}
+          <div
+            onClick={() => handleOpenLayerChange('right')}
+            className="absolute top-4 right-4 z-[1000] bg-black/75 text-white
+                            text-sm font-medium px-3 py-2 rounded shadow-lg
+                            max-w-xs truncate cursor-pointer hover:bg-black/85
+                            transition-colors flex items-center gap-2"
+          >
+            <svg className="w-4 h-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
+            </svg>
             <span>{getFullLayerLabel(rightGroupId, rightLayerId)}</span>
           </div>
         </>
@@ -676,6 +737,76 @@ const MapComponent = ({ reportToView }: MapComponentProps) => {
                   setRightGroupId(null)
                   setRightLayerId('')
                 }}
+                className="flex-1 bg-gray-100 hover:bg-gray-200 text-gray-700 text-sm font-medium py-2.5 rounded-lg transition"
+              >
+                Cancel
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Layer Change Modal */}
+      {showLayerChangeModal && (
+        <div className="absolute inset-0 z-[2100] flex items-center justify-center bg-black/30">
+          <div className="bg-white rounded-lg shadow-xl p-6 w-[600px]">
+            <h3 className="text-lg font-semibold mb-6 text-gray-900">
+              Change {editingSide === 'left' ? 'Left' : 'Right'} Layer
+            </h3>
+
+            {/* Group Selection */}
+            <div className="mb-5">
+              <label className="block text-sm font-medium text-gray-700 mb-2">
+                Select Group
+              </label>
+              <select
+                value={tempGroupId ?? ''}
+                onChange={(e) => {
+                  setTempGroupId(e.target.value ? (isNaN(Number(e.target.value)) ? e.target.value : Number(e.target.value)) : null)
+                  setTempLayerId('')
+                }}
+                className="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-blue-500"
+              >
+                <option value="">Select group...</option>
+                {allGroupsWithLayers.filter(g => g.layers.length > 0).map(group => (
+                  <option key={group.id} value={group.id}>
+                    {group.path}
+                  </option>
+                ))}
+              </select>
+            </div>
+
+            {/* Layer Selection */}
+            <div className="mb-6">
+              <label className="block text-sm font-medium text-gray-700 mb-2">
+                Select Layer
+              </label>
+              <select
+                value={tempLayerId}
+                onChange={(e) => setTempLayerId(e.target.value)}
+                disabled={!tempGroupId}
+                className="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-blue-500 disabled:bg-gray-100 disabled:cursor-not-allowed"
+              >
+                <option value="">Select layer...</option>
+                {getLayersForGroup(tempGroupId).map(layer => (
+                  <option key={layer.geoserver_name} value={layer.geoserver_name}>
+                    {layer.name}
+                  </option>
+                ))}
+              </select>
+            </div>
+
+            {/* Action Buttons */}
+            <div className="flex gap-3">
+              <button
+                onClick={handleConfirmLayerChange}
+                disabled={!tempLayerId}
+                className="flex-1 bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium py-2.5 rounded-lg disabled:opacity-50 disabled:cursor-not-allowed transition"
+              >
+                Confirm
+              </button>
+              <button
+                onClick={() => setShowLayerChangeModal(false)}
                 className="flex-1 bg-gray-100 hover:bg-gray-200 text-gray-700 text-sm font-medium py-2.5 rounded-lg transition"
               >
                 Cancel

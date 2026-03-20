@@ -486,8 +486,6 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
         padding: [20, 20],
         maxZoom: 10,
       })
-
-      setClipMessage(`Viewing: ${country.name}`)
     } catch (error) {
       console.error('Failed to load country polygon:', error)
       setClipMessage(`Failed to load ${country.name}`)
