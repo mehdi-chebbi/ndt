@@ -1,5 +1,6 @@
 import { useCallback } from 'react'
-import { Layer, Polygon } from './types'
+import { Layer, Polygon, PolygonGeometry } from './types'
+import { Country } from './useMapState'
 import { api } from '@/lib/authFetch'
 
 interface UseMapHandlersProps {
@@ -13,7 +14,7 @@ interface UseMapHandlersProps {
   setReportComment: (value: string) => void
   setReportMessage: (value: string) => void
   setStatsMode: (value: boolean) => void
-  setStatsPolygon: (value: Polygon | null) => void
+  setStatsPolygon: (value: PolygonGeometry | null) => void
   setStatsResults: (value: any) => void
   setStatsError: (value: string) => void
   setIsSubmittingReport: (value: boolean) => void
@@ -25,9 +26,10 @@ interface UseMapHandlersProps {
   reportComment: string
   selectedLayerId: number | null
   allLayers: Layer[]
-  statsPolygon: Polygon | null
+  statsPolygon: PolygonGeometry | null
   statsLayerId: number | null
   statsMode: boolean
+  selectedCountry: Country | null
   // Functions from useMapInitialization
   clearDrawnItems: () => void
   // Map ref access for bounds
@@ -71,6 +73,7 @@ export function useMapHandlers(props: UseMapHandlersProps): UseMapHandlersReturn
     allLayers,
     statsPolygon,
     statsLayerId,
+    selectedCountry,
     clearDrawnItems,
     getMapBounds,
   } = props
@@ -250,14 +253,18 @@ export function useMapHandlers(props: UseMapHandlersProps): UseMapHandlersReturn
 
   // Stats handlers
   const handleStartStats = useCallback(() => {
-    // Clear previous drawings
     clearDrawnItems()
-
     setStatsMode(true)
-    setStatsPolygon(null)
+    if (!selectedCountry) {
+      setStatsPolygon(null)  // Only clear if no country is loaded
+    }
     setStatsResults(null)
     setStatsError('')
-    setClipMessage('Select a layer and draw a polygon to calculate statistics')
+    setClipMessage(
+      selectedCountry
+        ? '✓ Country boundary ready. Click Calculate Stats or draw to override.'
+        : 'Select a layer and draw a polygon to calculate statistics'
+    )
   }, [
     clearDrawnItems,
     setStatsMode,
@@ -265,6 +272,7 @@ export function useMapHandlers(props: UseMapHandlersProps): UseMapHandlersReturn
     setStatsResults,
     setStatsError,
     setClipMessage,
+    selectedCountry,
   ])
 
   const handleCalculateStats = useCallback(async () => {

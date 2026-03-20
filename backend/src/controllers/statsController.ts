@@ -3,6 +3,24 @@ import pool from '../config/database';
 import { spawn } from 'child_process';
 import path from 'path';
 
+// Helper function to count coordinates in a polygon
+function countPolygonCoordinates(polygon: any): number {
+  if (!polygon || !polygon.coordinates) return 0;
+
+  if (polygon.type === 'Polygon') {
+    // Polygon: coordinates is [rings], where rings is [positions]
+    // Sum all positions across all rings
+    return polygon.coordinates.reduce((sum: number, ring: any) => sum + ring.length, 0);
+  } else if (polygon.type === 'MultiPolygon') {
+    // MultiPolygon: coordinates is [polygons], where polygons is [rings], where rings is [positions]
+    return polygon.coordinates.reduce((sum: number, poly: any) => {
+      return sum + poly.reduce((polySum: number, ring: any) => polySum + ring.length, 0);
+    }, 0);
+  }
+
+  return 0;
+}
+
 // Get stats for a polygon area
 export const getStatsForPolygon = async (req: AuthRequest, res: Response) => {
   try {
@@ -46,11 +64,30 @@ export const getStatsForPolygon = async (req: AuthRequest, res: Response) => {
     // Call Python script for raster processing
     const scriptPath = path.join(__dirname, '..', '..', 'scripts', 'raster_stats.py');
 
+    console.log('Running stats for layer:', layer_name, '| polygon type:', polygon.type, '| coordinates:', countPolygonCoordinates(polygon));
+
     const pythonProcess = spawn('python3', [
       scriptPath,
       '--file', filePath,
-      '--polygon', JSON.stringify(polygon)
     ]);
+
+    // Log polygon JSON size before writing to stdin
+    const polygonStr = JSON.stringify(polygon);
+    console.log('Polygon JSON size (bytes):', Buffer.byteLength(polygonStr, 'utf8'));
+
+    // Write polygon to stdin with error handling
+    pythonProcess.stdin.write(polygonStr);
+    pythonProcess.stdin.end();
+
+    pythonProcess.stdin.on('error', (err) => {
+      console.error('stdin write error:', err.message);
+    });
+
+    // Handle process spawn errors
+    pythonProcess.on('error', (err) => {
+      console.error('Failed to start Python process:', err.message);
+      console.error('Error code:', (err as any).code);
+    });
 
     let outputData = '';
     let errorData = '';
@@ -63,12 +100,22 @@ export const getStatsForPolygon = async (req: AuthRequest, res: Response) => {
       errorData += data.toString();
     });
 
-    pythonProcess.on('close', (code) => {
+    pythonProcess.on('close', (code, signal) => {
+      // Log if process was killed by a signal
+      if (signal) {
+        console.error('Python process killed by signal:', signal);
+      }
+
       if (code !== 0) {
-        console.error('Python script error:', errorData);
+        console.error('Python script failed with code:', code);
+        console.error('File path:', filePath);
+        console.error('Polygon type:', polygon.type);
+        console.error('Polygon coordinate count:', countPolygonCoordinates(polygon));
+        console.error('Stderr:', errorData);
+        console.error('Stdout:', outputData);
         return res.status(500).json({
           error: 'Failed to process raster',
-          details: errorData
+          details: errorData || outputData || 'No output from Python script'
         });
       }
 
@@ -94,12 +141,6 @@ export const getStatsForPolygon = async (req: AuthRequest, res: Response) => {
         console.error('Failed to parse Python output:', outputData);
         res.status(500).json({ error: 'Failed to parse stats result' });
       }
-    });
-
-    // Handle timeout
-    pythonProcess.on('error', (err) => {
-      console.error('Failed to start Python process:', err);
-      res.status(500).json({ error: 'Failed to start raster processing' });
     });
 
   } catch (error: any) {

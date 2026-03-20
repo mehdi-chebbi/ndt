@@ -7,7 +7,7 @@ import { FeatureGroup } from 'leaflet'
 import leafletImage from 'leaflet-image'
 
 import { basemaps } from './basemaps'
-import { Group, GroupedLayers, Layer, Polygon } from './types'
+import { Group, GroupedLayers, Layer, Polygon, PolygonGeometry } from './types'
 import { Country } from './useMapState'
 import { authFetch } from '@/lib/authFetch'
 
@@ -26,7 +26,7 @@ interface UseMapInitializationProps {
   setInvalidAreaPolygon: (value: Polygon | null) => void
   setClipMessage: (value: string) => void
   statsMode: boolean
-  setStatsPolygon: (value: Polygon | null) => void
+  setStatsPolygon: (value: PolygonGeometry | null) => void
   activeDataLayers: string[]
   setActiveDataLayers: (value: string[]) => void
   setSelectedLayerId: (value: number | null) => void
@@ -480,6 +480,15 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
       countryPolygonRef.current = countryLayer
       setSelectedCountry(country)
 
+      // Extract full geometry for stats (supports both Polygon and MultiPolygon)
+      const feature = geojson.features?.[0]
+      if (feature?.geometry) {
+        const geom = feature.geometry
+        if (geom.type === 'Polygon' || geom.type === 'MultiPolygon') {
+          setStatsPolygon(geom as PolygonGeometry)
+        }
+      }
+
       // Zoom to country bounds
       const bounds = countryLayer.getBounds()
       mapRef.current.fitBounds(bounds, {
@@ -490,7 +499,7 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
       console.error('Failed to load country polygon:', error)
       setClipMessage(`Failed to load ${country.name}`)
     }
-  }, [setHasDrawnPolygon, setSelectedCountry, setClipMessage])
+  }, [setHasDrawnPolygon, setSelectedCountry, setClipMessage, setStatsPolygon])
 
   // View report on map - enable layer, draw polygon, zoom to it
   const viewReportOnMap = useCallback((layerName: string, polygon: Polygon) => {

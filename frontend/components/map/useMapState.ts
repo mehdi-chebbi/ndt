@@ -1,5 +1,5 @@
 import { useState, SetStateAction, Dispatch } from 'react'
-import { Group, GroupedLayers, Layer, Polygon, StatsResult } from './types'
+import { Group, GroupedLayers, Layer, Polygon, PolygonGeometry, StatsResult } from './types'
 
 export interface Country {
   name: string
@@ -58,8 +58,8 @@ interface MapState {
   setStatsMode: Dispatch<SetStateAction<boolean>>
   statsLayerId: number | null
   setStatsLayerId: Dispatch<SetStateAction<number | null>>
-  statsPolygon: Polygon | null
-  setStatsPolygon: Dispatch<SetStateAction<Polygon | null>>
+  statsPolygon: PolygonGeometry | null
+  setStatsPolygon: Dispatch<SetStateAction<PolygonGeometry | null>>
   statsResults: StatsResult | null
   setStatsResults: Dispatch<SetStateAction<StatsResult | null>>
   isCalculatingStats: boolean
@@ -99,7 +99,7 @@ export function useMapState(): MapState {
   // Stats state
   const [statsMode, setStatsMode] = useState(false)
   const [statsLayerId, setStatsLayerId] = useState<number | null>(null)
-  const [statsPolygon, setStatsPolygon] = useState<Polygon | null>(null)
+  const [statsPolygon, setStatsPolygon] = useState<PolygonGeometry | null>(null)
   const [statsResults, setStatsResults] = useState<StatsResult | null>(null)
   const [isCalculatingStats, setIsCalculatingStats] = useState(false)
   const [statsError, setStatsError] = useState('')

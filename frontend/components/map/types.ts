@@ -35,6 +35,13 @@ export interface Polygon {
   coordinates: number[][][]
 }
 
+export interface MultiPolygon {
+  type: 'MultiPolygon'
+  coordinates: number[][][][]
+}
+
+export type PolygonGeometry = Polygon | MultiPolygon
+
 export interface StatsResult {
   layer_name: string
   total_area_km2: number
@@ -80,7 +87,7 @@ export interface DataTabProps {
 export interface StatsTabProps {
   statsMode: boolean
   statsLayerId: number | null
-  statsPolygon: Polygon | null
+  statsPolygon: PolygonGeometry | null
   statsResults: StatsResult | null
   isCalculatingStats: boolean
   statsError: string

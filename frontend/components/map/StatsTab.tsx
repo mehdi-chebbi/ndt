@@ -171,7 +171,9 @@ export default function StatsTab({
         <div className="space-y-3">
           <div className="bg-blue-50 border border-blue-200 rounded-lg p-3">
             <p className="text-sm text-blue-800">
-              Draw a polygon on the map to define your area of interest, then click Calculate.
+              {statsPolygon
+                ? '✓ Area loaded. Click Calculate Stats to proceed, or draw a new polygon to override.'
+                : 'Draw a polygon on the map, or select a country from the menu above.'}
             </p>
           </div>
 

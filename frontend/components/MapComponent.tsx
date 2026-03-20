@@ -246,6 +246,7 @@ const MapComponent = ({ reportToView }: MapComponentProps) => {
     statsPolygon: state.statsPolygon,
     statsLayerId: state.statsLayerId,
     statsMode: state.statsMode,
+    selectedCountry: state.selectedCountry,
     clearDrawnItems,
     getMapBounds,
   })
