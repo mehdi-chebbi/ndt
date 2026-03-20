@@ -296,6 +296,20 @@ const MapComponent = ({ reportToView }: MapComponentProps) => {
     return group?.layers || []
   }, [allGroupsWithLayers])
 
+  // Helper to get full layer label (group path + layer name)
+  const getFullLayerLabel = useCallback((groupId: number | string | null, layerId: string): string => {
+    if (groupId === null || !layerId) return ''
+
+    const group = allGroupsWithLayers.find(g => g.id === groupId)
+    if (!group) return ''
+
+    const layer = group.layers.find(l => l.geoserver_name === layerId)
+    if (!layer) return ''
+
+    // Format: "Group → Child → Layer Name"
+    return `${group.path} → ${layer.name}`
+  }, [allGroupsWithLayers])
+
   return (
     <div className="flex w-full h-full relative">
       {/* Report Viewing Indicator */}
@@ -454,7 +468,7 @@ const MapComponent = ({ reportToView }: MapComponentProps) => {
 
       {/* Country Selector - positioned right next to sidebar */}
       <div
-        className={`absolute top-4 z-40 transition-all duration-300 ${
+        className={`absolute top-16 z-40 transition-all duration-300 ${
           state.sidebarOpen ? 'left-[340px]' : 'left-[60px]'
         }`}
       >
@@ -537,6 +551,25 @@ const MapComponent = ({ reportToView }: MapComponentProps) => {
             Exit
           </button>
         </div>
+      )}
+
+      {/* Compare Mode Layer Labels */}
+      {isCompareMode && (
+        <>
+          {/* Left Layer Label - Top Left */}
+          <div className="absolute top-4 left-4 z-[1000] bg-black/75 text-white
+                          text-sm font-medium px-3 py-2 rounded shadow-lg
+                          max-w-xs truncate">
+            <span>{getFullLayerLabel(leftGroupId, leftLayerId)}</span>
+          </div>
+
+          {/* Right Layer Label - Top Right */}
+          <div className="absolute top-4 right-4 z-[1000] bg-black/75 text-white
+                          text-sm font-medium px-3 py-2 rounded shadow-lg
+                          max-w-xs truncate">
+            <span>{getFullLayerLabel(rightGroupId, rightLayerId)}</span>
+          </div>
+        </>
       )}
 
       {/* Compare Layer Picker Modal */}

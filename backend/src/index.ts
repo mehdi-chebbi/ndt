@@ -3,6 +3,7 @@ import cors from 'cors';
 import pool from './config/database';
 import path from 'path';
 import fs from 'fs';
+import bcrypt from 'bcryptjs';
 
 const app: Application = express();
 const PORT = 3001;
@@ -214,10 +215,46 @@ async function initializeDatabase() {
   }
 }
 
+// Create default admin user if not exists
+async function createDefaultAdmin() {
+  try {
+    // Check if admin user already exists
+    const existingAdmin = await pool.query(
+      'SELECT id FROM users WHERE email = $1',
+      ['admin@ndt.com']
+    );
+
+    if (existingAdmin.rows.length > 0) {
+      console.log('Default admin user already exists');
+      return;
+    }
+
+    // Hash the default password
+    const defaultPassword = 'admin123';
+    const hashedPassword = await bcrypt.hash(defaultPassword, 10);
+
+    // Create default admin user
+    await pool.query(
+      'INSERT INTO users (name, email, password, role) VALUES ($1, $2, $3, $4)',
+      ['Admin', 'admin@ndt.com', hashedPassword, 'admin']
+    );
+
+    console.log('========================================');
+    console.log('Default admin user created successfully!');
+    console.log('Email: admin@ndt.com');
+    console.log('Password: admin123');
+    console.log('========================================');
+  } catch (error) {
+    console.error('Error creating default admin user:', error);
+    throw error;
+  }
+}
+
 // Start server
 async function startServer() {
   try {
     await initializeDatabase();
+    await createDefaultAdmin();
 
     app.listen(PORT, () => {
       console.log(`Server is running on http://localhost:${PORT}`);
