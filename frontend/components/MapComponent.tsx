@@ -9,6 +9,7 @@ import DataTab from './map/DataTab'
 import StatsTab from './map/StatsTab'
 import ReportingOverlay from './map/ReportingOverlay'
 import Legend from './map/Legend'
+import CompareLegend from './map/CompareLegend'
 import CountrySelector from './map/CountrySelector'
 
 // Import types
@@ -166,6 +167,36 @@ const MapComponent = ({ reportToView }: MapComponentProps) => {
     }
   }, [state.activeDataLayers, allLayers, state.groupedLayers.groups])
 
+  // Find left and right layer legends for compare mode
+  const { leftLayerLegend, leftLayerName, rightLayerLegend, rightLayerName } = useMemo(() => {
+    if (!leftLayerId || !rightLayerId) {
+      return {
+        leftLayerLegend: null,
+        leftLayerName: null,
+        rightLayerLegend: null,
+        rightLayerName: null
+      }
+    }
+
+    const leftLayer = allLayers.find(l => l.geoserver_name === leftLayerId)
+    const rightLayer = allLayers.find(l => l.geoserver_name === rightLayerId)
+
+    const leftLegend = leftLayer?.group_id
+      ? findInheritedLegend(leftLayer.group_id, state.groupedLayers.groups)
+      : null
+
+    const rightLegend = rightLayer?.group_id
+      ? findInheritedLegend(rightLayer.group_id, state.groupedLayers.groups)
+      : null
+
+    return {
+      leftLayerLegend: leftLegend,
+      leftLayerName: leftLayer?.name || null,
+      rightLayerLegend: rightLegend,
+      rightLayerName: rightLayer?.name || null
+    }
+  }, [leftLayerId, rightLayerId, allLayers, state.groupedLayers.groups])
+
   // Initialize map and get handlers
   const {
     mapContainerRef,
@@ -258,10 +289,17 @@ const MapComponent = ({ reportToView }: MapComponentProps) => {
       const timer = setTimeout(() => {
         viewReportOnMap(reportToView.original_layer, reportToView.invalid_area_polygon)
       }, 100)
-      
+
       return () => clearTimeout(timer)
     }
   }, [reportToView, state.isLoadingLayers, allLayers.length, viewReportOnMap])
+
+  // Auto-cancel stats mode when switching away from the stats tab
+  useEffect(() => {
+    if (state.activeTab !== 'stats' && state.statsMode) {
+      handleCancelStats()
+    }
+  }, [state.activeTab, state.statsMode, handleCancelStats])
 
   // Handle starting compare mode
   const onStartCompare = useCallback(() => {
@@ -314,23 +352,23 @@ const MapComponent = ({ reportToView }: MapComponentProps) => {
     if (editingSide === 'left') {
       setLeftGroupId(tempGroupId)
       setLeftLayerId(tempLayerId)
-      // Update the map with new left layer
+      // Update the map with new left layer (don't zoom - preserve current view)
       const newLeftLayer = allLayers.find(l => l.geoserver_name === tempLayerId)
       if (newLeftLayer) {
         const rightLayer = allLayers.find(l => l.geoserver_name === rightLayerId)
         if (rightLayer) {
-          handleStartCompare(newLeftLayer, rightLayer)
+          handleStartCompare(newLeftLayer, rightLayer, false)
         }
       }
     } else if (editingSide === 'right') {
       setRightGroupId(tempGroupId)
       setRightLayerId(tempLayerId)
-      // Update the map with new right layer
+      // Update the map with new right layer (don't zoom - preserve current view)
       const newRightLayer = allLayers.find(l => l.geoserver_name === tempLayerId)
       if (newRightLayer) {
         const leftLayer = allLayers.find(l => l.geoserver_name === leftLayerId)
         if (leftLayer) {
-          handleStartCompare(leftLayer, newRightLayer)
+          handleStartCompare(leftLayer, newRightLayer, false)
         }
       }
     }
@@ -556,7 +594,7 @@ const MapComponent = ({ reportToView }: MapComponentProps) => {
       )}
 
       {/* Legend - bottom right */}
-      {activeLayerLegend && activeLayerLegend.length > 0 && !state.reportingMode && (
+      {activeLayerLegend && activeLayerLegend.length > 0 && !state.reportingMode && !isCompareMode && (
         <Legend legend={activeLayerLegend} layerName={activeLayerName} />
       )}
 
@@ -631,6 +669,24 @@ const MapComponent = ({ reportToView }: MapComponentProps) => {
             </svg>
             <span>{getFullLayerLabel(rightGroupId, rightLayerId)}</span>
           </div>
+
+          {/* Left Layer Legend - Bottom Left */}
+          {leftLayerLegend && leftLayerLegend.length > 0 && (
+            <CompareLegend
+              legend={leftLayerLegend}
+              layerName={leftLayerName || undefined}
+              position="left"
+            />
+          )}
+
+          {/* Right Layer Legend - Bottom Right */}
+          {rightLayerLegend && rightLayerLegend.length > 0 && (
+            <CompareLegend
+              legend={rightLayerLegend}
+              layerName={rightLayerName || undefined}
+              position="right"
+            />
+          )}
         </>
       )}
 

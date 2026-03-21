@@ -111,50 +111,7 @@ export default function StatsTab({
         Select a layer, draw a polygon, and calculate land cover statistics.
       </div>
 
-      {/* Layer Selection - Grouped */}
-      {layersWithStats.length === 0 ? (
-        <div className="text-center py-8 bg-gray-50 rounded-lg">
-          <svg className="w-12 h-12 text-gray-300 mx-auto mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
-          </svg>
-          <p className="text-gray-500 text-sm">No layers configured for statistics</p>
-          <p className="text-gray-400 text-xs mt-1">Contact admin to configure layers</p>
-        </div>
-      ) : (
-        <div className="space-y-2">
-          {/* Root Groups */}
-          {groupedLayers.groups.map(group => renderGroup(group))}
-
-          {/* Ungrouped Layers with stats */}
-          {groupedLayers.ungroupedLayers.filter(l => l.hasStats).length > 0 && (
-            <div className="border border-gray-200 rounded-lg overflow-hidden">
-              <button
-                onClick={() => onToggleGroup('ungrouped-stats')}
-                className="w-full flex items-center justify-between px-3 py-2 bg-gray-50 hover:bg-gray-100 transition"
-              >
-                <div className="flex items-center gap-2">
-                  <svg
-                    className={`w-4 h-4 text-gray-600 transition-transform ${expandedGroups.has('ungrouped-stats') ? 'rotate-180' : ''}`}
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                  </svg>
-                  <span className="font-semibold text-gray-600">Other Layers</span>
-                </div>
-              </button>
-              {expandedGroups.has('ungrouped-stats') && (
-                <div className="p-2 space-y-2 bg-white">
-                  {groupedLayers.ungroupedLayers.filter(l => l.hasStats).map(renderLayerButton)}
-                </div>
-              )}
-            </div>
-          )}
-        </div>
-      )}
-
-      {/* Stats Mode Actions */}
+      {/* Stats Mode Actions - MOVED TO TOP */}
       {!statsMode ? (
         <button
           onClick={onStartStats}
@@ -207,7 +164,7 @@ export default function StatsTab({
 
       {/* Stats Results */}
       {statsResults && (
-        <div className="mt-4 border-t pt-4">
+        <div className="border-t pt-4">
           <h3 className="font-semibold text-gray-900 mb-3">Results</h3>
 
           <div className="bg-gray-50 rounded-lg p-3 mb-4">
@@ -243,6 +200,49 @@ export default function StatsTab({
               </tbody>
             </table>
           </div>
+        </div>
+      )}
+
+      {/* Layer Selection - Grouped */}
+      {layersWithStats.length === 0 ? (
+        <div className="text-center py-8 bg-gray-50 rounded-lg">
+          <svg className="w-12 h-12 text-gray-300 mx-auto mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+          </svg>
+          <p className="text-gray-500 text-sm">No layers configured for statistics</p>
+          <p className="text-gray-400 text-xs mt-1">Contact admin to configure layers</p>
+        </div>
+      ) : (
+        <div className="space-y-2">
+          {/* Root Groups */}
+          {groupedLayers.groups.map(group => renderGroup(group))}
+
+          {/* Ungrouped Layers with stats */}
+          {groupedLayers.ungroupedLayers.filter(l => l.hasStats).length > 0 && (
+            <div className="border border-gray-200 rounded-lg overflow-hidden">
+              <button
+                onClick={() => onToggleGroup('ungrouped-stats')}
+                className="w-full flex items-center justify-between px-3 py-2 bg-gray-50 hover:bg-gray-100 transition"
+              >
+                <div className="flex items-center gap-2">
+                  <svg
+                    className={`w-4 h-4 text-gray-600 transition-transform ${expandedGroups.has('ungrouped-stats') ? 'rotate-180' : ''}`}
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  </svg>
+                  <span className="font-semibold text-gray-600">Other Layers</span>
+                </div>
+              </button>
+              {expandedGroups.has('ungrouped-stats') && (
+                <div className="p-2 space-y-2 bg-white">
+                  {groupedLayers.ungroupedLayers.filter(l => l.hasStats).map(renderLayerButton)}
+                </div>
+              )}
+            </div>
+          )}
         </div>
       )}
     </div>

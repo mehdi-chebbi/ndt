@@ -46,7 +46,7 @@ interface UseMapInitializationReturn {
   viewReportOnMap: (layerName: string, polygon: Polygon) => void
   loadCountryPolygon: (country: Country) => Promise<void>
   handleExport: (setIsExporting: (value: boolean) => void) => void
-  handleStartCompare: (leftLayer: Layer, rightLayer: Layer) => void
+  handleStartCompare: (leftLayer: Layer, rightLayer: Layer, shouldZoom?: boolean) => void
   handleExitCompare: () => void
 }
 
@@ -404,10 +404,10 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
       newLayer.addTo(mapRef.current)
       dataLayersRef.current[layerKey] = newLayer
 
-      // Zoom to layer bounds
-      if (layer.bounds) {
-        mapRef.current.fitBounds(layer.bounds)
-      }
+      // Don't auto-zoom - preserve user's current view
+      // if (layer.bounds) {
+      //   mapRef.current.fitBounds(layer.bounds)
+      // }
 
       setActiveDataLayers([layerKey])
       setSelectedLayerId(layer.id)
@@ -597,7 +597,7 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
   }, [])
 
   // Start compare mode with two layers side by side
-  const handleStartCompare = useCallback((leftLayer: Layer, rightLayer: Layer) => {
+  const handleStartCompare = useCallback((leftLayer: Layer, rightLayer: Layer, shouldZoom = true) => {
     if (!mapRef.current) return
 
     // Remove any existing compare layers
@@ -637,8 +637,8 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
     // Create the side-by-side control
     compareControlRef.current = L.control.sideBySide(leftWMSLayer, rightWMSLayer).addTo(mapRef.current)
 
-    // Zoom to bounds if available
-    if (leftLayer.bounds) {
+    // Only zoom to bounds on initial compare (when shouldZoom is true)
+    if (shouldZoom && leftLayer.bounds) {
       mapRef.current.fitBounds(leftLayer.bounds)
     }
   }, [activeDataLayers, setActiveDataLayers])
