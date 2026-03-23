@@ -480,15 +480,6 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
       countryPolygonRef.current = countryLayer
       setSelectedCountry(country)
 
-      // Extract full geometry for stats (supports both Polygon and MultiPolygon)
-      const feature = geojson.features?.[0]
-      if (feature?.geometry) {
-        const geom = feature.geometry
-        if (geom.type === 'Polygon' || geom.type === 'MultiPolygon') {
-          setStatsPolygon(geom as PolygonGeometry)
-        }
-      }
-
       // Zoom to country bounds
       const bounds = countryLayer.getBounds()
       mapRef.current.fitBounds(bounds, {
@@ -499,7 +490,7 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
       console.error('Failed to load country polygon:', error)
       setClipMessage(`Failed to load ${country.name}`)
     }
-  }, [setHasDrawnPolygon, setSelectedCountry, setClipMessage, setStatsPolygon])
+  }, [setHasDrawnPolygon, setSelectedCountry, setClipMessage])
 
   // View report on map - enable layer, draw polygon, zoom to it
   const viewReportOnMap = useCallback((layerName: string, polygon: Polygon) => {

@@ -1,6 +1,7 @@
 'use client'
 
 import { StatsTabProps, Layer, Group } from './types'
+import StatsBarChart from './StatsBarChart'
 
 // Recursively count all layers in a group and its children (that have stats)
 function countAllLayersWithStats(group: Group): number {
@@ -129,8 +130,8 @@ export default function StatsTab({
           <div className="bg-blue-50 border border-blue-200 rounded-lg p-3">
             <p className="text-sm text-blue-800">
               {statsPolygon
-                ? '✓ Area loaded. Click Calculate Stats to proceed, or draw a new polygon to override.'
-                : 'Draw a polygon on the map, or select a country from the menu above.'}
+                ? '✓ Polygon drawn. Click Calculate Stats to proceed, or draw a new polygon to override.'
+                : 'Draw a polygon on the map to calculate statistics.'}
             </p>
           </div>
 
@@ -167,19 +168,30 @@ export default function StatsTab({
         <div className="border-t pt-4">
           <h3 className="font-semibold text-gray-900 mb-3">Results</h3>
 
+          {/* Summary box */}
           <div className="bg-gray-50 rounded-lg p-3 mb-4">
-            <div className="grid grid-cols-2 gap-2 text-sm">
-              <div>
-                <span className="text-gray-600">Pixel Size:</span>
-                <span className="font-medium ml-1">{statsResults.pixel_size_m}m</span>
-              </div>
-              <div>
-                <span className="text-gray-600">Total Area:</span>
-                <span className="font-medium ml-1">{statsResults.total_area_km2?.toLocaleString()} km²</span>
+            <div className="text-center">
+              <p className="text-xs text-gray-500 mb-1">Pixel Size</p>
+              <p className="text-sm font-semibold text-gray-900 mb-2">{statsResults.pixel_size_m}m</p>
+              <div className="border-t border-gray-200 pt-2 mt-2">
+                <p className="text-xs text-gray-500 mb-1">Total Area</p>
+                <p className="text-lg font-bold text-gray-900">
+                  {statsResults.total_area_km2?.toLocaleString(undefined, { maximumFractionDigits: 2 })}
+                  <span className="text-sm font-normal text-gray-600 ml-1">km²</span>
+                </p>
               </div>
             </div>
           </div>
 
+          {/* Bar Chart */}
+          <div className="bg-white rounded-lg p-4 mb-4 border border-gray-200">
+            <StatsBarChart
+              classes={statsResults.classes || []}
+              totalArea={statsResults.total_area_km2 || 0}
+            />
+          </div>
+
+          {/* Detailed breakdown table */}
           <div className="max-h-60 overflow-y-auto">
             <table className="w-full text-sm">
               <thead className="sticky top-0 bg-white">
@@ -193,7 +205,7 @@ export default function StatsTab({
                 {statsResults.classes?.map((cls, idx) => (
                   <tr key={idx} className="border-b border-gray-100">
                     <td className="py-2 text-gray-900">{cls.class_name}</td>
-                    <td className="py-2 text-right text-gray-600">{cls.area_km2?.toLocaleString()}</td>
+                    <td className="py-2 text-right text-gray-600">{cls.area_km2?.toLocaleString(undefined, { maximumFractionDigits: 2 })}</td>
                     <td className="py-2 text-right text-gray-600">{cls.percentage}%</td>
                   </tr>
                 ))}

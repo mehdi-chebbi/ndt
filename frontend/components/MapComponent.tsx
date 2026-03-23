@@ -428,7 +428,7 @@ const MapComponent = ({ reportToView }: MapComponentProps) => {
       {/* Sidebar */}
       <div
         className={`left-0 top-0 bg-white shadow-lg transition-all duration-300 z-50 h-full ${
-          state.sidebarOpen ? 'w-80' : 'w-0'
+          state.sidebarOpen ? 'w-96' : 'w-0'
         } overflow-hidden absolute`}
       >
         <div className="h-full overflow-y-auto p-6">
@@ -539,7 +539,7 @@ const MapComponent = ({ reportToView }: MapComponentProps) => {
       <button
         onClick={() => state.setSidebarOpen(!state.sidebarOpen)}
         className={`left-0 top-1/2 transform -translate-y-1/2 bg-gray-900 text-white p-3 rounded-r-lg shadow-lg transition-all duration-300 z-50 absolute ${
-          state.sidebarOpen ? 'ml-80' : 'ml-0'
+          state.sidebarOpen ? 'ml-96' : 'ml-0'
         }`}
       >
         <svg
@@ -555,7 +555,7 @@ const MapComponent = ({ reportToView }: MapComponentProps) => {
       {/* Country Selector - positioned right next to sidebar */}
       <div
         className={`absolute top-16 z-40 transition-all duration-300 ${
-          state.sidebarOpen ? 'left-[340px]' : 'left-[60px]'
+          state.sidebarOpen ? 'left-[400px]' : 'left-[60px]'
         }`}
       >
         <CountrySelector

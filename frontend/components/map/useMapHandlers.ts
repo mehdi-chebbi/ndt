@@ -255,16 +255,12 @@ export function useMapHandlers(props: UseMapHandlersProps): UseMapHandlersReturn
   const handleStartStats = useCallback(() => {
     clearDrawnItems()
     setStatsMode(true)
-    if (!selectedCountry) {
-      setStatsPolygon(null)  // Only clear if no country is loaded
-    }
+    // Always clear the stats polygon when starting stats mode
+    // User must manually draw a polygon for stats calculations
+    setStatsPolygon(null)
     setStatsResults(null)
     setStatsError('')
-    setClipMessage(
-      selectedCountry
-        ? '✓ Country boundary ready. Click Calculate Stats or draw to override.'
-        : 'Select a layer and draw a polygon to calculate statistics'
-    )
+    setClipMessage('Draw a polygon on the map to calculate statistics')
   }, [
     clearDrawnItems,
     setStatsMode,
@@ -272,7 +268,6 @@ export function useMapHandlers(props: UseMapHandlersProps): UseMapHandlersReturn
     setStatsResults,
     setStatsError,
     setClipMessage,
-    selectedCountry,
   ])
 
   const handleCalculateStats = useCallback(async () => {
