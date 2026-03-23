@@ -60,6 +60,13 @@ export default function Navbar() {
                 >
                   WaterWatch Africa
                 </Link>
+                {/* GiniWatch Africa - visible only to authenticated users */}
+                <Link
+                  href="/giniwatch-africa"
+                  className="text-gray-700 hover:text-gray-900 transition"
+                >
+                  GiniWatch Africa
+                </Link>
                 <Link
                   href={user?.role === 'admin' ? '/admin' : '/dashboard'}
                   className="text-gray-700 hover:text-gray-900 transition"
