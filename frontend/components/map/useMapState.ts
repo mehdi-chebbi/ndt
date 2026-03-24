@@ -68,6 +68,10 @@ interface MapState {
   setIsCalculatingStats: Dispatch<SetStateAction<boolean>>
   statsError: string
   setStatsError: Dispatch<SetStateAction<string>>
+  statsMessage: string
+  setStatsMessage: Dispatch<SetStateAction<string>>
+  statsMessageIsError: boolean
+  setStatsMessageIsError: Dispatch<SetStateAction<boolean>>
 }
 
 export function useMapState(): MapState {
@@ -106,6 +110,8 @@ export function useMapState(): MapState {
   const [statsResults, setStatsResults] = useState<StatsResult | null>(null)
   const [isCalculatingStats, setIsCalculatingStats] = useState(false)
   const [statsError, setStatsError] = useState('')
+  const [statsMessage, setStatsMessage] = useState('')
+  const [statsMessageIsError, setStatsMessageIsError] = useState(false)
 
   return {
     // UI state
@@ -169,6 +175,10 @@ export function useMapState(): MapState {
     setIsCalculatingStats,
     statsError,
     setStatsError,
+    statsMessage,
+    setStatsMessage,
+    statsMessageIsError,
+    setStatsMessageIsError,
   }
 }
 

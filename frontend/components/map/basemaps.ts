@@ -1,5 +1,26 @@
 import L from 'leaflet'
 
+// Basemap metadata with thumbnail paths
+export interface BasemapInfo {
+  name: string
+  thumbnail: string
+}
+
+// Basemap metadata for UI display
+export const basemapInfo: BasemapInfo[] = [
+  { name: 'OpenStreetMap', thumbnail: '/basemaps/osm.png' },
+  { name: 'Satellite', thumbnail: '/basemaps/sat.png' },
+  { name: 'Dark', thumbnail: '/basemaps/dark.png' },
+  { name: 'Light', thumbnail: '/basemaps/light.png' },
+  { name: 'Topographic', thumbnail: '/basemaps/topo.png' },
+  { name: 'S2 Cloudless', thumbnail: '/basemaps/s2.png' },
+  { name: 'ESA WorldCover 2021', thumbnail: '/basemaps/2021.png' },
+  { name: 'ESA WorldCover 2020', thumbnail: '/basemaps/2020.png' },
+  { name: 'Population Density', thumbnail: '/basemaps/pop.png' },
+  { name: 'Macrostrat Geology', thumbnail: '/basemaps/geology.png' },
+  { name: 'Stamen Watercolor', thumbnail: '/basemaps/watercolor.png' },
+]
+
 // Basemaps configuration - all available base map layers
 export const basemaps: { [key: string]: L.TileLayer | L.TileLayer.WMS } = {
   'OpenStreetMap': L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {

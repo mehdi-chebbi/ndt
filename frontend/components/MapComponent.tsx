@@ -234,6 +234,12 @@ const MapComponent = ({ reportToView }: MapComponentProps) => {
     setSelectedCountry: state.setSelectedCountry,
   })
 
+  // Handle setting stats message
+  const handleSetStatsMessage = useCallback((message: string, isError: boolean) => {
+    state.setStatsMessage(message)
+    state.setStatsMessageIsError(isError)
+  }, [state.setStatsMessage, state.setStatsMessageIsError])
+
   // Handle country selection
   const handleCountrySelect = useCallback((country: Country | null) => {
     if (country) {
@@ -532,6 +538,7 @@ const MapComponent = ({ reportToView }: MapComponentProps) => {
                 onCancelStats={handleCancelStats}
                 onStatsLayerChange={state.setStatsLayerId}
                 onToggleGroup={handleToggleGroup}
+                onSetStatsMessage={handleSetStatsMessage}
               />
             )}
           </div>
@@ -578,7 +585,7 @@ const MapComponent = ({ reportToView }: MapComponentProps) => {
                          border border-gray-300 disabled:opacity-50 disabled:cursor-not-allowed
                          flex items-center gap-2 transition-colors"
             >
-              {isExporting ? 'Exporting...' : 'Export JPEG'}
+              {isExporting ? 'Exporting...' : 'Export'}
             </button>
           )}
         </div>
@@ -605,10 +612,21 @@ const MapComponent = ({ reportToView }: MapComponentProps) => {
         onReportCommentChange={state.setReportComment}
       />
 
-      {/* Message Display */}
-      {state.clipMessage && !state.reportingMode && !reportToView && (
+      {/* Message Display - only show if not in stats mode with a stats message */}
+      {state.clipMessage && !state.reportingMode && !reportToView && !state.statsMode && (
         <div className={`absolute left-1/2 -translate-x-1/2 bg-gray-900 text-white px-6 py-3 rounded-lg shadow-lg z-50 ${isCompareMode ? 'top-16' : 'top-4'}`}>
           {state.clipMessage}
+        </div>
+      )}
+
+      {/* Stats Message Display - only show in stats mode */}
+      {state.statsMessage && state.statsMode && !reportToView && (
+        <div className={`absolute left-1/2 -translate-x-1/2 px-6 py-3 rounded-lg shadow-lg z-50 top-4 ${
+          state.statsMessageIsError
+            ? 'bg-red-100 border-2 border-red-500 text-red-800'
+            : 'bg-green-100 border-2 border-green-500 text-green-800'
+        }`}>
+          <p className="text-sm font-medium">{state.statsMessage}</p>
         </div>
       )}
 

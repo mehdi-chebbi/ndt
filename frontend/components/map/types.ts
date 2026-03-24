@@ -100,4 +100,5 @@ export interface StatsTabProps {
   onCancelStats: () => void
   onStatsLayerChange: (layerId: number | null) => void
   onToggleGroup: (groupId: number | string) => void
+  onSetStatsMessage: (message: string, isError: boolean) => void
 }

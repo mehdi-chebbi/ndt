@@ -1,5 +1,6 @@
 'use client'
 
+import React from 'react'
 import { StatsTabProps, Layer, Group } from './types'
 import StatsBarChart from './StatsBarChart'
 
@@ -30,6 +31,7 @@ export default function StatsTab({
   onCancelStats,
   onStatsLayerChange,
   onToggleGroup,
+  onSetStatsMessage,
 }: StatsTabProps) {
   // Filter layers that have stats capability
   const layersWithStats = allLayers.filter(l => l.hasStats)
@@ -38,6 +40,25 @@ export default function StatsTab({
   const MAX_AREA_KM2 = 200_000
   const isPolygonTooLarge = statsPolygonArea > MAX_AREA_KM2
   const canCalculateStats = statsPolygon && statsLayerId && !isPolygonTooLarge && !isCalculatingStats
+
+  // Update stats message when polygon changes
+  React.useEffect(() => {
+    if (statsPolygon) {
+      if (isPolygonTooLarge) {
+        onSetStatsMessage(
+          `✓ Polygon captured (${statsPolygonArea.toLocaleString()} km²). Area too large - maximum is ${MAX_AREA_KM2.toLocaleString()} km². Please draw a smaller area.`,
+          true
+        )
+      } else {
+        onSetStatsMessage(
+          `✓ Polygon captured (${statsPolygonArea.toLocaleString()} km²). Click "Calculate Stats" to proceed.`,
+          false
+        )
+      }
+    } else if (statsMode) {
+      onSetStatsMessage('', false)
+    }
+  }, [statsPolygon, statsPolygonArea, isPolygonTooLarge, statsMode, onSetStatsMessage])
 
   // Render a layer button
   const renderLayerButton = (layer: Layer) => {
@@ -133,26 +154,6 @@ export default function StatsTab({
         </button>
       ) : (
         <div className="space-y-3">
-          <div className={`border rounded-lg p-3 ${
-            statsPolygon && isPolygonTooLarge
-              ? 'bg-red-50 border-red-200'
-              : statsPolygon
-              ? 'bg-blue-50 border-blue-200'
-              : 'bg-blue-50 border-blue-200'
-          }`}>
-            <p className={`text-sm ${
-              statsPolygon && isPolygonTooLarge
-                ? 'text-red-800'
-                : 'text-blue-800'
-            }`}>
-              {!statsPolygon
-                ? 'Draw a polygon on the map to calculate statistics.'
-                : isPolygonTooLarge
-                ? `✓ Polygon captured (${statsPolygonArea.toLocaleString()} km²). Area too large - maximum is ${MAX_AREA_KM2.toLocaleString()} km². Please draw a smaller area.`
-                : `✓ Polygon captured (${statsPolygonArea.toLocaleString()} km²). Click "Calculate Stats" to proceed.`}
-            </p>
-          </div>
-
           <div className="flex gap-2">
             <button
               onClick={onCalculateStats}
