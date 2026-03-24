@@ -535,7 +535,7 @@ export default function WaterWatchAfricaPage() {
       </Modal>
 
       {/* ── MODAL: Biggest gains ────────────────────────────────────────────── */}
-      <Modal open={modal === 'improvers'} onClose={() => setModal(null)} title="All countries — 20-year change (pp), 2000 → 2020" accentColor="#16a34a">
+      <Modal open={modal === 'improvers'} onClose={() => setModal(null)} title="All countries — 20+ year change (pp), 2000 → 2023" accentColor="#16a34a">
         {mHead(['#', 'Country', '2000', '2020', 'Δ pp'], '28px 1fr 68px 68px 76px')}
         {allChanges.map((r, i) => (
           <div key={i} style={{ display: 'grid', gridTemplateColumns: '28px 1fr 68px 68px 76px', padding: '10px 24px', borderBottom: '1px solid #f9fafb', background: i % 2 === 0 ? '#fff' : '#fafafa', alignItems: 'center' }}>
@@ -555,7 +555,7 @@ export default function WaterWatchAfricaPage() {
       </Modal>
 
       {/* ── MODAL: Notable changes ──────────────────────────────────────────── */}
-      <Modal open={modal === 'changes'} onClose={() => setModal(null)} title="All countries — full change table, 2000 → 2020" accentColor="#6366f1">
+      <Modal open={modal === 'changes'} onClose={() => setModal(null)} title="All countries — full change table, 2000 → 2023" accentColor="#6366f1">
         {mHead(['#', 'Country', '2000', '2020', 'Δ pp'], '28px 1fr 68px 68px 76px')}
         {allChanges.map((r, i) => (
           <div key={i} style={{ display: 'grid', gridTemplateColumns: '28px 1fr 68px 68px 76px', padding: '10px 24px', borderBottom: '1px solid #f9fafb', background: i % 2 === 0 ? '#fff' : '#fafafa', alignItems: 'center' }}>
@@ -600,7 +600,7 @@ export default function WaterWatchAfricaPage() {
         <div style={{ position: 'absolute', top: '-80px', right: '160px', width: '420px', height: '420px', borderRadius: '50%', background: 'radial-gradient(circle,rgba(22,163,74,0.06) 0%,transparent 70%)', transform: `translateY(${scrollY * 0.12}px)`, pointerEvents: 'none' }} />
         <Stagger delay={0}>
           <p style={{ fontFamily: "'JetBrains Mono', monospace", fontSize: '10px', letterSpacing: '0.2em', color: '#16a34a', marginBottom: '20px', textTransform: 'uppercase' }}>
-            ◈ World Bank / JMP Dataset · Africa · 2000–2020
+            ◈ World Bank / JMP Dataset · Africa · 2000–2023
           </p>
         </Stagger>
         <Stagger delay={70}>
@@ -615,7 +615,7 @@ export default function WaterWatchAfricaPage() {
           <div style={{ display: 'flex', gap: '40px', flexWrap: 'wrap' }}>
             {[
               { label: 'Indicator', value: 'Safely managed / at least basic' },
-              { label: 'Period', value: '2000 – 2020' },
+              { label: 'Period', value: '2000 – 2023' },
               { label: 'Source', value: 'World Bank / JMP' },
             ].map((item, i) => (
               <div key={i}>
@@ -674,7 +674,7 @@ export default function WaterWatchAfricaPage() {
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px', marginBottom: '16px' }}>
           <Stagger delay={0}>
             <div style={card}>
-              {sectionHead('#16a34a', 'Biggest gains 2000 → 2020 (pp)', () => setModal('improvers'))}
+              {sectionHead('#16a34a', 'Biggest gains 2000 → 2023 (pp)', () => setModal('improvers'))}
               <div style={{ display: 'flex', flexDirection: 'column', gap: '13px' }}>
                 {improvers.map((d, i) => (
                   <div key={i} style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
@@ -752,7 +752,7 @@ export default function WaterWatchAfricaPage() {
         {/* ── READING THE DATA ── */}
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3,1fr)', gap: '16px' }}>
           {[
-            { icon: '↗', title: 'Steady continental progress', desc: 'The continental average climbed from ~44% in 2000 to ~54% in 2020 across the 34 countries with available data — meaningful progress, though coverage gaps for ~20 countries mean the true picture may be bleaker.', accent: '#16a34a' },
+            { icon: '↗', title: 'Steady continental progress', desc: 'The continental average climbed from ~44% in 2000 to ~54% in 2023 across the 34 countries with available data — meaningful progress, though coverage gaps for ~20 countries mean the true picture may be bleaker.', accent: '#16a34a' },
             { icon: '⇅', title: 'A widening two-speed story', desc: 'Morocco, Uganda, and Tanzania each gained 30+ percentage points, while Central African Republic and DR Congo moved backward. The gap between leaders and laggards has grown wider.', accent: '#ef4444' },
             { icon: '⊘', title: 'The persistent rural deficit', desc: 'In Gambia and Lesotho, the urban-rural gap exceeds 54 percentage points. Urban populations are often 3–7× more likely to have safe water access than their rural counterparts.', accent: '#0ea5e9' },
           ].map((item, i) => (
@@ -773,7 +773,7 @@ export default function WaterWatchAfricaPage() {
           Population using safely managed / at least basic drinking water services
         </p>
         <p style={{ fontFamily: "'JetBrains Mono', monospace", fontSize: '11px', letterSpacing: '0.08em', color: '#9ca3af' }}>
-          Data: World Bank / JMP · 2000–2020
+          Data: World Bank / JMP · 2000–2023
         </p>
       </footer>
     </div>
