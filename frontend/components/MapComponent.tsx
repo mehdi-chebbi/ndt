@@ -225,6 +225,7 @@ const MapComponent = ({ reportToView }: MapComponentProps) => {
     setClipMessage: state.setClipMessage,
     statsMode: state.statsMode,
     setStatsPolygon: state.setStatsPolygon,
+    setStatsPolygonArea: state.setStatsPolygonArea,
     activeDataLayers: state.activeDataLayers,
     setActiveDataLayers: state.setActiveDataLayers,
     setSelectedLayerId: state.setSelectedLayerId,
@@ -263,6 +264,7 @@ const MapComponent = ({ reportToView }: MapComponentProps) => {
     setReportMessage: state.setReportMessage,
     setStatsMode: state.setStatsMode,
     setStatsPolygon: state.setStatsPolygon,
+    setStatsPolygonArea: state.setStatsPolygonArea,
     setStatsResults: state.setStatsResults,
     setStatsError: state.setStatsError,
     setIsSubmittingReport: state.setIsSubmittingReport,
@@ -518,6 +520,7 @@ const MapComponent = ({ reportToView }: MapComponentProps) => {
                 statsMode={state.statsMode}
                 statsLayerId={state.statsLayerId}
                 statsPolygon={state.statsPolygon}
+                statsPolygonArea={state.statsPolygonArea}
                 statsResults={state.statsResults}
                 isCalculatingStats={state.isCalculatingStats}
                 statsError={state.statsError}
@@ -558,11 +561,27 @@ const MapComponent = ({ reportToView }: MapComponentProps) => {
           state.sidebarOpen ? 'left-[400px]' : 'left-[60px]'
         }`}
       >
-        <CountrySelector
-          selectedCountry={state.selectedCountry?.name || null}
-          onSelectCountry={handleCountrySelect}
-          disabled={state.reportingMode || state.statsMode}
-        />
+        <div className="flex flex-col gap-2">
+          <CountrySelector
+            selectedCountry={state.selectedCountry?.name || null}
+            onSelectCountry={handleCountrySelect}
+            disabled={state.reportingMode || state.statsMode}
+          />
+
+          {/* Export JPEG Button - right under Country Selector */}
+          {!isCompareMode && !state.reportingMode && !state.statsMode && !reportToView && (
+            <button
+              onClick={() => handleExport(setIsExporting)}
+              disabled={isExporting}
+              className="bg-white hover:bg-gray-100
+                         text-gray-700 text-sm font-medium px-3 py-2 rounded shadow-md
+                         border border-gray-300 disabled:opacity-50 disabled:cursor-not-allowed
+                         flex items-center gap-2 transition-colors"
+            >
+              {isExporting ? 'Exporting...' : 'Export JPEG'}
+            </button>
+          )}
+        </div>
       </div>
 
       {/* Map Container */}
@@ -596,20 +615,6 @@ const MapComponent = ({ reportToView }: MapComponentProps) => {
       {/* Legend - bottom right */}
       {activeLayerLegend && activeLayerLegend.length > 0 && !state.reportingMode && !isCompareMode && (
         <Legend legend={activeLayerLegend} layerName={activeLayerName} />
-      )}
-
-      {/* Export JPEG Button - bottom right above zoom controls */}
-      {!isCompareMode && (
-        <button
-          onClick={() => handleExport(setIsExporting)}
-          disabled={isExporting}
-          className="absolute bottom-24 right-3 z-[1000] bg-white hover:bg-gray-100
-                     text-gray-700 text-sm font-medium px-3 py-2 rounded shadow-md
-                     border border-gray-300 disabled:opacity-50 disabled:cursor-not-allowed
-                     flex items-center gap-2 transition-colors"
-        >
-          {isExporting ? 'Exporting...' : 'Export JPEG'}
-        </button>
       )}
 
       {/* Compare Layers Button - top right */}

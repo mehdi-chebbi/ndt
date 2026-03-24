@@ -18,6 +18,7 @@ export default function StatsTab({
   statsMode,
   statsLayerId,
   statsPolygon,
+  statsPolygonArea,
   statsResults,
   isCalculatingStats,
   statsError,
@@ -32,6 +33,11 @@ export default function StatsTab({
 }: StatsTabProps) {
   // Filter layers that have stats capability
   const layersWithStats = allLayers.filter(l => l.hasStats)
+
+  // Check if polygon area is within limits
+  const MAX_AREA_KM2 = 200_000
+  const isPolygonTooLarge = statsPolygonArea > MAX_AREA_KM2
+  const canCalculateStats = statsPolygon && statsLayerId && !isPolygonTooLarge && !isCalculatingStats
 
   // Render a layer button
   const renderLayerButton = (layer: Layer) => {
@@ -127,20 +133,32 @@ export default function StatsTab({
         </button>
       ) : (
         <div className="space-y-3">
-          <div className="bg-blue-50 border border-blue-200 rounded-lg p-3">
-            <p className="text-sm text-blue-800">
-              {statsPolygon
-                ? '✓ Polygon drawn. Click Calculate Stats to proceed, or draw a new polygon to override.'
-                : 'Draw a polygon on the map to calculate statistics.'}
+          <div className={`border rounded-lg p-3 ${
+            statsPolygon && isPolygonTooLarge
+              ? 'bg-red-50 border-red-200'
+              : statsPolygon
+              ? 'bg-blue-50 border-blue-200'
+              : 'bg-blue-50 border-blue-200'
+          }`}>
+            <p className={`text-sm ${
+              statsPolygon && isPolygonTooLarge
+                ? 'text-red-800'
+                : 'text-blue-800'
+            }`}>
+              {!statsPolygon
+                ? 'Draw a polygon on the map to calculate statistics.'
+                : isPolygonTooLarge
+                ? `✓ Polygon captured (${statsPolygonArea.toLocaleString()} km²). Area too large - maximum is ${MAX_AREA_KM2.toLocaleString()} km². Please draw a smaller area.`
+                : `✓ Polygon captured (${statsPolygonArea.toLocaleString()} km²). Click "Calculate Stats" to proceed.`}
             </p>
           </div>
 
           <div className="flex gap-2">
             <button
               onClick={onCalculateStats}
-              disabled={!statsPolygon || isCalculatingStats}
+              disabled={!canCalculateStats}
               className={`flex-1 py-2 rounded-lg font-medium transition ${
-                !statsPolygon || isCalculatingStats
+                !canCalculateStats
                   ? 'bg-gray-100 text-gray-400 cursor-not-allowed'
                   : 'bg-green-600 text-white hover:bg-green-700'
               }`}

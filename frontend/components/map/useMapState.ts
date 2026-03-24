@@ -60,6 +60,8 @@ interface MapState {
   setStatsLayerId: Dispatch<SetStateAction<number | null>>
   statsPolygon: PolygonGeometry | null
   setStatsPolygon: Dispatch<SetStateAction<PolygonGeometry | null>>
+  statsPolygonArea: number
+  setStatsPolygonArea: Dispatch<SetStateAction<number>>
   statsResults: StatsResult | null
   setStatsResults: Dispatch<SetStateAction<StatsResult | null>>
   isCalculatingStats: boolean
@@ -100,6 +102,7 @@ export function useMapState(): MapState {
   const [statsMode, setStatsMode] = useState(false)
   const [statsLayerId, setStatsLayerId] = useState<number | null>(null)
   const [statsPolygon, setStatsPolygon] = useState<PolygonGeometry | null>(null)
+  const [statsPolygonArea, setStatsPolygonArea] = useState(0)
   const [statsResults, setStatsResults] = useState<StatsResult | null>(null)
   const [isCalculatingStats, setIsCalculatingStats] = useState(false)
   const [statsError, setStatsError] = useState('')
@@ -158,6 +161,8 @@ export function useMapState(): MapState {
     setStatsLayerId,
     statsPolygon,
     setStatsPolygon,
+    statsPolygonArea,
+    setStatsPolygonArea,
     statsResults,
     setStatsResults,
     isCalculatingStats,

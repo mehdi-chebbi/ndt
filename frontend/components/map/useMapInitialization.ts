@@ -11,6 +11,31 @@ import { Group, GroupedLayers, Layer, Polygon, PolygonGeometry } from './types'
 import { Country } from './useMapState'
 import { authFetch } from '@/lib/authFetch'
 
+// Helper function to calculate polygon area in km² using spherical calculation
+function calculatePolygonAreaKm2(polygon: Polygon): number {
+  if (!polygon || !polygon.coordinates || !polygon.coordinates[0]) {
+    return 0
+  }
+
+  const coords = polygon.coordinates[0]
+  const R = 6371 // Earth's radius in km
+  let area = 0
+
+  for (let i = 0; i < coords.length; i++) {
+    const j = (i + 1) % coords.length
+    const [lon1, lat1] = coords[i] as [number, number]
+    const [lon2, lat2] = coords[j] as [number, number]
+
+    const phi1 = lat1 * Math.PI / 180
+    const phi2 = lat2 * Math.PI / 180
+    const deltaLambda = (lon2 - lon1) * Math.PI / 180
+
+    area += deltaLambda * (2 + Math.sin(phi1) + Math.sin(phi2))
+  }
+
+  return Math.abs(area * R * R / 2.0)
+}
+
 interface UseMapInitializationProps {
   // State values
   activeBasemap: string
@@ -27,6 +52,7 @@ interface UseMapInitializationProps {
   setClipMessage: (value: string) => void
   statsMode: boolean
   setStatsPolygon: (value: PolygonGeometry | null) => void
+  setStatsPolygonArea: (value: number) => void
   activeDataLayers: string[]
   setActiveDataLayers: (value: string[]) => void
   setSelectedLayerId: (value: number | null) => void
@@ -66,6 +92,7 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
     setClipMessage,
     statsMode,
     setStatsPolygon,
+    setStatsPolygonArea,
     activeDataLayers,
     setActiveDataLayers,
     setSelectedLayerId,
@@ -311,7 +338,22 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
           coordinates: [closedCoordinates],
         }
         setStatsPolygon(polygon)
-        setClipMessage('Polygon captured. Click "Calculate Stats" to proceed.')
+
+        // Calculate area and store it
+        const areaKm2 = calculatePolygonAreaKm2(polygon)
+        setStatsPolygonArea(areaKm2)
+
+        // Show appropriate message based on area size
+        const MAX_AREA_KM2 = 200_000
+        if (areaKm2 > MAX_AREA_KM2) {
+          setClipMessage(
+            `✓ Polygon captured (${areaKm2.toLocaleString()} km²). Area too large - maximum is ${MAX_AREA_KM2.toLocaleString()} km². Please draw a smaller area.`
+          )
+        } else {
+          setClipMessage(
+            `✓ Polygon captured (${areaKm2.toLocaleString()} km²). Click "Calculate Stats" to proceed.`
+          )
+        }
       }
     }
 
@@ -320,7 +362,7 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
     return () => {
       map.off(L.Draw.Event.CREATED, handleDrawCreated)
     }
-  }, [statsMode, setStatsPolygon, setClipMessage, setSelectedCountry])
+  }, [statsMode, setStatsPolygon, setStatsPolygonArea, setClipMessage, setSelectedCountry])
 
   // Show/hide draw control based on reporting mode or stats mode
   useEffect(() => {

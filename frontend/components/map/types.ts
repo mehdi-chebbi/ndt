@@ -88,6 +88,7 @@ export interface StatsTabProps {
   statsMode: boolean
   statsLayerId: number | null
   statsPolygon: PolygonGeometry | null
+  statsPolygonArea: number
   statsResults: StatsResult | null
   isCalculatingStats: boolean
   statsError: string

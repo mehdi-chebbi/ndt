@@ -3,6 +3,31 @@ import { Layer, Polygon, PolygonGeometry } from './types'
 import { Country } from './useMapState'
 import { api } from '@/lib/authFetch'
 
+// Helper function to calculate polygon area in km² using spherical calculation
+function calculatePolygonAreaKm2(polygon: Polygon | PolygonGeometry): number {
+  if (!polygon || !polygon.coordinates || !polygon.coordinates[0]) {
+    return 0
+  }
+
+  const coords = polygon.coordinates[0]
+  const R = 6371 // Earth's radius in km
+  let area = 0
+
+  for (let i = 0; i < coords.length; i++) {
+    const j = (i + 1) % coords.length
+    const [lon1, lat1] = coords[i] as [number, number]
+    const [lon2, lat2] = coords[j] as [number, number]
+
+    const phi1 = lat1 * Math.PI / 180
+    const phi2 = lat2 * Math.PI / 180
+    const deltaLambda = (lon2 - lon1) * Math.PI / 180
+
+    area += deltaLambda * (2 + Math.sin(phi1) + Math.sin(phi2))
+  }
+
+  return Math.abs(area * R * R / 2.0)
+}
+
 interface UseMapHandlersProps {
   // State setters
   setExpandedGroups: (value: Set<number | string> | ((prev: Set<number | string>) => Set<number | string>)) => void
@@ -15,6 +40,7 @@ interface UseMapHandlersProps {
   setReportMessage: (value: string) => void
   setStatsMode: (value: boolean) => void
   setStatsPolygon: (value: PolygonGeometry | null) => void
+  setStatsPolygonArea: (value: number) => void
   setStatsResults: (value: any) => void
   setStatsError: (value: string) => void
   setIsSubmittingReport: (value: boolean) => void
@@ -62,6 +88,7 @@ export function useMapHandlers(props: UseMapHandlersProps): UseMapHandlersReturn
     setReportMessage,
     setStatsMode,
     setStatsPolygon,
+    setStatsPolygonArea,
     setStatsResults,
     setStatsError,
     setIsSubmittingReport,
@@ -104,6 +131,7 @@ export function useMapHandlers(props: UseMapHandlersProps): UseMapHandlersReturn
     // Clear stats
     setStatsMode(false)
     setStatsPolygon(null)
+    setStatsPolygonArea(0)
     setStatsResults(null)
     setStatsError('')
   }, [
@@ -117,6 +145,7 @@ export function useMapHandlers(props: UseMapHandlersProps): UseMapHandlersReturn
     setReportMessage,
     setStatsMode,
     setStatsPolygon,
+    setStatsPolygonArea,
     setStatsResults,
     setStatsError,
   ])
@@ -258,6 +287,7 @@ export function useMapHandlers(props: UseMapHandlersProps): UseMapHandlersReturn
     // Always clear the stats polygon when starting stats mode
     // User must manually draw a polygon for stats calculations
     setStatsPolygon(null)
+    setStatsPolygonArea(0)
     setStatsResults(null)
     setStatsError('')
     setClipMessage('Draw a polygon on the map to calculate statistics')
@@ -265,6 +295,7 @@ export function useMapHandlers(props: UseMapHandlersProps): UseMapHandlersReturn
     clearDrawnItems,
     setStatsMode,
     setStatsPolygon,
+    setStatsPolygonArea,
     setStatsResults,
     setStatsError,
     setClipMessage,
@@ -323,6 +354,7 @@ export function useMapHandlers(props: UseMapHandlersProps): UseMapHandlersReturn
   const handleCancelStats = useCallback(() => {
     setStatsMode(false)
     setStatsPolygon(null)
+    setStatsPolygonArea(0)
     setStatsResults(null)
     setStatsError('')
     setClipMessage('')
@@ -331,6 +363,7 @@ export function useMapHandlers(props: UseMapHandlersProps): UseMapHandlersReturn
   }, [
     setStatsMode,
     setStatsPolygon,
+    setStatsPolygonArea,
     setStatsResults,
     setStatsError,
     setClipMessage,
