@@ -5,25 +5,20 @@ import { useEffect, useState } from 'react'
 
 export default function HomePage() {
   const [isAuthenticated, setIsAuthenticated] = useState(false)
-  const [userName, setUserName] = useState('')
+  const [user, setUser] = useState<any>(null)
+  const [mounted, setMounted] = useState(false)
 
   useEffect(() => {
+    setMounted(true)
     const token = localStorage.getItem('token')
+    const userData = localStorage.getItem('user')
     if (token) {
       setIsAuthenticated(true)
-      const userStr = localStorage.getItem('user')
-      if (userStr) {
-        const user = JSON.parse(userStr)
-        setUserName(user.name || 'User')
+      if (userData) {
+        setUser(JSON.parse(userData))
       }
     }
   }, [])
-
-  const handleLogout = () => {
-    localStorage.removeItem('token')
-    localStorage.removeItem('user')
-    window.location.href = '/'
-  }
 
   return (
     <div className="min-h-screen bg-[#0a0f0d] text-white overflow-x-hidden" style={{ fontFamily: "'Georgia', serif" }}>
@@ -58,57 +53,6 @@ export default function HomePage() {
         }} />
       </div>
 
-      {/* Nav */}
-      <nav className="relative z-10 max-w-7xl mx-auto px-6 lg:px-8 py-6 flex items-center justify-between">
-        <div className="flex items-center gap-3">
-          {/* Logo mark */}
-          <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
-            <circle cx="16" cy="16" r="15" stroke="#22c55e" strokeWidth="1.5" />
-            <path d="M8 16 Q12 10 16 16 Q20 22 24 16" stroke="#22c55e" strokeWidth="1.5" fill="none" strokeLinecap="round"/>
-            <circle cx="16" cy="16" r="2" fill="#22c55e" />
-          </svg>
-          <span style={{ fontFamily: "'Georgia', serif", letterSpacing: '0.04em' }} className="text-white font-semibold text-lg tracking-wide">
-            AfriGeo<span className="text-green-400">Data</span>
-          </span>
-        </div>
-        <div className="flex items-center gap-6">
-          {isAuthenticated ? (
-            <>
-              <span className="text-sm text-gray-400" style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.03em' }}>
-                Hi, {userName}
-              </span>
-              <Link
-                href="/map"
-                className="text-sm px-4 py-2 rounded-md border border-green-500/40 text-green-400 hover:bg-green-500/10 transition-all duration-200"
-                style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.03em' }}
-              >
-                Go to Map
-              </Link>
-              <button
-                onClick={handleLogout}
-                className="text-sm text-gray-400 hover:text-white transition-colors duration-200"
-                style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.03em', background: 'none', border: 'none', cursor: 'pointer' }}
-              >
-                Sign out
-              </button>
-            </>
-          ) : (
-            <>
-              <Link href="/login" className="text-sm text-gray-400 hover:text-white transition-colors duration-200" style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.03em' }}>
-                Sign in
-              </Link>
-              <Link
-                href="/signup"
-                className="text-sm px-4 py-2 rounded-md border border-green-500/40 text-green-400 hover:bg-green-500/10 transition-all duration-200"
-                style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.03em' }}
-              >
-                Get Access
-              </Link>
-            </>
-          )}
-        </div>
-      </nav>
-
       {/* Hero */}
       <main className="relative z-10 max-w-7xl mx-auto px-6 lg:px-8">
         <div className="pt-20 pb-16 lg:pt-28 lg:pb-24">
@@ -122,7 +66,7 @@ export default function HomePage() {
           </div>
 
           {/* Headline */}
-          <h1 className="text-5xl lg:text-7xl font-bold leading-[1.05] mb-8 max-w-4xl" style={{ fontFamily: "'Georgia', serif", letterSpacing: '-0.02em' }}>
+          <h1 className="text-5xl lg:text-7xl font-bold leading-[1.05] mb-10 max-w-4xl" style={{ fontFamily: "'Georgia', serif", letterSpacing: '-0.02em' }}>
             The{' '}
             <span style={{
               background: 'linear-gradient(135deg, #22c55e 0%, #4ade80 50%, #86efac 100%)',
@@ -135,13 +79,21 @@ export default function HomePage() {
             on Africa's development.
           </h1>
 
-          <p className="text-lg lg:text-xl text-gray-400 max-w-2xl mb-12 leading-relaxed" style={{ fontFamily: 'system-ui, sans-serif' }}>
-            Explore water access, income inequality, and development indicators across the continent — with interactive maps, 20-year trend data, and country-level analytics built for researchers and policymakers.
+          <p className="text-lg lg:text-xl text-gray-400 max-w-2xl mb-14 leading-relaxed" style={{ fontFamily: 'system-ui, sans-serif' }}>
+            Explore water access, income inequality, and development indicators across the continent — with interactive maps, 23-year trend data, and country-level analytics built for researchers and policymakers.
           </p>
 
           {/* CTAs */}
           <div className="flex flex-col sm:flex-row gap-4 mb-24">
-            {isAuthenticated ? (
+            {!mounted ? (
+              // Loading placeholder
+              <>
+                <div className="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-lg text-sm font-medium bg-gray-800 text-gray-400 cursor-not-allowed">
+                  Loading...
+                </div>
+              </>
+            ) : isAuthenticated ? (
+              // Authenticated users
               <>
                 <Link
                   href="/map"
@@ -154,13 +106,13 @@ export default function HomePage() {
                     boxShadow: '0 0 24px rgba(34,197,94,0.25)',
                   }}
                 >
-                  Explore the Map
+                  Go to Map
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                   </svg>
                 </Link>
                 <Link
-                  href="/dashboard"
+                  href={user?.role === 'admin' ? '/admin' : '/dashboard'}
                   className="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-lg text-sm font-medium border border-white/10 text-gray-300 hover:border-white/20 hover:text-white transition-all duration-200"
                   style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.02em' }}
                 >
@@ -168,6 +120,7 @@ export default function HomePage() {
                 </Link>
               </>
             ) : (
+              // Non-authenticated users
               <>
                 <Link
                   href="/signup"
@@ -199,10 +152,10 @@ export default function HomePage() {
           {/* Stats row */}
           <div className="flex flex-wrap gap-10 mb-24 pt-6 border-t border-white/5">
             {[
-              { value: '54+', label: 'Countries covered' },
-              { value: '2000–2023', label: 'Data range' },
-              { value: '3', label: 'Core dashboards' },
-              { value: '5+', label: 'Map layer types' },
+              { value: '54', label: 'African Countries' },
+              { value: '2000–2023', label: 'Data Range' },
+              { value: '5+', label: 'Data Sources' },
+              { value: '∞', label: 'Community-Driven Quality' },
             ].map((stat) => (
               <div key={stat.label}>
                 <div className="text-2xl font-bold text-white" style={{ fontFamily: "'Georgia', serif" }}>{stat.value}</div>
@@ -325,13 +278,15 @@ export default function HomePage() {
               </p>
             </div>
             <div className="md:ml-auto flex-shrink-0">
-              {isAuthenticated ? (
+              {!mounted ? (
+                <span className="text-sm text-gray-500">Loading...</span>
+              ) : isAuthenticated ? (
                 <Link
                   href="/map"
                   className="inline-flex items-center gap-2 text-sm text-green-400 hover:text-green-300 transition-colors duration-200"
                   style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.02em' }}
                 >
-                  Go to Dashboard
+                  Go to Map
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                   </svg>

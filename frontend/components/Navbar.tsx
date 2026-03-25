@@ -38,76 +38,106 @@ export default function Navbar() {
   }
 
   // Don't show navbar on login/signup pages
-  if (pathname === '/login' || pathname === '/signup') {
+  if (pathname === '/login' || pathname === '/signup' || pathname === '/forgot-password') {
     return null
   }
 
   return (
-    <header className="bg-white shadow-sm sticky top-0 z-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
-          <Link href="/" className="text-2xl font-bold text-gray-900">
-            Platform
+    <header className="bg-[#0a0f0d] text-white sticky top-0 z-50 border-b border-white/5">
+      <div className="max-w-7xl mx-auto px-6 lg:px-8 py-4">
+        <div className="flex justify-between items-center">
+          {/* Logo */}
+          <Link href="/" className="flex items-center gap-3">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+              <circle cx="16" cy="16" r="15" stroke="#22c55e" strokeWidth="1.5" />
+              <path d="M8 16 Q12 10 16 16 Q20 22 24 16" stroke="#22c55e" strokeWidth="1.5" fill="none" strokeLinecap="round"/>
+              <circle cx="16" cy="16" r="2" fill="#22c55e" />
+            </svg>
+            <span style={{ fontFamily: "'Georgia', serif", letterSpacing: '0.04em' }} className="text-white font-semibold text-lg tracking-wide">
+              AfriGeo<span className="text-green-400">Data</span>
+            </span>
           </Link>
 
+          {/* Navigation Links */}
           <nav className="flex items-center gap-6">
             {isAuthenticated ? (
               <>
-                {/* WaterWatch Africa - visible only to authenticated users */}
+                {/* WaterWatch Africa */}
                 <Link
                   href="/waterwatch-africa"
-                  className="text-gray-700 hover:text-gray-900 transition"
+                  className="text-sm text-gray-400 hover:text-white transition-colors duration-200"
+                  style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.03em' }}
                 >
-                  WaterWatch Africa
+                  WaterWatch
                 </Link>
-                {/* GiniWatch Africa - visible only to authenticated users */}
+
+                {/* GiniWatch Africa */}
                 <Link
                   href="/giniwatch-africa"
-                  className="text-gray-700 hover:text-gray-900 transition"
+                  className="text-sm text-gray-400 hover:text-white transition-colors duration-200"
+                  style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.03em' }}
                 >
-                  GiniWatch Africa
+                  GiniWatch
                 </Link>
+
+                {/* Dashboard */}
                 <Link
                   href={user?.role === 'admin' ? '/admin' : '/dashboard'}
-                  className="text-gray-700 hover:text-gray-900 transition"
+                  className="text-sm text-gray-400 hover:text-white transition-colors duration-200"
+                  style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.03em' }}
                 >
                   Dashboard
                 </Link>
-                  {user?.role === 'admin' && (
+
+                {/* Reports - Admin only */}
+                {user?.role === 'admin' && (
                   <Link
                     href="/reports"
-                    className="text-gray-700 hover:text-gray-900 transition"
+                    className="text-sm text-gray-400 hover:text-white transition-colors duration-200"
+                    style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.03em' }}
                   >
                     Reports
                   </Link>
                 )}
+
+                {/* Map */}
                 <Link
                   href="/map"
-                  className="text-gray-700 hover:text-gray-900 transition"
+                  className="text-sm px-4 py-2 rounded-md border border-green-500/40 text-green-400 hover:bg-green-500/10 transition-all duration-200"
+                  style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.03em' }}
                 >
                   Map
                 </Link>
-                <span className="text-gray-600">Hello, {user?.name}</span>
+
+                {/* User greeting */}
+                <span className="text-sm text-gray-400 hidden sm:block" style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.03em' }}>
+                  Hi, {user?.name}
+                </span>
+
+                {/* Logout */}
                 <button
                   onClick={handleLogout}
-                  className="px-4 py-2 border border-gray-300 text-gray-700 rounded-lg hover:bg-gray-50 transition"
+                  className="text-sm text-gray-400 hover:text-white transition-colors duration-200"
+                  style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.03em', background: 'none', border: 'none', cursor: 'pointer' }}
                 >
-                  Logout
+                  Sign out
                 </button>
               </>
             ) : (
               <>
                 <Link
                   href="/login"
-                  className="text-gray-700 hover:text-gray-900 transition"
+                  className="text-sm text-gray-400 hover:text-white transition-colors duration-200"
+                  style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.03em' }}
                 >
-                  Login
+                  Sign in
                 </Link>
                 <Link
                   href="/signup"
-                  className="px-4 py-2 bg-gray-900 text-white rounded-lg hover:bg-gray-700 transition"
+                  className="text-sm px-4 py-2 rounded-md border border-green-500/40 text-green-400 hover:bg-green-500/10 transition-all duration-200"
+                  style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.03em' }}
                 >
-                  Sign Up
+                  Get Access
                 </Link>
               </>
             )}
