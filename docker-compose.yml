@@ -61,6 +61,9 @@ services:
       - DB_NAME=platform_db
       - DB_USER=postgres
       - DB_PASSWORD=postgres
+ 
+      - JWT_SECRET=your-secret-key-change-this-in-production
+      - SESSION_SECRET=your-session-secret-change-this-in-production
     depends_on:
       db:
         condition: service_healthy

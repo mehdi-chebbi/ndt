@@ -3,6 +3,76 @@ import pool from '../config/database';
 import { hashPassword, comparePassword, generateToken } from '../utils/auth';
 import { generateResetCode, sendPasswordResetEmail } from '../services/emailService';
 
+export const googleAuthSuccess = async (req: Request, res: Response) => {
+  try {
+    // @ts-ignore - passport adds user to req
+    if (!req.user) {
+      return res.status(401).json({ error: 'Authentication failed' });
+    }
+
+    // @ts-ignore
+    const user = req.user;
+
+    // Generate token
+    const token = generateToken(user.id, user.role);
+
+    // Redirect to frontend with token and user data
+    const redirectUrl = new URL('/auth/callback', 'http://localhost:3000');
+    redirectUrl.searchParams.append('token', token);
+    redirectUrl.searchParams.append('user', JSON.stringify({
+      id: user.id,
+      name: user.name,
+      email: user.email,
+      role: user.role,
+      created_at: user.created_at
+    }));
+
+    res.redirect(redirectUrl.toString());
+  } catch (error: any) {
+    console.error('Google auth success error:', error);
+    res.redirect(`http://localhost:3000/login?error=${encodeURIComponent('Authentication failed')}`);
+  }
+};
+
+export const googleAuthFailed = (req: Request, res: Response) => {
+  res.redirect(`http://localhost:3000/login?error=${encodeURIComponent('Google authentication failed')}`);
+};
+
+export const microsoftAuthSuccess = async (req: Request, res: Response) => {
+  try {
+    // @ts-ignore - passport adds user to req
+    if (!req.user) {
+      return res.status(401).json({ error: 'Authentication failed' });
+    }
+
+    // @ts-ignore
+    const user = req.user;
+
+    // Generate token
+    const token = generateToken(user.id, user.role);
+
+    // Redirect to frontend with token and user data
+    const redirectUrl = new URL('/auth/callback', 'http://localhost:3000');
+    redirectUrl.searchParams.append('token', token);
+    redirectUrl.searchParams.append('user', JSON.stringify({
+      id: user.id,
+      name: user.name,
+      email: user.email,
+      role: user.role,
+      created_at: user.created_at
+    }));
+
+    res.redirect(redirectUrl.toString());
+  } catch (error: any) {
+    console.error('Microsoft auth success error:', error);
+    res.redirect(`http://localhost:3000/login?error=${encodeURIComponent('Authentication failed')}`);
+  }
+};
+
+export const microsoftAuthFailed = (req: Request, res: Response) => {
+  res.redirect(`http://localhost:3000/login?error=${encodeURIComponent('Microsoft authentication failed')}`);
+};
+
 export const signup = async (req: Request, res: Response) => {
   try {
     const { name, email, password, role = 'user' } = req.body;
