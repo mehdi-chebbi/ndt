@@ -9,3 +9,13 @@ body {
 
 /* Leaflet Draw CSS needs to be imported */
 @import 'leaflet-draw/dist/leaflet.draw.css';
+
+/* Africa Map Styling */
+svg path {
+  fill: #382986;
+  transition: fill 0.4s;
+}
+
+svg path:hover {
+  fill: #3c57dd;
+}

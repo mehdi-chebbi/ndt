@@ -2,6 +2,7 @@
 
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
+import AfricaMap from '@/components/AfricaMap'
 
 export default function HomePage() {
   const [isAuthenticated, setIsAuthenticated] = useState(false)
@@ -65,23 +66,31 @@ export default function HomePage() {
             </span>
           </div>
 
-          {/* Headline */}
-          <h1 className="text-5xl lg:text-7xl font-bold leading-[1.05] mb-10 max-w-4xl" style={{ fontFamily: "'Georgia', serif", letterSpacing: '-0.02em' }}>
-            The{' '}
-            <span style={{
-              background: 'linear-gradient(135deg, #22c55e 0%, #4ade80 50%, #86efac 100%)',
-              WebkitBackgroundClip: 'text',
-              WebkitTextFillColor: 'transparent',
-              backgroundClip: 'text',
-            }}>
-              geospatial lens
-            </span>{' '}
-            on Africa's development.
-          </h1>
+          {/* Headline with Africa Map */}
+          <div className="flex flex-col lg:flex-row items-center gap-8 lg:items-start mb-10">
+            <div className="flex-1">
+              <h1 className="text-5xl lg:text-7xl font-bold leading-[1.05] mb-2 max-w-4xl" style={{ fontFamily: "'Georgia', serif", letterSpacing: '-0.02em' }}>
+                The{' '}
+                <span style={{
+                  background: 'linear-gradient(135deg, #22c55e 0%, #4ade80 50%, #86efac 100%)',
+                  WebkitBackgroundClip: 'text',
+                  WebkitTextFillColor: 'transparent',
+                  backgroundClip: 'text',
+                }}>
+                  geospatial lens
+                </span>{' '}
+                on Africa's development.
+              </h1>
+              <p className="text-lg lg:text-xl text-gray-400 max-w-2xl mb-6 leading-relaxed" style={{ fontFamily: 'system-ui, sans-serif' }}>
+                Explore water access, income inequality, and development indicators across the continent — with interactive maps, 23-year trend data, and country-level analytics built for researchers and policymakers.
+              </p>
+            </div>
 
-          <p className="text-lg lg:text-xl text-gray-400 max-w-2xl mb-14 leading-relaxed" style={{ fontFamily: 'system-ui, sans-serif' }}>
-            Explore water access, income inequality, and development indicators across the continent — with interactive maps, 23-year trend data, and country-level analytics built for researchers and policymakers.
-          </p>
+            {/* Africa Map - Right side of headline */}
+            <div className="hidden lg:block lg:w-[400px]">
+              <AfricaMap className="w-full h-auto opacity-80 hover:opacity-100 transition-opacity duration-300" />
+            </div>
+          </div>
 
           {/* CTAs */}
           <div className="flex flex-col sm:flex-row gap-4 mb-24">
