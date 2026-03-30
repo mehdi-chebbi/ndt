@@ -12,10 +12,13 @@ body {
 
 /* Africa Map Styling */
 svg path {
-  fill: #382986;
-  transition: fill 0.4s;
+  stroke: rgba(255, 255, 255, 0.2);
+  stroke-width: 0.5;
+  transition: all 0.3s ease;
 }
 
 svg path:hover {
-  fill: #3c57dd;
+  filter: brightness(1.2);
+  stroke: rgba(255, 255, 255, 0.4);
+  stroke-width: 1;
 }
