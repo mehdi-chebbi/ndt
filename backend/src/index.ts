@@ -71,6 +71,7 @@ import reportRoutes from './routes/reportRoutes';
 import layerRoutes from './routes/layerRoutes';
 import groupRoutes from './routes/groupRoutes';
 import notificationRoutes from './routes/notificationRoutes';
+import aiRoutes from './routes/aiRoutes';
 
 app.use('/api/auth', authRoutes);
 app.use('/api/admin', userRoutes);
@@ -79,6 +80,7 @@ app.use('/api/reports', reportRoutes);
 app.use('/api/layers', layerRoutes);
 app.use('/api/groups', groupRoutes);
 app.use('/api/notifications', notificationRoutes);
+app.use('/api/ai', aiRoutes);
 
 
 // Health check

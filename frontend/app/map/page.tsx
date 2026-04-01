@@ -3,6 +3,7 @@
 import { Suspense, useEffect, useState } from 'react'
 import { useRouter, useSearchParams } from 'next/navigation'
 import dynamic from 'next/dynamic'
+import AICopilot from '@/components/AICopilot'
 
 interface ReportToView {
   id: number
@@ -121,7 +122,10 @@ function MapPageContent() {
           </div>
         </div>
       ) : (
-        <MapComponent reportToView={reportToView} />
+        <>
+          <MapComponent reportToView={reportToView} />
+          <AICopilot />
+        </>
       )}
     </div>
   )
