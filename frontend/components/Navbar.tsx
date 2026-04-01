@@ -109,6 +109,15 @@ export default function Navbar() {
                   Map
                 </Link>
 
+                {/* Profile */}
+                <Link
+                  href="/profile"
+                  className="text-sm text-gray-400 hover:text-white transition-colors duration-200"
+                  style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.03em' }}
+                >
+                  Profile
+                </Link>
+
                 {/* User greeting */}
                 <span className="text-sm text-gray-400 hidden sm:block" style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.03em' }}>
                   Hi, {user?.name}

@@ -22,3 +22,23 @@ svg path:hover {
   stroke: rgba(255, 255, 255, 0.4);
   stroke-width: 1;
 }
+
+/* ── AI Copilot Markdown Styles ── */
+.markdown-body > *:first-child {
+  margin-top: 0;
+}
+.markdown-body > *:last-child {
+  margin-bottom: 0;
+}
+.markdown-body p {
+  margin-bottom: 0.5rem;
+}
+.markdown-body p:last-child {
+  margin-bottom: 0;
+}
+.markdown-body blockquote p:last-child {
+  margin-bottom: 0;
+}
+.markdown-body li > p {
+  margin-bottom: 0.25rem;
+}
