@@ -11,6 +11,7 @@ declare global {
       name: string;
       email: string;
       role: string;
+      profile_complete: boolean;
     }
   }
 }
@@ -24,7 +25,7 @@ passport.serializeUser((user: any, done) => {
 passport.deserializeUser(async (id: number, done) => {
   try {
     const result = await pool.query(
-      'SELECT id, name, email, role, created_at FROM users WHERE id = $1',
+      'SELECT id, name, email, role, phone_number, country, job_title, institution, profile_complete, created_at FROM users WHERE id = $1',
       [id]
     );
     if (result.rows.length > 0) {
@@ -49,7 +50,7 @@ passport.use(
       try {
         // Check if user already exists by email
         const existingUser = await pool.query(
-          'SELECT id, name, email, role, created_at FROM users WHERE email = $1',
+          'SELECT id, name, email, role, phone_number, country, job_title, institution, profile_complete, created_at FROM users WHERE email = $1',
           [profile.emails?.[0].value]
         );
 
@@ -58,11 +59,11 @@ passport.use(
           return done(null, existingUser.rows[0]);
         }
 
-        // Create new user
+        // Create new user (profile_complete = false, missing profile fields)
         const newUser = await pool.query(
-          `INSERT INTO users (name, email, password, role)
-           VALUES ($1, $2, $3, $4)
-           RETURNING id, name, email, role, created_at`,
+          `INSERT INTO users (name, email, password, role, profile_complete)
+           VALUES ($1, $2, $3, $4, false)
+           RETURNING id, name, email, role, phone_number, country, job_title, institution, profile_complete, created_at`,
           [
             profile.displayName || profile.name?.givenName + ' ' + profile.name?.familyName || 'Google User',
             profile.emails?.[0].value,
@@ -102,7 +103,7 @@ passport.use(
 
         // Check if user already exists by email
         const existingUser = await pool.query(
-          'SELECT id, name, email, role, created_at FROM users WHERE email = $1',
+          'SELECT id, name, email, role, phone_number, country, job_title, institution, profile_complete, created_at FROM users WHERE email = $1',
           [email]
         );
 
@@ -111,11 +112,11 @@ passport.use(
           return done(null, existingUser.rows[0]);
         }
 
-        // Create new user
+        // Create new user (profile_complete = false, missing profile fields)
         const newUser = await pool.query(
-          `INSERT INTO users (name, email, password, role)
-           VALUES ($1, $2, $3, $4)
-           RETURNING id, name, email, role, created_at`,
+          `INSERT INTO users (name, email, password, role, profile_complete)
+           VALUES ($1, $2, $3, $4, false)
+           RETURNING id, name, email, role, phone_number, country, job_title, institution, profile_complete, created_at`,
           [
             name,
             email,

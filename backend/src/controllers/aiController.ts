@@ -1,13 +1,28 @@
 import { Request, Response } from 'express';
+import pool from '../config/database';
 import { aiLogger } from '../utils/logger';
 
-interface Message {
-  role: 'user' | 'assistant' | 'system';
-  content: string;
-}
+const SYSTEM_PROMPT = `You are the AI Copilot for AfriGeoData, a geospatial platform for African development data.
 
-interface ChatRequest {
-  messages: Message[];
+You help users explore and understand:
+- Interactive maps with GeoServer WMS layers covering 54+ African countries
+- WaterWatch Africa: water access data from 2000-2023 (urban vs rural gaps, country rankings)
+- GiniWatch Africa: income inequality (Gini index) trends across the continent
+- Land cover classification statistics via custom polygon drawing
+- Data reporting and invalid data flagging
+
+Guidelines:
+- Be concise and helpful. This is a side-panel chat, keep responses focused.
+- If asked about topics unrelated to the platform, briefly answer then redirect to the platform's features.
+- Respond in the same language the user uses.
+- When discussing data, be specific about numbers, dates, and sources when possible.
+- Never claim to have real-time access to the map — you can only discuss what you've been told.`;
+
+const MAX_CONTEXT_MESSAGES = 20; // last 10 turns (10 user + 10 assistant)
+
+interface ChatRequestBody {
+  sessionId: number;
+  message: string;
 }
 
 export async function chat(req: Request, res: Response) {
@@ -17,72 +32,87 @@ export async function chat(req: Request, res: Response) {
     aiLogger.separator();
     aiLogger.info(`=== New Chat Request [${requestId}] ===`);
 
-    const { messages }: ChatRequest = req.body;
+    const { sessionId, message }: ChatRequestBody = req.body;
+    const userId = (req as any).userId;
 
-    aiLogger.debug('Request body', {
-      messagesCount: messages?.length,
-      lastMessage: messages?.[messages.length - 1]?.content?.substring(0, 50),
-    });
-
-    // Validate request
-    if (!messages || !Array.isArray(messages) || messages.length === 0) {
-      aiLogger.warning('Invalid request - no messages');
-      return res.status(400).json({
-        error: 'Messages array is required and must not be empty'
-      });
+    // ── Validate input ──
+    if (!sessionId || !message) {
+      aiLogger.warning('Invalid request', { sessionId, hasMessage: !!message });
+      return res.status(400).json({ error: 'sessionId and message are required' });
     }
 
-    // Validate environment variables
+    if (!userId) {
+      return res.status(401).json({ error: 'Authentication required' });
+    }
+
+    aiLogger.debug('Request', {
+      userId,
+      sessionId,
+      messagePreview: message.substring(0, 50),
+    });
+
+    // ── Verify session belongs to user ──
+    const sessionCheck = await pool.query(
+      'SELECT id, user_id FROM chat_sessions WHERE id = $1',
+      [sessionId]
+    );
+
+    if (sessionCheck.rows.length === 0) {
+      return res.status(404).json({ error: 'Session not found' });
+    }
+
+    if (sessionCheck.rows[0].user_id !== userId) {
+      return res.status(403).json({ error: 'Access denied' });
+    }
+
+    // ── Build context from DB ──
+    const messagesResult = await pool.query(
+      'SELECT role, content FROM chat_messages WHERE session_id = $1 ORDER BY created_at ASC',
+      [sessionId]
+    );
+
+    // Build the messages array for OpenRouter:
+    // [system prompt] + [last N messages from DB] + [new user message]
+    const dbMessages = messagesResult.rows as { role: string; content: string }[];
+
+    // Get last N messages (user + assistant only, no system)
+    const recentMessages = dbMessages
+      .filter(m => m.role !== 'system')
+      .slice(-MAX_CONTEXT_MESSAGES);
+
+    const apiMessages: { role: string; content: string }[] = [
+      { role: 'system', content: SYSTEM_PROMPT },
+      ...recentMessages,
+      { role: 'user', content: message },
+    ];
+
+    // ── Validate environment ──
     const apiKey = process.env.OPENROUTER_API_KEY;
     const modelName = process.env.MODEL_NAME;
 
     if (!apiKey) {
       aiLogger.error('OPENROUTER_API_KEY is not configured');
-      return res.status(500).json({
-        error: 'AI service is not properly configured'
-      });
+      return res.status(500).json({ error: 'AI service is not properly configured' });
     }
 
     if (!modelName) {
       aiLogger.error('MODEL_NAME is not configured');
-      return res.status(500).json({
-        error: 'AI model is not configured'
-      });
+      return res.status(500).json({ error: 'AI model is not configured' });
     }
 
-    aiLogger.success('Configuration validated', {
+    aiLogger.info('Context built', {
+      totalDbMessages: dbMessages.length,
+      sentToApi: apiMessages.length,
       model: modelName,
-      hasApiKey: !!apiKey,
     });
 
-    // Set headers for Server-Sent Events (SSE)
+    // ── Call OpenRouter ──
     res.setHeader('Content-Type', 'text/event-stream');
     res.setHeader('Cache-Control', 'no-cache');
     res.setHeader('Connection', 'keep-alive');
-    res.setHeader('X-Accel-Buffering', 'no'); // Disable nginx buffering
+    res.setHeader('X-Accel-Buffering', 'no');
 
-    aiLogger.info('SSE headers set, starting OpenRouter request');
-
-    // Call OpenRouter API with streaming enabled
     const openRouterUrl = 'https://openrouter.ai/api/v1/chat/completions';
-    const requestBody = {
-      model: modelName,
-      messages: messages,
-      stream: true,
-    };
-
-    aiLogger.debug('OpenRouter request', {
-      url: openRouterUrl,
-      body: {
-        ...requestBody,
-        messages: messages.map((m, i) => ({
-          index: i,
-          role: m.role,
-          contentPreview: m.content.substring(0, 50) + '...',
-        })),
-      },
-    });
-
     const response = await fetch(openRouterUrl, {
       method: 'POST',
       headers: {
@@ -91,29 +121,60 @@ export async function chat(req: Request, res: Response) {
         'HTTP-Referer': process.env.APP_URL || 'http://localhost:3000',
         'X-Title': process.env.APP_NAME || 'NDT Platform',
       },
-      body: JSON.stringify(requestBody),
+      body: JSON.stringify({
+        model: modelName,
+        messages: apiMessages,
+        stream: true,
+      }),
     });
 
-    aiLogger.info('OpenRouter response received', {
+    aiLogger.info('OpenRouter response', {
       status: response.status,
       statusText: response.statusText,
-      contentType: response.headers.get('content-type'),
     });
 
+    // ── Handle censorship / errors ──
     if (!response.ok) {
       const errorText = await response.text();
-      aiLogger.error('OpenRouter API error', {
-        status: response.status,
-        body: errorText,
-      });
+      aiLogger.error('OpenRouter error', { status: response.status, body: errorText });
+
+      // If 451 (censorship), the user's new message is the problem
+      // Don't save it to DB, just tell the user to rephrase
+      if (response.status === 451) {
+        res.write(`data: ${JSON.stringify({ error: 'Your message was blocked by the content filter. Please rephrase and try again.' })}\n\n`);
+        res.end();
+        return;
+      }
+
       res.write(`data: ${JSON.stringify({ error: 'Failed to get AI response. Please try again.' })}\n\n`);
       res.end();
       return;
     }
 
-    aiLogger.success('Stream connection established');
+    // ── Save user message to DB (only after we know it's not blocked) ──
+    // Generate auto-title from first user message in session
+    const userMessageCount = dbMessages.filter(m => m.role === 'user').length;
 
-    // Handle streaming response
+    await pool.query(
+      'INSERT INTO chat_messages (session_id, role, content) VALUES ($1, $2, $3)',
+      [sessionId, 'user', message]
+    );
+
+    // Auto-set title from the first user message
+    if (userMessageCount === 0) {
+      const title = message.length > 60 ? message.substring(0, 57) + '...' : message;
+      await pool.query(
+        "UPDATE chat_sessions SET title = $1, updated_at = CURRENT_TIMESTAMP WHERE id = $2",
+        [title, sessionId]
+      );
+    } else {
+      await pool.query(
+        'UPDATE chat_sessions SET updated_at = CURRENT_TIMESTAMP WHERE id = $1',
+        [sessionId]
+      );
+    }
+
+    // ── Stream response ──
     const reader = response.body?.getReader();
     if (!reader) {
       aiLogger.error('No response body from OpenRouter');
@@ -124,96 +185,79 @@ export async function chat(req: Request, res: Response) {
 
     const decoder = new TextDecoder();
     let buffer = '';
-    let chunkCount = 0;
-    let contentChunksSent = 0;
+    let accumulatedContent = '';
 
-    aiLogger.info('Starting to read stream from OpenRouter...');
+    aiLogger.info('Streaming started');
 
     try {
       while (true) {
         const { done, value } = await reader.read();
+        if (done) break;
 
-        if (done) {
-          aiLogger.success('Stream completed', {
-            totalChunks: chunkCount,
-            contentChunksSent,
-          });
-          break;
-        }
-
-        chunkCount++;
         buffer += decoder.decode(value, { stream: true });
 
-        if (chunkCount % 10 === 0) {
-          aiLogger.debug(`Progress: ${chunkCount} chunks received`);
-        }
-
-        // Process complete SSE messages
         const lines = buffer.split('\n');
-        buffer = lines.pop() || ''; // Keep incomplete line in buffer
+        buffer = lines.pop() || '';
 
         for (const line of lines) {
           const trimmed = line.trim();
-
-          if (!trimmed) {
-            continue;
-          }
-
-          if (trimmed === 'data: [DONE]') {
-            aiLogger.info('Received [DONE] from OpenRouter');
-            continue;
-          }
+          if (!trimmed || trimmed === 'data: [DONE]') continue;
 
           if (trimmed.startsWith('data: ')) {
-            const data = trimmed.slice(6);
-
             try {
-              const parsed = JSON.parse(data);
-
-              // Extract the content delta
+              const parsed = JSON.parse(trimmed.slice(6));
               const content = parsed.choices?.[0]?.delta?.content;
-
               if (content) {
-                contentChunksSent++;
-                // Send the content chunk to the client
+                accumulatedContent += content;
                 res.write(`data: ${JSON.stringify({ content })}\n\n`);
-
-                if (contentChunksSent === 1) {
-                  aiLogger.success('First content chunk sent to client', {
-                    preview: content.substring(0, 30),
-                  });
-                }
               }
-            } catch (parseError) {
-              aiLogger.warning('Error parsing SSE data (non-critical)', {
-                error: (parseError as Error).message,
-                dataPreview: data.substring(0, 50),
-              });
+            } catch {
+              // Non-critical parse error, skip
             }
           }
         }
       }
 
-      // Send end signal
+      // ── Save assistant response to DB ──
+      if (accumulatedContent) {
+        await pool.query(
+          'INSERT INTO chat_messages (session_id, role, content) VALUES ($1, $2, $3)',
+          [sessionId, 'assistant', accumulatedContent]
+        );
+        await pool.query(
+          'UPDATE chat_sessions SET updated_at = CURRENT_TIMESTAMP WHERE id = $1',
+          [sessionId]
+        );
+      }
+
       res.write('data: [DONE]\n\n');
       res.end();
 
-      aiLogger.success(`Request [${requestId}] completed successfully`);
+      aiLogger.success(`Request [${requestId}] completed`, {
+        responseLength: accumulatedContent.length,
+      });
       aiLogger.separator();
 
     } catch (streamError) {
-      aiLogger.error('Error reading stream', streamError);
+      aiLogger.error('Stream error', streamError);
+
+      // Still try to save whatever we got
+      if (accumulatedContent) {
+        await pool.query(
+          'INSERT INTO chat_messages (session_id, role, content) VALUES ($1, $2, $3)',
+          [sessionId, 'assistant', accumulatedContent]
+        ).catch(() => {});
+      }
+
       res.write(`data: ${JSON.stringify({ error: 'Stream interrupted. Please try again.' })}\n\n`);
       res.end();
     }
 
-  } catch (error) {
-    aiLogger.error('AI chat error', error);
+  } catch (error: any) {
+    aiLogger.error('Chat error', error);
 
     if (!res.headersSent) {
-      res.status(500).json({
-        error: 'Something went wrong. Please try again.'
-      });
+      res.status(500).json({ error: 'Something went wrong. Please try again.' });
     } else {
       res.write(`data: ${JSON.stringify({ error: 'Something went wrong. Please try again.' })}\n\n`);
       res.end();

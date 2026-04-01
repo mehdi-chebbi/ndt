@@ -61,7 +61,7 @@ services:
       - DB_NAME=platform_db
       - DB_USER=postgres
       - DB_PASSWORD=postgres
- - MODEL_NAME=stepfun/step-3.5-flash:free   
+
     depends_on:
       db:
         condition: service_healthy

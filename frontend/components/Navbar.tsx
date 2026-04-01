@@ -15,6 +15,30 @@ export default function Navbar() {
     setMounted(true)
   }, [])
 
+  // Verify token is still valid on mount (user might have been deleted from DB)
+  useEffect(() => {
+    const token = localStorage.getItem('token')
+    if (!token) return
+
+    const authPages = ['/login', '/signup', '/forgot-password', '/complete-profile']
+    if (authPages.includes(pathname)) return
+
+    fetch('http://localhost:3001/api/admin/me', {
+      headers: { 'Authorization': `Bearer ${token}` },
+    }).then((res) => {
+      if (!res.ok) {
+        // Token invalid or user doesn't exist — force logout
+        localStorage.removeItem('token')
+        localStorage.removeItem('user')
+        setIsAuthenticated(false)
+        setUser(null)
+        router.push('/login')
+      }
+    }).catch(() => {
+      // Backend unreachable — leave them alone, might just be loading
+    })
+  }, []) // eslint-disable-line react-hooks/exhaustive-deps
+
   // Re-check auth state when pathname changes
   useEffect(() => {
     const token = localStorage.getItem('token')
@@ -37,8 +61,14 @@ export default function Navbar() {
     return null
   }
 
-  // Don't show navbar on login/signup pages
-  if (pathname === '/login' || pathname === '/signup' || pathname === '/forgot-password') {
+  // Don't show navbar on auth pages or complete-profile page
+  if (pathname === '/login' || pathname === '/signup' || pathname === '/forgot-password' || pathname === '/complete-profile') {
+    return null
+  }
+
+  // If authenticated but profile incomplete, redirect to complete profile
+  // (Don't show nav on other pages)
+  if (isAuthenticated && user && !user.profile_complete && pathname !== '/complete-profile') {
     return null
   }
 
@@ -107,6 +137,15 @@ export default function Navbar() {
                   style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.03em' }}
                 >
                   Map
+                </Link>
+
+                {/* Profile */}
+                <Link
+                  href="/profile"
+                  className="text-sm text-gray-400 hover:text-white transition-colors duration-200"
+                  style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.03em' }}
+                >
+                  Profile
                 </Link>
 
                 {/* User greeting */}

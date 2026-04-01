@@ -3,12 +3,18 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
+import CountrySelect from '@/components/ui/CountrySelect'
+import PhoneInput from '@/components/ui/PhoneInput'
 
 export default function SignupPage() {
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const [confirmPassword, setConfirmPassword] = useState('')
+  const [phoneNumber, setPhoneNumber] = useState('')
+  const [country, setCountry] = useState('')
+  const [jobTitle, setJobTitle] = useState('')
+  const [institution, setInstitution] = useState('')
   const [error, setError] = useState('')
   const [loading, setLoading] = useState(false)
   const router = useRouter()
@@ -27,15 +33,28 @@ export default function SignupPage() {
       return
     }
 
+    if (!phoneNumber || !country || !jobTitle || !institution) {
+      setError('Please fill in all fields')
+      return
+    }
+
     setLoading(true)
 
     try {
-      const response = await fetch('/api/auth/signup', {
+      const response = await fetch('http://localhost:3001/api/auth/signup', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ name, email, password }),
+        body: JSON.stringify({
+          name,
+          email,
+          password,
+          phone_number: phoneNumber,
+          country,
+          job_title: jobTitle,
+          institution,
+        }),
       })
 
       const data = await response.json()
@@ -83,9 +102,10 @@ export default function SignupPage() {
             </div>
           )}
 
-          <form onSubmit={handleSubmit} className="space-y-6">
+          <form onSubmit={handleSubmit} className="space-y-5">
+            {/* Full Name */}
             <div>
-              <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
+              <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1.5">
                 Full Name
               </label>
               <input
@@ -94,13 +114,14 @@ export default function SignupPage() {
                 required
                 value={name}
                 onChange={(e) => setName(e.target.value)}
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-900 focus:border-transparent outline-none transition"
+                className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-900 focus:border-transparent outline-none transition text-sm"
                 placeholder="John Doe"
               />
             </div>
 
+            {/* Email */}
             <div>
-              <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
+              <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1.5">
                 Email Address
               </label>
               <input
@@ -109,13 +130,14 @@ export default function SignupPage() {
                 required
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-900 focus:border-transparent outline-none transition"
+                className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-900 focus:border-transparent outline-none transition text-sm"
                 placeholder="you@example.com"
               />
             </div>
 
+            {/* Password */}
             <div>
-              <label htmlFor="password" className="block text-sm font-medium text-gray-700 mb-2">
+              <label htmlFor="password" className="block text-sm font-medium text-gray-700 mb-1.5">
                 Password
               </label>
               <input
@@ -124,13 +146,14 @@ export default function SignupPage() {
                 required
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-900 focus:border-transparent outline-none transition"
-                placeholder="••••••••"
+                className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-900 focus:border-transparent outline-none transition text-sm"
+                placeholder="Min. 6 characters"
               />
             </div>
 
+            {/* Confirm Password */}
             <div>
-              <label htmlFor="confirmPassword" className="block text-sm font-medium text-gray-700 mb-2">
+              <label htmlFor="confirmPassword" className="block text-sm font-medium text-gray-700 mb-1.5">
                 Confirm Password
               </label>
               <input
@@ -139,15 +162,79 @@ export default function SignupPage() {
                 required
                 value={confirmPassword}
                 onChange={(e) => setConfirmPassword(e.target.value)}
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-900 focus:border-transparent outline-none transition"
-                placeholder="••••••••"
+                className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-900 focus:border-transparent outline-none transition text-sm"
+                placeholder="Re-enter password"
               />
+            </div>
+
+            {/* Divider */}
+            <div className="border-t border-gray-200 pt-5">
+              <p className="text-xs text-gray-500 font-medium uppercase tracking-wide mb-4">Profile Information</p>
+
+              <div className="space-y-5">
+                {/* Country */}
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-1.5">
+                    Country
+                  </label>
+                  <CountrySelect
+                    value={country}
+                    onChange={setCountry}
+                    placeholder="Search or select your country"
+                  />
+                </div>
+
+                {/* Phone Number */}
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-1.5">
+                    Phone Number
+                  </label>
+                  <PhoneInput
+                    country={country}
+                    phone={phoneNumber}
+                    onPhoneChange={setPhoneNumber}
+                    required
+                  />
+                </div>
+
+                {/* Job Title */}
+                <div>
+                  <label htmlFor="jobTitle" className="block text-sm font-medium text-gray-700 mb-1.5">
+                    Job Title
+                  </label>
+                  <input
+                    id="jobTitle"
+                    type="text"
+                    required
+                    value={jobTitle}
+                    onChange={(e) => setJobTitle(e.target.value)}
+                    className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-900 focus:border-transparent outline-none transition text-sm"
+                    placeholder="e.g. Researcher, Data Scientist"
+                  />
+                </div>
+
+                {/* Institution */}
+                <div>
+                  <label htmlFor="institution" className="block text-sm font-medium text-gray-700 mb-1.5">
+                    Institution / Organization
+                  </label>
+                  <input
+                    id="institution"
+                    type="text"
+                    required
+                    value={institution}
+                    onChange={(e) => setInstitution(e.target.value)}
+                    className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-900 focus:border-transparent outline-none transition text-sm"
+                    placeholder="e.g. University of Lagos"
+                  />
+                </div>
+              </div>
             </div>
 
             <button
               type="submit"
               disabled={loading}
-              className="w-full bg-gray-900 text-white py-3 rounded-lg hover:bg-gray-700 transition font-medium disabled:opacity-50 disabled:cursor-not-allowed"
+              className="w-full bg-gray-900 text-white py-3 rounded-lg hover:bg-gray-700 transition font-medium disabled:opacity-50 disabled:cursor-not-allowed text-sm"
             >
               {loading ? 'Creating account...' : 'Create Account'}
             </button>
@@ -166,7 +253,7 @@ export default function SignupPage() {
           {/* Google Sign Up Button */}
           <a
             href="http://localhost:3001/api/auth/google"
-            className="w-full flex items-center justify-center gap-3 bg-white border border-gray-300 text-gray-700 py-3 rounded-lg hover:bg-gray-50 transition font-medium"
+            className="w-full flex items-center justify-center gap-3 bg-white border border-gray-300 text-gray-700 py-3 rounded-lg hover:bg-gray-50 transition font-medium text-sm"
           >
             <svg className="w-5 h-5" viewBox="0 0 24 24">
               <path
@@ -192,7 +279,7 @@ export default function SignupPage() {
           {/* Microsoft Sign Up Button */}
           <a
             href="http://localhost:3001/api/auth/microsoft"
-            className="w-full flex items-center justify-center gap-3 bg-white border border-gray-300 text-gray-700 py-3 rounded-lg hover:bg-gray-50 transition font-medium"
+            className="w-full flex items-center justify-center gap-3 bg-white border border-gray-300 text-gray-700 py-3 rounded-lg hover:bg-gray-50 transition font-medium text-sm mt-3"
           >
             <svg className="w-5 h-5" viewBox="0 0 23 23">
               <path fill="#f3f3f3" d="M0 0h23v23H0z"/>
@@ -205,7 +292,7 @@ export default function SignupPage() {
           </a>
 
           <div className="mt-6 text-center">
-            <p className="text-gray-600">
+            <p className="text-gray-600 text-sm">
               Already have an account?{' '}
               <Link href="/login" className="text-gray-900 font-medium hover:underline">
                 Sign in

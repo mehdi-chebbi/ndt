@@ -19,6 +19,12 @@ function AuthCallbackContent() {
         localStorage.setItem('token', token)
         localStorage.setItem('user', JSON.stringify(user))
 
+        // If profile is incomplete (OAuth users), redirect to complete profile
+        if (!user.profile_complete) {
+          router.push('/complete-profile')
+          return
+        }
+
         // Redirect based on role
         if (user.role === 'admin') {
           router.push('/admin')

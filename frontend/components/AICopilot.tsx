@@ -1,11 +1,74 @@
 'use client'
 
-import { useState, useRef, useEffect } from 'react'
-import { aiLogger } from '@/lib/logger'
+import { useState, useRef, useEffect, useCallback } from 'react'
+import ReactMarkdown from 'react-markdown'
+import remarkGfm from 'remark-gfm'
+
+const API_BASE = 'http://localhost:3001'
 
 interface Message {
   role: 'user' | 'assistant'
   content: string
+}
+
+interface SessionMessage {
+  role: string
+  content: string
+  created_at: string
+}
+
+/* ── Markdown prose styles for assistant messages ── */
+const markdownComponents = {
+  h1: ({ children }: any) => <h1 className="text-base font-bold mt-3 mb-1 text-gray-900">{children}</h1>,
+  h2: ({ children }: any) => <h2 className="text-[15px] font-bold mt-3 mb-1 text-gray-900">{children}</h2>,
+  h3: ({ children }: any) => <h3 className="text-sm font-semibold mt-2 mb-1 text-gray-800">{children}</h3>,
+  p: ({ children }: any) => <p className="mb-2 last:mb-0 leading-relaxed">{children}</p>,
+  strong: ({ children }: any) => <strong className="font-semibold text-gray-900">{children}</strong>,
+  em: ({ children }: any) => <em className="italic text-gray-600">{children}</em>,
+  ul: ({ children }: any) => <ul className="list-disc list-inside mb-2 space-y-0.5">{children}</ul>,
+  ol: ({ children }: any) => <ol className="list-decimal list-inside mb-2 space-y-0.5">{children}</ol>,
+  li: ({ children }: any) => <li className="leading-relaxed">{children}</li>,
+  blockquote: ({ children }: any) => (
+    <blockquote className="border-l-3 border-green-400 bg-green-50/60 pl-3 pr-2 py-1 my-2 rounded-r-md text-gray-700 italic">
+      {children}
+    </blockquote>
+  ),
+  code: ({ inline, className, children, ...props }: any) => {
+    if (inline || !className) {
+      return (
+        <code className="bg-gray-100 text-green-700 text-[13px] px-1.5 py-0.5 rounded font-mono" {...props}>
+          {children}
+        </code>
+      )
+    }
+    return (
+      <code className={`${className} block`} {...props}>
+        {children}
+      </code>
+    )
+  },
+  pre: ({ children }: any) => (
+    <pre className="bg-gray-900 text-gray-100 text-[12px] rounded-lg p-3 my-2 overflow-x-auto leading-relaxed font-mono">
+      {children}
+    </pre>
+  ),
+  a: ({ href, children }: any) => (
+    <a href={href} target="_blank" rel="noopener noreferrer" className="text-green-600 underline underline-offset-2 hover:text-green-700">
+      {children}
+    </a>
+  ),
+  hr: () => <hr className="border-gray-200 my-3" />,
+  table: ({ children }: any) => (
+    <div className="overflow-x-auto my-2">
+      <table className="w-full text-[13px] border-collapse">{children}</table>
+    </div>
+  ),
+  th: ({ children }: any) => (
+    <th className="bg-gray-100 text-left px-2 py-1 font-semibold text-gray-800 border border-gray-200">{children}</th>
+  ),
+  td: ({ children }: any) => (
+    <td className="px-2 py-1 border border-gray-200">{children}</td>
+  ),
 }
 
 export default function AICopilot() {
@@ -14,10 +77,11 @@ export default function AICopilot() {
   const [inputText, setInputText] = useState('')
   const [isLoading, setIsLoading] = useState(false)
   const [error, setError] = useState<string | null>(null)
+  const [sessionId, setSessionId] = useState<number | null>(null)
+  const [sessionReady, setSessionReady] = useState(false)
 
   const messagesEndRef = useRef<HTMLDivElement>(null)
   const abortControllerRef = useRef<AbortController | null>(null)
-  const assistantMessageIndexRef = useRef<number>(-1)
 
   // Auto-scroll to bottom when new messages arrive
   useEffect(() => {
@@ -28,227 +92,158 @@ export default function AICopilot() {
   useEffect(() => {
     return () => {
       if (abortControllerRef.current) {
-        aiLogger.info('Component unmounting, aborting any ongoing request')
         abortControllerRef.current.abort()
       }
     }
   }, [])
 
+  // Get auth token
+  const getToken = useCallback(() => {
+    if (typeof window === 'undefined') return null
+    return localStorage.getItem('token')
+  }, [])
+
+  // Always create a new session when copilot opens
+  const ensureSession = useCallback(async () => {
+    if (!getToken()) return false
+
+    try {
+      const createRes = await fetch(`${API_BASE}/api/sessions`, {
+        method: 'POST',
+        headers: {
+          'Authorization': `Bearer ${getToken()}`,
+          'Content-Type': 'application/json',
+        },
+      })
+
+      if (!createRes.ok) return false
+
+      const createData = await createRes.json()
+      setSessionId(createData.session.id)
+      const loaded: Message[] = (createData.session.messages || []).map((m: SessionMessage) => ({
+        role: m.role as 'user' | 'assistant',
+        content: m.content,
+      }))
+      setMessages(loaded)
+      return true
+    } catch (err) {
+      console.error('Failed to create session:', err)
+      return false
+    }
+  }, [getToken])
+
+  // When copilot opens, load session
+  useEffect(() => {
+    if (isOpen && !sessionReady && getToken()) {
+      ensureSession().then((ready) => {
+        setSessionReady(ready)
+      })
+    }
+  }, [isOpen, sessionReady, ensureSession, getToken])
+
   const handleSend = async () => {
     const trimmedInput = inputText.trim()
+    if (!trimmedInput || isLoading || !sessionId) return
 
-    if (!trimmedInput || isLoading) {
-      aiLogger.warning('Send blocked', { isEmpty: !trimmedInput, isLoading })
-      return
-    }
-
-    // Clear any previous error
     setError(null)
 
-    aiLogger.separator()
-    aiLogger.info('=== Starting new chat request ===')
-    aiLogger.info('User message', trimmedInput)
-
-    // Add user message to chat
+    // Add user message to UI immediately
     const userMessage: Message = { role: 'user', content: trimmedInput }
-    const newMessages = [...messages, userMessage]
-    setMessages(newMessages)
+    setMessages(prev => [...prev, userMessage])
     setInputText('')
 
-    // Track the index of the assistant message we're about to create
-    assistantMessageIndexRef.current = newMessages.length
-    aiLogger.debug('Assistant message will be at index', assistantMessageIndexRef.current)
-
-    // Create empty assistant message that will be updated with streaming content
-    const messagesWithPlaceholder: Message[] = [
-      ...newMessages,
-      { role: 'assistant', content: '' }
-    ]
-    setMessages(messagesWithPlaceholder)
+    // Create placeholder for assistant response
+    const assistantIndex = messages.length + 1
+    setMessages(prev => [...prev, { role: 'assistant', content: '' }])
     setIsLoading(true)
 
-    // Create new AbortController for this request
     abortControllerRef.current = new AbortController()
 
     try {
-      const requestUrl = 'http://localhost:3001/api/ai/chat'
-      aiLogger.info('Sending request to', requestUrl)
-
-      const requestBody = {
-        messages: newMessages,
-      }
-      aiLogger.debug('Request body', requestBody)
-
-      const startTime = Date.now()
-
-      const response = await fetch(requestUrl, {
+      const response = await fetch(`${API_BASE}/api/ai/chat`, {
         method: 'POST',
         headers: {
+          'Authorization': `Bearer ${getToken()}`,
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify(requestBody),
+        body: JSON.stringify({
+          sessionId,
+          message: trimmedInput,
+        }),
         signal: abortControllerRef.current.signal,
       })
 
-      const responseTime = Date.now() - startTime
-      aiLogger.info('Response received', {
-        status: response.status,
-        statusText: response.statusText,
-        time: `${responseTime}ms`,
-      })
-
-      aiLogger.group('Response Headers', () => {
-        response.headers.forEach((value, key) => {
-          console.log(`  ${key}: ${value}`)
-        })
-      })
-
       if (!response.ok) {
-        const errorText = await response.text()
-        aiLogger.error('Request failed', {
-          status: response.status,
-          body: errorText,
-        })
-        throw new Error(errorText || 'Failed to get AI response')
+        const errorData = await response.json().catch(() => ({ error: 'Request failed' }))
+        throw new Error(errorData.error || 'Failed to get AI response')
       }
 
-      aiLogger.success('Stream connection established')
-
-      // Read the stream
+      // Read SSE stream
       const reader = response.body?.getReader()
-
-      if (!reader) {
-        aiLogger.error('No response body reader available')
-        throw new Error('No response body')
-      }
+      if (!reader) throw new Error('No response body')
 
       const decoder = new TextDecoder()
       let buffer = ''
-      let chunkCount = 0
-      let totalBytes = 0
       let accumulatedContent = ''
-
-      aiLogger.info('Starting to read stream...')
 
       while (true) {
         const { done, value } = await reader.read()
+        if (done) break
 
-        if (done) {
-          aiLogger.success('Stream completed', {
-            totalChunks: chunkCount,
-            totalBytes,
-            finalContentLength: accumulatedContent.length,
-          })
-          break
-        }
-
-        // Decode the chunk
-        const chunk = decoder.decode(value, { stream: true })
-        chunkCount++
-        totalBytes += chunk.length
-
-        buffer += chunk
-
-        aiLogger.debug(`Chunk #${chunkCount}`, {
-          size: chunk.length,
-          preview: chunk.substring(0, 100),
-          bufferLength: buffer.length,
-        })
-
-        // Process SSE messages
+        buffer += decoder.decode(value, { stream: true })
         const lines = buffer.split('\n')
-        buffer = lines.pop() || '' // Keep incomplete line in buffer
-
-        aiLogger.debug(`Processing ${lines.length} lines from chunk #${chunkCount}`)
+        buffer = lines.pop() || ''
 
         for (const line of lines) {
           const trimmed = line.trim()
-
-          if (!trimmed) {
-            continue
-          }
-
-          if (trimmed === 'data: [DONE]') {
-            aiLogger.info('Received [DONE] signal')
-            continue
-          }
+          if (!trimmed || trimmed === 'data: [DONE]') continue
 
           if (trimmed.startsWith('data: ')) {
-            const data = trimmed.slice(6)
-
             try {
-              const parsed = JSON.parse(data)
-              aiLogger.debug('Parsed SSE message', parsed)
+              const parsed = JSON.parse(trimmed.slice(6))
 
-              // Check for error
               if (parsed.error) {
-                aiLogger.error('Error in stream', parsed.error)
                 throw new Error(parsed.error)
               }
 
-              // Append content chunk
-              const contentChunk = parsed.content
-              if (contentChunk) {
-                const oldLength = accumulatedContent.length
-                accumulatedContent += contentChunk
-
-                aiLogger.debug('Content update', {
-                  chunk: contentChunk,
-                  added: contentChunk.length,
-                  total: accumulatedContent.length,
-                })
-
-                // Update the assistant message with accumulated content
-                setMessages((prevMessages) => {
-                  const updated = [...prevMessages]
-                  const idx = assistantMessageIndexRef.current
-                  if (idx >= 0 && updated[idx]?.role === 'assistant') {
-                    updated[idx].content = accumulatedContent
-                  } else {
-                    aiLogger.warning('Could not update message', {
-                      index: idx,
-                      messageLength: updated.length,
-                    })
+              if (parsed.content) {
+                accumulatedContent += parsed.content
+                setMessages(prev => {
+                  const updated = [...prev]
+                  if (updated[assistantIndex]?.role === 'assistant') {
+                    updated[assistantIndex] = { role: 'assistant', content: accumulatedContent }
                   }
                   return updated
                 })
               }
-            } catch (parseError) {
-              aiLogger.error('Failed to parse SSE data', {
-                error: parseError,
-                data,
-              })
+            } catch {
+              // Non-critical parse error
             }
           }
         }
       }
 
-      aiLogger.success('Chat request completed successfully')
-      aiLogger.info('Final message length', accumulatedContent.length)
+      // If we got no content, remove the empty assistant message
+      if (!accumulatedContent) {
+        setMessages(prev => prev.slice(0, -1))
+      }
 
     } catch (err: any) {
-      aiLogger.error('Chat request failed', err)
-
-      if (err.name === 'AbortError') {
-        aiLogger.info('Request was aborted')
-      } else {
+      if (err.name !== 'AbortError') {
         setError(err.message || 'Something went wrong. Please try again.')
 
-        // Remove the empty assistant message if there was an error
-        setMessages((prevMessages) => {
-          const updated = [...prevMessages]
-          const lastMsg = updated[updated.length - 1]
-          if (lastMsg?.role === 'assistant' && lastMsg.content === '') {
-            aiLogger.debug('Removing empty assistant message due to error')
-            return updated.slice(0, -1)
+        // Remove the empty assistant placeholder
+        setMessages(prev => {
+          const last = prev[prev.length - 1]
+          if (last?.role === 'assistant' && !last.content) {
+            return prev.slice(0, -1)
           }
-          return updated
+          return prev
         })
       }
     } finally {
       setIsLoading(false)
       abortControllerRef.current = null
-      aiLogger.separator()
     }
   }
 
@@ -258,6 +253,8 @@ export default function AICopilot() {
       handleSend()
     }
   }
+
+  const dismissError = () => setError(null)
 
   return (
     <>
@@ -291,9 +288,9 @@ export default function AICopilot() {
               </div>
               <button
                 onClick={() => setIsOpen(false)}
-                className="text-white/80 hover:text-white transition-colors"
+                className="w-6 h-6 rounded-full bg-white/20 hover:bg-white/40 flex items-center justify-center transition-colors"
               >
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                 </svg>
               </button>
@@ -301,7 +298,12 @@ export default function AICopilot() {
 
             {/* Messages */}
             <div className="flex-1 overflow-y-auto p-4 bg-gray-50 min-h-[300px]">
-              {messages.length === 0 ? (
+              {!sessionReady ? (
+                <div className="h-full flex flex-col items-center justify-center text-gray-400">
+                  <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-green-500 mb-3" />
+                  <p className="text-sm">Loading...</p>
+                </div>
+              ) : messages.length === 0 ? (
                 <div className="h-full flex flex-col items-center justify-center text-gray-400">
                   <svg className="w-12 h-12 mb-3 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
@@ -322,8 +324,16 @@ export default function AICopilot() {
                             : 'bg-white text-gray-700 rounded-bl-md shadow-sm border border-gray-200'
                         }`}
                       >
-                        {msg.content || (
+                        {!msg.content ? (
                           <span className="text-gray-400 italic">Thinking...</span>
+                        ) : msg.role === 'assistant' ? (
+                          <div className="markdown-body">
+                            <ReactMarkdown remarkPlugins={[remarkGfm]} components={markdownComponents}>
+                              {msg.content}
+                            </ReactMarkdown>
+                          </div>
+                        ) : (
+                          <p className="whitespace-pre-wrap">{msg.content}</p>
                         )}
                       </div>
                     </div>
@@ -333,7 +343,13 @@ export default function AICopilot() {
                   {error && (
                     <div className="flex justify-center">
                       <div className="bg-red-50 text-red-600 rounded-lg px-3 py-2 text-sm
-                                  border border-red-200">
+                                  border border-red-200 max-w-[85%] relative">
+                        <button
+                          onClick={dismissError}
+                          className="absolute top-1 right-1.5 text-red-400 hover:text-red-600 text-xs leading-none"
+                        >
+                          ✕
+                        </button>
                         {error}
                       </div>
                     </div>
@@ -353,7 +369,7 @@ export default function AICopilot() {
                   onKeyDown={handleKeyDown}
                   placeholder="Type a message..."
                   rows={1}
-                  disabled={isLoading}
+                  disabled={isLoading || !sessionReady}
                   className="flex-1 resize-none rounded-lg border border-gray-300 px-3 py-2 text-sm
                              focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent
                              disabled:bg-gray-100 disabled:cursor-not-allowed
@@ -362,7 +378,7 @@ export default function AICopilot() {
                 />
                 <button
                   onClick={handleSend}
-                  disabled={!inputText.trim() || isLoading}
+                  disabled={!inputText.trim() || isLoading || !sessionReady}
                   className="bg-green-600 hover:bg-green-700 disabled:bg-gray-300 disabled:cursor-not-allowed
                              text-white rounded-lg px-3 py-2 transition-colors flex items-center justify-center"
                   style={{ minHeight: '36px', minWidth: '36px' }}

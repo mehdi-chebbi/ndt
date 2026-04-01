@@ -72,6 +72,7 @@ import layerRoutes from './routes/layerRoutes';
 import groupRoutes from './routes/groupRoutes';
 import notificationRoutes from './routes/notificationRoutes';
 import aiRoutes from './routes/aiRoutes';
+import sessionRoutes from './routes/sessionRoutes';
 
 app.use('/api/auth', authRoutes);
 app.use('/api/admin', userRoutes);
@@ -81,6 +82,7 @@ app.use('/api/layers', layerRoutes);
 app.use('/api/groups', groupRoutes);
 app.use('/api/notifications', notificationRoutes);
 app.use('/api/ai', aiRoutes);
+app.use('/api/sessions', sessionRoutes);
 
 
 // Health check
@@ -107,6 +109,11 @@ async function initializeDatabase() {
         email VARCHAR(255) UNIQUE NOT NULL,
         password VARCHAR(255) NOT NULL,
         role VARCHAR(50) NOT NULL DEFAULT 'user' CHECK (role IN ('user', 'admin')),
+        phone_number VARCHAR(50),
+        country VARCHAR(255),
+        job_title VARCHAR(255),
+        institution VARCHAR(255),
+        profile_complete BOOLEAN NOT NULL DEFAULT true,
         created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
         updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
       )
@@ -229,6 +236,41 @@ async function initializeDatabase() {
       CREATE INDEX IF NOT EXISTS idx_notification_recipients_is_active ON notification_recipients(is_active)
     `);
 
+    // Create chat_sessions table
+    await pool.query(`
+      CREATE TABLE IF NOT EXISTS chat_sessions (
+        id SERIAL PRIMARY KEY,
+        user_id INTEGER NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+        title VARCHAR(255),
+        is_active BOOLEAN DEFAULT true,
+        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+        updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+      )
+    `);
+
+    await pool.query(`
+      CREATE INDEX IF NOT EXISTS idx_chat_sessions_user ON chat_sessions(user_id, updated_at DESC)
+    `);
+
+    await pool.query(`
+      CREATE INDEX IF NOT EXISTS idx_chat_sessions_active ON chat_sessions(user_id, is_active)
+    `);
+
+    // Create chat_messages table
+    await pool.query(`
+      CREATE TABLE IF NOT EXISTS chat_messages (
+        id SERIAL PRIMARY KEY,
+        session_id INTEGER NOT NULL REFERENCES chat_sessions(id) ON DELETE CASCADE,
+        role VARCHAR(20) NOT NULL CHECK (role IN ('user', 'assistant', 'system')),
+        content TEXT NOT NULL,
+        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+      )
+    `);
+
+    await pool.query(`
+      CREATE INDEX IF NOT EXISTS idx_chat_messages_session ON chat_messages(session_id, created_at)
+    `);
+
     console.log('Database tables initialized successfully');
   } catch (error) {
     console.error('Error initializing database:', error);
@@ -256,8 +298,9 @@ async function createDefaultAdmin() {
 
     // Create default admin user
     await pool.query(
-      'INSERT INTO users (name, email, password, role) VALUES ($1, $2, $3, $4)',
-      ['Admin', 'admin@ndt.com', hashedPassword, 'admin']
+      `INSERT INTO users (name, email, password, role, phone_number, country, job_title, institution, profile_complete)
+       VALUES ($1, $2, $3, $4, $5, $6, $7, $8, true)`,
+      ['Admin', 'admin@ndt.com', hashedPassword, 'admin', '0000000000', 'N/A', 'Admin', 'AfriGeoData']
     );
 
     console.log('========================================');

@@ -24,6 +24,11 @@ export const googleAuthSuccess = async (req: Request, res: Response) => {
       name: user.name,
       email: user.email,
       role: user.role,
+      phone_number: user.phone_number,
+      country: user.country,
+      job_title: user.job_title,
+      institution: user.institution,
+      profile_complete: user.profile_complete ?? false,
       created_at: user.created_at
     }));
 
@@ -59,6 +64,11 @@ export const microsoftAuthSuccess = async (req: Request, res: Response) => {
       name: user.name,
       email: user.email,
       role: user.role,
+      phone_number: user.phone_number,
+      country: user.country,
+      job_title: user.job_title,
+      institution: user.institution,
+      profile_complete: user.profile_complete ?? false,
       created_at: user.created_at
     }));
 
@@ -75,11 +85,15 @@ export const microsoftAuthFailed = (req: Request, res: Response) => {
 
 export const signup = async (req: Request, res: Response) => {
   try {
-    const { name, email, password, role = 'user' } = req.body;
+    const { name, email, password, phone_number, country, job_title, institution, role = 'user' } = req.body;
 
     // Validate input
     if (!name || !email || !password) {
       return res.status(400).json({ error: 'Name, email, and password are required' });
+    }
+
+    if (!phone_number || !country || !job_title || !institution) {
+      return res.status(400).json({ error: 'Phone number, country, job title, and institution are required' });
     }
 
     if (password.length < 6) {
@@ -104,10 +118,12 @@ export const signup = async (req: Request, res: Response) => {
     // Hash password
     const hashedPassword = await hashPassword(password);
 
-    // Insert new user
+    // Insert new user (all fields filled → profile_complete = true)
     const result = await pool.query(
-      'INSERT INTO users (name, email, password, role) VALUES ($1, $2, $3, $4) RETURNING id, name, email, role, created_at',
-      [name, email, hashedPassword, role]
+      `INSERT INTO users (name, email, password, role, phone_number, country, job_title, institution, profile_complete)
+       VALUES ($1, $2, $3, $4, $5, $6, $7, $8, true)
+       RETURNING id, name, email, role, phone_number, country, job_title, institution, profile_complete, created_at`,
+      [name, email, hashedPassword, role, phone_number, country, job_title, institution]
     );
 
     const user = result.rows[0];
@@ -123,6 +139,11 @@ export const signup = async (req: Request, res: Response) => {
         name: user.name,
         email: user.email,
         role: user.role,
+        phone_number: user.phone_number,
+        country: user.country,
+        job_title: user.job_title,
+        institution: user.institution,
+        profile_complete: user.profile_complete,
         created_at: user.created_at
       }
     });
@@ -143,7 +164,7 @@ export const login = async (req: Request, res: Response) => {
 
     // Find user
     const result = await pool.query(
-      'SELECT id, name, email, password, role, created_at FROM users WHERE email = $1',
+      'SELECT id, name, email, password, role, phone_number, country, job_title, institution, profile_complete, created_at FROM users WHERE email = $1',
       [email]
     );
 
@@ -171,6 +192,11 @@ export const login = async (req: Request, res: Response) => {
         name: user.name,
         email: user.email,
         role: user.role,
+        phone_number: user.phone_number,
+        country: user.country,
+        job_title: user.job_title,
+        institution: user.institution,
+        profile_complete: user.profile_complete,
         created_at: user.created_at
       }
     });
@@ -283,7 +309,7 @@ export const resetPassword = async (req: Request, res: Response) => {
 
     // Find user
     const userResult = await pool.query(
-      'SELECT id, name, email, role, created_at FROM users WHERE email = $1',
+      'SELECT id, name, email, role, profile_complete, created_at FROM users WHERE email = $1',
       [email]
     );
 
@@ -330,6 +356,7 @@ export const resetPassword = async (req: Request, res: Response) => {
         name: user.name,
         email: user.email,
         role: user.role,
+        profile_complete: user.profile_complete,
         created_at: user.created_at
       }
     });

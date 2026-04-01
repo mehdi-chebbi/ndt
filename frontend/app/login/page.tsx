@@ -35,6 +35,12 @@ export default function LoginPage() {
       localStorage.setItem('token', data.token)
       localStorage.setItem('user', JSON.stringify(data.user))
 
+      // If profile incomplete (shouldn't happen for email signup, but safety check)
+      if (!data.user.profile_complete) {
+        router.push('/complete-profile')
+        return
+      }
+
       // Redirect based on role
       if (data.user.role === 'admin') {
         router.push('/admin')
