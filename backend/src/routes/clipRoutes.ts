@@ -185,10 +185,10 @@ function buildGroupTree(groups: any[], layers: any[]): any[] {
 // Get all active layers grouped (for map display)
 router.get('/layers', async (req: Request, res: Response) => {
   try {
-    // Get all active layers with group info
+    // Get all active layers with group info and legends
     const layersResult = await pool.query(`
-      SELECT l.id, l.geoserver_name, l.display_name, l.group_id, l.file_path, l.class_labels, l.sort_order,
-             g.id as group_table_id, g.name as group_name, g.parent_id as group_parent_id
+      SELECT l.id, l.geoserver_name, l.display_name, l.group_id, l.file_path, l.class_labels, l.legend, l.sort_order,
+             g.id as group_table_id, g.name as group_name, g.parent_id as group_parent_id, g.legend as group_legend
       FROM layers l
       LEFT JOIN layer_groups g ON l.group_id = g.id
       WHERE l.is_active = true
@@ -202,7 +202,7 @@ router.get('/layers', async (req: Request, res: Response) => {
       ORDER BY sort_order ASC, created_at ASC
     `);
 
-    // Transform layers to include WMS info
+    // Transform layers to include WMS info and legends
     const layers = layersResult.rows.map(layer => {
       // Extract workspace from geoserver_name (e.g., "LC:LandcoverOSS2000" -> "LC")
       const workspace = layer.geoserver_name.includes(':')
@@ -221,6 +221,8 @@ router.get('/layers', async (req: Request, res: Response) => {
         hasStats: !!layer.file_path && !!layer.class_labels,
         group_id: layer.group_id,
         group_name: layer.group_name,
+        group_legend: layer.group_legend,
+        legend: layer.legend,
       };
     });
 

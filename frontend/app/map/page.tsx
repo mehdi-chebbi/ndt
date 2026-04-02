@@ -1,9 +1,10 @@
 'use client'
 
 import { Suspense, useEffect, useState } from 'react'
-import { useRouter, useSearchParams } from 'next/navigation'
+import { useSearchParams, useRouter } from 'next/navigation'
 import dynamic from 'next/dynamic'
 import AICopilot from '@/components/AICopilot'
+import { useAuth } from '@/contexts/AuthContext'
 
 interface ReportToView {
   id: number
@@ -25,23 +26,18 @@ const MapComponent = dynamic(() => import('@/components/MapComponent'), {
 })
 
 function MapPageContent() {
-  const router = useRouter()
   const searchParams = useSearchParams()
-  const [loading, setLoading] = useState(true)
+  const router = useRouter()
+  const { user, loading, isAuthenticated } = useAuth()
   const [reportToView, setReportToView] = useState<ReportToView | null>(null)
   const [reportLoading, setReportLoading] = useState(false)
   const [reportError, setReportError] = useState('')
 
   useEffect(() => {
-    const token = localStorage.getItem('token')
-
-    if (!token) {
-      router.push('/login')
-      return
+    if (!loading && !isAuthenticated) {
+      window.location.href = '/login'
     }
-
-    setLoading(false)
-  }, [router])
+  }, [loading, isAuthenticated])
 
   // Fetch report data if viewReport param exists
   useEffect(() => {
@@ -94,6 +90,10 @@ function MapPageContent() {
         </div>
       </div>
     )
+  }
+
+  if (!isAuthenticated) {
+    return null
   }
 
   return (

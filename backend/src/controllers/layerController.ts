@@ -5,7 +5,7 @@ import pool from '../config/database';
 export const getAllLayers = async (req: AuthRequest, res: Response) => {
   try {
     const result = await pool.query(`
-      SELECT l.*, g.name as group_name
+      SELECT l.*, g.name as group_name, g.legend as group_legend
       FROM layers l
       LEFT JOIN layer_groups g ON l.group_id = g.id
       ORDER BY g.sort_order ASC, l.sort_order ASC, l.created_at ASC
@@ -69,7 +69,7 @@ export const getLayerByName = async (req: AuthRequest, res: Response) => {
 // Create layer (admin only)
 export const createLayer = async (req: AuthRequest, res: Response) => {
   try {
-    const { geoserver_name, display_name, group_id, file_path, class_labels, is_active, sort_order } = req.body;
+    const { geoserver_name, display_name, group_id, file_path, class_labels, legend, is_active, sort_order } = req.body;
 
     if (!geoserver_name) {
       return res.status(400).json({ error: 'geoserver_name is required' });
@@ -94,8 +94,8 @@ export const createLayer = async (req: AuthRequest, res: Response) => {
     }
 
     const result = await pool.query(
-      `INSERT INTO layers (geoserver_name, display_name, group_id, file_path, class_labels, is_active, sort_order)
-       VALUES ($1, $2, $3, $4, $5, $6, $7)
+      `INSERT INTO layers (geoserver_name, display_name, group_id, file_path, class_labels, legend, is_active, sort_order)
+       VALUES ($1, $2, $3, $4, $5, $6, $7, $8)
        RETURNING *`,
       [
         geoserver_name,
@@ -103,6 +103,7 @@ export const createLayer = async (req: AuthRequest, res: Response) => {
         group_id || null,
         file_path || null,
         class_labels ? JSON.stringify(class_labels) : null,
+        legend ? JSON.stringify(legend) : null,
         is_active !== undefined ? is_active : true,
         sort_order || 0
       ]
@@ -122,7 +123,7 @@ export const createLayer = async (req: AuthRequest, res: Response) => {
 export const updateLayer = async (req: AuthRequest, res: Response) => {
   try {
     const { id } = req.params;
-    const { geoserver_name, display_name, group_id, file_path, class_labels, is_active, sort_order } = req.body;
+    const { geoserver_name, display_name, group_id, file_path, class_labels, legend, is_active, sort_order } = req.body;
 
     const layerId = parseInt(id);
     if (isNaN(layerId)) {
@@ -166,10 +167,11 @@ export const updateLayer = async (req: AuthRequest, res: Response) => {
            group_id = CASE WHEN $3::integer IS NULL THEN NULL ELSE COALESCE($3, group_id) END,
            file_path = COALESCE($4, file_path),
            class_labels = COALESCE($5, class_labels),
-           is_active = COALESCE($6, is_active),
-           sort_order = COALESCE($7, sort_order),
+           legend = COALESCE($6, legend),
+           is_active = COALESCE($7, is_active),
+           sort_order = COALESCE($8, sort_order),
            updated_at = CURRENT_TIMESTAMP
-       WHERE id = $8
+       WHERE id = $9
        RETURNING *`,
       [
         geoserver_name,
@@ -177,6 +179,7 @@ export const updateLayer = async (req: AuthRequest, res: Response) => {
         group_id === null ? null : (group_id || undefined),
         file_path,
         class_labels ? JSON.stringify(class_labels) : undefined,
+        legend ? JSON.stringify(legend) : undefined,
         is_active,
         sort_order,
         layerId

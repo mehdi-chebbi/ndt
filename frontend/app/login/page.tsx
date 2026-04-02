@@ -3,8 +3,10 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
+import { useAuth } from '@/contexts/AuthContext'
 
 export default function LoginPage() {
+  const { login } = useAuth()
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const [error, setError] = useState('')
@@ -31,9 +33,8 @@ export default function LoginPage() {
         throw new Error(data.error || 'Login failed')
       }
 
-      // Store token and user info
-      localStorage.setItem('token', data.token)
-      localStorage.setItem('user', JSON.stringify(data.user))
+      // Use AuthContext login function
+      login(data.token, data.user)
 
       // If profile incomplete (shouldn't happen for email signup, but safety check)
       if (!data.user.profile_complete) {
@@ -138,7 +139,7 @@ export default function LoginPage() {
 
           {/* Google Sign In Button */}
           <a
-            href="http://localhost:3001/api/auth/google"
+            href="/api/auth/google"
             className="w-full flex items-center justify-center gap-3 bg-white border border-gray-300 text-gray-700 py-3 rounded-lg hover:bg-gray-50 transition font-medium"
           >
             <svg className="w-5 h-5" viewBox="0 0 24 24">
@@ -164,7 +165,7 @@ export default function LoginPage() {
 
           {/* Microsoft Sign In Button */}
           <a
-            href="http://localhost:3001/api/auth/microsoft"
+            href="/api/auth/microsoft"
             className="w-full flex items-center justify-center gap-3 bg-white border border-gray-300 text-gray-700 py-3 rounded-lg hover:bg-gray-50 transition font-medium"
           >
             <svg className="w-5 h-5" viewBox="0 0 23 23">

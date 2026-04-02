@@ -5,8 +5,10 @@ import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 import CountrySelect from '@/components/ui/CountrySelect'
 import PhoneInput from '@/components/ui/PhoneInput'
+import { useAuth } from '@/contexts/AuthContext'
 
 export default function SignupPage() {
+  const { login } = useAuth()
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
@@ -41,7 +43,7 @@ export default function SignupPage() {
     setLoading(true)
 
     try {
-      const response = await fetch('http://localhost:3001/api/auth/signup', {
+      const response = await fetch('/api/auth/signup', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -63,9 +65,8 @@ export default function SignupPage() {
         throw new Error(data.error || 'Signup failed')
       }
 
-      // Store token and user info
-      localStorage.setItem('token', data.token)
-      localStorage.setItem('user', JSON.stringify(data.user))
+      // Use AuthContext login function
+      login(data.token, data.user)
 
       // Redirect to dashboard
       router.push('/dashboard')
@@ -252,7 +253,7 @@ export default function SignupPage() {
 
           {/* Google Sign Up Button */}
           <a
-            href="http://localhost:3001/api/auth/google"
+            href="/api/auth/google"
             className="w-full flex items-center justify-center gap-3 bg-white border border-gray-300 text-gray-700 py-3 rounded-lg hover:bg-gray-50 transition font-medium text-sm"
           >
             <svg className="w-5 h-5" viewBox="0 0 24 24">
@@ -278,7 +279,7 @@ export default function SignupPage() {
 
           {/* Microsoft Sign Up Button */}
           <a
-            href="http://localhost:3001/api/auth/microsoft"
+            href="/api/auth/microsoft"
             className="w-full flex items-center justify-center gap-3 bg-white border border-gray-300 text-gray-700 py-3 rounded-lg hover:bg-gray-50 transition font-medium text-sm mt-3"
           >
             <svg className="w-5 h-5" viewBox="0 0 23 23">

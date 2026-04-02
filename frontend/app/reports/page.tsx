@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation'
 import { api } from '@/lib/authFetch'
+import { useAuth } from '@/contexts/AuthContext'
 
 interface Report {
   id: number
@@ -28,6 +29,7 @@ interface NotificationRecipient {
 
 export default function ReportsPage() {
   const router = useRouter()
+  const { user, isAuthenticated, loading: authLoading } = useAuth()
   const [reports, setReports] = useState<Report[]>([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState('')
@@ -48,17 +50,13 @@ export default function ReportsPage() {
   }, [filterStatus])
 
   const checkAuth = () => {
-    const token = localStorage.getItem('token')
-    const userData = localStorage.getItem('user')
-
-    if (!token || !userData) {
-      router.push('/login')
+    if (!authLoading && !isAuthenticated) {
+      window.location.href = '/login'
       return
     }
 
-    const user = JSON.parse(userData)
-    if (user.role !== 'admin') {
-      router.push('/dashboard')
+    if (!user || user.role !== 'admin') {
+      window.location.href = '/dashboard'
       return
     }
   }

@@ -1,13 +1,15 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
 import CountrySelect from '@/components/ui/CountrySelect'
 import PhoneInput from '@/components/ui/PhoneInput'
+import { useAuth } from '@/contexts/AuthContext'
 
-const API_BASE = 'http://localhost:3001'
+const API_BASE = ''  // Use relative paths for reverse proxy compatibility
 
 export default function CompleteProfilePage() {
+  const { login, user, isAuthenticated } = useAuth()
   const [phoneNumber, setPhoneNumber] = useState('')
   const [country, setCountry] = useState('')
   const [jobTitle, setJobTitle] = useState('')
@@ -15,6 +17,17 @@ export default function CompleteProfilePage() {
   const [error, setError] = useState('')
   const [loading, setLoading] = useState(false)
   const router = useRouter()
+
+  useEffect(() => {
+    if (!loading && !isAuthenticated) {
+      window.location.href = '/login'
+      return
+    }
+
+    if (!user || !user.profile_complete) {
+      return
+    }
+  }, [loading, isAuthenticated, user])
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
@@ -64,6 +77,10 @@ export default function CompleteProfilePage() {
         institution: data.user.institution,
         profile_complete: true,
       }
+
+      // Use AuthContext login function (the token comes from password reset endpoint)
+      // Note: The token was already set by password reset, so we just need to update user data
+      // We don't call login() again to avoid overwriting the token
       localStorage.setItem('user', JSON.stringify(updatedUser))
 
       // Redirect to dashboard

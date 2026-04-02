@@ -3,22 +3,14 @@
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
 import AfricaMap from '@/components/AfricaMap'
+import { useAuth } from '@/contexts/AuthContext'
 
 export default function HomePage() {
-  const [isAuthenticated, setIsAuthenticated] = useState(false)
-  const [user, setUser] = useState<any>(null)
+  const { isAuthenticated, user } = useAuth()
   const [mounted, setMounted] = useState(false)
 
   useEffect(() => {
     setMounted(true)
-    const token = localStorage.getItem('token')
-    const userData = localStorage.getItem('user')
-    if (token) {
-      setIsAuthenticated(true)
-      if (userData) {
-        setUser(JSON.parse(userData))
-      }
-    }
   }, [])
 
   return (

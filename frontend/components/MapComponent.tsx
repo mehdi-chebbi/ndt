@@ -156,10 +156,12 @@ const MapComponent = ({ reportToView }: MapComponentProps) => {
       return { activeLayerLegend: null, activeLayerName: null }
     }
 
-    // Find inherited legend from group hierarchy
-    const legend = activeLayer.group_id
-      ? findInheritedLegend(activeLayer.group_id, state.groupedLayers.groups)
-      : null
+    // Use layer-specific legend if available, otherwise fall back to group legend
+    const legend = activeLayer.legend && activeLayer.legend.length > 0
+      ? activeLayer.legend
+      : (activeLayer.group_id
+          ? findInheritedLegend(activeLayer.group_id, state.groupedLayers.groups)
+          : null)
 
     return {
       activeLayerLegend: legend,
@@ -181,13 +183,18 @@ const MapComponent = ({ reportToView }: MapComponentProps) => {
     const leftLayer = allLayers.find(l => l.geoserver_name === leftLayerId)
     const rightLayer = allLayers.find(l => l.geoserver_name === rightLayerId)
 
-    const leftLegend = leftLayer?.group_id
-      ? findInheritedLegend(leftLayer.group_id, state.groupedLayers.groups)
-      : null
+    // Use layer-specific legend if available, otherwise fall back to group legend
+    const leftLegend = leftLayer?.legend && leftLayer.legend.length > 0
+      ? leftLayer.legend
+      : (leftLayer?.group_id
+          ? findInheritedLegend(leftLayer.group_id, state.groupedLayers.groups)
+          : null)
 
-    const rightLegend = rightLayer?.group_id
-      ? findInheritedLegend(rightLayer.group_id, state.groupedLayers.groups)
-      : null
+    const rightLegend = rightLayer?.legend && rightLayer.legend.length > 0
+      ? rightLayer.legend
+      : (rightLayer?.group_id
+          ? findInheritedLegend(rightLayer.group_id, state.groupedLayers.groups)
+          : null)
 
     return {
       leftLayerLegend: leftLegend,

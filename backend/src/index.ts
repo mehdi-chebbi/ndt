@@ -164,6 +164,7 @@ async function initializeDatabase() {
         group_id INTEGER REFERENCES layer_groups(id) ON DELETE SET NULL,
         file_path VARCHAR(500),
         class_labels JSONB,
+        legend JSONB,
         is_active BOOLEAN DEFAULT true,
         sort_order INTEGER DEFAULT 0,
         created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,

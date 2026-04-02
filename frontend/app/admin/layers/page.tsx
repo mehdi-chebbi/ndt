@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation'
 import Link from 'next/link'
 import { api } from '@/lib/authFetch'
+import { useAuth } from '@/contexts/AuthContext'
 
 interface LegendItem {
   class: string
@@ -16,8 +17,10 @@ interface Layer {
   display_name: string | null
   group_id: number | null
   group_name: string | null
+  group_legend: LegendItem[] | null
   file_path: string | null
   class_labels: { [key: string]: string } | null
+  legend: LegendItem[] | null
   is_active: boolean
   sort_order: number
   created_at: string
@@ -49,11 +52,11 @@ const defaultClassLabels = {
 }
 
 export default function LayerManagementPage() {
+  const { user, loading: authLoading } = useAuth()
   const [layers, setLayers] = useState<Layer[]>([])
   const [groups, setGroups] = useState<Group[]>([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState('')
-  const [currentUser, setCurrentUser] = useState<any>(null)
   const router = useRouter()
 
   // Sync state
@@ -72,6 +75,7 @@ export default function LayerManagementPage() {
     group_id: '',
     file_path: '',
     class_labels: JSON.stringify(defaultClassLabels, null, 2),
+    legend: [] as LegendItem[],
     is_active: true,
     sort_order: 0
   })
@@ -92,17 +96,15 @@ export default function LayerManagementPage() {
   const [isGroupSubmitting, setIsGroupSubmitting] = useState(false)
 
   useEffect(() => {
-    const token = localStorage.getItem('token')
-    const user = JSON.parse(localStorage.getItem('user') || '{}')
-
-    if (!token || user.role !== 'admin') {
-      router.push('/login')
+    if (!authLoading && (!user || user.role !== 'admin')) {
+      window.location.href = '/login'
       return
     }
 
-    setCurrentUser(user)
-    fetchData()
-  }, [router])
+    if (!authLoading && user && user.role === 'admin') {
+      fetchData()
+    }
+  }, [authLoading, user])
 
   const fetchData = async () => {
     try {
@@ -167,6 +169,7 @@ export default function LayerManagementPage() {
         group_id: layer.group_id ? String(layer.group_id) : '',
         file_path: layer.file_path || '',
         class_labels: layer.class_labels ? JSON.stringify(layer.class_labels, null, 2) : JSON.stringify(defaultClassLabels, null, 2),
+        legend: layer.legend || [],
         is_active: layer.is_active,
         sort_order: layer.sort_order
       })
@@ -178,6 +181,7 @@ export default function LayerManagementPage() {
         group_id: '',
         file_path: '',
         class_labels: JSON.stringify(defaultClassLabels, null, 2),
+        legend: [],
         is_active: true,
         sort_order: 0
       })
@@ -216,6 +220,7 @@ export default function LayerManagementPage() {
             group_id: layerFormData.group_id ? parseInt(layerFormData.group_id) : null,
             file_path: layerFormData.file_path || null,
             class_labels: classLabelsObj,
+            legend: layerFormData.legend.length > 0 ? layerFormData.legend : null,
             is_active: layerFormData.is_active,
             sort_order: layerFormData.sort_order
           })
@@ -225,6 +230,7 @@ export default function LayerManagementPage() {
             group_id: layerFormData.group_id ? parseInt(layerFormData.group_id) : null,
             file_path: layerFormData.file_path || null,
             class_labels: classLabelsObj,
+            legend: layerFormData.legend.length > 0 ? layerFormData.legend : null,
             is_active: layerFormData.is_active,
             sort_order: layerFormData.sort_order
           })
@@ -829,6 +835,76 @@ export default function LayerManagementPage() {
                   className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-900 focus:border-transparent font-mono text-sm"
                   rows={10}
                 />
+              </div>
+
+              {/* Legend Editor */}
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-2">
+                  Legend (overrides group legend if set)
+                </label>
+                <div className="border border-gray-200 rounded-lg overflow-hidden">
+                  <div className="bg-gray-50 px-3 py-2 border-b border-gray-200 flex justify-between items-center">
+                    <span className="text-xs font-medium text-gray-600">Class - Color</span>
+                    <button
+                      type="button"
+                      onClick={() => setLayerFormData({
+                        ...layerFormData,
+                        legend: [...layerFormData.legend, { class: '', color: '#000000' }]
+                      })}
+                      className="text-sm text-gray-900 hover:text-gray-600 font-medium flex items-center gap-1"
+                    >
+                      <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" />
+                      </svg>
+                      Add Class
+                    </button>
+                  </div>
+                  <div className="max-h-48 overflow-y-auto">
+                    {layerFormData.legend.length === 0 ? (
+                      <div className="px-3 py-6 text-center text-gray-400 text-sm">
+                        No legend items. Click "Add Class" to add a custom legend (overrides group legend).
+                      </div>
+                    ) : (
+                      layerFormData.legend.map((item, index) => (
+                        <div key={index} className="flex items-center gap-2 px-3 py-2 border-b border-gray-100 last:border-b-0">
+                          <input
+                            type="text"
+                            value={item.class}
+                            onChange={(e) => {
+                              const newLegend = [...layerFormData.legend]
+                              newLegend[index] = { ...newLegend[index], class: e.target.value }
+                              setLayerFormData({ ...layerFormData, legend: newLegend })
+                            }}
+                            placeholder="Class name"
+                            className="flex-1 px-2 py-1 border border-gray-300 rounded text-sm focus:ring-1 focus:ring-gray-900 focus:border-transparent"
+                          />
+                          <input
+                            type="color"
+                            value={item.color}
+                            onChange={(e) => {
+                              const newLegend = [...layerFormData.legend]
+                              newLegend[index] = { ...newLegend[index], color: e.target.value }
+                              setLayerFormData({ ...layerFormData, legend: newLegend })
+                            }}
+                            className="w-10 h-8 border border-gray-300 rounded cursor-pointer"
+                          />
+                          <button
+                            type="button"
+                            onClick={() => {
+                              const newLegend = layerFormData.legend.filter((_, i) => i !== index)
+                              setLayerFormData({ ...layerFormData, legend: newLegend })
+                            }}
+                            className="p-1 text-red-500 hover:text-red-700"
+                          >
+                            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+                            </svg>
+                          </button>
+                        </div>
+                      ))
+                    )}
+                  </div>
+                </div>
               </div>
 
               <div className="flex gap-4">

@@ -1,32 +1,19 @@
 'use client'
 
-import { useEffect, useState } from 'react'
+import { useEffect } from 'react'
 import Link from 'next/link'
-import { useRouter } from 'next/navigation'
+import { useAuth } from '@/contexts/AuthContext'
 
 export default function DashboardPage() {
-  const router = useRouter()
-  const [user, setUser] = useState<any>(null)
+  const { user, loading } = useAuth()
 
   useEffect(() => {
-    const token = localStorage.getItem('token')
-    const userData = localStorage.getItem('user')
-
-    if (!token || !userData) {
-      router.push('/login')
-      return
+    if (!loading && !user) {
+      window.location.href = '/login'
     }
+  }, [loading, user])
 
-    setUser(JSON.parse(userData))
-  }, [router])
-
-  const handleLogout = () => {
-    localStorage.removeItem('token')
-    localStorage.removeItem('user')
-    router.push('/')
-  }
-
-  if (!user) {
+  if (loading) {
     return (
       <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center">
         <div className="text-center">
@@ -35,6 +22,10 @@ export default function DashboardPage() {
         </div>
       </div>
     )
+  }
+
+  if (!user) {
+    return null
   }
 
   return (

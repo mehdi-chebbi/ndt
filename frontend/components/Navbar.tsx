@@ -1,64 +1,26 @@
 'use client'
 
-import { useEffect, useState } from 'react'
+import { useEffect } from 'react'
 import Link from 'next/link'
-import { useRouter, usePathname } from 'next/navigation'
+import { usePathname } from 'next/navigation'
+import { useAuth } from '@/contexts/AuthContext'
 
 export default function Navbar() {
-  const router = useRouter()
   const pathname = usePathname()
-  const [isAuthenticated, setIsAuthenticated] = useState(false)
-  const [user, setUser] = useState<any>(null)
-  const [mounted, setMounted] = useState(false)
-
-  useEffect(() => {
-    setMounted(true)
-  }, [])
+  const { isAuthenticated, user, logout, checkAuth } = useAuth()
 
   // Verify token is still valid on mount (user might have been deleted from DB)
   useEffect(() => {
-    const token = localStorage.getItem('token')
-    if (!token) return
+    if (!isAuthenticated) return
 
     const authPages = ['/login', '/signup', '/forgot-password', '/complete-profile']
     if (authPages.includes(pathname)) return
 
-    fetch('http://localhost:3001/api/admin/me', {
-      headers: { 'Authorization': `Bearer ${token}` },
-    }).then((res) => {
-      if (!res.ok) {
-        // Token invalid or user doesn't exist — force logout
-        localStorage.removeItem('token')
-        localStorage.removeItem('user')
-        setIsAuthenticated(false)
-        setUser(null)
-        router.push('/login')
-      }
-    }).catch(() => {
-      // Backend unreachable — leave them alone, might just be loading
-    })
-  }, []) // eslint-disable-line react-hooks/exhaustive-deps
-
-  // Re-check auth state when pathname changes
-  useEffect(() => {
-    const token = localStorage.getItem('token')
-    const userData = localStorage.getItem('user')
-    setIsAuthenticated(!!token)
-    if (userData) {
-      setUser(JSON.parse(userData))
-    }
-  }, [pathname])
+    checkAuth()
+  }, [isAuthenticated, pathname, checkAuth])
 
   const handleLogout = () => {
-    localStorage.removeItem('token')
-    localStorage.removeItem('user')
-    setIsAuthenticated(false)
-    setUser(null)
-    router.push('/')
-  }
-
-  if (!mounted) {
-    return null
+    logout()
   }
 
   // Don't show navbar on auth pages or complete-profile page

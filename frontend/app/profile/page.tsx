@@ -7,6 +7,7 @@ import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import CountrySelect from '@/components/ui/CountrySelect'
 import PhoneInput from '@/components/ui/PhoneInput'
+import { useAuth } from '@/contexts/AuthContext'
 
 const markdownComponents = {
   h1: ({ children }: any) => <h1 className="text-base font-bold mt-3 mb-1 text-gray-900">{children}</h1>,
@@ -65,10 +66,11 @@ interface SessionDetail {
   messages: { role: string; content: string; created_at: string }[]
 }
 
-const API_BASE = 'http://localhost:3001'
+const API_BASE = ''  // Use relative paths for reverse proxy compatibility
 
 export default function ProfilePage() {
   const router = useRouter()
+  const { user: authUser, isAuthenticated, loading: authLoading } = useAuth()
   const [user, setUser] = useState<any>(null)
   const [sessions, setSessions] = useState<Session[]>([])
   const [loading, setLoading] = useState(true)
@@ -96,16 +98,15 @@ export default function ProfilePage() {
   const [passwordSuccess, setPasswordSuccess] = useState('')
 
   useEffect(() => {
-    const token = localStorage.getItem('token')
-    const userData = localStorage.getItem('user')
-
-    if (!token || !userData) {
-      router.push('/login')
+    if (!authLoading && !isAuthenticated) {
+      window.location.href = '/login'
       return
     }
 
-    setUser(JSON.parse(userData))
-  }, [router])
+    if (authUser) {
+      setUser(authUser)
+    }
+  }, [authLoading, isAuthenticated, authUser])
 
   useEffect(() => {
     if (!user) return

@@ -4,7 +4,7 @@ import { useState, useRef, useEffect, useCallback } from 'react'
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 
-const API_BASE = 'http://localhost:3001'
+const API_BASE = ''  // Use relative paths for reverse proxy compatibility
 
 interface Message {
   role: 'user' | 'assistant'

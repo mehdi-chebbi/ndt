@@ -2,10 +2,12 @@
 
 import { useEffect, Suspense } from 'react'
 import { useRouter, useSearchParams } from 'next/navigation'
+import { useAuth } from '@/contexts/AuthContext'
 
 function AuthCallbackContent() {
   const router = useRouter()
   const searchParams = useSearchParams()
+  const { login } = useAuth()
 
   useEffect(() => {
     const token = searchParams.get('token')
@@ -15,9 +17,8 @@ function AuthCallbackContent() {
       try {
         const user = JSON.parse(decodeURIComponent(userStr))
 
-        // Store token and user info in localStorage
-        localStorage.setItem('token', token)
-        localStorage.setItem('user', JSON.stringify(user))
+        // Use AuthContext login function
+        login(token, user)
 
         // If profile is incomplete (OAuth users), redirect to complete profile
         if (!user.profile_complete) {
@@ -38,7 +39,7 @@ function AuthCallbackContent() {
     } else {
       router.push('/login?error=no_token_provided')
     }
-  }, [router, searchParams])
+  }, [router, searchParams, login])
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center">

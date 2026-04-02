@@ -13,6 +13,8 @@ export interface Layer {
   hasStats: boolean
   group_id: number | null
   group_name: string | null
+  group_legend: LegendItem[] | null
+  legend: LegendItem[] | null
 }
 
 export interface Group {

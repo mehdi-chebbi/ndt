@@ -2,8 +2,8 @@
 
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
-import { useRouter } from 'next/navigation'
 import { api } from '@/lib/authFetch'
+import { useAuth } from '@/contexts/AuthContext'
 
 interface User {
   id: number
@@ -14,25 +14,23 @@ interface User {
 }
 
 export default function AdminPage() {
+  const { user, loading, isAuthenticated } = useAuth()
   const [users, setUsers] = useState<User[]>([])
-  const [loading, setLoading] = useState(true)
+  const [loadingUsers, setLoadingUsers] = useState(true)
   const [error, setError] = useState('')
-  const router = useRouter()
-  const [currentUser, setCurrentUser] = useState<any>(null)
 
   useEffect(() => {
-    // Check if user is logged in and is admin
-    const token = localStorage.getItem('token')
-    const user = JSON.parse(localStorage.getItem('user') || '{}')
-
-    if (!token || user.role !== 'admin') {
-      router.push('/login')
+    if (!loading && !isAuthenticated) {
+      window.location.href = '/login'
       return
     }
 
-    setCurrentUser(user)
+    if (loading || !user || user.role !== 'admin') {
+      return
+    }
+
     fetchUsers()
-  }, [router])
+  }, [loading, isAuthenticated, user])
 
   const fetchUsers = async () => {
     try {
@@ -48,7 +46,7 @@ export default function AdminPage() {
     } catch (err: any) {
       setError(err.message)
     } finally {
-      setLoading(false)
+      setLoadingUsers(false)
     }
   }
 
@@ -71,12 +69,6 @@ export default function AdminPage() {
     }
   }
 
-  const handleLogout = () => {
-    localStorage.removeItem('token')
-    localStorage.removeItem('user')
-    router.push('/')
-  }
-
   if (loading) {
     return (
       <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center">
@@ -86,6 +78,10 @@ export default function AdminPage() {
         </div>
       </div>
     )
+  }
+
+  if (!user || user.role !== 'admin') {
+    return null
   }
 
   return (
@@ -210,7 +206,7 @@ export default function AdminPage() {
                         {new Date(user.created_at).toLocaleDateString()}
                       </td>
                       <td className="px-6 py-4 whitespace-nowrap text-sm">
-                        {user.id !== currentUser?.id && (
+                        {user.id !== user?.id && (
                           <button
                             onClick={() => handleDelete(user.id)}
                             className="text-red-600 hover:text-red-800 transition"
