@@ -108,9 +108,10 @@ export async function chat(req: Request, res: Response) {
 
     // ── Call OpenRouter ──
     res.setHeader('Content-Type', 'text/event-stream');
-    res.setHeader('Cache-Control', 'no-cache');
+    res.setHeader('Cache-Control', 'no-cache, no-transform');
     res.setHeader('Connection', 'keep-alive');
     res.setHeader('X-Accel-Buffering', 'no');
+    res.flushHeaders();
 
     const openRouterUrl = 'https://openrouter.ai/api/v1/chat/completions';
     const response = await fetch(openRouterUrl, {
@@ -210,6 +211,8 @@ export async function chat(req: Request, res: Response) {
               if (content) {
                 accumulatedContent += content;
                 res.write(`data: ${JSON.stringify({ content })}\n\n`);
+                // Force flush for real-time streaming
+                if (res.flush) res.flush();
               }
             } catch {
               // Non-critical parse error, skip
@@ -231,6 +234,7 @@ export async function chat(req: Request, res: Response) {
       }
 
       res.write('data: [DONE]\n\n');
+      if (res.flush) res.flush();
       res.end();
 
       aiLogger.success(`Request [${requestId}] completed`, {
