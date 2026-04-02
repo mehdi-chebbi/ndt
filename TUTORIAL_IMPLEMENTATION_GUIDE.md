@@ -14,9 +14,15 @@ This document provides a complete, step-by-step guide for implementing an intera
 
 ---
 
-## 🎯 Tutorial Flow - 23 Steps Total
+## 🎯 Tutorial Flow - 32 Steps Total
 
 The tutorial is organized into 6 phases, each focusing on a specific feature set.
+
+**Important Notes:**
+- The tutorial has **32 steps total** (not 23 as previously stated)
+- Skip button is **always visible** on every step
+- On page refresh, tutorial **restarts from step 1**
+- **Mobile responsiveness is not considered** in this implementation (to be done later)
 
 ### **Phase 1: Map Basics (Steps 1-5)**
 **Purpose:** Get familiar with the map interface
@@ -90,7 +96,12 @@ The tutorial is organized into 6 phases, each focusing on a specific feature set
 
 | Step | Action | Description |
 |------|--------|-------------|
-| 29 | End Tour | Show "End Tour" button with confirmation dialog to mark as complete |
+| 32 | End Tour | Show "Tutorial Complete!" message with "Exit Tutorial" button. User clicks "Exit Tutorial" to close the tutorial. |
+
+**Tutorial Completion Behavior:**
+- Step 32 shows "Tutorial Complete!" with an "Exit Tutorial" button
+- After clicking "Exit Tutorial", the overlay disappears immediately
+- Confirmation dialog is shown before marking tutorial as complete
 
 ---
 
@@ -125,6 +136,58 @@ await pool.query(`
 ```
 
 **Important:** Since the database is empty, this table will be created fresh with the new column when the backend starts. No migration needed.
+
+---
+
+## 🎯 Clarified Requirements & Behavior
+
+### **Tutorial Trigger & Auto-Start**
+- **Email/Password Signup**: User signs up → Redirect to `/map` → Tutorial auto-starts (only if `tutorial_completed === false`)
+- **OAuth Signup**: User completes profile at `/complete-profile` → Redirect to `/map` → Tutorial auto-starts (only if `tutorial_completed === false`)
+- **Manual Restart**: User can click "Show Tutorial" button anytime to restart
+
+### **Action Detection Details**
+
+| Action Type | Trigger Condition | Notes |
+|-------------|-------------------|-------|
+| `click` | User clicks the target element | Immediately advances to next step |
+| `select` | User selects an option from dropdown | Immediately advances to next step |
+| `draw` | Drawing completes (on `draw:created` event) | Fires `tutorial-draw-complete` event |
+| `slide` | User **releases** the slider (not on drag start) | Fires `tutorial-slide-complete` event |
+| `type` | Message is **sent to backend** (not just Enter press) | For AI chat step (31) only |
+| `submit` | User clicks submit button | Immediately advances to next step |
+| `none` | User clicks "Next" button manually | For informational steps |
+
+### **Compare Mode Cleanup**
+- After step 22 (Exit Compare Mode), compare mode state is **cleared/reset** before proceeding to Stats phase (step 23)
+
+### **Tutorial Button Placement**
+- **Location**: In the sidebar header, **between "Map Controls" text and the X (close) button**
+- Button text:
+  - "Start Tutorial" if tutorial not completed
+  - "Show Tutorial" if tutorial already completed
+- Shows confirmation dialog before restarting if already completed
+
+### **AI Chat Step (Step 31)**
+- User types any message they want (no placeholder/suggestion)
+- Tutorial advances **only after the message is sent to backend**, not on Enter press
+- User must type something to proceed
+
+### **Custom Events**
+The tutorial system listens for these custom events:
+
+**`tutorial-draw-complete`**
+- Fired by MapComponent when a drawing is completed
+- Used in steps 10 (Reporting) and 27 (Stats)
+
+**`tutorial-slide-complete`**
+- Fired by MapComponent when the compare slider is **released** (not on drag start)
+- Used in step 19 (Compare Layers)
+
+### **State Persistence**
+- Tutorial does NOT persist current step across page refreshes
+- On refresh, tutorial **restarts from step 1**
+- Only `tutorial_completed` status is persisted in the database
 
 ---
 
@@ -264,7 +327,7 @@ export interface TutorialStep {
   position?: 'top' | 'bottom' | 'left' | 'right' | 'center'
   actionType?: 'click' | 'select' | 'draw' | 'type' | 'slide' | 'submit' | 'none'
   waitForAction?: boolean
-  canSkipAfter?: number  // seconds before skip button appears
+  canSkipAfter?: number  // seconds before skip button appears (UNUSED - skip button always visible)
   validateAction?: () => boolean | Promise<boolean>
   onNext?: () => void | Promise<void>
 }
@@ -663,13 +726,8 @@ export default function TutorialOverlay({
       setIsWaitingForAction(false)
     }
 
-    // Show skip button after delay
-    if (step.canSkipAfter) {
-      const timer = setTimeout(() => {
-        setShowSkipButton(true)
-      }, step.canSkipAfter * 1000)
-      return () => clearTimeout(timer)
-    }
+    // Skip button is always visible - no delay logic needed
+    setShowSkipButton(true)
   }, [isActive, step, currentStep])
 
   // Setup event listeners based on action type
@@ -706,14 +764,16 @@ export default function TutorialOverlay({
         target.addEventListener('change', handleAction)
         break
       case 'type':
-        // For type actions, wait for Enter key or blur
-        const handleTypeAction = (e: KeyboardEvent | FocusEvent) => {
-          if (e.type === 'keydown' && (e as KeyboardEvent).key === 'Enter') {
+        // For type actions (AI chat only), wait for message to be SENT to backend
+        // NOT just Enter press - the message must actually be sent
+        const handleTypeAction = (e: CustomEvent) => {
+          // Listen for a custom event that fires when message is sent
+          if (e.detail?.sent) {
             handleAction(e)
           }
         }
-        target.addEventListener('keydown', handleTypeAction)
-        target.addEventListener('blur', handleAction)
+        window.addEventListener('ai-message-sent', handleTypeAction as EventListener)
+        // Don't add cleanup for this specific case since it uses a different pattern
         break
       case 'draw':
         // Draw actions are detected via map state changes
@@ -729,8 +789,7 @@ export default function TutorialOverlay({
     return () => {
       target.removeEventListener('click', handleAction)
       target.removeEventListener('change', handleAction)
-      target.removeEventListener('keydown', handleTypeAction as any)
-      target.removeEventListener('blur', handleTypeAction as any)
+      // Note: type action cleanup is handled separately in setupActionListeners
     }
   }
 
@@ -748,6 +807,7 @@ export default function TutorialOverlay({
 
   // Listener for slide actions (compare mode slider)
   const setupSlideListener = () => {
+    // IMPORTANT: Fires when slider is RELEASED, not on drag start
     const handleSlide = () => {
       handleNext()
     }
@@ -881,14 +941,13 @@ export default function TutorialOverlay({
             </div>
           )}
 
-          {showSkipButton && (
-            <button
-              onClick={handleSkipClick}
-              className="px-4 py-2 text-gray-500 hover:text-gray-700 transition text-sm font-medium"
-            >
-              Skip
-            </button>
-          )}
+          {/* Skip button - always visible */}
+          <button
+            onClick={handleSkipClick}
+            className="px-4 py-2 text-gray-500 hover:text-gray-700 transition text-sm font-medium"
+          >
+            Skip
+          </button>
         </div>
       </div>
 
@@ -1353,7 +1412,63 @@ useEffect(() => {
 
 // For compare slider detection, you may need to add event listeners
 // to the slider element when compare mode is active
+
+#### **H. AI Chat Custom Event**
+
+**File:** `frontend/components/AICopilot.tsx`
+
+When sending a message to the backend, emit a custom event for the tutorial:
+
+```typescript
+// In the function that sends the message to the backend
+const sendMessage = async () => {
+  if (!inputText.trim()) return
+
+  try {
+    // ... existing code to send message to backend ...
+
+    // After successfully sending, emit event for tutorial
+    window.dispatchEvent(new CustomEvent('ai-message-sent', { detail: { sent: true } }))
+  } catch (error) {
+    console.error('Failed to send message:', error)
+  }
+}
 ```
+
+**Important:** The event must be emitted **after** the message is successfully sent to the backend, not just when the user presses Enter.
+
+#### **I. Tutorial Button in Sidebar Header**
+
+**File:** `frontend/components/MapComponent.tsx`
+
+Add the TutorialButton between "Map Controls" text and the X (close) button:
+
+```typescript
+// Import TutorialButton
+import TutorialButton from './tutorial/TutorialButton'
+
+// In the sidebar header section:
+<div className="flex items-center justify-between mb-6">
+  <h2 className="text-lg font-bold text-gray-900">Map Controls</h2>
+
+  {/* Tutorial button - between "Map Controls" and X button */}
+  <TutorialButton
+    onStart={onStartTutorial}  // Will receive this as prop
+    isCompleted={tutorialCompleted}  // Will receive this as prop
+  />
+
+  <button
+    onClick={() => state.setSidebarOpen(false)}
+    className="p-2 hover:bg-gray-100 rounded-lg transition"
+  >
+    <svg className="w-5 h-5 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+    </svg>
+  </button>
+</div>
+```
+
+**Note:** The MapComponent will need to receive `onStartTutorial` and `tutorialCompleted` as props from the parent (map page).
 
 ---
 
@@ -1485,14 +1600,12 @@ function MapPageContent() {
         </>
       )}
 
-      {/* Tutorial button - position appropriately */}
+      {/* Tutorial button - placed in MapComponent sidebar header */}
       {!reportToView && (
-        <div className="absolute top-4 left-[420px] z-40">  {/* Adjust position as needed */}
-          <TutorialButton
-            onStart={() => setIsTutorialActive(true)}
-            isCompleted={user?.tutorial_completed}
-          />
-        </div>
+        <TutorialButton
+          onStart={() => setIsTutorialActive(true)}
+          isCompleted={user?.tutorial_completed}
+        />
       )}
     </div>
   )
