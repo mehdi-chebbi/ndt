@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Leaflet Draw CSS needs to be imported */
+@import 'leaflet-draw/dist/leaflet.draw.css';
+
+/* Africa Map Styling */
+svg path {
+  stroke: rgba(255, 255, 255, 0.2);
+  stroke-width: 0.5;
+  transition: all 0.3s ease;
+}
+
+svg path:hover {
+  filter: brightness(1.2);
+  stroke: rgba(255, 255, 255, 0.4);
+  stroke-width: 1;
+}
+
+/* ── AI Copilot Markdown Styles ── */
+.markdown-body > *:first-child {
+  margin-top: 0;
+}
+.markdown-body > *:last-child {
+  margin-bottom: 0;
+}
+.markdown-body p {
+  margin-bottom: 0.5rem;
+}
+.markdown-body p:last-child {
+  margin-bottom: 0;
+}
+.markdown-body blockquote p:last-child {
+  margin-bottom: 0;
+}
+.markdown-body li > p {
+  margin-bottom: 0.25rem;
+}
