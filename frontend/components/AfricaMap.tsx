@@ -2,7 +2,7 @@ export default function AfricaMap({ className }: { className?: string }) {
   return (
     <svg
       viewBox="0 0 1200 1230"
-      className={className}
+      className={`africa-map ${className || ''}`}
       style={{
         width: '100%',
         height: 'auto',
