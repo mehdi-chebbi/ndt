@@ -7,30 +7,42 @@ interface TutorialOverlayProps {
   isActive: boolean
   onComplete: () => void
   onSkip: () => void
+  onSwitchTab?: (tab: 'basemaps' | 'data' | 'stats') => void
+  onActivateRandomLayer?: () => void
+  onCleanup?: () => void
 }
 
 /** Extra padding around the highlighted target element */
 const SPOTLIGHT_PAD = 8
 
-export default function TutorialOverlay({ isActive, onComplete, onSkip }: TutorialOverlayProps) {
+export default function TutorialOverlay({
+  isActive,
+  onComplete,
+  onSkip,
+  onSwitchTab,
+  onActivateRandomLayer,
+  onCleanup,
+}: TutorialOverlayProps) {
   const [stepIndex, setStepIndex] = useState(0)
   const [rect, setRect] = useState<DOMRect | null>(null)
   const [confirmOpen, setConfirmOpen] = useState(false)
   const [confirmType, setConfirmType] = useState<'skip' | 'complete'>('skip')
+  const [isPerformingAction, setIsPerformingAction] = useState(false)
 
   // ── Refs ──────────────────────────────────────────────────────
   /** The currently highlighted target DOM element */
   const targetElRef = useRef<HTMLElement | null>(null)
   /** The previous target — so we can restore its inline styles */
   const prevTargetRef = useRef<HTMLElement | null>(null)
+  /** Store original position and z-index for proper restoration */
+  const originalStylesRef = useRef<Map<HTMLElement, { position?: string; zIndex?: string }>>(new Map())
   /** Collects cleanup functions for event listeners */
   const cleanupFnsRef = useRef<(() => void)[]>([] as (() => void)[])
-  /** Stable ref to the advance function so event handlers never go stale */
-  const advanceRef = useRef<() => void>(() => {})
+  /** Track the activated layer for cleanup */
+  const activatedLayerRef = useRef<string | null>(null)
 
   const step: TutorialStep = tutorialSteps[stepIndex]
   const isLastStep = stepIndex === tutorialSteps.length - 1
-  const isWaiting = step?.waitForAction && step?.actionType !== 'none'
   const isCenter = step?.target === 'body' || step?.position === 'center'
 
   // ── Core navigation ────────────────────────────────────────────
@@ -41,89 +53,105 @@ export default function TutorialOverlay({ isActive, onComplete, onSkip }: Tutori
 
   const restoreTarget = useCallback(() => {
     if (prevTargetRef.current) {
-      prevTargetRef.current.style.removeProperty('position')
-      prevTargetRef.current.style.removeProperty('zIndex')
+      const target = prevTargetRef.current
+      const originalStyles = originalStylesRef.current.get(target)
+
+      // Restore original styles, or remove if there were no inline styles before
+      if (originalStyles) {
+        if (originalStyles.position) {
+          target.style.position = originalStyles.position
+        } else {
+          target.style.removeProperty('position')
+        }
+        if (originalStyles.zIndex) {
+          target.style.zIndex = originalStyles.zIndex
+        } else {
+          target.style.removeProperty('zIndex')
+        }
+      } else {
+        target.style.removeProperty('position')
+        target.style.removeProperty('zIndex')
+      }
+
+      originalStylesRef.current.delete(target)
       prevTargetRef.current = null
     }
   }, [])
 
-  const advance = useCallback(() => {
+  const performStepTransition = useCallback(async (nextStepIndex: number) => {
+    setIsPerformingAction(true)
+
+    // Step 3 → 4: Switch to Data tab
+    if (stepIndex === 2 && nextStepIndex === 3 && onSwitchTab) {
+      onSwitchTab('data')
+      await new Promise(resolve => setTimeout(resolve, 300))
+    }
+
+    // Step 4 → 5: Activate random layer
+    if (stepIndex === 3 && nextStepIndex === 4 && onActivateRandomLayer) {
+      onActivateRandomLayer()
+      await new Promise(resolve => setTimeout(resolve, 500))
+    }
+
+    // Step 7 → 8: Switch to Stats tab
+    if (stepIndex === 6 && nextStepIndex === 7 && onSwitchTab) {
+      onSwitchTab('stats')
+      await new Promise(resolve => setTimeout(resolve, 300))
+    }
+
+    setIsPerformingAction(false)
+  }, [stepIndex, onSwitchTab, onActivateRandomLayer])
+
+  const handleSkip = () => { setConfirmType('skip'); setConfirmOpen(true) }
+  const handleEndTour = useCallback(() => {
+    // Directly end tour without confirmation
     restoreTarget()
     cleanupListeners()
+    if (onCleanup) {
+      onCleanup()
+    }
+    onComplete()
+  }, [restoreTarget, cleanupListeners, onCleanup, onComplete])
+
+  const advance = useCallback(async () => {
+    if (isPerformingAction) return
+
+    // Check if this is the last step (completion step)
+    if (isLastStep) {
+      handleEndTour()
+      return
+    }
+
+    restoreTarget()
+    cleanupListeners()
+
+    // Perform any transitions needed
+    await performStepTransition(stepIndex + 1)
+
     if (stepIndex < tutorialSteps.length - 1) {
       setStepIndex(i => i + 1)
     }
-    // On the last step the "End Tour" button triggers confirm dialog
-  }, [stepIndex, restoreTarget, cleanupListeners])
-
-  // Keep the ref in sync so event handlers always call the latest version
-  advanceRef.current = advance
+  }, [stepIndex, isLastStep, isPerformingAction, restoreTarget, cleanupListeners, performStepTransition, handleEndTour])
 
   const goPrevious = useCallback(() => {
+    if (isPerformingAction) return
+
     restoreTarget()
     cleanupListeners()
     if (stepIndex > 0) setStepIndex(i => i - 1)
-  }, [stepIndex, restoreTarget, cleanupListeners])
-
-  const handleSkip = () => { setConfirmType('skip'); setConfirmOpen(true) }
-  const handleEndTour = () => { setConfirmType('complete'); setConfirmOpen(true) }
+  }, [stepIndex, isPerformingAction, restoreTarget, cleanupListeners])
 
   const handleConfirm = () => {
     setConfirmOpen(false)
     restoreTarget()
     cleanupListeners()
+
+    if (confirmType === 'complete' && onCleanup) {
+      onCleanup()
+    }
+
     confirmType === 'skip' ? onSkip() : onComplete()
   }
-
-  // ── Action listeners ───────────────────────────────────────────
-  const attachListeners = useCallback(
-    (target: HTMLElement, s: TutorialStep) => {
-      const go = () => setTimeout(() => advanceRef.current(), 120)
-
-      switch (s.actionType) {
-        case 'click':
-        case 'submit': {
-          const handler = () => go()
-          target.addEventListener('click', handler, true)
-          cleanupFnsRef.current.push(() => target.removeEventListener('click', handler, true))
-          break
-        }
-        case 'select': {
-          const handler = () => go()
-          target.addEventListener('change', handler, true)
-          cleanupFnsRef.current.push(() => target.removeEventListener('change', handler, true))
-          break
-        }
-        case 'draw': {
-          const handler = () => go()
-          window.addEventListener('tutorial-draw-complete', handler)
-          cleanupFnsRef.current.push(() => window.removeEventListener('tutorial-draw-complete', handler))
-          break
-        }
-        case 'slide': {
-          const handler = () => go()
-          window.addEventListener('tutorial-slide-complete', handler)
-          cleanupFnsRef.current.push(() => window.removeEventListener('tutorial-slide-complete', handler))
-          break
-        }
-        case 'type': {
-          const handler = (e: Event) => {
-            if ((e as CustomEvent).detail?.sent) go()
-          }
-          window.addEventListener('ai-message-sent', handler)
-          cleanupFnsRef.current.push(() => window.removeEventListener('ai-message-sent', handler))
-          break
-        }
-        case 'activate_layer': {
-          const handler = () => go()
-          window.addEventListener('layer-activated', handler)
-          cleanupFnsRef.current.push(() => window.removeEventListener('layer-activated', handler))
-          break
-        }
-      }
-    },
-    [], // `advanceRef` is stable
-  )
 
   // ── Find target, boost z-index, track position ────────────────
   useEffect(() => {
@@ -143,18 +171,29 @@ export default function TutorialOverlay({ isActive, onComplete, onSkip }: Tutori
 
       // Restore previous target
       if (prevTargetRef.current && prevTargetRef.current !== target) {
-        prevTargetRef.current.style.removeProperty('position')
-        prevTargetRef.current.style.removeProperty('zIndex')
+        restoreTarget()
       }
 
+      // Store original styles before modifying
+      const computedStyle = window.getComputedStyle(target)
+      originalStylesRef.current.set(target, {
+        position: target.style.position || undefined,
+        zIndex: target.style.zIndex || undefined,
+      })
+
       // Boost z-index so the target sits above the overlay
-      target.style.position = 'relative'
+      // Only change position if it's static - preserve fixed/absolute/relative positioning
+      const currentPosition = computedStyle.position
+      if (currentPosition === 'static') {
+        target.style.position = 'relative'
+      }
+      // If already fixed, absolute, or relative, keep it as is - just boost z-index
       target.style.zIndex = '9999'
       prevTargetRef.current = target
 
-      // Scroll into view (only if target is off-screen)
+      // Scroll into view (only if target is off-screen and auto-scroll is enabled)
       const r = target.getBoundingClientRect()
-      if (r.top < 0 || r.bottom > window.innerHeight || r.left < 0 || r.right > window.innerWidth) {
+      if (!step.disableAutoScroll && (r.top < 0 || r.bottom > window.innerHeight || r.left < 0 || r.right > window.innerWidth)) {
         target.scrollIntoView({ behavior: 'smooth', block: 'center' })
       }
 
@@ -172,15 +211,10 @@ export default function TutorialOverlay({ isActive, onComplete, onSkip }: Tutori
         window.removeEventListener('scroll', measure, true)
         window.removeEventListener('resize', measure)
       })
-
-      // Attach action-based listeners
-      if (step.waitForAction && step.actionType !== 'none') {
-        attachListeners(target, step)
-      }
     }, 150) // give tabs/menus time to render after a click
 
     return () => clearTimeout(timer)
-  }, [isActive, step, stepIndex, attachListeners])
+  }, [isActive, step, stepIndex])
 
   // ── Full cleanup when tutorial is deactivated ──────────────────
   useEffect(() => {
@@ -189,6 +223,7 @@ export default function TutorialOverlay({ isActive, onComplete, onSkip }: Tutori
       cleanupListeners()
       setRect(null)
       setStepIndex(0)
+      setIsPerformingAction(false)
     }
   }, [isActive, restoreTarget, cleanupListeners])
 
@@ -321,34 +356,37 @@ export default function TutorialOverlay({ isActive, onComplete, onSkip }: Tutori
           {stepIndex > 0 && (
             <button
               onClick={goPrevious}
-              className="px-3 py-1.5 text-[13px] text-gray-500 hover:text-gray-800 hover:bg-gray-100 rounded-lg transition"
+              disabled={isPerformingAction}
+              className="px-3 py-1.5 text-[13px] text-gray-500 hover:text-gray-800 hover:bg-gray-100 rounded-lg transition disabled:opacity-50 disabled:cursor-not-allowed"
             >
               Previous
             </button>
           )}
 
-          {!isWaiting && (
+          <button
+            onClick={advance}
+            disabled={isPerformingAction}
+            className="flex-1 px-3 py-2 text-[13px] font-medium text-white bg-green-600 hover:bg-green-700 rounded-lg transition disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
+          >
+            {isPerformingAction ? (
+              <>
+                <span className="w-3 h-3 border-[2px] border-white border-t-transparent rounded-full animate-spin" />
+                Processing...
+              </>
+            ) : (
+              isLastStep ? 'End Tour' : 'Next'
+            )}
+          </button>
+
+          {!isLastStep && (
             <button
-              onClick={isLastStep ? handleEndTour : advance}
-              className="flex-1 px-3 py-2 text-[13px] font-medium text-white bg-green-600 hover:bg-green-700 rounded-lg transition"
+              onClick={handleSkip}
+              disabled={isPerformingAction}
+              className="px-3 py-1.5 text-[13px] text-gray-400 hover:text-gray-600 transition shrink-0 disabled:opacity-50 disabled:cursor-not-allowed"
             >
-              {isLastStep ? 'End Tour' : 'Next'}
+              Skip
             </button>
           )}
-
-          {isWaiting && (
-            <div className="flex-1 flex items-center justify-center gap-1.5 text-[13px] text-gray-400 select-none">
-              <span className="w-3 h-3 border-[2px] border-green-400 border-t-transparent rounded-full animate-spin" />
-              Waiting for action…
-            </div>
-          )}
-
-          <button
-            onClick={handleSkip}
-            className="px-3 py-1.5 text-[13px] text-gray-400 hover:text-gray-600 transition shrink-0"
-          >
-            Skip
-          </button>
         </div>
       </div>
 

@@ -5,11 +5,10 @@ import { basemapInfo } from './basemaps'
 
 export default function BasemapsTab({ activeBasemap, onBasemapChange }: BasemapsTabProps) {
   return (
-    <div className="grid grid-cols-2 gap-3">
+    <div className="grid grid-cols-2 gap-3" data-tutorial="basemaps-content">
       {basemapInfo.map((basemap, index) => (
         <button
           key={basemap.name}
-          data-tutorial={index === 0 ? 'basemap-first' : undefined}
           onClick={() => onBasemapChange(basemap.name)}
           className={`border-2 rounded-lg overflow-hidden transition hover:shadow-md ${
             activeBasemap === basemap.name

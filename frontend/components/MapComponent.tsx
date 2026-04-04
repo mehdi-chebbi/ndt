@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useMemo, useCallback, useState } from 'react'
+import { useEffect, useMemo, useCallback, useState, forwardRef, useImperativeHandle } from 'react'
 import { useRouter } from 'next/navigation'
 
 // Import tab components
@@ -31,6 +31,12 @@ interface ReportToView {
   invalid_area_polygon: any
   comment: string
   status: string
+}
+
+export interface TutorialCallbacks {
+  switchTab: (tab: 'basemaps' | 'data' | 'stats') => void
+  activateRandomLayer: () => void
+  cleanup: () => void
 }
 
 interface MapComponentProps {
@@ -117,7 +123,11 @@ function findInheritedLegend(
   return null
 }
 
-const MapComponent = ({ reportToView, tutorialCompleted, onStartTutorial }: MapComponentProps) => {
+const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
+  reportToView,
+  tutorialCompleted,
+  onStartTutorial,
+}, ref) => {
   const router = useRouter()
   const [isExporting, setIsExporting] = useState(false)
   
@@ -415,6 +425,39 @@ const MapComponent = ({ reportToView, tutorialCompleted, onStartTutorial }: MapC
     // Format: "Group → Child → Layer Name"
     return `${group.path} → ${layer.name}`
   }, [allGroupsWithLayers])
+
+  // ── Tutorial Callbacks ────────────────────────────────────────────
+  // Callback to switch tab for tutorial
+  const handleTutorialSwitchTab = useCallback((tab: 'basemaps' | 'data' | 'stats') => {
+    state.setActiveTab(tab)
+  }, [state.setActiveTab])
+
+  // Callback to activate a random layer for tutorial
+  const handleTutorialActivateRandomLayer = useCallback(() => {
+    if (allLayers.length === 0) return
+
+    // Pick a random layer
+    const randomIndex = Math.floor(Math.random() * allLayers.length)
+    const randomLayer = allLayers[randomIndex]
+
+    // Activate it by calling the toggle function
+    handleDataLayerToggle(randomLayer)
+  }, [allLayers, handleDataLayerToggle])
+
+  // Callback to clean up after tutorial
+  const handleTutorialCleanup = useCallback(() => {
+    // Deactivate all active layers
+    state.setActiveDataLayers([])
+    // Switch to basemaps tab
+    state.setActiveTab('basemaps')
+  }, [state.setActiveDataLayers, state.setActiveTab])
+
+  // Expose tutorial callbacks to parent via ref
+  useImperativeHandle(ref, () => ({
+    switchTab: handleTutorialSwitchTab,
+    activateRandomLayer: handleTutorialActivateRandomLayer,
+    cleanup: handleTutorialCleanup,
+  }), [handleTutorialSwitchTab, handleTutorialActivateRandomLayer, handleTutorialCleanup])
 
   return (
     <div className="flex w-full h-full relative">
@@ -933,6 +976,8 @@ const MapComponent = ({ reportToView, tutorialCompleted, onStartTutorial }: MapC
       )}
     </div>
   )
-}
+})
+
+MapComponent.displayName = 'MapComponent'
 
 export default MapComponent

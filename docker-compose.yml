@@ -61,7 +61,17 @@ services:
       - DB_NAME=platform_db
       - DB_USER=postgres
       - DB_PASSWORD=postgres
-
+      - GOOGLE_CLIENT_ID=
+      - GOOGLE_CLIENT_SECRET=
+      - GOOGLE_CALLBACK_URL=http://localhost:3001/api/auth/google/callback
+      - MICROSOFT_CLIENT_ID=
+      - MICROSOFT_CLIENT_SECRET=
+      - MICROSOFT_TENANT_ID=
+      - MICROSOFT_CALLBACK_URL=http://localhost:3001/api/auth/microsoft/callback
+      - JWT_SECRET=your-secret-key-change-this-in-production
+      - SESSION_SECRET=your-session-secret-change-this-in-production
+      - OPENROUTER_API_KEY=
+      - MODEL_NAME=stepfun/step-3.5-flash:free   
     depends_on:
       db:
         condition: service_healthy

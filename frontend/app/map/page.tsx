@@ -1,12 +1,13 @@
 'use client'
 
-import { Suspense, useEffect, useState, useCallback } from 'react'
+import { Suspense, useEffect, useState, useCallback, useRef } from 'react'
 import { useSearchParams, useRouter } from 'next/navigation'
 import dynamic from 'next/dynamic'
 import AICopilot from '@/components/AICopilot'
 import TutorialOverlay from '@/components/tutorial/TutorialOverlay'
 import { useAuth } from '@/contexts/AuthContext'
 import { authFetch } from '@/lib/authFetch'
+import type { TutorialCallbacks } from '@/components/MapComponent'
 
 interface ReportToView {
   id: number
@@ -35,6 +36,22 @@ function MapPageContent() {
   const [reportLoading, setReportLoading] = useState(false)
   const [reportError, setReportError] = useState('')
   const [tutorialActive, setTutorialActive] = useState(false)
+
+  // Ref to access MapComponent methods
+  const mapComponentRef = useRef<TutorialCallbacks>(null)
+
+  // Tutorial callbacks
+  const handleTutorialSwitchTab = useCallback((tab: 'basemaps' | 'data' | 'stats') => {
+    mapComponentRef.current?.switchTab(tab)
+  }, [])
+
+  const handleTutorialActivateRandomLayer = useCallback(() => {
+    mapComponentRef.current?.activateRandomLayer()
+  }, [])
+
+  const handleTutorialCleanup = useCallback(() => {
+    mapComponentRef.current?.cleanup()
+  }, [])
 
   // Auto-launch tutorial if autoTutorial param is present and user hasn't completed it
   useEffect(() => {
@@ -69,7 +86,7 @@ function MapPageContent() {
   // Fetch report data if viewReport param exists
   useEffect(() => {
     const viewReportId = searchParams.get('viewReport')
-    
+
     if (!viewReportId) {
       return
     }
@@ -77,7 +94,7 @@ function MapPageContent() {
     const fetchReport = async () => {
       setReportLoading(true)
       setReportError('')
-      
+
       try {
         const token = localStorage.getItem('token')
         if (!token) {
@@ -151,6 +168,7 @@ function MapPageContent() {
       ) : (
         <>
           <MapComponent
+            ref={mapComponentRef}
             reportToView={reportToView}
             tutorialCompleted={user?.tutorial_completed ?? false}
             onStartTutorial={() => setTutorialActive(true)}
@@ -160,6 +178,9 @@ function MapPageContent() {
             isActive={tutorialActive}
             onComplete={markTutorialCompleted}
             onSkip={markTutorialCompleted}
+            onSwitchTab={handleTutorialSwitchTab}
+            onActivateRandomLayer={handleTutorialActivateRandomLayer}
+            onCleanup={handleTutorialCleanup}
           />
         </>
       )}
