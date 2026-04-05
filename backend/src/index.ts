@@ -35,6 +35,9 @@ app.use(passport.session());
 // Static serving for GeoJSON files
 app.use('/geojson', express.static(path.join(__dirname, '../geojson')));
 
+// Static serving for AI chat images
+app.use('/api/ai-images', express.static(path.join(process.cwd(), 'ai-imgs')));
+
 // Countries API - auto-generate from filesystem
 app.get('/api/countries', (req: Request, res: Response) => {
   try {
@@ -74,6 +77,7 @@ import notificationRoutes from './routes/notificationRoutes';
 import aiRoutes from './routes/aiRoutes';
 import sessionRoutes from './routes/sessionRoutes';
 import tutorialRoutes from './routes/tutorialRoutes';
+import imageRoutes from './routes/imageRoutes';
 
 app.use('/api/auth', authRoutes);
 app.use('/api/admin', userRoutes);
@@ -85,6 +89,7 @@ app.use('/api/notifications', notificationRoutes);
 app.use('/api/ai', aiRoutes);
 app.use('/api/sessions', sessionRoutes);
 app.use('/api/users', tutorialRoutes);
+app.use('/api/ai', imageRoutes);
 
 
 // Health check

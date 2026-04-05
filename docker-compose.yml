@@ -55,6 +55,7 @@ services:
       - "3001:3001"
     volumes:
       - ./data/tiffs:/data/tiffs:ro
+      - ./backend/ai-imgs:/app/ai-imgs
     environment:
       - DB_HOST=db
       - DB_PORT=5432
@@ -71,7 +72,7 @@ services:
       - JWT_SECRET=your-secret-key-change-this-in-production
       - SESSION_SECRET=your-session-secret-change-this-in-production
       - OPENROUTER_API_KEY=
-      - MODEL_NAME=stepfun/step-3.5-flash:free   
+      - MODEL_NAME=nvidia/nemotron-nano-12b-v2-vl:free 
     depends_on:
       db:
         condition: service_healthy

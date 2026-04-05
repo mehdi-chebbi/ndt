@@ -9,6 +9,32 @@ import CountrySelect from '@/components/ui/CountrySelect'
 import PhoneInput from '@/components/ui/PhoneInput'
 import { useAuth } from '@/contexts/AuthContext'
 
+// ── Multimodal helpers ──
+interface TextContentPart { type: 'text'; text: string }
+interface ImageContentPart { type: 'image_url'; image_url: { url: string } }
+type ContentPart = TextContentPart | ImageContentPart
+
+function parseContent(raw: string): ContentPart[] {
+  if (raw.startsWith('[')) {
+    try { return JSON.parse(raw) as ContentPart[] } catch { return [{ type: 'text', text: raw }] }
+  }
+  return [{ type: 'text', text: raw }]
+}
+
+function extractText(content: string): string {
+  return parseContent(content)
+    .filter((p): p is TextContentPart => p.type === 'text')
+    .map(p => p.text)
+    .join(' ')
+    .trim()
+}
+
+function extractImageUrls(content: string): string[] {
+  return parseContent(content)
+    .filter((p): p is ImageContentPart => p.type === 'image_url')
+    .map(p => p.image_url.url)
+}
+
 const markdownComponents = {
   h1: ({ children }: any) => <h1 className="text-base font-bold mt-3 mb-1 text-gray-900">{children}</h1>,
   h2: ({ children }: any) => <h2 className="text-[15px] font-bold mt-3 mb-1 text-gray-900">{children}</h2>,
@@ -656,7 +682,22 @@ export default function ProfilePage() {
                                 }`}
                               >
                                 {msg.role === 'user' ? (
-                                  <p className="whitespace-pre-wrap leading-relaxed">{msg.content}</p>
+                                  <>
+                                    {extractImageUrls(msg.content).length > 0 && (
+                                      <div className="flex flex-wrap gap-1.5 mb-1.5">
+                                        {extractImageUrls(msg.content).map((url, imgIdx) => (
+                                          <img
+                                            key={imgIdx}
+                                            src={url}
+                                            alt="Uploaded"
+                                            className="rounded-lg max-w-full object-cover"
+                                            style={{ maxHeight: '160px' }}
+                                          />
+                                        ))}
+                                      </div>
+                                    )}
+                                    <p className="whitespace-pre-wrap leading-relaxed">{extractText(msg.content)}</p>
+                                  </>
                                 ) : (
                                   <div className="markdown-body">
                                     <ReactMarkdown remarkPlugins={[remarkGfm]} components={markdownComponents}>
