@@ -276,16 +276,22 @@ export async function chat(req: Request, res: Response) {
     }
 
     // ── Validate environment ──
-    const apiKey = process.env.OPENROUTER_API_KEY;
-    const modelName = process.env.MODEL_NAME;
+    const baseUrl = process.env.AI_BASE_URL;
+    const apiKey = process.env.AI_API_KEY;
+    const modelName = process.env.AI_MODEL;
+
+    if (!baseUrl) {
+      aiLogger.error('AI_BASE_URL is not configured');
+      return res.status(500).json({ error: 'AI service is not properly configured' });
+    }
 
     if (!apiKey) {
-      aiLogger.error('OPENROUTER_API_KEY is not configured');
+      aiLogger.error('AI_API_KEY is not configured');
       return res.status(500).json({ error: 'AI service is not properly configured' });
     }
 
     if (!modelName) {
-      aiLogger.error('MODEL_NAME is not configured');
+      aiLogger.error('AI_MODEL is not configured');
       return res.status(500).json({ error: 'AI model is not configured' });
     }
 
@@ -296,22 +302,28 @@ export async function chat(req: Request, res: Response) {
       multimodal: isMultimodal,
     });
 
-    // ── Call OpenRouter ──
+    // ── Call AI API ──
     res.setHeader('Content-Type', 'text/event-stream');
     res.setHeader('Cache-Control', 'no-cache, no-transform');
     res.setHeader('Connection', 'keep-alive');
     res.setHeader('X-Accel-Buffering', 'no');
     res.flushHeaders();
 
-    const openRouterUrl = 'https://openrouter.ai/api/v1/chat/completions';
-    const response = await fetch(openRouterUrl, {
+    // Build headers - always include Authorization, only add OpenRouter-specific headers if APP_URL is set
+    const headers: Record<string, string> = {
+      'Authorization': `Bearer ${apiKey}`,
+      'Content-Type': 'application/json',
+    };
+
+    // Only add OpenRouter-specific headers if APP_URL is configured
+    if (process.env.AI_APP_URL) {
+      headers['HTTP-Referer'] = process.env.AI_APP_URL;
+      headers['X-Title'] = process.env.AI_APP_NAME || 'NDT Platform';
+    }
+
+    const response = await fetch(`${baseUrl}/chat/completions`, {
       method: 'POST',
-      headers: {
-        'Authorization': `Bearer ${apiKey}`,
-        'Content-Type': 'application/json',
-        'HTTP-Referer': process.env.APP_URL || 'http://localhost:3000',
-        'X-Title': process.env.APP_NAME || 'NDT Platform',
-      },
+      headers,
       body: JSON.stringify({
         model: modelName,
         messages: apiMessages,
@@ -319,15 +331,15 @@ export async function chat(req: Request, res: Response) {
       }),
     });
 
-    aiLogger.info('OpenRouter response', {
+    aiLogger.info('AI API response', {
       status: response.status,
       statusText: response.statusText,
     });
 
-    // ── Handle censorship / errors ──
+    // ── Handle AI API errors ──
     if (!response.ok) {
       const errorText = await response.text();
-      aiLogger.error('OpenRouter error', { status: response.status, body: errorText });
+      aiLogger.error('AI API error', { status: response.status, body: errorText });
 
       if (response.status === 451) {
         res.write(`data: ${JSON.stringify({ error: 'Your message was blocked by the content filter. Please rephrase and try again.' })}\n\n`);
@@ -804,19 +816,27 @@ export async function analyzeAreaWithAI(req: Request, res: Response) {
     // Send stats first (non-streamed part)
     res.write(`data: ${JSON.stringify({ type: 'stats', sessionId, stats, layerName: layer_name })}\n\n`);
 
-    // Call OpenRouter with custom analysis prompt
-    const apiKey = process.env.OPENROUTER_API_KEY;
-    const modelName = process.env.MODEL_NAME;
+    // Call AI API with custom analysis prompt
+    const baseUrl = process.env.AI_BASE_URL;
+    const apiKey = process.env.AI_API_KEY;
+    const modelName = process.env.AI_MODEL;
+
+    if (!baseUrl) {
+      aiLogger.error('AI_BASE_URL is not configured');
+      res.write(`data: ${JSON.stringify({ type: 'error', error: 'AI service is not properly configured' })}\n\n`);
+      res.end();
+      return;
+    }
 
     if (!apiKey) {
-      aiLogger.error('OPENROUTER_API_KEY is not configured');
+      aiLogger.error('AI_API_KEY is not configured');
       res.write(`data: ${JSON.stringify({ type: 'error', error: 'AI service is not properly configured' })}\n\n`);
       res.end();
       return;
     }
 
     if (!modelName) {
-      aiLogger.error('MODEL_NAME is not configured');
+      aiLogger.error('AI_MODEL is not configured');
       res.write(`data: ${JSON.stringify({ type: 'error', error: 'AI model is not configured' })}\n\n`);
       res.end();
       return;
@@ -833,17 +853,23 @@ export async function analyzeAreaWithAI(req: Request, res: Response) {
       }
     ];
 
-    aiLogger.info('Calling OpenRouter with analysis context (streaming)', { model: modelName });
+    aiLogger.info('Calling AI API with analysis context (streaming)', { model: modelName });
 
-    const openRouterUrl = 'https://openrouter.ai/api/v1/chat/completions';
-    const response = await fetch(openRouterUrl, {
+    // Build headers - always include Authorization, only add OpenRouter-specific headers if APP_URL is set
+    const headers: Record<string, string> = {
+      'Authorization': `Bearer ${apiKey}`,
+      'Content-Type': 'application/json',
+    };
+
+    // Only add OpenRouter-specific headers if APP_URL is configured
+    if (process.env.AI_APP_URL) {
+      headers['HTTP-Referer'] = process.env.AI_APP_URL;
+      headers['X-Title'] = process.env.AI_APP_NAME || 'NDT Platform';
+    }
+
+    const response = await fetch(`${baseUrl}/chat/completions`, {
       method: 'POST',
-      headers: {
-        'Authorization': `Bearer ${apiKey}`,
-        'Content-Type': 'application/json',
-        'HTTP-Referer': process.env.APP_URL || 'http://localhost:3000',
-        'X-Title': process.env.APP_NAME || 'NDT Platform',
-      },
+      headers,
       body: JSON.stringify({
         model: modelName,
         messages,
@@ -853,7 +879,7 @@ export async function analyzeAreaWithAI(req: Request, res: Response) {
 
     if (!response.ok) {
       const errorText = await response.text();
-      aiLogger.error('OpenRouter error', { status: response.status, body: errorText });
+      aiLogger.error('AI API error', { status: response.status, body: errorText });
       res.write(`data: ${JSON.stringify({ type: 'error', error: 'Failed to get AI analysis', details: errorText })}\n\n`);
       res.end();
       return;
@@ -862,7 +888,7 @@ export async function analyzeAreaWithAI(req: Request, res: Response) {
     // Stream the AI response
     const reader = response.body?.getReader();
     if (!reader) {
-      aiLogger.error('No response body from OpenRouter');
+      aiLogger.error('No response body from AI API');
       res.write(`data: ${JSON.stringify({ type: 'error', error: 'Invalid AI response. Please try again.' })}\n\n`);
       res.end();
       return;
