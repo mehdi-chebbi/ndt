@@ -254,6 +254,7 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
     setCurrentPolygon: state.setCurrentPolygon,
     selectedCountry: state.selectedCountry,
     setSelectedCountry: state.setSelectedCountry,
+    clipToCountry: state.clipToCountry,
     // AI Analysis mode
     aiAnalysisMode: state.aiAnalysisMode,
     setAiAnalysisPolygon: state.setAiAnalysisPolygon,
@@ -685,6 +686,24 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
             onSelectCountry={handleCountrySelect}
             disabled={state.reportingMode || state.statsMode || state.aiAnalysisMode}
           />
+
+          {/* Clip to Country Toggle */}
+          {!isCompareMode && !state.reportingMode && !state.statsMode && !state.aiAnalysisMode && !reportToView && (
+            <label className="bg-white hover:bg-gray-100
+                           text-gray-700 text-sm font-medium px-3 py-2 rounded shadow-md
+                           border border-gray-300 flex items-center gap-2 cursor-pointer transition-colors">
+              <input
+                type="checkbox"
+                checked={state.clipToCountry}
+                onChange={(e) => state.setClipToCountry(e.target.checked)}
+                disabled={!state.selectedCountry}
+                className="w-4 h-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500 disabled:opacity-50 disabled:cursor-not-allowed"
+              />
+              <span className={state.selectedCountry ? '' : 'opacity-50'}>
+                Clip to country
+              </span>
+            </label>
+          )}
 
           {/* Export JPEG Button - right under Country Selector */}
           {!isCompareMode && !state.reportingMode && !state.statsMode && !state.aiAnalysisMode && !reportToView && (

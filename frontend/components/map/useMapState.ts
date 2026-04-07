@@ -34,6 +34,8 @@ interface MapState {
   // Country polygon state
   selectedCountry: Country | null
   setSelectedCountry: Dispatch<SetStateAction<Country | null>>
+  clipToCountry: boolean
+  setClipToCountry: Dispatch<SetStateAction<boolean>>
 
   // Reporting state
   reportingMode: boolean
@@ -105,6 +107,7 @@ export function useMapState(): MapState {
 
   // Country polygon state
   const [selectedCountry, setSelectedCountry] = useState<Country | null>(null)
+  const [clipToCountry, setClipToCountry] = useState(false)
 
   // Reporting state
   const [reportingMode, setReportingMode] = useState(false)
@@ -163,6 +166,8 @@ export function useMapState(): MapState {
     // Country polygon state
     selectedCountry,
     setSelectedCountry,
+    clipToCountry,
+    setClipToCountry,
 
     // Reporting state
     reportingMode,

@@ -10,6 +10,7 @@ import { basemaps } from './basemaps'
 import { Group, GroupedLayers, Layer, Polygon, PolygonGeometry } from './types'
 import { Country } from './useMapState'
 import { authFetch } from '@/lib/authFetch'
+import { geojsonToWkt } from '@/lib/geojsonToWkt'
 
 // Helper function to calculate polygon area in km² using spherical calculation
 function calculatePolygonAreaKm2(polygon: Polygon): number {
@@ -60,6 +61,7 @@ interface UseMapInitializationProps {
   // Country polygon state
   selectedCountry: Country | null
   setSelectedCountry: (value: Country | null) => void
+  clipToCountry: boolean
   // AI Analysis mode state
   aiAnalysisMode: boolean
   setAiAnalysisPolygon: (value: PolygonGeometry | null) => void
@@ -103,6 +105,7 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
     setCurrentPolygon,
     selectedCountry,
     setSelectedCountry,
+    clipToCountry,
     // AI Analysis mode props
     aiAnalysisMode,
     setAiAnalysisPolygon,
@@ -121,6 +124,7 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
   const compareControlRef = useRef<L.Control.SideBySide | null>(null)
   const compareLeftLayerRef = useRef<L.TileLayer.WMS | null>(null)
   const compareRightLayerRef = useRef<L.TileLayer.WMS | null>(null)
+  const countryGeometryRef = useRef<any>(null) // Store country GeoJSON geometry for clipping
 
   // Helper to find layer by geoserver_name
   const findLayerByName = useCallback((name: string, groups: Group[], ungroupedLayers: Layer[]): Layer | null => {
@@ -489,15 +493,30 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
         }
       })
 
-      // Add new WMS layer
-      const newLayer = L.tileLayer.wms(layer.wmsUrl, {
+      // Build WMS options
+      const wmsOptions: L.WMSOptions = {
         layers: layer.layerName,
         format: 'image/png',
         transparent: true,
         attribution: `GeoServer - ${layer.name}`,
         bounds: layer.bounds,
         crossOrigin: 'anonymous',
-      })
+      }
+
+      // Add clip parameter if country is selected and clipping is enabled
+      if (clipToCountry && countryGeometryRef.current) {
+        try {
+          const wkt = geojsonToWkt(countryGeometryRef.current)
+          ;(wmsOptions as any).clip = wkt
+          console.log('Clipping enabled with WKT:', wkt.substring(0, 100) + '...')
+        } catch (error) {
+          console.warn('Failed to convert GeoJSON to WKT for clipping:', error)
+          // Continue without clipping if conversion fails
+        }
+      }
+
+      // Add new WMS layer
+      const newLayer = L.tileLayer.wms(layer.wmsUrl, wmsOptions)
       newLayer.addTo(mapRef.current)
       dataLayersRef.current[layerKey] = newLayer
 
@@ -510,7 +529,7 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
       setSelectedLayerId(layer.id)
       setCurrentPolygon(null)
     }
-  }, [activeDataLayers, setActiveDataLayers, setSelectedLayerId, setCurrentPolygon])
+  }, [activeDataLayers, setActiveDataLayers, setSelectedLayerId, setCurrentPolygon, clipToCountry])
 
   // Clear drawn items
   const clearDrawnItems = useCallback(() => {
@@ -526,6 +545,7 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
       mapRef.current.removeLayer(countryPolygonRef.current)
       countryPolygonRef.current = null
     }
+    countryGeometryRef.current = null // Clear stored geometry
     setSelectedCountry(null)
   }, [setSelectedCountry])
 
@@ -546,6 +566,9 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
       const res = await fetch(`/geojson/${country.file}`)
       if (!res.ok) throw new Error('Failed to fetch country GeoJSON')
       const geojson = await res.json()
+
+      // Store the geometry for clipping
+      countryGeometryRef.current = geojson.features?.[0]?.geometry || geojson.geometry
 
       // Clear existing country polygon
       if (countryPolygonRef.current) {

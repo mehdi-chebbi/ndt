@@ -5,11 +5,11 @@ const nextConfig = {
     return [
       {
         source: '/api/:path*',
-        destination: 'http://ndt-backend:3001/api/:path*',
+        destination: 'http://backend:3001/api/:path*',
       },
       {
         source: '/geojson/:path*',
-        destination: 'http://ndt-backend:3001/geojson/:path*',
+        destination: 'http://backend:3001/geojson/:path*',
       },
     ];
   },
