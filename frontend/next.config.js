@@ -4,7 +4,9 @@ const nextConfig = {
   async rewrites() {
     return [
       {
-        source: '/api/:path*',
+        // Exclude /api/clip/* from rewrites - these are handled by Route Handler
+        // with custom timeout to support long-running clipping operations
+        source: '/api/:path((?!clip/).*)*',
         destination: 'http://ndt-backend:3001/api/:path*',
       },
       {

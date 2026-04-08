@@ -61,6 +61,12 @@ services:
       - DB_PORT=5432
       - DB_NAME=platform_db
       - DB_USER=postgres
+      - DB_PASSWORD=postgres
+      - GEOSERVER_REST_URL=http://geoserver:8080/geoserver/rest
+      - GEOSERVER_WMS_URL=http://geoserver:8080/geoserver
+      - GEOSERVER_USER=admin
+      - GEOSERVER_PASSWORD=geoserver
+      - CLIP_SERVICE_URL=http://clip-service:3005
 
       # AI Configuration
       # For Local Model:
@@ -81,6 +87,28 @@ services:
  
     depends_on:
       db:
+        condition: service_healthy
+
+  # Clipping Microservice
+  clip-service:
+    build:
+      context: ./mini-services/clip-service
+      dockerfile: Dockerfile
+    container_name: ndt-clip-service
+    restart: unless-stopped
+    ports:
+      - "3005:3005"
+    volumes:
+      - ./backend/geojson:/app/geojson:ro
+      - ./data/tiffs:/data/tiffs:ro
+    environment:
+      - GEOSERVER_URL=http://geoserver:8080/geoserver
+      - GEOSERVER_USER=admin
+      - GEOSERVER_PASSWORD=geoserver
+      - OUTPUT_DIR=/tmp/clipped
+      - GEOJSON_DIR=/app/geojson
+    depends_on:
+      geoserver:
         condition: service_healthy
 
   # Frontend Next.js

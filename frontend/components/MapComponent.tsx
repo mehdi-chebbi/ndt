@@ -130,7 +130,8 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
 }, ref) => {
   const router = useRouter()
   const [isExporting, setIsExporting] = useState(false)
-  
+  const [isClipping, setIsClipping] = useState(false)
+
   // Get all state from custom hook
   const state = useMapState()
 
@@ -232,6 +233,7 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
     handleExport,
     handleStartCompare,
     handleExitCompare,
+    switchToClippedLayer,
   } = useMapInitialization({
     activeBasemap: state.activeBasemap,
     setActiveBasemap: state.setActiveBasemap,
@@ -274,6 +276,124 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
       clearCountryPolygon()
     }
   }, [loadCountryPolygon, clearCountryPolygon])
+
+  // Handle clipping layer to country
+  const handleClipToCountry = useCallback(async () => {
+    if (!state.selectedCountry || state.activeDataLayers.length === 0) {
+      console.log('[Clip] Missing country or active layers')
+      return
+    }
+
+    const activeLayerKey = state.activeDataLayers[0]
+    const layer = allLayers.find(l => l.geoserver_name === activeLayerKey)
+
+    if (!layer || !layer.id) {
+      console.error('[Clip] Cannot clip: layer information not available', { layer, activeLayerKey })
+      state.setClipMessage('Cannot clip: layer information not available')
+      return
+    }
+
+    const startTime = Date.now()
+    console.log('[Clip] Starting clip operation:', {
+      country: state.selectedCountry.name,
+      countryFile: state.selectedCountry.file,
+      layer: layer.geoserver_name,
+      layerId: layer.id,
+      timestamp: new Date().toISOString()
+    })
+
+    setIsClipping(true)
+    state.setClipMessage('Clipping layer to country boundary...')
+
+    try {
+      console.log('[Clip] Sending request to /api/clip/country')
+      const fetchStartTime = Date.now()
+
+      const response = await fetch('/api/clip/country', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          countryFile: state.selectedCountry.file,
+          layerId: layer.id
+        })
+      })
+
+      const fetchEndTime = Date.now()
+      console.log('[Clip] Received response:', {
+        status: response.status,
+        ok: response.ok,
+        fetchTime: `${(fetchEndTime - fetchStartTime) / 1000}s`,
+        totalTime: `${(fetchEndTime - startTime) / 1000}s`
+      })
+
+      if (!response.ok) {
+        const error = await response.json()
+        console.error('[Clip] Request failed:', error)
+        throw new Error(error.details || error.message || 'Clipping failed')
+      }
+
+      const data = await response.json()
+      const parseEndTime = Date.now()
+
+      console.log('[Clip] Response data:', {
+        ...data,
+        parseTime: `${(parseEndTime - fetchEndTime) / 1000}s`,
+        totalTime: `${(parseEndTime - startTime) / 1000}s`
+      })
+
+      if (data.status === 'success') {
+        // Extract workspace from clipped layer name
+        const [workspace] = data.clippedLayerName.split(':')
+
+        console.log('[Clip] Switching to clipped layer:', {
+          originalLayer: activeLayerKey,
+          clippedLayer: data.clippedLayerName,
+          workspace,
+          cached: data.cached
+        })
+
+        // Switch to the clipped layer on the map
+        switchToClippedLayer(activeLayerKey, data.clippedLayerName, workspace)
+
+        // Update the active layer state
+        state.setActiveDataLayers([data.clippedLayerName])
+
+        const finalTime = Date.now()
+        console.log('[Clip] Clip operation completed successfully:', {
+          totalTime: `${(finalTime - startTime) / 1000}s`,
+          cached: data.cached
+        })
+
+        state.setClipMessage(
+          data.cached
+            ? '✓ Using cached clipped layer'
+            : '✓ Layer clipped to country boundary'
+        )
+      }
+    } catch (error: any) {
+      const errorTime = Date.now()
+      console.error('[Clip] Error occurred:', {
+        error: error.message,
+        name: error.name,
+        totalTime: `${(errorTime - startTime) / 1000}s`,
+        stack: error.stack
+      })
+
+      // Handle gateway timeout specifically
+      if (error.message?.includes('Gateway Timeout') || error.status === 504) {
+        state.setClipMessage(`✗ Clipping timed out. The operation may still be running in the background - try refreshing and checking cache.`)
+      } else {
+        state.setClipMessage(`✗ Failed to clip: ${error.message || 'Unknown error'}. Click to retry.`)
+      }
+    } finally {
+      const finalTime = Date.now()
+      console.log('[Clip] Finished (finally block):', {
+        totalTime: `${(finalTime - startTime) / 1000}s`,
+        isClippingState: false
+      })
+      setIsClipping(false)
+    }
+  }, [state.selectedCountry, state.activeDataLayers, allLayers, state.setActiveDataLayers, state.setClipMessage, switchToClippedLayer])
 
   // Get business logic handlers
   const {
@@ -685,6 +805,26 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
             onSelectCountry={handleCountrySelect}
             disabled={state.reportingMode || state.statsMode || state.aiAnalysisMode}
           />
+
+          {/* Clip to Country Button */}
+          {!isCompareMode && !state.reportingMode && !state.statsMode && !state.aiAnalysisMode && !reportToView && (
+            <button
+              onClick={handleClipToCountry}
+              disabled={isClipping || !state.selectedCountry || state.activeDataLayers.length === 0}
+              className="bg-white hover:bg-gray-100
+                         text-gray-700 text-sm font-medium px-3 py-2 rounded shadow-md
+                         border border-gray-300 disabled:opacity-50 disabled:cursor-not-allowed
+                         flex items-center gap-2 transition-colors"
+              title={state.selectedCountry && state.activeDataLayers.length > 0
+                ? 'Clip current layer to selected country'
+                : 'Select a country and activate a layer first'}
+            >
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.121 14.121L19 19m-7-7l7-7m-7 7l-2.879 2.879M12 12L9.121 9.121m0 5.758a3 3 0 10-4.243 4.243 3 3 0 004.243-4.243zm0-5.758a3 3 0 10-4.243-4.243 3 3 0 004.243 4.243z" />
+              </svg>
+              {isClipping ? 'Clipping...' : 'Clip to Country'}
+            </button>
+          )}
 
           {/* Export JPEG Button - right under Country Selector */}
           {!isCompareMode && !state.reportingMode && !state.statsMode && !state.aiAnalysisMode && !reportToView && (

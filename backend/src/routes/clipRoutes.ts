@@ -1,5 +1,7 @@
 import { Router, Request, Response } from 'express';
 import pool from '../config/database';
+import { v4 as uuidv4 } from 'uuid';
+import path from 'path';
 
 const router = Router();
 
@@ -94,8 +96,14 @@ async function fetchLayersFromGeoServer(): Promise<any[]> {
     const layersListData = await layersListResponse.json();
     const layersList = layersListData.layers?.layer || [];
 
+    // Filter out clipped layers (those starting with "clip_")
+    const filteredLayersList = layersList.filter((layerItem: any) => {
+      const layerName = layerItem.name || '';
+      return !layerName.startsWith('clip_');
+    });
+
     // 2. Fetch details for each layer (in parallel)
-    const layerDetailsPromises = layersList.map(async (layerItem: any) => {
+    const layerDetailsPromises = filteredLayersList.map(async (layerItem: any) => {
       try {
         const detailResponse = await fetch(layerItem.href, {
           headers: GEOSERVER_HEADERS
@@ -115,6 +123,9 @@ async function fetchLayersFromGeoServer(): Promise<any[]> {
           ? resourceName.split(':')[0]
           : layerItem.name.split(':')[0] || 'default';
 
+        // Extract style name from defaultStyle
+        const styleName = layer.defaultStyle?.name || null;
+
         return {
           geoserver_name: layerItem.name,
           display_name: layer.name,
@@ -122,7 +133,7 @@ async function fetchLayersFromGeoServer(): Promise<any[]> {
           layerName: layerItem.name,
           bounds: DEFAULT_BOUNDS,
           type: layer.type,
-          style: layer.defaultStyle?.name,
+          style: styleName,
         };
       } catch (error) {
         console.error(`Error fetching details for layer ${layerItem.name}:`, error);
@@ -260,19 +271,21 @@ router.post('/layers/sync', async (req: Request, res: Response) => {
 
     for (const gsLayer of geoserverLayers) {
       if (existingNames.has(gsLayer.geoserver_name)) {
-        // Only update display_name if it was never set (preserve user customizations)
+        // Update display_name and style_name (preserve user customizations for display_name only)
         await pool.query(`
           UPDATE layers
-          SET display_name = COALESCE(display_name, $1), updated_at = CURRENT_TIMESTAMP
-          WHERE geoserver_name = $2
-        `, [gsLayer.display_name, gsLayer.geoserver_name]);
+          SET display_name = COALESCE(NULLIF(display_name, ''), $1),
+              style_name = $2,
+              updated_at = CURRENT_TIMESTAMP
+          WHERE geoserver_name = $3
+        `, [gsLayer.display_name, gsLayer.style, gsLayer.geoserver_name]);
         updated++;
       } else {
-        // Insert new layer
+        // Insert new layer with style_name
         await pool.query(`
-          INSERT INTO layers (geoserver_name, display_name)
-          VALUES ($1, $2)
-        `, [gsLayer.geoserver_name, gsLayer.display_name]);
+          INSERT INTO layers (geoserver_name, display_name, style_name)
+          VALUES ($1, $2, $3)
+        `, [gsLayer.geoserver_name, gsLayer.display_name, gsLayer.style]);
         added++;
       }
     }
@@ -297,6 +310,200 @@ router.post('/layers/sync', async (req: Request, res: Response) => {
     console.error('Error syncing layers:', error);
     res.status(500).json({
       error: 'Failed to sync layers',
+      message: error.message
+    });
+  }
+});
+
+// Clip layer to country boundary
+router.post('/country', async (req: Request, res: Response) => {
+  const requestStartTime = Date.now();
+  console.log('[Backend Clip] Request received:', {
+    body: req.body,
+    timestamp: new Date().toISOString()
+  });
+
+  try {
+    const { countryFile, layerId } = req.body;
+
+    // Validate input
+    if (!countryFile || !layerId) {
+      console.log('[Backend Clip] Missing required fields');
+      return res.status(400).json({
+        error: 'Missing required fields',
+        message: 'countryFile and layerId are required'
+      });
+    }
+
+    const validationTime = Date.now();
+    console.log('[Backend Clip] Validation complete:', `${(validationTime - requestStartTime) / 1000}s`);
+
+    // 1. Get layer info from DB
+    const layerResult = await pool.query(
+      'SELECT id, file_path, geoserver_name, style_name FROM layers WHERE id = $1',
+      [layerId]
+    );
+
+    if (!layerResult.rows[0]) {
+      console.log('[Backend Clip] Layer not found:', layerId);
+      return res.status(404).json({ error: 'Layer not found' });
+    }
+
+    const { id: layerDbId, file_path, geoserver_name, style_name } = layerResult.rows[0];
+
+    const dbQueryTime = Date.now();
+    console.log('[Backend Clip] DB query complete:', {
+      layer: geoserver_name,
+      hasStyle: !!style_name,
+      queryTime: `${(dbQueryTime - validationTime) / 1000}s`
+    });
+
+    if (!file_path) {
+      return res.status(400).json({
+        error: 'Layer has no file path',
+        message: 'This layer cannot be clipped'
+      });
+    }
+
+    if (!style_name) {
+      return res.status(400).json({
+        error: 'Layer has no style',
+        message: 'Please sync the layer to fetch style information'
+      });
+    }
+
+    // 2. Parse workspace and layer name from geoserver_name
+    const [workspace, layerName] = geoserver_name.split(':');
+    if (!workspace || !layerName) {
+      return res.status(400).json({
+        error: 'Invalid geoserver_name format',
+        message: 'Expected format: workspace:layerName'
+      });
+    }
+
+    // 3. Check cache for existing clipped layer
+    const cacheResult = await pool.query(
+      'SELECT clipped_layer_name FROM clipped_layers_cache WHERE country_file = $1 AND layer_id = $2',
+      [countryFile, layerDbId]
+    );
+
+    const cacheCheckTime = Date.now();
+    console.log('[Backend Clip] Cache check complete:', {
+      cached: cacheResult.rows.length > 0,
+      cacheTime: `${(cacheCheckTime - dbQueryTime) / 1000}s`
+    });
+
+    if (cacheResult.rows.length > 0) {
+      // Cache hit - return existing clipped layer
+      console.log(`[Backend Clip] Cache hit for ${countryFile} + layer ${layerId}`);
+      const cacheHitTime = Date.now();
+      console.log('[Backend Clip] Total time (cache hit):', `${(cacheHitTime - requestStartTime) / 1000}s`);
+      return res.json({
+        clippedLayerName: cacheResult.rows[0].clipped_layer_name,
+        originalLayer: geoserver_name,
+        status: 'success',
+        cached: true
+      });
+    }
+
+    // 4. Cache miss - call clipping microservice
+    const clipServiceUrl = process.env.CLIP_SERVICE_URL || 'http://clip-service:3005';
+
+    // Resolve paths
+    const geojsonPath = path.join(__dirname, '../../geojson', countryFile);
+
+    // Extract country name from filename (remove .geojson extension)
+    const countryName = countryFile.replace('.geojson', '');
+
+    console.log('[Backend Clip] Calling clip service:', {
+      serviceUrl: clipServiceUrl,
+      country: countryName,
+      layer: layerName,
+      workspace,
+      timestamp: new Date().toISOString()
+    });
+
+    const clipServiceStartTime = Date.now();
+
+    const clipResponse = await fetch(`${clipServiceUrl}/clip`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        geojson_path: geojsonPath,
+        raster_path: file_path,
+        workspace,
+        layer_name: layerName,
+        style_name: style_name,
+        country_name: countryName
+      })
+    });
+
+    const clipServiceEndTime = Date.now();
+    console.log('[Backend Clip] Clip service responded:', {
+      status: clipResponse.status,
+      ok: clipResponse.ok,
+      serviceTime: `${(clipServiceEndTime - clipServiceStartTime) / 1000}s`,
+      totalTime: `${(clipServiceEndTime - requestStartTime) / 1000}s`
+    });
+
+    if (!clipResponse.ok) {
+      const errorData = await clipResponse.json().catch(() => ({ detail: 'Unknown error' }));
+      console.error('[Backend Clip] Clipping service error:', errorData);
+      return res.status(500).json({
+        error: 'Clipping failed',
+        details: errorData.detail || errorData.message || 'Unknown error'
+      });
+    }
+
+    const clipData = await clipResponse.json();
+
+    if (clipData.status !== 'success') {
+      console.error('[Backend Clip] Clipping service returned non-success:', clipData);
+      return res.status(500).json({
+        error: 'Clipping failed',
+        details: clipData.message || 'Unknown error'
+      });
+    }
+
+    console.log('[Backend Clip] Storing in cache...');
+    const cacheStartTime = Date.now();
+
+    // 5. Store in cache
+    await pool.query(
+      `INSERT INTO clipped_layers_cache (country_file, layer_id, clipped_layer_name)
+       VALUES ($1, $2, $3)
+       ON CONFLICT (country_file, layer_id) DO UPDATE
+       SET clipped_layer_name = EXCLUDED.clipped_layer_name`,
+      [countryFile, layerDbId, clipData.layer_name]
+    );
+
+    const cacheEndTime = Date.now();
+    console.log('[Backend Clip] Cache store complete:', `${(cacheEndTime - cacheStartTime) / 1000}s`);
+
+    // 6. Return success
+    const responseEndTime = Date.now();
+    console.log('[Backend Clip] Sending response:', {
+      clippedLayerName: clipData.layer_name,
+      totalTime: `${(responseEndTime - requestStartTime) / 1000}s`
+    });
+
+    res.json({
+      clippedLayerName: clipData.layer_name,
+      originalLayer: geoserver_name,
+      status: 'success',
+      cached: false
+    });
+
+  } catch (error: any) {
+    const errorTime = Date.now();
+    console.error('[Backend Clip] Error occurred:', {
+      error: error.message,
+      name: error.name,
+      totalTime: `${(errorTime - requestStartTime) / 1000}s`,
+      stack: error.stack
+    });
+    res.status(500).json({
+      error: 'Internal server error',
       message: error.message
     });
   }

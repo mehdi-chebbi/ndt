@@ -78,6 +78,7 @@ interface UseMapInitializationReturn {
   handleExport: (setIsExporting: (value: boolean) => void) => void
   handleStartCompare: (leftLayer: Layer, rightLayer: Layer, shouldZoom?: boolean) => void
   handleExitCompare: () => void
+  switchToClippedLayer: (originalLayerKey: string, clippedLayerName: string, workspace: string) => void
 }
 
 export function useMapInitialization(props: UseMapInitializationProps): UseMapInitializationReturn {
@@ -758,6 +759,38 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
     }
   }, [])
 
+  // Switch from original layer to clipped layer
+  const switchToClippedLayer = useCallback((
+    originalLayerKey: string,
+    clippedLayerName: string,
+    workspace: string
+  ) => {
+    if (!mapRef.current) return
+
+    // Remove the original layer
+    if (dataLayersRef.current[originalLayerKey]) {
+      mapRef.current.removeLayer(dataLayersRef.current[originalLayerKey] as L.Layer)
+      delete dataLayersRef.current[originalLayerKey]
+    }
+
+    // Extract just the layer name part (remove workspace: prefix if present)
+    const layersParam = clippedLayerName.includes(':')
+      ? clippedLayerName.split(':')[1]
+      : clippedLayerName
+
+    // Create and add the clipped layer
+    const clippedLayer = L.tileLayer.wms(`/api/clip/wms?workspace=${workspace}`, {
+      layers: layersParam,
+      format: 'image/png',
+      transparent: true,
+      attribution: `Clipped Layer`,
+      crossOrigin: 'anonymous',
+    })
+
+    clippedLayer.addTo(mapRef.current)
+    dataLayersRef.current[clippedLayerName] = clippedLayer
+  }, [])
+
   return {
     mapContainerRef,
     handleBasemapChange,
@@ -770,5 +803,6 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
     handleExport,
     handleStartCompare,
     handleExitCompare,
+    switchToClippedLayer,
   }
 }

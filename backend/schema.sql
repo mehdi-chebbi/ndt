@@ -47,6 +47,7 @@ CREATE TABLE IF NOT EXISTS layers (
   file_path VARCHAR(500),
   class_labels JSONB,
   legend JSONB,
+  style_name VARCHAR(255),
   is_active BOOLEAN DEFAULT true,
   sort_order INTEGER DEFAULT 0,
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
@@ -130,3 +131,17 @@ CREATE TABLE IF NOT EXISTS chat_messages (
 
 -- Create indexes for chat_messages
 CREATE INDEX IF NOT EXISTS idx_chat_messages_session ON chat_messages(session_id, created_at);
+
+-- Create clipped_layers_cache table
+CREATE TABLE IF NOT EXISTS clipped_layers_cache (
+  id SERIAL PRIMARY KEY,
+  country_file VARCHAR(255) NOT NULL,
+  layer_id INTEGER NOT NULL REFERENCES layers(id) ON DELETE CASCADE,
+  clipped_layer_name VARCHAR(255) NOT NULL,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  UNIQUE(country_file, layer_id)
+);
+
+-- Create indexes for clipped_layers_cache
+CREATE INDEX IF NOT EXISTS idx_clipped_layers_cache_country ON clipped_layers_cache(country_file);
+CREATE INDEX IF NOT EXISTS idx_clipped_layers_cache_layer ON clipped_layers_cache(layer_id);
