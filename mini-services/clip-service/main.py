@@ -5,6 +5,7 @@ Cuts raster files to GeoJSON polygon boundaries using GDAL and publishes to GeoS
 
 import os
 import uuid
+import asyncio
 import logging
 import requests
 from typing import Optional
@@ -29,7 +30,7 @@ GEOSERVER_URL = os.getenv("GEOSERVER_URL", "http://192.168.2.93:8080/geoserver")
 GEOSERVER_REST_URL = f"{GEOSERVER_URL}/rest"
 GEOSERVER_USER = os.getenv("GEOSERVER_USER", "admin")
 GEOSERVER_PASSWORD = os.getenv("GEOSERVER_PASSWORD", "geoserver")
-OUTPUT_DIR = os.getenv("OUTPUT_DIR", "/tmp/clipped")
+OUTPUT_DIR = os.getenv("OUTPUT_DIR", "/data/tiffs/clipped")
 GEOJSON_DIR = os.getenv("GEOJSON_DIR", "/app/geojson")
 
 # Ensure output directory exists
@@ -73,14 +74,14 @@ def generate_output_layer_name(country_name: str, original_layer: str) -> str:
     return f"clip_{sanitized_country}_{original_layer}_{unique_id}"
 
 
-def run_gdalwarp(geojson_path: str, raster_path: str, output_path: str) -> bool:
+def run_gdalwarp(geojson_path: str, raster_path: str, output_path: str, num_threads: int = None) -> bool:
     """
     Run gdalwarp to clip raster to GeoJSON boundary with multi-threading optimization
     """
     import os
 
-    # Use all available CPU cores for multi-threading
-    num_threads = os.cpu_count() or 4
+    # Use provided thread count or all available CPU cores
+    num_threads = num_threads or (os.cpu_count() or 4)
 
     cmd = [
         "gdalwarp",
@@ -213,23 +214,32 @@ async def clip_layer(request: ClipRequest):
 
         # 2. Generate output layer name
         output_layer_id = generate_output_layer_name(request.country_name, request.layer_name)
-        output_tif = os.path.join(OUTPUT_DIR, f"{output_layer_id}.tif")
+        # Organize by raster name: /data/tiffs/clipped/{raster_name}/{output_layer_id}.tif
+        output_subdir = os.path.join(OUTPUT_DIR, request.layer_name)
+        os.makedirs(output_subdir, exist_ok=True)
+        output_tif = os.path.join(output_subdir, f"{output_layer_id}.tif")
 
         logger.info(f"Output layer name: {request.workspace}:{output_layer_id}")
 
-        # 3. Run GDAL warp
+        # 3. Run GDAL warp (in thread pool to avoid blocking the event loop)
+        #    Limit threads per process so concurrent clips don't fight for CPU
+        cpu_count = os.cpu_count() or 4
+        threads_per_clip = max(2, cpu_count // 3)
         gdal_start = time.time()
-        run_gdalwarp(
+        await asyncio.to_thread(
+            run_gdalwarp,
             geojson_path=str(geojson_path),
             raster_path=str(raster_path),
-            output_path=output_tif
+            output_path=output_tif,
+            num_threads=threads_per_clip
         )
         gdal_time = time.time() - gdal_start
         logger.info(f"GDAL warp took {gdal_time:.2f} seconds")
 
-        # 4. Publish to GeoServer
+        # 4. Publish to GeoServer (in thread pool — requests is blocking)
         publish_start = time.time()
-        publish_to_geoserver(
+        await asyncio.to_thread(
+            publish_to_geoserver,
             tif_path=output_tif,
             workspace=request.workspace,
             layer_id=output_layer_id
@@ -237,8 +247,9 @@ async def clip_layer(request: ClipRequest):
         publish_time = time.time() - publish_start
         logger.info(f"GeoServer publish took {publish_time:.2f} seconds")
 
-        # 5. Assign style
-        assign_style(
+        # 5. Assign style (in thread pool — requests is blocking)
+        await asyncio.to_thread(
+            assign_style,
             workspace=request.workspace,
             layer_id=output_layer_id,
             style_name=request.style_name

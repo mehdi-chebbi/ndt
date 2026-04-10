@@ -2,6 +2,7 @@ import { Router, Request, Response } from 'express';
 import pool from '../config/database';
 import { v4 as uuidv4 } from 'uuid';
 import path from 'path';
+import fs from 'fs';
 
 const router = Router();
 
@@ -425,6 +426,10 @@ router.post('/country', async (req: Request, res: Response) => {
 
     const clipServiceStartTime = Date.now();
 
+    // Set a 30-minute timeout for the clip service call (big countries can take 10-15 min)
+    const clipController = new AbortController();
+    const clipTimeoutId = setTimeout(() => clipController.abort(), 1_800_000);
+
     const clipResponse = await fetch(`${clipServiceUrl}/clip`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -435,8 +440,9 @@ router.post('/country', async (req: Request, res: Response) => {
         layer_name: layerName,
         style_name: style_name,
         country_name: countryName
-      })
-    });
+      }),
+      signal: clipController.signal,
+    }).finally(() => clearTimeout(clipTimeoutId));
 
     const clipServiceEndTime = Date.now();
     console.log('[Backend Clip] Clip service responded:', {
@@ -504,6 +510,266 @@ router.post('/country', async (req: Request, res: Response) => {
     });
     res.status(500).json({
       error: 'Internal server error',
+      message: error.message
+    });
+  }
+});
+
+// ============================================
+// BATCH CLIPPING - Admin Clip Management
+// ============================================
+
+// In-memory set to track layers currently being batch-clipped
+const runningBatchLayers = new Set<number>();
+
+// Helper: Read geojson files from disk
+function getGeojsonFiles(): string[] {
+  const geojsonDir = path.join(__dirname, '../../geojson');
+  if (!fs.existsSync(geojsonDir)) return [];
+  return fs.readdirSync(geojsonDir)
+    .filter((file: string) => file.endsWith('.geojson'))
+    .sort();
+}
+
+// GET /api/clip/batch-status
+// Returns all clippable layers with their clipping progress
+router.get('/batch-status', async (req: Request, res: Response) => {
+  try {
+    // Get all layers that have file_path and don't start with clip_
+    const layersResult = await pool.query(`
+      SELECT id, geoserver_name, display_name, file_path, style_name
+      FROM layers
+      WHERE file_path IS NOT NULL
+        AND file_path != ''
+        AND NOT geoserver_name LIKE 'clip_%'
+      ORDER BY display_name ASC NULLS LAST, geoserver_name ASC
+    `);
+
+    const totalCountries = getGeojsonFiles().length;
+
+    // For each layer, count how many countries are already clipped
+    const layersWithProgress = await Promise.all(
+      layersResult.rows.map(async (layer: any) => {
+        const cacheCount = await pool.query(
+          'SELECT COUNT(*) as count FROM clipped_layers_cache WHERE layer_id = $1',
+          [layer.id]
+        );
+        const clippedCount = parseInt(cacheCount.rows[0]?.count || '0');
+        return {
+          id: layer.id,
+          geoserver_name: layer.geoserver_name,
+          display_name: layer.display_name || layer.geoserver_name,
+          file_path: layer.file_path,
+          style_name: layer.style_name,
+          clippedCountries: clippedCount,
+          totalCountries,
+          fullyClipped: clippedCount >= totalCountries,
+          isRunning: runningBatchLayers.has(layer.id),
+          canClip: !!layer.style_name,
+        };
+      })
+    );
+
+    res.json({
+      layers: layersWithProgress,
+      totalCountries,
+    });
+  } catch (error: any) {
+    console.error('[Batch Status] Error:', error);
+    res.status(500).json({
+      error: 'Failed to fetch batch status',
+      message: error.message
+    });
+  }
+});
+
+// Helper: Clip a single country for a given layer (reuses clip-service logic)
+async function clipCountryForLayer(
+  countryFile: string,
+  layerDbId: number,
+  file_path: string,
+  geoserver_name: string,
+  style_name: string,
+  workspace: string,
+  layerName: string
+): Promise<{ success: boolean; countryFile: string; error?: string }> {
+  const geojsonPath = path.join(__dirname, '../../geojson', countryFile);
+  const countryName = countryFile.replace('.geojson', '');
+
+  try {
+    const clipServiceUrl = process.env.CLIP_SERVICE_URL || 'http://clip-service:3005';
+
+    console.log(`[Batch Clip] Clipping ${countryName} for ${geoserver_name}...`);
+
+    // Set a 30-minute timeout for the clip service call (big countries can take 10-15 min)
+    const clipController = new AbortController();
+    const clipTimeoutId = setTimeout(() => clipController.abort(), 1_800_000);
+
+    const clipResponse = await fetch(`${clipServiceUrl}/clip`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        geojson_path: geojsonPath,
+        raster_path: file_path,
+        workspace,
+        layer_name: layerName,
+        style_name: style_name,
+        country_name: countryName,
+      }),
+      signal: clipController.signal,
+    }).finally(() => clearTimeout(clipTimeoutId));
+
+    if (!clipResponse.ok) {
+      const errorData = await clipResponse.json().catch(() => ({ detail: 'Unknown error' }));
+      console.error(`[Batch Clip] Failed for ${countryName}:`, errorData.detail || 'Unknown error');
+      return { success: false, countryFile, error: errorData.detail || 'Unknown error' };
+    }
+
+    const clipData = await clipResponse.json();
+
+    if (clipData.status !== 'success') {
+      console.error(`[Batch Clip] Non-success for ${countryName}:`, clipData.message);
+      return { success: false, countryFile, error: clipData.message || 'Non-success status' };
+    }
+
+    // Store in cache
+    await pool.query(
+      `INSERT INTO clipped_layers_cache (country_file, layer_id, clipped_layer_name)
+       VALUES ($1, $2, $3)
+       ON CONFLICT (country_file, layer_id) DO UPDATE
+       SET clipped_layer_name = EXCLUDED.clipped_layer_name`,
+      [countryFile, layerDbId, clipData.layer_name]
+    );
+
+    console.log(`[Batch Clip] Success: ${countryName} for ${geoserver_name}`);
+    return { success: true, countryFile };
+  } catch (error: any) {
+    console.error(`[Batch Clip] Error clipping ${countryName}:`, error.message);
+    return { success: false, countryFile, error: error.message };
+  }
+}
+
+// POST /api/clip/batch
+// Starts batch clipping for a layer (fire-and-forget)
+router.post('/batch', async (req: Request, res: Response) => {
+  try {
+    const { layerId } = req.body;
+
+    if (!layerId) {
+      return res.status(400).json({ error: 'layerId is required' });
+    }
+
+    // Check if already running
+    if (runningBatchLayers.has(layerId)) {
+      return res.status(409).json({
+        error: 'Batch already in progress',
+        message: 'This layer is already being clipped. Please wait for it to finish.'
+      });
+    }
+
+    // Get layer info
+    const layerResult = await pool.query(
+      'SELECT id, file_path, geoserver_name, style_name FROM layers WHERE id = $1',
+      [layerId]
+    );
+
+    if (!layerResult.rows[0]) {
+      return res.status(404).json({ error: 'Layer not found' });
+    }
+
+    const layer = layerResult.rows[0];
+
+    if (!layer.file_path) {
+      return res.status(400).json({ error: 'Layer has no file path' });
+    }
+
+    if (!layer.style_name) {
+      return res.status(400).json({
+        error: 'Layer has no style',
+        message: 'Please sync the layer to fetch style information before clipping.'
+      });
+    }
+
+    const [workspace, layerName] = layer.geoserver_name.split(':');
+    if (!workspace || !layerName) {
+      return res.status(400).json({ error: 'Invalid geoserver_name format' });
+    }
+
+    // Mark as running
+    runningBatchLayers.add(layerId);
+
+    // Get all geojson files
+    const geojsonFiles = getGeojsonFiles();
+
+    console.log(`[Batch Clip] Starting batch for layer ${layer.geoserver_name} (${geojsonFiles.length} countries)`);
+
+    // Fire-and-forget: respond immediately
+    res.json({
+      status: 'started',
+      message: `Batch clipping started for ${layer.display_name || layer.geoserver_name}`,
+      totalCountries: geojsonFiles.length,
+    });
+
+    // Run the batch loop asynchronously (doesn't block the event loop)
+    (async () => {
+      let successCount = 0;
+      let skipCount = 0;
+      let failCount = 0;
+      const failures: { countryFile: string; error: string }[] = [];
+
+      // Process countries with concurrency limit (3 workers)
+      const CONCURRENCY = 3;
+      let fileIndex = 0;
+
+      async function worker() {
+        while (fileIndex < geojsonFiles.length) {
+          const idx = fileIndex++;
+          const countryFile = geojsonFiles[idx];
+
+          // Check if already clipped (skip cache hits)
+          const cacheCheck = await pool.query(
+            'SELECT 1 FROM clipped_layers_cache WHERE country_file = $1 AND layer_id = $2',
+            [countryFile, layer.id]
+          );
+
+          if (cacheCheck.rows.length > 0) {
+            skipCount++;
+            continue;
+          }
+
+          const result = await clipCountryForLayer(
+            countryFile, layer.id, layer.file_path,
+            layer.geoserver_name, layer.style_name, workspace, layerName
+          );
+
+          if (result.success) {
+            successCount++;
+          } else {
+            failCount++;
+            failures.push({ countryFile: result.countryFile, error: result.error || 'Unknown' });
+          }
+        }
+      }
+
+      const workerCount = Math.min(CONCURRENCY, geojsonFiles.length);
+      await Promise.all(
+        Array.from({ length: workerCount }, () => worker())
+      );
+
+      // Remove from running set
+      runningBatchLayers.delete(layerId);
+
+      console.log(`[Batch Clip] Completed for ${layer.geoserver_name}: ${successCount} clipped, ${skipCount} skipped, ${failCount} failed`);
+      if (failures.length > 0) {
+        console.error(`[Batch Clip] Failures:`, failures);
+      }
+    })();
+
+  } catch (error: any) {
+    runningBatchLayers.delete(parseInt(req.body.layerId));
+    console.error('[Batch Clip] Error starting batch:', error);
+    res.status(500).json({
+      error: 'Failed to start batch clipping',
       message: error.message
     });
   }
