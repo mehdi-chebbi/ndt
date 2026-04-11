@@ -672,7 +672,7 @@ function extractLocationFromPolygon(polygon: any): string {
   }
 
   let coords: number[][];
-  
+
   if (polygon.type === 'Polygon') {
     coords = polygon.coordinates[0];
   } else if (polygon.type === 'MultiPolygon') {
@@ -689,14 +689,14 @@ function extractLocationFromPolygon(polygon: any): string {
   // Calculate centroid
   const lats = coords.map(c => c[1]);
   const lons = coords.map(c => c[0]);
-  
+
   const avgLat = lats.reduce((a, b) => a + b, 0) / lats.length;
   const avgLon = lons.reduce((a, b) => a + b, 0) / lons.length;
 
   // Format coordinates
   const latDir = avgLat >= 0 ? 'N' : 'S';
   const lonDir = avgLon >= 0 ? 'E' : 'W';
-  
+
   return `${Math.abs(avgLat).toFixed(1)}°${latDir}, ${Math.abs(avgLon).toFixed(1)}°${lonDir}`;
 }
 
@@ -739,9 +739,9 @@ export async function analyzeAreaWithAI(req: Request, res: Response) {
       aiLogger.info('Statistics computed', { totalArea: stats.total_area_km2, classCount: stats.classes.length });
     } catch (statsError: any) {
       aiLogger.error('Failed to compute statistics', statsError);
-      return res.status(500).json({ 
+      return res.status(500).json({
         error: 'Failed to compute statistics',
-        details: statsError.message 
+        details: statsError.message
       });
     }
 
@@ -776,8 +776,8 @@ export async function analyzeAreaWithAI(req: Request, res: Response) {
     let sessionId: number;
     try {
       const sessionResult = await pool.query(
-        `INSERT INTO chat_sessions (user_id, title, is_active) 
-         VALUES ($1, $2, true) 
+        `INSERT INTO chat_sessions (user_id, title, is_active)
+         VALUES ($1, $2, true)
          RETURNING id`,
         [userId, `Analysis: ${layer_name}`]
       );
@@ -790,9 +790,9 @@ export async function analyzeAreaWithAI(req: Request, res: Response) {
 
     // ── Step 4: Send initial message with analysis request ──
     aiLogger.info('Step 3: Sending analysis request to AI...');
-    
+
     const userMessage = 'Analyze this area based on the provided geospatial data.';
-    
+
     try {
       await pool.query(
         'INSERT INTO chat_messages (session_id, role, content) VALUES ($1, $2, $3)',
