@@ -1,0 +1,101 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: clip-service
+  namespace: ndt-platform
+  labels:
+    app: ndt-platform
+    component: clip-service
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ndt-platform
+      component: clip-service
+  template:
+    metadata:
+      labels:
+        app: ndt-platform
+        component: clip-service
+    spec:
+      nodeSelector:
+        kubernetes.io/hostname: worker-04
+      containers:
+        - name: clip-service
+          image: mehdino123/ndt-clip:latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 3005
+              name: http
+          env:
+            # GeoServer connection (reuses existing secrets)
+            - name: GEOSERVER_URL
+              valueFrom:
+                configMapKeyRef:
+                  name: ndt-config
+                  key: GEOSERVER_WMS_URL
+            - name: GEOSERVER_USER
+              valueFrom:
+                secretKeyRef:
+                  name: ndt-secrets
+                  key: GEOSERVER_USER
+            - name: GEOSERVER_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: ndt-secrets
+                  key: GEOSERVER_PASSWORD
+            # Paths (raster data is on the shared hostPath volume)
+            - name: OUTPUT_DIR
+              value: "/data/tiffs/clipped"
+            - name: GEOJSON_DIR
+              value: "/app/geojson"
+          resources:
+            requests:
+              memory: "512Mi"
+              cpu: "200m"
+            limits:
+              memory: "4Gi"
+              cpu: "2000m"
+          livenessProbe:
+            httpGet:
+              path: /health
+              port: 3005
+            initialDelaySeconds: 15
+            periodSeconds: 30
+            timeoutSeconds: 10
+            failureThreshold: 3
+          readinessProbe:
+            httpGet:
+              path: /health
+              port: 3005
+            initialDelaySeconds: 5
+            periodSeconds: 10
+            timeoutSeconds: 5
+            failureThreshold: 3
+          volumeMounts:
+            # Shared volume: read source rasters from /data/tiffs/, write clipped output to /data/tiffs/clipped/
+            - name: geoserver-data
+              mountPath: /data
+      volumes:
+        - name: geoserver-data
+          hostPath:
+            path: /mnt/geoserver-data
+            type: Directory
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: clip-service
+  namespace: ndt-platform
+  labels:
+    app: ndt-platform
+    component: clip-service
+spec:
+  type: ClusterIP
+  selector:
+    app: ndt-platform
+    component: clip-service
+  ports:
+    - name: http
+      port: 3005
+      targetPort: 3005

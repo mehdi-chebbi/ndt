@@ -1,0 +1,112 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: geoserver-pvc
+  namespace: ndt-platform
+  labels:
+    app: ndt-platform
+    component: geoserver
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 50Gi
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: geoserver
+  namespace: ndt-platform
+  labels:
+    app: ndt-platform
+    component: geoserver
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ndt-platform
+      component: geoserver
+  template:
+    metadata:
+      labels:
+        app: ndt-platform
+        component: geoserver
+    spec:
+      nodeSelector:
+        kubernetes.io/hostname: worker-04
+      containers:
+        - name: geoserver
+          image: kartoza/geoserver:2.24.0
+          ports:
+            - containerPort: 8080
+              name: http
+          env:
+            - name: GEOSERVER_ADMIN_USER
+              valueFrom:
+                secretKeyRef:
+                  name: geoserver-credentials
+                  key: GEOSERVER_ADMIN_USER
+            - name: GEOSERVER_ADMIN_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: geoserver-credentials
+                  key: GEOSERVER_ADMIN_PASSWORD
+            - name: GEOSERVER_DATA_DIR
+              value: /opt/geoserver/data_dir
+            - name: JAVA_OPTS
+              value: "-Xms512m -Xmx2560m -XX:MaxMetaspaceSize=512m -XX:+UseG1GC -XX:MaxGCPauseMillis=200 -XX:+ExitOnOutOfMemoryError"
+          volumeMounts:
+            - name: geoserver-storage
+              mountPath: /opt/geoserver/data_dir
+            - name: geoserver-data
+              mountPath: /data
+          resources:
+            requests:
+              memory: "512Mi"
+              cpu: "200m"
+            limits:
+              memory: "5Gi"
+              cpu: "2000m"
+          livenessProbe:
+            httpGet:
+              path: /geoserver/web/
+              port: 8080
+            initialDelaySeconds: 120
+            periodSeconds: 10
+            timeoutSeconds: 10
+            failureThreshold: 5
+          readinessProbe:
+            httpGet:
+              path: /geoserver/web/
+              port: 8080
+            initialDelaySeconds: 60
+            periodSeconds: 10
+            timeoutSeconds: 5
+            failureThreshold: 3
+      volumes:
+        - name: geoserver-storage
+          persistentVolumeClaim:
+            claimName: geoserver-pvc
+        - name: geoserver-data
+          hostPath:
+            path: /mnt/geoserver-data
+            type: Directory
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: geoserver
+  namespace: ndt-platform
+  labels:
+    app: ndt-platform
+    component: geoserver
+spec:
+  type: ClusterIP
+  ports:
+    - port: 8080
+      targetPort: 8080
+      name: http
+  selector:
+    app: ndt-platform
+    component: geoserver

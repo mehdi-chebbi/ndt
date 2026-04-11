@@ -23,7 +23,7 @@
 import { NextRequest, NextResponse } from "next/server";
 
 /** Where your Express backend lives inside Docker. */
-const BACKEND_BASE_URL = "http://ndt-backend:3001";
+const BACKEND_BASE_URL = "http://backend:3001";
 
 /** 5 minutes — covers the worst-case clip/country response time. */
 const PROXY_TIMEOUT_MS = 300_000;

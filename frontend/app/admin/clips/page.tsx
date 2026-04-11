@@ -23,6 +23,12 @@ interface BatchStatusResponse {
   totalCountries: number
 }
 
+interface ClippedCountriesResponse {
+  total: number
+  clipped: string[]
+  remaining: string[]
+}
+
 export default function ClipManagementPage() {
   const { user, loading: authLoading } = useAuth()
   const [layers, setLayers] = useState<LayerClipStatus[]>([])
@@ -32,6 +38,12 @@ export default function ClipManagementPage() {
   const [clippingLayerId, setClippingLayerId] = useState<number | null>(null)
   const [toastMessage, setToastMessage] = useState('')
   const [toastType, setToastType] = useState<'success' | 'error' | 'info'>('info')
+
+  // Country detail modal
+  const [modalLayer, setModalLayer] = useState<LayerClipStatus | null>(null)
+  const [modalLoading, setModalLoading] = useState(false)
+  const [modalData, setModalData] = useState<ClippedCountriesResponse | null>(null)
+  const [countrySearch, setCountrySearch] = useState('')
 
   useEffect(() => {
     if (!authLoading && (!user || user.role !== 'admin')) {
@@ -113,6 +125,32 @@ export default function ClipManagementPage() {
     }
   }
 
+  const handleOpenCountryModal = async (layer: LayerClipStatus) => {
+    setModalLayer(layer)
+    setModalData(null)
+    setCountrySearch('')
+    setModalLoading(true)
+
+    try {
+      const response = await api.get(`/clip/layer/${layer.id}/clipped-countries`)
+      if (!response.ok) {
+        throw new Error('Failed to fetch country details')
+      }
+      const data: ClippedCountriesResponse = await response.json()
+      setModalData(data)
+    } catch (err: any) {
+      showToast(err.message, 'error')
+    } finally {
+      setModalLoading(false)
+    }
+  }
+
+  const handleCloseModal = () => {
+    setModalLayer(null)
+    setModalData(null)
+    setCountrySearch('')
+  }
+
   if (authLoading || loading) {
     return (
       <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center">
@@ -137,6 +175,14 @@ export default function ClipManagementPage() {
     if (layer.totalCountries === 0) return 0
     return Math.round((layer.clippedCountries / layer.totalCountries) * 100)
   }
+
+  // Filter countries for the modal search
+  const filteredClipped = modalData?.clipped.filter(c =>
+    c.toLowerCase().includes(countrySearch.toLowerCase())
+  ) || []
+  const filteredRemaining = modalData?.remaining.filter(c =>
+    c.toLowerCase().includes(countrySearch.toLowerCase())
+  ) || []
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
@@ -283,13 +329,17 @@ export default function ClipManagementPage() {
                           </div>
                         </td>
 
-                        {/* Progress */}
+                        {/* Progress - Clickable */}
                         <td className="px-6 py-4 whitespace-nowrap">
-                          <div className="flex items-center gap-3">
+                          <button
+                            onClick={() => handleOpenCountryModal(layer)}
+                            className="flex items-center gap-3 cursor-pointer hover:opacity-80 transition group"
+                            title="Click to view country details"
+                          >
                             <span className="text-sm font-medium text-gray-700 min-w-[60px]">
                               {layer.clippedCountries}/{layer.totalCountries}
                             </span>
-                            <div className="w-32 bg-gray-200 rounded-full h-2">
+                            <div className="w-32 bg-gray-200 rounded-full h-2 relative">
                               <div
                                 className={`h-2 rounded-full transition-all duration-300 ${
                                   layer.fullyClipped ? 'bg-green-500' :
@@ -300,7 +350,10 @@ export default function ClipManagementPage() {
                               />
                             </div>
                             <span className="text-xs text-gray-500">{progress}%</span>
-                          </div>
+                            <svg className="w-3.5 h-3.5 text-gray-400 group-hover:text-gray-600 transition" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                            </svg>
+                          </button>
                         </td>
 
                         {/* Status Badge */}
@@ -376,6 +429,7 @@ export default function ClipManagementPage() {
         <div className="mt-6 bg-gray-50 border border-gray-200 rounded-xl p-4">
           <h3 className="text-sm font-semibold text-gray-900 mb-2">How it works</h3>
           <ul className="text-sm text-gray-600 space-y-1">
+            <li>- Click the progress bar to see which countries are done and which remain</li>
             <li>- Clicking &quot;Clip All&quot; clips the raster for all {totalCountries} countries using the clip-service</li>
             <li>- Clicking &quot;Clip Remaining&quot; only processes countries not yet in cache</li>
             <li>- Large countries (Algeria, DR Congo, Sudan, etc.) may take 10-15 minutes each</li>
@@ -385,6 +439,124 @@ export default function ClipManagementPage() {
           </ul>
         </div>
       </main>
+
+      {/* Country Detail Modal */}
+      {modalLayer && (
+        <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4" onClick={handleCloseModal}>
+          <div className="bg-white rounded-xl shadow-xl max-w-lg w-full max-h-[85vh] flex flex-col" onClick={e => e.stopPropagation()}>
+            {/* Modal Header */}
+            <div className="px-6 py-4 border-b border-gray-200 flex justify-between items-center shrink-0">
+              <div>
+                <h3 className="text-lg font-semibold text-gray-900">
+                  {modalLayer.display_name}
+                </h3>
+                <p className="text-sm text-gray-500 mt-0.5">
+                  {modalLayer.clippedCountries} of {modalLayer.totalCountries} countries clipped
+                </p>
+              </div>
+              <button onClick={handleCloseModal} className="p-1.5 hover:bg-gray-100 rounded-lg transition">
+                <svg className="w-5 h-5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
+            </div>
+
+            {/* Modal Body */}
+            <div className="p-6 overflow-y-auto flex-1">
+              {modalLoading ? (
+                <div className="flex items-center justify-center py-12">
+                  <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-gray-900"></div>
+                </div>
+              ) : modalData ? (
+                <>
+                  {/* Progress bar in modal */}
+                  <div className="mb-5">
+                    <div className="w-full bg-gray-200 rounded-full h-3">
+                      <div
+                        className={`h-3 rounded-full transition-all duration-500 ${
+                          modalLayer.fullyClipped ? 'bg-green-500' :
+                          modalLayer.clippedCountries > 0 ? 'bg-amber-500' :
+                          'bg-gray-300'
+                        }`}
+                        style={{ width: `${getProgressPercentage(modalLayer)}%` }}
+                      />
+                    </div>
+                    <div className="flex justify-between mt-1.5 text-xs text-gray-500">
+                      <span>{getProgressPercentage(modalLayer)}% complete</span>
+                      <span>{modalData.total - modalLayer.clippedCountries} remaining</span>
+                    </div>
+                  </div>
+
+                  {/* Search */}
+                  <div className="mb-4">
+                    <div className="relative">
+                      <svg className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                      </svg>
+                      <input
+                        type="text"
+                        value={countrySearch}
+                        onChange={(e) => setCountrySearch(e.target.value)}
+                        placeholder="Search countries..."
+                        className="w-full pl-9 pr-3 py-2 border border-gray-300 rounded-lg text-sm focus:ring-2 focus:ring-gray-900 focus:border-transparent"
+                      />
+                    </div>
+                  </div>
+
+                  {/* Clipped Countries */}
+                  <div className="mb-4">
+                    <h4 className="text-sm font-semibold text-green-700 mb-2 flex items-center gap-1.5">
+                      <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                      </svg>
+                      Clipped ({countrySearch ? filteredClipped.length : modalData.clipped.length})
+                    </h4>
+                    <div className="max-h-48 overflow-y-auto border border-green-200 rounded-lg bg-green-50/50">
+                      {filteredClipped.length === 0 ? (
+                        <p className="text-sm text-gray-400 py-3 px-3">No matches</p>
+                      ) : (
+                        <div className="flex flex-wrap gap-1.5 p-2">
+                          {filteredClipped.map(country => (
+                            <span key={country} className="inline-flex items-center gap-1 px-2 py-0.5 bg-green-100 text-green-800 rounded-md text-xs font-medium">
+                              <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                              </svg>
+                              {country}
+                            </span>
+                          ))}
+                        </div>
+                      )}
+                    </div>
+                  </div>
+
+                  {/* Remaining Countries */}
+                  {filteredRemaining.length > 0 && (
+                    <div>
+                      <h4 className="text-sm font-semibold text-gray-500 mb-2 flex items-center gap-1.5">
+                        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                        Remaining ({countrySearch ? filteredRemaining.length : modalData.remaining.length})
+                      </h4>
+                      <div className="max-h-48 overflow-y-auto border border-gray-200 rounded-lg bg-gray-50/50">
+                        <div className="flex flex-wrap gap-1.5 p-2">
+                          {filteredRemaining.map(country => (
+                            <span key={country} className="inline-flex items-center px-2 py-0.5 bg-gray-100 text-gray-600 rounded-md text-xs font-medium">
+                              {country}
+                            </span>
+                          ))}
+                        </div>
+                      </div>
+                    </div>
+                  )}
+                </>
+              ) : (
+                <p className="text-gray-500 text-sm text-center py-8">Failed to load country details</p>
+              )}
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* Footer */}
       <footer className="bg-white border-t mt-20">

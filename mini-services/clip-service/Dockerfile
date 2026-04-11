@@ -17,6 +17,9 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy application code
 COPY main.py .
 
+# Copy country boundary GeoJSON files (used by gdalwarp -cutline)
+COPY geojson/ /app/geojson/
+
 # Create output directory
 RUN mkdir -p /tmp/clipped
 

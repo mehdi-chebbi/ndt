@@ -583,6 +583,39 @@ router.get('/batch-status', async (req: Request, res: Response) => {
   }
 });
 
+// GET /api/clip/layer/:layerId/clipped-countries
+// Returns the list of clipped countries for a specific layer
+router.get('/layer/:layerId/clipped-countries', async (req: Request, res: Response) => {
+  try {
+    const { layerId } = req.params;
+
+    // Get all geojson files (all available countries)
+    const allCountries = getGeojsonFiles().map(f => f.replace('.geojson', ''));
+
+    // Get clipped countries from cache
+    const clippedResult = await pool.query(
+      'SELECT country_file FROM clipped_layers_cache WHERE layer_id = $1',
+      [layerId]
+    );
+    const clippedFiles = new Set(clippedResult.rows.map((r: any) => r.country_file.replace('.geojson', '')));
+
+    const clippedCountries = allCountries.filter(c => clippedFiles.has(c));
+    const remainingCountries = allCountries.filter(c => !clippedFiles.has(c));
+
+    res.json({
+      total: allCountries.length,
+      clipped: clippedCountries,
+      remaining: remainingCountries,
+    });
+  } catch (error: any) {
+    console.error('[Clipped Countries] Error:', error);
+    res.status(500).json({
+      error: 'Failed to fetch clipped countries',
+      message: error.message
+    });
+  }
+});
+
 // Helper: Clip a single country for a given layer (reuses clip-service logic)
 async function clipCountryForLayer(
   countryFile: string,
