@@ -201,7 +201,25 @@ function buildApiMessages(
     }
   }
 
-  return apiMessages;
+  // Ensure strict role alternation (required by Gemma and other models)
+  // Merge consecutive same-role messages into one
+  const merged: OpenRouterMessage[] = [];
+  for (const msg of apiMessages) {
+    const last = merged[merged.length - 1];
+    if (last && last.role === msg.role && typeof last.content === 'string' && typeof msg.content === 'string') {
+      last.content += '\n' + msg.content;
+    } else {
+      merged.push({ ...msg });
+    }
+  }
+
+  // Safety: if first non-system message isn't 'user', inject a placeholder
+  const firstNonSystem = merged.findIndex(m => m.role !== 'system');
+  if (firstNonSystem !== -1 && merged[firstNonSystem].role !== 'user') {
+    merged.splice(firstNonSystem, 0, { role: 'user', content: '[continued]' });
+  }
+
+  return merged;
 }
 
 // ── Request body ─────────────────────────────────────────────────────
