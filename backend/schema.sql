@@ -145,3 +145,19 @@ CREATE TABLE IF NOT EXISTS clipped_layers_cache (
 -- Create indexes for clipped_layers_cache
 CREATE INDEX IF NOT EXISTS idx_clipped_layers_cache_country ON clipped_layers_cache(country_file);
 CREATE INDEX IF NOT EXISTS idx_clipped_layers_cache_layer ON clipped_layers_cache(layer_id);
+
+-- Create country_stats table (pre-calculated stats per country per layer)
+CREATE TABLE IF NOT EXISTS country_stats (
+  id SERIAL PRIMARY KEY,
+  layer_id INTEGER NOT NULL REFERENCES layers(id) ON DELETE CASCADE,
+  country_file VARCHAR(255) NOT NULL,
+  total_area_km2 DOUBLE PRECISION NOT NULL,
+  pixel_size_m DOUBLE PRECISION NOT NULL,
+  class_stats JSONB NOT NULL,
+  computed_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  UNIQUE(layer_id, country_file)
+);
+
+-- Create indexes for country_stats
+CREATE INDEX IF NOT EXISTS idx_country_stats_country ON country_stats(country_file);
+CREATE INDEX IF NOT EXISTS idx_country_stats_layer ON country_stats(layer_id);

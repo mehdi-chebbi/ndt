@@ -1,8 +1,9 @@
 'use client'
 
-import React from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import { StatsTabProps, Layer, Group } from './types'
 import StatsBarChart from './StatsBarChart'
+import { authFetch } from '@/lib/authFetch'
 
 // Recursively count all layers in a group and its children (that have stats)
 function countAllLayersWithStats(group: Group): number {
@@ -13,6 +14,11 @@ function countAllLayersWithStats(group: Group): number {
     }
   }
   return total
+}
+
+interface CountryOption {
+  name: string
+  file: string
 }
 
 export default function StatsTab({
@@ -29,10 +35,47 @@ export default function StatsTab({
   onStartStats,
   onCalculateStats,
   onCancelStats,
+  onFetchCountryStats,
   onStatsLayerChange,
   onToggleGroup,
   onSetStatsMessage,
 }: StatsTabProps) {
+  // Country selector state
+  const [countries, setCountries] = useState<CountryOption[]>([])
+  const [countriesLoading, setCountriesLoading] = useState(true)
+  const [countryDropdownOpen, setCountryDropdownOpen] = useState(false)
+  const [countrySearch, setCountrySearch] = useState('')
+  const [selectedCountry, setSelectedCountry] = useState<CountryOption | null>(null)
+  const countryDropdownRef = useRef<HTMLDivElement>(null)
+
+  // Fetch countries on mount
+  useEffect(() => {
+    const fetchCountries = async () => {
+      try {
+        const res = await authFetch('/countries', { skipAuth: true })
+        if (!res.ok) throw new Error('Failed to fetch countries')
+        const data = await res.json()
+        setCountries(data)
+      } catch (error) {
+        console.error('Failed to fetch countries:', error)
+      } finally {
+        setCountriesLoading(false)
+      }
+    }
+    fetchCountries()
+  }, [])
+
+  // Close dropdown when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (countryDropdownRef.current && !countryDropdownRef.current.contains(event.target as Node)) {
+        setCountryDropdownOpen(false)
+      }
+    }
+    document.addEventListener('mousedown', handleClickOutside)
+    return () => document.removeEventListener('mousedown', handleClickOutside)
+  }, [])
+
   // Filter layers that have stats capability
   const layersWithStats = allLayers.filter(l => l.hasStats)
 
@@ -40,6 +83,26 @@ export default function StatsTab({
   const MAX_AREA_KM2 = 200_000
   const isPolygonTooLarge = statsPolygonArea > MAX_AREA_KM2
   const canCalculateStats = statsPolygon && statsLayerId && !isPolygonTooLarge && !isCalculatingStats
+
+  // Filter countries by search
+  const filteredCountries = countries.filter(c =>
+    c.name.toLowerCase().includes(countrySearch.toLowerCase())
+  )
+
+  // Handle country selection
+  const handleCountrySelect = (country: CountryOption) => {
+    setSelectedCountry(country)
+    setCountrySearch('')
+    setCountryDropdownOpen(false)
+    if (statsLayerId) {
+      onFetchCountryStats(country.file)
+    }
+  }
+
+  const handleCountryClear = () => {
+    setSelectedCountry(null)
+    setCountrySearch('')
+  }
 
   // Update stats message when polygon changes
   React.useEffect(() => {
@@ -136,10 +199,96 @@ export default function StatsTab({
   return (
     <div className="space-y-3">
       <div className="text-sm text-gray-600">
-        Select a layer, draw a polygon, and calculate land cover statistics.
+        Select a layer, then pick a country or draw a polygon.
       </div>
 
-      {/* Stats Mode Actions - MOVED TO TOP */}
+      {/* Country Selector - always visible when a layer is selected */}
+      {statsLayerId && !statsMode && (
+        <div ref={countryDropdownRef} className="space-y-2">
+          <label className="text-xs font-medium text-gray-500 uppercase tracking-wider">Quick Stats by Country</label>
+          <div className="relative">
+            <button
+              type="button"
+              onClick={() => setCountryDropdownOpen(!countryDropdownOpen)}
+              disabled={countriesLoading || isCalculatingStats}
+              className={`
+                w-full flex items-center justify-between gap-2 px-3 py-2.5 
+                bg-white border border-gray-300 rounded-lg shadow-sm
+                text-sm font-medium text-gray-700
+                ${countriesLoading || isCalculatingStats ? 'opacity-50 cursor-not-allowed' : 'hover:bg-gray-50 cursor-pointer'}
+                transition-colors
+              `}
+            >
+              <div className="flex items-center gap-2">
+                <svg className="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 21v-4m0 0V5a2 2 0 012-2h6.5l1 1H21l-3 6 3 6h-8.5l-1-1H5a2 2 0 00-2 2zm9-13.5V9" />
+                </svg>
+                <span className="truncate">
+                  {countriesLoading ? 'Loading countries...' : selectedCountry ? selectedCountry.name : 'Select a country for instant stats'}
+                </span>
+              </div>
+              <svg 
+                className={`w-4 h-4 text-gray-500 transition-transform ${countryDropdownOpen ? 'rotate-180' : ''}`}
+                fill="none" stroke="currentColor" viewBox="0 0 24 24"
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+
+            {countryDropdownOpen && (
+              <div className="absolute top-full left-0 mt-1 w-full bg-white border border-gray-200 rounded-lg shadow-lg z-[100] max-h-64 overflow-hidden">
+                <div className="p-2 border-b border-gray-200">
+                  <input
+                    type="text"
+                    placeholder="Search country..."
+                    value={countrySearch}
+                    onChange={(e) => setCountrySearch(e.target.value)}
+                    className="w-full px-3 py-1.5 text-sm border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-400 focus:border-transparent"
+                    autoFocus
+                  />
+                </div>
+
+                {selectedCountry && (
+                  <button
+                    onClick={handleCountryClear}
+                    className="w-full px-3 py-2 text-left text-sm text-red-600 hover:bg-red-50 border-b border-gray-200"
+                  >
+                    Clear selection
+                  </button>
+                )}
+
+                <div className="overflow-y-auto max-h-44">
+                  {filteredCountries.length === 0 ? (
+                    <div className="px-3 py-2 text-sm text-gray-500 text-center">No countries found</div>
+                  ) : (
+                    filteredCountries.map((country) => (
+                      <button
+                        key={country.file}
+                        onClick={() => handleCountrySelect(country)}
+                        className={`
+                          w-full px-3 py-2 text-left text-sm hover:bg-gray-100 transition-colors
+                          ${selectedCountry?.file === country.file ? 'bg-gray-100 text-gray-900 font-medium' : 'text-gray-700'}
+                        `}
+                      >
+                        {country.name}
+                      </button>
+                    ))
+                  )}
+                </div>
+              </div>
+            )}
+          </div>
+
+          {/* Divider */}
+          <div className="flex items-center gap-2">
+            <div className="flex-1 border-t border-gray-200" />
+            <span className="text-xs text-gray-400">or</span>
+            <div className="flex-1 border-t border-gray-200" />
+          </div>
+        </div>
+      )}
+
+      {/* Stats Mode Actions */}
       {!statsMode ? (
         <button
           data-tutorial="stats-start-drawing"
@@ -187,7 +336,12 @@ export default function StatsTab({
       {/* Stats Results */}
       {statsResults && (
         <div className="border-t pt-4">
-          <h3 className="font-semibold text-gray-900 mb-3">Results</h3>
+          <div className="flex items-center justify-between mb-3">
+            <h3 className="font-semibold text-gray-900">Results</h3>
+            {selectedCountry && !statsMode && (
+              <span className="text-xs text-gray-500 bg-gray-100 px-2 py-1 rounded-full">{selectedCountry.name}</span>
+            )}
+          </div>
 
           {/* Summary box */}
           <div className="bg-gray-50 rounded-lg p-3 mb-4">

@@ -78,6 +78,7 @@ import aiRoutes from './routes/aiRoutes';
 import sessionRoutes from './routes/sessionRoutes';
 import tutorialRoutes from './routes/tutorialRoutes';
 import imageRoutes from './routes/imageRoutes';
+import statsBatchRoutes from './routes/statsBatchRoutes';
 
 app.use('/api/auth', authRoutes);
 app.use('/api/admin', userRoutes);
@@ -90,6 +91,7 @@ app.use('/api/ai', aiRoutes);
 app.use('/api/sessions', sessionRoutes);
 app.use('/api/users', tutorialRoutes);
 app.use('/api/ai', imageRoutes);
+app.use('/api/stats', statsBatchRoutes);
 
 
 // Health check
@@ -299,6 +301,28 @@ async function initializeDatabase() {
 
     await pool.query(`
       CREATE INDEX IF NOT EXISTS idx_clipped_layers_cache_layer ON clipped_layers_cache(layer_id)
+    `);
+
+    // Create country_stats table
+    await pool.query(`
+      CREATE TABLE IF NOT EXISTS country_stats (
+        id SERIAL PRIMARY KEY,
+        layer_id INTEGER NOT NULL REFERENCES layers(id) ON DELETE CASCADE,
+        country_file VARCHAR(255) NOT NULL,
+        total_area_km2 DOUBLE PRECISION NOT NULL,
+        pixel_size_m DOUBLE PRECISION NOT NULL,
+        class_stats JSONB NOT NULL,
+        computed_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+        UNIQUE(layer_id, country_file)
+      )
+    `);
+
+    await pool.query(`
+      CREATE INDEX IF NOT EXISTS idx_country_stats_country ON country_stats(country_file)
+    `);
+
+    await pool.query(`
+      CREATE INDEX IF NOT EXISTS idx_country_stats_layer ON country_stats(layer_id)
     `);
 
     console.log('Database tables initialized successfully');

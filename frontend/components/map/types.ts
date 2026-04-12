@@ -111,6 +111,7 @@ export interface StatsTabProps {
   onStartStats: () => void
   onCalculateStats: () => void
   onCancelStats: () => void
+  onFetchCountryStats: (countryFile: string) => Promise<void>
   onStatsLayerChange: (layerId: number | null) => void
   onToggleGroup: (groupId: number | string) => void
   onSetStatsMessage: (message: string, isError: boolean) => void

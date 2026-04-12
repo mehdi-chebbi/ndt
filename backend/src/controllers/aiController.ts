@@ -3,7 +3,7 @@ import pool from '../config/database';
 import { aiLogger } from '../utils/logger';
 import path from 'path';
 import fs from 'fs';
-import { spawn } from 'child_process';
+
 
 const SYSTEM_PROMPT = `You are the AI Copilot for AfriGeoData, a geospatial platform for African development data. You have vision capabilities — when a user sends an image, analyze it carefully.
 
@@ -586,83 +586,79 @@ async function calculatePolygonStats(layerName: string, polygon: any): Promise<a
   );
   const allGroups = allGroupsResult.rows;
 
-  // Call Python script for raster processing
-  const scriptPath = path.join(__dirname, '..', '..', 'scripts', 'raster_stats.py');
+  // Call clip-service /stats endpoint instead of spawning python
+  const clipServiceUrl = process.env.CLIP_SERVICE_URL || 'http://clip-service:3005';
+  aiLogger.info('[AI-Stats] Calling clip-service for layer', { layerName, polygonType: polygon.type });
 
-  aiLogger.info('Running stats for layer', { layerName, polygonType: polygon.type });
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), 10 * 60 * 1000); // 10 min
 
-  const pythonProcess = spawn('python3', [scriptPath, '--file', filePath]);
-
-  // Write polygon to stdin
-  const polygonStr = JSON.stringify(polygon);
-  pythonProcess.stdin.write(polygonStr);
-  pythonProcess.stdin.end();
-
-  return new Promise((resolve, reject) => {
-    let outputData = '';
-    let errorData = '';
-
-    pythonProcess.stdout.on('data', (data) => {
-      outputData += data.toString();
+  try {
+    const response = await fetch(`${clipServiceUrl}/stats`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        raster_path: filePath,
+        polygon: polygon
+      }),
+      signal: controller.signal
     });
 
-    pythonProcess.stderr.on('data', (data) => {
-      errorData += data.toString();
-    });
+    clearTimeout(timeout);
 
-    pythonProcess.on('close', (code) => {
-      if (code !== 0) {
-        aiLogger.error('Python script failed:', errorData);
-        reject(new Error(errorData || 'Failed to process raster'));
-        return;
-      }
+    if (!response.ok) {
+      const errorBody = await response.text();
+      aiLogger.error('[AI-Stats] Clip-service error', { status: response.status, body: errorBody });
+      throw new Error(errorBody || `Clip-service returned ${response.status}`);
+    }
 
-      try {
-        const stats = JSON.parse(outputData);
+    const stats = await response.json();
 
-        // Determine legend: use layer-specific legend, otherwise inherit from group
-        const legend = (layer.legend && layer.legend.length > 0)
-          ? layer.legend
-          : findInheritedLegend(layer.group_id, allGroups);
+    // Determine legend: use layer-specific legend, otherwise inherit from group
+    const legend = (layer.legend && layer.legend.length > 0)
+      ? layer.legend
+      : findInheritedLegend(layer.group_id, allGroups);
 
-        // Build color mapping from legend: class_name -> color
-        const colorMapping: { [key: string]: string } = {};
-        if (legend && legend.length > 0) {
-          legend.forEach((item: any) => {
-            if (item.class && item.color) {
-              colorMapping[item.class] = item.color;
-            }
-          });
+    // Build color mapping from legend: class_name -> color
+    const colorMapping: { [key: string]: string } = {};
+    if (legend && legend.length > 0) {
+      legend.forEach((item: any) => {
+        if (item.class && item.color) {
+          colorMapping[item.class] = item.color;
         }
+      });
+    }
 
-        // Calculate percentage for each class
-        const totalPixels = stats.total_pixels;
-        const classesWithPercentage = stats.classes.map((cls: any) => ({
-          class_id: cls.class_id,
-          class_name: classLabels[cls.class_id] || `Unknown (${cls.class_id})`,
-          area_km2: cls.area_km2,
-          percentage: totalPixels > 0 ? Math.round((cls.pixels / totalPixels) * 100 * 10) / 10 : 0,
-          color: colorMapping[classLabels[cls.class_id]] || null
-        }));
+    // Calculate percentage for each class
+    const totalPixels = stats.total_pixels;
+    const classesWithPercentage = stats.classes.map((cls: any) => ({
+      class_id: cls.class_id,
+      class_name: classLabels[cls.class_id] || `Unknown (${cls.class_id})`,
+      area_km2: cls.area_km2,
+      percentage: totalPixels > 0 ? Math.round((cls.pixels / totalPixels) * 100 * 10) / 10 : 0,
+      color: colorMapping[classLabels[cls.class_id]] || null
+    }));
 
-        resolve({
-          layer_name: layerName,
-          total_area_km2: stats.total_area_km2,
-          pixel_size_m: stats.pixel_size_m,
-          classes: classesWithPercentage,
-          legend: legend || null
-        });
-      } catch (parseError) {
-        aiLogger.error('Failed to parse Python output:', outputData);
-        reject(new Error('Failed to parse stats result'));
-      }
-    });
+    aiLogger.info('[AI-Stats] Success', { layerName, classCount: classesWithPercentage.length, totalArea: stats.total_area_km2 });
 
-    pythonProcess.on('error', (err) => {
-      aiLogger.error('Failed to start Python process:', err.message);
-      reject(new Error('Failed to start statistics computation'));
-    });
-  });
+    return {
+      layer_name: layerName,
+      total_area_km2: stats.total_area_km2,
+      pixel_size_m: stats.pixel_size_m,
+      classes: classesWithPercentage,
+      legend: legend || null
+    };
+
+  } catch (error: any) {
+    clearTimeout(timeout);
+
+    if (error.name === 'AbortError') {
+      aiLogger.error('[AI-Stats] Clip-service request timed out');
+      throw new Error('Stats computation timed out');
+    }
+
+    throw error;
+  }
 }
 
 // ── Helper: Extract location from polygon bounds ──

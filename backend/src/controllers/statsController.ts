@@ -1,18 +1,17 @@
 import { Response, AuthRequest } from 'express';
 import pool from '../config/database';
-import { spawn } from 'child_process';
 import path from 'path';
+
+const CLIP_SERVICE_URL = process.env.CLIP_SERVICE_URL || 'http://clip-service:3005';
+const STATS_TIMEOUT = 10 * 60 * 1000; // 10 minutes
 
 // Helper function to count coordinates in a polygon
 function countPolygonCoordinates(polygon: any): number {
   if (!polygon || !polygon.coordinates) return 0;
 
   if (polygon.type === 'Polygon') {
-    // Polygon: coordinates is [rings], where rings is [positions]
-    // Sum all positions across all rings
     return polygon.coordinates.reduce((sum: number, ring: any) => sum + ring.length, 0);
   } else if (polygon.type === 'MultiPolygon') {
-    // MultiPolygon: coordinates is [polygons], where polygons is [rings], where rings is [positions]
     return polygon.coordinates.reduce((sum: number, poly: any) => {
       return sum + poly.reduce((polySum: number, ring: any) => polySum + ring.length, 0);
     }, 0);
@@ -61,90 +60,74 @@ export const getStatsForPolygon = async (req: AuthRequest, res: Response) => {
       });
     }
 
-    // Call Python script for raster processing
-    const scriptPath = path.join(__dirname, '..', '..', 'scripts', 'raster_stats.py');
+    // Call clip-service /stats endpoint instead of spawning python
+    console.log(`[Stats] Calling clip-service for layer: ${layer_name} | polygon type: ${polygon.type} | coordinates: ${countPolygonCoordinates(polygon)}`);
 
-    console.log('Running stats for layer:', layer_name, '| polygon type:', polygon.type, '| coordinates:', countPolygonCoordinates(polygon));
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), STATS_TIMEOUT);
 
-    const pythonProcess = spawn('python3', [
-      scriptPath,
-      '--file', filePath,
-    ]);
+    try {
+      const response = await fetch(`${CLIP_SERVICE_URL}/stats`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          raster_path: filePath,
+          polygon: polygon
+        }),
+        signal: controller.signal
+      });
 
-    // Log polygon JSON size before writing to stdin
-    const polygonStr = JSON.stringify(polygon);
-    console.log('Polygon JSON size (bytes):', Buffer.byteLength(polygonStr, 'utf8'));
+      clearTimeout(timeout);
 
-    // Write polygon to stdin with error handling
-    pythonProcess.stdin.write(polygonStr);
-    pythonProcess.stdin.end();
-
-    pythonProcess.stdin.on('error', (err) => {
-      console.error('stdin write error:', err.message);
-    });
-
-    // Handle process spawn errors
-    pythonProcess.on('error', (err) => {
-      console.error('Failed to start Python process:', err.message);
-      console.error('Error code:', (err as any).code);
-    });
-
-    let outputData = '';
-    let errorData = '';
-
-    pythonProcess.stdout.on('data', (data) => {
-      outputData += data.toString();
-    });
-
-    pythonProcess.stderr.on('data', (data) => {
-      errorData += data.toString();
-    });
-
-    pythonProcess.on('close', (code, signal) => {
-      // Log if process was killed by a signal
-      if (signal) {
-        console.error('Python process killed by signal:', signal);
-      }
-
-      if (code !== 0) {
-        console.error('Python script failed with code:', code);
-        console.error('File path:', filePath);
-        console.error('Polygon type:', polygon.type);
-        console.error('Polygon coordinate count:', countPolygonCoordinates(polygon));
-        console.error('Stderr:', errorData);
-        console.error('Stdout:', outputData);
-        return res.status(500).json({
+      if (!response.ok) {
+        const errorBody = await response.text();
+        console.error(`[Stats] Clip-service error: ${response.status} - ${errorBody}`);
+        return res.status(response.status).json({
           error: 'Failed to process raster',
-          details: errorData || outputData || 'No output from Python script'
+          details: errorBody || `Clip-service returned ${response.status}`
         });
       }
 
-      try {
-        const stats = JSON.parse(outputData);
+      const stats = await response.json();
 
-        // Calculate percentage for each class
-        const totalPixels = stats.total_pixels;
-        const classesWithPercentage = stats.classes.map((cls: any) => ({
-          class_id: cls.class_id,
-          class_name: classLabels[cls.class_id] || `Unknown (${cls.class_id})`,
-          area_km2: cls.area_km2,
-          percentage: totalPixels > 0 ? Math.round((cls.pixels / totalPixels) * 100 * 10) / 10 : 0
-        }));
+      // Calculate percentage for each class
+      const totalPixels = stats.total_pixels;
+      const classesWithPercentage = stats.classes.map((cls: any) => ({
+        class_id: cls.class_id,
+        class_name: classLabels[cls.class_id] || `Unknown (${cls.class_id})`,
+        area_km2: cls.area_km2,
+        percentage: totalPixels > 0 ? Math.round((cls.pixels / totalPixels) * 100 * 10) / 10 : 0
+      }));
 
-        res.status(200).json({
-          layer_name,
-          total_area_km2: stats.total_area_km2,
-          pixel_size_m: stats.pixel_size_m,
-          classes: classesWithPercentage
+      console.log(`[Stats] Success: ${classesWithPercentage.length} classes, ${stats.total_area_km2} km2 total`);
+
+      res.status(200).json({
+        layer_name,
+        total_area_km2: stats.total_area_km2,
+        pixel_size_m: stats.pixel_size_m,
+        classes: classesWithPercentage
+      });
+
+    } catch (fetchError: any) {
+      clearTimeout(timeout);
+
+      if (fetchError.name === 'AbortError') {
+        console.error('[Stats] Clip-service request timed out after', STATS_TIMEOUT / 1000, 'seconds');
+        return res.status(504).json({
+          error: 'Stats computation timed out',
+          details: 'The raster processing took too long. Try a smaller area.'
         });
-      } catch (parseError) {
-        console.error('Failed to parse Python output:', outputData);
-        res.status(500).json({ error: 'Failed to parse stats result' });
       }
-    });
+
+      console.error('[Stats] Failed to reach clip-service:', fetchError.message);
+      return res.status(502).json({
+        error: 'Failed to connect to raster processing service',
+        details: fetchError.message
+      });
+    }
 
   } catch (error: any) {
-    console.error('Get stats error:', error);
+    console.error('[Stats] Get stats error:', error);
     res.status(500).json({ error: 'Internal server error' });
   }
 };

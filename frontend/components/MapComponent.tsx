@@ -405,6 +405,7 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
     handleStartStats,
     handleCalculateStats,
     handleCancelStats,
+    handleFetchCountryStats,
     handleStartAIAnalysis,
     handleAnalyzeArea,
     handleCancelAIAnalysis,
@@ -767,6 +768,7 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
                 onStartStats={handleStartStats}
                 onCalculateStats={handleCalculateStats}
                 onCancelStats={handleCancelStats}
+                onFetchCountryStats={handleFetchCountryStats}
                 onStatsLayerChange={state.setStatsLayerId}
                 onToggleGroup={handleToggleGroup}
                 onSetStatsMessage={handleSetStatsMessage}

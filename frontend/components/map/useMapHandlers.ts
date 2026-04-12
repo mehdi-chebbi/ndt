@@ -82,6 +82,7 @@ interface UseMapHandlersReturn {
   handleStartStats: () => void
   handleCalculateStats: () => Promise<void>
   handleCancelStats: () => void
+  handleFetchCountryStats: (countryFile: string) => Promise<void>
   handleStartAIAnalysis: () => void
   handleAnalyzeArea: () => Promise<void>
   handleCancelAIAnalysis: () => void
@@ -547,6 +548,44 @@ export function useMapHandlers(props: UseMapHandlersProps): UseMapHandlersReturn
     clearDrawnItems,
   ])
 
+  // Fetch pre-calculated country stats
+  const handleFetchCountryStats = useCallback(async (countryFile: string) => {
+    if (!statsLayerId) {
+      setStatsError('Please select a layer first')
+      return
+    }
+
+    const layerConfig = allLayers.find(l => l.id === statsLayerId)
+    if (!layerConfig) {
+      setStatsError('Layer not found')
+      return
+    }
+
+    setIsCalculatingStats(true)
+    setStatsError('')
+    setStatsResults(null)
+
+    try {
+      const response = await api.get(`/stats/country/${countryFile}/layer/${statsLayerId}`)
+      const data = await response.json()
+
+      if (!response.ok) {
+        throw new Error(data.error || data.message || 'Stats not available for this country')
+      }
+
+      setStatsResults({
+        layer_name: layerConfig.geoserver_name,
+        total_area_km2: data.total_area_km2,
+        pixel_size_m: data.pixel_size_m,
+        classes: data.classes,
+      })
+    } catch (err: any) {
+      setStatsError(err.message)
+    } finally {
+      setIsCalculatingStats(false)
+    }
+  }, [statsLayerId, allLayers, setStatsError, setIsCalculatingStats, setStatsResults])
+
   return {
     handleToggleGroup,
     handleClearDrawings,
@@ -556,6 +595,7 @@ export function useMapHandlers(props: UseMapHandlersProps): UseMapHandlersReturn
     handleStartStats,
     handleCalculateStats,
     handleCancelStats,
+    handleFetchCountryStats,
     handleStartAIAnalysis,
     handleAnalyzeArea,
     handleCancelAIAnalysis,

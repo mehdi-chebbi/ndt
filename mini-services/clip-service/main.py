@@ -4,7 +4,9 @@ Cuts raster files to GeoJSON polygon boundaries using GDAL and publishes to GeoS
 """
 
 import os
+import json
 import uuid
+import math
 import asyncio
 import logging
 import requests
@@ -13,6 +15,12 @@ from subprocess import run, CalledProcessError
 from fastapi import FastAPI, HTTPException, BackgroundTasks
 from pydantic import BaseModel
 from pathlib import Path
+import rasterio
+from rasterio.windows import from_bounds, Window
+from rasterio.features import geometry_mask
+import numpy as np
+from shapely.geometry import shape
+from shapely.ops import unary_union
 
 # Configure logging
 logging.basicConfig(
@@ -55,6 +63,12 @@ class ClipResponse(BaseModel):
     message: str
 
 
+class StatsRequest(BaseModel):
+    raster_path: str
+    polygon: Optional[dict] = None  # GeoJSON (for user-drawn polygons)
+    geojson_path: Optional[str] = None  # Path to GeoJSON file (for country files, avoids sending large payloads)
+
+
 # -----------------------------
 # HELPER FUNCTIONS
 # -----------------------------
@@ -72,6 +86,235 @@ def generate_output_layer_name(country_name: str, original_layer: str) -> str:
     sanitized_country = sanitize_filename(country_name)
     unique_id = uuid.uuid4().hex[:8]
     return f"clip_{sanitized_country}_{original_layer}_{unique_id}"
+
+
+def extract_geometry(geojson: dict):
+    """
+    Extract a shapely geometry from any GeoJSON type:
+    FeatureCollection -> union of all feature geometries
+    Feature -> feature geometry
+    Geometry -> direct shape
+    """
+    geo_type = geojson.get('type', '')
+
+    if geo_type == 'FeatureCollection':
+        features = geojson.get('features', [])
+        if not features:
+            raise ValueError('FeatureCollection has no features')
+        geometries = []
+        for feat in features:
+            geom = feat.get('geometry')
+            if geom:
+                geometries.append(shape(geom))
+        if not geometries:
+            raise ValueError('FeatureCollection has no geometries')
+        return unary_union(geometries)
+
+    elif geo_type == 'Feature':
+        geom = geojson.get('geometry')
+        if not geom:
+            raise ValueError('Feature has no geometry')
+        return shape(geom)
+
+    else:
+        return shape(geojson)
+
+
+def count_geojson_vertices(geojson: dict) -> int:
+    """Count total coordinate vertices in any GeoJSON type."""
+    geo_type = geojson.get('type', '')
+    total = 0
+
+    def count_geom(coords, geom_type):
+        if geom_type in ('Point',):
+            return 1
+        elif geom_type in ('LineString', 'MultiPoint'):
+            return len(coords)
+        elif geom_type == 'Polygon' or geom_type == 'MultiLineString':
+            return sum(len(ring) for ring in coords)
+        elif geom_type == 'MultiPolygon':
+            return sum(len(ring) for poly in coords for ring in poly)
+        return 0
+
+    if geo_type == 'FeatureCollection':
+        for feat in geojson.get('features', []):
+            g = feat.get('geometry', {})
+            total += count_geom(g.get('coordinates', []), g.get('type', ''))
+    elif geo_type == 'Feature':
+        g = geojson.get('geometry', {})
+        total = count_geom(g.get('coordinates', []), g.get('type', ''))
+    else:
+        total = count_geom(geojson.get('coordinates', []), geo_type)
+
+    return total
+
+
+def calculate_raster_stats(raster_path: str, polygon_geojson: dict) -> dict:
+    """
+    Calculate pixel statistics for a raster clipped to a polygon.
+    Uses tiled processing (4096x4096 tiles) to stay within memory limits.
+    Proven: ~950 MB peak for Algeria vs ~21 GB with full-window loading.
+
+    Handles any GeoJSON type: FeatureCollection, Feature, or direct Geometry.
+
+    Returns dict with: total_pixels, total_area_km2, pixel_size_m, classes
+    """
+    import gc
+    import time as _time
+
+    TILE_SIZE = 4096
+    _t0 = _time.time()
+
+    polygon = extract_geometry(polygon_geojson)
+
+    with rasterio.open(raster_path) as src:
+        pixel_size_deg = src.res
+        poly_bounds = polygon.bounds
+        center_lat = (poly_bounds[1] + poly_bounds[3]) / 2
+
+        pixel_height_m = pixel_size_deg[1] * 111320
+        pixel_width_m = pixel_size_deg[0] * 111320 * math.cos(math.radians(center_lat))
+        pixel_area_ha = (pixel_width_m * pixel_height_m) / 10000
+
+        raster_bounds = src.bounds
+        clamped_bounds = (
+            max(poly_bounds[0], raster_bounds.left),
+            max(poly_bounds[1], raster_bounds.bottom),
+            min(poly_bounds[2], raster_bounds.right),
+            min(poly_bounds[3], raster_bounds.top),
+        )
+
+        if clamped_bounds[0] >= clamped_bounds[2] or clamped_bounds[1] >= clamped_bounds[3]:
+            logger.info(f"Polygon does not intersect raster bounds: {raster_path}")
+            return {
+                'total_pixels': 0,
+                'total_area_km2': 0,
+                'pixel_size_m': round((pixel_width_m + pixel_height_m) / 2, 1),
+                'classes': []
+            }
+
+        # Get the full intersection window (in raster pixel coordinates)
+        full_window = from_bounds(
+            clamped_bounds[0], clamped_bounds[1], clamped_bounds[2], clamped_bounds[3],
+            src.transform
+        )
+
+        nodata = src.nodata if src.nodata is not None else 255
+
+        # Accumulate class counts across all tiles
+        class_counts: dict[int, int] = {}
+        total_pixels = 0
+        tiles_processed = 0
+        tiles_skipped = 0
+
+        # Iterate over the full window in TILE_SIZE chunks
+        # Cast to int: rasterio Window dimensions can be numpy.float64
+        win_h = int(full_window.height)
+        win_w = int(full_window.width)
+        for row_off in range(0, win_h, TILE_SIZE):
+            for col_off in range(0, win_w, TILE_SIZE):
+                tile_h = min(TILE_SIZE, win_h - row_off)
+                tile_w = min(TILE_SIZE, win_w - col_off)
+
+                # Tile window in raster pixel coordinates
+                tile_window = Window(
+                    col_off=full_window.col_off + col_off,
+                    row_off=full_window.row_off + row_off,
+                    width=tile_w,
+                    height=tile_h
+                )
+
+                tile_data = src.read(1, window=tile_window)
+
+                # Skip tiles that are entirely nodata
+                if tile_data.size == 0 or np.all(tile_data == nodata):
+                    tiles_skipped += 1
+                    del tile_data
+                    continue
+
+                tile_transform = src.window_transform(tile_window)
+
+                try:
+                    mask = geometry_mask(
+                        [polygon],
+                        transform=tile_transform,
+                        invert=True,
+                        out_shape=(tile_h, tile_w),
+                        all_touched=True
+                    )
+                except Exception:
+                    # Tile doesn't intersect the polygon geometry
+                    tiles_skipped += 1
+                    del tile_data
+                    continue
+
+                # Skip tiles where mask is entirely False (no polygon overlap)
+                if not np.any(mask):
+                    tiles_skipped += 1
+                    del tile_data, mask
+                    continue
+
+                # Extract valid pixels: inside polygon AND not nodata
+                valid = mask & (tile_data != nodata)
+                valid_data = tile_data[valid]
+
+                if len(valid_data) == 0:
+                    tiles_skipped += 1
+                    del tile_data, mask, valid, valid_data
+                    continue
+
+                # Count classes in this tile and accumulate
+                unique, counts = np.unique(valid_data, return_counts=True)
+                for cls_id, cnt in zip(unique.tolist(), counts.tolist()):
+                    class_counts[cls_id] = class_counts.get(cls_id, 0) + cnt
+                    total_pixels += cnt
+
+                tiles_processed += 1
+
+                # Explicit cleanup to keep memory low
+                del tile_data, mask, valid, valid_data, unique, counts
+
+            # Periodic GC every row of tiles to release memory back to OS
+            gc.collect()
+
+    elapsed = _time.time() - _t0
+
+    if total_pixels == 0:
+        logger.info(f"No valid pixels found in polygon area for: {raster_path}")
+        return {
+            'total_pixels': 0,
+            'total_area_km2': 0,
+            'pixel_size_m': round((pixel_width_m + pixel_height_m) / 2, 1),
+            'classes': []
+        }
+
+    # Build sorted classes list
+    classes = []
+    total_area_ha = 0
+    for class_id in sorted(class_counts.keys()):
+        pixel_count = class_counts[class_id]
+        area_ha = pixel_count * pixel_area_ha
+        area_km2 = area_ha / 100
+        classes.append({
+            'class_id': class_id,
+            'pixels': pixel_count,
+            'area_km2': round(area_km2, 2)
+        })
+        total_area_ha += area_ha
+
+    logger.info(
+        f"Stats computed: {len(classes)} classes, {total_pixels} total pixels, "
+        f"{round(total_area_ha / 100, 2)} km2 total area | "
+        f"tiles: {tiles_processed} processed, {tiles_skipped} skipped | "
+        f"{elapsed:.2f}s"
+    )
+
+    return {
+        'total_pixels': total_pixels,
+        'total_area_km2': round(total_area_ha / 100, 2),
+        'pixel_size_m': round((pixel_width_m + pixel_height_m) / 2, 1),
+        'classes': classes
+    }
 
 
 def run_gdalwarp(geojson_path: str, raster_path: str, output_path: str, num_threads: int = None) -> bool:
@@ -273,6 +516,73 @@ async def clip_layer(request: ClipRequest):
         raise HTTPException(
             status_code=500,
             detail=f"Internal server error: {str(e)}"
+        )
+
+
+@app.post("/stats")
+async def compute_stats(request: StatsRequest):
+    """
+    Calculate raster statistics for a polygon area.
+
+    Two modes:
+    - polygon: GeoJSON dict in body (for user-drawn polygons, small)
+    - geojson_path: file path on disk (for country GeoJSONs, large)
+    """
+    import time
+    start_time = time.time()
+
+    raster_path = Path(request.raster_path)
+
+    if not raster_path.exists():
+        logger.error(f"Raster file not found: {request.raster_path}")
+        raise HTTPException(
+            status_code=404,
+            detail=f"Raster file not found: {request.raster_path}"
+        )
+
+    # Load polygon: from file path or from body
+    if request.geojson_path:
+        geojson_file = Path(request.geojson_path)
+        if not geojson_file.exists():
+            logger.error(f"GeoJSON file not found: {request.geojson_path}")
+            raise HTTPException(
+                status_code=404,
+                detail=f"GeoJSON file not found: {request.geojson_path}"
+            )
+        logger.info(f"[STATS] Reading GeoJSON from file: {request.geojson_path}")
+        with open(geojson_file, 'r') as f:
+            polygon = json.load(f)
+    elif request.polygon:
+        polygon = request.polygon
+    else:
+        raise HTTPException(
+            status_code=400,
+            detail="Either 'polygon' or 'geojson_path' must be provided"
+        )
+
+    polygon_type = polygon.get('type', 'unknown')
+    coord_count = count_geojson_vertices(polygon)
+    logger.info(f"[STATS] Starting computation for raster: {request.raster_path} | polygon type: {polygon_type} | coordinate count: {coord_count}")
+
+    try:
+        result = await asyncio.to_thread(
+            calculate_raster_stats,
+            raster_path=str(raster_path),
+            polygon_geojson=polygon
+        )
+
+        elapsed = time.time() - start_time
+        logger.info(f"[STATS] Computation completed in {elapsed:.2f}s | raster: {request.raster_path} | classes: {len(result['classes'])} | total_area: {result['total_area_km2']} km2")
+
+        return result
+
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error(f"[STATS] Error computing stats: {str(e)}", exc_info=True)
+        raise HTTPException(
+            status_code=500,
+            detail=f"Stats computation failed: {str(e)}"
         )
 
 
