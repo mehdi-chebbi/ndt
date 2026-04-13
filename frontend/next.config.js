@@ -1,12 +1,14 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'standalone',
+  compress: false,
   async rewrites() {
     return [
       {
-        // Exclude /api/clip/* from rewrites - these are handled by Route Handler
-        // with custom timeout to support long-running clipping operations
-        source: '/api/:path((?!clip/).*)*',
+        // Exclude /api/clip/* and /api/ai/* from rewrites — handled by Route Handlers
+        // clip: custom timeout for long-running clipping operations
+        // ai: bypass buffering so SSE streams work in real-time
+        source: '/api/:path((?!clip/|ai/).*)*',
         destination: 'http://backend:3001/api/:path*',
       },
       {

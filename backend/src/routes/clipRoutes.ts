@@ -12,6 +12,9 @@ const GEOSERVER_WMS_URL = process.env.GEOSERVER_WMS_URL || 'http://geoserver:808
 const GEOSERVER_USER = process.env.GEOSERVER_USER || 'admin';
 const GEOSERVER_PASSWORD = process.env.GEOSERVER_PASSWORD || 'geoserver';
 
+// Clip service configuration
+const CLIP_SERVICE_URL = process.env.CLIP_SERVICE_URL || 'http://clip-service:3005';
+
 // Create Basic Auth header
 const GEOSERVER_AUTH = 'Basic ' + Buffer.from(`${GEOSERVER_USER}:${GEOSERVER_PASSWORD}`).toString('base64');
 
@@ -97,9 +100,10 @@ async function fetchLayersFromGeoServer(): Promise<any[]> {
     const layersListData = await layersListResponse.json();
     const layersList = layersListData.layers?.layer || [];
 
-    // Filter out clipped layers (those starting with "clip_")
+    // Filter out clipped layers (those starting with "clip_" after workspace prefix)
     const filteredLayersList = layersList.filter((layerItem: any) => {
-      const layerName = layerItem.name || '';
+      const fullName = layerItem.name || '';
+      const layerName = fullName.includes(':') ? fullName.split(':')[1] : fullName;
       return !layerName.startsWith('clip_');
     });
 
@@ -530,7 +534,7 @@ router.get('/batch-status', async (req: Request, res: Response) => {
       FROM layers
       WHERE file_path IS NOT NULL
         AND file_path != ''
-        AND NOT geoserver_name LIKE 'clip_%'
+        AND NOT geoserver_name LIKE '%:clip_%'
       ORDER BY display_name ASC NULLS LAST, geoserver_name ASC
     `);
 
@@ -904,14 +908,33 @@ router.delete('/clipped-layer', async (req: Request, res: Response) => {
 
     console.log(`[Delete Clip] DB cache deleted for ${countryName}`);
 
+    // Delete the physical .tif file from the shared PVC via clip-service
+    let fileResult: any = null;
+    try {
+      const fileRes = await fetch(`${CLIP_SERVICE_URL}/clip/file`, {
+        method: 'DELETE',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ clipped_layer_name: clipped_layer_name }),
+      });
+      fileResult = await fileRes.json();
+      if (fileResult.status === 'success') {
+        console.log(`[Delete Clip] Physical file deleted: ${fileResult.deleted}`);
+      } else {
+        console.warn(`[Delete Clip] File cleanup: ${fileResult.status} — ${fileResult.message}`);
+      }
+    } catch (err: any) {
+      console.warn(`[Delete Clip] File cleanup failed (non-critical): ${err.message}`);
+    }
+
     if (!geoResult.success) {
-      // GeoServer cleanup failed but DB is clean
+      // GeoServer cleanup failed but DB and file are clean
       console.warn(`[Delete Clip] GeoServer cleanup warning for ${countryName}: ${geoResult.error}`);
       return res.json({
         status: 'partial',
-        message: `Database record deleted for ${countryName}, but GeoServer cleanup had issues: ${geoResult.error}`,
+        message: `Database record and file deleted for ${countryName}, but GeoServer cleanup had issues: ${geoResult.error}`,
         countryName,
         geoserverError: geoResult.error,
+        fileCleanup: fileResult?.status,
       });
     }
 
@@ -982,6 +1005,21 @@ router.delete('/batch-delete', async (req: Request, res: Response) => {
     await pool.query('DELETE FROM clipped_layers_cache WHERE layer_id = $1', [layerId]);
     console.log(`[Batch Delete] DB cache cleared for layer ${layerId}`);
 
+    // Delete all physical .tif files from the shared PVC via clip-service
+    const clippedLayerNames = entries.map((e: any) => e.clipped_layer_name);
+ let fileResult: any = null;
+    try {
+      const fileRes = await fetch(`${CLIP_SERVICE_URL}/clip/files`, {
+        method: 'DELETE',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ clipped_layer_names: clippedLayerNames }),
+      });
+      fileResult = await fileRes.json();
+      console.log(`[Batch Delete] File cleanup: ${fileResult.deleted?.length || 0} deleted, ${fileResult.not_found?.length || 0} not found, ${fileResult.failed?.length || 0} failed`);
+    } catch (err: any) {
+      console.warn(`[Batch Delete] File cleanup failed (non-critical): ${err.message}`);
+    }
+
     res.json({
       status: failedCount === 0 ? 'success' : 'partial',
       message: failedCount === 0
@@ -991,6 +1029,11 @@ router.delete('/batch-delete', async (req: Request, res: Response) => {
       deleted: deletedCount,
       failed: failedCount,
       failures: failures.length > 0 ? failures : undefined,
+      fileCleanup: fileResult ? {
+        deleted: fileResult.deleted?.length || 0,
+        notFound: fileResult.not_found?.length || 0,
+        failed: fileResult.failed?.length || 0,
+      } : undefined,
     });
   } catch (error: any) {
     console.error('[Batch Delete] Error:', error);

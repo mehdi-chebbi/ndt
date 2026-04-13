@@ -44,7 +44,15 @@ GEOSERVER_URL = os.getenv("GEOSERVER_URL", "http://geoserver:8080/geoserver")
 GEOSERVER_REST_URL = f"{GEOSERVER_URL}/rest"
 GEOSERVER_USER = os.getenv("GEOSERVER_USER", "admin")
 GEOSERVER_PASSWORD = os.getenv("GEOSERVER_PASSWORD", "geoserver")
-OUTPUT_DIR = os.getenv("OUTPUT_DIR", "/tmp/clipped")
+
+# Clipped raster storage — both clip-service and GeoServer mount the same PVC
+# clip-service writes here, GeoServer reads from GEOSERVER_FILE_BASE
+OUTPUT_DIR = os.getenv("OUTPUT_DIR", "/data/clipped-rasters")
+
+# Path where GeoServer sees the shared PVC (may differ from OUTPUT_DIR)
+# Used to build the file:// URL that GeoServer references
+GEOSERVER_FILE_BASE = os.getenv("GEOSERVER_FILE_BASE", "/opt/clipped-rasters")
+
 GEOJSON_DIR = os.getenv("GEOJSON_DIR", "/app/geojson")
 
 # Database configuration
@@ -226,8 +234,13 @@ job_tracker = JobTracker()
 # HELPER FUNCTIONS
 # -----------------------------
 def sanitize_filename(name: str) -> str:
-    """Replace spaces and special characters with underscores"""
-    return name.replace(" ", "_").replace("-", "_").replace("(", "").replace(")", "")
+    """Replace spaces, special characters, and accented chars with safe ASCII equivalents."""
+    import unicodedata
+    # Normalize unicode: decompose accented chars (e.g. ô → o + combining accent), then strip combining marks
+    normalized = unicodedata.normalize('NFD', name)
+    ascii_name = ''.join(c for c in normalized if unicodedata.category(c) != 'Mn')
+    # Replace problematic characters with underscores
+    return ascii_name.replace(" ", "_").replace("'", "_").replace("-", "_").replace("(", "").replace(")", "")
 
 
 def generate_output_layer_name(country_name: str, original_layer: str) -> str:
@@ -510,25 +523,39 @@ def publish_to_geoserver(
     layer_id: str
 ) -> bool:
     """
-    Publish clipped GeoTIFF to GeoServer via REST API
+    Publish clipped GeoTIFF to GeoServer via REST API.
+    Uses external file reference (file:// URL) so GeoServer reads directly
+    from the shared PVC — no file copy into GeoServer's data dir.
     """
-    publish_url = f"{GEOSERVER_REST_URL}/workspaces/{workspace}/coveragestores/{layer_id}/file.geotiff?configure=all"
+    # Convert clip-service path to GeoServer's view of the same file
+    # e.g. /data/clipped-rasters/Landcover/clip_xxx.tif → /opt/clipped-rasters/Landcover/clip_xxx.tif
+    try:
+        geoserver_tif_path = tif_path.replace(OUTPUT_DIR, GEOSERVER_FILE_BASE, 1)
+    except ValueError:
+        # If OUTPUT_DIR is not a prefix of tif_path, try direct replacement
+        geoserver_tif_path = tif_path
+    file_url = f"file://{geoserver_tif_path}"
 
-    logger.info(f"Publishing to GeoServer: {publish_url}")
+    logger.info(f"Publishing to GeoServer (external ref): {file_url}")
 
-    with open(tif_path, "rb") as f:
-        response = requests.put(
-            publish_url,
-            data=f,
-            auth=(GEOSERVER_USER, GEOSERVER_PASSWORD),
-            headers={"Content-type": "image/tiff"}
-        )
+    # Use external.geotiff to reference file without copying
+    publish_url = (
+        f"{GEOSERVER_REST_URL}/workspaces/{workspace}"
+        f"/coveragestores/{layer_id}/external.geotiff?configure=all"
+    )
 
-    if response.status_code not in [200, 201]:
+    response = requests.put(
+        publish_url,
+        data=file_url,
+        auth=(GEOSERVER_USER, GEOSERVER_PASSWORD),
+        headers={"Content-Type": "text/plain"}
+    )
+
+    if response.status_code not in [200, 201, 202]:
         logger.error(f"GeoServer publish failed: {response.status_code} - {response.text}")
         raise RuntimeError(f"GeoServer publish failed: {response.text}")
 
-    logger.info(f"Successfully published to GeoServer: {workspace}:{layer_id}")
+    logger.info(f"Successfully published to GeoServer (external ref): {workspace}:{layer_id}")
     return True
 
 
@@ -809,6 +836,128 @@ async def list_jobs():
     # Cleanup old completed/failed jobs
     job_tracker.cleanup_old_jobs()
     return {"jobs": job_tracker.get_all_jobs()}
+
+
+# -----------------------------
+# FILE DELETION ENDPOINTS
+# -----------------------------
+# These are called by the backend after unpublishing from GeoServer catalog.
+# They remove the physical .tif files from the shared PVC.
+
+def find_clipped_file(clipped_layer_name: str) -> Optional[str]:
+    """
+    Find the physical .tif file on disk for a given clipped layer name.
+    Searches OUTPUT_DIR subdirectories for a file matching the clip ID.
+    
+    clipped_layer_name format: "workspace:clip_CountryName_LayerName_uuid"
+    Returns the full path to the .tif file, or None if not found.
+    """
+    # Extract the clip ID (everything after the colon)
+    if ':' in clipped_layer_name:
+        clip_id = clipped_layer_name.split(':', 1)[1]
+    else:
+        clip_id = clipped_layer_name
+
+    target_filename = f"{clip_id}.tif"
+    logger.info(f"Searching for file: {target_filename} in {OUTPUT_DIR}")
+
+    # Walk OUTPUT_DIR to find the file
+    if not os.path.exists(OUTPUT_DIR):
+        logger.warning(f"OUTPUT_DIR does not exist: {OUTPUT_DIR}")
+        return None
+
+    for root, dirs, files in os.walk(OUTPUT_DIR):
+        if target_filename in files:
+            return os.path.join(root, target_filename)
+
+    logger.warning(f"File not found for {clipped_layer_name}: {target_filename}")
+    return None
+
+
+class DeleteFileRequest(BaseModel):
+    clipped_layer_name: str
+
+
+class DeleteFilesRequest(BaseModel):
+    clipped_layer_names: list[str]
+
+
+@app.delete("/clip/file")
+async def delete_clipped_file(request: DeleteFileRequest):
+    """
+    Delete a single physical clipped .tif file from the shared PVC.
+    Called by the backend after unpublishing from GeoServer catalog.
+    """
+    file_path = find_clipped_file(request.clipped_layer_name)
+
+    if not file_path:
+        logger.warning(f"File not found, skipping delete for: {request.clipped_layer_name}")
+        return {"status": "not_found", "message": f"File not found for {request.clipped_layer_name}"}
+
+    try:
+        os.remove(file_path)
+        file_size = os.path.getsize(file_path) if os.path.exists(file_path) else 0
+        logger.info(f"Deleted clipped file: {file_path}")
+
+        # Try to clean up empty subdirectories
+        parent_dir = os.path.dirname(file_path)
+        try:
+            if os.path.exists(parent_dir) and not os.listdir(parent_dir):
+                os.rmdir(parent_dir)
+                logger.info(f"Removed empty directory: {parent_dir}")
+        except OSError:
+            pass
+
+        return {"status": "success", "deleted": file_path, "clipped_layer_name": request.clipped_layer_name}
+
+    except OSError as e:
+        logger.error(f"Failed to delete file {file_path}: {e}")
+        raise HTTPException(status_code=500, detail=f"Failed to delete file: {e}")
+
+
+@app.delete("/clip/files")
+async def delete_clipped_files(request: DeleteFilesRequest):
+    """
+    Delete multiple physical clipped .tif files from the shared PVC.
+    Called by the backend during batch-delete operations.
+    """
+    deleted = []
+    not_found = []
+    failed = []
+
+    for name in request.clipped_layer_names:
+        file_path = find_clipped_file(name)
+        if not file_path:
+            not_found.append(name)
+            continue
+
+        try:
+            os.remove(file_path)
+            deleted.append({"clipped_layer_name": name, "path": file_path})
+
+            # Try to clean up empty subdirectories
+            parent_dir = os.path.dirname(file_path)
+            try:
+                if os.path.exists(parent_dir) and not os.listdir(parent_dir):
+                    os.rmdir(parent_dir)
+            except OSError:
+                pass
+
+        except OSError as e:
+            logger.error(f"Failed to delete {file_path}: {e}")
+            failed.append({"clipped_layer_name": name, "error": str(e)})
+
+    logger.info(
+        f"Batch file delete: {len(deleted)} deleted, {len(not_found)} not found, {len(failed)} failed"
+    )
+
+    return {
+        "status": "success" if len(failed) == 0 else "partial",
+        "deleted": deleted,
+        "not_found": not_found,
+        "failed": failed if failed else None,
+        "total": len(request.clipped_layer_names),
+    }
 
 
 @app.post("/stats")

@@ -59,6 +59,11 @@ spec:
           volumeMounts:
             - name: geoserver-storage
               mountPath: /opt/geoserver/data_dir
+            # Shared PVC for clipped raster output (read-only — GeoServer references via file:// URL)
+            - name: clipped-rasters
+              mountPath: /opt/clipped-rasters
+              readOnly: true
+            # Source rasters (read-only)
             - name: geoserver-data
               mountPath: /data
           resources:
@@ -88,6 +93,9 @@ spec:
         - name: geoserver-storage
           persistentVolumeClaim:
             claimName: geoserver-pvc
+        - name: clipped-rasters
+          persistentVolumeClaim:
+            claimName: clipped-rasters-pvc
         - name: geoserver-data
           hostPath:
             path: /mnt/geoserver-data

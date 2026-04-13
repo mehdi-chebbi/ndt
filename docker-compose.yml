@@ -34,6 +34,8 @@ services:
     volumes:
       - geoserver_data:/opt/geoserver/data_dir
       - ./data/tiffs:/data/tiffs:ro
+      # Shared clipped rasters volume (read-only — GeoServer references via file:// URL)
+      - clipped-rasters:/opt/clipped-rasters:ro
     healthcheck:
       test: ["CMD-SHELL", "curl -f http://localhost:8080/geoserver/web/ || exit 1"]
       interval: 30s
@@ -79,11 +81,7 @@ services:
       # - AI_API_KEY=sk-or-v1-your-key-here
       # - AI_APP_URL=http://localhost:3000
       # - AI_APP_NAME=NDT Platform
-      - AI_BASE_URL=${AI_BASE_URL:-https://openrouter.ai/api/v1}
-      - AI_MODEL=${AI_MODEL:-openai/gpt-4o}
-      - AI_API_KEY=${AI_API_KEY}
-      - AI_APP_URL=${AI_APP_URL:-http://localhost:3000}
-      - AI_APP_NAME=${AI_APP_NAME:-NDT Platform}
+
  
     depends_on:
       db:
@@ -101,11 +99,15 @@ services:
     volumes:
       - ./backend/geojson:/app/geojson:ro
       - ./data/tiffs:/data/tiffs:ro
+      # Shared clipped rasters volume (read-write — clip-service saves .tif files here)
+      - clipped-rasters:/data/clipped-rasters
     environment:
       - GEOSERVER_URL=http://geoserver:8080/geoserver
       - GEOSERVER_USER=admin
       - GEOSERVER_PASSWORD=geoserver
-      - OUTPUT_DIR=/tmp/clipped
+      # Clipped raster paths
+      - OUTPUT_DIR=/data/clipped-rasters
+      - GEOSERVER_FILE_BASE=/opt/clipped-rasters
       - GEOJSON_DIR=/app/geojson
       - DB_HOST=db
       - DB_PORT=5432
@@ -131,3 +133,4 @@ services:
 volumes:
   postgres_data:
   geoserver_data:
+  clipped-rasters:
