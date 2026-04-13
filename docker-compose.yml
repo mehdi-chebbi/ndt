@@ -107,7 +107,14 @@ services:
       - GEOSERVER_PASSWORD=geoserver
       - OUTPUT_DIR=/tmp/clipped
       - GEOJSON_DIR=/app/geojson
+      - DB_HOST=db
+      - DB_PORT=5432
+      - DB_NAME=platform_db
+      - DB_USER=postgres
+      - DB_PASSWORD=postgres
     depends_on:
+      db:
+        condition: service_healthy
       geoserver:
         condition: service_healthy
 

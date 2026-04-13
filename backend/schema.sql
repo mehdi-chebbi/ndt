@@ -138,6 +138,7 @@ CREATE TABLE IF NOT EXISTS clipped_layers_cache (
   country_file VARCHAR(255) NOT NULL,
   layer_id INTEGER NOT NULL REFERENCES layers(id) ON DELETE CASCADE,
   clipped_layer_name VARCHAR(255) NOT NULL,
+  file_size_bytes BIGINT DEFAULT NULL,
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
   UNIQUE(country_file, layer_id)
 );

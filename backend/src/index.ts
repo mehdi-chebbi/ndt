@@ -248,6 +248,31 @@ async function initializeDatabase() {
       CREATE INDEX IF NOT EXISTS idx_notification_recipients_is_active ON notification_recipients(is_active)
     `);
 
+    // Create password_reset_tokens table
+    await pool.query(`
+      CREATE TABLE IF NOT EXISTS password_reset_tokens (
+        id SERIAL PRIMARY KEY,
+        user_id INTEGER NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+        token VARCHAR(6) NOT NULL,
+        expires_at TIMESTAMP NOT NULL,
+        used BOOLEAN DEFAULT false,
+        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+      )
+    `);
+
+    // Create indexes for password_reset_tokens
+    await pool.query(`
+      CREATE INDEX IF NOT EXISTS idx_password_reset_tokens_user_id ON password_reset_tokens(user_id)
+    `);
+
+    await pool.query(`
+      CREATE INDEX IF NOT EXISTS idx_password_reset_tokens_token ON password_reset_tokens(token)
+    `);
+
+    await pool.query(`
+      CREATE INDEX IF NOT EXISTS idx_password_reset_tokens_expires_at ON password_reset_tokens(expires_at)
+    `);
+
     // Create chat_sessions table
     await pool.query(`
       CREATE TABLE IF NOT EXISTS chat_sessions (
@@ -290,6 +315,7 @@ async function initializeDatabase() {
         country_file VARCHAR(255) NOT NULL,
         layer_id INTEGER NOT NULL REFERENCES layers(id) ON DELETE CASCADE,
         clipped_layer_name VARCHAR(255) NOT NULL,
+        file_size_bytes BIGINT DEFAULT NULL,
         created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
         UNIQUE(country_file, layer_id)
       )

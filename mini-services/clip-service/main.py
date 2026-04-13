@@ -1,6 +1,10 @@
 """
 Clipping Microservice
 Cuts raster files to GeoJSON polygon boundaries using GDAL and publishes to GeoServer
+
+Supports two clipping modes:
+- Synchronous (POST /clip): For on-demand map clipping, returns result after completion
+- Asynchronous (POST /clip/async): For batch clipping, returns immediately and processes in background
 """
 
 import os
@@ -12,15 +16,17 @@ import logging
 import requests
 from typing import Optional
 from subprocess import run, CalledProcessError
-from fastapi import FastAPI, HTTPException, BackgroundTasks
+from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from pathlib import Path
+from datetime import datetime
 import rasterio
 from rasterio.windows import from_bounds, Window
 from rasterio.features import geometry_mask
 import numpy as np
 from shapely.geometry import shape
 from shapely.ops import unary_union
+import psycopg2
 
 # Configure logging
 logging.basicConfig(
@@ -29,20 +35,84 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-app = FastAPI(title="Clipping Service", version="1.0.0")
+app = FastAPI(title="Clipping Service", version="2.0.0")
 
 # -----------------------------
 # CONFIGURATION
 # -----------------------------
-GEOSERVER_URL = os.getenv("GEOSERVER_URL", "http://192.168.2.93:8080/geoserver")
+GEOSERVER_URL = os.getenv("GEOSERVER_URL", "http://geoserver:8080/geoserver")
 GEOSERVER_REST_URL = f"{GEOSERVER_URL}/rest"
 GEOSERVER_USER = os.getenv("GEOSERVER_USER", "admin")
 GEOSERVER_PASSWORD = os.getenv("GEOSERVER_PASSWORD", "geoserver")
-OUTPUT_DIR = os.getenv("OUTPUT_DIR", "/data/tiffs/clipped")
+OUTPUT_DIR = os.getenv("OUTPUT_DIR", "/tmp/clipped")
 GEOJSON_DIR = os.getenv("GEOJSON_DIR", "/app/geojson")
+
+# Database configuration
+DB_HOST = os.getenv("DB_HOST", "postgres")
+DB_PORT = os.getenv("DB_PORT", "5432")
+DB_NAME = os.getenv("DB_NAME", "platform_db")
+DB_USER = os.getenv("DB_USER", "postgres")
+DB_PASSWORD = os.getenv("DB_PASSWORD", "postgres")
+
+# Concurrency control for async clip jobs
+MAX_CONCURRENT_CLIPS = int(os.getenv("MAX_CONCURRENT_CLIPS", "3"))
+clip_semaphore = asyncio.Semaphore(MAX_CONCURRENT_CLIPS)
 
 # Ensure output directory exists
 Path(OUTPUT_DIR).mkdir(parents=True, exist_ok=True)
+
+
+# -----------------------------
+# DATABASE HELPER
+# -----------------------------
+def get_db_connection():
+    """Create a new PostgreSQL connection"""
+    return psycopg2.connect(
+        host=DB_HOST,
+        port=DB_PORT,
+        dbname=DB_NAME,
+        user=DB_USER,
+        password=DB_PASSWORD
+    )
+
+
+def insert_clip_cache(country_file: str, layer_db_id: int, clipped_layer_name: str, file_size_bytes: Optional[int] = None):
+    """Insert or update a clipped layer in the cache table"""
+    try:
+        conn = get_db_connection()
+        cur = conn.cursor()
+        cur.execute(
+            """INSERT INTO clipped_layers_cache (country_file, layer_id, clipped_layer_name, file_size_bytes)
+               VALUES (%s, %s, %s, %s)
+               ON CONFLICT (country_file, layer_id) DO UPDATE
+               SET clipped_layer_name = EXCLUDED.clipped_layer_name,
+                   file_size_bytes = COALESCE(EXCLUDED.file_size_bytes, clipped_layers_cache.file_size_bytes)""",
+            (country_file, layer_db_id, clipped_layer_name, file_size_bytes)
+        )
+        conn.commit()
+        cur.close()
+        conn.close()
+        logger.info(f"DB cache updated: {country_file} -> {clipped_layer_name}")
+    except Exception as e:
+        logger.error(f"Failed to update DB cache for {country_file}: {e}")
+
+
+def check_clip_cache(country_file: str, layer_db_id: int) -> bool:
+    """Check if a clip already exists in cache"""
+    try:
+        conn = get_db_connection()
+        cur = conn.cursor()
+        cur.execute(
+            "SELECT 1 FROM clipped_layers_cache WHERE country_file = %s AND layer_id = %s",
+            (country_file, layer_db_id)
+        )
+        exists = cur.fetchone() is not None
+        cur.close()
+        conn.close()
+        return exists
+    except Exception as e:
+        logger.error(f"Failed to check DB cache: {e}")
+        return False
 
 
 # -----------------------------
@@ -55,18 +125,101 @@ class ClipRequest(BaseModel):
     layer_name: str
     style_name: str
     country_name: str
+    # Optional: for DB cache insert (used by backend to let clip-service manage cache)
+    layer_db_id: Optional[int] = None
+    country_file: Optional[str] = None
 
 
 class ClipResponse(BaseModel):
     status: str
     layer_name: str
     message: str
+    file_size_bytes: Optional[int] = None
+
+
+class AsyncClipRequest(BaseModel):
+    """Request for async (fire-and-forget) clipping"""
+    geojson_path: str
+    raster_path: str
+    workspace: str
+    layer_name: str
+    style_name: str
+    country_name: str
+    # Required for async: clip-service manages DB cache
+    layer_db_id: int
+    country_file: str
+
+
+class AsyncClipResponse(BaseModel):
+    status: str  # "accepted"
+    job_id: str
+    message: str
+
+
+class JobStatus(BaseModel):
+    job_id: str
+    country_name: str
+    status: str  # "pending", "processing", "completed", "failed"
+    submitted_at: str
+    completed_at: Optional[str] = None
+    error: Optional[str] = None
+    clipped_layer_name: Optional[str] = None
 
 
 class StatsRequest(BaseModel):
     raster_path: str
     polygon: Optional[dict] = None  # GeoJSON (for user-drawn polygons)
     geojson_path: Optional[str] = None  # Path to GeoJSON file (for country files, avoids sending large payloads)
+
+
+# -----------------------------
+# JOB TRACKING (in-memory, for monitoring)
+# -----------------------------
+class JobTracker:
+    """Track async clip jobs in memory for status monitoring"""
+
+    def __init__(self):
+        self.jobs: dict[str, dict] = {}
+
+    def create_job(self, country_name: str) -> str:
+        job_id = uuid.uuid4().hex[:12]
+        self.jobs[job_id] = {
+            "job_id": job_id,
+            "country_name": country_name,
+            "status": "pending",
+            "submitted_at": datetime.utcnow().isoformat() + "Z",
+            "completed_at": None,
+            "error": None,
+            "clipped_layer_name": None,
+        }
+        return job_id
+
+    def update_job(self, job_id: str, **kwargs):
+        if job_id in self.jobs:
+            self.jobs[job_id].update(kwargs)
+
+    def get_job(self, job_id: str) -> Optional[dict]:
+        return self.jobs.get(job_id)
+
+    def get_all_jobs(self) -> list[dict]:
+        return list(self.jobs.values())
+
+    def cleanup_old_jobs(self, max_age_seconds: int = 3600):
+        """Remove completed/failed jobs older than max_age_seconds"""
+        now = datetime.utcnow()
+        to_remove = []
+        for job_id, job in self.jobs.items():
+            if job["status"] in ("completed", "failed"):
+                if job["completed_at"]:
+                    completed = datetime.fromisoformat(job["completed_at"].replace("Z", "+00:00")).replace(tzinfo=None)
+                    age = (now - completed).total_seconds()
+                    if age > max_age_seconds:
+                        to_remove.append(job_id)
+        for job_id in to_remove:
+            del self.jobs[job_id]
+
+
+job_tracker = JobTracker()
 
 
 # -----------------------------
@@ -142,9 +295,9 @@ def count_geojson_vertices(geojson: dict) -> int:
             total += count_geom(g.get('coordinates', []), g.get('type', ''))
     elif geo_type == 'Feature':
         g = geojson.get('geometry', {})
-        total = count_geom(g.get('coordinates', []), g.get('type', ''))
+        total += count_geom(g.get('coordinates', []), g.get('type', ''))
     else:
-        total = count_geom(geojson.get('coordinates', []), geo_type)
+        total += count_geom(geojson.get('coordinates', []), geo_type)
 
     return total
 
@@ -349,10 +502,7 @@ def run_gdalwarp(geojson_path: str, raster_path: str, output_path: str, num_thre
         return True
     except CalledProcessError as e:
         logger.error(f"GDAL warp failed: {e.stderr}")
-        raise HTTPException(
-            status_code=500,
-            detail=f"GDAL clipping failed: {e.stderr}"
-        )
+        raise RuntimeError(f"GDAL clipping failed: {e.stderr}")
 
 
 def publish_to_geoserver(
@@ -377,10 +527,7 @@ def publish_to_geoserver(
 
     if response.status_code not in [200, 201]:
         logger.error(f"GeoServer publish failed: {response.status_code} - {response.text}")
-        raise HTTPException(
-            status_code=500,
-            detail=f"GeoServer publish failed: {response.text}"
-        )
+        raise RuntimeError(f"GeoServer publish failed: {response.text}")
 
     logger.info(f"Successfully published to GeoServer: {workspace}:{layer_id}")
     return True
@@ -411,112 +558,258 @@ def assign_style(workspace: str, layer_id: str, style_name: str) -> bool:
     return True
 
 
+async def perform_clip(
+    geojson_path: str,
+    raster_path: str,
+    workspace: str,
+    layer_name: str,
+    style_name: str,
+    country_name: str,
+) -> dict:
+    """
+    Core clip operation: validate → gdalwarp → publish → style
+    Returns dict with: clipped_layer_name, output_tif_path, file_size_bytes
+
+    Raises RuntimeError on failure.
+    """
+    import time
+
+    # 1. Validate files exist
+    geojson_path_obj = Path(geojson_path)
+    raster_path_obj = Path(raster_path)
+
+    if not geojson_path_obj.exists():
+        raise RuntimeError(f"GeoJSON file not found: {geojson_path}")
+
+    if not raster_path_obj.exists():
+        raise RuntimeError(f"Raster file not found: {raster_path}")
+
+    logger.info(f"Starting clip operation: {country_name} - {layer_name}")
+
+    # 2. Generate output layer name
+    output_layer_id = generate_output_layer_name(country_name, layer_name)
+    output_subdir = os.path.join(OUTPUT_DIR, layer_name)
+    os.makedirs(output_subdir, exist_ok=True)
+    output_tif = os.path.join(output_subdir, f"{output_layer_id}.tif")
+
+    logger.info(f"Output layer name: {workspace}:{output_layer_id}")
+
+    # 3. Run GDAL warp (in thread pool to avoid blocking the event loop)
+    cpu_count = os.cpu_count() or 4
+    threads_per_clip = max(2, cpu_count // 3)
+    gdal_start = time.time()
+    await asyncio.to_thread(
+        run_gdalwarp,
+        geojson_path=str(geojson_path),
+        raster_path=str(raster_path),
+        output_path=output_tif,
+        num_threads=threads_per_clip
+    )
+    gdal_time = time.time() - gdal_start
+    logger.info(f"GDAL warp took {gdal_time:.2f} seconds")
+
+    # 4. Publish to GeoServer (in thread pool — requests is blocking)
+    publish_start = time.time()
+    await asyncio.to_thread(
+        publish_to_geoserver,
+        tif_path=output_tif,
+        workspace=workspace,
+        layer_id=output_layer_id
+    )
+    publish_time = time.time() - publish_start
+    logger.info(f"GeoServer publish took {publish_time:.2f} seconds")
+
+    # 5. Assign style (in thread pool — requests is blocking)
+    await asyncio.to_thread(
+        assign_style,
+        workspace=workspace,
+        layer_id=output_layer_id,
+        style_name=style_name
+    )
+
+    # 6. Get file size
+    file_size_bytes = None
+    if os.path.exists(output_tif):
+        file_size_bytes = os.path.getsize(output_tif)
+
+    full_layer_name = f"{workspace}:{output_layer_id}"
+
+    return {
+        "clipped_layer_name": full_layer_name,
+        "output_tif": output_tif,
+        "file_size_bytes": file_size_bytes,
+    }
+
+
 # -----------------------------
 # ROUTES
 # -----------------------------
 @app.get("/health")
 async def health_check():
     """Health check endpoint"""
-    return {"status": "healthy", "service": "clipping-service"}
+    return {"status": "healthy", "service": "clipping-service", "version": "2.0.0"}
 
 
 @app.post("/clip", response_model=ClipResponse)
 async def clip_layer(request: ClipRequest):
     """
-    Clip a raster layer to a GeoJSON polygon and publish to GeoServer
+    Synchronous clip: Clip a raster layer and wait for result.
+    Used by the map for on-demand clipping.
 
-    Steps:
-    1. Validate input files exist
-    2. Generate unique output layer name
-    3. Run GDAL warp to clip the raster
-    4. Publish clipped GeoTIFF to GeoServer
-    5. Assign the specified style
-    6. Return the new layer name
+    If layer_db_id and country_file are provided, also inserts into DB cache.
     """
     import time
     start_time = time.time()
 
     try:
-        # 1. Validate files exist
-        geojson_path = Path(request.geojson_path)
-        raster_path = Path(request.raster_path)
+        # If DB cache params provided, check cache first (skip redundant clips)
+        if request.layer_db_id and request.country_file:
+            if check_clip_cache(request.country_file, request.layer_db_id):
+                logger.info(f"[Sync Clip] Cache hit for {request.country_file} (layer {request.layer_db_id})")
+                return ClipResponse(
+                    status="success",
+                    layer_name="cached",
+                    message="Already clipped (cache hit)",
+                    file_size_bytes=None
+                )
 
-        if not geojson_path.exists():
-            raise HTTPException(
-                status_code=404,
-                detail=f"GeoJSON file not found: {request.geojson_path}"
+        # Perform the actual clip
+        result = await perform_clip(
+            geojson_path=request.geojson_path,
+            raster_path=request.raster_path,
+            workspace=request.workspace,
+            layer_name=request.layer_name,
+            style_name=request.style_name,
+            country_name=request.country_name,
+        )
+
+        # Insert into DB cache if params provided
+        if request.layer_db_id and request.country_file:
+            insert_clip_cache(
+                country_file=request.country_file,
+                layer_db_id=request.layer_db_id,
+                clipped_layer_name=result["clipped_layer_name"],
+                file_size_bytes=result["file_size_bytes"],
             )
 
-        if not raster_path.exists():
-            raise HTTPException(
-                status_code=404,
-                detail=f"Raster file not found: {request.raster_path}"
-            )
-
-        logger.info(f"Starting clip operation: {request.country_name} - {request.layer_name}")
-
-        # 2. Generate output layer name
-        output_layer_id = generate_output_layer_name(request.country_name, request.layer_name)
-        # Organize by raster name: /data/tiffs/clipped/{raster_name}/{output_layer_id}.tif
-        output_subdir = os.path.join(OUTPUT_DIR, request.layer_name)
-        os.makedirs(output_subdir, exist_ok=True)
-        output_tif = os.path.join(output_subdir, f"{output_layer_id}.tif")
-
-        logger.info(f"Output layer name: {request.workspace}:{output_layer_id}")
-
-        # 3. Run GDAL warp (in thread pool to avoid blocking the event loop)
-        #    Limit threads per process so concurrent clips don't fight for CPU
-        cpu_count = os.cpu_count() or 4
-        threads_per_clip = max(2, cpu_count // 3)
-        gdal_start = time.time()
-        await asyncio.to_thread(
-            run_gdalwarp,
-            geojson_path=str(geojson_path),
-            raster_path=str(raster_path),
-            output_path=output_tif,
-            num_threads=threads_per_clip
-        )
-        gdal_time = time.time() - gdal_start
-        logger.info(f"GDAL warp took {gdal_time:.2f} seconds")
-
-        # 4. Publish to GeoServer (in thread pool — requests is blocking)
-        publish_start = time.time()
-        await asyncio.to_thread(
-            publish_to_geoserver,
-            tif_path=output_tif,
-            workspace=request.workspace,
-            layer_id=output_layer_id
-        )
-        publish_time = time.time() - publish_start
-        logger.info(f"GeoServer publish took {publish_time:.2f} seconds")
-
-        # 5. Assign style (in thread pool — requests is blocking)
-        await asyncio.to_thread(
-            assign_style,
-            workspace=request.workspace,
-            layer_id=output_layer_id,
-            style_name=request.style_name
-        )
-
-        # 6. Return success
-        full_layer_name = f"{request.workspace}:{output_layer_id}"
         total_time = time.time() - start_time
-        logger.info(f"Clip operation completed successfully: {full_layer_name} (Total: {total_time:.2f}s, GDAL: {gdal_time:.2f}s, Publish: {publish_time:.2f}s)")
+        logger.info(
+            f"Sync clip completed: {result['clipped_layer_name']} "
+            f"(Total: {total_time:.2f}s, Size: {result['file_size_bytes']} bytes)"
+        )
 
         return ClipResponse(
             status="success",
-            layer_name=full_layer_name,
-            message=f"Successfully clipped and published layer in {total_time:.2f}s"
+            layer_name=result["clipped_layer_name"],
+            message=f"Successfully clipped and published layer in {total_time:.2f}s",
+            file_size_bytes=result["file_size_bytes"]
         )
 
-    except HTTPException:
-        raise
+    except RuntimeError as e:
+        logger.error(f"Sync clip failed for {request.country_name}: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
     except Exception as e:
-        logger.error(f"Unexpected error during clip operation: {str(e)}")
-        raise HTTPException(
-            status_code=500,
-            detail=f"Internal server error: {str(e)}"
-        )
+        logger.error(f"Unexpected error during sync clip: {e}")
+        raise HTTPException(status_code=500, detail=f"Internal server error: {str(e)}")
+
+
+@app.post("/clip/async", response_model=AsyncClipResponse)
+async def clip_layer_async(request: AsyncClipRequest):
+    """
+    Asynchronous clip: Accept job and return immediately.
+    The clip is processed in a background task with concurrency control.
+    Used by the admin batch clipping system.
+
+    Clip-service handles the full lifecycle: clip → publish → DB cache insert.
+    """
+    # Register the job
+    job_id = job_tracker.create_job(request.country_name)
+
+    logger.info(
+        f"[Async Clip] Job {job_id} accepted for {request.country_name} "
+        f"(layer {request.layer_db_id}, queue: {job_tracker.get_all_jobs().__len__()})"
+    )
+
+    # Spawn background task
+    asyncio.create_task(_process_async_job(job_id, request))
+
+    return AsyncClipResponse(
+        status="accepted",
+        job_id=job_id,
+        message=f"Clip job queued for {request.country_name}"
+    )
+
+
+async def _process_async_job(job_id: str, request: AsyncClipRequest):
+    """Background task that processes a single async clip job"""
+    import time
+
+    job_tracker.update_job(job_id, status="processing")
+
+    async with clip_semaphore:
+        try:
+            logger.info(f"[Async Clip] Job {job_id} started processing: {request.country_name}")
+            start_time = time.time()
+
+            # Check cache (skip if already clipped)
+            if check_clip_cache(request.country_file, request.layer_db_id):
+                logger.info(f"[Async Clip] Job {job_id} cache hit, skipping: {request.country_name}")
+                job_tracker.update_job(
+                    job_id,
+                    status="completed",
+                    completed_at=datetime.utcnow().isoformat() + "Z",
+                    clipped_layer_name="cached",
+                )
+                return
+
+            # Perform the clip
+            result = await perform_clip(
+                geojson_path=request.geojson_path,
+                raster_path=request.raster_path,
+                workspace=request.workspace,
+                layer_name=request.layer_name,
+                style_name=request.style_name,
+                country_name=request.country_name,
+            )
+
+            # Insert into DB cache
+            insert_clip_cache(
+                country_file=request.country_file,
+                layer_db_id=request.layer_db_id,
+                clipped_layer_name=result["clipped_layer_name"],
+                file_size_bytes=result["file_size_bytes"],
+            )
+
+            total_time = time.time() - start_time
+            logger.info(
+                f"[Async Clip] Job {job_id} completed: {result['clipped_layer_name']} "
+                f"(Total: {total_time:.2f}s, GDAL included, Size: {result['file_size_bytes']} bytes)"
+            )
+
+            job_tracker.update_job(
+                job_id,
+                status="completed",
+                completed_at=datetime.utcnow().isoformat() + "Z",
+                clipped_layer_name=result["clipped_layer_name"],
+            )
+
+        except Exception as e:
+            error_msg = str(e)
+            logger.error(f"[Async Clip] Job {job_id} FAILED for {request.country_name}: {error_msg}")
+            job_tracker.update_job(
+                job_id,
+                status="failed",
+                completed_at=datetime.utcnow().isoformat() + "Z",
+                error=error_msg,
+            )
+
+
+@app.get("/clip/jobs")
+async def list_jobs():
+    """List all async clip jobs and their statuses"""
+    # Cleanup old completed/failed jobs
+    job_tracker.cleanup_old_jobs()
+    return {"jobs": job_tracker.get_all_jobs()}
 
 
 @app.post("/stats")
