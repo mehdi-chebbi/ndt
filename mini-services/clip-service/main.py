@@ -483,13 +483,12 @@ def run_gdalwarp(geojson_path: str, raster_path: str, output_path: str, num_thre
         "gdalwarp",
         "-cutline", geojson_path,
         "-crop_to_cutline",
-        "-of", "GTiff",
+        "-of", "COG",
         "-ot", "Byte",
         "-r", "near",
+        "-dstnodata", "255",
         "-multi",  # Enable multi-threading
         "-wo", f"NUM_THREADS={num_threads}",  # Use all CPU cores
-        "-co", "COMPRESS=LZW",  # Enable compression for faster I/O
-        "-co", "TILED=YES",  # Enable tiling for better performance
         raster_path,
         output_path
     ]
