@@ -61,6 +61,7 @@ class ClipResponse(BaseModel):
     status: str
     layer_name: str
     message: str
+    file_size_bytes: Optional[int] = None
 
 
 class StatsRequest(BaseModel):
@@ -498,15 +499,21 @@ async def clip_layer(request: ClipRequest):
             style_name=request.style_name
         )
 
-        # 6. Return success
+        # 6. Get file size before returning
+        file_size_bytes = None
+        if os.path.exists(output_tif):
+            file_size_bytes = os.path.getsize(output_tif)
+
+        # 7. Return success
         full_layer_name = f"{request.workspace}:{output_layer_id}"
         total_time = time.time() - start_time
-        logger.info(f"Clip operation completed successfully: {full_layer_name} (Total: {total_time:.2f}s, GDAL: {gdal_time:.2f}s, Publish: {publish_time:.2f}s)")
+        logger.info(f"Clip operation completed successfully: {full_layer_name} (Total: {total_time:.2f}s, GDAL: {gdal_time:.2f}s, Publish: {publish_time:.2f}s, Size: {file_size_bytes} bytes)")
 
         return ClipResponse(
             status="success",
             layer_name=full_layer_name,
-            message=f"Successfully clipped and published layer in {total_time:.2f}s"
+            message=f"Successfully clipped and published layer in {total_time:.2f}s",
+            file_size_bytes=file_size_bytes
         )
 
     except HTTPException:

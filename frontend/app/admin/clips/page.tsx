@@ -2,7 +2,7 @@
 
 import { useEffect, useState, useCallback } from 'react'
 import Link from 'next/link'
-import { api } from '@/lib/authFetch'
+import { api, authFetch } from '@/lib/authFetch'
 import { useAuth } from '@/contexts/AuthContext'
 
 interface LayerClipStatus {
@@ -13,6 +13,7 @@ interface LayerClipStatus {
   style_name: string | null
   clippedCountries: number
   totalCountries: number
+  totalSizeBytes: number
   fullyClipped: boolean
   isRunning: boolean
   canClip: boolean
@@ -29,6 +30,16 @@ interface ClippedCountriesResponse {
   remaining: string[]
 }
 
+// Format bytes to human-readable string
+function formatBytes(bytes: number): string {
+  if (!bytes || bytes === 0) return '0 B'
+  const units = ['B', 'KB', 'MB', 'GB', 'TB']
+  const k = 1024
+  const i = Math.floor(Math.log(bytes) / Math.log(k))
+  const value = bytes / Math.pow(k, i)
+  return `${value.toFixed(i === 0 ? 0 : 1)} ${units[i]}`
+}
+
 export default function ClipManagementPage() {
   const { user, loading: authLoading } = useAuth()
   const [layers, setLayers] = useState<LayerClipStatus[]>([])
@@ -37,13 +48,25 @@ export default function ClipManagementPage() {
   const [error, setError] = useState('')
   const [clippingLayerId, setClippingLayerId] = useState<number | null>(null)
   const [toastMessage, setToastMessage] = useState('')
-  const [toastType, setToastType] = useState<'success' | 'error' | 'info'>('info')
+  const [toastType, setToastType] = useState<'success' | 'error' | 'info' | 'warning'>('info')
 
   // Country detail modal
   const [modalLayer, setModalLayer] = useState<LayerClipStatus | null>(null)
   const [modalLoading, setModalLoading] = useState(false)
   const [modalData, setModalData] = useState<ClippedCountriesResponse | null>(null)
   const [countrySearch, setCountrySearch] = useState('')
+
+  // Delete states
+  const [deletingCountry, setDeletingCountry] = useState<string | null>(null)
+  const [deletingLayerId, setDeletingLayerId] = useState<number | null>(null)
+
+  // Confirm dialog
+  const [confirmAction, setConfirmAction] = useState<{
+    type: 'country' | 'layer'
+    title: string
+    message: string
+    onConfirm: () => void
+  } | null>(null)
 
   useEffect(() => {
     if (!authLoading && (!user || user.role !== 'admin')) {
@@ -85,7 +108,7 @@ export default function ClipManagementPage() {
     return () => clearInterval(interval)
   }, [layers, fetchStatus])
 
-  const showToast = (message: string, type: 'success' | 'error' | 'info') => {
+  const showToast = (message: string, type: 'success' | 'error' | 'info' | 'warning') => {
     setToastMessage(message)
     setToastType(type)
     setTimeout(() => setToastMessage(''), 5000)
@@ -151,6 +174,68 @@ export default function ClipManagementPage() {
     setCountrySearch('')
   }
 
+  const handleDeleteCountry = (layer: LayerClipStatus, country: string) => {
+    setConfirmAction({
+      type: 'country',
+      title: 'Delete Clipped Layer',
+      message: `Remove the clipped layer for "${country}" from ${layer.display_name}? This will unpublish it from GeoServer.`,
+      onConfirm: async () => {
+        setConfirmAction(null)
+        setDeletingCountry(country)
+        try {
+          const response = await authFetch('/clip/clipped-layer?XTransformPort=3001', {
+            method: 'DELETE',
+            body: JSON.stringify({ layerId: layer.id, countryFile: `${country}.geojson` }),
+          })
+          const data = await response.json()
+          if (!response.ok) throw new Error(data.error || 'Delete failed')
+          showToast(`Deleted clipped layer for ${country}`, 'success')
+          // Refresh modal data
+          handleOpenCountryModal(layer)
+          fetchStatus()
+        } catch (err: any) {
+          showToast(err.message, 'error')
+        } finally {
+          setDeletingCountry(null)
+        }
+      },
+    })
+  }
+
+  const handleDeleteAllForLayer = (layer: LayerClipStatus) => {
+    const sizeStr = formatBytes(layer.totalSizeBytes)
+    setConfirmAction({
+      type: 'layer',
+      title: 'Delete All Clipped Layers',
+      message: `Remove ALL ${layer.clippedCountries} clipped layers (${sizeStr}) for "${layer.display_name}" from GeoServer? This cannot be undone.`,
+      onConfirm: async () => {
+        setConfirmAction(null)
+        setDeletingLayerId(layer.id)
+        try {
+          const response = await authFetch('/clip/batch-delete?XTransformPort=3001', {
+            method: 'DELETE',
+            body: JSON.stringify({ layerId: layer.id }),
+          })
+          const data = await response.json()
+          if (!response.ok) throw new Error(data.error || 'Delete failed')
+
+          if (data.status === 'partial') {
+            showToast(data.message, 'warning')
+          } else {
+            showToast(`Deleted all clipped layers for ${layer.display_name}`, 'success')
+          }
+          fetchStatus()
+          // Close modal if open for this layer
+          if (modalLayer?.id === layer.id) handleCloseModal()
+        } catch (err: any) {
+          showToast(err.message, 'error')
+        } finally {
+          setDeletingLayerId(null)
+        }
+      },
+    })
+  }
+
   if (authLoading || loading) {
     return (
       <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center">
@@ -170,6 +255,7 @@ export default function ClipManagementPage() {
   const partiallyClippedCount = layers.filter(l => l.clippedCountries > 0 && !l.fullyClipped).length
   const notClippedCount = layers.filter(l => l.clippedCountries === 0).length
   const runningCount = layers.filter(l => l.isRunning).length
+  const totalStorageBytes = layers.reduce((sum, l) => sum + (l.totalSizeBytes || 0), 0)
 
   const getProgressPercentage = (layer: LayerClipStatus) => {
     if (layer.totalCountries === 0) return 0
@@ -185,8 +271,8 @@ export default function ClipManagementPage() {
   ) || []
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 flex flex-col">
+      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex-1">
         {/* Header */}
         <div className="flex items-center justify-between mb-8">
           <div className="flex items-center gap-4">
@@ -219,20 +305,26 @@ export default function ClipManagementPage() {
           <div className={`mb-6 px-4 py-3 rounded-lg flex items-center gap-2 ${
             toastType === 'success' ? 'bg-green-50 border border-green-200 text-green-800' :
             toastType === 'error' ? 'bg-red-50 border border-red-200 text-red-700' :
+            toastType === 'warning' ? 'bg-amber-50 border border-amber-200 text-amber-800' :
             'bg-blue-50 border border-blue-200 text-blue-800'
           }`}>
             {toastType === 'success' && (
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg className="w-5 h-5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
               </svg>
             )}
             {toastType === 'error' && (
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg className="w-5 h-5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
               </svg>
             )}
+            {toastType === 'warning' && (
+              <svg className="w-5 h-5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L4.082 16.5c-.77.833.192 2.5 1.732 2.5z" />
+              </svg>
+            )}
             {toastType === 'info' && (
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg className="w-5 h-5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
             )}
@@ -247,26 +339,30 @@ export default function ClipManagementPage() {
         )}
 
         {/* Stats Cards */}
-        <div className="grid md:grid-cols-5 gap-6 mb-8">
-          <div className="bg-white rounded-xl shadow-sm p-6">
-            <p className="text-gray-600 text-sm">Total Rasters</p>
-            <p className="text-3xl font-bold text-gray-900">{layers.length}</p>
+        <div className="grid grid-cols-2 md:grid-cols-6 gap-4 sm:gap-6 mb-8">
+          <div className="bg-white rounded-xl shadow-sm p-4 sm:p-6">
+            <p className="text-gray-600 text-xs sm:text-sm">Total Rasters</p>
+            <p className="text-2xl sm:text-3xl font-bold text-gray-900">{layers.length}</p>
           </div>
-          <div className="bg-white rounded-xl shadow-sm p-6">
-            <p className="text-gray-600 text-sm">Fully Clipped</p>
-            <p className="text-3xl font-bold text-green-600">{fullyClippedCount}</p>
+          <div className="bg-white rounded-xl shadow-sm p-4 sm:p-6">
+            <p className="text-gray-600 text-xs sm:text-sm">Fully Clipped</p>
+            <p className="text-2xl sm:text-3xl font-bold text-green-600">{fullyClippedCount}</p>
           </div>
-          <div className="bg-white rounded-xl shadow-sm p-6">
-            <p className="text-gray-600 text-sm">Partially Clipped</p>
-            <p className="text-3xl font-bold text-amber-600">{partiallyClippedCount}</p>
+          <div className="bg-white rounded-xl shadow-sm p-4 sm:p-6">
+            <p className="text-gray-600 text-xs sm:text-sm">Partially Clipped</p>
+            <p className="text-2xl sm:text-3xl font-bold text-amber-600">{partiallyClippedCount}</p>
           </div>
-          <div className="bg-white rounded-xl shadow-sm p-6">
-            <p className="text-gray-600 text-sm">Not Clipped</p>
-            <p className="text-3xl font-bold text-red-600">{notClippedCount}</p>
+          <div className="bg-white rounded-xl shadow-sm p-4 sm:p-6">
+            <p className="text-gray-600 text-xs sm:text-sm">Not Clipped</p>
+            <p className="text-2xl sm:text-3xl font-bold text-red-600">{notClippedCount}</p>
           </div>
-          <div className="bg-white rounded-xl shadow-sm p-6">
-            <p className="text-gray-600 text-sm">Running</p>
-            <p className="text-3xl font-bold text-blue-600">{runningCount}</p>
+          <div className="bg-white rounded-xl shadow-sm p-4 sm:p-6">
+            <p className="text-gray-600 text-xs sm:text-sm">Running</p>
+            <p className="text-2xl sm:text-3xl font-bold text-blue-600">{runningCount}</p>
+          </div>
+          <div className="bg-white rounded-xl shadow-sm p-4 sm:p-6">
+            <p className="text-gray-600 text-xs sm:text-sm">Total Storage</p>
+            <p className="text-2xl sm:text-3xl font-bold text-purple-600">{formatBytes(totalStorageBytes)}</p>
           </div>
         </div>
 
@@ -302,16 +398,19 @@ export default function ClipManagementPage() {
               <table className="w-full">
                 <thead className="bg-gray-50">
                   <tr>
-                    <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                    <th className="px-4 sm:px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                       Layer
                     </th>
-                    <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                    <th className="px-4 sm:px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                       Progress
                     </th>
-                    <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                    <th className="px-4 sm:px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                       Status
                     </th>
-                    <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                    <th className="px-4 sm:px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                      Storage
+                    </th>
+                    <th className="px-4 sm:px-6 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">
                       Actions
                     </th>
                   </tr>
@@ -322,7 +421,7 @@ export default function ClipManagementPage() {
                     return (
                       <tr key={layer.id} className={`hover:bg-gray-50 ${layer.isRunning ? 'bg-blue-50' : ''}`}>
                         {/* Layer Name */}
-                        <td className="px-6 py-4 whitespace-nowrap">
+                        <td className="px-4 sm:px-6 py-4 whitespace-nowrap">
                           <div>
                             <div className="font-medium text-gray-900">{layer.display_name}</div>
                             <div className="text-xs text-gray-500">{layer.geoserver_name}</div>
@@ -330,7 +429,7 @@ export default function ClipManagementPage() {
                         </td>
 
                         {/* Progress - Clickable */}
-                        <td className="px-6 py-4 whitespace-nowrap">
+                        <td className="px-4 sm:px-6 py-4 whitespace-nowrap">
                           <button
                             onClick={() => handleOpenCountryModal(layer)}
                             className="flex items-center gap-3 cursor-pointer hover:opacity-80 transition group"
@@ -339,7 +438,7 @@ export default function ClipManagementPage() {
                             <span className="text-sm font-medium text-gray-700 min-w-[60px]">
                               {layer.clippedCountries}/{layer.totalCountries}
                             </span>
-                            <div className="w-32 bg-gray-200 rounded-full h-2 relative">
+                            <div className="w-24 sm:w-32 bg-gray-200 rounded-full h-2 relative">
                               <div
                                 className={`h-2 rounded-full transition-all duration-300 ${
                                   layer.fullyClipped ? 'bg-green-500' :
@@ -357,7 +456,7 @@ export default function ClipManagementPage() {
                         </td>
 
                         {/* Status Badge */}
-                        <td className="px-6 py-4 whitespace-nowrap">
+                        <td className="px-4 sm:px-6 py-4 whitespace-nowrap">
                           {layer.isRunning ? (
                             <span className="inline-flex items-center gap-1 px-2.5 py-1 text-xs font-medium rounded-full bg-blue-100 text-blue-800">
                               <svg className="w-3 h-3 animate-spin" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -387,34 +486,76 @@ export default function ClipManagementPage() {
                           )}
                         </td>
 
-                        {/* Actions */}
-                        <td className="px-6 py-4 whitespace-nowrap">
-                          {layer.isRunning ? (
-                            <span className="text-sm text-blue-600 font-medium flex items-center gap-1">
-                              <svg className="w-4 h-4 animate-spin" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+                        {/* Storage */}
+                        <td className="px-4 sm:px-6 py-4 whitespace-nowrap">
+                          {layer.clippedCountries > 0 ? (
+                            <div className="flex items-center gap-1.5">
+                              <svg className="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4" />
                               </svg>
-                              Processing...
-                            </span>
-                          ) : layer.fullyClipped ? (
-                            <span className="text-sm text-green-600 font-medium">Up to date</span>
+                              <span className="text-sm font-medium text-gray-700">{formatBytes(layer.totalSizeBytes)}</span>
+                            </div>
                           ) : (
-                            <button
-                              onClick={() => handleStartClip(layer)}
-                              disabled={clippingLayerId === layer.id || !layer.canClip}
-                              className={`px-3 py-1.5 text-sm font-medium rounded-lg transition flex items-center gap-1.5 ${
-                                !layer.canClip
-                                  ? 'bg-gray-100 text-gray-400 cursor-not-allowed'
-                                  : 'bg-gray-900 text-white hover:bg-gray-800'
-                              } ${clippingLayerId === layer.id ? 'opacity-50' : ''}`}
-                              title={!layer.canClip ? 'Sync layer to assign a style first' : `Clip remaining countries (${layer.totalCountries - layer.clippedCountries} left)`}
-                            >
-                              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.121 14.121L19 19m-7-7l7-7m-7 7l-2.879 2.879M12 12L9.121 9.121m0 5.758a3 3 0 10-4.243 4.243 3 3 0 004.243-4.243zm0-5.758a3 3 0 10-4.243-4.243 3 3 0 004.243 4.243z" />
-                              </svg>
-                              {layer.clippedCountries > 0 ? 'Clip Remaining' : 'Clip All'}
-                            </button>
+                            <span className="text-sm text-gray-400">—</span>
                           )}
+                        </td>
+
+                        {/* Actions */}
+                        <td className="px-4 sm:px-6 py-4 whitespace-nowrap text-right">
+                          <div className="flex items-center justify-end gap-2">
+                            {layer.isRunning ? (
+                              <span className="text-sm text-blue-600 font-medium flex items-center gap-1">
+                                <svg className="w-4 h-4 animate-spin" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+                                </svg>
+                                Processing...
+                              </span>
+                            ) : (
+                              <>
+                                {!layer.fullyClipped && (
+                                  <button
+                                    onClick={() => handleStartClip(layer)}
+                                    disabled={clippingLayerId === layer.id || !layer.canClip}
+                                    className={`px-3 py-1.5 text-sm font-medium rounded-lg transition flex items-center gap-1.5 ${
+                                      !layer.canClip
+                                        ? 'bg-gray-100 text-gray-400 cursor-not-allowed'
+                                        : 'bg-gray-900 text-white hover:bg-gray-800'
+                                    } ${clippingLayerId === layer.id ? 'opacity-50' : ''}`}
+                                    title={!layer.canClip ? 'Sync layer to assign a style first' : `Clip remaining countries (${layer.totalCountries - layer.clippedCountries} left)`}
+                                  >
+                                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.121 14.121L19 19m-7-7l7-7m-7 7l-2.879 2.879M12 12L9.121 9.121m0 5.758a3 3 0 10-4.243 4.243 3 3 0 004.243-4.243zm0-5.758a3 3 0 10-4.243-4.243 3 3 0 004.243 4.243z" />
+                                    </svg>
+                                    <span className="hidden sm:inline">{layer.clippedCountries > 0 ? 'Clip Remaining' : 'Clip All'}</span>
+                                    <span className="sm:hidden">Clip</span>
+                                  </button>
+                                )}
+                                {layer.clippedCountries > 0 && (
+                                  <button
+                                    onClick={() => handleDeleteAllForLayer(layer)}
+                                    disabled={deletingLayerId === layer.id || layer.isRunning}
+                                    className={`px-3 py-1.5 text-sm font-medium rounded-lg transition flex items-center gap-1.5 ${
+                                      deletingLayerId === layer.id
+                                        ? 'opacity-50 cursor-not-allowed'
+                                        : 'bg-red-50 text-red-700 hover:bg-red-100 border border-red-200'
+                                    }`}
+                                    title={`Delete all ${layer.clippedCountries} clipped layers`}
+                                  >
+                                    {deletingLayerId === layer.id ? (
+                                      <svg className="w-4 h-4 animate-spin" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+                                      </svg>
+                                    ) : (
+                                      <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+                                      </svg>
+                                    )}
+                                    <span className="hidden sm:inline">Delete All</span>
+                                  </button>
+                                )}
+                              </>
+                            )}
+                          </div>
                         </td>
                       </tr>
                     )
@@ -435,7 +576,8 @@ export default function ClipManagementPage() {
             <li>- Large countries (Algeria, DR Congo, Sudan, etc.) may take 10-15 minutes each</li>
             <li>- The page auto-refreshes every 5 seconds while a batch is running</li>
             <li>- If interrupted, click Clip again to resume from where it left off</li>
-            <li>- Clipped TIFFs are saved to <code className="bg-gray-200 px-1 rounded text-xs">/data/tiffs/clipped/{'{raster_name}'}/</code></li>
+            <li>- Use &quot;Delete All&quot; to unpublish clipped layers from GeoServer and clear the cache</li>
+            <li>- In the country detail modal, you can delete individual country clips</li>
           </ul>
         </div>
       </main>
@@ -452,6 +594,11 @@ export default function ClipManagementPage() {
                 </h3>
                 <p className="text-sm text-gray-500 mt-0.5">
                   {modalLayer.clippedCountries} of {modalLayer.totalCountries} countries clipped
+                  {modalLayer.totalSizeBytes > 0 && (
+                    <span className="ml-2 text-purple-600 font-medium">
+                      ({formatBytes(modalLayer.totalSizeBytes)})
+                    </span>
+                  )}
                 </p>
               </div>
               <button onClick={handleCloseModal} className="p-1.5 hover:bg-gray-100 rounded-lg transition">
@@ -505,11 +652,22 @@ export default function ClipManagementPage() {
 
                   {/* Clipped Countries */}
                   <div className="mb-4">
-                    <h4 className="text-sm font-semibold text-green-700 mb-2 flex items-center gap-1.5">
-                      <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                      </svg>
-                      Clipped ({countrySearch ? filteredClipped.length : modalData.clipped.length})
+                    <h4 className="text-sm font-semibold text-green-700 mb-2 flex items-center justify-between">
+                      <span className="flex items-center gap-1.5">
+                        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                        Clipped ({countrySearch ? filteredClipped.length : modalData.clipped.length})
+                      </span>
+                      {modalData.clipped.length > 0 && !modalLayer.isRunning && (
+                        <button
+                          onClick={() => handleDeleteAllForLayer(modalLayer)}
+                          disabled={deletingLayerId === modalLayer.id}
+                          className="text-xs font-medium text-red-600 hover:text-red-800 hover:bg-red-50 px-2 py-1 rounded transition"
+                        >
+                          {deletingLayerId === modalLayer.id ? 'Deleting...' : 'Delete All'}
+                        </button>
+                      )}
                     </h4>
                     <div className="max-h-48 overflow-y-auto border border-green-200 rounded-lg bg-green-50/50">
                       {filteredClipped.length === 0 ? (
@@ -517,11 +675,30 @@ export default function ClipManagementPage() {
                       ) : (
                         <div className="flex flex-wrap gap-1.5 p-2">
                           {filteredClipped.map(country => (
-                            <span key={country} className="inline-flex items-center gap-1 px-2 py-0.5 bg-green-100 text-green-800 rounded-md text-xs font-medium">
-                              <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                              </svg>
-                              {country}
+                            <span key={country} className="inline-flex items-center gap-1 px-2 py-0.5 bg-green-100 text-green-800 rounded-md text-xs font-medium group/clip">
+                              {deletingCountry === country ? (
+                                <svg className="w-3 h-3 animate-spin text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+                                </svg>
+                              ) : (
+                                <>
+                                  <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                                  </svg>
+                                  {country}
+                                  {!modalLayer.isRunning && (
+                                    <button
+                                      onClick={(e) => { e.stopPropagation(); handleDeleteCountry(modalLayer, country) }}
+                                      className="ml-0.5 text-green-400 hover:text-red-600 transition"
+                                      title={`Delete clip for ${country}`}
+                                    >
+                                      <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                                      </svg>
+                                    </button>
+                                  )}
+                                </>
+                              )}
                             </span>
                           ))}
                         </div>
@@ -558,8 +735,41 @@ export default function ClipManagementPage() {
         </div>
       )}
 
+      {/* Confirm Dialog */}
+      {confirmAction && (
+        <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-[60] p-4" onClick={() => setConfirmAction(null)}>
+          <div className="bg-white rounded-xl shadow-xl max-w-sm w-full" onClick={e => e.stopPropagation()}>
+            <div className="p-6">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-10 h-10 rounded-full bg-red-100 flex items-center justify-center shrink-0">
+                  <svg className="w-5 h-5 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L4.082 16.5c-.77.833.192 2.5 1.732 2.5z" />
+                  </svg>
+                </div>
+                <h3 className="text-lg font-semibold text-gray-900">{confirmAction.title}</h3>
+              </div>
+              <p className="text-sm text-gray-600 mb-6">{confirmAction.message}</p>
+              <div className="flex gap-3 justify-end">
+                <button
+                  onClick={() => setConfirmAction(null)}
+                  className="px-4 py-2 text-sm font-medium text-gray-700 bg-gray-100 rounded-lg hover:bg-gray-200 transition"
+                >
+                  Cancel
+                </button>
+                <button
+                  onClick={confirmAction.onConfirm}
+                  className="px-4 py-2 text-sm font-medium text-white bg-red-600 rounded-lg hover:bg-red-700 transition"
+                >
+                  Delete
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
       {/* Footer */}
-      <footer className="bg-white border-t mt-20">
+      <footer className="bg-white border-t mt-auto">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <p className="text-center text-gray-600">
             &copy; 2025 Platform. All rights reserved.
