@@ -513,6 +513,7 @@ def publish_to_geoserver(
     """
     Publish clipped GeoTIFF to GeoServer via REST API using external file reference.
     GeoServer will read the file from the shared PVC instead of copying it.
+    Steps: create store → enable store → create coverage (layer)
     """
     # Get the relative path from OUTPUT_DIR to construct the file:// URL
     tif_path_obj = Path(tif_path)
@@ -520,19 +521,19 @@ def publish_to_geoserver(
     geoserver_file_path = f"{GEOSERVER_FILE_BASE}/{relative_path}"
     file_url = f"file://{geoserver_file_path}"
 
-    # Create coverage store with external file reference
     store_url = f"{GEOSERVER_REST_URL}/workspaces/{workspace}/coveragestores"
     store_config = {
         "coverageStore": {
             "name": layer_id,
-            "type": "File",
+            "type": "GeoTIFF",
             "url": file_url,
             "workspace": {"name": workspace}
         }
     }
 
-    logger.info(f"Publishing to GeoServer with external file: {file_url}")
+    logger.info(f"[GeoServer] Step 1/3 - Creating store: {layer_id} (file: {file_url})")
 
+    # Step 1: Create the coverage store
     response = requests.post(
         store_url,
         json=store_config,
@@ -544,16 +545,42 @@ def publish_to_geoserver(
         logger.error(f"GeoServer store creation failed: {response.status_code} - {response.text}")
         raise RuntimeError(f"GeoServer store creation failed: {response.text}")
 
-    # Configure the coverage
-    config_url = f"{GEOSERVER_REST_URL}/workspaces/{workspace}/coveragestores/{layer_id}/coverages/{layer_id}"
-    config_response = requests.put(
-        config_url,
+    # Step 2: Enable the store (GeoServer may create it as disabled)
+    logger.info(f"[GeoServer] Step 2/3 - Enabling store: {layer_id}")
+    store_url_update = f"{GEOSERVER_REST_URL}/workspaces/{workspace}/coveragestores/{layer_id}"
+    store_config["coverageStore"]["enabled"] = True
+    enable_response = requests.put(
+        store_url_update,
+        json=store_config,
         auth=(GEOSERVER_USER, GEOSERVER_PASSWORD),
         headers={"Content-type": "application/json"}
     )
 
-    if config_response.status_code not in [200, 201, 202]:
-        logger.warning(f"Coverage configuration warning: {config_response.status_code} - {config_response.text}")
+    if enable_response.status_code not in [200, 201, 202]:
+        logger.warning(f"Store enable warning: {enable_response.status_code} - {enable_response.text}")
+
+    # Step 3: Create the coverage (layer) in the store
+    logger.info(f"[GeoServer] Step 3/3 - Creating coverage: {layer_id}")
+    coverage_url = f"{store_url}/{layer_id}/coverages"
+    # nativeName = filename without extension (how GeoServer identifies it from the store)
+    tif_filename = Path(geoserver_file_path).stem
+    coverage_config = {
+        "coverage": {
+            "name": layer_id,
+            "title": layer_id,
+            "nativeName": tif_filename
+        }
+    }
+    coverage_response = requests.post(
+        coverage_url,
+        json=coverage_config,
+        auth=(GEOSERVER_USER, GEOSERVER_PASSWORD),
+        headers={"Content-type": "application/json"}
+    )
+
+    if coverage_response.status_code not in [200, 201]:
+        logger.error(f"Coverage creation failed: {coverage_response.status_code} - {coverage_response.text}")
+        raise RuntimeError(f"Coverage creation failed: {coverage_response.text}")
 
     logger.info(f"Successfully published to GeoServer: {workspace}:{layer_id}")
     return True
