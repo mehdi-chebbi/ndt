@@ -64,6 +64,41 @@ IMPORTANT TOOL RULES:
 - When you receive status "no_stats", tell the user no pre-computed stats exist yet for that country+layer combination.
 - When the user's question is general and does NOT require database lookups (e.g. "how do I draw a polygon?", "what is Gini index?"), respond directly WITHOUT using any tools.
 
+CHART GENERATION:
+When your response includes numerical data with 3+ categories that would benefit from visualization (percentages, distributions, comparisons, trends), you MUST include a chart specification. This makes data much easier to understand.
+
+To include a chart, add a fenced code block with the \`chart\` language tag:
+
+\`\`\`chart
+{
+  "type": "pie",
+  "title": "Nigeria Land Cover Distribution",
+  "data": [
+    {"name": "Forest", "value": 32.5},
+    {"name": "Agriculture", "value": 45.2},
+    {"name": "Urban", "value": 8.1},
+    {"name": "Water", "value": 5.3}
+  ]
+}
+\`\`\`
+
+Chart types and when to use them:
+- "pie": Class distributions, percentage breakdowns, land cover composition
+- "donut": Same as pie but cleaner look for 3-6 categories
+- "bar": Comparing quantities across categories (vertical bars)
+- "horizontal-bar": Same as bar but better when category names are long
+- "line": Time-series data, trends over years
+
+Data format rules:
+- For pie/donut: each item MUST have "name" (string) and "value" (number) keys
+- For bar/horizontal-bar: each item MUST have "name" (string) and "value" (number) keys
+- For line: each item MUST have "name" (string, e.g. year) and "value" (number) keys
+- "title" is optional but recommended
+- You may include multiple charts in a single response
+- Do NOT include a chart for simple 1-2 number answers or yes/no questions
+- ALWAYS include a chart when presenting statistical data with 3+ categories
+- Keep the chart data array flat and simple — no nested objects
+
 Guidelines:
 - Be concise and helpful. This is a side-panel chat, keep responses focused.
 - Respond in the same language the user uses.
@@ -106,7 +141,20 @@ TASK: Provide a structured analysis in this exact format:
 **Key Findings**
 [3-5 bullet points with spatial context about the most important patterns]
 
+CHART: You MUST include a chart visualizing the class distribution. Use a fenced code block with the \`chart\` language tag:
 
+\`\`\`chart
+{
+  "type": "pie",
+  "title": "Land Cover Distribution",
+  "data": [
+    {"name": "Class Name", "value": 45.2},
+    {"name": "Another Class", "value": 32.1}
+  ]
+}
+\`\`\`
+
+Use "pie" or "donut" for class distributions. Each data item MUST have "name" (string) and "value" (number, use the percentage) keys. If there are many small classes, group the ones under 5% into an "Other" category.
 
 Be concise, spatially aware, and data-driven. Focus on actionable insights.
 Respond in the same language the user uses.`;
