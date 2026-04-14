@@ -12,6 +12,9 @@ const GEOSERVER_WMS_URL = process.env.GEOSERVER_WMS_URL || 'http://geoserver:808
 const GEOSERVER_USER = process.env.GEOSERVER_USER || 'admin';
 const GEOSERVER_PASSWORD = process.env.GEOSERVER_PASSWORD || 'geoserver';
 
+// Clip service configuration
+const CLIP_SERVICE_URL = process.env.CLIP_SERVICE_URL || 'http://clip-service:3005';
+
 // Create Basic Auth header
 const GEOSERVER_AUTH = 'Basic ' + Buffer.from(`${GEOSERVER_USER}:${GEOSERVER_PASSWORD}`).toString('base64');
 
@@ -99,7 +102,9 @@ async function fetchLayersFromGeoServer(): Promise<any[]> {
 
     // Filter out clipped layers (those starting with "clip_")
     const filteredLayersList = layersList.filter((layerItem: any) => {
-      const layerName = layerItem.name || '';
+      const layerName = (layerItem.name || '').includes(':')
+        ? (layerItem.name || '').split(':')[1]
+        : (layerItem.name || '');
       return !layerName.startsWith('clip_');
     });
 
@@ -530,7 +535,7 @@ router.get('/batch-status', async (req: Request, res: Response) => {
       FROM layers
       WHERE file_path IS NOT NULL
         AND file_path != ''
-        AND NOT geoserver_name LIKE 'clip_%'
+        AND NOT geoserver_name LIKE '%:clip_%'
       ORDER BY display_name ASC NULLS LAST, geoserver_name ASC
     `);
 
@@ -904,6 +909,26 @@ router.delete('/clipped-layer', async (req: Request, res: Response) => {
 
     console.log(`[Delete Clip] DB cache deleted for ${countryName}`);
 
+    // Delete the physical .tif file from the shared PVC (non-critical)
+    try {
+      const fileDeleteUrl = `${CLIP_SERVICE_URL}/clip/file`;
+      const fileResponse = await fetch(fileDeleteUrl, {
+        method: 'DELETE',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ clipped_layer_name: clipped_layer_name })
+      });
+      
+      if (fileResponse.ok) {
+        const fileResult = await fileResponse.json();
+        console.log(`[Delete Clip] Physical file deleted: ${fileResult.path || fileResult.message}`);
+      } else {
+        console.warn(`[Delete Clip] Failed to delete physical file: ${fileResponse.status}`);
+      }
+    } catch (fileError: any) {
+      console.warn(`[Delete Clip] File deletion error (non-critical): ${fileError.message}`);
+      // Don't fail the operation if file deletion fails
+    }
+
     if (!geoResult.success) {
       // GeoServer cleanup failed but DB is clean
       console.warn(`[Delete Clip] GeoServer cleanup warning for ${countryName}: ${geoResult.error}`);
@@ -981,6 +1006,33 @@ router.delete('/batch-delete', async (req: Request, res: Response) => {
     // Always clean DB regardless of GeoServer results
     await pool.query('DELETE FROM clipped_layers_cache WHERE layer_id = $1', [layerId]);
     console.log(`[Batch Delete] DB cache cleared for layer ${layerId}`);
+
+    // Delete all physical .tif files from the shared PVC (non-critical, batch operation)
+    try {
+      const fileDeleteUrl = `${CLIP_SERVICE_URL}/clip/files`;
+      const clippedLayerNames = entries.map(e => e.clipped_layer_name);
+      const fileResponse = await fetch(fileDeleteUrl, {
+        method: 'DELETE',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ clipped_layer_names: clippedLayerNames })
+      });
+      
+      if (fileResponse.ok) {
+        const fileResult = await fileResponse.json();
+        console.log(`[Batch Delete] Physical files deleted: ${fileResult.deleted.length}/${fileResult.total_requested}`);
+        if (fileResult.not_found.length > 0) {
+          console.warn(`[Batch Delete] Files not found: ${fileResult.not_found.join(', ')}`);
+        }
+        if (fileResult.errors.length > 0) {
+          console.warn(`[Batch Delete] File deletion errors: ${fileResult.errors.length}`);
+        }
+      } else {
+        console.warn(`[Batch Delete] Failed to batch delete physical files: ${fileResponse.status}`);
+      }
+    } catch (fileError: any) {
+      console.warn(`[Batch Delete] File deletion error (non-critical): ${fileError.message}`);
+      // Don't fail the operation if file deletion fails
+    }
 
     res.json({
       status: failedCount === 0 ? 'success' : 'partial',

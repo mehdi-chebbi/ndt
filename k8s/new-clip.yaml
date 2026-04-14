@@ -1,3 +1,16 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: clipped-rasters-pvc
+  namespace: ndt-platform
+spec:
+  accessModes:
+    - ReadWriteMany
+  resources:
+    requests:
+      storage: 30Gi
+  storageClassName: standard  # Update based on your cluster's RWM storage class
+---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -44,9 +57,11 @@ spec:
                 secretKeyRef:
                   name: ndt-secrets
                   key: GEOSERVER_PASSWORD
-            # Paths (raster data is on the shared hostPath volume)
+            # Shared PVC for clipped rasters
             - name: OUTPUT_DIR
-              value: "/data/tiffs/clipped"
+              value: "/data/clipped-rasters"
+            - name: GEOSERVER_FILE_BASE
+              value: "/opt/clipped-rasters"
             - name: GEOJSON_DIR
               value: "/app/geojson"
           resources:
@@ -73,10 +88,17 @@ spec:
             timeoutSeconds: 5
             failureThreshold: 3
           volumeMounts:
-            # Shared volume: read source rasters from /data/tiffs/, write clipped output to /data/tiffs/clipped/
+            # Shared volume for clipped rasters (read-write for clip-service)
+            - name: clipped-rasters
+              mountPath: /data/clipped-rasters
+            # GeoServer data volume (read-only for accessing source rasters)
             - name: geoserver-data
-              mountPath: /data
+              mountPath: /data/tiffs
+              readOnly: true
       volumes:
+        - name: clipped-rasters
+          persistentVolumeClaim:
+            claimName: clipped-rasters-pvc
         - name: geoserver-data
           hostPath:
             path: /mnt/geoserver-data

@@ -44,7 +44,8 @@ GEOSERVER_URL = os.getenv("GEOSERVER_URL", "http://geoserver:8080/geoserver")
 GEOSERVER_REST_URL = f"{GEOSERVER_URL}/rest"
 GEOSERVER_USER = os.getenv("GEOSERVER_USER", "admin")
 GEOSERVER_PASSWORD = os.getenv("GEOSERVER_PASSWORD", "geoserver")
-OUTPUT_DIR = os.getenv("OUTPUT_DIR", "/tmp/clipped")
+OUTPUT_DIR = os.getenv("OUTPUT_DIR", "/data/clipped-rasters")
+GEOSERVER_FILE_BASE = os.getenv("GEOSERVER_FILE_BASE", "/opt/clipped-rasters")
 GEOJSON_DIR = os.getenv("GEOJSON_DIR", "/app/geojson")
 
 # Database configuration
@@ -510,23 +511,49 @@ def publish_to_geoserver(
     layer_id: str
 ) -> bool:
     """
-    Publish clipped GeoTIFF to GeoServer via REST API
+    Publish clipped GeoTIFF to GeoServer via REST API using external file reference.
+    GeoServer will read the file from the shared PVC instead of copying it.
     """
-    publish_url = f"{GEOSERVER_REST_URL}/workspaces/{workspace}/coveragestores/{layer_id}/file.geotiff?configure=all"
+    # Get the relative path from OUTPUT_DIR to construct the file:// URL
+    tif_path_obj = Path(tif_path)
+    relative_path = tif_path_obj.relative_to(OUTPUT_DIR)
+    geoserver_file_path = f"{GEOSERVER_FILE_BASE}/{relative_path}"
+    file_url = f"file://{geoserver_file_path}"
 
-    logger.info(f"Publishing to GeoServer: {publish_url}")
+    # Create coverage store with external file reference
+    store_url = f"{GEOSERVER_REST_URL}/workspaces/{workspace}/coveragestores"
+    store_config = {
+        "coverageStore": {
+            "name": layer_id,
+            "type": "File",
+            "url": file_url,
+            "workspace": {"name": workspace}
+        }
+    }
 
-    with open(tif_path, "rb") as f:
-        response = requests.put(
-            publish_url,
-            data=f,
-            auth=(GEOSERVER_USER, GEOSERVER_PASSWORD),
-            headers={"Content-type": "image/tiff"}
-        )
+    logger.info(f"Publishing to GeoServer with external file: {file_url}")
+
+    response = requests.post(
+        store_url,
+        json=store_config,
+        auth=(GEOSERVER_USER, GEOSERVER_PASSWORD),
+        headers={"Content-type": "application/json"}
+    )
 
     if response.status_code not in [200, 201]:
-        logger.error(f"GeoServer publish failed: {response.status_code} - {response.text}")
-        raise RuntimeError(f"GeoServer publish failed: {response.text}")
+        logger.error(f"GeoServer store creation failed: {response.status_code} - {response.text}")
+        raise RuntimeError(f"GeoServer store creation failed: {response.text}")
+
+    # Configure the coverage
+    config_url = f"{GEOSERVER_REST_URL}/workspaces/{workspace}/coveragestores/{layer_id}/coverages/{layer_id}"
+    config_response = requests.put(
+        config_url,
+        auth=(GEOSERVER_USER, GEOSERVER_PASSWORD),
+        headers={"Content-type": "application/json"}
+    )
+
+    if config_response.status_code not in [200, 201, 202]:
+        logger.warning(f"Coverage configuration warning: {config_response.status_code} - {config_response.text}")
 
     logger.info(f"Successfully published to GeoServer: {workspace}:{layer_id}")
     return True
@@ -809,6 +836,117 @@ async def list_jobs():
     # Cleanup old completed/failed jobs
     job_tracker.cleanup_old_jobs()
     return {"jobs": job_tracker.get_all_jobs()}
+
+
+class FileDeleteRequest(BaseModel):
+    clipped_layer_name: str
+
+
+class BatchFileDeleteRequest(BaseModel):
+    clipped_layer_names: list[str]
+
+
+@app.delete("/clip/file")
+async def delete_clip_file(request: FileDeleteRequest):
+    """
+    Delete a single clipped .tif file from the shared PVC.
+    The file is found by walking the OUTPUT_DIR looking for the matching filename.
+    """
+    try:
+        layer_name = request.clipped_layer_name  # e.g., "LC:clip_Nigeria_JRC_1_a1b2c3d4"
+        
+        # Extract just the store name (after the colon)
+        store_name = layer_name.split(":")[-1] if ":" in layer_name else layer_name
+        
+        # Walk OUTPUT_DIR to find the file
+        found_path = None
+        output_dir_path = Path(OUTPUT_DIR)
+        
+        if output_dir_path.exists():
+            for file_path in output_dir_path.rglob(f"{store_name}.tif"):
+                found_path = file_path
+                break
+        
+        if found_path is None:
+            logger.warning(f"File not found for deletion: {layer_name}")
+            return {"status": "not_found", "message": "File not found"}
+        
+        # Delete the file
+        os.remove(found_path)
+        logger.info(f"Deleted clip file: {found_path}")
+        
+        # Clean up empty parent directories
+        parent = found_path.parent
+        while parent != output_dir_path and parent.exists():
+            try:
+                parent.rmdir()  # Only removes if empty
+                parent = parent.parent
+                logger.info(f"Cleaned up empty directory: {parent}")
+            except OSError:
+                # Directory not empty, stop
+                break
+        
+        return {"status": "deleted", "path": str(found_path)}
+        
+    except Exception as e:
+        logger.error(f"Error deleting clip file: {e}")
+        raise HTTPException(status_code=500, detail=f"Failed to delete file: {str(e)}")
+
+
+@app.delete("/clip/files")
+async def delete_clip_files_batch(request: BatchFileDeleteRequest):
+    """
+    Batch delete multiple clipped .tif files from the shared PVC.
+    Also cleans up empty directories.
+    """
+    deleted = []
+    not_found = []
+    errors = []
+    
+    for layer_name in request.clipped_layer_names:
+        try:
+            store_name = layer_name.split(":")[-1] if ":" in layer_name else layer_name
+            
+            # Walk OUTPUT_DIR to find the file
+            found_path = None
+            output_dir_path = Path(OUTPUT_DIR)
+            
+            if output_dir_path.exists():
+                for file_path in output_dir_path.rglob(f"{store_name}.tif"):
+                    found_path = file_path
+                    break
+            
+            if found_path is None:
+                not_found.append(layer_name)
+                continue
+            
+            # Delete the file
+            os.remove(found_path)
+            deleted.append(str(found_path))
+            logger.info(f"Deleted clip file: {found_path}")
+            
+        except Exception as e:
+            logger.error(f"Error deleting file for {layer_name}: {e}")
+            errors.append({"layer_name": layer_name, "error": str(e)})
+    
+    # Clean up empty directories
+    output_dir_path = Path(OUTPUT_DIR)
+    if output_dir_path.exists():
+        for dir_path in sorted(output_dir_path.rglob("*"), reverse=True):
+            if dir_path.is_dir():
+                try:
+                    dir_path.rmdir()
+                    logger.info(f"Cleaned up empty directory: {dir_path}")
+                except OSError:
+                    pass  # Directory not empty
+    
+    return {
+        "status": "completed",
+        "deleted": deleted,
+        "not_found": not_found,
+        "errors": errors,
+        "total_requested": len(request.clipped_layer_names)
+    }
 
 
 @app.post("/stats")
