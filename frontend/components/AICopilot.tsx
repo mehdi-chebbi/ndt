@@ -3,6 +3,7 @@
 import { useState, useRef, useEffect, useCallback } from 'react'
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
+import ChartRenderer, { parseChartSpec } from './AICharts'
 
 const API_BASE = '' // Use relative paths for reverse proxy compatibility
 
@@ -143,6 +144,72 @@ function MessageImages({ urls }: { urls: string[] }) {
         />
       ))}
     </div>
+  )
+}
+
+// ── Render assistant content with charts ────────────────────────────
+
+/** Split text on ```chart ... ``` blocks and render each segment */
+function renderAssistantContent(text: string) {
+  const segments: Array<{ type: 'text' | 'chart'; content: string }> = []
+
+  // Match ```chart ... ``` blocks (non-greedy, supports multiline JSON)
+  const chartRegex = /```chart\s*\n([\s\S]*?)```/g
+  let lastIndex = 0
+  let match
+
+  while ((match = chartRegex.exec(text)) !== null) {
+    // Text before this chart block
+    if (match.index > lastIndex) {
+      segments.push({ type: 'text', content: text.slice(lastIndex, match.index) })
+    }
+    // The chart JSON
+    segments.push({ type: 'chart', content: match[1].trim() })
+    lastIndex = match.index + match[0].length
+  }
+
+  // Remaining text after last chart
+  if (lastIndex < text.length) {
+    segments.push({ type: 'text', content: text.slice(lastIndex) })
+  }
+
+  // If no charts found, just render the whole thing as markdown
+  if (segments.length === 0) {
+    return (
+      <ReactMarkdown remarkPlugins={[remarkGfm]} components={markdownComponents}>
+        {text}
+      </ReactMarkdown>
+    )
+  }
+
+  return (
+    <>
+      {segments.map((seg, i) => {
+        if (seg.type === 'chart') {
+          const spec = parseChartSpec(seg.content)
+          if (spec) {
+            return (
+              <div key={i} className="my-2 bg-white rounded-lg">
+                <ChartRenderer spec={spec} />
+              </div>
+            )
+          }
+          // If chart parsing fails, show raw JSON in a code block
+          return (
+            <pre key={i} className="bg-gray-900 text-gray-100 text-[12px] rounded-lg p-3 my-2 overflow-x-auto leading-relaxed font-mono">
+              {seg.content}
+            </pre>
+          )
+        }
+        // Text segment — render with ReactMarkdown
+        if (!seg.content.trim()) return null
+        return (
+          <ReactMarkdown key={i} remarkPlugins={[remarkGfm]} components={markdownComponents}>
+            {seg.content}
+          </ReactMarkdown>
+        )
+      })}
+    </>
   )
 }
 
@@ -494,6 +561,7 @@ export default function AICopilot() {
       const decoder = new TextDecoder()
       let buffer = ''
       let accumulatedContent = ''
+      let isSearching = false // Track if we're showing "searching" indicator
 
       while (true) {
         const { done, value } = await reader.read()
@@ -515,7 +583,25 @@ export default function AICopilot() {
                 throw new Error(parsed.error)
               }
 
+              // Handle "searching" event — backend is querying the database
+              if (parsed.type === 'searching') {
+                isSearching = true
+                setMessages(prev => {
+                  const updated = [...prev]
+                  if (updated[assistantIndex]?.role === 'assistant') {
+                    updated[assistantIndex] = { role: 'assistant', content: '🔍 Searching database...' }
+                  }
+                  return updated
+                })
+                continue
+              }
+
               if (parsed.content) {
+                // If we were showing "searching" indicator, reset for actual content
+                if (isSearching) {
+                  isSearching = false
+                  accumulatedContent = ''
+                }
                 accumulatedContent += parsed.content
                 setMessages(prev => {
                   const updated = [...prev]
@@ -525,8 +611,9 @@ export default function AICopilot() {
                   return updated
                 })
               }
-            } catch {
-              // Non-critical parse error
+            } catch (e: any) {
+              // Re-throw actual errors (from parsed.error)
+              if (e.message && !e.message.includes('JSON')) throw e
             }
           }
         }
@@ -652,9 +739,7 @@ export default function AICopilot() {
                             <span className="text-gray-400 italic">Thinking...</span>
                           ) : msg.role === 'assistant' ? (
                             <div className="markdown-body">
-                              <ReactMarkdown remarkPlugins={[remarkGfm]} components={markdownComponents}>
-                                {textContent}
-                              </ReactMarkdown>
+                              {renderAssistantContent(textContent)}
                             </div>
                           ) : (
                             <>

@@ -64,11 +64,48 @@ IMPORTANT TOOL RULES:
 - When you receive status "no_stats", tell the user no pre-computed stats exist yet for that country+layer combination.
 - When the user's question is general and does NOT require database lookups (e.g. "how do I draw a polygon?", "what is Gini index?"), respond directly WITHOUT using any tools.
 
+CHART GENERATION:
+When your response includes numerical data with 3+ categories that would benefit from visualization (percentages, distributions, comparisons, trends), you MUST include a chart specification. This makes data much easier to understand.
+
+To include a chart, add a fenced code block with the \`chart\` language tag:
+
+\`\`\`chart
+{
+  "type": "pie",
+  "title": "Nigeria Land Cover Distribution",
+  "data": [
+    {"name": "Forest", "value": 32.5},
+    {"name": "Agriculture", "value": 45.2},
+    {"name": "Urban", "value": 8.1},
+    {"name": "Water", "value": 5.3}
+  ]
+}
+\`\`\`
+
+Chart types and when to use them:
+- "pie": Class distributions, percentage breakdowns, land cover composition
+- "donut": Same as pie but cleaner look for 3-6 categories
+- "bar": Comparing quantities across categories (vertical bars)
+- "horizontal-bar": Same as bar but better when category names are long
+- "line": Time-series data, trends over years
+
+Data format rules:
+- For pie/donut: each item MUST have "name" (string) and "value" (number) keys
+- For bar/horizontal-bar: each item MUST have "name" (string) and "value" (number) keys
+- For line: each item MUST have "name" (string, e.g. year) and "value" (number) keys
+- "title" is optional but recommended
+- You may include multiple charts in a single response
+- Do NOT include a chart for simple 1-2 number answers or yes/no questions
+- ALWAYS include a chart when presenting statistical data with 3+ categories
+- Keep the chart data array flat and simple — no nested objects
+
 Guidelines:
 - Be concise and helpful. This is a side-panel chat, keep responses focused.
 - Respond in the same language the user uses.
 - When discussing data, be specific about numbers, dates, and sources when possible.
 - Never claim to have real-time access to the map — you can only discuss what you've been told via tools or conversation history.
+- NEVER ask the user for permission to use database tools. If a question requires data, call the tools immediately and present the results. Do not say "Shall I query?" or "Would you like me to?" — just do it.
+- When a question requires querying multiple countries or a large batch, do NOT ask for confirmation. Execute all necessary tool calls and present the results.
 - Never drift into general assistant behavior. Always bring the conversation back to AfriGeoData's features and data.`;
 
 // Special system prompt for area analysis (structured output) — unchanged
@@ -106,7 +143,20 @@ TASK: Provide a structured analysis in this exact format:
 **Key Findings**
 [3-5 bullet points with spatial context about the most important patterns]
 
+CHART: You MUST include a chart visualizing the class distribution. Use a fenced code block with the \`chart\` language tag:
 
+\`\`\`chart
+{
+  "type": "pie",
+  "title": "Land Cover Distribution",
+  "data": [
+    {"name": "Class Name", "value": 45.2},
+    {"name": "Another Class", "value": 32.1}
+  ]
+}
+\`\`\`
+
+Use "pie" or "donut" for class distributions. Each data item MUST have "name" (string) and "value" (number, use the percentage) keys. If there are many small classes, group the ones under 5% into an "Other" category.
 
 Be concise, spatially aware, and data-driven. Focus on actionable insights.
 Respond in the same language the user uses.`;
@@ -548,8 +598,19 @@ function validateAiConfig(): { ok: boolean; error?: string } {
   return { ok: true };
 }
 
-/** Call AI API in non-streaming mode, returns full response text */
-async function callAiNonStream(messages: ApiMessage[]): Promise<string> {
+/** Smart-stream Round 1: buffers initially to detect tool calls, then flushes+streams if safe.
+ *
+ *  Strategy:
+ *  1. Buffer chunks silently while we check if the response starts with `{` (tool call pattern)
+ *  2. As soon as we see the first non-whitespace char is NOT `{`, it's a regular response
+ *     → flush the buffered content to client and switch to streaming mode
+ *  3. If it starts with `{`, keep buffering silently (might be a tool call)
+ *  4. Returns { text, alreadyStreaming } so the caller knows whether content was already sent
+ */
+async function smartStreamRound1(
+  res: Response,
+  messages: ApiMessage[],
+): Promise<{ text: string; alreadyStreaming: boolean }> {
   const { baseUrl, modelName } = {
     baseUrl: process.env.AI_BASE_URL!,
     modelName: process.env.AI_MODEL!,
@@ -561,7 +622,7 @@ async function callAiNonStream(messages: ApiMessage[]): Promise<string> {
     body: JSON.stringify({
       model: modelName,
       messages,
-      stream: false,
+      stream: true,
     }),
   });
 
@@ -570,8 +631,79 @@ async function callAiNonStream(messages: ApiMessage[]): Promise<string> {
     throw new Error(`AI API error ${response.status}: ${errorText}`);
   }
 
-  const data = await response.json();
-  return data.choices?.[0]?.message?.content || '';
+  const reader = response.body?.getReader();
+  if (!reader) throw new Error('No response body from AI API');
+
+  const decoder = new TextDecoder();
+  let buffer = '';
+  let accumulated = '';
+  let alreadyStreaming = false;
+
+  // We buffer until we can determine if this is a tool call or not.
+  // Tool calls always start with `{` (like {"tools": [...]}).
+  // Regular responses start with letters, markdown, spaces, etc.
+  let decisionMade = false;
+
+  while (true) {
+    const { done, value } = await reader.read();
+    if (done) break;
+
+    buffer += decoder.decode(value, { stream: true });
+    const lines = buffer.split('\n');
+    buffer = lines.pop() || '';
+
+    for (const line of lines) {
+      const trimmed = line.trim();
+      if (!trimmed || trimmed === 'data: [DONE]') continue;
+
+      if (trimmed.startsWith('data: ')) {
+        try {
+          const parsed = JSON.parse(trimmed.slice(6));
+          const content = parsed.choices?.[0]?.delta?.content;
+          if (content) {
+            accumulated += content;
+
+            if (!decisionMade) {
+              // Check if we have enough text to make a decision
+              const trimmedAccum = accumulated.trimStart();
+
+              if (trimmedAccum.length > 0) {
+                // We have visible content — is it a tool call?
+                if (trimmedAccum[0] === '{') {
+                  // Starts with { — could be a tool call, keep buffering silently
+                  // But also check: if it's been going on for a while without
+                  // looking like a tool call, it might be a markdown code block or similar
+                  if (trimmedAccum.includes('"tools"') || trimmedAccum.length < 200) {
+                    // Still looks like it could be a tool call, keep buffering
+                    continue;
+                  } else {
+                    // Started with { but doesn't contain "tools" and is long —
+                    // probably not a tool call, safe to stream
+                    decisionMade = true;
+                    alreadyStreaming = true;
+                    res.write(`data: ${JSON.stringify({ content: accumulated })}\n\n`);
+                  }
+                } else {
+                  // Doesn't start with { — definitely NOT a tool call, safe to stream!
+                  decisionMade = true;
+                  alreadyStreaming = true;
+                  res.write(`data: ${JSON.stringify({ content: accumulated })}\n\n`);
+                }
+              }
+              // else: still only whitespace, keep buffering
+            } else if (alreadyStreaming) {
+              // Decision already made — stream directly to client
+              res.write(`data: ${JSON.stringify({ content })}\n\n`);
+            }
+          }
+        } catch {
+          // Non-critical parse error, skip
+        }
+      }
+    }
+  }
+
+  return { text: accumulated, alreadyStreaming };
 }
 
 /** Stream AI response and forward chunks to client, returns accumulated text */
@@ -737,16 +869,20 @@ export async function chat(req: Request, res: Response) {
     });
 
     // ═══════════════════════════════════════════════════════════════
-    // ROUND 1: Buffered call — check if AI needs database access
+    // ROUND 1: Smart-stream — buffer to detect tool calls, then flush+stream if safe
     // ═══════════════════════════════════════════════════════════════
 
-    let round1Response: string;
+    let round1Text: string;
+    let alreadyStreaming: boolean;
     try {
-      aiLogger.info('Round 1: Checking if DB query needed (non-streaming)...');
-      round1Response = await callAiNonStream(apiMessages);
+      aiLogger.info('Round 1: Smart-streaming (buffering to detect tool calls)...');
+      const round1Result = await smartStreamRound1(res, apiMessages);
+      round1Text = round1Result.text;
+      alreadyStreaming = round1Result.alreadyStreaming;
       aiLogger.info('Round 1 complete', {
-        length: round1Response.length,
-        hasDbRequest: round1Response.includes('[DB_REQUEST]'),
+        length: round1Text.length,
+        hasTools: round1Text.includes('"tools"'),
+        alreadyStreaming,
       });
     } catch (error: any) {
       aiLogger.error('Round 1 failed', error);
@@ -768,24 +904,24 @@ export async function chat(req: Request, res: Response) {
       return;
     }
 
-    // ── Check for DB_REQUEST tag ──
-    const toolCalls = parseDbRequest(round1Response);
+    // ── Check for tool calls ──
+    const toolCalls = parseDbRequest(round1Text);
 
     if (!toolCalls) {
       // ═══════════════════════════════════════════════════════════
-      // NO DB NEEDED — send response directly to client
+      // NO DB NEEDED — content already streamed to client (or send now if still buffered)
       // ═══════════════════════════════════════════════════════════
 
-      aiLogger.info('No DB query needed — sending direct response');
+      aiLogger.info('No DB query needed — finalizing response', { alreadyStreaming });
 
       // Clean any accidental markers before showing to user
-      const cleanResponse = cleanResponseForUser(round1Response);
+      const cleanResponse = cleanResponseForUser(round1Text);
 
       // Save assistant response
       if (cleanResponse) {
         await pool.query(
           'INSERT INTO chat_messages (session_id, role, content) VALUES ($1, $2, $3)',
-          [sessionId, 'assistant', round1Response],
+          [sessionId, 'assistant', round1Text],
         );
         await pool.query(
           'UPDATE chat_sessions SET updated_at = CURRENT_TIMESTAMP WHERE id = $1',
@@ -793,13 +929,20 @@ export async function chat(req: Request, res: Response) {
         );
       }
 
-      // Send as a single SSE chunk (already have full text)
-      res.write(`data: ${JSON.stringify({ content: cleanResponse })}\n\n`);
-      res.write('data: [DONE]\n\n');
-      res.end();
+      if (alreadyStreaming) {
+        // Content was already streamed chunk-by-chunk to the client — just close
+        res.write('data: [DONE]\n\n');
+        res.end();
+      } else {
+        // Still buffered (started with '{' but wasn't a tool call) — send as one chunk
+        res.write(`data: ${JSON.stringify({ content: cleanResponse })}\n\n`);
+        res.write('data: [DONE]\n\n');
+        res.end();
+      }
 
       aiLogger.success(`Request [${requestId}] completed (direct)`, {
         responseLength: cleanResponse.length,
+        alreadyStreaming,
       });
       aiLogger.separator();
       return;
@@ -813,7 +956,7 @@ export async function chat(req: Request, res: Response) {
       tools: toolCalls.map((t) => t.name),
     });
 
-    // Notify frontend
+    // Notify frontend that we're searching the database
     res.write(`data: ${JSON.stringify({ type: 'searching' })}\n\n`);
 
     // Execute tools
