@@ -1,9 +1,8 @@
 /**
- * Route Handler: /app/api/clip/[...path]/route.ts
+ * Route Handler: /app/api/ai/[...path]/route.ts
  *
- * Proxies clip endpoints to the backend.
- * Excluded from next.config.js rewrites to allow custom timeout
- * for long-running clipping operations.
+ * Proxies AI SSE endpoints to the backend with real-time streaming.
+ * Excluded from next.config.js rewrites to avoid buffering.
  */
 
 export const dynamic = 'force-dynamic';
@@ -11,8 +10,7 @@ export const dynamic = 'force-dynamic';
 import { NextRequest } from "next/server";
 
 const BACKEND_BASE_URL = "http://backend:3001";
-// 30-minute timeout for batch clipping operations
-const PROXY_TIMEOUT_MS = 1_800_000;
+const PROXY_TIMEOUT_MS = 120_000;
 
 const HOP_BY_HOP_HEADERS = new Set([
   "connection",
@@ -30,7 +28,7 @@ async function proxyRequest(
   request: NextRequest,
   segments: string[]
 ): Promise<Response> {
-  const backendPath = `/api/clip/${segments.join("/")}`;
+  const backendPath = `/api/ai/${segments.join("/")}`;
   const backendUrl = new URL(backendPath, BACKEND_BASE_URL);
 
   request.nextUrl.searchParams.forEach((value, key) => {
@@ -68,27 +66,35 @@ async function proxyRequest(
         responseHeaders.set(key, value);
       }
     });
+    // Prevent any proxy layer from buffering SSE
     responseHeaders.set("X-Accel-Buffering", "no");
     responseHeaders.set("Cache-Control", "no-cache, no-transform");
 
+    // Fire-and-forget: return Response immediately, stream data in background
     const stream = new ReadableStream({
-      start(ctrl) {
+      start(controller) {
         (async () => {
           const reader = backendResponse.body?.getReader();
           if (!reader) {
-            ctrl.close();
+            controller.close();
             return;
           }
           try {
+            let chunkCount = 0;
             while (true) {
               const { done, value } = await reader.read();
-              if (done) break;
-              ctrl.enqueue(value);
+              if (done) {
+                console.log(`[ai-proxy] Stream done — ${chunkCount} chunks total`);
+                break;
+              }
+              chunkCount++;
+              console.log(`[ai-proxy] Chunk #${chunkCount}: ${value.length} bytes`);
+              controller.enqueue(value);
             }
-            ctrl.close();
+            controller.close();
           } catch (err) {
-            console.error(`[clip-proxy] Stream error:`, err);
-            ctrl.error(err);
+            console.error(`[ai-proxy] Stream error:`, err);
+            controller.error(err);
           }
         })();
       },
@@ -101,14 +107,14 @@ async function proxyRequest(
     });
   } catch (error: unknown) {
     if (error instanceof Error && error.name === "AbortError") {
-      console.error(`[clip-proxy] Timeout after ${PROXY_TIMEOUT_MS / 1000}s — ${request.method} ${backendUrl}`);
+      console.error(`[ai-proxy] Timeout after ${PROXY_TIMEOUT_MS / 1000}s — ${request.method} ${backendUrl}`);
       return Response.json(
-        { error: "Gateway Timeout", message: "Clip service did not respond in time." },
+        { error: "Gateway Timeout", message: "AI service did not respond in time." },
         { status: 504 }
       );
     }
 
-    console.error(`[clip-proxy] Upstream error — ${request.method} ${backendUrl}:`, error);
+    console.error(`[ai-proxy] Upstream error — ${request.method} ${backendUrl}:`, error);
     return Response.json(
       { error: "Bad Gateway", message: "Failed to reach the backend." },
       { status: 502 }
@@ -118,23 +124,7 @@ async function proxyRequest(
   }
 }
 
-export async function GET(
-  request: NextRequest,
-  context: { params: Promise<{ path: string[] }> }
-) {
-  const params = await context.params;
-  return proxyRequest(request, params.path);
-}
-
 export async function POST(
-  request: NextRequest,
-  context: { params: Promise<{ path: string[] }> }
-) {
-  const params = await context.params;
-  return proxyRequest(request, params.path);
-}
-
-export async function DELETE(
   request: NextRequest,
   context: { params: Promise<{ path: string[] }> }
 ) {

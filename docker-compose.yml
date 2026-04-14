@@ -79,9 +79,9 @@ services:
       # - AI_BASE_URL=https://openrouter.ai/api/v1
       # - AI_MODEL=openai/gpt-4o
       # - AI_API_KEY=sk-or-v1-your-key-here
-      # - AI_APP_URL=http://localhost:3000
-      # - AI_APP_NAME=NDT Platform
-
+      - AI_BASE_URL=${AI_BASE_URL:-https://openrouter.ai/api/v1}
+      - AI_MODEL=openai/gpt-oss-120b:free
+      - AI_API_KEY=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
  
     depends_on:
       db:
