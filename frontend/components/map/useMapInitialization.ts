@@ -767,11 +767,13 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
   ) => {
     if (!mapRef.current) return
 
-    // Remove the original layer
-    if (dataLayersRef.current[originalLayerKey]) {
-      mapRef.current.removeLayer(dataLayersRef.current[originalLayerKey] as L.Layer)
-      delete dataLayersRef.current[originalLayerKey]
-    }
+    // Remove ALL existing data layers (radio behavior — same as handleDataLayerToggle)
+    Object.keys(dataLayersRef.current).forEach(key => {
+      if (dataLayersRef.current[key]) {
+        mapRef.current!.removeLayer(dataLayersRef.current[key] as L.Layer)
+        delete dataLayersRef.current[key]
+      }
+    })
 
     // Extract just the layer name part (remove workspace: prefix if present)
     const layersParam = clippedLayerName.includes(':')
