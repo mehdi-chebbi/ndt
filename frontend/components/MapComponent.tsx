@@ -250,6 +250,7 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
     handleStartCompare,
     handleExitCompare,
     switchToClippedLayer,
+    rebuildCompare,
   } = useMapInitialization({
     activeBasemap: state.activeBasemap,
     setActiveBasemap: state.setActiveBasemap,
@@ -297,7 +298,54 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
     // Load polygon and zoom to country
     loadCountryPolygon(country)
 
-    // Auto-check cache for the currently active layer
+    // Compare mode: check cache for both layers independently
+    if (isCompareMode && leftLayerId && rightLayerId) {
+      const leftLayer = allLayers.find(l => l.geoserver_name === leftLayerId)
+      const rightLayer = allLayers.find(l => l.geoserver_name === rightLayerId)
+      if (!leftLayer || !rightLayer) return
+
+      try {
+        const [leftRes, rightRes] = await Promise.allSettled([
+          api.post('/clip/country', { countryFile: country.file, layerId: leftLayer.id }),
+          api.post('/clip/country', { countryFile: country.file, layerId: rightLayer.id }),
+        ])
+
+        const leftCfg: { layer: Layer; clippedLayerName?: string; workspace?: string } = { layer: leftLayer }
+        const rightCfg: { layer: Layer; clippedLayerName?: string; workspace?: string } = { layer: rightLayer }
+
+        if (leftRes.status === 'fulfilled' && leftRes.value.ok) {
+          try {
+            const data = await leftRes.value.json()
+            if (data.status === 'success' && data.cached) {
+              leftCfg.clippedLayerName = data.clippedLayerName
+              leftCfg.workspace = data.clippedLayerName.split(':')[0]
+            }
+          } catch { /* ignore */ }
+        }
+
+        if (rightRes.status === 'fulfilled' && rightRes.value.ok) {
+          try {
+            const data = await rightRes.value.json()
+            if (data.status === 'success' && data.cached) {
+              rightCfg.clippedLayerName = data.clippedLayerName
+              rightCfg.workspace = data.clippedLayerName.split(':')[0]
+            }
+          } catch { /* ignore */ }
+        }
+
+        // Destroy old side-by-side, rebuild with clipped/original layers
+        rebuildCompare(leftCfg, rightCfg, false)
+        console.log('[AutoClip] Compare rebuilt:', {
+          left: leftCfg.clippedLayerName || 'original',
+          right: rightCfg.clippedLayerName || 'original',
+        })
+      } catch (error) {
+        console.warn('[AutoClip] Compare cache check failed:', error)
+      }
+      return
+    }
+
+    // Normal mode: check cache for the currently active layer
     const activeLayerKey = state.activeDataLayers[0]
     if (!activeLayerKey) return
 
@@ -337,7 +385,7 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
       // Silent fail — user just sees the polygon
       console.warn('[AutoClip] Cache check failed:', error)
     }
-  }, [loadCountryPolygon, clearCountryPolygon, state.activeDataLayers, allLayers, switchToClippedLayer])
+  }, [loadCountryPolygon, clearCountryPolygon, state.activeDataLayers, allLayers, switchToClippedLayer, isCompareMode, leftLayerId, rightLayerId, rebuildCompare])
 
   // Get business logic handlers
   const {

@@ -79,6 +79,11 @@ interface UseMapInitializationReturn {
   handleStartCompare: (leftLayer: Layer, rightLayer: Layer, shouldZoom?: boolean) => void
   handleExitCompare: () => void
   switchToClippedLayer: (originalLayerKey: string, clippedLayerName: string, workspace: string) => void
+  rebuildCompare: (
+    leftConfig: { layer: Layer; clippedLayerName?: string; workspace?: string },
+    rightConfig: { layer: Layer; clippedLayerName?: string; workspace?: string },
+    shouldZoom?: boolean
+  ) => void
 }
 
 export function useMapInitialization(props: UseMapInitializationProps): UseMapInitializationReturn {
@@ -793,6 +798,64 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
     dataLayersRef.current[clippedLayerName] = clippedLayer
   }, [])
 
+  // Rebuild compare layers (used when country is selected in compare mode)
+  const rebuildCompare = useCallback((
+    leftConfig: { layer: Layer; clippedLayerName?: string; workspace?: string },
+    rightConfig: { layer: Layer; clippedLayerName?: string; workspace?: string },
+    shouldZoom = false
+  ) => {
+    if (!mapRef.current) return
+
+    // Destroy existing compare
+    if (compareControlRef.current) {
+      compareControlRef.current.remove()
+      compareControlRef.current = null
+    }
+    if (compareLeftLayerRef.current) {
+      mapRef.current.removeLayer(compareLeftLayerRef.current)
+      compareLeftLayerRef.current = null
+    }
+    if (compareRightLayerRef.current) {
+      mapRef.current.removeLayer(compareRightLayerRef.current)
+      compareRightLayerRef.current = null
+    }
+
+    // Helper to create WMS layer (clipped or original)
+    const createCompareWMS = (config: { layer: Layer; clippedLayerName?: string; workspace?: string }) => {
+      if (config.clippedLayerName && config.workspace) {
+        const layersParam = config.clippedLayerName.includes(':')
+          ? config.clippedLayerName.split(':')[1]
+          : config.clippedLayerName
+        return L.tileLayer.wms(`/api/clip/wms?workspace=${config.workspace}`, {
+          layers: layersParam,
+          format: 'image/png',
+          transparent: true,
+          crossOrigin: 'anonymous',
+          attribution: `${config.layer.name} (clipped)`,
+        }).addTo(mapRef.current!)
+      }
+      return L.tileLayer.wms(config.layer.wmsUrl, {
+        layers: config.layer.layerName,
+        format: 'image/png',
+        transparent: true,
+        crossOrigin: 'anonymous',
+        attribution: config.layer.name,
+      }).addTo(mapRef.current!)
+    }
+
+    const leftWMS = createCompareWMS(leftConfig)
+    const rightWMS = createCompareWMS(rightConfig)
+
+    compareLeftLayerRef.current = leftWMS
+    compareRightLayerRef.current = rightWMS
+
+    compareControlRef.current = L.control.sideBySide(leftWMS, rightWMS).addTo(mapRef.current)
+
+    if (shouldZoom && leftConfig.layer.bounds) {
+      mapRef.current.fitBounds(leftConfig.layer.bounds)
+    }
+  }, [])
+
   return {
     mapContainerRef,
     handleBasemapChange,
@@ -806,5 +869,6 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
     handleStartCompare,
     handleExitCompare,
     switchToClippedLayer,
+    rebuildCompare,
   }
 }
