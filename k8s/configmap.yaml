@@ -1,0 +1,40 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: ndt-config
+  namespace: ndt-platform
+  labels:
+    app: ndt-platform
+data:
+  # Database configuration (same as docker-compose)
+  DB_HOST: "postgres"
+  DB_PORT: "5432"
+  DB_NAME: "platform_db"
+  DB_MAX_CONNECTIONS: "20"
+  DB_IDLE_TIMEOUT: "30000"
+  DB_CONNECTION_TIMEOUT: "2000"
+
+  # GeoServer URLs (same as docker-compose)
+  GEOSERVER_REST_URL: "http://geoserver:8080/geoserver/rest"
+  GEOSERVER_WMS_URL: "http://geoserver:8080/geoserver"
+
+  # Backend URL for frontend (same as docker-compose)
+  BACKEND_URL: "http://backend:3001"
+  CLIP_SERVICE_URL: "http://clip-service:3005"
+  # Email defaults
+  EMAIL_HOST: "smtp.gmail.com"
+  EMAIL_PORT: "587"
+  EMAIL_SECURE: "false"
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: postgres-init
+  namespace: ndt-platform
+  labels:
+    app: ndt-platform
+data:
+  # Placeholder - actual schema should be mounted or run manually
+  init.sql: |
+    -- Database schema initialization
+    -- Run backend/schema.sql manually or mount it

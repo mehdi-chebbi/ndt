@@ -404,11 +404,14 @@ router.post('/country', async (req: Request, res: Response) => {
       console.log(`[Backend Clip] Cache hit for ${countryFile} + layer ${layerId}`);
       const cacheHitTime = Date.now();
       console.log('[Backend Clip] Total time (cache hit):', `${(cacheHitTime - requestStartTime) / 1000}s`);
+      const cachedName = cacheResult.rows[0].clipped_layer_name;
+      const outputFileId = cachedName.includes(':') ? cachedName.split(':')[1] : cachedName;
       return res.json({
-        clippedLayerName: cacheResult.rows[0].clipped_layer_name,
+        clippedLayerName: cachedName,
         originalLayer: geoserver_name,
         status: 'success',
-        cached: true
+        cached: true,
+        downloadUrl: `/files/${layerName}/${outputFileId}.tif`,
       });
     }
 
@@ -486,12 +489,14 @@ router.post('/country', async (req: Request, res: Response) => {
       totalTime: `${(responseEndTime - requestStartTime) / 1000}s`
     });
 
+    const outputFileId = clipData.layer_name.includes(':') ? clipData.layer_name.split(':')[1] : clipData.layer_name;
     res.json({
       clippedLayerName: clipData.layer_name,
       originalLayer: geoserver_name,
       status: 'success',
       cached: false,
       file_size_bytes: clipData.file_size_bytes || null,
+      downloadUrl: `/files/${layerName}/${outputFileId}.tif`,
     });
 
   } catch (error: any) {

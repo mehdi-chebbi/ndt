@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useMemo, useCallback, useState, forwardRef, useImperativeHandle } from 'react'
+import { useEffect, useMemo, useCallback, useState, useRef, forwardRef, useImperativeHandle } from 'react'
 import { useRouter } from 'next/navigation'
 
 // Import tab components
@@ -131,9 +131,30 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
   const router = useRouter()
   const [isExporting, setIsExporting] = useState(false)
   const [isClipping, setIsClipping] = useState(false)
+  const [showExportMenu, setShowExportMenu] = useState(false)
+  const [tiffDownloadUrl, setTiffDownloadUrl] = useState<string | null>(null)
+  const exportMenuRef = useRef<HTMLDivElement>(null)
+
+  // Close export menu on outside click
+  useEffect(() => {
+    function handleClickOutside(e: MouseEvent) {
+      if (exportMenuRef.current && !exportMenuRef.current.contains(e.target as Node)) {
+        setShowExportMenu(false)
+      }
+    }
+    if (showExportMenu) {
+      document.addEventListener('mousedown', handleClickOutside)
+      return () => document.removeEventListener('mousedown', handleClickOutside)
+    }
+  }, [showExportMenu])
 
   // Get all state from custom hook
   const state = useMapState()
+
+  // Clear TIFF download URL when country changes (not layer, since clipping changes the active layer)
+  useEffect(() => {
+    setTiffDownloadUrl(null)
+  }, [state.selectedCountry])
 
   // Compare mode state
   const [isCompareMode, setIsCompareMode] = useState(false)
@@ -357,6 +378,11 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
 
         // Update the active layer state
         state.setActiveDataLayers([data.clippedLayerName])
+
+        // Store download URL for TIFF export
+        if (data.downloadUrl) {
+          setTiffDownloadUrl(data.downloadUrl)
+        }
 
         const finalTime = Date.now()
         console.log('[Clip] Clip operation completed successfully:', {
@@ -828,19 +854,61 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
             </button>
           )}
 
-          {/* Export JPEG Button - right under Country Selector */}
+          {/* Export Button with dropdown - JPEG or TIFF */}
           {!isCompareMode && !state.reportingMode && !state.statsMode && !state.aiAnalysisMode && !reportToView && (
-            <button
-              data-tutorial="export-button"
-              onClick={() => handleExport(setIsExporting)}
-              disabled={isExporting}
-              className="bg-white hover:bg-gray-100
-                         text-gray-700 text-sm font-medium px-3 py-2 rounded shadow-md
-                         border border-gray-300 disabled:opacity-50 disabled:cursor-not-allowed
-                         flex items-center gap-2 transition-colors"
-            >
-              {isExporting ? 'Exporting...' : 'Export'}
-            </button>
+            <div className="relative" ref={exportMenuRef}>
+              <button
+                data-tutorial="export-button"
+                onClick={() => setShowExportMenu(!showExportMenu)}
+                disabled={isExporting}
+                className="bg-white hover:bg-gray-100
+                           text-gray-700 text-sm font-medium px-3 py-2 rounded shadow-md
+                           border border-gray-300 disabled:opacity-50 disabled:cursor-not-allowed
+                           flex items-center gap-2 transition-colors"
+              >
+                {isExporting ? 'Exporting...' : 'Export'}
+                <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+              {showExportMenu && (
+                <div className="absolute top-full left-0 mt-1 w-40 bg-white rounded shadow-lg border border-gray-200 z-50">
+                  <button
+                    onClick={() => {
+                      setShowExportMenu(false)
+                      handleExport(setIsExporting)
+                    }}
+                    className="w-full text-left px-3 py-2 text-sm text-gray-700 hover:bg-gray-100 flex items-center gap-2 rounded-t"
+                  >
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                    </svg>
+                    JPEG
+                  </button>
+                  <button
+                    onClick={() => {
+                      setShowExportMenu(false)
+                      if (tiffDownloadUrl) {
+                        window.open(tiffDownloadUrl, '_blank')
+                      }
+                    }}
+                    disabled={!tiffDownloadUrl}
+                    className={`w-full text-left px-3 py-2 text-sm flex items-center gap-2 rounded-b border-t border-gray-100 ${
+                      tiffDownloadUrl
+                        ? 'text-gray-700 hover:bg-gray-100 cursor-pointer'
+                        : 'text-gray-400 cursor-not-allowed'
+                    }`}
+                    title={!tiffDownloadUrl ? 'Select a layer, pick a country, and clip to enable TIFF download' : 'Download clipped GeoTIFF'}
+                  >
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                    </svg>
+                    TIFF
+                    {!tiffDownloadUrl && <span className="ml-auto text-xs opacity-60">🔒</span>}
+                  </button>
+                </div>
+              )}
+            </div>
           )}
         </div>
       </div>

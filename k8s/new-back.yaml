@@ -34,7 +34,7 @@ spec:
               echo "Postgres is ready!"
       containers:
         - name: backend
-          image: mehdino123/ndt-back:latest-main4
+          image: mehdino123/ndt-back:latest-main26
           imagePullPolicy: Always
           ports:
             - containerPort: 3001
@@ -211,9 +211,9 @@ spec:
           resources:
             requests:
               memory: "1Gi"
-              cpu: "100m"
+              cpu: "400m"
             limits:
-              memory: "4Gi"
+              memory: "2Gi"
               cpu: "1000m"
           livenessProbe:
             httpGet:
