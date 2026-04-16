@@ -322,20 +322,26 @@ async function getCountryStats(args: Record<string, any>): Promise<any> {
   const layerInfo = await pool.query('SELECT class_labels FROM layers WHERE id = $1', [layer.id]);
   const classLabels = layerInfo.rows[0]?.class_labels || {};
 
-  // Format class_stats: each entry has {pixels, area_km2}, add class_name and percentage
-  const classStats = stats.class_stats || {};
-  const totalPixels = Object.values(classStats).reduce(
+  // Format class_stats: handles both array (from batch route) and dict formats
+  const classStatsRaw = stats.class_stats || {};
+  const classStatsArray = Array.isArray(classStatsRaw)
+    ? classStatsRaw
+    : Object.values(classStatsRaw);
+  const totalPixels = classStatsArray.reduce(
     (sum: number, c: any) => sum + (c.pixels || 0),
     0,
   );
 
-  const formattedClasses = Object.entries(classStats).map(([classId, data]: [string, any]) => ({
-    class_id: classId,
-    class_name: classLabels[classId] || `Unknown (${classId})`,
-    pixels: data.pixels || 0,
-    area_km2: data.area_km2 || 0,
-    percentage: totalPixels > 0 ? Math.round(((data.pixels || 0) / totalPixels) * 1000) / 10 : 0,
-  }));
+  const formattedClasses = classStatsArray.map((data: any) => {
+    const classId = String(data.class_id ?? '');
+    return {
+      class_id: classId,
+      class_name: data.class_name || classLabels[classId] || `Unknown (${classId})`,
+      pixels: data.pixels || 0,
+      area_km2: data.area_km2 || 0,
+      percentage: totalPixels > 0 ? Math.round(((data.pixels || 0) / totalPixels) * 1000) / 10 : 0,
+    };
+  });
 
   return {
     status: 'found',
