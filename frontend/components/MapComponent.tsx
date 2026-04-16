@@ -23,6 +23,7 @@ import TutorialButton from './tutorial/TutorialButton'
 import { useMapState, flattenLayers } from './map/useMapState'
 import { useMapInitialization } from './map/useMapInitialization'
 import { useMapHandlers } from './map/useMapHandlers'
+import { api } from '@/lib/authFetch'
 
 interface ReportToView {
   id: number
@@ -130,7 +131,6 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
 }, ref) => {
   const router = useRouter()
   const [isExporting, setIsExporting] = useState(false)
-  const [isClipping, setIsClipping] = useState(false)
   const [showExportMenu, setShowExportMenu] = useState(false)
   const [tiffDownloadUrl, setTiffDownloadUrl] = useState<string | null>(null)
   const exportMenuRef = useRef<HTMLDivElement>(null)
@@ -150,11 +150,6 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
 
   // Get all state from custom hook
   const state = useMapState()
-
-  // Clear TIFF download URL when country changes (not layer, since clipping changes the active layer)
-  useEffect(() => {
-    setTiffDownloadUrl(null)
-  }, [state.selectedCountry])
 
   // Compare mode state
   const [isCompareMode, setIsCompareMode] = useState(false)
@@ -289,137 +284,60 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
     state.setStatsMessageIsError(isError)
   }, [state.setStatsMessage, state.setStatsMessageIsError])
 
-  // Handle country selection
-  const handleCountrySelect = useCallback((country: Country | null) => {
-    if (country) {
-      loadCountryPolygon(country)
-    } else {
+  // Handle country selection — auto-check cache for clipped layer
+  const handleCountrySelect = useCallback(async (country: Country | null) => {
+    // Clear previous clip state
+    setTiffDownloadUrl(null)
+
+    if (!country) {
       clearCountryPolygon()
-    }
-  }, [loadCountryPolygon, clearCountryPolygon])
-
-  // Handle clipping layer to country
-  const handleClipToCountry = useCallback(async () => {
-    if (!state.selectedCountry || state.activeDataLayers.length === 0) {
-      console.log('[Clip] Missing country or active layers')
       return
     }
 
+    // Load polygon and zoom to country
+    loadCountryPolygon(country)
+
+    // Auto-check cache for the currently active layer
     const activeLayerKey = state.activeDataLayers[0]
+    if (!activeLayerKey) return
+
     const layer = allLayers.find(l => l.geoserver_name === activeLayerKey)
-
-    if (!layer || !layer.id) {
-      console.error('[Clip] Cannot clip: layer information not available', { layer, activeLayerKey })
-      state.setClipMessage('Cannot clip: layer information not available')
-      return
-    }
-
-    const startTime = Date.now()
-    console.log('[Clip] Starting clip operation:', {
-      country: state.selectedCountry.name,
-      countryFile: state.selectedCountry.file,
-      layer: layer.geoserver_name,
-      layerId: layer.id,
-      timestamp: new Date().toISOString()
-    })
-
-    setIsClipping(true)
-    state.setClipMessage('Clipping layer to country boundary...')
+    if (!layer?.id) return
 
     try {
-      console.log('[Clip] Sending request to /api/clip/country')
-      const fetchStartTime = Date.now()
-
-      const response = await fetch('/api/clip/country', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          countryFile: state.selectedCountry.file,
-          layerId: layer.id
-        })
-      })
-
-      const fetchEndTime = Date.now()
-      console.log('[Clip] Received response:', {
-        status: response.status,
-        ok: response.ok,
-        fetchTime: `${(fetchEndTime - fetchStartTime) / 1000}s`,
-        totalTime: `${(fetchEndTime - startTime) / 1000}s`
+      console.log('[AutoClip] Checking cache for', { country: country.name, layer: layer.geoserver_name })
+      const response = await api.post('/clip/country', {
+        countryFile: country.file,
+        layerId: layer.id
       })
 
       if (!response.ok) {
-        const error = await response.json()
-        console.error('[Clip] Request failed:', error)
-        throw new Error(error.details || error.message || 'Clipping failed')
+        // Cache miss or error — just show the polygon, no clipping
+        if (response.status === 404) {
+          // "Layer not clipped" — silent, user just sees the polygon
+          console.log('[AutoClip] No cached clip available')
+        }
+        return
       }
 
       const data = await response.json()
-      const parseEndTime = Date.now()
-
-      console.log('[Clip] Response data:', {
-        ...data,
-        parseTime: `${(parseEndTime - fetchEndTime) / 1000}s`,
-        totalTime: `${(parseEndTime - startTime) / 1000}s`
-      })
-
-      if (data.status === 'success') {
-        // Extract workspace from clipped layer name
+      if (data.status === 'success' && data.cached) {
         const [workspace] = data.clippedLayerName.split(':')
-
-        console.log('[Clip] Switching to clipped layer:', {
-          originalLayer: activeLayerKey,
-          clippedLayer: data.clippedLayerName,
-          workspace,
-          cached: data.cached
-        })
-
-        // Switch to the clipped layer on the map
+        // Swap the WMS layer on the map, but keep the original layer key
+        // so the sidebar still shows "Active" and legend still renders
         switchToClippedLayer(activeLayerKey, data.clippedLayerName, workspace)
 
-        // Update the active layer state
-        state.setActiveDataLayers([data.clippedLayerName])
-
-        // Store download URL for TIFF export
         if (data.downloadUrl) {
           setTiffDownloadUrl(data.downloadUrl)
         }
 
-        const finalTime = Date.now()
-        console.log('[Clip] Clip operation completed successfully:', {
-          totalTime: `${(finalTime - startTime) / 1000}s`,
-          cached: data.cached
-        })
-
-        state.setClipMessage(
-          data.cached
-            ? '✓ Using cached clipped layer'
-            : '✓ Layer clipped to country boundary'
-        )
+        console.log('[AutoClip] Switched to cached clipped layer:', data.clippedLayerName)
       }
-    } catch (error: any) {
-      const errorTime = Date.now()
-      console.error('[Clip] Error occurred:', {
-        error: error.message,
-        name: error.name,
-        totalTime: `${(errorTime - startTime) / 1000}s`,
-        stack: error.stack
-      })
-
-      // Handle gateway timeout specifically
-      if (error.message?.includes('Gateway Timeout') || error.status === 504) {
-        state.setClipMessage(`✗ Clipping timed out. The operation may still be running in the background - try refreshing and checking cache.`)
-      } else {
-        state.setClipMessage(`✗ Failed to clip: ${error.message || 'Unknown error'}. Click to retry.`)
-      }
-    } finally {
-      const finalTime = Date.now()
-      console.log('[Clip] Finished (finally block):', {
-        totalTime: `${(finalTime - startTime) / 1000}s`,
-        isClippingState: false
-      })
-      setIsClipping(false)
+    } catch (error) {
+      // Silent fail — user just sees the polygon
+      console.warn('[AutoClip] Cache check failed:', error)
     }
-  }, [state.selectedCountry, state.activeDataLayers, allLayers, state.setActiveDataLayers, state.setClipMessage, switchToClippedLayer])
+  }, [loadCountryPolygon, clearCountryPolygon, state.activeDataLayers, allLayers, switchToClippedLayer])
 
   // Get business logic handlers
   const {
@@ -834,26 +752,6 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
             disabled={state.reportingMode || state.statsMode || state.aiAnalysisMode}
           />
 
-          {/* Clip to Country Button */}
-          {!isCompareMode && !state.reportingMode && !state.statsMode && !state.aiAnalysisMode && !reportToView && (
-            <button
-              onClick={handleClipToCountry}
-              disabled={isClipping || !state.selectedCountry || state.activeDataLayers.length === 0}
-              className="bg-white hover:bg-gray-100
-                         text-gray-700 text-sm font-medium px-3 py-2 rounded shadow-md
-                         border border-gray-300 disabled:opacity-50 disabled:cursor-not-allowed
-                         flex items-center gap-2 transition-colors"
-              title={state.selectedCountry && state.activeDataLayers.length > 0
-                ? 'Clip current layer to selected country'
-                : 'Select a country and activate a layer first'}
-            >
-              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.121 14.121L19 19m-7-7l7-7m-7 7l-2.879 2.879M12 12L9.121 9.121m0 5.758a3 3 0 10-4.243 4.243 3 3 0 004.243-4.243zm0-5.758a3 3 0 10-4.243-4.243 3 3 0 004.243 4.243z" />
-              </svg>
-              {isClipping ? 'Clipping...' : 'Clip to Country'}
-            </button>
-          )}
-
           {/* Export Button with dropdown - JPEG or TIFF */}
           {!isCompareMode && !state.reportingMode && !state.statsMode && !state.aiAnalysisMode && !reportToView && (
             <div className="relative" ref={exportMenuRef}>
@@ -898,7 +796,7 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
                         ? 'text-gray-700 hover:bg-gray-100 cursor-pointer'
                         : 'text-gray-400 cursor-not-allowed'
                     }`}
-                    title={!tiffDownloadUrl ? 'Select a layer, pick a country, and clip to enable TIFF download' : 'Download clipped GeoTIFF'}
+                    title={!tiffDownloadUrl ? 'TIFF available when a clipped layer is loaded' : 'Download clipped GeoTIFF'}
                   >
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
@@ -934,13 +832,6 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
         onCancelReport={handleCancelReport}
         onReportCommentChange={state.setReportComment}
       />
-
-      {/* Message Display - only show if not in stats mode with a stats message and not in AI analysis mode */}
-      {state.clipMessage && !state.reportingMode && !reportToView && !state.statsMode && !state.aiAnalysisMode && (
-        <div className={`absolute left-1/2 -translate-x-1/2 bg-gray-900 text-white px-6 py-3 rounded-lg shadow-lg z-50 ${isCompareMode ? 'top-16' : 'top-4'}`}>
-          {state.clipMessage}
-        </div>
-      )}
 
       {/* AI Analysis Mode Banner */}
       {state.aiAnalysisMode && !reportToView && (

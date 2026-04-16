@@ -3,6 +3,7 @@ import pool from '../config/database';
 import { v4 as uuidv4 } from 'uuid';
 import path from 'path';
 import fs from 'fs';
+import { authenticate, AuthRequest } from '../middleware/auth';
 
 const router = Router();
 
@@ -322,10 +323,14 @@ router.post('/layers/sync', async (req: Request, res: Response) => {
 });
 
 // Clip layer to country boundary
-router.post('/country', async (req: Request, res: Response) => {
+// Authenticated users can access cached clips;
+// only admins can trigger new clips (cache miss → clip-service).
+router.post('/country', authenticate, async (req: AuthRequest, res: Response) => {
   const requestStartTime = Date.now();
   console.log('[Backend Clip] Request received:', {
     body: req.body,
+    userId: req.userId,
+    userRole: req.userRole,
     timestamp: new Date().toISOString()
   });
 
@@ -400,7 +405,7 @@ router.post('/country', async (req: Request, res: Response) => {
     });
 
     if (cacheResult.rows.length > 0) {
-      // Cache hit - return existing clipped layer
+      // Cache hit - return existing clipped layer (any authenticated user)
       console.log(`[Backend Clip] Cache hit for ${countryFile} + layer ${layerId}`);
       const cacheHitTime = Date.now();
       console.log('[Backend Clip] Total time (cache hit):', `${(cacheHitTime - requestStartTime) / 1000}s`);
@@ -415,7 +420,16 @@ router.post('/country', async (req: Request, res: Response) => {
       });
     }
 
-    // 4. Cache miss - call clipping microservice
+    // Cache miss — only admins can trigger new clips
+    if (req.userRole !== 'admin') {
+      console.log(`[Backend Clip] Cache miss for non-admin user ${req.userId}, layer ${layerId}, country ${countryFile}`);
+      return res.status(404).json({
+        error: 'Layer not clipped',
+        message: 'This layer has not been clipped for the selected country yet. Please contact an administrator.'
+      });
+    }
+
+    // 4. Admin & cache miss - call clipping microservice
     const clipServiceUrl = process.env.CLIP_SERVICE_URL || 'http://clip-service:3005';
 
     // Resolve paths

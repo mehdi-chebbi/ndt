@@ -5,6 +5,7 @@ import { useRouter } from 'next/navigation'
 import Link from 'next/link'
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
+import ChartRenderer, { parseChartSpec } from '@/components/AICharts'
 import CountrySelect from '@/components/ui/CountrySelect'
 import PhoneInput from '@/components/ui/PhoneInput'
 import { useAuth } from '@/contexts/AuthContext'
@@ -75,6 +76,63 @@ const markdownComponents = {
     </a>
   ),
   hr: () => <hr className="border-gray-300 my-3" />,
+}
+
+/** Split text on ```chart ... ``` blocks and render each segment */
+function renderAssistantContent(text: string) {
+  const segments: Array<{ type: 'text' | 'chart'; content: string }> = []
+
+  const chartRegex = /```chart\s*\n([\s\S]*?)```/g
+  let lastIndex = 0
+  let match
+
+  while ((match = chartRegex.exec(text)) !== null) {
+    if (match.index > lastIndex) {
+      segments.push({ type: 'text', content: text.slice(lastIndex, match.index) })
+    }
+    segments.push({ type: 'chart', content: match[1].trim() })
+    lastIndex = match.index + match[0].length
+  }
+
+  if (lastIndex < text.length) {
+    segments.push({ type: 'text', content: text.slice(lastIndex) })
+  }
+
+  if (segments.length === 0) {
+    return (
+      <ReactMarkdown remarkPlugins={[remarkGfm]} components={markdownComponents}>
+        {text}
+      </ReactMarkdown>
+    )
+  }
+
+  return (
+    <>
+      {segments.map((seg, i) => {
+        if (seg.type === 'chart') {
+          const spec = parseChartSpec(seg.content)
+          if (spec) {
+            return (
+              <div key={i} className="my-2 bg-white rounded-lg">
+                <ChartRenderer spec={spec} />
+              </div>
+            )
+          }
+          return (
+            <pre key={i} className="bg-gray-900 text-gray-100 text-[12px] rounded-lg p-3 my-2 overflow-x-auto leading-relaxed font-mono">
+              {seg.content}
+            </pre>
+          )
+        }
+        if (!seg.content.trim()) return null
+        return (
+          <ReactMarkdown key={i} remarkPlugins={[remarkGfm]} components={markdownComponents}>
+            {seg.content}
+          </ReactMarkdown>
+        )
+      })}
+    </>
+  )
 }
 
 interface Session {
@@ -700,9 +758,7 @@ export default function ProfilePage() {
                                   </>
                                 ) : (
                                   <div className="markdown-body">
-                                    <ReactMarkdown remarkPlugins={[remarkGfm]} components={markdownComponents}>
-                                      {msg.content}
-                                    </ReactMarkdown>
+                                    {renderAssistantContent(msg.content)}
                                   </div>
                                 )}
                                 <p className={`text-[10px] mt-1 ${

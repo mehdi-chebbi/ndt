@@ -4,7 +4,7 @@ import { aiLogger } from '../utils/logger';
 
 // ── System Prompts ─────────────────────────────────────────────────
 
-const SYSTEM_PROMPT = `You are the AI Copilot for AfriGeoData, a geospatial platform for African development data.
+const SYSTEM_PROMPT_TEMPLATE = (layerCatalog: string) => `You are the AI Copilot for AfriGeoData, a geospatial platform for African development data.
 
 You help users explore and understand:
 - Interactive maps with GeoServer WMS layers covering 54+ African countries
@@ -22,6 +22,16 @@ STRICT BOUNDARIES:
 COLOR & LEGEND AWARENESS:
 - When a user asks about a color (e.g. "what does grey mean?", "c'est quoi le couleur rose?", "what's that blue area?"), ALWAYS look for color legend context in the conversation history and answer based on the map legend — never answer with general color theory.
 - If no legend is available in the conversation history, say so and ask the user to run an area analysis first.
+
+AVAILABLE LAYERS IN DATABASE:
+${layerCatalog}
+
+LAYER NAME RULES:
+- When calling tools that require a layer name, you MUST use the EXACT display_name from the list above. Do NOT abbreviate, expand, or rewrite it.
+- If multiple layers share the same display_name, they differ by group (category). Use the group parameter to disambiguate.
+- When a user's request matches MULTIPLE layers (e.g. "spi" matches 5 SPI layers, "land cover" matches layers in ESA and OSS groups), you MUST list ALL matching layers with their groups and ask the user to pick one. Do NOT assume data doesn't exist — the user just needs to specify which one.
+- You may recognize common abbreviations from the user (e.g. "ndvi" → "Normalized Difference Vegetation Index", "spi 2005" → "spi2005") — map them to the exact display_name before calling tools.
+- NEVER tell a user that a layer type has no data without first asking them to clarify which specific layer they mean if there are multiple matches.
 
 DATABASE QUERY TOOLS:
 You have access to the platform's database to retrieve real data. When a user asks about specific data (layers, stats, countries), you MUST use these tools instead of guessing.
@@ -44,24 +54,27 @@ Available tools:
 
 2. get_country_stats
    - Description: Get pre-computed land cover statistics for a specific country and layer
-   - Args (both required):
-     - country (string): country name in English (e.g. "Nigeria", "Algeria", "Kenya")
-     - layer (string): layer keyword to search by (e.g. "trends", "water", "gini", "land cover")
+   - Args:
+     - country (string, required): country name in English (e.g. "Nigeria", "Algeria", "Kenya")
+     - layer (string, required): the EXACT display_name from the layer list above
+     - group (string, optional): direct parent group name to disambiguate when multiple layers share the same name (e.g. "ESA", "OSS")
    - Returns: statistics including total area, pixel size, and class distribution with percentages
    - Use when: user asks about stats for a specific country+layer combination
 
 3. get_countries_for_layer
    - Description: Get all countries that have pre-computed statistics for a given layer
    - Args:
-     - layer (string, required): layer keyword (e.g. "trends", "water")
+     - layer (string, required): the EXACT display_name from the layer list above
+     - group (string, optional): direct parent group name to disambiguate when multiple layers share the same name
    - Returns: list of countries with available data for that layer
    - Use when: user asks "which countries have trends data?", "what countries are available for X?"
 
 IMPORTANT TOOL RULES:
-- Pass the user's words as-is to the tools — the backend handles fuzzy matching. Do NOT try to guess or construct exact internal layer names (e.g. use "trends" not "LPD-Trends.Earth-250m").
+- ALWAYS use the exact display_name from the AVAILABLE LAYERS list when calling tools. Do NOT make up or rewrite layer names.
+- If multiple layers share the same display_name but differ by group, ask the user to clarify OR pass the group parameter.
 - When you receive tool results with status "multiple_matches", list the matching options and ask the user to clarify. NEVER guess which one they meant.
 - When you receive status "not_found", tell the user no matching data was found and suggest they check the exact name.
-- When you receive status "no_stats", tell the user no pre-computed stats exist yet for that country+layer combination.
+- When you receive status "no_stats", tell the user no pre-computed stats exist yet for that country+layer combination. Do NOT generalize this to say the entire layer type has no data — it may be specific to that one layer.
 - When the user's question is general and does NOT require database lookups (e.g. "how do I draw a polygon?", "what is Gini index?"), respond directly WITHOUT using any tools.
 
 CHART GENERATION:
@@ -188,6 +201,48 @@ interface ChatRequestBody {
   message: string;
 }
 
+// ── Layer Catalog ──────────────────────────────────────────────────
+
+/**
+ * Fetch all active layers with their full group breadcrumb path.
+ * Uses a recursive CTE to walk up the parent group chain.
+ */
+async function buildLayerCatalog(): Promise<string> {
+  const result = await pool.query(`
+    WITH RECURSIVE group_path AS (
+      -- Base case: groups with no parent
+      SELECT id, name, name::text AS breadcrumb
+      FROM layer_groups
+      WHERE parent_id IS NULL
+
+      UNION ALL
+
+      -- Recursive case: append child to parent breadcrumb
+      SELECT g.id, g.name, CONCAT(gp.breadcrumb, ' > ', g.name)
+      FROM layer_groups g
+      JOIN group_path gp ON g.parent_id = gp.id
+    )
+    SELECT
+      l.display_name,
+      gp.breadcrumb AS group_path
+    FROM layers l
+    LEFT JOIN group_path gp ON l.group_id = gp.id
+    WHERE l.is_active = true
+    ORDER BY gp.breadcrumb ASC NULLS LAST, l.display_name ASC
+  `);
+
+  if (result.rows.length === 0) {
+    return 'No layers currently available.';
+  }
+
+  return result.rows
+    .map((row) => {
+      const groupPath = row.group_path || 'Ungrouped';
+      return `  - "${row.display_name}" → ${groupPath}`;
+    })
+    .join('\n');
+}
+
 // ── DB Tools ───────────────────────────────────────────────────────
 
 async function getAvailableLayers(args: Record<string, any>): Promise<any> {
@@ -243,30 +298,39 @@ async function getAvailableLayers(args: Record<string, any>): Promise<any> {
 async function getCountryStats(args: Record<string, any>): Promise<any> {
   const country = args.country ? String(args.country) : null;
   const layerKeyword = args.layer ? String(args.layer) : null;
+  const groupKeyword = args.group ? String(args.group) : null;
 
   if (!country || !layerKeyword) {
     return { status: 'error', message: 'Both "country" and "layer" are required' };
   }
 
-  // Step 1: Find matching layers
-  const layerResult = await pool.query(
-    `SELECT l.id, l.geoserver_name, l.display_name, g.name as group_name
-     FROM layers l
-     LEFT JOIN layer_groups g ON l.group_id = g.id
-     WHERE l.is_active = true
-       AND (l.geoserver_name ILIKE $1 OR l.display_name ILIKE $1)
-     ORDER BY l.sort_order ASC`,
-    [`%${layerKeyword}%`],
-  );
+  // Step 1: Find matching layers (with optional group filter)
+  let layerQuery = `
+    SELECT l.id, l.geoserver_name, l.display_name, g.name as group_name
+    FROM layers l
+    LEFT JOIN layer_groups g ON l.group_id = g.id
+    WHERE l.is_active = true
+      AND l.display_name ILIKE $1
+  `;
+  const layerParams: any[] = [`%${layerKeyword}%`];
+
+  if (groupKeyword) {
+    layerQuery += ` AND g.name ILIKE $2`;
+    layerParams.push(`%${groupKeyword}%`);
+  }
+
+  layerQuery += ` ORDER BY l.sort_order ASC`;
+
+  const layerResult = await pool.query(layerQuery, layerParams);
 
   if (layerResult.rows.length === 0) {
-    return { status: 'not_found', message: `No layer found matching "${layerKeyword}"` };
+    return { status: 'not_found', message: `No layer found matching "${layerKeyword}"${groupKeyword ? ` in group "${groupKeyword}"` : ''}` };
   }
 
   if (layerResult.rows.length > 1) {
     return {
       status: 'multiple_matches',
-      message: `Multiple layers match "${layerKeyword}". Please ask the user to clarify.`,
+      message: `Multiple layers match "${layerKeyword}"${groupKeyword ? ` in group "${groupKeyword}"` : ''}. Please ask the user to clarify.`,
       matches: layerResult.rows.map((r) => ({
         name: r.geoserver_name,
         display_name: r.display_name,
@@ -360,32 +424,43 @@ async function getCountryStats(args: Record<string, any>): Promise<any> {
 
 async function getCountriesForLayer(args: Record<string, any>): Promise<any> {
   const layerKeyword = args.layer ? String(args.layer) : null;
+  const groupKeyword = args.group ? String(args.group) : null;
 
   if (!layerKeyword) {
     return { status: 'error', message: '"layer" is required' };
   }
 
-  // Find matching layers
-  const layerResult = await pool.query(
-    `SELECT l.id, l.geoserver_name, l.display_name
-     FROM layers l
-     WHERE l.is_active = true
-       AND (l.geoserver_name ILIKE $1 OR l.display_name ILIKE $1)
-     ORDER BY l.sort_order ASC`,
-    [`%${layerKeyword}%`],
-  );
+  // Find matching layers (with optional group filter)
+  let layerQuery = `
+    SELECT l.id, l.geoserver_name, l.display_name, g.name as group_name
+    FROM layers l
+    LEFT JOIN layer_groups g ON l.group_id = g.id
+    WHERE l.is_active = true
+      AND l.display_name ILIKE $1
+  `;
+  const layerParams: any[] = [`%${layerKeyword}%`];
+
+  if (groupKeyword) {
+    layerQuery += ` AND g.name ILIKE $2`;
+    layerParams.push(`%${groupKeyword}%`);
+  }
+
+  layerQuery += ` ORDER BY l.sort_order ASC`;
+
+  const layerResult = await pool.query(layerQuery, layerParams);
 
   if (layerResult.rows.length === 0) {
-    return { status: 'not_found', message: `No layer found matching "${layerKeyword}"` };
+    return { status: 'not_found', message: `No layer found matching "${layerKeyword}"${groupKeyword ? ` in group "${groupKeyword}"` : ''}` };
   }
 
   if (layerResult.rows.length > 1) {
     return {
       status: 'multiple_matches',
-      message: `Multiple layers match "${layerKeyword}". Please ask the user to clarify.`,
+      message: `Multiple layers match "${layerKeyword}"${groupKeyword ? ` in group "${groupKeyword}"` : ''}. Please ask the user to clarify.`,
       matches: layerResult.rows.map((r) => ({
         name: r.geoserver_name,
         display_name: r.display_name,
+        group: r.group_name,
       })),
     };
   }
@@ -555,8 +630,10 @@ function extractTextFromContent(content: string): string {
 function buildApiMessages(
   dbMessages: { role: string; content: string }[],
   newMessage: string,
+  layerCatalog: string,
 ): ApiMessage[] {
-  const apiMessages: ApiMessage[] = [{ role: 'system', content: SYSTEM_PROMPT }];
+  const systemPrompt = SYSTEM_PROMPT_TEMPLATE(layerCatalog);
+  const apiMessages: ApiMessage[] = [{ role: 'system', content: systemPrompt }];
 
   // Include recent messages from DB (including system messages for DB context)
   const recent = dbMessages.slice(-MAX_CONTEXT_MESSAGES);
@@ -865,8 +942,17 @@ export async function chat(req: Request, res: Response) {
       );
     }
 
+    // ── Build layer catalog (for system prompt injection) ──
+    let layerCatalog: string;
+    try {
+      layerCatalog = await buildLayerCatalog();
+    } catch (error: any) {
+      aiLogger.warning('Failed to build layer catalog, using fallback', { error: error.message });
+      layerCatalog = 'Layer catalog temporarily unavailable.';
+    }
+
     // ── Build messages ──
-    const apiMessages = buildApiMessages(dbMessages, messageText);
+    const apiMessages = buildApiMessages(dbMessages, messageText, layerCatalog);
 
     aiLogger.info('Context built', {
       totalDbMessages: dbMessages.length,
