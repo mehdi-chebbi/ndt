@@ -11,9 +11,10 @@ import ReportingOverlay from './map/ReportingOverlay'
 import Legend from './map/Legend'
 import CompareLegend from './map/CompareLegend'
 import CountrySelector from './map/CountrySelector'
+import CountryStatsPanel from './map/CountryStatsPanel'
 
 // Import types
-import { Group, LegendItem, Layer } from './map/types'
+import { Group, LegendItem, Layer, StatsResult } from './map/types'
 import { Country } from './map/useMapState'
 
 // Import tutorial components
@@ -134,6 +135,10 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
   const [showExportMenu, setShowExportMenu] = useState(false)
   const [tiffDownloadUrl, setTiffDownloadUrl] = useState<string | null>(null)
   const exportMenuRef = useRef<HTMLDivElement>(null)
+
+  // Country stats panel state
+  const [countryStats, setCountryStats] = useState<StatsResult | null>(null)
+  const [isCountryStatsLoading, setIsCountryStatsLoading] = useState(false)
 
   // Close export menu on outside click
   useEffect(() => {
@@ -285,10 +290,12 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
     state.setStatsMessageIsError(isError)
   }, [state.setStatsMessage, state.setStatsMessageIsError])
 
-  // Handle country selection — auto-check cache for clipped layer
+  // Handle country selection — auto-check cache for clipped layer + fetch pre-computed stats
   const handleCountrySelect = useCallback(async (country: Country | null) => {
-    // Clear previous clip state
+    // Clear previous clip state and stats panel
     setTiffDownloadUrl(null)
+    setCountryStats(null)
+    setIsCountryStatsLoading(false)
 
     if (!country) {
       clearCountryPolygon()
@@ -365,26 +372,45 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
           // "Layer not clipped" — silent, user just sees the polygon
           console.log('[AutoClip] No cached clip available')
         }
-        return
-      }
+      } else {
+        const data = await response.json()
+        if (data.status === 'success' && data.cached) {
+          const [workspace] = data.clippedLayerName.split(':')
+          // Swap the WMS layer on the map, but keep the original layer key
+          // so the sidebar still shows "Active" and legend still renders
+          switchToClippedLayer(activeLayerKey, data.clippedLayerName, workspace)
 
-      const data = await response.json()
-      if (data.status === 'success' && data.cached) {
-        const [workspace] = data.clippedLayerName.split(':')
-        // Swap the WMS layer on the map, but keep the original layer key
-        // so the sidebar still shows "Active" and legend still renders
-        switchToClippedLayer(activeLayerKey, data.clippedLayerName, workspace)
+          if (data.downloadUrl) {
+            setTiffDownloadUrl(data.downloadUrl)
+          }
 
-        if (data.downloadUrl) {
-          setTiffDownloadUrl(data.downloadUrl)
+          console.log('[AutoClip] Switched to cached clipped layer:', data.clippedLayerName)
         }
-
-        console.log('[AutoClip] Switched to cached clipped layer:', data.clippedLayerName)
       }
     } catch (error) {
       // Silent fail — user just sees the polygon
       console.warn('[AutoClip] Cache check failed:', error)
     }
+
+    // Fetch pre-computed country stats (fire-and-forget, silent)
+    setIsCountryStatsLoading(true)
+    api.get(`/stats/country/${country.file}/layer/${layer.id}`)
+      .then(res => {
+        if (res.ok) return res.json()
+        return null
+      })
+      .then(data => {
+        if (data && data.classes && data.classes.length > 0) {
+          setCountryStats({
+            layer_name: data.layer_name || layer.name,
+            total_area_km2: data.total_area_km2,
+            pixel_size_m: data.pixel_size_m,
+            classes: data.classes,
+          })
+        }
+      })
+      .catch(() => { /* silent */ })
+      .finally(() => setIsCountryStatsLoading(false))
   }, [loadCountryPolygon, clearCountryPolygon, state.activeDataLayers, allLayers, switchToClippedLayer, isCompareMode, leftLayerId, rightLayerId, rebuildCompare])
 
   // Get business logic handlers
@@ -868,6 +894,17 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
           style={{ zIndex: 0 }}
         />
       </div>
+
+      {/* Country Stats Panel - right side */}
+      {!isCompareMode && !state.reportingMode && !reportToView && (
+        <CountryStatsPanel
+          countryName={state.selectedCountry?.name || null}
+          layerName={activeLayerName}
+          stats={countryStats}
+          isLoading={isCountryStatsLoading}
+          onClose={() => setCountryStats(null)}
+        />
+      )}
 
       {/* Reporting Mode Overlay */}
       <ReportingOverlay
