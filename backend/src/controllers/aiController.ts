@@ -69,6 +69,16 @@ Available tools:
    - Returns: list of countries with available data for that layer
    - Use when: user asks "which countries have trends data?", "what countries are available for X?"
 
+4. show_country_on_map
+   - Description: Switch the map to show a clipped country layer. Checks if a pre-clipped raster exists for the country+layer combination, and if so, tells the frontend to switch to the clipped layer, show the country polygon border, and zoom in.
+   - Args:
+     - country (string, required): country name in English (e.g. "Tunisia", "Nigeria", "Kenya")
+     - layer (string, required): the EXACT display_name from the layer list above
+     - group (string, optional): direct parent group name to disambiguate when multiple layers share the same name
+   - Returns: clipped layer info if available, or "not_clipped" status
+   - Use when: user asks about a specific country and you want to show it on the map (e.g. "show me Tunisia's land cover", "what's the LC of Algeria?", "display Kenya on the map")
+   - IMPORTANT: ALWAYS call this tool when a user asks about a specific country+layer combination, alongside get_country_stats. This makes the map automatically zoom to the country and show the clipped data.
+
 IMPORTANT TOOL RULES:
 - ALWAYS use the exact display_name from the AVAILABLE LAYERS list when calling tools. Do NOT make up or rewrite layer names.
 - If multiple layers share the same display_name but differ by group, ask the user to clarify OR pass the group parameter.
@@ -422,6 +432,92 @@ async function getCountryStats(args: Record<string, any>): Promise<any> {
   };
 }
 
+async function showCountryOnMap(args: Record<string, any>): Promise<any> {
+  const country = args.country ? String(args.country) : null;
+  const layerKeyword = args.layer ? String(args.layer) : null;
+  const groupKeyword = args.group ? String(args.group) : null;
+
+  if (!country || !layerKeyword) {
+    return { status: 'error', message: 'Both "country" and "layer" are required' };
+  }
+
+  // Step 1: Find matching layer
+  let layerQuery = `
+    SELECT l.id, l.geoserver_name, l.display_name, g.name as group_name
+    FROM layers l
+    LEFT JOIN layer_groups g ON l.group_id = g.id
+    WHERE l.is_active = true
+      AND l.display_name ILIKE $1
+  `;
+  const layerParams: any[] = [`%${layerKeyword}%`];
+
+  if (groupKeyword) {
+    layerQuery += ` AND g.name ILIKE $2`;
+    layerParams.push(`%${groupKeyword}%`);
+  }
+
+  layerQuery += ` ORDER BY l.sort_order ASC`;
+
+  const layerResult = await pool.query(layerQuery, layerParams);
+
+  if (layerResult.rows.length === 0) {
+    return { status: 'not_found', message: `No layer found matching "${layerKeyword}"` };
+  }
+
+  if (layerResult.rows.length > 1) {
+    return {
+      status: 'multiple_matches',
+      message: `Multiple layers match "${layerKeyword}". Please ask the user to clarify.`,
+      matches: layerResult.rows.map((r) => ({
+        name: r.geoserver_name,
+        display_name: r.display_name,
+        group: r.group_name,
+      })),
+    };
+  }
+
+  const layer = layerResult.rows[0];
+  const countryFile = `${country}.geojson`;
+
+  // Step 2: Check if clipped layer exists in cache
+  const cacheResult = await pool.query(
+    'SELECT clipped_layer_name FROM clipped_layers_cache WHERE country_file ILIKE $1 AND layer_id = $2',
+    [countryFile, layer.id],
+  );
+
+  if (cacheResult.rows.length === 0) {
+    return {
+      status: 'not_clipped',
+      message: `The layer "${layer.display_name}" has not been clipped for "${country}" yet. Ask the user to contact an admin to pre-clip it.`,
+      country,
+      layer: {
+        name: layer.geoserver_name,
+        display_name: layer.display_name,
+        group: layer.group_name,
+      },
+    };
+  }
+
+  const clippedLayerName = cacheResult.rows[0].clipped_layer_name;
+  const [workspace] = clippedLayerName.includes(':') ? clippedLayerName.split(':') : [null, clippedLayerName];
+
+  return {
+    status: 'clipped',
+    country,
+    countryFile,
+    clipped: true,
+    clippedLayerName,
+    workspace,
+    originalLayerName: layer.geoserver_name,
+    layer: {
+      id: layer.id,
+      name: layer.geoserver_name,
+      display_name: layer.display_name,
+      group: layer.group_name,
+    },
+  };
+}
+
 async function getCountriesForLayer(args: Record<string, any>): Promise<any> {
   const layerKeyword = args.layer ? String(args.layer) : null;
   const groupKeyword = args.group ? String(args.group) : null;
@@ -504,6 +600,7 @@ const toolRegistry: Record<string, (args: Record<string, any>) => Promise<any>> 
   get_available_layers: getAvailableLayers,
   get_country_stats: getCountryStats,
   get_countries_for_layer: getCountriesForLayer,
+  show_country_on_map: showCountryOnMap,
 };
 
 // ── DB Request Parsing ─────────────────────────────────────────────
@@ -1057,6 +1154,23 @@ export async function chat(req: Request, res: Response) {
     aiLogger.info('Tool execution complete', {
       results: toolResults.map((r) => ({ tool: r.tool, status: r.status })),
     });
+
+    // Emit map_action SSE events for any show_country_on_map results with clipped data
+    for (const result of toolResults) {
+      if (result.tool === 'show_country_on_map' && result.status === 'clipped' && result.data) {
+        const mapAction = {
+          type: 'map_action',
+          country: result.data.country,
+          countryFile: result.data.countryFile,
+          clippedLayerName: result.data.clippedLayerName,
+          workspace: result.data.workspace,
+          originalLayerName: result.data.originalLayerName,
+          layerId: result.data.layer?.id,
+        };
+        res.write(`data: ${JSON.stringify(mapAction)}\n\n`);
+        aiLogger.info('Emitted map_action SSE event', { mapAction });
+      }
+    }
 
     // Build DB results context for AI
     const dbContextParts = toolResults.map((r) => {

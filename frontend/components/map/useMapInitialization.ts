@@ -583,11 +583,12 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
       countryPolygonRef.current = countryLayer
       setSelectedCountry(country)
 
-      // Zoom to country bounds
+      // Fly to country bounds — smooth animated zoom-out, arc, zoom-in
       const bounds = countryLayer.getBounds()
-      mapRef.current.fitBounds(bounds, {
-        padding: [20, 20],
-        maxZoom: 10,
+      mapRef.current.flyToBounds(bounds, {
+        padding: [80, 80],
+        maxZoom: 8,
+        duration: 3,
       })
     } catch (error) {
       console.error('Failed to load country polygon:', error)

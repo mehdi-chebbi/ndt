@@ -481,6 +481,44 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
     }
   }, [reportToView, state.isLoadingLayers, allLayers.length, viewReportOnMap])
 
+  // Handle AI map action — switch to clipped country layer from AI copilot
+  useEffect(() => {
+    const handleAIMapAction = async (e: any) => {
+      const { country, countryFile, clippedLayerName, workspace, originalLayerName, layerId } = e.detail
+
+      if (!country || !countryFile || !clippedLayerName || !workspace) return
+
+      // Find the layer in allLayers to activate it in the sidebar
+      const layer = allLayers.find(l => l.geoserver_name === originalLayerName)
+
+      if (layer) {
+        // Activate the layer (this adds the original WMS layer to the map)
+        handleDataLayerToggle(layer)
+      } else if (layerId) {
+        // Fallback: just set the selected layer ID
+        state.setSelectedLayerId(layerId)
+      }
+
+      // Load country polygon and zoom to it
+      const countryObj: Country = { name: country, file: countryFile }
+      await loadCountryPolygon(countryObj)
+
+      // Select the country in the selector
+      state.setSelectedCountry(countryObj)
+
+      // Switch to the clipped layer (replaces the WMS source)
+      if (originalLayerName) {
+        switchToClippedLayer(originalLayerName, clippedLayerName, workspace)
+      }
+    }
+
+    window.addEventListener('ai-map-action', handleAIMapAction)
+
+    return () => {
+      window.removeEventListener('ai-map-action', handleAIMapAction)
+    }
+  }, [allLayers, handleDataLayerToggle, loadCountryPolygon, switchToClippedLayer, state.setSelectedLayerId, state.setSelectedCountry])
+
   // Auto-cancel stats mode when switching away from the stats tab
   useEffect(() => {
     if (state.activeTab !== 'stats' && state.statsMode) {

@@ -596,6 +596,14 @@ export default function AICopilot() {
                 continue
               }
 
+              // Handle "map_action" event — backend wants the map to switch to a clipped country layer
+              if (parsed.type === 'map_action') {
+                window.dispatchEvent(new CustomEvent('ai-map-action', {
+                  detail: parsed,
+                }))
+                continue
+              }
+
               if (parsed.content) {
                 // If we were showing "searching" indicator, reset for actual content
                 if (isSearching) {
