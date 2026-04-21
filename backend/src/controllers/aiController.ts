@@ -1,10 +1,11 @@
 import { Request, Response } from 'express';
 import pool from '../config/database';
 import { aiLogger } from '../utils/logger';
+import { searchKnowledgeBase, getKnowledgeStatus } from '../services/knowledgeService';
 
 // ── System Prompts ─────────────────────────────────────────────────
 
-const SYSTEM_PROMPT_TEMPLATE = (layerCatalog: string) => `You are the AI Copilot for AfriGeoData, a geospatial platform for African development data.
+const SYSTEM_PROMPT_TEMPLATE = (layerCatalog: string, knowledgeInfo: string) => `You are the AI Copilot for AfriGeoData, a geospatial platform for African development data.
 
 You help users explore and understand:
 - Interactive maps with GeoServer WMS layers covering 54+ African countries
@@ -13,6 +14,7 @@ You help users explore and understand:
 - Land cover classification statistics via custom polygon drawing
 - Data reporting and invalid data flagging
 - Pre-computed country-level statistics per layer
+- A knowledge base of official documents (policies, reports, frameworks) related to African development, environment, and geospatial data
 
 STRICT BOUNDARIES:
 - You are EXCLUSIVELY a geospatial assistant for AfriGeoData. You do NOT generate code, scripts, essays, poems, recipes, or any content unrelated to the platform.
@@ -81,6 +83,18 @@ Available tools:
    - Returns: clipped layer info if available, or "not_clipped" status
    - Use when: user asks about a specific country and you want to show it on the map (e.g. "show me Tunisia's land cover", "what's the LC of Algeria?", "display Kenya on the map")
    - IMPORTANT: ALWAYS call this tool when a user asks about a specific country+layer combination, alongside get_country_stats. This makes the map automatically zoom to the country and show the clipped data.
+
+KNOWLEDGE BASE:
+${knowledgeInfo}
+The knowledge base contains official government and organizational documents (policies, action plans, frameworks, reports). When a user asks about policies, regulations, official programs, or any topic that might be covered in such documents, ALWAYS use the search_knowledge tool. Do NOT guess or make up policy information — search the knowledge base first.
+
+5. search_knowledge
+   - Description: Search the platform's knowledge base of official documents for relevant information about policies, frameworks, reports, regulations, government programs, or any topic covered in official documents.
+   - Args:
+     - query (string, required): search terms describing what information is needed (e.g. "land degradation policy Benin", "water access framework Algeria")
+   - Returns: top 5 most relevant text passages from the knowledge base, with source document names and chunk references
+   - Use when: user asks about official policies, government programs, regulations, frameworks, action plans, treaties, or any topic that seems like it would be covered in official documents
+   - IMPORTANT: When a user's question involves policies, official documents, or government positions, ALWAYS use this tool. Never fabricate policy content — always search first. If no relevant documents are found, say so clearly.
 
 IMPORTANT TOOL RULES:
 - ALWAYS use the exact display_name from the AVAILABLE LAYERS list when calling tools. Do NOT make up or rewrite layer names.
@@ -532,11 +546,42 @@ async function getCountriesForLayer(args: Record<string, any>): Promise<any> {
 
 // ── Tool Registry ──────────────────────────────────────────────────
 
+async function searchKnowledge(args: Record<string, any>): Promise<any> {
+  const query = args.query ? String(args.query) : null;
+
+  if (!query) {
+    return { status: 'error', message: '"query" is required' };
+  }
+
+  const result = searchKnowledgeBase(query, 5);
+
+  if (!result) {
+    return {
+      status: 'no_documents',
+      message: 'The knowledge base is empty or no documents have been indexed yet. Ask the user to contact an admin to add documents.',
+    };
+  }
+
+  return {
+    status: 'found',
+    query,
+    matches: result.chunks.map(c => ({
+      source: c.source,
+      title: c.title,
+      chunk_index: c.chunk_index,
+      content: c.text,
+    })),
+    total_chunks_searched: result.totalChunks,
+    relevant_chunks_returned: result.chunks.length,
+  };
+}
+
 const toolRegistry: Record<string, (args: Record<string, any>) => Promise<any>> = {
   get_available_layers: getAvailableLayers,
   get_country_stats: getCountryStats,
   get_countries_for_layer: getCountriesForLayer,
   show_country_on_map: showCountryOnMap,
+  search_knowledge: searchKnowledge,
 };
 
 // ── Tool Call Parsing ──────────────────────────────────────────────
@@ -633,7 +678,12 @@ function buildApiMessages(
   newMessage: string,
   layerCatalog: string,
 ): ApiMessage[] {
-  const systemPrompt = SYSTEM_PROMPT_TEMPLATE(layerCatalog);
+  const knowledgeStatus = getKnowledgeStatus();
+  const knowledgeInfo = knowledgeStatus.available
+    ? `Available with ${knowledgeStatus.documentCount} documents (${knowledgeStatus.chunkCount} indexed chunks). Use search_knowledge to find relevant information.`
+    : 'Not available (no documents indexed).';
+
+  const systemPrompt = SYSTEM_PROMPT_TEMPLATE(layerCatalog, knowledgeInfo);
   const apiMessages: ApiMessage[] = [{ role: 'system', content: systemPrompt }];
 
   // Include recent messages — skip stored tool-result system messages to avoid

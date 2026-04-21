@@ -66,6 +66,9 @@ app.get('/api/countries', (req: Request, res: Response) => {
   }
 });
 
+// Knowledge base initialization
+import { initializeKnowledgeBase } from './services/knowledgeService';
+
 // Routes
 import authRoutes from './routes/authRoutes';
 import userRoutes from './routes/userRoutes';
@@ -399,6 +402,7 @@ async function startServer() {
   try {
     await initializeDatabase();
     await createDefaultAdmin();
+    initializeKnowledgeBase();
 
     app.listen(PORT, () => {
       console.log(`Server is running on http://localhost:${PORT}`);
