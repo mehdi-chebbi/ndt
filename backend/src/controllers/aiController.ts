@@ -36,11 +36,14 @@ LAYER NAME RULES:
 DATABASE QUERY TOOLS:
 You have access to the platform's database to retrieve real data. When a user asks about specific data (layers, stats, countries), you MUST use these tools instead of guessing.
 
-To query the database, respond with ONLY a JSON object (no other text before or after):
-{"tools": [{"name": "<tool_name>", "args": {"<arg1>": "<value1>"}}]}
+To query the database, respond with ONLY a valid JSON object — no text before or after, no markdown, no explanation:
+{"tools": [{"name": "<tool_name>", "args": {"<arg1>": "<value1>"}}, {"name": "<tool_name2>", "args": {}}]}
 
-You can call multiple tools in a single request by including multiple entries in the tools array.
-Do NOT add any explanation before or after the JSON.
+CRITICAL FORMAT RULES:
+- The entire response must be ONLY the JSON object — nothing else
+- ALL tools must be inside the single "tools" array — never output two separate JSON objects
+- Valid: {"tools": [{"name": "get_country_stats", "args": {...}}, {"name": "show_country_on_map", "args": {...}}]}
+- Invalid: {"tools": [...]} {"tools": [...]}  ← two objects is WRONG
 
 Available tools:
 
@@ -131,7 +134,7 @@ Guidelines:
 - When a question requires querying multiple countries or a large batch, do NOT ask for confirmation. Execute all necessary tool calls and present the results.
 - Never drift into general assistant behavior. Always bring the conversation back to AfriGeoData's features and data.`;
 
-// Special system prompt for area analysis (structured output) — unchanged
+// Special system prompt for area analysis (structured output)
 const ANALYSIS_SYSTEM_PROMPT_TEMPLATE = (context: {
   layerName: string;
   location: string;
@@ -185,6 +188,7 @@ Be concise, spatially aware, and data-driven. Focus on actionable insights.
 Respond in the same language the user uses.`;
 
 const MAX_CONTEXT_MESSAGES = 20;
+const MAX_MESSAGE_LENGTH = 4000;
 
 // ── Types ──────────────────────────────────────────────────────────
 
@@ -213,21 +217,15 @@ interface ChatRequestBody {
 
 // ── Layer Catalog ──────────────────────────────────────────────────
 
-/**
- * Fetch all active layers with their full group breadcrumb path.
- * Uses a recursive CTE to walk up the parent group chain.
- */
 async function buildLayerCatalog(): Promise<string> {
   const result = await pool.query(`
     WITH RECURSIVE group_path AS (
-      -- Base case: groups with no parent
       SELECT id, name, name::text AS breadcrumb
       FROM layer_groups
       WHERE parent_id IS NULL
 
       UNION ALL
 
-      -- Recursive case: append child to parent breadcrumb
       SELECT g.id, g.name, CONCAT(gp.breadcrumb, ' > ', g.name)
       FROM layer_groups g
       JOIN group_path gp ON g.parent_id = gp.id
@@ -251,6 +249,52 @@ async function buildLayerCatalog(): Promise<string> {
       return `  - "${row.display_name}" → ${groupPath}`;
     })
     .join('\n');
+}
+
+// ── Shared Layer Lookup ────────────────────────────────────────────
+
+async function findLayer(
+  layerKeyword: string,
+  groupKeyword?: string,
+): Promise<{ status: string; layer?: any; matches?: any[]; message?: string }> {
+  let layerQuery = `
+    SELECT l.id, l.geoserver_name, l.display_name, g.name as group_name
+    FROM layers l
+    LEFT JOIN layer_groups g ON l.group_id = g.id
+    WHERE l.is_active = true
+      AND l.display_name ILIKE $1
+  `;
+  const layerParams: any[] = [`%${layerKeyword}%`];
+
+  if (groupKeyword) {
+    layerQuery += ` AND g.name ILIKE $2`;
+    layerParams.push(`%${groupKeyword}%`);
+  }
+
+  layerQuery += ` ORDER BY l.sort_order ASC`;
+
+  const layerResult = await pool.query(layerQuery, layerParams);
+
+  if (layerResult.rows.length === 0) {
+    return {
+      status: 'not_found',
+      message: `No layer found matching "${layerKeyword}"${groupKeyword ? ` in group "${groupKeyword}"` : ''}`,
+    };
+  }
+
+  if (layerResult.rows.length > 1) {
+    return {
+      status: 'multiple_matches',
+      message: `Multiple layers match "${layerKeyword}"${groupKeyword ? ` in group "${groupKeyword}"` : ''}. Please ask the user to clarify.`,
+      matches: layerResult.rows.map((r) => ({
+        name: r.geoserver_name,
+        display_name: r.display_name,
+        group: r.group_name,
+      })),
+    };
+  }
+
+  return { status: 'found', layer: layerResult.rows[0] };
 }
 
 // ── DB Tools ───────────────────────────────────────────────────────
@@ -314,44 +358,10 @@ async function getCountryStats(args: Record<string, any>): Promise<any> {
     return { status: 'error', message: 'Both "country" and "layer" are required' };
   }
 
-  // Step 1: Find matching layers (with optional group filter)
-  let layerQuery = `
-    SELECT l.id, l.geoserver_name, l.display_name, g.name as group_name
-    FROM layers l
-    LEFT JOIN layer_groups g ON l.group_id = g.id
-    WHERE l.is_active = true
-      AND l.display_name ILIKE $1
-  `;
-  const layerParams: any[] = [`%${layerKeyword}%`];
+  const layerLookup = await findLayer(layerKeyword, groupKeyword);
+  if (layerLookup.status !== 'found') return layerLookup;
+  const layer = layerLookup.layer!;
 
-  if (groupKeyword) {
-    layerQuery += ` AND g.name ILIKE $2`;
-    layerParams.push(`%${groupKeyword}%`);
-  }
-
-  layerQuery += ` ORDER BY l.sort_order ASC`;
-
-  const layerResult = await pool.query(layerQuery, layerParams);
-
-  if (layerResult.rows.length === 0) {
-    return { status: 'not_found', message: `No layer found matching "${layerKeyword}"${groupKeyword ? ` in group "${groupKeyword}"` : ''}` };
-  }
-
-  if (layerResult.rows.length > 1) {
-    return {
-      status: 'multiple_matches',
-      message: `Multiple layers match "${layerKeyword}"${groupKeyword ? ` in group "${groupKeyword}"` : ''}. Please ask the user to clarify.`,
-      matches: layerResult.rows.map((r) => ({
-        name: r.geoserver_name,
-        display_name: r.display_name,
-        group: r.group_name,
-      })),
-    };
-  }
-
-  const layer = layerResult.rows[0];
-
-  // Step 2: Find matching country stats
   const statsResult = await pool.query(
     `SELECT country_file, total_area_km2, pixel_size_m, class_stats, computed_at
      FROM country_stats
@@ -360,19 +370,16 @@ async function getCountryStats(args: Record<string, any>): Promise<any> {
   );
 
   if (statsResult.rows.length === 0) {
-    // Check what countries ARE available for this layer (sample)
     const availableResult = await pool.query(
       `SELECT country_file FROM country_stats WHERE layer_id = $1 ORDER BY country_file ASC LIMIT 10`,
       [layer.id],
     );
-    const availableCountries = availableResult.rows.map((r) =>
-      r.country_file.replace('.geojson', ''),
-    );
-
     return {
       status: 'no_stats',
       message: `No pre-computed stats found for "${country}" on layer "${layer.geoserver_name}"`,
-      available_countries_sample: availableCountries,
+      available_countries_sample: availableResult.rows.map((r) =>
+        r.country_file.replace('.geojson', ''),
+      ),
     };
   }
 
@@ -388,15 +395,12 @@ async function getCountryStats(args: Record<string, any>): Promise<any> {
     };
   }
 
-  // Single match — build full stats response
   const stats = statsResult.rows[0];
   const countryName = stats.country_file.replace('.geojson', '');
 
-  // Get class labels for human-readable names
   const layerInfo = await pool.query('SELECT class_labels FROM layers WHERE id = $1', [layer.id]);
   const classLabels = layerInfo.rows[0]?.class_labels || {};
 
-  // Format class_stats: handles both array (from batch route) and dict formats
   const classStatsRaw = stats.class_stats || {};
   const classStatsArray = Array.isArray(classStatsRaw)
     ? classStatsRaw
@@ -441,45 +445,11 @@ async function showCountryOnMap(args: Record<string, any>): Promise<any> {
     return { status: 'error', message: 'Both "country" and "layer" are required' };
   }
 
-  // Step 1: Find matching layer
-  let layerQuery = `
-    SELECT l.id, l.geoserver_name, l.display_name, g.name as group_name
-    FROM layers l
-    LEFT JOIN layer_groups g ON l.group_id = g.id
-    WHERE l.is_active = true
-      AND l.display_name ILIKE $1
-  `;
-  const layerParams: any[] = [`%${layerKeyword}%`];
+  const layerLookup = await findLayer(layerKeyword, groupKeyword);
+  if (layerLookup.status !== 'found') return layerLookup;
+  const layer = layerLookup.layer!;
 
-  if (groupKeyword) {
-    layerQuery += ` AND g.name ILIKE $2`;
-    layerParams.push(`%${groupKeyword}%`);
-  }
-
-  layerQuery += ` ORDER BY l.sort_order ASC`;
-
-  const layerResult = await pool.query(layerQuery, layerParams);
-
-  if (layerResult.rows.length === 0) {
-    return { status: 'not_found', message: `No layer found matching "${layerKeyword}"` };
-  }
-
-  if (layerResult.rows.length > 1) {
-    return {
-      status: 'multiple_matches',
-      message: `Multiple layers match "${layerKeyword}". Please ask the user to clarify.`,
-      matches: layerResult.rows.map((r) => ({
-        name: r.geoserver_name,
-        display_name: r.display_name,
-        group: r.group_name,
-      })),
-    };
-  }
-
-  const layer = layerResult.rows[0];
   const countryFile = `${country}.geojson`;
-
-  // Step 2: Check if clipped layer exists in cache
   const cacheResult = await pool.query(
     'SELECT clipped_layer_name FROM clipped_layers_cache WHERE country_file ILIKE $1 AND layer_id = $2',
     [countryFile, layer.id],
@@ -526,44 +496,10 @@ async function getCountriesForLayer(args: Record<string, any>): Promise<any> {
     return { status: 'error', message: '"layer" is required' };
   }
 
-  // Find matching layers (with optional group filter)
-  let layerQuery = `
-    SELECT l.id, l.geoserver_name, l.display_name, g.name as group_name
-    FROM layers l
-    LEFT JOIN layer_groups g ON l.group_id = g.id
-    WHERE l.is_active = true
-      AND l.display_name ILIKE $1
-  `;
-  const layerParams: any[] = [`%${layerKeyword}%`];
+  const layerLookup = await findLayer(layerKeyword, groupKeyword);
+  if (layerLookup.status !== 'found') return layerLookup;
+  const layer = layerLookup.layer!;
 
-  if (groupKeyword) {
-    layerQuery += ` AND g.name ILIKE $2`;
-    layerParams.push(`%${groupKeyword}%`);
-  }
-
-  layerQuery += ` ORDER BY l.sort_order ASC`;
-
-  const layerResult = await pool.query(layerQuery, layerParams);
-
-  if (layerResult.rows.length === 0) {
-    return { status: 'not_found', message: `No layer found matching "${layerKeyword}"${groupKeyword ? ` in group "${groupKeyword}"` : ''}` };
-  }
-
-  if (layerResult.rows.length > 1) {
-    return {
-      status: 'multiple_matches',
-      message: `Multiple layers match "${layerKeyword}"${groupKeyword ? ` in group "${groupKeyword}"` : ''}. Please ask the user to clarify.`,
-      matches: layerResult.rows.map((r) => ({
-        name: r.geoserver_name,
-        display_name: r.display_name,
-        group: r.group_name,
-      })),
-    };
-  }
-
-  const layer = layerResult.rows[0];
-
-  // Get countries with stats for this layer
   const statsResult = await pool.query(
     `SELECT country_file, total_area_km2, computed_at
      FROM country_stats
@@ -603,58 +539,31 @@ const toolRegistry: Record<string, (args: Record<string, any>) => Promise<any>> 
   show_country_on_map: showCountryOnMap,
 };
 
-// ── DB Request Parsing ─────────────────────────────────────────────
+// ── Tool Call Parsing ──────────────────────────────────────────────
 
-/** Extract {"tools": [...]} from AI response — lenient parser for small models */
+/**
+ * Parse {"tools": [...]} from AI response.
+ * Returns null if no valid tool call is found.
+ */
 function parseDbRequest(content: string): ToolCall[] | null {
-  // Strategy 1: Find {"tools": in the response and extract JSON from that point
-  const toolsIndex = content.indexOf('{"tools"');
-  const toolsIndex2 = content.indexOf('{\n  "tools"');
-  const startIdx = toolsIndex !== -1 ? toolsIndex : toolsIndex2;
-
-  if (startIdx === -1) return null;
-
-  // Extract from the opening { to the matching closing }
-  let depth = 0;
-  let endIdx = -1;
-
-  for (let i = startIdx; i < content.length; i++) {
-    if (content[i] === '{') depth++;
-    if (content[i] === '}') depth--;
-    if (depth === 0) {
-      endIdx = i + 1;
-      break;
-    }
-  }
-
-  if (endIdx === -1) return null;
-
-  const jsonStr = content.substring(startIdx, endIdx);
+  // Find the outermost {...} that contains "tools"
+  const match = content.match(/\{[\s\S]*?"tools"[\s\S]*\}/);
+  if (!match) return null;
 
   try {
-    const parsed = JSON.parse(jsonStr);
-    if (parsed.tools && Array.isArray(parsed.tools) && parsed.tools.length > 0) {
+    const parsed = JSON.parse(match[0]);
+    if (Array.isArray(parsed.tools) && parsed.tools.length > 0) {
       return parsed.tools.map((t: any) => ({
         name: String(t.name),
         args: t.args || {},
       }));
     }
-    aiLogger.warning('Parsed JSON has no valid tools array', { jsonStr });
+    aiLogger.warning('Parsed JSON has no valid tools array', { matched: match[0] });
     return null;
   } catch (e) {
-    aiLogger.warning('Failed to parse tools JSON', { jsonStr, error: e });
+    aiLogger.warning('Failed to parse tools JSON', { matched: match[0], error: e });
     return null;
   }
-}
-
-/** Strip any DB_REQUEST markers or raw JSON from text before showing to user */
-function cleanResponseForUser(content: string): string {
-  let cleaned = content;
-  // Remove [DB_REQUEST] and [/DB_REQUEST] tags
-  cleaned = cleaned.replace(/\[\/]?DB_REQUEST\]/g, '');
-  // Remove any standalone {"tools": ...} JSON blocks
-  cleaned = cleaned.replace(/\s*\{[^{}]*"tools"[\\s\\S]*?\}\s*/g, '');
-  return cleaned.trim();
 }
 
 // ── Execute Tools ──────────────────────────────────────────────────
@@ -702,13 +611,9 @@ async function executeTools(toolCalls: ToolCall[]): Promise<ToolResult[]> {
 
 // ── Helpers ────────────────────────────────────────────────────────
 
-/**
- * Extract plain text from stored message content.
- * Handles legacy multimodal JSON arrays (old format) and plain strings.
- */
 function extractTextFromContent(content: string): string {
   if (!content) return '';
-  if (!content.startsWith('[')) return content; // plain string
+  if (!content.startsWith('[')) return content;
 
   try {
     const parts = JSON.parse(content);
@@ -719,11 +624,10 @@ function extractTextFromContent(content: string): string {
       .join(' ')
       .trim();
   } catch {
-    return content; // not valid JSON, return as-is
+    return content;
   }
 }
 
-/** Build the messages array for the AI API */
 function buildApiMessages(
   dbMessages: { role: string; content: string }[],
   newMessage: string,
@@ -732,7 +636,8 @@ function buildApiMessages(
   const systemPrompt = SYSTEM_PROMPT_TEMPLATE(layerCatalog);
   const apiMessages: ApiMessage[] = [{ role: 'system', content: systemPrompt }];
 
-  // Include recent messages from DB (including system messages for DB context)
+  // Include recent messages — skip stored tool-result system messages to avoid
+  // unbounded context growth. Those are identified by the DB_TOOL_RESULT tag.
   const recent = dbMessages.slice(-MAX_CONTEXT_MESSAGES);
 
   for (const msg of recent) {
@@ -740,14 +645,15 @@ function buildApiMessages(
     if (!text) continue;
 
     if (msg.role === 'system') {
-      // Preserve DB context system messages
-      apiMessages.push({ role: 'system', content: text });
+      // Only include system messages that are NOT tool results (they grow unboundedly)
+      if (!text.startsWith('DATABASE QUERY RESULTS:')) {
+        apiMessages.push({ role: 'system', content: text });
+      }
     } else if (msg.role === 'user' || msg.role === 'assistant') {
       apiMessages.push({ role: msg.role, content: text });
     }
   }
 
-  // Add new user message
   if (newMessage.trim()) {
     apiMessages.push({ role: 'user', content: newMessage });
   }
@@ -755,7 +661,6 @@ function buildApiMessages(
   return apiMessages;
 }
 
-/** Build AI API headers */
 function buildApiHeaders(): Record<string, string> {
   const headers: Record<string, string> = {
     Authorization: `Bearer ${process.env.AI_API_KEY}`,
@@ -770,7 +675,6 @@ function buildApiHeaders(): Record<string, string> {
   return headers;
 }
 
-/** Validate AI env vars */
 function validateAiConfig(): { ok: boolean; error?: string } {
   if (!process.env.AI_BASE_URL) return { ok: false, error: 'AI_BASE_URL is not configured' };
   if (!process.env.AI_API_KEY) return { ok: false, error: 'AI_API_KEY is not configured' };
@@ -778,29 +682,29 @@ function validateAiConfig(): { ok: boolean; error?: string } {
   return { ok: true };
 }
 
-/** Smart-stream Round 1: buffers initially to detect tool calls, then flushes+streams if safe.
+// ── Round 1: Smart-peek streaming ─────────────────────────────────
+
+/**
+ * Stream the AI response, but peek at the very first non-whitespace character
+ * before forwarding anything to the client.
  *
- *  Strategy:
- *  1. Buffer chunks silently while we check if the response starts with `{` (tool call pattern)
- *  2. As soon as we see the first non-whitespace char is NOT `{`, it's a regular response
- *     → flush the buffered content to client and switch to streaming mode
- *  3. If it starts with `{`, keep buffering silently (might be a tool call)
- *  4. Returns { text, alreadyStreaming } so the caller knows whether content was already sent
+ * Decision logic (made after seeing the first visible character):
+ *   - Starts with `{` → potential tool call, keep buffering silently until done
+ *   - Anything else  → definitely NOT a tool call, flush buffered chunks and
+ *                      switch to live streaming for the rest
+ *
+ * Returns { text: full accumulated response, streamed: whether client received chunks }
+ * so the caller knows whether it still needs to send the content or it's already gone.
  */
-async function smartStreamRound1(
+async function round1SmartStream(
   res: Response,
   messages: ApiMessage[],
-): Promise<{ text: string; alreadyStreaming: boolean }> {
-  const { baseUrl, modelName } = {
-    baseUrl: process.env.AI_BASE_URL!,
-    modelName: process.env.AI_MODEL!,
-  };
-
-  const response = await fetch(`${baseUrl}/chat/completions`, {
+): Promise<{ text: string; streamed: boolean }> {
+  const response = await fetch(`${process.env.AI_BASE_URL!}/chat/completions`, {
     method: 'POST',
     headers: buildApiHeaders(),
     body: JSON.stringify({
-      model: modelName,
+      model: process.env.AI_MODEL!,
       messages,
       stream: true,
     }),
@@ -817,12 +721,8 @@ async function smartStreamRound1(
   const decoder = new TextDecoder();
   let buffer = '';
   let accumulated = '';
-  let alreadyStreaming = false;
-
-  // We buffer until we can determine if this is a tool call or not.
-  // Tool calls always start with `{` (like {"tools": [...]}).
-  // Regular responses start with letters, markdown, spaces, etc.
-  let decisionMade = false;
+  let streamed = false;     // have we started forwarding chunks to the client?
+  let decided = false;      // have we made the tool-call/direct-response decision?
 
   while (true) {
     const { done, value } = await reader.read();
@@ -840,42 +740,30 @@ async function smartStreamRound1(
         try {
           const parsed = JSON.parse(trimmed.slice(6));
           const content = parsed.choices?.[0]?.delta?.content;
-          if (content) {
-            accumulated += content;
+          if (!content) continue;
 
-            if (!decisionMade) {
-              // Check if we have enough text to make a decision
-              const trimmedAccum = accumulated.trimStart();
+          accumulated += content;
 
-              if (trimmedAccum.length > 0) {
-                // We have visible content — is it a tool call?
-                if (trimmedAccum[0] === '{') {
-                  // Starts with { — could be a tool call, keep buffering silently
-                  // But also check: if it's been going on for a while without
-                  // looking like a tool call, it might be a markdown code block or similar
-                  if (trimmedAccum.includes('"tools"') || trimmedAccum.length < 200) {
-                    // Still looks like it could be a tool call, keep buffering
-                    continue;
-                  } else {
-                    // Started with { but doesn't contain "tools" and is long —
-                    // probably not a tool call, safe to stream
-                    decisionMade = true;
-                    alreadyStreaming = true;
-                    res.write(`data: ${JSON.stringify({ content: accumulated })}\n\n`);
-                  }
-                } else {
-                  // Doesn't start with { — definitely NOT a tool call, safe to stream!
-                  decisionMade = true;
-                  alreadyStreaming = true;
-                  res.write(`data: ${JSON.stringify({ content: accumulated })}\n\n`);
-                }
-              }
-              // else: still only whitespace, keep buffering
-            } else if (alreadyStreaming) {
-              // Decision already made — stream directly to client
-              res.write(`data: ${JSON.stringify({ content })}\n\n`);
+          if (!decided) {
+            // Wait until we have at least one visible (non-whitespace) character
+            const firstVisible = accumulated.trimStart()[0];
+            if (!firstVisible) continue; // still only whitespace, keep buffering
+
+            decided = true;
+
+            if (firstVisible === '{') {
+              // Might be a tool call — buffer silently, do NOT stream to client
+              streamed = false;
+            } else {
+              // Definitely NOT a tool call — flush everything buffered so far and stream
+              streamed = true;
+              res.write(`data: ${JSON.stringify({ content: accumulated })}\n\n`);
             }
+          } else if (streamed) {
+            // Decision already made and we're in streaming mode — forward each chunk
+            res.write(`data: ${JSON.stringify({ content })}\n\n`);
           }
+          // else: decided=true, streamed=false → tool call path, keep buffering silently
         } catch {
           // Non-critical parse error, skip
         }
@@ -883,24 +771,25 @@ async function smartStreamRound1(
     }
   }
 
-  return { text: accumulated, alreadyStreaming };
+  return { text: accumulated, streamed };
 }
 
-/** Stream AI response and forward chunks to client, returns accumulated text */
+// ── Round 2: Streaming AI response ────────────────────────────────
+
+/**
+ * Stream AI response and forward SSE chunks to client.
+ * Returns the full accumulated text.
+ */
 async function streamAiToClient(
   res: Response,
   messages: ApiMessage[],
+  eventType?: string, // optional type field for SSE events (used by analyzeAreaWithAI)
 ): Promise<string> {
-  const { baseUrl, modelName } = {
-    baseUrl: process.env.AI_BASE_URL!,
-    modelName: process.env.AI_MODEL!,
-  };
-
-  const response = await fetch(`${baseUrl}/chat/completions`, {
+  const response = await fetch(`${process.env.AI_BASE_URL!}/chat/completions`, {
     method: 'POST',
     headers: buildApiHeaders(),
     body: JSON.stringify({
-      model: modelName,
+      model: process.env.AI_MODEL!,
       messages,
       stream: true,
     }),
@@ -936,7 +825,8 @@ async function streamAiToClient(
           const content = parsed.choices?.[0]?.delta?.content;
           if (content) {
             accumulated += content;
-            res.write(`data: ${JSON.stringify({ content })}\n\n`);
+            const payload = eventType ? { type: eventType, content } : { content };
+            res.write(`data: ${JSON.stringify(payload)}\n\n`);
           }
         } catch {
           // Non-critical parse error, skip
@@ -962,7 +852,6 @@ export async function chat(req: Request, res: Response) {
 
     // ── Validate input ──
     if (!sessionId || !message) {
-      aiLogger.warning('Invalid request', { sessionId, hasMessage: !!message });
       return res.status(400).json({ error: 'sessionId and message are required' });
     }
 
@@ -970,14 +859,21 @@ export async function chat(req: Request, res: Response) {
       return res.status(401).json({ error: 'Authentication required' });
     }
 
-    // Normalize message to string
     const messageText = typeof message === 'string' ? message : String(message);
 
-    aiLogger.debug('Request', {
-      userId,
-      sessionId,
-      messagePreview: messageText.substring(0, 80),
-    });
+    // Guard against absurdly large messages
+    if (messageText.length > MAX_MESSAGE_LENGTH) {
+      return res.status(400).json({
+        error: `Message too long. Maximum length is ${MAX_MESSAGE_LENGTH} characters.`,
+      });
+    }
+
+    // ── Validate AI config early (before DB writes) ──
+    const configCheck = validateAiConfig();
+    if (!configCheck.ok) {
+      aiLogger.error(configCheck.error!);
+      return res.status(500).json({ error: `AI service error: ${configCheck.error}` });
+    }
 
     // ── Verify session belongs to user ──
     const sessionCheck = await pool.query(
@@ -998,24 +894,28 @@ export async function chat(req: Request, res: Response) {
       'SELECT role, content FROM chat_messages WHERE session_id = $1 ORDER BY created_at ASC',
       [sessionId],
     );
-
     const dbMessages = messagesResult.rows as { role: string; content: string }[];
 
-    // ── Validate AI config ──
-    const configCheck = validateAiConfig();
-    if (!configCheck.ok) {
-      aiLogger.error(configCheck.error!);
-      return res.status(500).json({ error: `AI service error: ${configCheck.error}` });
+    // ── Build layer catalog ──
+    let layerCatalog: string;
+    try {
+      layerCatalog = await buildLayerCatalog();
+    } catch (error: any) {
+      aiLogger.warning('Failed to build layer catalog, using fallback', { error: error.message });
+      layerCatalog = 'Layer catalog temporarily unavailable.';
     }
 
-    // ── Set up SSE ──
-    res.setHeader('Content-Type', 'text/event-stream');
-    res.setHeader('Cache-Control', 'no-cache, no-transform');
-    res.setHeader('Connection', 'keep-alive');
-    res.setHeader('X-Accel-Buffering', 'no');
-    res.flushHeaders();
+    // ── Build messages for AI ──
+    const apiMessages = buildApiMessages(dbMessages, messageText, layerCatalog);
+
+    aiLogger.info('Context built', {
+      totalDbMessages: dbMessages.length,
+      sentToApi: apiMessages.length,
+      model: process.env.AI_MODEL,
+    });
 
     // ── Save user message to DB ──
+    // Done BEFORE flushHeaders so we can still return HTTP errors if this fails.
     const userMessageCount = dbMessages.filter((m) => m.role === 'user').length;
 
     await pool.query(
@@ -1024,10 +924,7 @@ export async function chat(req: Request, res: Response) {
     );
 
     if (userMessageCount === 0) {
-      const title =
-        messageText.length > 60
-          ? messageText.substring(0, 57) + '...'
-          : messageText;
+      const title = messageText.length > 60 ? messageText.substring(0, 57) + '...' : messageText;
       await pool.query(
         'UPDATE chat_sessions SET title = $1, updated_at = CURRENT_TIMESTAMP WHERE id = $2',
         [title || 'New chat', sessionId],
@@ -1039,56 +936,40 @@ export async function chat(req: Request, res: Response) {
       );
     }
 
-    // ── Build layer catalog (for system prompt injection) ──
-    let layerCatalog: string;
-    try {
-      layerCatalog = await buildLayerCatalog();
-    } catch (error: any) {
-      aiLogger.warning('Failed to build layer catalog, using fallback', { error: error.message });
-      layerCatalog = 'Layer catalog temporarily unavailable.';
-    }
-
-    // ── Build messages ──
-    const apiMessages = buildApiMessages(dbMessages, messageText, layerCatalog);
-
-    aiLogger.info('Context built', {
-      totalDbMessages: dbMessages.length,
-      sentToApi: apiMessages.length,
-      model: process.env.AI_MODEL,
-    });
+    // ── Set up SSE — only after all DB writes ──
+    res.setHeader('Content-Type', 'text/event-stream');
+    res.setHeader('Cache-Control', 'no-cache, no-transform');
+    res.setHeader('Connection', 'keep-alive');
+    res.setHeader('X-Accel-Buffering', 'no');
+    res.flushHeaders();
 
     // ═══════════════════════════════════════════════════════════════
-    // ROUND 1: Smart-stream — buffer to detect tool calls, then flush+stream if safe
+    // ROUND 1: Smart-peek streaming
+    // Peeks at the first non-whitespace character to decide:
+    //   '{' → potential tool call, buffer silently until done
+    //   else → direct response, stream live to client
     // ═══════════════════════════════════════════════════════════════
 
     let round1Text: string;
-    let alreadyStreaming: boolean;
+    let round1Streamed: boolean;
     try {
-      aiLogger.info('Round 1: Smart-streaming (buffering to detect tool calls)...');
-      const round1Result = await smartStreamRound1(res, apiMessages);
-      round1Text = round1Result.text;
-      alreadyStreaming = round1Result.alreadyStreaming;
+      aiLogger.info('Round 1: Smart-peek streaming...');
+      const result = await round1SmartStream(res, apiMessages);
+      round1Text = result.text;
+      round1Streamed = result.streamed;
       aiLogger.info('Round 1 complete', {
         length: round1Text.length,
-        hasTools: round1Text.includes('"tools"'),
-        alreadyStreaming,
+        streamed: round1Streamed,
+        hasTools: round1Text.trimStart().startsWith('{'),
       });
     } catch (error: any) {
       aiLogger.error('Round 1 failed', error);
 
-      if (error.message?.includes('451')) {
-        res.write(
-          `data: ${JSON.stringify({
-            error: 'Your message was blocked by the content filter. Please rephrase and try again.',
-          })}\n\n`,
-        );
-      } else {
-        res.write(
-          `data: ${JSON.stringify({
-            error: 'Failed to get AI response. Please try again.',
-          })}\n\n`,
-        );
-      }
+      const userError = error.message?.includes('451')
+        ? 'Your message was blocked by the content filter. Please rephrase and try again.'
+        : 'Failed to get AI response. Please try again.';
+
+      res.write(`data: ${JSON.stringify({ error: userError })}\n\n`);
       res.end();
       return;
     }
@@ -1098,64 +979,55 @@ export async function chat(req: Request, res: Response) {
 
     if (!toolCalls) {
       // ═══════════════════════════════════════════════════════════
-      // NO DB NEEDED — content already streamed to client (or send now if still buffered)
+      // NO TOOLS — direct response
+      // If already streamed chunk-by-chunk, just close the connection.
+      // If buffered (started with '{' but wasn't a tool call), send now.
       // ═══════════════════════════════════════════════════════════
 
-      aiLogger.info('No DB query needed — finalizing response', { alreadyStreaming });
+      aiLogger.info('No tool calls — finalizing direct response', { round1Streamed });
 
-      // Clean any accidental markers before showing to user
-      const cleanResponse = cleanResponseForUser(round1Text);
+      await pool.query(
+        'INSERT INTO chat_messages (session_id, role, content) VALUES ($1, $2, $3)',
+        [sessionId, 'assistant', round1Text],
+      );
+      await pool.query(
+        'UPDATE chat_sessions SET updated_at = CURRENT_TIMESTAMP WHERE id = $1',
+        [sessionId],
+      );
 
-      // Save assistant response
-      if (cleanResponse) {
-        await pool.query(
-          'INSERT INTO chat_messages (session_id, role, content) VALUES ($1, $2, $3)',
-          [sessionId, 'assistant', round1Text],
-        );
-        await pool.query(
-          'UPDATE chat_sessions SET updated_at = CURRENT_TIMESTAMP WHERE id = $1',
-          [sessionId],
-        );
+      if (!round1Streamed) {
+        // Buffered (response started with '{' but wasn't a tool call) — send now
+        res.write(`data: ${JSON.stringify({ content: round1Text })}\n\n`);
       }
 
-      if (alreadyStreaming) {
-        // Content was already streamed chunk-by-chunk to the client — just close
-        res.write('data: [DONE]\n\n');
-        res.end();
-      } else {
-        // Still buffered (started with '{' but wasn't a tool call) — send as one chunk
-        res.write(`data: ${JSON.stringify({ content: cleanResponse })}\n\n`);
-        res.write('data: [DONE]\n\n');
-        res.end();
-      }
+      res.write('data: [DONE]\n\n');
+      res.end();
 
       aiLogger.success(`Request [${requestId}] completed (direct)`, {
-        responseLength: cleanResponse.length,
-        alreadyStreaming,
+        responseLength: round1Text.length,
+        streamed: round1Streamed,
       });
       aiLogger.separator();
       return;
     }
 
     // ═══════════════════════════════════════════════════════════════
-    // DB QUERY NEEDED — execute tools, then stream AI response
+    // TOOLS NEEDED — execute, then stream round 2
     // ═══════════════════════════════════════════════════════════════
 
-    aiLogger.info(`DB query needed — executing ${toolCalls.length} tool(s)`, {
+    aiLogger.info(`Tool calls detected — executing ${toolCalls.length} tool(s)`, {
       tools: toolCalls.map((t) => t.name),
     });
 
-    // Notify frontend that we're searching the database
     res.write(`data: ${JSON.stringify({ type: 'searching' })}\n\n`);
 
-    // Execute tools
     const toolResults = await executeTools(toolCalls);
 
     aiLogger.info('Tool execution complete', {
       results: toolResults.map((r) => ({ tool: r.tool, status: r.status })),
     });
 
-    // Emit map_action SSE events for any show_country_on_map results with clipped data
+    // Emit map_action SSE events for clipped layer results
     for (const result of toolResults) {
       if (result.tool === 'show_country_on_map' && result.status === 'clipped' && result.data) {
         const mapAction = {
@@ -1172,7 +1044,7 @@ export async function chat(req: Request, res: Response) {
       }
     }
 
-    // Build DB results context for AI
+    // Build DB results context for round 2
     const dbContextParts = toolResults.map((r) => {
       const resultStr = JSON.stringify(r.data, null, 2);
       return `Tool: ${r.tool}(args: ${JSON.stringify(r.args)})\nResult: ${resultStr}`;
@@ -1183,19 +1055,18 @@ export async function chat(req: Request, res: Response) {
 - If any result has status "not_found" or "no_stats", inform the user accordingly.
 - If results have status "found", analyze the data and provide a clear, helpful response.`;
 
-    // Save DB results as system message for conversation continuity
+    // Save tool results as system message for conversation continuity
     await pool.query(
       'INSERT INTO chat_messages (session_id, role, content) VALUES ($1, $2, $3)',
       [sessionId, 'system', dbResultsMessage],
     );
 
     // ═══════════════════════════════════════════════════════════════
-    // ROUND 2: Streamed call — AI analyzes DB results
+    // ROUND 2: Streaming — AI analyzes DB results and responds
     // ═══════════════════════════════════════════════════════════════
 
     aiLogger.info('Round 2: Streaming AI response with DB context...');
 
-    // Build messages for round 2: original messages + DB results + AI's round 1 as assistant
     const round2Messages: ApiMessage[] = [
       ...apiMessages,
       { role: 'assistant', content: JSON.stringify({ tools: toolCalls }) },
@@ -1208,15 +1079,12 @@ export async function chat(req: Request, res: Response) {
     } catch (error: any) {
       aiLogger.error('Round 2 failed', error);
       res.write(
-        `data: ${JSON.stringify({
-          error: 'Failed to analyze database results. Please try again.',
-        })}\n\n`,
+        `data: ${JSON.stringify({ error: 'Failed to analyze database results. Please try again.' })}\n\n`,
       );
       res.end();
       return;
     }
 
-    // Save final assistant response
     if (round2Content) {
       await pool.query(
         'INSERT INTO chat_messages (session_id, role, content) VALUES ($1, $2, $3)',
@@ -1243,19 +1111,16 @@ export async function chat(req: Request, res: Response) {
     if (!res.headersSent) {
       res.status(500).json({ error: 'Something went wrong. Please try again.' });
     } else {
-      res.write(
-        `data: ${JSON.stringify({ error: 'Something went wrong. Please try again.' })}\n\n`,
-      );
+      res.write(`data: ${JSON.stringify({ error: 'Something went wrong. Please try again.' })}\n\n`);
       res.end();
     }
   }
 }
 
 // ═══════════════════════════════════════════════════════════════════
-// Analyze Area with AI — unchanged
+// Analyze Area with AI
 // ═══════════════════════════════════════════════════════════════════
 
-// Helper: Convert hex color to user-friendly color name
 function hexToColorName(hex: string): string {
   const color = hex.replace('#', '').toLowerCase();
 
@@ -1315,21 +1180,12 @@ function hexToColorName(hex: string): string {
   return closestName;
 }
 
-// Helper: Find inherited legend by traversing parent chain (like frontend)
 function findInheritedLegend(groupId: number | null, groups: any[]): any[] | null {
   if (!groupId) return null;
-
   const group = groups.find((g) => g.id === groupId);
   if (!group) return null;
-
-  if (group.legend && group.legend.length > 0) {
-    return group.legend;
-  }
-
-  if (group.parent_id) {
-    return findInheritedLegend(group.parent_id, groups);
-  }
-
+  if (group.legend && group.legend.length > 0) return group.legend;
+  if (group.parent_id) return findInheritedLegend(group.parent_id, groups);
   return null;
 }
 
@@ -1342,21 +1198,14 @@ async function calculatePolygonStats(layerName: string, polygon: any): Promise<a
     [layerName],
   );
 
-  if (result.rows.length === 0) {
-    throw new Error('Layer not found');
-  }
+  if (result.rows.length === 0) throw new Error('Layer not found');
 
   const layer = result.rows[0];
   const filePath = layer.file_path;
   const classLabels = layer.class_labels;
 
-  if (!filePath) {
-    throw new Error('Layer not configured for stats: no file path');
-  }
-
-  if (!classLabels) {
-    throw new Error('Layer not configured for stats: no class labels');
-  }
+  if (!filePath) throw new Error('Layer not configured for stats: no file path');
+  if (!classLabels) throw new Error('Layer not configured for stats: no class labels');
 
   const allGroupsResult = await pool.query(
     'SELECT id, name, parent_id, legend FROM layer_groups ORDER BY sort_order ASC, created_at ASC',
@@ -1364,10 +1213,7 @@ async function calculatePolygonStats(layerName: string, polygon: any): Promise<a
   const allGroups = allGroupsResult.rows;
 
   const clipServiceUrl = process.env.CLIP_SERVICE_URL || 'http://clip-service:3005';
-  aiLogger.info('[AI-Stats] Calling clip-service for layer', {
-    layerName,
-    polygonType: polygon.type,
-  });
+  aiLogger.info('[AI-Stats] Calling clip-service', { layerName, polygonType: polygon.type });
 
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), 10 * 60 * 1000);
@@ -1384,10 +1230,7 @@ async function calculatePolygonStats(layerName: string, polygon: any): Promise<a
 
     if (!response.ok) {
       const errorBody = await response.text();
-      aiLogger.error('[AI-Stats] Clip-service error', {
-        status: response.status,
-        body: errorBody,
-      });
+      aiLogger.error('[AI-Stats] Clip-service error', { status: response.status, body: errorBody });
       throw new Error(errorBody || `Clip-service returned ${response.status}`);
     }
 
@@ -1401,9 +1244,7 @@ async function calculatePolygonStats(layerName: string, polygon: any): Promise<a
     const colorMapping: { [key: string]: string } = {};
     if (legend && legend.length > 0) {
       legend.forEach((item: any) => {
-        if (item.class && item.color) {
-          colorMapping[item.class] = item.color;
-        }
+        if (item.class && item.color) colorMapping[item.class] = item.color;
       });
     }
 
@@ -1412,8 +1253,7 @@ async function calculatePolygonStats(layerName: string, polygon: any): Promise<a
       class_id: cls.class_id,
       class_name: classLabels[cls.class_id] || `Unknown (${cls.class_id})`,
       area_km2: cls.area_km2,
-      percentage:
-        totalPixels > 0 ? Math.round((cls.pixels / totalPixels) * 100 * 10) / 10 : 0,
+      percentage: totalPixels > 0 ? Math.round((cls.pixels / totalPixels) * 100 * 10) / 10 : 0,
       color: colorMapping[classLabels[cls.class_id]] || null,
     }));
 
@@ -1432,24 +1272,18 @@ async function calculatePolygonStats(layerName: string, polygon: any): Promise<a
     };
   } catch (error: any) {
     clearTimeout(timeout);
-
     if (error.name === 'AbortError') {
       aiLogger.error('[AI-Stats] Clip-service request timed out');
       throw new Error('Stats computation timed out');
     }
-
     throw error;
   }
 }
 
-// ── Helper: Extract location from polygon bounds ──
 function extractLocationFromPolygon(polygon: any): string {
-  if (!polygon || !polygon.coordinates) {
-    return 'Unknown location';
-  }
+  if (!polygon || !polygon.coordinates) return 'Unknown location';
 
   let coords: number[][];
-
   if (polygon.type === 'Polygon') {
     coords = polygon.coordinates[0];
   } else if (polygon.type === 'MultiPolygon') {
@@ -1458,20 +1292,14 @@ function extractLocationFromPolygon(polygon: any): string {
     return 'Unknown location';
   }
 
-  if (!coords || coords.length === 0) {
-    return 'Unknown location';
-  }
+  if (!coords || coords.length === 0) return 'Unknown location';
 
   const lats = coords.map((c) => c[1]);
   const lons = coords.map((c) => c[0]);
-
   const avgLat = lats.reduce((a, b) => a + b, 0) / lats.length;
   const avgLon = lons.reduce((a, b) => a + b, 0) / lons.length;
 
-  const latDir = avgLat >= 0 ? 'N' : 'S';
-  const lonDir = avgLon >= 0 ? 'E' : 'W';
-
-  return `${Math.abs(avgLat).toFixed(1)}°${latDir}, ${Math.abs(avgLon).toFixed(1)}°${lonDir}`;
+  return `${Math.abs(avgLat).toFixed(1)}°${avgLat >= 0 ? 'N' : 'S'}, ${Math.abs(avgLon).toFixed(1)}°${avgLon >= 0 ? 'E' : 'W'}`;
 }
 
 interface AnalyzeAreaRequestBody {
@@ -1490,7 +1318,6 @@ export async function analyzeAreaWithAI(req: Request, res: Response) {
     const userId = (req as any).userId;
 
     if (!layer_name || !polygon) {
-      aiLogger.warning('Invalid request', { layer_name, hasPolygon: !!polygon });
       return res.status(400).json({ error: 'layer_name and polygon are required' });
     }
 
@@ -1498,21 +1325,22 @@ export async function analyzeAreaWithAI(req: Request, res: Response) {
       return res.status(401).json({ error: 'Authentication required' });
     }
 
+    const configCheck = validateAiConfig();
+    if (!configCheck.ok) {
+      return res.status(500).json({ error: `AI service error: ${configCheck.error}` });
+    }
+
     aiLogger.info('Request', { userId, layer_name, polygonType: polygon.type });
 
+    // ── Compute stats ──
     aiLogger.info('Step 1: Computing statistics...');
     let stats: any;
     try {
       stats = await calculatePolygonStats(layer_name, polygon);
-      aiLogger.info('Statistics computed', {
-        totalArea: stats.total_area_km2,
-        classCount: stats.classes.length,
-      });
+      aiLogger.info('Statistics computed', { totalArea: stats.total_area_km2, classCount: stats.classes.length });
     } catch (statsError: any) {
       aiLogger.error('Failed to compute statistics', statsError);
-      return res
-        .status(500)
-        .json({ error: 'Failed to compute statistics', details: statsError.message });
+      return res.status(500).json({ error: 'Failed to compute statistics', details: statsError.message });
     }
 
     const location = extractLocationFromPolygon(polygon);
@@ -1526,19 +1354,10 @@ export async function analyzeAreaWithAI(req: Request, res: Response) {
 
     const colorMapping =
       stats.legend && stats.legend.length > 0
-        ? stats.legend
-            .map((item: any) => `- ${item.class}: ${hexToColorName(item.color)}`)
-            .join('\n')
+        ? stats.legend.map((item: any) => `- ${item.class}: ${hexToColorName(item.color)}`).join('\n')
         : 'No color information available.';
 
-    const analysisContext = {
-      layerName: layer_name,
-      location,
-      totalArea: stats.total_area_km2.toFixed(2),
-      classDistribution,
-      colorMapping,
-    };
-
+    // ── Create AI session ──
     aiLogger.info('Step 2: Creating AI session...');
     let sessionId: number;
     try {
@@ -1553,21 +1372,14 @@ export async function analyzeAreaWithAI(req: Request, res: Response) {
       return res.status(500).json({ error: 'Failed to create AI session' });
     }
 
-    aiLogger.info('Step 3: Sending analysis request to AI...');
-
     const userMessage = 'Analyze this area based on the provided geospatial data.';
 
-    try {
-      await pool.query(
-        'INSERT INTO chat_messages (session_id, role, content) VALUES ($1, $2, $3)',
-        [sessionId, 'user', userMessage],
-      );
-    } catch (dbError: any) {
-      aiLogger.error('Failed to save user message', dbError);
-    }
+    await pool.query(
+      'INSERT INTO chat_messages (session_id, role, content) VALUES ($1, $2, $3)',
+      [sessionId, 'user', userMessage],
+    ).catch((e: any) => aiLogger.error('Failed to save user message', e));
 
-    aiLogger.info('Step 4: Streaming AI response...');
-
+    // ── Set up SSE ──
     res.setHeader('Content-Type', 'text/event-stream');
     res.setHeader('Cache-Control', 'no-cache, no-transform');
     res.setHeader('Connection', 'keep-alive');
@@ -1578,159 +1390,74 @@ export async function analyzeAreaWithAI(req: Request, res: Response) {
       `data: ${JSON.stringify({ type: 'stats', sessionId, stats, layerName: layer_name })}\n\n`,
     );
 
-    const baseUrl = process.env.AI_BASE_URL;
-    const apiKey = process.env.AI_API_KEY;
-    const modelName = process.env.AI_MODEL;
+    // ── Stream AI analysis ──
+    aiLogger.info('Step 3: Streaming AI analysis...');
 
-    if (!baseUrl || !apiKey || !modelName) {
-      aiLogger.error('AI config incomplete');
-      res.write(
-        `data: ${JSON.stringify({ type: 'error', error: 'AI service is not properly configured' })}\n\n`,
-      );
-      res.end();
-      return;
-    }
-
-    const messages = [
-      { role: 'system', content: ANALYSIS_SYSTEM_PROMPT_TEMPLATE(analysisContext) },
+    const messages: ApiMessage[] = [
+      {
+        role: 'system',
+        content: ANALYSIS_SYSTEM_PROMPT_TEMPLATE({
+          layerName: layer_name,
+          location,
+          totalArea: stats.total_area_km2.toFixed(2),
+          classDistribution,
+          colorMapping,
+        }),
+      },
       { role: 'user', content: userMessage },
     ];
 
-    aiLogger.info('Calling AI API with analysis context (streaming)', { model: modelName });
-
-    const headers: Record<string, string> = {
-      Authorization: `Bearer ${apiKey}`,
-      'Content-Type': 'application/json',
-    };
-
-    if (process.env.AI_APP_URL) {
-      headers['HTTP-Referer'] = process.env.AI_APP_URL;
-      headers['X-Title'] = process.env.AI_APP_NAME || 'NDT Platform';
-    }
-
-    const response = await fetch(`${baseUrl}/chat/completions`, {
-      method: 'POST',
-      headers,
-      body: JSON.stringify({ model: modelName, messages, stream: true }),
-    });
-
-    if (!response.ok) {
-      const errorText = await response.text();
-      aiLogger.error('AI API error', { status: response.status, body: errorText });
-      res.write(
-        `data: ${JSON.stringify({ type: 'error', error: 'Failed to get AI analysis', details: errorText })}\n\n`,
-      );
-      res.end();
-      return;
-    }
-
-    const reader = response.body?.getReader();
-    if (!reader) {
-      aiLogger.error('No response body from AI API');
-      res.write(
-        `data: ${JSON.stringify({ type: 'error', error: 'Invalid AI response. Please try again.' })}\n\n`,
-      );
-      res.end();
-      return;
-    }
-
-    const decoder = new TextDecoder();
-    let buffer = '';
     let accumulatedContent = '';
-
-    aiLogger.info('Streaming AI analysis started');
-
     try {
-      while (true) {
-        const { done, value } = await reader.read();
-        if (done) break;
-
-        buffer += decoder.decode(value, { stream: true });
-
-        const lines = buffer.split('\n');
-        buffer = lines.pop() || '';
-
-        for (const line of lines) {
-          const trimmed = line.trim();
-          if (!trimmed || trimmed === 'data: [DONE]') continue;
-
-          if (trimmed.startsWith('data: ')) {
-            try {
-              const parsed = JSON.parse(trimmed.slice(6));
-              const content = parsed.choices?.[0]?.delta?.content;
-              if (content) {
-                accumulatedContent += content;
-                res.write(`data: ${JSON.stringify({ type: 'content', content })}\n\n`);
-              }
-            } catch {
-              // Non-critical parse error, skip
-            }
-          }
-        }
-      }
-
-      if (accumulatedContent) {
-        const colorLegendText =
-          stats.legend && stats.legend.length > 0
-            ? `\n\n---\n**Color Legend for Reference:**\n${stats.legend.map((item: any) => `- ${item.class}: ${hexToColorName(item.color)}`).join('\n')}`
-            : '';
-
-        const responseWithContext = accumulatedContent + colorLegendText;
-
-        await pool.query(
-          'INSERT INTO chat_messages (session_id, role, content) VALUES ($1, $2, $3)',
-          [sessionId, 'assistant', responseWithContext],
-        );
-        await pool.query(
-          'UPDATE chat_sessions SET updated_at = CURRENT_TIMESTAMP WHERE id = $1',
-          [sessionId],
-        );
-      }
-
-      res.write(
-        `data: ${JSON.stringify({ type: 'complete', sessionId, finalContent: accumulatedContent })}\n\n`,
-      );
-      res.end();
-
-      aiLogger.success(`Analyze Area Request [${requestId}] completed`, {
-        sessionId,
-        totalArea: stats.total_area_km2,
-        responseLength: accumulatedContent.length,
-      });
-      aiLogger.separator();
-    } catch (streamError) {
+      accumulatedContent = await streamAiToClient(res, messages, 'content');
+    } catch (streamError: any) {
       aiLogger.error('Stream error', streamError);
-
+      // Save whatever we got before the error
       if (accumulatedContent) {
-        const colorLegendText =
-          stats.legend && stats.legend.length > 0
-            ? `\n\n---\n**Color Legend for Reference:**\n${stats.legend.map((item: any) => `- ${item.class}: ${hexToColorName(item.color)}`).join('\n')}`
-            : '';
-
-        const responseWithContext = accumulatedContent + colorLegendText;
-
         await pool.query(
           'INSERT INTO chat_messages (session_id, role, content) VALUES ($1, $2, $3)',
-          [sessionId, 'assistant', responseWithContext],
+          [sessionId, 'assistant', accumulatedContent],
         ).catch(() => {});
       }
-
-      res.write(
-        `data: ${JSON.stringify({ type: 'error', error: 'Stream interrupted. Please try again.' })}\n\n`,
-      );
+      res.write(`data: ${JSON.stringify({ type: 'error', error: 'Stream interrupted. Please try again.' })}\n\n`);
       res.end();
+      return;
     }
+
+    if (accumulatedContent) {
+      const colorLegendText =
+        stats.legend && stats.legend.length > 0
+          ? `\n\n---\n**Color Legend for Reference:**\n${stats.legend.map((item: any) => `- ${item.class}: ${hexToColorName(item.color)}`).join('\n')}`
+          : '';
+
+      await pool.query(
+        'INSERT INTO chat_messages (session_id, role, content) VALUES ($1, $2, $3)',
+        [sessionId, 'assistant', accumulatedContent + colorLegendText],
+      );
+      await pool.query(
+        'UPDATE chat_sessions SET updated_at = CURRENT_TIMESTAMP WHERE id = $1',
+        [sessionId],
+      );
+    }
+
+    res.write(
+      `data: ${JSON.stringify({ type: 'complete', sessionId, finalContent: accumulatedContent })}\n\n`,
+    );
+    res.end();
+
+    aiLogger.success(`Analyze Area Request [${requestId}] completed`, {
+      sessionId,
+      totalArea: stats.total_area_km2,
+      responseLength: accumulatedContent.length,
+    });
+    aiLogger.separator();
   } catch (error: any) {
     aiLogger.error('Analyze Area error', error);
 
     if (!res.headersSent) {
-      res
-        .status(500)
-        .json({ error: 'Something went wrong during analysis', details: error.message });
+      res.status(500).json({ error: 'Something went wrong during analysis', details: error.message });
     } else {
-      res.write(
-        `data: ${JSON.stringify({ type: 'error', error: 'Something went wrong during analysis', details: error.message })}\n\n`,
-      );
+      res.write(`data: ${JSON.stringify({ type: 'error', error: 'Something went wrong during analysis' })}\n\n`);
       res.end();
     }
   }
