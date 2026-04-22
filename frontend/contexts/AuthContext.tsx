@@ -1,6 +1,6 @@
 'use client'
 
-import { createContext, useContext, useEffect, useState, ReactNode } from 'react'
+import { createContext, useContext, useEffect, useState, useCallback, ReactNode } from 'react'
 import { useRouter, usePathname } from 'next/navigation'
 
 interface User {
@@ -57,34 +57,34 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   }, [])
 
   // Login function
-  const login = (token: string, user: User) => {
+  const login = useCallback((token: string, user: User) => {
     localStorage.setItem('token', token)
     localStorage.setItem('user', JSON.stringify(user))
     setIsAuthenticated(true)
     setUser(user)
-  }
+  }, [])
 
   // Logout function
-  const logout = () => {
+  const logout = useCallback(() => {
     localStorage.removeItem('token')
     localStorage.removeItem('user')
     setIsAuthenticated(false)
     setUser(null)
     router.push('/')
-  }
+  }, [router])
 
   // Update user fields (merges partial update into current user)
-  const updateUser = (updates: Partial<User>) => {
+  const updateUser = useCallback((updates: Partial<User>) => {
     setUser(prev => {
       if (!prev) return prev
       const updated = { ...prev, ...updates }
       localStorage.setItem('user', JSON.stringify(updated))
       return updated
     })
-  }
+  }, [])
 
   // Check auth with backend
-  const checkAuth = async () => {
+  const checkAuth = useCallback(async () => {
     const token = localStorage.getItem('token')
     if (!token) {
       logout()
@@ -103,7 +103,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       // Backend unreachable, don't logout (might be loading)
       console.error('Auth check failed:', error)
     }
-  }
+  }, [logout])
 
   // Watch for auth changes and redirect to login if needed
   useEffect(() => {

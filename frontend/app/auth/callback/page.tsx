@@ -42,7 +42,8 @@ function AuthCallbackContent() {
     } else {
       router.push('/login?error=no_token_provided')
     }
-  }, [router, searchParams, login])
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center">

@@ -9,7 +9,7 @@ import { useAuth } from '@/contexts/AuthContext'
 const API_BASE = ''  // Use relative paths for reverse proxy compatibility
 
 export default function CompleteProfilePage() {
-  const { login, user, isAuthenticated } = useAuth()
+  const { updateUser, user, isAuthenticated } = useAuth()
   const [phoneNumber, setPhoneNumber] = useState('')
   const [country, setCountry] = useState('')
   const [jobTitle, setJobTitle] = useState('')
@@ -67,24 +67,21 @@ export default function CompleteProfilePage() {
         throw new Error(data.error || 'Failed to complete profile')
       }
 
-      // Update user data in localStorage with new fields
-      const userData = JSON.parse(localStorage.getItem('user') || '{}')
-      const updatedUser = {
-        ...userData,
+      // Update React state via AuthContext (also updates localStorage)
+      updateUser({
         phone_number: data.user.phone_number,
         country: data.user.country,
         job_title: data.user.job_title,
         institution: data.user.institution,
         profile_complete: true,
+      })
+
+      // Redirect to tutorial for first-time users, dashboard otherwise
+      if (!user?.tutorial_completed) {
+        router.push('/map?autoTutorial=true')
+      } else {
+        router.push('/dashboard')
       }
-
-      // Use AuthContext login function (the token comes from password reset endpoint)
-      // Note: The token was already set by password reset, so we just need to update user data
-      // We don't call login() again to avoid overwriting the token
-      localStorage.setItem('user', JSON.stringify(updatedUser))
-
-      // Redirect to dashboard
-      router.push('/dashboard')
     } catch (err: any) {
       setError(err.message)
     } finally {
