@@ -1,0 +1,262 @@
+{
+  "shared": {
+    "loading": "Chargement...",
+    "footer": "\u00a9 2025 Plateforme. Tous droits r\u00e9serv\u00e9s.",
+    "edit": "Modifier",
+    "delete": "Supprimer",
+    "cancel": "Annuler",
+    "saving": "Enregistrement...",
+    "update": "Mettre \u00e0 jour",
+    "create": "Cr\u00e9er",
+    "refresh": "Actualiser",
+    "addClass": "Ajouter une classe",
+    "classColor": "Classe - Couleur",
+    "classNamePlaceholder": "Nom de la classe",
+    "sortOrder": "Ordre de tri",
+    "howItWorks": "Comment \u00e7a marche",
+    "autoRefreshing": "Actualisation automatique toutes les 5\u00a0s",
+    "complete": "termin\u00e9",
+    "remaining": "restant",
+    "searchCountries": "Rechercher des pays..."
+  },
+  "dashboard": {
+    "manageLayerMetadata": "G\u00e9rer les m\u00e9tadonn\u00e9es des couches",
+    "clipManagement": "Gestion des d\u00e9coupages",
+    "statsManagement": "Gestion des statistiques",
+    "totalUsers": "Total utilisateurs",
+    "adminUsers": "Utilisateurs admin",
+    "regularUsers": "Utilisateurs standards",
+    "allUsers": "Tous les utilisateurs",
+    "noUsersFound": "Aucun utilisateur trouv\u00e9",
+    "table": {
+      "name": "Nom",
+      "email": "E-mail",
+      "role": "R\u00f4le",
+      "createdAt": "Date de cr\u00e9ation",
+      "actions": "Actions"
+    },
+    "errors": {
+      "failedToFetchUsers": "\u00c9chec du chargement des utilisateurs",
+      "failedToDeleteUser": "\u00c9chec de la suppression de l'utilisateur",
+      "confirmDeleteUser": "\u00cates-vous s\u00fbr de vouloir supprimer cet utilisateur\u00a0?"
+    }
+  },
+  "layers": {
+    "title": "Gestion des couches",
+    "subtitle": "G\u00e9rer les groupes et les couches de la carte",
+    "syncing": "Synchronisation...",
+    "syncFromGeoServer": "Synchroniser depuis GeoServer",
+    "syncComplete": "Synchronisation termin\u00e9e\u00a0:",
+    "syncResult": "{{added}} ajout\u00e9es, {{updated}} mises \u00e0 jour, {{total}} couches au total",
+    "stats": {
+      "totalLayers": "Total couches",
+      "activeLayers": "Couches actives",
+      "groups": "Groupes",
+      "statsReady": "Stats pr\u00eates",
+      "ungrouped": "Sans groupe"
+    },
+    "tabs": {
+      "layers": "Couches",
+      "groups": "Groupes"
+    },
+    "layerTab": {
+      "allLayers": "Toutes les couches",
+      "addLayer": "+ Ajouter une couche",
+      "noLayersFound": "Aucune couche trouv\u00e9e",
+      "clickSyncToFetch": "Cliquez sur \u00ab\u00a0Synchroniser depuis GeoServer\u00a0\u00bb pour r\u00e9cup\u00e9rer les couches",
+      "table": {
+        "layer": "Couche",
+        "group": "Groupe",
+        "status": "Statut",
+        "statsReady": "Stats pr\u00eates",
+        "actions": "Actions"
+      },
+      "ungrouped": "Sans groupe",
+      "active": "Active",
+      "inactive": "Inactive",
+      "ready": "Pr\u00eat",
+      "needsConfig": "Configuration requise"
+    },
+    "groupTab": {
+      "layerGroupsNested": "Groupes de couches (imbriqu\u00e9s)",
+      "addGroup": "+ Ajouter un groupe",
+      "noGroupsCreated": "Aucun groupe cr\u00e9\u00e9",
+      "createGroupsToOrganize": "Cr\u00e9ez des groupes pour organiser vos couches",
+      "layersCount": "{{count}} couches",
+      "subgroupsCount": "{{count}} sous-groupes"
+    },
+    "layerModal": {
+      "editLayer": "Modifier la couche",
+      "addLayer": "Ajouter une couche",
+      "geoserverLayerName": "Nom de la couche GeoServer *",
+      "geoserverLayerNamePlaceholder": "ex.\u00a0: LC:LandcoverOSS2000",
+      "displayName": "Nom d'affichage",
+      "displayNamePlaceholder": "ex.\u00a0: Occupation du sol 2000",
+      "group": "Groupe",
+      "noGroupUngrouped": "Aucun groupe (sans groupe)",
+      "filePath": "Chemin du fichier (pour les stats)",
+      "filePathPlaceholder": "ex.\u00a0: /data/rasters/LandcoverOSS2000.tif",
+      "classLabels": "\u00c9tiquettes de classe (JSON)",
+      "legend": "L\u00e9gende (remplace la l\u00e9gende du groupe si d\u00e9finie)",
+      "noLegendItems": "Aucun \u00e9l\u00e9ment de l\u00e9gende. Cliquez sur \u00ab\u00a0Ajouter une classe\u00a0\u00bb pour ajouter une l\u00e9gende personnalis\u00e9e (remplace la l\u00e9gende du groupe).",
+      "activeOnMap": "Active (visible sur la carte)"
+    },
+    "groupModal": {
+      "editGroup": "Modifier le groupe",
+      "addGroup": "Ajouter un groupe",
+      "groupName": "Nom du groupe *",
+      "groupNamePlaceholder": "ex.\u00a0: LC, NDVI, NDWI",
+      "parentGroup": "Groupe parent",
+      "noParentRootGroup": "Aucun parent (groupe racine)",
+      "selectParentHint": "S\u00e9lectionnez un parent pour cr\u00e9er des groupes imbriqu\u00e9s",
+      "description": "Description",
+      "descriptionPlaceholder": "ex.\u00a0: Couches d'occupation du sol",
+      "legend": "L\u00e9gende",
+      "noLegendItems": "Aucun \u00e9l\u00e9ment de l\u00e9gende. Cliquez sur \u00ab\u00a0Ajouter une classe\u00a0\u00bb pour commencer.",
+      "legendHint": "La l\u00e9gende sera affich\u00e9e sur la carte pour toutes les couches de ce groupe. Les sous-groupes sans l\u00e9gende h\u00e9riteront de celle-ci."
+    },
+    "errors": {
+      "failedToSyncLayers": "\u00c9chec de la synchronisation des couches",
+      "invalidJsonFormat": "Format JSON invalide pour les \u00e9tiquettes de classe",
+      "failedToSave": "\u00c9chec de l'enregistrement",
+      "confirmDeleteLayer": "\u00cates-vous s\u00fbr de vouloir supprimer cette couche\u00a0?",
+      "failedToDelete": "\u00c9chec de la suppression",
+      "failedToUpdate": "\u00c9chec de la mise \u00e0 jour",
+      "confirmDeleteGroupWithChildren": "Ce groupe contient des sous-groupes qui seront \u00e9galement supprim\u00e9s. Les couches deviendront sans groupe. \u00cates-vous s\u00fbr\u00a0?",
+      "confirmDeleteGroup": "Les couches de ce groupe deviendront sans groupe. \u00cates-vous s\u00fbr\u00a0?"
+    }
+  },
+  "clips": {
+    "title": "Gestion des d\u00e9coupages",
+    "subtitle": "Pr\u00e9-d\u00e9couper les rasters aux fronti\u00e8res des pays pour un chargement instantan\u00e9",
+    "stats": {
+      "totalRasters": "Total rasters",
+      "fullyClipped": "Enti\u00e8rement d\u00e9coup\u00e9s",
+      "partiallyClipped": "Partiellement d\u00e9coup\u00e9s",
+      "notClipped": "Non d\u00e9coup\u00e9s",
+      "running": "En cours",
+      "totalStorage": "Stockage total"
+    },
+    "table": {
+      "rasterLayers": "Couches raster",
+      "countriesPerRaster": "({{count}} pays par raster)",
+      "layer": "Couche",
+      "progress": "Progression",
+      "status": "Statut",
+      "storage": "Stockage",
+      "actions": "Actions"
+    },
+    "noClippableLayers": "Aucune couche d\u00e9coupable trouv\u00e9e",
+    "noClippableLayersHint": "Les couches ont besoin d'un file_path pour \u00eatre d\u00e9coup\u00e9es",
+    "clickToViewDetails": "Cliquez pour voir les d\u00e9tails par pays",
+    "statusBadge": {
+      "clipping": "D\u00e9coupage...",
+      "complete": "Termin\u00e9",
+      "partial": "Partiel",
+      "noStyle": "Sans style",
+      "notClipped": "Non d\u00e9coup\u00e9"
+    },
+    "processing": "Traitement...",
+    "clipRemaining": "D\u00e9couper le reste",
+    "clipAll": "Tout d\u00e9couper",
+    "clip": "D\u00e9couper",
+    "syncStyleFirst": "Synchronisez la couche pour lui attribuer un style d'abord",
+    "clipRemainingTooltip": "D\u00e9couper les pays restants ({{count}} restants)",
+    "deleteAll": "Tout supprimer",
+    "deleteAllTooltip": "Supprimer les {{count}} couches d\u00e9coup\u00e9es",
+    "infoBox": {
+      "clickProgressBar": "Cliquez sur la barre de progression pour voir quels pays sont termin\u00e9s et lesquels restent",
+      "clipAllInfo": "Cliquer sur \u00ab\u00a0Tout d\u00e9couper\u00a0\u00bb d\u00e9coupe le raster pour les {{count}} pays via le clip-service",
+      "clipRemainingInfo": "Cliquer sur \u00ab\u00a0D\u00e9couper le reste\u00a0\u00bb ne traite que les pays pas encore en cache",
+      "largeCountriesWarning": "Les grands pays (Alg\u00e9rie, RD Congo, Soudan, etc.) peuvent prendre 10 \u00e0 15 minutes chacun",
+      "autoRefreshInfo": "La page s'actualise automatiquement toutes les 5 secondes pendant l'ex\u00e9cution d'un lot",
+      "resumeInfo": "En cas d'interruption, cliquez \u00e0 nouveau sur D\u00e9couper pour reprendre l\u00e0 o\u00f9 \u00e7a s'est arr\u00eat\u00e9",
+      "deleteAllInfo": "Utilisez \u00ab\u00a0Tout supprimer\u00a0\u00bb pour d\u00e9publier les couches d\u00e9coup\u00e9es de GeoServer et vider le cache",
+      "individualDeleteInfo": "Dans la fen\u00eatre de d\u00e9tails par pays, vous pouvez supprimer des d\u00e9coupages individuels"
+    },
+    "modal": {
+      "countriesClipped": "{{clipped}} sur {{total}} pays d\u00e9coup\u00e9s",
+      "clipped": "D\u00e9coup\u00e9s",
+      "remaining": "Restants",
+      "noMatches": "Aucun r\u00e9sultat",
+      "failedToLoadDetails": "\u00c9chec du chargement des d\u00e9tails par pays",
+      "deleting": "Suppression..."
+    },
+    "confirmDialog": {
+      "deleteClippedLayer": "Supprimer la couche d\u00e9coup\u00e9e",
+      "deleteClippedLayerMessage": "Supprimer la couche d\u00e9coup\u00e9e pour \u00ab\u00a0{{country}}\u00a0\u00bb de {{layer}}\u00a0? Cela la d\u00e9publiera de GeoServer.",
+      "deleteAllClippedLayers": "Supprimer toutes les couches d\u00e9coup\u00e9es",
+      "deleteAllClippedLayersMessage": "Supprimer les {{count}} couches d\u00e9coup\u00e9es ({{size}}) pour \u00ab\u00a0{{layer}}\u00a0\u00bb de GeoServer\u00a0? Cette action est irr\u00e9versible."
+    },
+    "errors": {
+      "failedToFetchStatus": "\u00c9chec du chargement du statut des d\u00e9coupages",
+      "noStyleAssigned": "Cette couche n'a pas de style attribu\u00e9. Synchronisez les couches d'abord.",
+      "batchInProgress": "Un lot est d\u00e9j\u00e0 en cours pour cette couche.",
+      "failedToStartBatch": "\u00c9chec du d\u00e9marrage du lot",
+      "deleteFailed": "\u00c9chec de la suppression",
+      "failedToFetchCountryDetails": "\u00c9chec du chargement des d\u00e9tails par pays",
+      "deletedClippedLayer": "Couche d\u00e9coup\u00e9e supprim\u00e9e pour {{country}}",
+      "deletedAllClippedLayers": "Toutes les couches d\u00e9coup\u00e9es supprim\u00e9es pour {{layer}}",
+      "batchStarted": "D\u00e9coupage par lot d\u00e9marr\u00e9\u00a0: {{layer}} ({{count}} pays)"
+    }
+  },
+  "stats": {
+    "title": "Gestion des statistiques",
+    "subtitle": "Pr\u00e9-calculer les statistiques d'occupation du sol pour tous les pays africains. Les stats sont calcul\u00e9es une fois et servies instantan\u00e9ment aux utilisateurs.",
+    "stats": {
+      "totalRasters": "Total rasters",
+      "fullyCalculated": "Enti\u00e8rement calcul\u00e9s",
+      "partiallyCalculated": "Partiellement calcul\u00e9s",
+      "notCalculated": "Non calcul\u00e9s",
+      "running": "En cours"
+    },
+    "table": {
+      "rasterLayers": "Couches raster",
+      "countriesPerRaster": "({{count}} pays par raster)",
+      "layer": "Couche",
+      "progress": "Progression",
+      "status": "Statut",
+      "actions": "Actions"
+    },
+    "noCalculableLayers": "Aucune couche calculable trouv\u00e9e",
+    "noCalculableLayersHint": "Les couches ont besoin d'un file_path et de class_labels pour \u00eatre calculables",
+    "clickToViewDetails": "Cliquez pour voir les d\u00e9tails par pays",
+    "statusBadge": {
+      "calculating": "Calcul...",
+      "complete": "Termin\u00e9",
+      "partial": "Partiel",
+      "noLabels": "Sans \u00e9tiquettes",
+      "notCalculated": "Non calcul\u00e9"
+    },
+    "processing": "Traitement...",
+    "calculateRemaining": "Calculer le reste",
+    "calculateAll": "Tout calculer",
+    "upToDate": "\u00c0 jour",
+    "syncLabelsFirst": "Synchronisez la couche pour attribuer des \u00e9tiquettes de classe d'abord",
+    "calculateRemainingTooltip": "Calculer les pays restants ({{count}} restants)",
+    "infoBox": {
+      "clickProgressBar": "Cliquez sur la barre de progression pour voir quels pays sont termin\u00e9s et lesquels restent",
+      "calculateAllInfo": "Cliquer sur \u00ab\u00a0Tout calculer\u00a0\u00bb calcule les statistiques d'occupation du sol pour les {{count}} pays via le clip-service",
+      "calculateRemainingInfo": "Cliquer sur \u00ab\u00a0Calculer le reste\u00a0\u00bb ne traite que les pays pas encore en cache",
+      "largeCountriesWarning": "Les grands pays (Alg\u00e9rie, RD Congo, Soudan, etc.) peuvent prendre 10 \u00e0 15 minutes chacun",
+      "autoRefreshInfo": "La page s'actualise automatiquement toutes les 5 secondes pendant l'ex\u00e9cution d'un lot",
+      "resumeInfo": "En cas d'interruption, cliquez \u00e0 nouveau sur Calculer pour reprendre l\u00e0 o\u00f9 \u00e7a s'est arr\u00eat\u00e9",
+      "statsServedInstantly": "Les stats sont servies instantan\u00e9ment aux utilisateurs une fois pr\u00e9-calcul\u00e9es"
+    },
+    "modal": {
+      "countriesCalculated": "{{calculated}} sur {{total}} pays calcul\u00e9s",
+      "calculated": "Calcul\u00e9s",
+      "remaining": "Restants",
+      "noMatches": "Aucun r\u00e9sultat",
+      "failedToLoadDetails": "\u00c9chec du chargement des d\u00e9tails par pays"
+    },
+    "errors": {
+      "failedToFetchStatus": "\u00c9chec du chargement du statut des statistiques",
+      "noClassLabels": "Cette couche n'a pas d'\u00e9tiquettes de classe. Synchronisez les couches d'abord.",
+      "batchInProgress": "Un lot est d\u00e9j\u00e0 en cours pour cette couche.",
+      "failedToStartBatch": "\u00c9chec du d\u00e9marrage du lot",
+      "failedToFetchCountryDetails": "\u00c9chec du chargement des d\u00e9tails par pays",
+      "batchStarted": "Calcul par lot d\u00e9marr\u00e9\u00a0: {{layer}} ({{count}} pays)"
+    }
+  }
+}

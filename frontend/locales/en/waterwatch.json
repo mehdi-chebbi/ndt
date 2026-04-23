@@ -1,0 +1,64 @@
+{
+  "viewFullList": "View full list ↗",
+  "na": "n/a",
+  "modals": {
+    "lowestTitle": "All countries — access level 2020 (lowest → highest)",
+    "improversTitle": "All countries — 20+ year change (pp), 2000 → 2023",
+    "changesTitle": "All countries — full change table, 2000 → 2023",
+    "gapTitle": "All countries — urban vs rural gap 2020 (largest first)",
+    "rank": "#",
+    "country": "Country",
+    "year2000": "2000",
+    "year2020": "2020",
+    "deltaPP": "Δ pp",
+    "urban": "Urban",
+    "rural": "Rural",
+    "gap": "Gap"
+  },
+  "header": {
+    "subtitle": "◈ World Bank / JMP Dataset · Africa · 2000–2023",
+    "title": "Water Access",
+    "titleEm": "Across Africa",
+    "indicatorLabel": "Indicator",
+    "indicatorValue": "Safely managed / at least basic",
+    "periodLabel": "Period",
+    "periodValue": "2000 – 2023",
+    "sourceLabel": "Source",
+    "sourceValue": "World Bank / JMP"
+  },
+  "kpis": {
+    "countriesWithData": "Countries with data",
+    "ofAuMembers": "of 54 AU members",
+    "avgAccess2020": "Avg access, 2020",
+    "simpleAvgReporting": "simple avg, reporting countries",
+    "aboveThreshold": "Above 50% threshold",
+    "countriesAvailData": "countries w/ available data",
+    "twentyYearImprovement": "20-year improvement",
+    "avgGainReporting": "avg gain, reporting countries"
+  },
+  "sections": {
+    "continentalAvg": "Continental avg — % with water access (34 countries)",
+    "lowestAccess": "Lowest access — 2020",
+    "biggestGains": "Biggest gains 2000 → 2023 (pp)",
+    "notableChanges": "Notable country changes",
+    "urbanRuralGap": "Urban vs rural gap — biggest disparities in 2020",
+    "urban": "Urban",
+    "rural": "Rural"
+  },
+  "table": {
+    "country": "Country",
+    "delta": "Δ"
+  },
+  "insights": {
+    "progressTitle": "Steady continental progress",
+    "progressDesc": "The continental average climbed from ~44% in 2000 to ~54% in 2023 across the 34 countries with available data — meaningful progress, though coverage gaps for ~20 countries mean the true picture may be bleaker.",
+    "twoSpeedTitle": "A widening two-speed story",
+    "twoSpeedDesc": "Morocco, Uganda, and Tanzania each gained 30+ percentage points, while Central African Republic and DR Congo moved backward. The gap between leaders and laggards has grown wider.",
+    "ruralDeficitTitle": "The persistent rural deficit",
+    "ruralDeficitDesc": "In Gambia and Lesotho, the urban-rural gap exceeds 54 percentage points. Urban populations are often 3–7× more likely to have safe water access than their rural counterparts."
+  },
+  "footer": {
+    "left": "Population using safely managed / at least basic drinking water services",
+    "right": "Data: World Bank / JMP · 2000–2023"
+  }
+}

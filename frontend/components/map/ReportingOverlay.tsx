@@ -1,5 +1,7 @@
 'use client'
 
+import { useTranslation } from 'react-i18next'
+
 interface ReportingOverlayProps {
   reportingMode: boolean
   reportingStep: 'draw' | 'comment'
@@ -21,25 +23,27 @@ export default function ReportingOverlay({
   onCancelReport,
   onReportCommentChange,
 }: ReportingOverlayProps) {
+  const { t } = useTranslation('map')
+
   if (!reportingMode) return null
 
   return (
     <div className="absolute bottom-4 left-1/2 -translate-x-1/2 bg-white rounded-lg shadow-xl p-4 max-w-sm z-50 border-2 border-red-300">
       <div className="flex items-center gap-2 mb-3">
         <div className="w-3 h-3 bg-red-500 rounded-full animate-pulse"></div>
-        <h3 className="text-sm font-bold text-gray-900">Report Invalid Data</h3>
+        <h3 className="text-sm font-bold text-gray-900">{t('reportingOverlay.title')}</h3>
       </div>
 
       {reportingStep === 'draw' && (
         <div>
           <div className="text-sm text-gray-600 mb-3">
-            Draw a polygon around the area with invalid data.
+            {t('reportingOverlay.drawInstructions')}
           </div>
           <button
             onClick={onCancelReport}
             className="w-full px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 transition font-medium text-sm"
           >
-            Cancel
+            {t('reportingOverlay.cancel')}
           </button>
         </div>
       )}
@@ -47,12 +51,12 @@ export default function ReportingOverlay({
       {reportingStep === 'comment' && (
         <div className="space-y-3">
           <div className="text-sm text-gray-600">
-            Describe the issue with the selected area.
+            {t('reportingOverlay.commentInstructions')}
           </div>
           <textarea
             value={reportComment}
             onChange={(e) => onReportCommentChange(e.target.value)}
-            placeholder="e.g., 'Blue should be water, not sand'"
+            placeholder={t('reportingOverlay.commentPlaceholder')}
             className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-500 focus:border-transparent resize-none text-sm"
             rows={2}
           />
@@ -66,13 +70,13 @@ export default function ReportingOverlay({
                 isSubmittingReport ? 'opacity-50 cursor-not-allowed' : 'hover:bg-red-700'
               }`}
             >
-              {isSubmittingReport ? 'Submitting...' : 'Submit'}
+              {isSubmittingReport ? t('reportingOverlay.submitting') : t('reportingOverlay.submit')}
             </button>
             <button
               onClick={onCancelReport}
               className="flex-1 px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 transition font-medium text-sm"
             >
-              Cancel
+              {t('reportingOverlay.cancel')}
             </button>
           </div>
 

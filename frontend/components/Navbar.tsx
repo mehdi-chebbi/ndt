@@ -4,10 +4,13 @@ import { useEffect } from 'react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { useAuth } from '@/contexts/AuthContext'
+import { useTranslation } from 'react-i18next'
+import LanguageSwitcher from '@/components/LanguageSwitcher'
 
 export default function Navbar() {
   const pathname = usePathname()
   const { isAuthenticated, user, logout, checkAuth } = useAuth()
+  const { t } = useTranslation()
 
   // Verify token is still valid on mount (user might have been deleted from DB)
   useEffect(() => {
@@ -50,7 +53,6 @@ export default function Navbar() {
             </span>
           </Link>
 
-          {/* Navigation Links */}
           <nav className="flex items-center gap-6">
             {isAuthenticated ? (
               <>
@@ -60,7 +62,7 @@ export default function Navbar() {
                   className="text-sm text-gray-400 hover:text-white transition-colors duration-200"
                   style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.03em' }}
                 >
-                  WaterWatch
+                  {t('navbar.waterWatch')}
                 </Link>
 
                 {/* GiniWatch Africa */}
@@ -69,7 +71,7 @@ export default function Navbar() {
                   className="text-sm text-gray-400 hover:text-white transition-colors duration-200"
                   style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.03em' }}
                 >
-                  GiniWatch
+                  {t('navbar.giniWatch')}
                 </Link>
 
                 {/* Dashboard */}
@@ -78,7 +80,7 @@ export default function Navbar() {
                   className="text-sm text-gray-400 hover:text-white transition-colors duration-200"
                   style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.03em' }}
                 >
-                  Dashboard
+                  {t('navbar.dashboard')}
                 </Link>
 
                 {/* Reports - Admin only */}
@@ -88,7 +90,7 @@ export default function Navbar() {
                     className="text-sm text-gray-400 hover:text-white transition-colors duration-200"
                     style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.03em' }}
                   >
-                    Reports
+                    {t('navbar.reports')}
                   </Link>
                 )}
 
@@ -98,7 +100,7 @@ export default function Navbar() {
                   className="text-sm px-4 py-2 rounded-md border border-green-500/40 text-green-400 hover:bg-green-500/10 transition-all duration-200"
                   style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.03em' }}
                 >
-                  Map
+                  {t('navbar.map')}
                 </Link>
 
                 {/* Profile */}
@@ -107,12 +109,12 @@ export default function Navbar() {
                   className="text-sm text-gray-400 hover:text-white transition-colors duration-200"
                   style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.03em' }}
                 >
-                  Profile
+                  {t('navbar.profile')}
                 </Link>
 
                 {/* User greeting */}
                 <span className="text-sm text-gray-400 hidden sm:block" style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.03em' }}>
-                  Hi, {user?.name}
+                  {t('navbar.greeting')} {user?.name}
                 </span>
 
                 {/* Logout */}
@@ -121,8 +123,9 @@ export default function Navbar() {
                   className="text-sm text-gray-400 hover:text-white transition-colors duration-200"
                   style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.03em', background: 'none', border: 'none', cursor: 'pointer' }}
                 >
-                  Sign out
+                  {t('common:signOut')}
                 </button>
+                <LanguageSwitcher />
               </>
             ) : (
               <>
@@ -131,15 +134,16 @@ export default function Navbar() {
                   className="text-sm text-gray-400 hover:text-white transition-colors duration-200"
                   style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.03em' }}
                 >
-                  Sign in
+                  {t('common:signIn')}
                 </Link>
                 <Link
                   href="/signup"
                   className="text-sm px-4 py-2 rounded-md border border-green-500/40 text-green-400 hover:bg-green-500/10 transition-all duration-200"
                   style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.03em' }}
                 >
-                  Get Access
+                  {t('navbar.getAccess')}
                 </Link>
+                <LanguageSwitcher />
               </>
             )}
           </nav>

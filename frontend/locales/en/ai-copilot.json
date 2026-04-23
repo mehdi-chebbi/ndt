@@ -1,0 +1,32 @@
+{
+  "header": {
+    "title": "AI Copilot"
+  },
+  "messages": {
+    "loading": "Loading...",
+    "emptyState": "Ask me anything or share an image!",
+    "thinking": "Thinking...",
+    "analyzing": "🔍 Analyzing the area... This may take a moment.",
+    "searching": "🔍 Searching database..."
+  },
+  "input": {
+    "placeholder": "Type a message...",
+    "attachImage": "Attach image",
+    "sendButton": "Send"
+  },
+  "errors": {
+    "somethingWentWrong": "Something went wrong. Please try again.",
+    "requestFailed": "Request failed",
+    "failedToGetResponse": "Failed to get AI response",
+    "noResponseBody": "No response body",
+    "imageUploadFailed": "Image upload failed",
+    "failedToUploadImages": "Failed to upload images",
+    "unknownChartType": "Unknown chart type: ",
+    "failedToRenderChart": "Failed to render chart"
+  },
+  "disclaimer": "AI responses may not be accurate",
+  "alt": {
+    "uploaded": "Uploaded",
+    "uploadPreview": "Upload preview"
+  }
+}

@@ -4,6 +4,7 @@ import { useEffect, useState, useCallback } from 'react'
 import Link from 'next/link'
 import { api } from '@/lib/authFetch'
 import { useAuth } from '@/contexts/AuthContext'
+import { useTranslation } from 'react-i18next'
 
 interface LayerStatsStatus {
   id: number
@@ -30,6 +31,7 @@ interface CalculatedCountriesResponse {
 
 export default function StatsManagementPage() {
   const { user, loading: authLoading } = useAuth()
+  const { t } = useTranslation('admin')
   const [layers, setLayers] = useState<LayerStatsStatus[]>([])
   const [totalCountries, setTotalCountries] = useState(0)
   const [loading, setLoading] = useState(true)
@@ -60,7 +62,7 @@ export default function StatsManagementPage() {
       setLoading(true)
       const response = await api.get('/stats/batch-status')
       if (!response.ok) {
-        throw new Error('Failed to fetch stats status')
+        throw new Error(t('stats.errors.failedToFetchStatus'))
       }
       const data: BatchStatusResponse = await response.json()
       setLayers(data.layers)
@@ -92,12 +94,12 @@ export default function StatsManagementPage() {
 
   const handleStartCalculate = async (layer: LayerStatsStatus) => {
     if (!layer.canCalculate) {
-      showToast('This layer has no class labels. Sync layers first.', 'error')
+      showToast(t('stats.errors.noClassLabels'), 'error')
       return
     }
 
     if (layer.isRunning) {
-      showToast('Batch already in progress for this layer.', 'info')
+      showToast(t('stats.errors.batchInProgress'), 'info')
       return
     }
 
@@ -109,10 +111,10 @@ export default function StatsManagementPage() {
       const data = await response.json()
 
       if (!response.ok) {
-        throw new Error(data.error || data.message || 'Failed to start batch')
+        throw new Error(data.error || data.message || t('stats.errors.failedToStartBatch'))
       }
 
-      showToast(`Batch calculation started: ${layer.display_name} (${data.totalCountries} countries)`, 'success')
+      showToast(t('stats.errors.batchStarted', { layer: layer.display_name, count: data.totalCountries }), 'success')
 
       // Refresh to show running state
       fetchStatus()
@@ -133,7 +135,7 @@ export default function StatsManagementPage() {
     try {
       const response = await api.get(`/stats/layer/${layer.id}/calculated-countries`)
       if (!response.ok) {
-        throw new Error('Failed to fetch country details')
+        throw new Error(t('stats.errors.failedToFetchCountryDetails'))
       }
       const data: CalculatedCountriesResponse = await response.json()
       setModalData(data)
@@ -155,7 +157,7 @@ export default function StatsManagementPage() {
       <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center">
         <div className="text-center">
           <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-gray-900 mx-auto"></div>
-          <p className="mt-4 text-gray-600">Loading...</p>
+          <p className="mt-4 text-gray-600">{t('shared.loading')}</p>
         </div>
       </div>
     )
@@ -198,8 +200,8 @@ export default function StatsManagementPage() {
               </svg>
             </Link>
             <div>
-              <h1 className="text-2xl font-bold text-gray-900">Stats Management</h1>
-              <p className="text-gray-600 mt-1">Pre-calculate land cover statistics for all African countries. Stats are computed once and served instantly to users.</p>
+              <h1 className="text-2xl font-bold text-gray-900">{t('stats.title')}</h1>
+              <p className="text-gray-600 mt-1">{t('stats.subtitle')}</p>
             </div>
           </div>
           <button
@@ -209,7 +211,7 @@ export default function StatsManagementPage() {
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
             </svg>
-            Refresh
+            {t('shared.refresh')}
           </button>
         </div>
 
@@ -248,23 +250,23 @@ export default function StatsManagementPage() {
         {/* Stats Cards */}
         <div className="grid md:grid-cols-5 gap-6 mb-8">
           <div className="bg-white rounded-xl shadow-sm p-6">
-            <p className="text-gray-600 text-sm">Total Rasters</p>
+            <p className="text-gray-600 text-sm">{t('stats.stats.totalRasters')}</p>
             <p className="text-3xl font-bold text-gray-900">{layers.length}</p>
           </div>
           <div className="bg-white rounded-xl shadow-sm p-6">
-            <p className="text-gray-600 text-sm">Fully Calculated</p>
+            <p className="text-gray-600 text-sm">{t('stats.stats.fullyCalculated')}</p>
             <p className="text-3xl font-bold text-green-600">{fullyCalculatedCount}</p>
           </div>
           <div className="bg-white rounded-xl shadow-sm p-6">
-            <p className="text-gray-600 text-sm">Partially Calculated</p>
+            <p className="text-gray-600 text-sm">{t('stats.stats.partiallyCalculated')}</p>
             <p className="text-3xl font-bold text-amber-600">{partiallyCalculatedCount}</p>
           </div>
           <div className="bg-white rounded-xl shadow-sm p-6">
-            <p className="text-gray-600 text-sm">Not Calculated</p>
+            <p className="text-gray-600 text-sm">{t('stats.stats.notCalculated')}</p>
             <p className="text-3xl font-bold text-red-600">{notCalculatedCount}</p>
           </div>
           <div className="bg-white rounded-xl shadow-sm p-6">
-            <p className="text-gray-600 text-sm">Running</p>
+            <p className="text-gray-600 text-sm">{t('stats.stats.running')}</p>
             <p className="text-3xl font-bold text-blue-600">{runningCount}</p>
           </div>
         </div>
@@ -273,9 +275,9 @@ export default function StatsManagementPage() {
         <div className="bg-white rounded-xl shadow-sm overflow-hidden">
           <div className="px-6 py-4 border-b border-gray-200 flex justify-between items-center">
             <h2 className="text-lg font-semibold text-gray-900">
-              Raster Layers
+              {t('stats.table.rasterLayers')}
               <span className="text-sm font-normal text-gray-500 ml-2">
-                ({totalCountries} countries per raster)
+                {t('stats.table.countriesPerRaster', { count: totalCountries })}
               </span>
             </h2>
             {runningCount > 0 && (
@@ -283,7 +285,7 @@ export default function StatsManagementPage() {
                 <svg className="w-4 h-4 animate-spin" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
                 </svg>
-                <span className="text-sm font-medium">Auto-refreshing every 5s</span>
+                <span className="text-sm font-medium">{t('shared.autoRefreshing')}</span>
               </div>
             )}
           </div>
@@ -293,8 +295,8 @@ export default function StatsManagementPage() {
               <svg className="w-12 h-12 text-gray-400 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
               </svg>
-              <p className="text-gray-600">No calculable layers found</p>
-              <p className="text-gray-400 text-sm mt-1">Layers need a file_path and class_labels to be calculable</p>
+              <p className="text-gray-600">{t('stats.noCalculableLayers')}</p>
+              <p className="text-gray-400 text-sm mt-1">{t('stats.noCalculableLayersHint')}</p>
             </div>
           ) : (
             <div className="overflow-x-auto">
@@ -302,16 +304,16 @@ export default function StatsManagementPage() {
                 <thead className="bg-gray-50">
                   <tr>
                     <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                      Layer
+                      {t('stats.table.layer')}
                     </th>
                     <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                      Progress
+                      {t('stats.table.progress')}
                     </th>
                     <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                      Status
+                      {t('stats.table.status')}
                     </th>
                     <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                      Actions
+                      {t('stats.table.actions')}
                     </th>
                   </tr>
                 </thead>
@@ -333,7 +335,7 @@ export default function StatsManagementPage() {
                           <button
                             onClick={() => handleOpenCountryModal(layer)}
                             className="flex items-center gap-3 cursor-pointer hover:opacity-80 transition group"
-                            title="Click to view country details"
+                            title={t('stats.clickToViewDetails')}
                           >
                             <span className="text-sm font-medium text-gray-700 min-w-[60px]">
                               {layer.calculatedCountries}/{layer.totalCountries}
@@ -362,26 +364,26 @@ export default function StatsManagementPage() {
                               <svg className="w-3 h-3 animate-spin" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
                               </svg>
-                              Calculating...
+                              {t('stats.statusBadge.calculating')}
                             </span>
                           ) : layer.fullyCalculated ? (
                             <span className="inline-flex items-center gap-1 px-2.5 py-1 text-xs font-medium rounded-full bg-green-100 text-green-800">
                               <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                               </svg>
-                              Complete
+                              {t('stats.statusBadge.complete')}
                             </span>
                           ) : layer.calculatedCountries > 0 ? (
                             <span className="inline-flex items-center gap-1 px-2.5 py-1 text-xs font-medium rounded-full bg-amber-100 text-amber-800">
-                              Partial
+                              {t('stats.statusBadge.partial')}
                             </span>
                           ) : !layer.canCalculate ? (
                             <span className="inline-flex items-center gap-1 px-2.5 py-1 text-xs font-medium rounded-full bg-gray-100 text-gray-600">
-                              No Labels
+                              {t('stats.statusBadge.noLabels')}
                             </span>
                           ) : (
                             <span className="inline-flex items-center gap-1 px-2.5 py-1 text-xs font-medium rounded-full bg-red-100 text-red-800">
-                              Not Calculated
+                              {t('stats.statusBadge.notCalculated')}
                             </span>
                           )}
                         </td>
@@ -393,10 +395,10 @@ export default function StatsManagementPage() {
                               <svg className="w-4 h-4 animate-spin" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
                               </svg>
-                              Processing...
+                              {t('stats.processing')}
                             </span>
                           ) : layer.fullyCalculated ? (
-                            <span className="text-sm text-green-600 font-medium">Up to date</span>
+                            <span className="text-sm text-green-600 font-medium">{t('stats.upToDate')}</span>
                           ) : (
                             <button
                               onClick={() => handleStartCalculate(layer)}
@@ -406,13 +408,13 @@ export default function StatsManagementPage() {
                                   ? 'bg-gray-100 text-gray-400 cursor-not-allowed'
                                   : 'bg-gray-900 text-white hover:bg-gray-800'
                               } ${calculatingLayerId === layer.id ? 'opacity-50' : ''}`}
-                              title={!layer.canCalculate ? 'Sync layer to assign class labels first' : `Calculate remaining countries (${layer.totalCountries - layer.calculatedCountries} left)`}
+                              title={!layer.canCalculate ? t('stats.syncLabelsFirst') : t('stats.calculateRemainingTooltip', { count: layer.totalCountries - layer.calculatedCountries })}
                             >
                               {/* Bar chart icon */}
                               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                               </svg>
-                              {layer.calculatedCountries > 0 ? 'Calculate Remaining' : 'Calculate All'}
+                              {layer.calculatedCountries > 0 ? t('stats.calculateRemaining') : t('stats.calculateAll')}
                             </button>
                           )}
                         </td>
@@ -427,15 +429,15 @@ export default function StatsManagementPage() {
 
         {/* Info Box */}
         <div className="mt-6 bg-gray-50 border border-gray-200 rounded-xl p-4">
-          <h3 className="text-sm font-semibold text-gray-900 mb-2">How it works</h3>
+          <h3 className="text-sm font-semibold text-gray-900 mb-2">{t('shared.howItWorks')}</h3>
           <ul className="text-sm text-gray-600 space-y-1">
-            <li>- Click the progress bar to see which countries are done and which remain</li>
-            <li>- Clicking &quot;Calculate All&quot; computes land cover statistics for all {totalCountries} countries using the clip-service</li>
-            <li>- Clicking &quot;Calculate Remaining&quot; only processes countries not yet in cache</li>
-            <li>- Large countries (Algeria, DR Congo, Sudan, etc.) may take 10-15 minutes each</li>
-            <li>- The page auto-refreshes every 5 seconds while a batch is running</li>
-            <li>- If interrupted, click Calculate again to resume from where it left off</li>
-            <li>- Stats are served instantly to users once pre-calculated</li>
+            <li>- {t('stats.infoBox.clickProgressBar')}</li>
+            <li>- {t('stats.infoBox.calculateAllInfo', { count: totalCountries })}</li>
+            <li>- {t('stats.infoBox.calculateRemainingInfo')}</li>
+            <li>- {t('stats.infoBox.largeCountriesWarning')}</li>
+            <li>- {t('stats.infoBox.autoRefreshInfo')}</li>
+            <li>- {t('stats.infoBox.resumeInfo')}</li>
+            <li>- {t('stats.infoBox.statsServedInstantly')}</li>
           </ul>
         </div>
       </main>
@@ -451,7 +453,7 @@ export default function StatsManagementPage() {
                   {modalLayer.display_name}
                 </h3>
                 <p className="text-sm text-gray-500 mt-0.5">
-                  {modalLayer.calculatedCountries} of {modalLayer.totalCountries} countries calculated
+                  {t('stats.modal.countriesCalculated', { calculated: modalLayer.calculatedCountries, total: modalLayer.totalCountries })}
                 </p>
               </div>
               <button onClick={handleCloseModal} className="p-1.5 hover:bg-gray-100 rounded-lg transition">
@@ -482,8 +484,8 @@ export default function StatsManagementPage() {
                       />
                     </div>
                     <div className="flex justify-between mt-1.5 text-xs text-gray-500">
-                      <span>{getProgressPercentage(modalLayer)}% complete</span>
-                      <span>{modalData.total - modalLayer.calculatedCountries} remaining</span>
+                      <span>{getProgressPercentage(modalLayer)}% {t('shared.complete')}</span>
+                      <span>{modalData.total - modalLayer.calculatedCountries} {t('shared.remaining')}</span>
                     </div>
                   </div>
 
@@ -497,7 +499,7 @@ export default function StatsManagementPage() {
                         type="text"
                         value={countrySearch}
                         onChange={(e) => setCountrySearch(e.target.value)}
-                        placeholder="Search countries..."
+                        placeholder={t('shared.searchCountries')}
                         className="w-full pl-9 pr-3 py-2 border border-gray-300 rounded-lg text-sm focus:ring-2 focus:ring-gray-900 focus:border-transparent"
                       />
                     </div>
@@ -509,11 +511,11 @@ export default function StatsManagementPage() {
                       <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                       </svg>
-                      Calculated ({countrySearch ? filteredCalculated.length : modalData.calculated.length})
+                      {t('stats.modal.calculated')} ({countrySearch ? filteredCalculated.length : modalData.calculated.length})
                     </h4>
                     <div className="max-h-48 overflow-y-auto border border-green-200 rounded-lg bg-green-50/50">
                       {filteredCalculated.length === 0 ? (
-                        <p className="text-sm text-gray-400 py-3 px-3">No matches</p>
+                        <p className="text-sm text-gray-400 py-3 px-3">{t('stats.modal.noMatches')}</p>
                       ) : (
                         <div className="flex flex-wrap gap-1.5 p-2">
                           {filteredCalculated.map(country => (
@@ -536,7 +538,7 @@ export default function StatsManagementPage() {
                         <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                         </svg>
-                        Remaining ({countrySearch ? filteredRemaining.length : modalData.remaining.length})
+                        {t('stats.modal.remaining')} ({countrySearch ? filteredRemaining.length : modalData.remaining.length})
                       </h4>
                       <div className="max-h-48 overflow-y-auto border border-gray-200 rounded-lg bg-gray-50/50">
                         <div className="flex flex-wrap gap-1.5 p-2">
@@ -551,7 +553,7 @@ export default function StatsManagementPage() {
                   )}
                 </>
               ) : (
-                <p className="text-gray-500 text-sm text-center py-8">Failed to load country details</p>
+                <p className="text-gray-500 text-sm text-center py-8">{t('stats.modal.failedToLoadDetails')}</p>
               )}
             </div>
           </div>
@@ -562,7 +564,7 @@ export default function StatsManagementPage() {
       <footer className="bg-white border-t mt-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <p className="text-center text-gray-600">
-            &copy; 2025 Platform. All rights reserved.
+            {t('shared.footer')}
           </p>
         </div>
       </footer>

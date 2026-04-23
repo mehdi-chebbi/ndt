@@ -3,9 +3,11 @@
 import { useEffect } from 'react'
 import Link from 'next/link'
 import { useAuth } from '@/contexts/AuthContext'
+import { useTranslation } from 'react-i18next'
 
 export default function DashboardPage() {
   const { user, loading } = useAuth()
+  const { t } = useTranslation('dashboard')
 
   useEffect(() => {
     if (!loading && !user) {
@@ -18,7 +20,7 @@ export default function DashboardPage() {
       <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center">
         <div className="text-center">
           <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-gray-900 mx-auto"></div>
-          <p className="mt-4 text-gray-600">Loading...</p>
+          <p className="mt-4 text-gray-600">{t('loading')}</p>
         </div>
       </div>
     )
@@ -40,25 +42,25 @@ export default function DashboardPage() {
               </svg>
             </div>
             <h2 className="text-3xl font-bold text-gray-900 mb-2">
-              Welcome back, {user.name}!
+              {t('welcomeBack', { name: user.name })}
             </h2>
             <p className="text-gray-600">
-              You are logged in as a <span className="font-medium text-gray-900">{user.role}</span>
+              {t('loggedInAs')} <span className="font-medium text-gray-900">{user.role}</span>
             </p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-6 mt-8">
             <div className="bg-gray-50 rounded-xl p-6">
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">Your Profile</h3>
-              <p className="text-sm text-gray-600">Manage your account settings and personal information.</p>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">{t('cards.yourProfile')}</h3>
+              <p className="text-sm text-gray-600">{t('cards.yourProfileDesc')}</p>
             </div>
             <div className="bg-gray-50 rounded-xl p-6">
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">Recent Activity</h3>
-              <p className="text-sm text-gray-600">View your recent activity and history.</p>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">{t('cards.recentActivity')}</h3>
+              <p className="text-sm text-gray-600">{t('cards.recentActivityDesc')}</p>
             </div>
             <div className="bg-gray-50 rounded-xl p-6">
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">Help & Support</h3>
-              <p className="text-sm text-gray-600">Get help with your account and platform features.</p>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">{t('cards.helpAndSupport')}</h3>
+              <p className="text-sm text-gray-600">{t('cards.helpAndSupportDesc')}</p>
             </div>
           </div>
         </div>
@@ -68,7 +70,7 @@ export default function DashboardPage() {
       <footer className="bg-white border-t mt-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <p className="text-center text-gray-600">
-            © 2025 Platform. All rights reserved.
+            {t('footer.copyright')}
           </p>
         </div>
       </footer>

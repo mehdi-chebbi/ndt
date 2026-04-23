@@ -1,0 +1,16 @@
+{
+  "loading": "Chargement...",
+  "welcomeBack": "Bon retour, {{name}} !",
+  "loggedInAs": "Vous êtes connecté en tant que",
+  "cards": {
+    "yourProfile": "Votre profil",
+    "yourProfileDesc": "Gérez les paramètres de votre compte et vos informations personnelles.",
+    "recentActivity": "Activité récente",
+    "recentActivityDesc": "Consultez votre activité récente et votre historique.",
+    "helpAndSupport": "Aide et support",
+    "helpAndSupportDesc": "Obtenez de l'aide pour votre compte et les fonctionnalités de la plateforme."
+  },
+  "footer": {
+    "copyright": "© 2025 Platform. Tous droits réservés."
+  }
+}

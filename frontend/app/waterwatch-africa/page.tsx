@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useRef, useState } from 'react'
+import { useTranslation } from 'react-i18next'
 
 /* ─── tiny hook: fires once when element enters viewport ─── */
 function useInView(threshold = 0.15) {
@@ -198,6 +199,7 @@ function Modal({ open, onClose, title, accentColor, children }: ModalProps) {
 
 /* ─── "View full list" button ─── */
 function ViewFullListBtn({ onClick }: { onClick: () => void }) {
+  const { t } = useTranslation('waterwatch')
   const [hover, setHover] = useState(false)
   return (
     <button
@@ -219,17 +221,21 @@ function ViewFullListBtn({ onClick }: { onClick: () => void }) {
         flexShrink: 0,
       }}
     >
-      View full list ↗
+      {t('viewFullList')}
     </button>
   )
 }
 
 /* ─── N/A badge ─── */
-const NA = () => (
-  <span style={{ fontFamily: "'JetBrains Mono', monospace", fontSize: '11px', color: '#d1d5db' }}>n/a</span>
-)
+const NA = () => {
+  const { t } = useTranslation('waterwatch')
+  return (
+    <span style={{ fontFamily: "'JetBrains Mono', monospace", fontSize: '11px', color: '#d1d5db' }}>{t('na')}</span>
+  )
+}
 
 export default function WaterWatchAfricaPage() {
+  const { t } = useTranslation('waterwatch')
   const trendChartRef = useRef<HTMLCanvasElement>(null)
   const [scrollY, setScrollY] = useState(0)
   const [modal, setModal] = useState<null | 'lowest' | 'improvers' | 'changes' | 'gap'>(null)
@@ -479,10 +485,10 @@ export default function WaterWatchAfricaPage() {
   // ── shared styles ─────────────────────────────────────────────────────────
 
   const kpis = [
-    { label: 'Countries with data', value: 34, suffix: '', decimals: 0, sub: 'of 54 AU members', accent: false, display: null as string | null },
-    { label: 'Avg access, 2020', value: 54.0, suffix: '%', decimals: 1, sub: 'simple avg, reporting countries', accent: true, display: null as string | null },
-    { label: 'Above 50% threshold', value: null as number | null, suffix: '', decimals: 0, sub: 'countries w/ available data', accent: false, display: '20/34' },
-    { label: '20-year improvement', value: 11, suffix: ' pp', decimals: 0, sub: 'avg gain, reporting countries', accent: false, display: null as string | null },
+    { label: t('kpis.countriesWithData'), value: 34, suffix: '', decimals: 0, sub: t('kpis.ofAuMembers'), accent: false, display: null as string | null },
+    { label: t('kpis.avgAccess2020'), value: 54.0, suffix: '%', decimals: 1, sub: t('kpis.simpleAvgReporting'), accent: true, display: null as string | null },
+    { label: t('kpis.aboveThreshold'), value: null as number | null, suffix: '', decimals: 0, sub: t('kpis.countriesAvailData'), accent: false, display: '20/34' },
+    { label: t('kpis.twentyYearImprovement'), value: 11, suffix: ' pp', decimals: 0, sub: t('kpis.avgGainReporting'), accent: false, display: null as string | null },
   ]
 
   const card: React.CSSProperties = {
@@ -521,8 +527,8 @@ export default function WaterWatchAfricaPage() {
       <link href="https://api.fontshare.com/v2/css?f[]=clash-display@400,500,600,700&display=swap" rel="stylesheet" />
 
       {/* ── MODAL: Lowest access ────────────────────────────────────────────── */}
-      <Modal open={modal === 'lowest'} onClose={() => setModal(null)} title="All countries — access level 2020 (lowest → highest)" accentColor="#ef4444">
-        {mHead(['#', 'Country', '2020'], '28px 1fr 80px')}
+      <Modal open={modal === 'lowest'} onClose={() => setModal(null)} title={t('modals.lowestTitle')} accentColor="#ef4444">
+        {mHead([t('modals.rank'), t('modals.country'), t('modals.year2020')], '28px 1fr 80px')}
         {allLowest.map((r, i) => (
           <div key={i} style={{ display: 'grid', gridTemplateColumns: '28px 1fr 80px', padding: '10px 24px', borderBottom: '1px solid #f9fafb', background: i % 2 === 0 ? '#fff' : '#fafafa', alignItems: 'center' }}>
             <span style={{ fontFamily: "'JetBrains Mono', monospace", fontSize: '11px', color: '#d1d5db' }}>{r.val !== null ? String(i + 1).padStart(2, '0') : '—'}</span>
@@ -535,8 +541,8 @@ export default function WaterWatchAfricaPage() {
       </Modal>
 
       {/* ── MODAL: Biggest gains ────────────────────────────────────────────── */}
-      <Modal open={modal === 'improvers'} onClose={() => setModal(null)} title="All countries — 20+ year change (pp), 2000 → 2023" accentColor="#16a34a">
-        {mHead(['#', 'Country', '2000', '2020', 'Δ pp'], '28px 1fr 68px 68px 76px')}
+      <Modal open={modal === 'improvers'} onClose={() => setModal(null)} title={t('modals.improversTitle')} accentColor="#16a34a">
+        {mHead([t('modals.rank'), t('modals.country'), t('modals.year2000'), t('modals.year2020'), t('modals.deltaPP')], '28px 1fr 68px 68px 76px')}
         {allChanges.map((r, i) => (
           <div key={i} style={{ display: 'grid', gridTemplateColumns: '28px 1fr 68px 68px 76px', padding: '10px 24px', borderBottom: '1px solid #f9fafb', background: i % 2 === 0 ? '#fff' : '#fafafa', alignItems: 'center' }}>
             <span style={{ fontFamily: "'JetBrains Mono', monospace", fontSize: '11px', color: '#d1d5db' }}>{r.change !== null ? String(i + 1).padStart(2, '0') : '—'}</span>
@@ -555,8 +561,8 @@ export default function WaterWatchAfricaPage() {
       </Modal>
 
       {/* ── MODAL: Notable changes ──────────────────────────────────────────── */}
-      <Modal open={modal === 'changes'} onClose={() => setModal(null)} title="All countries — full change table, 2000 → 2023" accentColor="#6366f1">
-        {mHead(['#', 'Country', '2000', '2020', 'Δ pp'], '28px 1fr 68px 68px 76px')}
+      <Modal open={modal === 'changes'} onClose={() => setModal(null)} title={t('modals.changesTitle')} accentColor="#6366f1">
+        {mHead([t('modals.rank'), t('modals.country'), t('modals.year2000'), t('modals.year2020'), t('modals.deltaPP')], '28px 1fr 68px 68px 76px')}
         {allChanges.map((r, i) => (
           <div key={i} style={{ display: 'grid', gridTemplateColumns: '28px 1fr 68px 68px 76px', padding: '10px 24px', borderBottom: '1px solid #f9fafb', background: i % 2 === 0 ? '#fff' : '#fafafa', alignItems: 'center' }}>
             <span style={{ fontFamily: "'JetBrains Mono', monospace", fontSize: '11px', color: '#d1d5db' }}>{r.change !== null ? String(i + 1).padStart(2, '0') : '—'}</span>
@@ -575,8 +581,8 @@ export default function WaterWatchAfricaPage() {
       </Modal>
 
       {/* ── MODAL: Urban vs Rural gap ───────────────────────────────────────── */}
-      <Modal open={modal === 'gap'} onClose={() => setModal(null)} title="All countries — urban vs rural gap 2020 (largest first)" accentColor="#0ea5e9">
-        {mHead(['#', 'Country', 'Urban', 'Rural', 'Gap'], '28px 1fr 64px 64px 64px')}
+      <Modal open={modal === 'gap'} onClose={() => setModal(null)} title={t('modals.gapTitle')} accentColor="#0ea5e9">
+        {mHead([t('modals.rank'), t('modals.country'), t('modals.urban'), t('modals.rural'), t('modals.gap')], '28px 1fr 64px 64px 64px')}
         {allGap.map((r, i) => {
           const gap = r.urban !== null && r.rural !== null ? r.urban - r.rural : null
           return (
@@ -600,23 +606,23 @@ export default function WaterWatchAfricaPage() {
         <div style={{ position: 'absolute', top: '-80px', right: '160px', width: '420px', height: '420px', borderRadius: '50%', background: 'radial-gradient(circle,rgba(22,163,74,0.06) 0%,transparent 70%)', transform: `translateY(${scrollY * 0.12}px)`, pointerEvents: 'none' }} />
         <Stagger delay={0}>
           <p style={{ fontFamily: "'JetBrains Mono', monospace", fontSize: '10px', letterSpacing: '0.2em', color: '#16a34a', marginBottom: '20px', textTransform: 'uppercase' }}>
-            ◈ World Bank / JMP Dataset · Africa · 2000–2023
+            {t('header.subtitle')}
           </p>
         </Stagger>
         <Stagger delay={70}>
-          <h1 style={{ fontFamily: "'Clash Display', sans-serif", fontSize: 'clamp(2.8rem,5.5vw,5rem)', lineHeight: 0.92, letterSpacing: '-0.03em', color: '#0f172a', fontWeight: 700, marginBottom: '6px' }}>Water Access</h1>
+          <h1 style={{ fontFamily: "'Clash Display', sans-serif", fontSize: 'clamp(2.8rem,5.5vw,5rem)', lineHeight: 0.92, letterSpacing: '-0.03em', color: '#0f172a', fontWeight: 700, marginBottom: '6px' }}>{t('header.title')}</h1>
         </Stagger>
         <Stagger delay={140}>
           <h1 style={{ fontFamily: "'Clash Display', sans-serif", fontSize: 'clamp(2.8rem,5.5vw,5rem)', lineHeight: 0.92, letterSpacing: '-0.03em', fontWeight: 700, marginBottom: '40px' }}>
-            <em style={{ color: '#16a34a', fontStyle: 'italic' }}>Across Africa</em>
+            <em style={{ color: '#16a34a', fontStyle: 'italic' }}>{t('header.titleEm')}</em>
           </h1>
         </Stagger>
         <Stagger delay={220}>
           <div style={{ display: 'flex', gap: '40px', flexWrap: 'wrap' }}>
             {[
-              { label: 'Indicator', value: 'Safely managed / at least basic' },
-              { label: 'Period', value: '2000 – 2023' },
-              { label: 'Source', value: 'World Bank / JMP' },
+              { label: t('header.indicatorLabel'), value: t('header.indicatorValue') },
+              { label: t('header.periodLabel'), value: t('header.periodValue') },
+              { label: t('header.sourceLabel'), value: t('header.sourceValue') },
             ].map((item, i) => (
               <div key={i}>
                 <p style={{ fontFamily: "'JetBrains Mono', monospace", fontSize: '9px', letterSpacing: '0.14em', color: '#9ca3af', textTransform: 'uppercase', marginBottom: '4px' }}>{item.label}</p>
@@ -649,13 +655,13 @@ export default function WaterWatchAfricaPage() {
         <div style={{ display: 'grid', gridTemplateColumns: '3fr 2fr', gap: '16px', marginBottom: '16px' }}>
           <Stagger delay={0}>
             <div style={card}>
-              {sectionHead('#16a34a', 'Continental avg — % with water access (34 countries)')}
+              {sectionHead('#16a34a', t('sections.continentalAvg'))}
               <div style={{ height: '220px', position: 'relative' }}><canvas ref={trendChartRef} /></div>
             </div>
           </Stagger>
           <Stagger delay={80}>
             <div style={card}>
-              {sectionHead('#ef4444', 'Lowest access — 2020', () => setModal('lowest'))}
+              {sectionHead('#ef4444', t('sections.lowestAccess'), () => setModal('lowest'))}
               <div style={{ display: 'flex', flexDirection: 'column', gap: '13px' }}>
                 {lowestCountries.map((d, i) => (
                   <div key={i} style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
@@ -674,7 +680,7 @@ export default function WaterWatchAfricaPage() {
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px', marginBottom: '16px' }}>
           <Stagger delay={0}>
             <div style={card}>
-              {sectionHead('#16a34a', 'Biggest gains 2000 → 2023 (pp)', () => setModal('improvers'))}
+              {sectionHead('#16a34a', t('sections.biggestGains'), () => setModal('improvers'))}
               <div style={{ display: 'flex', flexDirection: 'column', gap: '13px' }}>
                 {improvers.map((d, i) => (
                   <div key={i} style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
@@ -689,13 +695,13 @@ export default function WaterWatchAfricaPage() {
           </Stagger>
           <Stagger delay={80}>
             <div style={card}>
-              {sectionHead('#6366f1', 'Notable country changes', () => setModal('changes'))}
+              {sectionHead('#6366f1', t('sections.notableChanges'), () => setModal('changes'))}
               <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '16px' }}>
                 <thead>
                   <tr>
-                    {['Country','2000','2020','Delta'].map((h, i) => (
+                    {[t('table.country'), t('modals.year2000'), t('modals.year2020'), t('table.delta')].map((h, i) => (
                       <th key={i} style={{ fontFamily: "'JetBrains Mono', monospace", fontSize: '11px', letterSpacing: '0.1em', textTransform: 'uppercase', color: '#9ca3af', fontWeight: 400, padding: '0 0 12px', textAlign: i === 3 ? 'right' : 'left', borderBottom: '1px solid #f3f4f6' }}>
-                        {h === 'Delta' ? 'Δ' : h}
+                        {h}
                       </th>
                     ))}
                   </tr>
@@ -726,16 +732,16 @@ export default function WaterWatchAfricaPage() {
               <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
                 <div style={pill('#0ea5e9')} />
                 <p style={{ fontFamily: "'JetBrains Mono', monospace", fontSize: '10px', letterSpacing: '0.15em', color: '#6b7280', textTransform: 'uppercase' }}>
-                  Urban vs rural gap — biggest disparities in 2020
+                  {t('sections.urbanRuralGap')}
                 </p>
               </div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
                 <div style={{ display: 'flex', gap: '16px', fontSize: '11px', color: '#9ca3af' }}>
                   <span style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
-                    <span style={{ width: '8px', height: '8px', borderRadius: '2px', background: '#2563eb', display: 'inline-block' }} /> Urban
+                    <span style={{ width: '8px', height: '8px', borderRadius: '2px', background: '#2563eb', display: 'inline-block' }} /> {t('sections.urban')}
                   </span>
                   <span style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
-                    <span style={{ width: '8px', height: '8px', borderRadius: '2px', background: '#16a34a', display: 'inline-block' }} /> Rural
+                    <span style={{ width: '8px', height: '8px', borderRadius: '2px', background: '#16a34a', display: 'inline-block' }} /> {t('sections.rural')}
                   </span>
                 </div>
                 <ViewFullListBtn onClick={() => setModal('gap')} />
@@ -752,9 +758,9 @@ export default function WaterWatchAfricaPage() {
         {/* ── READING THE DATA ── */}
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3,1fr)', gap: '16px' }}>
           {[
-            { icon: '↗', title: 'Steady continental progress', desc: 'The continental average climbed from ~44% in 2000 to ~54% in 2023 across the 34 countries with available data — meaningful progress, though coverage gaps for ~20 countries mean the true picture may be bleaker.', accent: '#16a34a' },
-            { icon: '⇅', title: 'A widening two-speed story', desc: 'Morocco, Uganda, and Tanzania each gained 30+ percentage points, while Central African Republic and DR Congo moved backward. The gap between leaders and laggards has grown wider.', accent: '#ef4444' },
-            { icon: '⊘', title: 'The persistent rural deficit', desc: 'In Gambia and Lesotho, the urban-rural gap exceeds 54 percentage points. Urban populations are often 3–7× more likely to have safe water access than their rural counterparts.', accent: '#0ea5e9' },
+            { icon: '↗', title: t('insights.progressTitle'), desc: t('insights.progressDesc'), accent: '#16a34a' },
+            { icon: '⇅', title: t('insights.twoSpeedTitle'), desc: t('insights.twoSpeedDesc'), accent: '#ef4444' },
+            { icon: '⊘', title: t('insights.ruralDeficitTitle'), desc: t('insights.ruralDeficitDesc'), accent: '#0ea5e9' },
           ].map((item, i) => (
             <Stagger key={i} delay={i * 80}>
               <div style={{ ...card, borderTop: `3px solid ${item.accent}`, height: '100%' }}>
@@ -770,10 +776,10 @@ export default function WaterWatchAfricaPage() {
       {/* FOOTER */}
       <footer style={{ padding: '24px 64px', borderTop: '1px solid #e5e7eb', display: 'flex', justifyContent: 'space-between', alignItems: 'center', background: '#ffffff' }}>
         <p style={{ fontFamily: "'JetBrains Mono', monospace", fontSize: '11px', letterSpacing: '0.08em', color: '#9ca3af' }}>
-          Population using safely managed / at least basic drinking water services
+          {t('footer.left')}
         </p>
         <p style={{ fontFamily: "'JetBrains Mono', monospace", fontSize: '11px', letterSpacing: '0.08em', color: '#9ca3af' }}>
-          Data: World Bank / JMP · 2000–2023
+          {t('footer.right')}
         </p>
       </footer>
     </div>

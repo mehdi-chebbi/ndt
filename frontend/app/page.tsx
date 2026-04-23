@@ -2,11 +2,13 @@
 
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
+import { useTranslation } from 'react-i18next'
 import AfricaMap from '@/components/AfricaMap'
 import { useAuth } from '@/contexts/AuthContext'
 
 export default function HomePage() {
   const { isAuthenticated, user } = useAuth()
+  const { t } = useTranslation('landing')
   const [mounted, setMounted] = useState(false)
 
   useEffect(() => {
@@ -54,7 +56,7 @@ export default function HomePage() {
           <div className="flex items-center gap-2 mb-8">
             <div className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
             <span className="text-xs uppercase tracking-[0.2em] text-green-400/80" style={{ fontFamily: 'system-ui, sans-serif' }}>
-              54+ African Countries · Live Data
+              {t('hero.eyebrow')}
             </span>
           </div>
 
@@ -62,19 +64,19 @@ export default function HomePage() {
           <div className="flex flex-col lg:flex-row items-center gap-8 lg:items-start mb-10">
             <div className="flex-1">
               <h1 className="text-5xl lg:text-7xl font-bold leading-[1.05] mb-2 max-w-4xl" style={{ fontFamily: "'Georgia', serif", letterSpacing: '-0.02em' }}>
-                The{' '}
+                {t('hero.headline.prefix')}{' '}
                 <span style={{
                   background: 'linear-gradient(135deg, #22c55e 0%, #4ade80 50%, #86efac 100%)',
                   WebkitBackgroundClip: 'text',
                   WebkitTextFillColor: 'transparent',
                   backgroundClip: 'text',
                 }}>
-                  geospatial lens
+                  {t('hero.headline.highlight')}
                 </span>{' '}
-                on Africa's development.
+                {t('hero.headline.suffix')}
               </h1>
               <p className="text-lg lg:text-xl text-gray-400 max-w-2xl mb-6 leading-relaxed" style={{ fontFamily: 'system-ui, sans-serif' }}>
-                Explore water access, income inequality, and development indicators across the continent — with interactive maps, 23-year trend data, and country-level analytics built for researchers and policymakers.
+                {t('hero.description')}
               </p>
             </div>
 
@@ -90,7 +92,7 @@ export default function HomePage() {
               // Loading placeholder
               <>
                 <div className="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-lg text-sm font-medium bg-gray-800 text-gray-400 cursor-not-allowed">
-                  Loading...
+                  {t('cta.loading')}
                 </div>
               </>
             ) : isAuthenticated ? (
@@ -107,7 +109,7 @@ export default function HomePage() {
                     boxShadow: '0 0 24px rgba(34,197,94,0.25)',
                   }}
                 >
-                  Go to Map
+                  {t('cta.goToMap')}
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                   </svg>
@@ -117,7 +119,7 @@ export default function HomePage() {
                   className="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-lg text-sm font-medium border border-white/10 text-gray-300 hover:border-white/20 hover:text-white transition-all duration-200"
                   style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.02em' }}
                 >
-                  Dashboard
+                  {t('cta.dashboard')}
                 </Link>
               </>
             ) : (
@@ -134,7 +136,7 @@ export default function HomePage() {
                     boxShadow: '0 0 24px rgba(34,197,94,0.25)',
                   }}
                 >
-                  Explore the Map
+                  {t('cta.exploreTheMap')}
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                   </svg>
@@ -144,7 +146,7 @@ export default function HomePage() {
                   className="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-lg text-sm font-medium border border-white/10 text-gray-300 hover:border-white/20 hover:text-white transition-all duration-200"
                   style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.02em' }}
                 >
-                  Sign In
+                  {t('cta.signIn')}
                 </Link>
               </>
             )}
@@ -153,10 +155,10 @@ export default function HomePage() {
           {/* Stats row */}
           <div className="flex flex-wrap gap-10 mb-24 pt-6 border-t border-white/5">
             {[
-              { value: '54', label: 'African Countries' },
-              { value: '2000–2023', label: 'Data Range' },
-              { value: '5+', label: 'Data Sources' },
-              { value: '∞', label: 'Community-Driven Quality' },
+              { value: '54', label: t('stats.africanCountries') },
+              { value: '2000–2023', label: t('stats.dataRange') },
+              { value: '5+', label: t('stats.dataSources') },
+              { value: '∞', label: t('stats.communityDrivenQuality') },
             ].map((stat) => (
               <div key={stat.label}>
                 <div className="text-2xl font-bold text-white" style={{ fontFamily: "'Georgia', serif" }}>{stat.value}</div>
@@ -167,7 +169,7 @@ export default function HomePage() {
 
           {/* Feature cards */}
           <h2 className="text-xs uppercase tracking-[0.2em] text-gray-500 mb-8" style={{ fontFamily: 'system-ui, sans-serif' }}>
-            Platform capabilities
+            {t('features.heading')}
           </h2>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -179,12 +181,12 @@ export default function HomePage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6-3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" />
                 </svg>
               </div>
-              <h3 className="text-base font-semibold text-white mb-2" style={{ fontFamily: "'Georgia', serif" }}>Interactive Map</h3>
+              <h3 className="text-base font-semibold text-white mb-2" style={{ fontFamily: "'Georgia', serif" }}>{t('features.interactiveMap.title')}</h3>
               <p className="text-sm text-gray-500 leading-relaxed" style={{ fontFamily: 'system-ui, sans-serif' }}>
-                Explore geospatial layers for all 54+ countries. Compare views side-by-side, draw custom polygons, switch between satellite, terrain, and dark styles.
+                {t('features.interactiveMap.description')}
               </p>
               <div className="mt-4 flex flex-wrap gap-1.5">
-                {['Polygon draw', 'Side-by-side', 'Export'].map(tag => (
+                {[t('features.interactiveMap.tags.polygonDraw'), t('features.interactiveMap.tags.sideBySide'), t('features.interactiveMap.tags.export')].map(tag => (
                   <span key={tag} className="text-[11px] px-2 py-0.5 rounded-full border border-green-500/20 text-green-400/60" style={{ fontFamily: 'system-ui, sans-serif' }}>{tag}</span>
                 ))}
               </div>
@@ -199,10 +201,10 @@ export default function HomePage() {
               </div>
               <h3 className="text-base font-semibold text-white mb-2" style={{ fontFamily: "'Georgia', serif" }}>WaterWatch Africa</h3>
               <p className="text-sm text-gray-500 leading-relaxed" style={{ fontFamily: 'system-ui, sans-serif' }}>
-                Track water access progress from 2000–2023. See country rankings, urban vs rural gaps, and multi-decade trend charts across the continent.
+                {t('features.waterWatch.description')}
               </p>
               <div className="mt-4 flex flex-wrap gap-1.5">
-                {['2000–2023', 'Urban/Rural', 'Rankings'].map(tag => (
+                {[t('features.waterWatch.tags.dateRange'), t('features.waterWatch.tags.urbanRural'), t('features.waterWatch.tags.rankings')].map(tag => (
                   <span key={tag} className="text-[11px] px-2 py-0.5 rounded-full border border-green-500/20 text-green-400/60" style={{ fontFamily: 'system-ui, sans-serif' }}>{tag}</span>
                 ))}
               </div>
@@ -217,10 +219,10 @@ export default function HomePage() {
               </div>
               <h3 className="text-base font-semibold text-white mb-2" style={{ fontFamily: "'Georgia', serif" }}>GiniWatch Africa</h3>
               <p className="text-sm text-gray-500 leading-relaxed" style={{ fontFamily: 'system-ui, sans-serif' }}>
-                Track income inequality (Gini index) from 2000–2023. Compare equality levels, see which countries improved or worsened, and explore statistical trends.
+                {t('features.giniWatch.description')}
               </p>
               <div className="mt-4 flex flex-wrap gap-1.5">
-                {['2000–2023', 'Gini Index', 'Trends'].map(tag => (
+                {[t('features.giniWatch.tags.dateRange'), t('features.giniWatch.tags.giniIndex'), t('features.giniWatch.tags.trends')].map(tag => (
                   <span key={tag} className="text-[11px] px-2 py-0.5 rounded-full border border-purple-500/20 text-purple-400/60" style={{ fontFamily: 'system-ui, sans-serif' }}>{tag}</span>
                 ))}
               </div>
@@ -233,12 +235,12 @@ export default function HomePage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z" />
                 </svg>
               </div>
-              <h3 className="text-base font-semibold text-white mb-2" style={{ fontFamily: "'Georgia', serif" }}>Statistical Analysis</h3>
+              <h3 className="text-base font-semibold text-white mb-2" style={{ fontFamily: "'Georgia', serif" }}>{t('features.statisticalAnalysis.title')}</h3>
               <p className="text-sm text-gray-500 leading-relaxed" style={{ fontFamily: 'system-ui, sans-serif' }}>
-                Draw any region on the map and instantly get detailed statistics, data breakdowns, and measurements for that custom area.
+                {t('features.statisticalAnalysis.description')}
               </p>
               <div className="mt-4 flex flex-wrap gap-1.5">
-                {['Custom area', 'Instant stats', 'Breakdowns'].map(tag => (
+                {[t('features.statisticalAnalysis.tags.customArea'), t('features.statisticalAnalysis.tags.instantStats'), t('features.statisticalAnalysis.tags.breakdowns')].map(tag => (
                   <span key={tag} className="text-[11px] px-2 py-0.5 rounded-full border border-green-500/20 text-green-400/60" style={{ fontFamily: 'system-ui, sans-serif' }}>{tag}</span>
                 ))}
               </div>
@@ -251,12 +253,12 @@ export default function HomePage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 21v-4m0 0V5a2 2 0 012-2h6.5l1 1H21l-3 6 3 6h-8.5l-1-1H5a2 2 0 00-2 2zm9-13.5V9" />
                 </svg>
               </div>
-              <h3 className="text-base font-semibold text-white mb-2" style={{ fontFamily: "'Georgia', serif" }}>Data Reporting</h3>
+              <h3 className="text-base font-semibold text-white mb-2" style={{ fontFamily: "'Georgia', serif" }}>{t('features.dataReporting.title')}</h3>
               <p className="text-sm text-gray-500 leading-relaxed" style={{ fontFamily: 'system-ui, sans-serif' }}>
-                Flag incorrect data directly on the map, add contextual comments, and track when issues are resolved — keeping the dataset trustworthy.
+                {t('features.dataReporting.description')}
               </p>
               <div className="mt-4 flex flex-wrap gap-1.5">
-                {['Flag issues', 'Comments', 'Track fixes'].map(tag => (
+                {[t('features.dataReporting.tags.flagIssues'), t('features.dataReporting.tags.comments'), t('features.dataReporting.tags.trackFixes')].map(tag => (
                   <span key={tag} className="text-[11px] px-2 py-0.5 rounded-full border border-purple-500/20 text-purple-400/60" style={{ fontFamily: 'system-ui, sans-serif' }}>{tag}</span>
                 ))}
               </div>
@@ -275,19 +277,19 @@ export default function HomePage() {
             </div>
             <div>
               <p className="text-sm text-gray-300 leading-relaxed" style={{ fontFamily: 'system-ui, sans-serif' }}>
-                <span className="text-white font-medium">Built for researchers, policymakers, and development organizations</span> — working at the intersection of data and impact across the African continent.
+                <span className="text-white font-medium">{t('audience.title')}</span>{t('audience.tail')}
               </p>
             </div>
             <div className="md:ml-auto flex-shrink-0">
               {!mounted ? (
-                <span className="text-sm text-gray-500">Loading...</span>
+                <span className="text-sm text-gray-500">{t('cta.loading')}</span>
               ) : isAuthenticated ? (
                 <Link
                   href="/map"
                   className="inline-flex items-center gap-2 text-sm text-green-400 hover:text-green-300 transition-colors duration-200"
                   style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.02em' }}
                 >
-                  Go to Map
+                  {t('cta.goToMap')}
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                   </svg>
@@ -298,7 +300,7 @@ export default function HomePage() {
                   className="inline-flex items-center gap-2 text-sm text-green-400 hover:text-green-300 transition-colors duration-200"
                   style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.02em' }}
                 >
-                  Request access
+                  {t('audience.requestAccess')}
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                   </svg>
@@ -323,7 +325,7 @@ export default function HomePage() {
             </span>
           </div>
           <div className="flex gap-6">
-            {['About', 'Documentation', 'Contact'].map(link => (
+            {[t('footer.about'), t('footer.documentation'), t('footer.contact')].map(link => (
               <Link key={link} href="#" className="text-xs text-gray-600 hover:text-gray-400 transition-colors duration-200" style={{ fontFamily: 'system-ui, sans-serif' }}>
                 {link}
               </Link>

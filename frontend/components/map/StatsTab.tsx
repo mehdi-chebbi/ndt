@@ -1,9 +1,11 @@
 'use client'
 
 import React, { useState, useEffect, useRef } from 'react'
+import { useTranslation } from 'react-i18next'
 import { StatsTabProps, Layer, Group } from './types'
 import StatsBarChart from './StatsBarChart'
 import { authFetch } from '@/lib/authFetch'
+import { resolveBilingualText, resolveCountryName } from '@/lib/i18n-utils'
 
 // Recursively count all layers in a group and its children (that have stats)
 function countAllLayersWithStats(group: Group): number {
@@ -40,6 +42,8 @@ export default function StatsTab({
   onToggleGroup,
   onSetStatsMessage,
 }: StatsTabProps) {
+  const { t } = useTranslation('map')
+
   // Country selector state
   const [countries, setCountries] = useState<CountryOption[]>([])
   const [countriesLoading, setCountriesLoading] = useState(true)
@@ -109,19 +113,19 @@ export default function StatsTab({
     if (statsPolygon) {
       if (isPolygonTooLarge) {
         onSetStatsMessage(
-          `✓ Polygon captured (${statsPolygonArea.toLocaleString()} km²). Area too large - maximum is ${MAX_AREA_KM2.toLocaleString()} km². Please draw a smaller area.`,
+          t('initialization.polygonTooLarge', { area: statsPolygonArea.toLocaleString(), maxArea: MAX_AREA_KM2.toLocaleString() }),
           true
         )
       } else {
         onSetStatsMessage(
-          `✓ Polygon captured (${statsPolygonArea.toLocaleString()} km²). Click "Calculate Stats" to proceed.`,
+          t('initialization.polygonCaptured', { area: statsPolygonArea.toLocaleString() }),
           false
         )
       }
     } else if (statsMode) {
       onSetStatsMessage('', false)
     }
-  }, [statsPolygon, statsPolygonArea, isPolygonTooLarge, statsMode, onSetStatsMessage])
+  }, [statsPolygon, statsPolygonArea, isPolygonTooLarge, statsMode, onSetStatsMessage, t])
 
   // Render a layer button
   const renderLayerButton = (layer: Layer) => {
@@ -141,7 +145,7 @@ export default function StatsTab({
         <div className="flex justify-between items-center">
           <span className="font-medium">{layer.name}</span>
           {isSelected && (
-            <span className="text-xs font-semibold text-green-700">Selected</span>
+            <span className="text-xs font-semibold text-green-700">{t('statsTab.selected')}</span>
           )}
         </div>
       </button>
@@ -199,13 +203,13 @@ export default function StatsTab({
   return (
     <div className="space-y-3">
       <div className="text-sm text-gray-600">
-        Select a layer, then pick a country or draw a polygon.
+        {t('statsTab.selectLayerThenCountry')}
       </div>
 
       {/* Country Selector - always visible when a layer is selected */}
       {statsLayerId && !statsMode && (
         <div ref={countryDropdownRef} className="space-y-2">
-          <label className="text-xs font-medium text-gray-500 uppercase tracking-wider">Quick Stats by Country</label>
+          <label className="text-xs font-medium text-gray-500 uppercase tracking-wider">{t('statsTab.quickStatsByCountry')}</label>
           <div className="relative">
             <button
               type="button"
@@ -224,12 +228,14 @@ export default function StatsTab({
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 21v-4m0 0V5a2 2 0 012-2h6.5l1 1H21l-3 6 3 6h-8.5l-1-1H5a2 2 0 00-2 2zm9-13.5V9" />
                 </svg>
                 <span className="truncate">
-                  {countriesLoading ? 'Loading countries...' : selectedCountry ? selectedCountry.name : 'Select a country for instant stats'}
+                  {countriesLoading ? t('statsTab.loadingCountries') : selectedCountry ? resolveCountryName(selectedCountry.name) : t('statsTab.selectCountryForStats')}
                 </span>
               </div>
               <svg 
                 className={`w-4 h-4 text-gray-500 transition-transform ${countryDropdownOpen ? 'rotate-180' : ''}`}
-                fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
               >
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
               </svg>
@@ -240,7 +246,7 @@ export default function StatsTab({
                 <div className="p-2 border-b border-gray-200">
                   <input
                     type="text"
-                    placeholder="Search country..."
+                    placeholder={t('statsTab.searchCountry')}
                     value={countrySearch}
                     onChange={(e) => setCountrySearch(e.target.value)}
                     className="w-full px-3 py-1.5 text-sm border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-400 focus:border-transparent"
@@ -253,13 +259,13 @@ export default function StatsTab({
                     onClick={handleCountryClear}
                     className="w-full px-3 py-2 text-left text-sm text-red-600 hover:bg-red-50 border-b border-gray-200"
                   >
-                    Clear selection
+                    {t('statsTab.clearSelection')}
                   </button>
                 )}
 
                 <div className="overflow-y-auto max-h-44">
                   {filteredCountries.length === 0 ? (
-                    <div className="px-3 py-2 text-sm text-gray-500 text-center">No countries found</div>
+                    <div className="px-3 py-2 text-sm text-gray-500 text-center">{t('statsTab.noCountriesFound')}</div>
                   ) : (
                     filteredCountries.map((country) => (
                       <button
@@ -270,7 +276,7 @@ export default function StatsTab({
                           ${selectedCountry?.file === country.file ? 'bg-gray-100 text-gray-900 font-medium' : 'text-gray-700'}
                         `}
                       >
-                        {country.name}
+                        {resolveCountryName(country.name)}
                       </button>
                     ))
                   )}
@@ -282,7 +288,7 @@ export default function StatsTab({
           {/* Divider */}
           <div className="flex items-center gap-2">
             <div className="flex-1 border-t border-gray-200" />
-            <span className="text-xs text-gray-400">or</span>
+            <span className="text-xs text-gray-400">{t('statsTab.or')}</span>
             <div className="flex-1 border-t border-gray-200" />
           </div>
         </div>
@@ -300,7 +306,7 @@ export default function StatsTab({
               : 'bg-gray-900 text-white hover:bg-gray-800'
           }`}
         >
-          Start Drawing
+          {t('statsTab.startDrawing')}
         </button>
       ) : (
         <div className="space-y-3">
@@ -315,13 +321,13 @@ export default function StatsTab({
                   : 'bg-green-600 text-white hover:bg-green-700'
               }`}
             >
-              {isCalculatingStats ? 'Calculating...' : 'Calculate Stats'}
+              {isCalculatingStats ? t('statsTab.calculating') : t('statsTab.calculateStats')}
             </button>
             <button
               onClick={onCancelStats}
               className="px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 transition font-medium"
             >
-              Cancel
+              {t('dataTab.cancel')}
             </button>
           </div>
 
@@ -337,19 +343,19 @@ export default function StatsTab({
       {statsResults && (
         <div className="border-t pt-4">
           <div className="flex items-center justify-between mb-3">
-            <h3 className="font-semibold text-gray-900">Results</h3>
+            <h3 className="font-semibold text-gray-900">{t('statsTab.results')}</h3>
             {selectedCountry && !statsMode && (
-              <span className="text-xs text-gray-500 bg-gray-100 px-2 py-1 rounded-full">{selectedCountry.name}</span>
+              <span className="text-xs text-gray-500 bg-gray-100 px-2 py-1 rounded-full">{resolveCountryName(selectedCountry.name)}</span>
             )}
           </div>
 
           {/* Summary box */}
           <div className="bg-gray-50 rounded-lg p-3 mb-4">
             <div className="text-center">
-              <p className="text-xs text-gray-500 mb-1">Pixel Size</p>
+              <p className="text-xs text-gray-500 mb-1">{t('statsTab.pixelSize')}</p>
               <p className="text-sm font-semibold text-gray-900 mb-2">{statsResults.pixel_size_m}m</p>
               <div className="border-t border-gray-200 pt-2 mt-2">
-                <p className="text-xs text-gray-500 mb-1">Total Area</p>
+                <p className="text-xs text-gray-500 mb-1">{t('statsTab.totalArea')}</p>
                 <p className="text-lg font-bold text-gray-900">
                   {statsResults.total_area_km2?.toLocaleString(undefined, { maximumFractionDigits: 2 })}
                   <span className="text-sm font-normal text-gray-600 ml-1">km²</span>
@@ -371,15 +377,15 @@ export default function StatsTab({
             <table className="w-full text-sm">
               <thead className="sticky top-0 bg-white">
                 <tr className="border-b">
-                  <th className="text-left py-2 text-gray-600">Class</th>
-                  <th className="text-right py-2 text-gray-600">Area (km²)</th>
-                  <th className="text-right py-2 text-gray-600">%</th>
+                  <th className="text-left py-2 text-gray-600">{t('statsTab.class')}</th>
+                  <th className="text-right py-2 text-gray-600">{t('statsTab.areaKm2')}</th>
+                  <th className="text-right py-2 text-gray-600">{t('statsTab.percentage')}</th>
                 </tr>
               </thead>
               <tbody>
                 {statsResults.classes?.map((cls, idx) => (
                   <tr key={idx} className="border-b border-gray-100">
-                    <td className="py-2 text-gray-900">{cls.class_name}</td>
+                    <td className="py-2 text-gray-900">{resolveBilingualText(cls.class_name)}</td>
                     <td className="py-2 text-right text-gray-600">{cls.area_km2?.toLocaleString(undefined, { maximumFractionDigits: 2 })}</td>
                     <td className="py-2 text-right text-gray-600">{cls.percentage}%</td>
                   </tr>
@@ -396,8 +402,8 @@ export default function StatsTab({
           <svg className="w-12 h-12 text-gray-300 mx-auto mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
           </svg>
-          <p className="text-gray-500 text-sm">No layers configured for statistics</p>
-          <p className="text-gray-400 text-xs mt-1">Contact admin to configure layers</p>
+          <p className="text-gray-500 text-sm">{t('statsTab.noLayersForStats')}</p>
+          <p className="text-gray-400 text-xs mt-1">{t('statsTab.contactAdminForStats')}</p>
         </div>
       ) : (
         <div data-tutorial="stats-layer-select" className="space-y-2">
@@ -420,7 +426,7 @@ export default function StatsTab({
                   >
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                   </svg>
-                  <span className="font-semibold text-gray-600">Other Layers</span>
+                  <span className="font-semibold text-gray-600">{t('dataTab.otherLayers')}</span>
                 </div>
               </button>
               {expandedGroups.has('ungrouped-stats') && (

@@ -1,0 +1,80 @@
+{
+  "hero": {
+    "eyebrow": "54+ African Countries · Live Data",
+    "headline": {
+      "prefix": "The",
+      "highlight": "geospatial lens",
+      "suffix": "on Africa's development."
+    },
+    "description": "Explore water access, income inequality, and development indicators across the continent — with interactive maps, 23-year trend data, and country-level analytics built for researchers and policymakers."
+  },
+  "cta": {
+    "loading": "Loading...",
+    "goToMap": "Go to Map",
+    "dashboard": "Dashboard",
+    "exploreTheMap": "Explore the Map",
+    "signIn": "Sign In"
+  },
+  "stats": {
+    "africanCountries": "African Countries",
+    "dataRange": "Data Range",
+    "dataSources": "Data Sources",
+    "communityDrivenQuality": "Community-Driven Quality"
+  },
+  "features": {
+    "heading": "Platform capabilities",
+    "interactiveMap": {
+      "title": "Interactive Map",
+      "description": "Explore geospatial layers for all 54+ countries. Compare views side-by-side, draw custom polygons, switch between satellite, terrain, and dark styles.",
+      "tags": {
+        "polygonDraw": "Polygon draw",
+        "sideBySide": "Side-by-side",
+        "export": "Export"
+      }
+    },
+    "waterWatch": {
+      "description": "Track water access progress from 2000–2023. See country rankings, urban vs rural gaps, and multi-decade trend charts across the continent.",
+      "tags": {
+        "dateRange": "2000–2023",
+        "urbanRural": "Urban/Rural",
+        "rankings": "Rankings"
+      }
+    },
+    "giniWatch": {
+      "description": "Track income inequality (Gini index) from 2000–2023. Compare equality levels, see which countries improved or worsened, and explore statistical trends.",
+      "tags": {
+        "dateRange": "2000–2023",
+        "giniIndex": "Gini Index",
+        "trends": "Trends"
+      }
+    },
+    "statisticalAnalysis": {
+      "title": "Statistical Analysis",
+      "description": "Draw any region on the map and instantly get detailed statistics, data breakdowns, and measurements for that custom area.",
+      "tags": {
+        "customArea": "Custom area",
+        "instantStats": "Instant stats",
+        "breakdowns": "Breakdowns"
+      }
+    },
+    "dataReporting": {
+      "title": "Data Reporting",
+      "description": "Flag incorrect data directly on the map, add contextual comments, and track when issues are resolved — keeping the dataset trustworthy.",
+      "tags": {
+        "flagIssues": "Flag issues",
+        "comments": "Comments",
+        "trackFixes": "Track fixes"
+      }
+    }
+  },
+  "audience": {
+    "title": "Built for researchers, policymakers, and development organizations",
+    "tail": " — working at the intersection of data and impact across the African continent.",
+    "requestAccess": "Request access"
+  },
+  "footer": {
+    "about": "About",
+    "documentation": "Documentation",
+    "contact": "Contact"
+  }
+}
