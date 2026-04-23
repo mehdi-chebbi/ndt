@@ -1,0 +1,19 @@
+{
+  "title": "Welcome Back",
+  "subtitle": "Sign in to your account",
+  "emailLabel": "Email Address",
+  "emailPlaceholder": "you@example.com",
+  "passwordLabel": "Password",
+  "passwordPlaceholder": "••••••••",
+  "forgotPassword": "Forgot password?",
+  "signingIn": "Signing in...",
+  "signInButton": "Sign In",
+  "orContinueWith": "Or continue with",
+  "signInWithGoogle": "Sign in with Google",
+  "signInWithMicrosoft": "Sign in with Microsoft",
+  "noAccount": "Don't have an account?",
+  "signUpLink": "Sign up",
+  "errors": {
+    "loginFailed": "Login failed"
+  }
+}

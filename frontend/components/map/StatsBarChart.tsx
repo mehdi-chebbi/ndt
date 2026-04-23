@@ -1,5 +1,7 @@
 'use client'
 
+import { useTranslation } from 'react-i18next'
+import { resolveBilingualText } from '@/lib/i18n-utils'
 import { Bar } from 'react-chartjs-2'
 import {
   Chart as ChartJS,
@@ -18,7 +20,7 @@ import 'chart.js/auto'
 ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend)
 
 interface StatsClass {
-  class_name: string
+  class_name: string | { en: string; fr: string }
   area_km2: number
   percentage: number
 }
@@ -42,14 +44,16 @@ const COLOR_PALETTE = [
 ]
 
 export default function StatsBarChart({ classes, totalArea }: StatsBarChartProps) {
+  const { t } = useTranslation('map')
+
   // Sort classes by percentage (descending)
   const sortedClasses = [...classes].sort((a, b) => b.percentage - a.percentage)
 
   const chartData: ChartData<'bar'> = {
-    labels: sortedClasses.map(c => c.class_name),
+    labels: sortedClasses.map(c => resolveBilingualText(c.class_name)),
     datasets: [
       {
-        label: 'Area (km²)',
+        label: t('statsTab.areaKm2'),
         data: sortedClasses.map(c => c.area_km2),
         backgroundColor: COLOR_PALETTE.slice(0, sortedClasses.length),
         borderColor: COLOR_PALETTE.slice(0, sortedClasses.length),
@@ -96,8 +100,8 @@ export default function StatsBarChart({ classes, totalArea }: StatsBarChartProps
             const index = context.dataIndex
             const classData = sortedClasses[index]
             return [
-              `Area: ${classData.area_km2.toLocaleString(undefined, { maximumFractionDigits: 2 })} km²`,
-              `Percentage: ${classData.percentage}%`,
+              t('chart.areaLabel', { area: classData.area_km2.toLocaleString(undefined, { maximumFractionDigits: 2 }) }),
+              t('chart.percentageLabel', { percentage: classData.percentage }),
             ]
           },
         },

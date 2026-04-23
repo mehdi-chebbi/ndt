@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation'
 import { api } from '@/lib/authFetch'
 import { useAuth } from '@/contexts/AuthContext'
+import { useTranslation } from 'react-i18next'
 
 interface Report {
   id: number
@@ -30,6 +31,7 @@ interface NotificationRecipient {
 export default function ReportsPage() {
   const router = useRouter()
   const { user, isAuthenticated, loading: authLoading } = useAuth()
+  const { t } = useTranslation('reports')
   const [reports, setReports] = useState<Report[]>([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState('')
@@ -74,14 +76,14 @@ export default function ReportsPage() {
 
       if (!response.ok) {
         const error = await response.json()
-        throw new Error(error.error || 'Failed to fetch reports')
+        throw new Error(error.error || t('errors.failedToFetchReports'))
       }
 
       const data = await response.json()
       setReports(data.reports || [])
     } catch (err: any) {
       console.error('Fetch reports error:', err)
-      setError(err.message || 'Failed to load reports')
+      setError(err.message || t('errors.failedToLoadReports'))
     } finally {
       setLoading(false)
     }
@@ -95,7 +97,7 @@ export default function ReportsPage() {
 
       if (!response.ok) {
         const error = await response.json()
-        throw new Error(error.error || 'Failed to update report')
+        throw new Error(error.error || t('errors.failedToUpdateReport'))
       }
 
       // Update local state
@@ -108,14 +110,14 @@ export default function ReportsPage() {
       }
     } catch (err: any) {
       console.error('Update report error:', err)
-      alert(err.message || 'Failed to update report')
+      alert(err.message || t('errors.failedToUpdateReport'))
     } finally {
       setIsUpdating(false)
     }
   }
 
   const deleteReport = async (reportId: number) => {
-    if (!confirm('Are you sure you want to delete this report?')) {
+    if (!confirm(t('deleteConfirm'))) {
       return
     }
 
@@ -124,7 +126,7 @@ export default function ReportsPage() {
 
       if (!response.ok) {
         const error = await response.json()
-        throw new Error(error.error || 'Failed to delete report')
+        throw new Error(error.error || t('errors.failedToDeleteReport'))
       }
 
       // Update local state
@@ -134,7 +136,7 @@ export default function ReportsPage() {
       }
     } catch (err: any) {
       console.error('Delete report error:', err)
-      alert(err.message || 'Failed to delete report')
+      alert(err.message || t('errors.failedToDeleteReport'))
     }
   }
 
@@ -156,7 +158,7 @@ export default function ReportsPage() {
       const response = await api.get('/notifications')
 
       if (!response.ok) {
-        throw new Error('Failed to fetch recipients')
+        throw new Error(t('errors.failedToFetchRecipients'))
       }
 
       const data = await response.json()
@@ -177,7 +179,7 @@ export default function ReportsPage() {
 
       if (!response.ok) {
         const error = await response.json()
-        throw new Error(error.error || 'Failed to add recipient')
+        throw new Error(error.error || t('errors.failedToAddRecipient'))
       }
 
       const data = await response.json()
@@ -185,7 +187,7 @@ export default function ReportsPage() {
       setNewEmail('')
     } catch (err: any) {
       console.error('Add recipient error:', err)
-      alert(err.message || 'Failed to add recipient')
+      alert(err.message || t('errors.failedToAddRecipient'))
     } finally {
       setIsAddingEmail(false)
     }
@@ -196,13 +198,13 @@ export default function ReportsPage() {
       const response = await api.delete(`/notifications/${id}`)
 
       if (!response.ok) {
-        throw new Error('Failed to remove recipient')
+        throw new Error(t('errors.failedToRemoveRecipient'))
       }
 
       setRecipients(recipients.filter(r => r.id !== id))
     } catch (err) {
       console.error('Remove recipient error:', err)
-      alert('Failed to remove recipient')
+      alert(t('errors.failedToRemoveRecipient'))
     }
   }
 
@@ -217,8 +219,8 @@ export default function ReportsPage() {
         {/* Header */}
         <div className="mb-8 flex justify-between items-start">
           <div>
-            <h1 className="text-3xl font-bold text-gray-900 mb-2">Invalid Data Reports</h1>
-            <p className="text-gray-600">Manage and review reports about invalid data</p>
+            <h1 className="text-3xl font-bold text-gray-900 mb-2">{t('title')}</h1>
+            <p className="text-gray-600">{t('description')}</p>
           </div>
           <button
             onClick={openNotificationModal}
@@ -227,14 +229,14 @@ export default function ReportsPage() {
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
             </svg>
-            Configure Notifications
+            {t('configureNotifications')}
           </button>
         </div>
 
         {/* Filters */}
         <div className="mb-6 bg-white rounded-lg shadow-sm p-4">
           <div className="flex items-center gap-4">
-            <span className="text-sm font-medium text-gray-700">Filter:</span>
+            <span className="text-sm font-medium text-gray-700">{t('filter')}</span>
             <div className="flex gap-2">
               <button
                 onClick={() => setFilterStatus('all')}
@@ -244,7 +246,7 @@ export default function ReportsPage() {
                     : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
                 }`}
               >
-                All
+                {t('all')}
               </button>
               <button
                 onClick={() => setFilterStatus('invalid')}
@@ -254,7 +256,7 @@ export default function ReportsPage() {
                     : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
                 }`}
               >
-                Invalid ({reports.filter(r => r.status === 'invalid').length})
+                {t('invalid')} ({reports.filter(r => r.status === 'invalid').length})
               </button>
               <button
                 onClick={() => setFilterStatus('fixed')}
@@ -264,14 +266,14 @@ export default function ReportsPage() {
                     : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
                 }`}
               >
-                Fixed ({reports.filter(r => r.status === 'fixed').length})
+                {t('fixed')} ({reports.filter(r => r.status === 'fixed').length})
               </button>
             </div>
             <button
               onClick={fetchReports}
               className="ml-auto px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 transition text-sm font-medium"
             >
-              Refresh
+              {t('refresh')}
             </button>
           </div>
         </div>
@@ -293,13 +295,13 @@ export default function ReportsPage() {
             <svg className="w-16 h-16 text-gray-300 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
             </svg>
-            <h3 className="text-lg font-medium text-gray-900 mb-2">No Reports Found</h3>
+            <h3 className="text-lg font-medium text-gray-900 mb-2">{t('noReportsFound')}</h3>
             <p className="text-gray-500">
               {filterStatus === 'all'
-                ? 'There are no reports yet.'
+                ? t('noReportsAll')
                 : filterStatus === 'invalid'
-                ? 'There are no invalid reports.'
-                : 'There are no fixed reports.'}
+                ? t('noReportsInvalid')
+                : t('noReportsFixed')}
             </p>
           </div>
         ) : (
@@ -349,10 +351,10 @@ export default function ReportsPage() {
                   </div>
 
                   <div className="flex items-center gap-2 text-sm text-gray-600">
-                    <span className="font-medium">Layer:</span>
+                    <span className="font-medium">{t('layer')}:</span>
                     <span className="capitalize">{report.original_layer}</span>
                     <span className="text-gray-300">|</span>
-                    <span className="font-medium">Colormap:</span>
+                    <span className="font-medium">{t('colormap')}:</span>
                     <span className="capitalize">{report.original_colormap}</span>
                   </div>
                 </div>
@@ -364,7 +366,7 @@ export default function ReportsPage() {
               {selectedReport ? (
                 <div className="bg-white rounded-lg shadow-sm p-6 sticky top-4">
                   <div className="flex justify-between items-start mb-4">
-                    <h2 className="text-lg font-bold text-gray-900">Report Details</h2>
+                    <h2 className="text-lg font-bold text-gray-900">{t('reportDetails')}</h2>
                     <button
                       onClick={() => setSelectedReport(null)}
                       className="text-gray-400 hover:text-gray-600 transition"
@@ -389,7 +391,7 @@ export default function ReportsPage() {
                   {/* Comment */}
                   <div className="mb-4">
                     <label className="block text-sm font-medium text-gray-700 mb-2">
-                      Comment
+                      {t('comment')}
                     </label>
                     <p className="text-sm text-gray-900 bg-gray-50 p-3 rounded-lg">
                       {selectedReport.comment}
@@ -399,11 +401,11 @@ export default function ReportsPage() {
                   {/* Reporter Info */}
                   <div className="mb-4 space-y-2">
                     <div className="flex justify-between text-sm">
-                      <span className="text-gray-600">Reporter</span>
+                      <span className="text-gray-600">{t('reporter')}</span>
                       <span className="font-medium text-gray-900">{selectedReport.reporter_name}</span>
                     </div>
                     <div className="flex justify-between text-sm">
-                      <span className="text-gray-600">Email</span>
+                      <span className="text-gray-600">{t('email')}</span>
                       <span className="font-medium text-gray-900">{selectedReport.reporter_email}</span>
                     </div>
                   </div>
@@ -411,11 +413,11 @@ export default function ReportsPage() {
                   {/* Layer Info */}
                   <div className="mb-4 space-y-2">
                     <div className="flex justify-between text-sm">
-                      <span className="text-gray-600">Layer</span>
+                      <span className="text-gray-600">{t('layer')}</span>
                       <span className="font-medium text-gray-900 capitalize">{selectedReport.original_layer}</span>
                     </div>
                     <div className="flex justify-between text-sm">
-                      <span className="text-gray-600">Colormap</span>
+                      <span className="text-gray-600">{t('colormap')}</span>
                       <span className="font-medium text-gray-900 capitalize">{selectedReport.original_colormap}</span>
                     </div>
                   </div>
@@ -423,11 +425,11 @@ export default function ReportsPage() {
                   {/* Dates */}
                   <div className="mb-6 space-y-2 text-xs text-gray-500">
                     <div className="flex justify-between">
-                      <span>Created</span>
+                      <span>{t('created')}</span>
                       <span>{formatDate(selectedReport.created_at)}</span>
                     </div>
                     <div className="flex justify-between">
-                      <span>Updated</span>
+                      <span>{t('updated')}</span>
                       <span>{formatDate(selectedReport.updated_at)}</span>
                     </div>
                   </div>
@@ -442,7 +444,7 @@ export default function ReportsPage() {
                           isUpdating ? 'opacity-50 cursor-not-allowed' : 'hover:bg-green-700'
                         }`}
                       >
-                        {isUpdating ? 'Updating...' : 'Mark as Fixed'}
+                        {isUpdating ? t('updating') : t('markAsFixed')}
                       </button>
                     )}
 
@@ -454,7 +456,7 @@ export default function ReportsPage() {
                           isUpdating ? 'opacity-50 cursor-not-allowed' : 'hover:bg-red-700'
                         }`}
                       >
-                        {isUpdating ? 'Updating...' : 'Mark as Invalid'}
+                        {isUpdating ? t('updating') : t('markAsInvalid')}
                       </button>
                     )}
 
@@ -462,7 +464,7 @@ export default function ReportsPage() {
                       onClick={() => deleteReport(selectedReport.id)}
                       className="w-full px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 transition font-medium"
                     >
-                      Delete Report
+                      {t('deleteReport')}
                     </button>
                   </div>
 
@@ -471,7 +473,7 @@ export default function ReportsPage() {
                     onClick={() => router.push(`/report-view?viewReport=${selectedReport.id}`)}
                     className="w-full mt-2 px-4 py-2 bg-gray-900 text-white rounded-lg hover:bg-gray-700 transition font-medium"
                   >
-                    View on Map
+                    {t('viewOnMap')}
                   </button>
                 </div>
               ) : (
@@ -479,8 +481,8 @@ export default function ReportsPage() {
                   <svg className="w-16 h-16 text-gray-300 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
                   </svg>
-                  <h3 className="text-lg font-medium text-gray-900 mb-2">Select a Report</h3>
-                  <p className="text-gray-500 text-sm">Click on a report to view its details.</p>
+                  <h3 className="text-lg font-medium text-gray-900 mb-2">{t('selectReport')}</h3>
+                  <p className="text-gray-500 text-sm">{t('selectReportHint')}</p>
                 </div>
               )}
             </div>
@@ -493,7 +495,7 @@ export default function ReportsPage() {
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
           <div className="bg-white rounded-lg shadow-xl w-full max-w-md mx-4">
             <div className="flex justify-between items-center p-4 border-b">
-              <h2 className="text-lg font-bold text-gray-900">Notification Recipients</h2>
+              <h2 className="text-lg font-bold text-gray-900">{t('notificationRecipients')}</h2>
               <button
                 onClick={() => setShowNotificationModal(false)}
                 className="text-gray-400 hover:text-gray-600 transition"
@@ -506,7 +508,7 @@ export default function ReportsPage() {
 
             <div className="p-4">
               <p className="text-sm text-gray-600 mb-4">
-                These email addresses will receive notifications when a new invalid data report is submitted.
+                {t('notificationDescription')}
               </p>
 
               {/* Add Email Form */}
@@ -515,7 +517,7 @@ export default function ReportsPage() {
                   type="email"
                   value={newEmail}
                   onChange={(e) => setNewEmail(e.target.value)}
-                  placeholder="Enter email address"
+                  placeholder={t('enterEmail')}
                   className="flex-1 px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-900"
                   onKeyDown={(e) => {
                     if (e.key === 'Enter') {
@@ -532,7 +534,7 @@ export default function ReportsPage() {
                       : 'hover:bg-gray-700'
                   }`}
                 >
-                  {isAddingEmail ? 'Adding...' : 'Add'}
+                  {isAddingEmail ? t('adding') : t('add')}
                 </button>
               </div>
 
@@ -547,7 +549,7 @@ export default function ReportsPage() {
                     <svg className="w-12 h-12 mx-auto mb-2 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                     </svg>
-                    <p>No recipients added yet</p>
+                    <p>{t('noRecipients')}</p>
                   </div>
                 ) : (
                   <div className="space-y-2">
@@ -582,7 +584,7 @@ export default function ReportsPage() {
                 onClick={() => setShowNotificationModal(false)}
                 className="w-full px-4 py-2 bg-gray-900 text-white rounded-lg hover:bg-gray-700 transition font-medium"
               >
-                Done
+                {t('done')}
               </button>
             </div>
           </div>

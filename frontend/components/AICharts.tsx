@@ -1,5 +1,6 @@
 'use client'
 
+import { useTranslation } from 'react-i18next'
 import { Pie, Bar, Line } from 'react-chartjs-2'
 import {
   Chart as ChartJS,
@@ -331,6 +332,8 @@ function LineChart({ spec }: { spec: ChartSpec }) {
 // ── Main ChartRenderer ────────────────────────────────────────────
 
 export default function ChartRenderer({ spec }: { spec: ChartSpec }) {
+  const { t } = useTranslation('ai-copilot')
+
   try {
     switch (spec.type) {
       case 'pie':
@@ -344,14 +347,14 @@ export default function ChartRenderer({ spec }: { spec: ChartSpec }) {
       default:
         return (
           <div className="text-xs text-gray-400 italic p-2 bg-gray-50 rounded">
-            Unknown chart type: {spec.type}
+            {t('errors.unknownChartType')}{spec.type}
           </div>
         )
     }
   } catch (err) {
     return (
       <div className="text-xs text-red-400 italic p-2 bg-red-50 rounded">
-        Failed to render chart
+        {t('errors.failedToRenderChart')}
       </div>
     )
   }

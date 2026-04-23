@@ -1,0 +1,80 @@
+{
+  "hero": {
+    "eyebrow": "54+ pays africains · Données en direct",
+    "headline": {
+      "prefix": "La",
+      "highlight": "lentille géospatiale",
+      "suffix": "sur le développement de l'Afrique."
+    },
+    "description": "Explorez l'accès à l'eau, les inégalités de revenus et les indicateurs de développement à travers le continent — avec des cartes interactives, 23 ans de données tendancielles et des analyses au niveau des pays, conçues pour les chercheurs et les décideurs politiques."
+  },
+  "cta": {
+    "loading": "Chargement...",
+    "goToMap": "Accéder à la carte",
+    "dashboard": "Tableau de bord",
+    "exploreTheMap": "Explorer la carte",
+    "signIn": "Se connecter"
+  },
+  "stats": {
+    "africanCountries": "Pays africains",
+    "dataRange": "Plage de données",
+    "dataSources": "Sources de données",
+    "communityDrivenQuality": "Qualité collaborative"
+  },
+  "features": {
+    "heading": "Capacités de la plateforme",
+    "interactiveMap": {
+      "title": "Carte interactive",
+      "description": "Explorez les couches géospatiales de plus de 54 pays. Comparez les vues côte à côte, tracez des polygones personnalisés, basculez entre les styles satellite, relief et sombre.",
+      "tags": {
+        "polygonDraw": "Tracé de polygones",
+        "sideBySide": "Côte à côte",
+        "export": "Export"
+      }
+    },
+    "waterWatch": {
+      "description": "Suivez les progrès en matière d'accès à l'eau de 2000 à 2023. Consultez les classements par pays, les écarts urbain/rural et les graphiques de tendances sur plusieurs décennies à travers le continent.",
+      "tags": {
+        "dateRange": "2000–2023",
+        "urbanRural": "Urbain/Rural",
+        "rankings": "Classements"
+      }
+    },
+    "giniWatch": {
+      "description": "Suivez les inégalités de revenus (indice de Gini) de 2000 à 2023. Comparez les niveaux d'égalité, identifiez les pays qui se sont améliorés ou dégradés, et explorez les tendances statistiques.",
+      "tags": {
+        "dateRange": "2000–2023",
+        "giniIndex": "Indice de Gini",
+        "trends": "Tendances"
+      }
+    },
+    "statisticalAnalysis": {
+      "title": "Analyse statistique",
+      "description": "Tracez n'importe quelle région sur la carte et obtenez instantanément des statistiques détaillées, des ventilations de données et des mesures pour cette zone personnalisée.",
+      "tags": {
+        "customArea": "Zone personnalisée",
+        "instantStats": "Stats instantanées",
+        "breakdowns": "Ventilations"
+      }
+    },
+    "dataReporting": {
+      "title": "Signalement de données",
+      "description": "Signalez les données incorrectes directement sur la carte, ajoutez des commentaires contextuels et suivez la résolution des problèmes — pour maintenir la fiabilité du jeu de données.",
+      "tags": {
+        "flagIssues": "Signaler des erreurs",
+        "comments": "Commentaires",
+        "trackFixes": "Suivi des corrections"
+      }
+    }
+  },
+  "audience": {
+    "title": "Conçu pour les chercheurs, les décideurs politiques et les organisations de développement",
+    "tail": " — au carrefour des données et de l'impact sur le continent africain.",
+    "requestAccess": "Demander l'accès"
+  },
+  "footer": {
+    "about": "À propos",
+    "documentation": "Documentation",
+    "contact": "Contact"
+  }
+}

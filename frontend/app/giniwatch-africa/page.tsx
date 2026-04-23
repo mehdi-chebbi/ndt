@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useRef, useState } from 'react'
+import { useTranslation } from 'react-i18next'
 
 /* ─── tiny hook ─── */
 function useInView(threshold = 0.15) {
@@ -98,16 +99,17 @@ function Modal({ open, onClose, title, accentColor, children }: {
 
 /* ─── view full list button ─── */
 function ViewFullListBtn({ onClick }: { onClick: () => void }) {
+  const { t } = useTranslation('giniwatch')
   const [hover, setHover] = useState(false)
   return (
     <button onClick={onClick} onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}
       style={{ background: hover ? '#f9fafb' : 'transparent', border: '0.5px solid #e5e7eb', borderRadius: '6px', padding: '5px 10px', cursor: 'pointer', fontFamily: "'JetBrains Mono', monospace", fontSize: '10px', letterSpacing: '0.08em', color: hover ? '#374151' : '#9ca3af', transition: 'all 0.15s', whiteSpace: 'nowrap' as const, flexShrink: 0 }}>
-      View full list ↗
+      {t('viewFullList')}
     </button>
   )
 }
 
-const NA = () => <span style={{ fontFamily: "'JetBrains Mono', monospace", fontSize: '11px', color: '#d1d5db' }}>n/a</span>
+const NA = () => { const { t } = useTranslation('giniwatch'); return <span style={{ fontFamily: "'JetBrains Mono', monospace", fontSize: '11px', color: '#d1d5db' }}>{t('na')}</span> }
 
 /* ─── gini color: green (low inequality) → red (high) ─── */
 function giniColor(v: number): string {
@@ -220,6 +222,7 @@ const latestVals = withData.map(c => ({ name: c.name, val: latest(c)!.val, year:
 latestVals.sort((a, b) => b.val - a.val)
 
 export default function GiniAfricaPage() {
+  const { t } = useTranslation('giniwatch')
   const trendChartRef = useRef<HTMLCanvasElement>(null)
   const [scrollY, setScrollY] = useState(0)
   const [modal, setModal] = useState<null | 'highest' | 'lowest' | 'worsened' | 'improved' | 'changes'>(null)
@@ -253,7 +256,7 @@ export default function GiniAfricaPage() {
         data: {
           labels: years.map(String),
           datasets: [{
-            label: 'Continental avg',
+            label: t('chart.continentalAvg'),
             data: avgs,
             borderColor: '#7c3aed',
             borderWidth: 2.5,
@@ -278,7 +281,7 @@ export default function GiniAfricaPage() {
               titleColor: '#a78bfa', bodyColor: '#f9fafb',
               titleFont: { family: "'JetBrains Mono', monospace", size: 10 },
               bodyFont: { size: 16 }, padding: 14,
-              callbacks: { label: (c: any) => 'Avg Gini: ' + c.parsed.y.toFixed(1) }
+              callbacks: { label: (c: any) => t('chart.avgGiniTooltip', { value: c.parsed.y.toFixed(1) }) }
             }
           },
           scales: {
@@ -317,11 +320,11 @@ export default function GiniAfricaPage() {
 
   // notable snapshot table
   const notableTable = [
-    { country: 'South Africa', val: 63.0, year: 2014, note: 'Highest sustained Gini on continent' },
-    { country: 'Namibia', val: 59.1, year: 2015, note: 'Improved but still very high' },
-    { country: 'Egypt', val: 28.5, year: 2021, note: 'Consistently low — most equal in Africa' },
-    { country: 'Algeria', val: 27.6, year: 2011, note: 'Only one reading available' },
-    { country: 'Guinea', val: 29.6, year: 2018, note: 'Steady decline in inequality' }
+    { country: 'South Africa', val: 63.0, year: 2014, note: t('notableNotes.highestSustained') },
+    { country: 'Namibia', val: 59.1, year: 2015, note: t('notableNotes.improvedButHigh') },
+    { country: 'Egypt', val: 28.5, year: 2021, note: t('notableNotes.consistentlyLow') },
+    { country: 'Algeria', val: 27.6, year: 2011, note: t('notableNotes.onlyOneReading') },
+    { country: 'Guinea', val: 29.6, year: 2018, note: t('notableNotes.steadyDecline') }
   ]
 
   // full list for modals
@@ -359,10 +362,10 @@ export default function GiniAfricaPage() {
   )
 
   const kpis = [
-    { label: 'Countries with data', value: withData.length, suffix: '', decimals: 0, sub: `of ${withData.length + NO_DATA.length} in dataset`, accent: false, display: null as string | null },
-    { label: 'Avg Gini index', value: avgGini, suffix: '', decimals: 1, sub: 'simple avg, latest readings', accent: true, display: null as string | null },
-    { label: 'Highly unequal (≥50)', value: null as number | null, suffix: '', decimals: 0, sub: 'countries at latest reading', accent: false, display: `${above50Count}/${withData.length}` },
-    { label: 'Inequality improved', value: null as number | null, suffix: '', decimals: 0, sub: 'countries with 2+ readings', accent: false, display: `${improvedCount}/${changers.length}` },
+    { label: t('kpis.countriesWithData'), value: withData.length, suffix: '', decimals: 0, sub: t('kpis.countriesWithDataSub', { total: withData.length + NO_DATA.length }), accent: false, display: null as string | null },
+    { label: t('kpis.avgGiniIndex'), value: avgGini, suffix: '', decimals: 1, sub: t('kpis.avgGiniIndexSub'), accent: true, display: null as string | null },
+    { label: t('kpis.highlyUnequal'), value: null as number | null, suffix: '', decimals: 0, sub: t('kpis.highlyUnequalSub'), accent: false, display: `${above50Count}/${withData.length}` },
+    { label: t('kpis.inequalityImproved'), value: null as number | null, suffix: '', decimals: 0, sub: t('kpis.inequalityImprovedSub'), accent: false, display: `${improvedCount}/${changers.length}` },
   ]
 
   return (
@@ -371,8 +374,8 @@ export default function GiniAfricaPage() {
       <link href="https://api.fontshare.com/v2/css?f[]=clash-display@400,500,600,700&display=swap" rel="stylesheet" />
 
       {/* ── MODAL: Most unequal ─── */}
-      <Modal open={modal === 'highest'} onClose={() => setModal(null)} title="All countries — Gini index (highest → lowest)" accentColor="#ef4444">
-        {mHead(['#', 'Country', 'Year', 'Gini'], '28px 1fr 56px 72px')}
+      <Modal open={modal === 'highest'} onClose={() => setModal(null)} title={t('modals.highestTitle')} accentColor="#ef4444">
+        {mHead([t('tableHeaders.rank'), t('tableHeaders.country'), t('tableHeaders.year'), t('tableHeaders.gini')], '28px 1fr 56px 72px')}
         {[...allRanked].sort((a, b) => {
           if (a.latestVal === null && b.latestVal === null) return 0
           if (a.latestVal === null) return 1
@@ -391,8 +394,8 @@ export default function GiniAfricaPage() {
       </Modal>
 
       {/* ── MODAL: Most equal ─── */}
-      <Modal open={modal === 'lowest'} onClose={() => setModal(null)} title="All countries — Gini index (lowest → highest)" accentColor="#16a34a">
-        {mHead(['#', 'Country', 'Year', 'Gini'], '28px 1fr 56px 72px')}
+      <Modal open={modal === 'lowest'} onClose={() => setModal(null)} title={t('modals.lowestTitle')} accentColor="#16a34a">
+        {mHead([t('tableHeaders.rank'), t('tableHeaders.country'), t('tableHeaders.year'), t('tableHeaders.gini')], '28px 1fr 56px 72px')}
         {[...allRanked].sort((a, b) => {
           if (a.latestVal === null && b.latestVal === null) return 0
           if (a.latestVal === null) return 1
@@ -411,8 +414,8 @@ export default function GiniAfricaPage() {
       </Modal>
 
       {/* ── MODAL: Worsened ─── */}
-      <Modal open={modal === 'worsened'} onClose={() => setModal(null)} title="All countries — inequality change (first → latest reading)" accentColor="#ef4444">
-        {mHead(['#', 'Country', 'First', 'Latest', 'Δ'], '28px 1fr 72px 72px 76px')}
+      <Modal open={modal === 'worsened'} onClose={() => setModal(null)} title={t('modals.worsenedTitle')} accentColor="#ef4444">
+        {mHead([t('tableHeaders.rank'), t('tableHeaders.country'), t('tableHeaders.first'), t('tableHeaders.latest'), t('tableHeaders.delta')], '28px 1fr 72px 72px 76px')}
         {[...allRanked].sort((a, b) => {
           if (a.chg === null && b.chg === null) return 0
           if (a.chg === null) return 1
@@ -440,8 +443,8 @@ export default function GiniAfricaPage() {
       </Modal>
 
       {/* ── MODAL: Improved ─── */}
-      <Modal open={modal === 'improved'} onClose={() => setModal(null)} title="All countries — inequality improvement (first → latest reading)" accentColor="#16a34a">
-        {mHead(['#', 'Country', 'First', 'Latest', 'Δ'], '28px 1fr 72px 72px 76px')}
+      <Modal open={modal === 'improved'} onClose={() => setModal(null)} title={t('modals.improvedTitle')} accentColor="#16a34a">
+        {mHead([t('tableHeaders.rank'), t('tableHeaders.country'), t('tableHeaders.first'), t('tableHeaders.latest'), t('tableHeaders.delta')], '28px 1fr 72px 72px 76px')}
         {[...allRanked].sort((a, b) => {
           if (a.chg === null && b.chg === null) return 0
           if (a.chg === null) return 1
@@ -469,8 +472,8 @@ export default function GiniAfricaPage() {
       </Modal>
 
       {/* ── MODAL: Notable changes ─── */}
-      <Modal open={modal === 'changes'} onClose={() => setModal(null)} title="All countries — full Gini snapshot table" accentColor="#6366f1">
-        {mHead(['#', 'Country', 'Readings', 'Latest', 'Δ'], '28px 1fr 56px 68px 76px')}
+      <Modal open={modal === 'changes'} onClose={() => setModal(null)} title={t('modals.changesTitle')} accentColor="#6366f1">
+        {mHead([t('tableHeaders.rank'), t('tableHeaders.country'), t('tableHeaders.readings'), t('tableHeaders.latest'), t('tableHeaders.delta')], '28px 1fr 56px 68px 76px')}
         {[...allRanked].sort((a, b) => {
           if (a.latestVal === null && b.latestVal === null) return 0
           if (a.latestVal === null) return 1
@@ -506,26 +509,26 @@ export default function GiniAfricaPage() {
         <div style={{ position: 'absolute', top: '-80px', right: '160px', width: '420px', height: '420px', borderRadius: '50%', background: 'radial-gradient(circle,rgba(124,58,237,0.06) 0%,transparent 70%)', transform: `translateY(${scrollY * 0.12}px)`, pointerEvents: 'none' }} />
         <Stagger delay={0}>
           <p style={{ fontFamily: "'JetBrains Mono', monospace", fontSize: '10px', letterSpacing: '0.2em', color: '#7c3aed', marginBottom: '20px', textTransform: 'uppercase' }}>
-            ◈ World Bank Dataset · Africa · 2000–2023
+            {t('header.subtitle')}
           </p>
         </Stagger>
         <Stagger delay={70}>
           <h1 style={{ fontFamily: "'Clash Display', sans-serif", fontSize: 'clamp(2.8rem,5.5vw,5rem)', lineHeight: 0.92, letterSpacing: '-0.03em', color: '#0f172a', fontWeight: 700, marginBottom: '6px' }}>
-            Income Inequality
+            {t('header.title')}
           </h1>
         </Stagger>
         <Stagger delay={140}>
           <h1 style={{ fontFamily: "'Clash Display', sans-serif", fontSize: 'clamp(2.8rem,5.5vw,5rem)', lineHeight: 0.92, letterSpacing: '-0.03em', fontWeight: 700, marginBottom: '40px' }}>
-            <em style={{ color: '#7c3aed', fontStyle: 'italic' }}>Gini Index Across Africa</em>
+            <em style={{ color: '#7c3aed', fontStyle: 'italic' }}>{t('header.titleItalic')}</em>
           </h1>
         </Stagger>
         <Stagger delay={220}>
           <div style={{ display: 'flex', gap: '40px', flexWrap: 'wrap' }}>
             {[
-              { label: 'Indicator', value: 'Gini index (0 = equal, 100 = unequal)' },
-              { label: 'Period', value: '2000 – 2023' },
-              { label: 'Source', value: 'World Bank / PovcalNet' },
-              { label: 'Note', value: 'Sparse — survey-based snapshots only' },
+              { label: t('header.metaIndicator'), value: t('header.metaIndicatorValue') },
+              { label: t('header.metaPeriod'), value: t('header.metaPeriodValue') },
+              { label: t('header.metaSource'), value: t('header.metaSourceValue') },
+              { label: t('header.metaNote'), value: t('header.metaNoteValue') },
             ].map((item, i) => (
               <div key={i}>
                 <p style={{ fontFamily: "'JetBrains Mono', monospace", fontSize: '9px', letterSpacing: '0.14em', color: '#9ca3af', textTransform: 'uppercase', marginBottom: '4px' }}>{item.label}</p>
@@ -558,16 +561,16 @@ export default function GiniAfricaPage() {
         <div style={{ display: 'grid', gridTemplateColumns: '3fr 2fr', gap: '16px', marginBottom: '16px' }}>
           <Stagger delay={0}>
             <div style={card}>
-              {sectionHead('#7c3aed', 'Continental avg Gini — year-by-year (survey years only)')}
+              {sectionHead('#7c3aed', t('sections.continentalAvg'))}
               <p style={{ fontSize: '11px', color: '#9ca3af', marginBottom: '12px', fontFamily: "'JetBrains Mono', monospace" }}>
-                Each point = avg of all country readings in that survey year. Data is sparse — not every country reported every year.
+                {t('sections.continentalAvgDesc')}
               </p>
               <div style={{ height: '200px', position: 'relative' }}><canvas ref={trendChartRef} /></div>
             </div>
           </Stagger>
           <Stagger delay={80}>
             <div style={card}>
-              {sectionHead('#ef4444', 'Most unequal — latest reading', () => setModal('highest'))}
+              {sectionHead('#ef4444', t('sections.mostUnequal'), () => setModal('highest'))}
               <div style={{ display: 'flex', flexDirection: 'column', gap: '13px' }}>
                 {mostUnequal.map((d, i) => (
                   <div key={i} style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
@@ -586,7 +589,7 @@ export default function GiniAfricaPage() {
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px', marginBottom: '16px' }}>
           <Stagger delay={0}>
             <div style={card}>
-              {sectionHead('#16a34a', 'Most equal — latest reading', () => setModal('lowest'))}
+              {sectionHead('#16a34a', t('sections.mostEqual'), () => setModal('lowest'))}
               <div style={{ display: 'flex', flexDirection: 'column', gap: '13px' }}>
                 {mostEqual.map((d, i) => (
                   <div key={i} style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
@@ -602,7 +605,7 @@ export default function GiniAfricaPage() {
 
           <Stagger delay={80}>
             <div style={card}>
-              {sectionHead('#ef4444', 'Inequality worsened most (first → latest)', () => setModal('worsened'))}
+              {sectionHead('#ef4444', t('sections.worsenedMost'), () => setModal('worsened'))}
               <div style={{ display: 'flex', flexDirection: 'column', gap: '13px' }}>
                 {worsened.map((d, i) => (
                   <div key={i} style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
@@ -621,7 +624,7 @@ export default function GiniAfricaPage() {
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px', marginBottom: '16px' }}>
           <Stagger delay={0}>
             <div style={card}>
-              {sectionHead('#16a34a', 'Inequality improved most (first → latest)', () => setModal('improved'))}
+              {sectionHead('#16a34a', t('sections.improvedMost'), () => setModal('improved'))}
               <div style={{ display: 'flex', flexDirection: 'column', gap: '13px' }}>
                 {improved.map((d, i) => (
                   <div key={i} style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
@@ -637,11 +640,11 @@ export default function GiniAfricaPage() {
 
           <Stagger delay={80}>
             <div style={card}>
-              {sectionHead('#6366f1', 'Notable country snapshots', () => setModal('changes'))}
+              {sectionHead('#6366f1', t('sections.notableSnapshots'), () => setModal('changes'))}
               <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '13px' }}>
                 <thead>
                   <tr>
-                    {['Country', 'Gini', 'Year', 'Note'].map((h, i) => (
+                    {[t('tableHeaders.country'), t('tableHeaders.gini'), t('tableHeaders.year'), t('tableHeaders.note')].map((h, i) => (
                       <th key={i} style={{ fontFamily: "'JetBrains Mono', monospace", fontSize: '10px', letterSpacing: '0.1em', textTransform: 'uppercase', color: '#9ca3af', fontWeight: 400, padding: '0 0 12px', textAlign: 'left', borderBottom: '1px solid #f3f4f6' }}>{h}</th>
                     ))}
                   </tr>
@@ -664,7 +667,7 @@ export default function GiniAfricaPage() {
         {/* ── DATA COVERAGE ── */}
         <Stagger delay={0}>
           <div style={{ ...card, marginBottom: '16px' }}>
-            {sectionHead('#9ca3af', 'Data coverage — number of survey readings per country (2000–2020)')}
+            {sectionHead('#9ca3af', t('sections.dataCoverage'))}
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(180px, 1fr))', gap: '8px' }}>
               {[...RAW].sort((a, b) => b.readings.length - a.readings.length).map((c, i) => {
                 const n = c.readings.length
@@ -688,10 +691,10 @@ export default function GiniAfricaPage() {
             </div>
             <div style={{ display: 'flex', gap: '20px', marginTop: '16px', flexWrap: 'wrap' }}>
               {[
-                { color: '#e5e7eb', textColor: '#6b7280', label: '0 readings' },
-                { color: '#fde68a', textColor: '#92400e', label: '1–2 readings' },
-                { color: '#6ee7b7', textColor: '#065f46', label: '3–4 readings' },
-                { color: '#7c3aed', textColor: '#5b21b6', label: '5+ readings' },
+                { color: '#e5e7eb', textColor: '#6b7280', label: t('dataCoverage.legend0') },
+                { color: '#fde68a', textColor: '#92400e', label: t('dataCoverage.legend12') },
+                { color: '#6ee7b7', textColor: '#065f46', label: t('dataCoverage.legend34') },
+                { color: '#7c3aed', textColor: '#5b21b6', label: t('dataCoverage.legend5plus') },
               ].map((l, i) => (
                 <span key={i} style={{ display: 'flex', alignItems: 'center', gap: '6px', fontSize: '11px', color: l.textColor }}>
                   <span style={{ width: '10px', height: '6px', background: l.color, borderRadius: '2px', display: 'inline-block' }} />
@@ -705,9 +708,9 @@ export default function GiniAfricaPage() {
         {/* ── INSIGHT CARDS ── */}
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3,1fr)', gap: '16px' }}>
           {[
-            { icon: '◎', title: 'Southern Africa remains most unequal', desc: 'South Africa (63.0), Namibia (59.1), Zambia (55.8), and Botswana (54.9) consistently top the continent. Southern Africa has the highest sustained Gini readings globally.', accent: '#ef4444' },
-            { icon: '↘', title: 'North Africa is significantly more equal', desc: 'Egypt (31.9), Algeria (27.6), and Tunisia (32.8) are the most equal economies in Africa — with Gini scores comparable to many European countries.', accent: '#16a34a' },
-            { icon: '⚠', title: 'Sparse data limits conclusions', desc: 'Most countries have only 2–4 survey readings over 20 years. Changes between readings may reflect methodology shifts as much as real inequality trends. Interpret with caution.', accent: '#f97316' },
+            { icon: '◎', title: t('insights.southernAfricaTitle'), desc: t('insights.southernAfricaDesc'), accent: '#ef4444' },
+            { icon: '↘', title: t('insights.northAfricaTitle'), desc: t('insights.northAfricaDesc'), accent: '#16a34a' },
+            { icon: '⚠', title: t('insights.sparseDataTitle'), desc: t('insights.sparseDataDesc'), accent: '#f97316' },
           ].map((item, i) => (
             <Stagger key={i} delay={i * 80}>
               <div style={{ ...card, borderTop: `3px solid ${item.accent}`, height: '100%' }}>
@@ -722,10 +725,10 @@ export default function GiniAfricaPage() {
 
       <footer style={{ padding: '24px 64px', borderTop: '1px solid #e5e7eb', display: 'flex', justifyContent: 'space-between', alignItems: 'center', background: '#ffffff' }}>
         <p style={{ fontFamily: "'JetBrains Mono', monospace", fontSize: '11px', letterSpacing: '0.08em', color: '#9ca3af' }}>
-          Gini index — income or consumption inequality within countries
+          {t('footer.left')}
         </p>
         <p style={{ fontFamily: "'JetBrains Mono', monospace", fontSize: '11px', letterSpacing: '0.08em', color: '#9ca3af' }}>
-          Data: World Bank / PovcalNet · 2000–2023
+          {t('footer.right')}
         </p>
       </footer>
     </div>

@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react'
 import Link from 'next/link'
 import { api } from '@/lib/authFetch'
 import { useAuth } from '@/contexts/AuthContext'
+import { useTranslation } from 'react-i18next'
 
 interface User {
   id: number
@@ -15,6 +16,7 @@ interface User {
 
 export default function AdminPage() {
   const { user, loading, isAuthenticated } = useAuth()
+  const { t } = useTranslation('admin')
   const [users, setUsers] = useState<User[]>([])
   const [loadingUsers, setLoadingUsers] = useState(true)
   const [error, setError] = useState('')
@@ -39,7 +41,7 @@ export default function AdminPage() {
       const data = await response.json()
 
       if (!response.ok) {
-        throw new Error(data.error || 'Failed to fetch users')
+        throw new Error(data.error || t('dashboard.errors.failedToFetchUsers'))
       }
 
       setUsers(data.users)
@@ -51,7 +53,7 @@ export default function AdminPage() {
   }
 
   const handleDelete = async (userId: number) => {
-    if (!confirm('Are you sure you want to delete this user?')) {
+    if (!confirm(t('dashboard.errors.confirmDeleteUser'))) {
       return
     }
 
@@ -59,7 +61,7 @@ export default function AdminPage() {
       const response = await api.delete(`/admin/users/${userId}`)
 
       if (!response.ok) {
-        throw new Error('Failed to delete user')
+        throw new Error(t('dashboard.errors.failedToDeleteUser'))
       }
 
       // Refresh users list
@@ -74,7 +76,7 @@ export default function AdminPage() {
       <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center">
         <div className="text-center">
           <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-gray-900 mx-auto"></div>
-          <p className="mt-4 text-gray-600">Loading...</p>
+          <p className="mt-4 text-gray-600">{t('shared.loading')}</p>
         </div>
       </div>
     )
@@ -94,7 +96,7 @@ export default function AdminPage() {
             href="/admin/layers" 
             className="px-4 py-2 bg-gray-900 text-white rounded-lg hover:bg-gray-800 transition font-medium"
           >
-            Manage Layer Metadata
+            {t('dashboard.manageLayerMetadata')}
           </Link>
           <Link
             href="/admin/clips"
@@ -103,7 +105,7 @@ export default function AdminPage() {
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.121 14.121L19 19m-7-7l7-7m-7 7l-2.879 2.879M12 12L9.121 9.121m0 5.758a3 3 0 10-4.243 4.243 3 3 0 004.243-4.243zm0-5.758a3 3 0 10-4.243-4.243 3 3 0 004.243 4.243z" />
             </svg>
-            Clip Management
+            {t('dashboard.clipManagement')}
           </Link>
           <Link
             href="/admin/stats"
@@ -112,7 +114,7 @@ export default function AdminPage() {
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
             </svg>
-            Stats Management
+            {t('dashboard.statsManagement')}
           </Link>
         </div>
 
@@ -121,7 +123,7 @@ export default function AdminPage() {
           <div className="bg-white rounded-xl shadow-sm p-6">
             <div className="flex items-center justify-between">
               <div>
-                <p className="text-gray-600 text-sm">Total Users</p>
+                <p className="text-gray-600 text-sm">{t('dashboard.totalUsers')}</p>
                 <p className="text-3xl font-bold text-gray-900">{users.length}</p>
               </div>
               <div className="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center">
@@ -135,7 +137,7 @@ export default function AdminPage() {
           <div className="bg-white rounded-xl shadow-sm p-6">
             <div className="flex items-center justify-between">
               <div>
-                <p className="text-gray-600 text-sm">Admin Users</p>
+                <p className="text-gray-600 text-sm">{t('dashboard.adminUsers')}</p>
                 <p className="text-3xl font-bold text-gray-900">{users.filter(u => u.role === 'admin').length}</p>
               </div>
               <div className="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center">
@@ -149,7 +151,7 @@ export default function AdminPage() {
           <div className="bg-white rounded-xl shadow-sm p-6">
             <div className="flex items-center justify-between">
               <div>
-                <p className="text-gray-600 text-sm">Regular Users</p>
+                <p className="text-gray-600 text-sm">{t('dashboard.regularUsers')}</p>
                 <p className="text-3xl font-bold text-gray-900">{users.filter(u => u.role === 'user').length}</p>
               </div>
               <div className="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center">
@@ -164,7 +166,7 @@ export default function AdminPage() {
         {/* Users Table */}
         <div className="bg-white rounded-xl shadow-sm overflow-hidden">
           <div className="px-6 py-4 border-b border-gray-200">
-            <h2 className="text-lg font-semibold text-gray-900">All Users</h2>
+            <h2 className="text-lg font-semibold text-gray-900">{t('dashboard.allUsers')}</h2>
           </div>
 
           {error && (
@@ -178,7 +180,7 @@ export default function AdminPage() {
               <svg className="w-12 h-12 text-gray-400 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z" />
               </svg>
-              <p className="text-gray-600">No users found</p>
+              <p className="text-gray-600">{t('dashboard.noUsersFound')}</p>
             </div>
           ) : (
             <div className="overflow-x-auto">
@@ -186,19 +188,19 @@ export default function AdminPage() {
                 <thead className="bg-gray-50">
                   <tr>
                     <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                      Name
+                      {t('dashboard.table.name')}
                     </th>
                     <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                      Email
+                      {t('dashboard.table.email')}
                     </th>
                     <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                      Role
+                      {t('dashboard.table.role')}
                     </th>
                     <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                      Created At
+                      {t('dashboard.table.createdAt')}
                     </th>
                     <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                      Actions
+                      {t('dashboard.table.actions')}
                     </th>
                   </tr>
                 </thead>
@@ -229,7 +231,7 @@ export default function AdminPage() {
                             onClick={() => handleDelete(user.id)}
                             className="text-red-600 hover:text-red-800 transition"
                           >
-                            Delete
+                            {t('shared.delete')}
                           </button>
                         )}
                       </td>
@@ -246,7 +248,7 @@ export default function AdminPage() {
       <footer className="bg-white border-t mt-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <p className="text-center text-gray-600">
-            © 2025 Platform. All rights reserved.
+            {t('shared.footer')}
           </p>
         </div>
       </footer>

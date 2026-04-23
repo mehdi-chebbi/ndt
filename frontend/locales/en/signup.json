@@ -1,0 +1,32 @@
+{
+  "title": "Create Account",
+  "subtitle": "Sign up to get started",
+  "fullNameLabel": "Full Name",
+  "fullNamePlaceholder": "John Doe",
+  "emailLabel": "Email Address",
+  "emailPlaceholder": "you@example.com",
+  "passwordLabel": "Password",
+  "passwordPlaceholder": "Min. 6 characters",
+  "confirmPasswordLabel": "Confirm Password",
+  "confirmPasswordPlaceholder": "Re-enter password",
+  "profileInfo": "Profile Information",
+  "countryPlaceholder": "Search or select your country",
+  "phoneNumberLabel": "Phone Number",
+  "jobTitleLabel": "Job Title",
+  "jobTitlePlaceholder": "e.g. Researcher, Data Scientist",
+  "institutionLabel": "Institution / Organization",
+  "institutionPlaceholder": "e.g. University of Lagos",
+  "creatingAccount": "Creating account...",
+  "createAccountButton": "Create Account",
+  "orContinueWith": "Or continue with",
+  "signUpWithGoogle": "Sign up with Google",
+  "signUpWithMicrosoft": "Sign up with Microsoft",
+  "haveAccount": "Already have an account?",
+  "signInLink": "Sign in",
+  "errors": {
+    "passwordsDoNotMatch": "Passwords do not match",
+    "passwordTooShort": "Password must be at least 6 characters",
+    "allFieldsRequired": "Please fill in all fields",
+    "signupFailed": "Signup failed"
+  }
+}

@@ -1,7 +1,9 @@
 'use client'
 
 import { useState, useEffect, useRef } from 'react'
+import { useTranslation } from 'react-i18next'
 import { authFetch } from '@/lib/authFetch'
+import { resolveCountryName } from '@/lib/i18n-utils'
 
 interface Country {
   name: string
@@ -15,6 +17,7 @@ interface CountrySelectorProps {
 }
 
 export default function CountrySelector({ selectedCountry, onSelectCountry, disabled }: CountrySelectorProps) {
+  const { t } = useTranslation('map')
   const [countries, setCountries] = useState<Country[]>([])
   const [isLoading, setIsLoading] = useState(true)
   const [isOpen, setIsOpen] = useState(false)
@@ -85,7 +88,7 @@ export default function CountrySelector({ selectedCountry, onSelectCountry, disa
         `}
       >
         <span className="truncate">
-          {isLoading ? 'Loading countries...' : selectedCountry || 'Select a country'}
+          {isLoading ? t('countrySelector.loadingCountries') : (selectedCountry ? resolveCountryName(selectedCountry) : t('countrySelector.selectCountry'))}
         </span>
         <svg 
           className={`w-4 h-4 text-gray-500 transition-transform duration-200 ${isOpen ? 'rotate-180' : ''}`}
@@ -104,7 +107,7 @@ export default function CountrySelector({ selectedCountry, onSelectCountry, disa
           <div className="p-2 border-b border-gray-200">
             <input
               type="text"
-              placeholder="Search country..."
+              placeholder={t('countrySelector.searchCountry')}
               value={search}
               onChange={(e) => setSearch(e.target.value)}
               className="w-full px-3 py-2 text-sm border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
@@ -118,7 +121,7 @@ export default function CountrySelector({ selectedCountry, onSelectCountry, disa
               onClick={handleClear}
               className="w-full px-3 py-2 text-left text-sm text-red-600 hover:bg-red-50 border-b border-gray-200"
             >
-              Clear selection
+              {t('countrySelector.clearSelection')}
             </button>
           )}
 
@@ -126,7 +129,7 @@ export default function CountrySelector({ selectedCountry, onSelectCountry, disa
           <div className="overflow-y-auto max-h-56">
             {filteredCountries.length === 0 ? (
               <div className="px-3 py-2 text-sm text-gray-500 text-center">
-                No countries found
+                {t('countrySelector.noCountriesFound')}
               </div>
             ) : (
               filteredCountries.map((country) => (
@@ -139,7 +142,7 @@ export default function CountrySelector({ selectedCountry, onSelectCountry, disa
                     transition-colors duration-100
                   `}
                 >
-                  {country.name}
+                  {resolveCountryName(country.name)}
                 </button>
               ))
             )}

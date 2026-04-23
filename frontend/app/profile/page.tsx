@@ -9,6 +9,7 @@ import ChartRenderer, { parseChartSpec } from '@/components/AICharts'
 import CountrySelect from '@/components/ui/CountrySelect'
 import PhoneInput from '@/components/ui/PhoneInput'
 import { useAuth } from '@/contexts/AuthContext'
+import { useTranslation } from 'react-i18next'
 
 // ── Multimodal helpers ──
 interface TextContentPart { type: 'text'; text: string }
@@ -155,6 +156,7 @@ const API_BASE = ''  // Use relative paths for reverse proxy compatibility
 export default function ProfilePage() {
   const router = useRouter()
   const { user: authUser, isAuthenticated, loading: authLoading } = useAuth()
+  const { t } = useTranslation('profile')
   const [user, setUser] = useState<any>(null)
   const [sessions, setSessions] = useState<Session[]>([])
   const [loading, setLoading] = useState(true)
@@ -205,7 +207,7 @@ export default function ProfilePage() {
           },
         })
 
-        if (!res.ok) throw new Error('Failed to load sessions')
+        if (!res.ok) throw new Error(t('errors.failedToLoadSessions'))
 
         const data = await res.json()
         setSessions(data.sessions || [])
@@ -259,7 +261,7 @@ export default function ProfilePage() {
 
       if (!res.ok) {
         const data = await res.json()
-        throw new Error(data.error || 'Failed to update profile')
+        throw new Error(data.error || t('errors.failedToUpdateProfile'))
       }
 
       const data = await res.json()
@@ -267,7 +269,7 @@ export default function ProfilePage() {
       setUser(updatedUser)
       localStorage.setItem('user', JSON.stringify(updatedUser))
       setIsEditing(false)
-      setProfileSuccess('Profile updated successfully')
+      setProfileSuccess(t('profileUpdatedSuccess'))
       setTimeout(() => setProfileSuccess(''), 3000)
     } catch (err: any) {
       alert(err.message)
@@ -282,17 +284,17 @@ export default function ProfilePage() {
     setPasswordSuccess('')
 
     if (!currentPassword || !newPassword || !confirmNewPassword) {
-      setPasswordError('All fields are required')
+      setPasswordError(t('password.errors.allFieldsRequired'))
       return
     }
 
     if (newPassword.length < 6) {
-      setPasswordError('New password must be at least 6 characters')
+      setPasswordError(t('password.errors.minLength'))
       return
     }
 
     if (newPassword !== confirmNewPassword) {
-      setPasswordError('New passwords do not match')
+      setPasswordError(t('password.errors.noMatch'))
       return
     }
 
@@ -314,10 +316,10 @@ export default function ProfilePage() {
 
       if (!res.ok) {
         const data = await res.json()
-        throw new Error(data.error || 'Failed to change password')
+        throw new Error(data.error || t('errors.failedToChangePassword'))
       }
 
-      setPasswordSuccess('Password changed successfully')
+      setPasswordSuccess(t('password.errors.changedSuccess'))
       setCurrentPassword('')
       setNewPassword('')
       setConfirmNewPassword('')
@@ -352,7 +354,7 @@ export default function ProfilePage() {
         },
       })
 
-      if (!res.ok) throw new Error('Failed to load messages')
+      if (!res.ok) throw new Error(t('errors.failedToLoadMessages'))
 
       const data = await res.json()
       setSessionDetail(data)
@@ -366,7 +368,7 @@ export default function ProfilePage() {
   const handleDeleteSession = async (sessionId: number, e: React.MouseEvent) => {
     e.stopPropagation()
 
-    if (!confirm('Delete this conversation? This cannot be undone.')) return
+    if (!confirm(t('chatHistory.deleteConfirm'))) return
 
     try {
       const token = localStorage.getItem('token')
@@ -378,7 +380,7 @@ export default function ProfilePage() {
         },
       })
 
-      if (!res.ok) throw new Error('Failed to delete')
+      if (!res.ok) throw new Error(t('errors.failedToDelete'))
 
       setSessions(prev => prev.filter(s => s.id !== sessionId))
       if (expandedSession === sessionId) {
@@ -442,7 +444,7 @@ export default function ProfilePage() {
                     href="/map"
                     className="text-sm text-green-600 hover:text-green-700 font-medium"
                   >
-                    Go to Map →
+                    {t('goToMap')}
                   </Link>
                 </div>
               </div>
@@ -453,13 +455,13 @@ export default function ProfilePage() {
                   onClick={startEditing}
                   className="px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 transition"
                 >
-                  Edit Profile
+                  {t('editProfile')}
                 </button>
                 <button
                   onClick={() => setShowPasswordModal(true)}
                   className="px-4 py-2 text-sm font-medium text-red-600 bg-white border border-gray-300 rounded-lg hover:bg-red-50 hover:border-red-300 transition"
                 >
-                  Change Password
+                  {t('changePassword')}
                 </button>
               </div>
             )}
@@ -476,7 +478,7 @@ export default function ProfilePage() {
             {isEditing ? (
               <>
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-1.5">Full Name</label>
+                  <label className="block text-sm font-medium text-gray-700 mb-1.5">{t('fullName')}</label>
                   <input
                     type="text"
                     value={editName}
@@ -485,25 +487,25 @@ export default function ProfilePage() {
                   />
                 </div>
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-1.5">Email</label>
+                  <label className="block text-sm font-medium text-gray-700 mb-1.5">{t('email')}</label>
                   <input
                     type="email"
                     value={user.email}
                     disabled
                     className="w-full px-4 py-2.5 border border-gray-200 rounded-lg bg-gray-50 text-gray-400 text-sm cursor-not-allowed"
                   />
-                  <p className="text-xs text-gray-400 mt-1">Email cannot be changed</p>
+                  <p className="text-xs text-gray-400 mt-1">{t('emailCannotBeChanged')}</p>
                 </div>
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-1.5">Country</label>
+                  <label className="block text-sm font-medium text-gray-700 mb-1.5">{t('country')}</label>
                   <CountrySelect
                     value={editCountry}
                     onChange={setEditCountry}
-                    placeholder="Search or select country"
+                    placeholder={t('placeholders.searchCountry')}
                   />
                 </div>
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-1.5">Phone Number</label>
+                  <label className="block text-sm font-medium text-gray-700 mb-1.5">{t('phoneNumber')}</label>
                   <PhoneInput
                     country={editCountry}
                     phone={editPhone}
@@ -511,23 +513,23 @@ export default function ProfilePage() {
                   />
                 </div>
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-1.5">Job Title</label>
+                  <label className="block text-sm font-medium text-gray-700 mb-1.5">{t('jobTitle')}</label>
                   <input
                     type="text"
                     value={editJobTitle}
                     onChange={(e) => setEditJobTitle(e.target.value)}
                     className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent outline-none transition text-sm"
-                    placeholder="e.g. Researcher"
+                    placeholder={t('placeholders.jobTitle')}
                   />
                 </div>
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-1.5">Institution</label>
+                  <label className="block text-sm font-medium text-gray-700 mb-1.5">{t('institution')}</label>
                   <input
                     type="text"
                     value={editInstitution}
                     onChange={(e) => setEditInstitution(e.target.value)}
                     className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent outline-none transition text-sm"
-                    placeholder="e.g. University of Lagos"
+                    placeholder={t('placeholders.institution')}
                   />
                 </div>
                 <div className="sm:col-span-2 flex gap-3 justify-end">
@@ -535,33 +537,33 @@ export default function ProfilePage() {
                     onClick={cancelEditing}
                     className="px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 transition"
                   >
-                    Cancel
+                    {t('cancel')}
                   </button>
                   <button
                     onClick={saveProfile}
                     disabled={profileLoading || !editName.trim()}
                     className="px-6 py-2 text-sm font-medium text-white bg-green-600 rounded-lg hover:bg-green-700 disabled:opacity-50 disabled:cursor-not-allowed transition"
                   >
-                    {profileLoading ? 'Saving...' : 'Save Changes'}
+                    {profileLoading ? t('saving') : t('saveChanges')}
                   </button>
                 </div>
               </>
             ) : (
               <>
                 <div>
-                  <p className="text-xs text-gray-400 uppercase tracking-wide font-medium mb-1">Phone</p>
+                  <p className="text-xs text-gray-400 uppercase tracking-wide font-medium mb-1">{t('displayLabels.phone')}</p>
                   <p className="text-sm text-gray-700">{user.phone_number || '—'}</p>
                 </div>
                 <div>
-                  <p className="text-xs text-gray-400 uppercase tracking-wide font-medium mb-1">Country</p>
+                  <p className="text-xs text-gray-400 uppercase tracking-wide font-medium mb-1">{t('displayLabels.country')}</p>
                   <p className="text-sm text-gray-700">{user.country || '—'}</p>
                 </div>
                 <div>
-                  <p className="text-xs text-gray-400 uppercase tracking-wide font-medium mb-1">Job Title</p>
+                  <p className="text-xs text-gray-400 uppercase tracking-wide font-medium mb-1">{t('displayLabels.jobTitle')}</p>
                   <p className="text-sm text-gray-700">{user.job_title || '—'}</p>
                 </div>
                 <div>
-                  <p className="text-xs text-gray-400 uppercase tracking-wide font-medium mb-1">Institution</p>
+                  <p className="text-xs text-gray-400 uppercase tracking-wide font-medium mb-1">{t('displayLabels.institution')}</p>
                   <p className="text-sm text-gray-700">{user.institution || '—'}</p>
                 </div>
               </>
@@ -573,8 +575,8 @@ export default function ProfilePage() {
         {showPasswordModal && (
           <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 px-4">
             <div className="bg-white rounded-2xl shadow-xl w-full max-w-md p-8">
-              <h2 className="text-lg font-bold text-gray-900 mb-1">Change Password</h2>
-              <p className="text-sm text-gray-500 mb-6">Enter your current password and choose a new one</p>
+              <h2 className="text-lg font-bold text-gray-900 mb-1">{t('password.title')}</h2>
+              <p className="text-sm text-gray-500 mb-6">{t('password.description')}</p>
 
               {passwordError && (
                 <div className="bg-red-50 text-red-700 border border-red-200 px-4 py-3 rounded-lg mb-4 text-sm">
@@ -590,33 +592,33 @@ export default function ProfilePage() {
 
               <div className="space-y-4">
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-1.5">Current Password</label>
+                  <label className="block text-sm font-medium text-gray-700 mb-1.5">{t('password.currentPassword')}</label>
                   <input
                     type="password"
                     value={currentPassword}
                     onChange={(e) => setCurrentPassword(e.target.value)}
                     className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent outline-none transition text-sm"
-                    placeholder="Enter current password"
+                    placeholder={t('password.placeholders.currentPassword')}
                   />
                 </div>
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-1.5">New Password</label>
+                  <label className="block text-sm font-medium text-gray-700 mb-1.5">{t('password.newPassword')}</label>
                   <input
                     type="password"
                     value={newPassword}
                     onChange={(e) => setNewPassword(e.target.value)}
                     className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent outline-none transition text-sm"
-                    placeholder="Min. 6 characters"
+                    placeholder={t('password.placeholders.newPassword')}
                   />
                 </div>
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-1.5">Confirm New Password</label>
+                  <label className="block text-sm font-medium text-gray-700 mb-1.5">{t('password.confirmNewPassword')}</label>
                   <input
                     type="password"
                     value={confirmNewPassword}
                     onChange={(e) => setConfirmNewPassword(e.target.value)}
                     className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent outline-none transition text-sm"
-                    placeholder="Re-enter new password"
+                    placeholder={t('password.placeholders.confirmNewPassword')}
                   />
                 </div>
               </div>
@@ -626,14 +628,14 @@ export default function ProfilePage() {
                   onClick={() => { setShowPasswordModal(false); setPasswordError(''); setPasswordSuccess('') }}
                   className="px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 transition"
                 >
-                  Cancel
+                  {t('password.cancel')}
                 </button>
                 <button
                   onClick={changePassword}
                   disabled={passwordLoading}
                   className="px-6 py-2 text-sm font-medium text-white bg-green-600 rounded-lg hover:bg-green-700 disabled:opacity-50 disabled:cursor-not-allowed transition"
                 >
-                  {passwordLoading ? 'Changing...' : 'Change Password'}
+                  {passwordLoading ? t('password.changing') : t('password.changePasswordBtn')}
                 </button>
               </div>
             </div>
@@ -643,8 +645,8 @@ export default function ProfilePage() {
         {/* Chat History */}
         <div className="bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden">
           <div className="px-8 pt-8 pb-4 border-b border-gray-100">
-            <h2 className="text-lg font-bold text-gray-900">Chat History</h2>
-            <p className="text-sm text-gray-500 mt-1">Your AI Copilot conversations</p>
+            <h2 className="text-lg font-bold text-gray-900">{t('chatHistory.title')}</h2>
+            <p className="text-sm text-gray-500 mt-1">{t('chatHistory.description')}</p>
           </div>
 
           {loading ? (
@@ -656,10 +658,10 @@ export default function ProfilePage() {
               <svg className="w-16 h-16 text-gray-300 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
               </svg>
-              <p className="text-gray-500 font-medium">No conversations yet</p>
+              <p className="text-gray-500 font-medium">{t('chatHistory.noConversationsYet')}</p>
               <p className="text-sm text-gray-400 mt-1">
-                Start chatting with the AI Copilot from the{' '}
-                <Link href="/map" className="text-green-600 hover:underline">map page</Link>
+                {t('chatHistory.startChatting')}{' '}
+                <Link href="/map" className="text-green-600 hover:underline">{t('chatHistory.mapPage')}</Link>
               </p>
             </div>
           ) : (
@@ -681,25 +683,25 @@ export default function ProfilePage() {
                     <div className="flex-1 min-w-0">
                       <div className="flex items-center gap-2">
                         <h3 className="text-sm font-semibold text-gray-900 truncate">
-                          {session.title || 'Untitled conversation'}
+                          {session.title || t('chatHistory.untitledConversation')}
                         </h3>
                         {session.is_active && (
                           <span className="inline-flex items-center px-1.5 py-0.5 rounded text-[10px] font-medium bg-green-50 text-green-600">
-                            Active
+                            {t('chatHistory.active')}
                           </span>
                         )}
                       </div>
                       <p className="text-xs text-gray-400 mt-0.5 truncate">
                         {session.last_user_message
                           ? truncate(session.last_user_message, 80)
-                          : 'No messages'}
+                          : t('chatHistory.noMessages')}
                       </p>
                     </div>
 
                     <div className="text-right flex-shrink-0 hidden sm:block">
                       <p className="text-xs text-gray-400">{formatDate(session.updated_at)}</p>
                       <p className="text-[11px] text-gray-300 mt-0.5">
-                        {session.message_count} messages
+                        {session.message_count} {t('chatHistory.messages')}
                       </p>
                     </div>
 
@@ -707,7 +709,7 @@ export default function ProfilePage() {
                       <button
                         onClick={(e) => handleDeleteSession(session.id, e)}
                         className="p-1.5 text-gray-400 hover:text-red-600 rounded-lg hover:bg-red-50 transition-colors"
-                        title="Delete conversation"
+                        title={t('chatHistory.deleteTitle')}
                       >
                         <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
@@ -772,7 +774,7 @@ export default function ProfilePage() {
                         </div>
                       ) : (
                         <div className="py-6 text-center text-sm text-gray-400">
-                          No messages in this conversation
+                          {t('chatHistory.noMessagesInConversation')}
                         </div>
                       )}
                     </div>
@@ -788,7 +790,7 @@ export default function ProfilePage() {
       <footer className="mt-auto">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <p className="text-center text-sm text-gray-400">
-            © 2025 AfriGeoData. All rights reserved.
+            {t('footer.copyright')}
           </p>
         </div>
       </footer>

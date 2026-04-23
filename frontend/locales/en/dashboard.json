@@ -1,0 +1,16 @@
+{
+  "loading": "Loading...",
+  "welcomeBack": "Welcome back, {{name}}!",
+  "loggedInAs": "You are logged in as a",
+  "cards": {
+    "yourProfile": "Your Profile",
+    "yourProfileDesc": "Manage your account settings and personal information.",
+    "recentActivity": "Recent Activity",
+    "recentActivityDesc": "View your recent activity and history.",
+    "helpAndSupport": "Help & Support",
+    "helpAndSupportDesc": "Get help with your account and platform features."
+  },
+  "footer": {
+    "copyright": "© 2025 Platform. All rights reserved."
+  }
+}
