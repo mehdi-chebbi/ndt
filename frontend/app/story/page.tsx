@@ -3,7 +3,11 @@
 import dynamic from "next/dynamic";
 import { motion } from "framer-motion";
 import { StatCard } from "@/components/story/CountUp";
-import { ComparisonSlider } from "@/components/story/ComparisonSlider";
+// Dynamically import MapComparison (no SSR — uses Leaflet)
+const MapComparison = dynamic(
+  () => import("@/components/story/MapComparison").then((m) => m.MapComparison),
+  { ssr: false }
+);
 import {
   TitleCard,
   RevealLines,
@@ -64,14 +68,14 @@ const STORY_CHAPTERS: MapChapter[] = [
   {
     id: "intro",
     center: [20, 5],
-    zoom: 3,
+    zoom: 2,
     bearing: 0,
     pitch: 0,
     speed: 0.8,
     wmsLayers: [
       {
         workspace: "SDG",
-        layerName: "SDG_15_3_1",
+        layerName: "sdg_15_3_1_reporting_COG",
         opacity: 1,
       },
     ],
@@ -103,6 +107,11 @@ const STORY_CHAPTERS: MapChapter[] = [
       {
         workspace: "LP",
         layerName: "clip_Chad_Trends_7c85b4d6",
+        opacity: 1,
+      },
+      {
+        workspace: "LP",
+        layerName: "clip_Central_African_Republic_Trends_b57f481a",
         opacity: 1,
       },
     ],
@@ -142,50 +151,52 @@ const STORY_CHAPTERS: MapChapter[] = [
         layerName: "clip_Botswana_band_11_SPI_min_2020-2023_COG_6d5a25f9",
         opacity: 1,
       },
+      {
+        workspace: "SO3",
+        layerName: "clip_Namibia_band_11_SPI_min_2020-2023_COG_6026200c",
+        opacity: 1,
+      },
+      {
+        workspace: "SO3",
+        layerName: "clip_Mozambique_band_11_SPI_min_2020-2023_COG_80e6c803",
+        opacity: 1,
+      },
+      {
+        workspace: "SO3",
+        layerName: "clip_South_Africa_band_11_SPI_min_2020-2023_COG_aed10e95",
+        opacity: 1,
+      },
+      {
+        workspace: "SO3",
+        layerName: "clip_Angola_band_11_SPI_min_2020-2023_COG_985fa21b",
+        opacity: 1,
+      },
+      {
+        workspace: "SO3",
+        layerName: "clip_Zambia_band_11_SPI_min_2020-2023_COG_c3c04859",
+        opacity: 1,
+      },
+      {
+        workspace: "SO3",
+        layerName: "clip_Eswatini_band_11_SPI_min_2020-2023_COG_a636812c",
+        opacity: 1,
+      },
     ],
     layerLabel: "Drought Index (SPI) — Southern Africa",
   },
 ];
 
-// ── Placeholder gradient panels for comparison slider ─────────────────────────
+// ── Map comparison config ─────────────────────────────────────────────────
 
-function VegetationBefore() {
-  return (
-    <div
-      className="w-full h-full flex items-center justify-center"
-      style={{
-        background:
-          "linear-gradient(135deg, #166534 0%, #15803d 30%, #22c55e 60%, #86efac 100%)",
-      }}
-    >
-      <div className="text-center p-8">
-        <p className="text-2xl font-bold text-white drop-shadow-lg">2010</p>
-        <p className="text-sm text-white/80 mt-2">
-          Dense vegetation cover across the Sahel
-        </p>
-      </div>
-    </div>
-  );
-}
+const COMPARISON_BEFORE = {
+  workspace: "SDG",
+  layerName: "sdg_15_3_1_baseline_COG",
+};
 
-function VegetationAfter() {
-  return (
-    <div
-      className="w-full h-full flex items-center justify-center"
-      style={{
-        background:
-          "linear-gradient(135deg, #92400e 0%, #b45309 30%, #d97706 50%, #78716c 100%)",
-      }}
-    >
-      <div className="text-center p-8">
-        <p className="text-2xl font-bold text-white drop-shadow-lg">2024</p>
-        <p className="text-sm text-white/80 mt-2">
-          Significant vegetation loss and land degradation
-        </p>
-      </div>
-    </div>
-  );
-}
+const COMPARISON_AFTER = {
+  workspace: "SDG",
+  layerName: "sdg_15_3_1_reporting_COG",
+};
 
 // ── Page ──────────────────────────────────────────────────────────────────────
 
@@ -348,12 +359,14 @@ export default function StoryPage() {
             </p>
           </RevealLines>
 
-          <ComparisonSlider
-            before={<VegetationBefore />}
-            after={<VegetationAfter />}
-            beforeLabel="2010"
-            afterLabel="2024"
-            className="w-full aspect-video rounded-2xl"
+          <MapComparison
+            before={COMPARISON_BEFORE}
+            after={COMPARISON_AFTER}
+            beforeLabel="Baseline"
+            afterLabel="Reporting"
+            center={[20, 5]}
+            zoom={3}
+            className="w-full aspect-video rounded-2xl overflow-hidden"
           />
         </div>
       </section>

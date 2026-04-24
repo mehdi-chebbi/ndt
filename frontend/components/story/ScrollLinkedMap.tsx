@@ -150,13 +150,28 @@ export function useScrollMap({
         return;
       }
 
-      // Add each WMS layer
-      chapter.wmsLayers.forEach((wmsConfig, idx) => {
+      // Group layers by workspace — combined into single WMS requests
+      const groups = new Map<string, WmsLayerConfig[]>();
+      chapter.wmsLayers.forEach((cfg) => {
+        const key = cfg.workspace;
+        if (!groups.has(key)) groups.set(key, []);
+        groups.get(key)!.push(cfg);
+      });
+
+      let idx = 0;
+      groups.forEach((configs, workspace) => {
         const sourceId = `${WMS_SOURCE_PREFIX}${idx}`;
         const layerId = `${WMS_LAYER_PREFIX}${idx}`;
-        const targetOpacity = wmsConfig.opacity ?? 0.7;
+        const targetOpacity = configs[0].opacity ?? 0.7;
 
-        const tileUrl = buildWmsTileUrl(wmsConfig);
+        // Combine all layer names for this workspace into one request
+        const combinedConfig: WmsLayerConfig = {
+          workspace,
+          layerName: configs.map((c) => c.layerName).join(","),
+          opacity: targetOpacity,
+        };
+
+        const tileUrl = buildWmsTileUrl(combinedConfig);
 
         map.addSource(sourceId, {
           type: "raster",
@@ -183,6 +198,8 @@ export function useScrollMap({
             /* layer may have been removed */
           }
         });
+
+        idx++;
       });
 
       // Update label
