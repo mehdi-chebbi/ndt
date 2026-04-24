@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useRef, useEffect, useCallback } from 'react'
+import { useTranslation } from 'react-i18next'
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import ChartRenderer, { parseChartSpec } from './AICharts'
@@ -130,6 +131,7 @@ const markdownComponents = {
 // ── Image rendering component ──────────────────────────────────────
 
 function MessageImages({ urls }: { urls: string[] }) {
+  const { t } = useTranslation('ai-copilot')
   if (urls.length === 0) return null
 
   return (
@@ -138,7 +140,7 @@ function MessageImages({ urls }: { urls: string[] }) {
         <img
           key={i}
           src={url}
-          alt="Uploaded"
+          alt={t('alt.uploaded')}
           className="rounded-lg max-w-full object-cover cursor-pointer hover:opacity-90 transition-opacity"
           style={{ maxHeight: '180px' }}
         />
@@ -216,6 +218,7 @@ function renderAssistantContent(text: string) {
 // ── Main component ─────────────────────────────────────────────────
 
 export default function AICopilot() {
+  const { t } = useTranslation('ai-copilot')
   const [isOpen, setIsOpen] = useState(false)
   const [messages, setMessages] = useState<Message[]>([])
   const [inputText, setInputText] = useState('')
@@ -275,7 +278,7 @@ export default function AICopilot() {
 
         const createData = await createRes.json()
         setSessionId(createData.session.id)
-        setMessages([{ role: 'assistant', content: '🔍 Analyzing the area... This may take a moment.' }])
+        setMessages([{ role: 'assistant', content: t('messages.analyzing') }])
         sessionStorage.removeItem('aiAnalysisState')
         return true
       }
@@ -465,7 +468,7 @@ export default function AICopilot() {
       })
 
       if (!res.ok) {
-        throw new Error('Image upload failed')
+        throw new Error(t('errors.imageUploadFailed'))
       }
 
       const data = await res.json()
@@ -480,7 +483,7 @@ export default function AICopilot() {
       return urls
     } catch {
       setPendingImages(prev => prev.map(img => ({ ...img, status: 'error' })))
-      throw new Error('Failed to upload images')
+      throw new Error(t('errors.failedToUploadImages'))
     }
   }
 
@@ -550,13 +553,13 @@ export default function AICopilot() {
       })
 
       if (!response.ok) {
-        const errorData = await response.json().catch(() => ({ error: 'Request failed' }))
-        throw new Error(errorData.error || 'Failed to get AI response')
+        const errorData = await response.json().catch(() => ({ error: t('errors.requestFailed') }))
+        throw new Error(errorData.error || t('errors.failedToGetResponse'))
       }
 
       // Read SSE stream
       const reader = response.body?.getReader()
-      if (!reader) throw new Error('No response body')
+      if (!reader) throw new Error(t('errors.noResponseBody'))
 
       const decoder = new TextDecoder()
       let buffer = ''
@@ -589,7 +592,7 @@ export default function AICopilot() {
                 setMessages(prev => {
                   const updated = [...prev]
                   if (updated[assistantIndex]?.role === 'assistant') {
-                    updated[assistantIndex] = { role: 'assistant', content: '🔍 Searching database...' }
+                    updated[assistantIndex] = { role: 'assistant', content: t('messages.searching') }
                   }
                   return updated
                 })
@@ -634,7 +637,7 @@ export default function AICopilot() {
 
     } catch (err: any) {
       if (err.name !== 'AbortError') {
-        setError(err.message || 'Something went wrong. Please try again.')
+        setError(err.message || t('errors.somethingWentWrong'))
 
         // Remove the empty assistant placeholder
         setMessages(prev => {
@@ -683,7 +686,7 @@ export default function AICopilot() {
                      text-gray-700 w-16 h-16 rounded-full shadow-lg border border-gray-200
                      flex items-center justify-center transition-all duration-200
                      hover:scale-110 hover:shadow-xl font-bold text-sm"
-          title="AI Copilot"
+          title={t('header.title')}
         >
           <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" clip-rule="evenodd" d="M14 2C14 2.74028 13.5978 3.38663 13 3.73244V4H20C21.6569 4 23 5.34315 23 7V19C23 20.6569 21.6569 22 20 22H4C2.34315 22 1 20.6569 1 19V7C1 5.34315 2.34315 4 4 4H11V3.73244C10.4022 3.38663 10 2.74028 10 2C10 0.895431 10.8954 0 12 0C13.1046 0 14 0.895431 14 2ZM4 6H11H13H20C20.5523 6 21 6.44772 21 7V19C21 19.5523 20.5523 20 20 20H4C3.44772 20 3 19.5523 3 19V7C3 6.44772 3.44772 6 4 6ZM15 11.5C15 10.6716 15.6716 10 16.5 10C17.3284 10 18 10.6716 18 11.5C18 12.3284 17.3284 13 16.5 13C15.6716 13 15 12.3284 15 11.5ZM16.5 8C14.567 8 13 9.567 13 11.5C13 13.433 14.567 15 16.5 15C18.433 15 20 13.433 20 11.5C20 9.567 18.433 8 16.5 8ZM7.5 10C6.67157 10 6 10.6716 6 11.5C6 12.3284 6.67157 13 7.5 13C8.32843 13 9 12.3284 9 11.5C9 10.6716 8.32843 10 7.5 10ZM4 11.5C4 9.567 5.567 8 7.5 8C9.433 8 11 9.567 11 11.5C11 13.433 9.433 15 7.5 15C5.567 15 4 13.433 4 11.5ZM10.8944 16.5528C10.6474 16.0588 10.0468 15.8586 9.55279 16.1056C9.05881 16.3526 8.85858 16.9532 9.10557 17.4472C9.68052 18.5971 10.9822 19 12 19C13.0178 19 14.3195 18.5971 14.8944 17.4472C15.1414 16.9532 14.9412 16.3526 14.4472 16.1056C13.9532 15.8586 13.3526 16.0588 13.1056 16.5528C13.0139 16.7362 12.6488 17 12 17C11.3512 17 10.9861 16.7362 10.8944 16.5528Z" fill="currentColor"/>
@@ -701,7 +704,7 @@ export default function AICopilot() {
             <div className="bg-gradient-to-r from-green-600 to-green-500 px-4 py-3 flex items-center justify-between">
               <div className="flex items-center gap-2">
                 <div className={`w-2 h-2 rounded-full ${isLoading ? 'bg-green-300 animate-pulse' : 'bg-green-400'}`} />
-                <span className="text-white font-semibold text-sm">AI Copilot</span>
+                <span className="text-white font-semibold text-sm">{t('header.title')}</span>
               </div>
               <button
                 onClick={() => setIsOpen(false)}
@@ -716,14 +719,14 @@ export default function AICopilot() {
               {!sessionReady ? (
                 <div className="h-full flex flex-col items-center justify-center text-gray-400">
                   <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-green-500 mb-3" />
-                  <p className="text-sm">Loading...</p>
+                  <p className="text-sm">{t('messages.loading')}</p>
                 </div>
               ) : messages.length === 0 ? (
                 <div className="h-full flex flex-col items-center justify-center text-gray-400">
                   <svg className="w-12 h-12 mb-3 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
                   </svg>
-                  <p className="text-sm text-center">Ask me anything or share an image!</p>
+                  <p className="text-sm text-center">{t('messages.emptyState')}</p>
                 </div>
               ) : (
                 <div className="space-y-3">
@@ -744,7 +747,7 @@ export default function AICopilot() {
                           }`}
                         >
                           {!msg.content || (msg.role === 'assistant' && !textContent) ? (
-                            <span className="text-gray-400 italic">Thinking...</span>
+                            <span className="text-gray-400 italic">{t('messages.thinking')}</span>
                           ) : msg.role === 'assistant' ? (
                             <div className="markdown-body">
                               {renderAssistantContent(textContent)}
@@ -791,7 +794,7 @@ export default function AICopilot() {
                     <div key={i} className="relative group">
                       <img
                         src={img.preview}
-                        alt="Upload preview"
+                        alt={t('alt.uploadPreview')}
                         className={`w-14 h-14 rounded-lg object-cover border border-gray-200 ${
                           img.status === 'uploading' ? 'opacity-50' : ''
                         } ${img.status === 'error' ? 'border-red-400 opacity-70' : ''}`}
@@ -826,7 +829,7 @@ export default function AICopilot() {
                   disabled={isLoading || !sessionReady}
                   className="flex-shrink-0 p-2 text-gray-400 hover:text-gray-600 hover:bg-gray-100
                              rounded-lg transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
-                  title="Attach image"
+                  title={t('input.attachImage')}
                 >
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
@@ -838,7 +841,7 @@ export default function AICopilot() {
                   value={inputText}
                   onChange={(e) => setInputText(e.target.value)}
                   onKeyDown={handleKeyDown}
-                  placeholder="Type a message..."
+                  placeholder={t('input.placeholder')}
                   rows={1}
                   disabled={isLoading || !sessionReady}
                   className="flex-1 resize-none rounded-lg border border-gray-300 px-3 py-2 text-sm
@@ -860,7 +863,7 @@ export default function AICopilot() {
                 </button>
               </div>
               <p className="text-xs text-gray-400 mt-2 text-center">
-                AI responses may not be accurate
+                {t('disclaimer')}
               </p>
             </div>
           </div>

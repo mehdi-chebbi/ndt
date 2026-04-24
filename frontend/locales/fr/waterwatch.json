@@ -1,0 +1,64 @@
+{
+  "viewFullList": "Voir la liste complète ↗",
+  "na": "n/a",
+  "modals": {
+    "lowestTitle": "Tous les pays — niveau d'accès 2020 (du plus bas au plus élevé)",
+    "improversTitle": "Tous les pays — évolution sur 20+ ans (pp), 2000 → 2023",
+    "changesTitle": "Tous les pays — tableau complet des évolutions, 2000 → 2023",
+    "gapTitle": "Tous les pays — écart urbain/rural 2020 (du plus grand au plus petit)",
+    "rank": "N°",
+    "country": "Pays",
+    "year2000": "2000",
+    "year2020": "2020",
+    "deltaPP": "Δ pp",
+    "urban": "Urbain",
+    "rural": "Rural",
+    "gap": "Écart"
+  },
+  "header": {
+    "subtitle": "◈ Base de données World Bank / JMP · Afrique · 2000–2023",
+    "title": "Accès à l'Eau",
+    "titleEm": "À Travers l'Afrique",
+    "indicatorLabel": "Indicateur",
+    "indicatorValue": "Gérée de manière sûre / au moins de base",
+    "periodLabel": "Période",
+    "periodValue": "2000 – 2023",
+    "sourceLabel": "Source",
+    "sourceValue": "World Bank / JMP"
+  },
+  "kpis": {
+    "countriesWithData": "Pays avec données",
+    "ofAuMembers": "sur 54 membres de l'UA",
+    "avgAccess2020": "Accès moyen, 2020",
+    "simpleAvgReporting": "moyenne simple, pays déclarants",
+    "aboveThreshold": "Au-dessus du seuil de 50 %",
+    "countriesAvailData": "pays avec données disponibles",
+    "twentyYearImprovement": "Progrès sur 20 ans",
+    "avgGainReporting": "gain moyen, pays déclarants"
+  },
+  "sections": {
+    "continentalAvg": "Moyenne continentale — % avec accès à l'eau (34 pays)",
+    "lowestAccess": "Accès le plus faible — 2020",
+    "biggestGains": "Plus fortes hausses 2000 → 2023 (pp)",
+    "notableChanges": "Évolutions notables par pays",
+    "urbanRuralGap": "Écart urbain/rural — plus fortes disparités en 2020",
+    "urban": "Urbain",
+    "rural": "Rural"
+  },
+  "table": {
+    "country": "Pays",
+    "delta": "Δ"
+  },
+  "insights": {
+    "progressTitle": "Des progrès continentaux constants",
+    "progressDesc": "La moyenne continentale est passée d'environ 44 % en 2000 à environ 54 % en 2023 pour les 34 pays disposant de données — des progrès significatifs, bien que les lacunes de couverture pour une vingtaine de pays puissent donner une image plus sombre de la réalité.",
+    "twoSpeedTitle": "Une histoire à deux vitesses qui s'élargit",
+    "twoSpeedDesc": "Le Maroc, l'Ouganda et la Tanzanie ont chacun gagné plus de 30 points de pourcentage, tandis que la République centrafricaine et la RD Congo ont régressé. L'écart entre les pays chefs de file et les retardataires s'est creusé.",
+    "ruralDeficitTitle": "Le déficit rural persistant",
+    "ruralDeficitDesc": "En Gambie et au Lesotho, l'écart urbain-rural dépasse 54 points de pourcentage. Les populations urbaines ont souvent 3 à 7 fois plus de chances d'avoir accès à l'eau potable que leurs homologues ruraux."
+  },
+  "footer": {
+    "left": "Population utilisant des services d'eau potable gérés de manière sûre / au moins de base",
+    "right": "Données : World Bank / JMP · 2000–2023"
+  }
+}

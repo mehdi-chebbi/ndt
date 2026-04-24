@@ -162,22 +162,7 @@ router.get('/country/:countryFile/layer/:layerId', async (req: Request, res: Res
   }
 });
 
-// Helper: Check if clip-service is healthy
-async function waitForClipService(maxRetries = 5, delayMs = 3000): Promise<boolean> {
-  for (let i = 0; i < maxRetries; i++) {
-    try {
-      const resp = await fetch(`${CLIP_SERVICE_URL}/health`, { signal: AbortSignal.timeout(5000) });
-      if (resp.ok) return true;
-    } catch {
-      // service not ready yet
-    }
-    if (i < maxRetries - 1) {
-      console.log(`[Batch Stats] Clip-service not ready, retrying in ${delayMs / 1000}s... (${i + 1}/${maxRetries})`);
-      await new Promise(resolve => setTimeout(resolve, delayMs));
-    }
-  }
-  return false;
-}
+
 
 // Helper: Calculate stats for a single country for a given layer
 async function calculateStatsForCountry(
@@ -298,49 +283,79 @@ router.post('/batch', async (req: Request, res: Response) => {
       totalCountries: geojsonFiles.length,
     });
 
-    // Run the batch loop asynchronously (one at a time)
+    // Run the batch loop asynchronously with sliding-window concurrency
     (async () => {
       let successCount = 0;
       let skipCount = 0;
       let failCount = 0;
+      let abortBatch = false;
       const failures: { countryFile: string; error: string }[] = [];
 
-      for (const countryFile of geojsonFiles) {
-        const countryName = countryFile.replace('.geojson', '');
+      const MAX_CONCURRENT = parseInt(process.env.MAX_CONCURRENT_STATS || '3', 10);
 
-        // Check if already calculated (skip cache hits)
-        const cacheCheck = await pool.query(
-          'SELECT 1 FROM country_stats WHERE country_file = $1 AND layer_id = $2',
-          [countryFile, layer.id]
-        );
+      // Pre-check which countries are already calculated (avoid per-country DB hit)
+      const calculatedResult = await pool.query(
+        'SELECT country_file FROM country_stats WHERE layer_id = $1',
+        [layer.id]
+      );
+      const calculatedFiles = new Set(calculatedResult.rows.map((r: any) => r.country_file));
+      const countriesToProcess = geojsonFiles.filter(f => !calculatedFiles.has(f));
+      skipCount = geojsonFiles.length - countriesToProcess.length;
 
-        if (cacheCheck.rows.length > 0) {
-          skipCount++;
-          console.log(`[Batch Stats] Skipping ${countryName} (already calculated)`);
-          continue;
-        }
+      if (skipCount > 0) {
+        console.log(`[Batch Stats] Skipping ${skipCount} already calculated countries`);
+      }
 
-        const result = await calculateStatsForCountry(
-          countryFile, layer.id, layer.file_path,
-          layer.geoserver_name, layer.class_labels
-        );
+      console.log(`[Batch Stats] Processing ${countriesToProcess.length} countries with concurrency ${MAX_CONCURRENT}`);
 
-        if (result.success) {
-          successCount++;
-        } else {
-          failCount++;
-          failures.push({ countryFile: result.countryFile, error: result.error || 'Unknown' });
+      // Sliding window: each worker pulls the next country from the queue as soon as it finishes
+      let nextIndex = 0;
 
-          // If clip-service seems down, wait for it to recover before next attempt
-          console.log(`[Batch Stats] Checking clip-service health after failure...`);
-          const isAlive = await waitForClipService(3, 5000);
-          if (!isAlive) {
-            console.error('[Batch Stats] Clip-service is down, aborting batch');
-            break;
+      async function processWorker() {
+        while (nextIndex < countriesToProcess.length && !abortBatch) {
+          const idx = nextIndex++;
+          const countryFile = countriesToProcess[idx];
+          const countryName = countryFile.replace('.geojson', '');
+
+          // Double-check cache (in case another worker just finished this country)
+          const cacheCheck = await pool.query(
+            'SELECT 1 FROM country_stats WHERE country_file = $1 AND layer_id = $2',
+            [countryFile, layer.id]
+          );
+          if (cacheCheck.rows.length > 0) {
+            skipCount++;
+            console.log(`[Batch Stats] Skipping ${countryName} (already calculated)`);
+            continue;
           }
-          console.log('[Batch Stats] Clip-service recovered, continuing...');
+
+          const result = await calculateStatsForCountry(
+            countryFile, layer.id, layer.file_path,
+            layer.geoserver_name, layer.class_labels
+          );
+
+          if (result.success) {
+            successCount++;
+          } else {
+            failCount++;
+            failures.push({ countryFile: result.countryFile, error: result.error || 'Unknown' });
+
+            // If clip-service seems down, wait for it to recover before next attempt
+            console.log(`[Batch Stats] Checking clip-service health after failure...`);
+            const isAlive = await waitForClipService(3, 5000);
+            if (!isAlive) {
+              console.error('[Batch Stats] Clip-service is down, aborting batch');
+              abortBatch = true;
+            } else {
+              console.log('[Batch Stats] Clip-service recovered, continuing...');
+            }
+          }
         }
       }
+
+      // Start up to MAX_CONCURRENT workers
+      const workerCount = Math.min(MAX_CONCURRENT, countriesToProcess.length);
+      const workers = Array.from({ length: workerCount }, () => processWorker());
+      await Promise.all(workers);
 
       // Remove from running set
       runningBatchStatsLayers.delete(layerId);
@@ -356,6 +371,62 @@ router.post('/batch', async (req: Request, res: Response) => {
     console.error('[Batch Stats] Error starting batch:', error);
     res.status(500).json({
       error: 'Failed to start batch stats calculation',
+      message: error.message
+    });
+  }
+});
+
+// DELETE /api/stats/layer/:layerId
+// Delete ALL pre-calculated stats for a given layer
+router.delete('/layer/:layerId', async (req: Request, res: Response) => {
+  try {
+    const layerId = parseInt(req.params.layerId);
+
+    if (isNaN(layerId)) {
+      return res.status(400).json({ error: 'layerId must be a number' });
+    }
+
+    // Block if batch is running for this layer
+    if (runningBatchStatsLayers.has(layerId)) {
+      return res.status(409).json({
+        error: 'Batch calculation in progress',
+        message: 'Cannot delete while batch calculation is running for this layer.'
+      });
+    }
+
+    // Check if any stats exist
+    const countResult = await pool.query(
+      'SELECT COUNT(*) as total FROM country_stats WHERE layer_id = $1',
+      [layerId]
+    );
+
+    const totalCount = parseInt(countResult.rows[0].total);
+    if (totalCount === 0) {
+      return res.status(404).json({ error: 'No stats found for this layer' });
+    }
+
+    // Get layer name for the response message
+    const layerResult = await pool.query(
+      'SELECT display_name FROM layers WHERE id = $1',
+      [layerId]
+    );
+    const layerName = layerResult.rows[0]?.display_name || `Layer ${layerId}`;
+
+    // Delete all stats for this layer
+    await pool.query('DELETE FROM country_stats WHERE layer_id = $1', [layerId]);
+
+    console.log(`[Delete Stats] Deleted ${totalCount} stats for ${layerName} (layer ${layerId})`);
+
+    res.json({
+      status: 'success',
+      message: `Successfully deleted all ${totalCount} stats for ${layerName}`,
+      total: totalCount,
+      layerId,
+    });
+  } catch (error: any) {
+    console.error('[Delete Stats] Error:', error);
+    res.status(500).json({
+      error: 'Failed to delete stats',
       message: error.message
     });
   }

@@ -1,0 +1,94 @@
+{
+  "viewFullList": "View full list ↗",
+  "na": "n/a",
+
+  "modals": {
+    "highestTitle": "All countries — Gini index (highest → lowest)",
+    "lowestTitle": "All countries — Gini index (lowest → highest)",
+    "worsenedTitle": "All countries — inequality change (first → latest reading)",
+    "improvedTitle": "All countries — inequality improvement (first → latest reading)",
+    "changesTitle": "All countries — full Gini snapshot table"
+  },
+
+  "tableHeaders": {
+    "rank": "#",
+    "country": "Country",
+    "year": "Year",
+    "gini": "Gini",
+    "first": "First",
+    "latest": "Latest",
+    "delta": "Δ",
+    "readings": "Readings",
+    "note": "Note"
+  },
+
+  "header": {
+    "subtitle": "◈ World Bank Dataset · Africa · 2000–2023",
+    "title": "Income Inequality",
+    "titleItalic": "Gini Index Across Africa",
+    "metaIndicator": "Indicator",
+    "metaIndicatorValue": "Gini index (0 = equal, 100 = unequal)",
+    "metaPeriod": "Period",
+    "metaPeriodValue": "2000 – 2023",
+    "metaSource": "Source",
+    "metaSourceValue": "World Bank / PovcalNet",
+    "metaNote": "Note",
+    "metaNoteValue": "Sparse — survey-based snapshots only"
+  },
+
+  "kpis": {
+    "countriesWithData": "Countries with data",
+    "countriesWithDataSub": "of {{total}} in dataset",
+    "avgGiniIndex": "Avg Gini index",
+    "avgGiniIndexSub": "simple avg, latest readings",
+    "highlyUnequal": "Highly unequal (≥50)",
+    "highlyUnequalSub": "countries at latest reading",
+    "inequalityImproved": "Inequality improved",
+    "inequalityImprovedSub": "countries with 2+ readings"
+  },
+
+  "sections": {
+    "continentalAvg": "Continental avg Gini — year-by-year (survey years only)",
+    "continentalAvgDesc": "Each point = avg of all country readings in that survey year. Data is sparse — not every country reported every year.",
+    "mostUnequal": "Most unequal — latest reading",
+    "mostEqual": "Most equal — latest reading",
+    "worsenedMost": "Inequality worsened most (first → latest)",
+    "improvedMost": "Inequality improved most (first → latest)",
+    "notableSnapshots": "Notable country snapshots",
+    "dataCoverage": "Data coverage — number of survey readings per country (2000–2020)"
+  },
+
+  "chart": {
+    "continentalAvg": "Continental avg",
+    "avgGiniTooltip": "Avg Gini: {{value}}"
+  },
+
+  "notableNotes": {
+    "highestSustained": "Highest sustained Gini on continent",
+    "improvedButHigh": "Improved but still very high",
+    "consistentlyLow": "Consistently low — most equal in Africa",
+    "onlyOneReading": "Only one reading available",
+    "steadyDecline": "Steady decline in inequality"
+  },
+
+  "dataCoverage": {
+    "legend0": "0 readings",
+    "legend12": "1–2 readings",
+    "legend34": "3–4 readings",
+    "legend5plus": "5+ readings"
+  },
+
+  "insights": {
+    "southernAfricaTitle": "Southern Africa remains most unequal",
+    "southernAfricaDesc": "South Africa (63.0), Namibia (59.1), Zambia (55.8), and Botswana (54.9) consistently top the continent. Southern Africa has the highest sustained Gini readings globally.",
+    "northAfricaTitle": "North Africa is significantly more equal",
+    "northAfricaDesc": "Egypt (31.9), Algeria (27.6), and Tunisia (32.8) are the most equal economies in Africa — with Gini scores comparable to many European countries.",
+    "sparseDataTitle": "Sparse data limits conclusions",
+    "sparseDataDesc": "Most countries have only 2–4 survey readings over 20 years. Changes between readings may reflect methodology shifts as much as real inequality trends. Interpret with caution."
+  },
+
+  "footer": {
+    "left": "Gini index — income or consumption inequality within countries",
+    "right": "Data: World Bank / PovcalNet · 2000–2023"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "button": {
+    "showTutorialAgain": "Show tutorial again",
+    "startTutorial": "Start tutorial",
+    "showTutorialLabel": "Show Tutorial",
+    "startTutorialLabel": "Start Tutorial",
+    "startAgainTitle": "Start Tutorial Again?",
+    "startAgainDescription": "You've already completed the tutorial. Would you like to go through it again?",
+    "cancel": "Cancel",
+    "startTutorialBtn": "Start Tutorial"
+  },
+  "overlay": {
+    "stepProgress": "Step {{current}} of {{total}}",
+    "previous": "Previous",
+    "next": "Next",
+    "endTour": "End Tour",
+    "skip": "Skip",
+    "processing": "Processing...",
+    "skipConfirmTitle": "Skip Tutorial?",
+    "completeConfirmTitle": "Complete Tutorial?",
+    "skipConfirmMessage": "This will mark the tutorial as complete. You can always restart it from the \"Show Tutorial\" button in the sidebar.",
+    "completeConfirmMessage": "You've completed the tutorial! Mark it as done so it doesn't show automatically again?",
+    "cancel": "Cancel",
+    "skipTour": "Skip Tour",
+    "complete": "Complete"
+  },
+  "steps": {
+    "1": {
+      "phase": "Map Basics",
+      "title": "Base Maps Tab",
+      "content": "Click on the Base Maps tab to see different map styles you can use as the background."
+    },
+    "2": {
+      "phase": "Map Basics",
+      "title": "Choose a Base Map",
+      "content": "Choose any base map you like from here. Each gives you a different visual style for the map background."
+    },
+    "3": {
+      "phase": "Data Layers",
+      "title": "Data Tab",
+      "content": "Click on the Data tab to see all available data layers you can overlay on the map."
+    },
+    "4": {
+      "phase": "Data Layers",
+      "title": "Explore Data Layers",
+      "content": "Browse and activate any layer you want. Layers contain different types of geospatial data like land cover, vegetation, and more."
+    },
+    "5": {
+      "phase": "Reporting",
+      "title": "Report Invalid Data",
+      "content": "Found incorrect data? Click this button to report issues. You can draw a shape around the problem area and submit it for review."
+    },
+    "6": {
+      "phase": "Navigation",
+      "title": "Country Selector",
+      "content": "Use this to zoom to any African country and see its boundaries clearly."
+    },
+    "7": {
+      "phase": "Compare Layers",
+      "title": "Compare Layers",
+      "content": "Click this to compare two different layers side by side. Great for seeing changes over time or comparing different data types."
+    },
+    "8": {
+      "phase": "Statistics",
+      "title": "Statistics",
+      "content": "Calculate land cover statistics for any area you draw. Useful for quantitative analysis of specific regions."
+    },
+    "9": {
+      "phase": "AI Assistant",
+      "title": "AI Assistant",
+      "content": "Need help? Click here to chat with our AI assistant. Ask questions about the map, data, or any features."
+    },
+    "10": {
+      "phase": "Complete",
+      "title": "Tutorial Complete!",
+      "content": "You've learned all the key features! Click \"End Tour\" to mark it as complete. You can always restart it from the \"Show Tutorial\" button in the sidebar."
+    }
+  }
+}

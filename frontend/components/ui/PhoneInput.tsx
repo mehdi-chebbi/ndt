@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
+import { useTranslation } from 'react-i18next'
 import { COUNTRIES, getDialCode } from '@/lib/countries'
 
 interface PhoneInputProps {
@@ -11,6 +12,7 @@ interface PhoneInputProps {
 }
 
 export default function PhoneInput({ country, phone, onPhoneChange, required }: PhoneInputProps) {
+  const { t } = useTranslation('common')
   const dialCode = country ? getDialCode(country) : ''
 
   // Strip digits-only portion from the phone (remove the dial code prefix)
@@ -51,7 +53,7 @@ export default function PhoneInput({ country, phone, onPhoneChange, required }: 
           inputMode="numeric"
           value={rawDigits}
           onChange={(e) => handleChange(e.target.value)}
-          placeholder={country ? '812 345 6789' : 'Select country first'}
+          placeholder={country ? '812 345 6789' : t('selectCountryFirst')}
           required={required}
           disabled={!country}
           className="flex-1 px-4 py-2.5 border border-gray-300 rounded-r-lg focus:ring-2 focus:ring-gray-900 focus:border-transparent outline-none transition text-sm disabled:bg-gray-50 disabled:text-gray-400 disabled:cursor-not-allowed"
@@ -67,7 +69,7 @@ export default function PhoneInput({ country, phone, onPhoneChange, required }: 
       />
 
       {!country && (
-        <p className="text-xs text-amber-600 mt-1">Select a country above to enable the phone field</p>
+        <p className="text-xs text-amber-600 mt-1">{t('selectCountryHint')}</p>
       )}
     </div>
   )

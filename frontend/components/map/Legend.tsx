@@ -1,7 +1,9 @@
 'use client'
 
+import { resolveBilingualText, type BilingualText } from '@/lib/i18n-utils'
+
 interface LegendItem {
-  class: string
+  class: string | BilingualText
   color: string
 }
 
@@ -27,7 +29,7 @@ export default function Legend({ legend, layerName }: LegendProps) {
               className="w-4 h-4 rounded border border-gray-300 flex-shrink-0"
               style={{ backgroundColor: item.color }}
             />
-            <span className="text-sm text-gray-700 truncate">{item.class}</span>
+            <span className="text-sm text-gray-700 truncate">{resolveBilingualText(item.class)}</span>
           </div>
         ))}
       </div>

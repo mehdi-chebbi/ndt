@@ -1,0 +1,79 @@
+{
+  "button": {
+    "showTutorialAgain": "Afficher à nouveau le tutoriel",
+    "startTutorial": "Démarrer le tutoriel",
+    "showTutorialLabel": "Afficher le tutoriel",
+    "startTutorialLabel": "Démarrer le tutoriel",
+    "startAgainTitle": "Redémarrer le tutoriel ?",
+    "startAgainDescription": "Vous avez déjà terminé le tutoriel. Souhaitez-vous le parcourir à nouveau ?",
+    "cancel": "Annuler",
+    "startTutorialBtn": "Démarrer le tutoriel"
+  },
+  "overlay": {
+    "stepProgress": "Étape {{current}} sur {{total}}",
+    "previous": "Précédent",
+    "next": "Suivant",
+    "endTour": "Terminer la visite",
+    "skip": "Ignorer",
+    "processing": "Traitement en cours...",
+    "skipConfirmTitle": "Ignorer le tutoriel ?",
+    "completeConfirmTitle": "Terminer le tutoriel ?",
+    "skipConfirmMessage": "Le tutoriel sera marqué comme terminé. Vous pouvez toujours le redémarrer à partir du bouton « Afficher le tutoriel » dans la barre latérale.",
+    "completeConfirmMessage": "Vous avez terminé le tutoriel ! Voulez-vous le marquer comme terminé pour qu'il ne s'affiche plus automatiquement ?",
+    "cancel": "Annuler",
+    "skipTour": "Ignorer la visite",
+    "complete": "Terminer"
+  },
+  "steps": {
+    "1": {
+      "phase": "Fond de carte",
+      "title": "Onglet Fonds de carte",
+      "content": "Cliquez sur l'onglet Fonds de carte pour voir les différents styles de carte que vous pouvez utiliser en arrière-plan."
+    },
+    "2": {
+      "phase": "Fond de carte",
+      "title": "Choisir un fond de carte",
+      "content": "Choisissez n'importe quel fond de carte parmi ceux proposés. Chacun offre un style visuel différent pour l'arrière-plan de la carte."
+    },
+    "3": {
+      "phase": "Couches de données",
+      "title": "Onglet Données",
+      "content": "Cliquez sur l'onglet Données pour voir toutes les couches de données disponibles que vous pouvez superposer sur la carte."
+    },
+    "4": {
+      "phase": "Couches de données",
+      "title": "Explorer les couches de données",
+      "content": "Parcourez et activez les couches de votre choix. Les couches contiennent différents types de données géospatiales comme l'occupation des sols, la végétation, et bien plus."
+    },
+    "5": {
+      "phase": "Signalement",
+      "title": "Signaler des données incorrectes",
+      "content": "Vous avez trouvé des données incorrectes ? Cliquez sur ce bouton pour signaler le problème. Vous pouvez tracer un contour autour de la zone concernée et l'envoyer pour vérification."
+    },
+    "6": {
+      "phase": "Navigation",
+      "title": "Sélecteur de pays",
+      "content": "Utilisez cet outil pour zoomer sur n'importe quel pays africain et voir clairement ses frontières."
+    },
+    "7": {
+      "phase": "Comparer les couches",
+      "title": "Comparer les couches",
+      "content": "Cliquez ici pour comparer deux couches différentes côte à côte. Idéal pour observer les changements dans le temps ou comparer différents types de données."
+    },
+    "8": {
+      "phase": "Statistiques",
+      "title": "Statistiques",
+      "content": "Calculez les statistiques d'occupation des sols pour n'importe quelle zone que vous dessinez. Utile pour l'analyse quantitative de régions spécifiques."
+    },
+    "9": {
+      "phase": "Assistant IA",
+      "title": "Assistant IA",
+      "content": "Besoin d'aide ? Cliquez ici pour discuter avec notre assistant IA. Posez vos questions sur la carte, les données ou toute fonctionnalité."
+    },
+    "10": {
+      "phase": "Terminé",
+      "title": "Tutoriel terminé !",
+      "content": "Vous avez découvert toutes les fonctionnalités principales ! Cliquez sur « Terminer la visite » pour marquer le tutoriel comme terminé. Vous pouvez toujours le redémarrer à partir du bouton « Afficher le tutoriel » dans la barre latérale."
+    }
+  }
+}

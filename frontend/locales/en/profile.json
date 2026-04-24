@@ -1,0 +1,74 @@
+{
+  "profile": {
+    "editProfile": "Edit Profile",
+    "changePassword": "Change Password",
+    "goToMap": "Go to Map →",
+    "profileUpdatedSuccess": "Profile updated successfully",
+    "fullName": "Full Name",
+    "email": "Email",
+    "country": "Country",
+    "phoneNumber": "Phone Number",
+    "jobTitle": "Job Title",
+    "institution": "Institution",
+    "emailCannotBeChanged": "Email cannot be changed",
+    "cancel": "Cancel",
+    "saveChanges": "Save Changes",
+    "saving": "Saving...",
+    "placeholders": {
+      "searchCountry": "Search or select country",
+      "jobTitle": "e.g. Researcher",
+      "institution": "e.g. University of Lagos"
+    },
+    "displayLabels": {
+      "phone": "Phone",
+      "country": "Country",
+      "jobTitle": "Job Title",
+      "institution": "Institution"
+    }
+  },
+  "password": {
+    "title": "Change Password",
+    "description": "Enter your current password and choose a new one",
+    "currentPassword": "Current Password",
+    "newPassword": "New Password",
+    "confirmNewPassword": "Confirm New Password",
+    "placeholders": {
+      "currentPassword": "Enter current password",
+      "newPassword": "Min. 6 characters",
+      "confirmNewPassword": "Re-enter new password"
+    },
+    "changing": "Changing...",
+    "changePasswordBtn": "Change Password",
+    "cancel": "Cancel",
+    "errors": {
+      "allFieldsRequired": "All fields are required",
+      "minLength": "New password must be at least 6 characters",
+      "noMatch": "New passwords do not match",
+      "changedSuccess": "Password changed successfully"
+    }
+  },
+  "chatHistory": {
+    "title": "Chat History",
+    "description": "Your AI Copilot conversations",
+    "noConversationsYet": "No conversations yet",
+    "startChatting": "Start chatting with the AI Copilot from the",
+    "mapPage": "map page",
+    "untitledConversation": "Untitled conversation",
+    "active": "Active",
+    "noMessages": "No messages",
+    "noMessagesInConversation": "No messages in this conversation",
+    "messages": "messages",
+    "deleteConfirm": "Delete this conversation? This cannot be undone.",
+    "deleteTitle": "Delete conversation"
+  },
+  "errors": {
+    "failedToLoadSessions": "Failed to load sessions",
+    "failedToLoadMessages": "Failed to load messages",
+    "failedToDelete": "Failed to delete",
+    "failedToUpdateProfile": "Failed to update profile",
+    "failedToChangePassword": "Failed to change password"
+  },
+  "footer": {
+    "copyright": "© 2025 AfriGeoData. All rights reserved."
+  }
+}

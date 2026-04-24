@@ -1,4 +1,5 @@
 import { useCallback } from 'react'
+import i18next from 'i18next'
 import { Layer, Polygon, PolygonGeometry } from './types'
 import { Country } from './useMapState'
 import { api } from '@/lib/authFetch'
@@ -203,7 +204,7 @@ export function useMapHandlers(props: UseMapHandlersProps): UseMapHandlersReturn
 
     setReportingMode(true)
     setReportingStep('draw')
-    setClipMessage('Draw a polygon around the invalid area')
+    setClipMessage(i18next.t('map.handlers.drawInvalidArea'))
   }, [
     clearDrawnItems,
     getMapBounds,
@@ -217,18 +218,18 @@ export function useMapHandlers(props: UseMapHandlersProps): UseMapHandlersReturn
 
   const handleSubmitReport = useCallback(async () => {
     if (!currentPolygon || !invalidAreaPolygon || !reportComment.trim()) {
-      setReportMessage('Please draw a polygon and provide a comment')
+      setReportMessage(i18next.t('map.handlers.drawPolygonAndComment'))
       return
     }
 
     const selectedLayer = allLayers.find(l => l.id === selectedLayerId)
     if (!selectedLayer) {
-      setReportMessage('Please select a layer')
+      setReportMessage(i18next.t('map.handlers.selectLayer'))
       return
     }
 
     setIsSubmittingReport(true)
-    setReportMessage('Submitting report...')
+    setReportMessage(i18next.t('map.handlers.submittingReport'))
 
     try {
       const response = await api.post('/reports', {
@@ -241,7 +242,7 @@ export function useMapHandlers(props: UseMapHandlersProps): UseMapHandlersReturn
 
       if (!response.ok) {
         const error = await response.json()
-        throw new Error(error.error || 'Failed to submit report')
+        throw new Error(error.error || i18next.t('map.handlers.failedToSubmitReport'))
       }
 
       // Close the reporting form immediately
@@ -256,14 +257,14 @@ export function useMapHandlers(props: UseMapHandlersProps): UseMapHandlersReturn
       clearDrawnItems()
 
       // Show success notification
-      setClipMessage('Thank you! Your report has been submitted and will be reviewed by our team.')
+      setClipMessage(i18next.t('map.handlers.reportSubmitted'))
       setTimeout(() => {
         setClipMessage('')
       }, 5000)
 
     } catch (error: any) {
       console.error('Report error:', error)
-      setReportMessage(error.message || 'Failed to submit report')
+      setReportMessage(error.message || i18next.t('map.handlers.failedToSubmitReport'))
       setTimeout(() => {
         setReportMessage('')
       }, 5000)
@@ -316,7 +317,7 @@ export function useMapHandlers(props: UseMapHandlersProps): UseMapHandlersReturn
     setStatsPolygonArea(0)
     setStatsResults(null)
     setStatsError('')
-    setClipMessage('Draw a polygon on the map to calculate statistics')
+    setClipMessage(i18next.t('map.handlers.drawPolygonForStats'))
   }, [
     clearDrawnItems,
     setStatsMode,
@@ -329,19 +330,19 @@ export function useMapHandlers(props: UseMapHandlersProps): UseMapHandlersReturn
 
   const handleCalculateStats = useCallback(async () => {
     if (!statsPolygon || !statsLayerId) {
-      setStatsError('Please select a layer and draw a polygon')
+      setStatsError(i18next.t('map.handlers.selectLayerAndDraw'))
       return
     }
 
     // Find the layer
     const layerConfig = allLayers.find(l => l.id === statsLayerId)
     if (!layerConfig) {
-      setStatsError('Layer not found')
+      setStatsError(i18next.t('map.handlers.layerNotFound'))
       return
     }
 
     if (!layerConfig.hasStats) {
-      setStatsError('This layer is not configured for statistics. Please contact an admin.')
+      setStatsError(i18next.t('map.handlers.layerNotConfiguredForStats'))
       return
     }
 
@@ -357,7 +358,7 @@ export function useMapHandlers(props: UseMapHandlersProps): UseMapHandlersReturn
       const data = await response.json()
 
       if (!response.ok) {
-        throw new Error(data.error || data.message || 'Failed to calculate statistics')
+        throw new Error(data.error || data.message || i18next.t('map.handlers.failedToCalculateStats'))
       }
 
       setStatsResults(data)
@@ -403,7 +404,7 @@ export function useMapHandlers(props: UseMapHandlersProps): UseMapHandlersReturn
     setAiAnalysisPolygon(null)
     setAiAnalysisArea(0)
     setAiAnalysisError('')
-    setClipMessage('Draw a polygon on the map to analyze with AI')
+    setClipMessage(i18next.t('map.handlers.drawPolygonForAI'))
 
     // Auto-select the active layer if there's exactly one
     if (selectedLayerId) {
@@ -422,18 +423,18 @@ export function useMapHandlers(props: UseMapHandlersProps): UseMapHandlersReturn
 
   const handleAnalyzeArea = useCallback(async () => {
     if (!aiAnalysisPolygon || !aiAnalysisLayerId) {
-      setAiAnalysisError('Please select a layer and draw a polygon')
+      setAiAnalysisError(i18next.t('map.handlers.selectLayerAndDraw'))
       return
     }
 
     const layerConfig = allLayers.find(l => l.id === aiAnalysisLayerId)
     if (!layerConfig) {
-      setAiAnalysisError('Layer not found')
+      setAiAnalysisError(i18next.t('map.handlers.layerNotFound'))
       return
     }
 
     if (!layerConfig.hasStats) {
-      setAiAnalysisError('This layer is not configured for AI analysis. Please contact an admin.')
+      setAiAnalysisError(i18next.t('map.handlers.layerNotConfiguredForAI'))
       return
     }
 
@@ -451,7 +452,7 @@ export function useMapHandlers(props: UseMapHandlersProps): UseMapHandlersReturn
       })
 
       if (!response.ok) {
-        throw new Error('Failed to analyze area')
+        throw new Error(i18next.t('map.handlers.failedToAnalyzeArea'))
       }
 
       // Read the SSE stream
@@ -506,7 +507,7 @@ export function useMapHandlers(props: UseMapHandlersProps): UseMapHandlersReturn
                 }))
                 window.dispatchEvent(new CustomEvent('ai-analysis-complete'))
               } else if (parsed.type === 'error') {
-                throw new Error(parsed.error || parsed.details || 'Analysis failed')
+                throw new Error(parsed.error || parsed.details || i18next.t('map.handlers.analysisFailed'))
               }
             } catch (e) {
               console.error('Parse error:', e)
@@ -551,13 +552,13 @@ export function useMapHandlers(props: UseMapHandlersProps): UseMapHandlersReturn
   // Fetch pre-calculated country stats
   const handleFetchCountryStats = useCallback(async (countryFile: string) => {
     if (!statsLayerId) {
-      setStatsError('Please select a layer first')
+      setStatsError(i18next.t('map.handlers.selectLayerFirst'))
       return
     }
 
     const layerConfig = allLayers.find(l => l.id === statsLayerId)
     if (!layerConfig) {
-      setStatsError('Layer not found')
+      setStatsError(i18next.t('map.handlers.layerNotFound'))
       return
     }
 
@@ -570,7 +571,7 @@ export function useMapHandlers(props: UseMapHandlersProps): UseMapHandlersReturn
       const data = await response.json()
 
       if (!response.ok) {
-        throw new Error(data.error || data.message || 'Stats not available for this country')
+        throw new Error(data.error || data.message || i18next.t('map.handlers.statsNotAvailable'))
       }
 
       setStatsResults({

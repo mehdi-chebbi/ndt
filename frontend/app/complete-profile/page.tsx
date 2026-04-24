@@ -5,11 +5,13 @@ import { useRouter } from 'next/navigation'
 import CountrySelect from '@/components/ui/CountrySelect'
 import PhoneInput from '@/components/ui/PhoneInput'
 import { useAuth } from '@/contexts/AuthContext'
+import { useTranslation } from 'react-i18next'
 
-const API_BASE = ''  // Use relative paths for reverse proxy compatibility
+const API_BASE = ''
 
 export default function CompleteProfilePage() {
   const { updateUser, user, isAuthenticated } = useAuth()
+  const { t } = useTranslation('complete-profile')
   const [phoneNumber, setPhoneNumber] = useState('')
   const [country, setCountry] = useState('')
   const [jobTitle, setJobTitle] = useState('')
@@ -34,7 +36,7 @@ export default function CompleteProfilePage() {
     setError('')
 
     if (!phoneNumber || !country || !jobTitle || !institution) {
-      setError('Please fill in all fields')
+      setError(t('errors.allFieldsRequired'))
       return
     }
 
@@ -64,10 +66,9 @@ export default function CompleteProfilePage() {
       const data = await response.json()
 
       if (!response.ok) {
-        throw new Error(data.error || 'Failed to complete profile')
+        throw new Error(data.error || t('errors.failedToComplete'))
       }
 
-      // Update React state via AuthContext (also updates localStorage)
       updateUser({
         phone_number: data.user.phone_number,
         country: data.user.country,
@@ -76,7 +77,6 @@ export default function CompleteProfilePage() {
         profile_complete: true,
       })
 
-      // Redirect to tutorial for first-time users, dashboard otherwise
       if (!user?.tutorial_completed) {
         router.push('/map?autoTutorial=true')
       } else {
@@ -99,8 +99,8 @@ export default function CompleteProfilePage() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
               </svg>
             </div>
-            <h1 className="text-2xl font-bold text-gray-900 mb-2">Complete Your Profile</h1>
-            <p className="text-gray-500 text-sm">We need a few more details to get you started</p>
+            <h1 className="text-2xl font-bold text-gray-900 mb-2">{t('title')}</h1>
+            <p className="text-gray-500 text-sm">{t('subtitle')}</p>
           </div>
 
           {error && (
@@ -110,22 +110,20 @@ export default function CompleteProfilePage() {
           )}
 
           <form onSubmit={handleSubmit} className="space-y-5">
-            {/* Country */}
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-1.5">
-                Country
+                {t('common:country')}
               </label>
               <CountrySelect
                 value={country}
                 onChange={setCountry}
-                placeholder="Search or select your country"
+                placeholder={t('countryPlaceholder')}
               />
             </div>
 
-            {/* Phone Number */}
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-1.5">
-                Phone Number
+                {t('phoneNumberLabel')}
               </label>
               <PhoneInput
                 country={country}
@@ -135,10 +133,9 @@ export default function CompleteProfilePage() {
               />
             </div>
 
-            {/* Job Title */}
             <div>
               <label htmlFor="jobTitle" className="block text-sm font-medium text-gray-700 mb-1.5">
-                Job Title
+                {t('jobTitleLabel')}
               </label>
               <input
                 id="jobTitle"
@@ -147,14 +144,13 @@ export default function CompleteProfilePage() {
                 value={jobTitle}
                 onChange={(e) => setJobTitle(e.target.value)}
                 className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent outline-none transition text-sm"
-                placeholder="e.g. Researcher, Data Scientist"
+                placeholder={t('jobTitlePlaceholder')}
               />
             </div>
 
-            {/* Institution */}
             <div>
               <label htmlFor="institution" className="block text-sm font-medium text-gray-700 mb-1.5">
-                Institution / Organization
+                {t('institutionLabel')}
               </label>
               <input
                 id="institution"
@@ -163,7 +159,7 @@ export default function CompleteProfilePage() {
                 value={institution}
                 onChange={(e) => setInstitution(e.target.value)}
                 className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent outline-none transition text-sm"
-                placeholder="e.g. University of Lagos"
+                placeholder={t('institutionPlaceholder')}
               />
             </div>
 
@@ -172,7 +168,7 @@ export default function CompleteProfilePage() {
               disabled={loading}
               className="w-full bg-green-600 text-white py-3 rounded-lg hover:bg-green-700 transition font-medium disabled:opacity-50 disabled:cursor-not-allowed text-sm"
             >
-              {loading ? 'Saving...' : 'Continue to Dashboard'}
+              {loading ? t('saving') : t('continueToDashboard')}
             </button>
           </form>
         </div>

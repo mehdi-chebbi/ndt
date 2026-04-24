@@ -1,0 +1,19 @@
+{
+  "title": "Content de vous revoir",
+  "subtitle": "Connectez-vous à votre compte",
+  "emailLabel": "Adresse e-mail",
+  "emailPlaceholder": "vous@exemple.com",
+  "passwordLabel": "Mot de passe",
+  "passwordPlaceholder": "••••••••",
+  "forgotPassword": "Mot de passe oublié ?",
+  "signingIn": "Connexion en cours...",
+  "signInButton": "Se connecter",
+  "orContinueWith": "Ou continuer avec",
+  "signInWithGoogle": "Se connecter avec Google",
+  "signInWithMicrosoft": "Se connecter avec Microsoft",
+  "noAccount": "Vous n'avez pas de compte ?",
+  "signUpLink": "S'inscrire",
+  "errors": {
+    "loginFailed": "Échec de la connexion"
+  }
+}

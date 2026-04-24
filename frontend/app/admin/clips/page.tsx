@@ -4,6 +4,7 @@ import { useEffect, useState, useCallback } from 'react'
 import Link from 'next/link'
 import { api, authFetch } from '@/lib/authFetch'
 import { useAuth } from '@/contexts/AuthContext'
+import { useTranslation } from 'react-i18next'
 
 interface LayerClipStatus {
   id: number
@@ -42,6 +43,7 @@ function formatBytes(bytes: number): string {
 
 export default function ClipManagementPage() {
   const { user, loading: authLoading } = useAuth()
+  const { t } = useTranslation('admin')
   const [layers, setLayers] = useState<LayerClipStatus[]>([])
   const [totalCountries, setTotalCountries] = useState(0)
   const [loading, setLoading] = useState(true)
@@ -84,7 +86,7 @@ export default function ClipManagementPage() {
       setLoading(true)
       const response = await api.get('/clip/batch-status')
       if (!response.ok) {
-        throw new Error('Failed to fetch clip status')
+        throw new Error(t('clips.errors.failedToFetchStatus'))
       }
       const data: BatchStatusResponse = await response.json()
       setLayers(data.layers)
@@ -116,12 +118,12 @@ export default function ClipManagementPage() {
 
   const handleStartClip = async (layer: LayerClipStatus) => {
     if (!layer.canClip) {
-      showToast('This layer has no style assigned. Sync layers first.', 'error')
+      showToast(t('clips.errors.noStyleAssigned'), 'error')
       return
     }
 
     if (layer.isRunning) {
-      showToast('Batch already in progress for this layer.', 'info')
+      showToast(t('clips.errors.batchInProgress'), 'info')
       return
     }
 
@@ -133,10 +135,10 @@ export default function ClipManagementPage() {
       const data = await response.json()
 
       if (!response.ok) {
-        throw new Error(data.error || data.message || 'Failed to start batch')
+        throw new Error(data.error || data.message || t('clips.errors.failedToStartBatch'))
       }
 
-      showToast(`Batch clipping started: ${layer.display_name} (${data.totalCountries} countries)`, 'success')
+      showToast(t('clips.errors.batchStarted', { layer: layer.display_name, count: data.totalCountries }), 'success')
 
       // Refresh to show running state
       fetchStatus()
@@ -157,7 +159,7 @@ export default function ClipManagementPage() {
     try {
       const response = await api.get(`/clip/layer/${layer.id}/clipped-countries`)
       if (!response.ok) {
-        throw new Error('Failed to fetch country details')
+        throw new Error(t('clips.errors.failedToFetchCountryDetails'))
       }
       const data: ClippedCountriesResponse = await response.json()
       setModalData(data)
@@ -177,8 +179,8 @@ export default function ClipManagementPage() {
   const handleDeleteCountry = (layer: LayerClipStatus, country: string) => {
     setConfirmAction({
       type: 'country',
-      title: 'Delete Clipped Layer',
-      message: `Remove the clipped layer for "${country}" from ${layer.display_name}? This will unpublish it from GeoServer.`,
+      title: t('clips.confirmDialog.deleteClippedLayer'),
+      message: t('clips.confirmDialog.deleteClippedLayerMessage', { country, layer: layer.display_name }),
       onConfirm: async () => {
         setConfirmAction(null)
         setDeletingCountry(country)
@@ -188,8 +190,8 @@ export default function ClipManagementPage() {
             body: JSON.stringify({ layerId: layer.id, countryFile: `${country}.geojson` }),
           })
           const data = await response.json()
-          if (!response.ok) throw new Error(data.error || 'Delete failed')
-          showToast(`Deleted clipped layer for ${country}`, 'success')
+          if (!response.ok) throw new Error(data.error || t('clips.errors.deleteFailed'))
+          showToast(t('clips.errors.deletedClippedLayer', { country }), 'success')
           // Refresh modal data
           handleOpenCountryModal(layer)
           fetchStatus()
@@ -206,8 +208,8 @@ export default function ClipManagementPage() {
     const sizeStr = formatBytes(layer.totalSizeBytes)
     setConfirmAction({
       type: 'layer',
-      title: 'Delete All Clipped Layers',
-      message: `Remove ALL ${layer.clippedCountries} clipped layers (${sizeStr}) for "${layer.display_name}" from GeoServer? This cannot be undone.`,
+      title: t('clips.confirmDialog.deleteAllClippedLayers'),
+      message: t('clips.confirmDialog.deleteAllClippedLayersMessage', { count: layer.clippedCountries, size: sizeStr, layer: layer.display_name }),
       onConfirm: async () => {
         setConfirmAction(null)
         setDeletingLayerId(layer.id)
@@ -217,12 +219,12 @@ export default function ClipManagementPage() {
             body: JSON.stringify({ layerId: layer.id }),
           })
           const data = await response.json()
-          if (!response.ok) throw new Error(data.error || 'Delete failed')
+          if (!response.ok) throw new Error(data.error || t('clips.errors.deleteFailed'))
 
           if (data.status === 'partial') {
             showToast(data.message, 'warning')
           } else {
-            showToast(`Deleted all clipped layers for ${layer.display_name}`, 'success')
+            showToast(t('clips.errors.deletedAllClippedLayers', { layer: layer.display_name }), 'success')
           }
           fetchStatus()
           // Close modal if open for this layer
@@ -241,7 +243,7 @@ export default function ClipManagementPage() {
       <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center">
         <div className="text-center">
           <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-gray-900 mx-auto"></div>
-          <p className="mt-4 text-gray-600">Loading...</p>
+          <p className="mt-4 text-gray-600">{t('shared.loading')}</p>
         </div>
       </div>
     )
@@ -285,8 +287,8 @@ export default function ClipManagementPage() {
               </svg>
             </Link>
             <div>
-              <h1 className="text-2xl font-bold text-gray-900">Clip Management</h1>
-              <p className="text-gray-600 mt-1">Pre-clip rasters to country boundaries for instant loading</p>
+              <h1 className="text-2xl font-bold text-gray-900">{t('clips.title')}</h1>
+              <p className="text-gray-600 mt-1">{t('clips.subtitle')}</p>
             </div>
           </div>
           <button
@@ -296,7 +298,7 @@ export default function ClipManagementPage() {
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
             </svg>
-            Refresh
+            {t('shared.refresh')}
           </button>
         </div>
 
@@ -341,27 +343,27 @@ export default function ClipManagementPage() {
         {/* Stats Cards */}
         <div className="grid grid-cols-2 md:grid-cols-6 gap-4 sm:gap-6 mb-8">
           <div className="bg-white rounded-xl shadow-sm p-4 sm:p-6">
-            <p className="text-gray-600 text-xs sm:text-sm">Total Rasters</p>
+            <p className="text-gray-600 text-xs sm:text-sm">{t('clips.stats.totalRasters')}</p>
             <p className="text-2xl sm:text-3xl font-bold text-gray-900">{layers.length}</p>
           </div>
           <div className="bg-white rounded-xl shadow-sm p-4 sm:p-6">
-            <p className="text-gray-600 text-xs sm:text-sm">Fully Clipped</p>
+            <p className="text-gray-600 text-xs sm:text-sm">{t('clips.stats.fullyClipped')}</p>
             <p className="text-2xl sm:text-3xl font-bold text-green-600">{fullyClippedCount}</p>
           </div>
           <div className="bg-white rounded-xl shadow-sm p-4 sm:p-6">
-            <p className="text-gray-600 text-xs sm:text-sm">Partially Clipped</p>
+            <p className="text-gray-600 text-xs sm:text-sm">{t('clips.stats.partiallyClipped')}</p>
             <p className="text-2xl sm:text-3xl font-bold text-amber-600">{partiallyClippedCount}</p>
           </div>
           <div className="bg-white rounded-xl shadow-sm p-4 sm:p-6">
-            <p className="text-gray-600 text-xs sm:text-sm">Not Clipped</p>
+            <p className="text-gray-600 text-xs sm:text-sm">{t('clips.stats.notClipped')}</p>
             <p className="text-2xl sm:text-3xl font-bold text-red-600">{notClippedCount}</p>
           </div>
           <div className="bg-white rounded-xl shadow-sm p-4 sm:p-6">
-            <p className="text-gray-600 text-xs sm:text-sm">Running</p>
+            <p className="text-gray-600 text-xs sm:text-sm">{t('clips.stats.running')}</p>
             <p className="text-2xl sm:text-3xl font-bold text-blue-600">{runningCount}</p>
           </div>
           <div className="bg-white rounded-xl shadow-sm p-4 sm:p-6">
-            <p className="text-gray-600 text-xs sm:text-sm">Total Storage</p>
+            <p className="text-gray-600 text-xs sm:text-sm">{t('clips.stats.totalStorage')}</p>
             <p className="text-2xl sm:text-3xl font-bold text-purple-600">{formatBytes(totalStorageBytes)}</p>
           </div>
         </div>
@@ -370,9 +372,9 @@ export default function ClipManagementPage() {
         <div className="bg-white rounded-xl shadow-sm overflow-hidden">
           <div className="px-6 py-4 border-b border-gray-200 flex justify-between items-center">
             <h2 className="text-lg font-semibold text-gray-900">
-              Raster Layers
+              {t('clips.table.rasterLayers')}
               <span className="text-sm font-normal text-gray-500 ml-2">
-                ({totalCountries} countries per raster)
+                {t('clips.table.countriesPerRaster', { count: totalCountries })}
               </span>
             </h2>
             {runningCount > 0 && (
@@ -380,7 +382,7 @@ export default function ClipManagementPage() {
                 <svg className="w-4 h-4 animate-spin" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
                 </svg>
-                <span className="text-sm font-medium">Auto-refreshing every 5s</span>
+                <span className="text-sm font-medium">{t('shared.autoRefreshing')}</span>
               </div>
             )}
           </div>
@@ -390,8 +392,8 @@ export default function ClipManagementPage() {
               <svg className="w-12 h-12 text-gray-400 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
               </svg>
-              <p className="text-gray-600">No clippable layers found</p>
-              <p className="text-gray-400 text-sm mt-1">Layers need a file_path to be clip-able</p>
+              <p className="text-gray-600">{t('clips.noClippableLayers')}</p>
+              <p className="text-gray-400 text-sm mt-1">{t('clips.noClippableLayersHint')}</p>
             </div>
           ) : (
             <div className="overflow-x-auto">
@@ -399,19 +401,19 @@ export default function ClipManagementPage() {
                 <thead className="bg-gray-50">
                   <tr>
                     <th className="px-4 sm:px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                      Layer
+                      {t('clips.table.layer')}
                     </th>
                     <th className="px-4 sm:px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                      Progress
+                      {t('clips.table.progress')}
                     </th>
                     <th className="px-4 sm:px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                      Status
+                      {t('clips.table.status')}
                     </th>
                     <th className="px-4 sm:px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                      Storage
+                      {t('clips.table.storage')}
                     </th>
                     <th className="px-4 sm:px-6 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">
-                      Actions
+                      {t('clips.table.actions')}
                     </th>
                   </tr>
                 </thead>
@@ -433,7 +435,7 @@ export default function ClipManagementPage() {
                           <button
                             onClick={() => handleOpenCountryModal(layer)}
                             className="flex items-center gap-3 cursor-pointer hover:opacity-80 transition group"
-                            title="Click to view country details"
+                            title={t('clips.clickToViewDetails')}
                           >
                             <span className="text-sm font-medium text-gray-700 min-w-[60px]">
                               {layer.clippedCountries}/{layer.totalCountries}
@@ -462,26 +464,26 @@ export default function ClipManagementPage() {
                               <svg className="w-3 h-3 animate-spin" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
                               </svg>
-                              Clipping...
+                              {t('clips.statusBadge.clipping')}
                             </span>
                           ) : layer.fullyClipped ? (
                             <span className="inline-flex items-center gap-1 px-2.5 py-1 text-xs font-medium rounded-full bg-green-100 text-green-800">
                               <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                               </svg>
-                              Complete
+                              {t('clips.statusBadge.complete')}
                             </span>
                           ) : layer.clippedCountries > 0 ? (
                             <span className="inline-flex items-center gap-1 px-2.5 py-1 text-xs font-medium rounded-full bg-amber-100 text-amber-800">
-                              Partial
+                              {t('clips.statusBadge.partial')}
                             </span>
                           ) : !layer.canClip ? (
                             <span className="inline-flex items-center gap-1 px-2.5 py-1 text-xs font-medium rounded-full bg-gray-100 text-gray-600">
-                              No Style
+                              {t('clips.statusBadge.noStyle')}
                             </span>
                           ) : (
                             <span className="inline-flex items-center gap-1 px-2.5 py-1 text-xs font-medium rounded-full bg-red-100 text-red-800">
-                              Not Clipped
+                              {t('clips.statusBadge.notClipped')}
                             </span>
                           )}
                         </td>
@@ -508,7 +510,7 @@ export default function ClipManagementPage() {
                                 <svg className="w-4 h-4 animate-spin" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
                                 </svg>
-                                Processing...
+                                {t('clips.processing')}
                               </span>
                             ) : (
                               <>
@@ -521,13 +523,13 @@ export default function ClipManagementPage() {
                                         ? 'bg-gray-100 text-gray-400 cursor-not-allowed'
                                         : 'bg-gray-900 text-white hover:bg-gray-800'
                                     } ${clippingLayerId === layer.id ? 'opacity-50' : ''}`}
-                                    title={!layer.canClip ? 'Sync layer to assign a style first' : `Clip remaining countries (${layer.totalCountries - layer.clippedCountries} left)`}
+                                    title={!layer.canClip ? t('clips.syncStyleFirst') : t('clips.clipRemainingTooltip', { count: layer.totalCountries - layer.clippedCountries })}
                                   >
                                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.121 14.121L19 19m-7-7l7-7m-7 7l-2.879 2.879M12 12L9.121 9.121m0 5.758a3 3 0 10-4.243 4.243 3 3 0 004.243-4.243zm0-5.758a3 3 0 10-4.243-4.243 3 3 0 004.243 4.243z" />
                                     </svg>
-                                    <span className="hidden sm:inline">{layer.clippedCountries > 0 ? 'Clip Remaining' : 'Clip All'}</span>
-                                    <span className="sm:hidden">Clip</span>
+                                    <span className="hidden sm:inline">{layer.clippedCountries > 0 ? t('clips.clipRemaining') : t('clips.clipAll')}</span>
+                                    <span className="sm:hidden">{t('clips.clip')}</span>
                                   </button>
                                 )}
                                 {layer.clippedCountries > 0 && (
@@ -539,7 +541,7 @@ export default function ClipManagementPage() {
                                         ? 'opacity-50 cursor-not-allowed'
                                         : 'bg-red-50 text-red-700 hover:bg-red-100 border border-red-200'
                                     }`}
-                                    title={`Delete all ${layer.clippedCountries} clipped layers`}
+                                    title={t('clips.deleteAllTooltip', { count: layer.clippedCountries })}
                                   >
                                     {deletingLayerId === layer.id ? (
                                       <svg className="w-4 h-4 animate-spin" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -550,7 +552,7 @@ export default function ClipManagementPage() {
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
                                       </svg>
                                     )}
-                                    <span className="hidden sm:inline">Delete All</span>
+                                    <span className="hidden sm:inline">{t('clips.deleteAll')}</span>
                                   </button>
                                 )}
                               </>
@@ -568,16 +570,16 @@ export default function ClipManagementPage() {
 
         {/* Info Box */}
         <div className="mt-6 bg-gray-50 border border-gray-200 rounded-xl p-4">
-          <h3 className="text-sm font-semibold text-gray-900 mb-2">How it works</h3>
+          <h3 className="text-sm font-semibold text-gray-900 mb-2">{t('shared.howItWorks')}</h3>
           <ul className="text-sm text-gray-600 space-y-1">
-            <li>- Click the progress bar to see which countries are done and which remain</li>
-            <li>- Clicking &quot;Clip All&quot; clips the raster for all {totalCountries} countries using the clip-service</li>
-            <li>- Clicking &quot;Clip Remaining&quot; only processes countries not yet in cache</li>
-            <li>- Large countries (Algeria, DR Congo, Sudan, etc.) may take 10-15 minutes each</li>
-            <li>- The page auto-refreshes every 5 seconds while a batch is running</li>
-            <li>- If interrupted, click Clip again to resume from where it left off</li>
-            <li>- Use &quot;Delete All&quot; to unpublish clipped layers from GeoServer and clear the cache</li>
-            <li>- In the country detail modal, you can delete individual country clips</li>
+            <li>- {t('clips.infoBox.clickProgressBar')}</li>
+            <li>- {t('clips.infoBox.clipAllInfo', { count: totalCountries })}</li>
+            <li>- {t('clips.infoBox.clipRemainingInfo')}</li>
+            <li>- {t('clips.infoBox.largeCountriesWarning')}</li>
+            <li>- {t('clips.infoBox.autoRefreshInfo')}</li>
+            <li>- {t('clips.infoBox.resumeInfo')}</li>
+            <li>- {t('clips.infoBox.deleteAllInfo')}</li>
+            <li>- {t('clips.infoBox.individualDeleteInfo')}</li>
           </ul>
         </div>
       </main>
@@ -593,7 +595,7 @@ export default function ClipManagementPage() {
                   {modalLayer.display_name}
                 </h3>
                 <p className="text-sm text-gray-500 mt-0.5">
-                  {modalLayer.clippedCountries} of {modalLayer.totalCountries} countries clipped
+                  {t('clips.modal.countriesClipped', { clipped: modalLayer.clippedCountries, total: modalLayer.totalCountries })}
                   {modalLayer.totalSizeBytes > 0 && (
                     <span className="ml-2 text-purple-600 font-medium">
                       ({formatBytes(modalLayer.totalSizeBytes)})
@@ -629,8 +631,8 @@ export default function ClipManagementPage() {
                       />
                     </div>
                     <div className="flex justify-between mt-1.5 text-xs text-gray-500">
-                      <span>{getProgressPercentage(modalLayer)}% complete</span>
-                      <span>{modalData.total - modalLayer.clippedCountries} remaining</span>
+                      <span>{getProgressPercentage(modalLayer)}% {t('shared.complete')}</span>
+                      <span>{modalData.total - modalLayer.clippedCountries} {t('shared.remaining')}</span>
                     </div>
                   </div>
 
@@ -644,7 +646,7 @@ export default function ClipManagementPage() {
                         type="text"
                         value={countrySearch}
                         onChange={(e) => setCountrySearch(e.target.value)}
-                        placeholder="Search countries..."
+                        placeholder={t('shared.searchCountries')}
                         className="w-full pl-9 pr-3 py-2 border border-gray-300 rounded-lg text-sm focus:ring-2 focus:ring-gray-900 focus:border-transparent"
                       />
                     </div>
@@ -657,7 +659,7 @@ export default function ClipManagementPage() {
                         <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                         </svg>
-                        Clipped ({countrySearch ? filteredClipped.length : modalData.clipped.length})
+                        {t('clips.modal.clipped')} ({countrySearch ? filteredClipped.length : modalData.clipped.length})
                       </span>
                       {modalData.clipped.length > 0 && !modalLayer.isRunning && (
                         <button
@@ -665,13 +667,13 @@ export default function ClipManagementPage() {
                           disabled={deletingLayerId === modalLayer.id}
                           className="text-xs font-medium text-red-600 hover:text-red-800 hover:bg-red-50 px-2 py-1 rounded transition"
                         >
-                          {deletingLayerId === modalLayer.id ? 'Deleting...' : 'Delete All'}
+                          {deletingLayerId === modalLayer.id ? t('clips.modal.deleting') : t('clips.deleteAll')}
                         </button>
                       )}
                     </h4>
                     <div className="max-h-48 overflow-y-auto border border-green-200 rounded-lg bg-green-50/50">
                       {filteredClipped.length === 0 ? (
-                        <p className="text-sm text-gray-400 py-3 px-3">No matches</p>
+                        <p className="text-sm text-gray-400 py-3 px-3">{t('clips.modal.noMatches')}</p>
                       ) : (
                         <div className="flex flex-wrap gap-1.5 p-2">
                           {filteredClipped.map(country => (
@@ -713,7 +715,7 @@ export default function ClipManagementPage() {
                         <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                         </svg>
-                        Remaining ({countrySearch ? filteredRemaining.length : modalData.remaining.length})
+                        {t('clips.modal.remaining')} ({countrySearch ? filteredRemaining.length : modalData.remaining.length})
                       </h4>
                       <div className="max-h-48 overflow-y-auto border border-gray-200 rounded-lg bg-gray-50/50">
                         <div className="flex flex-wrap gap-1.5 p-2">
@@ -728,7 +730,7 @@ export default function ClipManagementPage() {
                   )}
                 </>
               ) : (
-                <p className="text-gray-500 text-sm text-center py-8">Failed to load country details</p>
+                <p className="text-gray-500 text-sm text-center py-8">{t('clips.modal.failedToLoadDetails')}</p>
               )}
             </div>
           </div>
@@ -754,13 +756,13 @@ export default function ClipManagementPage() {
                   onClick={() => setConfirmAction(null)}
                   className="px-4 py-2 text-sm font-medium text-gray-700 bg-gray-100 rounded-lg hover:bg-gray-200 transition"
                 >
-                  Cancel
+                  {t('shared.cancel')}
                 </button>
                 <button
                   onClick={confirmAction.onConfirm}
                   className="px-4 py-2 text-sm font-medium text-white bg-red-600 rounded-lg hover:bg-red-700 transition"
                 >
-                  Delete
+                  {t('shared.delete')}
                 </button>
               </div>
             </div>
@@ -772,7 +774,7 @@ export default function ClipManagementPage() {
       <footer className="bg-white border-t mt-auto">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <p className="text-center text-gray-600">
-            &copy; 2025 Platform. All rights reserved.
+            {t('shared.footer')}
           </p>
         </div>
       </footer>

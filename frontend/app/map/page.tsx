@@ -3,6 +3,7 @@
 import { Suspense, useEffect, useState, useCallback, useRef } from 'react'
 import { useSearchParams, useRouter } from 'next/navigation'
 import dynamic from 'next/dynamic'
+import { useTranslation } from 'react-i18next'
 import AICopilot from '@/components/AICopilot'
 import TutorialOverlay from '@/components/tutorial/TutorialOverlay'
 import { useAuth } from '@/contexts/AuthContext'
@@ -31,6 +32,7 @@ const MapComponent = dynamic(() => import('@/components/MapComponent'), {
 function MapPageContent() {
   const searchParams = useSearchParams()
   const router = useRouter()
+  const { t } = useTranslation('map')
   const { user, loading, isAuthenticated, updateUser } = useAuth()
   const [reportToView, setReportToView] = useState<ReportToView | null>(null)
   const [reportLoading, setReportLoading] = useState(false)
@@ -116,21 +118,21 @@ function MapPageContent() {
         setReportToView(data.report)
       } catch (err: any) {
         console.error('Error fetching report:', err)
-        setReportError(err.message || 'Failed to load report')
+        setReportError(err.message || t('map.mapPage.failedToLoadReport'))
       } finally {
         setReportLoading(false)
       }
     }
 
     fetchReport()
-  }, [searchParams])
+  }, [searchParams, t])
 
   if (loading) {
     return (
       <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center">
         <div className="text-center">
           <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-gray-900 mx-auto"></div>
-          <p className="mt-4 text-gray-600">Loading...</p>
+          <p className="mt-4 text-gray-600">{t('map.mapPage.loading')}</p>
         </div>
       </div>
     )
@@ -146,7 +148,7 @@ function MapPageContent() {
         <div className="flex items-center justify-center h-full bg-gray-100">
           <div className="text-center">
             <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-gray-900 mx-auto"></div>
-            <p className="mt-4 text-gray-600">Loading report...</p>
+            <p className="mt-4 text-gray-600">{t('map.mapPage.loadingReport')}</p>
           </div>
         </div>
       ) : reportError ? (
@@ -155,13 +157,13 @@ function MapPageContent() {
             <svg className="w-16 h-16 text-red-400 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
             </svg>
-            <h3 className="text-lg font-medium text-gray-900 mb-2">Error Loading Report</h3>
+            <h3 className="text-lg font-medium text-gray-900 mb-2">{t('map.mapPage.errorLoadingReport')}</h3>
             <p className="text-gray-500 mb-4">{reportError}</p>
             <button
               onClick={() => router.push('/reports')}
               className="px-4 py-2 bg-gray-900 text-white rounded-lg hover:bg-gray-700 transition"
             >
-              Back to Reports
+              {t('map.mapPage.backToReports')}
             </button>
           </div>
         </div>
@@ -188,18 +190,21 @@ function MapPageContent() {
   )
 }
 
+function MapPageFallback() {
+  const { t } = useTranslation('map')
+  return (
+    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center">
+      <div className="text-center">
+        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-gray-900 mx-auto"></div>
+        <p className="mt-4 text-gray-600">{t('map.mapPage.loading')}</p>
+      </div>
+    </div>
+  )
+}
+
 export default function MapPage() {
   return (
-    <Suspense
-      fallback={
-        <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center">
-          <div className="text-center">
-            <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-gray-900 mx-auto"></div>
-            <p className="mt-4 text-gray-600">Loading...</p>
-          </div>
-        </div>
-      }
-    >
+    <Suspense fallback={<MapPageFallback />}>
       <MapPageContent />
     </Suspense>
   )

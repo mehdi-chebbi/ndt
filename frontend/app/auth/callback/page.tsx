@@ -3,11 +3,13 @@
 import { useEffect, Suspense } from 'react'
 import { useRouter, useSearchParams } from 'next/navigation'
 import { useAuth } from '@/contexts/AuthContext'
+import { useTranslation } from 'react-i18next'
 
 function AuthCallbackContent() {
   const router = useRouter()
   const searchParams = useSearchParams()
   const { login } = useAuth()
+  const { t } = useTranslation()
 
   useEffect(() => {
     const token = searchParams.get('token')
@@ -17,20 +19,16 @@ function AuthCallbackContent() {
       try {
         const user = JSON.parse(decodeURIComponent(userStr))
 
-        // Use AuthContext login function
         login(token, user)
 
-        // If profile is incomplete (OAuth users), redirect to complete profile
         if (!user.profile_complete) {
           router.push('/complete-profile')
           return
         }
 
-        // Redirect based on role
         if (user.role === 'admin') {
           router.push('/admin')
         } else if (!user.tutorial_completed) {
-          // First-time user: redirect to map with auto-tutorial
           router.push('/map?autoTutorial=true')
         } else {
           router.push('/dashboard')
@@ -49,19 +47,21 @@ function AuthCallbackContent() {
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center">
       <div className="text-center">
         <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-gray-900 mx-auto mb-4"></div>
-        <p className="text-gray-600">Signing you in...</p>
+        <p className="text-gray-600">{t('signingYouIn')}</p>
       </div>
     </div>
   )
 }
 
 export default function AuthCallbackPage() {
+  const { t } = useTranslation()
+
   return (
     <Suspense fallback={
       <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center">
         <div className="text-center">
           <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-gray-900 mx-auto mb-4"></div>
-          <p className="text-gray-600">Loading...</p>
+          <p className="text-gray-600">{t('loading')}</p>
         </div>
       </div>
     }>

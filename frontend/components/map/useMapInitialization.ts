@@ -1,4 +1,5 @@
 import { useEffect, useRef, useCallback } from 'react'
+import i18next from 'i18next'
 import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 import 'leaflet-draw'
@@ -157,7 +158,7 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
     try {
       const res = await authFetch('/clip/layers', { skipAuth: true })
       if (!res.ok) {
-        throw new Error('Failed to fetch layers')
+        throw new Error(i18next.t('map.initialization.failedToFetchLayers'))
       }
       const data: GroupedLayers = await res.json()
       setGroupedLayers(data)
@@ -173,7 +174,7 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
       }
     } catch (err: any) {
       console.error('Failed to fetch layers:', err)
-      setLayerError('Failed to load layers')
+      setLayerError(i18next.t('map.initialization.failedToLoadLayers'))
     } finally {
       setIsLoadingLayers(false)
     }
@@ -317,7 +318,7 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
         }
         setInvalidAreaPolygon(polygon)
         setReportingStep('comment')
-        setClipMessage('Please provide a comment about the invalid data')
+        setClipMessage(i18next.t('map.handlers.provideComment'))
 
         // Dispatch tutorial event for step advancement
         window.dispatchEvent(new CustomEvent('tutorial-draw-complete'))
@@ -364,11 +365,11 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
         const MAX_AREA_KM2 = 200_000
         if (areaKm2 > MAX_AREA_KM2) {
           setClipMessage(
-            `✓ Polygon captured (${areaKm2.toLocaleString()} km²). Area too large - maximum is ${MAX_AREA_KM2.toLocaleString()} km². Please draw a smaller area.`
+            i18next.t('map.initialization.polygonTooLarge', { area: areaKm2.toLocaleString(), maxArea: MAX_AREA_KM2.toLocaleString() })
           )
         } else {
           setClipMessage(
-            `✓ Polygon captured (${areaKm2.toLocaleString()} km²). Click "Calculate Stats" to proceed.`
+            i18next.t('map.initialization.polygonCaptured', { area: areaKm2.toLocaleString() })
           )
         }
 
@@ -550,7 +551,7 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
     try {
       // Fetch GeoJSON file - Next.js rewrites will proxy to backend
       const res = await fetch(`/geojson/${country.file}`)
-      if (!res.ok) throw new Error('Failed to fetch country GeoJSON')
+      if (!res.ok) throw new Error(i18next.t('map.initialization.failedToFetchCountryGeoJSON'))
       const geojson = await res.json()
 
       // Clear existing country polygon
@@ -592,7 +593,7 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
       })
     } catch (error) {
       console.error('Failed to load country polygon:', error)
-      setClipMessage(`Failed to load ${country.name}`)
+      setClipMessage(i18next.t('map.initialization.failedToLoadCountry', { name: country.name }))
     }
   }, [setHasDrawnPolygon, setSelectedCountry, setClipMessage])
 
@@ -605,7 +606,7 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
     
     if (!layer) {
       console.warn(`Layer ${layerName} not found`)
-      setClipMessage(`Warning: Layer "${layerName}" not found in available layers`)
+      setClipMessage(i18next.t('map.initialization.layerNotFoundWarning', { name: layerName }))
       return
     }
 
@@ -669,7 +670,7 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
     })
 
     setHasDrawnPolygon(true)
-    setClipMessage(`Viewing report for layer: ${layer.name}`)
+    setClipMessage(i18next.t('map.initialization.viewingReport', { name: layer.name }))
   }, [groupedLayers, activeDataLayers, findLayerByName, setActiveDataLayers, setSelectedLayerId, setHasDrawnPolygon, setClipMessage, setSelectedCountry])
 
   // Export map as JPEG

@@ -1,0 +1,94 @@
+{
+  "viewFullList": "Voir la liste complète ↗",
+  "na": "n/a",
+
+  "modals": {
+    "highestTitle": "Tous les pays — Indice de Gini (du plus élevé au plus bas)",
+    "lowestTitle": "Tous les pays — Indice de Gini (du plus bas au plus élevé)",
+    "worsenedTitle": "Tous les pays — Évolution des inégalités (première → dernière mesure)",
+    "improvedTitle": "Tous les pays — Amélioration des inégalités (première → dernière mesure)",
+    "changesTitle": "Tous les pays — Tableau complet des indices de Gini"
+  },
+
+  "tableHeaders": {
+    "rank": "#",
+    "country": "Pays",
+    "year": "Année",
+    "gini": "Gini",
+    "first": "Premier",
+    "latest": "Dernier",
+    "delta": "Δ",
+    "readings": "Mesures",
+    "note": "Note"
+  },
+
+  "header": {
+    "subtitle": "◈ Jeu de données de la Banque mondiale · Afrique · 2000–2023",
+    "title": "Inégalités des revenus",
+    "titleItalic": "Indice de Gini en Afrique",
+    "metaIndicator": "Indicateur",
+    "metaIndicatorValue": "Indice de Gini (0 = égalité, 100 = inégalité)",
+    "metaPeriod": "Période",
+    "metaPeriodValue": "2000 – 2023",
+    "metaSource": "Source",
+    "metaSourceValue": "Banque mondiale / PovcalNet",
+    "metaNote": "Note",
+    "metaNoteValue": "Données éparses — instantanés basés sur des enquêtes uniquement"
+  },
+
+  "kpis": {
+    "countriesWithData": "Pays avec données",
+    "countriesWithDataSub": "sur {{total}} dans le jeu de données",
+    "avgGiniIndex": "Indice de Gini moyen",
+    "avgGiniIndexSub": "moy. simple, dernières mesures",
+    "highlyUnequal": "Fortes inégalités (≥50)",
+    "highlyUnequalSub": "pays à la dernière mesure",
+    "inequalityImproved": "Inégalités améliorées",
+    "inequalityImprovedSub": "pays avec 2+ mesures"
+  },
+
+  "sections": {
+    "continentalAvg": "Moyenne continentale du Gini — année par année (années d'enquête uniquement)",
+    "continentalAvgDesc": "Chaque point = moyenne de toutes les mesures de pays pour cette année d'enquête. Les données sont éparses — tous les pays n'ont pas publié de données chaque année.",
+    "mostUnequal": "Inégalités les plus fortes — dernière mesure",
+    "mostEqual": "Plus grande égalité — dernière mesure",
+    "worsenedMost": "Dégradation la plus forte des inégalités (première → dernière)",
+    "improvedMost": "Amélioration la plus forte des inégalités (première → dernière)",
+    "notableSnapshots": "Instantanés notables par pays",
+    "dataCoverage": "Couverture des données — nombre de mesures par pays (2000–2020)"
+  },
+
+  "chart": {
+    "continentalAvg": "Moy. continentale",
+    "avgGiniTooltip": "Gini moy. : {{value}}"
+  },
+
+  "notableNotes": {
+    "highestSustained": "Indice de Gini soutenu le plus élevé du continent",
+    "improvedButHigh": "Amélioré mais encore très élevé",
+    "consistentlyLow": "Constantement bas — plus égal en Afrique",
+    "onlyOneReading": "Une seule mesure disponible",
+    "steadyDecline": "Baisse régulière des inégalités"
+  },
+
+  "dataCoverage": {
+    "legend0": "0 mesure",
+    "legend12": "1–2 mesures",
+    "legend34": "3–4 mesures",
+    "legend5plus": "5+ mesures"
+  },
+
+  "insights": {
+    "southernAfricaTitle": "L'Afrique australe reste la plus inégale",
+    "southernAfricaDesc": "L'Afrique du Sud (63,0), la Namibie (59,1), la Zambie (55,8) et le Botswana (54,9) dominent systématiquement le continent. L'Afrique australe présente les indices de Gini soutenus les plus élevés au monde.",
+    "northAfricaTitle": "L'Afrique du Nord est nettement plus égalitaire",
+    "northAfricaDesc": "L'Égypte (31,9), l'Algérie (27,6) et la Tunisie (32,8) sont les économies les plus égalitaires d'Afrique — avec des indices de Gini comparables à ceux de nombreux pays européens.",
+    "sparseDataTitle": "Des données éparses limitent les conclusions",
+    "sparseDataDesc": "La plupart des pays ne disposent que de 2 à 4 mesures d'enquête sur 20 ans. Les variations entre les mesures peuvent refléter des changements méthodologiques autant que de réelles tendances des inégalités. Interpréter avec prudence."
+  },
+
+  "footer": {
+    "left": "Indice de Gini — inégalités de revenus ou de consommation au sein des pays",
+    "right": "Données : Banque mondiale / PovcalNet · 2000–2023"
+  }
+}

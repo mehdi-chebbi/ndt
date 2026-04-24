@@ -1,5 +1,7 @@
+import { BilingualText } from '@/lib/i18n-utils'
+
 export interface LegendItem {
-  class: string
+  class: string | BilingualText
   color: string
 }
 
@@ -50,7 +52,7 @@ export interface StatsResult {
   pixel_size_m: number
   classes: Array<{
     class_id: number
-    class_name: string
+    class_name: string | BilingualText
     area_km2: number
     percentage: number
   }>

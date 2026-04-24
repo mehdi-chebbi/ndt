@@ -1,5 +1,6 @@
 'use client'
 
+import { useTranslation } from 'react-i18next'
 import { DataTabProps, Layer, Group, PolygonGeometry } from './types'
 
 // Recursively count all layers in a group and its children
@@ -72,6 +73,8 @@ export default function DataTab({
   onCancelAIAnalysis,
   onAIAnalysisLayerChange,
 }: DataTabProps) {
+  const { t } = useTranslation('map')
+
   // Track first rendered layer for tutorial targeting
   let firstLayerAssigned = false
   const renderLayerButton = (layer: Layer) => {
@@ -114,13 +117,13 @@ export default function DataTab({
           <span className="font-medium">{layer.name}</span>
           <div className="flex items-center gap-2">
             {!layer.hasStats && (
-              <span className="text-xs text-amber-600">(no stats)</span>
+              <span className="text-xs text-amber-600">{t('dataTab.noStats')}</span>
             )}
             {isSelectedForAI && (
-              <span className="text-xs font-semibold text-purple-700">Selected</span>
+              <span className="text-xs font-semibold text-purple-700">{t('dataTab.selected')}</span>
             )}
             {isActive && !aiAnalysisMode && (
-              <span className="text-xs font-semibold text-green-700">Active</span>
+              <span className="text-xs font-semibold text-green-700">{t('dataTab.active')}</span>
             )}
           </div>
         </div>
@@ -197,8 +200,8 @@ export default function DataTab({
           <svg className="w-12 h-12 text-gray-300 mx-auto mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" />
           </svg>
-          <p className="text-gray-500 text-sm">No layers available</p>
-          <p className="text-gray-400 text-xs mt-1">Contact admin to add layers</p>
+          <p className="text-gray-500 text-sm">{t('dataTab.noLayersAvailable')}</p>
+          <p className="text-gray-400 text-xs mt-1">{t('dataTab.contactAdminForLayers')}</p>
         </div>
       )}
 
@@ -210,7 +213,7 @@ export default function DataTab({
             onClick={onStartReport}
             className="w-full py-3 bg-red-600 text-white rounded-lg hover:bg-red-700 transition font-medium"
           >
-            Report Invalid Data
+            {t('dataTab.reportInvalidData')}
           </button>
           <button
             onClick={onStartAIAnalysis}
@@ -221,7 +224,7 @@ export default function DataTab({
                 : 'bg-gray-300 cursor-not-allowed'
             }`}
           >
-            Analyze with AI
+            {t('dataTab.analyzeWithAI')}
           </button>
           <button
             onClick={onClearDrawings}
@@ -232,7 +235,7 @@ export default function DataTab({
                 : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
             }`}
           >
-            Clear Drawings
+            {t('dataTab.clearDrawings')}
           </button>
         </div>
       )}
@@ -241,20 +244,18 @@ export default function DataTab({
       {aiAnalysisMode && (
         <div className="space-y-3 pb-2 border-b border-gray-200">
           <div className="flex items-center justify-between">
-            <h3 className="font-semibold text-purple-900">AI Analysis Mode</h3>
+            <h3 className="font-semibold text-purple-900">{t('dataTab.aiAnalysisMode')}</h3>
             <button
               onClick={onCancelAIAnalysis}
               className="text-sm text-gray-600 hover:text-gray-900"
             >
-              Cancel
+              {t('dataTab.cancel')}
             </button>
           </div>
 
           {/* Instructions */}
-          <p className="text-sm text-gray-600">
-            1. Select a layer below<br/>
-            2. Draw a polygon on the map<br/>
-            3. Click "Analyze" to get AI insights
+          <p className="text-sm text-gray-600 whitespace-pre-line">
+            {t('dataTab.aiInstructions')}
           </p>
 
           {/* Area Status */}
@@ -267,11 +268,11 @@ export default function DataTab({
               }`}
             >
               <p className="text-sm font-medium">
-                Area: {aiAnalysisArea.toFixed(2)} km²
+                {t('dataTab.areaLabel', { area: aiAnalysisArea.toFixed(2) })}
               </p>
               {aiAnalysisArea > 200000 && (
                 <p className="text-xs mt-1">
-                  Area exceeds 200,000 km² limit. Please draw a smaller polygon.
+                  {t('dataTab.areaTooLarge')}
                 </p>
               )}
             </div>
@@ -295,13 +296,13 @@ export default function DataTab({
                   : 'bg-purple-600 hover:bg-purple-700'
               }`}
             >
-              {isComputingStats ? 'Analyzing...' : 'Analyze with AI'}
+              {isComputingStats ? t('dataTab.analyzing') : t('dataTab.analyzeWithAI')}
             </button>
             <button
               onClick={onCancelAIAnalysis}
               className="w-full py-2 rounded-lg font-medium transition text-sm bg-gray-200 text-gray-700 hover:bg-gray-300"
             >
-              Cancel Analysis
+              {t('dataTab.cancelAnalysis')}
             </button>
           </div>
         </div>
@@ -329,7 +330,7 @@ export default function DataTab({
                   >
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                   </svg>
-                  <span className="font-semibold text-gray-600">Other Layers</span>
+                  <span className="font-semibold text-gray-600">{t('dataTab.otherLayers')}</span>
                 </div>
               </button>
               {expandedGroups.has('ungrouped') && (

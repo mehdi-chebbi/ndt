@@ -25,6 +25,8 @@ import { useMapState, flattenLayers } from './map/useMapState'
 import { useMapInitialization } from './map/useMapInitialization'
 import { useMapHandlers } from './map/useMapHandlers'
 import { api } from '@/lib/authFetch'
+import { useTranslation } from 'react-i18next'
+import i18next from 'i18next'
 
 interface ReportToView {
   id: number
@@ -94,8 +96,8 @@ function flattenGroupsWithLayers(groups: Group[], ungroupedLayers: Layer[]): Gro
   if (ungroupedLayers.length > 0) {
     result.push({
       id: 'ungrouped',
-      name: 'Other Layers',
-      path: 'Other Layers',
+      name: i18next.t('map.dataTab.otherLayers'),
+      path: i18next.t('map.dataTab.otherLayers'),
       layers: ungroupedLayers,
     })
   }
@@ -131,6 +133,7 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
   onStartTutorial,
 }, ref) => {
   const router = useRouter()
+  const { t } = useTranslation('map')
   const [isExporting, setIsExporting] = useState(false)
   const [showExportMenu, setShowExportMenu] = useState(false)
   const [tiffDownloadUrl, setTiffDownloadUrl] = useState<string | null>(null)
@@ -678,7 +681,7 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
             </svg>
             <span className="font-medium">
-              Viewing Report #{reportToView.id}
+              {t('mapComponent.viewingReport', { id: reportToView.id })}
             </span>
             <span className={`px-2 py-0.5 rounded text-xs font-medium ${
               reportToView.status === 'invalid' 
@@ -692,7 +695,7 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
             onClick={() => router.push('/reports')}
             className="ml-4 px-3 py-1 bg-white text-red-600 rounded hover:bg-red-50 transition text-sm font-medium"
           >
-            Back to Reports
+            {t('mapPage.backToReports')}
           </button>
         </div>
       )}
@@ -705,7 +708,7 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
       >
         <div className="h-full overflow-y-auto p-6">
           <div className="flex items-center justify-between mb-6">
-            <h2 className="text-lg font-bold text-gray-900">Map Controls</h2>
+            <h2 className="text-lg font-bold text-gray-900">{t('mapComponent.mapControls')}</h2>
             <div className="flex items-center gap-2">
               {onStartTutorial && (
                 <TutorialButton
@@ -735,7 +738,7 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
                   : 'text-gray-500 hover:text-gray-700'
               }`}
             >
-              Base Maps
+              {t('mapComponent.baseMaps')}
             </button>
             <button
               data-tutorial="data-tab"
@@ -746,7 +749,7 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
                   : 'text-gray-500 hover:text-gray-700'
               }`}
             >
-              Data
+              {t('mapComponent.data')}
             </button>
             <button
               data-tutorial="stats-tab"
@@ -757,7 +760,7 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
                   : 'text-gray-500 hover:text-gray-700'
               }`}
             >
-              Stats
+              {t('mapComponent.stats')}
             </button>
           </div>
 
@@ -868,7 +871,7 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
                          border border-gray-300 flex items-center gap-2 transition-colors"
             >
               <span className="text-lg">⇔</span>
-              Compare Layers
+              {t('mapComponent.compareLayers')}
             </button>
           )}
 
@@ -890,7 +893,7 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
                            border border-gray-300 disabled:opacity-50 disabled:cursor-not-allowed
                            flex items-center gap-2 transition-colors"
               >
-                {isExporting ? 'Exporting...' : 'Export'}
+                {isExporting ? t('mapComponent.exporting') : t('mapComponent.export')}
                 <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                 </svg>
@@ -907,7 +910,7 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
                     </svg>
-                    JPEG
+                    {t('mapComponent.jpeg')}
                   </button>
                   <button
                     onClick={() => {
@@ -922,12 +925,12 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
                         ? 'text-gray-700 hover:bg-gray-100 cursor-pointer'
                         : 'text-gray-400 cursor-not-allowed'
                     }`}
-                    title={!tiffDownloadUrl ? 'TIFF available when a clipped layer is loaded' : 'Download clipped GeoTIFF'}
+                    title={!tiffDownloadUrl ? t('mapComponent.tiffDisabled') : t('mapComponent.tiffDownload')}
                   >
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
                     </svg>
-                    TIFF
+                    {t('mapComponent.tiff')}
                     {!tiffDownloadUrl && <span className="ml-auto text-xs opacity-60">🔒</span>}
                   </button>
                 </div>
@@ -974,7 +977,7 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
       {state.aiAnalysisMode && !reportToView && (
         <div className="absolute top-4 left-1/2 -translate-x-1/2 z-[1000] bg-purple-600 text-white
                         text-sm font-medium px-4 py-2 rounded shadow-md flex items-center gap-3">
-          <span>AI Analysis Mode - Draw a polygon to analyze</span>
+          <span>{t('mapComponent.aiAnalysisBanner')}</span>
         </div>
       )}
 
@@ -1000,13 +1003,13 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
       {isCompareMode && (
         <div className="absolute top-4 left-1/2 -translate-x-1/2 z-[1000] bg-blue-600 text-white
                         text-sm font-medium px-4 py-2 rounded shadow-md flex items-center gap-3">
-          <span>Compare Mode Active</span>
+          <span>{t('mapComponent.compareModeActive')}</span>
           <button
             data-tutorial="compare-exit"
             onClick={onExitCompare}
             className="bg-white text-blue-600 px-2 py-0.5 rounded text-xs font-semibold hover:bg-blue-50"
           >
-            Exit
+            {t('mapComponent.exitCompare')}
           </button>
         </div>
       )}
@@ -1067,12 +1070,12 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
       {showComparePicker && (
         <div className="absolute inset-0 z-[2000] flex items-center justify-center bg-black/30">
           <div className="bg-white rounded-lg shadow-xl p-6 w-[600px]">
-            <h3 className="text-lg font-semibold mb-6 text-gray-900">Compare Layers</h3>
+            <h3 className="text-lg font-semibold mb-6 text-gray-900">{t('mapComponent.compareLayers')}</h3>
 
             {/* Left Layer Selection */}
             <div className="mb-5">
               <label className="block text-sm font-medium text-gray-700 mb-2">
-                Left Layer
+                {t('mapComponent.leftLayer')}
               </label>
               <div className="flex gap-2">
                 <select
@@ -1084,7 +1087,7 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
                   }}
                   className="flex-1 border border-gray-300 rounded-lg px-3 py-2 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-blue-500"
                 >
-                  <option value="">Select group...</option>
+                  <option value="">{t('mapComponent.selectGroup')}</option>
                   {allGroupsWithLayers.filter(g => g.layers.length > 0).map(group => (
                     <option key={group.id} value={group.id}>
                       {group.path}
@@ -1098,7 +1101,7 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
                   disabled={!leftGroupId}
                   className="flex-1 border border-gray-300 rounded-lg px-3 py-2 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-blue-500 disabled:bg-gray-100 disabled:cursor-not-allowed"
                 >
-                  <option value="">Select layer...</option>
+                  <option value="">{t('mapComponent.selectLayer')}</option>
                   {getLayersForGroup(leftGroupId).map(layer => (
                     <option key={layer.geoserver_name} value={layer.geoserver_name}>
                       {layer.name}
@@ -1111,7 +1114,7 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
             {/* Right Layer Selection */}
             <div className="mb-5">
               <label className="block text-sm font-medium text-gray-700 mb-2">
-                Right Layer
+                {t('mapComponent.rightLayer')}
               </label>
               <div className="flex gap-2">
                 <select
@@ -1123,7 +1126,7 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
                   }}
                   className="flex-1 border border-gray-300 rounded-lg px-3 py-2 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-blue-500"
                 >
-                  <option value="">Select group...</option>
+                  <option value="">{t('mapComponent.selectGroup')}</option>
                   {allGroupsWithLayers.filter(g => g.layers.length > 0).map(group => (
                     <option key={group.id} value={group.id}>
                       {group.path}
@@ -1137,7 +1140,7 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
                   disabled={!rightGroupId}
                   className="flex-1 border border-gray-300 rounded-lg px-3 py-2 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-blue-500 disabled:bg-gray-100 disabled:cursor-not-allowed"
                 >
-                  <option value="">Select layer...</option>
+                  <option value="">{t('mapComponent.selectLayer')}</option>
                   {getLayersForGroup(rightGroupId).map(layer => (
                     <option key={layer.geoserver_name} value={layer.geoserver_name}>
                       {layer.name}
@@ -1150,7 +1153,7 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
             {/* Error message if same layer selected */}
             {leftLayerId && rightLayerId && leftLayerId === rightLayerId && (
               <p className="text-sm text-red-600 mb-4">
-                Please select different layers for comparison
+                {t('mapComponent.selectDifferentLayers')}
               </p>
             )}
 
@@ -1162,7 +1165,7 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
                 disabled={!leftLayerId || !rightLayerId || leftLayerId === rightLayerId}
                 className="flex-1 bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium py-2.5 rounded-lg disabled:opacity-50 disabled:cursor-not-allowed transition"
               >
-                Compare
+                {t('mapComponent.compare')}
               </button>
               <button
                 onClick={() => {
@@ -1174,7 +1177,7 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
                 }}
                 className="flex-1 bg-gray-100 hover:bg-gray-200 text-gray-700 text-sm font-medium py-2.5 rounded-lg transition"
               >
-                Cancel
+                {t('mapComponent.cancel')}
               </button>
             </div>
           </div>
@@ -1186,13 +1189,13 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
         <div className="absolute inset-0 z-[2100] flex items-center justify-center bg-black/30">
           <div className="bg-white rounded-lg shadow-xl p-6 w-[600px]">
             <h3 className="text-lg font-semibold mb-6 text-gray-900">
-              Change {editingSide === 'left' ? 'Left' : 'Right'} Layer
+              {t('mapComponent.changeLayer', { side: editingSide === 'left' ? t('mapComponent.leftLayer') : t('mapComponent.rightLayer') })}
             </h3>
 
             {/* Group Selection */}
             <div className="mb-5">
               <label className="block text-sm font-medium text-gray-700 mb-2">
-                Select Group
+                {t('mapComponent.selectGroupLabel')}
               </label>
               <select
                 value={tempGroupId ?? ''}
@@ -1202,7 +1205,7 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
                 }}
                 className="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-blue-500"
               >
-                <option value="">Select group...</option>
+                <option value="">{t('mapComponent.selectGroup')}</option>
                 {allGroupsWithLayers.filter(g => g.layers.length > 0).map(group => (
                   <option key={group.id} value={group.id}>
                     {group.path}
@@ -1214,7 +1217,7 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
             {/* Layer Selection */}
             <div className="mb-6">
               <label className="block text-sm font-medium text-gray-700 mb-2">
-                Select Layer
+                {t('mapComponent.selectLayerLabel')}
               </label>
               <select
                 value={tempLayerId}
@@ -1222,7 +1225,7 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
                 disabled={!tempGroupId}
                 className="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-blue-500 disabled:bg-gray-100 disabled:cursor-not-allowed"
               >
-                <option value="">Select layer...</option>
+                <option value="">{t('mapComponent.selectLayer')}</option>
                 {getLayersForGroup(tempGroupId).map(layer => (
                   <option key={layer.geoserver_name} value={layer.geoserver_name}>
                     {layer.name}
@@ -1239,13 +1242,13 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
                 disabled={!tempLayerId}
                 className="flex-1 bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium py-2.5 rounded-lg disabled:opacity-50 disabled:cursor-not-allowed transition"
               >
-                Confirm
+                {t('mapComponent.confirm')}
               </button>
               <button
                 onClick={() => setShowLayerChangeModal(false)}
                 className="flex-1 bg-gray-100 hover:bg-gray-200 text-gray-700 text-sm font-medium py-2.5 rounded-lg transition"
               >
-                Cancel
+                {t('mapComponent.cancel')}
               </button>
             </div>
           </div>

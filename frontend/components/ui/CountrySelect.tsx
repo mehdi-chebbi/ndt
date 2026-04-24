@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useRef, useEffect } from 'react'
+import { useTranslation } from 'react-i18next'
 import { COUNTRIES } from '@/lib/countries'
 
 interface CountrySelectProps {
@@ -9,7 +10,8 @@ interface CountrySelectProps {
   placeholder?: string
 }
 
-export default function CountrySelect({ value, onChange, placeholder = 'Select your country' }: CountrySelectProps) {
+export default function CountrySelect({ value, onChange, placeholder = '' }: CountrySelectProps) {
+  const { t } = useTranslation('common')
   const [isOpen, setIsOpen] = useState(false)
   const [search, setSearch] = useState('')
   const containerRef = useRef<HTMLDivElement>(null)
@@ -63,7 +65,7 @@ export default function CountrySelect({ value, onChange, placeholder = 'Select y
           onChange={(e) => setSearch(e.target.value)}
           onFocus={handleFocus}
           onBlur={handleBlur}
-          placeholder={selectedCountry ? '' : placeholder}
+          placeholder={selectedCountry ? '' : (placeholder || t('selectCountry'))}
           className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-900 focus:border-transparent outline-none transition text-sm bg-white pr-10"
         />
         {/* Chevron */}
@@ -86,7 +88,7 @@ export default function CountrySelect({ value, onChange, placeholder = 'Select y
         tabIndex={-1}
         aria-hidden="true"
       >
-        <option value="" disabled={!value}>{placeholder}</option>
+        <option value="" disabled={!value}>{placeholder || t('selectCountry')}</option>
         {COUNTRIES.map(c => (
           <option key={c.code} value={c.name}>{c.name}</option>
         ))}
@@ -96,7 +98,7 @@ export default function CountrySelect({ value, onChange, placeholder = 'Select y
       {isOpen && (
         <div className="absolute z-50 w-full mt-1 bg-white border border-gray-200 rounded-lg shadow-lg max-h-60 overflow-hidden">
           {filteredCountries.length === 0 ? (
-            <div className="px-4 py-3 text-sm text-gray-400">No countries found</div>
+            <div className="px-4 py-3 text-sm text-gray-400">{t('noCountriesFound')}</div>
           ) : (
             <div className="overflow-y-auto max-h-60">
               {filteredCountries.map((country) => (

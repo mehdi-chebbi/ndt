@@ -1,0 +1,18 @@
+{
+  "loading": "Chargement du rapport...",
+  "loadingFallback": "Chargement...",
+  "errorTitle": "Erreur lors du chargement du rapport",
+  "backToReports": "Retour aux rapports",
+  "notFound": "Rapport introuvable",
+  "reportTitle": "Rapport #{{id}}",
+  "layer": "Couche",
+  "unknownLayer": "Inconnu",
+  "reportComment": "Commentaire du rapport",
+  "noComment": "Aucun commentaire fourni",
+  "reportedBy": "Signalé par",
+  "dateReported": "Date du signalement",
+  "mapLegend": "Légende de la carte",
+  "reportedInvalidArea": "Zone signalée comme invalide",
+  "viewingReport": "Consultation du rapport #{{id}}",
+  "failedToLoad": "Échec du chargement du rapport"
+}
