@@ -1,0 +1,3036 @@
+--- Page 1 ---
+REPUBLIQUE ALGERIENNE DEMOCRATIQUE ET POPULAIRE
+MINISTERE DE L’AGRICULTURE, DU DEVELOPPEMENT RURAL ET
+DE LA PECHE
+DIRECTION GENERALE DES FORETS
+PLAN NATIONAL
+SECHERESSE ALGERIE
+LIGNES DIRECTRICES EN VUE DE SON
+OPERATIONNALISATION
+Mohamed SAFAR-ZITOUN
+Consultant CNULCD
+Alger, 30 Juin 2019
+
+--- Page 2 ---
+SOMMAIRE
+ACRONYMES ............................................................................................................ 6
+1. CONTEXTE ......................................................................................................... 8
+1.1. Objectifs et portée ...................................................................................... 8
+1.2. Développement du plan : présentation du processus en 8 étapes ............10
+Etape 1 : Nommer ou s’appuyer sur un groupe de travail existant .....................10
+Etape 2 : Définir les objectifs du plan « secheresse » ........................................11
+Etape 3 : mobiliser les parties prenantes............................................................11
+Etape 4 : Inventaire / Analyse situationnelle .......................................................11
+Etape 5 : Préparer / Ecrire le plan national « sécheresse » ................................11
+Etape 6 : Identifier les besoins non satisfaits et combler les lacunes
+institutionnelles ...................................................................................................12
+Etape 7 : Communiquer / Eduquer .....................................................................12
+Etape 8 : Evaluer le plan ....................................................................................13
+2. LIENS AVEC D’AUTRES PLANS ET POLITIQUES ...........................................14
+2.1. Stratégies d’atténuation de la sécheresse et problèmes de planification
+existants .................................................................................................................14
+2.1.1. Secteur des ressources en Eau .............................................................15
+2.1.2. Secteur de l’Agriculture ..........................................................................16
+2.1.3. Secteur de l’Intérieur, des Collectivités locales et de l’Aménagement du
+Territoire .............................................................................................................20
+2.1.4. Secteur de l’Environnement et des Energies renouvelables ..................22
+2.2. Importance du Plan National « sécheresse » ..................................................23
+3. VUE D’ENSEMBLE DE LA SECHERESSE DANS LE PAYS .............................24
+3.1. Comprendre la sécheresse : Sècheresse météorologique, agricole,
+hydrologique et socio-économique .........................................................................24
+3.2. La sécheresse en Algérie ..........................................................................26
+3.3. Impacts de la sécheresse par secteurs .....................................................28
+PLAN NATIONAL SECHERESSE ALGERIE 2
+
+--- Page 3 ---
+3.3.1. Sur le secteur des ressources en eau ....................................................28
+3.3.2. Sur les secteurs agricole, des forêts et de la biodiversité ......................28
+3.3.3. Sur les secteurs de la santé et de la population.....................................29
+3.3.4. Sur le secteur de l’Industrie et autres secteurs économiques ................30
+3.4. Evénements historiques ............................................................................30
+3.5. Projections de l’évolution du climat en Algérie ..........................................32
+3.6. Structures et systèmes existants de suivi, d’alerte, de gestion de la
+sécheresse et réponses sectorielles. .....................................................................34
+3.6.1. Secteur des Ressources en Eau ............................................................34
+3.6.2. Secteur de l’Agriculture ..........................................................................36
+3.6.3. Secteur de l‘Environnement et des Energies renouvelables ..................39
+3.6.4. Secteur de la santé ................................................................................42
+3.6.5. Secteur de l’Enseignement Supérieur et de la Recherche Scientifique .42
+3.6.6. Agence spatiale Algérienne ASAL .........................................................45
+3.6.7. Office National de la Météorologie « ONM » ..........................................46
+3.6.8. Office national des Statistiques « ONS » ...............................................47
+3.6.9. Enseignements tirés ..............................................................................47
+4. ORGANISATION ET DESIGNATION DES RESPONSABILITES ......................48
+4.1. Aperçu de l’organisation ............................................................................48
+4.1.1. Nommer ou s’appuyer sur un groupe existant .......................................48
+4.1.2. Modalités de fonctionnement du groupe « sécheresse » .......................51
+4.1.3. Mobiliser les parties prenantes ..............................................................55
+4.1.4. Inventaire / Analyse situationnelle ..........................................................55
+4.1.5. Identifier les besoins non satisfaits et combler les lacunes
+institutionnelles
+…………………………………………………………………………………56
+4.2. Désignation des responsabilités ......................................................................56
+5. SURVEILLANCE, PREVISION DE LA SECHERESSE ET EVALUATION DE
+L’IMPACT ..................................................................................................................58
+5.1. Indicateurs et Indices de sécheresse - Définitions ........................................58
+PLAN NATIONAL SECHERESSE ALGERIE 3
+
+--- Page 4 ---
+5.2. Surveillance, prévision et collecte de données actuelles .................................59
+5.2.1. Secteur des Ressources en Eau ..............................................................59
+5.2.2. Secteur de l’Agriculture ............................................................................60
+5.2.3. Agence spatiale Algérienne ASAL ............................................................61
+5.2.4. Secteur de la Recherche ..........................................................................62
+5.3. Choix des indicateurs de la vulnérabilité structurelle et conjoncturelle .............64
+5.3.1. Vulnérabilité chronique ou Structurelle .....................................................64
+5.3.2. Vulnérabilité conjoncturelle .......................................................................65
+6. RISQUE ET VULNERABILITE FACE A LA SECHERESSE ..................................66
+6.1. Evaluation du risque et de la vulnérabilité à la sécheresse et cartographie SIG
+...............................................................................................................................66
+A. Precipitations .............................................................................................66
+B. Evapotranspiration potentielle ...................................................................67
+C. Bilan hydrique ...........................................................................................67
+D. Tendance des précipitations .....................................................................67
+E. Répartition géographique des ressources en eau .....................................67
+F. Exploitation des ressources en eau ..........................................................68
+G. Productions agricoles ................................................................................68
+H. Elevage .....................................................................................................68
+I. Situation économique des exploitants agricoles ........................................69
+6.2. Zones de risque de sécheresse ......................................................................71
+7. COMMUNICATION SUR LA SECHERESSE ET MESURES D’INTERVENTION .72
+7.1. Protocole de communication sur la sécheresse ..............................................72
+7.2. Déclaration des conditions de sécheresse ......................................................72
+7.3. Mesures d’intervention contre la sécheresse ..................................................73
+8. MESURES D’ATTENUATION DE LA SECHERESSE ..........................................75
+8.1. Surveillance des ressources en eau et étude d’impact ...................................75
+8.2. Développement de nouvelles et alternatives sources en eau .........................75
+8.3. Pratiques de conservation de l’eau / sensibilisation du public et diffusion ......77
+PLAN NATIONAL SECHERESSE ALGERIE 4
+
+--- Page 5 ---
+8.4. Législation et planification de l’usage des terres .............................................77
+9. MODALITES OPERATIONNELLES DE MISE EN OEUVRE ................................79
+9.1. Mesures à caractère institutionnel et règlementaire ..................................79
+9.2. Actions de cartographie et d’évaluation des données ...............................82
+9.3. Mises à jour et révisions futures. ...............................................................84
+10. Conclusion ..........................................................................................................85
+Remerciements .........................................................................................................86
+REFERENCES ..........................................................................................................87
+PLAN NATIONAL SECHERESSE ALGERIE 5
+
+--- Page 6 ---
+ACRONYMES
+AEP Alimentation en Eau Potable
+AGIRE Agence Nationale de Gestion Intégrée des Ressources en Eau
+ANBT Agence nationale des Barrages et Transferts
+ANCC Agence Nationale des changements Climatiques
+ANRH Agence National des Ressources Hydrauliques
+ASAL Agence Spatiale Algérienne
+BAD Banque Africaine de Développement
+BNEDER Bureau National d'Etudes pour le Développement Rural
+CDARS Commissariat au développement de l’Agriculture des Régions
+Sahariennes
+CDER Centre de Développement des Energies Renouvelables
+CDN Contribution déterminée nationale
+SGESR Sous-groupe d’Evaluation et de Surveillance des Risques
+CMI L’Indice Hydrique des Cultures
+CNC Comité national climat chargé du dossier changement climatique
+CNULCD Convention des Nations Unies sur la lutte contre la désertification
+CRSTRA Centre de Recherche Scientifique et Technique sur les Régions
+Arides
+DAJR Direction des Affaires Juridiques et de la Réglementation
+DDAZASA/SDAZS Direction de Développement Agricole dans les zones arides et semi
+arides/ Sous-direction de Développement agricole dans les zones
+steppiques
+DGF Direction Générale des Forêts
+DNRM Délégation Nationale des Risques Majeurs
+DR Indice des Pluies Fiables
+EVI Indice de végétation amélioré
+GIZ Agence de coopération allemande
+GTS Groupe de travail "sécheresse"
+HCDS Haut-Commissariat au Développement de la Steppe
+INPV Institut National de la Protection des Végétaux
+INRAA Institut National de Recherche Agronomique en Algérie
+INRF Institut national de la recherche forestière
+INSID Institut National des Sols, de l’Irrigation et du Drainage
+ISSP Indice standardisé de sécheresse pluviométrique
+MM Mécanisme Mondial
+MODIS Evaluation des conditions de végétation à l’aide d’un
+spectroradiomètre imageur à moyenne résolution
+NDVI Indice de végétation par différence normalisée
+ONM Office National de la Météorologie
+PLAN NATIONAL SECHERESSE ALGERIE 6
+
+--- Page 7 ---
+ONS Office National des Statistiques
+OSS Observatoire du Sahara et du Sahel
+PDSI Indice de Sévérité de la Sécheresse de Palmer
+PGP Plan général de prévention
+PNC Plan national Climat
+PNDAR Programme national de développement agricole et rural
+PNR Programme national de Recherche
+RI Indice national des Précipitations
+SGC Système de gestion des catastrophes
+SNAPS Système national d’Alerte Précoce à la Sécheresse
+SPI Indice Normalisé des Précipitations
+SWC Soil Water Content
+SWSI Indice de la Disponibilité Hydrique de Surface,
+VDI Indice dérivé des conditions de la végétation
+PLAN NATIONAL SECHERESSE ALGERIE 7
+
+--- Page 8 ---
+1. CONTEXTE
+1.1. Objectifs et portée
+Dans un rapport récent1, la Banque Mondiale caractérise les pays de la zone MENA
+(Moyen-Orient et Afrique du Nord) par :
+• Un taux de croissance démographique élevé, de l’ordre de 2 % par an qui, conjugué
+à un processus d’expansion urbaine important, devrait se traduire par un doublement
+de la population des villes de la région à l’horizon 2050 ;
+• Une augmentation de la consommation des ressources amplifiée par une sous-
+valorisation de l’eau et un manque de rigueur dans l’application de la réglementation
+qui conduirait sur le moyen et long terme à une exploitation excessive des ressources
+en eau, notamment des eaux souterraines ;
+• Un dérèglement climatique qui exerce des pressions supplémentaires sur les
+volumes d’eau disponibles et la qualité des sols par ses effets négatifs dus, en
+particulier, aux phénomènes météorologiques extrêmes des sécheresses et
+inondations qui seront plus fréquents et plus graves augmentant ainsi les pénuries
+d’eau et accentuant la dégradation des terres.
+« Les sécheresses (périodes prolongées de déficits des précipitations entraînant des
+dommages importants pour les cultures et une perte de rendement conséquente2)
+font partie des aléas climatiques les plus catastrophiques en termes de pertes
+économiques et sociales à court et à long terme pour des millions de personnes
+dans le monde. D’après la FAO (2015) les dégâts et les pertes dus à la sécheresse
+sur l’ensemble des catastrophes naturelles sont de plus de 15%. A elles seules, les
+sécheresses représentent 85,8% des pertes de bétail. Une seule année de
+sécheresse peut retarder des années de développement social. La pénurie d'eau à
+elle seule pourrait coûter à certaines régions jusqu'à six pour cent de leur PIB d'ici
+2050, déclenchant à leur tour une migration de masse et des conflits liés à la
+diminution des ressources »3.
+Selon la Convention des Nations Unies sur la lutte contre la désertification
+(CNULCD) de nombreux pays dans le monde seraient bientôt sujets aux
+1 Banque Mondiale, 2017. Au-delà des pénuries : la sécurité de l’eau au Moyen-Orient et en Afrique du
+Nord. Brochure du résumé analytique. Banque Mondiale, Washington, DC. Licence Creative Commons
+Attribution CCBY3.0IGO.
+2 Définition de l’US National Drought Mitigation Center
+3 Banque Mondiale, 2017. Au-delà des pénuries : la sécurité de l’eau au Moyen-Orient et en Afrique du
+Nord
+PLAN NATIONAL SECHERESSE ALGERIE 8
+
+--- Page 9 ---
+conséquences d’une sécheresse intense. Beaucoup d’entre eux n’ont pas de plan
+« sécheresse » et se trouveront désarmés face à l’apparition des premiers signes de
+cet aléa climatique.
+Face à cette situation préoccupante, la CNULCD a décidé d’apporter sa contribution
+par le lancement d’une initiative « sécheresse »4, qui visera « à renforcer la résilience
+des communautés et des écosystèmes face à la sécheresse grâce à la conception
+de plans d’action. Ceux-ci doivent être complets afin d’être mis en œuvre pour faire
+face à la sécheresse avant qu’elle ne se déclare.
+La mise en place de ces plans « sécheresse » répond aussi à la mise en œuvre de
+la cible 6 des objectifs de développement durable (ODD)5- « Garantir la disponibilité
+et la gestion durable de l’eau et de l’assainissement pour tous » - en encourageant la
+gestion intégrée des ressources en eau. La vulnérabilité aux épisodes de sécheresse
+futurs peut être considérablement réduite et la capacité d'adaptation des
+communautés, même de pays entiers, peut être améliorée.6
+La réalisation du présent rapport entre dans le cadre de cette initiative
+« sécheresse » de la CNULCD, l’objectif majeur étant de développer un Plan national
+« sécheresse » Algérie basé sur la mise en place d’un système proactif basé sur
+l’évaluation, la prévention et l’atténuation du risque.
+L'objectif du plan national sécheresse de l’Algérie est d’encourager un changement
+de paradigme dans l'approche de la gestion de la sécheresse et de passer d'un
+système réactif basé sur la gestion de crise à un système proactif basé sur
+l’évaluation, la prévention et l’atténuation du risque. Ce plan s’articule autour de trois
+piliers majeurs:
+1. La mise en place ou le renforcement des systèmes de surveillance de la
+sécheresse et d'alerte précoce,
+2. L’évaluation de la vulnérabilité et des risques,
+3. La mise en œuvre de mesures d'atténuation du risque de sécheresse.
+4 Décision 29/COP.13
+5 Les Objectifs de développement durable (en anglais : Sustainable Development Goals (SDGs)) est le
+nom couramment utilisé pour les dix-sept objectifs établis par les États membres des Nations unies et
+qui sont rassemblés dans l'Agenda 2030.
+6 Site web officiel de la CNULCD
+PLAN NATIONAL SECHERESSE ALGERIE 9
+
+--- Page 10 ---
+Le plan national « sécheresse » par la mise en place d’un système pérenne
+d’évaluation, de prévention et d’atténuation du risque de sécheresse avec une
+approche multisectorielle va permettre :
+1. De valoriser les approches sectorielles existantes,
+2. De définir les insuffisances avérées,
+3. D’améliorer les systèmes de collecte de données aussi bien au niveau local
+que national et
+4. D’engager des actions perfectibles en fonction des impacts obtenus.
+1.2. Développement du plan : présentation du
+processus en 8 étapes7
+La CNULCD a développé une approche en 8 étapes, étape par étape pour
+l’élaboration des plans nationaux « sécheresse ». Cette approche a été initialement
+développée par l’Université du Nebraska8 puis adoptée par 47 des 50 Etats US et
+ensuite par plusieurs autres pays dont le Nigeria, le Maroc et le Mexique.
+Ce processus d’élaboration du plan « sécheresse » en 8 étapes présenté ci-dessous
+qui se base donc sur celui proposé par la CNUCLD doit impérativement être adapté
+au contexte algérien, tenir compte et intégrer les actions entreprises dans le pays
+pour une meilleure connaissance de l’aléa sécheresse et des mesures d’atténuation
+mises en place dans plusieurs secteurs d’activités
+ETAPE 1 : NOMMER OU S’APPUYER SUR UN GROUPE DE
+TRAVAIL EXISTANT
+Le groupe de travail (national team) est un organe permanent nommé/établi par
+l’autorité du plus haut niveau dans le pays. Le groupe de travail doit refléter l’aspect
+multidisciplinaire de la « sécheresse » et de ses impacts. Il devrait ainsi impliquer
+tous les Ministères appropriés et des experts clés de la sécheresse, de nombreuses
+agences spécialisées gouvernementales ou non gouvernementales, le secteur de
+production, la société civile, etc.
+• Le groupe de travail supervise / coordonne le processus de développement du
+plan « sécheresse » en mobilisant et en intégrant les ressources humaines,
+7 Source : Modèle du Plan National « Sécheresse » CNULCD, modifié de l’OMM et du PME (2014)
+National Drought management Policy Guidelines, A Template for Action (D.A Wilhite, IDMP Tools and
+Guidelines Series 1
+8 University of Nebraska-Lincoln, National Drought Mitigation Center
+PLAN NATIONAL SECHERESSE ALGERIE 10
+
+--- Page 11 ---
+matérielles et financières nécessaires des différents ministères et niveaux de
+gouvernement.
+• Le groupe de travail coordonne la mise en œuvre du Plan « sécheresse » à
+tous les niveaux du gouvernement. Il a aussi pour mission d’activer les divers
+éléments du plan pendant les périodes de sécheresses. Le groupe de travail
+appliquera les actions et mettra en place les programmes d’atténuation et
+d’intervention ou bien il déléguera cette action aux niveaux décentralisés des
+wilayas.
+ETAPE 2 : DEFINIR LES OBJECTIFS DU PLAN « SECHERESSE »
+Le groupe de travail devrait établir des objectifs spécifiques et réalisables pour
+le plan national « sécheresse » et un calendrier pour mettre en place les
+différents aspects du plan, ainsi qu’un calendrier pour atteindre les objectifs.
+Les impacts et réponses aux sécheresses historiques du pays, les secteurs
+économiques et sociaux les plus vulnérables du plan et les inquiétudes
+environnementales causées par la sécheresse devraient être définis à cette
+étape.
+ETAPE 3 : MOBILISER LES PARTIES PRENANTES
+Il est essentiel d’identifier tous les groupes de citoyens (solliciter les
+contributions de toutes les parties prenantes) qui ont un intérêt dans le plan
+« sécheresse ». Par exemple, les forums de discussions ou la création d’un
+« conseil citoyen » comme élément permanent de la structure
+organisationnelle du groupe de travail permettraient de faciliter la
+communication et la mise en œuvre du plan.
+ETAPE 4 : INVENTAIRE / ANALYSE SITUATIONNELLE
+Un inventaire des ressources naturelles, biologiques, humaines et financières,
+incluant l’identification des contraintes qui peuvent freiner le processus de
+planification devrait être défini. Cette phase demande beaucoup de temps et
+beaucoup d'études afin d’arriver à faire une analyse juste et pouvoir prendre
+des décisions appropriées.
+ETAPE 5 : PREPARER / ECRIRE LE PLAN NATIONAL
+« SECHERESSE »
+Cette étape définit la création d’une structure organisationnelle et l’écriture du
+plan national « sécheresse » par la mise en place de deux sous-comités au
+PLAN NATIONAL SECHERESSE ALGERIE 11
+
+--- Page 12 ---
+groupe de travail, le premier en charge de la préparation, atténuation et
+réponse, le second à l’évaluation et la surveillance des risques.
+Fig.1 : Structure organisationnelle
+ETAPE 6 : IDENTIFIER LES BESOINS NON SATISFAITS ET
+COMBLER LES LACUNES INSTITUTIONNELLES
+En se basant sur les commentaires des sous-comités, le groupe de travail devrait
+rassembler une liste des besoins et de déficiences non satisfaites et faire des
+recommandations à l’organe gouvernementale approprié sur des mesures
+correctives qui devraient être prises. Cette étape sera critique pour identifier
+l’absence de données et les lacunes institutionnelles permettant de quantifier les
+impacts de la sécheresse et de l’action, et pour développer des plans adéquats pour
+combler les lacunes.
+ETAPE 7 : COMMUNIQUER / EDUQUER
+Communiquer avec le public, insister sur les questions telles que : comment le plan
+de lutte contre la sécheresse devrait atténuer les effets de la sécheresse à court et à
+long terme. Et quels changements la population devra opérer en réponse aux
+différents degrés de sécheresse, combien cela coutera de mettre en œuvre chaque
+solution, et comment cela sera financé, etc.
+PLAN NATIONAL SECHERESSE ALGERIE 12
+
+--- Page 13 ---
+Un programme éducatif pour sensibiliser sur les problèmes d’approvisionnement en
+eau à court et long terme facilitera aussi la compréhension de la population sur la
+façon de réagir à la sécheresse quand elle a lieu. Ceci permettra aussi de s’assurer
+que la planification « sécheresse » n’est pas oubliée pendant les années sans
+sécheresse. Il s’agit de construire de meilleurs programmes et de les améliorer
+encore sur la base des meilleurs programmes de « sensibilisation » habituels.
+ETAPE 8 : EVALUER LE PLAN
+L’étape finale dans le processus de planification est de créer un ensemble détaillé de
+procédures pour s’assurer d’une évaluation adéquate du plan – à la fois l’évaluation
+« continue », l’évaluation « post sécheresse » et l’amélioration du plan.9
+9 Source : Modèle du Plan National « Sécheresse » CNULCD, modifié de l’OMM et du PME (2014)
+National Drought management Policy Guidelines, A Template for Action (D.A Wilhite, IDMP Tools and
+Guidelines Series 1
+PLAN NATIONAL SECHERESSE ALGERIE 13
+
+--- Page 14 ---
+2. LIENS AVEC D’AUTRES PLANS ET
+POLITIQUES
+2.1. Stratégies d’atténuation de la sécheresse et
+problèmes de planification existants
+La sécheresse est multidimensionnelle et est prise en compte directement ou
+indirectement par plusieurs secteurs d’activités dans leurs stratégies respectives
+(tableau 1).
+Stratégies Objectifs et priorités Organe chargé de la Documents de référence et textes
+mise en place d’application
+Stratégie ▪ Protection des écosystèmes aride et Commune (plan d’action Charte communale sur le
+Nationale du semi-aride communal) développement durable
+Développement ▪ Organisation des parcours
+Durable ▪ Sédentarisation de la population
+▪ Reconversion des systèmes de
+production pour lutter contre de la
+sécheresse
+▪ Améliorer le niveau de vie des
+populations rurales
+▪ Traitement de la dette des éleveurs
+et des agro-pasteurs.
+Stratégie de Identifier les options prioritaires pour la Administration centrale Conventions
+Conservation et conservation et l’utilisation durable de la (programme de travail environnementales :CNULCD,
+d’Utilisation diversité biologique. intersectoriel de synergie CCNUCC, CDB, RAMSAR…
+Durable de la entre les conventions
+Diversité environnementales :CNUL
+Biologique CD, CCNUCC, CDB
+,RAMSAR…
+Stratégie Participer à l’effort universel de • Comité National sur les ▪ Protocole de Montréal sur la
+Nationale sur les protection de l’atmosphère changements convention cadre des Nations Unies
+Changements climatiques sur les changements climatiques,
+Climatiques • Agence nationale sur ▪ Accords de Kyoto
+les changements ▪ 1993, décret normalisant les
+climatiques émissions de gaz dans l’atmosphère.
+• Office national de la
+Météorologie
+Stratégie Identification des poches de pauvreté et ▪ Ministère chargé de la ▪ Première conférence sur la lutte
+Nationale de Lutte des causes d’exclusion et y remédier Solidarité Nationale et contre la pauvreté et l’exclusion 2000
+Contre la Pauvreté de l’Action Sociale ▪ Carte de la pauvreté 2000
+et l’Exclusion ▪ Communes
+Stratégie ▪ Meilleur accès aux soins de santé ▪ Ministère de la Santé Loi n° 04-20 du 13 Dhou El Kaada
+Nationale en ▪ Soutien des catégories en difficulté et de la Population 1425 correspondant au 25 décembre
+Matière de ▪ Habilitation des femmes au niveau ▪ Commune 2004
+Population et de local et national
+Développement ▪ Intégration des ONG au niveau de
+tous les programmes
+Stratégie ▪ Sécurité alimentaires des ▪ Ministère de PNDAR
+Nationale de populations l’Agriculture
+Développement ▪ Protection des ressources naturelles, ▪ Autres ministères
+Agricole et ▪ Soutien financier et technique des (Environnement et
+Durable exploitants agricoles Aménagement du
+territoire, Ressources
+en Eaux)
+PLAN NATIONAL SECHERESSE ALGERIE 14
+
+--- Page 15 ---
+Stratégie Meilleure répartition dans l’espace des Conseil National La loi du 12 décembre 2001 relative à
+d’Aménagement activités de la population. d’aménagement et de l’aménagement et au développement
+du Territoire développement durable du durable du territoire
+territoire
+Stratégie nationale la conservation et la gestion durable des Direction Générale des Stratégie en cours de validation
+forestière horizon ressources (sol, eau, flore, faune) du Forêts DGF • SNAT
+2035 domaine forestier, alfatier et autres • PNAEDD
+espaces naturels, et ce en vue d’en • Schéma Directeur des aires
+assurer la pérennité et garantir une protégées
+production soutenue des biens et • La stratégie nationale sur les zones
+services pour le bénéfice des humides ;
+populations et de l’économie nationale ». • Le schéma national de conservation
+des sols et de lutte contre la
+désertification
+• La stratégie nationale sur la
+biodiversité ;
+• Le Programme d’action national de
+lutte contre la désertification (PAN-
+LCD);
+• Le programme de réhabilitation des
+espèces sahariennes adaptées à la
+sécheresse.
+Tableau 1 : Stratégies prenant en compte la sécheresse
+Les textes principaux évoquant expressément le phénomène de la sécheresse
+concernent principalement les secteurs de l’Eau, de l’Agriculture, de l’Intérieur et de
+l’Environnement.
+2.1.1. SECTEUR DES RESSOURCES EN EAU
+Sur l’aspect juridique la loi n° 05-12 du 4 août 2005 relative à l'eau10 prévoit dans son
+article 56 relatif aux plans directeurs d’aménagement des ressources en eau « la
+prévention et la gestion des risques liés aux phénomènes naturels exceptionnels,
+tels que la sécheresse et les inondations ». Dans son article 91 il est dit « En cas de
+calamités naturelles et notamment en situation de sécheresse, l'administration
+chargée des ressources en eau peut prendre des mesures de limitation ou de
+suspension provisoire des utilisations d'eau ou procéder à des réquisitions en vue de
+mobiliser les eaux nécessaires pour lutter contre les sinistres et pour assurer, en
+priorité, l'alimentation en eau des populations et l'abreuvement du cheptel. »
+La baisse de la pluviométrie et les cycles de sécheresse sont pris en compte lors de
+la définition de la politique nationale de l’eau par le biais du « Plan National de l’Eau
+(PNE) » qui a été adopté en février 2007 et qui est en cours de révision. Le PNE
+étalé jusqu’à l’horizon 2025 est un outil de planification souple et évolutif. Il a pour
+principaux objectifs :
+• Assurer une durabilité de la ressource
+• Créer la dynamique de rééquilibrage territorial
+10 Loi n° 05-12 du 28 Joumada Ethania 1426 correspondant au 4 août 2005 relative à l'eau.
+PLAN NATIONAL SECHERESSE ALGERIE 15
+
+--- Page 16 ---
+• Créer et renforcer l’attractivité et la compétitivité
+• Garantir une bonne gouvernance de l’eau
+Les institutions et directions directement impliquées dans toute action d’atténuation
+de la sécheresse sont principalement :
+1. L’Agence Nationale des Ressources Hydrauliques ANRH par :
+a. Ses réseaux d’observation climatiques, hydrologiques, hydrogéologiques, de
+qualité chimique et bactériologique des eaux.
+b. Ses inventaires, études, expertises et conseil dans l’implantation des points
+d’eau supplémentaires
+• L’édition et la publication de notes et de cartes spécialisées
+• La fourniture de données brutes ou traitées selon les conventions avec
+les autres institutions et secteurs.
+2. L’Agence Nationale des Barrages et Transferts ANBT qui est régulièrement impliquée
+dans la gestion du risque et de toute crise liée à cet aléa par :
+• La fourniture des données sur les apports et autres données climatiques
+relevées sur les stations d’observations implantées sur les sites des barrages.
+• La réalisation de travaux de raccordement et de transfert d’eaux inter
+barrages pour équilibrer les dotations en eaux entre les régions et diminuer le
+stress hydrique.
+3. Les directions des ressources en Eau de wilaya DRE par :
+• La police des eaux et Le conseil dans les créations et l’aménagement de
+nouveaux points d’eau,
+• Le conseil et la sensibilisation dans l’économie de l’eau.
+• La coordination avec d’une part les structures décentralisées des autres
+secteurs et d’autres part les institutions du secteur de l’hydraulique en
+particulier avec l’AGIRE et ses Agences de Bassins hydrographiques.
+• La participation à la mise en place et à l’exécution des plans ORSEC
+sécheresse.
+4. Les structures utilisatrices de l’eau potable (ADE et ses antennes décentralisées,
+sociétés de gestion de l’eau urbaine, etc.), de l’eau d’irrigation (ONID, périmètres
+irrigués locaux, services agricoles, etc.) et industrielle dans l’exécution de toutes
+directives liées ou pas à un plan ORSEC sécheresse.
+2.1.2. SECTEUR DE L’AGRICULTURE
+Le secteur de l’Agriculture intègre la dimension sécheresse dans tous ses
+programmes de développement et de recherche au sein des nombreuses
+institutions, structures, instituts et écoles de formation sous sa tutelle ou celle de
+l’Enseignement supérieur. Ce secteur s’illustre toutefois par deux plans d’action qui
+PLAN NATIONAL SECHERESSE ALGERIE 16
+
+--- Page 17 ---
+agissent sue les conséquences de l’aléa sécheresse et qui sont tous deux pilotés par
+la direction générale des forêts DGF.
+2.1.2.1. Le Plan d’Action National de Lutte Contre la Désertification
+PAN LCD
+L’élaboration du Plan d’Action National PAN 11 et sa validation le 14 décembre 2003
+représentent pour l’Algérie une mesure institutionnelle importante. Le plan ébauche
+les modalités de mise en œuvre, d’institutionnalisation et de financement de la LCD
+en Algérie.
+Les actions du PAN s’intègrent dans la politique générale de l’aménagement du
+territoire et se doivent être en conformité avec d’une part la loi sur l’aménagement du
+territoire et d’autre part le SNAT (Schéma National d’Aménagement du Territoire).
+Elles intéressent les trois écosystèmes sensibles, la steppe, Les ensembles
+montagneux et le Sahara avec une vigilance particulière quant à la préservation de la
+diversité biologique.
+Les douze (12) types d’actions qui ont été arrêtées par l’atelier de validation du PAN
+sont reportés sur le tableau 2 ci-après, nous y faisons un rappel des résultats
+escomptés et des liens qui peuvent exister entre celui-ci et les autres programmes
+nationaux.
+Liens avec des
+Type d’action Objectifs
+programmes nationaux
+Elimination de • Améliorer l'accès aux services d'eau potable et d'assainissement; Stratégie Nationale de Lutte
+la pauvreté et • Assurer la conservation des sols et de l'eau. Contre la Pauvreté et
+amélioration • Améliorer les cadres juridiques, institutionnels et de gestion de l’Exclusion
+des conditions l'environnement;
+de vie • Création d'activités créatrices d'emplois; PNDA
+• Installation d'infrastructures de désenclavement des zones
+marginalisées et éloignées; PNAE - DD
+• Lutte contre l'analphabétisme.
+Lutte contre • Fixation des dunes par l’introduction d'espèces adaptées et le PNAE – DD
+l’ensablement développement de techniques modernes,
+• Impliquer les populations et les collectivités locales dans l'entretien
+des réseaux de protection et de prévention existants.
+• Adopter une stratégie d’aménagement intégré des espaces
+concernés (notamment les oasis).
+• Prévoir des actions curatives mais aussi préventives
+Lutte contre • Améliorer les règlements d’exploitation du bois et produits divers PNR
+l’érosion de la forêt,
+• Détermination des zones en défens pendant la période nécessaire PNDAR
+à la reconstitution de la forêt ;
+• Détermination des zones ouvertes aux parcours et calcul de la PNE
+charge animale,
+• Restaurer et améliorer les peuplements et les pâturages forestiers,
+• Développer l’arboriculture fruitière en tant que facteur dans la lutte
+contre l’érosion et la désertification
+Lutte contre le • Lutte contre le défrichement, PNR
+déboisement • Protection contre les incendies et les maladies,
+• Réglementation du pâturage PNDAR
+11 D’après Plan d’Action National sur la Lutte Contre la Désertification (octobre 2003)
+PLAN NATIONAL SECHERESSE ALGERIE 17
+
+--- Page 18 ---
+• Réglementation de la construction dans le domaine forestier
+Protection et • Utilisation des terres conformément à leur vocation ; PNAE – DD
+conservation • Introduire la dimension socioéconomique et intégrée dans la
+des terres conception des projets ; PNR
+• Mise en place de fonds de développement sylvopastoral ;
+• Réhabiliter les réseaux de drainage dans les périmètres irrigués ; PNE
+• Développer l’arboriculture fruitière et rustique de montagnes et
+reconstitution des vignobles ; PNDAR
+• Reconstituer les cordons dunaires par une colonisation végétale
+spécifiques ;
+• Développer les travaux de Conservation des Eaux et des Sols ;
+• Création d’unités et de périmètres anti-érosifs
+• Sensibilisation et vulgarisation en utilisant par les moyens audio-
+visuels et les médias ;
+• Mesures juridiques et textes législatifs pour limiter les pratiques
+culturales négatives ;
+Protection des • Mise en place de structures décentralisées pour une intervention PNAE – DD
+Bassins globale multisectorielle,
+versants et • Intégrer l’aménagement des BV dans le coût global de la PNR
+mise en valeur réalisation des ouvrages hydrauliques,
+durable des • Protection des terres par les plantations et la promotion de PNDAR
+montagnes techniques adaptées au travail du sol
+• Encouragement des plantations pastorales ainsi que les cultures Ministère des ressources en
+hors sol, telles que l'apiculture et l’aviculture. eau
+Atténuation des • Mise en place de systèmes d’exploitation permettant une PNDAR
+effets de la
+régénération continue de la flore pastorale, une meilleure
+sécheresse et HCDS
+adaptation des organisation des parcours, la constitution de réserves fourragères
+parcours rapidement mobilisables en cas de sécheresse, et la dynamisation CDARS
+du marché des fourrages.
+Protection des • L’aménagement des voies d’eau : cours d’eau instables, création Directions de l’hydraulique
+ressources et de lacs collinaires, ouvrages d’épandage et de recharge des
+amélioration de nappes, etc.
+l’accès à l’eau
+Renforcement • Au plan organisationnel: Encourager la gestion décentralisée PNDAR
+des capacités
+des projets par le renforcement des capacités locales de
+planification, la mise en place d’un système de suivi/évaluation
+efficient et la formation des cadres aux méthodes de planification
+et de gestion décentralisée.
+• Au plan des pratiques culturales et agronomiques: encourager
+les pratiques traditionnelles de l’arboriculture fruitière. Développer
+la prise de conscience quant à l’intérêt du reboisement pour
+atténuer les effets de l’érosion. Développer les pratiques culturales
+économisatrices d’eau. Développer les pépinières en faveur
+d’espèces génératrices d’emplois et de encourager la pratique de
+l’élevage en intensif.
+Appui à la • Fédérer le dispositif national de recherche autour du centre de CRSTRA
+Recherche et recherche scientifique et technique sur les régions arides (
+Développement CRSTRA),
+technologique • Renforcer le potentiel scientifique humain existant qui reste faible
+malgré l’existence de Treize (13) entités de recherche
+opérationnelle constituées d’établissements d’enseignement et de
+formation supérieure, de centres de recherche, d’institutions et
+d’organismes de recherche relevant du secteur économique (
+INRAA, INRF, ONM, INCT, CDARS, etc),
+• La mise en place d’un réseau national intersectoriel autour du
+CRSTRA et sa connexion aux réseaux internationaux
+• La formation par la recherche des formateurs et le
+perfectionnement de l’encadrement des cadres chargés de
+l’exécution des actions de lutte contre la désertification
+Système de • Suivi de la désertification par un réseau de stations d’observation ONM
+surveillance et et de mesure.
+d’alerte à la • Instaurer et maintenir une coopération maghrébine, voire ASAL
+sécheresse internationale, en matière de suivi écologique et alerte précoce
+PLAN NATIONAL SECHERESSE ALGERIE 18
+
+--- Page 19 ---
+Développement ▪ Formation et sensibilisation des agents de l’Etat et des ONG à la Associations locales et
+de l’approche nationales en partenariat
+méthode d’approche participative ;
+participative avec les institutions en
+▪ Faciliter la participation et l’implication des acteurs de la société
+charge de l’espace naturel
+civile dans l’élaboration des programmes de développement et
+renforcer les associations professionnelles,
+▪ Organiser les canaux de la communication entre les chercheurs
+et les décideurs.
+Tableau 2 : Les types d’actions du PANLCD Algérie
+2.1.2.2. Le Plan National de Reboisement PNR
+Le Plan National de Reboisement (PNR) est initié dans la perspective de favoriser
+l’émergence de systèmes économiques viables qui permettent aux populations
+rurales d’améliorer leurs revenus et leurs conditions de vie.
+Ce plan s’inscrit dans le cadre des orientations en matière de développement de
+l’agriculture de montagne, de mise en valeur des terres, de lutte contre la
+désertification, de protection et de valorisation des ressources naturelles pour un
+développement durable.
+Ce plan confirme, en outre, le souci permanent de protection contre les risques
+d’envasement des barrages les reboisements industriels et de production. La
+démarche du PNR poursuit l’œuvre du barrage vert dans la lutte contre la
+désertification et la reconstitution des écosystèmes dégradés.
+La planification des actions à long terme ciblant des zones prioritaires va porter le
+taux de couverture du Nord de l’Algérie de 11% à près de 13% par la plantation de
+1.245.900 ha sur 20 ans (horizon 2020).12
+Ce plan est donc en fin de sa mise en œuvre. Le processus d’élaboration d’un
+nouveau PNR actualisé, adapté au contexte actuel et qui tienne compte de
+l’évaluation du premier PNR est d’ores et déjà lancé par la DGF.
+2.1.2.3. La sécheresse dans la Stratégie Nationale Forestière 2030
+La Stratégie nationale forestière 2030 a pour objectif majeur « la conservation et la
+gestion durable des ressources (sol, eau, flore, faune) du domaine forestier, alfatier
+et autres espaces naturels, et ce en vue d’en assurer la pérennité et garantir une
+production soutenue des biens et services pour le bénéfice des populations et de
+l’économie nationale ».
+12 Rapport national de l’Algérie sur les objectifs du millénaire, juillet 2005
+PLAN NATIONAL SECHERESSE ALGERIE 19
+
+--- Page 20 ---
+Le deuxième objectif spécifique qui est de « restaurer les écosystèmes touchés dans
+les zones arides et renforcer leur résilience au changement climatique et à la
+sécheresse » donne une place prépondérante à l’atténuation des effets climatiques
+et de la sécheresse en particulier par la réhabilitation et l’extension d’essences
+adaptées à la sécheresse : pistachier de l’Atlas sur 95.000 ha et l’acacia raddiana
+sur 764.000 à l’horizon 2030.
+2.1.2.4. Les systèmes d’alerte précoce à la sécheresse et de prévisions
+de récoltes existants dans le secteur agricole
+Les fluctuations pluviométriques (plus particulièrement la baisse), la forte
+consommation d’eau (62 % de la demande totale du pays en eau d’irrigation), les
+cycles de sécheresse, les aléas climatiques (vents, vagues de chaleur, gels,
+tempêtes, canicules, etc.) font l’objet d’une constante attention des services centraux
+de l’Agriculture, des directions de wilaya DSA, des institutions au niveau central ou
+local (Offices, Agences, Haut commissariats, Instituts et centre d’expérimentation et
+de développement, etc.). Les données utilisées proviennent des stations de l’ONM,
+ANRH et des propres réseaux d’observation de certaines institutions de recherche
+du secteur.
+Des cellules de veille climatique et d’alerte précoce existent au niveau de deux
+structures qui éditent et diffusent des bulletins d’alerte précoce à la sécheresse
+(INSID) de de prévision de rendement des cultures ( BNEDER) :
+a. L’INSID (Institut National des Sols, de l’Irrigation et du Drainage) édite
+un bulletin agro-météorologique hebdomadaire et un bulletin d’alerte
+précoce à la sécheresse. Les deux bulletins sont distribués et
+médiatisés très largement en particulier par la radio et la télévision.
+b. Le BNEDER (Bureau National d’Etudes pour le Développement Rural)
+qui a été chargé par le Ministère de l’Agriculture de concevoir, éditer et
+diffuser des bulletins des rendements prévisionnels des cultures
+céréalières. Cette action est soutenue par un comité de suivi de la
+campagne moisson battage qui se réunit sous la présidence du
+Secrétaire Général du MADRP ainsi que des comités de wilaya.
+2.1.3. SECTEUR DE L’INTERIEUR, DES COLLECTIVITES
+LOCALES ET DE L’AMENAGEMENT DU TERRITOIRE
+L’Algérie s’est dotée d’une Délégation Nationale sur les Risques Majeurs (DNRM)
+sous la tutelle du Ministère de l’Intérieur, des Collectivités locales et de
+l’Aménagement du Territoire après la promulgation le 25-12-2004 de la loi n° 04-20
+PLAN NATIONAL SECHERESSE ALGERIE 20
+
+--- Page 21 ---
+relative à la prévention des risques majeurs et à la gestion des catastrophes dans le
+cadre du développement durable13. Cette loi :
+- Définit les règles générales des préventions et de gestion des risques majeurs
+dans le cadre de la mise en œuvre de la politique nationale du développement
+durable. Celle-ci a été élaborée sur la base de cinq principes fondamentaux :
+• Principe de précaution et de prudence
+• Principe d’action préventive et de correction par priorité à la source.
+• Principe de participation.
+• Principe d’intégration des techniques nouvelles
+• Principe de concomitance ;
+- Institue le droit à l’information du citoyen, l’enseignement des risques majeurs
+dans tous les cycles d’enseignement ainsi que la formation de personnels
+spécialisés des institutions intervenantes dans ce domaine. ;
+- Met en place d’un système de prévention des risques majeurs qui s’appuie sur
+le plan général de prévention (PGP) et le système de gestion des
+catastrophes (SGC) qui prévoient :
+• La mise en place de plans ORSEC et des plans particuliers d’intervention
+(PPI);
+• La constitution de réserves stratégiques14,
+• La prise en charge des dommages15,
+• La mise en place d’institutions spécialisées telles que la délégation
+nationale aux risques majeurs qui est placée sous l’autorité du chef du
+gouvernement.
+La sécheresse est classée dans son article 26 parmi les aléas climatiques pouvant
+engendrer un risque majeur. Son article 27 ébauche un plan général de prévention
+des risques qui porte sur les points suivants :
+• Cartographie des zones exposées
+• Les modalités de veille pour l'observation de l'évolution de l’aléa,
+• Les seuils, conditions, modalités, et procédures de déclenchement des pré-
+alertes et des alertes, ainsi que les procédures de suspension des alertes,
+13 Loi n° 04-20 du 13 Dhou El Kaada 1425 correspondant au 25 décembre 2004 relative à la prévention
+des risques majeurs et à la gestion des catastrophes dans le cadre du développement durable, p.13.
+J.O.R.A. N° 84 DU 29/12/200 4
+14 Les réserves stratégiques sont définies au chapitre 2, articles 63 à 66 de la Loi n° 04-20.
+15 Art. 67 de la loi 04-20. - Les conditions et les modalités d'octroi des aides financières aux victimes
+des catastrophes sont fixées conformément à la législation en vigueur
+PLAN NATIONAL SECHERESSE ALGERIE 21
+
+--- Page 22 ---
+• Les mesures de prévention applicables lors de l'annonce des avis de pré-
+alerte ou d'alerte.
+La mise en application pleine et entière de cette loi souffre de l’absence d’un grand
+nombre de textes d’application. Ce point a fait partie de l’ordre du jour de la
+conférence nationale sur les risques majeurs » tenue les 22 et 23 octobre 2018.
+L’objectif principal de la conférence était de faire l’état des lieux des actions menées
+depuis la promulgation de la loi et de proposer les moyens de remédier aux
+insuffisances réglementaires, institutionnelles, humaines et matérielles.
+Par ailleurs, la loi n° 12-07 du 21 février 2012 relative à la wilaya, en son article 84
+permet à toute wilaya d’initier au niveau local toutes actions pour lutter contre les
+risques d’inondations et de sécheresse.
+2.1.4. SECTEUR DE L’ENVIRONNEMENT ET DES ENERGIES
+RENOUVELABLES
+Le Plan National Climat (PNC) présenté lors d’un séminaire national le 22 / 10 / 2018
+montre que la dimension « sécheresse » est prise en compte en de nombreux points.
+1. La sécheresse est classée dans les risques majeurs
+2. Dans les groupes thématiques la sécheresse est incluse dans les
+missions du groupe « ressources en eau »
+2.1.4.1. Dans les actions « adaptation » à court terme (2018-2023)
+1. Les Système d’information géographique sont préconisés pour une
+gestion efficace des sécheresses agricoles.
+2. Les changements climatiques (en particulier la sécheresse) sont mis
+en exergue pour leurs impacts sur les aquifères et les barrages
+réservoirs,
+3. L’optimisation des systèmes d’irrigation, la réhabilitation des systèmes
+traditionnels, le développement et extension de l’irrigation
+économisatrice d’eau (goutte à goutte et autres techniques) sont
+préconisés comme outils de lutte contre la sécheresse.
+4. Une attention particulière est demandée quant à la caractérisation et
+évolution future à l'horizon 2050-2100 de la sécheresse sur l'Ouest
+Algérien.
+2.1.4.2. Dans les actions d’atténuation
+Il est préconisé la protection et l’amélioration des puits et réservoirs de GES par la
+gestion durable des forêts, le reboisement ainsi que la remise en état des zones
+PLAN NATIONAL SECHERESSE ALGERIE 22
+
+--- Page 23 ---
+touchées par la sécheresse et la désertification. Les actions de plantations, mise en
+défens et les réalisations d'ouvrages de rétention et d 'épandage des Eaux de crues
+que réalisent le HCDS jouent un très grand rôle dans le domaine de l'atténuation des
+effets de la sécheresse par l'augmentation de la couverture végétale et la production
+des parcours.
+L’Agence Nationale des Changements Climatiques ANCC créée par décret exécutif
+n°05-375 du 26 septembre 2005, établissement public à caractère administratif placé
+sous la tutelle du Ministre chargé de l’Environnement est chargée, par le biais de la
+Commission Nationale Climat CNC, de la coordination du PNC et de son suivi.
+Cette agence est appelée à jouer un rôle fédérateur dans les actions à mener contre
+la sécheresse. En effet la sécheresse, comme aléa climatique au risque
+potentiellement élevé appelé à s’amplifier, n’est pas inscrite clairement dans le texte
+de création mais y trouve implicitement sa place dans les actions de l’ANCC qui
+visent à intégrer la problématique des changements climatiques dans tous les plans
+de développement et mener des actions d’information et de sensibilisation, d’étude et
+de synthèse.
+2.2. Importance du Plan National « sécheresse »
+La mise en place d’un plan sécheresse en Algérie va permettre :
+1. D’observer et d’analyser en temps réel les tendances climatiques et
+déclencher en temps opportun les alertes,
+2. De renforcer, de capitaliser les systèmes sectoriels d’alerte et d’intervention,
+3. De générer des processus d’atténuation dans tous les secteurs sensibles à la
+sécheresse (eau, agriculture, forêts, élevage, santé publique, collectivités
+locales, énergie, solidarité nationale, etc.).
+PLAN NATIONAL SECHERESSE ALGERIE 23
+
+--- Page 24 ---
+3. VUE D’ENSEMBLE DE LA SECHERESSE
+DANS LE PAYS
+3.1. Comprendre la sécheresse : Sècheresse
+météorologique, agricole, hydrologique et socio-
+économique
+La sécheresse peut être définie comme un phénomène naturel dû essentiellement à
+un déficit des précipitations qui, associé à d'autres facteurs climatiques
+(températures élevées, vents forts, hygrométrie faible, etc.), provoque, s'il est
+prolongé dans le temps, une diminution du ruissellement des cours d'eau et de
+l'humidité des sols et un renouvellement insuffisant des aquifères. Ce phénomène
+est amplifié par l'action néfaste de l'homme sur l'environnement (déforestation, rejets
+des gaz nocifs, pression du cheptel sur les parcours, surexploitation des ressources
+naturelles « eaux et sols », etc.). Cela se répercute, négativement, parfois en de
+véritables catastrophes naturelles, sur l'alimentation des hommes et des cheptels et
+la production agricole. La sécheresse n'est donc pas seulement météorologique mais
+aussi hydrologique en termes de remplissage des barrages et de renouvellement des
+nappes, agricole en termes de production agricole et animale, environnementale en
+termes de destruction des équilibres naturels ou encore socio-économique lorsqu'il y
+a impact négatif sur les facteurs de production et la vie de l'homme. Son suivi à
+travers des indicateurs minutieusement choisis, les analyses qui en découlent, les
+produits réalisés ne peuvent donc être l'affaire d'un seul secteur.16
+Il existe donc plusieurs types de sécheresse :
+1. La sécheresse météorologique est le type de sécheresse qui survient lorsque
+les précipitations sont bien inférieures à la normale au cours d'une longue
+période. Elle est suivie par les services de la météorologie nationale. Les outils
+sont principalement le réseau national de mesures des paramètres climatiques,
+l’observation et l’analyse des images satellitaires spécialisées.
+2. La sécheresse agricole est le type de sécheresse qui survient lorsque la faible
+humidité du sol, associée à la rareté de l'eau, arrête la croissance végétale,
+diminue les rendements et met en danger le bétail. Ce domaine est du ressort
+16 Mohamed Safar Zitoun, Arguments pour un observatoire algérien de la sécheresse, El Watan le
+10/12/2006
+PLAN NATIONAL SECHERESSE ALGERIE 24
+
+--- Page 25 ---
+des services centraux et décentralisés de l’Agriculture, des forêts, des éleveurs, des
+exploitants agricoles, des services de l’Environnement et de la société civile.
+3. La sécheresse hydrologique est le type de sécheresse qui survient lorsqu'une
+longue sécheresse météorologique provoque une diminution sensible du niveau
+des eaux souterraines, des rivières, des fleuves et des lacs. Le suivi de celle-ci
+est du ressort des services de l’hydraulique (Agences directions centrales et de
+wilaya) qui ont pour mission principale la dotation en eau des populations, de
+l’agriculture, du tourisme et de l’industrie. Les données sur le ruissellement des
+eaux de surface, les apports aux barrages, la dynamique des eaux
+souterraines, l’évolution des sols irrigués sont recueillis par des réseaux
+d’appareils de mesures ou par des observateurs répartis à travers le territoire
+national.
+4. La sécheresse socio-économique englobe les effets économiques et sociaux
+des formes précédentes (exode rurale, famine, baisses des rendements
+agricoles, perte de cheptel, augmentation des prix des produits de première
+nécessité, problème de santé humaine et animale, etc.). Cette forme qui se
+traite à un niveau élevé (gouvernement) engendre, selon son acuité, des
+campagnes de sensibilisation de la population, le déclenchement de plans
+ORSEC, la mise en place de fonds de soutien et d’indemnisations ainsi que le
+lancement d’opérations de solidarité nationale et internationale . La sécheresse
+socio-économique est donc une forme de choc interne de l’offre, c'est-à-dire
+une grave perturbation provoquée par des événements hors du contrôle du
+pays, et qui a des effets importants sur les variables économiques intérieures.
+PLAN NATIONAL SECHERESSE ALGERIE 25
+
+--- Page 26 ---
+Fig. 2 : Types de sécheresse, manifestations dans le temps et leurs impacts 17
+3.2. La sécheresse en Algérie
+La partie de l’Algérie la plus dépendante des précipitations ne représente que 13 %
+de la superficie totale du pays. C’est aussi la plus dense en population, celle qui
+concentre les meilleurs sols, les ressources en eau renouvelables, la faune et la flore
+les plus remarquables du pays. C’est dans cette zone que se concentrent les
+activités économiques hors hydrocarbures et les infrastructures de base les plus
+importantes.
+C’est aussi sur cette bande septentrionale, qui s’étend du Maroc à la Tunisie et que
+limite au nord la Méditerranée et au sud l’isohyète 200 mm, que s’observent les
+différentes formes de sécheresse. Ainsi, une certaine disparité existe d’ouest en est
+et du nord vers le sud. La frange littorale que stoppe l’Atlas tellien au sud, et dont la
+largeur est de 100 à 150 km, est la zone la plus arrosée, avec une augmentation des
+moyennes annuelles d’ouest en est (de 400 à plus de 1000 mm / an). Entre l’Atlas
+17 D’après National Drought Mitigation Center 2005
+PLAN NATIONAL SECHERESSE ALGERIE 26
+
+--- Page 27 ---
+tellien et l’Atlas saharien se trouve une large bande de 300 à 350 km contenant les
+hautes plaines céréalières, la steppe présaharienne à vocation pastorale et les
+bassins endoréiques les plus caractéristiques. C’est une zone où prédominent les
+eaux souterraines. La pluviométrie y est entre 100 et 400 mm et la sensibilité à la
+désertification particulièrement importante.
+Le seuil théorique de rareté fixé par la Banque Mondiale à 1000 m3 par habitant et
+par an place l’Algérie parmi les pays les plus pauvres en matière de potentialités
+hydriques. La disponibilité en eau théorique qui était de 1500 m3 hab./an en 1962 va
+passer en dessous du seuil théorique de rareté dans les années 1990 et ne sera que
+de 430 m3 en 2020. Cette disponibilité ramenée aux ressources en eau mobilisables
+serait encore plus réduite18.
+Pour parvenir à une sécurité alimentaire satisfaisante, il faudrait disposer entre 15 et
+20 milliards de m3 par an dont 70% pour l'agriculture, soit 3 à 4 fois la mobilisation
+actuelle (5 milliards de m3 d'eau par an). (World bank)
+Cette situation de rareté de la ressource est aggravée de manière cyclique par la
+sécheresse. « Ce qui impliquera ipso facto entre les différents utilisateurs des conflits
+sérieux qui nécessiteront immanquablement des arbitrages difficiles pour les
+pouvoirs publics, et ce d'autant plus que les besoins en alimentation en eau potable
+(AEP) seront multipliés par 2,5 environ en vingt-cinq ans et qu'ils représenteront
+pratiquement 40 % des ressources mobilisables vers l’an 2025 »19
+Le Sahara qui occupe les 87 % du pays est un territoire particulièrement aride et
+faiblement impacté par les précipitations, sauf pour le massif du Hoggar et du Tassili
+où les rares pluies apportées par la remontée du front intertropical de convergence
+en saison des pluies (juillet, aout) viennent alimenter épisodiquement les poches
+d’eau des massifs volcano-granitiques et les nappes d’inféro-flux fort utiles à la
+population 20 en occasionnant certaines années des inondations souvent
+destructrices.
+L’Algérie dans sa totalité et plus précisément le Sahara subit toutefois en période
+estivale des vagues de chaleur et canicules importantes en intensité et en durée.
+L’été 2018 a été l’année des records de températures élevées dans le Monde. En
+18 Rapport de la World Bank Group No. 118 juin 1999, “La sécheresse et les économies des pays
+d’Afrique Subsaharienne”
+19 Ibidem
+20 Safar Zitoun M., 2006. Évaluation des dispositifs d’alerte précoce à la sécheresse existants à
+l’échelle nationale – cas de l’Algérie, expertise dans le cadre du projet SMAS/OSS.
+PLAN NATIONAL SECHERESSE ALGERIE 27
+
+--- Page 28 ---
+Algérie, des pics de chaleur avoisinant les 60 degrés Celsius ont été observées à In
+Salah et Adrar. Cette canicule à l’échelle du globe a eu des conséquences négatives
+sur la santé humaine et animale et provoqué des effets inattendus tels que la
+flambée des prix des céréales sur le marché mondial due à une diminution
+importante de la production sous l’impact de la sécheresse21. L’année 2019
+s’annonce aussi difficile.
+3.3. Impacts de la sécheresse par secteurs
+La sécheresse associée à d’autres aléas climatiques tels que la canicule et les
+vagues de chaleur (ou de froid), joue toujours un rôle perturbateur et ses impacts
+sur les secteurs économiques sont souvent immédiats.
+3.3.1. SUR LE SECTEUR DES RESSOURCES EN EAU
+1. La diminution des apports aux barrages et lacs va engendrer la
+diminution des stocks d’eau dans les réservoirs naturels (lacs) et
+artificiels (barrages) et perturber la distribution de l’eau vers les
+agglomérations et périmètres irrigués.
+2. Le déficit pluviométrique va diminuer le taux de renouvellement des
+eaux souterraines et pousser à l’excès d’exploitation et/ou de
+surexploitation des nappes.
+3. Le déficit de la demande en eau engendrée par les deux points
+précédents confronté à l’augmentation de la demande agricole et en
+AEP/AEI va provoquer des pressions plus grandes sur l’exploitation
+des nappes renouvelables ou pas (fossiles).
+4. La détérioration de la qualité de l'eau généré par l’affaiblissement de la
+dilution des polluants va amplifier la contamination des réserves
+hydriques superficielles et souterraines.
+5. La perturbation dans la distribution de l’eau et souvent la pénurie
+nécessitant des arbitrages entre les groupes de consommateurs et des
+moyens de distribution mobiles.
+3.3.2. SUR LES SECTEURS AGRICOLE, DES FORETS ET DE
+LA BIODIVERSITE
+1. Le déficit saisonnier de la pluie associé à la rareté de l'eau et à
+l’augmentation des températures va :
+21 Futura Planéte du 07/08/2018 par Céline Deluzarche.
+PLAN NATIONAL SECHERESSE ALGERIE 28
+
+--- Page 29 ---
+o Diminuer l’humidité du sol,
+o Entraver la croissance végétale,
+o Diminuer les rendements des cultures et des parcours
+o Mettre en danger le bétail.
+2. La vulnérabilité accrue des arbres, des zones forestières, maquis et
+steppes va :
+o Accentuer d’une part les feux de forêt, l’érosion éolienne et
+les dépôts de sédiments éoliens,
+o Influer sur la biodiversité de la faune et de la flore par la
+migration de populations animales sauvages et l’extinction de
+certaines espèces,
+o Influer sur certains acridiens transfrontaliers, en déclenchant
+le processus de grégarisation, suite à la réduction de la
+masse végétale verte (invasion 2004-2005) provoquant, ainsi
+la concentration des criquets sur ce qui reste disponible.
+Après épuisement totale de l'alimentation, Ies criquets
+quittent la zone à la recherche d'autres régions plus
+favorables sous forme d'essaims.
+o Favoriser le prolongement de l'aire d'habitat, notamment des
+criquets qui exigent de faible humidité, dans des régions qui
+peuvent devenir des zones de reproduction suite au
+phénomène de sècheresse répétée.
+o Augmenter la sensibilité de la faune et du bétail aux maladies
+habituelles ou nouvelles engendrées par les migrations,
+o Engendrer la malnutrition animale et humaine.
+3.3.3. SUR LES SECTEURS DE LA SANTE ET DE LA
+POPULATION
+La sécheresse accompagnée ou non de la canicule va provoquer :
+1. La déshydratation des populations et l'apparition de maladies ;
+2. L’apparition d’épidémies dues à la malnutrition et autres effets ;
+3. Augmentation des maladies respiratoires et cardio-vasculaires (ex :
+allergies, hypertension.)
+4. Des problèmes d’Invasions biologiques ;
+5. Un risque accru de morsures de serpents, scorpions, autres
+animaux et insectes ;
+6. Un risque accru d’émergence de nouvelles maladies dues aux
+migrations des vecteurs et agents pathogènes ;
+PLAN NATIONAL SECHERESSE ALGERIE 29
+
+--- Page 30 ---
+7. Augmentation des troubles mentaux (ex : dépressions, suicides)…
+8. Les troubles sociaux et les conflits pour les ressources naturelles
+(eau et nourriture) ;
+9. La migration de populations et l'augmentation des réfugiés
+climatiques..
+3.3.4. SUR LE SECTEUR DE L’INDUSTRIE ET AUTRES
+SECTEURS ECONOMIQUES
+La réduction de la production industrielle et des autres secteurs économiques suite
+aux perturbations de l’alimentation en eau et de l’énergie.
+3.4. Evénements historiques
+En Algérie, c’est surtout sur les plans hydrologique et Agricole que la sécheresse est
+la mieux appréciée. Au cours du siècle précédent, l’Algérie a vécu plusieurs périodes
+de sécheresse dont les plus intenses ont été ressenties en 1910 et en 1940 et de
+manière plus persistante dans les années 1975-80 ainsi qu’au début du siècle. La
+mesure des apports en eau dans certains barrages pendant les périodes 1945-98,
+1945-75 et 1976-98 montre que les apports diminuent de moitié entre une période
+humide et une période sèche, ce qui donne une idée de l’ampleur de toute
+sécheresse et de la dégradation climatique qui en est la cause22. La dernière
+sécheresse sévit ainsi depuis déjà deux décennies, et est particulièrement sévère
+dans l’Ouest du pays. Cette tendance est confirmée par de nombreuses études
+scientifiques23
+Une étude sur l’aménagement hydroagricole de la Mitidja confirme que la période
+1950-75 a été plus humide que la moyenne à long terme ; alors qu’à partir de 1977,
+on assiste à une sécheresse assez marquée, sans précédent depuis le début des
+observations24.
+Une expertise récente (2017) commandée par l’ANRH a permis de confirmer
+l’existence d’une cassure pluviométrique en 1976 qui a pour conséquence un
+déplacement des isohyètes du Sud vers le Nord et de l’Ouest vers l’Est. La carte des
+22 CONSEIL NATIONAL ECONOMIQUE ET SOCIAL, Commission de l’Aménagement du Territoire et
+d’Environnement, Avant-projet de rapport, " L’eau en Algérie : le grand défi de demain " Etude réalisée
+en 2000.
+23 Hisdal et Tallaksen 2003, Meddi et Meddi, 2009, Ghenim et al., 2010, Yebdri et al., 2007, A.
+Nekkache GHENIM & A. MEGNOUNIF 2011
+24 Mac Donald et Partners, 1997.
+PLAN NATIONAL SECHERESSE ALGERIE 30
+
+--- Page 31 ---
+déficits pluviométriques réalisée dans ce cadre montre, que le Nord - Ouest algérien
+présente ainsi le déficit pluviométrique le plus important. (Fig.3)
+Fig.3 : Carte des déficits pluviométriques (ANRH 2017)
+Une Analyse de Risque et de Vulnérabilité au Changement Climatique en Algérie
+réalisée pour le compte du ministère en charge de l’environnement, par un
+consortium de bureaux algériens et européens dans le cadre d’un projet de
+coopération avec la GIZ, organe de la coopération allemande25 a permis des
+analyses sur les secteurs fragiles de l’agriculture et des ressources en eau et établi
+des cartes à partir des données locales et internationales tels que la carte du « degré
+de gravité de la
+sécheresse » établie
+d’après les données
+du World Ressources
+Institute 26 . Nous
+retrouvons sur cette
+carte le degré élevé
+de gravité de la
+sécheresse dans
+l’Ouest
+algérien.(Fig.4).
+25 Analyse de Risque et de Vulnérabilité au Changement Climatique en Algérie, Rapport de synthèse,
+GIZ et MEER, avril 2017
+26 WRI d’après Sheffield et de Bois, WRI aqueduct_global_map_2. La gravité de la sécheresse mesure
+la durée moyenne de la sécheresse de 1901 à 2008.
+PLAN NATIONAL SECHERESSE ALGERIE 31
+
+--- Page 32 ---
+Fig.4 : Carte du degré de gravité de la sécheresse en Algérie (WRI 2017)
+3.5. Projections de l’évolution du climat en Algérie
+D’après le Plan National Climat27 « La région du Moyen-Orient et de l’Afrique du
+Nord (MENA) est au vu des résultats des analyses du GIEC (2014) une des régions
+du monde la plus vulnérable aux changements climatiques. Cette forte vulnérabilité
+s’explique par le fait que cette région est caractérisée par la faible disponibilité des
+ressources en eau 28 et doit importer plus de la moitié de ses denrées alimentaires.
+Le GIEC (2014) prévoit que les changements climatiques réduiront encore
+davantage et à court terme le niveau des précipitations dans la région. »
+« L’identification des impacts futurs des changements climatiques en Algérie
+constitue une priorité. A l’heure actuelle (2018) dans le cadre du projet suscité, les
+chaines de risques et de vulnérabilité ont été identifiées pour 5 domaines29 (eau,
+pêche, agriculture, forêt, industrie). L’eau et l’agriculture disposent également de
+cartes permettant de spatialiser le degré de vulnérabilité du territoire. L’analyse des
+risques et vulnérabilité au changement climatique30 (GIZ & MEER, 2017)31 indique
+que les changements climatiques provoqueront en Algérie :
+• Une hausse des températures,
+• Une diminution des précipitations totales et une plus grande instabilité de la
+répartition des précipitations au cours de l’année,
+27 Plan national Climat (Version pour validation) | 19.06.2018
+28 Avec moins de 500 m³ disponibles par habitant et par an, l’Algérie se situe dans une position de
+rareté absolue de l’eau.
+29 Des analyses de risque et vulnérabilités spécifiques pour chaque secteur sont en cours de
+programmation.
+30 Analyse de Risque et de Vulnérabilité au Changement Climatique en Algérie, Rapport de synthèse,
+GIZ et MEER, avril 2017
+31 Les données climatiques sur lesquelles repose l’ARV proviennent du programme CORDEX Africa
+(Coordinated Regional Climate Downscaling Experiment in Africa), qui regroupe actuellement les
+projections les plus récentes et les plus viables pour l’évaluation des évolutions du climat de la région.
+Le programme CORDEX a été créé récemment par le Programme Mondial de Recherche sur le Climat
+(PMRC). Le but de CORDEX est de développer un cadre international coordonné pour générer des
+projections de qualité sur les changements climatiques des régions du monde entier. Les résultats de
+l'analyse CORDEX ont été utilisés comme entrée pour le cinquième rapport d'évaluation du GIEC, ainsi
+que pour répondre à la demande croissante de projections à haute résolution. Ces données sont ainsi
+parfaitement adaptées pour informer sur l'impact des changements climatiques et documenter les
+études de risque, de vulnérabilité et d’adaptation à ces derniers. De plus amples informations sont
+disponibles en ligne : http://start.org/cordex-africa/about/
+PLAN NATIONAL SECHERESSE ALGERIE 32
+
+--- Page 33 ---
+• Une dégradation du couvert végétal et des sols se traduisant par une érosion
+plus forte et une accélération de la désertification.
+Ces résultats sont confirmés par les Première (2001) et Seconde (2010)
+Communications Nationales de l’Algérie sur les changements climatiques. Ces
+documents fournissent une analyse du climat passé et une prospective de l’évolution
+climatique attendue aux horizons 2020 et 2050. Il en émane les conclusions
+suivantes :
+• Au niveau de l’évolution du climat entre les périodes 1931-1960 et 1961-1990
+sur les principaux ensembles méditerranéens du pays (Ouest, Centre et Est),
+il ressort que le réchauffement a été de l’ordre de 0.5°C et que la baisse de la
+pluviométrie est de l’ordre de 10%.
+• On assiste à une intensification des vagues de chaleur ou canicules et à leur
+occurrence plus grande pouvant se produire en tout mois de l’année.
+• Les projections climatiques saisonnières montrent une accentuation de
+l’augmentation de la température et de la baisse des pluies à l’horizon 2020 et
+2100.
+• Une augmentation de la fréquence des événements climatiques extrêmes
+(pluies diluviennes, sécheresses, vagues de chaleur, vagues de froid,
+submersions marines, etc.) et,
+• Une perturbation des zones côtières et des milieux marins.
+Compte tenu de la récurrence des vagues de chaleur, le CRSTRA32 en partenariat
+avec l’Accord EURO Méditerranéen sur les risques majeurs a lancé un programme de
+recherche sur les canicules qui, après analyse de longues séries climatiques pour 2
+périodes (1951-1980 ; 1981-2010), a permis de noter :
+1. Une hausse des vagues de chaleur en intensité, en fréquence et en précocité
+avec une accentuation vers le Nord-est. Ce qui rejoint l’information donnée
+par le GIEC dans son rapport de 2007 où il est indiqué pour le Maghreb : une
+hausse des températures de 1 à 2°C est le double de la moyenne Mondiale
+(0.74°C) à partir de 1970.
+2. Un accroissement des sécheresses, des vagues de chaleur et une
+accélération du processus de désertification.
+Par ailleurs ; les projections climatiques (sur l’Algérie, obtenues avec application du
+modèle a plus UKHI en comparant de longues séries climatiques. (1930-1960) et
+32 Note de Mme la directrice du CRSTRA transmise à l’expert
+PLAN NATIONAL SECHERESSE ALGERIE 33
+
+--- Page 34 ---
+(1961-1990) indique également : une augmentation de la température de 1°C et plus
+d’ici 2025 (Kares 2008) de l’ordre de 15 à 20% aussi qu’un déplacement agro-
+climatique de 100 km vers le nord.
+Et par conséquent, les sécheresses couplées à des vagues de chaleur vont avoir de
+fortes incidences sur les domaines d’activités humaines (Eau, Agriculture, Energie,
+Santé) et la vie des populations.
+L’examen des vulnérabilités de l’Algérie aux changements climatiques indique qu’il
+est impératif d’adapter et de renforcer la résilience des milieux naturels et des
+infrastructures33 ».
+La mise en place d’un Plan National « sécheresse » vise à doter les structures de
+l’Etat d’une boîte à outils spécifique à un des aléas climatiques les plus sensibles des
+changements climatiques et d’apporter des mesures appropriées en vue de son
+atténuation en particulier par la création de synergies entre les systèmes existants de
+suivi et d’alerte et leur renforcement structurel, matériel, humain et financier.
+3.6. Structures et systèmes existants de suivi,
+d’alerte, de gestion de la sécheresse et réponses
+sectorielles.
+3.6.1. SECTEUR DES RESSOURCES EN EAU
+3.6.1.1. Agence Nationale des Ressources Hydrauliques
+« ANRH »
+L’ANRH est un établissement public à caractère administratif, à vocation scientifique
+et technique. Il a pour missions principales :
+• la prospection et l'évaluation des ressources en eau et en sol du pays,
+• la collecte, le traitement et la mise à jour des informations relatives aux
+ressources en eau et en sol,
+• le suivi de la ressource au plan quantitatif et qualitatif,
+• et enfin la préservation, la protection et la sauvegarde de la ressource contre
+toute forme de dégradation.
+Elle dispose en outre, de dispositifs de surveillance des ressources en eau
+superficielles et souterraines ainsi que d’un réseau agro-climatologique
+complémentaire au réseau national de l’ONM.
+33 D’après Plan national Climat (Version pour validation) | 19.06.2018
+PLAN NATIONAL SECHERESSE ALGERIE 34
+
+--- Page 35 ---
+L’ANRH édite régulièrement un grand nombre de documents : flashs, bulletins
+mensuels pluviométriques; annuaires hydrologiques et piézométriques; cartes
+thématiques tels que la Carte pluviométrique, la Carte des évapotranspirations; la
+Carte des écoulements moyens annuels, etc. Deux études majeures ont été menées
+respectivement en 2012 et 2017, la carte des ressources en eau souterraine et les
+incidences du changement climatique sur l’écoulement de surface.
+Sur financement de la Banque Africaine de développement BAD, cette agence a
+lancée récemment une étude d’homogénéisation de ses différentes bases de
+données (hydrologie, hydrogéologie, sols, chimie des eaux et des sols) qui seraient
+d’un grand apport dans la gestion des risques de sécheresse. Elle procède
+actuellement à la modernisation de ses postes d’observation et de mesure.
+3.6.1.2. Agence Nationale des Barrages et Transferts
+« ANBT »
+L’ANBT est l'instrument de mise en œuvre des plans et programmes arrêtés en
+matière de mobilisation et de transfert des ressources en eaux superficielles et est le
+maître d'ouvrage des réalisations.
+L’Agence procède régulièrement aux mesures des apports en eau aux barrages
+(information primordiale à tout éventuel plan ORSEC de répartition de la ressource)
+et des transports solides, responsables de l’envasement de ces barrages34.
+En partenariat avec la DGF, elle suit les aménagements des bassins versants en
+amont des barrages à des fins de réduire les transports solides et l’envasement.
+Au niveau de l’ANBT des efforts importants ont été réalisés ces deux dernières
+décennies en transferts d’interconnexion entre barrages dans le souci de pallier aux
+pénuries et toutes crises induites par les sécheresses. L’ANBT dispose par ailleurs
+de stations climatiques et de mesure des apports en eau au niveau de tous les
+barrages.
+3.6.1.3. Conseil Supérieur de l’Eau « CSE »
+En 1996, a été institué aussi, par le décret 96-472 du 18 décembre 1996, un Conseil
+Supérieur de l’Eau présidé par le Ministre chargé de l’hydraulique. Ce conseil
+regroupe tous les secteurs concernés par l'eau.
+34 Voir M. Safar Zitoun, évaluation des dispositifs d’alerte précoce existants à l’échelle nationale, OSS
+et DGF, Mai 2006
+PLAN NATIONAL SECHERESSE ALGERIE 35
+
+--- Page 36 ---
+Dans la gestion de la sécheresse par le secteur des Ressources en Eau l’aspect
+gestion de crise prédomine avec une gestion sectorielle de la pénurie. Les actions
+d’atténuation sont prises en charge au niveau national et local par des comités
+formés pour la circonstance et composés principalement de l’ANRH, de l’ANBT, des
+structures centrales et décentralisées de l’hydraulique et des sociétés de distribution
+d’eau.
+Les comités ont pour tâches :
+1. La collecte des données en temps réel de certains indicateurs,
+o Apports aux barrages,
+o Potentialités en eaux souterraines
+o État de la distribution en eau.
+2. La proposition de solutions d’urgence adéquates (lancement de campagnes
+d’appoint de forages, programmes de coupure en AEP et irrigation, etc.).
+Cette approche fut usitée en 1982 et en 2002 pour l’alimentation de la ville d’Alger,
+avec un ensemble de mesures urgentes à même de gérer la pénurie en eau potable
+induite par la sécheresse par :
+• La réalisation de forages complémentaires,
+• L’interconnexion du réseau AEP de la ville avec les barrages situés à plus de
+100 km à l’Ouest de la capitale,
+• Lancement de stations de dessalement de l'eau
+• Organisation de la distribution de l’eau par camions citernes dans les
+quartiers les plus touchés.
+3.6.2. SECTEUR DE L’AGRICULTURE
+Parce que liée aux variables économiques mesurables par wilaya, la sécheresse
+agricole (et donc socio-économique) est suivie à l’échelle locale par les directions de
+wilayas de l’Agriculture qui disposent de deux outils majeurs d’appréciation que sont
+d’une part les observations in situ des paramètres de production agricole et d’autre
+part des bulletins agrométéorologiques et d’alerte de l’INSID. Il y a de plus,
+l’utilisation de certaines radios locales par les services, les stations des instituts de
+recherche et de développement, les chambres et associations agricoles pour la
+vulgarisation et l’alerte des cultivateurs et éleveurs pour tout risque majeur agricole.
+Dans le cas de sinistre avéré, (sécheresse, invasion de criquets pèlerins, gel, etc.)
+l’Etat a mis en place toute une panoplie de systèmes d’assurances et de fonds
+spéciaux à des fins d’indemnisations des cultivateurs et éleveurs sinistrés.
+PLAN NATIONAL SECHERESSE ALGERIE 36
+
+--- Page 37 ---
+Le PNDAR (le programme national de développement agricole et rural) lancé à partir
+de l’année 2002 a en outre encouragé l’introduction de technologie d’irrigation
+appropriée aux régions sèches. Le secteur privé s’est investi notamment dans la
+production et l’installation des systèmes d’irrigation « goutte à goutte » et par micro
+aspersion. Par ailleurs, dans les oasis, le PNDAR a financé, à la demande des
+communautés locales, la réhabilitation de systèmes traditionnels d’irrigation (foggara)
+et en partenariat avec le MRE la mise en place d’un programme portant sur
+l’extension de la surface irriguée par le biais des techniques économisatrices d’eau
+dont le goutte à goutte.
+3.6.2.1. Direction Générale des forêts « DGF »
+La DGF créée en juillet 1995 est la principale structure concernée par les ressources
+forestières, animales et végétales, les parcs nationaux, les zones humides et la lutte
+contre la désertification. Elle est le point focal national de l’UNCCD et est impliquée
+dans les autres conventions des Nations Unies dites de Rio (biodiversité,
+changements climatiques) et Ramsar.
+Elle est chargée en particulier de la réalisation du Plan National de Reboisement
+(PNR) qui est initié dans la perspective de favoriser l’émergence de systèmes
+économiques viables qui permettent aux populations rurales d’améliorer leurs
+revenus et leurs conditions de vie. Ce plan s’inscrit dans le cadre des orientations en
+matière de développement de l’agriculture de montagne, de mise en valeur des
+terres, de lutte contre la désertification, de protection et de valorisation des
+ressources naturelles pour un développement durable. Ce plan confirme, en outre, le
+souci permanent de protection contre les risques d’envasement des barrages les
+reboisements industriels et de production. La démarche du PNR poursuit l’œuvre du
+barrage vert dans la lutte contre la désertification et la reconstitution des
+écosystèmes dégradés.
+Le PNR est à la fin de sa mise en œuvre. Le projet d’un nouveau PNR actualisé,
+adapté au contexte actuel sera élaboré en prenant en considération l’évaluation du
+premier.
+Cette structure est aussi impliquée dans le Plan d’Action National de lutte contre la
+désertification PAN LCD qui a été validé en 2003 et qui est basé sur l’implication et la
+participation des populations et des autorités locales. Il vise l’amélioration de la
+productivité des terres, la conservation et la bonne gestion des ressources naturelles
+avec pour finalité l’amélioration des conditions de vie des populations concernées. La
+dynamisation de ce Plan a été lancée en 2007.
+PLAN NATIONAL SECHERESSE ALGERIE 37
+
+--- Page 38 ---
+La DGF et l’Agence Spatiale Algérienne ASAL disposent d’un accord de partenariat
+pour l’évaluation des feux de forêts et le suivi du couvert végétal.
+3.6.2.2. Haut-Commissariat au Développement de la Steppe
+« HCDS »,
+Le HCDS est un établissement public à caractère administratif à vocation technique
+et scientifique créé en Décembre 1981. Il a pour mission principale l’application de la
+politique nationale en matière de développement intégré des zones steppiques et
+pastorales sur 25 wilayas toutes touchées par la sécheresse. En plus de
+prérogatives très larges qu’il n’est pas utile d’énumérer, le HCDS a pour mission la
+protection sanitaire, la mise en place de systèmes de prévention et la mise en place
+d’actions en matière de prévention et de lutte contre les calamités naturelles.
+Le HCDS assure la réflexion et la création d’ouvrage en charge du captage des eaux
+de ruissèlement. Ces ouvrages (les djoubs et les ceds) axés sur les savoirs faires
+locaux sont primordiaux dans le captage et la valorisation des eaux de ruissèlement
+et sont utilisé notamment pour l’abreuvement des troupeaux et l’irrigation.
+Entre l’ASAL et le HCDS existe aussi une convention de coopération pour l’utilisation
+des images Alsat pour le suivi des aménagements réalisés par le HCDS.
+3.6.2.3. L’Institut National des Sols, de l’Irrigation et du
+Drainage (INSID)
+Est un établissement public à caractère administratif, à vocation scientifique et
+technique, doté de la personnalité morale et de l’autonomie financière. Il a été créé
+par décret N° 87-15 du 13 janvier 1987 dans le but de conduire des programmes
+intégrés de recherche développement dans le domaine du milieu physique
+(caractérisation des sols, agro météorologie, suivi des sols sous irrigation, suivi des
+phénomènes de dégradation des terres dont la salinité, techniques d’irrigation et de
+drainage…).
+Parmi les missions dévolues à cet institut figurent :
+• La réalisation de cartes agro-pédologiques, d’aptitudes culturales, climatiques
+à différentes échelles ;
+• Déterminer l’influence des paramètres climatiques sur les productions
+agricoles
+A partir de 2012, l’Institut National des Sols, de l’Irrigation et du Drainage INSID, en
+partenariat avec l’ONM et les services centraux, a mis en place un système de veille
+PLAN NATIONAL SECHERESSE ALGERIE 38
+
+--- Page 39 ---
+et d’observations qui lui a permis de publier des bulletins agro-météorologiques
+hebdomadaires et des bulletins d’alerte précoce à la sécheresse.
+Un appui en formation pour le calcul de l’indice SPI a été aussi assuré par l’ONM au
+profit des ingénieurs de la cellule agro-météorologique.
+Fig.7 : Bulletins INSID de préalerte, d’alerte et de levée d’alerte à la sécheresse
+Additionnellement à cela le secteur en charge de l’Agriculture dispose d’instituts de
+développement et de recherche ITGC, ITDAS, INRAA , INRF, ITCMI, ITAFV, INVA,
+des commissariat HCDS et CDARS ainsi que l’OAIC avec ses 48 CCLS qui tous,
+ont développé une expertise sur la gestion de l’eau et sur l’irrigation.
+3.6.3. SECTEUR DE L‘ENVIRONNEMENT ET DES
+ENERGIES RENOUVELABLES
+Les Changements Climatiques dans leur globalité sont suivis par le Secteur de
+l‘Environnement et des Energies renouvelables par le biais de la Direction Générale
+des Changements Climatiques et l’Agence nationale des Changements Climatiques
+ANCC. La DGCC assure par ailleurs le secrétariat de la Commission Nationale sur
+les Changements Climatiques CNC. Il n’existe pas dans ce secteur une structure
+consacrée spécifiquement à la problématique de la sécheresse mais celle-ci est
+prise en charge dans le Plan National Climat par le groupe « ressources en eau ».
+3.6.3.1. Agence Nationale sur les changements climatiques
+« ANCC »
+L’ANCC a été créée le 26 septembre 200535 et a pour missions principales de :
+35 Décret exécutif n°05-375 du 22 Chaâbane 1426 correspondant au 26 septembre 2005 portant
+création de l’agence nationale des changements climatiques, fixant ses missions et définissant les
+modalités de son organisation et de son fonctionnement
+PLAN NATIONAL SECHERESSE ALGERIE 39
+
+--- Page 40 ---
+• Promouvoir l’intégration de la problématique des changements climatiques
+dans tous les plans de développement et de contribuer à la protection de
+l’environnement.
+• Mener des actions d’information, de sensibilisation, d’étude et de synthèse,
+dans les domaines ayant trait aux émissions et à la séquestration des gaz à
+effet de serre, à l.’ adaptation aux changements climatiques, à l’atténuation de
+leurs effets et aux différents impacts socio-économiques.
+• Contribuer au renforcement des capacités nationales des différents secteurs
+dans le domaine des changements climatiques ;
+• Tenir une base de données relative aux changements climatiques et de veiller
+régulièrement à sa mise à jour ;
+• Elaborer périodiquement un rapport sur les changements climatiques ainsi
+que d’autres rapports et notes de conjoncture ;
+• Répertorier toutes les activités des différents secteurs pour lutter contre les
+changements climatiques et de contribuer à tout inventaire national de gaz à
+effet de serre selon la réglementation en vigueur ;
+• Coordonner les actions sectorielles dans le domaine des changements
+climatiques et de veiller à la synergie avec les autres domaines
+environnementaux notamment la conservation de la diversité biologique et la
+lutte contre la désertification ;
+• Promouvoir et de participer à toutes études, recherches et tous travaux se
+rapportant à son objet.
+Pour son fonctionnement l’ANCC est dotée d’un conseil d’orientation présidé par le
+Ministre de tutelle de l’ANCC ou son représentant et est composé des représentants
+des ministres chargés de la défense nationale, de l’intérieur et des collectivités
+locales, des affaires étrangères, des finances, de l’énergie, des ressources en
+eau, des transports, des forêts, de la santé, de la communication, de la petite et
+moyenne entreprise et de l’artisanat, de l.’ enseignement supérieur et de la
+recherche scientifique, de l’industrie, de la pêche et des ressources halieutiques,
+ainsi que les représentants de l’office national de la météorologie, de l’observatoire
+national de l’environnement et du développement durable et de l’agence nationale
+des ressources hydrauliques.
+L’ANCC dispose d’un conseil scientifique présidé par une personnalité scientifique
+élue par ses pairs et composé de dix (10) personnalités scientifiques compétentes
+dans le domaine des changements climatiques, désignées par le ministre chargé de
+l’environnement pour une durée de trois (3) ans, renouvelable. Le conseil scientifique
+PLAN NATIONAL SECHERESSE ALGERIE 40
+
+--- Page 41 ---
+a pour mission d’élaborer toute étude ou avis qui lui est demandé par l’agence dans
+le domaine des changements climatiques et peut faire appel, dans le cadre de ses
+activités, à toute personnalité scientifique ou tout expert pouvant contribuer utilement
+à ses travaux.
+3.6.3.2. Observatoire national de l’environnement et du
+développement durable36 « ONEDD ».
+L’observatoire est chargé de :
+• Mettre en place et gérer des réseaux d’observation et de mesure de la
+pollution et de surveillance des milieux naturels.
+• Collecter auprès des institutions nationales et organismes spécialisés, les
+données et informations liées à l’environnement et au développement durable.
+• Traiter les données et informations environnementales en vue d’élaborer les
+outils d’information.
+• Initier, réaliser ou contribuer à la réalisation d’études tendant à améliorer la
+connaissance environnementale des milieux et des pressions qui s’exercent
+sur ces milieux.
+• Publier et diffuser l’information environnementale.
+L’observatoire qui est appelé à jouer un rôle primordial dans l’information
+environnementale, est en train d’asseoir ses structures opérationnelles en
+l’occurrence :
+• Les laboratoires régionaux (Constantine, Oran, Alger et Sud) qui sont en train
+d’être dotées en moyens humains et matériels adéquats
+• Et les stations de surveillance des sols et des eaux réparties dans les zones à
+risque de pollution urbaine et industrielle.
+L’ONEDD envisage, comme le prévoient les textes, la mise en place d’un Système
+d’Information Environnemental SIE de manière graduelle et progressive37.
+• Etape 1 : Intégration et traitement de l’information disponible au niveau des
+différentes directions du MEER,
+• Etape 2 : Intégration puis traitement de l’information disponible dans les structures
+sous tutelle du MEER,
+• Etape 3 : Intégration puis traitement de l’information disponible dans les structures
+productrices de l’information environnementale des autres secteurs (eaux, sols,
+36 Décret exécutif n°02-115 du 20 Moharram 1423 correspondant au 3 avril 2002
+37 Il n’existe pas, a priori, d’approche analytique particulière concernant la mise en place de ce système.
+PLAN NATIONAL SECHERESSE ALGERIE 41
+
+--- Page 42 ---
+biodiversité, faune, flore, ressources halieutiques, ressources minérales et
+énergétiques, etc.).
+C’est l’ONEDD qui est en charge de la production du rapport national sur l’Etat de
+l’Environnement.
+Enfin l’observatoire a signé une convention avec l’ASAL dont l’objet est la mise à
+disposition de l’observatoire des outils de traitement et d’analyse des images
+satellitales à des fins de suivi environnemental.
+3.6.4. SECTEUR DE LA SANTE
+Le dernier rapport du GIEC a confirmé que les changements climatiques en
+particulier les sécheresses avaient de multiples incidences sur la santé humaine.38.
+De nombreuses maladies importantes sont hautement sensibles au changement des
+températures et du régime des précipitations comme par exemple les maladies à
+transmission vectorielle et zoonoses émergentes et ré émergentes courantes comme
+le paludisme, la leishmaniose cutanée et la dengue ainsi que d’autres grandes
+tueuses comme la malnutrition et les maladies diarrhéiques surtout chez l’enfant et le
+sujet âgé.
+NB : l’Algérie a reçu dernièrement son accréditation pour l’éradication du Paludisme,
+mais avec les changements climatiques et le flux migratoire, la vigilance doit être
+soutenue.
+Ces effets sur la Santé sont suivis par les services délocalisées et centraux. Un
+service d’information géographique chargé de produire des tableaux de bord de
+l’évolution géographique des maladies existe au niveau central.
+3.6.5. SECTEUR DE L’ENSEIGNEMENT SUPERIEUR ET DE
+LA RECHERCHE SCIENTIFIQUE
+3.6.5.1. Centre de Recherche scientifique et technique sur les
+Régions Arides « CRSTRA »
+Le Centre de Recherche scientifique et technique sur les Régions Arides CRSTRA
+est un un établissement de recherche qui élabore et exécute ses propres
+programmes de recherche selon une stratégie élaborée après analyse territoriale,
+sectorielle, socio-économique et scientifique. Ce qui lui a permis de se fixer des axes
+stratégiques en guise de lignes directrices à savoir :
+38 Site officiel de l’OMS
+PLAN NATIONAL SECHERESSE ALGERIE 42
+
+--- Page 43 ---
+- Optimisation de l’exploitation des Ressources Hydriques
+- Agriculture Saharienne
+- La Steppe et la Désertification
+- Climat / Milieu
+- Aspects Socio- Economiques
+A cet effet, il s’appuie sur 07 Divisions de Recherche et un réseau d’observation et de
+transfert opérationnel en milieu steppique et saharien. Ce qui lui a permis de
+capitaliser l’information relative à l’évolution de ses milieux d’un point de vue
+biophysique et socio-économique et garder un caractère dynamique et évolutif de sa
+stratégie de recherche spécifique au contexte aride voir hyperaride.
+Le CRSTRA est membre de l’Accord EURO Méditerranéen sur les risques majeurs, à
+travers lequel en 2006 a pu faire passer à l’échelle internationale la Désertification
+comme risque majeure et en 2009 l’ensablement comme risque à part entière qui se
+déclenche une fois que le processus de désertification est achevé.
+Institut National de Recherches Forestières INRF
+L'INRF est un établissement public à caractère scientifique et technologique (décret
+exécutif n°04-420 du 20/12/2004 modifiant le décret de création n° 81-348 du 12 /12/
+1981).
+Les objectifs socio-économiques des recherches en cours prennent en compte les
+grandes orientations du plan d’action forestier à court, moyen et long termes élaboré
+par le Plan National de Développement Agricole (PNDA) du Ministère de l’Agriculture
+et du Développement Rural. Les actions prioritaires prévues qui tiennent compte des
+impacts climatiques en particulier la sécheresse et les incendies de forêts sont : :
+• La protection du patrimoine forestier et la veille permanente sur la santé des forêts,
+• La protection de la flore et de la faune dans le cadre de la valorisation de la
+biodiversité.
+3.6.5.2. Institut National de la Recherche Agronomique
+d’Algérie (INRAA)
+L’INRAA créé en 1966 est depuis 2004 établissement public à caractère scientifique
+et technologique. L’INRAA joue depuis la promulgation de la loi sur la recherche 98-11, un
+rôle d’organisme pilote au niveau national pour les deux programmes prioritaires PNR
+"Agriculture-Alimentation" et "Ressources en eau".
+Les activités de l’INRAA se rapportent essentiellement aux domaines suivants :
+PLAN NATIONAL SECHERESSE ALGERIE 43
+
+--- Page 44 ---
+• Connaissance, gestion et préservation du milieu physique,
+• Écologie et environnement liés à ses missions,
+• Alimentation et industries alimentaires,
+• Amélioration génétique et sélection végétale et animale d’intérêt stratégique ;
+• Conservation, extension et valorisation du couvert végétal forestier et des
+espaces naturels,
+• Agriculture et développement durable,
+• Production et Santé animale,
+• Agents biotiques des espèces végétales,
+• Economie agricole, agroalimentaire et sociologie rurale,
+• Biotechnologie agricole.
+Enfin l’INRAA dispose d’un centre SIG qui est en cours de développement et
+héberge l’Observatoire National des Filières Agricoles. Il comprend également une
+division dédiée à la Bioclimatologie et à l’hydraulique agricole.
+3.6.5.3. Laboratoires universitaires spécialisés
+De nombreux laboratoires spécialisées existent à travers le territoire national dans
+différentes universités (USTHB, Oran, Constantine, Djelfa, Laghouat, Ouargla,
+Batna ; M’sila, Biskra) et produisent de nombreuses notes et publications
+scientifiques. Nous en avons cité quelques-uns dans le présent document.
+3.6.5.4. Centre de développement des énergies renouvelables
+« CDER »
+Le CDER a été créé le 22 mars 1988 sous la tutelle du Ministère de l’Enseignement
+et de la Recherche scientifique. Il a pour missions la mise en œuvre les programmes
+de recherche portant sur l'évaluation des gisements, matériel d’exploitation, normes
+et formation en matière d'énergies renouvelables.
+Le centre s’appuie sur :
+• La station d’expérimentation des équipements solaires en milieu saharien
+SEES MS créée le 22 mars 1988 et installée à Adrar et dont les missions sont
+la promotion, la fabrication et l'expérimentation des équipements solaires en
+milieu saharien,
+• L’unité de développement des équipements solaires UDES créée le 9 janvier
+1988 à Bouzareah et dont les missions sont le développement des
+équipements solaires à effet thermodynamique et photovoltaïque pour l’usage
+domestique, industriel et agricole,
+PLAN NATIONAL SECHERESSE ALGERIE 44
+
+--- Page 45 ---
+• L’unité de Développement de la Technologie du silicium UDTS (MESRS) de
+Bouzareah,
+• Les laboratoires et unités de recherche au sein des universités (MESRS).
+3.6.5.5. Agence de promotion et de rationalisation de
+l’utilisation de l’énergie « APRUE »
+Créée le 25 août 1985, cette agence est sous la tutelle du Ministère de
+l’Energie et des Mines. Elle a pour missions de concevoir, proposer et coordonner
+les actions portant sur la satisfaction de la demande énergétique, la promotion
+des énergies et l’incitation à la conservation et aux économies d'énergie.
+3.6.6. AGENCE SPATIALE ALGERIENNE ASAL
+L’ASAL a pour mission de contribuer par l’observation de la terre par satellite, au
+développement économique, social et culturel, à la protection de l’environnement et
+à la connaissance et la gestion rationnelle des ressources naturelles du pays (décret
+présidentiel 02-48 du 16/01/2002). L’ASAL a signé plusieurs conventions de
+partenariat avec des administrations et des institutions nationales en particulier avec
+la DGF le HCDS sur le suivi écologique de la steppe et des forêts algériennes.
+En la faveur d’un projet financé par l’Union Européenne et piloté par l’Observatoire
+du Sahara et du Sahel (OSS) un état des lieux exhaustif a été réalisé en 2006 et la
+mise en place d’un système national d’Alerte Précoce à la Sécheresse (SNAPS)
+proposé. Ce système devait être intégré à un système global maghrébin.39 Une
+méthodologie y est proposée, un choix d’indicateurs fait, une structure opérationnelle
+et des fournisseurs de données identifiés40. Dans le cadre de ce projet, l’Agence
+Spatiale Algérienne avait proposé une approche cartographique par télédétection de
+la sécheresse en utilisant comme indicateurs les indices NDVI41 et EVI42 à partir
+d’une plateforme MODIS43
+Du 22 au 26 mai 2005 un séminaire international sur « l’utilisation des technologies
+spatiales pour la prévention et la gestion des catastrophes naturelles » a été
+39 OSS, Tunis 2013, Vers un système d’alerte précoce à la sécheresse au Maghreb (projet SMAS /
+OSS)
+40 Safar Zitoun M., 2006. Évaluation des dispositifs d’alerte précoce à la sécheresse existants à
+l’échelle nationale – cas de l’Algérie, expertise dans le cadre du projet SMAS/OSS.
+41 NDVI Indice de végétation par différence normalisé
+42 EVI – Indice de végétation amélioré
+43 MODIS Evaluation des conditions de végétation à l’aide d’un spectroradiomètre imageur à moyenne
+résolution.
+PLAN NATIONAL SECHERESSE ALGERIE 45
+
+--- Page 46 ---
+organisé par l’ASAL avec la collaboration du Bureau des Affaires Spatiales des
+Nations Unies (BAS-ONU) et l’Agence Spatiale Européenne (ESA). Les
+recommandations visaient principalement le renforcement de la coordination entre
+les organismes en charge de la gestion des catastrophes naturelles et les agences
+spatiales nationales.
+3.6.7. OFFICE NATIONAL DE LA METEOROLOGIE « ONM »
+L’ONM est l’institution spécialisée dans les observations et les études scientifiques
+du climat (analyse, diagnostic, prévision, et modèles). Cet office dispose
+• D’un réseau d'observation et de mesures météorologique et climatologique,
+• D’une banque de données de référence sur le climat (qui remontent à 1857),
+• D’une station de référence mondiale de la Veille de l’Atmosphère Globale
+(mesure des gaz à effet de serre) à Tamanrasset,
+• D’une station d'observation et de recherche sur les zones arides et semi
+arides à Ksar Chellala et,
+• D’unités d'étude et suivi de l'évolution du climat dont les capacités humaines
+et de traitement nécessitent un renforcement.
+De stations de réception d’images de METEOSAT et de NOAA.
+L’Office national de la Météorologie ONM collecte, suit, analyse et diffuse toute
+donnée météorologique générale par le biais de bulletins périodiques réguliers
+(mensuel, décadaire et annuel) et parfois de conjoncture.
+• Le Bulletin décadaire d’informations météorologiques et agro-météorologiques
+qui contient des données climatologiques de base, des paramètres dérivés,
+des représentations graphiques (précipitations et températures), une analyse
+climatologique décadaire et si nécessaire, des photos de la couverture
+nuageuse prises par satellite et représentant des situations particulières.
+• Le bulletin mensuel d'informations climatologiques consiste en un résumé de
+l’analyse globale des situations météorologiques qui ont prévalu au cours du
+mois accompagné d’une photo de la couverture nuageuse par satellite et
+d’une série de tableaux de données de base.
+• Le Résumé annuel du temps en Algérie qui comporte des tableaux de valeurs,
+des graphes, des cartes ainsi que des analyses donnant la physionomie
+climatique de l’année.
+S’il y’a mise en place d’un dispositif d’alerte à la sécheresse ou de suivi
+environnemental, L’ONM sera la structure idoine à même de produire les indicateurs
+PLAN NATIONAL SECHERESSE ALGERIE 46
+
+--- Page 47 ---
+de sécheresse tels que l'Indice Normalisé des Précipitations (SPI) ou l’indice
+standardisé de sécheresse pluviométrique » (ISSP).
+3.6.8. OFFICE NATIONAL DES STATISTIQUES « ONS »
+L'Office National des Statistiques est l'Institution Centrale des Statistiques de
+l'Algérie. C'est un établissement public à caractère administratif chargé de la collecte,
+du traitement et de la diffusion de l'information statistique socio-économique
+(recensement de la population et de l'habitat, enquête sur la main d'œuvre, enquête
+sur les entreprises industrielles, statistiques agricoles et environnementales, etc.). Il
+est placé sous la tutelle du ministère chargé de la planification.
+L’ONS s’appuie sur le système national d'information statistique SNIS44 qui définit
+les principes généraux et fixe le cadre organisationnel ainsi que les droits et
+obligations des personnes physiques et morales dans les domaines de la production,
+la conservation, l'utilisation et la diffusion de l'information statistique.
+L’ONS prend en charge les statistiques économiques et sociales du Pays. Certaines
+sont utiles dans la définition des vulnérabilités chronique ou conjoncturelle de la
+sécheresse. La dimension environnementale existe mais est insignifiante.
+3.6.9. ENSEIGNEMENTS TIRES
+Enseignement 1 : Les textes de lois inscrivant le développement national dans une
+vision prospective de Développement Durable existent et les approches sectorielles
+(eaux, agriculture, énergie) s’intègrent de plus en plus dans cette approche.
+Toutefois la problématique sécheresse gagnerait à être précisée pour plusieurs
+institutions majeures (ANRH, INSID, ANCC, etc.).
+Enseignement 2 : L’environnement réglementaire et institutionnel, les stratégies et
+plans d’actions qui sont multiples touchent tous les aspects de la problématique
+sécheresse directement ou indirectement.
+Enseignement 3 : Il existe un grand nombre de procédés de mesure, de collecte,
+d’inventaire, de traitement et de diffusion de données sur les ressources naturelles et
+donc sur la sécheresse mais dont l’approche est verticale c'est-à-dire sectorielle. Ces
+procédés couvrent une palette très large des ressources naturelles (eaux, sols, air,
+énergie solaire, énergie éolienne, forêts, biodiversité, etc.)
+Enseignement 4 : Seul le SIE (système d’Information Environnementale) prévu par la
+loi relative à la protection de l’Environnement dans le cadre du développement
+44 Décret législatif n° 94-01 du 15 Janvier 1994
+PLAN NATIONAL SECHERESSE ALGERIE 47
+
+--- Page 48 ---
+durable45 et confié pour sa réalisation à l’ONEDD a, en principe, un caractère
+horizontal et devrait sur le long terme impliquer l’ensemble des secteurs concernés
+par les ressources naturelles. Ce système ne semble toutefois pas encore
+fonctionnel.
+4. ORGANISATION ET DESIGNATION DES
+RESPONSABILITES
+4.1. Aperçu de l’organisation
+4.1.1. NOMMER OU S’APPUYER SUR UN GROUPE
+EXISTANT
+La première action est d’individualiser une structure nationale spécifique à l’aléa
+sécheresse. Deux possibilités, soit aller vers une nouvelle création soit s’appuyer sur
+une structure existante. C’est cette deuxième hypothèse qui sera retenue ici avec la
+création d’un groupe spécifique « sécheresse » au sein du Comité National Climat
+CNC46 et ce pour 2 raisons majeures :
+4.1.1.1. Les engagements internationaux de l’Algérie
+« Ces engagements figurent dans la Contribution déterminée nationale CDN,
+communiquée en 2016 au titre de l’Accord de Paris selon deux scénarios, le premier
+est volontariste, le deuxième est conditionnel. Ces engagements figurent aussi dans
+les Objectifs du développement durable ODD 2030 des Nations Unies. Les
+obligations internationales de l’Algérie seront réaffirmées aussi dans la troisième
+communication nationale (TCN) et le premier rapport biennal actualisé (BUR), en
+cours de formulation. La CDN conditionne la formulation du Plan National Climat
+PNC».47
+45 Loi 03-10 promulguée le 19 juillet 2003
+46 Le CNC réunit les secteurs institutionnels les plus concernés par les CC. Il s’agit, en plus du MEER,
+du Ministère de la Défense Nationale (MDN), du Ministère des Affaires étrangères (MAE), du Ministère
+de l’Intérieur, des Collectivités Locales et de l’Aménagement du Territoire (MICLAT), du Ministère de
+l’Énergie (ME), du Ministère de l’Industrie et des Mines (MIM), du Ministère de l’Enseignement supérieur
+et de la Recherche Scientifique (MESRS), du Ministère de l’Éducation Nationale (MEN), du Ministère
+des Finances (MF), du Ministère de l’Agriculture, du développement Rural et de la Pêche (MADRP), du
+Ministère de l’Habitat , de l’Urbanisme et de la Ville (MHUV), du Ministère des Travaux Publics et
+Transport (MTPT), du Ministère de la Santé, de la Population et de la Réforme Hospitalière (MSPRH),
+du Ministère du Commerce (MC) et du Conseil National Économique et Social (CNES).
+47 Plan National Climat, Document de travail, pour consultation, version du 20.06.2018
+PLAN NATIONAL SECHERESSE ALGERIE 48
+
+--- Page 49 ---
+Les objectifs majeurs de la CDN en matière d’adaptation aux CC sont directement ou
+indirectement liés à la sécheresse :
+1. Mettre en place les systèmes de surveillance et d’alerte précoce des risques
+climatiques majeurs (inondations, submersions, feux de forêts et sécheresse).
+2. Renforcer la résilience des écosystèmes afin de minimiser les impacts des
+risques climatiques majeurs.
+3. Protéger la santé publique contre la recrudescence des maladies tropicales,
+les épidémies, les vagues de chaleur.
+4. Lutter contre l’érosion, réhabiliter les terres dégradées dans le cadre de la
+lutte contre la désertification, protéger les ressources végétales et
+sauvegarder le cheptel
+5. Intégrer les effets des changements climatiques dans les stratégies
+sectorielles, en particulier, l’agriculture, l’hydraulique, la santé humaine, les
+travaux publics et les transports.
+6. Intégrer les effets des changements climatiques sur la stabilité politique, la
+sécurité alimentaire et la sécurité nationale.
+Les mesures projetées pour réaliser ces objectifs sont :
+1. Adapter le cadre institutionnel et réglementaire aux CC.
+2. Renforcer les capacités institutionnelles, humaines et matérielles pour la lutte
+contre les changements climatiques.
+3. Mettre en place des dispositifs de veille et d’alerte précoce en renforçant les
+capacités pour la gestion des évènements climatiques extrêmes.
+4. Elaborer de plans régionaux et locaux d’adaptation aux CC et d’œuvrer pour
+assurer la résilience des villes.
+4.1.1.2. Les synergies entre le Plan National Climat et le
+Plan National Sécheresse
+Dans un souci de synergie entre le Plan National Climat PNC et le Plan National
+Sécheresse PNS, nous recommandons la création d’un groupe thématique
+spécifique « sécheresse » au sein du Comité National Climat CNC qui va s’ajouter
+aux autres groupes thématiques. Par ailleurs les missions, les actions et les
+modalités de fonctionnement du PNS et du PNC qui se rejoignent en de nombreux
+points sont à harmoniser.
+Le groupe « sécheresse » est un groupe permanent et de haut niveau à même de
+prendre des décisions rapides et immédiatement exécutables. Le groupe
+« sécheresse » doit refléter l’aspect multidisciplinaire de la sécheresse et de ses
+PLAN NATIONAL SECHERESSE ALGERIE 49
+
+--- Page 50 ---
+impacts. Il devrait donc impliquer tous les ministères concernés, des experts clés de
+la sécheresse, les agences spécialisées, le secteur privé et la société civile engagée
+dans la problématique.
+Une attention particulière sera portée à une représentation aussi équilibrée que
+possible entre les hommes et femmes membres dans ce groupe. La nomination d’un
+point focal ‘genre’ permettra de mieux intégrer cette dimension dans la mise en
+œuvre du PNS.
+4.1.1.3. Missions du groupe « sécheresse »
+Les missions de ce groupe seront comme suit :
+• La supervision / coordination du processus de développement du plan
+« sécheresse » en mobilisant et en intégrant les ressources nécessaires des
+différents ministères et niveaux de gouvernement.
+• La coordination de la mise en œuvre du plan « sécheresse » à tous les
+niveaux du gouvernement.
+• L’activation des divers éléments du plan pendant les périodes de sécheresse.
+• L’application de manière directe ou par délégation (au niveau local) des
+actions et programmes d’atténuation et d’intervention.
+• La formulation de recommandations.
+Ces missions sont à confirmer ou amender puis valider par le groupe sécheresse au
+cours de ses premières réunions.
+4.1.1.4. Actions du groupe « sécheresse »
+Parmi les premières actions du groupe « sécheresse » figurent48 :
+• La définition d’objectifs précis, spécifiques et réalisables dans le plan
+« sécheresse ». Les objectifs seront chiffrés et appelés à être budgétisés en
+précisant les différentes sources de financement (étatiques / extérieurs).
+• Un calendrier de mise en place des différents aspects et outils du plan.
+• Un calendrier pour atteindre les objectifs.
+Sont pris en compte lors de cette étape :
+a. Les impacts et réponses aux sécheresses historiques du pays.
+b. Les secteurs économiques et sociaux les plus vulnérables.
+c. Les implications légales et sociales du plan.
+d. Les inquiétudes environnementales causées par la sécheresse.
+48 Étape 2 du processus en 8 étapes
+PLAN NATIONAL SECHERESSE ALGERIE 50
+
+--- Page 51 ---
+La définition des objectifs et des calendriers de réalisation seront affinées au fur et à
+mesure des résultats obtenus en cours des étapes suivantes.
+4.1.2. MODALITES DE FONCTIONNEMENT DU GROUPE
+« SECHERESSE »
+Le groupe est assisté par :
+1. Le « sous-groupe préparation, atténuation et réponse » qui reçoit les
+directives politiques du groupe « sécheresse » et est chargé par celui-ci
+de la rédaction des rapports et programmes d’actions.
+2. Le « sous-groupe évaluation et surveillance des risques » qui reçoit les
+directives du groupe « sécheresse » et est chargé par celui-ci de la
+rédaction des rapports d’évaluation et de suivi.
+3. « La cellule technique opérationnelle ».
+4. « La cellule d’écoute citoyenne ».
+Comité National Climat
+Groupe "sécheresse"
+sous-groupe préparation, sous-groupe évaluationet
+atténuation et réponse surveillance des risques
+Cellule d'écoute Cellule technique
+citoyenne opérationnelle
+Fig.5 : Structure organisationnelle du groupe « sécheresse »
+PLAN NATIONAL SECHERESSE ALGERIE 51
+
+--- Page 52 ---
+4.1.2.1. Sous-groupe « Préparation, Atténuation et Réponse »
+Afin d’être efficace ce sous-groupe sera composé de décideurs de haut niveau des
+organismes gouvernementaux et parties prenantes.
+Il aura pour mission de rédiger d’’une part le plan « sécheresse » avec la contribution
+du sous-groupe « évaluation et surveillance des risques » et d’autre part les
+propositions d’actions au niveau national, régional et local.
+4.1.2.2. Sous-groupe « Evaluation et Surveillance des
+Risques »
+Ce sous-groupe est composé essentiellement d’experts techniques provenant des
+parties prenantes au processus, de l’Université ou encore de la société civile (En
+feront parties les représentants de ONM, INSID, ANCC, ASAL, ANRH, IPA,INSP,
+etc,) et intègre : .
+• L’agrométéorologie,
+• L’approvisionnement en eau de la population, de l’agriculture et des
+industries,
+• Les changements socio-économiques,
+• Les changements climatiques et environnementaux.,
+• La santé.
+Les missions de ce comité sont de :
+• Déterminer les besoins en données.
+• Développer des systèmes de surveillance de la sécheresse et les connexions
+avec les fournisseurs de données.
+• Collecter les données élaborées par les fournisseurs de données en rapport
+avec les indicateurs et indices arrêtés.
+• Evaluer et classer les impacts et la vulnérabilité de la sécheresse.
+• Identifier les moyens pour réduire les risques.
+• Définir les réseaux et systèmes de collecte et distribution des données.
+4.1.2.3. Cellule technique opérationnelle
+Le Sous-groupe Evaluation et Surveillance des Risques disposera d’une cellule
+opérationnelle permanente dotée d’un Système d’Information Géographique. Elle
+aura pour tâche de fournir les éléments majeurs des différents rapports d’évaluation
+et de suivi ainsi que les propositions d’actions.
+Cette cellule pourrait être installée au sein de la structure choisie pour assurer le
+secrétariat du « groupe ». Elle nécessitera un renforcement de moyens humains,
+PLAN NATIONAL SECHERESSE ALGERIE 52
+
+--- Page 53 ---
+matériels et financiers (fonctionnement et salaires, équipement et logiciels, achat des
+données commandées (ASAL, ONM, INSID, ANRH, fournisseurs étrangers, etc.),
+payement d’expertises spécifiques).
+Les deux seules structures réglementairement habilitées à accueillir cette cellule sont
+la DNRM ou l’ANCC (ou encore l’ONEDD). Toutefois leurs statuts d’Etablissements à
+caractère administratif ne peut que freiner leurs actions et donc limiter leur efficacité.
+L’ancrage de cette cellule peut aussi être envisagée dans d’autres institutions tels
+que l’INSID, l’ANRH, l’ASAL ou l’ONM. Cela pose aussi le problème réglementaire
+de prise en charge de la « sécheresse » dans leurs missions officielles respectives.
+Cette formulation qui économise les démarches réglementaires, humaines et
+financières relatives à toute création nouvelle, implique toutefois un renforcement
+humain, matériel et financier de toutes les structures impliquées par le système à
+mettre en place.
+La mise en place de la cellule technique opérationnelle SIG va nécessiter la prise en
+compte des aspects humains, logiciels, matériels et de données qui seront définies
+par une étude appropriée. (voir le schéma ci-dessous)
+Fig.6 : Composition d’une cellule opérationnelle SIG
+Les bases de travail de la cellule opérationnelle seront :
+• Une méthodologie à mettre en place validée par le groupe sécheresse.
+• Une liste exhaustive des partenaires.
+PLAN NATIONAL SECHERESSE ALGERIE 53
+
+--- Page 54 ---
+• La liste des indicateurs et les sources d’émission de ceux-ci.
+• Des modalités, procédures, formats, périodicité des échanges d’information et de
+données avec les fournisseurs de données (charte informative), en particulier l’ONM,
+ASAL, ANRH, ANBT, INSID, BNEDER, etc. (protocole de communication interne).
+• Des formes et contenus des bulletins et autres formes de diffusion de l’information
+(Internet et médias) ainsi que des destinataires.
+Données
+d'observation
+spatiale ASAL
+Données
+Données
+sécheresse Cellule sécheresse
+météorologique opérationnelle hydraulique
+ONM
+ANRH
+Données
+sécheresse
+agricole
+INSID
+Fig. 6 : Schéma des échanges entre la cellule opérationnelle et les principaux
+fournisseurs de données
+4.1.2.4. Cellule d’Ecoute Citoyenne
+La cellule citoyenne est mise sous la responsabilité du sous-groupe « Préparation,
+Atténuation et Réponse ». Elle est nationale mais son importance est surtout locale.
+Elle sera composée de représentants de la société civile, hommes et femmes, à
+parité égale (associations environnementales, professionnelles, d’artisans, de
+femmes rurales). Cette structure aura pour tâche de relever les signes naturels
+précoces de sécheresse en appui aux structures techniques et de produire des
+PLAN NATIONAL SECHERESSE ALGERIE 54
+
+--- Page 55 ---
+indicateurs qualitatifs sur la réponse donnée par la population au phénomène de
+sécheresse. Elle alerte les structures compétentes sur les incidences sociales
+négatives sur les moyens d’existence, en termes de santé, d’emploi et de migration
+de la population.
+4.1.3. MOBILISER LES PARTIES PRENANTES
+Pour assurer la réussite du plan « sécheresse » la mobilisation des parties
+prenantes49 est essentielle. Celle-ci doit se faire à tous les niveaux décisionnels des
+secteurs et des institutions impliquées au niveau national, régional et surtout local.
+C’est au niveau local qu’il sera important d’identifier, avec l’implication des parties
+prenantes, tous les groupes de citoyens qui ont un intérêt dans le plan
+« sécheresse », en particulier les femmes actives au sein d’entreprises ou
+associations (artisanat, agriculture, élevage, etc.)
+Ces groupes pourraient être représentés dans « la cellule citoyenne », structure
+consultative qui pourrait se constituer en appui au groupe de travail « sécheresse ».
+C’est aussi à ce niveau que se fera l’installation des comités locaux tels que le
+permet la loi n° 12-07 du 21 février 2012 relative à la wilaya.
+4.1.4. INVENTAIRE / ANALYSE SITUATIONNELLE50
+Procéder à un inventaire exhaustif des ressources naturelles, biologiques, humaines
+et financières actualisé en incluant l’identification des contraintes qui peuvent freiner
+le processus d’élaboration du plan « sécheresse » est primordial.
+Toutes les parties prenantes sont associées à cette action de laquelle résultera un
+document de travail essentiel pour la mise en place des actions du groupe et de sa
+cellule opérationnelle. Cet inventaire actualisé pourra être considéré, après
+validation, comme « le référentiel t » pour le système de suivi – évaluation résultant
+0
+de l’activité de la cellule opérationnelle.
+Les aspects importants que nous avons mentionnés déjà dans les objectifs seront
+pris en compte dans l’élaboration de cette étape, en particulier :
+1) Les impacts et réponses aux sécheresses historiques du pays.
+2) Les secteurs économiques et sociaux les plus vulnérables.
+3) Les implications légales et sociales du plan.
+49 Etape 3 du processus en 8 étapes
+50 Etape 4 du processus en 8 étapes
+PLAN NATIONAL SECHERESSE ALGERIE 55
+
+--- Page 56 ---
+4) Les inquiétudes environnementales causées par la sécheresse.
+4.1.5. IDENTIFIER LES BESOINS NON SATISFAITS ET
+COMBLER LES LACUNES INSTITUTIONNELLES
+Cette opération contenue dans l’étape 6 du processus en 8 étapes comprend les
+actions qui permettent au groupe « sécheresse » de rassembler une liste des
+besoins et des déficiences non satisfaites et faire des recommandations à l’organe
+gouvernemental approprié sur les mesures correctives qui devraient être prises.
+Cette étape sera critique pour identifier l’absence de données et les lacunes
+institutionnelles permettant de quantifier les impacts de la sécheresse et de l’action,
+et pour développer des plans adéquats pour combler les lacunes.
+4.2. Désignation des responsabilités
+Nous proposons dans le tableau ci-dessous la composition, que nous pensons, la
+plus appropriée du groupe « sécheresse »51. La désignation d’un point focal genre en
+la personne de Madame la Ministre de la Solidarité Nationale, de la Famille et de la
+condition de la Femme (ou son (sa) représentant(e)) impose une attention critique et
+équilibrée à toute la composante de la société (hommes et femmes).
+MISSIONS PERSONNALITES ET ACTEURS INSTITUTIONNELS
+Présidence du groupe M. le Premier Ministre (ou son (sa) représentant(e))
+Vice-présidence du groupe M. le Ministre chargé de l’Intérieur, des collectivités locales et de
+l'aménagement du territoire (ou son (sa) représentant(e))
+Secrétariat général et coordination M. Le Délégué National aux Risques Majeurs ou Le Directeur
+intersectorielle général de l’ANCC.
+Coopération internationale, commissions mixtes, M. le Ministre des Affaires Etrangères (Directeur de la
+relation avec les organisations internationales et coopération internationale (ou son (sa) représentant(e))
+partenaires du développement
+Environnement, développement durable, Madame la Ministre de l’Environnement et des Energies
+Energies renouvelables renouvelables (ou son (sa) représentant(e))
+• Observatoire national de l’environnement et du
+Développement durable ONEDD (Directrice)
+• L’Agence Nationale sur le Changement Climatique ANCC
+(Directeur)
+51 La composition proposée du groupe tient compte de la composition actuelle du Gouvernement et des
+institutions de l’Etat. Elle doit être revue si changement il y’a.
+PLAN NATIONAL SECHERESSE ALGERIE 56
+
+--- Page 57 ---
+- Ressources en eaux et en sols, terres irriguées, M. le Ministre des ressources en eau (ou son (sa)
+PNE, érosion hydrique, transport solide, représentant(e))
+sécheresse, climatologie.
+• Agence Nationale des Ressources Hydrauliques ANRH,
+(Directeur)
+• Agence des barrages et transferts ANBT, (Directeur)
+• Agences de Gestion Intégrée des Ressources en Eau
+(AGIRE) ( Directeur)
+Ressources en sol, faune et flore, forêts, M. le Ministre de l’Agriculture, du Développement Rural et de la
+biodiversité, zones humides, steppe, Pêche
+développement rural, pastoralisme, synergie
+• Direction générale des Forêts DGF (directeur de la lutte contre
+avec les autres conventions, santé animale, etc.
+la désértification et la restauration des terres)
+• Point focal CNULCD (sous directrice chargée de la
+désertification)
+Météorologie Office National de la Météorologie ONM, Centre Climatologique
+• L’Institut national des sols, de l’irrigation et du drainage INSID
+National (Directeur du Centre)
+(Directeur)
+Solidarité nationale, lutte contre la pauvreté, P• olein Ht afoucta-Cl Gomenmreis s: aMriaadt aamu eD léav Meloinpispterem deen tl ad eS olali dSateriptép eN aHtCioDnaSl,e ,
+emploi, condition de la femme d• ele l aC Foammmililses eatr idaet alau cdoénvdeiltoiopnp edme elan tF deem lm’Aeg r(iocuul tsuorne (dseas)
+reRpréégsioennsta Snta(hea))r i ennes CDARS
+Recherche scientifique L• eD MDAinZisAtrSeA d e l’Enseignement Supérieur et de la Recherche
+Scientifique
+• CRSTRA (Directrice)
+• Institut national agronomique INRAA (Directeur)
+• Centre de développement des Energies Renouvelables CDER
+(Directeur)
+• L’Institut National de la Recherche Forestière INRF (Directeur)
+Participation de la société civile, ONG, • AREA-ED (Présidente)
+associations professionnelles • Associations de l’Environnement
+• Association des femmes (présidentes)
+• Associations professionnelles et paysannes
+Outils d’évaluation et de suivi (cartographie et Institut national de la Cartographie et de la Télédétection INCT
+télédétection spatiale) (Directeur général)
+Agence Spatiale Algérienne ASAL (Madame la Cheffe du
+département des catastrophes naturelles)
+M. le Ministre de la Santé, de la Population et de la
+Santé humaine
+Réforme Hospitalière (ou son (sa) représentant(e))
+PLAN NATIONAL SECHERESSE ALGERIE 57
+
+--- Page 58 ---
+• Directeur du laboratoire National du control des Produits
+Pharmaceutiques et Parapharmaceutique (LNCPP)
+• Madame la Directrice Générale du Centre National
+d’Algérie
+• le Directeur Général de l’Institut National de Santé Public
+• le Directeur Général de l’Institut Pasteur
+• Directeur Général de la pharmacie centrale
+Sensibilisation, Médias M. le Ministre de la Communication (ou son (sa) représentant(e))
+Financement du fonctionnement M. le Ministre des Finances (ou son (sa) représentant(e))
+Tableau 3 : proposition de composition du groupe « sécheresse52 »
+5. SURVEILLANCE, PREVISION DE LA
+SECHERESSE ET EVALUATION DE L’IMPACT
+5.1. Indicateurs et Indices de sécheresse - Définitions
+Les indicateurs sont des variables ou des paramètres qui servent à décrire les
+conditions de sécheresse. Citons, par exemple, les précipitations, la température,
+l’écoulement fluvial, le niveau des nappes et des réservoirs, l’humidité du sol, etc.
+Les indices sont le plus souvent des représentations numériques de l’intensité des
+sècheresses, que l’on calcule à partir de valeurs climatiques ou
+hydrométéorologiques, dont les indicateurs précités. Ils mesurent l’état qualitatif
+d’une sècheresse à un emplacement donné pour une période donnée.
+Techniquement, ce sont eux aussi des indicateurs.
+Les informations tirées des indicateurs et des indices sont utiles pour planifier et
+concevoir des applications (évaluations des risques, systèmes d’alerte précoce,
+outils d’aide à la décision en vue d’atténuer la menace dans les zones touchées) à
+condition de connaître le régime climatique et la climatologie des sécheresses dans
+la région. De plus, divers indicateurs et indices peuvent servir à valider les résultats
+obtenus par modélisation, par assimilation ou par télédétection.
+52 Ibidem
+PLAN NATIONAL SECHERESSE ALGERIE 58
+
+--- Page 59 ---
+Un indicateur peut donc être défini comme étant une information synthétique,
+finalisée ou en construction, servant à caractériser une situation évolutive, une action
+ou les conséquences et résultats d’une action.
+Les principales fonctions d’un indicateur sont de :
+• Évaluer des situations et leur évolution dans le temps,
+• Comparer des lieux et des situations,
+• Fournir des éléments de prise de décision,
+• Anticiper des conditions et des évolutions futures.
+Les principales caractéristiques d’un indicateur ont trait à la quantification de
+l’information pour améliorer sa signification et la simplification de l’information pour
+améliorer sa vulgarisation. »53
+Les indicateurs sont classables en deux catégories54 :
+• Les indicateurs locaux basés sur des données ponctuelles et prennent alors
+une signification de « témoins représentatifs » des situations locales (climat,
+ressources en eau, utilisations des sols et des eaux, etc.) en quantité et
+qualité.
+• Les indicateurs globaux basés sur des données macroscopiques et
+statistiques, significatifs à l’échelle des unités administratives (pays, région,
+wilaya ou commune) ou naturelles (bassins hydrographiques, aquifères
+régionaux, zones agro-écologiques).
+5.2. Surveillance, prévision et collecte de données
+actuelles
+5.2.1. SECTEUR DES RESSOURCES EN EAU
+Dans la gestion de la sécheresse par le secteur des Ressources en Eau l’aspect
+gestion de crise prédomine avec une gestion sectorielle de la pénurie. Les actions
+d’atténuation sont prises en charge au niveau national et local par des comités
+formés pour la circonstance et composés principalement de l’ANRH, de l’ANBT, des
+structures centrales et décentralisées de l’hydraulique et des sociétés de distribution
+d’eau.
+53 « Eléments de réflexion sur une stratégie sous régionale (Afrique du Nord) relative à la prise en
+compte de la sécheresse dans la mise en œuvre PAN : Synthèse des études de cas de l’Algérie, du
+Maroc et de la Tunisie » OSS, juillet 2003
+54 D’après « Les ressources en eau : conception, évaluation, cartographie, comptabilité » par Jean
+Margat, FAO, 1996
+PLAN NATIONAL SECHERESSE ALGERIE 59
+
+--- Page 60 ---
+Les comités ont pour tâches :
+1. La collecte des données en temps réel de certains indicateurs,
+o Apports aux barrages,
+o Potentialités en eaux souterraines
+o État de la distribution en eau.
+2. La proposition de solutions d’urgence adéquates (lancement de campagnes
+d’appoint de forages, programmes de coupure en AEP et irrigation, etc.).
+Cette approche fut usitée en 1982 et en 2002 pour l’alimentation de la ville d’Alger,
+avec un ensemble de mesures urgentes à même de gérer la pénurie en eau potable
+induite par la sécheresse par :
+• La réalisation de forages complémentaires,
+• L’interconnexion du réseau AEP de la ville avec les barrages situés à plus de
+100 km à l’Ouest de la capitale,
+• Lancement de stations de dessalement de l'eau
+• Organisation de la distribution de l’eau par camions citernes dans les
+quartiers les plus touchés.
+L’ANRH, sur financement de la Banque Africaine de développement a lancé
+récemment une étude d’homogénéisation de ses différentes bases de données
+(hydrologie, hydrogéologie, sols, chimie des eaux et des sols) et la modernisation de
+ses postes d’observation et de mesure, bases qui seraient d’un grand apport dans la
+gestion des risques de sécheresse.
+Au niveau de l’ANBT des efforts importants ont été réalisés ces deux dernières
+décennies en transferts d’interconnexion entre barrages dans le souci de pallier aux
+pénuries et toutes crises induites par les sécheresses. L’ANBT dispose par ailleurs
+de stations climatiques et de mesure des apports en eau au niveau de tous les
+barrages.
+5.2.2. SECTEUR DE L’AGRICULTURE
+Parce que liée aux variables économiques mesurables par wilaya, la sécheresse
+agricole (et donc socio-économique) est suivie à l’échelle locale par les directions de
+wilayas de l’Agriculture qui disposent de deux outils majeurs d’appréciation que sont
+d’une part les observations in situ des paramètres de production agricole et d’autre
+part des bulletins agro-météorologiques et d’alerte de l’INSID. Il y a de plus,
+l’utilisation de certaines radios locales par les services, chambres et associations
+agricoles pour la vulgarisation et l’alerte des cultivateurs et éleveurs pour tout risque
+majeur agricole.
+PLAN NATIONAL SECHERESSE ALGERIE 60
+
+--- Page 61 ---
+Dans le cas de sinistre avéré, (sécheresse, invasion de criquets pèlerins, gel, etc.)
+l’Etat a mis en place toute une panoplie de systèmes d’assurances et de fonds
+5.2.3. AGENCE SPATIALE ALGERIENNE ASAL
+L’ASAL a pour mission de contribuer par l’observation de la terre par satellite, au
+développement économique, social et culturel, à la protection de l’environnement et
+à la connaissance et la gestion rationnelle des ressources naturelles du pays (décret
+présidentiel 02-48 du 16/01/2002). L’ASAL a signé en 2017 une convention cadre de
+coopération avec le MADRP portant sur 4 volets (forets et zones humides, pêche et
+aquaculture, lutte anti acridienne et protection des végétaux et développement
+agricole et réalisation de cartes thématiques.
+En la faveur d’un projet financé par l’Union Européenne et piloté par l’Observatoire
+du Sahara et du Sahel (OSS) un état des lieux exhaustif a été réalisé en 2006 et la
+mise en place d’un système national d’Alerte Précoce à la Sécheresse (SNAPS)
+proposé. Ce système devait être intégré à un système global maghrébin.55 Une
+méthodologie y est proposée, un choix d’indicateurs fait, une structure opérationnelle
+et des fournisseurs de données identifiés56. Dans le cadre de ce projet, l’Agence
+Spatiale Algérienne avait proposé une approche cartographique par télédétection de
+la sécheresse en utilisant comme indicateurs les indices NDVI57 et EVI58 à partir
+d’une plateforme MODIS59
+Du 22 au 26 mai 2005 un séminaire international sur « l’utilisation des technologies
+spatiales pour la prévention et la gestion des catastrophes naturelles » a été
+organisé par l’ASAL avec la collaboration du Bureau des Affaires Spatiales des
+Nations Unies (BAS-ONU) et l’Agence Spatiale Européenne (ESA). Les
+recommandations visaient principalement le renforcement de la coordination entre
+les organismes en charge de la gestion des catastrophes naturelles et les agences
+spatiales nationales.
+55 OSS, Tunis 2013, Vers un système d’alerte précoce à la sécheresse au Maghreb (projet SMAS /
+OSS)
+56 Safar Zitoun M., 2006. Évaluation des dispositifs d’alerte précoce à la sécheresse existants à
+l’échelle nationale – cas de l’Algérie, expertise dans le cadre du projet SMAS/OSS.
+57 NDVI Indice de végétation par différence normalisé
+58 EVI – Indice de végétation amélioré
+59 MODIS Evaluation des conditions de végétation à l’aide d’un spectroradiomètre imageur à moyenne
+résolution.
+PLAN NATIONAL SECHERESSE ALGERIE 61
+
+--- Page 62 ---
+5.2.4. SECTEUR DE LA RECHERCHE
+De par ses missions (décret exécutif 91/478) et de par son mandat (loi 98-11) le
+Centre est responsable du Programme National de Recherche sur la Désertification,
+Environnement, Aménagement du territoire et Aménagement des régions arides et
+semi-arides (PNR1, PNR2, PNR3, et PNR4) à travers plusieurs équipes affiliées à
+des laboratoires de recherche et/ou des unités de recherche impliquées pleinement
+sur ces risques à travers le territoire national (Universités Batna, USTHB,
+LAGHOUAT, Tiaret, Djelfa, Mascara, Msila, …) Le centre est par ailleurs chargé de
+constituer une banque de données scientifiques et techniques sur les régions arides
+et d’en assurer le traitement, la conservation et la diffusion.
+Le CRSTRA a en outre organisé à Biskra les 21-22 novembre 2010 un Atelier
+international sur le Risque Sécheresse 60.
+Ce Centre par le biais de sa division « gestion des risques climatiques » dispose
+d’une base de données pour le suivi évaluation et d’un réseau de capteurs de
+température sur différents sites. La division organise aussi des ateliers « d’éducation
+et de sensibilisation aux risques liés au climat (sécheresse, désertification,
+ensablement, canicules et crues exceptionnelles) »61. Les travaux de recherche de
+cette division portent sur :
+60 Actes de l’Atelier international sur le Risque Sécheresse, Biskra 21-22 novembre 2010
+61 D’après note de Mme la directrice du CRSTRA transmise le 18/07 au consultant
+PLAN NATIONAL SECHERESSE ALGERIE 62
+
+--- Page 63 ---
+L’INRF est un acteur clé de la recherche, il a proposé et mis en œuvre des projets
+sur le PNR (Programme National de recherche n°34
+• Analyse spatiale de l’érosion hydrique en zone semi-aride cas du bassin
+versant de l’oued mina –INRF)
+• Recherche sur les arbustes fourragers des parcours des zones de montagne
+dans le nord-ouest algérien : Inventaire, caractérisation et valorisation - impact
+sur la conservation et l’amélioration des sols.
+• Ruissellement et érosion des sols en zone de montagne : analyse des
+facteurs conditionnels et recherche des techniques appropriées
+• Evaluation des aménagements et des techniques traditionnelles de
+conservation de l’eau et du sol en Algérie et recherche de leur
+applicabilité dans le cadre de la GCES
+D’autres projets ont été mené par l’INRF dans le PNR n°1 à l’instar de :
+Evaluation de la vulnérabilité du chêne vert (Quercus ilex L.) à une augmentation de
+la sécheresse.
+L’INRF a également développé une coopération forte avec l’AIEA , en étroite
+collaboration avec le CRNA et le COMENA notamment sur le projet ALG/5/028
+« Préservation des écosystèmes arides et semi-arides et lutte contre la
+désertification par l’utilisation des techniques isotopiques et radioactives » et le
+projet « Utilisation des techniques nucléaires pour la caractérisation des potentialités
+des sols et de la végétation en vue de la réhabilitation des régions affectées par la
+désertification »
+L’INRAA qui comme le CRSTRA a été organisme pilote du Programme national de
+recherche (PNR) n°1 initialement Agriculture et alimentation (loi 98-11) qui s’est
+transformé pour la loi 08-05 en Agriculture, Alimentations, Forêts, Espaces Naturels
+et Ruraux et qui dispose comme déjà cité d’une division dédiée à l’agrométéorologie
+et à l’l’hydraulique agricole.
+Parmi les projets de l’INRAA lors du dernier avis d’appel d’offre : « Gestion des
+risques climatiques et systèmes d’élevage pastoraux : Nouvel enjeu et stratégies
+d’adaptation à la sécheresse. Cas des éleveurs ovins de la région steppique de
+Djelfa » et a contribué avec l’université de Constantine au projet « Marqueurs
+Physiologiques, Biochimiques et génétiques et capacité de production du blé dur en
+conditions de sécheresse ».
+PLAN NATIONAL SECHERESSE ALGERIE 63
+
+--- Page 64 ---
+5.3. Choix des indicateurs de la vulnérabilité
+structurelle et conjoncturelle
+De nombreuses définitions de la vulnérabilité à la sécheresse existent. Elles
+dépendent du risque que l’on se propose de prévenir (insécurité alimentaire,
+famine, mouvements des populations, santé animale, etc.).
+La vulnérabilité peut donc être définie comme un ensemble de conditions
+naturelles et économiques défavorables qui prédisposent une région ou un groupe
+de personnes à des difficultés économiques et sociales.
+La vulnérabilité est dite « chronique » ou « structurelle » si le risque d’observer
+ces conditions défavorables est sur le long terme (plusieurs années). Elle est par
+contre « conjoncturelle » si le risque est sur le court terme (une année).
+Les indicateurs socio-économiques et agricoles de vulnérabilité structurelle et
+conjoncturelle doivent tenir compte du rôle éminemment important que peuvent jouer
+les femmes rurales dans toute opération d’atténuation de la sécheresse compte tenu
+du rôle et des responsabilités de celles-ci et des impacts négatifs de la sécheresse
+sur leurs moyens d’existence.
+5.3.1. VULNERABILITE CHRONIQUE OU
+STRUCTURELLE
+Le classement d’un territoire présentant une vulnérabilité structurelle est obtenu par
+l’analyse des séries historiques de quelques indicateurs significatifs qui, lorsqu’elles
+ont été attribuées aux unités administratives élémentaires (communes),
+permettent d’établir une classification selon les différents degrés de vulnérabilité
+structurelle34. En particulier les indicateurs suivants :
+• La densité de population, (obtenue par l’ONS)
+• Le NDVI (Normalized Difference Vegetation Index) considéré néanmoins
+dans son degré de variabilité inter annuelle obtenu par la télédétection, (ASAL
+ou autres)
+• Le déficit ou le surplus ainsi que le rendement des cultures principales,
+(INSID)62
+• La mortalité des enfants, etc.(ONS)
+62 Dans le chapitre 6 nous donnons quelques exemples d’indicateurs agro-économiques
+PLAN NATIONAL SECHERESSE ALGERIE 64
+
+--- Page 65 ---
+Avec ces indicateurs quatre catégories différentes de degré de vulnérabilité
+structurelle peuvent être identifiées :
+A. EXTREMEMENT BAS: Wilayate ou communes qui présentent
+une variabilité inter annuelle du NDVI dans la moyenne du
+pays, un surplus de cultures principales, un indice de mortalité
+infantile inférieur à la moyenne et une faible densité de
+population;
+B. LEGER: Wilayate ou communes qui présentent une variabilité
+inter annuelle du NDVI légèrement supérieure à la moyenne du
+pays, un surplus de cultures principales, une faible densité de
+population mais un indice de mortalité infantile très supérieur à
+la moyenne;
+C. MODERE : Wilayate ou communes qui, tout en présentant une
+variabilité inter annuelle du NDVI dans la moyenne du pays,
+un léger surplus de cultures principales, un indice de mortalité
+infantile inférieur à la moyenne, ont une densité de population
+élevée ;
+D. ELEVE: Wilayate ou communes qui présentent une variabilité
+inter annuelle du NDVI supérieure à la moyenne du pays, un
+déficit en cultures principales, un indice de mortalité infantile et
+une densité de populations respectivement élevées;
+5.3.2. VULNERABILITE CONJONCTURELLE
+Les "zones à risque" de la vulnérabilité conjoncturelle se définissent sur la base
+d’une analyse du comportement, pendant l’année en cours, des indicateurs
+suivants35:
+• NDVI par télédétection ;(ASAL)
+• Agro-météorologiques (Contenu d’eau dans le Sol - SWC - Soil Water
+Content) ;
+• Socio-économiques comme les prix des produits principaux et du bétail63 ;
+• Nutritionnels (malnutrition aigue)
+63 Dans le chapitre 6 nous donnons quelques exemples d’indicateurs agro-économiques
+PLAN NATIONAL SECHERESSE ALGERIE 65
+
+--- Page 66 ---
+Quatre catégories de vulnérabilité peuvent être identifiées :
+Non vulnérable de type A : Wilayate ou communes avec un bon NDVI/SWC, des
+prix en diminution relative et une malnutrition très faible ;
+Non vulnérable de type B: : Wilayate ou communes avec un bon NDVI/SWC,
+des prix stables et une malnutrition très faible ;
+Légèrement vulnérable : Wilayate ou communes avec une valeur modérée de
+NDVI/SWC, des prix relativement stables et une malnutrition modérément bonne ;
+Modérément vulnérable : Wilayate ou communes avec une faible valeur de
+NDVI/SWC, des prix en hausse et une malnutrition élevée.
+6. RISQUE ET VULNERABILITE FACE A LA
+SECHERESSE
+6.1. Evaluation du risque et de la vulnérabilité à la
+sécheresse et cartographie SIG
+L’évaluation du risque et de la vulnérabilité se fait par analyse spatiale
+cartographique d’un certain nombre d’indicateurs et indices pris individuellement ou
+combinés les uns aux autres avec un système d’information géographique (SIG).
+A titre indicatif, il est utile de rappeler les indicateurs retenus par l’OSS64
+A. PRECIPITATIONS
+✓ Définition : Quantité d’eau qui précipite
+✓ Méthode de calcul : A partir des précipitations mesurées dans les stations
+météorologiques,
+✓ Calculer un indice de précipitations. Il est proposé d’utiliser le Standardized
+Précipitation Index (SPI) recommandé par OMM
+✓ Présentation : L’indice SPI est calculé mensuellement et cartographié. Procéder
+également à l’analyse de l’évolution temporelle de cet indice.
+✓ Utilisation : Estimer les déficits pluviométriques au niveau mensuel et les cumuler
+au niveau saisonnier et annuel. L’objectif étant d’estimer s’il y a sécheresse ou non.
+✓ Dans le cas de sécheresse, estimer son acuité.
+64 « Eléments de réflexion sur une stratégie sous-régionale (Afrique du Nord) relative à la prise en
+compte de la sécheresse dans la mise en œuvre du PAN : Synthèse des études de cas de l’Algérie, du
+Maroc et de la Tunisie » OSS, juillet 2003
+PLAN NATIONAL SECHERESSE ALGERIE 66
+
+--- Page 67 ---
+B. EVAPOTRANSPIRATION POTENTIELLE
+✓ Définition : Valeur de référence de l’évaporation et de la transpiration cumulées
+d’un système végétatif
+✓ Méthode de calcul : Formule de Penman-Monteith (recommandée par la FAO et
+l’OMM), utilisant comme paramètres météorologiques la température, la vitesse du
+vent, l’humidité relative et l’insolation.
+✓ Présentation l’évapotranspiration est calculée mensuellement et cartographié à cette
+échelle. Si cela s’avère pertinent, procéder également à l’analyse de l’évolution
+temporelle
+✓ Utilisation : En fonction des conditions climatologiques, estimer les quantités d’eau
+perdues par évaporation et transpiration
+C. BILAN HYDRIQUE
+✓ Définition : Estimation du contenu en eau du sol
+✓ Méthode de calcul : Tenant compte des apports d’eau (précipitations, irrigation,
+autres) et des pertes au niveau du sol (évaporation, autres…), il s’agit d’évaluer le
+contenu en eau du sol. Choisir une formule simple et une fréquence de calcul à un
+pas de temps raisonnable (on propose une évaluation décadaire)
+✓ Présentation : Le bilan hydrique est calculé mensuellement et cartographié. Si cela
+s’avère pertinent, procéder également à l’analyse de l’évolution temporelle
+✓
+Utilisation : En fonction des conditions climatologiques, estimer les quantités d’eau
+disponibles dans le sol et par suite ses capacités à supporter des déficits prolongés.
+D. TENDANCE DES PRECIPITATIONS
+✓ Définition : Tendance par rapport à une référence (moyenne ou autres) des
+précipitations attendues pour le mois et la saison à venir.
+✓ Méthode de calcul : C’est une tendance des précipitations synthétisée à partir de
+prévisions statistiques (utilisant comme prédicateur la température de surface de
+l’océan), prévisions à partir de modèles globaux et une climatologie de la région
+✓ Présentation : Subdiviser le domaine considéré en unités climatologiques
+homogènes. A partir de cela, à chaque unité est associée une tendance des
+précipitations (supérieure à la normale, près de la normale, inférieure à la normale)
+associé à une probabilité d’occurrence.
+✓
+Utilisation : Estimer les déficits pluviométriques attendus au niveau du mois et de la
+saison à venir, en leur associant une probabilité. Annoncer une sécheresse quand
+une tendance à la baisse des précipitations est associée à une probabilité
+relativement importante.
+E. REPARTITION GEOGRAPHIQUE DES RESSOURCES EN EAU
+✓ Définition : Localisation sur l’ensemble du territoire des quantités d’eau en surface
+et souterraines mobilisables. (Cartographie des masses d’eau)
+PLAN NATIONAL SECHERESSE ALGERIE 67
+
+--- Page 68 ---
+✓ Méthode de calcul : On utilisera une formule de transformation pluie-débit. Pour les
+débits d’eau de surface le calcul se fera à l’échelle quotidienne avec un bilan
+mensuel. Quant aux nappes profondes on se limitera à un bilan annuel
+✓ Présentation : les volumes d’eau de surface et souterraine mobilisables, pour
+chaque bassin versant ou hydrographique
+✓ Utilisation : En cas d’annonce de sécheresse, on dispose d’une information
+permettant de renseigner sur l’impact de celle-ci sur les ressources en eau.
+F. EXPLOITATION DES RESSOURCES EN EAU
+✓ Définition : Volume d’eau utilisé par secteur
+✓ Méthode de calcul : Demande en eau par unité de temps, par région et ce pour
+chaque secteur d’activité
+✓ Présentation : Un bilan saisonnier relatif à la demande en eau et aux allocations
+accordées et ce pour chaque secteur socio-économique
+✓ Utilisation : En cas d’annonce de sécheresse, on dispose d’une information
+permettant de nous renseigner sur l’impact de celle-ci sur la demande en eau des
+principaux secteurs. Une telle information est intéressante pour gérer les allocations
+d’eau entre les différents usagers et anticiper les éventuels conflits
+G. PRODUCTIONS AGRICOLES
+✓ Définition : Ensemble de la production agricole relative à chaque saison. Dans une
+première étape il serait opportun de se concentrer sur l’agriculture pluviale qui est la
+plus touchée par la sécheresse
+✓ Méthode de calcul : Combinaison d’images satellitaires à haute résolution et de
+données de production agricole recensées à partir d’enquêtes
+✓ Présentation : Estimation des rendements agricoles par région pour les cultures à
+sec. Dans un premier temps on pourrait se limiter à la production céréalière.
+✓ Utilisation : En cas d’annonce de sécheresse, on disposera d’une information
+permettant de nous renseigner sur l’impact de celle-ci sur la production agricole
+H. ELEVAGE
+✓ Définition : Ensemble des données relatives aux cheptels, à l’état des parcours
+ainsi qu’aux stocks de nourriture.
+✓ Méthode de calcul : La combinaison d’imageries satellitaires à haute résolution
+permet un suivi régulier de l’état des parcours. Quant aux aspects relatifs au cheptel
+et aux stocks de nourriture, ils sont évalués à partir d’enquêtes auprès des éleveurs.
+✓ Présentation : Evaluation région par région, de l’effectif du cheptel, de l’état du
+parcours ainsi que des stocks de nourriture disponibles.
+✓ Utilisation : En cas d’annonce de sécheresse, on dispose d’une information
+permettant de gérer le cheptel notamment en termes de satisfaction de ses besoins
+alimentaires par l’anticipation d’éventuelles importations. Il s’agira également
+d’optimiser l’aide accordée aux éleveurs
+PLAN NATIONAL SECHERESSE ALGERIE 68
+
+--- Page 69 ---
+I. SITUATION ECONOMIQUE DES EXPLOITANTS AGRICOLES
+✓ Définition : Ensemble des données relatives à la situation économique des
+exploitants agricoles.
+✓ Méthode de calcul : Ce sont des données socio-économiques relatives au taux
+d’endettement et aux capacités de remboursement des crédits contractés, à la
+situation socio-économique des familles (nombre de personnes en chômage,
+personnes à charge, rentrées complémentaires en particulier par l’emploi féminin, etc…)
+✓ Présentation : Evaluation par région administrative des conditions socio-
+économiques du monde rural. D’un point de vue pratique, il est possible de se limiter
+à des rapports saisonniers
+✓ Utilisation : Disposant des conditions socio-économiques du monde rural (taux
+d’endettement, capacité de remboursement, rentrée complémentaires, etc…), il s’agit
+d’optimiser l’aide d’urgence accordée aux exploitants agricoles.
+REMARQUE : Les indicateurs les plus connus au niveau international sont
+climatiques:
+• Le pourcentage par rapport à la normale,
+• La méthode des déciles,
+• L’Indice de Sévérité de la Sécheresse de Palmer (PDSI),
+• L’Indice de la Disponibilité Hydrique de Surface (SWSI),
+• L’Indice Normalisé des Précipitations (SPI),
+• L’Indice Hydrique des Cultures (CMI),
+• L’Indice national des Précipitations (RI)
+• L'indice des Pluies Fiables (DR).
+Les indicateurs tels que le SPI et la méthode des déciles (utilisée en Australie),
+qui sont basés sur l'adaptation des paramètres météorologiques aux distributions
+respectives des probabilités, sont bien adaptés pour évaluer le niveau
+d'exception des sécheresses 65 . A signaler aussi que certains travaux en
+télédétection ont permis la comparaison entre l'indice dérivé des conditions de la
+végétation (VCI) et l'Indice Normalisé des Précipitations (SPI)66
+65 D’après « Drought Indices » by Michael Hayes, National Drought Mitigation Center, University of
+Nebraska Lincoln USA
+66 Comparison of a Satellite-Based and a Precipitation-Based Drought Index par A.A. Viau, J.V. Vogt et
+I. Beaudin, Journal canadien de télédétection, Résumés Volume 26, no. 6 - décembre, 2000
+PLAN NATIONAL SECHERESSE ALGERIE 69
+
+--- Page 70 ---
+Valeurs du SPI/SSFI Degré d’humidité ou de sécheresse
+≥ 2,0 Humidité extrême
+1,5 – 2,0 Humidité forte
+1,0 – 1,5 Humidité modérée
+0 – 1,0 Humidité légère
+0 Normal
+-1,0 – 0 Sécheresse légère
+-1,5 – -1,0 Sécheresse modérée
+-2,0 – -1,5 Sécheresse forte
+≤-2,0 Sécheresse extrême
+Un nouvel indicateur de sécheresse spécifique aux domaines méditerranéens appelé
+« Indice standardisé de sécheresse pluviométrique » (ISSP) a été expérimenté ces
+dernières années sur le bassin du Guadalquivir (Sud-Ouest de l’Espagne)67. Cet
+indicateur poursuit deux objectifs principaux :
+• D’une part l’accessibilité aux données de base et la facilité des
+calculs, de façon à pouvoir être utilisées en routine pour le suivi de
+la sécheresse ;
+• D’autre part, une adaptation aussi bonne que possible aux climats
+méditerranéens, ce qui permet de tenir compte des sécheresses de
+longue durée.
+A ces indicateurs essentiellement climatiques, on peut ajouter « l’Indice de
+régularisation Ir » qui permet d’apprécier la sécurité d’approvisionnement annuelle
+en eau par la mesure de la part de l’écoulement de surface théorique naturel
+réellement et régulièrement disponible.
+La plupart des indicateurs précédemment cités sont globaux et caractérisent donc
+des territoires inscrits soit dans des limites administratives (wilaya, commune)
+soit dans des limites naturelles (bassin, zone écologique ou oro-topographique).
+Pour faciliter les échanges avec les pays voisins et ne pas surcharger le
+système, nous suggérons d’utiliser les indicateurs retenus au cours de l’atelier
+maghrébin sur la sécheresse de Rabat (9-10 mars 2006), en l’occurrence :
+• L’indice normalisé des précipitations (SPI),
+• L’indice normalisé de la végétation (NDVI),
+• L’indice de disponibilité hydrique de surface (SWSI),
+• Un indicateur socio-économique agricole.
+En sus de ces indices, il a été convenu de tester l’indice ISSP pour son
+applicabilité aux conditions climatiques méditerranéennes.
+67 M. F. PITA, “Un nouvel indice de sécheresse pour les domaines méditerranéens. Application au
+bassin du Gaudalquivir (Sud-Ouest de l’Espagne)”, Publications de l’Association Internationale de
+Climatologie, vol. 13, Nice, pp. 225-234. Geografía Física. Universidad de Sevilla. C/ María de Padilla
+s.n. 41.002- SEVILLA (Espagne). mfpita@cica.es
+PLAN NATIONAL SECHERESSE ALGERIE 70
+
+--- Page 71 ---
+6.2. Zones de risque de sécheresse
+La carte des déficits pluviométriques faite par l’ANRH en 2017 (fig.3), la carte du
+degré de gravité de la sécheresse éditée par le Water Ressources Institut WRI en
+2017 (fig.4) la carte de la sensibilité à la désertification réalisée par ASAL (fig. 8), les
+nombreuses publications scientifiques sur la région montrent que les zones à risque
+élevé de sécheresse se situent dans l’Oranie. C’est dans ces zones que devraient
+s’implanter dans un premier temps les groupes décentralisés de lutte contre la
+sécheresse.
+Fig. 8 : Carte de la sensibilité à la désertification (ASAL 2012)
+PLAN NATIONAL SECHERESSE ALGERIE 71
+
+--- Page 72 ---
+7. COMMUNICATION SUR LA SECHERESSE
+ET MESURES D’INTERVENTION
+7.1. Protocole de communication sur la
+sécheresse
+Un protocole de communication est une mise en place de plusieurs règles pour un
+type de communication particulier entre deux machines (ordinateurs) installées dans
+le même service ou dans des lieux différents (via Internet ou Intranet). Il consiste à
+normaliser les échanges dans leurs contenus, leurs dimensions, la périodicité des
+échanges, les protocoles de contrôle et de validation des données échangées, etc.
+Cette dimension entre dans les prérogatives du Comité d’Evaluation et de
+Surveillance des Risques (SGESR) ainsi que de la cellule opérationnelle.
+7.2. Déclaration des conditions de sécheresse
+Les déclarations sont faites selon le type de gestion de la « sécheresse ». Ci-
+dessous un schéma englobant toutes les actions à mener selon le cas : « risque » ou
+« crise ».
+Gestion du risque
+Prévision et
+Etat de veille Alerte précoce
+Etat de
+veille
+Atténuation Catastrophe
+Prévention des
+risques Naturelle
+Reconstruction Traitement Evaluation
+de
+l’impact
+Redressement
+de la Réaction
+situation
+Gestion de crise
+PLAN NATIONAL SECHERESSE ALGERIE 72
+
+--- Page 73 ---
+Fig. 5: Le Cycle de gestion des catastrophes naturelles68
+Dans le cas de gestion du risque, objet du présent rapport, les déclarations à faire
+sont :
+1. La mise en place d’un état de veille dans toutes les structures centrales et
+locales chargées du suivi et de l’évaluation de l’Etat de sécheresse. Cette
+opération est à la charge du groupe de travail « sécheresse »
+2. La prévision et l’alerte précoce par la cellule opérationnelle et les secteurs
+techniques au niveau national et local.
+3. Le bulletin de levée d’alerte.
+Dans le cas de gestion de crise, les déclarations sont du ressort du Ministère de
+l’Intérieur sous la coordination de la Délégation Nationale des Risques Majeurs.
+1. La déclaration de catastrophe naturelle qui ouvre droit aux indemnisations
+prévues par la loi.
+2. La déclaration des programmes de réparation et de reconstruction.
+3. Le suivi de ces programmes
+4. Le constat d’atténuation.
+7.3. Mesures d’intervention contre la sécheresse
+Les mesures d’intervention sont arrêtées après études détaillées des impacts (cf.
+3.3) et l’analyse des causes qui les ont engendrés (arbre des causes à effets).
+Chaque cause étant une situation négative, la définition des mesures d’intervention
+avec l’ensembles des acteurs centraux, locaux, société civile et secteurs
+économiques, va consister à définir pour chaque situation négative une (ou
+plusieurs) mesure(s) d’intervention (situation(s) positive(s)) visant l’atténuation de
+l’impact voire un renversement de la tendance.
+Les mesures sont à prendre en fonction de l’acuité de la sécheresse après
+consultation des données transmises par la cellule opérationnelle. Les interventions
+doivent être planifiées de façon à tenir compte du rôle, responsabilités et besoins de
+femmes en termes de gestion de l’eau, productions végétale et animale, moyens
+d’existence, etc.
+68 D’après Dr. Donald Wilhite, NDMC, University of Nebraska – Lincoln,
+PLAN NATIONAL SECHERESSE ALGERIE 73
+
+--- Page 74 ---
+Si l’on se base sur les impacts définis en 3.3, il est possible de prendre des mesures
+adéquates comme montrées dans le tableau ci-après :
+Secteur Situation négative Situation positive
+d’activité
+Impacts Mesures d’intervention
+Ressources en • La diminution des réserves d’eau dans les ✓ Application stricte de la
+Eau réservoirs naturels (lacs), artificiels réglementation sur les
+(barrages) prélèvements d’eau, les puits non
+• Le déficit de réalimentation des nappes aux autorisés,
+ressources renouvelables ✓ Arbitrages entre les groupes de
+• L’excès d’exploitation des nappes fossiles. consommateurs
+• La perturbation dans la distribution de l’eau ✓ Créations de nouveaux points
+et souvent la pénurie. d’eau et transferts interbassins
+• La détérioration de la qualité de l'eau :(la ✓ campagnes de surveillance de la
+dilution des polluants s'affaiblit et la qualité de l’eau
+contamination des réserves hydriques
+superficielles et souterraines augmente.)
+Agriculture, • Le manque d'eau pour les cultures vivrières, ✓ Les mesures sont très variées
+Forêts, • la malnutrition (techniques culturales, choix des
+biodiversité • La diminution du rendement des cultures et semences, irrigation d’appoint,
+des parcours ; sensibilisation des cultivateurs et
+• Une vulnérabilité accrue des arbres et zones éleveurs, contrôle des parcours,
+forestières ; forestation, entretien des forêts,
+• L’augmentation des feux de forêt introduction d’espèces animales
+nouvelles, irrigation à partir des
+• L’accentuation de l'érosion éolienne ou des
+eaux usées traitées, etc.)
+dépôts de sédiments éoliens ;
+✓ Surveillance permanente en
+• La migration de populations animales ;
+fonction de la météorologie et
+• L’apparition d’espèces de poissons
+interventions préventives au
+exotiques et algues nuisibles
+niveau des sites de reproduction
+• Reproduction importante des criquets
+des criquets
+(criquet pèlerin) et prolongement de I'aire
+d'habitat
+Santé et • La déshydratation des populations et ✓ Veille sanitaire au niveau
+population l'apparition de maladies ; central est assurée par L’INSP
+• L’apparition d’épidémies dues à la ;
+malnutrition et autres effets ✓ En local : SEMEP / DSP
+• Des problèmes d’Invasions biologiques ✓ IEC : compagnes d’information
+• Un risque accru de morsures de serpents, d’éducation et de
+autres animaux et insectes communication
+• les troubles sociaux et les conflits pour les ✓ Cartographie des populations
+ressources naturelles (eau et nourriture) ; à risque
+✓ Cartographie des maladies
+• la migration de populations et l'augmentation
+vectorielles
+des réfugiés climatiques
+✓ Programme National de
+Prévention et de lutte contre
+l’envenimation scorpionique
+✓ Programme national Santé
+Mentale.
+✓ Programme National de
+maladies à transmission
+vectorielle
+✓ RSI : Contrôle Sanitaire aux
+frontières.
+Programme Nationale de
+sécurité Alimentaire (en
+PLAN NATIONAL SECHERESSE ALGERIE 74
+
+--- Page 75 ---
+cours).
+Secteurs • la réduction de la production suite aux ✓ Améliorer l’autonomie des unités
+économiques perturbations de l’alimentation en eau et en de production en Energie et
+énergie alimentation en eaux
+✓ Traitement des eaux industrielles
+et leur réutilisation
+Tableau 4 : Mesures d’intervention contre la sécheresse
+8. MESURES D’ATTENUATION DE LA
+SECHERESSE
+8.1. Surveillance des ressources en eau et étude
+d’impact
+La quantification et le suivi qualitatif des ressources en eaux superficielles et
+souterraines renouvelables pour la région Nord et souterraines fossiles pour le grand
+Sud sont principalement suivis par l’Agence Nationale des Ressources Hydrauliques
+ANRH. Ce sont précisément, dans le cycle de l’eau, les termes ruissellement,
+évapotranspiration, pluies pour les ressources superficielles et évaluations des bilans
+(stocks, recharge, prélèvements) et scénario d’exploitation pour les ressources
+souterraines.
+L’ANRH dispose en outre, de dispositifs de surveillance des ressources en eau
+superficielles et souterraines ainsi que d’un réseau agro-climatologique
+complémentaire au réseau national de l’ONM.
+L’ANRH édite régulièrement un grand nombre de documents : flashs, bulletins
+mensuels pluviométriques; annuaires hydrologiques et piézométriques; cartes
+thématiques tels que la Carte pluviométrique, la Carte des évapotranspirations; la
+Carte des écoulements moyens annuels, carte des ressources en eau souterraine,
+impacts du changement climatique sur l’écoulement de surface, etc.
+8.2. Développement de nouvelles et alternatives
+sources en eau
+Le seuil théorique de rareté fixé par la Banque Mondiale à 1000 m3 par habitant et
+par an place l’Algérie parmi les pays les plus pauvres en matière de potentialités
+hydriques. La disponibilité en eau théorique qui était de 1500 m3/hab./an en 1962 va
+passer en dessous du seuil théorique de rareté dans les années 1990 et ne sera que
+PLAN NATIONAL SECHERESSE ALGERIE 75
+
+--- Page 76 ---
+de 430 m3 en 2020. Cette disponibilité ramenée aux ressources en eau mobilisables
+serait encore plus réduite 69 . Une première confrontation « Demande Offre »,
+effectuée à l’échelle des cinq régions hydrographiques couvrant le pays, met en
+évidence une situation actuelle largement déficitaire (1,3 milliard m3). Ce déficit ne
+fera que s’accentuer dans l’avenir d’où la nécessité de mettre en œuvre une nouvelle
+stratégie basée sur une augmentation du parc de barrages et de retenues collinaires,
+un recours accru au dessalement de l’eau de mer et la réutilisation des eaux usées.
+L’Algérie, qui dispose de 1 200 km de côtes, a mis en œuvre l’alternative du
+dessalement d’eau de mer (trois quarts) ou d’eau saumâtre (un quart) pour alimenter
+en eau potable des villes et localités du littoral, et jusqu’à 60 km aux alentours.
+L’Algérie comptait en 2013 neuf grandes stations de dessalement en exploitation à
+même de produire jusqu’à 1,4 millions de m3d’eau dessalée par jour. La mise en
+exploitation de deux autres stations portera la capacité de production totale à 2,1
+Millions de m3 /jour dont 11 stations en exploitation, d’une capacité de 2,1 m3/j
+desservant environs 8.232.305 habitants » (source site MRE :
+http://www.mre.gov.dz/leau/mobilisation/?lang=fr)
+La réutilisation des eaux usées épurées dans la nouvelle politique de l’eau est
+devenue un axe prioritaire par la réhabilitation des anciennes stations et dans la
+construction de nouvelles. Cette opportunité va permettre de préserver les
+ressources en eaux traditionnelles tout en accroissant la production agricole.
+L’objectif est la réalisation de 239 stations d’épuration des eaux usées (STEP)
+Traitement horizons 1999 2005 2010 2013 2020
+des eaux
+Nombre de STEP 33 34 112 145 239
+usées
+épurées Capacité (hm3/an) 90 160 665 800 1.200
+correspondant à une capacité de 1,2 milliards de m3 par an d’eaux épurées70
+essentiellement orientées vers l’irrigation.
+69 Conseil National Economique et Social, Commission de l’Aménagement du Territoire et de
+l’Environnement, Avant-projet de rapport, " L’eau en Algérie : le grand défi de demain " Etude réalisée en
+2000.
+70 État des lieux du secteur de l’eau en Algérie par Morgan Mozas & Alexis Ghosn, Chefs de projet
+d’Ipemed, É t u d e s & a n a lys e, octobre 2013
+PLAN NATIONAL SECHERESSE ALGERIE 76
+
+--- Page 77 ---
+Stations en service 2013
+Stations
+Petites Grandes Total
+Dessalement
+Nombre 21 9 30
+d’eau de mer
+Capacité m 3 /j 57.500 1.410.000 1.467.500
+Production
+21 514,6 535,6
+3
+hm /an
+8.3. Pratiques de conservation de l’eau /
+sensibilisation du public et diffusion
+Cette mission est depuis décembre 2014, une prérogative de l’Agence de Gestion
+Intégrée des Ressources en Eau (AGIRE) qui mène à longueur d’année des
+campagnes de sensibilisations du public en particulier des élèves des écoles par le
+biais de journées spéciales, de prospectus, d’affiches publicitaires, radios et spots
+télévisées.
+Ces actions viennent en complément des actions prises en charge par les secteurs
+de :
+• L’Agriculture via le programme d’économie de l’eau par les techniques
+« économisatrices » d’eau pour l’irrigation, qui englobe 2 volets, la formation
+des agriculteurs et des cadres, ainsi qu’un programme intensif de
+sensibilisation rapproché et de masse par le biais des radios locales, mis en
+place depuis plus de 10 ans et
+• de l’Environnement (en particulier par l’ANCC auprès des écoles)
+8.4. Législation et planification de l’usage
+des terres
+Les terres agricoles sont régies principalement par deux lois datant de 1990, la loi
+portant orientation foncière (Loi 90-25 du 18/11/1990 (JO 49 du 18/11/1990) et la loi
+domaniale (JO 52 du 02/12/1990).
+Les autres textes régissant les terres agricoles sont :
+• Décret n° 83-724 du 10 Décembre 1983 fixant les modalités d'application de la
+loi n° 83-18 du 13 août 1983 relative à l'accession à la propriété foncière
+agricole.
+• Loi n° 08-16 du 03 Août 2008 Portant orientation agricole.
+PLAN NATIONAL SECHERESSE ALGERIE 77
+
+--- Page 78 ---
+• Décret exécutif n° 10-326 du 23 Décembre 2010 Fixant les modalités de mise
+en œuvre du droit de concession pour l'exploitation des terres agricoles du
+domaine privé de l'Etat.
+PLAN NATIONAL SECHERESSE ALGERIE 78
+
+--- Page 79 ---
+9. MODALITES OPERATIONNELLES DE MISE EN OEUVRE
+Les recommandations relatives aux modalités de mise en œuvre du présent Plan National « Sécheresse » Algérie sont de plusieurs
+ordres. Une attention particulière sera portée à la participation des femmes dans la planification, la mise en œuvre et le suivi des
+interventions notamment au niveau local.
+9.1. Mesures à caractère institutionnel et règlementaire
+Dans le tableau ci-après sont suggérées toutes les actions à caractère institutionnel, les acteurs, les moyens, les échéances ainsi
+que les modalités de contrôle71.
+Actions à caractère institutionnel
+N° Actions Acteurs Moyens Période Critères de réussite
+Nom Description Responsable Intervenant Ressources Budget Début Échéance Valeur Résultat
+initiale attendu
+1 Validation du DGF DGF 2019
+PNS
+2 Création d'un Groupe de CNC CNC 2019 Fin 19 Texte le groupe est
+groupe travail du d'application opérationnel
+spécifique processus
+"sécheresse" CNULCD
+au sein du CNC
+71 Les dates seront à revoir en fonction de la dynamique de mise en place.
+
+--- Page 80 ---
+3 Création de la cellule Groupe Groupe Humaines et A prévoir début fin 2019 Texte les cellules sont
+cellule d'analyse sécheresse et sécheresse matérielles (acquisition 2019 d'application opérationnelles
+opérationnelle orientée ANCC et ANCC matérielle
+"sécheresse" supplémentaire
+et recrutement
+de personnel
+spécialisé)
+4 Renforcement cellule ANRH, INSID, Humaines et A prévoir 2019 fin 2019 Texte La cellule est
+des cellules d'analyse ASAL, ONM, matérielles (fourniture de d'application opérationnelle
+fournisseurs de orientée BNEDER, DGF, données,
+données "sécheresse" DSASI, HCDS, acquisitions
+CDRAS nouvelles,
+fonctionnement,
+achat d'images,
+ect.
+5 Dresser la liste Acteurs Groupe Groupe Humaines fonctionnement 2019
+des partenaires institutionnels, sécheresse sécheresse
+fournisseurs de
+données,
+société civile,
+etc.
+6 Mise en place modalités, Groupe consultant consultant A prévoir 2019 Le protocole est
+d'un protocole procédures, sécheresse (contrat validé par les
+de formats, consultant) fournisseurs
+communication périodicité des
+échanges
+d’information et
+de données
+avec les
+fournisseurs de
+données
+PLAN NATIONAL SECHERESSE ALGERIE 80
+
+--- Page 81 ---
+7 Arrêter la liste description des Groupe consultant consultant A prévoir 2019 fin 2019 Cycles de Les cartes
+des indicateurs Indicateurs, sécheresse (contrat formation d'indicateurs
+et de leurs modalités consultant) SPI, NDVI,
+fournisseurs techniques de ISSP,
+leurs vulnérabilité
+réalisations et conjoncturelle
+formations des et/ou chronique
+intervenants sont réalisés,
+Premiers
+bulletins
+8 Création d’un Suivi Groupe IHFR Chercheurs A prévoir 2019 moyen
+centre de suivi scientifique de sécheresse terme
+de la l'évolution de la
+sécheresse sécheresse
+dans l’ouest (action PNC)
+algérien
+9 Mises en place Mise en place DNRM, Autorités
+de comités de réseaux de directions locales,
+locaux collecte des exécutives de sociétés
+sécheresse données, Plans wilaya (DRE, civiles
+dans des de DSA, Santé,
+wilayas pilotes sensibilisation, etc.), HCDS,
+(Oranie, journées CDRAS
+Steppe) techniques, associations de
+plans femmes rurales
+d'urgence, etc.
+PLAN NATIONAL SECHERESSE ALGERIE 81
+
+--- Page 82 ---
+9.2. Actions de cartographie et d’évaluation des données
+Les actions reprises dans le tableau ci-après sont celles énoncées dans le point 7.3 du présent document ou relevées dans le Plan
+d’Action Climat.
+N° Actions Acteurs Moyens Période
+Nom Description Responsable Intervenant Ressources Budget Début Échéance Résultat attendu
+1 Mise en place Estimer les déficits ONM Centre Humaines et A prévoir 2019 2020 réalisation de
+d'une cartographie pluviométriques au climatologiq matérielles pour la vente cartes SPI
+des déficits niveau mensuel et les ue de du centre des données mensuelles,
+pluviométriques cumuler au niveau l'ONM et le saisonnières et
+saisonnier et annuel. renforcement annuelles
+L’objectif étant d’estimer humain et
+s’il y a sécheresse ou matériel du
+non. Dans le cas de centre
+sécheresse, estimer son
+acuité
+2 Calcul des Impacts Cartographie des ANRH Centre de Humaines et A prévoir 2019 2020 réalisation des
+de la sécheresse volumes d'eau calcul de matérielles pour la vente cartes des
+sur les ressources superficielle et l'ANRH du centre des données volumes
+en eau et souterraine mobilisables et le mobilisables
+incidence sur leur par bassin renforcement
+exploitation hydrographique (pas de humain et
+temps: 1 jour et 1 mois matériel du
+pour les eaux de surface centre
+et l'année pour la nappe
+aquifère)
+PLAN NATIONAL SECHERESSE ALGERIE 82
+
+--- Page 83 ---
+Calcul des Impacts Cartographie de l'indice ASAL CAS - Humaines et A prévoir 2019 2020 carte de
+de la sécheresse NDVI ASAL matérielles pour la vente l'évolution de
+sur la production du centre des données l'indice NDVI
+agricole et et le
+végétale et renforcement
+incidence sur leur humain et
+exploitation matériel du
+centre
+3 Cartographie de la BNEDER centre de Humaines et A prévoir 2019 2020 Edition pérenne
+production céréalière à calcul du matérielles pour la vente des cartes
+partir des données ONM BNEDER du centre des données
+sur les précipitations et le
+moyennes des 5 premiers renforcement
+mois de l'année humain et
+matériel du
+centre
+4 Développer un Mise en place de la veille INSID, centre de Humaines et A prévoir 2019 2020 La cellule
+système agricole, cartographie et INRAA calcul matérielles pour la vente sécheresse est
+d'information pour bulletins d'alerte précoce INSID du centre des données opérationnelle
+une gestion aux sécheresses et le
+efficace des agricoles renforcement
+sécheresses humain et
+agricoles matériel du
+centre
+Tableau 5 : Actions du plan « sécheresse »
+PLAN NATIONAL SECHERESSE ALGERIE 83
+
+--- Page 84 ---
+9.3. Mises à jour et révisions futures.
+Le plan national « sécheresse », nous l’avons vu, est basé sur la mise en place d’un système pérenne d’évaluation, de prévention
+et d’atténuation du risque de sécheresse. C’est un système appelé à être révisé périodiquement, tous les 5 ans par exemple et
+selon la nécessité (évolution socio-politique, technologique, etc.). Cette dimension entre dans les prérogatives du sous-groupe
+d’Evaluation et de Surveillance des Risques (SGESR) ainsi que de la cellule technique opérationnelle.
+Les mises à jour et révisions vont englober les paramètres et opérations suivants :
+1. Les règles et procédures convenues par le groupe sécheresse ;
+2. La normalisation des formats d’échanges, de leurs contenus et de leurs dimensions ainsi que La périodicité des échanges,
+3. Les protocoles de contrôle et de validation des données échangées,
+Les révisions périodiques vont permettre aussi :
+1. De jauger les approches sectorielles existantes et définir les insuffisances avérées,
+2. D’améliorer les systèmes de collecte de données aussi bien au niveau local que national et
+3. D’engager des actions perfectibles en fonction des impacts obtenus.
+PLAN NATIONAL SECHERESSE ALGERIE 84
+
+--- Page 85 ---
+10. CONCLUSION
+Le présent « Plan National Sécheresse » pour l’Algérie présente les voies et moyens
+de concrétiser des actions de lutte contre la sécheresse en prenant en compte d’une
+part la réalité algérienne (institutionnelle, réglementaire, historique et degré de
+maîtrise dans la connaissance de ce fléau) et d’autre part partager l’expérience
+d’autres pays qui ont mis en place une stratégie opérationnelle de mesure, d’alerte et
+de mise en place de programmes d’atténuation. La procédure retenue a été de partir
+de la démarche en 8 étapes de la CNULCD, elle-même dérivée du plan en 10 étapes
+de l’Université Lincoln du Nebraska.
+La situation climatique et ses fluctuations ainsi que l’état du savoir-faire des
+institutions et des structures de recherche a permis de cerner les causes et effets de
+la sécheresse en Algérie et définir les mesures les plus appropriées pour y remédier
+(structurelles, réglementaires, humaines, matérielles et financières). La mise en
+place d’une structure permanente de veille, de concertation et de prise de décision à
+un haut niveau avec des prérogatives larges de coordination entre les différents
+acteurs est primordiale. La structure dite « groupe sécheresse » dotée d’une cellule
+technique opérationnelle chargée de préparer les éléments d’appréciation avec des
+indicateurs locaux fiables va permettre l’édition de documents de travail, tableaux de
+bord et cartes pour des prises de décisions adéquates sur le court, moyen et long
+terme.
+L’ancrage de ce groupe comme groupe thématique dans la CNC et la cellule
+opérationnelle permanente auprès de l’ANCC sont des mesures à même de
+permettre le démarrage immédiat et effectif de ce plan.
+L’accompagnement de cet ancrage par un renforcement approprié des capacités
+humaines, matérielles et financières des différentes cellules de collecte et de
+traitement de données au sein de l’ANCC et des fournisseurs de données est
+primordial pour garantir la pérennité du système à mettre en place.
+
+--- Page 86 ---
+REMERCIEMENTS
+Nos plus sincères remerciements aux cadres de l’Etat, responsables et experts pour leurs
+nombreuses remarques et suggestions constructives sans lesquels la réalisation de ce
+rapport n’aurait pas pu se faire.
+• Au niveau de la DGF, M. MAHMOUDI Ali, Directeur Général des Forêts qui a présidé
+l’atelier de lancement du projet et donné ses orientations, Mme Saliha Fortas, Sous
+Directrice de la Lutte Contre la Désertification-DGF et point focal CNULCD/Algérie
+qui a assuré, du côté algérien, la coordination du projet,
+M.Redjem Khodja Abderrahmane, Directeur de la mise en valeur des terres et de la
+désertification et Mme Linda Hazem, directrice de la planification.
+• Au niveau de l’ASAL, Mme.Ouzerouhane Hayet, Cheffe du département catastrophes
+naturelles ainsi que Mesdames Echetabi Amina, Bensaid Kenza et Oucherif Amel,
+cheffes de services.
+• Au niveau du Ministère des Ressources en Eau, M. Benbetka Abdelghani (DEAH),
+Mme Hamlet Ouardia (ANRH), M. Bouhanet Mohamed (ANBT), Mme Ammar-
+Boudjellal Anhar (DEAH).
+• Au niveau de l’ONM, M. Saleh Sahabi Abed, Directeur du centre de climatologie et
+Mme Temmar Souhila, ingénieure climatologue.
+• Au niveau de l’ANCC, M. Boukadoum Abderrahmane, Directeur général et M. Sellaye
+Miloud, chef de service.
+• Au niveau de la DNRM, M. Melizi Tahar, Délégué National aux Risques Majeurs.
+• Au niveau de l’INSID, M. Negri, Directeur Général ainsi que les ingénieur(e)s de la
+cellule de veille climatologique.
+• Un grand merci à la DFRV, au CRSTRA, au HCDS et CDRAS pour leurs
+enrichissements fort judicieux
+• Au niveau de la CNULCD, Mme Sandrine Jauffret, chargée de programme Projets et
+programmes transformateurs de NDT72,qui a assuré la coordination au niveau
+international, revu et annoté toutes les versions de ce rapport, Mme Khiari Habiba et
+M. Elie KODSI expert PNUD spécialiste de la question du genre qui a relu la 2e
+version du rapport et préconisé des améliorations à certaines sections.
+• Nos remerciements vont aussi aux nombreux participants aux ateliers de lancement
+officiel du 01 aout 2018 et de validation du 30 juin 2019 pour les nombreuses
+questions posées et suggestions apportées au consultant.
+Mohamed Safar Zitoun,
+72 Neutralité en matière de dégradation des terres
+PLAN NATIONAL SECHERESSE ALGERIE 86
+
+--- Page 87 ---
+REFERENCES
+1. A.A. Viau, J.V. Vogt et I. Beaudin, Comparison of a Satellite-Based and a Precipitation-
+2. Actes de l’Atelier international sur le Risque Sécheresse, CRSTRA, Biskra 21-22 novembre
+2010
+3. Analyse de Risque et de Vulnérabilité au Changement Climatique en Algérie, Rapport de
+synthèse, GIZ, avril 2017
+4. Based Drought Index, Journal canadien de télédétection, Résumés Volume 26, no. 6
+5. Céline Deluzarche, Futura Planéte du 07/08/2018
+6. CONSEIL NATIONAL ECONOMIQUE ET SOCIAL, Commission de l’Aménagement du
+Territoire et d’Environnement, Avant-projet de rapport, " L’eau en Algérie : le grand défi de
+demain " Etude réalisée en Décembre 2000
+7. DGF Rapport de la réunion du 01/08/2018 (DGF-1 août 2018)
+8. DGF, Rapport national de l’Algérie sur la mise en œuvre de la Convention de Lutte contre la
+Désertification, Septembre 2004,
+9. Discours d’ouverture de M. Dahou Ould Kablia, Ministre Délégué chargé des collectivités
+locales auprès de M. le Ministre d’Etat, Ministre de l’Intérieur et des collectivités locales à la
+IIIème Conférence Mondiale sur les alertes précoces, Bonn, nov. 2005
+10. Document de présentation de l’Observatoire National de la Sécheresse du Maroc, 2006
+11. Donald A. Wilhite and Mark D. Svoboda, Drought Early Warning Systems in the Context of
+Drought, Preparedness and Mitigation, National Drought Mitigation Center, Lincoln,Nebraska
+U.S.A.
+12. Drought Preparedness Planning: The 10-Step Process, 2007, National drought Mitigation
+Center, University of Nebraska-Lincoln
+13. Faci M.., Matari A., Oubadi M et, Farhi Y. (2016). Analyse des journées de forte chaleur en
+Algérie. Actes du 25 ème Colloque international de climatologie6 9 juillet 2016, Besançon,
+France
+14. FACI M et MATARI A (2017) Contribution à l’étude des canicules en Algérie (cas d’Oran et de
+Béchar). International Journal of Innovative Technical and Applied Sciences, 1 (1), pp 01-12.
+http://www.oasesvox.com/journals/index.php/ijitas/article/view/5/5
+15. FACI M, OUBADI M, MATARI A et FARHI Y (2018) Analyse des journées caniculaires au
+Sahara algérien. Revue des Régions Arides, 44 (1), IRA, Médenine (Tunisie), ISSN 0330-
+7956, pp 37-42. http://www.ira.agrinet.tn/index.php/publications
+16. FACI M, OUBADI M, MATARI A et FARHI Y (2018) Heat waves in Algeria: A potential risk.
+International Journal of Innovative Technical and Applied Sciences, 2 (1), pp 13-21.
+http://www.oasesvox.com/journals/index.php/ijitas/article/view/17/16.
+17. Felix N. Kogan, Contribution of Remote Sensing to Drought Early Warning, National Oceanic
+and Atmospheric Administration (NOAA), National Environmental Satellite,Data and
+Information Services (NESDIS), Washington DC, U.S.A.
+18. Greg Laughlin and Anthony Clark Drought Science and Drought Policy in Australia: A Risk
+Management Perspective Bureau of Rural Sciences, Department of Agriculture, Kingston,
+Australia
+19. Jean Margat « Les ressources en eau : conception, évaluation, cartographie, comptabilité »,
+FAO, 1996
+20. L. E. Akeh, N. Nnoli, S. Gbuyiro, F. Ikehua, and S. Ogunbo, Meteorological Early Warning
+Systems (EWS) for Drought Preparedness and Drought Management in Nigeria, Nigerian
+Meteorological Services, Lagos, Nigeria
+21. Loi n° 04-20 du 13 Dhou El Kaada 1425 correspondant au 25 décembre 2004 relative à la
+prévention des risques majeurs et à la gestion des catastrophes dans le cadre du
+développement durable, p.13. J.O.R.A.N° 84 DU 29/12/2004
+PLAN NATIONAL SECHERESSE ALGERIE 87
+
+--- Page 88 ---
+22. Lorenzo Genesio, Les systèmes d’alerte précoce pour la prévention de crises en Afrique de
+l’Ouest et perspectives dans l’Afrique du Nord, OSS Atelier maghrébin pour l’identification
+d’une stratégie sous régionale relative à la prise en compte de la sécheresse dans la mise en
+œuvre du PAN » les 15 et 16 mars 2004
+23. M. AMARI Djamel, Situation de la gestion des risques et des assurances agricoles en Algérie,
+CNMA, in IV° Forum des Assurances d'Alger, les 28 & 29 novembre 2005, Hôtel El-Aurassi,
+Alger
+24. M. F. PITA “Un nouvel indice de sécheresse pour les domaines méditerranéens. Application
+au bassin du Gaudalquivir (Sud-ouest de l’Espagne)”, Publications de l’Association
+Internationale de Climatologie, vol. 13, Nice, pp. 225-234, Departamento de Geografía Física
+Universidad de Sevilla. C/ María de Padilla s.n. 41.002-SEVILLA (Espagne).mfpita@cica.es
+25. M. H. Hamoudi, « Etat de l'art du domaine spatial en Algérie » Institut National de
+Cartographie et de Télédétection - INCT, Alger, PROCEEDINGS OF THE INTERNATIONAL
+CONFERENCE : Natural Disasters and the Role of Satellite Remote-Sensing:Economic and
+Legal Considerations, CRTEAN, Tunis 26 - 28 avril 2005
+26. Mac Donald et Partners, 1997
+27. Manuel des indicateurs et indices de sécheresse, OMM et GWP, 2016
+28. Marco Garavini, « La définition du concept de risque dans le cadre d'un système d'alerte
+précoce agro météorologique », OMM, Avril 1997 - v. 0.2
+29. Michael Hayes « Drought Indices », National Drought Mitigation Center, University of
+Nebraska Lincoln USA
+30. Note de Mme la directrice du CRSTRA transmise le 18/07/2018 au consultant
+31. OSS n°82 34
+32. OSS, « Eléments de réflexion sur une stratégie sous régionale (Afrique du Nord) relative à la
+prise en compte de la sécheresse dans la mise en œuvre du PAN : Synthèse des études de
+cas de l’Algérie, du Maroc et de la Tunisie », juillet 2003
+33. OSS, Etude sur la prise en compte de la sécheresse dans les programmes d’action de prise
+de lutte contre la désertification en Afrique du Nord, cas de l’Algérie, janvier 2003
+34. OSS, Tunis 2013, Vers un système d’alerte précoce à la sécheresse au Maghreb (projet
+SMAS / OSS)
+35. P. G. Ambenje Regional Drought Monitoring Centres – The Case of Eastern and Southern
+Africa Drought Monitoring Centre, Nairobi, Kenya
+36. Rapport de la World Bank Group No. 118 juin 1999, “La sécheresse et les économies des
+pays d’Afrique Subsaharienne”
+37. Rapport de la World Bank Group No. 118 juin 1999, “La sécheresse et les économies des
+pays d’Afrique Subsaharienne”
+38. Rapport national de l’Algérie sur les objectifs du Millénaire, juillet 2005
+39. Rapport national de mise en œuvre de l’Agenda 21 en Algérie (MAE, décembre 2002)
+40. Safar Zitoun M., 2006. Évaluation des dispositifs d’alerte précoce à la sécheresse existants à
+l’échelle nationale – cas de l’Algérie, expertise dans le cadre du projet SMAS/OSS.
+41. Safar Zitoun M., M. Fofana « Systèmes d’alerte précoce et suivi écologique en Afrique, mise
+en place du réseau » atelier de lancement du réseau tpn4, Tunis, 8-10 octobre 2002
+42. Safar Zitoun M.2007 Dynamisation du Plan d’Actions National de Lutte contre la
+Désertification, (DGF et MM)
+43. Sources Nouvelles No. 3, 1 septembre 2002
+44. UNCCD, Rapport ICCD/COP(5)/CST/4) sur les SAP
+45. WRI 2017 d’après Sheffield et de Bois, WRI aqueduct_global_map_2.
+PLAN NATIONAL SECHERESSE ALGERIE 88

@@ -1,0 +1,3868 @@
+--- Page 1 ---
+United Nations Convention to Combat Desertification
+Performance review and assessment of implementation system
+Seventh reporting process
+Report from
+South Africa
+This report has been submitted by the government of South Africa to the United Nations Convention to Combat Desertification
+(UNCCD).
+The designations employed and the presentation of material in this report do not imply the expression of any opinion
+whatsoever on the part of the UNCCD concerning the legal status of any country, territory, city or area or of its authorities, or
+concerning the delimitation of its frontiers or boundaries.
+14 February 2024
+
+--- Page 2 ---
+Contents
+1. SO: Strategic objectives
+A. SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote
+sustainable land management and contribute to land degradation neutrality.
+SO1-1 Trends in land cover
+SO1-2 Trends in land productivity or functioning of the land
+SO1-3 Trends in carbon stocks above and below ground
+SO1-4 Proportion of degraded land over the total land area
+SO1 Voluntary Targets
+B. SO-2: To improve the living conditions of affected populations.
+SO2-1 Trends in population living below the relative poverty line and/or income inequality in affected
+areas
+SO2-2 Trends in access to safe drinking water in affected areas
+SO2-3 Trends in the proportion of population exposed to land degradation disaggregated by sex
+SO2 Voluntary Targets
+C. SO-3: To mitigate, adapt to, and manage the effects of drought in order to enhance resilience of vulnerable
+populations and ecosystems.
+SO3-1 Trends in the proportion of land under drought over the total land area
+SO3-2 Trends in the proportion of the population exposed to drought
+SO3-3 Trends in the degree of drought vulnerability
+SO3 Voluntary Targets
+D. SO-4: To generate global environmental benefits through effective implementation of the United Nations
+Convention to Combat Desertification.
+SO4-1 Trends in carbon stocks above and below ground
+SO4-2 Trends in abundance and distribution of selected species
+SO4-3 Proportion of important sites for terrestrial and freshwater biodiversity that are covered by
+protected areas, by ecosystem type
+SO4 Voluntary Targets
+E. SO-5: To mobilize substantial and additional financial and non-financial resources to support the
+implementation of the Convention by building effective partnerships at global and national level
+SO5-1 Bilateral and multilateral public resources
+SO5-2 Domestic public resources
+SO5-3 International and domestic private resources
+SO5-4 Technology transfer
+SO5-5 Future support for activities related to the implementation of the Convention
+2. IF: Implementation Framework
+A. Financial and Non-Financial Sources
+B. Policy and Planning
+C. Action on the Ground
+3. Other files for Reporting
+4. Templated Maps
+A. Land cover in the initial year of the baseline period
+B. Land cover in the baseline year
+C. Land cover in the latest reporting year
+D. Land cover change in the baseline period
+E. Land cover change in the reporting period
+F. Land cover degradation in the baseline period
+G. Land cover degradation in the reporting period
+H. Land productivity dynamics in the baseline period
+I. Land productivity dynamics in the reporting period
+J. Land productivity degradation in the baseline period
+K. Land productivity degradation in the reporting period
+L. Soil organic carbon stock in the initial year of the baseline period
+M. Soil organic carbon stock in the baseline year
+N. Soil organic carbon stock in the latest reporting year
+O. Change in soil organic carbon stock in the baseline period
+2 / 110
+
+--- Page 3 ---
+P. Change in soil organic carbon stock in the reporting period
+Q. Soil organic carbon degradation in the baseline period
+R. Soil organic carbon degradation in the reporting period
+S. Proportion of land that is degraded over total land area (SDG Indicator 15.3.1) in the baseline period
+T. Proportion of land that is degraded over total land area (SDG Indicator 15.3.1) in the reporting period
+U. Progress towards Land Degradation Neutrality (LDN) in the reporting period
+V. Total Population exposed to land degradation (baseline)
+W. Female Population exposed to land degradation (baseline)
+X. Male Population exposed to land degradation (baseline)
+Y. Total Population exposed to land degradation (reporting)
+Z. Female Population exposed to land degradation (reporting)
+AA. Male Population exposed to land degradation (reporting)
+AB. Drought hazard in first epoch of baseline period
+AC. Drought hazard in second epoch of baseline period
+AD. Drought hazard in third epoch of baseline period
+AE. Drought hazard in fourth epoch of baseline period
+AF. Drought hazard in the reporting period
+AG. Drought exposure in first epoch of baseline period
+AH. Drought exposure in second epoch of baseline period
+AI. Drought exposure in third epoch of baseline period
+AJ. Drought exposure in fourth epoch of baseline period
+AK. Drought exposure in the reporting period
+AL. Female drought exposure in the reporting period
+AM. Male drought exposure in the reporting period
+3 / 110
+
+--- Page 4 ---
+4 / 110
+
+--- Page 5 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+SO1-1 Trends in land cover
+Land area
+SO1-1.T1: National estimates of the total land area, the area covered by water bodies and total country area
+Total Total
+Water
+land country
+Year bodies Comments
+area area
+(km²)
+(km²) (km²)
+2 1 214 1 220
+5 519
+001 498 017
+2 1 214 1 220
+5 395
+005 622 017
+2 1 214 1 220
+5 421
+010 596 017
+2 1 214 1 220
+5 475
+015 542 017
+There is a reported difference in total country area. This is because we used the National
+Geospatial Information (NGI) Land Mass Coastline and Provincial Boundaries from the South
+African Municipality Database, which avoids the issues of using municipal boundaries that often
+have coastal artefacts, such as Marine Protected Areas included. We therefore elect to update the
+2001 dataset with the current South African Boundary, which was updated based on the SANBI
+2 1 214 1 219
+5 347 National Biodiversity Assessment dataset (https://www.sanbi.org/biodiversity/building-knowledge
+019 391 738
+/biodiversity-monitoring-assessment/national-biodiversity-assessment/). This is a more accurate
+representation of South Africa's boundaries, developed by local experts. The difference in total
+area between the updated South African boundary (2019) and previous default boundary (2001 -
+2015) is 279 km2. We recommend all previous and future analyses use the updated SANBI NBA
+boundary.
+Land cover legend and transition matrix
+SO1-1.T2: Key Degradation Processes
+Degradation Process Starting Land Cover Ending Land Cover
+Deforestation Tree-covered areas Croplands
+Deforestation Tree-covered areas Artificial surfaces
+Other
+Grasslands Croplands
+Agricultural expansion
+Other
+Other Lands Croplands
+Agricultural expansion
+Urban Expansion Grasslands Artificial surfaces
+Urban Expansion Croplands Artificial surfaces
+Urban Expansion Other Lands Artificial surfaces
+Wetland Drainage Wetlands Grasslands
+Wetland Drainage Wetlands Croplands
+Wetland Drainage Wetlands Artificial surfaces
+Wetland Drainage Wetlands Other Lands
+Other
+Tree-covered areas Water bodies
+Flooding
+5 / 110
+
+--- Page 6 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Degradation Process Starting Land Cover Ending Land Cover
+Other
+Grasslands Water bodies
+Flooding
+Other
+Croplands Water bodies
+Flooding
+Other
+Wetlands Water bodies
+Flooding
+Other
+Other Lands Water bodies
+Flooding
+Are the seven UNCCD land cover classes sufficient to monitor the key degradation processes in your country?
+Yes
+No
+SO1-1.T4: UNCCD land cover legend transition matrix
+Original/ Final Tree-covered areas Grasslands Croplands Wetlands Artificial surfaces Other Lands Water bodies
+Tree-covered areas 0 0 - 0 - 0 -
+Grasslands 0 0 - 0 - 0 -
+Croplands + + 0 - - + -
+Wetlands 0 0 - 0 - 0 -
+Artificial surfaces + + + + 0 + 0
+Other Lands 0 0 - 0 - 0 -
+Water bodies + + + + 0 + 0
+Land cover
+SO1-1.T5: National estimates of land cover (km²) for the baseline and reporting period
+Other
+Tree-covered Grasslands Croplands Wetlands Artificial Water No data
+Lands
+areas (km²) (km²) (km²) (km²) surfaces (km²) bodies (km²) (km²)
+(km²)
+2000 100 387 933 713 166 464 3 114 4 066 6 747 5 527
+2001 99 282 933 932 166 992 3 121 4 379 6 792 5 520
+2002 98 584 933 907 167 304 3 142 4 659 6 940 5 481
+2003 97 711 934 129 167 702 3 166 4 899 6 976 5 434
+2004 96 809 933 620 168 993 3 189 5 036 6 969 5 401
+2005 96 630 933 462 169 068 3 186 5 284 6 992 5 395
+2006 96 408 933 384 169 119 3 188 5 480 7 026 5 411
+2007 95 862 933 353 169 379 3 186 5 691 7 129 5 418
+2008 95 684 933 131 169 601 3 186 5 856 7 146 5 414
+2009 95 422 932 723 170 078 3 187 6 013 7 173 5 423
+2010 95 053 932 731 170 304 3 188 6 150 7 170 5 422
+2011 94 854 932 741 170 374 3 189 6 286 7 151 5 424
+2012 94 551 932 792 170 482 3 190 6 458 7 121 5 422
+2013 94 305 932 593 170 491 3 188 6 933 7 089 5 420
+6 / 110
+
+--- Page 7 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Tree-covered Grasslands Croplands Wetlands Artificial Other Lands Water No data
+areas (km²) (km²) (km²) (km²) surfaces (km²) (km²) bodies (km²) (km²)
+2014 94 151 932 421 170 611 3 173 7 194 6 991 5 477
+2015 94 115 932 370 170 565 3 172 7 332 6 988 5 476
+2016 102 310 832 256 170 523 3 167 7 546 98 576 5 360
+2017 102 080 832 147 170 530 3 166 8 018 98 437 5 359
+2018 101 788 832 096 170 896 3 167 8 250 98 184 5 357
+2019 101 624 831 146 171 554 3 167 8 787 98 112 5 347
+2020
+Land cover change
+SO1-1.T6: National estimates of land cover change (km²) for the baseline period
+Artificial Other Water
+Tree-covered Grasslands Croplands Wetlands Total
+surfaces Lands bodies
+areas (km²) (km²) (km²) (km²) (km²)
+(km²) (km²) (km²)
+Tree-covered 100
+90 504 4 821 3 582 81 1 371 5 24
+areas (km²) 388
+Grasslands 933
+2 362 926 524 2 796 9 1 431 523 68
+(km²) 713
+166
+Croplands (km²) 1 152 694 164 172 15 354 58 20
+465
+Wetlands (km²) 25 0 4 3 035 37 0 13 3 114
+Artificial
+0 0 0 0 4 066 0 0 4 066
+surfaces (km²)
+Other Lands
+2 245 2 0 62 6 395 41 6 747
+(km²)
+Water bodies
+70 86 11 33 10 7 5 310 5 527
+(km²)
+Total 94 115 932 370 170 567 3 173 7 331 6 988 5 476
+SO1-1.T7: National estimates of land cover change (km²) for the reporting period
+Artificial Other Water
+Tree-covered Grasslands Croplands Wetlands Total land
+surfaces Lands bodies
+areas (km²) (km²) (km²) (km²) area (km²)
+(km²) (km²) (km²)
+Tree-covered
+101 068 530 302 11 396 2 1 102 310
+areas (km²)
+Grasslands
+422 830 191 1 015 0 575 47 6 832 256
+(km²)
+Croplands
+120 23 170 217 1 161 2 0 170 524
+(km²)
+Wetlands (km²) 5 1 2 3 154 5 0 0 3 167
+Artificial
+0 0 0 0 7 546 0 0 7 546
+surfaces (km²)
+Other Lands
+8 395 8 0 105 98 060 0 98 576
+(km²)
+Water bodies
+1 6 9 0 0 3 5 340 5 359
+(km²)
+Total 101 624 831 146 171 553 3 166 8 788 98 114 5 347
+Land cover degradation
+7 / 110
+
+--- Page 8 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+SO1-1.T8: National estimates of land cover degradation (km²) in the baseline period
+Area (km²) Percent of total land area (%)
+Land area with degraded land cover 13 070 1 .1
+Land area with non-degraded land cover 1 206 946 98 .9
+Land area with no land cover data 0 0 .0
+SO1-1.T9: National estimates of land cover degradation (km²) in the reporting period
+Area (km²) Percent of total land area (%)
+Land area with improved land cover 164 0 .0
+Land area with stable land cover 1 211 657 99 .3
+Land area with degraded land cover 2 570 0 .2
+Land area with no land cover data 0 0 .0
+General comments
+We used the ESA CCI-LC default land cover dataset from the TRENDS.EARTH plugin in QGIS to populate tables SO1-1 T5 and T7. The data
+in T5, T6 and T7 do not tally because the data in T5, are the data originally in the system (except for the reporting period of 2016 - 2019).
+We did not adjust values in T6, as this represents land cover changes for the baseline period. But, due to non congruence between our
+classifications for the baseline period and our reporting period, differences in certain land cover types are particularly marked. In particular,
+'Tree-covered areas' and 'Grasslands' in T6 and T7 do not tally with the data presented in T5, because we changed some of the
+subcategories between different IPCC classes. These were Class 110 [Mosaic herbaceous cover (>50%)/tree and shrub (>50%)] from
+'Grassland' to ‘Tree-covered areas’, because the UNCCD defines tree-covered area as those with tree density >15%, and Class 150 [Sparse
+vegetation (tree, shrub, herbaceous cover) (<15%)] to ‘Other 134 Land’ rather than ‘Grasslands’, because ecological processes like carbon
+sequestration and erosion are very different between very sparse vegetation and grasslands. It may be necessary to revisit the datasets
+used from 2001, and perhaps recalculate values, but at present, we have left entries accepted over previous years unchanged. Making these
+changes will likely provide a better reflection of land cover in South Africa. We did not indicate that the seven UNCCD land cover classes
+were not sufficient to monitor the key degradation processes in South Africa, as the form that is generated on choosing "no" seems to
+assume that we are changing between the two classes that we changed. Please see our technical report (http://opus.sanbi.org/jspui
+/handle/20.500.12143/8728) for more information. Another cause of non-congruence in the data for the final degradation figures arises
+from our view that the transition matrix did not always capture degradation processes for South Africa. We consider transitions between
+‘Tree-covered Areas’, ‘Grasslands’, ‘Wetlands’ and ‘Other Lands’ as neutral, as it is unclear whether this represents processes like alien
+invasive tree clearing or tree removal, so they could be positive or negative, or neutral. We consider the transition from ‘Croplands’ to
+‘Grasslands’ an improvement, as it is a transition back to natural primary habitats. The transition from ‘Grasslands’ or ‘Other Lands’ to
+‘Croplands’ is defined as an improvement in the current default UNCCD transition matrix, but ‘Tree-covered Areas’ to ‘Croplands’ as
+degradation. We consider all of these transitions as degradation, as they are alterations of natural land cover, associated with changes to
+soil carbon and potentially increased vulnerability to erosion. The transitions from any land cover type to ‘Waterbodies’, except for ‘Artificial
+surfaces’, we consider as degradation, as they usually occur through creation of farm dams or flooding of natural landscapes. We note that
+the placement of "shrublands" into "grasslands" is an inaccurate depiction of South African systems. The grass/shrubland interface can
+vary with grazing regimes and rainfall. Furthermore, the two types of system differ in their erosion and soil carbon sequestration. We also
+note that the comparisons of baseline with reporting period are not standardized if they do not consider equal periods of time, i.e.,
+degradation from 2001 - 2015 should be greater than between 2016 - 2019, merely because of differences in time span. The final
+degradation figures may be inaccurate, as the scale of the ESA land cover data (300m) may be too coarse to allow accurate reflection of the
+scale of degradation. The national dataset administered by the South African Department of Forestry, Fisheries and the Environment (DFFE)
+would give a more accurate picture, given that it has a resolution of 30 m, but unfortunately, the state of land cover for South Africa is not
+mapped as frequently as required by the Good Practice Guidelines for UNCCD reporting, with the only available datasets being 1990, 2014,
+2018 and 2020.
+8 / 110
+
+--- Page 9 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+SO1-2 Trends in land productivity or functioning of the land
+Land productivity dynamics
+SO1-2.T1: National estimates of land productivity dynamics (in km²) within each land cover class for the
+baseline period
+Net land productivity dynamics (km²) for the baseline period
+Land cover class
+Declining (km²) Moderate Decline (km²) Stressed (km²) Stable (km²) Increasing (km²) No Data (km²)
+Tree-covered areas 10 1 311 29 197 25 813 34 103 70
+Grasslands 1 654 9 738 350 522 436 786 120 670 7 155
+Croplands 10 1 421 56 752 71 292 34 649 48
+Wetlands 7 48 936 817 1 195 33
+Artificial surfaces 7 188 2 670 633 544 24
+Other Lands 7 49 2 503 2 647 439 750
+Water bodies 18 107 1 659 1 285 831 1 410
+SO1-2.T2: National estimates of land productivity dynamics (in km²) within each land cover class for the
+reporting period.
+Net land productivity dynamics (km²) for the reporting period
+Land cover class
+Declining (km²) Moderate Decline (km²) Stressed (km²) Stable (km²) Increasing (km²) No Data (km²)
+Tree-covered areas 4 693 20 779 806 70 005 5 250 92
+Grasslands 64 815 129 252 52 885 536 525 47 310 358
+Croplands 3 676 27 483 2 262 126 624 11 417 92
+Wetlands 96 463 221 2 052 258 76
+Artificial surfaces 368 1 906 504 5 451 493 66
+Other Lands 10 703 36 160 2 344 42 268 6 545 93
+Water bodies 29 132 183 1 246 139 3 619
+SO1-2.T3: National estimates of land productivity dynamics for areas where a land conversion to a new land
+cover class has taken place (in km²) for the baseline period.
+Land Conversion Net land productivity dynamics (km²) for the baseline period
+Net area change Declining Moderate Decline Stressed Stable Increasing
+From To
+(km²) (km²) (km²) (km²) (km²) (km²)
+Tree-covered
+Grasslands 4 821 1 105 2 734 1 063 918
+areas
+Tree-covered
+Croplands 3 582 0 41 1 483 810 1 247
+areas
+Grasslands Croplands 2 796 1 59 695 1 251 790
+Tree-covered
+Grasslands 2 362 0 26 401 842 1 092
+areas
+SO1-2.T4: National estimates of land productivity dynamics for areas where a land conversion to a new land
+cover class has taken place (in km²) for the reporting period.
+Land Conversion Net land productivity dynamics (km²) for the reporting period
+9 / 110
+
+--- Page 10 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Net area change Declining Moderate Decline Stressed Stable Increasing
+From To
+(km²) (km²) (km²) (km²) (km²) (km²)
+Tree-covered
+Grasslands 529 36 304 1 169 19
+areas
+Tree-covered
+Grasslands 422 21 43 1 322 35
+areas
+Grasslands Croplands 1 015 6 67 1 856 85
+Tree-covered
+Croplands 303 21 115 0 158 9
+areas
+Land Productivity degradation
+SO1-2.T5: National estimates of land productivity degradation in the baseline period
+Area (km²) Percent of total land area (%)
+Land area with degraded land productivity 14 814 1 .2
+Land area with non-degraded land productivity 1 191 425 98 .1
+Land area with no land productivity data 8 249 0 .7
+SO1-2.T6: National estimates of land productivity degradation in the reporting period
+Area (km²) Percent of total land area (%)
+Land area with improved land productivity 71 272 5 .9
+Land area with stable land productivity 782 926 64 .5
+Land area with degraded land productivity 359 417 29 .6
+Land area with no land productivity data 776 0 .1
+General comments
+For consistency, ease of use and per instructions set out by the UNCCD's GPG, we selected the default years in the TRENDS.EARTH Plugin
+in QGIS. The sources of data used to calculate the values for the tables in PRAIS4 were developed by using the MOD13Q1 default land
+cover dataset in the TRENDS.EARTH plugin in QGIS. The land cover dataset was selected based on the amended land cover legend from
+SO1-1 (refer to general comments in SO1-1). This explains discrepancies in values between the baseline period and reporting period. We
+did not amend the values in the baseline period, and only update the values for the reporting period, i.e., T2, T4 and T6. All input model
+settings for calculating land productivity gave high estimates of land degradation as measured by productivity. Regardless of the
+'Trajectory' input method applied, all output estimated degradation ca. 30% for South Africa in the reporting period. This may be due to the
+rigorous and strict decision table when calculating the three productivity metrics, i.e., 'Trajectory', 'State' and 'Performance'. Only the
+'Trajectory' metric offered additional settings, but when combining all three metrics, the high estimation of degradation based on the 'State'
+and 'Performance' metric ultimately resulted in high overall estimates of land productivity degradation. We used the 'Trajectory' input
+settings and model Pixel RESTREND using CHIRPS satellite rainfall data to account for rainfall when estimating land productivity and Net
+Primary Productivity. We felt it was important to account for rainfall over the previous period, because much of the country had suffered a
+protracted drought prior to 2019. Please refer to the SANBI Technical document (http://opus.sanbi.org/jspui/handle/20.500.12143/8728)
+for more information.
+10 / 110
+
+--- Page 11 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+SO1-3 Trends in carbon stocks above and below ground
+Soil organic carbon stocks
+SO1-3.T1: National estimates of the soil organic carbon stock in topsoil (0-30 cm) within each land cover
+class (in tonnes per hectare).
+Soil organic carbon stock in topsoil (t/ha)
+Year
+Tree-covered areas Grasslands Croplands Wetlands Artificial surfaces Other Lands Water bodies
+2000 68 34 49 78 87 29 18
+2001 68 34 49 78 80 29 18
+2002 69 34 49 78 76 29 18
+2003 69 34 49 77 72 29 19
+2004 70 34 49 77 70 29 19
+2005 70 34 49 77 67 28 19
+2006 70 34 49 77 64 28 19
+2007 71 34 48 77 62 28 19
+2008 71 34 48 77 60 28 19
+2009 71 34 48 77 59 28 19
+2010 71 34 48 77 57 28 19
+2011 72 34 48 77 56 28 19
+2012 72 34 48 76 55 28 19
+2013 72 34 48 77 51 28 19
+2014 72 34 48 77 49 28 18
+2015 72 34 48 77 51 27 19
+2016 70 36 48 76 57 16
+2017 70 36 48 76 57 16
+2018 70 36 48 76 57 16
+2019 70 36 48 76 57 16
+2020
+If you opted not to use default Tier 1 data, what did you use to calculate the estimates above?
+Modified Tier 1 methods and data
+Tier 2 (additional use of country-specific data)
+Tier 3 (more complex methods involving ground measurements and modelling)
+SO1-3.T2: National estimates of the change in soil organic carbon stock in soil due to land conversion to a
+new land cover class in the baseline period
+Land Conversion Soil organic carbon (SOC) stock change in the baseline period
+Net area Initial SOC Final SOC Initial SOC Final SOC SOC stock
+From To
+change (km²) stock (t/ha) stock (t/ha) stock total (t) stock total (t) change (t)
+Tree-covered
+Grasslands 4 821 67 .3 67 .3 32 460 610 32 460 610 0
+areas
+11 / 110
+
+--- Page 12 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Land Conversion Soil organic carbon (SOC) stock change in the baseline period
+Net area Initial SOC Final SOC Initial SOC Final SOC SOC stock
+From To
+change (km²) stock (t/ha) stock (t/ha) stock total (t) stock total (t) change (t)
+Tree-covered
+Grasslands 2 362 63 .8 63 .8 15 069 452 15 069 264 -188
+areas
+Grasslands Croplands 2 796 34 .7 30 .6 9 710 618 8 562 746 -1 147 872
+Tree-covered
+Croplands 3 582 76 .5 67 .9 27 419 734 24 330 847 -3 088 887
+areas
+SO1-3.T3: National estimates of the change in soil organic carbon stock in soil due to land conversion to a
+new land cover class in the reporting period
+Land Conversion Soil organic carbon (SOC) stock change in the reporting period
+Net area Initial SOC Final SOC Initial SOC Final SOC SOC stock
+From To
+change (km²) stock (t/ha) stock (t/ha) stock total (t) stock total (t) change (t)
+Tree-covered
+Grasslands 579 81 .3 81 .3 4 704 520 4 707 048 2 528
+areas
+Tree-covered
+Grasslands 994 65 .3 65 .3 6 485 968 6 486 074 106
+areas
+Grasslands Croplands 1 127 36 .2 35 .0 4 075 213 3 947 826 -127 387
+Artificial
+Grasslands 842 42 .5 37 .6 3 580 251 3 164 815 -415 436
+surfaces
+Soil organic carbon stock degradation
+SO1-3.T4: National estimates of soil organic carbon stock degradation in the baseline period
+Area (km²) Percent of total land area (%)
+Land area with degraded soil organic carbon (SOC) 7 306 0 .6
+Land area with non-degraded SOC 1 206 598 99 .3
+Land area with no SOC data 585 0 .0
+SO1-3.T5: National estimates of SOC stock degradation in the reporting period
+Area (km²) Percent of total land area (%)
+Land area with improved SOC 90 0 .0
+Land area with stable SOC 1 213 726 99 .9
+Land area with degraded SOC 575 0 .0
+Land area with no SOC data 0 0 .0
+General comments
+We used the SoilGrid250m default land cover dataset from the TRENDS.EARTH plugin in QGIS to calculate values for the SO1-3 tables. The
+results of SO1-3 are based on the amended land cover legend dataset from SO1-1 (refer to SO1-1 'General comments'). We note that current
+research suggests that changes in SOC stock take ca. 20 years to manifest (Refer to the SANBI Technical Report http://opus.sanbi.org
+/jspui/handle/20.500.12143/8728 for sources). Therefore, when comparing the baseline period (2001 - 2015) to the reporting period (2016
+- 2019) there should be relatively little difference in SOC Stock across the land cover types. We note that the results produced in
+TRENDS.EARTH for SOC do not seem to conform what is required to be uploaded on PRAIS4, specifically the values for T3. Given these
+uncertainties, we have left the table as defaults as far as possible. The results developed in the excel spreadsheets associated with
+TRENDS.EARTH do not provide information and values for reporting in the Tables. Areas were thus calculated manually using the data
+within the TRENDS.EARTH excel spreadsheets. T5 previously highlighted that the "Total should be less than or equal to the total land area
+reported in year 2019: 1214391 km²", despite still reloading the default data, with a difference of 51 km². This was rectified through the
+excel spreadsheet produced by TRENDS.EARTH.
+12 / 110
+
+--- Page 13 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+SO1-4 Proportion of degraded land over the total land area
+Proportion of degraded land over the total land area (Sustainable Development Goal Indicator 15.3.1)
+SO1-4.T1: National estimates of the total area of degraded land (in km²), and the proportion of degraded land
+relative to the total land area
+Total area of degraded land (km²) Proportion of degraded land over the total land area (%)
+Baseline Period 29 193 2 .4
+Reporting Period 356 007 29 .3
+Change in degraded extent 326814
+Method
+Did you use the SO1-1, SO1-2 and SO1-3 indicators (i.e. land cover, land productivity dynamics and soil organic carbon
+stock) to compute the proportion of degraded land?
+Which indicators did you use?
+☒ Land Cover
+☒ Land Productivity Dynamics
+☒ SOC Stock
+Did you apply the one-out, all-out principle to compute the proportion of degraded land?
+Yes
+No
+Level of Confidence
+Indicate your country’s level of confidence in the assessment of the proportion of degraded land:
+High (based on comprehensive evidence)
+Medium (based on partial evidence)
+Low (based on limited evidence)
+Describe why the assessment has been given the level of confidence selected above:
+The one-out, all-out principle is perhaps too severe for estimating land degradation in a South African setting. Our arid lands, that are
+naturally dry with low productivity, have undergone a prolonged drought during the reporting period. Although we used an algorithm to
+attempt to correct for this (RESTREND - see land productivity section), land productivity dynamics nevertheless yielded high values for
+degradation. Thus, although land cover and SOC stock did not detect considerable degradation, inclusion of land productivity dynamics
+produced high estimates of degradation for the reporting period. The high value for degradation may be more an artefact of long term wet
+and dry cycles. Alternatively, these results could be a real reflection of climate change manifestations. A combination of ground-truthing
+and long term data collection should resolve this.
+False positives/ False negatives
+SO1-4.T3: Justify why any area identified as degraded or non-degraded in the SO1-1, SO1-2 or SO1-3 indicator
+data should or should not be included in the overall Sustainable Development Goal indicator 15.3.1
+calculation.
+Location Name Type Recode Options Area (km²) Process driving false +/- outcome Basis for Judgement Edit Polygon
+Perform qualitative assessments of areas identified as degraded or improved
+SO1-4.T4: Degradation hotspots
+13 / 110
+
+--- Page 14 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Action(s)
+taken to
+redress
+Direct drivers degradation
+Area Assessment of land in terms of Remediating action(s) (both Edit
+Hotspots Location
+(km²) Process degradation Land forward-looking and current) Polygon
+hotspots Degradation
+Neutrality
+response
+hierarchy
+Total no. of
+9
+hotspots
+Total hotspot
+125 462
+area
+14 / 110
+
+--- Page 15 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Action(s)
+taken to
+redress
+Direct drivers degradation
+Area Assessment of land in terms of Remediating action(s) (both Edit
+Hotspots Location
+(km²) Process degradation Land forward-looking and current) Polygon
+hotspots Degradation
+Neutrality
+response
+hierarchy
+• General instrument (e.g.
+policies, economic
+incentives)
+• Restore/improve wetlands
+◦ Restore/preserve
+wetlands and reduce
+degradation of
+wetlands
+◦ Halt/reduce wetland
+conversion to other
+land uses (includes
+conserving wetlands)
+• Increase protected areas
+◦ Increase protected
+area extent
+• Restore/improve croplands
+◦ Practise sustainable
+land management
+1. Climate ◦ Improve water use for
+change
+irrigation
+Erosion- 2. Invasive Alien ◦ Halt/reduce
+biomes Species ☒ Avoid conversion of cropland
+Establishment
+affected: Eastern 37 3. Grazing land to other land cover
+of expert ☒ Reduce
+Grasslands , Cape 250 management types
+panels
+Savanna, 4. Fire regime ☐ Reverse ◦ Increase land
+Fynbos change productivity in
+agricultural areas
+5. Land
+◦ Rehabilitate bare or
+abandonment
+degraded land for crop
+production
+• Restore/improve
+grasslands
+◦ Restore rangeland (e.g.
+by controlling livestock
+and wildfires)
+◦ Restore and improve
+pastures
+◦ Halt/reduce
+conversion of
+grassland to other land
+cover types
+◦ Improve land
+productivity in
+grasslands
+• Improve coastal
+management
+◦ Reduce coastal
+erosion
+Total no. of
+9
+hotspots
+Total hotspot
+125 462
+area
+15 / 110
+
+--- Page 16 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Action(s)
+taken to
+redress
+Direct drivers degradation
+Area Assessment of land in terms of Remediating action(s) (both Edit
+Hotspots Location
+(km²) Process degradation Land forward-looking and current) Polygon
+hotspots Degradation
+Neutrality
+response
+hierarchy
+• Restore/improve protected
+areas
+◦ Restore protected
+areas
+◦ Improve management
+of protected areas
+• Restore/improve multiple
+land uses
+• Restore/improve tree-
+covered areas
+◦ Reduce/halt
+deforestation and
+conversion of tree
+cover to other land
+cover types (e.g.
+conserving forest land)
+◦ Restore/improve
+grasslands
+◦ Increase land
+productivity in tree
+covered areas
+◦ Restore tree-covered
+areas
+◦ Improve tree cover
+management e.g. fire
+management
+• Restore/improve multiple
+functions
+• Restore productivity and
+soil organic carbon stock in
+croplands and grasslands
+• Increase soil fertility and
+carbon stock
+◦ Reduce soil erosion
+◦ Improve
+watershed/landscape
+management
+◦ Rehabilitate bare land
+and/or restore
+degraded land
+◦ Increase carbon stock
+and reduce soil/land
+degradation
+• Reduce/halt conversion of
+multiple land uses
+Total no. of
+9
+hotspots
+Total hotspot
+125 462
+area
+16 / 110
+
+--- Page 17 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Action(s)
+taken to
+redress
+Direct drivers degradation
+Area Assessment of land in terms of Remediating action(s) (both Edit
+Hotspots Location
+(km²) Process degradation Land forward-looking and current) Polygon
+hotspots Degradation
+Neutrality
+response
+hierarchy
+• General instrument (e.g.
+policies, economic
+incentives)
+• Restore/improve wetlands
+◦ Restore/preserve
+wetlands and reduce
+degradation of
+wetlands
+1. Climate
+change • Other/general/unspecified
+◦ Achieve LDN
+2. Invasive Alien
+◦ Other/general
+Species
+/unspecified
+3. Deforestation ◦ Restore vegetation
+and clearance
+cover (unspecified land
+Erosion- of other native
+☒ Avoid use)
+biomes KwaZulu 9 Qualitative vegetation ◦ Improve land
+affected: Natal 707 information 4. Infrastructure, ☒ Reduce productivity
+Grasslands, industry and ☐ Reverse (unspecified land use)
+Savanna urbanization
+◦ Avoid/prevent/halt
+5. Native and
+degradation (of
+planted forest
+degraded lands)
+management
+�. Mineral
+• Restore/improve tree-
+resource
+covered areas
+extraction
+◦ Restore/improve
+grasslands
+◦ Restore tree-covered
+areas
+• Restore/improve multiple
+functions
+• Reduce/halt conversion of
+multiple land uses
+Total no. of
+9
+hotspots
+Total hotspot
+125 462
+area
+17 / 110
+
+--- Page 18 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Action(s)
+taken to
+redress
+Direct drivers degradation
+Area Assessment of land in terms of Remediating action(s) (both Edit
+Hotspots Location
+(km²) Process degradation Land forward-looking and current) Polygon
+hotspots Degradation
+Neutrality
+response
+hierarchy
+• General instrument (e.g.
+policies, economic
+incentives)
+• Restore/improve croplands
+◦ Practise sustainable
+land management
+◦ Improve water use for
+1. Invasive Alien irrigation
+Species ◦ Increase land
+2. Climate productivity in
+Erosion- change agricultural areas
+☒ Avoid
+biomes Establishment 3. Land
+8
+affected: FreeState 775 of expert abandonment ☒ Reduce • Other/general/unspecified
+Grasslands, panels 4. Fire regime ☐ Reverse ◦ Achieve LDN
+Nama Karoo change ◦ Restore vegetation
+5. Cropland and cover (unspecified land
+agroforestry use)
+management ◦ Improve land
+productivity
+(unspecified land use)
+◦ Avoid/prevent/halt
+degradation (of
+degraded lands)
+• Restore/improve multiple
+land uses
+1. Grazing land • Other/general/unspecified
+management ◦ Achieve LDN
+2. Cropland and ◦ Other/general
+agroforestry /unspecified
+Erosion- management ◦ Restore vegetation
+☒ Avoid
+biomes 2 Qualitative 3. Infrastructure, cover (unspecified land
+affected: NortWest 610 information industry and ☒ Reduce use)
+Grasslands, urbanization ☐ Reverse ◦ Improve land
+Savanna 4. Invasive Alien productivity
+Species (unspecified land use)
+5. Mineral ◦ Avoid/prevent/halt
+resource degradation (of
+extraction degraded lands)
+Total no. of
+9
+hotspots
+Total hotspot
+125 462
+area
+18 / 110
+
+--- Page 19 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Action(s)
+taken to
+redress
+Direct drivers degradation
+Area Assessment of land in terms of Remediating action(s) (both Edit
+Hotspots Location
+(km²) Process degradation Land forward-looking and current) Polygon
+hotspots Degradation
+Neutrality
+response
+hierarchy
+• General instrument (e.g.
+policies, economic
+incentives)
+• Restore/improve wetlands
+◦ Restore/preserve
+wetlands and reduce
+degradation of
+wetlands
+◦ Halt/reduce wetland
+conversion to other
+land uses (includes
+conserving wetlands)
+• Restore/improve croplands
+1. Mineral ◦ Practise sustainable
+resource
+land management
+extraction
+◦ Improve water use for
+2. Invasive Alien irrigation
+Species ◦ Halt/reduce
+Erosion- 3. Climate conversion of cropland
+☒ Avoid
+biomes change to other land cover
+8 Qualitative
+affected: Limpopo 451 information 4. Infrastructure, ☒ Reduce types
+Grasslands, industry and ☐ Reverse ◦ Rehabilitate bare or
+Savanna urbanization degraded land for crop
+5. Native and production
+planted forest
+management • Other/general/unspecified
+�. Fire regime ◦ Achieve LDN
+change ◦ Restore vegetation
+cover (unspecified land
+use)
+◦ Improve land
+productivity
+(unspecified land use)
+◦ Avoid/prevent/halt
+degradation (of
+degraded lands)
+• Restore/improve protected
+areas
+◦ Restore protected
+areas
+◦ Improve management
+of protected areas
+Total no. of
+9
+hotspots
+Total hotspot
+125 462
+area
+19 / 110
+
+--- Page 20 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Action(s)
+taken to
+redress
+Direct drivers degradation
+Area Assessment of land in terms of Remediating action(s) (both Edit
+Hotspots Location
+(km²) Process degradation Land forward-looking and current) Polygon
+hotspots Degradation
+Neutrality
+response
+hierarchy
+• General instrument (e.g.
+policies, economic
+incentives)
+• Restore/improve wetlands
+◦ Restore/preserve
+wetlands and reduce
+degradation of
+wetlands
+◦ Halt/reduce wetland
+conversion to other
+land uses (includes
+conserving wetlands)
+• Restore/improve croplands
+◦ Practise sustainable
+land management
+◦ Improve water use for
+irrigation
+◦ Halt/reduce
+1. Infrastructure,
+conversion of cropland
+industry and
+to other land cover
+urbanization
+types
+2. Mineral ◦ Increase land
+resource
+Erosion- productivity in
+extraction ☒ Avoid
+biomes agricultural areas
+1 Qualitative
+affected: Gauteng 022 information 3. Climate ☒ Reduce ◦ Rehabilitate bare or
+Grasslands, change ☐ Reverse degraded land for crop
+Savanna 4. Invasive Alien production
+Species
+5. Cropland and • Other/general/unspecified
+agroforestry ◦ Achieve LDN
+management ◦ Other/general
+/unspecified
+◦ Restore vegetation
+cover (unspecified land
+use)
+◦ Improve land
+productivity
+(unspecified land use)
+◦ Avoid/prevent/halt
+degradation (of
+degraded lands)
+• Restore/improve
+grasslands
+◦ Halt/reduce
+conversion of
+grassland to other land
+cover types
+• Manage artificial surfaces
+◦ Restore degraded
+mining areas
+Total no. of
+9
+hotspots
+Total hotspot
+125 462
+area
+20 / 110
+
+--- Page 21 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Action(s)
+taken to
+redress
+Direct drivers degradation
+Area Assessment of land in terms of Remediating action(s) (both Edit
+Hotspots Location
+(km²) Process degradation Land forward-looking and current) Polygon
+hotspots Degradation
+Neutrality
+response
+hierarchy
+◦ Halt illegal mining
+and/or reduce mining
+areas
+◦ Improve land
+productivity on artificial
+surfaces
+◦ Halt/reduce/regulate
+expansion of
+urban/artificial
+surfaces
+• Restore/improve protected
+areas
+◦ Improve management
+of protected areas
+• Restore/improve multiple
+land uses
+• Reduce/halt conversion of
+multiple land uses
+Total no. of
+9
+hotspots
+Total hotspot
+125 462
+area
+21 / 110
+
+--- Page 22 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Action(s)
+taken to
+redress
+Direct drivers degradation
+Area Assessment of land in terms of Remediating action(s) (both Edit
+Hotspots Location
+(km²) Process degradation Land forward-looking and current) Polygon
+hotspots Degradation
+Neutrality
+response
+hierarchy
+• General instrument (e.g.
+policies, economic
+incentives)
+• Restore/improve wetlands
+◦ Restore/preserve
+wetlands and reduce
+degradation of
+wetlands
+◦ Halt/reduce wetland
+conversion to other
+land uses (includes
+conserving wetlands)
+• Other/general/unspecified
+◦ Achieve LDN
+◦ Other/general
+/unspecified
+◦ Restore vegetation
+cover (unspecified land
+Erosion- use)
+biomes 1. Invasive Alien ◦ Improve land
+Species
+affected: productivity
+Grasslands, 2. Climate (unspecified land use)
+Savanna change ◦ Avoid/prevent/halt
+☒ Avoid
+Erosion- Northern 23 Qualitative 3. Grazing land degradation (of
+biomes Cape 611 information management ☒ Reduce degraded lands)
+affected: 4. Mineral ☐ Reverse
+Succulent resource • Restore/improve protected
+Karoo, Nama extraction
+areas
+Karoo, 5. Land ◦ Restore protected
+Savanna, abandonment areas
+Grassland ◦ Improve management
+of protected areas
+• Restore/improve multiple
+land uses
+• Increase soil fertility and
+carbon stock
+◦ Reduce soil erosion
+◦ Reduce sand
+encroachment
+◦ Maintain the current
+level of SOC
+◦ Improve
+watershed/landscape
+management
+◦ Rehabilitate bare land
+and/or restore
+degraded land
+◦ Increase carbon stock
+and reduce soil/land
+degradation
+Total no. of
+9
+hotspots
+Total hotspot
+125 462
+area
+22 / 110
+
+--- Page 23 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Action(s)
+taken to
+redress
+Direct drivers degradation
+Area Assessment of land in terms of Remediating action(s) (both Edit
+Hotspots Location
+(km²) Process degradation Land forward-looking and current) Polygon
+hotspots Degradation
+Neutrality
+response
+hierarchy
+• Reduce/halt conversion of
+multiple land uses
+• General instrument (e.g.
+policies, economic
+incentives)
+• Restore/improve wetlands
+◦ Restore/preserve
+wetlands and reduce
+degradation of
+wetlands
+• Restore/improve croplands
+◦ Practise sustainable
+land management
+1. Fire regime
+change ◦ Improve water use for
+irrigation
+2. Infrastructure,
+Erosion- industry and
+biomes urbanization • Other/general/unspecified
+☒ Avoid
+affected: Western 28 Qualitative 3. Invasive Alien ◦ Achieve LDN
+Succulent Cape 344 information Species ☒ Reduce ◦ Other/general
+Karoo, ☐ Reverse /unspecified
+4. Climate
+Fynbos , change ◦ Restore vegetation
+Grassland cover (unspecified land
+5. Cropland and
+use)
+agroforestry
+◦ Improve land
+management
+productivity
+(unspecified land use)
+◦ Avoid/prevent/halt
+degradation (of
+degraded lands)
+• Improve coastal
+management
+◦ Reduce coastal
+erosion
+• Restore/improve multiple
+land uses
+Total no. of
+9
+hotspots
+Total hotspot
+125 462
+area
+23 / 110
+
+--- Page 24 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Action(s)
+taken to
+redress
+Direct drivers degradation
+Area Assessment of land in terms of Remediating action(s) (both Edit
+Hotspots Location
+(km²) Process degradation Land forward-looking and current) Polygon
+hotspots Degradation
+Neutrality
+response
+hierarchy
+• General instrument (e.g.
+policies, economic
+incentives)
+• Restore/improve wetlands
+◦ Restore/preserve
+wetlands and reduce
+degradation of
+wetlands
+◦ Halt/reduce wetland
+conversion to other
+land uses (includes
+conserving wetlands)
+• Other/general/unspecified
+◦ Achieve LDN
+◦ Other/general
+1. Mineral /unspecified
+resource ◦ Restore vegetation
+extraction cover (unspecified land
+2. Invasive Alien use)
+Erosion- Species ◦ Improve land
+☒ Avoid
+biomes 5 Qualitative 3. Climate productivity
+affected: Mpumalanga 692 information change ☒ Reduce (unspecified land use)
+Grasslands, ☐ Reverse ◦ Avoid/prevent/halt
+4. Native and
+Savanna degradation (of
+planted forest
+degraded lands)
+management
+5. Fire regime
+change • Restore/improve
+grasslands
+◦ Restore rangeland (e.g.
+by controlling livestock
+and wildfires)
+◦ Halt/reduce
+conversion of
+grassland to other land
+cover types
+◦ Improve land
+productivity in
+grasslands
+• Restore/improve protected
+areas
+◦ Restore protected
+areas
+◦ Improve management
+of protected areas
+Total no. of
+9
+hotspots
+Total hotspot
+125 462
+area
+What is/are the indirect driver(s) of land degradation at the national level?
+1. Demographic
+2. Economic
+3.
+24 / 110
+
+--- Page 25 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Cultural
+4. Institutions and governance
+5. Science, knowledge and technology
+SO1-4.T5: Improvement brightspots
+What action(s) led to
+the brightspot in terms
+Area Assessment Implementing action(s) (both Edit
+Brightspots Location of the Land
+(km²) Process forward-looking and current) Polygon
+Degradation Neutrality
+hierarchy?
+• General instrument (e.g.
+policies, economic incentives)
+• Restore/improve wetlands
+◦ Restore/preserve wetlands
+and reduce degradation of
+wetlands
+◦ Halt/reduce wetland
+conversion to other land
+uses (includes conserving
+wetlands)
+• Restore/improve croplands
+◦ Practise sustainable land
+management
+◦ Improve water use for
+irrigation
+◦ Halt/reduce conversion of
+cropland to other land
+cover types
+◦ Increase land productivity
+in agricultural areas
+◦ Rehabilitate bare or
+Western Cape, degraded land for crop
+☒ Avoid
+Northern Cape, production
+Alien Site-based
+North West (all 0 ☒ Reduce
+Invasive data
+areas covered by ☐ Reverse • Other/general/unspecified
+working for water) ◦ Achieve LDN
+◦ Other/general/unspecified
+◦ Restore vegetation cover
+(unspecified land use)
+◦ Improve land productivity
+(unspecified land use)
+◦ Avoid/prevent/halt
+degradation (of degraded
+lands)
+• Restore/improve grasslands
+◦ Restore rangeland (e.g. by
+controlling livestock and
+wildfires)
+◦ Restore and improve
+pastures
+◦ Halt/reduce conversion of
+grassland to other land
+cover types
+◦ Improve land productivity in
+grasslands
+• Improve coastal management
+◦ Reduce coastal erosion
+Total no. of brightpots 1
+Total brightspot area 0
+25 / 110
+
+--- Page 26 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+What are the enabling and instrumental responses at the national level driving the occurrence of brightspots?
+1. Protected areas
+2. Responses to the adverse effects of globalisation, demographic change, migration
+3. Institutional and policy reform
+4. Integrated landscape planning
+General comments
+In terms of assessment process, the following has been used : Overlaying and intersecting biomes with soil erosion map, literature search
+(Gallo et al, 2023; Aureguiberry et al., 2022;Von Maltitz et al, 2019 and ARC, 2016;ARC,2019 reports, Jay Le Roux)- this is the whole 9
+provinces as reported above. In terms of remediating action(s) (both structures to stop soil erosion; gully reclamation; changing cultivation
+approaches; use grassland mainly for grazing- this is the whole 9 provinces as reported above. In terms of direct drivers of land degradation
+hotspots, no order of priority was followed.
+26 / 110
+
+--- Page 27 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land management and
+contribute to land degradation neutrality.
+SO1 Voluntary Targets
+SO1-VT.T1: Voluntary Land Degradation Neutrality targets and other targets relevant to strategic objective 1
+Overarching
+type of Is this an LDN Which other
+Total
+Land Status of target? If so, important goals
+Target Edit
+Target Year Location(s) Degradation Targeted action(s) target under which are also being
+Area Polygon
+Neutrality achievement process was it addressed by this
+(km²)
+(LDN) defined/adopted? target?
+intervention
+• Convention
+• Restore/improve tree- on Biological
+covered areas Diversity –
+◦ Reduce/halt National
+deforestation and Biodiversity
+conversion of tree Strategies
+Rehabilitate cover to other land and Action
+and cover types (e.g. Plans &
+sustainably conserving forest National
+manage land) Yes Targets
+1 o 8 f 0 “f 9 o 5 re k s m t” 2 18 ☒ Avoid ◦ g R r e a s s t s o l r a e n / d im s prove No • Bonn
+(i.e. following 2030 095 ☒ Reduce ◦ Restore tree-covered Ongoing Participation in Challenge
+FAO land ☒ Reverse areas the LDN Target • AFR100
+cover ◦ Improve tree cover Setting
+classification management e.g. fire Programme • United
+that includes management Nations
+savanna) by Framework
+2030 • Increase soil fertility and Convention
+on Climate
+carbon stock
+Change –
+◦ Reduce soil erosion
+Nationally
+◦ Reduce sand
+Determined
+encroachment
+Contributions
+• General instrument (e.g.
+policies, economic
+incentives)
+• Other/general
+/unspecified
+• Convention
+• Restore/improve on Biological
+Rehabilitate grasslands Diversity –
+and ◦ Restore rangeland National
+sustainably Fynbos, (e.g. by controlling Biodiversity
+manage grassland, livestock and Strategies
+72745 km2 thicket, wildfires) Yes and Action
+of shrubland, low-tree ◦ Improve land Plans &
+grassland (<5m) ☒ Avoid productivity in No National
+and sparsely 2030 savanna, 72 ☒ Reduce grasslands Ongoing Participation in Targets
+v a e re g a e s tated S K u a c ro c o u , lent 745 ☒ Reverse • Restore/improve multiple t S h e e t t L in D g N Target • N Un a i t t i e o d ns
+showing Nama land uses Programme Framework
+early signs of Karoo and Convention
+d sh e o cl w in in e g and desert • Restore productivity and on Climate
+declining soil organic carbon stock Change –
+productivity in croplands and Nationally
+grasslands Determined
+Contributions
+• Increase soil fertility and
+carbon stock
+◦ Reduce soil erosion
+• Reduce/halt conversion
+of multiple land uses
+Sum of all targeted areas
+Total
+171 935
+27 / 110
+
+--- Page 28 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land management and
+contribute to land degradation neutrality.
+Overarching
+Is this an LDN Which other
+Total type of Land
+Status of target? If so, important goals
+Target Degradation Edit
+Target Year Location(s) Targeted action(s) target under which are also being
+Area Neutrality Polygon
+achievement process was it addressed by this
+(km²) (LDN)
+defined/adopted? target?
+intervention
+• Convention
+on Biological
+• Restore/improve Diversity –
+wetlands Yes National
+◦ Restore/preserve Biodiversity
+Rehabilitate ☒ Avoid wetlands and reduce No Strategies
+620 km2 2030 National 620 ☐ Reduce degradation of Ongoing Participation in and Action
+wetlands by wetlands Plans &
+2030 ☒ Reverse ◦ Halt/reduce wetland t S h e e t t L in D g N Target National
+conversion to other Programme Targets
+land uses (includes • Other:
+conserving wetlands)
+Ramsar
+Convention
+• Other/general
+/unspecified
+◦ Improve land
+productivity
+(unspecified land
+use)
+Improve • Restore productivity and Yes
+productivity soil organic carbon stock
+☐ Avoid No
+and SOC 60 in croplands and
+stocks in 2030 National 000 ☒ Reduce grasslands Ongoing Participation in
+60000 km2 ☒ Reverse the LDN Target
+of cropland • Increase soil fertility and Setting
+by 2030 carbon stock Programme
+◦ Reduce soil erosion
+◦ Improve
+watershed/landscape
+management
+◦ Increase carbon
+stock and reduce
+soil/land degradation
+• Other/general
+/unspecified
+◦ Other/general
+/unspecified
+◦ Restore vegetation
+Yes
+cover (unspecified
+Rehabilitate
+☒ Avoid land use) No
+3 ar 5 t 0 ifi 0 c k ia m l 2 of 2030 National 3 500 ☒ Reduce ◦ Avoid/prevent/halt Ongoing Participation in
+degradation (of
+areas by ☒ Reverse degraded lands) the LDN Target
+2030 Setting
+Programme
+• Manage artificial
+surfaces
+◦ Improve land
+productivity on
+artificial surfaces
+Sum of all targeted areas
+Total
+171 935
+28 / 110
+
+--- Page 29 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land management and
+contribute to land degradation neutrality.
+Overarching
+Is this an LDN Which other
+Total type of Land
+Status of target? If so, important goals
+Target Degradation Edit
+Target Year Location(s) Targeted action(s) target under which are also being
+Area Neutrality Polygon
+achievement process was it addressed by this
+(km²) (LDN)
+defined/adopted? target?
+intervention
+• Other/general
+/unspecified
+◦ Other/general • Convention
+/unspecified on Biological
+◦ Improve land Diversity –
+productivity Yes National
+Clear 10640 (unspecified land Biodiversity
+☐ Avoid No
+km2 of alien 10 use) Strategies
+invasive 2030 National 640 ☒ Reduce ◦ Avoid/prevent/halt Ongoing Participation in and Action
+species by ☒ Reverse degradation (of the LDN Target Plans &
+2030 degraded lands) Setting National
+Programme Targets
+• Restore/improve • Bonn
+protected areas Challenge
+◦ Improve
+management of
+protected areas
+• General instrument (e.g.
+policies, economic
+incentives)
+• Convention
+• Restore/improve on Biological
+grasslands Diversity –
+◦ Halt/reduce Yes National
+conversion of Biodiversity
+Clear 6335 ☐ Avoid No
+grassland to other Strategies
+km2 of bush 2030 National 6 335 ☒ Reduce land cover types Ongoing Participation in and Action
+encroached
+land by 2030 ☒ Reverse ◦ Improve land the LDN Target Plans &
+productivity in Setting National
+grasslands Programme Targets
+• Bonn
+• Restore/improve Challenge
+protected areas
+◦ Improve
+management of
+protected areas
+Sum of all targeted areas
+Total
+171 935
+SO1.IA.T1: Areas of implemented action related to the targets (projects and initiatives on the ground).
+Extent
+Location Action start Edit
+Relevant Target Implemented Action of Total Area Implemented So Far (km²)
+(placename) date Polygon
+action
+Other
+Cultivation using
+I in m 6 p 0 ro 0 v 0 e 0 p k r m od 2 u o c f t i c v r it o y p a la n n d d S b O y C 2 s 0 t 3 o 0 cks C Pr o a n c s t e ic r e v a ( t m io i n n i A m g u r m icu t l i t ll u a r g e e, 2020-03-01 123 123 .00
+soil cover and crop
+rotation)
+Rehabilitate and sustainably manage
+18095 km2 of “forest” (i.e. following Same As Targeted
+FAO land cover classification that Actions 2020-03-01 97 97 .00
+includes savanna) by 2030
+Rehabilitate and sustainably manage
+72745 km2 of shrubland, grassland
+Same As Targeted
+and sparsely vegetated areas Actions national 2020-03-01 7 942 7 942 .00
+showing early signs of decline and
+showing declining productivity
+Other
+Rehabilitate 620 km2 wetlands by Targetted actions +
+2030 removing inasive species, 2020-03-01 505 505 .00
+construction of soil
+cultivation structures
+Rehabilitate 3500 km2 of artificial Same As Targeted
+areas by 2030 Actions 2020-03-01 4 .8 4 .80
+29 / 110
+
+--- Page 30 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land management and
+contribute to land degradation neutrality.
+Extent
+Location Action start Edit
+Relevant Target Implemented Action of Total Area Implemented So Far (km²)
+(placename) date Polygon
+action
+Clear 6335 km2 of bush encroached Same As Targeted
+land by 2030 Actions 2020-03-01 409 409 .00
+Clear 10640 km2 of alien invasive Same As Targeted
+species by 2030 Actions 2020-03-01 4 089 4 089 .00
+Sum of all areas relevant to actions
+under the same target
+Rehabilitate and sustainably manage
+18095 km2 of “forest” (i.e. following 97
+FAO land cover classification that .00
+includes savanna) by 2030 :
+Rehabilitate and sustainably
+manage 72745 km2 of shrubland, 7
+grassland and sparsely vegetated 942
+areas showing early signs of decline .00
+and showing declining productivity:
+Rehabilitate 620 km2 wetlands by 505
+2030: .00
+Improve productivity and SOC
+123
+stocks in 60000 km2 of cropland by
+.00
+2030:
+Rehabilitate 3500 km2 of artificial 4
+areas by 2030: .80
+Clear 10640 km2 of alien invasive 4 089
+species by 2030: .00
+Clear 6335 km2 of bush 409
+encroached land by 2030: .00
+General comments
+There is an additional 14998 km2 that were improved after target setting but before the financial year reported here (2020/21). Therefore, the total achieved to date is
+21154 km2. Those data were not reported in the table above as the finer resolution information, e.g. which land cover type targets they fell under, still needs to be
+confirmed. Note that South Africa does not yet have spatial datasets compiled reflecting these voluntary targets.
+30 / 110
+
+--- Page 31 ---
+SO-2: To improve the living conditions of affected populations.
+SO2-1 Trends in population living below the relative poverty line and/or income inequality in
+affected areas
+Relevant metric
+Choose the metric that is relevant to your country:
+Proportion of population below the
+international poverty line
+Income inequality (Gini Index)
+Income inequality (Gini Index)
+SO2-1.T2: National estimates of income inequality (Gini index)
+Year Income inequality (Gini Index)
+2000 57 .8
+2001
+2002
+2003
+2004
+2005 64 .8
+2006
+2007
+2008 63
+2009
+2010 63 .4
+2011
+2012
+2013
+2014 63
+2015
+2016
+2017
+2018
+2019
+2020
+Qualitative assessment
+SO2-1.T3: Interpretation of the indicator
+Change in
+Indicator
+the Comments
+metric
+indicator
+31 / 110
+
+--- Page 32 ---
+SO-2: To improve the living conditions of affected populations.
+Change in
+Indicator
+the Comments
+metric
+indicator
+The change in South Africa's Gini index is not substantial, however, the Gini index is one of the highest in the
+world. The country's high Gini index has been inherited from the inequalities inherited from the pre-democratic
+government of South Africa. However, it remains high for numerous reasons, including a highly unequal income
+distribution, disparities in income across regions , high unemployment, and subdued economic growth
+Income
+No hindering job creation i.e. urbanized regions of the country have higher incomes than rural regions. A
+inequality
+change progressive tax system has helped alleviate some of the inequality. However, through socio-economic
+(Gini Index)
+transformations there is a need to create enabling environment for investment for the country. Policies will also
+be needed to create opportunities to support the marginalized population through improved quality of
+education, health, and transportation. Primary source: https://www.imf.org/en/News/Articles/2020/01
+/29/na012820six-charts-on-south-africas-persistent-and-multi-faceted-inequality
+General comments
+We note high GINI coefficient for South Africa as a result of numerous drivers, of which many arise not because of environmental issues,
+but historical and socio-political drivers.
+32 / 110
+
+--- Page 33 ---
+SO-2: To improve the living conditions of affected populations.
+SO2-2 Trends in access to safe drinking water in affected areas
+Proportion of population using safely managed drinking water services
+SO2-2.T1: National estimates of the proportion of population using safely managed drinking water services
+Year Urban (%) Rural (%) Total (%)
+2000
+2001
+2002
+2003
+2004
+2005
+2006
+2007
+2008
+2009
+2010
+2011 76.81 40.16 62.69
+2012 77.62 41.67 63.80
+2013 78.90 44.23 65.61
+2014 80.20 46.51 67.31
+2015 81.54 48.72 69.02
+2016 82.75 49.98 70.27
+2017 83.48 51.64 71.39
+2018 84.03 51.91 72.08
+2019 84.52 52.48 72.71
+2020 80.65 50.25 69.50
+Qualitative assessment
+SO2-2.T2: Interpretation of the indicator
+Change in
+the Comments
+indicator
+From 2011 - 2019, there has been a steady increase in the percentage of the population with access to safe drinking water,
+for both rural and urban populations. There is a slight decline in 2020, however, It is not clear what might explain the decline.
+Increase This is also motivated by the fact that South Africa is primarily arid and semi-arid. In addition, water infrastructure and its
+maintenance also remain a challenge. Furthermore the recurring drought that hit the country from 2015 EL Nino also
+resulted in the shortage of water across all sectors.
+General comments
+Data were provided by the South African Department of Water and Sanitation: https://ws.dws.gov.za/wsks/Default.aspx
+33 / 110
+
+--- Page 34 ---
+SO-2: To improve the living conditions of affected populations.
+SO2-3 Trends in the proportion of population exposed to land degradation disaggregated by
+sex
+Proportion of the population exposed to land degradation disaggregated by sex
+SO2-3.T1: National estimates of the proportion of population exposed to land degradation disaggregated by
+sex.
+Male
+Population Percentage of Female Percentage of total Percentage of total
+Time population
+exposed total population population female population male population
+period exposed
+(count) exposed (%) exposed (count) exposed (%) exposed (%)
+(count)
+Baseline
+20509054 37 .7 10623394 38 .7 9946804 37 .0
+period
+Reporting
+14822332 25 .5 7775688 26 .5 7091582 24 .6
+period
+Qualitative assessment
+SO2-3.T2: Interpretation of the indicator
+Change in the indicator Comments
+General comments
+Overall, the trend in populations exposed to land degradation depend on the accuracy of the land mapped as degraded, decertified and
+drought prone areas. Despite the proportion of people exposed to degradation decreasing from 2015 to 2019, there are still large portions
+of South Africa’s population exposed to land degradation and drought according to these maps. Furthermore, owing to the differences in
+spatial resolution and aerial coverage of the datasets, key demographics may be excluded where population numbers are large, or
+degradation is significant.
+34 / 110
+
+--- Page 35 ---
+SO-2: To improve the living conditions of affected populations.
+SO2 Voluntary Targets
+SO2-VT.T1
+Target Year Level of application Status of target achievement Comments
+General comments
+Voluntary targets are still being formulated for South Africa, both nationally and sub-nationally.
+35 / 110
+
+--- Page 36 ---
+SO-3: To mitigate, adapt to, and manage the effects of drought in order to enhance resilience of vulnerable populations and
+ecosystems.
+SO3-1 Trends in the proportion of land under drought over the total land area
+Drought hazard indicator
+SO3-1.T1: National estimates of the land area in each drought intensity class as defined by the Standardized
+Precipitation Index (SPI) or other nationally relevant drought indices
+Drought intensity classes
+Mild drought (km²) Moderate drought (km²) Severe drought (km²) Extreme drought (km²) Non-drought (km²)
+2000 193 624 .9 33 139 .0 6 139 .5 452 .3 986 931 .1
+2001 202 214 .3 41 815 .3 9 331 .0 0 966 926 .2
+2002 494 974 .9 114 992 .7 80 915 .1 44 007 .1 485 397 .0
+2003 477 440 .5 443 514 .1 209 809 .5 37 069 .6 52 453 .2
+2004 531 733 .6 99 397 .0 31 925 .2 15 765 .1 541 465 .9
+2005 726 729 .5 143 613 .9 48 310 .8 18 073 .0 283 559 .6
+2006 72 580 .4 7 604 .9 1 935 .1 57 .5 1 138 108 .9
+2007 591 581 .9 152 568 .2 24 587 .6 3 752 .9 447 796 .3
+2008 409 003 .8 50 098 .1 18 154 .8 3 879 .9 739 150 .2
+2009 375 355 .1 54 114 .1 18 443 .9 4 038 .8 768 334 .9
+2010 232 350 .4 28 200 .3 1 562 .6 0 958 173 .5
+2011 202 332 .0 10 047 .4 2 288 .3 212 .5 1 005 406 .6
+2012 393 850 .5 107 861 .3 14 330 .7 1 297 .9 702 946 .4
+2013 560 497 .3 167 594 .9 62 350 .6 2 014 .1 427 829 .9
+2014 424 236 .8 45 518 .3 18 161 .1 6 724 .4 725 646 .2
+2015 387 611 .6 370 668 .3 263 624 .1 118 547 .0 79 835 .8
+2016 725 451 .7 104 329 .3 26 236 .3 5 935 .3 358 334 .2
+2017 421 744 .3 153 341 .1 79 804 .4 61 594 .4 503 802 .6
+2018 685 330 .2 201 808 .0 58 519 .6 2 742 .6 271 886 .5
+2019 395 197 .8 169 397 .6 156 115 .6 208 012 .6 291 563 .2
+2020
+2021
+SO3-1.T2: Summary table for land area under drought without class break down
+Total area under drought (km²) Proportion of land under drought (%)
+2000 233 355 .7 19 .2
+2001 253 360 .7 20 .9
+2002 734 889 .8 60 .5
+2003 1 167 833 .7 96 .1
+2004 678 820 .9 55 .9
+2005 936 727 .2 77 .1
+36 / 110
+
+--- Page 37 ---
+SO-3: To mitigate, adapt to, and manage the effects of drought in order to enhance resilience of vulnerable populations and
+ecosystems.
+Total area under drought (km²) Proportion of land under drought (%)
+2006 82 177 .9 6 .8
+2007 772 490 .5 63 .6
+2008 481 136 .6 39 .6
+2009 451 951 .9 37 .2
+2010 262 113 .3 21 .6
+2011 214 880 .2 17 .7
+2012 517 340 .4 42 .6
+2013 792 456 .9 65 .2
+2014 494 640 .6 40 .7
+2015 1 140 451 .0 93 .9
+2016 861 952 .6 71 .0
+2017 716 484 .2 59 .0
+2018 948 400 .3 78 .1
+2019 928 723 .6 76 .5
+2020 -
+2021 -
+Qualitative assessment:
+Between 2015 and 2019, more than 70% of the country experienced drought, measured using SPI. Drought is a natural part of the country's
+wet and dry cycles, but in recent years, these regions are also experiencing high maximum temperatures, which are exacerbated by climate
+change and its effects on biota. See the technical report (http://opus.sanbi.org/jspui/handle/20.500.12143/8728) for more details.
+General comments
+These figures are derived from SPIs calculated based on data collected at weather stations managed by the South African Weather
+Services. Although Standardised Precipitation Index provides a good indicator of drought, Standardised Precipitation-Evapotranspiration
+Index (SPEI) might provide a more accurate assessment in future, given high temperature anomalies, particularly over the central parts of
+the country. See e.g.: Jury, M. R. (2018). Climate trends across South Africa since 1980. Water SA, 44: 297–307. and Jury, M. R. (2021).
+Spreading of the semi-arid climate across South Africa. Journal of Water and Climate Change. 12:, 3734–3749.
+37 / 110
+
+--- Page 38 ---
+SO-3: To mitigate, adapt to, and manage the effects of drought in order to enhance resilience of vulnerable populations and
+ecosystems.
+SO3-2 Trends in the proportion of the population exposed to drought
+Drought exposure indicator
+Exposure is defined in terms of the number of people who are exposed to drought as calculated from the SO3-1 indicator data.
+SO3-2.T1: National estimates of the percentage of the total population within each drought intensity class as
+well as the total population count and the proportion of the national population exposed to drought
+regardless of intensity.
+Non-exposed Mild drought Moderate drought Severe drought Extreme drought Exposed population
+Reporting Population Population Population Population Population Population
+% % % % % %
+year count count count count count count
+81 11 4 1 1 19
+2000 33869963 4878207 2005582 599297 461315 7 944 401
+.0 .7 .8 .4 .1 .0
+67 27 4 0 0 32
+2001 28611246 11770526 1927036 342154 0 14 039 716
+.1 .6 .5 .8 .0 .9
+23 37 15 17 7 76
+2002 10224522 16321253 6546645 7439788 3115631 33 423 317
+.4 .4 .0 .0 .1 .6
+2 24 32 28 13 97
+2003 966272 10764531 13988140 12262097 5666799 42 681 567
+.2 .7 .0 .1 .0 .8
+42 42 10 4 0 57
+2004 19081622 19036947 4847832 2102862 118130 26 105 771
+.2 .1 .7 .7 .3 .8
+15 64 10 8 1 84
+2005 6998661 29743574 4841399 3805294 727351 39 117 618
+.2 .5 .5 .3 .6 .8
+77 18 3 0 0 23
+2006 35918093 8768975 1727786 227573 21831 10 746 165
+.0 .8 .7 .5 .0 .0
+23 39 29 6 0 76
+2007 11081572 18491532 13988852 3164823 195979 35 841 186
+.6 .4 .8 .7 .4 .4
+59 32 5 2 0 40
+2008 28277082 15387972 2417357 995911 355175 19 156 415
+.6 .4 .1 .1 .7 .4
+67 24 5 2 0 32
+2009 32395075 11606438 2375949 1002567 360211 15 345 165
+.9 .3 .0 .1 .8 .1
+79 17 3 0 0 20
+2010 38393520 8333227 1615408 52003 0 10 000 638
+.3 .2 .3 .1 .0 .7
+75 18 4 1 0 24
+2011 39121007 9571780 2193082 734934 35940 12 535 736
+.7 .5 .2 .4 .1 .3
+42 38 16 2 0 57
+2012 22346500 19926039 8579384 1336624 179008 30 021 055
+.7 .1 .4 .6 .3 .3
+42 39 12 3 2 57
+2013 22755069 20883791 6562001 1704845 1330814 30 481 451
+.7 .2 .3 .2 .5 .3
+41 30 14 7 7 58
+2014 22398558 16196854 7801120 3847196 3789311 31 634 481
+.5 .0 .4 .1 .0 .5
+7 25 32 22 11 92
+2015 4104577 13953945 17937388 12442933 6394714 50 728 980
+.5 .4 .7 .7 .7 .5
+49 41 6 1 0 50
+2016 27711467 23048887 3720364 989177 354365 28 112 793
+.6 .3 .7 .8 .6 .4
+60 26 7 4 1 40
+2017 33933315 15002942 4173374 2742986 728307 22 647 609
+.0 .5 .4 .8 .3 .0
+19 65 13 1 0 80
+2018 11310404 37715855 7815545 760602 40248 46 332 250
+.6 .4 .6 .3 .1 .4
+59 30 5 2 1 40
+2019 35263967 18106083 3453463 1273397 859392 23 692 335
+.8 .7 .9 .2 .5 .2
+2020 - - - - - - -
+2021 - - - - - - -
+SO3-2.T2: National estimates of the percentage of the female population within each drought intensity class.
+Exposed female
+Non-exposed Mild drought Moderate drought Severe drought Extreme drought
+population
+Reporting Population Population Population Population Population Population
+% % % % % %
+year count count count count count count
+81 11 4 1 1 19
+2000 17842395 2596561 1036135 312033 240121 4 184 850
+.0 .8 .7 .4 .1 .0
+38 / 110
+
+--- Page 39 ---
+SO-3: To mitigate, adapt to, and manage the effects of drought in order to enhance resilience of vulnerable populations and
+ecosystems.
+Exposed female
+Non-exposed Mild drought Moderate drought Severe drought Extreme drought
+population
+Reporting Population Population Population Population Population Population
+% % % % % %
+year count count count count count count
+66 27 4 0 0 33
+2001 14987260 6217817 1040149 177357 0 7 435 323
+.8 .7 .6 .8 .0 .2
+23 37 15 16 7 76
+2002 5353329 8658647 3521282 3809072 1622290 17 611 291
+.3 .7 .3 .6 .1 .7
+2 25 32 27 12 97
+2003 502732 5758989 7367525 6416306 2919068 22 461 888
+.2 .1 .1 .9 .7 .8
+42 42 10 4 0 57
+2004 10139479 9993898 2498220 1095780 62043 13 649 941
+.6 .0 .5 .6 .3 .4
+15 64 10 8 1 84
+2005 3680669 15554025 2610145 2021522 389448 20 575 140
+.2 .1 .8 .3 .6 .8
+77 18 3 0 0 22
+2006 18948316 4534425 878559 114564 11058 5 538 606
+.4 .5 .6 .5 .0 .6
+23 40 29 6 0 76
+2007 5833934 9837279 7256618 1586636 98895 18 779 428
+.7 .0 .5 .4 .4 .3
+58 33 5 2 0 41
+2008 14515800 8294941 1312840 538491 188724 10 334 996
+.4 .4 .3 .2 .8 .6
+66 25 5 2 0 33
+2009 16625920 6398562 1294657 542454 190504 8 426 177
+.4 .5 .2 .2 .8 .6
+80 16 3 0 0 20
+2010 20252703 4203149 832728 26388 0 5 062 265
+.0 .6 .3 .1 .0 .0
+75 18 4 1 0 24
+2011 20345900 5080972 1147672 380913 18410 6 627 967
+.4 .8 .3 .4 .1 .6
+43 37 15 2 0 56
+2012 11991939 10359329 4336543 668986 89307 15 454 165
+.7 .7 .8 .4 .3 .3
+44 38 11 3 2 56
+2013 12234204 10778191 3276355 867468 661893 15 583 907
+.0 .7 .8 .1 .4 .0
+41 30 14 7 6 59
+2014 11578973 8662994 4118277 1984086 1916265 16 681 622
+.0 .7 .6 .0 .8 .0
+7 25 33 22 11 92
+2015 2171513 7282788 9460050 6479332 3296082 26 518 252
+.6 .4 .0 .6 .5 .4
+48 42 6 1 0 51
+2016 14095780 12386406 2011817 531660 195941 15 125 824
+.2 .4 .9 .8 .7 .8
+58 27 7 4 1 41
+2017 17440702 8146066 2226772 1421646 375888 12 170 372
+.9 .5 .5 .8 .3 .1
+20 64 14 1 0 79
+2018 6048909 19426222 4203001 411983 21177 24 062 383
+.1 .5 .0 .4 .1 .9
+58 31 6 2 1 41
+2019 18131255 9667336 1835715 678218 460566 12 641 835
+.9 .4 .0 .2 .5 .1
+2020 - - - - - - -
+2021 - - - - - - -
+SO3-2.T3: National estimates of the percentage of the male population within each drought intensity class.
+Exposed male
+Non-exposed Mild drought Moderate drought Severe drought Extreme drought
+population
+Reporting Population Population Population Population Population Population
+% % % % % %
+year count count count count count count
+81 11 4 1 1 18
+2000 16019002 2241992 960824 287395 221133 3 711 344
+.2 .4 .9 .5 .1 .8
+67 27 4 0 0 32
+2001 13537075 5556549 886668 162314 0 6 605 531
+.2 .6 .4 .8 .0 .8
+23 37 14 17 7 76
+2002 4820805 7660573 3026513 3633164 1489449 15 809 699
+.4 .1 .7 .6 .2 .6
+2 24 32 28 13 97
+2003 462325 4974308 6603063 5837792 2753016 20 168 179
+.2 .1 .0 .3 .3 .8
+41 42 10 4 0 58
+2004 8950823 9049549 2341470 1014775 59616 12 465 410
+.8 .3 .9 .7 .3 .2
+15 64 10 8 1 84
+2005 3334038 14221192 2221634 1787237 338286 18 568 349
+.2 .9 .1 .2 .5 .8
+39 / 110
+
+--- Page 40 ---
+SO-3: To mitigate, adapt to, and manage the effects of drought in order to enhance resilience of vulnerable populations and
+ecosystems.
+Exposed male
+Non-exposed Mild drought Moderate drought Severe drought Extreme drought
+population
+Reporting Population Population Population Population Population Population
+% % % % % %
+year count count count count count count
+76 19 3 0 0 23
+2006 16911314 4220810 850931 113346 10830 5 195 917
+.5 .1 .8 .5 .0 .5
+23 38 30 7 0 76
+2007 5199831 8640912 6725366 1582137 98578 17 046 993
+.4 .8 .2 .1 .4 .6
+60 31 4 2 0 39
+2008 13702763 7053022 1097896 460476 168141 8 779 535
+.9 .4 .9 .0 .7 .1
+69 22 4 2 0 30
+2009 15704489 5176625 1078281 463506 169710 6 888 122
+.5 .9 .8 .1 .8 .5
+78 17 3 0 0 21
+2010 18176222 4099610 769096 24288 0 4 892 994
+.8 .8 .3 .1 .0 .2
+75 18 4 1 0 24
+2011 18600133 4478215 1043784 353187 17312 5 892 498
+.9 .3 .3 .4 .1 .1
+41 38 17 2 0 58
+2012 10283896 9599531 4261097 667792 89643 14 618 063
+.3 .5 .1 .7 .4 .7
+41 39 13 3 2 58
+2013 10468451 10002429 3289183 838151 668829 14 798 592
+.4 .6 .0 .3 .6 .6
+41 29 14 7 7 58
+2014 10763820 7491384 3682430 1860400 1870471 14 904 685
+.9 .2 .3 .2 .3 .1
+7 25 32 22 11 92
+2015 1896658 6605211 8458202 5971884 3100649 24 135 946
+.3 .4 .5 .9 .9 .7
+51 40 6 1 0 48
+2016 13615687 10662482 1708548 457516 158423 12 986 969
+.2 .1 .4 .7 .6 .8
+61 25 7 4 1 38
+2017 16492613 6856876 1946602 1321340 352418 10 477 236
+.2 .4 .2 .9 .3 .8
+19 66 13 1 0 80
+2018 5261496 18289633 3612544 348619 19071 22 269 867
+.1 .4 .1 .3 .1 .9
+60 29 5 2 1 39
+2019 17132712 8438747 1617748 595179 398826 11 050 500
+.8 .9 .7 .1 .4 .2
+2020 - - - - - - -
+2021 - - - - - - -
+Qualitative assessment
+Interpretation of the indicator
+Between 2016 to 2019, most of the population appears to be within the ‘No drought’ or ‘Mild drought’ category, with the exception of 2018,
+where a slightly larger portion of the population falls within the ‘Moderate drought’ category. The spatial distribution of population density
+also appears to be localized to the City of Cape Town and Gauteng regions. Droughts in these urban centers affect disproportionately large
+proportions of the population.
+General comments
+The data and results generated in SO3-1 were used partially to calculate SO3-2. The results in SO3-1 highlighting the most extreme drought
+experiences were combined with the latest population map for each epoch. There were no considerable differences between males and
+females exposed to any of the drought categories over the period 2016 – 2019.
+40 / 110
+
+--- Page 41 ---
+SO-3: To mitigate, adapt to, and manage the effects of drought in order to enhance resilience of vulnerable populations and
+ecosystems.
+SO3-3 Trends in the degree of drought vulnerability
+Drought Vulnerability Index
+SO3-3.T1: National estimates of the Drought Vulnerability Index
+Year Total country-level DVI value (tier 1) Male DVI value (tiers 2 and 3 only) Female DVI value (tiers 2 and 3 only)
+2000
+2001
+2002
+2003
+2004
+2005
+2006
+2007
+2008
+2009
+2010
+2011 0 .40 0 .42 0 .39
+2012 0 .33 0 .35 0 .31
+2013 0 .37 0 .38 0 .36
+2014 0 .37 0 .38 0 .36
+2015 0 .36 0 .37 0 .34
+2016 0 .34 0 .36 0 .33
+2017 0 .34 0 .35 0 .33
+2018 0 .34 0 .35 0 .32
+2019 0 .33 0 .34 0 .32
+2020
+2021
+Method
+Which tier level did you use to compute the DVI?
+☐ Tier 1 Vulnerability Assessment ⓘ
+☐ Tier 2 Vulnerability Assessment ⓘ
+☒ Tier 3 Vulnerability Assessment ⓘ
+Which factors did you use per vulnerability Select all the factors for which data was available at subnational
+Social Factor
+component at national level? level using the check boxes provided
+Literacy rate
+(% of people ☐ ☒
+aged 15+)
+Life
+expectancy at ☒ ☐
+birth (years)
+Population
+aged 15-64 ☐ ☒
+(%)
+41 / 110
+
+--- Page 42 ---
+SO-3: To mitigate, adapt to, and manage the effects of drought in order to enhance resilience of vulnerable populations and
+ecosystems.
+Which factors did you use per vulnerability Select all the factors for which data was available at subnational
+Social Factor
+component at national level? level using the check boxes provided
+Government
+☐ ☐
+effectiveness
+Refugee
+☐ ☐
+population (%)
+☒
+Rural
+Other (Please
+☐ population (%
+specify)
+of total
+population)
+Which factors did you use per vulnerability Select all the factors for which data was available at
+Economic Factor
+component at national level? subnational level using the check boxes provided
+Proportion of the
+population below
+☐ ☐
+the international
+poverty line
+GDP per capital ☐ ☒
+Agriculture % of
+☐ ☒
+GDP
+Energy
+consumption per ☐ ☐
+capital
+Other (Please
+☐ ☐
+specify)
+Which factors did you use per vulnerability Select all the factors for which data was available at
+Infrastructure Factor
+component at national level? subnational level using the check boxes provided
+Proportion of the
+population using
+safely managed ☐ ☒
+drinking water
+services
+Total renewable
+water resources ☐ ☐
+per capital
+Cultivated area
+equipped for ☐ ☐
+irrigation (%)
+Other (please
+☐ ☐
+specify)
+Qualitative assessment
+SO3-3.T2: Interpretation of the indicator
+Change in the indicator Comments
+General comments
+The DVI is declining slowly.
+42 / 110
+
+--- Page 43 ---
+SO-3: To mitigate, adapt to, and manage the effects of drought in order to enhance resilience of vulnerable populations and
+ecosystems.
+SO3 Voluntary Targets
+SO3-VT.T1
+Target Year Level of application Status of target achievement Comments
+General comments
+Voluntary targets are still being formulated for South Africa, both nationally and sub-nationally.
+43 / 110
+
+--- Page 44 ---
+SO4-1 Trends in carbon stocks above and below
+ground
+Soil organic carbon stocks
+Trends in carbon stock above and below ground is a multi-purpose indicator used to measure progress towards both strategic objectives 1 and 4.
+Quantitative data and a qualitative assessment of trends in this indicator are reported under strategic objective 1, progress indicator SO1-3.
+44 / 110
+
+--- Page 45 ---
+SO-4: To generate global environmental benefits through effective implementation of the United Nations Convention to Combat
+Desertification.
+SO4-2 Trends in abundance and distribution of selected species
+SO4-2.T1: National estimates of the Red List Index of species survival
+Year Red List Index Lower Bound Upper Bound Comment
+2000 0 .822012634 0 .8159997 0 .827212542
+2001 0 .819367421 0 .812911934 0 .824432477
+2002 0 .816931286 0 .809543026 0 .822574995
+2003 0 .814634692 0 .806607519 0 .820049629
+2004 0 .812197159 0 .803864176 0 .817414756
+2005 0 .809619655 0 .800973635 0 .815470426
+2006 0 .807137752 0 .798713976791698 0 .813355159
+2007 0 .804735355 0 .795560177 0 .811314572
+2008 0 .802177087 0 .791574781 0 .808674899
+2009 0 .799912764 0 .788565697 0 .806897053
+2010 0 .797906846 0 .784495925 0 .805202417
+2011 0 .795392011 0 .778610538 0 .80370365
+2012 0 .793220281 0 .776354795 0 .802787633
+2013 0 .791225897 0 .771950157 0 .801565124
+2014 0 .788298928 0 .767468411 0 .801325628
+2015 0 .785682764 0 .762859483 0 .800502099
+2016 0 .783198591 0 .757563297 0 .799906352
+2017 0 .780560123 0 .751785132247694 0 .799203716
+2018 0 .778299951 0 .750041014 0 .799360008
+2019 0 .775831305 0 .741861504 0 .798611223
+2020 0 .773584659 0 .740689648 0 .79822433
+Qualitative assessment
+SO4-2.T2: Interpretation of the indicator
+Which levers are
+Drivers: being used to Responses
+Change Drivers: Direct
+Indirect reverse negative that led to
+in the (Choose one or Comments
+(Choose one trends and enable positive RLI
+indicator more items)
+or more items) transformative trends
+change?
+45 / 110
+
+--- Page 46 ---
+SO-4: To generate global environmental benefits through effective implementation of the United Nations Convention to Combat
+Desertification.
+Which levers are
+Drivers: being used to Responses
+Change Drivers: Direct
+Indirect reverse negative that led to
+in the (Choose one or Comments
+(Choose one or trends and enable positive RLI
+indicator more items)
+more items) transformative trends
+change?
+We opted to use data from the IUCN Red List
+Webpage, which slightly differs from the default
+data. Due to the RLI being an aggregate
+indicator across a small number of taxa that do
+1. Human not include all the species of a specific country,
+Population it does not accurately represent South Africa's
+1. Land-use change Dynamics and 1. Environmental Law climate and diversity. This can be seen by
+Trends
+2. Invasive alien and comparing the RLI computed by National
+species 2. Local to Implementation Biodiversity Assessment (NBA) to the RLI
+Negative 3. Climate change Global 2. Pre-Emptive Action computed using the IUCN Red Data List (IUCN
+Governance RLI) advance setting function. The NBA RLI for
+4. Overexploitation 3. Cross-Sectoral
+3. Production 2018 was estimated at a value of 0.894 and the
+Cooperation
+5. Pollution and IUCN RLI for 2018 was estimated at a value of
+Consumption 0.778 The NBA includes 8 taxonomic groups
+Patterns which better represent South Africa’s climate
+and diversity. These taxa include birds,
+mammals, amphibians, a sample of 900
+randomly selected plant species, reptiles,
+freshwater fish, butterflies, and dragonflies.
+General comments
+South Africa has a proactive programme aimed at clearing invasive non-native vegetation, and an early detection and response programme
+to identify possible new invasive species. Legislation also calls for development to be guided by maps and biodiversity information to try to
+avoid or reduce impacts on threatened species. In addition to assessing threatened species, South Africa also monitors the threat status of
+ecosystems. Ecosystem threat status indicates the degree to which ecosystems are still intact or losing crucial aspects of their
+composition, function or structure. At present, the country's inland wetland, river and estuarine ecosystems are highly threatened and
+degraded. For more information on ecosystem threat status in South Africa, please see: http://biodiversityadvisor.sanbi.org/planning-and-
+assessment/national-biodiversity-assessment-nba-2018/
+46 / 110
+
+--- Page 47 ---
+SO-4: To generate global environmental benefits through effective implementation of the United Nations Convention to Combat
+Desertification.
+SO4-3 Proportion of important sites for terrestrial and freshwater biodiversity that are
+covered by protected areas, by ecosystem type
+SO4-3.T1: National estimates of the average proportion of Terrestrial KBAs covered by protected areas (%)
+Year Protected Areas Coverage(%) Lower Bound Upper Bound Comments
+2000 25.97 25 .97 25 .97
+2001 26.04 26 .04 26 .04
+2002 26.05 26 .05 26 .05
+2003 26.06 26 .06 26 .06
+2004 27.63 27 .63 27 .63
+2005 28.3 28 .3 28 .3
+2006 28.3 28 .3 28 .3
+2007 28.86 28 .86 28 .86
+2008 28.86 28 .86 28 .86
+2009 28.89 28 .89 28 .89
+2010 28.94 28 .94 28 .94
+2011 28.99 28 .99 28 .99
+2012 29.74 29 .74 29 .74
+2013 29.97 29 .97 29 .97
+2014 30.35 30 .35 30 .35
+2015 30.77 30 .77 30 .77
+2016 31.12 31 .12 31 .12
+2017 31.2 31 .2 31 .2
+2018 31.93 31 .93 31 .93
+2019 33.07 33 .07 33 .07
+2020 33.08 33 .08 33 .08
+Qualitative assessment
+SO4-3.T2: Interpretation of the indicator
+Qualitative
+Comment
+Assessment
+The 20 new marine protected areas could be an attributing factor to the increase in the % of terrestrial KBAs (173 200
+km2 of KBAs are located beyond the mainland). The fynbos biome has a multitude of sites that meet the global criteria to
+Increasing qualify as KBAs (several threatened and endangered species). The originally inscribed Cape Floral Region Protected Areas
+serial property comprised eight protected areas covering a total area of 557,584 ha and the extended Cape Floral Region
+Protected Areas property comprises 1,094,742 ha of protected areas and is surrounded by a buffer zone of 798,514 ha.
+General comments
+47 / 110
+
+--- Page 48 ---
+SO-4: To generate global environmental benefits through effective implementation of the United Nations Convention to Combat
+Desertification.
+South Africa will revise its KBA network at the end of March 2023. After that, South Africa will be able to use a National Protected areas
+dataset with a new KBA layer to calculate the indicator.
+48 / 110
+
+--- Page 49 ---
+SO-4: To generate global environmental benefits through effective implementation of the United Nations Convention to Combat
+Desertification.
+SO4 Voluntary Targets
+SO4-VT.T1
+Target Year Level of application Status of target achievement Comments
+Complementary information
+Voluntary targets are still being formulated for South Africa, both nationally and sub-nationally.
+49 / 110
+
+--- Page 50 ---
+SO-5: To mobilize substantial and additional financial and non-financial resources to support the implementation of the
+Convention by building effective partnerships at global and national level
+SO5-1 Bilateral and multilateral public resources
+Tier 1: Please provide information on the international public resources provided and received for the
+implementation of the Convention, including information on trends.
+Trends in international bilateral and multilateral public resources provided
+Up ↑
+Stable ←→
+Down ↓
+Unknown ∾
+Trends in international bilateral and multilateral public resources received
+Up ↑
+Stable ←→
+Down ↓
+Unknown ∾
+Through the UNCCD enabling activities South Africa has received adequate financial resources dedicated for projects, programmes and
+reporting.
+The resources for reporting through the enabling activities always reach the Country Parties when the report by reporting officers has been
+concluded. The funding modalities is not aligned to the reporting timelines.
+Tier 2: Table 1 Financial resources provided and received
+Total Amount USD
+Provided / Received Year Committed Disbursed / Received
+Committed Disbursed
+Provided 2016
+0 0
+Committed Disbursed
+Provided 2017
+0 0
+Committed Disbursed
+Provided 2018
+0 0
+Committed Disbursed
+Provided 2019
+0 0
+Committed Received
+Received 2016
+1 875 765 .66 2 701 231 .86
+Committed Received
+Received 2017
+294 301 .71 1 619 714 .70
+Committed Received
+Received 2018
+6 489 819 .83 63 000
+Committed Received
+Received 2019
+4 806 214 .34 610 220 .34
+Total resources provided: 0 0
+Total resources received: 13 466 101 .54 4 994 166 .9
+Documentation box
+Explanation
+Year 2018
+Recipient / Provider Department of Forestry, Fisheries and the Environment
+Title of project, programme,
+GEF support to UNCCD 2018 National Reporting Process - South Africa
+activity or other
+Total Amount USD 63000
+50 / 110
+
+--- Page 51 ---
+SO-5: To mobilize substantial and additional financial and non-financial resources to support the implementation of the
+Convention by building effective partnerships at global and national level
+Explanation
+Sector UNEP
+Capacity Building Yes
+Technology Transfer Yes
+Gender Equality Yes
+Channel Multilateral
+Type of flow Official Development Assistance
+Financial Instrument Other- UNCCD enabling activities
+Type of support Directly related to DLDD-Donor Funding
+Amount mobilised through
+R 200 000. 00 ( 11, 109 USD )
+public interventions
+Details of the project " GEF support to UNCCD 2018 National Reporting Process - South Africa " The
+Additional Information
+funding was received in US Dollars. The executing agency was UNEP
+General comments
+None.
+51 / 110
+
+--- Page 52 ---
+SO-5: To mobilize substantial and additional financial and non-financial resources to support the implementation of the
+Convention by building effective partnerships at global and national level
+SO5-2 Domestic public resources
+Tier 1: Please provide information on the domestic public expenditures, including subsidies, and revenues,
+including taxes, directly and indirectly related to the implementation of the Convention, including information
+on trends.
+Trends in domestic public expenditures and national level financing for activities relevant to the implementation of the Convention
+Up ↑
+Stable ←→
+Down ↓
+Unknown ∾
+Trends in domestic public revenues from activities related to the implementation of the Convention
+Up ↑
+Stable ←→
+Down ↓
+Unknown ∾
+South Africa through the Medium-Term Strategic Framework (MTSF) of relevant sector departments and entities allocated financial
+resources for the implementation of projects and programmes aimed at addressing issues related to Sustainable Land Management.
+These projects and programme focus on restoration and rehabilitation of degraded ecosystems such as wetlands and strategic water
+sources, biodiversity, conservation agriculture, rangeland management while also contributing to poverty alleviation, climate change
+mitigation and adaptation, halting biodiversity loss, green jobs creations and provision of food and water security amongst others. Through
+rehabilitation, conservation and restoration activities, these interventions contribute to the country’s economy. The funding dedicated to
+these is approximately ZAR 1,2 Billion.
+In South Africa, the implementation of the Convention cuts across the mandate of different Sector Departments, Public Entities, Non-
+Governmental Organization and Private Sector. As such the institutional arrangements is composed of partners who are the main
+contributing partners on the implementation of the National Action Programme to combat desertification in the country. Most of the above-
+mentioned institutions (government and public entities) relies on Medium Term Strategic Framework Budget for the implementation of the
+Convention and report to the National Treasury on how resources were utilized. In addition, NGOs and Private Sector partners with
+government through donor funded projects for the implementation of the Convention.
+Tier 2: Table 2 Domestic public resources
+Year Amounts Additional Information
+Government expenditures 2021 Directly
+Directly related to combat DLDD 2021 12 000 000 Yes
+Indirectly related to combat DLDD 2021 550 716 Yes
+Subsidies
+Subsidies related to combat DLDD
+Total expenditures / total per year
+Additional
+Year Amounts
+Information
+Government revenues
+Environmental taxes for the conservation of land resources and taxes related to combat
+DLDD
+Total revenues / total per year
+Documentation box
+Explanation
+In South Africa we operate from April - March (12 months) and we get funding from
+Government expenditures
+government annually.
+52 / 110
+
+--- Page 53 ---
+SO-5: To mobilize substantial and additional financial and non-financial resources to support the implementation of the
+Convention by building effective partnerships at global and national level
+Explanation
+Subsidies
+Government revenues
+Domestic resources directly or indirectly related to In South Africa we operate from April - March (12 months) and we get funding from
+combat DLDD government annually.
+Has your country set a target for increasing and mobilizing domestic resources for the implementation of the Convention?
+Yes
+No
+South Africa through GEF 5-Land Degradation Focal Area have developed Sustainable Land Management finance strategy. The purpose of
+the strategy is to identify the SLM needs to inform potential finance model research and interventions aimed at addressing SLM.
+General comments
+The allocation from government is used to support the implementation of projects and programmes aimed at combating DLDD. Additional
+funding is further made available through the restoration, rehabilitation and conservation of degraded landscapes.
+53 / 110
+
+--- Page 54 ---
+SO-5: To mobilize substantial and additional financial and non-financial resources to support the implementation of the
+Convention by building effective partnerships at global and national level
+SO5-3 International and domestic private resources
+Tier 1: Please provide information on the international and domestic private resources mobilized by the
+private sector of your country for the implementation of the Convention, including information on trends.
+Trends in international private resources
+Up ↑
+Stable ←→
+Down ↓
+Unknown ∾
+Trends in domestic private resources
+Up ↑
+Stable ←→
+Down ↓
+Unknown ∾
+None.
+None.
+Tier 2: Table 3 International and domestic private resources
+Title of project, programme, activity Total Amount Financial Type of Additional
+Year Recipient
+or other USD Instrument institution Information
+Total 0
+Please provide methodological information relevant to data presented in table 3
+None.
+Has your country taken measures to encourage the private sector as well as non-governmental organizations,
+foundations and academia to provide international and domestic resources for the implementation of the
+Convention?
+Yes. In terms of Non-Governmental Organizations (NGO) the country has taken a step forward to engage more NGOs on the programme of
+work of the Convention which includes mobilization of financial resources to implement the National Action Programme at all levels. From
+2022 to date ,3 NGO's have been accredited by the Convention. In addition, private sectors are also being engaged on the Land Degradation
+Neutrality fund. The Academic Institutions are part of the National Coordinating Body to oversee the implementation of the Convention and
+further contributes to the Committee on Science and Technology . In addition, some of the Academic Institutions they do provide in-kind
+and co-financing contributions to the overall implementation of the Convention. As a country we also work very closely with international
+agencies such as the Global Environment Facility. With all these engagements and discussion this will shape up our efforts on the fight
+against DLDD and attract more financial resources which is is going to assist us to tap into private sector resources
+General comments
+None.
+54 / 110
+
+--- Page 55 ---
+SO-5: To mobilize substantial and additional financial and non-financial resources to support the implementation of the Convention by building effective partnerships at
+global and national level
+SO5-4 Technology transfer
+Tier 1: Please provide information relevant to the resources provided, received for the transfer of technology for the implementation of the
+Convention, including information on trends.
+Trends in international bilateral and multilateral public resources provided
+Up ↑
+Stable ←→
+Down ↓
+Unknown ∾
+Trends in international bilateral and multilateral public resources received
+Up ↑
+Stable ←→
+Down ↓
+Unknown ∾
+Through the implementation of the fifth Global Environment Facility Sustainable Land Management project, several project beneficiaries, policy makers and other stakeholders were
+trained on the use remote sensing through the utilization of drone for monitoring of SLM approaches and interventions.
+The Drone usage training was to empower community, policy makers and other stakeholders on the monitoring of SLM approaches and interventions.
+Tier 2: Table 4 Resources provided and received for technology transfer measures or activities
+Title of
+Timeframe Use, impact
+project, Activities Status of
+Provided Recipient Description and Type of of and Additional
+Year programme, Amount Sector undertaken measure
+Received Provider objectives technology measure estimated Information
+activity or by or activity
+or activity results
+other
+To strengthen
+the enabling
+environment for
+the adoption of
+the knowledge
+based
+Sustainable
+Land
+Management
+Securing
+(SLM) for land
+multiple
+ecosystems management ☒ Agriculture
+and
+benefits land/ecosystem ☐ Forestry
+through See the link
+rehabilitation in ☐ Water and Public
+Provided sustainable South support of the Sanitation Monitoring and/or provided on
+Received 2021 l m an a d nagement 17 000 Africa green economy ☒ Cross- Drones private Completed 2021 d tr r a o in n i e ng None.
+in the and resilient cutting sector conference.
+livelihood. This
+productive is being done ☐
+but degraded through Other(specify)
+landscape of
+capacity
+South Africa
+incentives
+demonstrated
+in a Karoo
+Eastern Cape
+and Olifants
+landscape
+where the
+project is being
+implemented.
+Total provided: 17 000 Total received: 0
+Total per year 2021 provided: 17 000 Total per year 2021 received: 0
+Please provide methodological information relevant to data presented in table 4
+Include information on underlying assumptions, definitions and methodologies used to identify and report on technology transfer support provided
+and/or received and/or required. Please include links to relevant documentation.
+Kindly see the link for more information https://dronesatwork.co.za/
+Please provide information on the types of new or current technologies required by your country to address desertification, land degradation and
+drought (DLDD), and the challenges encountered in acquiring or developing such technologies.
+1. Drones to be used by small scale farmers. 2. Enhanced Early warning systems. 3. Enhanced Remote sensing/ GIS system.
+General comments
+None
+55 / 110
+
+--- Page 56 ---
+SO-5: To mobilize substantial and additional financial and non-financial resources to support the implementation of the
+Convention by building effective partnerships at global and national level
+SO5-5 Future support for activities related to the implementation of the Convention
+SO5-5.1: Planned provision and mobilization of domestic public and private resources
+Please provide information relevant to the planned provision and mobilization of domestic resources for the
+implementation of the Convention, including information relevant to indicator SO5-2, as well as information
+on projected levels of public financial resources, target sectors and planned domestic policies.
+South Africa has established a Higher Level Senior Management Task Team on the implementation of projects and initiatives aimed at
+addressing issue on Land Degradation, Desertification and drought. The task team is responsible for encouraging the implementation of
+Land Degradation, Desertification and drought initiatives and programmes by sector departments and public entities. The High Level Senior
+Management Task Team emphasis on the need for mobilization of resources for the implementation of integrate Land Degradation,
+Desertification, drought, climate change and other environmental programmes. As such, South Africa will require support on the
+mobilization of substantial and additional resources in public and private sectors for the implementation of the Convention.
+SO5-5.2: Planned provision and mobilization of international public and private resources
+Please provide information relevant to the planned provision and mobilization of international resources for
+the implementation of the Convention, including information on projected levels of public financial resources
+and support to capacity building and transfer of technology, target regions or countries, and planned
+programmes, policies and priorities.
+There is a need for substantial and additional resources for the implementation or scaling up on the implementation of the Convention in
+the country. In addition, capacity building on engagement with private sectors on resources mobilization is required. In addition Pilot
+projects are required.
+SO5-5.3: Resources needed
+Please provide information relevant to the financial resources needed for the implementation of the
+Convention, including on the projects and regions which needs most support and on which your country has
+focused to the greatest extent.
+The following resources are required: - Implementation of Land Degradation Neutrality targets - Implementation of the drought National
+Action Plan - Resources for the implementation of research priorities such as Sand and Dust storms, Drought vulnerability assessment and
+etc. - Scaling up of the transboundary and regional projects.
+General comments
+None.
+56 / 110
+
+--- Page 57 ---
+IF: Implementation Framework
+Financial and Non-Financial Sources
+Increasing the mobilization of resources:
+Would you like to share an experience on how your country has increased the mobilization of resources within the reporting
+period?
+Yes
+No
+What type of resources were mobilized (check all that apply)?
+☒ Financial Resources
+☐ Non-Financial
+Which sources were mobilized?
+☒ International
+☒ Domestic
+☐ Public
+☐ Private
+☒ Local communities
+☐ Non-traditional funding sources
+☐ Climate Finance
+☐ Other (please specify)
+Use this space to describe the experience:
+During the current reporting cycle, South Africa through the Department of Forestry, Fisheries and the Environment managed to secure the
+following international funding for the implementation of the National Action Programme of the UNCCD: 1. GEF 5 SLM project that came to
+an end on 22 April 2022 to an amount of US$45,414,233,46 (R 784 697 553,26). The objective of this project was to strengthen the enabling
+environment for the adoption of knowledge based SLM models for land management and land / ecosystem rehabilitation in support of the
+green economy and resilient livelihoods. 2. GEF 7 project on Mainstreaming of Sustainable Land Management to an amount of US$
+3,629,816 (R62 939 412.32). The main objective of the project is to scale-up and mainstream SLM for large-scale impact in the grazing
+lands of targeted sites in the Limpopo and Northern Cape Provinces of South Africa. 3. UNCCD enabling activities (reporting) to an amount
+of US$ 91 000 00 (R1 577 899.96). 4. The development of the SADC Great Green Wall Initiative Action Plan to an amount of US$ 5 773,31
+(R98 000). 5. Presidential economic stimulus packages amounting to 1.9 billion (approximately US$ 115 000 000) with an objective to
+invest in the environment, ecological infrastructure and supporting the green infrastructure in the face of Covid19 pandemic. The aim of the
+presidential employment stimulus is to utilize public funding to create jobs and support livelihoods while the labor market recovers.
+Approximately 1million jobs have been created through the Presidential economic stimulus package
+What were the challenges faced, if any?
+The programming of international funding takes longer than anticipated. Some of the funding reached the country when the projects or
+programmes have already been completed.
+What do you consider to be the lessons learned?
+Any project or intervention to address land degradation challenges require sufficient resources and enough implementation time to plan,
+facilitate and ensure real impact on the ground.
+How did you ensure that women benefited from/got access to this funding?
+South Africa have adopted a principle to employ beneficiaries working on the DLDD related projects and programmes as follows: ―
+Prioritizing the inclusion of 65% of women participation on projects and programmes focusing specifically on addressing drought, water
+crisis, biodiversity loss and wetlands conservation; ― Equal pay for equal worth of work- South Africa is among the few countries in the
+57 / 110
+
+--- Page 58 ---
+IF: Implementation Framework
+world that have legislated gender parity in the workplace; ― Job creation and sustainable growth specifically for women in rural areas; ―
+Improving access to education for girls; ― Addressing women’s health in particular maternal mortality, the high levels of HIV and AIDS in
+young women; ― Addressing violence against women and gender-based violence in particular issues of rape and sexual offences; ―
+Economic empowerment of women in particular women-owned businesses; and ― Development of rural women through provision of
+capacity building for entrepreneurship; among others.
+Use this space to provide any further complementary information you deem relevant:
+None
+Has your country supported other countries in the mobilization of financial and non-financial resources for the implementation
+of the Convention?
+Yes
+No
+Use this space to describe the experience:
+As part of the Sub-regional Action Programme South Africa have assisted the SADC member states by mobilizing financial resources
+towards the development of the following concept note: 1. A Regional Strategic Framework for Drought Management for the SADC
+countries to enhance resilience to drought events that emphasizes on a paradigm shift from reactive to proactive approaches. the project
+was funded by the Korean government through the Changwon Initiative. 2. Adapting the African Union Great Green Wall initiative in
+Southern Africa in alignment with the SADC SRAP. This gave birth to the SADC Great Green Wall Initiative
+What were the challenges faced, if any?
+None
+Was part of the funding earmarked for women and/or women led activities/businesses?
+The developed Regional Strategic Framework for Drought Management for the SADC takes into account or put issues of women in the
+forefront (gender responsive).
+What do you consider to be the lessons learned?
+None
+Using Land Degradation Neutrality as a framework to increase investment:
+From your perspective, would you consider that you have taken advantage of the LDN concept to enhance the coherence,
+effectiveness and multiple benefits of investments?
+Yes
+No
+Use this space to describe the experience:
+Through the LDN targets set as the country we have been able to mobilize additional financial resources for the implementation of projects
+and programmes at a national level e.g. through the AFR100 Initiative, two Scaling-up projects will be piloted.
+What were the challenges faced, if any?
+Substantial or additional financial resources are required for the implementation of the LDN targets. The criteria to access LDN fund
+restricts collaboration and mass participation of potential beneficiaries or enterprise. The implementation of LDN targets set has proved to
+be a challenge due to budget cuts post Covid-19 that forced some partners to default on their commitments to implement the targets set.
+58 / 110
+
+--- Page 59 ---
+IF: Implementation Framework
+What do you consider to be the lessons learned?
+The implementation of the LDN target in the country requires an integrated approach that integrates issues of water, Sustainable Land
+Management, climate change, biodiversity conservation and other environmental matters to ensure leveraging of resources.
+Improving existing and/or innovative financial processes and institutions
+From your perspective, do you consider that your country has improved the use of existing and/or innovative financial
+processes and institutions?
+Yes
+No
+Was this through any of the following (check all that apply)?
+☒ Existing financial processes
+☐ Innovative financial processes
+☒ The GEF
+☒ Other funds (please specify)
+Global Mechanism of the UNCCD
+Use this space to describe the experience:
+Through the Global Mechanism of the UNCCD, South Africa has been supported financially towards the development of LDN TPP and
+National Drought Plan Through the GEF, South Africa secured financial resources through the Land Degradation Focal Area (LDFA) fifth
+replenishment window Through the existing financial processes of the domestic funds, funding dedicated for the implementation of
+projects and programmes were also secured.
+What were the challenges faced, if any?
+All funding that was dedicated for the implementation of projects and programmes were channeled to address the impacts of Covid-19
+pandemic
+What do you consider to be the lessons learned?
+Donor funds are able to unlock project opportunities in landscapes that will otherwise not be prioritized such as rural communities. Donor
+funds enables partnerships with other social partners to support the implementation of projects.
+Did your country support other countries in the improvement of existing or innovative financial processes and institutions?
+Yes
+No
+59 / 110
+
+--- Page 60 ---
+IF: Implementation Framework
+Policy and Planning
+Action Programmes:
+Has your country developed or helped develop, implement, revise or regularly monitor your national action programme?
+Yes
+No
+Use the space below to share more details about your country's experience:
+In line with the national development priorities and the international obligations, South Africa developed the second National Action
+Programme (NAP) for 2018 -2030 as a key instrument to guide the implementation of the United Nations Convention to Combat
+Desertification (UNCCD). To this end, the NAP sets out the respective roles of government, local communities and land users and also
+provides an indication of the resources that will be needed for its implementation. In addition, the NAP implementation is guided by the
+seven outcomes which are cross-cutting in nature and requires sound monitoring and coordination to achieve the intended results per
+outcome. The implementation of the seven outcomes provides a framework of partnerships that calls for all government structures,
+communities, Non-Governmental Organization (NGOs), private sector and research institutions to work together in the implementation of
+projects and programmes related to combating desertification, land degradation and drought (DLDD).
+Would you consider the action programmes and/or plans to be successful and what do you consider the main reasons for
+success or lack thereof?
+Success; -The NAP provides an opportunity for collaboration, participation and partnerships at all levels. -The endorsement of the NAP by
+political principal. - The NAP provides the blueprint for accountability and responsibilities towards the implementation of DLDD issues. -
+Improved awareness raisings and capacity building on DLDD issues. - Timely and additional public funds dedicated for the implementation
+of the NAP. - Improved commitments on the implementation of the LDN targets. Main reasons for success: - Establish the National
+Coordinating Body - Establishment of the High Levels Senior Management Task Team on DLDD - Establishment of the Committee on
+Science and Technology - Establishment of the Inter-Departmental Migration Forum
+What were the challenges faced, if any?
+- Over commitment on the NAP and the LDN targets due to insufficient funding for implementation - Lack of integrated approach towards
+the implementation of the NAP in terms of prioritization - Lack of capacity to mobilize required financial resources to implement the NAP -
+Lack of support on the implementation of the NAP at local government
+What do you consider to be the lessons learned?
+Projects or interventions to address land degradation challenges require sufficient resources and enough implementation time to plan,
+facilitate and ensure real impact on the ground. Lack of oversight structure led to the NAP contributing partners to default on their
+commitments.
+Policies and enabling environment:
+During the reporting period, has your country established or helped establish policies and enabling environments to promote
+and/or implement solutions to combat desertification/land degradation and mitigate the effects of drought?
+Yes
+No
+These policies and enabling environments were aimed at (check all that apply):
+☒ Promoting solutions to combat desertification, land degradation and drought (DLDD)
+☒ Implementing solutions to combat DLDD
+☐ Protecting women’s land rights
+☐ Enhancing women’s access to natural, productive and/or financial resources
+☒ Other (please specify)
+60 / 110
+
+--- Page 61 ---
+IF: Implementation Framework
+National Environmental Management Laws Bill, Wetland Management Framework, National Drought Management Framework, White Paper
+on Conservation and Sustainable Use of South African's Biodiversity 2022
+How best to describe these experiences (check all that apply):
+☒ Prevention of the effects of DLDD
+☒ Relief efforts after DLDD has caused environmental and or socioeconomic stress on ecosystems and or populations
+☒ Recovery efforts after DLDD has caused environmental and or socioeconomic stress on ecosystems and or populations
+☒ Engagement of women in decision - making
+☐ Implementation and promotion of women's land rights and access to land resources
+☒ Building women's capacity for effective UNCCD implementation
+☐ Other (please specify)
+Use the space below to share more details about your country/sub-region/region/institution's experience.
+Policies and strategies at a national level required participatory approaches on implementation. Extensive consultation in planning,
+development and implementation is central. Involvement of all relevant stakeholder economic, environment and socio economic
+background
+Do you consider these policies to be successful in promoting or implementing solutions to address DLDD, including prevention,
+relief and recovery, and what do you consider the main factors of success or lack thereof?
+Yes, because these policies were underpinned by DLDD related issues when developed. Most of these policies are addressing cross cutting
+issues which allows for an integrated approach towards addressing issues such as biodiversity loss, climate change and water
+management. What drives these success is the ability f these policies to create an enabling environment for jobs, funding, inclusive
+stakeholder participation and partnerships. As a result of these policies and their linkages with DLDD issues, the government allocates
+resources for implementing solutions through programmes such as LandCare, Natural Resource Management and LDN and others. This
+programme have successfully managed to restore, rehabilitate and protect many degraded landscapes. Improvement in livelihoods through
+creation of jobs and sustained livelihoods. Main factors of success: Unblocking funding, collaborations in terms of planning and
+implementation where different government department and NGOs work together, cross-sectoral planning and implementation.
+What were the challenges faced, if any?
+The implementation of strategies and policies remain a challenge taking into account financial constraints at all levels and overlapping of
+mandates across all sectors.
+What would you consider to be the lessons learned?
+Policies and strategies need must be implemented in an integrated manner to avoid duplication of efforts and resources
+Has your country supported other countries in establishing policies and enabling environments to promote and implement
+solutions to combat desertification/land degradation and mitigate the effects of drought, including prevention, relief and
+recovery?
+Yes
+No
+Synergies:
+From your perspective, has your country leveraged synergies and integrated DLDD into national plans related to other MEAs,
+particularly the other Rio Conventions and other international commitments?
+Yes
+No
+Your country's actions were aimed at (please check all that apply):
+61 / 110
+
+--- Page 62 ---
+IF: Implementation Framework
+☒ Leveraging DLDD with other national plans related to the other Rio Conventions
+☒ Integrating DLDD into national plans
+☒ Leveraging synergies with other strategies to combat DLDD
+☒ Integrating DLDD into other international commitments
+☐ Other (please specify)
+Use the space below to describe your country's experience.
+DLDD issues are mainstreamed into the plans of other MEAs such as CBD, UNFCCC, AEWA and RAMSAR Conventions.
+Do you consider this experience a success and, if so, what do you consider the reasons behind this success (or lack thereof)?
+Yes, the LDN target set in the country encompasses issues relating to other MEAs. In addition the recently revised White Paper on
+Conservation and Sustainable Use of Biodiversity 2022 have been developed and it takes into account restoration, rehabilitation and
+conservation of degraded landscapes.
+What were the challenges faced, if any?
+Usage and definitions of terminologies across the MEAs.
+What would you consider to be the lessons learned?
+The principle of not leaving no one behind across the MEAs needs to be prioritized. Synergies amongst the Conventions can deliver multiple
+benefits on issues that are best dealt with on environmental degradation at all levels
+Mainstreaming desertification, land degradation and drought:
+From your perspective, did your country take specific actions to mainstream, DLDD in economic, environmental and social
+policies, with a view to increasing the impact and effectiveness of the implementation of the Convention?
+Yes
+No
+If so, DLDD was mainstreamed into (check all that apply):
+☒ Economic policies
+☒ Environmental policies
+☒ Social policies
+☒ Land policies
+☒ Gender policies
+☒ Agricultural policies
+☐ Other (please specify)
+Use the space below to describe your country's experience.
+As part of of building back better from the COVID 19 Pandemic, South Africa has launched the Presidential Economic Stimulus programme
+aimed at accelerating socio-economic and environmental protection through the implementation of projects and programmes focusing on
+creating green jobs, skills development, entrepreneurship and tourism development amongst others. Ability to convene the community of
+practice that involves both scientist, policy makers and implementers is key • Cross sectoral planning and coordination • Working
+collaboratively
+Do you consider this experience a success and, if so, what do you consider the reasons behind this success (or lack thereof)?
+Yes as articulated above.
+62 / 110
+
+--- Page 63 ---
+IF: Implementation Framework
+What were the challenges faced, if any?
+Areas affected by DLLD are most marginalized and consideration needs to be taken into account when addressing socio economic and
+environmental issues as circumstances are not the same.
+What would you consider to be the lessons learned?
+Comprehensive stakeholder needs assessment at the landscape level is key. Roles and responsibilities amongst stakeholders needs to be
+clearly defined to avoid conflicts at landscape level.
+Drought-related policies:
+Has your country established or is your country establishing national policies, measures and governance for drought
+preparedness and management?
+Yes
+No
+Use the space below to describe your country's experience.
+Yes, South Africa has the following structures and interventions in place to address drought: National Drought Joint Coordination
+Committee which integrate all affected stakeholders Establishment of a Drought Relief fund which allocated to affected sectors to address
+drought Establishment of the Inter-ministerial committee on drought related issues that includes preparedness and management Improved
+weekly and monthly early warning systems Development of National Drought Hotspots Map to understand drought prone areas for
+ensuring implementation of required interventions Awareness raising on drought issues are conducted annually to capacitate government
+officials, key stakeholders community on addressing drought issues South Africa also participated towards the development of Drought
+Risk Management and Mitigation Strategy
+Do you consider this experience a success and, if so, what do you consider the reasons behind this success (or lack thereof)?
+• Yes, coordination and partnership on the implementation of drought related issues has improved over the years.
+What were the challenges faced, if any?
+Drought is not yet profiled as a national risk as such there is a limited cooperation from other sectors of the society Drought is not
+experienced equally across the country and across the ecosystems or landscapes as such plans and programmes must always be fit for
+purpose
+What would you consider to be the lessons learned?
+Establishment of Regional Strategy on drought can help in understanding drought related issues at all levels Drought also contribute to
+forced migration Financial resources is key in addressing drought related issues
+Has your country supported other countries in establishing policies, measures and governance for drought preparedness and
+management, in accordance with the mandate of the Convention?
+Yes
+No
+63 / 110
+
+--- Page 64 ---
+IF: Implementation Framework
+Action on the Ground
+Sustainable land management practices:
+Has your country implemented or is your country implementing sustainable land management (SLM) practices to address
+DLDD?
+Yes
+No
+What types of SLM practices are being implemented?
+☒ Agroforestry
+☒ Area closure (stop use, support restoration)
+☒ Beekeeping, fishfarming, etc
+☒ Cross-slope measure
+☒ Ecosystem-based disaster risk reduction
+☐ Energy efficiency
+☒ Forest plantation management
+☒ Home gardens
+☒ Improved ground/vegetation cover
+☐ Improved plant varieties animal breeds
+☒ Integrated crop-livestock management
+☐ Integrated pest and disease management (incl. organic agriculture)
+☐ Integrated soil fertility management
+☐ Irrigation management (incl. water supply, drainage)
+☒ Minimal soil disturbance
+☒ Natural and semi-natural forest management
+☒ Pastoralism and grazing land management
+☐ Post-harvest measures
+☒ Rotational system (crop rotation, fallows, shifting, cultivation)
+☒ Surface water management (spring, river, lakes, sea)
+☐ Water diversion and drainage
+☒ Water harvesting
+☒ Wetland protection/management
+☒ Windbreak/Shelterbelt
+☐ Waste management / Waste water management
+☐ Other (please specify)
+Use the space below to share more details about your country's experience:
+Sustainable Land Management issues cuts across the mandates of different Sector Departments and Public Entities. As such different
+Sector Departments and Public Entities have established programmes and projects with an objective of addressing DLDD on the ground.
+Would you consider the implemented practices successful and what do you consider the main factors of success?
+Yes, the implementation was successful because the above projects were able to minimize land degradation, loss of biodiversity and
+enhanced climate change adaptation and mitigation while contributing to sustainable livelihoods, economic growth, poverty alleviation and
+green jobs. The ability of sustainable land management projects and programmes to promote the sustainable use and management of
+agricultural natural resources to the communities through awareness campaigns and the development of conservation agriculture policy.
+Factors of Success: Integrated planning at national level Allocation of domestic resources Stakeholder engagement Enabling policy
+environment Political commitment
+64 / 110
+
+--- Page 65 ---
+IF: Implementation Framework
+What were the challenges faced, if any?
+Synergies still need to be strengthened accross all sectors to ensure effectiveness in the implementation of Sustainable Land Management
+Private Sector and other stakeholdess do not hold land restoration as a priority which limit leveraging of resources for the implementation
+of Sustainable Land Management projects and programmes Land restoration and rehabilitation is expensive and requires substantial
+resources for implementations
+What do you consider to be the lessons learned?
+The inclusion of the Civil Society Organizations can help in the delivery of the Land Degradation Neutrality target set. The inability of
+conservation/climate smart agriculture project and programmes to attract Civil Society Organizations (CSO) requires further effort
+Establish and develop effective capacity and commitment at a local level to drive this – “leverage partnerships” with others to ensure
+optimal outcomes SA need an integrated national SLM guidelines developed in collaboration with all sectors that we can all refer and use
+How did you engage women and youth in these activities?
+South Africa has an Expanded Public Works Programme (EPWP) policy and guidelines that encourages all sector departments and public
+entities to engage and ensure partcipations of women, youth and people with disabilities in all projects and programmes including the one
+aimed at addressing issues of Sustainable Land Management
+Has your country supported other countries in the implementation of SLM practices?
+Yes
+No
+Restoration and Rehabilitation:
+Has your country implemented or is your country implementing restoration and rehabilitation practices in order to assist with
+the recovery of ecosystem functions and services?
+Yes
+No
+What types of rehabilitation and restoration practices are being implemented?
+☒ Restore/improve tree-covered areas
+☒ Increase tree-covered area extent
+☒ Restore/improve croplands
+☒ Restore/improve grasslands
+☒ Restore/improve wetlands
+☒ Increase soil fertility and carbon stock
+☒ Manage artificial surfaces
+☒ Restore/improve protected areas
+☒ Increase protected areas
+☒ Improve coastal management
+☒ General instrument (e.g. policies, economic incentives)
+☒ Restore/improve multiple land uses
+☒ Reduce/halt conversion of multiple land uses
+☒ Restore/improve multiple functions
+☒ Restore productivity and soil organic carbon stock in croplands and grasslands
+☐ Other/general/unspecified
+Use the space below to share more details about your country's experience:
+South Africa is implementing several projects and programmes aimed at addressing Sustainable Land Management, Agricultural, climate
+65 / 110
+
+--- Page 66 ---
+IF: Implementation Framework
+change and biodiversity issues. These projects and programmes are aimed the implementing interventions and measures aimed at
+arresting land degradation in the country. These are programmes such as: The Natural Resource Management Programme which aim to
+support sustainable livelihoods for local people through integrated landscape management that strives for resilient social-ecological
+systems, and which fosters equity in access to ecosystem services through the following flagship projects, amongst others: Working on
+Fire is an Expanded Public Works Programme (EPWP) aimed at providing work opportunities to young men and women. The Programme
+resides under, and is funded by, the Department of Forestry, Fisheries, and the Environment. Participants are recruited from marginalized
+communities and trained in fire awareness and education, fire prevention and fire suppression skills. Moreover, they are trained in skills
+such as first aid, carpentry, cooking, health and safety and communications. Working for Land is aimed at empowering the greater
+community with rehabilitated areas of land by planting trees and making more land available for agricultural land grazing uses. This
+programme seeks to address the degradation of land due to desertification, overgrazing, soil erosion, poor storm-water management and
+unsustainable farming practices. Working for Water is to control invasive alien species while promoting resource conservation and poverty
+reduction. While the main goal of this programme is to recover scarce water, other components include the conservation of biological
+diversity and the building and empowerment of local communities through job creation. LandCare-This programme aims to optimize and
+sustain resources in order to attain greater productivity, food security, job creation and a better quality of life by encouraging and supporting
+sustainable land use practices, raising awareness and promoting resource conservation ethics while also reducing poverty and creating
+jobs through natural resource rehabilitation, improvement and conservation. Programme is a government-supported community based
+initiative, which is active throughout the country driven by both the public and private sectors through partnerships and cooperation. The
+purpose of the programme is to enhance the sustainable use of natural resources through community participatory approach, job creation
+using Expanded Public Works Programme model (EPWP), to improve food security and better life for all (well-being) of society as guided by
+six indivisible principles. In addition, afforestation and agroforestry projects are being implemented across the country to address issues of
+climate change, land restoration and biodiversity.
+Would you consider the implemented practices successful and what do you consider the main factors of success?
+Yes, the implementation was successful because the above projects were able to minimize land degradation, loss of biodiversity and
+enhanced climate change adaptation and mitigation while contributing to sustainable livelihoods, economic growth, poverty alleviation and
+green jobs. The ability of sustaimnable land management projects and programms to promote the sustainable use and management of
+agricultural natural resources to the communities through awareness campaigns and the development of conservation agriculture policy.
+Factors of Success: Integrated planning at national level Allocation of domestic resources Stakeholder engagement Enabling policy
+environment Political commitment engagement of communities
+What were the challenges faced, if any?
+Synergies still need to be strengthened across all sectors to ensure effectiveness in the implementation of Sustainable Land Management
+strengthening private sector and non government organization participation in land restoration programmes Land restoration and
+rehabilitation is expensive and requires substantial resources for implementations
+What do you consider to be the lessons learned?
+Ensure effective scientific support to measure and quantify impact and drive “mainstreaming” of the outcomes being pursued. Establish
+and develop effective capacity and commitment at a local level to drive this – “leverage partnerships” with others to ensure optimal
+outcomes Times of change are times of opportunities – have a good knowledge management system in place to drive this change in your
+context. Leadership support and buy-in is critical for the success – ensure effective engagements and information flow in place for leaders
+to understand the content and how it relates to national imperatives. Establish and develop effective capacity and commitment at a local
+level to drive this – “leverage partnerships” with others to ensure optimal outcomes. The need to establish optimal cross-sectoral platforms
+to link policy and practice requires a need to change and shake-up the current conventions. Develop mechanisms to break through the
+bureaucracy to make engagement easier. Create spaces to listen and learn and accept that one will make mistakes along the way.
+How did you engage women and youth in SLM activities?
+South Africa has an Expanded Public Works Programme (EPWP) policy and guidelines that encourages all sector departments and public
+entities to engage and ensure participation of women, youth and people with disabilities in all projects and programmes including the one
+aimed at addressing issues of Sustainable Land Management.
+Has your country supported other countries with restoration and rehabilitation practices in order to assist with the recovery of
+ecosystem functions and services?
+Yes
+No
+Drought risk management and early warning systems:
+66 / 110
+
+--- Page 67 ---
+IF: Implementation Framework
+Is your country developing a drought risk management plan, monitoring or early warning systems and safety net programmes to
+address DLDD?
+Yes
+No
+If so, DLDD was mainstreamed into (check all that apply):
+☒ A drought risk management plan
+☒ Monitoring and early warning systems
+☒ Safety net programmes
+Use the space below to describe your country's experience.
+South Africa is a water scarce country with annual precipitation that varies from less than 50 mm per annum in the far west up to 1500 mm
+per annum in some east coast regions. Precipitation in South Africa is characterized with great variability from extremely wet to extremely
+dry. The issues of drought in South Africa cuts across different sector departments and public entities. These are Departments of Forestry,
+Fisheries and the Environment; the Department of Water and Sanitation; Department of Cooperative and Traditional Affairs and the
+Department of Agriculture, Land Reform and Rural Development. These departments are responsible for developing and implementing
+measures aimed at addressing meteorological, biodiversity, social and agricultural droughts. in addition, the Agricultural Research Council
+is responsible for conducting researches related to drought and also developing an early warning systems related to drought especially on
+drought related to water, biodiversity and agriculture. The ARC is also involved in research activities around land degradation and drought,
+as well as climate change mitigation and adaptation. These include amongst others, bankrupt bush identification and monitoring,
+Agricultural drought preparedness framework, WEF nexus for catchment based assessments, Resilient e-farming for agro-climate risk
+management, Measurement of GHG emissions from a wetland ecosystem and Development of Drought Early Warning System. The South
+Africa Weather Services (SAWS) also develop early warning systems for the country on all weather related matters including conducting
+research on drought risk impacts and vulnerability assessment and the of development of multi-hazard early warning system. In addition,
+SAWS provides information on: Drought monitoring, changes in precipitation, temperature, streamflow, soil moisture, monthly SPI; Drought
+forecasting and projections; Drought risk impact and vulnerability assessments; Agro-hydro modelling and Seasonal forecasts, and
+probability of expected (rainfall/temperature) conditions in a season For early warning, South Africa have a system that uses multi-satellite
+imagery for production of satellite-based vegetation and drought product, Weather station data derived Standard precipitation index for
+monitoring drought at different time scales. An early warning newsletter is issued monthly. Surveillance and Early-Warning Systems to
+Reduce Pest Damage Severity under Changing Climate.
+Do you consider this experience a success and, if so, what do you consider the reasons behind this success (or lack thereof)?
+Yes, the experience is a success even though South Africa is prone to drought regardless of all systems in place such as early warning
+systems, drought relief funding and improved institutional arrangement, good governance and partnership however there is still need to
+strengthen the following areas: Drought preparedness and proactive approach still need to be strengthened Early waning systems to reach
+the most vulnerable population or marginalized groups Capacity building of policy and decision makers in addressing drought Encourages
+farmers to consider insurance bonds and practice water conservation and management However the success was due to the following:
+Improved institutional coordination through the National Drought Joint Coordination Committee Establishment of the Drought Relief
+funding dedicated to assist affected and vulnerable community Establishment of a dedicated Disaster Management Centre responsible for
+coordinating drought relief fund and other drought disaster related matters Establishment of political will or support dedicated to
+coordinate issues of drought at political level Research being undertaken to understand issues of drought in the country and at regional
+level Restoration and conservation of water, biodiversity and other critical ecosystems that assist in adapting to drought
+If you have or are developing a drought risk management plan as part of the Drought Initiative, please share here your
+experience on activities undertaken?
+South Africa does not have Drought Risk Management in place but have developed the National Drought Plan as well Integrated National
+Drought Disaster Risk Reduction and Management Plan (INDDRRMP). The goal is to ensure drought risk reduction in the country, through
+integrated and coordinated planning with a shift of focus from drought relief and response to drought prevention, mitigation and
+preparedness. The drought monitoring and timely analysis of drought indicators forms an integral part of the plan as they are essential for
+early warning and implementation of drought risk reduction contingency arrangements. The drought classification system and indicator
+thresholds are recommended to be the first steps in the drought management plan to be applied at a national scale. The following
+deliverables were achieved through the INDDRRMP development process: Desktop National Drought Risk Assessment/Analysis report.
+Drought Information management and communication systems report. Sectors Contingency plan templates. Draft 1 and final INDDRRMP.
+Capacity building sessions on the implementation of the INDDRRMP. The plan was developed in collaboration with all stakeholders or
+relevant stakeholders that are responsible for addressing issues of drought. However, The Disaster Management Act (Act 57 of 2002) and
+the National Disaster Management Framework (NDMF, 2005) provide the legislative and policy frameworks for the provincial drought
+management framework. However, the government of South Africa's has established flagship programmes to address issues drought risk
+reductions, these are programmes such as: Climate Change response public works programmes ( Working for Water, Working for Wetlands,
+67 / 110
+
+--- Page 68 ---
+IF: Implementation Framework
+Working on Fire, Working for Land, LandCare and Peoples and Parks https://www.dffe.gov.za/projectsprogrammes Water Conservation and
+Demand Management flagship program (war on lakes, national rainwater harvesting program, development of community infrastructure)
+Renewable Energy Flagship Programme- (National solar water heating program) In addition, the Disaster Management Act (Act 57 of 2002)
+provides for the declaration of disasters through national, provincial and local government. When a dry period develops into a drought and
+municipalities, the farming sector, and other stakeholder’s highlight the need for a drought declaration in order to assess the magnitude and
+severity of drought; informs other role players for potential impacts; ensure collaborations in addressing drought as well as assisting
+affected farmers.
+What were the challenges faced, if any?
+Issues of drought are being addressed in silos rather than integrated approach which creates duplication of efforts and resources or even
+trigger lack of responsibilities and accountability. Most of the institutions in South Africa do not have proactive drought management plan
+in place but prefer addressing drought in a reactive manner instead of adopting proactive approach in addressing drought.
+What would you consider to be the lessons learned?
+South Africa need to develop an integrated drought management/ drought risk management plan which follows a proactive drought
+management than reactive drought management across all sectors. Issues of drought can be addressed in an integrated approach rather
+than sector specific. Without profiling the impacts of drought on environment, social and economic South Africa would not be able to
+manage the impacts of drought at scale.
+Has your country supported other countries in developing drought risk management, monitoring and early warning systems and
+safety net programmes to address DLDD?
+Yes
+No
+Alternative livelihoods:
+Does your country promote alternative livelihoods practice in the context of DLDD?
+Yes
+No
+Could you list some practices implemented at country level to promote alternative livelihoods?
+☒ Crop diversification
+☒ Agroforestry practices
+☒ Rotational grazing
+☒ Rain-fed and irrigated agricultural systems
+☒ Small vegetable gardens
+☐ Production of artisanal goods
+☐ Renewable energy generation
+☒ Eco-tourism
+☒ Production of medicinal and aromatic plants
+☐ Aquaculture using recycled wastewater
+☐ Other (please specify)
+Use the space below to describe your country's experience.
+Yes, South Africa through the implementation of Expanded Public Works Programme (EPWP) such as Working for Water, Working for Land,
+Working for Wetlands, Working on Fire, LandCare, War on Leaks, Rain Water Harvesting, Youth Environmental Services, Groen Sebenza
+programme, Presidential Stimulus Program support community livelihoods, especially the rural poor as well as creating green jobs for
+employed youth and graduates. South Africa Government also support the youth and green entrepreneurs initiative focusing on farming,
+eco-tourism, wildlife economy, nurseries, climate change and biodiversity conservation. Through this initiative, the Government provide
+starts up findings opportunities for the youth and green entrepreneurs while also providing them with necessary capacity building and
+technical support.
+68 / 110
+
+--- Page 69 ---
+IF: Implementation Framework
+Do you consider this experience a success and, if so, what do you consider the reasons behind this success (or lack thereof)?
+Yes, the experience is a success because through the implementation of projects and programmes mentioned above which aim to support
+or create livelihoods the following are able to be achieved: Green job creation for communities such as Jobs Fund, Presidential Stimulus
+Package, Working For Programmes, Integrated Rural Development iniatives Job creation for graduates while providing them with much
+needed training capacity to address environmental challenges Local eco-tourism initiatives are able to succeed and create additional jobs
+Local wildlife economy and biodiversity economy initiatives are able to succeed and create additional jobs opportunities The LandCare
+programme also support smallholders farmers with equipment and resources which also contributes to jobs creation to address issues of
+livelihoods Improved restoration of degraded landscapes such as wetlands also assist with improving tourism sector while contributing to
+livelihoods though jobs creation
+What were the challenges faced, if any?
+Benefits to people through jobs created do not always mean improved conservation outcome. Turning short term alternatives into long
+term livelihoods by making the sustainable Continue to invest in the maintenance, restoration and rehabilitation of ecological infrastructure
+to get best return in investment. The growing cost of land restoration inter alia livelihood improvement
+What would you consider to be the lessons learned?
+• There is a need to balance the livelihoods objectives with the conservation objectives. • There is a need to continue making the case that
+biodiversity create more jobs that are sustainable than jobs in agriculture sector.
+Do you consider your country to be taking special measures to engage women and youth in promoting alternative livelihoods?
+Yes
+No
+Please elaborate
+National policies targeting previously disadvantaged Individuals Prioritization of women in employment
+Establishing knowledge sharing systems:
+Has your country established systems for sharing information and knowledge and facilitating networking on best practices and
+approaches to drought management?
+Yes
+No
+Please use this space to share/list the established systems available in your country for sharing information and knowledge
+and facilitating networking on best practices and approaches to drought management.
+UNCCD National Coordinating Body Committee on Science and Technology Wetland Indaba Ecological Infrastructure Indaba/ Catchment-
+based Indaba Research and Land Degradation Indaba National Biodiversity Planning Forum Land Rehabilitation Conference Ecosystem-
+based Adaptation community of practice. Catchment based community of practice
+Do you consider this experience a success and, if so, what do you consider the reasons behind this success (or lack thereof)?
+Yes. • Co-creation of solutions and networking • Co-learning and partnerships • Resource mobilization- enabling collaborations and co-
+funding.
+What were the challenges faced, if any?
+Drought is a competing mandate across sector.
+69 / 110
+
+--- Page 70 ---
+IF: Implementation Framework
+What would you consider to be the lessons learned?
+• We are able to co-create solution and learn together.
+Do you consider that your country has implemented specific actions that promote women’s access to knowledge and
+technology?
+Yes
+No
+Please elaborate
+South Africa has a dedicated Department of Women, Youth and Persons with Disability, which is tasked with providing strategic leadership,
+coordination and oversight to government departments and the country in mainstreaming empowerment programmes on women, youth
+and persons with disabilities. South Africa has several initiatives that are aimed at empowering women in various sectors such as: Women
+as beneficiaries of the Jobs fund - The environment sector implements over R500 million Groen Sebenza projects that offer unemployed
+graduates and school-leavers the opportunity to work in 43 participating private sector, government, NGO and academic institutions. Over
+60% of beneficiaries are women. Women as beneficiaries of the Green fund - The 2010 National Green Economy Summit commitments
+included that green jobs opportunities are to cater for women in implementing low-hanging and long-term programmes. In this green fund,
+rural women are pioneering the commercial production of selected indigenous traditional medicinal plants, with the sale of herbal products
+ensuring a fully functional and operational enterprise that provides green jobs. Women work force on the Expanded Public Works
+Programme - The environment sector is supporting a host of other projects around the country that promote environmental conservation
+and sustainable use, but at the same time impart skills to women in areas such as wetland conservation and rehabilitation. These include
+those within the ambit of the Expanded Public Works Programme such as Working for Wetlands, Working for Water, Working for Fire,
+Working for Waste and the Land Care Programme. These projects provide dozens of short term and full time employment for women and
+youth. Employment equity targets- the Ministry of Forestry, Fisheries and the environment is currently implementing employment equity that
+targets employment of women in senior management positions. In 2021/22 financial year, 46% of women were employed in management
+positions.
+Do you consider this experience a success and, if so, what do you consider the reasons behind this success (or lack thereof)?
+Yes, the government has created enabling environment for women inclusion particularly in the DLDD policies and strategies. This also
+includes an increase in the women in the implementation of projects and programme for DLDD. In addition, government has a dedicated
+commitment to the employment of women in decision making positions of responsibilities to address DLDD.
+What were the challenges faced, if any?
+Literacy level amongst woman in rural areas is low and this makes it hard to promote their access to knowledge and technology. Women in
+rural areas are often left out when the country is implementing land restoration activities.
+What would you consider to be the lessons learned?
+Woman are as capable as men in dealing with DLDD matters
+70 / 110
+
+--- Page 71 ---
+Other files for Reporting
+South Africa - SO5-1 recipient Download 27.8 KB
+71 / 110
+
+--- Page 72 ---
+South Africa – SO1-1.M1
+Land cover in the initial year of the baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 555550000000000 k kkkkmmmmm 11111000000000000000 k kkkkmmmmm
+Disclaimer
+Skowno AL, Jewitt D, Slingsby JA. Rates and patterns of habitat loss across South Africa’s vegetation biomes. S Afr J Sci. 2021;117(1/2), Art. #8182. https://doi.org/10.17159/sajs.2021/8182. The
+designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• European Space Agency Climate Change Initiative Land Cover (ESA CCI-LC) product, 1992-2019. URL: https://www.esa-landcover-cci.org/
+72 / 110
+
+--- Page 73 ---
+South Africa – SO1-1.M2
+Land cover in the baseline year
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 555550000000000 k kkkkmmmmm 11111000000000000000 k kkkkmmmmm
+Disclaimer
+Skowno AL, Jewitt D, Slingsby JA. Rates and patterns of habitat loss across South Africa’s vegetation biomes. S Afr J Sci. 2021;117(1/2), Art. #8182. https://doi.org/10.17159/sajs.2021/8182. The
+designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• European Space Agency Climate Change Initiative Land Cover (ESA CCI-LC) product, 1992-2019. URL: https://www.esa-landcover-cci.org/
+73 / 110
+
+--- Page 74 ---
+South Africa – SO1-1.M3
+Land cover in the latest reporting year
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 555550000000000 k kkkkmmmmm 11111000000000000000 k kkkkmmmmm
+Disclaimer
+Skowno AL, Jewitt D, Slingsby JA. Rates and patterns of habitat loss across South Africa’s vegetation biomes. S Afr J Sci. 2021;117(1/2), Art. #8182. https://doi.org/10.17159/sajs.2021/8182. The
+designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• ESA. Land Cover CCI Product User Guide Version 2. Tech. Rep. (2017). Available at: maps.elie.ucl.ac.be/CCI/viewer/download/ESACCI-LC-Ph2-PUGv2_2.0.pdf
+74 / 110
+
+--- Page 75 ---
+South Africa – SO1-1.M4
+Land cover change in the baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 555550000000000 k kkkkmmmmm 11111000000000000000 k kkkkmmmmm
+Disclaimer
+Skowno AL, Jewitt D, Slingsby JA. Rates and patterns of habitat loss across South Africa’s vegetation biomes. S Afr J Sci. 2021;117(1/2), Art. #8182. https://doi.org/10.17159/sajs.2021/8182. The
+designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• European Space Agency Climate Change Initiative Land Cover (ESA CCI-LC) product, 1992-2019. URL: https://www.esa-landcover-cci.org/
+75 / 110
+
+--- Page 76 ---
+South Africa – SO1-1.M5
+Land cover change in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 555550000000000 k kkkkmmmmm 11111000000000000000 k kkkkmmmmm
+Disclaimer
+Skowno AL, Jewitt D, Slingsby JA. Rates and patterns of habitat loss across South Africa’s vegetation biomes. S Afr J Sci. 2021;117(1/2), Art. #8182. https://doi.org/10.17159/sajs.2021/8182. The
+designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• ESA. Land Cover CCI Product User Guide Version 2. Tech. Rep. (2017). Available at: maps.elie.ucl.ac.be/CCI/viewer/download/ESACCI-LC-Ph2-PUGv2_2.0.pdf
+76 / 110
+
+--- Page 77 ---
+South Africa – SO1-1.M6
+Land cover degradation in the baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 555550000000000 k kkkkmmmmm 11111000000000000000 k kkkkmmmmm
+Disclaimer
+Skowno AL, Jewitt D, Slingsby JA. Rates and patterns of habitat loss across South Africa’s vegetation biomes. S Afr J Sci. 2021;117(1/2), Art. #8182. https://doi.org/10.17159/sajs.2021/8182. The
+designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• European Space Agency Climate Change Initiative Land Cover (ESA CCI-LC) product, 1992-2019. URL: https://www.esa-landcover-cci.org/
+77 / 110
+
+--- Page 78 ---
+South Africa – SO1-1.M7
+Land cover degradation in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 555550000000000 k kkkkmmmmm 11111000000000000000 k kkkkmmmmm
+Disclaimer
+Skowno AL, Jewitt D, Slingsby JA. Rates and patterns of habitat loss across South Africa’s vegetation biomes. S Afr J Sci. 2021;117(1/2), Art. #8182. https://doi.org/10.17159/sajs.2021/8182. The
+designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• ESA. Land Cover CCI Product User Guide Version 2. Tech. Rep. (2017). Available at: maps.elie.ucl.ac.be/CCI/viewer/download/ESACCI-LC-Ph2-PUGv2_2.0.pdf
+78 / 110
+
+--- Page 79 ---
+South Africa – SO1-2.M1
+Land productivity dynamics in the baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 555550000000000 k kkkkmmmmm 11111000000000000000 k kkkkmmmmm
+Disclaimer
+Skowno AL, Jewitt D, Slingsby JA. Rates and patterns of habitat loss across South Africa’s vegetation biomes. S Afr J Sci. 2021;117(1/2), Art. #8182. https://doi.org/10.17159/sajs.2021/8182. The
+designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• EC-JRC, 2021, based on Xavier Rotllan-Puig, Eva Ivits, Michael Cherlet, LPDynR: A new tool to calculate the land productivity dynamics indicator, Ecological Indicators, Volume 133, 2021, 108386, ISSN
+1470-160X. URL: https://doi.org/10.1016/j.ecolind.2021.108386
+79 / 110
+
+--- Page 80 ---
+South Africa – SO1-2.M2
+Land productivity dynamics in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 555550000000000 k kkkkmmmmm 11111000000000000000 k kkkkmmmmm
+Disclaimer
+Skowno AL, Jewitt D, Slingsby JA. Rates and patterns of habitat loss across South Africa’s vegetation biomes. S Afr J Sci. 2021;117(1/2), Art. #8182. https://doi.org/10.17159/sajs.2021/8182. The
+designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• EC-JRC, 2021, based on Xavier Rotllan-Puig, Eva Ivits, Michael Cherlet, LPDynR: A new tool to calculate the land productivity dynamics indicator, Ecological Indicators, Volume 133, 2021, 108386, ISSN
+1470-160X. URL: https://doi.org/10.1016/j.ecolind.2021.108386
+80 / 110
+
+--- Page 81 ---
+South Africa – SO1-2.M3
+Land productivity degradation in the baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 555550000000000 k kkkkmmmmm 11111000000000000000 k kkkkmmmmm
+Disclaimer
+Skowno AL, Jewitt D, Slingsby JA. Rates and patterns of habitat loss across South Africa’s vegetation biomes. S Afr J Sci. 2021;117(1/2), Art. #8182. https://doi.org/10.17159/sajs.2021/8182. The
+designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• EC-JRC, 2021, based on Xavier Rotllan-Puig, Eva Ivits, Michael Cherlet, LPDynR: A new tool to calculate the land productivity dynamics indicator, Ecological Indicators, Volume 133, 2021, 108386, ISSN
+1470-160X. URL: https://doi.org/10.1016/j.ecolind.2021.108386
+81 / 110
+
+--- Page 82 ---
+South Africa – SO1-2.M4
+Land productivity degradation in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 555550000000000 k kkkkmmmmm 11111000000000000000 k kkkkmmmmm
+Disclaimer
+Skowno AL, Jewitt D, Slingsby JA. Rates and patterns of habitat loss across South Africa’s vegetation biomes. S Afr J Sci. 2021;117(1/2), Art. #8182. https://doi.org/10.17159/sajs.2021/8182. The
+designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• Sims, N. C., Newnham, G. J., England, J. R., Guerschman, J., Cox, S. J. D., Roxburgh, S. H., Viscarra Rossel, R. A., Fritz, S., & Wheeler, I. (2021). Good Practice Guidance. SDG Indicator 15.3.1, Proportion of Land
+That Is Degraded Over Total Land Area. Version 2.0. (2nd ed.). United Nations Convention to Combat Desertification (UNCCD).
+82 / 110
+
+--- Page 83 ---
+South Africa – SO1-3.M1
+Soil organic carbon stock in the initial year of the baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 555550000000000 k kkkkmmmmm 11111000000000000000 k kkkkmmmmm
+Disclaimer
+Skowno AL, Jewitt D, Slingsby JA. Rates and patterns of habitat loss across South Africa’s vegetation biomes. S Afr J Sci. 2021;117(1/2), Art. #8182. https://doi.org/10.17159/sajs.2021/8182. The
+designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• International Soil Reference and Information Centre (ISRIC) SoilGrids250m dataset. URL: https://www.isric.org/explore/soilgrids
+83 / 110
+
+--- Page 84 ---
+South Africa – SO1-3.M2
+Soil organic carbon stock in the baseline year
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 555550000000000 k kkkkmmmmm 11111000000000000000 k kkkkmmmmm
+Disclaimer
+Skowno AL, Jewitt D, Slingsby JA. Rates and patterns of habitat loss across South Africa’s vegetation biomes. S Afr J Sci. 2021;117(1/2), Art. #8182. https://doi.org/10.17159/sajs.2021/8182. The
+designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• International Soil Reference and Information Centre (ISRIC) SoilGrids250m dataset. URL: https://www.isric.org/explore/soilgrids
+84 / 110
+
+--- Page 85 ---
+South Africa – SO1-3.M3
+Soil organic carbon stock in the latest reporting year
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 555550000000000 k kkkkmmmmm 11111000000000000000 k kkkkmmmmm
+Disclaimer
+Skowno AL, Jewitt D, Slingsby JA. Rates and patterns of habitat loss across South Africa’s vegetation biomes. S Afr J Sci. 2021;117(1/2), Art. #8182. https://doi.org/10.17159/sajs.2021/8182. The
+designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• de Sousa, L.M., Poggio, L., Batjes, N.H., Heuvelink, G.B.M., Kempen, B., Riberio, E., Rossiter, D., 2020. SoilGrids 2.0: producing quality-assessed soil information for the globe. SOIL Discuss. 2020: 1-37.
+85 / 110
+
+--- Page 86 ---
+South Africa – SO1-3.M4
+Change in soil organic carbon stock in the baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 555550000000000 k kkkkmmmmm 11111000000000000000 k kkkkmmmmm
+Disclaimer
+Skowno AL, Jewitt D, Slingsby JA. Rates and patterns of habitat loss across South Africa’s vegetation biomes. S Afr J Sci. 2021;117(1/2), Art. #8182. https://doi.org/10.17159/sajs.2021/8182. The
+designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• International Soil Reference and Information Centre (ISRIC) SoilGrids250m dataset. URL: https://www.isric.org/explore/soilgrids
+86 / 110
+
+--- Page 87 ---
+South Africa – SO1-3.M5
+Change in soil organic carbon stock in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 555550000000000 k kkkkmmmmm 11111000000000000000 k kkkkmmmmm
+Disclaimer
+Skowno AL, Jewitt D, Slingsby JA. Rates and patterns of habitat loss across South Africa’s vegetation biomes. S Afr J Sci. 2021;117(1/2), Art. #8182. https://doi.org/10.17159/sajs.2021/8182. The
+designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• International Soil Reference and Information Centre (ISRIC) SoilGrids250m dataset. URL: https://www.isric.org/explore/soilgrids
+87 / 110
+
+--- Page 88 ---
+South Africa – SO1-3.M6
+Soil organic carbon degradation in the baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 555550000000000 k kkkkmmmmm 11111000000000000000 k kkkkmmmmm
+Disclaimer
+Skowno AL, Jewitt D, Slingsby JA. Rates and patterns of habitat loss across South Africa’s vegetation biomes. S Afr J Sci. 2021;117(1/2), Art. #8182. https://doi.org/10.17159/sajs.2021/8182. The
+designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• International Soil Reference and Information Centre (ISRIC) SoilGrids250m dataset. URL: https://www.isric.org/explore/soilgrids
+88 / 110
+
+--- Page 89 ---
+South Africa – SO1-3.M7
+Soil organic carbon degradation in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 555550000000000 k kkkkmmmmm 11111000000000000000 k kkkkmmmmm
+Disclaimer
+Skowno AL, Jewitt D, Slingsby JA. Rates and patterns of habitat loss across South Africa’s vegetation biomes. S Afr J Sci. 2021;117(1/2), Art. #8182. https://doi.org/10.17159/sajs.2021/8182. The
+designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• de Sousa, L.M., Poggio, L., Batjes, N.H., Heuvelink, G.B.M., Kempen, B., Riberio, E., Rossiter, D., 2020. SoilGrids 2.0: producing quality-assessed soil information for the globe. SOIL Discuss. 2020: 1-37.
+89 / 110
+
+--- Page 90 ---
+South Africa – SO1-4.M1
+Proportion of land that is degraded over total land area (SDG Indicator 15.3.1) in the baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 555550000000000 k kkkkmmmmm 11111000000000000000 k kkkkmmmmm
+Disclaimer
+Skowno AL, Jewitt D, Slingsby JA. Rates and patterns of habitat loss across South Africa’s vegetation biomes. S Afr J Sci. 2021;117(1/2), Art. #8182. https://doi.org/10.17159/sajs.2021/8182. The
+designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• Derived based on the methodology in the Good Practice Guidance Version 2 for Sustainable Development Goal (SDG) indicator 15.3.1 - Proportion of land that is degraded over total land area. URL:
+https://www.unccd.int/publications/good-practice-guidance-sdg-indicator-1531-proportion-land-degraded-over-total-land
+90 / 110
+
+--- Page 91 ---
+South Africa – SO1-4.M2
+Proportion of land that is degraded over total land area (SDG Indicator 15.3.1) in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 555550000000000 k kkkkmmmmm 11111000000000000000 k kkkkmmmmm
+Disclaimer
+Skowno AL, Jewitt D, Slingsby JA. Rates and patterns of habitat loss across South Africa’s vegetation biomes. S Afr J Sci. 2021;117(1/2), Art. #8182. https://doi.org/10.17159/sajs.2021/8182. The
+designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• Sims, N. C., Newnham, G. J., England, J. R., Guerschman, J., Cox, S. J. D., Roxburgh, S. H., Viscarra Rossel, R. A., Fritz, S., & Wheeler, I. (2021). Good Practice Guidance. SDG Indicator 15.3.1, Proportion of Land
+That Is Degraded Over Total Land Area. Version 2.0. (2nd ed.). United Nations Convention to Combat Desertification (UNCCD).
+91 / 110
+
+--- Page 92 ---
+South Africa – SO1-4.M3
+Progress towards Land Degradation Neutrality (LDN) in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 555550000000000 k kkkkmmmmm 11111000000000000000 k kkkkmmmmm
+Disclaimer
+Skowno AL, Jewitt D, Slingsby JA. Rates and patterns of habitat loss across South Africa’s vegetation biomes. S Afr J Sci. 2021;117(1/2), Art. #8182. https://doi.org/10.17159/sajs.2021/8182. The
+designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• Derived based on the methodology in the Good Practice Guidance Version 2 for Sustainable Development Goal (SDG) indicator 15.3.1 - Proportion of land that is degraded over total land area. URL:
+https://www.unccd.int/publications/good-practice-guidance-sdg-indicator-1531-proportion-land-degraded-over-total-land
+92 / 110
+
+--- Page 93 ---
+South Africa – SO2-3.M1
+Total Population exposed to land degradation (baseline)
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 555550000000000 k kkkkmmmmm 11111000000000000000 k kkkkmmmmm
+Disclaimer
+Skowno AL, Jewitt D, Slingsby JA. Rates and patterns of habitat loss across South Africa’s vegetation biomes. S Afr J Sci. 2021;117(1/2), Art. #8182. https://doi.org/10.17159/sajs.2021/8182. The
+designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• WorldPop project URL: https://www.worldpop.org
+93 / 110
+
+--- Page 94 ---
+South Africa – SO2-3.M2
+Female Population exposed to land degradation (baseline)
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 555550000000000 k kkkkmmmmm 11111000000000000000 k kkkkmmmmm
+Disclaimer
+Skowno AL, Jewitt D, Slingsby JA. Rates and patterns of habitat loss across South Africa’s vegetation biomes. S Afr J Sci. 2021;117(1/2), Art. #8182. https://doi.org/10.17159/sajs.2021/8182. The
+designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• WorldPop project URL: https://www.worldpop.org
+94 / 110
+
+--- Page 95 ---
+South Africa – SO2-3.M3
+Male Population exposed to land degradation (baseline)
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 555550000000000 k kkkkmmmmm 11111000000000000000 k kkkkmmmmm
+Disclaimer
+Skowno AL, Jewitt D, Slingsby JA. Rates and patterns of habitat loss across South Africa’s vegetation biomes. S Afr J Sci. 2021;117(1/2), Art. #8182. https://doi.org/10.17159/sajs.2021/8182. The
+designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• WorldPop project URL: https://www.worldpop.org
+95 / 110
+
+--- Page 96 ---
+South Africa – SO2-3.M4
+Total Population exposed to land degradation (reporting)
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 555550000000000 k kkkkmmmmm 11111000000000000000 k kkkkmmmmm
+Disclaimer
+Skowno AL, Jewitt D, Slingsby JA. Rates and patterns of habitat loss across South Africa’s vegetation biomes. S Afr J Sci. 2021;117(1/2), Art. #8182. https://doi.org/10.17159/sajs.2021/8182. The
+designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• The Total population exposed to land degradation (Reporting) data displayed on this map was provided by the Government of South Africa.
+96 / 110
+
+--- Page 97 ---
+South Africa – SO2-3.M5
+Female Population exposed to land degradation (reporting)
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 555550000000000 k kkkkmmmmm 11111000000000000000 k kkkkmmmmm
+Disclaimer
+Skowno AL, Jewitt D, Slingsby JA. Rates and patterns of habitat loss across South Africa’s vegetation biomes. S Afr J Sci. 2021;117(1/2), Art. #8182. https://doi.org/10.17159/sajs.2021/8182. The
+designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• The Female population exposed to land degradation (Reporting) data displayed on this map was provided by the Government of South Africa.
+97 / 110
+
+--- Page 98 ---
+South Africa – SO2-3.M6
+Male Population exposed to land degradation (reporting)
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 555550000000000 k kkkkmmmmm 11111000000000000000 k kkkkmmmmm
+Disclaimer
+Skowno AL, Jewitt D, Slingsby JA. Rates and patterns of habitat loss across South Africa’s vegetation biomes. S Afr J Sci. 2021;117(1/2), Art. #8182. https://doi.org/10.17159/sajs.2021/8182. The
+designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• The Male population exposed to land degradation (Reporting) data displayed on this map was provided by the Government of South Africa.
+98 / 110
+
+--- Page 99 ---
+South Africa – SO3-1.M1
+Drought hazard in first epoch of baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 555550000000000 k kkkkmmmmm 11111000000000000000 k kkkkmmmmm
+Disclaimer
+Skowno AL, Jewitt D, Slingsby JA. Rates and patterns of habitat loss across South Africa’s vegetation biomes. S Afr J Sci. 2021;117(1/2), Art. #8182. https://doi.org/10.17159/sajs.2021/8182. The
+designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• The Land under drought in epoch 1 data displayed on this map was provided by the Government of South Africa.
+99 / 110
+
+--- Page 100 ---
+South Africa – SO3-1.M2
+Drought hazard in second epoch of baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 555550000000000 k kkkkmmmmm 11111000000000000000 k kkkkmmmmm
+Disclaimer
+Skowno AL, Jewitt D, Slingsby JA. Rates and patterns of habitat loss across South Africa’s vegetation biomes. S Afr J Sci. 2021;117(1/2), Art. #8182. https://doi.org/10.17159/sajs.2021/8182. The
+designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• The Land under drought in epoch 2 data displayed on this map was provided by the Government of South Africa.
+100 / 110
+
+--- Page 101 ---
+South Africa – SO3-1.M3
+Drought hazard in third epoch of baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 555550000000000 k kkkkmmmmm 11111000000000000000 k kkkkmmmmm
+Disclaimer
+Skowno AL, Jewitt D, Slingsby JA. Rates and patterns of habitat loss across South Africa’s vegetation biomes. S Afr J Sci. 2021;117(1/2), Art. #8182. https://doi.org/10.17159/sajs.2021/8182. The
+designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• The Land under drought in epoch 3 data displayed on this map was provided by the Government of South Africa.
+101 / 110
+
+--- Page 102 ---
+South Africa – SO3-1.M4
+Drought hazard in fourth epoch of baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 555550000000000 k kkkkmmmmm 11111000000000000000 k kkkkmmmmm
+Disclaimer
+Skowno AL, Jewitt D, Slingsby JA. Rates and patterns of habitat loss across South Africa’s vegetation biomes. S Afr J Sci. 2021;117(1/2), Art. #8182. https://doi.org/10.17159/sajs.2021/8182. The
+designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• The Land under drought in epoch 4 data displayed on this map was provided by the Government of South Africa.
+102 / 110
+
+--- Page 103 ---
+South Africa – SO3-1.M5
+Drought hazard in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 555550000000000 k kkkkmmmmm 11111000000000000000 k kkkkmmmmm
+Disclaimer
+Skowno AL, Jewitt D, Slingsby JA. Rates and patterns of habitat loss across South Africa’s vegetation biomes. S Afr J Sci. 2021;117(1/2), Art. #8182. https://doi.org/10.17159/sajs.2021/8182. The
+designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• The Land under drought in epoch 5 data displayed on this map was provided by the Government of South Africa.
+103 / 110
+
+--- Page 104 ---
+South Africa – SO3-2.M1
+Drought exposure in first epoch of baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 555550000000000 k kkkkmmmmm 11111000000000000000 k kkkkmmmmm
+Disclaimer
+Skowno AL, Jewitt D, Slingsby JA. Rates and patterns of habitat loss across South Africa’s vegetation biomes. S Afr J Sci. 2021;117(1/2), Art. #8182. https://doi.org/10.17159/sajs.2021/8182. The
+designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• The Total population exposed to drought in epoch 1 data displayed on this map was provided by the Government of South Africa.
+104 / 110
+
+--- Page 105 ---
+South Africa – SO3-2.M2
+Drought exposure in second epoch of baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 555550000000000 k kkkkmmmmm 11111000000000000000 k kkkkmmmmm
+Disclaimer
+Skowno AL, Jewitt D, Slingsby JA. Rates and patterns of habitat loss across South Africa’s vegetation biomes. S Afr J Sci. 2021;117(1/2), Art. #8182. https://doi.org/10.17159/sajs.2021/8182. The
+designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• The Total population exposed to drought in epoch 2 data displayed on this map was provided by the Government of South Africa.
+105 / 110
+
+--- Page 106 ---
+South Africa – SO3-2.M3
+Drought exposure in third epoch of baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 555550000000000 k kkkkmmmmm 11111000000000000000 k kkkkmmmmm
+Disclaimer
+Skowno AL, Jewitt D, Slingsby JA. Rates and patterns of habitat loss across South Africa’s vegetation biomes. S Afr J Sci. 2021;117(1/2), Art. #8182. https://doi.org/10.17159/sajs.2021/8182. The
+designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• The Total population exposed to drought in epoch 3 data displayed on this map was provided by the Government of South Africa.
+106 / 110
+
+--- Page 107 ---
+South Africa – SO3-2.M4
+Drought exposure in fourth epoch of baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 555550000000000 k kkkkmmmmm 11111000000000000000 k kkkkmmmmm
+Disclaimer
+Skowno AL, Jewitt D, Slingsby JA. Rates and patterns of habitat loss across South Africa’s vegetation biomes. S Afr J Sci. 2021;117(1/2), Art. #8182. https://doi.org/10.17159/sajs.2021/8182. The
+designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• The Total population exposed to drought in epoch 4 data displayed on this map was provided by the Government of South Africa.
+107 / 110
+
+--- Page 108 ---
+South Africa – SO3-2.M5
+Drought exposure in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 555550000000000 k kkkkmmmmm 11111000000000000000 k kkkkmmmmm
+Disclaimer
+Skowno AL, Jewitt D, Slingsby JA. Rates and patterns of habitat loss across South Africa’s vegetation biomes. S Afr J Sci. 2021;117(1/2), Art. #8182. https://doi.org/10.17159/sajs.2021/8182. The
+designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• The Total population exposed to drought in epoch 5 data displayed on this map was provided by the Government of South Africa.
+108 / 110
+
+--- Page 109 ---
+South Africa – SO3-2.M6
+Female drought exposure in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 555550000000000 k kkkkmmmmm 11111000000000000000 k kkkkmmmmm
+Disclaimer
+Skowno AL, Jewitt D, Slingsby JA. Rates and patterns of habitat loss across South Africa’s vegetation biomes. S Afr J Sci. 2021;117(1/2), Art. #8182. https://doi.org/10.17159/sajs.2021/8182. The
+designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• The Female population exposed to drought in epoch 5 data displayed on this map was provided by the Government of South Africa.
+109 / 110
+
+--- Page 110 ---
+South Africa – SO3-2.M7
+Male drought exposure in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 555550000000000 k kkkkmmmmm 11111000000000000000 k kkkkmmmmm
+Disclaimer
+Skowno AL, Jewitt D, Slingsby JA. Rates and patterns of habitat loss across South Africa’s vegetation biomes. S Afr J Sci. 2021;117(1/2), Art. #8182. https://doi.org/10.17159/sajs.2021/8182. The
+designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• The Male population exposed to drought in epoch 5 data displayed on this map was provided by the Government of South Africa.
+110 / 110

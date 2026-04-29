@@ -1,0 +1,428 @@
+--- Page 1 ---
+Trends.Earth SDG 15.3.1 summary table
+Summary of SDG 15.3.1 Indicator
+Percent of total
+Area (sq km) land area
+Total land area: 25 165,7 100,00%
+Land area improved: 7 625,1 30,30%
+Land area stable: 8 795,3 34,95%
+Land area degraded: 7 261,4 28,85%
+Land area with no data: 1 483,9 5,90%
+The boundaries, names, and designations used in this report do not imply official endorsement or acceptance by Conservation
+International Foundation, or its partner organizations and contributors. This report is available under the terms of Creative Commons
+Attribution 4.0 International License (CC BY 4.0).
+For more information on Trends.Earth, see http://trends.earth, or contact the team at trends.earth@conservation.org.
+Summary of change in productivity
+Percent of total
+Area (sq km) land area
+Total land area: 25 165,7 100,00%
+Land area with improved productivity: 2 988,0 11,87%
+Land area with stable productivity: 16 092,5 63,95%
+Land area with degraded productivity: 5 611,5 22,30%
+Land area with no data for productivity: 473,7 1,88%
+* For the SDG indicator, areas are considered to be improved if they have "Improving" productivity, to be stable if they have "stable"
+
+--- Page 2 ---
+Area of land with improving productivity by type of land cover transition (sq. km)
+r Land cover type in target year
+a
+e Tree-covered
+y
+e
+n areas Grasslands Croplands Wetlands Artificial areas Other landsWater bodies Total:
+eli
+Tree-covered
+s
+a
+b areas 263,45 47,14 80,77 6,38 1,35 0,00 1,56 400,64
+n
+e
+i Grasslands 54,40 361,23 919,23 12,26 21,26 0,00 1,46 1 369,85
+p Croplands 38,69 103,16 938,35 6,26 7,90 0,00 3,76 1 098,11
+y
+t
+r Wetlands 4,14 4,58 6,50 28,51 2,42 0,00 0,84 46,99
+e
+v
+o Artificial areas 0,15 0,14 1,04 0,00 7,30 0,00 0,27 8,90
+c
+d Other lands 0,00 0,00 0,00 0,00 0,00 0,00 0,00 0,00
+n
+a Water bodies 1,31 0,73 2,64 0,67 0,03 0,00 8,64 14,01
+L
+Total: 362,15 516,96 1 948,52 54,09 40,25 0,00 16,53 2 938,50
+Area of land with stable productivity by type of land cover transition (sq. km)
+r Land cover type in target year
+a
+e Tree-covered
+y
+e
+n areas Grasslands Croplands Wetlands Artificial areas Other landsWater bodies Total:
+eli
+Tree-covered
+s
+a
+b areas 1 177,04 290,00 512,14 43,96 2,10 0,00 3,58 2 028,82
+n
+e
+i Grasslands 259,83 1 985,26 3 717,08 37,17 30,77 0,00 8,16 6 038,27
+p Croplands 261,08 632,68 6 425,44 81,40 44,55 0,00 25,45 7 470,62
+y
+t
+r Wetlands 28,29 26,21 69,73 114,68 5,89 0,00 1,61 246,39
+e
+v
+o Artificial areas 0,26 0,30 6,97 0,15 16,80 0,00 0,48 24,96
+c
+d Other lands 0,00 0,00 0,00 0,00 0,00 0,00 0,00 0,00
+n
+a Water bodies 0,93 0,79 8,61 0,74 0,30 0,00 16,06 27,43
+L
+Total: 1 727,44 2 935,24 10 739,97 278,09 100,42 0,00 55,32 15 836,48
+Area of land with stressed productivity by type of land cover transition (sq. km)
+Land cover type in target year
+Tree-covered
+areas Grasslands Croplands Wetlands Artificial areas Other landsWater bodies Total:
+
+--- Page 3 ---
+r
+a
+e
+y
+e
+n
+eli
+Tree-covered
+s
+a
+b areas 0,00 0,00 0,00 0,00 0,00 0,00 0,00 0,00
+n
+e
+i Grasslands 0,00 0,13 0,00 0,00 0,00 0,00 0,05 0,18
+p Croplands 0,00 0,00 0,31 0,00 0,00 0,00 0,29 0,60
+y
+t
+r Wetlands 0,00 0,00 0,00 0,02 0,00 0,00 0,08 0,09
+e
+v
+o Artificial areas 0,00 0,00 0,00 0,00 0,39 0,00 0,01 0,40
+c
+d Other lands 0,00 0,00 0,00 0,00 0,00 0,00 0,00 0,00
+n
+a Water bodies 0,00 0,00 0,67 0,01 0,08 0,00 1,69 2,45
+L
+Total: 0,00 0,13 0,98 0,03 0,47 0,00 2,12 3,72
+Area of land with moderate decline for productivity by type of land cover transition (sq. km)
+r Land cover type in target year
+a
+e Tree-covered
+y
+e
+n areas Grasslands Croplands Wetlands Artificial areas Other landsWater bodies Total:
+eli
+Tree-covered
+s
+a
+b areas 246,08 62,81 102,59 11,40 0,60 0,00 0,63 424,10
+n
+e
+i Grasslands 51,15 333,16 482,47 5,68 4,91 0,00 2,47 879,83
+p Croplands 59,33 113,16 1 271,87 18,54 9,67 0,00 5,68 1 478,25
+y
+t
+r Wetlands 10,88 7,26 18,13 18,57 2,02 0,00 1,64 58,51
+e
+v
+o Artificial areas 0,18 0,86 4,52 0,00 6,67 0,00 0,26 12,49
+c
+d Other lands 0,00 0,00 0,00 0,00 0,00 0,00 0,00 0,00
+n
+a Water bodies 0,08 0,15 0,93 0,08 0,27 0,00 3,67 5,17
+L
+Total: 367,70 517,40 1 880,52 54,26 24,13 0,00 14,34 2 858,35
+Area of land with declining productivity by type of land cover transition (sq. km)
+r Land cover type in target year
+a
+e Tree-covered
+y
+e
+n areas Grasslands Croplands Wetlands Artificial areas Other landsWater bodies Total:
+eli
+Tree-covered
+s
+a
+b areas 137,90 34,93 66,79 4,96 1,77 0,00 1,50 247,84
+n
+e
+i Grasslands 41,91 300,74 401,94 8,72 17,94 0,00 3,46 774,72
+p Croplands 38,20 104,17 1 145,42 22,14 60,92 0,00 6,63 1 377,47
+y
+t
+r Wetlands 4,03 11,08 33,92 56,53 7,36 0,00 5,93 118,85
+e
+v
+o
+c
+d
+n
+a
+L
+
+--- Page 4 ---
+r
+a
+e
+y
+e
+n
+eli
+s
+a
+b
+n
+e
+i
+p
+y
+t
+r
+e
+v
+o Artificial areas 0,20 1,84 6,67 0,07 37,99 0,00 1,45 48,22
+c
+d Other lands 0,00 0,00 0,00 0,00 0,00 0,00 0,00 0,00
+n
+a Water bodies 0,01 0,03 0,73 0,27 0,34 0,00 4,34 5,73
+L
+Total: 222,24 452,78 1 655,49 92,69 126,31 0,00 23,32 2 572,83
+Area of land with no data for productivity by type of land cover transition (sq. km)
+Land cover type in target year
+Tree-covered
+r
+e a areas Grasslands Croplands Wetlands Artificial areas Other landsWater bodies Total:
+y
+e Tree-covered
+n
+eli areas 0,09 0,01 0,00 0,03 0,00 0,00 0,51 0,64
+s
+b a Grasslands 0,00 0,46 0,18 0,38 0,17 0,00 2,97 4,16
+n
+e
+i Croplands 0,03 0,14 6,92 0,03 0,27 0,00 5,12 12,52
+p
+y Wetlands 0,26 0,07 0,58 2,35 0,20 0,00 2,03 5,49
+t
+r
+v e Artificial areas 0,00 0,02 0,49 0,00 1,13 0,00 0,31 1,94
+o
+d
+c Other lands 0,00 0,00 0,00 0,00 0,00 0,00 0,00 0,00
+n
+a Water bodies 0,15 2,01 20,96 3,05 3,27 0,00 1 753,53 1 782,96
+L
+Total: 0,54 2,70 29,13 5,84 5,04 0,00 1 764,47 1 807,71
+The boundaries, names, and designations used in this report do not imply official endorsement or acceptance by Conservation
+For more information on Trends.Earth, see http://trends.earth, or contact the team at trends.earth@conservation.org.
+Trends.Earth soil organic carbon summary table
+Summary of change in soil organic carbon
+Percent of total
+Area (sq km) land area
+Total land area: 24 871,2 98,83%
+Land area with improved soil organic carbon: 780,1 3,10%
+Land area with stable soil organic carbon: 22 672,4 90,09%
+Land area with degraded soil organic carbon: 266,4 1,06%
+Land area with no data for soil organic carbon: 1 152,2 4,58%
+
+--- Page 5 ---
+Percent change in soil organic carbon storage from baseline to target: -4,14%
+Soil organic carbon change from baseline to target
+Baseline soil Target soil Target soil Change in Change in
+organic organic Baseline soil organic soil organic soil organic
+carbon carbon Baseline Target area (sq. organic carbon carbon carbon carbon
+(tonnes / ha) (tonnes / area (sq. km) km) (tonnes) (tonnes) (tonnes) (percent)
+Tree-covered areas 60,47 58,63 3 094,25 2 677,58 18 712 159,60 15 698 549,68 -3 013 609,92 -16,11%
+Grasslands 48,97 46,70 9 048,44 4 421,51 44 307 501,22 20 650 434,26 -23 657 066,96 -53,39%
+Croplands 42,43 43,21 11 390,64 16 220,06 48 325 301,86 70 082 322,89 21 757 021,03 45,02%
+Wetlands 29,94 27,27 464,19 480,17 1 389 772,04 1 309 313,37 -80 458,66 -5,79%
+Artificial areas 11,16 14,50 94,14 292,34 105 049,84 423 864,55 318 814,70 303,49%
+Other lands 0,00 0,00 0,00 0,00 0,00 0,00 0,00 #DIV/0!
+Total: 24 091,66 24 091,66 112 839 784,56 108 164 484,75 -4 675 299,82
+r Soil organic carbon change from baseline to target by type of land cover transition (as percentage of initial stock)*
+a
+e
+y Land cover type in target year
+e
+n Tree-covered
+eli
+areas Grasslands Croplands Wetlands Artificial areas Other lands
+s
+a
+b Tree-covered
+n
+e
+i areas -2,76% -1,36% -5,74% -7,85%
+p Grasslands -3,43% -2,27% -6,82% -8,20%
+y
+t
+r Croplands 5,66% 6,39% 0,86% -0,48%
+e
+v
+o Wetlands -4,50% -2,03% -10,48% -21,97%
+c
+d Artificial areas 29,79% 33,73% 28,93% 40,00%
+n
+a Other lands
+L
+* Trends.Earth calculates soil organic carbon change based on annual land cover transitions. This table shows change in soil organic carbon
+The boundaries, names, and designations used in this report do not imply official endorsement or acceptance by Conservation
+
+--- Page 6 ---
+For more information on Trends.Earth, see http://trends.earth, or contact the team at trends.earth@conservation.org.
+Trends.Earth land cover summary table
+Summary of change in land cover
+Percent of total
+Area (sq km) land area
+Total land area: 24 920,6 99,03%
+Land area with improved land cover: 6 353,2 25,25%
+Land area with stable land cover: 14 892,8 59,18%
+Land area with degraded land cover: 2 857,5 11,35%
+Land area with no data for land cover: 817,1 3,25%
+Land cover change by cover class
+Baseline area Target area Change in Change in area
+(sq. km) (sq. km) area (sq. km) (percent)
+Tree-covered
+areas 3 102,04 2 680,07 -421,97 -13,60%
+Grasslands 9 067,00 4 425,21 -4 641,79 -51,19%
+Croplands 11 437,57 16 254,60 4 817,04 42,12%
+Wetlands 476,32 484,99 8,67 1,82%
+Artificial areas 96,93 296,62 199,70 206,03%
+Other lands 0,00 0,00 0,00 #DIV/0!
+Water bodies 1 837,75 1 876,11 38,36 2,09%
+Total: 26 017,60 26 017,60 0,00
+Land area by type of land cover transition (sq. km)
+r Land cover type in target year
+a
+e Tree-covered
+y
+e
+n areas Grasslands Croplands Wetlands Artificial areas Other landsWater bodies Total:
+eli
+Tree-covered
+s
+a
+b areas 1 824,56 434,88 762,29 66,72 5,81 0,00 7,78 3 102,04
+n
+e
+i
+p
+y
+t
+r
+e
+v
+o
+c
+d
+n
+a
+L
+
+--- Page 7 ---
+r
+a
+e
+y
+e
+n
+eli
+s
+a
+b
+n
+e
+i Grasslands 407,29 2 980,98 5 520,90 64,22 75,05 0,00 18,56 9 067,00
+p Croplands 397,35 953,31 9 788,30 128,37 123,31 0,00 46,93 11 437,57
+y
+t
+r Wetlands 47,60 49,19 128,86 220,65 17,89 0,00 12,13 476,32
+e
+v
+o Artificial areas 0,79 3,16 19,71 0,21 70,28 0,00 2,78 96,93
+c
+d Other lands 0,00 0,00 0,00 0,00 0,00 0,00 0,00 0,00
+n
+a Water bodies 2,48 3,70 34,55 4,82 4,28 0,00 1 787,92 1 837,75
+L
+Total: 2 680,07 4 425,21 16 254,60 484,99 296,62 0,00 1 876,11 26 017,60
+The boundaries, names, and designations used in this report do not imply official endorsement or acceptance by Conservation
+For more information on Trends.Earth, see http://trends.earth, or contact the team at trends.earth@conservation.org.
+trends.earth output summarized in UNCCD reporting format
+Page 3 of 34 - Country Profile
+Total land sq. Water Total
+Year km bodies sq. country area
+2000 2 634,00 25 200,00 27 834,00
+2015 2 634,00 25 200,00 27 834,00
+
+--- Page 8 ---
+Page 4 of 34 - SO1-1 Trends in land cover
+Tree-covered
+Year areas Grassland Cropland Wetland Artifical surfaces Other land
+2000 3 123,17 9 088,31 11 468,25 509,60 98,86 0,00
+2015 2 683,83 4 429,87 16 276,54 493,58 296,62 0,00
+r Page 4 of 34 - SO1-1 Land cover area change matrix (sq. km)
+a
+e
+y Land cover in target year
+e
+n Tree-covered
+eli
+areas Grasslands Croplands Wetlands Artificial areas Other land
+s
+a
+b Tree-covered
+n
+e
+i areas 0,00 0,00 0,00 0,00 0,00 0,00
+p Grasslands 0,00 0,00 0,00 0,00 0,00 0,00
+y
+t
+r Croplands 0,00 0,00 0,00 0,00 0,00 0,00
+e
+v
+o Wetlands 0,00 0,00 0,00 0,00 0,00 0,00
+c
+d Artificial areas 0,00 0,00 0,00 0,00 0,00 0,00
+n
+a Other land 0,00 0,00 0,00 0,00 0,00 0,00
+L
+
+--- Page 9 ---
+Page 6 of 34 - SO1-2 Trends in land productivity or functioning of the land (for pixels with unchanged land cover)
+Net land productivity dynamics (2000-2010 sq. km)
+Land cover Moderate
+class Declining decline Stressed Stable Increasing No data
+Tree-covered
+e
+p areas 137,90 246,08 0,00 1 177,04 263,45 0,09
+y
+r
+t Grasslands 300,74 333,16 0,13 1 985,26 361,23 0,46
+e
+v Croplands 1 145,42 1 271,87 0,31 6 425,44 938,35 6,92
+o
+d
+c Wetlands 56,53 18,57 0,02 114,68 28,51 2,35
+n
+a Artificial areas 37,99 6,67 0,39 16,80 7,30 1,13
+L
+Other land 0,00 0,00 0,00 0,00 0,00 0,00
+Page 8 of 34 - SO1-3 Trends in carbon stock above and below ground
+Soil organic carbon stock in topsoil, tonnes per ha
+Tree-covered
+Year areas Grassland Cropland Wetland Artifical surfaces Other land
+2000 60,47 48,97 42,43 29,94 11,16 0,00
+2015 58,63 46,70 43,21 27,27 14,50 0,00
+
+--- Page 10 ---
+The boundaries, names, and designations used in this report do not imply official endorsement or acceptance by
+For more information on Trends.Earth, see http://trends.earth, or contact the team at trends.earth@conservation.org.

@@ -1,0 +1,2523 @@
+--- Page 1 ---
+REPÚBLICA DE MOÇAMBIQUE
+Ministério para a Coordenação da Acção Ambiental
+PLANO DE ACÇÃO NACIONAL DE COMBATE À SECA
+E À DESERTIFICAÇÃO
+
+--- Page 2 ---
+Ficha Técnica
+Coordenador do Programa
+Ministério para a Coordenação da Acção Ambiental (MICOA)
+Membros do Órgão Nacional para o Combate à Seca e Desertificação que
+participaram na elaboração deste documento
+Drª Lolita Hilário Fondo Ministério para a Coordenação da Acção Ambiental
+(MICOA
+Dr. Filipe D. Freires Lúcio Ministério dos Transportes e Comunicações – Instituto
+Nacional de Meteorologia.
+Engº Jorge Amade Ministério da Agricultura e Desenvolvimento Rural – Direcção
+Nacional de Agricultura.
+Engº Raul Cumba Ministério da Agricultura e Desenvolvimento Rural –
+Direcção Nacional da Agricultura.
+Engª Carla Ruas Ministério da Agricultura e Desenvolvimento Rural – Direcção
+Nacional de Florestas e Fauna Bravia.
+Drª Dulcineia S. Baquete Ministério para a Coordenação da Acção Ambiental –
+Direcção Provincial de Maputo.
+Engº Pedro Cambula Ministério das Obras Públicas e Habitação – Direcção
+Nacional de Águas.
+Dr. Clemente de Jesus Ministério da Agricultura e Desenvolvimento Rural – Instituto
+Nacional de Investigação Agronómica.
+Drª Mª. dos Anjos Havengue Ministério da Saúde – Departamento de Higiene Ambiental.
+Sr. Jordão Molomulo Ministério da Saúde – Departamento de Higiene Ambiental
+Engª Natasha Ribeiro Universidade E. Mondlane – Faculdade de Agronomia e
+Engenharia Florestal.
+Dr. João Matshinhe Instituto Nacional de Gestão de Calamidades.
+Engº Eusébio Saíde Aro-Juvenil.
+3
+
+--- Page 3 ---
+Participação Especial
+Engº Salvador Domingues Ministério da Agricultura, do Desenvolvimento Rural e das
+Pescas – Portugal – Cooperação Portuguesa.
+Revisão e Tradução
+Ilustração
+Editado por:
+4
+
+--- Page 4 ---
+Índice
+Abreviaturas
+Preâmbulo
+Glossário
+Introdução ............................................................................................................. 09
+1 – O fenómeno da desertificação ....................................................................... 11
+1.1 – No Mundo ................................................................................................... 11
+1.2 – O caso particular em África ......................................................................... 11
+2 – Aspectos gerais de Moçambique .................................................................... 13
+2.1 – Localização geográfica ............................................................................... 13
+2.2 – Divisão administrativa ............................................................................... 13
+2.3 – Relevo .......................................................................................................... 14
+2.4 – Clima ..................................................................................….................…. 15
+2. – População ....................................................................................................... 17
+2.6 – Situação macro-económica ......................................................................... 18
+26.1 – Sector primário ......................................................................................... 19
+2.6.2 – Sector secundário ................................................................................................ 19
+2.6.3 – Sector terciário ................................................................................................... 19
+2.7 – Recursos naturais ................................................................................................... 20
+2.7.1 – Vegetação ............................................................................................................ 20
+2.7.2 – Hídricos ............................................................................................................. 22
+2.7.3 – Solos .................................................................................................................. 25
+2.7.4 – Minerais energéticos .......................................................................................... 26
+2.7.4.1 – Gás natural ...................................................................................................... 26
+2.7.4.2 – Carvão-coque .................................................................................................. 26
+2.8 – Recursos hidroeléctricos ...................................................................................... 26
+2.9 – Agricultura e pecuária ........................................................................................... 27
+3 – A seca e a desertificação no país ............................................................................. 29
+3.1 – Principais causas ................................................................................................... 29
+3.1.1 – Factores de origem natural - seca....................................................................... 29
+3.1.2 – Factores de origem humana ............................................................................... 30
+3.1.2.1 – Desmatação / derrubas ..................................................................................... 30
+3.1.2.2 – Queimadas descontroladas ............................................................................... 31
+3.1.2.3 – Sobrepastoreio .................................................................................................. 32
+3.1.2.4 Erosão do solo ................................................................................................... 32
+3.1.2.5 – Práticas agrícolas impróprias ........................................................................... 33
+3.2 – Principais consequências ....................................................................................... 34
+3.2.1 – Segurança alimentar ............................................................................................ 34
+3.2.2 – Migrações ............................................................................................................ 36
+4 – Contexto actual ........................................................................................................ 39
+4.1 – Locais de risco ...................................................................................................... 39
+4.2 – Política dos diversos sectores e respectivos quadros legislativos.......................... 40
+4.2.1 – A Política e Estratégia de desenvolvimento de Florestas e Fauna Bravia .......... 41
+5
+
+--- Page 5 ---
+4.2.1.1 – A Lei de Floresta e Fauna Bravia .................................................................... 42
+4.2.2 – Política Nacional de Águas ................................................................................ 42
+4.2.2.1 – Lei das Águas .................................................................................................. 43
+4.2.3 – Política Nacional do Ambiente ............................... .......................................... 43
+4.2.3.1 – Lei do Ambiente ............................................................................................. 44
+4.2.4 – Política Agrária e as Estratégias de Implementação .......................................... 45
+4.2.5– Política Nacional de terras ................................................................................... 46
+4.2.5.1 – Lei de Terras .................................................................................................... 46
+4.2.6 – Estratégia para a Segurança Nutricional ............................................................. 47
+4.3 – Principais acções em desenvolvimento que interferem, directa ou indirectamente
+no processo......................................................................................................... 48
+4.3.1 – Programa Nacional para o Desenvolvimento Agrário ..................................... 48
+4.3..2 – Programa Nacional de Água Rural .................................................................. 48
+4.3..3 – Sistema Nacional de Avisos Prévios ................................................................ 49
+4.3.3.1 – Segurança Alimentar……………………………...………………………… 49
+4.3.3.2 – Meteorologia…………………………………………………………….. 50
+4.3.4 – Plano de Acção para Redução da Pobreza Absoluta ......................................... 50
+4.3.5 – Plano Estratégico do Sector Saúde – PESS – (2001- 2005) .............................. 51
+4.3.6 – ONGs ................................................................................................................. 52
+5 – Plano de acção do combate à seca e à desertificação - PAN .................................. 53
+5.1 – Cobertura geográfica e população alvo ............................................................... 53
+5.2 – Objectivos do PAN ............................................................................................... 54
+5.2.1 – Objectivo geral .......... ...................................................................................... 54
+5.2.2 – Objectivos específicos ............... ....................................................................... 54
+5.3 – Estratégia operacional ........................................................................................... 55
+– Operacionalidade do PAN para o quadriénio 2002/06 ............................................ 59
+5.4 – Orçamento do PAN .............................................................................................. 67
+5.4.1 – Imputes financeiros para o quadriénio .............................................................. 67
+5.4.2 – Mecanismos de financiamento e sua repartição................................................. 77
+5.5 – Coordenação do PAN ........................................................................................... 77
+5.6 – Seguimento e avaliação do PAN .......................................................................... 77
+Referências bibliográficas
+Anexos
+6
+
+--- Page 6 ---
+Abreviaturas
+MICOA Ministério para Coordenação Acção Ambiental
+CCD Convenção de Combate à Desertificação
+CPL Comunidade dos Países da Língua Portuguesa
+PAN Plano de Acção para Combate a Seca e Desertificação
+GEF Global Environmental Facility
+DINAGECA Direcção Nacional de Geografia e Cadastro
+EURECA
+PIB Produto Interno Bruto
+DNA Direcção Nacional de Aguas
+DINAP Direcção Nacional de Pecuária
+SNAP Sistema Nacional de Aviso Prévio
+ONG’S Organizações Não Governamentais
+RRSP Regional Remote Sensing Project
+INIA Instituto Nacional de Investigação Agrícola
+DTA Departamento de Terra e Agua
+MADER Ministério da Agricultura e Desenvolvimento Rural
+MPF Ministério de Plano e Finanças
+MISAU Ministério de Saúde
+INGC Instituto Nacional de Gestão Calamidades
+FEWS Femine Early Warning Systems
+FAO Fundo das Nações para Agricultura e Alimentação
+MSF/CIS
+PROAGRI Programa Nacional para o Desenvolvimento Agrário
+PACI
+MAP Ministério de Agricultura e Pesca
+INAM Instituto Nacional de Meteorologia
+PARPA Plano de Acção para Redução da Pobreza Absoluta
+PESS Plano Estratégico do Sector de Saúde
+FAMBAN Fórum das Organizações Não Governamentais Ambietalista
+COTERRA Comité das Organizações Não Governamentais Para Combate
+a Seca e Desertificação
+INCS Instituto Nacional de Comunicação Social
+MICTUR Ministério de Turismo
+FAEF Faculdade de Agronomia e Engenharia Florestal
+UEM Universidade Eduardo Mondlane
+MIC Ministério da Industria e Comercio
+MINED Ministério da Educação
+MOPH Ministério das Obras Publicas e Habitação
+DNFFB Direcção Nacional de Floresta e Fauna Bravia
+CEF Centro de Experimentação Florestal
+MIREME Ministério dos Recursos Minerais e Energia
+7
+
+--- Page 7 ---
+Glossário
+Desertificação – é a degradação da terra nas zonas áridas, semi-áridas e sub-húmidas
+secas, resultantes de vários factores, incluindo as variações climáticas e as actividades
+humanas;
+Combate à desertificação – são as actividades que fazem parte do aproveitamento
+integrado da terra nas zonas áridas e sub-húmidas secas com vista ao seu
+desenvolvimento sustentável e que tem por objectivo:
+- a prevenção e/ou redução da degradação das terras;
+- a reabilitação de terras parcialmente degradadas;
+- a recuperação de terras degradadas.
+Seca – É o fenómeno que ocorre naturalmente quando a precipitação registada é
+significativamente inferior aos valores normais, provocando um sério desequilíbrio
+hídrico que afecta negativamente os sistemas de produção dependentes dos recursos da
+terra;
+Mitigação dos efeitos da seca – São actividades relacionadas com a previsão da seca e
+dirigidas à redução da vulnerabilidade da sociedade e dos sistemas naturais àquele
+fenómeno no que se refere ao combate à desertificação;
+Terra – é o sistema bio-produtivo terrestre que corresponde o solo, a vegetação, outros
+componentes da biota e os processos ecológicos e hidrológicos que se desenvolvem
+dentro do sistema;
+Degradação da terra - É a degradação ou perda, nas zonas áridas, semi-áridas e sub-
+-húmidas secas, da produtividade biológica ou económica e da complexidade das terras
+agrícolas de sequeiro, das terras agrícolas irrigadas, das pastagens naturais, das pastagens
+semeadas, das florestas e das matas nativas devido aos sistemas de utilização da terra ou
+a um processo ou combinações de processos, incluindo os que resultam da actividade do
+homem e das formas de ocupação do território, tais como:
+- erosão do solo causada pelo vento e/ou água;
+- a deterioração das propriedades físicas, químicas e biológicas ou económicas do
+solo;
+- a destruição da vegetação por períodos prolongados.
+Zonas árida, semi-áridas e sub-húmidas secas –São todas as regiões, com excepção
+das zonas polares e das sub-polares, nas quais a razão entre a precipitação anual e a
+evapotranspiração potencial esteja compreendida entre 0,05 e 0,65;
+Países afectados – São todos os países cujo território inclua, no todo ou em parte, zonas
+afectadas;
+Países desenvolvidos – São os países Partes desenvolvidos e as organizações económicas
+regionais compostas por países desenvolvidos.
+8
+
+--- Page 8 ---
+Introdução
+A comunidade internacional reconhecendo que a desertificação é um problema
+sócio-económico e ambiental importante para o mundo, realizou em 1977 a Conferência
+das Nações Unidas sobre a desertificação, aprovando um Plano de Acção de Combate à
+Desertificação. Apesar destes e outros esforços, a Conferência das Nações Unidas para o
+Ambiente e Desenvolvimento, realizada no Rio de Janeiro, em 1992, concluiu que a
+degradação da terra em terras áridas, semi-áridas e sub-húmidas secas, tinha aumentado.
+Como resultado dessa conclusão, a Conferência apoiou uma abordagem nova e integrada
+do problema que culminou com a aprovação da Convenção do Combate à
+Desertificação, em 17 de Julho de 1994, em Paris. Este dia, foi também adoptado pela
+Assembleia Geral das Nações Unidas como o Dia Internacional de Combate à Seca e à
+Desertificação.
+A Convenção contém 40 artigos e 5 Anexos regionais de implementação: África,
+Ásia, América Latina e Caribe, Norte do Mediterrâneo e Europa Central e de leste. São
+dois os objectivos da Convenção:
+a) combater a desertificação e mitigar os efeitos da seca nos países afectados por seca
+e/ou desertificação, particularmente em África, através de adopção de medidas
+eficazes em todos os níveis, apoiadas em acordos de cooperação internacional e de
+parceria, no quadro de uma abordagem integrada e que tenha em vista contribuir
+para se atingir o desenvolvimento sustentável nas zonas afectadas;
+b) aplicar, nas zonas afectadas, estratégias integradas de longo prazo, baseadas
+simultaneamente no aumento da produtividade da terra e na reabilitação,
+conservação e maneio sustentado dos recursos terrestres e hídricos, tendo em vista
+melhorar as condições de vida, particularmente das comunidades locais.
+A Convenção de Combate à Desertificação (CCD), tal como as outras convenções,
+tem um secretariado que funciona como uma estrutura de facilitação para implementação
+da Convenção, promovendo a troca de informações e a realização de seminários e
+conferências, coordenando com outros organismos acções de interesse no processo da
+implementação da sua agenda.
+Moçambique assinou a Convenção de Combate à Desertificação em 1994 e
+procedeu à sua ratificação a 26 de Novembro de 1996, pela Assembleia da República e
+publicada no Boletim da República, n.º 20/96 em 16/11/1996. Moçambique tornou-se
+Parte em 13/06/1997.
+Antes da ratificação da Convenção, sob a coordenação do Ministério para a
+Coordenação da Acção Ambiental – MICOA – realizaram-se em Maio de 1996, as
+primeiras Jornadas de Informação e Consciencialização sobre os problemas da Seca e
+Desertificação em Moçambique. Como resultado dessas jornadas, foi criado o Comité
+Nacional de Coordenação de Combate à Seca e à Desertificação, com as seguintes
+funções:
+9
+
+--- Page 9 ---
+a) velar pela implementação da Convenção a nível do país;
+b) coordenar a elaboração do Plano de Acção Nacional de Combate à Seca e à
+Desertificação;
+c) compilar e divulgar a informação relevante à problemática da Seca e da
+Desertificação;
+d) manter o Secretariado Internacional da CCD informado das acções nacionais
+realizadas, no âmbito da implementação da Convenção;
+e) definir mecanismos de articulação entre as instituições envolvidas na
+implementação da Convenção.
+Moçambique participou em outros eventos internacionais enquadrados na CCD.
+Assim esteve presente em:
+a) na Reunião de Especialistas em Reabilitação de Ecossistemas Florestais
+Degradados, que teve lugar em Lisboa em Junho de 1996;
+b) no IX Congresso Mundial de Florestas, em Antalya, Turquia, em Outubro de
+1997, “ o papel da floresta no combate à desertificação;
+c) no Seminário de Intercâmbio e Experiências no seio da CPLP, na Cidade da Praia,
+em Cabo Verde, em Outubro de 1998.
+Também em território nacional, o Comité Nacional de Coordenação de Combate à
+Seca e Desertificação, desenvolveu algumas actividades com o objectivo principal de
+identificar in loco, os problema do sector que lhe permitisse elaborar futuramente o
+PAM.
+Nos meses de Novembro e de dezembro de 1996 foram iniciados trabalhos para a
+identificação das áreas afectadas pela seca e susceptíveis à desertificação no distrito de
+Chicualacuala, na província de Gaza e nos distritos de Moatize, e Changara, na província
+de Tete.
+Em Agosto de 1997 foi realizado em Chicualacuala um Diagnóstico Rural Rápido,
+com vista identificar acções concretas para a elaboração de um projecto piloto de gestão
+comunitária dos recursos naturais.
+Em 1997, iniciaram-se as negociações com o GEF (Global Environmental Facility)
+para o apoio à componente que visava a recuperação de áreas degradadas, através da
+conservação da biodiversidade das zonas áridas e semi-áridas. Neste contexto o MICOA
+realizou, o Primeiro Workshop Nacional sobre a Implementação do Projecto de
+Conservação da Biodiversidade das Zonas Áridas e Semi-Áridas, através da recuperação
+de terras degradadas.
+10
+
+--- Page 10 ---
+1 – O fenómeno da desertificação
+1.1 - No Mundo
+A desertificação é um processo global com graves incidências para o meio
+ambiente. Há muito que a comunidade internacional reconheceu que a desertificação
+constitui, à escala mundial, um dos graves problemas com evidentes implicações sociais,
+económicas e ambientais.
+Mais de 110 países têm terras secas que potencialmente sofrem risco de
+desertificação. Segundo o Worlwatch Institute, os continentes perdem anualmente 24
+biliões de toneladas de terra. Cerca de 70% dos 5,2 biliões de ha de terras secas com
+utilização agrícola já estão degradadas. Assim, a desertificação afecta , anualmente, cerca
+de 30% da área total da Terra. Em África, cerca de 1 bilião de ha, ou seja 73% das suas
+terras secas, estão moderada ou fortemente afectadas pela desertificação. Na Ásia, outros
+1,4 biliões de ha também estão afectados. Este problema não é exclusivo dos países em
+desenvolvimento: a América do Norte é a região que tem a mais elevada proporção das
+terras secas afectadas pela desertificação; cinco países da União Europeia sofrem também
+deste fenómeno e na Ásia muitas das áreas mais afectadas localizam-se nos territórios da
+ex. União Soviética.
+Os custos humanos são ainda maiores. O fenómeno da desertificação está
+ameaçando a sobrevivência de quase 1/5 da população da Terra, Outros, mais de 135
+milhões, correm o risco de ter que abandonar as suas terras.
+Segundo a Convenção, as causas mais imediatas que conduzem à desertificação no
+mundo, para além de factores de ordem económica, social, cultural e política, são:
+a) origem climática – alterações do clima e mesmo a seca;
+b) factores humanos – a excessiva utilização do solo, por vezes à sua exaustão; o
+excesso de pastoreio; a desmatação e as queimadas; a irrigação em áreas mal
+drenadas.
+Os factores de origem humana, que são as causas imediatas que conduzem à
+desertificação, devem-se principalmente à pobreza das comunidades rurais, que as levam
+a retirar o máximo possível da terra para sobreviverem, mesmo que comprometendo a
+longo prazo o seu futuro.
+1.2 - O caso particular de África
+A desertificação exerce o seu maior impacto em África. Dois terços do continente
+sã desertos ou terras áridas e 73% das terras áridas cultiváveis já estão degradadas em
+alguma medida. As secas prolongadas são frequentes e afectam países, muitos dos quais,
+11
+
+--- Page 11 ---
+não dispõem de litoral, tornando difíceis as comunicações. A maioria dos países é
+afectada pela pobreza generalizada e muitos deles encontram-se entre ao países menos
+desenvolvidos. A pobreza generalizada deixa a população sem alternativas, provocando
+muitas das vezes a exploração predatória da terra.
+O resultado é quase sempre o surgimento de migrações internas e transfronteiriças,
+debilitando ainda mais o meio ambiente e causando tensões e conflitos sociais e políticos.
+Não se sabe exactamente o n.º de pessoas que tiveram que abandonar as suas regiões
+porque as suas terras progressivamente foram-se transformando em areia. Exemplos
+podem-se citar-se: 1/6 da população do Mali e do Burquina Faso abandonou o seu local
+de origem procurando outros espaços com melhores condições; entre 1965 e 1988 a
+população da Mauritânia que passou a viver na respectiva capital, subiu de 9% para 41%
+e a população que vivia em regime nómade baixou de 73% para 7%.
+Estas consequências aliadas a outras não menos importantes, como a acentuada
+dependência dos recursos naturais, a fragilidade das instituições e das infra-estruturas, a
+deterioração e flutuação dos termos de troca, a dívida externa, levaram os países
+desenvolvidos a darem prioridade e particular atenção a África, contribuindo com
+recursos financeiros, visando apoiar efectivamente o combate à desertificação e à
+mitigação dos efeitos da seca.
+12
+
+--- Page 12 ---
+2 – Aspectos gerais de Moçambique
+2.1 - Localização geográfica
+Moçambique está situado na costa sul-oriental de África, entre os paralelos 10º .
+27´ e 26º . 52´ de latitude sul e entre os meridianos 30º . 12´ e 40º . 51´ de latitude oeste.
+O país cobre uma superfície de 799.380 km2, dos quais 786.380 km2 de terra firme e
+13.000 km2 de águas interiores.
+A extensão da fronteira terrestre é de 4.330 km, limitando a norte a República
+Unida da Tanzânia; a oeste ( de norte para sul) o Malawi, a Zâmbia, o Zimbabwe, a
+província do Transvaal na República da África do Sul e o reino da Swazilândia; a sul
+com a província do Natal na República da África do Sul; a leste, Moçambique é banhado
+pelo Oceano Índico.
+O comprimento da linha costeira atinge os 2.515 km, da foz do rio Rovuma, a
+norte, à Ponta do Ouro, a sul. A menor largura é de 47,5 km e situa-se entre a Namaacha
+e Catembe e a maior, entre a península de Mossuril e a confluência do rio Aruângua com
+o rio Zambeze.
+As águas territoriais, contadas a partir da linha da base, vão até 12 milhas
+marítimas e as águas jurisdiscionais compreendem 200 milhas contadas a partir da linha
+de base.
+2.2 - Divisão administrativa
+A divisão administrativa do país apresenta-se da seguinte forma – quadro 1.
+Quadro 1
+Divisão administrativa de Moçambique
+Província Área % Capital Distritos P. Adm.
+km2 n.º n.º
+C. Delgado 82.625 10,34 Pemba 17
+Niassa 129.074 16,1 Lichinga 16
+Nampula 81.606 10,21 Nampula 21
+Tete 100.724 12,6 Tete 13
+Zambézia 105.008 13,14 Quelimane 16
+Manica 61.656 7,7 Chimoio 10
+Sofala 68.018 8,51 Beira 13
+Inhambane 68.615 8,58 Inhambane 14
+Gaza 75.709 9,5 Xai-Xai 12
+Maputo 26.358 3,3 Maputo 8
+13
+
+--- Page 13 ---
+2.3 – Relevo
+A superfície de Moçambique não é homogénea; ela apresenta zonas de cotas
+variáveis e com uma certa sequência na sua disposição, ou seja, do litoral para o interior,
+o relevo vai passando sucessivamente da estrutura mais baixa – planícies – para estrutura
+mais alta – planaltos e montanhas.
+Cerca de um terço do território nacional é ocupado por planícies, com formações
+do Terciário e Quaternário e estendem-se ao longo de todo o litoral do país, com maior
+extensão nas regiões centro/leste da província de Sofala e das três províncias do sul. Sob
+ponto de vista hipsométrico, a planície moçambicana é bastante homogénea, variando a
+sua altitude, entre os 100 metros no litoral, a 200 metros mais para o interior. Ao longo
+dos vales dos principais rios, a planície adquire características próprias aos processos de
+erosão fluvial. Nesses casos, ela apresenta-se como depressões de acumulação, possuindo
+vertentes cujo limite inferior coincide com o curso do próprio rio, são os casos das
+planícies do Incomati, do Limpopo, do Save, do Buzi e do Lúrio, que são atravessadas
+pelos rios com o mesmo nome.
+Os planaltos estendem-se para as fronteiras ocidentais e encontram-se nas regiões
+do norte e do centro e numa pequena faixa de Maputo e Gaza, ao longo da fronteira
+ocidental sul. Estas estruturas ocupam cerca de dois terços do território e distinguem-se,
+morfologicamente, como planaltos médios, aqueles com altitudes entre os 200 e 500
+metros e os altiplanaltos com altitudes de 500 a 1000 metros. Pela sua identidade
+morfológica, os planaltos mais conhecidos são o da Zambézia; da Angónia junto à
+fronteira com o Malawi, onde as altitudes chegam a ultrapassar os 1000 metros; da
+Marávia, junto à fronteira com a Zâmbia; do Chimoio, estendendo-se de norte para sul e
+alargando-se até à fronteira com o Zimbabwe; de Lichinga, ao longo do lago Niassa e no
+sentido norte/sul e o planalto de Mueda, na região mais a norte do país.
+As principais formações montanhosas situam-se nas regiões ocidentais do centro e
+norte do território, erguendo-se da zona planáltica e com altitudes que ultrapassam os
+1000 metros. As mais importantes, surgem agrupadas formando cadeias montanhosas,
+destacando-se, de norte para o sul, a cadeia da Maniamba-Amaramba, na província do
+Niassa, circundando o lago com o mesmo nome, sendo a serra Jéci a que apresenta maior
+altitude com 1836 metros; as formações de Chire-Namúli, na província da Zambézia,
+cujo ponto mais elevado é o Monte Namúli com 2.419 metros; a cadeia de Manica, ao
+longo da fronteira com o Zimbabwe, localiza-se o Monte Binga, sendo este o ponto mais
+elevado de Moçambique e a cadeia dos Libombos, na zona ocidental sul do país. Embora
+estas formações apresentem altitudes inferiores a 1000 metros, são consideradas
+montanhas, dado que no conjunto do relevo do sul, elas destacam-se como sendo as
+estruturas mais elevadas.
+14
+
+--- Page 14 ---
+2.4 – Clima
+A maior parte do território moçambicano localiza-se na zona inter-tropical, o que
+lhe confere um clima do tipo tropical com quatro variações – tropical húmido, tropical
+seco, tropical semi-árido e climas modificados pela altitude. A sua classificação
+climática, pode ser visualizada, no mapa 1.
+Mapa 1
+Classificação climática
+Fonte: Mapa de Moçambique, Divisão Territorial (DINAGECA, 1987. Atlas Geográfico de Moçambique, 1986
+As temperaturas no território apresentam variações regionais, em função da
+interferência de factores como a latitude, continentalidade e o próprio relevo. Em geral,
+os valores da temperatura tendem a aumentar para as menores latitudes. Porém, por
+interferência do factor relevo, verificam-se menores temperaturas, nas regiões mais altas
+e a oeste do país, que se situam, de norte para sul, nas províncias do Niassa, Zambézia,
+15
+
+--- Page 15 ---
+Tete, Manica e Maputo. De um modo geral, as temperaturas médias anuais distribuem-se
+do seguinte modo: de 18 a 20 º C., nas regiões montanhosas ; de 22 a 24 º C., nas regiões
+centrais e planálticas do norte e do cento, bem como nas zonas leste e oeste, das
+províncias do sul ; de 24 a 26º C., todo o leste das regiões norte e centro e o interior das
+regiões ao sul do país – mapa 2.
+Moçambique tem duas as estações do ano. A estação das chuvas, de Outubro a
+Abril e a estação seca, mais demarcada nas regiões do centro e norte do país. A
+precipitação média varia de valores inferiores a 400 mm, por exemplo no Pafuri, na
+província de Gaza, até valores de 2000 mm, em Tacuane na província da Zambézia.
+Diversos fenómenos influenciam a precipitação em todo o território são vários,
+destacando-se entre eles os principais:
+a) zona de convergência inter-tropical – caracterizada por zonas de baixas
+pressões, onde se formam nuvens de desenvolvimento vertical e que originam
+grandes regimes de precipitação em todas as regiões do norte e a norte da
+província de Tete, dando-se assim início à estação das chuvas;
+b) ciclones tropicais – também caracterizada por zonas de baixas pressões,
+movimentando, horizontalmente, massas de ar quente e húmido que provocam
+grandes precipitações, com maior frequência ao longo da costa, nas regiões do
+centro e norte. Dependendo da intensidade, este fenómeno, que ocorre entre
+Novembro e Abril, pode ser favorável para a agricultura, ou desfavorável,
+originando cheias e destruições, coma as que se verificaram nos anos de 2000 e
+2001, respectivamente nas regiões do sul e do centro;
+c) anticiclones – são zonas de altas pressões que influenciam negativamente a
+precipitação e que ocorrem principalmente no interior das províncias do sul;
+d) frentes frias do sul – massas de ar frias originadas na superfície polar sul, com
+migração periódica para o equador e que ocasionam precipitações, na época seca e
+ao longo da faixa costeira, determinando a segunda época agrícola;
+e) orografia – as precipitações também acontecem devido ao alto relevo,
+provocando a ascendência de massas de ar que adquirem baixas temperaturas e
+precipitam a chuva, nas regiões planálticas e montanhosas do país.
+Finalmente e em termos da agro-climatologia, Moçambique é fortemente
+demarcado em três zonas: toda a zona ao norte do rio Zambeze, onde a disponibilidade de
+água para as culturas é num período bem definido, o da época das chuvas, com mais de
+80% de probabilidades das necessidades mínimas de água serem suficientes para todo o
+ciclo vegetativo, ou seja, somente dois em cada 10 anos podem ocorrer problemas de
+défice hídrico; a zona centro, entre o sul do rio Zambeze e o norte do rio Save, com a
+probabilidade de até 60% das necessidades das culturas serem satisfeitas em água. Isto
+significa que o risco de ocorrência de secas seja de 4 anos em cada dez; zona sul, toda a
+região ao sul do rio Save, cujo potencial da precipitação não excede mais que 30% das
+16
+
+--- Page 16 ---
+necessidades das culturas e com um risco de que em cada dez anos, sete apresentem
+problemas de seca – mapa 3.
+Mapa 2 Mapa 3
+Temperaturas médias anuais Pluviosidade média anual
+Fonte: Atlas de Moçambique, 1986
+2.5 - População
+Com os dados disponíveis do Inquérito Demográfico e da Saúde, de 1997, é
+possível descrever a evolução histórica da população, sobretudo na segunda metade do
+século XX. Em 1950 a população era de cerca de 6,5 milhões de habitantes. Desde então
+cresceu de forma rápida, tendo atingido 7,6 milhões em 1960, 9,4 milhões em 1970, 12,1
+milhões em 1980 e 16,9 milhões – 47,2% homens e 52,8% mulheres – em 1998. Esta
+evolução permite concluir que a população de Moçambique mais que duplicou num
+período de apenas 50 anos. Em 1950-55 a taxa de crescimento era de 1,5% e em 1997 era
+de 3,6%.
+Este crescimento, a ritmos considerados acelerados, é devido à manutenção das
+elevadas taxas de natalidade e da redução gradual da mortalidade, sobretudo nas camadas
+pobres, decorrentes das melhorias das condições médico-sanitárias. Durante as décadas
+50 e 60, a taxa de natalidade manteve-se quase constante e a níveis elevados na ordem de
+17
+
+--- Page 17 ---
+49 nascimentos por mil habitantes. Esta taxa tem-se reduzido, atingindo em 1990 45 por
+mil. Em contrapartida, no mesmo período, a taxa de mortalidade observou um
+significativo declínio, passando de 32 óbitos por mil habitantes, em 1950, para 20, em
+1990.
+Consequentemente a evolução da taxa de natalidade modelou uma estrutura da
+população bastante jovem. Em 1990 a população menor de 15 anos representava 45,6%,
+os adultos dos 15 aos 64 anos representavam 51,9% e os idosos acima dos 64 anos
+representavam 2,5% da população total. Esta evolução mostra um rejuvenescimento da
+população, típica de um país em desenvolvimento e com implicações sócio-económicas,
+pois, a sua população é propensa mais ao consumo que à produção, devido à elevada
+proporção de dependentes. No início da década 90, a carga de dependência demográfica
+era de 92,5%, o que significa que havia aproximadamente 93 pessoas dependentes por
+cada 100 em idade produtiva.
+A população do país é predominantemente rural. Em 1980, 73 % da população
+residia nas zonas rurais e o senso de 1997 refere a densidade populacional (habitantes
+/km2) como sendo, no norte de 14,4, no centro 20 e no sul 23. O gráfico 1 representa a
+população por províncias.
+Gráfico 1
+Percentagem da população por províncias
+Niassa 4,9%
+Maputo província 5,0%
+Maputo cidade 6,1%
+Gaza 6,4%
+Manica 6,5%
+Inhambane 6,8%
+Tete 7,6%
+C.Delgado 8,2%
+Sofala 8,7%
+Nampula 19,4%
+Zambézia 20,4%
+Fonte: Directório Comercial de Moçambique, Câmara de Comércio Portugal - Moçambique 2000
+2.6- Situação macro-económica
+A economia moçambicana, numa perspectiva de economia de mercado, esteve
+durante muitos anos condicionada, em primeiro lugar pelo modelo do sistema económico
+instituído após a independência e em segundo, pela guerra civil que durante 10 anos
+destruiu as infra-estruturas produtivas e de serviços. Com os acordos de paz em 1992,
+seguidos de incentivos do governo ao investimento, verificou-se um crescimento
+económico rápido até 1999, seguido de um declínio em 2000 – quadro 2.
+18
+
+--- Page 18 ---
+Quadro 2
+Principais indicadores económicos
+Produto Unidade 1994 1995 1996 1997 1998 1999 2000
+PIB Milhões US$ 2.424,5 2.461,5 2.881,0 3.483,5 3.892,0 4.147,0 6.676,7
+Crescimento do PIB % 7,5 1,4 6,2 11,3 12,1 9,7 6,1
+PIB per cápita US$ 88,0 85,3 185,8 221,7 236,9
+Sector primário % PIB 28,7 25,5 30,7 29,9 27,8
+Sector secundário % PIB 17,7 29,5 19,3 20,4 23,8
+Sector terciário % PIB 47,0 45,0 50,1 50,3 47,6
+Exp. bens e serviços % PIB 6,8 7,1 7,9 6,6 7,5 7,1 3,8
+Imp. bens e serviços % PIB 26,3 29,5 27,2 21,8 25,2 33,7 16,4
+Invest. dir.estrangeiro % PIB 1,4 1,8 2,5 1,9 5,5 8,3 1,8
+Dívida externa % PIB 217,7 222,3 197,6 158,6 157,3 132,7
+Fonte: Directório Moçambique 2001 . 2002 , Câmara de Comércio Portugal – Moçambique, 2001
+2.6.1 - Sector primário
+A agricultura, a pecuária e a pesca são os mais importantes sectores da economia,
+sendo que a agricultura ocupa mais de 80% da população activa do país. As excelentes
+condições edáfo-climáticas, principalmente nas regiões do centro e norte do território e o
+potencial hídrico à superfície, permitindo a implementação de esquemas de irrigação,
+favorecem as culturas de rendimento – castanha de caju, cana sacarina, algodão, chá,
+copra, tabaco – como também as culturas designadas por alimentares – milho, arroz,
+mandioca, feijões, frutas tropicais e hortícolas. Alguns produtos agrícolas, madeiras e
+pescado, contribuíram em 1998 com 50,8% do valor total das exportações.
+2.6.2 - Sector secundário
+O desenvolvimento da produção industrial, principalmente nos últimos três anos
+tem contado com o papel predominante desempenhado pelo investimento directo
+estrangeiro, nas áreas da construção civil, industrias agro-alimentares, madeira, têxteis,
+entre outras. As indústrias ligeiras e alimentares são prioritárias, pois, para além de
+contribuírem para a redução da importação de bens de consumo, estimulam a produção
+noutras áreas como seja a agricultura. Também o crescimento, por exemplo, dos sectores
+da metalurgia, do cimento, do vidro, tem sido acompanhado por outros grandes projectos
+como o do gás de Pande, que envolve a construção de uma fundição de ferro e aço em
+Maputo e uma fundição de alumínio, a MOZAL, que é o maior projecto industrial em
+curso. Para além disso, Moçambique conta no seu subsolo, com grande potencial de
+carvão, de gás natural , de ferro, de areias pesadas, nas regiões do centro e norte.
+2.6.3 - Sector terciário
+Este sector de serviços, que contribui com quase 50% para o PIB, é principalmente
+composto por actividades de transportes e comunicações (os corredores de
+desenvolvimento de Maputo, Beira e Nacala, que servem os países fronteiriços com
+Moçambique), de energia ( a existência de um imenso depósito de gás natural na região
+19
+
+--- Page 19 ---
+sul e o enorme potencial de produção de energia hidroeléctrica de Cahora Bassa), de
+turismo ( com as óptimas condições que Moçambique apresenta para se tornar num dos
+principais destinos de turismo da África Austral) e o sub-sector financeiro.
+2.7 - Recursos naturais
+2.7.1 – Vegetação
+A cobertura vegetal, desde a floresta alta e baixa, matagal, pradarias arborizadas e
+mangais, ocupa uma área de cerca de 62 milhões de ha que correspondem a 78% da
+superfície total de Moçambique, segundo dados do inventário de 1994 com base na
+imagem satélite.
+As formações florestais consideradas com potencial produtivo ou madeireiro,
+cobrem uma área de cerca de 22 milhões de ha, o que permite um corte anual de
+500.000m3. A restante vegetação, é constituída por formações florestais como savanas
+arbóreas, caracterizadas por um fraco potencial produtivo e um baixo stck de madeira. A
+área estimada para a formação de mangais é de cerca de 396.000 ha.
+Para além da vegetação natural, foram estabelecidas no país cerca de 46 mil ha de
+plantações de espécies exóticas, principalmente na província de Manica, com o objectivo
+de servir a indústria de processamento de exóticas. Também foram estabelecidas
+plantações de eucaliptos, nos arredores das três maiores cidades, para solucionar a
+procura de combustíveis lenhosos. Segundo dados do inquérito nacional, realizado em
+2001 pela EUREKA Lda., aquela área decresceu para cerca de 23.000 ha – gráfico 3.
+Gráfico 3
+Distribuição percentual da cobertura territorial
+Floresta natural
+14,66% 1,27%
+1,58%
+118.439 km2 13.000 km2 12.800 km2 24,43% Floresta artifical
+197.345 km2
+0,10% Matagal
+788,7 km2
+Pradarias
+Mangal
+0,49% 0,05%
+3.960 km2 460 Dunas
+km2
+Agricultura
+24,89% 32,52%
+201.143 km2 262.784,7 km2 Águas interiores
+Área não classificada
+Fonte: Unidade de Inventário Florestal
+A vegetação natural no país é constituída por diferentes tipos de formação vegetal,
+resultante das grandes diferenças de latitude, longitude, geologia e clima, entre outros
+factores. As espécies vegetais com valor comercial abrangem 118 espécies,
+representando apenas 20% da área das florestas produtivas e classificadas segundo a
+20
+
+--- Page 20 ---
+DNFFB em espécies preciosas e espécies de 1ª, 2ª, 3ª, e 4ª classes, em função do seu
+valor comercial e da sua procura não só no mercado interno como no externo. Entre as
+espécies preciosas, estão 8 arbóreas protegidas por Lei – Ébano (Diospyros
+mespiiformis), Sândalo (Spyrostachis africana), Pau Preto (Dalbergia melanoxylon), Pau
+Rosa (Swartzia madagascarensis), Chacate (Guibourtia conjugata), Inhamarre (Ekebergia
+capensis), Tule (Milicia excelsa)e Mbuti (Entandophragma caudatum).
+As florestas produtivas, que representam 20 % da área total da vegetação natural,
+localizam-se principalmente nas província do centro e do norte do país e norte da
+província de Tete, onde são exploradas, principalmente ,madeiras de Umbila (Pterocarpus
+angolensis), Chanfuta (Afzélia quanzensis), Panga-Panga (Millettia stuhlmannii),
+Missanda (Erythrophleum suaveolens), Massassa (Brachystegia spiciformis), Pau Preto
+(Dalbergia melanoxylon), Pau Rosa (Swartzia madagascarensis), e Umbáua (Khaya
+nyasica) – quadro 3.
+21
+
+--- Page 21 ---
+Quadro 3
+Classificação da vegetação natural
+Designação Localização Aptidão
+Regiões altas das Conservação e
+1-Floresta de montanha de altitude províncias de extracção limitada de
+>1500 metros e com altura das árvores Manica, Tete, madeiras preciosas.
+de mais de 7 metros. Zambézia e Niassa.
+Todas os planaltos Material de
+2-Floresta de altitude <1500 metros e das regiões do construção, carvão e
+com altura das árvores de mais de 7 centro e norte. lenha e alguma
+metros. extracção de madeiras
+preciosas.
+3-Matagal com altura da vegetação de Centro este das Aptidão alta e
+3 a 7 metros. regiões do cento e intermédia para o
+sul do país pastoreio.
+4-Savana com altura da vegetação de Regiões interiores Aptidão alta e
+0,5 a 3 metros. do sul, centro e intermédia para
+interior da pastoreio.
+província de Tete.
+Zonas bem Baixa aptidão para o
+delimitadas e pastoreio.
+5-Pradaria facilmente
+alagáveis, nas
+planícies do sul e
+centro.
+Ao longo da costa,
+principalmente nas
+6-Mangais margens dos
+estuários de água
+salgada.
+Fonte: Unidade de Inventário Florestal
+2.7.2 – Hídricos
+A água, é um recurso público e o seu abastecimento é da responsabilidade do
+Estado. A sua administração implica uma contínua tomada de decisões em assuntos tais
+como a construção de infra-estruturas; sua operacionalidade e manutenção; tarifas;
+normas para a quantidade de água ambiental, entre outras.
+A captação, retenção e a utilização da água têm duas origens: as águas superficiais
+e as águas subterrâneas:
+a) águas superficiais. Os rios são a principal fonte de água em Moçambique.
+Estima-se que existam disponíveis, em média, cerca de 216.000 milhões de m3 por
+ano. Deste valor, 54% das águas são originadas fora do país, das quais 76%
+provêm do rio Zambeze. Existem em território nacional cerca de 100 bacias
+22
+
+--- Page 22 ---
+hidrográficas, sendo a maior parte delas pertencentes a rios pequenos com caudais
+temporários.
+De norte para sul, os principais cursos de água são os rios Rovuma, Lúrio,
+Ligonha, Zambeze, Púngoé, Buzi, Save, Limpopo, Incomati, Umbeluzi e Maputo.
+Estes rios são de regime torrencial, com caudais elevados durante o período
+chuvoso, nos meses de Outubro a Março e caudais baixos no período seco, nos
+meses de Abril a Setembro.
+Todos estes rios, com excepção dos rios Licungo, Ligonha e Messalo, são
+partilhados com outros países: os rios Maputo, Umbeluzi e Incomati, são
+partilhados com a África do Sul e a Swazilândia; o rio Limpopo partilhado com a
+África do Sul, Zimbabwe e Botswana; os rios Púngoé, Buzi e Save, por sua vez
+partilhados com o Zimbabwe; o rio Zambeze, considerado um dos maiores de
+África, é partilhado com os territórios de Angola, Namíbia, Botswana, Zâmbia,
+Zimbabwe, Malawi e Tanzânia.
+Com excepção do rio Rovuma, que serve de fronteira natural com a Tanzânia,
+Moçambique localiza-se no último troço de todos os rio internacionais, o que
+revela a sua dependência de água, relativamente aos países a montante. Na região
+sul do país, a dependência é maior se se considerar que apenas 10% do
+escoamento dos respectivos rios é originado pela chuva.
+b) águas subterrâneas. Existem três unidades hidrogeológicas favoráveis à
+exploração deste recurso, que estão de certa forma relacionados com os principais
+tipos de formações rochosas que ocorrem em Moçambique, sendo elas:
+• os aquíferos relacionados com as formações geológicas do Complexo Cistalino,
+que se verificam nas regiões centro-norte e norte do país, abrangendo as
+províncias de Cabo Delgado, Niassa, Tete, Nampula, Manica, Zambézia e a parte
+da província de Sofala. Os aquíferos destas formações produzem geralmente 1 a 2
+m3 de água por hora;
+• os aquíferos existentes nas formações do Karro, estão relacionadas com as areias
+argilosas e conglomerados de séries sedimentares, ocorrendo apenas nas
+províncias de Tete e Niassa. Outros aquíferos deste grupo estão ligadas com as
+rochas vulcânicas e basálticas e ocupam uma extensa área ao longo do país, ou
+seja, da província de Tete à província de Maputo;
+• os aquíferos relacionados com as formações sedimentares do Pós-Karroo que
+ocorrem em quase todo o país, cujo teor de salinidade da água, proveniente de
+muitos deles, limita a sua utilização para o consumo humano, para o consumo
+animal e também com limitações para a irrigação.
+De um modo geral, a ocorrência deste recurso em Moçambique está limitado, pelo
+facto de em cerca de 60% da área do país predominarem rochas impermeáveis. Outro
+23
+
+--- Page 23 ---
+aspecto importante a considerar, é que parte dos aquíferos produtivos ocorrem em bacias
+sedimentares com água com elevado teor de salinidade.
+Os aquíferos ao longo dos rios, são de forma geral os que oferecem água de melhor
+qualidade. A água subterrânea, em Moçambique, é essencialmente utilizada para fins
+domésticos, sendo a principal fonte de água potável nas zonas rurais e em alguns centros
+urbanos como Pemba, Tete, Xai-Xai e Chókwé.
+Também como águas superficiais, são contemplados os lagos e lagoas, estes
+contam-se em várias centenas, ao longo do país, dos quais somente 20 têm áreas
+compreendidas entre 10 e 100 km2. Os dois maiores lagos, Niassa e Chirua, ao norte, são
+de origem tectónica e são ambos partilhados com o Malawi, cabendo a Moçambique,
+respectivamente, 6400 km2 e 7 km2 da área total de cada um deles. Os lagos do sul do
+país, principalmente ao sul do rio Save e ao longo da costa, têm a sua origem na erosão
+costeira. A maior parte destes lagos e lagoas têm agua doce.
+As albufeiras, também conhecidas pela designação de lagos artificiais, são 10 no
+país e com uma capacidade total de armazenagem de 43.000 x 106 m3 de água, da qual
+90,7% daquela capacidade pertence à albufeira de Bahora Bassa que é a maior no
+território com 2.700 km2. O mapa 4 representa os principais recursos hídricos à
+superfície.
+24
+
+--- Page 24 ---
+Mapa 4
+Principais rios, lagos e albufeiras
+Fonte: Mapas de Grandes Barragens pela Bacias Hidrográficas (DNA 1984)
+2.7.3 – Solos
+As condições geológicas e o tipo de clima são factores que influenciam bastante
+nas características dos solos, apresentando entre eles, uma notória diferenciação.
+Na região norte do país, onde predominam rochas do precâmbrico e considerável
+precipitação, os solos predominantes são os argilosos, variando entre os franco-argilosos-
+avermelhados que ocupam a maior área e que são mais vulneráveis à erosão e os solos
+argilosos vermelhos e acastanhados profundos, com boa permeabilidade e drenagem,
+menos susceptíveis á erosão. No litoral da região norte, a presença de rochas do
+fanerozoico deram origem a outro tipo de solos. São solos arenosos de dunas costeiras e
+de origem fluvial os que mais predominam.
+Na zona centro, predominam os franco-argilo-arenosos avermelhados, mas
+existem consideráveis extensões de solos franco-argilo-arenosos acastanhados ao sul da
+25
+
+--- Page 25 ---
+província de Tete. Ao longo da bacia do Zambeze, no curso médio e inferior deste rio, os
+solos fluviais, com elevada fertilidade, tomam lugar, misturando-se primeiro com os
+anteriores e tornando-se mais predominantes na costa.
+Ao sul do país, predominam os solos arenosos de baixa fertilidade e de baixo poder
+de retenção de água. Ao longo dos vales dos rios, encontram-se solos fluviais de alta
+fertilidade. Ao longo da fronteira e associado-se à cadeia dos Libombos, existem solos
+delgados, poucos profundos e muito pouco aptos para a agricultura.
+2.7.4 - Minerais energéticos
+2.7.4.1 - Gás natural
+A prospecção de gás natural, realizado em 30 furos, em Buzi (província da Beira),
+Temane e Pande (ambos a poucos km ao sul do rio Save e a norte da província de
+Inhambane), indica que somente 7 furos foram considerados promissores, nomeadamente
+os de Pande. O gás encontrado tem na sua composição 95,5% de metano e as suas
+reservas seguras apontam para 13 triliões de pés cúbicos.
+2.7.4.2 - Carvão – coque
+As grandes reservas de carvão localizam-se na província de Tete, nas bacias de
+Moatize com 489,8 milhões de ton. e na de Minjova com reservas estimadas em 3 mil
+milhões de ton., das quais cerca de 350 milhões de ton. a profundidades compreendidas
+entre 100 e 200 metros. Calculam-se que as reservas industriais rodem os 211,6 milhões
+de ton. - 156 milhões a céu aberto e as restantes em profundidades variáveis.
+2.8 - Recursos hidroeléctricos
+De um modo geral, as infra-estruturas hoje em uso para a produção e distribuição
+de energia eléctrica datam da época colonial, com algumas excepções que se
+caracterizam pela distribuição da energia a algumas zonas rurais, efectuadas pelo Estado
+após independência.
+A energia eléctrica produzida e consumida no país, tem a sua origem em centrais
+térmicas e hidroeléctricas, estas instaladas nas barragens de Cahora Bassa, Chicamba
+Real e Mavuzi, respectivamente com uma capacidade de produção média anual de
+energia de 14.676 GW/h, 55 GW/h e 176 GW/h.
+Moçambique não é presentemente auto-suficiente em energia eléctrica, apesar da
+actual capacidade de produção instalada ultrapassar as necessidades, por razões
+26
+
+--- Page 26 ---
+conjunturais de ordem financeira e económica, Assim a energia eléctrica necessária
+continuará sendo importada da África do Sul.
+2.9 - Agricultura e pecuária
+Cerca de 80% da população activa de Moçambique vive da agricultura, sendo esta
+actividade a principal base da economia do país, contribuindo para o PIB, em 1998, com
+27,8%.
+A estabilidade política destes últimos anos, não só permitiu o regresso das
+populações às suas zonas de origem e o recomeçar as suas actividades agro-pecuárias,
+como também favoreceu a reorganização dos serviços de extensão rural, os circuitos de
+comercialização de imputes e outputs, os investimentos privados, embora mínimos, no
+sector agrícola e pecuário, entre outros. Todos estes factores, intimamente ligados à
+economia geral, contribuíram para o aumento da produção das diversas espécies, tal
+como se podem observar no quadro 4. As variações percentuais da campanha agrícola de
+1995/96 para a campanha agrícola de 2000/01.
+De um modo geral, a criação de gado bovino localiza-se na região sul e a produção
+agrícola, nas regiões do centro e norte do país, dadas as óptimas condições edafo-
+climáticas naquelas regiões.
+Quadro 4
+Arrolamento de 2000 e produção agrícola da campanha de 2000-2001
+Províncias Bovinos Caprinos Ovinos Suínos Aves Cereais Legum. Mandioca
+ton. ton. ton.
+Maputo 61.470 40.119 5.831 5.336 413.651 61.871 40.204 32.685
+Gaza 135.093 49.356 10.367 6.435 45.954 87.493 19.416 186.686
+Inhambane 74.695 65.113 14.916 13.580 0 96.929 30.155 634.552
+Sofala 17.099 143.224 9.546 43.111 499.002 154.171 11.658 65.888
+Manica 58.059 59.142 2.264 5.974 8.521 246.494 4.800 6.553
+Tete 129.158 136.807 6.855 18.451 88.560 196.061 17.924 7.313
+Zambézia 17.099 35.351 1.538 21.581 190.397 334.663 50.059 1.592.819
+Nampula 14.302 138.065 16.327 34.810 610.299 234.474 59.867 2.691.707
+C.Delgado 8.077 46.665 7.415 34.598 271.519 125.411 24.884 1.011.022
+Niassa 4.619 44.169 16.672 4.586 80.909 176.560 40.254 149.553
+Total 519.778 758.011 91.731 188.462 2.208.812 1.705.131 266.542 6.378.779
+Total 1995 389.833 433.368 203.538 ------------ 1.091.669 252.248 2.040.800
+Crescimento + 33,3% + 96% - 7,74% ------------ + 60,3% + 5,6% +212%
+Fonte: Direcção Nacional de Pecuária, referência 747/DINAP/2001
+Sistema Nacional de Aviso Prévio
+Direcção Nacional de Economia Agrária
+27
+
+--- Page 27 ---
+3 – A seca e a desertificação no país
+O fenómeno da seca e da desertificação, encontram-se interrelacionados
+principalmente, com as condições de pobreza e o nível de vida da população. Questões
+de ordem social, económicas, culturais, segurança alimentar, migrações, água potável,
+entre outros, estão intimamente ligadas à degradação do solo.
+Estudos já realizados no país, por instituições oficiais e ONGs, ligadas a esta
+problemática, identificaram as causas imediatas que já causam, em algumas regiões, o
+fenómeno da seca e da desertificação. As origens das causas que aceleram a seca e a
+desertificação, no país, dividem-se em dois grupos:
+De origem natural seca-défice hídrico
+desmatação/derrubas
+De origem humana utilização excessiva queimadas descontroladas erosão
+dos recursos do solos sobrepastoreio DESERTIFICAÇÃO
+sanilização
+práticas agrícolas impróprias infertilidade
+erosão
+3.1- Principais causas
+3.1.1- Factores de origem natural – seca
+A ocorrência de quedas pluviométricas variáveis e sempre inferiores às
+necessidades das plantas, são fenómenos naturais e de origem meteorológica, não
+controláveis pelo homem e que podem provocar a seca em determinadas regiões. Em
+Moçambique, a maior parte da agricultura realizada em culturas arvenses é em regime de
+sequeiro, isto é, a água necessária para o ciclo de vida da planta provém exclusivamente
+da precipitação.
+A região ao sul do rio Save, principalmente as províncias de Gaza, de Inhambane e
+o norte de Maputo, é considerada de alto risco para uma agricultura de sequeiro, dado que
+a média da precipitação anual não excede os 400mm de chuva, insuficiente, por exemplo,
+para suprir as necessidades de água durante o ciclo vegetativo do milho, que é a base
+alimentar da população – mapas 5 e 6.
+28
+
+--- Page 28 ---
+Mapa 5 Mapa 6
+Zonas de risco p/ agricultura de sequeiro Áreas vulneráveis às secas hidrológicas
+Fonte: Estudo Agroclimatológico de Precipitação e Fonte: Regional Remote Sensing Projec(RRSP) Harare
+sua Aplicação na Segurança Alimentar
+Os efeitos do défice hídrico, no sul do país, também agravam o sistema
+hidrológico, causam o abaixamento e a sanilização dos lençóis freáticos e não favorecem
+a recarga de água das reservas no sub-solo. As consequência destes efeitos recaiam
+directamente sobre a população, a nível do abastecimento de água potável – fotos 1 e 2.
+A média anual da evapotranspiração varia entre valores de 1.114 a 2.016 mm e
+cerca de 25% são terras semi-áridas e 30% de sub-húmidas secas.
+29
+
+--- Page 29 ---
+Foto 1 Foto 2
+Procura de água Formas de conservação da água
+Massinga – Inhambane Vilankulo – Inhambane
+Fonte: Arquivo do MICOA, 1996 Fonte: Arquivo do MICOA, 1996
+3.1.2- Factores de origem humana
+3.1.2.1- Desmatação / derrubas
+. Apesar da cobertura florestal, no país, ser substancial, os níveis de
+desmatação/derrubas, por influência humana, são preocupantes em algumas regiões.
+Estimou-se uma perda de 4,27% da cobertura florestal, entre 1972 e 1990, representando
+uma taxa anual de 0,23%, taxa esta insignificante em termos globais, mas grave, se se
+considerar taxas de 20%, 7,9% e 6,55%, respectivamente para as províncias de Maputo,
+Nampula e Zambézia, durante o mesmo período.
+Constituem exegmplos típicos de desmatação em Moçambique, as acções levadas a
+cabo nos distritos de Matutuíne, Goba, Changalane, Mabalane, Namaíta, entre outros e
+onde se apontam como principais causas a ausência de alternativas de sobrevivência,
+costumes inadequados e decisões precipitadas de gestão da terra, que têm conduzido a
+uma pressão constante sobre a floresta e a terra – fotos 3 e 4.
+30
+
+--- Page 30 ---
+Foto 3
+Desmatamento típico para abertura de novas áreas agrícolas – “machambas”
+Localidade de Chemba - Sofala
+Fonte: Arquivo do MICOA, 1996
+Foto 4
+Desmatamento e queimada para abertura de “machambas”
+Moatize – Tete
+Fonte: Arquivo do MICOA, 1996
+31
+
+--- Page 31 ---
+As duas principais causas desta actividade, para além de outras, como por exemplo,
+procura de novas áreas, numa perspectiva de uma agricultura itenerante, o sobrepastoreio,
+o acesso à posse de terra, são a procura de lenha e matéria prima para a produção de
+carvão vegetal e a exploração florestal industrial, aumentando cada vez mais o raio
+das áreas de exploração ou corte dos recursos florestais. Por exemplo, em 1987 o raio de
+desmatamento ao redor da cidade de Maputo era de 50 km e em 1999 o mesmo aumentou
+para distâncias superiores a 100 km.
+A exploração florestal, para a produção de lenha e de carvão, dirigidos ao
+abastecimento em energia doméstica, a cerca de 80% da população geral, é de 16
+milhões de m³ por ano, que representa cerca de US$ 706 milhões, do valor de
+combustível fóssil necessário para atender às mesmas necessidades em energia daquela
+população. Nas áreas rurais, 100% da população utiliza combustíveis lenhosos para as
+suas necessidades energéticas. As cidades de Maputo e da Matola são maiores
+consumidores de combustíveis lenhosos do país, com um consumo de 837.203 ton./ano
+de carvão e de 376.133 ton./ano de lenha.
+A exploração florestal industrial, está virada para a extracção de madeira em toros
+e extracção de estacas, para a construção de casas, nas zonas rurais e periferias das
+cidades, que representa 5 milhões de m³ por ano, tendo esta exploração vindo a crescer a
+um ritmo de 25% ao ano.
+A extracção de madeira para toros, em 1999, representou 61 mil m³, do potencial
+anual, que rondam os 500 mil m³. Embora a maior parte das unidades de processamento
+de madeira tenham sido privatizadas, a sua operacionalidade e rentabilidade continuam
+baixas e trabalhando a menos de 40% da sua capacidade instalada.
+3.1.2.2- Queimadas descontroladas
+Moçambique, como a maior parte dos países africanos, é vítima de queimadas
+descontroladas. Estas são uma prática tradicional largamente utilizada pela população
+rural, principalmente na época seca do ano, como uma maneira económica de garantir: a
+abertura de novas áreas para actividades agrícolas; a obtenção de peças de caça – foto 5;
+a protecção de colheitas; o acesso a vias de comunicação; a obtenção de pastos mais
+rapidamente; a exploração madeireira, etc. Estas práticas são uma das mais severas
+causas da degradação das florestas no país. Desconhece-se com rigor, a área do território
+nacional que é queimada anualmente.
+32
+
+--- Page 32 ---
+Foto 5
+Efeito das queimadas, para facilitar acções de caça
+Mabalane – Gaza
+Fonte: Arquivo do MICOA, 1996
+Os efeitos negativos das queimadas são inúmeros: alteração e/ou destruição de
+ecossistemas; perda dos solos por erosão; perda ou redução do habitat das espécies
+bravias e morte de muitas delas; perda do valor estético da paisagem; degradação e
+redução da cobertura florestal e muitos outros. As vantagens imediatas que o resultado
+das queimadas oferecem à população rural, transformam-se em desvantagens a
+médio/longo prazo. O ambiente degrada-se e a desertificação é inevitável.
+3.1.2.3- Sobrepastoreio
+A cobertura herbácea do solo, desempenha um papel importante na coesão e
+consistência do solo, no controlo da erosão, entre outros. Quando o pastoreio é intensivo
+em regiões de clima semi-árido, com precipitações baixas, entre 200e 600 mm, como é o
+caso de Mabalane, Chiaulacuala, Pafur, Mabote, Moatize, a reposição da cobertura
+herbácea e arbórea, consumida principalmente por bovinos e caprinos, é bastante lenta,
+ou seja, a velocidade de consumo, durante o pastoreio, é maior que a regeneração dessas
+mesmas espécies vegetais, permitindo até o aparecimento de espécies não comestíveis.
+Por outro lado, o pisoteio intensivo dos animais compacta o solo, resultando daí riscos
+diversos como a inibição do crescimento de plantas, a impermeabilização do solo,
+originando um aumento de evaporação e escoamento da água superficial, com todos os
+inconvenientes já conhecidos.
+33
+
+--- Page 33 ---
+3.1.2.4- Erosão do solo
+Por definição, a erosão é um processo de separação e transporte das partículas do
+solo, efectuadas pela água e /ou pelo vento, de um local para outro. A erosão do solo é
+uma consequência indirecta de acções diversas levadas a efeito, principalmente pelo
+homem, na sua pressão constante sobre os recursos do solo, especialmente nas áreas
+rurais com alta densidade populacional. Esses abusos sobre os recursos do solo traduzem-
+se, como já foi referido anteriormente, pelas práticas das queimadas, abate da vegetação,
+sobrepastoreio, etc. A erosão acaba por ser o resultado final do uso e utilização excessiva
+do solo – foto 6
+Foto 6
+Erosão fluvial, Canxixi – Sofala
+Fonte: MICOA, 1996
+A maioria das cidades de Moçambique, que se localizam na faixa costeira,
+apresentam também problemas de erosão, provocados principalmente pelo fluxo
+excessivo da população que procuram nesses locais, não só desenvolver actividades
+económicas a retalho, como também procuram serviços diversos como a saúde,
+educação, etc. O mapa 7 apresenta as seis zonas de risco de erosão no país
+34
+
+--- Page 34 ---
+Mapa 7
+Risco de erosão
+Fonte: J.van Wambeke (1986). Erosion Hazard Mapping in Mozambique. INIA/DTA, Maputo
+3.1.2.5- Práticas agrícolas impróprias
+Mais de 80% da população activa do país vive na sua grande maioria da agricultura
+de subsistência. Este tipo de agricultura desenvolve-se utilizando práticas inapropriadas e
+que colidem com os princípios básicos da manutenção e conservação dos solos: a
+ausência de rotação de culturas e de parcelas; a não utilização de composto; a
+monocultura; as culturas em solos com declive e sem protecção vegetal contra a erosão,
+são factores que podem acelerar o processo da degradação dos solos.
+As práticas agrícolas impróprias não se verificam apenas no sector agrícola
+familiar. Também o sector agrícola empresarial através da mecanização, da utilização
+excessiva de pesticidas e fertilizantes, muitos destes desenquadrados das necessidades
+reais das plantas, utilização de água e de técnicas impróprias de irrigação, contribuem
+para a alteração de estrutura física e bioquímica do solo, conduzindo também a um
+processo de degradação.
+35
+
+--- Page 35 ---
+3.2- Principais consequências
+A degradação do solo, não é mais que o resultado da soma dos factores naturais e
+humanos. A prática e o desenvolvimento daquelas acções, pelo próprio homem rural,
+visam sobretudo a sua subsistência e de sua família. Sem dúvida que actividades,
+principalmente, como a produção de carvão, a extracção de estacas e de toros para
+madeira, movimentam importantes recursos financeiros e garantem emprego a inúmeras
+famílias, pelo menos a curto e médio prazo. No entanto, a longo prazo, as consequências
+da degradação dos solos, recaem não só e directamente sobre a família rural, como
+também na economia nacional, em dois aspectos importantes: a segurança alimentar e as
+migrações.
+3.2.1- Segurança alimentar
+As condições físicas e económicas que ocorreram na época de 1996/7, avaliaram e
+conduziram à identificação de distritos com muito baixa produção de alimentos básicos,
+que coincidentemente são alguns dos distritos mais afectados pela seca e/ou risco de
+desertificação.
+Os distritos que se circunscrevem nesta categoria, localizam-se em regiões das
+províncias de Maputo, Gaza, Inhambane, o norte dos distritos de Manica e Sofala e o sul
+da província de Tete, o que significa que aproximadamente 60% do país tem
+probabilidade maior de 30% de ocorrência de seca. Estas áreas são reconhecidas,
+tradicionalmente, como áreas cronicamente deficitárias, devido às suas características
+agro-ecológicas. Um subgrupo destes distritos pode ser caracterizado como sendo
+isolado, apresentando problemas sérios às comercialização, tais com Mabalane,
+Chicualaquala, Massangena, Guvuro, Mabote, Chemba e Marínqué.
+Em alguns distritos os impactos do fenómeno são bastante críticos, existindo
+dados referentes à seca mais intensa no distrito de Funhalouro, em 1993, os quais
+reportam o registo de óbitos em cerca de 50% da população afectada.
+Os resultados da avaliação da vulnerabilidade à insegurança alimentar para
+2000/01, quanto à capacidade de auto provisão dos distritos, indicavam:
+a) quinze distritos, 11,8%, são classificados com altamente deficitários, com menos
+de seis meses de capacidade de auto provisão alimentar;
+b) dezoito distritos, 14,1%, são classificados como deficitários, com seis a nove
+meses de capacidade de auto provisão alimentar;
+c) dezanove distritos, 17,1%, são classificados como auto suficientes, com nove a
+doze meses de capacidade de auto provisão;
+d) setenta e dois distritos, 56,2%, são classificados como excedentários, com mais de
+doze meses de capacidade de auto provisão.
+36
+
+--- Page 36 ---
+Assim, na campanha agrícola de 2000/01, o número de distritos com capacidade de
+auto provisão deficitária e altamente deficitária, subiu de 22 para 33 e os distritos
+excedentários diminuíram de 88 para 72, no mesmo período – quadros 5 e 6 e mapa 8.
+Quadro 5
+Distritos afectados pela seca/desertificação com baixa produção alimentar
+< de 6 messes
+Províncias Distritos Meses de provisão Auto sistema alimentar (a)
+Maputo Moamba 5,43 Semi- árido
+Chókwé 1.90 Semi-árido + bacias hidrográficas
+Massangena 3,41 Semi-árido
+Gaza Mabalane 4,01 Semi-árido
+Chicualacuala 4,53 Semi-árido
+Guijá 5,99 Semi-árido + bacias hidrográficas
+Inhambane Mabote 4,68 Semi-árido
+Govuro 5,52 Semi-árido
+Sofala Maríngué 5,92 Planalto + bacias hidrográficas
+Tete Mutarara 2,13 Bacia hidrográfica
+Changara 5,76 Semi-árido
+Quadro 6
+Distritos afectados pela seca/desertificação com baixa produção alimentar
+de 6 a 9 messes
+Províncias Distritos Meses de provisão Auto sistema alimentar (a)
+Maputo Namaacha 6.80 Planalto / terra baixa
+Magude 7,45 Semi-árido
+Gaza Chibuto 7,07 Bacia hidrográfica + semi árido
+Inhassoro 7,14 Zona costeira + semi-árido
+Inhambane Vilankulo 7,43 Zona costeira + semi-árido
+Funhalouro 8,10 Semi-árido
+Caia 6,48 Bacia hidrográfica
+Sofala Gorongosa 7,68 Bacia hidrográfica + planalto
+Machanga 8,20 Zona costeira + bacia hidrográfica
+Nhamatanda 8,80 Zona costeira
+Nampula Nacala 7,04 Zona costeira
+(a) de acordo com o relatório de Avaliação da Vulnerabilidade em Moçambique, o país está dividido em quatro sistemas de
+alimentação, delineadas pelas características geo-climáticas e económicas, que se seguem:
+- sistema alimentar no planalto e nas terras do interior;
+- sistema alimentar de terras das zonas baixas e regiões costeiras;
+- sistema alimentar das principais bacias hidrográficas;
+-
+sistema alimentar das zonas semi-áridas e áridas.
+37
+
+--- Page 37 ---
+Mapa 8
+Vulnerabilidade à segurança alimentar e nutricional em 2000/01
+Fonte: Avaliação da Vulnerabilidade em Moçambique 2000/2001. Grupo inter-sectorial de Avaliação e Mapeamento da
+Vulnerabilidade MADER: MPF, MISAU, INGC, FEWS, FAO, MSF/CIS
+3.2.2- Migrações
+Como resultado da ausência de alternativas, as comunidades pobres, na busca da
+sua sobrevivência diária, pressionam cada vez mais a base dos recursos naturais de uma
+forma sem precedentes e o efeito imediato dessa pressão é o esgotamento do solo, ou
+seja, a improdutividade da terra que não lhes garante a segurança alimentar, sequer a
+curto termo. Uma vez a terra esgotada e degradada, as populações sentem-se forçadas a
+movimentarem-se para outras zonas, em busca de novas terras que garantam maior
+produtividade, segurança alimentar e rendimentos extras.
+38
+
+--- Page 38 ---
+As migrações em Moçambique, para além de motivações económicas, sociais e
+políticas, são também a consequência da seca e da desertificação. As migrações podem
+ser internas ou externas. As internas manifestam-se através da deslocação para outras
+áreas dentro do mesmo distrito. São exemplo as migrações que conduzem as populações
+de Mabalane, Chibuto, Chicualacuala e Moamba, para junto das margens dos rios
+Limpopo e Incomati e sopé de montanhas onde os recursos florestais e faunísticos são
+ainda satisfatórios. As migrações externas verificam-se para os países vizinhos, onde as
+populações procuram melhores condições de vida, que poderão ter por base outras
+actividades que não sejam a agro-pecuária – quadro 7.
+Os impactos imediatos dessa mobilidade interna é a aceleração do esgotamento
+dos recursos naturais na região de chegada, manifestando-se pelo corte da vegetação
+ribeirinha, assoreamento dos rios, esgotamento dos solos, para além de outros que se
+verificam nos centros urbanos, como a pressão no sistema de educação, saúde,
+transportes, comércio, emprego, etc.
+Quadro 7
+Principais destinos da população das áreas afectadas pela seca e desertificação
+Áreas afectadas Destino
+Moamba África do Sul, Swazilândia, margens dos rios Incomati e Sábié e
+centros urbanos de Maputo e Matola.
+Namaacha África do Sul e Swailândia.
+Mabalane África do Sul, Zimbabwe e margem do rio Limpopo.
+Chicualacuala África do Sul, Zimbabwe e margens do rio Limpopo.
+Massagena Zimbabwe e margens do rio Save.
+Massinga Margem do rio Das Pedras e do rio Chipongo e centros urbanos.
+Funhalouro Não há o hábito de migração.
+Nhamatanda Corredor da Beira, ao longo da estrada e cidade da Beira.
+Gorongosa Novas áreas dentro do distrito.
+Maringué Novas áreas dentro do distrito.
+Chemba Margens do rio Zambeze.
+Caia Corredor da E.N. n.º 213 e margens do rio Zambeze.
+Magoé Zimbabwe
+Changara Zimbabwe
+Manica Zimbabwe
+Fonte: MICOA, Novembro de 2000, Subsídio para a formulação de um plano nacional de acção de combate à seca e à
+desertificação em Moçambique.
+39
+
+--- Page 39 ---
+40
+
+--- Page 40 ---
+4 – Contexto actual
+4.1- Locais de risco
+Em 1997, o Ministério para a Coordenação da Acção Ambiental, tendo consciência
+de que Moçambique é também um país com problemas de seca e de desertificação,
+procedeu a um levantamento nos distritos de maior risco, com o objectivo de determinar
+as causas e consequências, como também, auscultar a população da sua sensibilidade à
+participação na luta contra a seca e a desertificação.
+Do estudo realizado, concluiu-se que os problemas neste contexto, são muito
+semelhantes entre os distritos do sul, com particular incidência nos distritos da província
+de Gaza, onde a seca aliada à utilização excessiva dos recursos contribuem para piorar a
+situação. Os distritos estudados ao norte do rio Save, estão menos sujeitos à seca, mas
+com forte incidência para as práticas das queimadas descontroladas – mal comum em
+todo o país – e o abate indiscriminado de árvores comuns e de espécies florestais –
+quadro 8.
+41
+
+--- Page 41 ---
+Quadro 8
+Áreas afectadas pela seca e/ou em risco de desertificação
+Províncias Distritos Principais causas que concorrem para a
+desertificação
+Insuficiência de água superficial; baixa precipitação;
+Moamba queimadas descontroladas, abate de árvores para a
+produção de carvão vegetal e de lenha.
+Redução do caudal dos rios; défice pluviométrico;
+Maputo Namaacha queimadas descontroladas; abate indiscriminado de
+árvores para a produção de carvão vegetal e de lenha.
+Redução do caudal do Incomáti; défice pluviométrico;
+Magude queimadas descontroladas; abate de árvores para a
+produção de carvão vegetal, de lenha e de madeira;
+erosão.
+Malalane Redução do caudal do Incomáti; défice pluviométrico;
+Gaza Chiculacuala queimadas descontroladas; abate indiscriminado de
+Massagena árvores para produção de carvão vegetal, de lenha e de
+madeira.
+Massinga
+Funhalouro Défice pluviométrico; queimada descontroladas; abate
+Inhambane Vilankulo indiscriminado de árvores para a produção de carvão,
+Inhassoro de lenha e de madeira.
+Govuro
+Nhamatanda
+Gorongosa Défice pluviométrico; queimadas descontroladas;
+Sofala Maríngué desmatação; alguma erosão eólica e fluvial.
+Chemba
+Caia
+Moatize Redução do caudal dos rios; queimadas descontroladas;
+desmatamento.
+Tete Mágoé Queimadas descontroladas; desmatamento; erosão.
+Changara
+Manica Macossa Queimadas descontroladas; uso excessivo do solo;
+Manica desmatamento.
+4.2 - Política dos diversos sectores e respectivos quadros legislativos
+Após a independência de Moçambique e até aos acordos de paz em 1992, nenhuma
+legislação foi elaborada especialmente no âmbito da mitigação dos efeitos da seca e para
+contrariar o uso abusivo dos recursos naturais à superfície, principalmente os florestais.
+Durante a guerra civil, para além da destruição de infra-estruturas económicas e sociais a
+fauna bravia foi drasticamente reduzida, bem como a floresta, principalmente nas
+províncias do sul do país.
+42
+
+--- Page 42 ---
+A Constituição, promulgada em 30 de Novembro de 1990, cita, respectivamente
+nos seus artigos 36 e 37, o seguinte: “ O Estado promove o conhecimento, a
+inventariação e a valorização dos recursos naturais e determina as condições do seu uso e
+aproveitamento com salvaguarda dos interesses nacionais” e “O Estado promove
+iniciativas para garantir o equilíbrio ecológico, a conservação e preservação do meio
+ambiente, visando a melhoria da qualidade de vida dos cidadãos.
+De um modo geral, as estratégias e a legislação da política sectorial, visam acções
+que se enquadrem na filosofia do combate à seca e desertificação, como a protecção, a
+gestão e a disciplina do acesso aos recursos naturais, com a participação do sector
+privado e o envolvimento da comunidade rural. Os programas dirigidos à população
+rural, executados por ONGs, contemplam actividades no âmbito, mais da segurança
+alimentar, que nas defesas do meio ambiente e do património dos recursos naturais à
+superfície. As principais intervenções políticas do país referem-se a:
+4.2.1- A Política e Estratégia de Desenvolvimento de Florestas e Fauna Bravia
+Aprovada pela Resolução n.º 8/97 de 1 de Abril, que tem como princípio
+fundamental a necessidade de assegurar progressivamente a segurança alimentar e o
+desenvolvimento económico sustentável, considerando o uso sustentável dos recursos
+naturais. Quatro são os objectivos a longo prazo:
+a) Económico para a produção e utilização do recurso flora e fauna, com ênfase sobre
+os problemas relativos às concessões florestais, exploração de coutadas,
+actividades cinegéticas em áreas livres, reabilitação da indústria de madeira,
+reflorestamento comercial e promoção das exportações e da indústria de eco-
+turismo;
+b) Social para a utilização e conservação do recurso pela comunidade, principalmente
+sobre a educação comunitária, uso e aproveitamento dos recursos pelas
+comunidades e o reflorestamento comunitário;
+c) Ecológico para a protecção e conservação da flora e fauna, com ênfase sobre a
+reabilitação e ocupação dos parques nacionais e reservas do bravio e de florestas,
+expansão das áreas de conservação, protecção dos solos, bacias hidrográficas,
+fixação de dunas e outros ecossistemas frágeis;
+d) Institucional para os aspectos de reforço e reorganização institucional nas áreas da
+programação, monitorização, formação e fiscalização.
+43
+
+--- Page 43 ---
+4.2.1.1- A Lei de Florestas e Fauna Bravia
+Aprovada com n.º 10/99 de 07 de Julho, cujos objectivos gerais são proteger,
+conservar, desenvolver e utilizar de uma forma racional e sustentável os recursos
+florestais e faunísticos para o benefício económico, social e ecológico da actual e futura
+geração dos moçambicanos. A presente Lei contempla:
+a) A protecção, o regime de exploração, o repovoamento e a gestão, dos recursos
+florestais e faunísticos;
+b) As infracções e penalidades. Neste capítulo, por exemplo, a queimada florestal é
+considerada um crime e como tal, punível de acordo com a Lei.
+4.2.2- Política Nacional de Águas
+Aprovada pela resolução n.º 7/95 de 8 de Agosto e contemplando:
+a) A valorização da água como um bem económico e social de forma a permitir a
+recuperação dos custos envolvidos e a promover o uso racional da água;
+b) os investimentos na área dos recursos hídricos devem promover o
+desenvolvimento económico e o alívio à pobreza, bem como a melhoria das
+condições de saúde da população;
+c) A gestão dos recursos hídricos deve ser de forma integrada de tal modo que
+permita optimizar os benefícios à comunidade e deve igualmente promover a
+conservação da água e a protecção do meio ambiente, particularmente, ao combate
+da degradação ambiental e das bacias hidrográficas.
+Podendo-se destacar desta política os objectivos:
+• estabelecer medidas de conservação e protecção ambiental;
+• estabelecer a curto prazo acordos de partilha, nos quais, particular atenção deve ser
+dada à necessidade de se assegurar caudais ecológicos, não perdendo de vista os
+problemas da qualidade de água;
+• assegurar a colheita de informações indispensáveis para a avaliação e planeamento
+das aguas subterrâneas;
+• estabelecer zonas de protecção da água subterrânea;
+• definir os critérios de uso da água.
+Os Acordos de Partilha de Águas, que já vêem sido tratados desde a época
+colonial, entre Moçambique e os países vizinhos, estabelecendo princípios nas áreas do
+planeamento, na troca de informações, na elaboração de estudos conjuntos, relativamente
+à utilização dos recursos hídricos de interesse comum. Esta política vem-se
+desenvolvendo e, neste contexto, registaram-se depois da independência outros acordos:
+- em 1976 foi assinado com o Reino da Swazilândia um acordo de partilha das
+águas do rio Umbeluzi;
+44
+
+--- Page 44 ---
+- em 1986, com a África do Sul, Botswana e Zimbabwe, foi assinado um acordo
+para o estabelecimento de um Comité de discussão dos assuntos relativos à
+utilização e desenvolvimento da bacia do Limpopo;
+- o Comité Técnico Tripartido, acordou em 1991, a elaboração de um estudo
+conjunto e cujos resultados serviriam de base nas futuras negociações de partilha
+de águas e que enquanto não fosse estabelecido tal a acordo a África do Sul
+deveria garantir a Moçambique um caudal mínimo de 2 m³/s, na fronteira de
+Ressano Garcia;
+- um outro acordo assinado com a África do sul em 1996, estabelece a criação de
+uma Comissão entre os dois países, com o objectivo de assessorar tecnicamente
+os respectivos Governos nas questões de utilização deste recurso. Uma Comissão
+similar foi estabelecida com o Reino da Suazilândia.
+4.2.2.1- Lei de Águas
+Aprovada com n.º 16/91, estabelece de entre outros aspectos, os recursos hídricos
+que pertencem ao domínio público, o direito ao uso de água e respectivas prioridades, os
+direitos dos utentes e as correspondentes obrigações. Nestes termos a Lei define dois
+tipos de uso, o uso comum, ou uso doméstico, de utilização grátis, desde que não seja
+utilizado na captação da água qualquer equipamento mecânico e o uso privado em que
+se distinguem duas categorias: a primeira referente ao uso da água pelos titulares do
+direito ao uso e aproveitamento da terra e o segunda, através da concessão do direito ao
+uso da água, de acesso a quaisquer pessoas autorizadas e que não ponham em causa o
+equilíbrio ecológico e o meio ambiente.
+A Lei das Águas apresenta ainda no capítulo sobre a utilização da água, um artigo
+que refere os direitos e obrigações dos utentes com vista a minimizar o impacto
+ambiental e zelar pela qualidade da água.
+4.2.3- Política Nacional do Ambiente
+Aprovada pela resolução n.º 5/95 de 3 de Agosto, reconhece que grande parte dos
+recursos naturais do país está sob imensa pressão, em virtude da população, a maioria
+vivendo num estado de absoluta pobreza, ver-se forçada a ter que recorrer à exploração
+desregrada daqueles, como garantia da sua sobrevivência, facto que contribui para
+acelerar a degradação ambiental.
+Esta Política, consiste na promoção do desenvolvimento sustentável e da utilização
+racional dos recursos naturais, através da inclusão dos princípios e práticas ambientais no
+esforço nacional de reconstrução e desenvolvimento do País, estabelecendo as políticas e
+a legislação apropriadas para esse efeito. As principais estratégias preconizadas para a
+concretização daqueles princípios, referem-se a:
+45
+
+--- Page 45 ---
+a) Preparar e executar um Programa Nacional de Gestão Ambiental;
+b) Promulgar e efectivamente aplicar uma lei-quadro do ambiente e garantir que a
+legislação de cada sector esteja devidamente compatibilizada com a lei-quadro;
+c) Garantir que o MICOA seja capaz de monitorizar o estado do ambiente em
+Moçambique e coordenar os programas de desenvolvimento dos diferentes
+sectores a nível central e local;
+d) Estabelecer unidades de Planificação e Ambiente em todos os sectores do estado a
+nível central, provincial e Local;
+e) Assegurar a inclusão dos princípios ambientais nos currículos da educação formal,
+a todos os níveis e implementar um programa de consciencialização popular no
+campo ambiental;
+f) Estabelecer um plano de contingência para o combate às calamidades naturais e
+catástrofes ambientais, sobretudo os incidentes com origem na poluição;
+g) Proceder à descentralização e democratização da gestão dos recursos naturais
+através do Programa de Reforma dos Órgãos Locais e outros programas similares;
+h) Capacitar as comunidades locais de modo a cuidarem e a beneficiarem do seu
+próprio ambiente, incluindo o rendimento da exploração dos recursos naturais;
+i) Garantir a capacitação da mulher e privilegiar, sobretudo nas zonas rurais, a sua
+participação na gestão dos recursos naturais;
+j) Implementar um programa de modelos de boas práticas de gestão ambiental e
+seleccionando áreas prioritárias.
+4.2.3.1- Lei do Ambiente
+Aprovada com o n.º 21/97 de 1 de Outubro, que assenta nos princípios
+fundamentais da utilização e gestão racionais dos componentes ambientais de forma, não
+só a promover a melhoria da qualidade de vida dos cidadãos, como também a valorizar as
+tradições e o saber das comunidades locais com vista á conservação e preservação dos
+recursos naturais e responsabilizá-las nos actos propositados da degradação do ambiente.
+Esta Lei, cria o Conselho Nacional de Desenvolvimento Sustentável, que é um
+órgão consultivo do Conselho de Ministros e serve também como fórum de auscultação
+da opinião pública sobre questões ambientais e legisla as medidas de protecção do
+ambiente, a prevenção de danos ambientais, os direitos e deveres dos cidadãos, as
+responsabilidades, as infracções e sanções e finalmente a fiscalização ambiental, também
+com a participação das comunidades.
+46
+
+--- Page 46 ---
+4.2.4- Política Agrária e as Estratégias de Implementação
+Aprovada pela resolução n.º 11/95 de 31 de Outubro, cujo princípio fundamental
+é o desenvolvimento da actividade agrária com vista a alcançar a segurança alimentar,
+através da produção diversificada de produtos para o consumo, para o fornecimento à
+indústria nacional e para a exportação, tendo como base a utilização sustentável dos
+recursos naturais e a garantia da equidade social. Este princípio tem por base quatro
+estratégias principais, sendo elas:
+a) Uso sustentado dos recursos naturais – principalmente nas áreas da conservação
+dos solos, na reabilitação de reservas florestais já demarcadas e da conservação e
+utilização racional das florestas e fauna bravia; na revisão dos limites e
+recuperação dos parques e reservas, com a participação do sector privado e o
+envolvimento das populações; na promoção do reflorestamento com espécies de
+crescimento rápido, para o abastecimento de lenha e de carvão aos grandes centros
+urbanos; no desenvolvimento de acções de educação e responsabilização
+comunitária, em relação ao controlo do uso de do fogo nas operações culturais e
+de caça;
+b) Extensão da capacidade de produção e melhoria da produtividade agrária –
+visando o planeamento e desenvolvimento do uso e acesso à terra; a produção de
+alimentos para atingir a auto-suficiência e segurança alimentar; a produção das
+culturas de rendimento para exportação, contribuindo assim para a melhoria da
+balança de pagamentos; a reestruturação das empresas do sector agrário,
+principalmente aquelas viradas para a produção e comercialização; o
+desenvolvimento de serviços eficientes de formação profissional, investigação e
+extensão; a protecção de plantas e animais no âmbito do levantamento dos
+principais problemas patológicos e a organização de campanhas para o combate
+dos mesmos; o desenvolvimento, a reabilitação e a rentabilização de infra-
+estruturas ligadas aos sistemas de regadio;
+c) Desenvolvimento institucional equilibrado – no âmbito da reestruturação e
+reorganização das instituições a todos os níveis; no reforço dos mecanismos da
+planificação, da coordenação inter-sectorial e da execução da política agrária a
+nível central de local; na adopção de uma orgânica e regulamentos de
+funcionamento que permitam o estabelecimento e a definição com clareza das
+competências dos serviços públicos e dos diferentes órgãos da Agricultura, a todos
+os níveis onde se justifique;
+d) Desenvolvimento dos recursos humanos – principalmente na formação e
+enquadramento de técnicos nacionais do sector agrário e o estabelecimento de
+mecanismos de incentivos e carreiras profissionais.
+4.2.5- Política Nacional de Terras
+Que define as prioridades nacionais, relativamente ao uso da terra, tendo sempre
+em conta a protecção ambiental. Os princípios fundamentais da política resumem-se em;
+47
+
+--- Page 47 ---
+a) Manutenção da terra como propriedade do Estado, tal como é consagrado na
+Constituição da República;
+b) Garantia de acesso e uso da terra à população bem como aos investidores;
+c) Promoção do investimento privado nacional e estrangeiro sem prejudicar a
+população residente e assegurando benefícios para esta e para o erário público
+nacional;
+d) Participação activa dos nacionais como parceiros em empreendimentos privados;
+e) Definição e regulamentação de princípios básicos orientadores para a transferência
+dos direitos de uso e aproveitamento da terra entre cidadão nacionais, sempre que
+investimentos houverem sido feitos no terreno;
+f) Uso sustentável dos recursos naturais de forma a garantir a qualidade de vida para
+as presentes e futuras gerações.
+A Política Nacional de Terras considera como beneficiários vários sistemas que
+exercem direitos sobre a terra, ou que têm na terra a sua principal actividade económica,
+sendo eles o uso agrário para o sector familiar, a pequena e média empresa, a grande
+empresa, o uso para construção e urbanismo, o uso para actividades mineiras e o uso para
+o turismo.
+4.2.5.1- Lei de Terras
+Aprovada com o n.º 19/97 de 1 de Outubro, veio substituir a anterior, no sentido de
+adaptá-la à nova conjuntura política, económica e social e garantir o acesso e a segurança
+de posse da terra, tanto dos camponeses moçambicanos, como investidores nacionais e
+estrangeiros. Esta legislação assenta no princípio geral de que a terra é propriedade do
+Estado, não podendo ser vendida, alienada, hipotecada ou penhorada.
+Uma das inovações desta lei, é a obrigatoriedade de constar no processo de
+titulação do direito de uso e aproveitamento da terra o parecer formal da consulta às
+respectivas comunidades, para efeitos de confirmação de que a área é livre e não tem
+ocupantes.
+4.2.6- Estratégia para a Segurança Alimentar e Nutricional
+Aprovada pela resolução n.º 16/98 de 23 de Dezembro, estabelecendo de que o
+objectivo global, desta política, é de garantir que todos os moçambicanos tenham, a todo
+o momento, acesso físico e económico dos alimentos necessários, de modo a que tenham
+uma vida activa e saudável. Três condições estratégicas foram determinadas, visando
+atingir aquele objectivo principal:
+48
+
+--- Page 48 ---
+a) A disponibilidade de alimentos suficientes de qualidade adequada;
+b) O acesso físico e económico que os agregados familiares devem ter aos alimentos
+através da produção familiar, compras, ofertas e outras formas;
+c) A utilização adequada dos alimentos de forma que cada membro do agregado
+familiar receba e absorva os alimentos adequados à sua necessidade ;
+O Governo reconhece que haverá sempre pessoas que não poderão assegurar a sua
+alimentação pelos seus próprios meios. Esta situação poderá ser de natureza transitória,
+como resultado de calamidades naturais, desemprego generalizado, problemas estruturais
+na economia, etc. As intervenções, a curto prazo, direccionadas para a solução daquele
+tipo de insegurança alimentar, incluem:
+a) A capacitação dos serviços de gestão de assistência social;
+b) A disponibilidade de fundos para o financiamento de importações de milho e de
+outros produtos de primeira necessidade pelo sector privado durante uma
+emergência;
+c) Uma reserva alimentar adequada para distribuição em casos de ocorrência de
+desastres naturais súbitos e imprevistos;
+d) O desenvolvimento e adopção de um conjunto de regras para todos os
+importadores e distribuidores de ajuda alimentar, com o objectivo de maximizar a
+eficácia da ajuda alimentar;
+e) A investigação e promoção de mecanismos comunitários de auto-gestão de
+calamidades e protecção social;
+f) Um sistema de gestão de desastres, incluindo um sistema compreensivo de aviso
+prévio.
+4.3- Principais acções em desenvolvimento que interferem directa ou
+indirectamente no processo
+4.3.1- Programa Nacional para o Desenvolvimento Agrário – PROAGRI
+O PROAGRI é um programa de investimento público para o sector agrário e para
+o período de 1999 a 2003, visando a implementação do Programa do Governo e da PAEI,
+que subscrevem as políticas do alívio à pobreza, da segurança alimentar; da criação de
+emprego e melhoria da balança de pagamentos.
+49
+
+--- Page 49 ---
+A principal estratégia deste Programa e das políticas que o suportam é o
+desenvolvimento da actividade agrária baseada no sector familiar.
+As três estratégias específicas assentam:
+a) na reforma e modernização institucional, cujos objectivos imediatos são
+transformar o ex- MAP numa estrutura moderna de gestão pública agrária que se
+concentre nas actividades de formulação, regulamentação e implementação de
+políticas sectoriais, com vista à criação de um ambiente favorável ao
+desenvolvimento do sector familiar e consolidação do sector empresarial;
+b) no reforço dos serviços públicos agrários de extensão de pecuária e de
+investigação, que prevê como objectivos imediatos o aumento dos níveis de
+produção e produtividade agrícola, pecuária, florestal, com vista ao aumento dos
+rendimentos das famílias rurais e segurança alimentar, prevenindo a degradação
+dos recursos naturais;
+c) na gestão sustentável dos recursos naturais – terras agrárias, florestas e fauna
+bravia e águas, visando proteger, conservar, desenvolver e assegurar o acesso das
+populações aos recursos naturais, com vista à utilização racional e sustentável para
+o benefício económico, social e ecológico.
+Os custos gerais do PROAGRI, projectados para o período de 1999-2003 para
+investimentos e custos correntes totalizam o montante de US$202,18 milhões.
+4.3.2- Programa Nacional de Água Rural
+Aprovado pelo Diploma Ministerial n.º 78/2001 de 23 de Maio, estabelece que o
+Departamento de Água Rural é o organismo responsável pela promoção do
+abastecimento de água nas zonas rurais, de forma acessível, segura e sustentável, tendo
+como prioridade a criação de condições favoráveis para a participação de todos os
+intervenientes do sector. As condições estratégicas para se atingir aquele objectivo geral
+prevêem entre outras:
+a) a promoção e coordenação de todas as actividades de abastecimento de água nas
+zonas rurais;
+b) a investigação e a promoção de tecnologias apropriadas e sustentáveis nos
+programas de abastecimento de água rural às zonas rurais, através de poços, furos
+e pequenos sistemas;
+c) monitorização das acções de abastecimento de água rural, sua conservação e
+manutenção das infra-estruturas;
+50
+
+--- Page 50 ---
+d) assistência e supervisão aos planos provinciais de abastecimento de água rural,
+apoiando a sua preparação e organização, mantendo actualizado o inventário das
+fontes de abastecimento de água, bem como a sua operacionalidade;
+e) promoção da gestão sustentada e autónoma dos pequenos sistemas de
+abastecimento de água, através de medidas institucionais e modelos de gestão
+apropriados.
+4.3.3- Sistema Nacional de Avisos Prévios
+4.3.3.1- Segurança alimentar
+A agricultura é a actividade base das famílias rurais, na qual elas procuram obter
+não apenas a dieta alimentar como também aumentar a receita familiar. Dado que a
+ocorrências de secas são frequentes e predominam principalmente no sul do país,
+trazendo consequências bastante negativas para as populações rurais, o MADER tem
+vindo a desenvolver, juntamente com outras instituições, estratégias de acção no sentido
+de minimizar aqueles efeitos negativos, entre as quais se destacam as seguintes:
+a) sensibilização das populações sobre a possibilidade de ocorrência de seca e a
+indicação das formas de minimizar os seus efeitos, emitindo mensagens agro-
+técnicas, através da comunicação social;
+b) sensibilização das populações para maior aproveitamento das baixas e com
+adopção de culturas tolerantes à seca;
+c) aquisição e distribuição de sementes de culturas tolerantes à seca e de ciclo curto,
+e o fomento de fruteiras resistentes à seca, para melhor servir a dieta alimentar;
+d) fomento da criação de gado caprino nas zonas de risco e garantir a transferência do
+gado em risco de vida, nas regiões afectadas, para os postos de fomento onde
+existem melhores condições;
+e) aconselhamento aos produtores para maior reserva de alimentos e sementes,
+divulgando também as melhores formas da sua conservação.
+4.3.3.2- Meteorologia
+Para a mitigação de secas e combate contra a desertificação, a contribuição do
+INAM é feita na forma de provisão de resultados de diferentes análises meteorológicas,
+climatológicas e actividades de investigação levadas a cabo ao nível da instituição e posta
+à disposição das instituições e organizações envolvidas na implementação da CCD e a
+população em geral. De relevância particular, podem-se destacar as seguintes acções:
+a) Os resultados das análises sobre previsão sazonal que permitam a emissão de
+avisos sobre a possibilidade de ocorrências de secas, tornando assim possível a
+51
+
+--- Page 51 ---
+adopção de programas de contingência pelos órgãos de decisão e de estratégias
+apropriadas na produção e uso de recursos pela população em geral;
+b) A monitorização do estado da vegetação na base de dados de satélites permitindo a
+emissão de avisos prévios sobre zonas com stress hídrico;
+c) A monitorização de queimadas na base de satélite, permitindo a compreensão do
+estado de degradação da cobertura vegetal pelas queimadas;
+d) Análises climatológicas de séries de dados para a detecção de tendências no
+comportamento das chuvas;
+e) Integração do conhecimento tradicional sobre previsão de secas com o
+conhecimento contemporâneo;
+f) Estudos sobre o El Niño e o seu impacto no comportamento das chuvas.
+4.3.4- Plano de Acção para Redução da Pobreza Absoluta (2000-2004)
+O PARPA – Plano de Acção para Redução da Pobreza Absoluta – não é mais que
+o plano operacional das Linhas de Acção para a Erradicação da Pobreza Absoluta,
+aprovado pelo Governo em Abril de 1999. O PARPA, enquadra-se no princípio de que o
+combate às causas da desertificação provocadas pela acção do homem, passam também
+pela erradicação da pobreza.
+Este Plano de Acção, elaborado em 2000, apresenta como objectivo geral, até
+2004, “desenvolver e permitir o acompanhamento eficaz e coordenado de acções
+conducentes à redução da pobreza a médio prazo e à sua erradicação a longo prazo” e
+propõe uma série de intervenções nos seguintes sectores:
+Educação – acesso à oportunidade de educação, redução da taxa de analfabetismo
+de adultos e expansão do ensino técnico;
+Agricultura e desenvolvimento rural – aumento da produtividade na agricultura e
+desenvolvimento rural;
+Infra-estruturas – extensão e melhoramento da rede de infra-estruturas, acesso à
+água potável, melhoria no acesso e qualidade da habitação, acesso a fontes de energia
+segura e sustentável e acesso ás comunicações;
+Saúde – expansão de acesso e melhoria dos cuidados de saúde materno-infantil,
+DTS/SIDA e nutrição;
+Emprego – promoção do emprego e auto-emprego e formação profissional;
+Segurança e assistência social directa – assistência social directa e reabilitação
+social dos grupos vulneráveis;
+52
+
+--- Page 52 ---
+Segurança alimentar – melhoria da segurança alimentar a nível de agregados
+familiares;
+Capacitação institucional para assuntos de pobreza – formação e pesquisa.
+4.3.5- Plano estratégico do Sector Saúde – PESS – (2001-2005)
+O PESS é um processo de busca de consensos sobre as abordagens a adoptar para a
+solução dos grandes problemas de Saúde que afectam a população do país. É nesta óptica
+que para além da prestação de cuidados de saúde preventivos e curativos, o PESS
+identifica a advocaci para a saúde, o fortalecimento individual e colectivo, como
+intervenções sanitárias chaves do MISAU.
+Este plano propõe uma séries de intervenções e define com clareza uma orientação
+relativamente a determinadas acções, entre elas:
+d) o compromisso contínuo e necessário de priorizar os grupos desaforáveis na
+população e concentrar as acções de alívio à pobreza;
+e) a prestação de cuidados primários e desenvolvimento da qualidade dos cuidados
+hospitalares;
+f) fortalecimento dos indivíduos e comunidades, de modo que eles assumam a
+responsabilidade e controlo crescentes sobre a sua própria saúde;
+g) a consolidação dos grandes investimentos de reconstrução pós-guerra em
+contraposição à expansão contínua da rede;
+h) advocacia da saúde, que inclui o saneamento do meio, drenagem das águas que
+favorecem a multiplicação de vectores, abastecimento de água potável, educação
+geral da população e da mulher em particular e estatuto social e económico da
+mulher;
+4.3.6- Envolvimento das ONGs
+A Nível Internacional e, particularmente pelos instrumentos das Nações Unidas
+para a protecção do ambiente, tem-se dado uma importância crucial à participação das
+ONG’s no processo do desenvolvimento sustentável, assim como no processo de
+protecção dos recursos naturais. As ONG’s constituem um dos maiores parceiros do
+Governo.
+O envolvimento das ONG’s moçambicanas no processo de combate à seca e à
+desertificação deve ser feito através da intervenção destas, na concepção de projectos e
+de programas e as sua realizações no terreno.
+53
+
+--- Page 53 ---
+Uma das medidas tomadas a nível nacional para melhor harmonizar as acções
+destas organizações, foi a criação do FAMBAN (Fórum das ONG’s ambientalistas) e do
+Coterra (Comité das ONG’s para o combate à seca e à desertificação), esta última
+assumindo o papel de Riod “Focal Point” em Moçambique. As actividades desenvolvidas
+por estas organizações são diversas, podendo-se mencionar a sensibilização e a execução
+de projectos e financiamento das diversas iniciativas. Isto mostrou que as ONG’s são um
+verdadeiro meio para aumentar e melhorar a colaboração entre as agências públicas de
+desenvolvimento.
+54
+
+--- Page 54 ---
+5 – Plano de Acção de Combate à Seca e à Desertificação – PAN
+Este plano visa especificamente definir a estratégica para o combate à seca e à
+desertificação, em Moçambique, no âmbito da Implementação da Convenção das Nações
+Unidas para o Combate a desertificação. A sua elaboração obedeceu a alguns critérios
+consignados na agenda da CCD. Aplicou-se a filosofia de “de baixo para cima”, embora
+motivos circunstanciais, nomeadamente os financeiros não permitiram a cobertura em
+100% das áreas consideradas chave.
+O PAN assenta em estudos, em investigação e em propostas, cujos elementos
+foram colhidos nos diversos locais afectados, e processados por técnicos nacionais,
+oriundos dos diversos sectores, como também pelo Órgão Nacional para o Combate a
+Seca e desertificação.
+5.1- Cobertura geográfica e população alvo
+A aplicação do PAN, limitar-se-á somente às áreas mais afectadas e já assinaladas,
+durante o quadriénio 2003/06. Esta decisão permitirá:
+a) centralizar os recursos existentes nas zonas mais críticas;
+b) conhecer e adquirir experiências na aplicação deste tipo de plano inédito no país;
+c) verificar a receptividade e a participação da população abrangida;
+e) e por último permitirá, de acordo com as respostas, reajustar o plano por um
+período de igual tempo e ampliá-lo para outras regiões.
+Os projectos, acções e medidas do PAN, devem ser priorizados às áreas com
+condições para a implementação dos mesmos, consideradas de maior risco de ocorrência
+de secas e com focos de degradação considerável de solos, como:
+• projectos e acções de desenvolvimento sócio económico e de luta contra a pobreza
+absoluta;
+• projectos e acções de protecção aos recursos naturais:
+• medidas institucionais e legais.
+O quadro 9 é representativo das zonas e das populações que serão envolvidas.
+55
+
+--- Page 55 ---
+Quadro 9
+Regiões e população abrangida
+Província Distritos População
+Homens Mulheres Total %
+cobertura
+Maputo Magude 136.575
+Boane
+Matutuíne
+Marracuene
+Moamba
+Namaacha
+Manchiça
+Gaza Chicualacuala 26.989
+Massagena
+Mabalane
+Massingir
+Chókwé
+Guija
+Manjacaze
+Inhambane Govuro 269.163
+Funhalouro
+Vilanculo
+Mabote
+Homoíne
+Panda
+Inharrime
+Inhassoro
+Massinga
+Zavala
+Jangano
+Sofala Chemba 52,171
+Machanga
+Machze
+Buzi
+Nhamatanda
+Manica Machazi 49.735
+Barue
+Manica
+Sussundenga
+Mussuril
+Tete Changara 83.494
+Mutarar
+Tsangano
+Angónia
+Moatize
+Macanga
+Nampula Nacala
+Total 618.127
+56
+
+--- Page 56 ---
+5.2- Objectivos do PAN
+5.2.1- Objectivo geral
+O plano tem como principal objectivo, estabelecer uma série de acções, em estreita
+colaboração com as populações locais, nas zonas áridas, semi-áridas e sub-húmidas
+secas, que conduzam à redução das causas de ocorrência de seca e o combate e prevenção
+da desertificação, numa primeira fase nas regiões mais críticas – sul e centro do país – e
+gradualmente estender o objectivo do PAN às restantes áreas.
+5.2.2- Objectivos específicos
+a) Sensibilizar a opinião pública nacional de um modo geral e em particular as
+comunidades rurais afectada, das causas e dos efeitos da seca e da desertificação,
+como também envolvê-las no processo da defesa do meio ambiente;
+b) Manter os agentes locais e líderes comunitários formados e informados, da
+legislação em vigor e das normas técnicas;
+c) Manter regular recolha, tratamento e divulgação da informação meteorológica,
+hidrológica, previsão de secas, etc.;
+d) Melhorar a capacidade de gestão e fiscalização ambiental;
+e) Proporcionar o aumento do rendimento das famílias vivendo nas zonas rurais;
+f) Aumentar a capacidade de investimento dos pequenos empresários,
+principalmente aqueles que podem gerar empregos;
+g) Assegurar o acesso da população rural à água potável e promover a utilização de
+latrinas melhoradas, para a população vivendo nas zonas rurais;
+h) Avaliar de uma forma integrada os recursos da terra, para posterior elaboração de
+um plano de uso de terra;
+i) Assegurar a protecção e a conservação do solo, nos locais e regiões mais críticas;
+j) Proporcionar o aumento da capacidade do armazenamento dos recursos hídrico
+nas zonas rurais mais críticas;
+k) Reduzir a exploração desenfreada das florestas nativas e criar meios alternativos
+de obtenção de biomassa lenhosa e reforçar os mecanismos de controlo da caça e o
+combate á caça furtiva.
+57
+
+--- Page 57 ---
+l) Facilitar o acesso à energia convencional e promover o uso de fontes alternativas;
+m) Educar as crianças e adolescentes em idade escolar para as consequências do
+desequilíbrio ecológico;
+n) Melhorar a assistência sanitária das populações, das zonas rurais, provocadas pelas
+alterações ambientais;
+o) Assegurar a aplicação do sistema de acesso ao uso e aproveitamento de terras;
+p) Capacitar os diferentes intervenientes para a implementação do PAN.
+5.3- Estratégia operacional
+A seca e a desertificação têm diferentes conceitos; no entanto em Moçambique,
+assim não se passa e estes dois fenómenos andam de mão dadas não podendo serem
+dissociados entre si, já que, as áreas que apresentam características de desertificação, que
+são principalmente as ao sul do rio Save, são coincidentemente as mesmas áreas que
+apresentam: baixos níveis de precipitação, inferiores a 500mm anuais; menor fertilidade
+de solos; maior densidade populacional, 23 habitantes/km2; maiores taxas de
+desflorestamento, até 20% entre 1972 e 1999; menores taxas de pobreza, média de
+65,80%; maiores consumidoras de combustíveis lenhosos, cerca de 1.213.000 ton/ano,
+que representam cerca de US$ 706 milhões/ano, do resultado da exploração de 16
+milhões de m3/ano de florestas, para a produção de lenha e de carvão dirigidos ao
+abastecimento de energia doméstica.
+Face a este cenário, a degradação do solo e do ambiente são uma constante,
+motivada pela pressão exagerada sobre os recursos naturais à superfície, por milhares de
+pessoas que procuram na floresta a sua subsistência. Moçambique, neste contexto, não é
+dos mais afectados, comparativamente a outros países africanos com índices de
+degradação dos solos muito mais elevados. No entanto, os intervenientes das acções que
+conduzem à degradação dos solos, bem como as autoridades a nível local, devem ter
+presente que a desertificação – consequência da seca hidrológica e da acção humana – é
+um processo com impacto negativo a longo prazo e cujos efeitos recairão sobre as futuras
+gerações, se atempadamente não forem tomarem medidas.
+O combate à seca e à desertificação tem princípio e o seu final é ilimitado no
+tempo. A responsabilidade deste combate não é exclusiva do Governo e das suas
+Instituições de suporte, mas também, da comunidade rural e da sociedade civil.
+Para se atingir o objectivo principal do PAN, o envolvimento dos diversos sectores
+é primordial como forma de garantir a implementação de uma estratégia que utilize
+princípios integrados e simultâneos e principalmente mecanismos de comunicação que
+facilitem a obtenção da informação cruzada e o seu posterior tratamento, permitindo
+58
+
+--- Page 58 ---
+assim tomadas de decisão atempadamente. O quadro 10 é representativo da aplicação
+prática da estratégia operacional que deverá assentar na;
+a) mobilização da comunidade – principalmente a rural, de forma a despertá-la e a
+consciencializá-la para os graves problemas que advêm da má utilização da
+floresta e as suas consequências no futuro. Para o efeito, os órgãos da
+comunicação social e locais, televisão, rádio e imprensa escrita, devem
+desempenhar um papel preponderante na difusão de mensagens alusivas aos temas
+que afectam o meio – queimadas descontroladas, desflorestamento, agricultura
+itenerante, etc. Estas acções devem ser complementadas com a afixação em pontos
+estratégicos, de outdoors e cartazes e distribuição de folhetos.
+Nas regiões mais críticas e isoladas a utilização de metodologias mais dinâmicas
+na transmissão das mensagens, por ex: os teatros rurais móveis, cujos actores
+serão também elementos dessa comunidade. A comunidade local deverá ser
+motivada, incentivada e apoiada, com vista à constituição de comités, seus
+representantes, organizados e institucionalmente enquadrados, com o objectivo de
+tornar a sua participação bastante activa em todo este processo. A atribuição das
+funções dos comités locais, será legislada e as mesmas serão no âmbito da:
+fiscalização; consultivo e acompanhamento das acções;
+b) formação, informação e controlo – numa perspectiva de formar e informar
+funcionários e técnicos da administração pública a nível distrital, nas suas diversas
+funções e de acordo com o pretendido no objectivo do PAN. Por outro lado, a
+recolha regular da informação e o seu respectivo tratamento permitirá tomadas de
+decisão pertinentes aos diversos níveis. A execução das tomadas de decisão, bem
+como o acompanhamento, in loco, da aplicação da legislação na protecção e
+defesa do património ambiental , estará dependente dos meios físicos necessários,
+principalmente das Direcções Distritais de Agricultura e Desenvolvimento Rural;
+c) melhoria do ambiente económico – procurando assim, não só diminuir os índices
+de pobreza actuais, como também motivar a fixação das famílias rurais às suas
+zonas de origem. Sendo a pobreza a causa principal da degradação dos solos, é
+pertinente que sejam estimuladas e apoiadas actividades rurais, auto sustentáveis
+no âmbito da agro-pecuária, das indústrias de pequena escala e da
+comercialização.
+Estas actividades pressupõem a criação de instrumentos de acesso a créditos, do
+tipo crédito agrícola de campanha; a identificação de cultivares resistentes à seca;
+a instalação de pequenos regadios; a criação de mercados locais; a reabilitação de
+estradas e pontes que permitam facilmente o escoamento dos produtos para os
+centros consumidores e de saída para o exterior e a motivação para constituição de
+associações de produtores, de comercialização e de pequenos serviços;
+d) acesso à água potável – principalmente nas regiões com muita dificuldade de
+obtenção de água à superfície, a abertura de furos para abastecimento de água à
+59
+
+--- Page 59 ---
+população e infra-estruturas sociais, o que implica a formação constante dos
+comités de gestão de pontos de água, em assuntos relacionados com a educação
+sanitária, na preservação do meio ambiente local e na manutenção das infra-
+estruturas de água e saneamento ambiental;
+e) utilização racional dos solos – na identificação e inventariação das áreas
+propensas à degradação dos solos para consequente adopção de medidas de
+conservação a fim de permitir o aumento da produtividade e da produção agrícola,
+garantindo a utilização sustentável dos recursos naturais.
+f) melhor aproveitamento dos recursos hídricos à superfície – com a gestão
+conjunta, assegurar o uso sustentável e equitativo dos recursos hídricos das bacias
+internacionais de forma a minimizar os efeitos de salinização, de poluição, do
+assoreamento e dos caudais ecológicos;
+g) exploração sustentável dos recursos florestais – com a participação das
+comunidades locais e no envolvimento activo das diversas instituições oficiais e
+privadas ligadas ao sector e dos seus respectivos agentes locais, para a contenção
+da pressão exagerada sobre a floresta, oferecendo-se como alternativas, a defesa,
+a conservação e um controlo mais efectivo dos recursos florestais, para uma
+exploração florestal mais equilibrada, que permita não só a regeneração das áreas
+degradadas, como também o aumento da biomassa lenhosa e de matéria prima
+variada para a exploração comercial de madeiras.
+h) optimização dos recursos energéticos – o hidroeléctrico de Cahora Bassa e o gás
+de Pande, cujos potenciais podem ser dirigidos a médio prazo para as zonas
+próximas da sua captação e que coincidentemente são zonas críticas – Mágoé e
+Changara, na província de Tete e Massinga, Funhalouro, Govuro, Vilankulo e
+Inhassoro, estas duas já beneficiando do gás natural como geradora de energia
+termoeléctrica, na província de Inhambane – e a longo prazo para outras zonas
+mais distantes e não menos críticas que as primeiras.
+O gás de Pande, particularmente, deve ser visto a curto prazo, como uma
+alternativa aos combustíveis lenhosos utilizados nos centros urbanos e rurais. Nos
+locais mais remotos e com condições naturais – insolação e ventos – promover-se-
+à a instalação de sistemas de energia solar e eólica em infra-estruturas sociais.
+i) Educação ambiental – no reforço, no ensino primário e secundário, do conteúdo
+da disciplina protecção e defesa do Meio Ambiente, alertando as crianças e
+adolescentes para as consequências do desequilíbrio ecológico, provocado pelo
+uso e abuso excessivo e descontrolado dos recursos à superfície, devendo depois,
+ser elas próprias, também as transmissoras da informação junto das suas aldeias;
+j) saúde – na tomada de medidas preventivas e no reforço do sistema de vigilância
+epidemiológica das doenças subsequentes à seca.
+60
+
+--- Page 60 ---
+61
+
+--- Page 62 ---
+Quadro 10
+Operacionalidade do PAN para o quadriénio 2003/06
+Áreas Objectivos Actividades Responsabilidade
+Sensibilizar a opinião pública nacional 1.1- formar motivadores para a criação e difusão de programas MICOA, MAE
+INGC, ICS
+de um modo geral e em particular as educativos;
+1- Mobilização comunidades rurais afectada, das causas e
+das dos efeitos da seca e da desertificação, 1.2- promover a nível local grupos de defesa do meio
+comunidades como também envolvê-las no processo da ambiente, institucionalmente enquadradas;
+locais defesa do meio ambiente.
+2.1- realizar seminários a nível provincial, cujos resultados MICOA
+MADER
+devem ser práticos e aplicáveis;
+MICTUR
+FAEF/UEM
+Manter os agentes locais e líderes 2.2- capacitar agentes e extensionistas, para acções de MICTUR
+MOPH
+comunitários formados e informados, da intervenção, específicas nos diversos sectores;
+MISAU
+legislação em vigor e das normas
+técnicas; 2.3- instalar um banco de dados nas províncias mais afectadas;
+2- formação,
+informação e Manter regular recolha, tratamento e 2.4- estudar a viabilidade de instalação de um sistema de
+controlo divulgação da informação meteorológica, monitoria de queimadas, via satélite;
+hidrológica, previsão de secas, etc.;
+2.5- criar e fazer chegar ao público, um boletim periódico com
+Melhorar a capacidade de gestão e informações e conselhos pertinentes;
+fiscalização ambiental.
+2.6- dotar as respectivas instituições locais de meios físicos
+que lhes permitam monitorar o cumprimento das normas
+(Continua) técnicas e da legislação em vigor;
+63
+
+--- Page 63 ---
+Áreas Objectivos Actividades Responsabilidade
+(continuação) Manter os agentes locais e líderes MICOA
+MADER
+comunitários formados e informados, da 2.7- organizar cursos de capacitação a nível local sobre as
+MICTUR
+legislação em vigor e das normas actividades do CCD; FAEF/UEM
+técnicas; MICTUR
+MOPH
+2- formação,
+MISAU
+informação e Manter regular recolha, tratamento e
+controlo divulgação da informação meteorológica,
+hidrológica, previsão de secas, etc.;
+Melhorar a aplicação do controlo e da 2.8- formar e capacitar fiscais comunitários.
+fiscalização do património ambiental.
+3.1-melhorar os sistemas de protecção do gado, com a MADER
+reabilitação e/ou construção de tanques carracicidas e
+dinamizar as vacinações;
+MADER
+3.2- aumentar os efectivos pecuários, bovinos e caprinos,
+3- Agro- através do fomento pecuário;
+pecuária
+familiar 3.3-incentivar a população na construção de celeiros
+Proporcionar o aumento do rendimento melhorados, usando técnicas locais;
+das famílias vivendo nas zonas rurais.
+3.4- introduzir culturas e/ou variedades mais resistentes à
+seca, comprovadas pela investigação aplicada;
+3.5- reactivar tecnologias simples sobre o processamento e
+a conservação de alimentos;
+(continua) 3.6- Instalar pequenos regadios;
+64
+
+--- Page 64 ---
+Áreas Objectivos Actividades Responsabilidade
+(continuação) MADER
+3.7- fomentar a multiplicação de cajueiros enxertados e
+consequentemente a expansão da espécie e a transferência de
+tecnologia para o processamento
+primário da castanha de caju;
+3.8- fomentar a tracção animal, nas regiões bovinícolas;
+3.9- fomentar as culturas de rendimento; FAEF/FV/UEM
+MADER
+MISAM
+3.10- fomentar e/ou introduzir a piscicultura para consumo em
+3- Agro- fresco e seco;
+pecuária Proporcionar o aumento do rendimento
+familiar das famílias vivendo nas zonas rurais. 3.11- apoiar iniciativas apícolas.
+3.12- melhorar os sistemas de comercialização;
+3.13- reforçar as medidas de constituição de stocks de e para a
+segurança alimentar;
+3.14- iniciar, a nível nacional, o levantamento e a pesquisa de
+espécies fruteiras nativas, como alternativas alimentares.
+3.15- introduzir produção local de sementes.
+65
+
+--- Page 65 ---
+Áreas Objectivos Actividades Responsabilidade
+4-1- reactivar a instalação de pequenas MIC
+MPF
+estaleiros/oficinas/fabiquetas, de carpintaria, fabrico de tijolos,
+MINED
+4- Indústrias de alfaiatarias, processamento de produtos agrícolas etc.; MT
+pequena escala e Aumentar a capacidade de MADER
+pequena investimento dos pequenos 4.2- reactivar e/ou promover escolas de artes e ofícios e escolas de
+agricultura empresários, principalmente formação profissional;
+empresarial aqueles que podem gerar
+empregos. 4.3- apoiar as iniciativas com benefícios fiscais;
+4.4- apoiar com juros bonificados o investimento dirigido à
+produção e à comercialização.
+5.1- construir e reabilitar fontes dispersas; MOPH
+MISAU
+Assegurar o acesso da população
+5- Abastecimento rural à água potável e promover a 5.2- promover a construção de latrinas melhoradas em regime de
+de água e utilização de latrinas melhoradas, auto construção assistida;
+saneamento rural para a população vivendo nas
+zonas rurais. 5.3- criar e capacitar o comité de água e os grupos de manutenção
+das fontes;
+66
+
+--- Page 66 ---
+Áreas Objectivos Actividades Responsabilidade
+6.1- efectuar o zoneamento das zonas de risco de erosão
+(cartografia e mapeamento digital);
+Avaliar de uma forma integrada os
+recursos da terra, para posterior 6.2- interditar nas zonas de risco, actividades agro-pecuárias,
+elaboração de um plano de uso de turismo e construção de infra-estruturas;
+terra; MICOA
+6- Solos 6.3- criar centros e campos de demonstração sobre técnicas de MADER
+CONSELHOS MUNICIPAIS
+conservação dos solos;
+Assegurar a protecção e a
+conservação do solo, nos locais e 6.4- priorizar a recuperação das áreas mais afectadas e já
+regiões mais críticos. identificadas;
+6.5- investigar a identificação das tecnologias apropriadas para a
+conservação dos solos e da água;
+67
+
+--- Page 67 ---
+Áreas Objectivos Actividades Responsabilidade
+7.1- promover campanhas de conservação e uso eficiente e MOPH
+MICOA
+racional da água;
+MADER
+MISAU
+72- construir e/ou reabilitar pequenas barragens para captação de
+água destinada à rega e ao consumo humano e animal;
+7.3- incentivar a instalação de sistemas para a recolha e
+conservação das águas das chuvas;
+Proporcionar o aumento da
+capacidade do armazenamento dos
+7- Recursos 7.4- promover medidas que minimizem a deterioração das águas
+recursos hídrico nas zonas rurais
+Hídricos pela intrusão salina;
+mais críticas.
+7.5- promover programas para o controlo e monitorização da
+poluição;
+7.6- elaborar programas de combate ao assoreamento dos rios;
+7.7- definir caudais ecológicos para a manutenção de ecossistemas
+marinhos e estuarinos.
+68
+
+--- Page 68 ---
+Áreas Objectivos Actividades Responsabilidade
+8.1- efectuar o zoneamento faunístico; MADER
+UEM/FAEF
+8.2- criar projectos piloto sobre técnicas de prevenção, de controlo
+e de combate às queimadas;
+8.3- estabelecer a nível local, viveiros de espécies de crescimento
+rápido para aproveitamento da madeira, principalmente de estacas;
+Reduzir a exploração desenfreada das
+florestas nativas e criar meios 8.4- promover o estabelecimento de woodlots comunitários para a
+8- Recursos alternativos de obtenção de biomassa obtenção de energia e de material de construção;
+Florestas e lenhosa e reforçar os mecanismos de
+Fauna Bravia controlo da caça e o combate à caça 8.5- acelerar a investigação na identificação de espécies com
+furtiva. aptidão para a produção de lenha e de carvão e PFNM;
+8.6- promover programas de reflorestamento das cinturas urbanas.
+9.1- electrificar as áreas mais sensíveis; MIRENE
+MICOA
+UEM
+9.2- garantir a canalização de gás natural, principalmente para os MESCT
+centros urbanos mais próximos da conduta;
+Facilitar o acesso à energia
+9- Recursos convencional e promover o uso de 9.3- Incentivar, no meio rural, fogões melhorados;
+energéticos fontes alternativas.
+9.4- promover o consumo de gás natural, nas zonas mais críticas;
+9.5- expandir o uso de sistemas de energia solar, eólica e biogás,
+em infra estruturas sociais e residências.
+69
+
+--- Page 69 ---
+Áreas Objectivos Actividades Responsabilidade
+10.1- preparar docentes em matérias de protecção e defesa do MINED
+MICOA
+meio ambiente e desenvolvimento sustentável;
+Educar as crianças e adolescentes 10.2- introduzir, na disciplina sobre o meio ambiente, sistemas
+10- Educação em idade escolar para as pedagógicos mais aliciantes, como os áudio e visuais;
+consequências do desequilíbrio
+ecológico. 10.3- promover o plantio de árvores em áreas anexas à escola.
+11.1- preparar técnicos de medicina preventiva para intervenção MISAU
+MICOA
+permanente no diagnóstico do estado de saúde da comunidade;
+Melhorar a assistência sanitária das
+11-Saúde populações, das zonas rurais, 11.2- promover campanhas de educação sanitária;
+afectadas pelas alterações
+ambientais. 11.3- garantir o aprovisionamento de fármacos especializados a
+nível das unidades dos postos administrativos das regiões mais
+afectadas.
+Assegurar a aplicação do sistema de 12.1- divulgar os procedimentos legais;
+MADER
+12- Terras acesso ao uso e aproveitamento de
+terras. 12.1- acelerar a emissão dos títulos de concessão de terras.
+13.1- identificar as necessidades de cada sector;
+13- Capacitação Capacitar os diferentes
+institucional intervenientes para a implementação 13.2- treinar o pessoal envolvido; MICOA
+do PAN
+13.3- alocar recursos – humanos e financeiros.
+70
+
+--- Page 70 ---
+5.4- Orçamento do PAN
+5.4.1- Inputs financeiros
+Quadro 11
+Metas e orçamento (x US$ 1.000,00 ) para o quadriénio 2003/06
+Áreas Actividades Orçamento Total
+2003 2004 2005 2006
+1.1- formar motivadores para a criação e difusão de 60,00 40,00 15,00 00,00 115,00
+1- Mobilização programas educativos;
+das comunidades
+locais 1.2- promover a nível local grupos de defesa do 30,00 95,00 00,00 00,00 125,00
+meio ambiente, institucionalmente enquadradas;
+Sub total 90,00 135,00 15,00 00,00 159,00
+71
+
+--- Page 71 ---
+Áreas Actividades Orçamento Total
+2003 2004 2005 2006
+2.1- realizar seminários a nível provincial, cujos 90,00 00,00 90,00 60,00 240,00
+resultados devem ser práticos e aplicáveis;
+2- Formação,
+informação e 2.2- capacitar agentes e extensionistas, para 80,00 80,00 80,00 80,00 320,00
+controlo. acções de intervenção, específicas nos diversos
+sectores;
+2.3- instalar um banco de dados nas províncias 00,00 100,00 300,00 15,00 415,00
+mais afectadas;
+2.4- estudar a viabilidade de instalação de um 00,00 30,00 150,00 00,00 180,00
+sistema de monitoria de queimadas, via satélite;
+2.5- criar e fazer chegar ao público, um boletim 00,00 80,00 80,00 80,00 240,00
+periódico com informações e conselhos
+pertinentes;
+2.6- dotar as respectivas instituições locais de 600,00 00,00 00,00 00,00 600,00
+meios físicos que lhes permitam monitorar o
+cumprimento das normas técnicas e da legislação
+em vigor;
+2.7- organizar cursos de capacitação a nível local 60,00 60,00 30,00 15,00 165,00
+sobre as actividades do CCD;
+2.8- formar e capacitar fiscais comunitários. 115,00 115,00 50,00 00,00 280,00
+Sub total 945,00 465,00 780,00 250,00 2.440,00
+72
+
+--- Page 72 ---
+Áreas Actividades Orçamento Total
+2003 2004 2005 2006
+3- Agro-pecuária 3.1-melhorar os sistemas de protecção do gado, 500,00 500,00 500,00 500,00 2.000,00
+familiar com a reabilitação e/ou construção de tanques
+carracicidas e dinamizar as vacinações;
+3.2- aumentar os efectivos pecuários, bovinos e 1.500,00 1.500,00 1.500,00 00,00 4.500,00
+caprinos, através do fomento pecuário;
+3.3-promover a construção de celeiros melhorados; 250,00 250,00 250,00 250,00 1.000,00
+3.4- introduzir culturas e/ou variedades mais 180,00 150,00 100,00 50,00 450,00
+resistentes à seca, comprovadas pela investigação
+aplicada;
+3.5- reactivar tecnologias simples sobre o 500,00 500,00 500,00 500,00 2.000,00
+processamento e a conservação de alimentos;
+3.6- Instalar pequenos regadios;
+3.7- fomentar a multiplicação de cajueiros
+enxertados e consequentemente a expansão da
+espécie e a transferência de tecnologia para o
+processamento primário da castanha de caju;
+3.8- fomentar a tracção animal, nas regiões 600,00 600,00 600,00 00,00 1.800,00
+bovinícolas;
+(continua)
+3.9- fomentar as culturas de rendimento; 100,00 250,00 350,00 100,00 800,00
+73
+
+--- Page 73 ---
+Áreas Actividades Orçamento Total
+2003 2004 2005 2006
+(continuação) 3.10- fomentar e/ou introduzir a piscicultura para 300,00 300,00 300,00 300,00 1.200,00
+consumo em fresco e seco;
+3- Agro-pecuária
+familiar 3.11- apoiar iniciativas apícolas.
+3.12- melhorar os sistemas de comercialização;
+3.13- reforçar as medidas de constituição de stocks
+de e para a segurança alimentar;
+3.14- iniciar, a nível nacional, o levantamento e a 60,00 60,00 75,00 75,00 270,00
+pesquisa de espécies fruteiras nativas, como
+alternativas alimentares.
+3.15- introduzir produção local de sementes. 30,00 30,00 30,00 17,00 107,00
+Sub total
+74
+
+--- Page 74 ---
+Áreas Actividades Orçamento Total
+2003 2004 2005 2006
+4-1- reactivar a instalação de pequenas
+estaleiros/oficinas/fabiquetas, de carpintaria,
+fabrico de tijolos, alfaiatarias, processamento de
+produtos agrícolas etc.;
+4- Indústrias de
+pequena escala e 4.2- reactivar e/ou promover escolas de artes e
+pequena agricultura ofícios e escolas de formação profissional;
+empresarial
+4.3- apoiar as iniciativas com benefícios fiscais;
+4.4- apoiar com juros bonificados o investimento
+dirigido à produção e à comercialização.
+Sub total
+5.1- construir e reabilitar fontes dispersas;
+5- Abastecimento 5.2- promover a construção de latrinas melhoradas
+de água e em regime de auto construção assistida;
+saneamento rural
+5.3- criar e capacitar o comité de água e os grupos
+de manutenção das fontes;
+Sub total
+75
+
+--- Page 75 ---
+Áreas Actividades Orçamento Total
+2003 2004 2005 2006
+6.1- efectuar o zoneamento das zonas de risco de 25,00 25,00 25,00 25,00 100,00
+erosão (cartografia e mapeamento digital);
+6.2- interditar nas zonas de risco, actividades agro- 15,00 15,00 15,00 15,00 60,00
+pecuárias, turismo e construção de infra-estruturas;
+6- Solos
+6.3- criar centros e campos de demonstração sobre 25,00 25,00 20,00 20,00 90,00
+técnicas de conservação dos solos;
+6.4- priorizar a recuperação das áreas mais 10,00 10,00 10,00 10,00 40,00
+afectadas e já identificadas;
+6.5- investigar a identificação das tecnologias 12,00 12,00 12,00 12,00 48,00
+apropriadas para a conservação dos solos e da água;
+Sub total 87,00 87,00 82,00 82,00 338,00
+76
+
+--- Page 76 ---
+Áreas Actividades Orçamento Total
+2003 2004 2005 2006
+7.1- promover campanhas de conservação e uso
+eficiente e racional da água;
+72- construir e/ou reabilitar pequenas barragens
+para captação de água destinada à rega e ao
+consumo humano e animal;
+7.3- incentivar a instalação de sistemas para a
+7- Recursos recolha e conservação das águas das chuvas;
+Hídricos
+7.4- promover medidas que minimizem a
+deterioração das águas pela intrusão salina;
+7.5- promover programas para o controlo e
+monitorização da poluição;
+7.6- elaborar programas de combate do
+assoreamento dos rios;
+7.7- definir caudais ecológicos para a manutenção
+de ecossistemas marinhos e estuarinos.
+Sub total
+77
+
+--- Page 77 ---
+Áreas Actividades Orçamento Total
+2003 2004 2005 2006
+8.1- efectuar o zoneamento faunístico; 120,00 60,00 60,00 60,00 300,00
+8.2- criar projectos piloto sobre técnicas de 300,00 120,00 120,00 120,00 660,00
+prevenção, de controlo e de combate às queimadas;
+8.3- estabelecer a nível local, viveiros de espécies 1.200,00 300,00 300,00 300,00 2.100,00
+de crescimento rápido para aproveitamento da
+madeira, principalmente de estacas;
+8.4- promover o estabelecimento de woodlots 1.200,00 300,00 300,00 300,00 2.100,00
+comunitários para a obtenção de energia e de
+8- Recursos material de construção;
+Florestas e
+Fauna Bravia 8.5- acelerar a investigação na identificação de 80,00 80,00 80,00 80,00 320,00
+espécies com aptidão para a produção de lenha e de
+carvão e PFNM;
+8.6- promover programas de reflorestamento das
+cinturas urbanas.
+Sub total
+78
+
+--- Page 78 ---
+Áreas Actividades Orçamento Total
+2003 2004 2005 2006
+9.1- electrificar as áreas mais sensíveis;
+9.2- garantir a canalização de gás natural,
+principalmente para os centros urbanos mais
+9- Recursos próximos da conduta;
+energéticos
+9.3- Incentivar, no meio rural, fogões melhorados;
+9.4- promover o consumo de gás natural, nas zonas
+mais críticas;
+9.5- expandir o uso de sistemas de energia solar,
+eólica e biogás, em infra estruturas sociais e
+residências.
+Sub total
+10.1- preparar docentes em matérias de protecção e 75,00 50,00 00,00 00,00 125,00
+defesa do meio ambiente e desenvolvimento
+sustentável;
+10- Educação 10.2- introduzir, na disciplina sobre o meio 100,00 150,00 50,00 00,00 300,00
+ambiental ambiente, sistemas pedagógicos mais aliciantes,
+como os áudio e visuais;
+10.3- promover o plantio de árvores em áreas 150,00 150,00 150,00 50,00 500,00
+anexas à escola.
+Sub total 325,00 350,00 200,00 50,00 925,00
+79
+
+--- Page 79 ---
+Áreas Actividades Orçamento Total
+2003 2004 2005 2006
+11.2- preparar técnicos de medicina preventiva para 20,00 10,00 0,00 0,00 30,00
+intervenção permanente no diagnóstico do estado
+de saúde da comunidade;
+11- Saúde 11.3- promover campanhas de educação sanitária; 10,00 3,00 3,00 2,00 18,00
+11.4- garantir o aprovisionamento de fármacos
+especializados a nível das unidades dos postos
+administrativos das regiões mais afectadas. 0,00 35,00 30,00 25,00 90,00
+Sub total 30,00 48,00 33,00 27,00 138,00
+12.1- divulgar os procedimentos legais;
+12- Terras
+12.1- acelerar a emissão dos títulos de concessão de
+terras.
+Sub total
+13.1- identificar as necessidades de cada sector;
+13- Capacitação
+institucional 13.2- treinar o pessoal envolvido;
+13.3- alocar recursos humanos e financeiros.
+Sub total
+Total Geral
+Obs.: Os orçamentos anuais, por actividade, foram fornecidos por cada um dos sectores envolvidos.
+80
+
+--- Page 80 ---
+5.4.2- Mecanismos de financiamento
+Para se atingir os objectivos da Convenção das Nações Unidas para o Combate à
+Seca e à Desertificação, as partes, na medida das suas capacidades, farão todos os
+esforços para assegurar que os recursos financeiros adequados estejam disponíveis para a
+implementação das actividades previstas, promoverá a disponibilidade de mecanismos
+financeiros e encorajará tais mecanismos a maximizar a disponibilidade de fundos.
+Dever-se-á então:
+a) mobilizar recursos financeiros substanciais, incluindo doações e empréstimos em
+condições concessionais, para apoiar a implementação de programas de combate à
+desertificação e à mitigação da seca;
+b) promover a mobilização de recursos financeiros suficientes em tempo útil
+incluindo fundos novos e adicionais provenientes do Fundo Mundial do Ambiente;
+c) facilitar, através da cooperação internacional, a transferência de tecnologias e
+conhecimentos técnicos;
+d) explorar a cooperação, com os países Partes em desenvolvimento afectados, de
+métodos inovadores e incentivos destinados a mobilizar e a canalizar os recursos
+incluindo os provenientes de fundações, organizações não governamentais e outras
+entidades do sector privado.
+A canalização e gestão de fundos para a implementação do PAN deverá ser feita
+tendo em conta as políticas nacionais.
+O Fundo Nacional do Ambiente ( FUNAB ) foi recomendado durante o Fórum
+Nacional de validação do PAN, para que seja o fiel depositário dos fundos de
+implementação do PAN.
+O FUNAB é um órgão criado no âmbito da legislação ambiental, pelo
+reconhecimento que o Governo tem no sentido de garantir a gestão ambiental e
+desenvolvimento sustentável no país.
+Neste contexto, salientamos o papel preponderante do FUNAB pelo facto de ser
+uma instituição financeira com vocação e capacidade de gestão dos recursos financeiros
+para as questões ambientais.
+As atribuições do FUNAB ao abrigo do Decreto n.º 39/2000 de 17 de Outubro são
+as seguintes:
+a) apoiar as actividades de gestão dos recursos naturais que contribuam para um
+ambiente mais saudável a nível local, incluindo o combate à erosão e à
+desertificação;
+81
+
+--- Page 81 ---
+b) contribuir para o fomento de actividades relacionadas com a gestão de áreas de
+protecção ambiental e a reabilitação ou recuperação de áreas degradadas;
+c) apoiar a realização de actividades técnico-científicas tendentes à introdução de
+tecnologias, ou boas práticas para um desenvolvimento sustentável;
+d) fomentar as actividades relacionadas com os Estudos de Impacto Ambiental, bem
+como outras actividades relacionadas com a avaliação de impactos ambientais
+resultantes de acções de natureza ou de actividades de desenvolvimento;
+e) contribuir para a realização de empreendimentos económicos que pretendam
+utilizar tecnologias e processos produtivos, ambientalmente sãos;
+f) propor a aprovação de taxas para a manutenção do ambiente.
+Com base nos pontos acima referidos, conclui-se que o PAN encontrará melhor
+enquadramento de gestão de Fundos no FUNAB, no que respeita aos projectos
+específicos ligados ao ambiente, pois é do conhecimento geral, da existência, a
+diferentes níveis, de várias fontes de financiamento e organismos de gestão ou de
+execução de actividades ligadas à seca e à desertificação, tendo cada uma delas um
+mandato especifico. Portugal na qualidade de “Chef de File” terá a função de apoiar na
+mobilização de recursos, junto aos parceiros da cooperação internacional.
+5.5- Implementação e coordenação do PAN
+Um dos principais objectivos da Convenção de Combate à Seca e à Desertificação,
+é motivar para que na elaboração das políticas e estratégias sectoriais, assim como os
+planos nacionais de desenvolvimento, sejam integradas as actividades de combate à seca
+e à desertificação.
+A implementação do Plano de Acção para o Combate à Seca e à Desertificação,
+passa necessariamente pelo fortalecimento de mecanismos inter-institucionais. O Órgão
+Nacional para o Combate à Seca e à Desertificação (ONCSD) foi criado em 1997.
+Funciona no Ministério para a Coordenação de Acção Ambienta, sendo presidido pela
+Direcção Nacional para a Gestão Ambiental – MICOA e é constituído por representantes
+da sociedade civil e por instituições do governo, sendo os seus membros os seguintes:
+- DNGA – Ministério para a Coordenação da Acção Ambiental;
+- DNFFB, DINA, INIA – Ministério da Agricultura e Desenvolvimento Rural;
+- DNA – Ministério das Obras Públicas e Habitação;
+- INAM – Ministério dos Transportes e Comunicações;
+- DHA – Ministério da Saúde;
+- FAEF – Universidade Eduardo Mondlane;
+- Instituto Nacional de Gestão de Calamidades;
+- Aro-Juvenil em representação do Coterra – comité das ONG,s sobre a Terra.
+82
+
+--- Page 82 ---
+Aquando da realização das primeiras Jornadas de Informação e de
+Consciencialização, a ONCSD tinha como principais funções aquelas já indicadas na
+Introdução deste Plano. Com a conclusão e a aprovação do PAN, este Órgão passará a
+ter exclusivamente as funções de:
+a) velar pela implementação da Convenção a nível do país;
+b) manter o Secretarisado Internacional da CCD informado das acções nacionais
+realizadas, no âmbito da Convenção;
+c) definir mecanismos de articulação entre as instituições envolvidas na
+implementação da Convenção;
+d) decidir as áreas de acção prioritárias para o combate à seca e à desertificação e
+definir periodicidade para a sua implementação dentro do PAN;
+e) aprovar os planos de actividade anuais e garantir que a sua implementação seja
+executada de acordo com a calendarização;
+f) proceder à avaliação periódica do desempenho de todos os sectores envolvidos na
+implementação das actividades;
+g) estruturar ao UTPAN e nomear a sua equipa técnica.
+Para a implementação do PAN, deve ser criada a Unidade Técnica de
+Implementação do Plano Nacional de Acção – UTPAN, subordinada ao ONCSD, que
+terá a sua sede operacional no MICOA.
+A principal responsabilidade da Unidade Técnica será de garantir a execução do
+PAN, nas suas diversas vertentes:
+a) preparar os planos anuais das actividades;
+b) exercer o controlo financeiro;
+c) elaborar relatórios anuais sobre a implementação do PAN;
+d) propor a actualização das áreas prioritárias para o combate à seca e à
+desertificação;
+e) coordenar a implementação do PAN com o Fórum Provincial de Combate à Seca
+e à Desertificação;
+f) monitorar as actividades em execução.
+83
+
+--- Page 83 ---
+A nível das províncias, será criado o Fórum Provincial de Combate à Seca e à
+Desertificação e o PAN inserir-se-à nos planos dos governos provinciais, como no Plano
+de Desenvolvimento Comunitário; no Plano de Reinserção Social; no Plano Estratégico,
+entre outros.
+5.6- Seguimento e avaliação do PAN
+O seguimento permite controlar permanentemente a prestação das realizações do
+PAN, aos destinatários previstos. É um processo anual e contínuo, aplicado ao longo da
+execução do plano, com o intuito de corrigir imediatamente quaisquer desvios em relação
+aos objectivos operacionais e melhorar o rendimento deste mesmo plano.
+Assim, o seguimento executado anualmente pelos diversos sectores envolvidos,
+deverá medir o grau de cumprimento do plano, utilizando os indicadores convencionais:
+- rapidez e qualidade na obtenção de bens e serviços;
+- nível de operacionalidade dos recursos humanos;
+- volume dos custos;
+- quantificação dos resultados planificados;
+- receptividade e participação da comunidade.
+Os instrumentos de seguimento são os normalmente usados: relatórios técnicos,
+relatórios financeiros e auditorias.
+A avaliação é um processo mais complexo e abrangente, que deve procurar analisar
+os impactos reais do PAN e medir as consequências, os resultados e os benefícios
+económicos e sociais, de acordo com os objectivos, a cobertura geográfica e população
+alvo, definidos no PAN. Este exercício é necessário, na medida que permite aos
+responsáveis políticos tomadas de decisão futuras e úteis, pois informa o público em
+geral das acções públicas desenvolvidas.
+A avaliação do PAN deve ser realizado por entidade independente, no final no
+quadriénio, utilizando para o efeito alguns indicadores já referidos e outros como os
+relatórios anuais do seguimento, resultado de inquéritos à população abrangida, etc.
+84
+
+--- Page 84 ---
+85
+
+--- Page 85 ---
+Referências bibliográficas
+1- Secretariado da Convenção para o Combate à Desertificação. Junho de 1998. Uma
+Introdução à Convenção das Nações Unidas de Combate à Desertificação.
+DESA/CCD. França.
+2- Secretariado da Convenção para o Combate à Desertificação. Outubro de 1996.
+Com os Pés no Chão. França.
+3- Secretariado da Convenção para o Combate à Desertificação. Junho de 1998.
+Convenção das Nações Unidas de Combate à Desertificação, nos Países Afectados
+por Seca Grave e/ou Desertificação, Particularmente em África. DPCSD/CCD.
+França.
+4- Ussivane, M. Janeiro de 2000. Proposta de Plano Nacional de Acção de Acção
+em Conservação dos Solos. Maputo.
+5- Ministério para a Coordenação da Acção Ambiental. Novembro de 2000. Subsídio
+para a formulação de Um Plano Nacional de Combate à Seca e Desertificação
+em Moçambique. Maputo.
+6- Ministério para a Coordenação da Acção Ambiental. Abril de 1997. Relatório
+sobre a identificação das áreas vulneráveis à seca e desertificação em
+Moçambique. Aro Editora/MICOA. Maputo.
+7- Cucu, A. Ministério para a Coordenação de Acção Ambiental, Direcção Nacional
+de gestão Ambiental. 2000. Plano Nacional de Acção para o Combate à seca e
+Desertificação – O Papel da Floresta. Maputo.
+8- Dijk, K. J. Ministério para a Coordenação da Acção Ambiental, Direcção Nacional
+de Gestão de Recursos Naturais. Abril de 1997. Erosão e Conservação de Solos
+em Moçambique. Maputo.
+9- Saranga, S. E Cabula, P. Abril de 2000. Contribuição para a preparação de
+Plano para o Combate à seca e Desertificação. Maputo.
+10- Grupo Inter-Sectorial de Avaliação e Mapeamento da Vulnerabilidade, MADER,
+MPF, MISAU, INGC, FEWS, PMA, FAO, MSF/CIS. Agosto de 2000. Avaliação
+da vulnerabilidade em Moçambique, 2000/2001. Maputo.
+11- Sistema Nacional de Aviso Prévio para a Segurança Alimentar. 1996. Estudo
+agroclimatológico da precipitação e sua aplicação na segurança alimentar.
+Maputo.
+86
+
+--- Page 86 ---
+12- Ministério da Agricultura e Pescas. Política Nacional de Terras e Estratégia de
+Implementação.
+13- Conselho de Ministros. Resolução n.º 11/95 de 31 de Outubro. Política Agrária e
+Estratégia e Estratégia de Implementação.
+14- Boletim da República, 1ª série, número 40.1997. Aprova a Lei de Terra. Maputo
+15- Boletim da República, 1ª série, número 40.1997. Aprova a Lei do Ambiente.
+Maputo.
+16- Boletim da República, 1ª série, número 49.1995. Aprova a Política Nacional do
+Ambiente. Maputo.
+17- Directório Comercial de Moçambique, nº1, 2000. Maputo.
+18- Directório Comercial de Moçambique, nº2, 2001. Maputo.
+19- Direcção Nacional de Florestas e Fauna Bravia, Julho de 1999. Política e
+Estratégia de Desenvolvimento de Florestas e Fauna Bravia. UMC/DNFFB.
+Maputo.
+20- Direcção Nacional de Florestas e Fauna Bravia, Setembro de 1999. Lei de
+Florestas e Fauna Bravia. UMC/DNFFB. Maputo.
+21- Barca A e Santos T. Geografia de Moçambique, vol. 1. 1992.INDE, Editora
+Escolar. Maputo.
+22- Revista do centro de Formação Profissional de Águas e Saneamento. Direcção
+Nacional de Águas. Política Nacional de Águas. ML Graphics, Lta. Maputo.
+21- Ministério da Educação. 1986. Atlas Geográfico. ASSELTE MAP SERVICE
+AB, Suécia.
+22- República de Moçambique. 1998. Estratégia de Segurança Alimentar e
+Nutricional. Maputo.
+23- Ruas C. Direcção Nacional de Florestas e fauna Bravia, Departamento de
+Florestas. Setembro de 1999. Queimadas Descontroladas em Moçambique.
+Maputo.
+24- Ruas C. Direcção Nacional de Florestas e Fauna Bravia .Maio de 1996. O
+Desmatamento e a Degradação do Ecossistema. Maputo.
+25- Direcção Nacional da Florestas e fauna Bravia, Março de 2000. Relatório
+Estatístico Anual –1999. Maputo.
+87
+
+--- Page 87 ---
+26- Ministério do Plano e Finanças. Plano de Acção para Redução da Pobreza
+Absoluta (2000-2004).
+88

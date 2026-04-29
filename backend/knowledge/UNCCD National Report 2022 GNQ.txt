@@ -1,0 +1,2633 @@
+--- Page 1 ---
+United Nations Convention to Combat Desertification
+Performance review and assessment of implementation system
+Seventh reporting process
+Report from
+Equatorial Guinea
+This report has been submitted by the government of Equatorial Guinea to the United Nations Convention to Combat
+Desertification (UNCCD).
+The designations employed and the presentation of material in this report do not imply the expression of any opinion
+whatsoever on the part of the UNCCD concerning the legal status of any country, territory, city or area or of its authorities, or
+concerning the delimitation of its frontiers or boundaries.
+27 February 2023
+
+--- Page 2 ---
+Contents
+1. SO: Strategic objectives
+A. SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote
+sustainable land management and contribute to land degradation neutrality.
+SO1-1 Trends in land cover
+SO1-2 Trends in land productivity or functioning of the land
+SO1-3 Trends in carbon stocks above and below ground
+SO1-4 Proportion of degraded land over the total land area
+SO1 Voluntary Targets
+B. SO-2: To improve the living conditions of affected populations.
+SO2-1 Trends in population living below the relative poverty line and/or income inequality in affected
+areas
+SO2-2 Trends in access to safe drinking water in affected areas
+SO2-3 Trends in the proportion of population exposed to land degradation disaggregated by sex
+SO2 Voluntary Targets
+C. SO-3: To mitigate, adapt to, and manage the effects of drought in order to enhance resilience of vulnerable
+populations and ecosystems.
+SO3-1 Trends in the proportion of land under drought over the total land area
+SO3-2 Trends in the proportion of the population exposed to drought
+SO3-3 Trends in the degree of drought vulnerability
+SO3 Voluntary Targets
+D. SO-4: To generate global environmental benefits through effective implementation of the United Nations
+Convention to Combat Desertification.
+SO4-1 Trends in carbon stocks above and below ground
+SO4-2 Trends in abundance and distribution of selected species
+SO4-3 Proportion of important sites for terrestrial and freshwater biodiversity that are covered by
+protected areas, by ecosystem type
+SO4 Voluntary Targets
+E. SO-5: To mobilize substantial and additional financial and non-financial resources to support the
+implementation of the Convention by building effective partnerships at global and national level
+SO5-1 Bilateral and multilateral public resources
+SO5-2 Domestic public resources
+SO5-3 International and domestic private resources
+SO5-4 Technology transfer
+SO5-5 Future support for activities related to the implementation of the Convention
+2. IF: Implementation Framework
+A. Financial and Non-Financial Sources
+B. Policy and Planning
+C. Action on the Ground
+3. Other files for Reporting
+4. Templated Maps
+A. Land cover in the initial year of the baseline period
+B. Land cover in the baseline year
+C. Land cover in the latest reporting year
+D. Land cover change in the baseline period
+E. Land cover change in the reporting period
+F. Land cover degradation in the baseline period
+G. Land cover degradation in the reporting period
+H. Land productivity dynamics in the baseline period
+I. Land productivity dynamics in the reporting period
+J. Land productivity degradation in the baseline period
+K. Land productivity degradation in the reporting period
+L. Soil organic carbon stock in the initial year of the baseline period
+M. Soil organic carbon stock in the baseline year
+N. Soil organic carbon stock in the latest reporting year
+O. Change in soil organic carbon stock in the baseline period
+2 / 88
+
+--- Page 3 ---
+P. Change in soil organic carbon stock in the reporting period
+Q. Soil organic carbon degradation in the baseline period
+R. Soil organic carbon degradation in the reporting period
+S. Proportion of land that is degraded over total land area (SDG Indicator 15.3.1) in the baseline period
+T. Proportion of land that is degraded over total land area (SDG Indicator 15.3.1) in the reporting period
+U. Progress towards Land Degradation Neutrality (LDN) in the reporting period
+V. Total Population exposed to land degradation (baseline)
+W. Female Population exposed to land degradation (baseline)
+X. Male Population exposed to land degradation (baseline)
+Y. Total Population exposed to land degradation (reporting)
+Z. Female Population exposed to land degradation (reporting)
+AA. Male Population exposed to land degradation (reporting)
+AB. Drought hazard in first epoch of baseline period
+AC. Drought hazard in second epoch of baseline period
+AD. Drought hazard in third epoch of baseline period
+AE. Drought hazard in fourth epoch of baseline period
+AF. Drought hazard in the reporting period
+AG. Drought exposure in first epoch of baseline period
+AH. Drought exposure in second epoch of baseline period
+AI. Drought exposure in third epoch of baseline period
+AJ. Drought exposure in fourth epoch of baseline period
+AK. Drought exposure in the reporting period
+AL. Female drought exposure in the reporting period
+AM. Male drought exposure in the reporting period
+3 / 88
+
+--- Page 4 ---
+4 / 88
+
+--- Page 5 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+SO1-1 Trends in land cover
+Land area
+SO1-1.T1: National estimates of the total land area, the area covered by water bodies and total country area
+Water
+Total land Total country
+Year bodies Comments
+area (km²) area (km²)
+(km²)
+La superficie total del país viene recogida en diversas fuentes de documentos
+2
+28 051 .46 214 28 265 .46 nacionales validados como el Atlas Forestal Interactivo publicado por el MAB &
+001
+WRI 2013.
+2
+28 051 .46 210 28 261 .46
+005
+2 El dato de las Masas de agua ha sido contrastado en el documento fechado del
+28 051 .46 250 28 301 .46
+010 2007 con enlace: ftp://ftp.fao.org/docrep/fao/010/ai445b/ai445b00.pdf , p 76.
+2
+28 051 .46 250 28 301 .46
+015
+2
+28 051 .46 250 28 301 .46
+019
+2
+28 051 .46 250 28 301 .46
+020
+Land cover legend and transition matrix
+SO1-1.T2: Key Degradation Processes
+Degradation Process Starting Land Cover Ending Land Cover
+Are the seven UNCCD land cover classes sufficient to monitor the key degradation processes in your country?
+Yes
+No
+SO1-1.T4: UNCCD land cover legend transition matrix
+Tree-covered Artificial
+Original/ Final Grasslands Croplands Wetlands Other Lands Water bodies
+areas surfaces
+Tree-covered Unlikely Unlikely Unlikely Unlikely Unlikely Unlikely Unlikely
+areas Transition Transition Transition Transition Transition Transition Transition
+Unlikely Unlikely Unlikely Unlikely Unlikely Unlikely Unlikely
+Grasslands
+Transition Transition Transition Transition Transition Transition Transition
+Unlikely Unlikely Unlikely Unlikely Unlikely Unlikely Unlikely
+Croplands
+Transition Transition Transition Transition Transition Transition Transition
+Unlikely Unlikely Unlikely Unlikely Unlikely Unlikely Unlikely
+Wetlands
+Transition Transition Transition Transition Transition Transition Transition
+Artificial Unlikely Unlikely Unlikely Unlikely Unlikely Unlikely Unlikely
+surfaces Transition Transition Transition Transition Transition Transition Transition
+Unlikely Unlikely Unlikely Unlikely Unlikely Unlikely Unlikely
+Other Lands
+Transition Transition Transition Transition Transition Transition Transition
+Unlikely Unlikely Unlikely Unlikely Unlikely Unlikely Unlikely
+Water bodies
+Transition Transition Transition Transition Transition Transition Transition
+Land cover
+SO1-1.T5: National estimates of land cover (km²) for the baseline and reporting period
+Other
+Tree-covered Grasslands Croplands Wetlands Artificial Water No data
+Lands
+areas (km²) (km²) (km²) (km²) surfaces (km²) bodies (km²) (km²)
+(km²)
+5 / 88
+
+--- Page 6 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Tree-covered Grasslands Croplands Wetlands Artificial Other Lands Water No data
+areas (km²) (km²) (km²) (km²) surfaces (km²) (km²) bodies (km²) (km²)
+2000 23 605 11 2 737 402 18 0 214
+2001 23 581 10 2 758 402 21 0 214
+2002 23 562 9 2 774 404 26 0 212
+2003 23 572 9 2 762 403 29 0 211
+2004 23 537 9 2 798 403 30 0 210
+2005 23 537 9 2 795 403 33 0 210
+2006 23 546 9 2 785 402 35 0 210
+2007 23 542 8 2 788 404 39 0 250
+2008 23 534 8 2 796 405 40 0 250
+2009 23 550 9 2 778 405 42 0 250
+2010 23 556 8 2 771 404 45 0 250
+2011 23 546 8 2 779 404 47 0 250
+2012 23 548 8 2 775 404 49 0 250
+2013 23 552 8 2 769 404 51 0 250
+2014 25 000 8 2 759 404 55 0 250
+2015 25 000 8 2 758 404 57 0 250
+2016 25 000 8 2 696 404 57 0 250
+2017 25 000 8 2 659 404 58 0 250
+2018 25 000 8 2 640 404 59 0 250
+2019 25 000 8 2 643 404 61 0 250
+2020 25 000 250
+Land cover change
+SO1-1.T6: National estimates of land cover change (km²) for the baseline period
+Artificial Other Water
+Tree-covered Grasslands Croplands Wetlands Total
+surfaces Lands bodies
+areas (km²) (km²) (km²) (km²) (km²)
+(km²) (km²) (km²)
+Tree-covered
+23 394 1 192 0 19 0 0 23 606
+areas (km²)
+Grasslands
+0 7 0 0 4 0 0 11
+(km²)
+Croplands (km²) 159 0 2 566 0 12 0 0 2 737
+Wetlands (km²) 0 0 0 398 4 0 0 402
+Artificial
+0 0 0 0 18 0 0 18
+surfaces (km²)
+Other Lands
+0 0 0 0 0 0 0 0
+(km²)
+Water bodies
+5 0 0 6 1 0 250 262
+(km²)
+Total 23 558 8 2 758 404 58 0 250
+6 / 88
+
+--- Page 7 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+SO1-1.T7: National estimates of land cover change (km²) for the reporting period
+Artificial Other Water
+Tree-covered Grasslands Croplands Wetlands Total land
+surfaces Lands bodies
+areas (km²) (km²) (km²) (km²) area (km²)
+(km²) (km²) (km²)
+Tree-covered
+23 510 0 47 0 1 0 0 23 558
+areas (km²)
+Grasslands
+0 8 0 0 0 0 0 8
+(km²)
+Croplands
+160 0 2 596 0 2 0 0 2 758
+(km²)
+Wetlands (km²) 0 0 0 404 0 0 0 404
+Artificial
+0 0 0 0 57 0 0 57
+surfaces (km²)
+Other Lands
+0 0 0 0 0 0 0 0
+(km²)
+Water bodies
+0 0 0 0 0 0 250 250
+(km²)
+Total 23 670 8 2 643 404 60 0 250
+Land cover degradation
+SO1-1.T8: National estimates of land cover degradation (km²) in the baseline period
+Area (km²) Percent of total land area (%)
+Land area with degraded land cover 2 301 .4 8 .1
+Land area with non-degraded land cover 22 684 .71 80 .2
+Land area with no land cover data 48 .33 0 .2
+SO1-1.T9: National estimates of land cover degradation (km²) in the reporting period
+Area (km²) Percent of total land area (%)
+Land area with improved land cover 159 0 .6
+Land area with stable land cover 26 776 94 .6
+Land area with degraded land cover 50 0 .2
+Land area with no land cover data 0 0 .0
+General comments
+La deforestación y la degradación forestal estimadas en los periodos 2004-2014 y 2014-2018 muestra un patrón de perturbación forestal
+que se mantiene en el tiempo y tiene el mismo orden de magnitud. Se observa cierta tendencia creciente en la perturbación forestal
+(deforestación más degradación forestal) entre los dos periodos, pero no es estadísticamente significativa considerando los intervalos de
+confianza. La superficie de degradación forestal es mucho mayor que la de deforestación en el conjunto del país en los dos periodos
+analizados (MAGBOMA y FAO, 2020; MAGBMA y FAO, 2018).
+7 / 88
+
+--- Page 8 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+SO1-2 Trends in land productivity or functioning of the land
+Land productivity dynamics
+SO1-2.T1: National estimates of land productivity dynamics (in km²) within each land cover class for the
+baseline period
+Net land productivity dynamics (km²) for the baseline period
+Land cover class
+Declining (km²) Moderate Decline (km²) Stressed (km²) Stable (km²) Increasing (km²) No Data (km²)
+Tree-covered areas 2 446 2 096 14 081 1 625 2 975 170
+Grasslands 0 0 7 0 0 0
+Croplands 346 272 883 261 760 44
+Wetlands 38 30 304 4 12 9
+Artificial surfaces 1 0 17 0 0 0
+Other Lands 0 0 0 0 0 0
+Water bodies 3 7 161 2 5 24
+SO1-2.T2: National estimates of land productivity dynamics (in km²) within each land cover class for the
+reporting period.
+Net land productivity dynamics (km²) for the reporting period
+Land cover class
+Declining (km²) Moderate Decline (km²) Stressed (km²) Stable (km²) Increasing (km²) No Data (km²)
+Tree-covered areas 4 748 5 078 4 098 2 777 6 534 170
+Grasslands 3 2 2 0 0 0
+Croplands 180 302 356 418 1 230 38
+Wetlands 86 109 84 22 90 9
+Artificial surfaces 10 8 13 1 1 0
+Other Lands 0 0 0 0 0 0
+Water bodies 30 27 96 6 20 24
+SO1-2.T3: National estimates of land productivity dynamics for areas where a land conversion to a new land
+cover class has taken place (in km²) for the baseline period.
+Land Conversion Net land productivity dynamics (km²) for the baseline period
+Net area change Declining Moderate Decline Stressed Stable Increasing
+From To
+(km²) (km²) (km²) (km²) (km²) (km²)
+Tree-covered
+Croplands 192 23 31 54 16 67
+areas
+Tree-covered
+Croplands 159 20 14 76 12 36
+areas
+Tree-covered Artificial
+19 1 0 18 0 0
+areas surfaces
+Artificial
+Croplands 12 1 0 11 0 0
+surfaces
+SO1-2.T4: National estimates of land productivity dynamics for areas where a land conversion to a new land
+cover class has taken place (in km²) for the reporting period.
+8 / 88
+
+--- Page 9 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Land Conversion Net land productivity dynamics (km²) for the reporting period
+Net area change Declining Moderate Decline Stressed Stable Increasing
+From To
+(km²) (km²) (km²) (km²) (km²) (km²)
+Tree-covered
+Croplands 261 8 30 18 42 158
+areas
+Tree-covered
+Croplands 120 12 26 17 23 40
+areas
+Artificial
+Croplands 12 0 1 10 0 1
+surfaces
+Tree-covered Artificial
+11 2 1 7 0 1
+areas surfaces
+Land Productivity degradation
+SO1-2.T5: National estimates of land productivity degradation in the baseline period
+Area (km²) Percent of total land area (%)
+Land area with degraded land productivity 5 321 19 .0
+Land area with non-degraded land productivity 21 226 75 .7
+Land area with no land productivity data 224 0 .8
+SO1-2.T6: National estimates of land productivity degradation in the reporting period
+Area (km²) Percent of total land area (%)
+Land area with improved land productivity 8 056 28 .7
+Land area with stable land productivity 7 892 28 .1
+Land area with degraded land productivity 10 611 37 .8
+Land area with no land productivity data 224 0 .8
+General comments
+Para mayor información sobre la situación forestal de Guinea Ecuatorial, es importante leer el Análisis Histórico de la Deforestación y
+Degradación Forestal en Guinea Ecuatorial 2004-2014 se sitúa en el marco del proyecto de desarrollo del Plan Nacional de Inversión REDD+
+(PNI-REDD+), financiado por la CAFI e implementado con el apoyo técnico de la Organización de las Naciones Unidas para la Alimentación
+y la Agricultura (FAO).
+9 / 88
+
+--- Page 10 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+SO1-3 Trends in carbon stocks above and below ground
+Soil organic carbon stocks
+SO1-3.T1: National estimates of the soil organic carbon stock in topsoil (0-30 cm) within each land cover
+class (in tonnes per hectare).
+Soil organic carbon stock in topsoil (t/ha)
+Year
+Tree-covered areas Grasslands Croplands Wetlands Artificial surfaces Other Lands Water bodies
+2000 106 72 90 145 257 0 24
+2001 106 76 90 145 215 0 24
+2002 106 83 89 145 175 0 24
+2003 106 86 90 145 158 0 24
+2004 106 86 88 145 152 0 24
+2005 106 88 88 145 139 0 24
+2006 106 91 89 145 130 0 24
+2007 106 93 89 145 119 0 25
+2008 106 94 88 145 114 0 25
+2009 106 92 89 145 108 0 25
+2010 106 93 89 145 103 0 25
+2011 106 92 89 145 99 0 25
+2012 106 96 89 145 94 0 25
+2013 106 98 89 145 90 0 25
+2014 106 99 90 145 84 0 25
+2015 107 98 86 145 74 0 25
+2016 106 98 88 145 74 0 25
+2017 106 97 89 145 72 0 25
+2018 106 99 90 145 71 0 25
+2019 106 98 90 145 70 0 25
+2020
+If you opted not to use default Tier 1 data, what did you use to calculate the estimates above?
+Modified Tier 1 methods and data
+Tier 2 (additional use of country-specific data)
+Tier 3 (more complex methods involving ground measurements and modelling)
+SO1-3.T2: National estimates of the change in soil organic carbon stock in soil due to land conversion to a
+new land cover class in the baseline period
+Land Conversion Soil organic carbon (SOC) stock change in the baseline period
+Net area Initial SOC Final SOC Initial SOC Final SOC SOC stock
+From To
+change (km²) stock (t/ha) stock (t/ha) stock total (t) stock total (t) change (t)
+Tree-covered
+Croplands 159 86 .4 96 .5 1 373 094 1 533 627 160 533
+areas
+10 / 88
+
+--- Page 11 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Land Conversion Soil organic carbon (SOC) stock change in the baseline period
+Net area Initial SOC Final SOC Initial SOC Final SOC SOC stock
+From To
+change (km²) stock (t/ha) stock (t/ha) stock total (t) stock total (t) change (t)
+Artificial
+Croplands 12 107 .1 76 .7 128 478 92 062 -36 416
+surfaces
+Tree-covered Artificial
+19 115 .0 65 .8 218 519 125 000 -93 519
+areas surfaces
+Tree-covered
+Croplands 192 84 .4 74 .9 1 621 214 1 438 138 -183 076
+areas
+SO1-3.T3: National estimates of the change in soil organic carbon stock in soil due to land conversion to a
+new land cover class in the reporting period
+Land Conversion Soil organic carbon (SOC) stock change in the reporting period
+Net area Initial SOC Final SOC Initial SOC Final SOC SOC stock
+From To
+change (km²) stock (t/ha) stock (t/ha) stock total (t) stock total (t) change (t)
+Tree-covered
+Croplands 160 83 .2 85 .8 1 331 110 1 372 904 41 794
+areas
+Tree-covered Artificial
+1 128 .6 114 .6 12 862 11 463 -1 399
+areas surfaces
+Artificial
+Croplands 2 122 .3 112 .1 24 467 22 425 -2 042
+surfaces
+Tree-covered
+Croplands 47 101 .2 98 .3 475 625 462 072 -13 553
+areas
+Soil organic carbon stock degradation
+SO1-3.T4: National estimates of soil organic carbon stock degradation in the baseline period
+Area (km²) Percent of total land area (%)
+Land area with degraded soil organic carbon (SOC) 152 0 .5
+Land area with non-degraded SOC 26 606 94 .8
+Land area with no SOC data 13 0 .0
+SO1-3.T5: National estimates of SOC stock degradation in the reporting period
+Area (km²) Percent of total land area (%)
+Land area with improved SOC 0 0 .0
+Land area with stable SOC 26 731 95 .3
+Land area with degraded SOC 39 0 .1
+Land area with no SOC data 13 0 .0
+General comments
+11 / 88
+
+--- Page 12 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+SO1-4 Proportion of degraded land over the total land area
+Proportion of degraded land over the total land area (Sustainable Development Goal Indicator 15.3.1)
+SO1-4.T1: National estimates of the total area of degraded land (in km²), and the proportion of degraded land
+relative to the total land area
+Total area of degraded land (km²) Proportion of degraded land over the total land area (%)
+Baseline Period 230 .1 0 .8
+Reporting Period 305 .79 1 .1
+Change in degraded extent 75.69
+Method
+Did you use the SO1-1, SO1-2 and SO1-3 indicators (i.e. land cover, land productivity dynamics and soil organic carbon
+stock) to compute the proportion of degraded land?
+Which indicators did you use?
+☐ Land Cover
+☐ Land Productivity Dynamics
+☐ SOC Stock
+Did you apply the one-out, all-out principle to compute the proportion of degraded land?
+Yes
+No
+Level of Confidence
+Indicate your country’s level of confidence in the assessment of the proportion of degraded land:
+High (based on comprehensive evidence)
+Medium (based on partial evidence)
+Low (based on limited evidence)
+Describe why the assessment has been given the level of confidence selected above:
+• El estudio de causas de deforestación y degradación 2004-2014 analiza un periodo de 10 años, entre diciembre de 2004 y diciembre de
+2015. El análisis de los niveles de referencia de emisiones forestales analiza un periodo de cinco años, desde enero de 2004 a diciembre de
+2018, ya que es necesario un periodo mínimo de cinco años en el caso de que Guinea Ecuatorial decida acceder a pagos por resultados.
+Ambos análisis utilizan la misma metodología: estimación del área estratificada, basada en un muestreo que usa un mapa para estratificar
+las muestras (es decir, el mapa nos ayuda a enfocarnos en áreas de interés en materia de deforestación y degradación de bosques, que
+son características poco comunes en ese territorio). • La estimación de la deforestación y degradación forestal de la isla de Annobón en el
+periodo 2014-2018 es una extrapolación de la estimación realizada en 2004-2014 para el estudio de causas.
+False positives/ False negatives
+SO1-4.T3: Justify why any area identified as degraded or non-degraded in the SO1-1, SO1-2 or SO1-3 indicator
+data should or should not be included in the overall Sustainable Development Goal indicator 15.3.1
+calculation.
+Location Name Type Recode Options Area (km²) Process driving false +/- outcome Basis for Judgement Edit Polygon
+Perform qualitative assessments of areas identified as degraded or improved
+SO1-4.T4: Degradation hotspots
+Action(s) taken to redress
+Remediating
+Direct drivers of degradation in terms of
+Area Assessment action(s) (both Edit
+Hotspots Location land degradation Land Degradation
+(km²) Process forward-looking and Polygon
+hotspots Neutrality response
+current)
+hierarchy
+12 / 88
+
+--- Page 13 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Action(s) taken to redress Remediating
+Direct drivers of
+Area Assessment degradation in terms of action(s) (both Edit
+Hotspots Location land degradation
+(km²) Process Land Degradation Neutrality forward-looking and Polygon
+hotspots
+response hierarchy current)
+Total no. of
+0
+hotspots
+Total
+hotspot 0
+area
+What is/are the indirect driver(s) of land degradation at the national level?
+1. Demographic
+2. Cultural
+3. Institutions and governance
+4.
+5.
+SO1-4.T5: Improvement brightspots
+What action(s) led to the brightspot in Implementing action(s)
+Area Assessment Edit
+Brightspots Location terms of the Land Degradation (both forward-looking and
+(km²) Process Polygon
+Neutrality hierarchy? current)
+Total no. of brightpots 0
+Total brightspot area 0
+What are the enabling and instrumental responses at the national level driving the occurrence of brightspots?
+1. Responses to the adverse effects of globalisation, demographic change, migration
+2. Anthropogenic assets
+3. Rights-based instruments and customary norms
+4. Social and cultural instruments
+5. Economic and financial instruments
+�.
+7.
+�.
+9.
+10.
+General comments
+13 / 88
+
+--- Page 14 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+SO1 Voluntary Targets
+SO1-VT.T1: Voluntary Land Degradation Neutrality targets and other targets relevant to strategic objective 1
+Overarching
+type of Is this an LDN Which other
+Total
+Land Status of target? If so, important goals
+Target Targeted Edit
+Target Year Location(s) Degradation target under which are also being
+Area action(s) Polygon
+Neutrality achievement process was it addressed by this
+(km²)
+(LDN) defined/adopted? target?
+intervention
+Meta 1:
+Reducir la
+conversión de
+• United
+los bosques en Yes Nations
+otros tipos de
+Framework
+coberturas en ☐ Avoid No
+Convention
+un 40% con 2030 Nacional ☒ Reduce Ongoing Participation in on Climate
+respecto a los
+niveles de ☐ Reverse the LDN Target Change –
+Setting Nationally
+2000-2010,
+Programme Determined
+con la mejora
+Contributions
+de la cobertura
+vegetal de aquí
+al año 2030.
+• Convention
+on Biological
+Meta 2: Diversity –
+Mejorar la National
+productividad y Biodiversity
+el stock de Strategies
+carbono de los Yes and Action
+suelos, Plans &
+especialmente ☐ Avoid No National
+las zonas de 2030 Nacional ☒ Reduce Not Participation in Targets
+arbustos y achieved
+pastizales, las ☐ Reverse the LDN Target • United
+Setting Nations
+zonas
+Programme Framework
+húmedas y
+Convention
+áreas
+on Climate
+artificiales, de
+Change –
+aquí al año
+Nationally
+2030
+Determined
+Contributions
+• United
+Meta 3: La Yes Nations
+Noción de NDT Framework
+está integrada ☐ Avoid No Convention
+en los textos 2025 Nacional ☒ Reduce Ongoing Participation in on Climate
+l r e e g g a la le m s e y ntarios ☐ Reverse t S h e e t t L in D g N Target C N h a a ti n o g n e a l – ly
+de aquí al año Programme Determined
+2025 Contributions
+Sum of all targeted areas
+Total
+0
+14 / 88
+
+--- Page 15 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Overarching
+Is this an LDN Which other
+Total type of Land
+Status of target? If so, important goals
+Target Degradation Targeted Edit
+Target Year Location(s) target under which are also being
+Area Neutrality action(s) Polygon
+achievement process was it addressed by this
+(km²) (LDN)
+defined/adopted? target?
+intervention
+Meta 4:
+Promover la
+investigación y
+los • United
+conocimientos Yes Nations
+sobre la Framework
+gestión ☐ Avoid Not No Convention
+sostenible de 2030 Nacional ☒ Reduce achieved Participation in on Climate
+suelos, a ☐ Reverse the LDN Target Change –
+través de una Setting Nationally
+constante Programme Determined
+movilización Contributions
+de fondos de
+aquí al año
+2030.
+☐ Avoid
+Yes
+☐ Reduce
+No
+☐ Reverse
+☐ Avoid
+Yes
+☐ Reduce
+No
+☐ Reverse
+☐ Avoid
+Yes
+☐ Reduce
+No
+☐ Reverse
+☐ Avoid
+Yes
+☐ Reduce
+No
+☐ Reverse
+☐ Avoid
+Yes
+☐ Reduce
+No
+☐ Reverse
+☐ Avoid
+Yes
+☐ Reduce
+No
+☐ Reverse
+☐ Avoid
+Yes
+☐ Reduce
+No
+☐ Reverse
+☐ Avoid
+Yes
+☒ Reduce
+No
+☐ Reverse
+☒ Avoid
+Yes
+☐ Reduce
+No
+☐ Reverse
+☐ Avoid
+Yes
+☒ Reduce
+No
+☐ Reverse
+Sum of all targeted areas
+Total
+0
+15 / 88
+
+--- Page 16 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Overarching
+Is this an LDN Which other
+Total type of Land
+Status of target? If so, important goals
+Target Degradation Targeted Edit
+Target Year Location(s) target under which are also being
+Area Neutrality action(s) Polygon
+achievement process was it addressed by this
+(km²) (LDN)
+defined/adopted? target?
+intervention
+☒ Avoid
+Yes
+☐ Reduce
+No
+☐ Reverse
+☐ Avoid
+Yes
+☐ Reduce
+No
+☐ Reverse
+☐ Avoid
+Yes
+☐ Reduce
+No
+☐ Reverse
+☐ Avoid
+Yes
+☐ Reduce
+No
+☐ Reverse
+Sum of all targeted areas
+Total
+0
+SO1.IA.T1: Areas of implemented action related to the targets (projects and initiatives on the ground).
+Action Extent
+Relevant Implemented Location Edit
+start of Total Area Implemented So Far (km²)
+Target Action (placename) Polygon
+date action
+Sum of all areas relevant to actions under the same target
+Meta 1: Reducir la conversión de los bosques en otros
+tipos de coberturas en un 40% con respecto a los niveles 0
+de 2000-2010, con la mejora de la cobertura vegetal de .00
+aquí al año 2030. :
+Meta 2: Mejorar la productividad y el stock de carbono de
+los suelos, especialmente las zonas de arbustos y 0
+pastizales, las zonas húmedas y áreas artificiales, de .00
+aquí al año 2030:
+Meta 3: La Noción de NDT está integrada en los textos 0
+legales y reglamentarios de aquí al año 2025: .00
+Meta 4: Promover la investigación y los conocimientos
+0
+sobre la gestión sostenible de suelos, a través de una
+.00
+constante movilización de fondos de aquí al año 2030.:
+General comments
+El proceso de establecimiento de metas de Neutralidad en la degradación de tierras, ha permitido la consolidación de un grupo multisectorial, que
+no sólo responderá a las exigencias de este proceso, sino que ha quedado formalizado para otros programas que lo exijan. El proceso de
+establecimiento de metas de neutralidad en la degradación de tierras en la República de Guinea Ecuatorial, ha durado aproximadamente 8 meses,
+se inicio el 02 de febrero y se ha concluido el 30 de septiembre de 2017. Un total de cuatro (4) metas, quince (14) mediadas y once (11)
+indicadores han sido definidos durante el proceso de establecimiento de metas de neutralidad en la degradación de tierras. Durante el proceso de
+establecimiento de metas, varios documentos han sido producidos por el grupo de trabajo, destacándose por su importancia: (1) Plan de trabajo y
+de Apalancamiento, (2) Informe de la línea base y de las causas de deforestación y degradación de los bosques, (3) Propuesta de metas de
+neutralidad en la degradación de tierras, (4) Nota política de Alto Nivel y (5) el informe final del proceso de establecimiento de metas de
+neutralidad en la degradación de tierras. El proceso de establecimiento de metas en la neutralidad de tierras en la RGE ha dejado más visible las
+acciones de la UNCCD en la RGE.
+16 / 88
+
+--- Page 17 ---
+SO-2: To improve the living conditions of affected populations.
+SO2-1 Trends in population living below the relative poverty line and/or income inequality in
+affected areas
+Relevant metric
+Choose the metric that is relevant to your country:
+Proportion of population below the
+international poverty line
+Income inequality (Gini Index)
+Proportion of population below the international poverty line
+SO2-1.T1: National estimates of the proportion of population below the international poverty line
+Year Proportion of population below international poverty line (%)
+2 000
+2 001
+2 002
+2 003
+2 004 76.8
+2 005 76.8
+2 006 45.3
+2 007 45.3
+2 008 45.3
+2 009 45.3
+2 010 45.3
+2 011 43.7
+2 012 43.7
+2 013 43.7
+2 014 43.7
+2 015 43.7
+2 016 43.7
+2 017 43.7
+2 018 43.7
+2 019 43.7
+2 020 43.7
+Qualitative assessment
+SO2-1.T3: Interpretation of the indicator
+Change in
+Indicator metric the Comments
+indicator
+17 / 88
+
+--- Page 18 ---
+SO-2: To improve the living conditions of affected populations.
+Change in
+Indicator metric the Comments
+indicator
+Los datos sobre el indicador para los años anteriores del 76.8% viene recogidos en el Tomo III: Estudio
+del Perfil de Pobreza en Guinea Ecuatorial en 2006. Este documento surgió en 2007 cuando fue
+Proportion of
+elaborada la Agenda para la Diversificación de las Fuentes de Crecimiento en el marco del Plan
+population below
+Decrease Nacional de Desarrollo Económico y Social Horizonte 2020. En 2006, el Banco Mundial situó la brecha
+the international
+de pobreza en Guinea Ecuatorial en un 45.3%, indicador que afectaba más a la población urbana (67%)
+poverty line
+que a la rural (49.8%). La disparidad estriba en que en las urbes el coste de vida aumenta, El dato
+43.9% viene recogido en la Encuesta de Demografía y Salud de Guinea Ecuatorial (EDSGE-I) del 2011
+Income inequality El reporte 2015 sobre el alcance de los ODM menciona que Guinea Ecuatorial tiene un coeficiente de
+Increase
+(Gini Index) Gini de 0.31
+General comments
+La Brecha de Pobreza se situó en un 45,3% en el año 2006 (Banco Mundial, 2014), indicador que afectaba más a la población urbana
+(67,0%) que a la rural (49,8%). Esta disparidad estriba en que en las urbes el coste de vida aumenta. A falta de datos de años anteriores y
+posteriores a 2006, es difícil analizar su evolución. Según la información disponible (Guinea Ecuatorial, informe balance país, 2006), el
+porcentaje de la población en extrema pobreza bajó de 64% en 1990, 60% en 2000, 32,7% en 2006 (Encuesta perfil de pobreza, 2006) y a
+13,5% en el año 2011 (EDSGE, 2001), con una reducción del 19,2 puntos porcentuales en 5 años. El descubrimiento y explotación del
+petróleo ha traído la dinamización de la actividad económica y la creación de puestos de trabajo en el país, sobre todo en la construcción y
+servicios. Según el Banco Mundial8, el promedio de desempleo entre 1991 a 2013 se situó en un 6,4%. En cuanto a la población activa, el
+Banco Africano de Desarrollo (BAD) la estima en 369.000 en 2011, dedicándose el 48% a la agricultura. La población activa está en
+aumento tanto por el crecimiento vegetativo de la población, como por el retorno de emigrantes guineanos del extranjero. El sector de la
+construcción es el mayor empleador del país, seguido del de la función pública y la industria del petróleo. En los últimos años, la mayor
+parte del empleo se ha generado en las principales ciudades (Malabo y Bata), lo que ha motivado un fuerte éxodo rural y abandono de
+actividades agrícolas. La falta de capital humano cualificado es un problema generalizado en el mercado laboral del país. Según el Instituto
+Nacional de Seguridad Social (INSESO), la proporción de personas que trabaja por cuenta propia y empresas familiares es de 0’3% en el
+periodo enero 2011/diciembre 2012 y 0’2% en el periodo enero 2013/diciembre 2014 (afiliados a la Seguridad Social en Malabo y parte de
+Bata). Se observa la tendencia a la baja de afiliaciones a la Seguridad Social de autónomos, sin embargo estos datos no son
+representativos para todo el país. La evolución de las condiciones de vida de la población ha sido positiva en los últimos cinco años, ya que
+la población bajo el umbral de pobreza pasó de 76,8 % en 2006 a 43,7% en el año 2011. Por lo que se puede deducir que el país cumplió, en
+el año 2011, la meta de reducir a la mitad la proporción de población con ingresos inferiores a 2$ USA al día. La Brecha de Pobreza en línea
+de pobreza nacional se situó en un 45,3% en el año 2006, indicador que afectaba más a la población urbana (67%) que la rural (49,8%). A
+falta de datos para los años posteriores y anteriores a 2006, es difícil analizar la evolución del coeficiente de la brecha de la pobreza en el
+país. El decreto N.º 30/2016, de fecha 29 de enero, prorroga la vigencia del decreto 121/2011, de fecha 5 de diciembre establece el salario
+mínimo interprofesional de Guinea Ecuatorial en 117.304 francos CFA al mes, que es la cantidad mínima de dinero que se le puede pagar a
+un trabajador en Guinea Ecuatorial por sus labores. El lanzamiento de la Encuesta de Demografía y de Salud en la República de Guinea
+Ecuatorial tuvo lugar en Enero del 2009 y lo presidieron los Ministros de Sanidad y Bienestar Social y el de Economía, Planificación, e
+Inversiones Públicas, desde donde se instituyó la puesta en marcha de un equipo técnico, un Comité de Pilotaje, un Comité Técnico y un
+Comité de Ética que se encargarían de elaborar el cronograma y presupuesto de las actividades y el control de calidad de los trabajos, con
+el apoyo técnico de la Agencia ICF International, especializada en Encuestas de Demografía y de Salud en el mundo. Tras el lanzamiento de
+la EDSGE-I 2011, tuvo lugar en la ciudad de Bata del 23 al 30 de Enero del 2009 la Reunión de validación de los cuestionarios para la
+encuesta y su adaptación al contexto ecuatoguineano para la obtención de indicadores sociodemográficos fiables y actualizados. Los
+preparativos de la Cumbre del Comité Regional de la OMS/Afro (Agosto-Sep. 2010) y la Cumbre de Jefes de Estado y de Gobierno de la
+Unión Africana (Junio-Julio 2011) retrasaron el inicio de las actividades de terreno de la EDSGE-I 2011), y una vez finalizados dichos
+eventos, los trabajos de terreno de la encuesta dieron inicio a finales de Julio del 2011 y culminaron a mediados de Noviembre del 2011,
+con los mismos términos de referencia que fueron ya recogidos en los trabajos de la Cartografía y la Encuesta Piloto llevados a cabo entre
+Septiembre y Diciembre del 2010. La primera Encuesta Demográfica y de Salud en Guinea Ecuatorial de 2011 (EDSGE-I 2011) ha sido
+realizada por el Ministerio de Sanidad y Bienestar Social, en colaboración con el Ministerio de Planificación, Desarrollo Económico e
+Inversiones Públicas. La EDSGE-I 2011, iniciado por el Gobierno ecuatoguineano, a beneficiado de la asistencia técnica del programa
+mundial de las Encuestas Demográficas y de Salud (Demographic and Health Surveys - MEASURE DHS) de ICF Internacional, cuyo objetivo
+es recolectar, analizar y difundir los datos demográficos y de salud en particular los relativos a la fecundidad, la planificación familiar, la
+salud y la nutrición de la madre y el niño, y el VIH/sida. La encuesta ha sido financiada por el Gobierno ecuatoguineano, el Fondo de
+Población de las Naciones Unidas (UNFPA), la Comisión Europea y el Banco Africano de Desarrollo (BAD). La República de Guinea
+Ecuatorial está situada en la parte occidental del Continente Africano (Golfo de Guinea) y limita al Norte con la República del Camerún, al
+Este y al Sur con la República de Gabón y al Oeste con el Océano Atlántico. Tiene una frontera marítima con la República Federal de Nigeria
+y Sao Tomé y Príncipe, y tiene una extensión superficial de 28.051,46 Km². El clima es tropical y húmedo, con una temperatura que se
+mantiene con poca variación anual, alrededor de los 25° C, la humedad relativa es de 90%. La pluviometría está marcada por fuertes y
+frecuentes precipitaciones, con una media de 2.000 a 3.000 mm. por año. El bosque ecuatoguineano ocupa cerca del 86% del territorio y
+cuenta con más de 800 especies vegetales diferentes. Estas características favorecen estancamientos de aguas, lo que facilita la
+propagación de enfermedades, como el paludismo y otras. Un índice de Gini de 0 representa la perfecta igualdad, mientras un índice de 1
+implica la perfecta desigualdad. Podemos comparar este índice de Gini con información equivalente proveniente de Banco Mundial sobre
+República Centroafricana, 00.56 (2008), Ruanda, 00.51 (2010), Guinea Bissau, 0.50 (2010), Benín, 0.43 (2011) o Angola, 0.42 (2008). (Index
+Mundi, 2017) 189. El Índice de Desarrollo Humano de UNDP (IDH) es una medida aceptada de desarrollo humano. Es un índice compuesto
+que comprende ingreso bruto (GNI per cápita), salud (medida por expectativa de vida) y educación. Los países obtienen puntuaciones entre
+1 y 0, donde 1 es el más alto desarrollo humano y 0 el más bajo. Para el año 2014 en África Central y del Oeste sólo Gabón, Cabo Verde,
+Ghana, Congo, Sao Tome y Guinea Ecuatorial están entre los países clasificados como de mediano desarrollo humano. Hay que destacar
+que Guinea Ecuatorial es el primero en GNI per cápita, pero el sexto en IDH.
+18 / 88
+
+--- Page 19 ---
+SO-2: To improve the living conditions of affected populations.
+SO2-2 Trends in access to safe drinking water in affected areas
+Proportion of population using safely managed drinking water services
+SO2-2.T1: National estimates of the proportion of population using safely managed drinking water services
+Year Urban (%) Rural (%) Total (%)
+2000 44 41 42.5
+2001
+2002
+2003
+2004
+2005
+2006
+2007
+2008
+2009 59.4
+2010
+2011
+2012
+2013
+2014
+2015 72.5 31.5 67.73
+2016 79 71 72.5
+2017 79 71 72.5
+2018 79 71 72.5
+2019 79 71 72.5
+2020 79 71 72.5
+Qualitative assessment
+SO2-2.T2: Interpretation of the indicator
+Change in the
+Comments
+indicator
+Debido a la mejora de las condiciones de vida de la población, mediante el programa político del Plan Horizonte 2020
+Increase
+trazado por el gobierno de Guinea Ecuatorial.
+General comments
+Como signatario de la Declaración del Milenio, el Gobierno de Guinea Ecuatorial se comprometió, para el año 2020, a aumentar al menos al
+90% el número de personas que tienen acceso al agua potable. Vale destacar los esfuerzos del país para mejorar su cobertura en agua y
+los avances conseguidos en cuanto a la implementación de los proyectos de la primera fase, habiendo culminado 14 proyectos ya
+operativos para el abastecimiento de agua potable, lo cual representa el 58,4% de la ejecución de esta fase (MEPIP-ANGE 2020, 2015). En
+lo concerniente a la proporción de la población con acceso a fuentes mejoradas de abastecimiento de agua potable, se han alcanzado
+importantes logros, aumentando la proporción de la población urbana con acceso a fuentes mejoradas de abastecimiento de agua potable
+de 59,4% en 2009 a 67,73% en 2014. El Programa Agua para Todos cuenta con 154 proyectos que ascienden a un valor de 1,555 billones de
+CFA. Actualmente, 81 proyectos están terminados o en ejecución con un costo de a 1.157.927 millones de CFA. El Programa presenta un
+positivo porcentaje de ejecución del 76.1%. Pero hasta la fecha no es suficiente para cubrir la demanda insatisfecha. Proporción de la
+población con acceso a agua potable en Guinea Ecuatorial asciende a 72.5% según la publicación en el avance del Informe del Plan
+Nacional Horizonte 2020,en 2016
+19 / 88
+
+--- Page 20 ---
+SO-2: To improve the living conditions of affected populations.
+SO2-3 Trends in the proportion of population exposed to land degradation disaggregated by
+sex
+Proportion of the population exposed to land degradation disaggregated by sex
+SO2-3.T1: National estimates of the proportion of population exposed to land degradation disaggregated by
+sex.
+Male
+Population Percentage of Female Percentage of total Percentage of total
+Time population
+exposed total population population female population male population
+period exposed
+(count) exposed (%) exposed (count) exposed (%) exposed (%)
+(count)
+Baseline
+284411 23 .4 143299 23 .5 141112 23 .4
+period
+Reporting
+475008 37 .5 235786 37 .1 239222 37 .8
+period
+Qualitative assessment
+SO2-3.T2: Interpretation of the indicator
+Change in the indicator Comments
+General comments
+Ley de tenencia de las tierras; Ley Número 4/2009: del 18 de mayo, Sobre el Régimen de la Propiedad de Tierras en Guinea Ecuatorial.
+Promovida por el Ministerio de Infraestructuras, cuando en realidad es el Ministerio del Interior y corporaciones locales quien regenta las
+tierras. Pero otras disposiciones legales y reglamentarias, relativas a la gestión de los recursos naturales, cuya implementación tiene una
+incidencia en la gestión de las tierras, han sido tomadas, entre ellas podemos destacar. Colectividades locales y municipales, desempeñan
+igualmente un gran papel en la gestión de los recursos terrestres, ayudando a diseminar la información sobre la gestión en las zonas más
+remotas del país. Las cámaras agrícolas de Rio Muni y Bioko, creadas en el año 1936, tienen como misión, facilitar la información y la
+formación a los agricultores y todos los operadores económicos localizados en el país, mediar entre éstos y el Gobierno a fin de fomentar
+el desarrollo, mejorando la gestión comercial. Las organizaciones de Sociedad Civil, la Sociedad Civil, el conjunto de las ONGs y
+asociaciones del Sector Bosque Medio Ambiente de Guinea Ecuatorial, contribuye en la realización de las actividades, ofreciendo su apoyo
+en la sensibilización y educación en el marco de la concientización de la población sobre la protección de las tierras. Las asociaciones
+profesionales y las plataformas de ONG que intervienen en el sector, regidas por la Ley Numero 1/1999, sobre las Organizaciones no
+Gubernamentales. En este sector notamos las acciones de organizaciones tales como: ANDEGE, fundada el 09 de agosto de 2007, también
+se destaca las acciones de: ECOGUINEA, ADELO, ASAMA, AMIGOS DEL BOSQUE, ADICOR, ADMAD, etc. El conjunto de estos actores,
+interviene en la Unidad de Manejo Sostenible de tierras (UMST), estructura creada en 2012, para la gestión de las tierras en la República de
+Guinea Ecuatorial.
+20 / 88
+
+--- Page 21 ---
+SO-2: To improve the living conditions of affected populations.
+SO2 Voluntary Targets
+SO2-VT.T1
+Level of Status of target
+Target Year Comments
+application achievement
+Por cuestiones de financiación y
+Elaborar el Plan Hidrológico Nacional 2020 National Not achieved disponibilidad de personal
+cualificado
+Hacer un Inventario de la Capa Freática para la Por cuestiones de financiación y
+perforación de pozos para el abastecimiento de agua 2020 National Not achieved disponibilidad de personal
+potable a los Consejos de Poblados cualificado
+General comments
+21 / 88
+
+--- Page 22 ---
+SO-3: To mitigate, adapt to, and manage the effects of drought in order to enhance resilience of vulnerable populations and
+ecosystems.
+SO3-1 Trends in the proportion of land under drought over the total land area
+Drought hazard indicator
+SO3-1.T1: National estimates of the land area in each drought intensity class as defined by the Standardized
+Precipitation Index (SPI) or other nationally relevant drought indices
+Drought intensity classes
+Mild drought (km²) Moderate drought (km²) Severe drought (km²) Extreme drought (km²) Non-drought (km²)
+2000 18 027 2 485 0 0 6 461
+2001 5 738 2 538 0 0 18 696
+2002 0 0 0 0 26 973
+2003 7 672 5 715 37 0 13 548
+2004 6 045 0 0 0 20 928
+2005 25 033 0 0 0 1 939
+2006 3 695 0 0 0 23 277
+2007 0 0 0 0 26 973
+2008 19 942 4 540 40 0 2 451
+2009 12 849 2 855 7 672 3 597 0
+2010 20 698 0 0 0 6 275
+2011 19 606 5 427 0 0 1 939
+2012 0 0 0 0 26 973
+2013 11 754 780 260 0 14 178
+2014 218 0 0 0 26 754
+2015 20 12 416 8 093 6 444 0
+2016 5 177 0 0 0 21 796
+2017 3 688 0 0 0 23 285
+2018 2 517 0 0 0 24 455
+2019 1 939 0 57 24 976 0
+2020
+2021
+SO3-1.T2: Summary table for land area under drought without class break down
+Total area under drought (km²) Proportion of land under drought (%)
+2000 20 512 73 .1
+2001 8 276 29 .5
+2002 0 0 .0
+2003 13 424 47 .9
+2004 6 045 21 .5
+2005 25 033 89 .2
+22 / 88
+
+--- Page 23 ---
+SO-3: To mitigate, adapt to, and manage the effects of drought in order to enhance resilience of vulnerable populations and
+ecosystems.
+Total area under drought (km²) Proportion of land under drought (%)
+2006 3 695 13 .2
+2007 0 0 .0
+2008 24 522 87 .4
+2009 26 973 96 .2
+2010 20 698 73 .8
+2011 25 033 89 .2
+2012 0 0 .0
+2013 12 794 45 .6
+2014 218 0 .8
+2015 26 973 96 .2
+2016 5 177 18 .5
+2017 3 688 13 .1
+2018 2 517 9 .0
+2019 26 973 96 .2
+2020 -
+2021 -
+Qualitative assessment:
+Guinea Ecuatorial no dispone de información meteorológica y climática suficiente para realizar estudios relacionados con variabilidad y
+cambio climático, por lo tanto fue necesario acudir a los datos de temperatura y precipitación mensuales correspondientes a la base de
+datos del Climatic Research Unit School of Enviromental Sciences University of East Anglia. Estos datos son los comúnmente conocidos
+como CRUTS2.1, según Mitchel and Jones (2005). Según el Plan de Acción Nacional De Adaptación al Cambio Climático del 2013, el clima
+de Guinea Ecuatorial transita hacia un clima más cálido, con una disminución de las precipitaciones sobre todo en la parte insular, lo cual
+reduce la disponibilidad de agua. Tal situación puede influir de manera negativa sobre los ecosistemas humanos y naturales en un futuro
+inmediato.
+General comments
+La temperatura es una de las variables meteorológicas que mejor caracteriza la variabilidad del clima de una localidad o país. En Guinea
+Ecuatorial, los valores mensuales de temperatura superficial del aire para el período 1951-2009, permiten apreciar una gran variabilidad con
+alternancia de períodos en los que predominan anomalías positivas o negativas,
+23 / 88
+
+--- Page 24 ---
+SO-3: To mitigate, adapt to, and manage the effects of drought in order to enhance resilience of vulnerable populations and
+ecosystems.
+SO3-2 Trends in the proportion of the population exposed to drought
+Drought exposure indicator
+Exposure is defined in terms of the number of people who are exposed to drought as calculated from the SO3-1 indicator data.
+SO3-2.T1: National estimates of the percentage of the total population within each drought intensity class as
+well as the total population count and the proportion of the national population exposed to drought
+regardless of intensity.
+Non-exposed Mild drought Moderate drought Severe drought Extreme drought Exposed population
+Reporting Population Population Population Population Population Population
+% % % % % %
+year count count count count count count
+23 69 7 0 0 76
+2000 228118 675165 71195 0 0 746 360
+.4 .3 .3 .0 .0 .6
+64 22 13 0 0 35
+2001 631635 218700 126943 0 0 345 643
+.6 .4 .0 .0 .0 .4
+100 0 0 0 0
+2002 994260 0 0 0 0 0 0 .0
+.0 .0 .0 .0 .0
+39 17 39 2 0 60
+2003 399977 179861 401573 28508 0 609 942
+.6 .8 .8 .8 .0 .4
+65 34 0 0 0 34
+2004 675147 353203 0 0 0 353 203
+.7 .3 .0 .0 .0 .3
+26 73 0 0 0 73
+2005 272322 761878 0 0 0 761 878
+.3 .7 .0 .0 .0 .7
+85 14 0 0 0 14
+2006 901367 155036 0 0 0 155 036
+.3 .7 .0 .0 .0 .7
+100 0 0 0 0
+2007 1063482 0 0 0 0 0 0 .0
+.0 .0 .0 .0 .0
+75 14 0 0 90
+2008 106270 9 .9 817506 153220 846 0 971 572
+.8 .2 .1 .0 .1
+59 5 23 10 100
+2009 0 0 .0 660162 64536 262385 115010 1 102 093
+.9 .9 .8 .4 .0
+40 59 0 0 0 59
+2010 456708 659656 0 0 0 659 656
+.9 .1 .0 .0 .0 .1
+26 61 12 0 0 73
+2011 301384 686468 137899 0 0 824 367
+.8 .0 .2 .0 .0 .2
+100 0 0 0 0
+2012 1139045 0 0 0 0 0 0 .0
+.0 .0 .0 .0 .0
+65 31 2 1 0 34
+2013 753349 358194 32640 12178 0 403 012
+.1 .0 .8 .1 .0 .9
+97 2 0 0 0
+2014 1142928 27959 0 0 0 27 959 2 .4
+.6 .4 .0 .0 .0
+1 55 23 19 100
+2015 0 0 .0 14238 668085 286434 230296 1 199 053
+.2 .7 .9 .2 .0
+81 18 0 0 0 18
+2016 978308 222486 0 0 0 222 486
+.5 .5 .0 .0 .0 .5
+64 35 0 0 0 35
+2017 783267 436209 0 0 0 436 209
+.2 .8 .0 .0 .0 .8
+70 29 0 0 0 29
+2018 875283 364116 0 0 0 364 116
+.6 .4 .0 .0 .0 .4
+27 0 0 71 100
+2019 0 0 .0 345564 0 6597 900319 1 252 480
+.6 .0 .5 .9 .0
+70 29 0 0 0 29
+2020 863313 359126 0 0 0 359 126
+.6 .4 .0 .0 .0 .4
+2021 - - - - - - -
+SO3-2.T2: National estimates of the percentage of the female population within each drought intensity class.
+Exposed female
+Non-exposed Mild drought Moderate drought Severe drought Extreme drought
+population
+Reporting Population Population Population Population Population Population
+% % % % % %
+year count count count count count count
+24 / 88
+
+--- Page 25 ---
+SO-3: To mitigate, adapt to, and manage the effects of drought in order to enhance resilience of vulnerable populations and
+ecosystems.
+Exposed female
+Non-exposed Mild drought Moderate drought Severe drought Extreme drought
+population
+Reporting Population Population Population Population Population Population
+% % % % % %
+year count count count count count count
+23 69 7 0 0 76
+2000 113494 335806 36463 0 0 372 269
+.4 .1 .5 .0 .0 .6
+64 22 13 0 0 35
+2001 314733 109571 64595 0 0 174 166
+.4 .4 .2 .0 .0 .6
+100 0 0 0 0
+2002 497416 0 0 0 0 0 0 .0
+.0 .0 .0 .0 .0
+39 18 39 2 0 60
+2003 199149 92518 200484 13897 0 306 899
+.4 .3 .6 .7 .0 .6
+66 33 0 0 0 33
+2004 341037 173368 0 0 0 173 368
+.3 .7 .0 .0 .0 .7
+25 74 0 0 0 74
+2005 132177 386050 0 0 0 386 050
+.5 .5 .0 .0 .0 .5
+85 14 0 0 0 14
+2006 452082 77604 0 0 0 77 604
+.3 .7 .0 .0 .0 .7
+100 0 0 0 0
+2007 532861 0 0 0 0 0 0 .0
+.0 .0 .0 .0 .0
+75 14 0 0 90
+2008 52762 9 .8 409724 77541 422 0 487 687
+.8 .3 .1 .0 .2
+58 5 24 10 100
+2009 0 0 .0 324869 32517 135169 60002 552 557
+.8 .9 .5 .9 .0
+40 59 0 0 0 59
+2010 226613 332752 0 0 0 332 752
+.5 .5 .0 .0 .0 .5
+25 61 12 0 0 74
+2011 146566 346221 72308 0 0 418 529
+.9 .3 .8 .0 .0 .1
+100 0 0 0 0
+2012 571285 0 0 0 0 0 0 .0
+.0 .0 .0 .0 .0
+64 31 2 1 0 35
+2013 375023 181621 16900 6356 0 204 877
+.7 .3 .9 .1 .0 .3
+97 2 0 0 0
+2014 573822 13662 0 0 0 13 662 2 .3
+.7 .3 .0 .0 .0
+1 54 24 20 100
+2015 0 0 .0 6930 329598 145679 120238 602 445
+.2 .7 .2 .0 .0
+81 18 0 0 0 18
+2016 492111 110387 0 0 0 110 387
+.7 .3 .0 .0 .0 .3
+64 35 0 0 0 35
+2017 396600 215162 0 0 0 215 162
+.8 .2 .0 .0 .0 .2
+71 28 0 0 0 28
+2018 444064 177656 0 0 0 177 656
+.4 .6 .0 .0 .0 .6
+26 0 0 72 100
+2019 0 0 .0 167874 0 3276 456769 627 919
+.7 .0 .5 .7 .0
+2020 - - - - - - -
+2021 - - - - - - -
+SO3-2.T3: National estimates of the percentage of the male population within each drought intensity class.
+Exposed male
+Non-exposed Mild drought Moderate drought Severe drought Extreme drought
+population
+Reporting Population Population Population Population Population Population
+% % % % % %
+year count count count count count count
+23 69 7 0 0 76
+2000 114624 339359 34732 0 0 374 091
+.5 .4 .1 .0 .0 .5
+64 22 12 0 0 35
+2001 316902 109129 62348 0 0 171 477
+.9 .3 .8 .0 .0 .1
+100 0 0 0 0
+2002 496844 0 0 0 0 0 0 .0
+.0 .0 .0 .0 .0
+39 17 39 2 0 60
+2003 200828 87343 201089 14611 0 303 043
+.9 .3 .9 .9 .0 .1
+65 35 0 0 0 35
+2004 334110 179835 0 0 0 179 835
+.0 .0 .0 .0 .0 .0
+25 / 88
+
+--- Page 26 ---
+SO-3: To mitigate, adapt to, and manage the effects of drought in order to enhance resilience of vulnerable populations and
+ecosystems.
+Exposed male
+Non-exposed Mild drought Moderate drought Severe drought Extreme drought
+population
+Reporting Population Population Population Population Population Population
+% % % % % %
+year count count count count count count
+27 72 0 0 0 72
+2005 140145 375828 0 0 0 375 828
+.2 .8 .0 .0 .0 .8
+85 14 0 0 0 14
+2006 449285 77432 0 0 0 77 432
+.3 .7 .0 .0 .0 .7
+100 0 0 0 0
+2007 530621 0 0 0 0 0 0 .0
+.0 .0 .0 .0 .0
+10 75 14 0 0 90
+2008 53508 407782 75679 424 0 483 885
+.0 .9 .1 .1 .0 .0
+61 5 23 10 100
+2009 0 0 .0 335293 32019 127216 55008 549 536
+.0 .8 .1 .0 .0
+41 58 0 0 0 58
+2010 230095 326904 0 0 0 326 904
+.3 .7 .0 .0 .0 .7
+27 60 11 0 0 72
+2011 154818 340247 65591 0 0 405 838
+.6 .7 .7 .0 .0 .4
+100 0 0 0 0
+2012 567760 0 0 0 0 0 0 .0
+.0 .0 .0 .0 .0
+65 30 2 1 0 34
+2013 378326 176573 15740 5822 0 198 135
+.6 .6 .7 .0 .0 .4
+97 2 0 0 0
+2014 569106 14297 0 0 0 14 297 2 .5
+.5 .5 .0 .0 .0
+1 56 23 18 100
+2015 0 0 .0 7308 338487 140755 110058 596 608
+.2 .7 .6 .4 .0
+81 18 0 0 0 18
+2016 486197 112099 0 0 0 112 099
+.3 .7 .0 .0 .0 .7
+63 36 0 0 0 36
+2017 386667 221047 0 0 0 221 047
+.6 .4 .0 .0 .0 .4
+69 30 0 0 0 30
+2018 431219 186460 0 0 0 186 460
+.8 .2 .0 .0 .0 .2
+28 0 0 71 100
+2019 0 0 .0 177690 0 3321 443550 624 561
+.5 .0 .5 .0 .0
+2020 - - - - - - -
+2021 - - - - - - -
+Qualitative assessment
+Interpretation of the indicator
+General comments
+La información de los años 2020, 2021 y 2022 se ha recogido del plan nacional de lucha contra la desertificación y la deforestación en
+Guinea Ecuatorial, aplicando algunas aproximaciones según el orden lógico establecido en dicho informe.
+26 / 88
+
+--- Page 27 ---
+SO-3: To mitigate, adapt to, and manage the effects of drought in order to enhance resilience of vulnerable populations and
+ecosystems.
+SO3-3 Trends in the degree of drought vulnerability
+Drought Vulnerability Index
+SO3-3.T1: National estimates of the Drought Vulnerability Index
+Year Total country-level DVI value (tier 1) Male DVI value (tiers 2 and 3 only) Female DVI value (tiers 2 and 3 only)
+2000 746 360 374 091 372 269
+2001 345 643 171 477 174 166
+2002 0 0 0
+2003 609 942 303 043 306 899
+2004 353 203 179 835 173 368
+2005 761 878 375 828 386 050
+2006 155 036 77 432 77 604
+2007 0 0 0
+2008 971 572 483 885 487 687
+2009 1 102 093 549 536 552 557
+2010 659 656 326 904 332 752
+2011 824 367 405 838 418 529
+2012 0 0 0
+2013 403 012 198 135 204 877
+2014 27 959 14 297 13 662
+2015 1 199 053 596 608 602 445
+2016 222 486 112 099 110 387
+2017 436 209 221 047 215 162
+2018 364 116 186 460 177 656
+2019 1 252 480 624 561 627 919
+2020 1 312 447 600 434 612 688
+2021 1 358 276 665 555 692 .720
+Method
+Which tier level did you use to compute the DVI?
+☒ Tier 1 Vulnerability Assessment ⓘ
+☐ Tier 2 Vulnerability Assessment ⓘ
+☐ Tier 3 Vulnerability Assessment ⓘ
+Qualitative assessment
+SO3-3.T2: Interpretation of the indicator
+Change in
+Comments
+the indicator
+27 / 88
+
+--- Page 28 ---
+SO-3: To mitigate, adapt to, and manage the effects of drought in order to enhance resilience of vulnerable populations and
+ecosystems.
+Change in the
+Comments
+indicator
+Lógicamente toda la población de nacional está expuesta a la sequía tanto los que viven en las zonas
+SO3-3
+rurales como los de las grandes ciudades como Bata y Malabo, es así que para los años 2020, 2021 y 2022
+(country Increasing
+se ha realizado una estimación de la cantidad total de población restando el porcentaje masculina y
+DVI)
+femenina que se establece en anuario estadístico publicado en 2019 por INEGE
+General comments
+28 / 88
+
+--- Page 29 ---
+SO-3: To mitigate, adapt to, and manage the effects of drought in order to enhance resilience of vulnerable populations and
+ecosystems.
+SO3 Voluntary Targets
+SO3-VT.T1
+Status of
+Level of
+Target Year target Comments
+application
+achievement
+Las causas directas y subyacentes en Guinea Ecuatorial
+Abordar las causas subyacentes a la
+están intrínsecamente interrelacionadas. Los factores
+pérdida de biodiversidad biológica
+Partially
+sociodemográficos y culturales resultan reforzados por
+mediante la incorporación de la
+2020 National achieved las fuerzas económicas del mercado, el marco
+diversidad biológica en todos los
+50 institucional y una gobernanza limitada del sector
+ámbitos gubernamentales y de la
+forestal, así como por las prioridades políticas de
+sociedad
+desarrollo socioeconómico.
+Reducir las presiones directas sobre Partially
+la diversidad biológica y promover la 2020 National achieved
+utilización sostenible 40
+General comments
+29 / 88
+
+--- Page 30 ---
+SO4-1 Trends in carbon stocks above and below
+ground
+Soil organic carbon stocks
+Trends in carbon stock above and below ground is a multi-purpose indicator used to measure progress towards both strategic objectives 1 and 4.
+Quantitative data and a qualitative assessment of trends in this indicator are reported under strategic objective 1, progress indicator SO1-3.
+30 / 88
+
+--- Page 31 ---
+SO-4: To generate global environmental benefits through effective implementation of the United Nations Convention to Combat
+Desertification.
+SO4-2 Trends in abundance and distribution of selected species
+SO4-2.T1: National estimates of the Red List Index of species survival
+Red
+Lower Upper
+Year List Comment
+Bound Bound
+Index
+0 0 0 El estado actual de las especies de la lista roja está poco documentada en el país, lo que dificulta
+2000
+.80168 .78916 .80233 la obtención de los datos cuantitativos que se requieren en éste indicador.
+0 0 0
+2001
+.80154 .78884 .80211
+0 0 0
+2002
+.80141 .78826 .80203
+0 0 0
+2003
+.80129 .78766 .80187
+0 0
+2004 0 .7868
+.80116 .80176
+0 0 0
+2005
+.80102 .78559 .80173
+0 0 0
+2006
+.80096 .78498 .80179
+Desde 1995 se han llevado a cabo inventarios parciales que han servido como base para la
+realización de estimaciones aproximadas de las especies en peligro de extinción en el país.
+Según las especies censadas en diferentes estudios, se encontraron un total de 184 mamíferos,
+0 0 0
+2007 172 aves, 91 reptiles, 29 anfibios, 83 peces continentales y 3250 plantas superiores. De los
+.80088 .78446 .80249
+cuales se concluyó que 23 mamíferos, 4 aves, 8 reptiles, 2 anfibios y 2 peces continentales
+estaban amenazadas. Los datos del inventario vienen citados en un estudio sobre el perfil
+medioambiental de Guinea Ecuatorial, 2007. Publicados por la UICN&WRI.
+0 0
+2008 0 .7833
+.80072 .80278
+0
+2009 0 .7827 0 .8037
+.80058
+0 0 0
+2010
+.80048 .78167 .80435
+0 0 0
+2011
+.80027 .78161 .80445
+0 0 0
+2012
+.80011 .77951 .80499
+En un estudio realizado en el 2013 se descubrió que de las siete especies de primates diurnos
+que hay en la isla de Bioko, cuatro de las mismas son vulnerables a la caza, y de entre todas el
+Piliocolobis Pennantii es más vulnerable. También se encontró una relación negativa significativa
+0 0 0
+2013 entre la abundancia de dichos primates y las evidencias de caza con escopeta. Lo cual implica
+.80004 .77842 .80583
+que las tasas de presencia de primates fueron más bajas en las zonas de caza intensiva. Los
+datos han sido recogidos de un estudio sobre censo de primates en la Reserva Científica de la
+Caldera de Luba, realizado por el Dr. Drew Cronin en el año 2013.
+0 0 0
+2014
+.79984 .77838 .80661
+Del 2000 al 2015 se notó un descenso significativo en la presencia de las cuatro especies de
+tortugas marinas que desovan en las playas del sur de Bioko y se cree que dicho descenso está
+0 0 0
+2015 estrechamente relacionada con las drásticas interacciones humanas con la vida silvestre de la
+.79966 .77739 .80691
+zona protegida. Los datos corresponden a un estudio sobre las tortugas marinas en las playas
+del sur Bioko, realizado por Rader et al. 2006; Fitzgerald et al. 2011; y el BBPP, 2014.
+31 / 88
+
+--- Page 32 ---
+SO-4: To generate global environmental benefits through effective implementation of the United Nations Convention to Combat
+Desertification.
+Red
+Lower Upper
+Year List Comment
+Bound Bound
+Index
+0 0 0
+2016
+.79959 .77651 .80815
+0 0
+2017 0 .7759
+.79947 .80786
+0 0 0
+2018
+.79927 .77494 .80818
+0 0 0
+2019
+.79911 .77314 .80893
+Según los datos de Cronin, 2017, citados por la UICN en el año 2020 , en la isla de Bioko hay un
+0 0 0 total de 1000 individuos de Piliocolobus Pennantii (Colobo rojo), 1200 individuos de Mandrillus
+2020
+.79903 .77416 .80938 Peucophaeus Poensis (Drill) y 9500 individuos de Cercopithecus Erythrotis Erythrotis (Mono de la
+cola roja), los cuales siguen con las respectivas categorizaciones establecidas por la UICN.
+Qualitative assessment
+SO4-2.T2: Interpretation of the indicator
+Drivers: Direct Drivers: Indirect Which levers are being used to reverse Responses that led
+Change in
+(Choose one or (Choose one or negative trends and enable to positive RLI Comments
+the indicator
+more items) more items) transformative change? trends
+General comments
+32 / 88
+
+--- Page 33 ---
+SO-4: To generate global environmental benefits through effective implementation of the United Nations Convention to Combat
+Desertification.
+SO4-3 Proportion of important sites for terrestrial and freshwater biodiversity that are
+covered by protected areas, by ecosystem type
+SO4-3.T1: National estimates of the average proportion of Terrestrial KBAs covered by protected areas (%)
+Protected Areas Lower Upper
+Year Comments
+Coverage(%) Bound Bound
+Los datos del indice superior e inferior son los mismos a los de del porcentaje de la
+2000 87.45 87 .45 87 .45 cobertura de las areas protegidas debido a que la misma no ha variado desde el
+2000 hasta la actualidad.
+2001 87.45 87 .45 87 .45
+2002 87.45 87 .45 87 .45
+2003 87.45 87 .45 87 .45
+2004 87.45 87 .45 87 .45
+2005 87.45 87 .45 87 .45
+2006 87.45 87 .45 87 .45
+2007 87.45 87 .45 87 .45
+2008 87.45 87 .45 87 .45
+2009 87.45 87 .45 87 .45
+2010 87.45 87 .45 87 .45
+2011 87.45 87 .45 87 .45
+2012 87.45 87 .45 87 .45
+La cobertura de áreas protegidas de zonas importantes para la biodiversidad viene
+2013 87.45 87 .45 87 .45 recogida en el Atlas Forestal Interactivo de la República de Guinea Ecuatorial, 2013.
+Publicado por el MABGMA &WRI
+2014 87.45 87 .45 87 .45
+Los datos del índice superior e inferior son los mismos a los de del porcentaje de la
+2015 87.45 87 .45 87 .45 cobertura de las areas protegidas debido a que la misma no ha variado desde el
+2000 hasta la actualidad.
+2016 87.45 87 .45 87 .45
+2017 87.45 87 .45 87 .45
+2018 87.45 87 .45 87 .45
+2019 87.45 87 .45 87 .45
+2020 87.45 87 .45 87 .45
+Qualitative assessment
+SO4-3.T2: Interpretation of the indicator
+Qualitative Assessment Comment
+General comments
+33 / 88
+
+--- Page 34 ---
+SO-4: To generate global environmental benefits through effective implementation of the United Nations Convention to Combat
+Desertification.
+SO4 Voluntary Targets
+SO4-VT.T1
+Target Year Level of application Status of target achievement Comments
+Complementary information
+34 / 88
+
+--- Page 35 ---
+SO-5: To mobilize substantial and additional financial and non-financial resources to support the implementation of the
+Convention by building effective partnerships at global and national level
+SO5-1 Bilateral and multilateral public resources
+Tier 1: Please provide information on the international public resources provided and received for the
+implementation of the Convention, including information on trends.
+Trends in international bilateral and multilateral public resources provided
+Up ↑
+Stable ←→
+Down ↓
+Unknown ∾
+Trends in international bilateral and multilateral public resources received
+Up ↑
+Stable ←→
+Down ↓
+Unknown ∾
+Tier 2: Table 1 Financial resources provided and received
+Total Amount USD
+Provided / Received Year Committed Disbursed / Received
+Committed Disbursed
+Provided 2016
+0 0
+Committed Disbursed
+Provided 2017
+0 0
+Committed Disbursed
+Provided 2018
+0 0
+Committed Disbursed
+Provided 2019
+0 0
+Committed Received
+Received 2016
+0 0
+Committed Received
+Received 2017
+289 665 .06 289 665 .06
+Committed Received
+Received 2018
+0 0
+Committed Received
+Received 2019
+1 000 000 .00 0 .00
+Total resources provided: 0 0
+Total resources received: 1 289 665 .06 289 665 .06
+Documentation box
+Explanation
+Year
+Recipient / Provider
+Title of project, programme, activity or other
+Total Amount USD
+Sector
+Capacity Building
+Technology Transfer
+Gender Equality
+35 / 88
+
+--- Page 36 ---
+SO-5: To mobilize substantial and additional financial and non-financial resources to support the implementation of the
+Convention by building effective partnerships at global and national level
+Explanation
+Channel
+Type of flow
+Financial Instrument
+Type of support
+Amount mobilised through public interventions
+Additional Information
+General comments
+36 / 88
+
+--- Page 37 ---
+SO-5: To mobilize substantial and additional financial and non-financial resources to support the implementation of the
+Convention by building effective partnerships at global and national level
+SO5-2 Domestic public resources
+Tier 1: Please provide information on the domestic public expenditures, including subsidies, and revenues,
+including taxes, directly and indirectly related to the implementation of the Convention, including information
+on trends.
+Trends in domestic public expenditures and national level financing for activities relevant to the implementation of the Convention
+Up ↑
+Stable ←→
+Down ↓
+Unknown ∾
+Trends in domestic public revenues from activities related to the implementation of the Convention
+Up ↑
+Stable ←→
+Down ↓
+Unknown ∾
+La Tesorería General es responsable por la liberación de los fondos, mediante solicitudes por parte de los departamentos ministeriales. Es
+un proceso reciente y que no ha respondido de forma a promover la eficiencia de las políticas públicas. Esto ha provocado que, hasta la
+fecha, los proyectos ambientales están financiados en su mayor parte por organismos internacionales, con bajos desembolsos de la
+contrapartida gubernamental.
+Tier 2: Table 2 Domestic public resources
+Year Amounts Additional Information
+Government expenditures
+Directly related to combat DLDD
+Indirectly related to combat DLDD
+Subsidies
+Subsidies related to combat DLDD
+Total expenditures / total per year
+Additional
+Year Amounts
+Information
+Government revenues
+Environmental taxes for the conservation of land resources and taxes related to combat
+DLDD
+Total revenues / total per year
+Documentation box
+Explanation
+Government expenditures
+Subsidies
+Government revenues
+Domestic resources directly or indirectly related to combat DLDD
+Has your country set a target for increasing and mobilizing domestic resources for the implementation of the Convention?
+Yes
+No
+General comments
+37 / 88
+
+--- Page 38 ---
+SO-5: To mobilize substantial and additional financial and non-financial resources to support the implementation of the
+Convention by building effective partnerships at global and national level
+SO5-3 International and domestic private resources
+Tier 1: Please provide information on the international and domestic private resources mobilized by the
+private sector of your country for the implementation of the Convention, including information on trends.
+Trends in international private resources
+Up ↑
+Stable ←→
+Down ↓
+Unknown ∾
+Trends in domestic private resources
+Up ↑
+Stable ←→
+Down ↓
+Unknown ∾
+Tier 2: Table 3 International and domestic private resources
+Title of project, programme, activity Total Amount Financial Type of Additional
+Year Recipient
+or other USD Instrument institution Information
+Total 0
+Please provide methodological information relevant to data presented in table 3
+Has your country taken measures to encourage the private sector as well as non-governmental organizations,
+foundations and academia to provide international and domestic resources for the implementation of the
+Convention?
+Sí.
+General comments
+Tras la celebración de la Tercera Conferencia Económica Nacional en 2019, las recomendaciones emanadas de dicho encuentro, tienen la
+sustancial participación del Sector Privado nacional e internacional.
+38 / 88
+
+--- Page 39 ---
+SO-5: To mobilize substantial and additional financial and non-financial resources to support the implementation of the Convention by building effective
+partnerships at global and national level
+SO5-4 Technology transfer
+Tier 1: Please provide information relevant to the resources provided, received for the transfer of technology for the
+implementation of the Convention, including information on trends.
+Trends in international bilateral and multilateral public resources provided
+Up ↑
+Stable ←→
+Down ↓
+Unknown ∾
+Trends in international bilateral and multilateral public resources received
+Up ↑
+Stable ←→
+Down ↓
+Unknown ∾
+Tier 2: Table 4 Resources provided and received for technology transfer measures or activities
+Title of Status Use,
+Timeframe
+project, Description Activities of impact
+Provided Recipient Type of of Additional
+Year programme, Amount and Sector undertaken measure and
+Received Provider technology measure Information
+activity or objectives by or estimated
+or activity
+other activity results
+Total provided: 0 Total received: 0
+Please provide methodological information relevant to data presented in table 4
+Include information on underlying assumptions, definitions and methodologies used to identify and report on technology transfer
+support provided and/or received and/or required. Please include links to relevant documentation.
+Please provide information on the types of new or current technologies required by your country to address desertification, land
+degradation and drought (DLDD), and the challenges encountered in acquiring or developing such technologies.
+Se precisa de formación especifica de los miembros del equipo de trabajo en la elaboración del informe país PRAIS, en el sentido del uso e interpretación de las
+herramientas y datos para que se pueda llevar a cabo la elaboración eficaz del presente informe. Las tecnologías que se considere necesarias para el correcto
+funcionamiento de acceso a las herramientas, portales y demás espacios, será suficiente siempre y cuando todos y todas puedan hacer buen uso de las mismas.
+General comments
+39 / 88
+
+--- Page 40 ---
+SO-5: To mobilize substantial and additional financial and non-financial resources to support the implementation of the
+Convention by building effective partnerships at global and national level
+SO5-5 Future support for activities related to the implementation of the Convention
+SO5-5.1: Planned provision and mobilization of domestic public and private resources
+Please provide information relevant to the planned provision and mobilization of domestic resources for the
+implementation of the Convention, including information relevant to indicator SO5-2, as well as information
+on projected levels of public financial resources, target sectors and planned domestic policies.
+SO5-5.2: Planned provision and mobilization of international public and private resources
+Please provide information relevant to the planned provision and mobilization of international resources for
+the implementation of the Convention, including information on projected levels of public financial resources
+and support to capacity building and transfer of technology, target regions or countries, and planned
+programmes, policies and priorities.
+SO5-5.3: Resources needed
+Please provide information relevant to the financial resources needed for the implementation of the
+Convention, including on the projects and regions which needs most support and on which your country has
+focused to the greatest extent.
+General comments
+40 / 88
+
+--- Page 41 ---
+IF: Implementation Framework
+Financial and Non-Financial Sources
+Increasing the mobilization of resources:
+Would you like to share an experience on how your country has increased the mobilization of resources within the reporting
+period?
+Yes
+No
+Using Land Degradation Neutrality as a framework to increase investment:
+From your perspective, would you consider that you have taken advantage of the LDN concept to enhance the coherence,
+effectiveness and multiple benefits of investments?
+Yes
+No
+Improving existing and/or innovative financial processes and institutions
+From your perspective, do you consider that your country has improved the use of existing and/or innovative financial
+processes and institutions?
+Yes
+No
+41 / 88
+
+--- Page 42 ---
+IF: Implementation Framework
+Policy and Planning
+Action Programmes:
+Has your country developed or helped develop, implement, revise or regularly monitor your national action programme?
+Yes
+No
+Policies and enabling environment:
+During the reporting period, has your country established or helped establish policies and enabling environments to promote
+and/or implement solutions to combat desertification/land degradation and mitigate the effects of drought?
+Yes
+No
+These policies and enabling environments were aimed at (check all that apply):
+☒ Promoting solutions to combat desertification, land degradation and drought (DLDD)
+☒ Implementing solutions to combat DLDD
+☐ Protecting women’s land rights
+☒ Enhancing women’s access to natural, productive and/or financial resources
+☐ Other (please specify)
+How best to describe these experiences (check all that apply):
+☒ Prevention of the effects of DLDD
+☐ Relief efforts after DLDD has caused environmental and or socioeconomic stress on ecosystems and or populations
+☐ Recovery efforts after DLDD has caused environmental and or socioeconomic stress on ecosystems and or populations
+☒ Engagement of women in decision - making
+☐ Implementation and promotion of women's land rights and access to land resources
+☐ Building women's capacity for effective UNCCD implementation
+☐ Other (please specify)
+Use the space below to share more details about your country/sub-region/region/institution's experience.
+Do you consider these policies to be successful in promoting or implementing solutions to address DLDD, including prevention,
+relief and recovery, and what do you consider the main factors of success or lack thereof?
+What were the challenges faced, if any?
+What would you consider to be the lessons learned?
+Has your country supported other countries in establishing policies and enabling environments to promote and implement
+solutions to combat desertification/land degradation and mitigate the effects of drought, including prevention, relief and
+recovery?
+Yes
+42 / 88
+
+--- Page 43 ---
+IF: Implementation Framework
+No
+Synergies:
+From your perspective, has your country leveraged synergies and integrated DLDD into national plans related to other MEAs,
+particularly the other Rio Conventions and other international commitments?
+Yes
+No
+Your country's actions were aimed at (please check all that apply):
+☐ Leveraging DLDD with other national plans related to the other Rio Conventions
+☒ Integrating DLDD into national plans
+☒ Leveraging synergies with other strategies to combat DLDD
+☐ Integrating DLDD into other international commitments
+☐ Other (please specify)
+Use the space below to describe your country's experience.
+Do you consider this experience a success and, if so, what do you consider the reasons behind this success (or lack thereof)?
+Hasta ahora no se ha iniciado con la ejecución del Plan Nacional de Desarrollo, pero todos estos aspectos han sido tenidos en cuenta.
+What were the challenges faced, if any?
+What would you consider to be the lessons learned?
+Mainstreaming desertification, land degradation and drought:
+From your perspective, did your country take specific actions to mainstream, DLDD in economic, environmental and social
+policies, with a view to increasing the impact and effectiveness of the implementation of the Convention?
+Yes
+No
+If so, DLDD was mainstreamed into (check all that apply):
+☒ Economic policies
+☒ Environmental policies
+☒ Social policies
+☐ Land policies
+☒ Gender policies
+☐ Agricultural policies
+☐ Other (please specify)
+Use the space below to describe your country's experience.
+Las propuestas siguen en su fase embrionaria, al estar incluidas dentro de la Estrategia Nacional de Desarrollo del país al 2035
+43 / 88
+
+--- Page 44 ---
+IF: Implementation Framework
+Do you consider this experience a success and, if so, what do you consider the reasons behind this success (or lack thereof)?
+Las propuestas siguen en su fase embrionaria, al estar incluidas dentro de la Estrategia Nacional de Desarrollo del país al 2035
+What were the challenges faced, if any?
+N/D
+What would you consider to be the lessons learned?
+Drought-related policies:
+Has your country established or is your country establishing national policies, measures and governance for drought
+preparedness and management?
+Yes
+No
+Use the space below to describe your country's experience.
+Las propuestas siguen en su fase embrionaria, al estar incluidas dentro de la Estrategia Nacional de Desarrollo del país al 2035
+Do you consider this experience a success and, if so, what do you consider the reasons behind this success (or lack thereof)?
+What were the challenges faced, if any?
+What would you consider to be the lessons learned?
+Has your country supported other countries in establishing policies, measures and governance for drought preparedness and
+management, in accordance with the mandate of the Convention?
+Yes
+No
+44 / 88
+
+--- Page 45 ---
+IF: Implementation Framework
+Action on the Ground
+Sustainable land management practices:
+Has your country implemented or is your country implementing sustainable land management (SLM) practices to address
+DLDD?
+Yes
+No
+What types of SLM practices are being implemented?
+☒ Agroforestry
+☐ Area closure (stop use, support restoration)
+☐ Beekeeping, fishfarming, etc
+☐ Cross-slope measure
+☐ Ecosystem-based disaster risk reduction
+☐ Energy efficiency
+☐ Forest plantation management
+☒ Home gardens
+☐ Improved ground/vegetation cover
+☐ Improved plant varieties animal breeds
+☐ Integrated crop-livestock management
+☐ Integrated pest and disease management (incl. organic agriculture)
+☐ Integrated soil fertility management
+☐ Irrigation management (incl. water supply, drainage)
+☐ Minimal soil disturbance
+☐ Natural and semi-natural forest management
+☐ Pastoralism and grazing land management
+☐ Post-harvest measures
+☒ Rotational system (crop rotation, fallows, shifting, cultivation)
+☐ Surface water management (spring, river, lakes, sea)
+☐ Water diversion and drainage
+☐ Water harvesting
+☒ Wetland protection/management
+☐ Windbreak/Shelterbelt
+☒ Waste management / Waste water management
+☐ Other (please specify)
+Use the space below to share more details about your country's experience:
+Las propuestas siguen en su fase embrionaria, al estar incluidas dentro de la Estrategia Nacional de Desarrollo del país al 2035.
+Would you consider the implemented practices successful and what do you consider the main factors of success?
+Se está trabajando en un proyecto con la FAO en Guinea Ecuatorial sobre el "Apoyo a la Formulación del Plan Nacional de Ordenamiento
+Territorial", pero con visión de implementar un piloto en la localidad de Niefang.
+What were the challenges faced, if any?
+En la primera sesión de campo que se ha desarrollado, se han constatado dificultades como: Disponibilidad de bajos recursos económicos,
+ausencia de datos espaciales con los que contrastar la realidad de las actividades sobre uso de tierras y sus cambios en los últimos años,
+así como la necesidad de apoyo en la capacitación del personal del equipo del proyecto.
+45 / 88
+
+--- Page 46 ---
+IF: Implementation Framework
+What do you consider to be the lessons learned?
+How did you engage women and youth in these activities?
+La FAO con el gobierno están trabajando la fase inicial de una iniciativa en la parte continental del país, y por general trabaja con las
+mujeres, jóvenes y agrupaciones.
+Has your country supported other countries in the implementation of SLM practices?
+Yes
+No
+Restoration and Rehabilitation:
+Has your country implemented or is your country implementing restoration and rehabilitation practices in order to assist with
+the recovery of ecosystem functions and services?
+Yes
+No
+Drought risk management and early warning systems:
+Is your country developing a drought risk management plan, monitoring or early warning systems and safety net programmes to
+address DLDD?
+Yes
+No
+If so, DLDD was mainstreamed into (check all that apply):
+☐ A drought risk management plan
+☒ Monitoring and early warning systems
+☐ Safety net programmes
+Use the space below to describe your country's experience.
+Se está trabajando en un proyecto con la FAO en Guinea Ecuatorial sobre el "Apoyo a la Formulación del Plan Nacional de Ordenamiento
+Territorial", pero con visión de implementar un piloto en la localidad de Niefang.
+Do you consider this experience a success and, if so, what do you consider the reasons behind this success (or lack thereof)?
+If you have or are developing a drought risk management plan as part of the Drought Initiative, please share here your
+experience on activities undertaken?
+Las propuestas siguen en su fase embrionaria, al estar incluidas dentro de la Estrategia Nacional de Desarrollo del país al 2035.
+What were the challenges faced, if any?
+What would you consider to be the lessons learned?
+46 / 88
+
+--- Page 47 ---
+IF: Implementation Framework
+Has your country supported other countries in developing drought risk management, monitoring and early warning systems and
+safety net programmes to address DLDD?
+Yes
+No
+Alternative livelihoods:
+Does your country promote alternative livelihoods practice in the context of DLDD?
+Yes
+No
+Could you list some practices implemented at country level to promote alternative livelihoods?
+☒ Crop diversification
+☒ Agroforestry practices
+☐ Rotational grazing
+☐ Rain-fed and irrigated agricultural systems
+☒ Small vegetable gardens
+☒ Production of artisanal goods
+☐ Renewable energy generation
+☐ Eco-tourism
+☒ Production of medicinal and aromatic plants
+☐ Aquaculture using recycled wastewater
+☐ Other (please specify)
+Use the space below to describe your country's experience.
+Do you consider this experience a success and, if so, what do you consider the reasons behind this success (or lack thereof)?
+What were the challenges faced, if any?
+What would you consider to be the lessons learned?
+Las acciones siguen en fase embrionaria y las demás están insertadas dentro de la vida cotidiana de las mujeres y hombres que dedican
+sus jornadas laborales a trabajar la tierra para producir alimentos.
+Do you consider your country to be taking special measures to engage women and youth in promoting alternative livelihoods?
+Yes
+No
+Please elaborate
+Con la existencia de un Ministerio de Bosques y Medio Ambiente, una Facultad de Medio Ambiente en la Universidad Nacional de Guinea
+Ecuatorial, así como la existencia de un programa de colaboración entre el Instituto Nacional de Desarrollo Forestal y Gestión del Sistema
+Nacional de Áreas Protegidas y el Programa de Protección de la Biodiversidad de Bioko, y otras Organizaciones y Asociaciones que
+trabajan en el sector; se centra las actividades de los pobladores que habitan en los linderos de las Áreas Protegidas proveyéndoles de
+actividades sostenibles que les permitan desarrollar su vida sin explotar de forma irracional los recursos naturales y el subsuelo.
+47 / 88
+
+--- Page 48 ---
+IF: Implementation Framework
+Establishing knowledge sharing systems:
+Has your country established systems for sharing information and knowledge and facilitating networking on best practices and
+approaches to drought management?
+Yes
+No
+Do you consider that your country has implemented specific actions that promote women’s access to knowledge and
+technology?
+Yes
+No
+48 / 88
+
+--- Page 49 ---
+Other files for Reporting
+Equatorial Guinea - SO5-1 recipient Download 9.6 KB
+49 / 88
+
+--- Page 50 ---
+Equatorial Guinea – SO1-1.M1
+Land cover in the initial year of the baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• European Space Agency Climate Change Initiative Land Cover (ESA CCI-LC) product, 1992-2019. URL: https://www.esa-landcover-cci.org/
+50 / 88
+
+--- Page 51 ---
+Equatorial Guinea – SO1-1.M2
+Land cover in the baseline year
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• European Space Agency Climate Change Initiative Land Cover (ESA CCI-LC) product, 1992-2019. URL: https://www.esa-landcover-cci.org/
+51 / 88
+
+--- Page 52 ---
+Equatorial Guinea – SO1-1.M3
+Land cover in the latest reporting year
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• European Space Agency Climate Change Initiative Land Cover (ESA CCI-LC) product, 1992-2019. URL: https://www.esa-landcover-cci.org/
+52 / 88
+
+--- Page 53 ---
+Equatorial Guinea – SO1-1.M4
+Land cover change in the baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• European Space Agency Climate Change Initiative Land Cover (ESA CCI-LC) product, 1992-2019. URL: https://www.esa-landcover-cci.org/
+53 / 88
+
+--- Page 54 ---
+Equatorial Guinea – SO1-1.M5
+Land cover change in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• European Space Agency Climate Change Initiative Land Cover (ESA CCI-LC) product, 1992-2019. URL: https://www.esa-landcover-cci.org/
+54 / 88
+
+--- Page 55 ---
+Equatorial Guinea – SO1-1.M6
+Land cover degradation in the baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• European Space Agency Climate Change Initiative Land Cover (ESA CCI-LC) product, 1992-2019. URL: https://www.esa-landcover-cci.org/
+55 / 88
+
+--- Page 56 ---
+Equatorial Guinea – SO1-1.M7
+Land cover degradation in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• European Space Agency Climate Change Initiative Land Cover (ESA CCI-LC) product, 1992-2019. URL: https://www.esa-landcover-cci.org/
+56 / 88
+
+--- Page 57 ---
+Equatorial Guinea – SO1-2.M1
+Land productivity dynamics in the baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• EC-JRC, 2021, based on Xavier Rotllan-Puig, Eva Ivits, Michael Cherlet, LPDynR: A new tool to calculate the land productivity dynamics indicator, Ecological Indicators, Volume 133, 2021, 108386, ISSN
+1470-160X. URL: https://doi.org/10.1016/j.ecolind.2021.108386
+57 / 88
+
+--- Page 58 ---
+Equatorial Guinea – SO1-2.M2
+Land productivity dynamics in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• EC-JRC, 2021, based on Xavier Rotllan-Puig, Eva Ivits, Michael Cherlet, LPDynR: A new tool to calculate the land productivity dynamics indicator, Ecological Indicators, Volume 133, 2021, 108386, ISSN
+1470-160X. URL: https://doi.org/10.1016/j.ecolind.2021.108386
+58 / 88
+
+--- Page 59 ---
+Equatorial Guinea – SO1-2.M3
+Land productivity degradation in the baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• EC-JRC, 2021, based on Xavier Rotllan-Puig, Eva Ivits, Michael Cherlet, LPDynR: A new tool to calculate the land productivity dynamics indicator, Ecological Indicators, Volume 133, 2021, 108386, ISSN
+1470-160X. URL: https://doi.org/10.1016/j.ecolind.2021.108386
+59 / 88
+
+--- Page 60 ---
+Equatorial Guinea – SO1-2.M4
+Land productivity degradation in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• EC-JRC, 2021, based on Xavier Rotllan-Puig, Eva Ivits, Michael Cherlet, LPDynR: A new tool to calculate the land productivity dynamics indicator, Ecological Indicators, Volume 133, 2021, 108386, ISSN
+1470-160X. URL: https://doi.org/10.1016/j.ecolind.2021.108386
+60 / 88
+
+--- Page 61 ---
+Equatorial Guinea – SO1-3.M1
+Soil organic carbon stock in the initial year of the baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• International Soil Reference and Information Centre (ISRIC) SoilGrids250m dataset. URL: https://www.isric.org/explore/soilgrids
+61 / 88
+
+--- Page 62 ---
+Equatorial Guinea – SO1-3.M2
+Soil organic carbon stock in the baseline year
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• International Soil Reference and Information Centre (ISRIC) SoilGrids250m dataset. URL: https://www.isric.org/explore/soilgrids
+62 / 88
+
+--- Page 63 ---
+Equatorial Guinea – SO1-3.M3
+Soil organic carbon stock in the latest reporting year
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• International Soil Reference and Information Centre (ISRIC) SoilGrids250m dataset. URL: https://www.isric.org/explore/soilgrids
+63 / 88
+
+--- Page 64 ---
+Equatorial Guinea – SO1-3.M4
+Change in soil organic carbon stock in the baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• International Soil Reference and Information Centre (ISRIC) SoilGrids250m dataset. URL: https://www.isric.org/explore/soilgrids
+64 / 88
+
+--- Page 65 ---
+Equatorial Guinea – SO1-3.M5
+Change in soil organic carbon stock in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• International Soil Reference and Information Centre (ISRIC) SoilGrids250m dataset. URL: https://www.isric.org/explore/soilgrids
+65 / 88
+
+--- Page 66 ---
+Equatorial Guinea – SO1-3.M6
+Soil organic carbon degradation in the baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• International Soil Reference and Information Centre (ISRIC) SoilGrids250m dataset. URL: https://www.isric.org/explore/soilgrids
+66 / 88
+
+--- Page 67 ---
+Equatorial Guinea – SO1-3.M7
+Soil organic carbon degradation in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• International Soil Reference and Information Centre (ISRIC) SoilGrids250m dataset. URL: https://www.isric.org/explore/soilgrids
+67 / 88
+
+--- Page 68 ---
+Equatorial Guinea – SO1-4.M1
+Proportion of land that is degraded over total land area (SDG Indicator 15.3.1) in the baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Derived based on the methodology in the Good Practice Guidance Version 2 for Sustainable Development Goal (SDG) indicator 15.3.1 - Proportion of land that is degraded over total land area. URL:
+https://www.unccd.int/publications/good-practice-guidance-sdg-indicator-1531-proportion-land-degraded-over-total-land
+68 / 88
+
+--- Page 69 ---
+Equatorial Guinea – SO1-4.M2
+Proportion of land that is degraded over total land area (SDG Indicator 15.3.1) in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Derived based on the methodology in the Good Practice Guidance Version 2 for Sustainable Development Goal (SDG) indicator 15.3.1 - Proportion of land that is degraded over total land area. URL:
+https://www.unccd.int/publications/good-practice-guidance-sdg-indicator-1531-proportion-land-degraded-over-total-land
+69 / 88
+
+--- Page 70 ---
+Equatorial Guinea – SO1-4.M3
+Progress towards Land Degradation Neutrality (LDN) in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Derived based on the methodology in the Good Practice Guidance Version 2 for Sustainable Development Goal (SDG) indicator 15.3.1 - Proportion of land that is degraded over total land area. URL:
+https://www.unccd.int/publications/good-practice-guidance-sdg-indicator-1531-proportion-land-degraded-over-total-land
+70 / 88
+
+--- Page 71 ---
+Equatorial Guinea – SO2-3.M1
+Total Population exposed to land degradation (baseline)
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• WorldPop project URL: https://www.worldpop.org
+71 / 88
+
+--- Page 72 ---
+Equatorial Guinea – SO2-3.M2
+Female Population exposed to land degradation (baseline)
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• WorldPop project URL: https://www.worldpop.org
+72 / 88
+
+--- Page 73 ---
+Equatorial Guinea – SO2-3.M3
+Male Population exposed to land degradation (baseline)
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• WorldPop project URL: https://www.worldpop.org
+73 / 88
+
+--- Page 74 ---
+Equatorial Guinea – SO2-3.M4
+Total Population exposed to land degradation (reporting)
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• WorldPop project URL: https://www.worldpop.org
+74 / 88
+
+--- Page 75 ---
+Equatorial Guinea – SO2-3.M5
+Female Population exposed to land degradation (reporting)
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• WorldPop project URL: https://www.worldpop.org
+75 / 88
+
+--- Page 76 ---
+Equatorial Guinea – SO2-3.M6
+Male Population exposed to land degradation (reporting)
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• WorldPop project URL: https://www.worldpop.org
+76 / 88
+
+--- Page 77 ---
+Equatorial Guinea – SO3-1.M1
+Drought hazard in first epoch of baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+77 / 88
+
+--- Page 78 ---
+Equatorial Guinea – SO3-1.M2
+Drought hazard in second epoch of baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+78 / 88
+
+--- Page 79 ---
+Equatorial Guinea – SO3-1.M3
+Drought hazard in third epoch of baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+79 / 88
+
+--- Page 80 ---
+Equatorial Guinea – SO3-1.M4
+Drought hazard in fourth epoch of baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+80 / 88
+
+--- Page 81 ---
+Equatorial Guinea – SO3-1.M5
+Drought hazard in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+81 / 88
+
+--- Page 82 ---
+Equatorial Guinea – SO3-2.M1
+Drought exposure in first epoch of baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+82 / 88
+
+--- Page 83 ---
+Equatorial Guinea – SO3-2.M2
+Drought exposure in second epoch of baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+83 / 88
+
+--- Page 84 ---
+Equatorial Guinea – SO3-2.M3
+Drought exposure in third epoch of baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+84 / 88
+
+--- Page 85 ---
+Equatorial Guinea – SO3-2.M4
+Drought exposure in fourth epoch of baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+85 / 88
+
+--- Page 86 ---
+Equatorial Guinea – SO3-2.M5
+Drought exposure in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+86 / 88
+
+--- Page 87 ---
+Equatorial Guinea – SO3-2.M6
+Female drought exposure in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+87 / 88
+
+--- Page 88 ---
+Equatorial Guinea – SO3-2.M7
+Male drought exposure in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+88 / 88

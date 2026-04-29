@@ -1,0 +1,2985 @@
+--- Page 1 ---
+United Nations Convention to Combat Desertification
+Performance review and assessment of implementation system
+Seventh reporting process
+Report from
+Libya
+This report has been submitted by the government of Libya to the United Nations Convention to Combat Desertification
+(UNCCD).
+The designations employed and the presentation of material in this report do not imply the expression of any opinion
+whatsoever on the part of the UNCCD concerning the legal status of any country, territory, city or area or of its authorities, or
+concerning the delimitation of its frontiers or boundaries.
+28 February 2023
+
+--- Page 2 ---
+Contents
+1. SO: Strategic objectives
+A. SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote
+sustainable land management and contribute to land degradation neutrality.
+SO1-1 Trends in land cover
+SO1-2 Trends in land productivity or functioning of the land
+SO1-3 Trends in carbon stocks above and below ground
+SO1-4 Proportion of degraded land over the total land area
+SO1 Voluntary Targets
+B. SO-2: To improve the living conditions of affected populations.
+SO2-1 Trends in population living below the relative poverty line and/or income inequality in affected
+areas
+SO2-2 Trends in access to safe drinking water in affected areas
+SO2-3 Trends in the proportion of population exposed to land degradation disaggregated by sex
+SO2 Voluntary Targets
+C. SO-3: To mitigate, adapt to, and manage the effects of drought in order to enhance resilience of vulnerable
+populations and ecosystems.
+SO3-1 Trends in the proportion of land under drought over the total land area
+SO3-2 Trends in the proportion of the population exposed to drought
+SO3-3 Trends in the degree of drought vulnerability
+SO3 Voluntary Targets
+D. SO-4: To generate global environmental benefits through effective implementation of the United Nations
+Convention to Combat Desertification.
+SO4-1 Trends in carbon stocks above and below ground
+SO4-2 Trends in abundance and distribution of selected species
+SO4-3 Proportion of important sites for terrestrial and freshwater biodiversity that are covered by
+protected areas, by ecosystem type
+SO4 Voluntary Targets
+E. SO-5: To mobilize substantial and additional financial and non-financial resources to support the
+implementation of the Convention by building effective partnerships at global and national level
+SO5-1 Bilateral and multilateral public resources
+SO5-2 Domestic public resources
+SO5-3 International and domestic private resources
+SO5-4 Technology transfer
+SO5-5 Future support for activities related to the implementation of the Convention
+2. IF: Implementation Framework
+A. Financial and Non-Financial Sources
+B. Policy and Planning
+C. Action on the Ground
+3. Other files for Reporting
+4. Templated Maps
+A. Land cover in the initial year of the baseline period
+B. Land cover in the baseline year
+C. Land cover in the latest reporting year
+D. Land cover change in the baseline period
+E. Land cover change in the reporting period
+F. Land cover degradation in the baseline period
+G. Land cover degradation in the reporting period
+H. Land productivity dynamics in the baseline period
+I. Land productivity dynamics in the reporting period
+J. Land productivity degradation in the baseline period
+K. Land productivity degradation in the reporting period
+L. Soil organic carbon stock in the initial year of the baseline period
+M. Soil organic carbon stock in the baseline year
+N. Soil organic carbon stock in the latest reporting year
+O. Change in soil organic carbon stock in the baseline period
+2 / 96
+
+--- Page 3 ---
+P. Change in soil organic carbon stock in the reporting period
+Q. Soil organic carbon degradation in the baseline period
+R. Soil organic carbon degradation in the reporting period
+S. Proportion of land that is degraded over total land area (SDG Indicator 15.3.1) in the baseline period
+T. Proportion of land that is degraded over total land area (SDG Indicator 15.3.1) in the reporting period
+U. Progress towards Land Degradation Neutrality (LDN) in the reporting period
+V. Land Degradation Hotspots
+W. Total Population exposed to land degradation (baseline)
+X. Female Population exposed to land degradation (baseline)
+Y. Male Population exposed to land degradation (baseline)
+Z. Total Population exposed to land degradation (reporting)
+AA. Female Population exposed to land degradation (reporting)
+AB. Male Population exposed to land degradation (reporting)
+AC. Drought hazard in first epoch of baseline period
+AD. Drought hazard in second epoch of baseline period
+AE. Drought hazard in third epoch of baseline period
+AF. Drought hazard in fourth epoch of baseline period
+AG. Drought hazard in the reporting period
+AH. Drought exposure in first epoch of baseline period
+AI. Drought exposure in second epoch of baseline period
+AJ. Drought exposure in third epoch of baseline period
+AK. Drought exposure in fourth epoch of baseline period
+AL. Drought exposure in the reporting period
+AM. Female drought exposure in the reporting period
+AN. Male drought exposure in the reporting period
+3 / 96
+
+--- Page 4 ---
+4 / 96
+
+--- Page 5 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+SO1-1 Trends in land cover
+Land area
+SO1-1.T1: National estimates of the total land area, the area covered by water bodies and total country area
+Year Total land area (km²) Water bodies (km²) Total country area (km²) Comments
+2 001 1 622 063 1 584 1 623 647
+2 005 1 622 064 1 583 1 623 647
+2 010 1 622 064 1 583 1 623 647
+2 015 1 622 065 1 582 1 623 647
+2 019 1 622 065 1 582 1 623 647 ﺔﻴﺟﺎﺘﻧﻻﺍ ﻝﻭﺪﺟ ﻲﻓ ﻲﺿﺍﺭﻻﺍ ﺔﺣﺎﺴﻤﺑ ﺭﺎﺒﺘﻋﻻﺍ ﻦﻴﻌﺑ ﺬﺧﻼﻟ ﺔﺣﺎﺴﻤﻟﺍ ﺮﻴﻐﺗ ﻢﺗ
+Land cover legend and transition matrix
+SO1-1.T2: Key Degradation Processes
+Degradation Process Starting Land Cover Ending Land Cover
+Urban Expansion Tree-covered areas Artificial surfaces
+Deforestation Tree-covered areas Grasslands
+Vegetation Loss Grasslands Other Lands
+Other
+Wetlands Other Lands
+ﺔﻴﺧﺎﻨﻤﻟﺍ ﺕﺍﺮﻴﻐﺘﻟﺍﻭ ﻑﺎﻔﺠﻟﺍ
+Are the seven UNCCD land cover classes sufficient to monitor the key degradation processes in your country?
+Yes
+No
+SO1-1.T4: UNCCD land cover legend transition matrix
+Original/ Final Tree-covered areas Grasslands Croplands Wetlands Artificial surfaces Other Lands Water bodies
+Tree-covered areas - - - + + - 0
+Grasslands - 0 + - - - 0
+Croplands - - 0 - - - 0
+Wetlands - - - 0 - - 0
+Artificial surfaces + + + + 0 + 0
+Other Lands + + + + - 0 0
+Water bodies 0 0 0 0 0 0 0
+Land cover
+SO1-1.T5: National estimates of land cover (km²) for the baseline and reporting period
+Other
+Tree-covered Grasslands Croplands Wetlands Artificial Water No data
+Lands
+areas (km²) (km²) (km²) (km²) surfaces (km²) bodies (km²) (km²)
+(km²)
+2000 0 0 0 0 0 0 0
+2001 1 301 40 168 21 798 227 667 1 557 902 1 585
+2002 1 301 40 579 21 764 227 715 1 557 478 1 585
+2003 1 301 40 581 21 753 227 753 1 557 448 1 585
+5 / 96
+
+--- Page 6 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Tree-covered Grasslands Croplands Wetlands Artificial Other Lands Water No data
+areas (km²) (km²) (km²) (km²) surfaces (km²) (km²) bodies (km²) (km²)
+2004 1 301 40 576 21 809 227 770 1 557 380 1 585
+2005 1 265 40 553 21 826 227 794 1 557 399 1 584
+2006 1 265 40 539 21 793 227 824 1 557 417 1 584
+2007 1 264 40 562 21 746 227 848 1 557 418 1 584
+2008 1 264 40 541 21 741 227 867 1 557 424 1 583
+2009 1 264 40 383 21 729 227 886 1 557 575 1 583
+2010 1 264 40 364 21 704 227 908 1 557 598 1 583
+2011 1 264 40 363 21 687 227 931 1 557 594 1 583
+2012 1 264 40 279 21 741 227 969 1 557 585 1 583
+2013 1 264 40 275 21 690 227 1 031 1 557 578 1 583
+2014 1 264 40 221 21 717 227 1 067 1 557 569 1 583
+2015 1 264 40 220 21 703 227 1 086 1 557 566 1 583
+2016 1 264 40 535 21 688 227 1 109 1 557 242 1 584
+2017 1 264 40 605 21 583 227 1 220 1 557 165 1 584
+2018 1 270 40 826 21 562 227 1 251 1 556 929 1 584
+2019 1 271 40 956 21 555 227 1 283 1 556 774 1 584
+2020 0 0 0 0 0 0 0
+Land cover change
+SO1-1.T6: National estimates of land cover change (km²) for the baseline period
+Artificial Other Water
+Tree-covered Grasslands Croplands Wetlands Total
+surfaces Lands bodies
+areas (km²) (km²) (km²) (km²) (km²)
+(km²) (km²) (km²)
+Tree-covered
+1 264 3 34 0 0 0 0 1 301
+areas (km²)
+Grasslands
+0 39 607 222 0 22 317 0 40 168
+(km²)
+Croplands (km²) 0 45 21 381 0 344 29 0 21 799
+Wetlands (km²) 0 0 0 227 0 0 0 227
+Artificial
+0 0 0 0 667 0 0 667
+surfaces (km²)
+Other Lands 1 557
+0 565 65 0 52 1 557 219 1
+(km²) 902
+Water bodies
+0 0 2 0 1 0 1 582 1 585
+(km²)
+Total 1 264 40 220 21 704 227 1 086 1 557 565 1 583
+SO1-1.T7: National estimates of land cover change (km²) for the reporting period
+Artificial Other Water
+Tree-covered Grasslands Croplands Wetlands Total land
+surfaces Lands bodies
+areas (km²) (km²) (km²) (km²) area (km²)
+(km²) (km²) (km²)
+Total 1 271 40 955 21 555 227 1 283 1 556 774 1 584
+6 / 96
+
+--- Page 7 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Artificial Other Water
+Tree-covered Grasslands Croplands Wetlands Total land
+surfaces Lands bodies
+areas (km²) (km²) (km²) (km²) area (km²)
+(km²) (km²) (km²)
+Tree-covered
+1 264 0 0 0 0 0 0 1 264
+areas (km²)
+Grasslands
+1 40 202 11 0 5 2 0 40 221
+(km²)
+Croplands
+6 4 21 534 0 158 0 0 21 702
+(km²)
+Wetlands (km²) 0 0 0 227 0 0 0 227
+Artificial
+0 0 0 0 1 086 0 0 1 086
+surfaces (km²)
+Other Lands
+0 749 10 0 34 1 556 772 1 1 557 566
+(km²)
+Water bodies
+0 0 0 0 0 0 1 583 1 583
+(km²)
+Total 1 271 40 955 21 555 227 1 283 1 556 774 1 584
+Land cover degradation
+SO1-1.T8: National estimates of land cover degradation (km²) in the baseline period
+Area (km²) Percent of total land area (%)
+Land area with degraded land cover 846 0 .1
+Land area with non-degraded land cover 1 622 800 99 .9
+Land area with no land cover data 0 0 .0
+SO1-1.T9: National estimates of land cover degradation (km²) in the reporting period
+Area (km²) Percent of total land area (%)
+Land area with improved land cover 777 0 .0
+Land area with stable land cover 1 622 668 99 .9
+Land area with degraded land cover 202 0 .0
+Land area with no land cover data 0 0 .0
+General comments
+ﺔﻴﻄﺒﻀﻟﺍ ﺕﺍءﺍﺮﺟﻻﺍ, ﻲﻋﻮﻟﺍ ﺓﺩﺎﻳﺯﻭ ﺞﻳﺮﺤﺘﻟﺍﻭ ﺮﻴﺠﺸﺘﻟﺍ ﺕﺎﻴﻠﻤﻋ ﻰﻟﺍ ﺔﺠﻴﺘﻧ ﺱﺎﺳﻻﺍ ﻂﺧ ﻦﻴﺑ ﺔﻧﺭﺎﻘﻤﻟﺎﺑ ﻲﺗﺎﺒﻨﻟﺍ ءﺎﻄﻐﻟﺍ ﻲﻓ ﻦﺴﺤﺗ ﻙﺎﻨﻫ %50 ﻲﻟﺍﻮﺣ ﻰﻟﺍ ﻍﻼﺑﻻﺍ ﺓﺮﺘﻓ ﻦﻋ ﻞﻴﺻﺎﺤﻤﻟﺍ ﻲﺿﺍﺭﻻﺍ ﺭﻮﻫﺪﺗ ﻞﻗ
+ﻲﺑﺎﺠﻳﺍ ﺮﺷﺆﻣ ﺮﺒﺘﻌﻳ ﺍﺬﻫﻭ ﻥﺎﻜﺴﻟﺍ ﻞﺒﻗ ﻦﻣ ﺮﺤﺼﺘﻟﺍ ﺮﻃﺎﺤﻤﺑ ﺔﻴﻋﺍﺭﺰﻟﺍ ﻲﺿﺍﺭﻻﺍ ﻰﻠﻋ ﻱﺪﻌﺘﻟﺍ ﻞﻴﻠﻘﺗ ﻰﻟﺍ ﺕﺩﺍ
+7 / 96
+
+--- Page 8 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+SO1-2 Trends in land productivity or functioning of the land
+Land productivity dynamics
+SO1-2.T1: National estimates of land productivity dynamics (in km²) within each land cover class for the
+baseline period
+Net land productivity dynamics (km²) for the baseline period
+Land cover class
+Declining (km²) Moderate Decline (km²) Stressed (km²) Stable (km²) Increasing (km²) No Data (km²)
+Tree-covered areas 48 136 0 717 363 0
+Grasslands 1 172 2 084 186 32 708 3 436 21
+Croplands 1 674 1 758 903 12 557 4 475 14
+Wetlands 2 0 2 219 4 1
+Artificial surfaces 197 56 74 239 96 4
+Other Lands 2 050 4 451 10 025 1 528 318 12 308 67
+Water bodies 33 13 52 79 17 1 387
+SO1-2.T2: National estimates of land productivity dynamics (in km²) within each land cover class for the
+reporting period.
+Net land productivity dynamics (km²) for the reporting period
+Land cover class
+Declining (km²) Moderate Decline (km²) Stressed (km²) Stable (km²) Increasing (km²) No Data (km²)
+Tree-covered areas 101 164 0 895 103 0
+Grasslands 1 197 2 213 190 33 419 3 119 22
+Croplands 1 447 1 972 1 090 13 899 3 108 15
+Wetlands 3 1 2 212 8 1
+Artificial surfaces 223 77 88 331 71 4
+Other Lands 13 727 2 061 11 151 1 516 589 13 739 68
+Water bodies 36 12 53 78 12 1 390
+SO1-2.T3: National estimates of land productivity dynamics for areas where a land conversion to a new land
+cover class has taken place (in km²) for the baseline period.
+Land Conversion Net land productivity dynamics (km²) for the baseline period
+Net area change Declining Moderate Decline Stressed Stable Increasing
+From To
+(km²) (km²) (km²) (km²) (km²) (km²)
+Other
+Grasslands 565 10 15 0 518 21
+Lands
+Artificial
+Croplands 344 202 51 5 70 16
+surfaces
+Grasslands Other Lands 317 25 89 1 188 14
+Grasslands Croplands 222 12 21 0 68 120
+SO1-2.T4: National estimates of land productivity dynamics for areas where a land conversion to a new land
+cover class has taken place (in km²) for the reporting period.
+Land Conversion Net land productivity dynamics (km²) for the reporting period
+8 / 96
+
+--- Page 9 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Net area change Declining Moderate Decline Stressed Stable Increasing
+From To
+(km²) (km²) (km²) (km²) (km²) (km²)
+Artificial
+Croplands 234 89 50 5 85 6
+surfaces
+Grasslands Other Lands 212 48 68 0 95 1
+Grasslands Croplands 167 2 7 0 103 54
+Croplands Grasslands 42 17 11 0 11 2
+Land Productivity degradation
+SO1-2.T5: National estimates of land productivity degradation in the baseline period
+Area (km²) Percent of total land area (%)
+Land area with degraded land productivity 14 154 0 .9
+Land area with non-degraded land productivity 1 607 799 99 .1
+Land area with no land productivity data 108 0 .0
+SO1-2.T6: National estimates of land productivity degradation in the reporting period
+Area (km²) Percent of total land area (%)
+Land area with improved land productivity 20 222 1 .2
+Land area with stable land productivity 1 578 218 97 .3
+Land area with degraded land productivity 23 513 1 .4
+Land area with no land productivity data 110 0 .0
+General comments
+ﺔﻴﺟﺎﺘﻧﻻﺍ ﺕﺩﺍﺯ ﻲﻟﺎﺘﻟﺎﺑﻭ, ءﺍﺮﻀﺨﻟﺍ ﺕﺎﺣﺎﺴﻤﻟﺍ ﻲﻓ ﻊﺳﻮﺘﻟﺍ ﺕﺎﻴﻠﻤﻋ ﻝﻼﺧ ﻦﻣ ﺎﻬﺘﻴﺟﺎﺘﻧﺍ ﺓﺩﺎﻳﺯﻭ ﻲﺿﺍﺭﻻﺍ ﺭﻮﻫﺪﺗ ﺪﻴﻴﺤﺗ ﺕﺎﺳﺭﺎﻤﻣ ﻉﺎﺒﺗﺍ ﺔﺠﻴﺘﻧ ﺓﺭﻮﻫﺪﺘﻤﻟﺍ ﺔﻴﺟﺎﺘﻧﻻﺍ ﺕﺍﺫ ﻲﺿﺍﺭﻻﺍ ﺔﺣﺎﺴﻣ ﺺﻴﻠﻘﺗ ﻥﺍ ﻆﺣﻼﻧ
+ﻲﺿﺍﺭﻼﻟ ﺓﺪﻴﺷﺮﻟﺍﻭ ﺔﻣﺍﺪﺘﺴﻤﻟﺍ ﺓﺭﺍﺩﻻﺍ ﺔﺠﻴﺘﻧ .
+9 / 96
+
+--- Page 10 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+SO1-3 Trends in carbon stocks above and below ground
+Soil organic carbon stocks
+SO1-3.T1: National estimates of the soil organic carbon stock in topsoil (0-30 cm) within each land cover
+class (in tonnes per hectare).
+Soil organic carbon stock in topsoil (t/ha)
+Year
+Tree-covered areas Grasslands Croplands Wetlands Artificial surfaces Other Lands Water bodies
+2000 0 0 0 0 0 0 0
+2001 72 12 23 17 28 6 5
+2002 72 12 23 17 28 6 5
+2003 72 12 23 17 28 6 5
+2004 72 12 23 17 27 6 5
+2005 72 12 23 17 27 6 5
+2006 72 12 23 17 27 6 5
+2007 72 12 23 17 26 6 5
+2008 72 12 23 17 26 6 5
+2009 72 12 23 17 26 6 5
+2010 72 12 23 17 25 6 5
+2011 72 12 23 17 25 6 5
+2012 72 12 23 17 25 6 5
+2013 72 12 23 17 24 6 5
+2014 72 12 23 17 24 6 5
+2015 72 12 23 17 23 6 5
+2016 72 12 23 17 23 6 5
+2017 72 12 23 17 23 6 5
+2018 72 12 23 17 22 6 5
+2019 72 12 23 17 21 6 5
+2020 0 0 0 0 0 0 0
+If you opted not to use default Tier 1 data, what did you use to calculate the estimates above?
+Modified Tier 1 methods and data
+Tier 2 (additional use of country-specific data)
+Tier 3 (more complex methods involving ground measurements and modelling)
+SO1-3.T2: National estimates of the change in soil organic carbon stock in soil due to land conversion to a
+new land cover class in the baseline period
+Land Conversion Soil organic carbon (SOC) stock change in the baseline period
+Net area Initial SOC Final SOC Initial SOC Final SOC SOC stock
+From To
+change (km²) stock (t/ha) stock (t/ha) stock total (t) stock total (t) change (t)
+10 / 96
+
+--- Page 11 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Land Conversion Soil organic carbon (SOC) stock change in the baseline period
+Net area Initial SOC Final SOC Initial SOC Final SOC SOC stock
+From To
+change (km²) stock (t/ha) stock (t/ha) stock total (t) stock total (t) change (t)
+Other
+Grasslands 565 16 .1 26 .4 909 264 1 489 453 580 189
+Lands
+Artificial
+Croplands 404 29 .7 17 .4 1 200 622 701 820 -498 802
+surfaces
+Grasslands Other Lands 317 14 .6 8 .3 463 406 264 102 -199 304
+Artificial
+Grasslands 25 19 .1 12 .2 47 659 30 546 -17 113
+surfaces
+SO1-3.T3: National estimates of the change in soil organic carbon stock in soil due to land conversion to a
+new land cover class in the reporting period
+Land Conversion Soil organic carbon (SOC) stock change in the reporting period
+Net area Initial SOC Final SOC Initial SOC Final SOC SOC stock
+From To
+change (km²) stock (t/ha) stock (t/ha) stock total (t) stock total (t) change (t)
+Other
+Grasslands 749 10 .4 11 .3 778 262 844 368 66 106
+Lands
+Artificial
+Croplands 159 29 .0 24 .7 461 149 393 159 -67 990
+surfaces
+Other Artificial
+34 16 .1 16 .0 54 618 54 403 -215
+Lands surfaces
+Grasslands Croplands 11 26 .9 25 .9 29 623 28 437 -1 186
+Soil organic carbon stock degradation
+SO1-3.T4: National estimates of soil organic carbon stock degradation in the baseline period
+Area (km²) Percent of total land area (%)
+Land area with degraded soil organic carbon (SOC) 1 178 0 .1
+Land area with non-degraded SOC 1 620 840 99 .9
+Land area with no SOC data 43 0 .0
+SO1-3.T5: National estimates of SOC stock degradation in the reporting period
+Area (km²) Percent of total land area (%)
+Land area with improved SOC 1 130 0 .1
+Land area with stable SOC 1 619 704 99 .9
+Land area with degraded SOC 1 186 0 .1
+Land area with no SOC data 44 0 .0
+General comments
+ﺔﻴﻋﺍﺭﺰﻟﺍ ﺕﺎﻴﻠﻤﻌﻟﺍ ﻲﻓ ﻁﺮﻔﻤﻟﺍ ﻝﻼﻐﺘﺳﻻﺍﻭ ﺔﻴﻠﺤﻤﻟﺍ ﺕﺎﻋﺍﺮﺼﻟﺍ ءﺎﻨﺛﺍ ﺓﺮﺠﻬﻟﺍﻭ ﺔﻴﻋﺍﺭﺰﻟﺍ ﺕﺎﻴﻠﻤﻌﻟﺍ ءﻮﺴﻟ ﺔﺠﻴﺘﻧ ﻉﻼﺑﻻﺍ ﺓﺮﺘﻓ ﻝﻼﺧ ﺭﻮﻫﺪﺘﻤﻟﺍ ﻱﻮﻀﻌﻟﺍ ﻥﻮﺑﺮﻜﻟﺍ ﺕﺍﺫ ﻲﺿﺍﺭﻻﺍ ﺔﺣﺎﺴﻣ ﻉﺎﻔﺗﺭﺍ
+11 / 96
+
+--- Page 12 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+SO1-4 Proportion of degraded land over the total land area
+Proportion of degraded land over the total land area (Sustainable Development Goal Indicator 15.3.1)
+SO1-4.T1: National estimates of the total area of degraded land (in km²), and the proportion of degraded land
+relative to the total land area
+Total area of degraded land (km²) Proportion of degraded land over the total land area (%)
+Baseline Period 14 904 0 .9
+Reporting Period 24 543 1 .5
+Change in degraded extent 9639
+Method
+Did you use the SO1-1, SO1-2 and SO1-3 indicators (i.e. land cover, land productivity dynamics and soil organic carbon
+stock) to compute the proportion of degraded land?
+Which indicators did you use?
+☒ Land Cover
+☒ Land Productivity Dynamics
+☒ SOC Stock
+Did you apply the one-out, all-out principle to compute the proportion of degraded land?
+Yes
+No
+Level of Confidence
+Indicate your country’s level of confidence in the assessment of the proportion of degraded land:
+High (based on comprehensive evidence)
+Medium (based on partial evidence)
+Low (based on limited evidence)
+Describe why the assessment has been given the level of confidence selected above:
+ﺔﻴﺧﺎﻨﻤﻟﺍ ﺕﺍﺮﻴﻐﺘﻟﺍ ﻚﻟﺬﻛﻭ ﺔﻴﻠﺤﻤﻟﺍ ﺕﺎﻋﺍﺮﺼﻟﺍﻭ ﺏﻭﺮﺤﻟﺍ ﺔﺠﻴﺘﻧ ﻥﻮﺑﺮﻜﻟﺍ ﻥﺯﻮﺨﻣﻭ ﻲﺿﺍﺭﻻﺍ ﺭﻮﻫﺪﺗ ﻰﻠﻋ ﺔﻘﻴﻗﺩ ﻢﻴﻴﻘﺗ ﻰﻄﻌﺗﻻﻭ ﺔﻴﺿﺍﺮﺘﻓﺍ ﺕﺎﻧﺎﻴﺑ ﻡﺍﺪﺨﺘﺳﺍ ﻰﻟﺍ ﻯﺩﺍ ﺔﻴﻨﻃﻭ ﺕﺎﻧﺎﻴﺑ ﺩﻮﺟﻭ ﻡﺪﻋ
+False positives/ False negatives
+SO1-4.T3: Justify why any area identified as degraded or non-degraded in the SO1-1, SO1-2 or SO1-3 indicator
+data should or should not be included in the overall Sustainable Development Goal indicator 15.3.1
+calculation.
+Location Name Type Recode Options Area (km²) Process driving false +/- outcome Basis for Judgement Edit Polygon
+Perform qualitative assessments of areas identified as degraded or improved
+SO1-4.T4: Degradation hotspots
+Action(s) taken
+to redress
+degradation in
+Direct drivers of
+Area Assessment terms of Land Remediating action(s) (both Edit
+Hotspots Location land degradation
+(km²) Process Degradation forward-looking and current) Polygon
+hotspots
+Neutrality
+response
+hierarchy
+12 / 96
+
+--- Page 13 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Action(s) taken
+to redress
+degradation in
+Direct drivers of
+Area Assessment terms of Land Remediating action(s) (both Edit
+Hotspots Location land degradation
+(km²) Process Degradation forward-looking and current) Polygon
+hotspots
+Neutrality
+response
+hierarchy
+• Restore/improve
+croplands
+◦ Increase land
+productivity in
+agricultural areas
+• Restore/improve
+1. Deforestation grasslands
+and clearance ◦ Restore and improve
+of other native pastures
+vegetation
+2. Land • Restore/improve tree-
+abandonment covered areas
+ﻕﺮﺷ 3. Climate change ☐ Avoid ◦ Reduce/halt
+ﻩﺮﻘﻟﺍ ﺔﻘﻄﻨﻣ ﺲﻠﺑﺍﺮﻃ Qualitative deforestation and
+ﻲﻠﻟﻮﺑ ﻰﻟﺍﻮﺤﺑ 20 information 4. Grazing land ☒ Reduce conversion of tree
+ﻢﻛ60 management ☐ Reverse cover to other land
+5. cover types (e.g.
+�. conserving forest
+7. land)
+�. ◦ Increase land
+9. productivity in tree
+10. covered areas
+11. ◦ Restore tree-covered
+areas
+• Increase soil fertility and
+carbon stock
+◦ Rehabilitate bare
+land and/or restore
+degraded land
+Total no.
+of 3
+hotspots
+Total
+hotspot 43
+area
+13 / 96
+
+--- Page 14 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Action(s) taken
+to redress
+degradation in
+Direct drivers of
+Area Assessment terms of Land Remediating action(s) (both Edit
+Hotspots Location land degradation
+(km²) Process Degradation forward-looking and current) Polygon
+hotspots
+Neutrality
+response
+hierarchy
+• Increase protected areas
+• Restore/improve
+grasslands
+◦ Restore rangeland
+(e.g. by controlling
+livestock and
+1. Deforestation
+wildfires)
+and clearance
+of other native
+• Restore/improve
+vegetation
+protected areas
+2. Land
+abandonment
+• Restore/improve tree-
+ﻕﺮﺷ 3. Climate change ☐ Avoid covered areas
+ﺮﺼﻗ ﺔﻘﻄﻨﻣ ﺲﻠﺑﺍﺮﻃ 4. Native and ◦ Reduce/halt
+15 Site-based data ☒ Reduce
+ﺭﺎﻴﺨﻟﺍ ﻰﻟﺍﻮﺤﺑ planted forest deforestation and
+ﻢﻛ50 management ☐ Reverse conversion of tree
+cover to other land
+5.
+cover types (e.g.
+�.
+conserving forest
+7.
+land)
+�. ◦ Restore/improve
+9.
+grasslands
+10.
+◦ Restore tree-covered
+11.
+areas
+• Increase tree-covered
+area extent
+• Increase soil fertility and
+carbon stock
+Total no.
+of 3
+hotspots
+Total
+hotspot 43
+area
+14 / 96
+
+--- Page 15 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Action(s) taken
+to redress
+degradation in
+Direct drivers of
+Area Assessment terms of Land Remediating action(s) (both Edit
+Hotspots Location land degradation
+(km²) Process Degradation forward-looking and current) Polygon
+hotspots
+Neutrality
+response
+hierarchy
+• Restore/improve tree-
+covered areas
+◦ Reduce/halt
+1. Deforestation
+deforestation and
+and clearance
+conversion of tree
+of other native
+cover to other land
+vegetation
+cover types (e.g.
+2. Climate change conserving forest
+3. Cropland and land)
+Stakeholder agroforestry ◦ Increase land
+☐ Avoid
+ﻖﻳﺮﻃ ﺔﺑﺎﻏ ﺏﻮﻨﺟ perspectives management productivity in tree
+8 from surveys, ☒ Reduce covered areas
+ﺭﺎﻄﻤﻟﺍ ﺲﻠﺑﺍﺮﻃ workshops and 4. F ch ir a e n r g e e gime ☐ Reverse ◦ Restore tree-covered
+interviews areas
+5. ◦ Improve tree cover
+�. management e.g. fire
+7. management
+�.
+9.
+• Increase tree-covered
+10.
+area extent
+11.
+◦ Increase tree covered
+land (net gain) e.g.
+plantations
+Total no.
+of 3
+hotspots
+Total
+hotspot 43
+area
+What is/are the indirect driver(s) of land degradation at the national level?
+1. Demographic
+2. Economic
+3. Cultural
+4.
+5.
+SO1-4.T5: Improvement brightspots
+What action(s) led to
+the brightspot in
+Area Assessment Implementing action(s) (both Edit
+Brightspots Location terms of the Land
+(km²) Process forward-looking and current) Polygon
+Degradation
+Neutrality hierarchy?
+Total no. of brightpots 5
+Total brightspot area 107
+15 / 96
+
+--- Page 16 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+What action(s) led to
+the brightspot in
+Area Assessment Implementing action(s) (both Edit
+Brightspots Location terms of the Land
+(km²) Process forward-looking and current) Polygon
+Degradation
+Neutrality hierarchy?
+• Increase protected areas
+• Restore/improve protected
+areas
+• Restore/improve tree-covered
+areas
+◦ Reduce/halt deforestation
+Stakeholder and conversion of tree
+ﺓ
+ﻲ
+ﺔ
+ﺮ
+ﻔ
+ﻓ
+ﺣ
+ﻴ ﻬ
+ﻢ
+ﺍﺰ
+ﻟ
+ﻫ
+ﺍ
+ﻟ
+ﺎ
+ﺔ
+ﺍ
+ﺴ
+ﻘ
+ﻝ
+ﺗ
+ﻄ
+ﺎ
+ﺭ
+ﻣ
+ﻨﻣ
+ﺎ
+ﺮ
+ﺠ
+ﻟ
+ﺮ
+ﺍ
+ﺷ
+ﻴ
+ﺖ
+ﺠ
+ﺎﺑ
+ﺸ
+ﻴﺒ
+ﺗ
+ﺜﺗ
+ﻂ
+ﻥ
+ﺲ
+ﺲ
+ﺎ
+ﺑ
+ﻳ
+ﻠ
+ﻠ
+ﺍ
+ﺮ
+ﺑ
+ﺑ
+ﺮ
+ﺍ
+ﺍ
+ﺮ
+ﺮ
+ﻏ
+ﻟﺍ
+ﻃ
+ﻃ
+ﻖ
+ﺔ
+ﻭ
+ﻨ
+ﻳ
+ﺏ
+ﻳ
+ﺮ
+ﺪﻣ
+ﻄ
+ﻮ ﻨ
+ﻟ
+ﻦ
+ﺟ
+ﺍ)
+ﻴﺑ
+15
+p
+s
+w in
+u
+e
+o t
+r
+r
+e r
+v
+s
+r k
+e
+p
+v s
+y
+i
+e
+h e
+s
+c
+o w
+,
+t
+p
+i
+s
+v
+s
+e
+a
+s
+n
+f
+d
+rom ☐
+☐
+☒
+A
+R
+R
+e
+e
+vo
+v
+d
+e
+i
+u
+d
+r
+c
+s
+e
+e ◦
+c
+t
+f R
+y
+o
+o
+e
+p
+r
+v
+s e
+e
+e
+t s
+s
+o
+r
+t r
+(
+t
+l e
+o
+e
+a /
+.
+n
+g
+o
+im d
+.
+t h
+)
+c
+p
+e
+o
+r
+r
+o
+n
+l
+v
+s
+a
+e
+e
+n
+r
+d
+v i
+c
+n
+o
+g
+ver
+grasslands
+◦ Increase land productivity
+in tree covered areas
+◦ Improve tree cover
+management e.g. fire
+management
+• Increase tree-covered area
+extent
+• Restore/improve grasslands
+• Restore/improve tree-covered
+areas
+◦ Reduce/halt deforestation
+and conversion of tree
+cover to other land cover
+types (e.g. conserving
+☒ Avoid forest land)
+ﺮﻀﺧﻻﺍ ﻡﺍﺰﺤﻟﺍ ﺲﻠﺑﺍﺮﻃ ﻕﺮﺷ ◦ Increase land productivity
+ﺔﻨﻳﺪﻣ ﻦﻴﺑ ﻊﻗﺍﻮﻟﺍ ﺔﻨﻳﺪﻣ ﺏﻮﻨﺟﻭ 20 Site-based data ☐ Reduce
+in tree covered areas
+ﻦﻄﻴﻟﺯﻭ ﻪﺗﺍﺮﺼﻣ ﺔﺗﺍﺮﺼﻣ ☒ Reverse ◦ Restore tree-covered areas
+• Increase tree-covered area
+extent
+◦ Increase tree covered land
+(net gain) e.g. plantations
+• Increase soil fertility and
+carbon stock
+Total no. of brightpots 5
+Total brightspot area 107
+16 / 96
+
+--- Page 17 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+What action(s) led to
+the brightspot in
+Area Assessment Implementing action(s) (both Edit
+Brightspots Location terms of the Land
+(km²) Process forward-looking and current) Polygon
+Degradation
+Neutrality hierarchy?
+• Restore/improve grasslands
+• Restore/improve tree-covered
+areas
+◦ Reduce/halt deforestation
+and conversion of tree
+cover to other land cover
+types (e.g. conserving
+☒ Avoid forest land)
+◦ Restore/improve
+ﻪﺗﻼﺴﻣ ﺔﻴﻤﺤﻣ ﺲﻠﺑﺍﺮﻃ ﻕﺮﺷ 20 Site-based data ☐ Reduce
+grasslands
+☒ Reverse ◦ Increase land productivity
+in tree covered areas
+◦ Restore tree-covered areas
+• Increase tree-covered area
+extent
+• Increase soil fertility and
+carbon stock
+• Restore/improve protected
+areas
+• Restore/improve tree-covered
+areas
+◦ Reduce/halt deforestation
+and conversion of tree
+☒ Avoid cover to other land cover
+ﺲﻤﺨﻟﺍ) ﺓﺯﺎﻘﻨﻟﺍ ﻩﺰﺘﻨﻣ ﺲﻤﺨﻟﺍ ﺔﻨﻳﺪﻣ ﻲﻓ types (e.g. conserving
+50 Site-based data ☒ Reduce
+( ﺲﻠﺑﺍﺮﻃ ﻕﺮﺷ ﻊﻘﻧ forest land)
+☐ Reverse ◦ Restore/improve
+grasslands
+◦ Increase land productivity
+in tree covered areas
+◦ Restore tree-covered areas
+• Increase tree-covered area
+extent
+Total no. of brightpots 5
+Total brightspot area 107
+17 / 96
+
+--- Page 18 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+What action(s) led to
+the brightspot in
+Area Assessment Implementing action(s) (both Edit
+Brightspots Location terms of the Land
+(km²) Process forward-looking and current) Polygon
+Degradation
+Neutrality hierarchy?
+• Restore/improve grasslands
+• Restore/improve protected
+areas
+◦ Restore protected areas
+• Restore/improve tree-covered
+areas
+☒ Avoid ◦ Reduce/halt deforestation
+ﺔﻨﻳﺪﻣ )ﺏﺮﻏ Qualitative and conversion of tree
+ﺪﻴﻌﺳ ﻱﺪﻴﺳ ﺔﺑﺎﻏ ﺲﻠﺑﺍﺮﻃ ( ﺓﺭﺍﻭﺯ 2 information ☒ Reduce cover to other land cover
+☐ Reverse types (e.g. conserving
+forest land)
+◦ Restore/improve
+grasslands
+◦ Increase land productivity
+in tree covered areas
+◦ Restore tree-covered areas
+◦ Improve tree cover
+management e.g. fire
+management
+Total no. of brightpots 5
+Total brightspot area 107
+What are the enabling and instrumental responses at the national level driving the occurrence of brightspots?
+1. Responses to the adverse effects of globalisation, demographic change, migration
+2. Protected areas
+3. Economic and financial instruments
+4. Anthropogenic assets
+5. Social and cultural instruments
+�. Climate change adaptation planning
+7.
+�.
+9.
+10.
+General comments
+ﺔﻘﻄﻨﻣ ﺔﻴﻗﺮﺸﻟﺍ ﺔﻘﻄﻨﻤﻟﺍ ﻲﻓ ًﺎﺻﻮﺼﺧ ﺩﻼﺒﻟﺍ ﻖﻃﺎﻨﻣ ﺐﻠﻏﺍ ﻲﻓ ﺎﻬﻠﻴﻫﺎﺗ ﺓﺩﺎﻋﺍ ﻢﺗ ﻖﻃﺎﻨﻣ ﻲﻓ ﺔﺌﻀﻣ ﺕﺎﺣﺎﺴﻣ ﻙﺎﻨﻫ ﻪﻧﺍ ﻻﺍ ﻑﺎﻔﺠﻟﺍ ﺕﺍﻮﻨﺳ ﻲﻟﺍﻮﺗﻭ ﺎﻴﺒﻴﻟ ﺎﻬﺑ ﺮﻤﺗ ﻰﺘﻟﺍ ﺔﺒﻌﺼﻟﺍ ﺔﻴﺧﺎﻨﻤﻟﺍﻭ ﺔﻴﺌﻴﺒﻟﺍ ﻑﻭﺮﻈﻟﺍ ﻢﻏﺭ
+ﺮﻀﺧﻻﺍ ﻞﺒﺠﻟﺍ
+18 / 96
+
+--- Page 19 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land management
+and contribute to land degradation neutrality.
+SO1 Voluntary Targets
+SO1-VT.T1: Voluntary Land Degradation Neutrality targets and other targets relevant to strategic objective 1
+Overarching
+type of Is this an LDN Which other
+Total
+Land Status of target? If so, important goals
+Target Edit
+Target Year Location(s) Degradation Targeted action(s) target under which are also being
+Area Polygon
+Neutrality achievement process was it addressed by this
+(km²)
+(LDN) defined/adopted? target?
+intervention
+• Restore/improve
+grasslands
+• Restore/improve
+protected areas
+• Restore/improve
+tree-covered areas
+◦ Reduce/halt • Other:
+deforestation • United
+and
+Nations
+☐ Avoid conversion of Yes Framework
+ﺪﻴﻴﺤﺗ tree cover to
+ﺭﻮﻫﺪﺗ 2024 ﻲﻠﻟﻮﺑ ﻩﺮﻘﻟﺍ 15 ☐ Reduce other land Ongoing No Convention
+on Climate
+ﻲﺿﺍﺭﻻﺍ ☒ Reverse cover types LDN pilot project Change –
+(e.g.
+Nationally
+conserving
+Determined
+forest land)
+Contributions
+◦ Improve tree
+cover
+management
+e.g. fire
+management
+• Increase soil
+fertility and
+carbon stock
+Sum of all targeted areas
+Total
+23
+19 / 96
+
+--- Page 20 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land management
+and contribute to land degradation neutrality.
+Overarching
+Is this an LDN Which other
+Total type of Land
+Status of target? If so, important goals
+Target Degradation Edit
+Target Year Location(s) Targeted action(s) target under which are also being
+Area Neutrality Polygon
+achievement process was it addressed by this
+(km²) (LDN)
+defined/adopted? target?
+intervention
+• Restore/improve
+wetlands
+• Increase protected
+areas
+• Restore/improve
+grasslands • Convention
+on Biological
+• Restore/improve Diversity –
+protected areas National
+◦ Improve Biodiversity
+management Strategies
+of protected and Action
+areas Plans &
+National
+• Increase tree- Targets
+ﻞ ﺓﺩ ﻴ ﺎ ﻫ ﻋ ﺄ ﺍ ﺗ ﻞ ﺭﺎ ﺧ ﻄ ﺪ ﻣ ﻤ ﻟ ﻖ ﺍ ﺲ ﻳﺮ ﻠ ﻃ ﺑﺍﺮﻃ ☐ Avoid c e o xt v e e n re t d area Extended or Yes • Other: ﻒﺣﺯ ﻊﻨﻣ
+ﻖ ﺭ ﺔﺑ ﺎ ﻳ ﺎ ﻄ ﺮ ﻏ ﻤ ﻃ ﻟﺍ 2024 ﺲ ﺔﻨﻳ ﻠ ﺪ ﺑ ﻤ ﺍﺮ ﻟ ﻃ ﻲﺑﻮﻨﺠﻟﺍ 8 ☐ ☒ R R e ev d e u r c s e e ◦ c In o c v r e e r a e s d e l a tr n e d e postponed LDN N o pilot project ﺔ ﻦ ﺔ ﻴ ﻴ ﻣ ﺑ ﻠﻣ ﺍ ﺮ ﺪ ﺮ ﺤ ﺘ ﻟ ﻟ ﺍ ﺍ ﻟ ﻭ ﺍﻭ ﻒ ﻝ ﺻ ﺎﻣ ﺍ ﺮ ﻮﻌ ﻟﺍ ﻟﺍ
+(net gain) e.g.
+plantations • United
+Nations
+• Increase soil Framework
+fertility and Convention
+carbon stock on Climate
+◦ Reduce soil Change –
+erosion Nationally
+◦ Reduce sand Determined
+Contributions
+encroachment
+◦ Maintain the
+current level
+of SOC
+◦ Increase
+carbon stock
+and reduce
+soil/land
+degradation
+Sum of all targeted areas
+Total
+23
+SO1.IA.T1: Areas of implemented action related to the targets (projects and initiatives on the ground).
+Relevant Implemented Action start Extent of Total Area Implemented So Edit
+Location (placename)
+Target Action date action Far (km²) Polygon
+ﺭﻮﻫﺪﺗ ﺪﻴﻴﺤﺗ Same As
+ﻲﺿﺍﺭﻻﺍ Targeted Actions ﻪﺗﺍﺮﺼﻣ ﺮﻀﺧﻻﺍ ﻡﺍﺰﺤﻟﺍ 2016-12-01 24 24 .00
+ﺮﻴﻐﺘﻟﺍ ﺔﻬﺑﺎﺠﻣ ﻲﻓ ﺔﻴﻨﻃﻮﻟﺍ ﺕﺎﻤﻫﺎﺴﻤﻟﺍ ﻊﻳﺭﺎﺸﻣ ﻦﻤﺿ ﻊﻘﻳ
+ﺔﺑﺎﻏ ﻞﻴﻫﺄﺗ ﺓﺩﺎﻋﺍ Same As
+ﺭﺎﻄﻤﻟﺍﻖﻳﺮﻃ Targeted Actions ﺹﺮﻓ ﺮﻴﻓﻮﺗﻭ ﻝﺎﻣﺮﻟﺍ ﻒﺣﺯ ﻦﻣ ﺔﻨﻳﺪﻤﻟﺍ ﺔﻳﺎﻤﺣﻭ ﻲﺧﺎﻨﻤﻟﺍ 2023-01-18 2 025 2 025 .00
+ﺎﻬﺑ ﻦﻴﻄﻴﺤﻤﻟﺍ ﻥﺎﻜﺴﻠﻟ ﻞﻤﻋ
+Sum of all areas relevant to
+actions under the same
+target
+ﻲﺿﺍﺭﻻﺍ ﺭﻮﻫﺪﺗ ﺪﻴﻴﺤﺗ : 24 .00
+ﻖﻳﺮﻃ ﺔﺑﺎﻏ ﻞﻴﻫﺄﺗ ﺓﺩﺎﻋﺍ 2 025
+ﺭﺎﻄﻤﻟﺍ : .00
+General comments
+ﻦﻣ ﺔﻨﻳﺪﻤﻟﺍ ﺔﻳﺎﻤﺣﻭ ﻲﺧﺎﻨﻤﻟﺍ ﺮﻴﻐﺘﻟ ﺔﻴﻨﻃﻮﻟﺍ ﺕﺎﻤﻫﺎﺴﻤﻟﺍ ﻕﺎﻄﻧ ﺮﻓ ﻊﻘﻳ ﺔﺑﺎﻐﻟﺍ ﺔﻴﻤﻨﺗﻭ ﺮﻳﻮﻄﺗ ﻲﻋﺍﺭﺰﻟﺍ ﺝﺎﺘﻧﻻﺍ ﺓﺩﺎﻳﺯ ﻪﻧﺎﺷ ﻦﻣ ﺎﻣ ﻞﻛﻭ ﺮﻴﺠﺸﺘﻟﺍ ﺕﺎﻴﻠﻤﻋﻭ ءﺍﺮﻀﺨﻟﺍ ﺔﻌﻗﺮﻟﺍ ﺓﺩﺎﻳﺰﺑ ﻚﻟﺫﻭ ﻲﺿﺍﺭﻻﺍ ﺭﻮﻫﺪﺗ ﺮﺛﺍ ﺪﻴﻴﺤﺗ ﻮﻫ ﻑﺪﻬﻟﺍ
+ﺔﻴﻠﻣﺮﻟﺍﻭ ﺔﻴﺑﺍﺮﺘﻟﺍ ﻒﺻﺍﻮﻌﻟﺍ ﻊﻨﻣﻭ ﻝﺎﻣﺮﻟﺍ ﻒﺣﺯ
+20 / 96
+
+--- Page 21 ---
+SO-2: To improve the living conditions of affected populations.
+SO2-1 Trends in population living below the relative poverty line and/or income inequality in
+affected areas
+Relevant metric
+Choose the metric that is relevant to your country:
+Proportion of population below the
+international poverty line
+Income inequality (Gini Index)
+Proportion of population below the international poverty line
+SO2-1.T1: National estimates of the proportion of population below the international poverty line
+Year Proportion of population below international poverty line (%)
+2 000
+2 001
+2 002
+2 003
+2 004
+2 005 7.4
+2 006
+2 007
+2 008
+2 009
+2 010
+2 011
+2 012
+2 013
+2 014 7.5
+2 015 8.2
+2 016 9.1
+2 017 8.3
+2 018 10.9
+2 019 12.0
+2 020
+Qualitative assessment
+SO2-1.T3: Interpretation of the indicator
+Change in the
+Indicator metric Comments
+indicator
+Proportion of population below the international ﻉﺎﻔﺗﺭﺍ ﻲﻓ ﺖﻤﻫﺎﺳﻭ ﺖﺛﺪﺣ ﻰﺘﻟﺍ ﺕﺎﻋﺍﺮﺼﻟﺍﻭ ﺏﻭﺮﺤﻟﺍ ﺔﺠﻴﺘﻧ ﺮﻘﻔﻟﺍﺕﻻﺪﻌﻣ ﺓﺩﺎﻳﺯ
+Increase
+poverty line ﺝﺎﺘﻧﻻﺍ ﺺﻘﻧﻭ ﺭﺎﻌﺳﻻﺍ
+General comments
+ﻞّﻠﻌُﻳﻭ .ﻲﻨﻃﻮﻟﺍ ﺮﻘﻔﻟﺍ ﻂﺧ ﺖﺤﺗ ﻥﻮﺸﻴﻌﻳ ﻦﻴّﻴﺒﻴﻠﻟﺍ ﺚﻠﺛ ﻲﻟﺍﻮﺣ ﻥّﺇ ﺚﻴﺣ، ﺭﻻﻭﺩ ﺔﺛﻼﺛ ﻰﻟﺍﻮﺤﺑ ﺮﻘﻔﻟﺍ ﻂﺧ ﺩﺪﺤﻳ, ،ﺔﻌﻔﺗﺮﻣ ﺎﻴﺒﻴﻟ ﻲﻓ ﺮﻘﻔﻟﺍ ﺕﺍﺮﻳﺪﻘﺗ ﻥّﺃ ﻰﻟﺇ ﻲﻘﻳﺮﻓﻷﺍ ﻚﻨﺒﻟﺍ ﺮﻴﺴﻳ ﺎﻴﺒﻴﻟ ﻲﻓ ﻥﻮﺸﻴﻌﻳ ﻦﻳﺬﻟﺍ ﻥﺎﻜﺴﻟﺍ ﺔﺒﺴﻧ
+،) 2018 ،ﻲﻘﻳﺮﻓﻷﺍ ﺩﺎﺼﺘﻗﻻﺍ ﺮﻳﺮﻘﺗ( .ﻲﺳﺎﻴﺴﻟﺍﻭ ﻲﻨﻣﻷﺍ ﻊﺿﻮﻟﺍ ﺐﺒﺴﺑ ﻢﺨﻀﺘﻟﺍﻭ ﻂﻔﻨﻟﺍ ﺕﺍﺪﺋﺎﻋ ﺭﺍﺮﻘﺘﺳﺍ ﻡﺪﻌﺑ ﺕﺮﺛﺄﺗ ﻲﺘﻟﺍ ﺔﻣﺎﻌﻟﺍ ﺕﺎﻣﺪﺨﻟﺍﻰﻠﻋ ﻲﻣﻮﻜﺤﻟﺍ ﻕﺎﻔﻧﻹﺍ ﺩﺎﻤﺘﻋﺍ ﻮﻫ ﺮﻘﻔﻟﺍ ﺍﺬﻫ ﺏﺎﺒﺳﺃ ﺪﺣﺃ ﻥّ ﺄﺑ ﻚﻟﺫ
+21 / 96
+
+--- Page 22 ---
+SO-2: To improve the living conditions of affected populations.
+ﻦﻴﻨﻃﺍﻮﻤﻟﺍ ﺮﺒﺠﻳ ﺎﻤﻣ ﺔﻴﺟﻼﻌﻟﺍ ﺔﺻﺎﺧ ﻡﺎﻌﻟﺍ ﻉﺎﻄﻘﻟﺍﺕﺎﻣﺪﺧ ﻒﻌﺿ ﻦﻋ ﻚﻴﻫﺎﻧ .ًﺎﺒﻠﺳ ﺮﺛﺄﺘﺗ ﻊﻤﺘﺠﻤﻟﺍ ﺕﺎﺌﻓ ﻢﻈﻌﻣ ﻥﺈﻓ ﻲﻟﺎﺤﻟﺍ ﻢﺨﻀﺘﻟﺍ ﻞﻇ ﻲﻔﻓ ،ﺔﻴﻧﺪﺘﻣ ﺭﻮﺟﺄﺑﻭ ﻡﺎﻌﻟﺍ ﻉﺎﻄﻘﻟﺍ ﻲﻓ ﻥﻮﻠﻤﻌﻳ ﻦﻴﻴﺒﻴﻠﻟﺍ ﻢﻈﻌﻣ ﻥّﺇ ﺎﻤﻛ
+ﻲﺒﻴﻠﻟﺍ ﺩﺎﺼﺘﻗﻻﺍ ﻲﻓ ﺔﻳﺪﻴﻬﻤﺗ ﺔﺳﺍﺭﺩ .ﺽﺍﺮﻏﻷﺍ ﻩﺬﻬﻟ ﺩﻼﺒﻟﺍ ﺝﺭﺎﺧ ﺎﻬﻗﺎﻔﻧﺇﻭ ﻢﻬﺗﺍﺮﺧﺪّﻣ ﻡﺍﺪﺨﺘﺳﺍ ﻰﻠﻋ
+22 / 96
+
+--- Page 23 ---
+SO-2: To improve the living conditions of affected populations.
+SO2-2 Trends in access to safe drinking water in affected areas
+Proportion of population using safely managed drinking water services
+SO2-2.T1: National estimates of the proportion of population using safely managed drinking water services
+Year Urban (%) Rural (%) Total (%)
+2000
+2001
+2002
+2003
+2004
+2005
+2006
+2007
+2008
+2009
+2010
+2011
+2012
+2013 64 6 70
+2014 73 7 80
+2015 69 7 76
+2016 72 7 79
+2017 64 6 70
+2018 64 6 70
+2019 46 4 50
+2020 53 5 58
+Qualitative assessment
+SO2-2.T2: Interpretation of the indicator
+Change in the indicator Comments
+Decrease ﺓﺭﺍﺮﺤﻟﺍ ﺕﺎﺟﺭﺩ ﻲﻓ ﻉﺎﻔﺗﺭﻻﺍ ﻭ, ﻙﻼﻬﺘﺳﻻﺍ ﺓﺩﺎﻳﺯﻭ ( ﻑﺎﻔﺟ ﻢﺳﻮﻣ) ﺭﺎﻄﻣﻻﺍ ﻂﻗﺎﺴﺗ ﺔﻠﻘﻟ ﺔﺠﻴﺘﻧ ﻯﺮﺧﺍ ﺓﺮﻣ ﺩﻮﻌﺼﻟ ﺩﺎﻋ ﻢﺛ 2019 ﺮﻴﺒﻛ ﻞﻜﺸﺑ ﻥﺎﺼﻘﻨﻟﺍ ءﺪﺑ
+General comments
+ﺪﻳﺪﺸﻟﺍ ﺽﺎﻔﺨﻧﻻﺍ ﻦﻜﻟﻭ ﺮﻴﺒﻛﺮﺛﺍ ﻭﺫ ﺮﻴﻏ ﻒﻴﻔﻃ ﺮﻴﻐﺗ ﻊﻣ ﻍﻼﺑﻻﺍ ﺓﺮﺘﻓ ﻝﻼﺧﺔﻴﻟﺍﻮﺘﻤﻟﺍ ﺕﺍﻮﻨﺴﻟﺍ ﻲﻓ ﺓﺮﻘﺘﺴﻣﻭ ﺔﻴﻟﺎﻋ ﺖﻧﺎﻛ ﺔﻧﻮﻣﺎﻣ ﻩﺎﻴﻣ ﺭﺩﺎﺼﻣ ﻰﻠﻋ ﻥﺎﻜﺴﻟﺍ ﻝﻮﺼﺣ ﺐﺴﻧ ﺭﺍﺮﻘﺘﺳﺍ ﻥﺎﻓ ﻡﺎﻗﺭﻻﺍ ﺔﻳﺅﺭ ﻝﻼﺧ ﻦﻣ
+ﺓﺭﺍﺮﺤﻟﺍ ﺕﺎﺟﺭﺩ ﻲﻓ ﻉﺎﻔﺗﺭﺍﻭ ﺔﻨﺴﻟﺍ ﻚﻠﺗ ﻲﻓ ﻑﺎﻔﺟ ﺙﻭﺪﺣ ﻰﻟﺍ ﻊﺟﺮﻳ ﺔﻴﻔﻳﺮﻟﺍ ﻭﺍ ﺔﻳﺮﻀﺤﻟﺍ ﻖﻃﺎﻨﻤﻟﺍ ﻲﻓ 2019 ﻲﻓ
+23 / 96
+
+--- Page 24 ---
+SO-2: To improve the living conditions of affected populations.
+SO2-3 Trends in the proportion of population exposed to land degradation disaggregated by
+sex
+Proportion of the population exposed to land degradation disaggregated by sex
+SO2-3.T1: National estimates of the proportion of population exposed to land degradation disaggregated by
+sex.
+Male
+Population Percentage of Female Percentage of total Percentage of total
+Time population
+exposed total population population female population male population
+period exposed
+(count) exposed (%) exposed (count) exposed (%) exposed (%)
+(count)
+Baseline
+2135546 38 .3 1056998 38 .3 1078548 38 .2
+period
+Reporting
+2030108 36 .4 1004813 36 .4 1025295 36 .4
+period
+Qualitative assessment
+SO2-3.T2: Interpretation of the indicator
+Change in the indicator Comments
+Decrease ﻍﻼﺑﻻﺍ ﺓﺮﺘﻓ ﻝﻼﺧ ﺔﻘﺑﺎﺴﻟﺍ ﻝﻭﺍﺪﺠﻟﺍ ﺔﻳﺅﺭ ﺐﺴﺣ ﻊﻔﺗﺮﻣ ﻲﺿﺍﺭﻻﺍ ﺭﻮﻫﺪﺗ ﻝﺪﻌﻣ ﻝﺍﺯﺎﻣ
+General comments
+ﻍﻼﺑﻻﺍ ﺓﺮﺘﻓ ﻦﻣ ﻰﻠﻋﺍ ﺱﺎﺳﻻﺍ ﺓﺮﺘﻓ ﻝﻼﺧ ﻦﻳﺭﺮﻀﺘﻤﻟﺍ ﻥﺎﻜﺴﻟﺍ ﺔﺒﺴﻧ ﺖﻧﺎﻛ ﺚﻴﺣ ﺔﻴﺌﻴﺒﻟﺍ ﻑﻭﺮﻈﻟﺍﻭ ﺔﻳﺮﺸﺒﻟﺍ ﺕﻼﺧﺪﺘﻟﺍ ﻦﻣ ﺪﻳﺪﻌﻠﻟ ﺔﺠﻴﺘﻧ ﻲﻓ ﻖﺑﺎﺴﻟﺍ ﻝﻭﺍﺪﺠﻠﻟ ًﺎﻘﻓﻭ ﻲﻟﺎﻋ ﻲﺿﺍﺭﻻﺍ ﺭﻮﻫﺪﺗ ﻝﺪﻌﻣ ﻝﺍﺰﻳ ﺎﻣ .
+24 / 96
+
+--- Page 25 ---
+SO-2: To improve the living conditions of affected populations.
+SO2 Voluntary Targets
+SO2-VT.T1
+Level of Status of target
+Target Year Comments
+application achievement
+ﻰﻟﺍ ﺲﻤﺨﻟﺍ ﺔﻳﺪﻠﺑ ﻦﻣ ﺮﻀﺧﺍ ﻡﺍﺰﺣ ﺔﻣﺎﻗﺍ ﺕﺎﻣﻮﻠﻌﻤﻟﺍ ﻢﻈﻧ ﺕﺎﻴﻨﻘﺗ ﺍﺪﺨﺘﺳﺎﺑ ﺭﺎﺴﻤﻟﺍﺪﻳﺪﺤﺗ ﻰﻠﻋ ﻞﻤﻌﻟﺍ ﻱﺭﺎﺟ
+2023 National Not achieved
+ﺔﻴﺴﻧﻮﺘﻟﺍﺩﻭﺪﺤﻟﺍ ﺪﻌﺑ ﻦﻋ ﺭﺎﻌﺸﺘﺳﻻﺍﻭ ﺔﻴﻓﺍﺮﻐﺠﻟﺍ
+ﺔﻴﻋﺍﺭﺰﻟﺍ ﻊﻳﺭﺎﺸﻤﻟﺍ ﻦﻣ ﺩﺪﻋ ﻞﻴﻫﺄﺗﻭ ءﺎﻴﺣﺍ
+ﻡﺍﺰﺨﻟﺍ ﺎﻬﺑ ﺮﻤﻳ ﻰﺘﻟﺍ
+2023 National Not achieved ﻲﺋﺍﺬﻐﻟﺍ ﻦﻣﻻﺍ ﺮﻴﻓﻮﺗﻭ ﺔﻴﻋﺍﺭﺰﻟﺍ ﻲﺿﺍﺭﻻﺍ ﺔﻴﺟﺎﺘﻧﺍ ﺓﺩﺎﻳﺯ
+General comments
+ﺕﺍﺯﺎﻐﻟﺍ ﺕﺎﺛﺎﻌﺒﻧﺍ ﻦﻣ ﻞﻴﻠﻘﺘﻟﺍ ﻚﻟﺬﻛﻭ ﻞﻤﻋ ﺹﺮﻓ ﺮﻴﻓﻮﺗﻭ ﻲﺿﺍﺭﻻﺍ ﺭﻮﻫﺪﺘﺑ ﻦﻳﺮﺛﺎﺘﻤﻟﺍ ﻥﺎﻜﺴﻟﺍ ﺶﻴﻋ ﻞﺒﺳ ﻦﻴﺴﺤﺗﻭ ﻲﺿﺍﺭﻻﺍ ﺔﻴﺟﺎﺘﻧﺍ ﺓﺩﺎﻳﺯﻭ ﺭﺎﺠﺷﻻﺎﺑ ﺓﺎﻄﻐﻤﻟﺍ ﻖﻃﺎﻨﻤﻟﺍ ﺓﺩﺎﻳﺯ ﻲﻓ ﻢﻫﺎﺴﺗﻭ ﺓﺪﺋﺍﺭ ﻊﻳﺭﺎﺸﻤﻟﺍ ﺍﺬﻫ
+ﺔﻴﺌﻓﺪﻟﺍ
+25 / 96
+
+--- Page 26 ---
+SO-3: To mitigate, adapt to, and manage the effects of drought in order to enhance resilience of vulnerable populations and
+ecosystems.
+SO3-1 Trends in the proportion of land under drought over the total land area
+Drought hazard indicator
+SO3-1.T1: National estimates of the land area in each drought intensity class as defined by the Standardized
+Precipitation Index (SPI) or other nationally relevant drought indices
+Drought intensity classes
+Mild drought (km²) Moderate drought (km²) Severe drought (km²) Extreme drought (km²) Non-drought (km²)
+2000 475 434 19 988 0 0 1 121 115
+2001 816 597 421 967 81 555 0 296 418
+2002 1 068 218 82 473 30 315 0 435 532
+2003 840 469 118 975 8 942 0 648 152
+2004 908 727 274 024 76 898 0 356 888
+2005 712 647 0 0 0 903 891
+2006 515 619 0 0 0 1 100 919
+2007 751 076 295 619 48 396 0 521 447
+2008 567 236 59 877 17 403 0 972 021
+2009 950 068 214 043 123 481 33 840 295 105
+2010 476 642 216 610 178 688 77 509 667 088
+2011 539 940 1 967 512 0 1 074 118
+2012 617 111 136 649 24 288 3 306 835 182
+2013 834 456 132 150 68 866 1 875 579 190
+2014 1 120 687 149 287 83 803 5 350 257 411
+2015 693 933 72 263 32 745 20 524 797 073
+2016 659 223 151 838 99 099 133 667 572 711
+2017 713 068 138 897 55 606 63 909 644 364
+2018 1 043 713 53 594 37 429 15 067 466 734
+2019 797 991 57 758 52 098 1 372 707 319
+2020
+2021
+SO3-1.T2: Summary table for land area under drought without class break down
+Total area under drought (km²) Proportion of land under drought (%)
+2000 495 422 30 .5
+2001 1 320 119 81 .4
+2002 1 181 005 72 .8
+2003 968 385 59 .7
+2004 1 259 649 77 .7
+2005 712 647 43 .9
+26 / 96
+
+--- Page 27 ---
+SO-3: To mitigate, adapt to, and manage the effects of drought in order to enhance resilience of vulnerable populations and
+ecosystems.
+Total area under drought (km²) Proportion of land under drought (%)
+2006 515 619 31 .8
+2007 1 095 091 67 .5
+2008 644 516 39 .7
+2009 1 321 432 81 .5
+2010 949 450 58 .5
+2011 542 419 33 .4
+2012 781 355 48 .2
+2013 1 037 347 64 .0
+2014 1 359 126 83 .8
+2015 819 464 50 .5
+2016 1 043 827 64 .4
+2017 971 480 59 .9
+2018 1 149 804 70 .9
+2019 909 219 56 .1
+2020 -
+2021 -
+Qualitative assessment:
+ﺢﺒﺻﺍﻭ ﻱﺮﻄﻤﻟﺍ ﻝﻮﻄﻬﻟﺍ ﻝﺪﻌﻣ ﺓﺩﺎﻳﺯ ﺔﺠﻴﺘﻧ %50 ﻰﻟﺍ ﺖﻠﺻﻭ ﻰﺘﻟﺍ 2015 ﺔﻨﺴﺑ ﺔﻧﺭﺎﻘﻣ ﺓﺮﻴﺒﻛ ﺕﺎﺣﺎﺴﻤﻟﺍ ﺔﺒﺴﻧ ﺖﻧﺎﻛ ﺱﺎﺳﻻﺍ ﺓﺮﺘﻓ ﻲﻓ ﺓﺮﻴﺧﻻﺍ ﺕﺍﻮﻨﺴﻟﺍ ﻲﻓ ﻝﻮﻄﻬﻟﺍ ﺮﺷﺆﻣ ﻞﻴﻠﺤﺗﻭﺕﺎﻧﺎﻴﺒﻠﻟﺍ ﻝﻼﺧ ﻦﻣ
+ًﺍﺭﺎﻄﻣﺃ ﻞﻗﻷﺍ ﻥﺎﻛ ) 1991-2020 ،ﺔﻨﺳ ) 30 ( ﺓﺪﻤﻟ ﺔﻴﺧﺎﻨﻤﻟﺍ ﺕﻻﺪﻌﻤﻠﻟ ﺓﺮﺘﻓ ﺮﺧﻵ ﺭﺎﻄﻣﻷﺍ ﺥﺎﻨﻣ ﻥﺈﻓ ،ﻚﻟﺫ ﻰﻟﺇ ﺔﻓﺎﺿﺇ ﺔﻴﺟﺎﺘﻧﻻﺍ ﺽﺎﻔﺨﻧﺍﻭﻭ ﺭﻮﻫﺪﺘﻟ ﻲﺿﺍﺭﻼﻟﺍ ﻦﻣ ﺓﺮﻴﺒﻛ ﺕﺎﺣﺎﺴﻣ ﺽﺮﻋ ﺎﻤﻣ ﺝﺭﺪﺘﻣ
+ﻡ ﺭﺎﻄﻣﻷﺍ ﺥﺎﻨﻤﺑ ﺔﻧﺭﺎﻘﻣ ﻕﻼﻃﻹﺍ ﻰﻠﻋ
+General comments
+ﺔﻴﻨﻃﻮﻟﺍ ﺔﻴﺧﺎﻨﻤﻟﺍ ﺕﺎﺳﺍﺭﺪﻟﺍﻭ ﺕﻼﻴﻠﺤﺘﻟﺍ ﺙﺪﺣﺍ ﻰﻠﻋ ءﺎﻨﺑ ﺓﺭﺍﺮﺤﻟﺍ ﺕﺎﺟﺭﺩ ﻲﻓ ﻅﻮﺤﻠﻤﻟﺍ ﻉﺎﻔﺗﺭﺍﻭ، ﻱﺮﻄﻤﻟﺍ ﻝﻮﻄﻬﻟﺍ ﻝﺪﻌﻣ ﻲﻓ ﺪﻳﺪﺸﻟﺍ ﺽﺎﻔﺨﻧﻻﺍ ﺔﺠﻴﺘﻧ ﻉﻼﺑﻻﺍ ﺓﺮﺘﻓ ﻝﻼﺧ ﻲﺋﺰﺟ ﻑﺎﻔﺟ ﺔﻠﺣﺮﻤﺑ ﺩﻼﺒﻟﺍ ﺮﻤﺗ
+ًﺍﺪﺟ ﺔﻴﻟﺎﻋ ﻦﻴﻘﻳ ﺔﺟﺭﺪﺑﻭ ﻚﺸﻠﻟ ﻻًﺎﺠﻣ ﻉﺪﻳﻻ ﻞﺻﺍﻮﺘﻣ ﻞﻜﺸﺑ ﺖﻌﻔﺗﺭﺍ ﺓﺭﺍﺮﺤﻟﺍ ﺕﺎﺟﺭﺩ ﻥﺎﻓ ﺮﺿﺎﺤﻟﺍ ﺖﻗﻮﻟﺍ ﻲﻓ ﻱﺮﺠﺗ ﻰﺘﻟﺍﻭ
+27 / 96
+
+--- Page 28 ---
+SO-3: To mitigate, adapt to, and manage the effects of drought in order to enhance resilience of vulnerable populations and
+ecosystems.
+SO3-2 Trends in the proportion of the population exposed to drought
+Drought exposure indicator
+Exposure is defined in terms of the number of people who are exposed to drought as calculated from the SO3-1 indicator data.
+SO3-2.T1: National estimates of the percentage of the total population within each drought intensity class as
+well as the total population count and the proportion of the national population exposed to drought
+regardless of intensity.
+Non-exposed Mild drought Moderate drought Severe drought Extreme drought Exposed population
+Reporting Population Population Population Population Population Population
+% % % % % %
+year count count count count count count
+80 20 0 0 0 20
+2000 89314 22261 0 0 0 22 261
+.0 .0 .0 .0 .0 .0
+21 69 9 0 0 78
+2001 26815 87467 12310 0 0 99 777
+.2 .1 .7 .0 .0 .8
+0 24 62 13 0 100
+2002 0 30259 78329 17129 0 125 717
+.0 .1 .3 .6 .0 .0
+0 100 0 0 0 100
+2003 0 130485 0 0 0 130 485
+.0 .0 .0 .0 .0 .0
+16 71 11 0 0 83
+2004 21632 94369 15604 0 0 109 973
+.4 .7 .9 .0 .0 .6
+93 0 0 0
+2005 123554 8958 6 .8 0 0 0 8 958 6 .8
+.2 .0 .0 .0
+77 23 0 0 0 23
+2006 103377 30849 0 0 0 30 849
+.0 .0 .0 .0 .0 .0
+81 18 0 0 0 18
+2007 114977 25650 0 0 0 25 650
+.8 .2 .0 .0 .0 .2
+38 61 0 0 0 61
+2008 52381 83860 0 0 0 83 860
+.4 .6 .0 .0 .0 .6
+0 19 4 70 6 100
+2009 0 28175 5680 99564 8763 142 182
+.0 .8 .0 .0 .2 .0
+4 77 2 5 9 95
+2010 6685 115976 4273 8593 13469 142 311
+.5 .8 .9 .8 .0 .5
+35 64 0 0 0 64
+2011 47957 88519 0 0 0 88 519
+.1 .9 .0 .0 .0 .9
+75 24 0 0 0 24
+2012 107982 34850 0 0 0 34 850
+.6 .4 .0 .0 .0 .4
+13 86 0 0 0 86
+2013 19171 122677 0 0 0 122 677
+.5 .5 .0 .0 .0 .5
+95 0 0 0
+2014 140184 6684 4 .6 0 0 0 6 684 4 .6
+.4 .0 .0 .0
+96 0 0 0
+2015 142355 5710 3 .9 0 0 0 5 710 3 .9
+.1 .0 .0 .0
+89 10 0 0 0 10
+2016 139472 16154 0 0 0 16 154
+.6 .4 .0 .0 .0 .4
+84 0 6 0 15
+2017 134257 13800 8 .7 0 10162 0 23 962
+.9 .0 .4 .0 .1
+96 0 0 0
+2018 152092 6076 3 .8 0 0 0 6 076 3 .8
+.2 .0 .0 .0
+28 71 0 0 0 71
+2019 46710 117698 0 0 0 117 698
+.4 .6 .0 .0 .0 .6
+2020 - - - - - - -
+2021 - - - - - - -
+SO3-2.T2: National estimates of the percentage of the female population within each drought intensity class.
+Exposed female
+Non-exposed Mild drought Moderate drought Severe drought Extreme drought
+population
+Reporting Population Population Population Population Population Population
+% % % % % %
+year count count count count count count
+80 20 0 0 0 20
+2000 42555 10607 0 0 0 10 607
+.0 .0 .0 .0 .0 .0
+28 / 96
+
+--- Page 29 ---
+SO-3: To mitigate, adapt to, and manage the effects of drought in order to enhance resilience of vulnerable populations and
+ecosystems.
+Exposed female
+Non-exposed Mild drought Moderate drought Severe drought Extreme drought
+population
+Reporting Population Population Population Population Population Population
+% % % % % %
+year count count count count count count
+21 69 9 0 0 78
+2001 12860 41791 5915 0 0 47 706
+.2 .0 .8 .0 .0 .8
+0 23 62 13 0 100
+2002 0 14403 37719 8145 0 60 267
+.0 .9 .6 .5 .0 .0
+0 100 0 0 0 100
+2003 0 62673 0 0 0 62 673
+.0 .0 .0 .0 .0 .0
+16 71 11 0 0 83
+2004 10429 45410 7444 0 0 52 854
+.5 .8 .8 .0 .0 .5
+93 0 0 0
+2005 59499 4303 6 .7 0 0 0 4 303 6 .7
+.3 .0 .0 .0
+77 22 0 0 0 22
+2006 49830 14841 0 0 0 14 841
+.1 .9 .0 .0 .0 .9
+81 18 0 0 0 18
+2007 55690 12401 0 0 0 12 401
+.8 .2 .0 .0 .0 .2
+38 61 0 0 0 61
+2008 25287 40766 0 0 0 40 766
+.3 .7 .0 .0 .0 .7
+0 19 4 70 6 100
+2009 0 13658 2756 48493 4286 69 193
+.0 .7 .0 .1 .2 .0
+4 78 2 5 9 95
+2010 3250 56704 2038 4119 6580 69 441
+.5 .0 .8 .7 .1 .5
+35 65 0 0 0 65
+2011 23353 43315 0 0 0 43 315
+.0 .0 .0 .0 .0 .0
+75 24 0 0 0 24
+2012 52891 17052 0 0 0 17 052
+.6 .4 .0 .0 .0 .4
+13 86 0 0 0 86
+2013 9416 60246 0 0 0 60 246
+.5 .5 .0 .0 .0 .5
+95 0 0 0
+2014 69178 3289 4 .5 0 0 0 3 289 4 .5
+.5 .0 .0 .0
+96 0 0 0
+2015 70273 2817 3 .9 0 0 0 2 817 3 .9
+.1 .0 .0 .0
+89 10 0 0 0 10
+2016 68992 7991 0 0 0 7 991
+.6 .4 .0 .0 .0 .4
+84 0 6 0 15
+2017 66440 6826 8 .7 0 5030 0 11 856
+.9 .0 .4 .0 .1
+96 0 0 0
+2018 75251 3005 3 .8 0 0 0 3 005 3 .8
+.2 .0 .0 .0
+28 71 0 0 0 71
+2019 23130 58334 0 0 0 58 334
+.4 .6 .0 .0 .0 .6
+2020 - - - - - - -
+2021 - - - - - - -
+SO3-2.T3: National estimates of the percentage of the male population within each drought intensity class.
+Exposed male
+Non-exposed Mild drought Moderate drought Severe drought Extreme drought
+population
+Reporting Population Population Population Population Population Population
+% % % % % %
+year count count count count count count
+80 20 0 0 0 20
+2000 46759 11654 0 0 0 11 654
+.0 .0 .0 .0 .0 .0
+21 69 9 0 0 78
+2001 13955 45676 6395 0 0 52 071
+.1 .2 .7 .0 .0 .9
+0 24 62 13 0 100
+2002 0 15856 40610 8984 0 65 450
+.0 .2 .0 .7 .0 .0
+0 100 0 0 0 100
+2003 0 67812 0 0 0 67 812
+.0 .0 .0 .0 .0 .0
+16 71 11 0 0 83
+2004 11203 48959 8160 0 0 57 119
+.4 .7 .9 .0 .0 .6
+93 0 0 0
+2005 64055 4655 6 .8 0 0 0 4 655 6 .8
+.2 .0 .0 .0
+29 / 96
+
+--- Page 30 ---
+SO-3: To mitigate, adapt to, and manage the effects of drought in order to enhance resilience of vulnerable populations and
+ecosystems.
+Exposed male
+Non-exposed Mild drought Moderate drought Severe drought Extreme drought
+population
+Reporting Population Population Population Population Population Population
+% % % % % %
+year count count count count count count
+77 23 0 0 0 23
+2006 53547 16008 0 0 0 16 008
+.0 .0 .0 .0 .0 .0
+81 18 0 0 0 18
+2007 59287 13249 0 0 0 13 249
+.7 .3 .0 .0 .0 .3
+38 61 0 0 0 61
+2008 27094 43094 0 0 0 43 094
+.6 .4 .0 .0 .0 .4
+0 19 4 70 6 100
+2009 0 14517 2924 51071 4477 72 989
+.0 .9 .0 .0 .1 .0
+4 77 2 5 9 95
+2010 3435 59272 2235 4474 6889 72 870
+.5 .7 .9 .9 .0 .5
+35 64 0 0 0 64
+2011 24604 45204 0 0 0 45 204
+.2 .8 .0 .0 .0 .8
+75 24 0 0 0 24
+2012 55091 17798 0 0 0 17 798
+.6 .4 .0 .0 .0 .4
+13 86 0 0 0 86
+2013 9755 62431 0 0 0 62 431
+.5 .5 .0 .0 .0 .5
+95 0 0 0
+2014 71006 3395 4 .6 0 0 0 3 395 4 .6
+.4 .0 .0 .0
+96 0 0 0
+2015 72082 2893 3 .9 0 0 0 2 893 3 .9
+.1 .0 .0 .0
+89 10 0 0 0 10
+2016 70480 8163 0 0 0 8 163
+.6 .4 .0 .0 .0 .4
+84 0 6 0 15
+2017 67817 6974 8 .7 0 5132 0 12 106
+.9 .0 .4 .0 .1
+96 0 0 0
+2018 76841 3071 3 .8 0 0 0 3 071 3 .8
+.2 .0 .0 .0
+28 71 0 0 0 71
+2019 23580 59364 0 0 0 59 364
+.4 .6 .0 .0 .0 .6
+2020 - - - - - - -
+2021 - - - - - - -
+Qualitative assessment
+Interpretation of the indicator
+ﺽﺎﻔﺨﻧﻻ ﺔﻴﻟﺎﻋ ﺔﺒﺴﻨﺑ ﺢﺿﺍﻮﻟﺍ ﻩﺮﻴﺛﺎﺗ ﻦﻣ ﻢﻏﺮﻟﺎﺑ ﺙﺎﻧﻻﺍﻭ ﺭﻮﻛﺬﻟﺍ ﻲﻓ ﺓﺪﺣﺍﻭ ﺔﺒﺴﻨﻟﺍ ﺖﻧﺎﻛ ﺚﻴﺣ ﺲﻨﺠﻟﺍ ﻉﻮﻧ ﻰﻠﻋ ﺮﻴﺛﺄﺗ ﺎﻬﻟ ﻦﻜﻳﻢﻟ ﻑﺎﻔﺠﻟﺍ ﺕﺍﺮﺷﺆﻣ ﻥﺎﺑ ﻭﺪﺒﻴﻳ ﻖﺑﺎﺴﻟﺍ ﻝﻭﺍﺪﺠﻟﺎﺑ ﺔﺟﺭﺪﻤﻟﺍ ﺕﺎﻧﺎﻴﺒﻠﻟ ًﺎﻘﻓﻭ
+ﺓﺭﺍﺮﺤﻟﺍ ﺕﺎﺟﺭﺩ ﻉﺎﻔﺗﺭﺍﻭ ﻝﻮﻄﻬﻟﺍ ﺕﻻﺪﻌﻣ
+General comments
+ﻥﺄﺑ ﻆﺣﻼﻳ ﺎﻤﻛ .%95 ﻲﻟﺍﻮﺣ ﻰﻟﺇ ﻦﻴﻘﻴﻟﺍ ﺔﺒﺴﻧ ﻞﺼﺗﻭ ، ﻦﻣﺰﻟﺍ ﻦﻣ ًﺍﺪﻘﻋ ﻞﻜﻟ %1.25 ﻲﻟﺍﻮﺣ ﻊﻗﺍﻮﺑﻭ ، %15 ﻲﻟﺍﻮﺣ ﻪﻟﺪﻌﻣ ﻎﻠﺑ ﺔﻳﻮﻨﺴﻟﺍ ﺭﺎﻄﻣﻷﺍ ﻝﻮﻄﻫ ﻲﻓ ًﺎﻇﻮﺤﻠﻣ ًﺎﺼﻗﺎﻨﺗ ﺔﻣﺎﻋ ﺔﻔﺼﺑ ﺩﻼﺒﻟﺍ ﺕﺪﻬﺷ
+ﻲﻠﺿﺎﻔﻟﺍ ﺪﻟﺎﺧ.ﺩ ﺔﻳﻮﺠﻟﺍ ﺩﺎﺻﺭﻻﺍ ﺰﻛﺮﻣ ﺔﺳﺍﺭﺩ ﺐﺴﺣ ﻥﺮﻘﻟﺍ ﺍﺬﻫ ﻦﻣﺯ ﻰﺘﺣ ﺓﺮﻤﺘﺴﻣ ﺖﻟﺍﺯﺎﻣﻭ ﻲﺿﺎﻤﻟﺍ ﻥﺮﻘﻟﺍ ﻦﻣ 1997 ﺔﻨﺳ ﻦﻣ ﺕﺃﺪﺑ ﺭﺎﻄﻣﻷﺍﺺﻗﺎﻨﺘﻟ ﺔﻴﺧﺎﻨﻤﻟﺍ ﺓﺭﻭﺪﻟﺍ
+30 / 96
+
+--- Page 31 ---
+SO-3: To mitigate, adapt to, and manage the effects of drought in order to enhance resilience of vulnerable populations and
+ecosystems.
+SO3-3 Trends in the degree of drought vulnerability
+Drought Vulnerability Index
+SO3-3.T1: National estimates of the Drought Vulnerability Index
+Year Total country-level DVI value (tier 1) Male DVI value (tiers 2 and 3 only) Female DVI value (tiers 2 and 3 only)
+2000
+2001
+2002
+2003
+2004
+2005
+2006
+2007
+2008
+2009
+2010
+2011
+2012
+2013
+2014
+2015
+2016
+2017
+2018 0 .61
+2019
+2020
+2021
+Method
+Which tier level did you use to compute the DVI?
+☐ Tier 1 Vulnerability Assessment ⓘ
+☐ Tier 2 Vulnerability Assessment ⓘ
+☐ Tier 3 Vulnerability Assessment ⓘ
+Qualitative assessment
+SO3-3.T2: Interpretation of the indicator
+Change in the indicator Comments
+General comments
+ﺮﺷﺆﻤﻟﺍ ﻢﻴﻴﻴﻘﺗ ﺎﻬﻟﻼﺧ ﻦﻣ ﻢﺘﻳ ﺕﺎﻧﺎﻴﺑ ﺪﺟﻮﺗﻻ
+31 / 96
+
+--- Page 32 ---
+SO-3: To mitigate, adapt to, and manage the effects of drought in order to enhance resilience of vulnerable populations and
+ecosystems.
+SO3 Voluntary Targets
+SO3-VT.T1
+Target Year Level of application Status of target achievement Comments
+ﻑﺎﻔﺠﻟﺍ ﺔﻬﺑﺎﺠﻤﻟ ﺔﻴﻨﻃﻭ ﺔﻴﺠﻴﺗﺍﺮﺘﺳﺍ ﺩﺍﺪﻋﺍ 2024 National Ongoing
+ﺔﻴﻟﺎﻌﻟﺍ ﺔﻴﺋﺎﻤﻟﺍ ﺕﺎﺟﺎﻴﺘﺣﻻﺍ ﺕﺍﺫ ﻞﻴﺻﺎﺤﻤﻟﺍ ﻞﻴﻠﻘﺘﻟ ﺔﻴﺋﺎﻣﻭ ﺔﻴﻋﺍﺭﺯ ﺔﺳﺎﻴﺳ ﻉﺎﺒﺗﺍ 2024 National Ongoing
+ﺎﻬﻨﻣ ﻢﺋﺎﻘﻟﺍ ﻞﻴﻫﺎﺗ ﺓﺩﺎﻋﺍﻭﻭ ﺞﻳﺮﺤﺘﻟﺎﺑ ﺭﺎﺠﺷﻻﺎﺑ ﺓﺎﻄﻐﻤﻟﺍ ﻲﺿﺍﺭﻻﺍ ﺔﺣﺎﺴﻣ ﺓﺩﺎﻳﺯ 2025 National Ongoing
+General comments
+ﺔٌﻴﺿﺎﻤﻟﺍ ﺕﺍﻮﻨﺴﻟﺍ ﻝﻼﺧ ﺎﻴﺒﻴﻟ ﻰﻠﻋ، ﺭﺎﻄﻣﻷﺍ ﻝﻮﻄﻫ ﺺﻠﻘﺘﻟ ﺔﺠٌﻴﺘﻨﻛ ًﺍﺮٌﻴﻄﺧ ًﺎﺛﻮﻠﺗ ﺎﻬﺑ ﺮﺤﺒﻟﺍ ﻩﺎﻴﻣ ﻞﺧﺍﺪﺗ ﻯﺩﺃﻭ ، ﺔﻴﺠﻴﺗﺍﺮﺘﺳﻹﺍ، ﺎﻬﺗﺎﻧﻭﺰﺨﻣ ﻲﻓ ًﺎﺒﻴﻫﺭ ًﺍﺭﻮﻫﺪﺗ ﺔﻴﻠﺣﺎﺴﻟﺍ ﻩﺎﻴﻤﻠﻟ ﺔٌﻴﻓﻮﺠﻟﺍ ﺽﺍﻮﺣﻷﺍ ﺕﺪﻬﺷ ﺎﻤﻛ
+ﻖﻃﺎﻨﻤﻟﺍ ﻚﻠﺗ ﻲﻓ ﺔٌﻴﺟﻮﻟﻮﻜٌﻳ ﻹﺍ ﺔﻤﻈﻧﻷﺍﻭ ﺓٌﺎﻴﺤﻟﺍﺮﻫﺎﻈﻣ ﻊٌﻴﻤﺟ ﺩﺪﻬٌﻳ ﻑﻮﺳ ﺎﻣ ﺍﺬﻫﻭ ،ﺮٌﻴﻄﺧﻭ ﺮٌﻴﺒﻛ ﻞﻜﺸﺑ.
+32 / 96
+
+--- Page 33 ---
+SO4-1 Trends in carbon stocks above and below
+ground
+Soil organic carbon stocks
+Trends in carbon stock above and below ground is a multi-purpose indicator used to measure progress towards both strategic objectives 1 and 4.
+Quantitative data and a qualitative assessment of trends in this indicator are reported under strategic objective 1, progress indicator SO1-3.
+33 / 96
+
+--- Page 34 ---
+SO-4: To generate global environmental benefits through effective implementation of the United Nations Convention to Combat
+Desertification.
+SO4-2 Trends in abundance and distribution of selected species
+SO4-2.T1: National estimates of the Red List Index of species survival
+Year Red List Index Lower Bound Upper Bound Comment
+2000 0 .97013 0 .96214 0 .97418
+2001 0 .96974 0 .96172 0 .9738
+2002 0 .96909 0 .95992 0 .97322
+2003 0 .96857 0 .9606 0 .97256
+2004 0 .96819 0 .95935 0 .9722
+2005 0 .96819 0 .95854 0 .97157
+2006 0 .9682 0 .95736 0 .97136
+2007 0 .9682 0 .95707 0 .97141
+2008 0 .96823 0 .95514 0 .97156
+2009 0 .9682 0 .95484 0 .97202
+2010 0 .96815 0 .95305 0 .97255
+2011 0 .96808 0 .95162 0 .97425
+2012 0 .96804 0 .95064 0 .97472
+2013 0 .96799 0 .9486 0 .9757
+2014 0 .96794 0 .94698 0 .97684
+2015 0 .96794 0 .94676 0 .97732
+2016 0 .96796 0 .94526 0 .97761
+2017 0 .96784 0 .94542 0 .97858
+2018 0 .96793 0 .94225 0 .9796
+2019 0 .96786 0 .94044 0 .98117
+2020 0 .96762 0 .94026 0 .98216
+Qualitative assessment
+SO4-2.T2: Interpretation of the indicator
+Change in Drivers: Indirect Which levers are being used to Responses that
+Drivers: Direct (Choose
+the (Choose one or more reverse negative trends and enable led to positive Comments
+one or more items)
+indicator items) transformative change? RLI trends
+1. Human
+1. Incentives and Capacity-
+Population
+1. Climate change Building
+Dynamics and
+2. Overexploitation Trends 2. Environmental Law and
+Negative Implementation
+3. 2. Trade
+4. 3.
+3.
+5. 4.
+4.
+5.
+5.
+General comments
+ﺪﻴﺼﻟﺍ ﺕﺎﻴﻠﻤﻌﻟ ﻲﻓﺎﻘﺘﻟﺍ ﺕﺅﻭﺭﻮﻤﻟﺍﻭ ﻡﺍﺪﺨﺘﺳﻻﺍ ءﻮﺳﻭ ﻁﺮﻔﻤﻟﺍ ﻝﻼﻐﺘﺳﻻﺍﻭ ﺔﻴﺧﺎﻨﻤﻟﺍ ﺕﺍﺮﻴﻐﺘﻟﺍﻭ . ﺔﻴﻨﻃﻮﻟﺍ ﺕﺍﺭﺪﻘﻟﺍ ءﺎﻨﺑ ﺔﻠﻗﻭ ﺪﻴﺼﻟﺍﻭ ﻁﺮﻔﻤﻟﺍ ﻡﺍﺪﺨﺘﺳﻻﺍ ﺔﺠﻴﺘﻧ ﺎﻣ ﺪﺣ ﻰﻟﺍ ﺭﺍﺮﻘﺘﺳﻻﺍ ﻰﻟﺍ ﻞﻴﻤﻳ ﺮﺷﺆﻤﻟﺍ ﺮﺒﺘﻌﻳ
+34 / 96
+
+--- Page 35 ---
+SO-4: To generate global environmental benefits through effective implementation of the United Nations Convention to Combat
+Desertification.
+ﻲﻟﺍ ﻱﺩﻮﺗ ﺭﻮﻣﻻﺍ ﻩﺬﻫ ﻞﻛ ﺽﺍﺮﻘﻧﻻﺎﺑ ﺓﺩﺪﻬﻤﻟﺍﻭ ﺓﺭﺩﺎﻨﻟﺍ ﻉﺍﻮﻧﻻﺍﻭ ﺔﻴﺗﺎﺒﻨﻟﺍﻭ ﺔﻴﻧﺍﻮﻴﺤﻟﺍ ﻉﺍﻮﻧﻼﻟ ﺕﺎﻧﺎﻴﺑ ﺓﺪﻋﺎﻗ ﺩﻮﺟﻭ ﻡﺪﻋﻭ ﺔﻴﺤﻟﺍ ﺕﺎﻨﺋﺎﻜﻟﺍ ﻊﻣﻞﻣﺎﻌﺘﻟﺍ ﺕﺎﻴﻟﺍ ﻢﻈﻨﺗ ﻲﺘﻟﺍ ﺢﺋﺍﻮﻠﻟﺍﻭ ﻥﻮﻧﺎﻘﻟﺍ ﺪﻴﻔﻨﺘﻟ ﺕﺎﻴﻟﺍ ﺩﻮﺟﻭ ﻡﺪﻋﻭ
+ﺔﻴﻧﺍﻮﻴﺤﻟﺍﻭ ﺔﻴﺗﺎﻴﻨﻟﺍ ﻉﺍﻮﻧﻼﻟ ﻲﺟﻮﻟﻮﻴﺒﻟﺍ ﻉﻮﻨﺘﻟﺍ ﻥﺍﺪﻘﻓ
+35 / 96
+
+--- Page 36 ---
+SO-4: To generate global environmental benefits through effective implementation of the United Nations Convention to Combat
+Desertification.
+SO4-3 Proportion of important sites for terrestrial and freshwater biodiversity that are
+covered by protected areas, by ecosystem type
+SO4-3.T1: National estimates of the average proportion of Terrestrial KBAs covered by protected areas (%)
+Year Protected Areas Coverage(%) Lower Bound Upper Bound Comments
+2000 0.0 0 .0 0 .0
+2001 0.0 0 .0 0 .0
+2002 0.0 0 .0 0 .0
+2003 0.0 0 .0 0 .0
+2004 0.0 0 .0 0 .0
+2005 0.0 0 .0 0 .0
+2006 0.0 0 .0 0 .0
+2007 0.0 0 .0 0 .0
+2008 0.0 0 .0 0 .0
+2009 0.0 0 .0 0 .0
+2010 0.0 0 .0 0 .0
+2011 0.0 0 .0 0 .0
+2012 0.0 0 .0 0 .0
+2013 0.0 0 .0 0 .0
+2014 0.0 0 .0 0 .0
+2015 0.16 0 .16 0 .16
+2016 0.16 0 .16 0 .16
+2017 0.16 0 .16 0 .16
+2018 0.16 0 .16 0 .16
+2019 0.16 0 .16 0 .16
+2020 0.16 0 .16 0 .16
+Qualitative assessment
+SO4-3.T2: Interpretation of the indicator
+Qualitative Assessment Comment
+No Change ﻱﻮﻴﺤﻟﺍ ﻉﻮﻨﺘﻟﺍ ﻖﻃﺎﻨﻣ ﻞﻴﻫﺎﺗﻭ ﺮﻳﻮﻄﺘﻟ ﺞﻣﺍﺮﺒﻟﺍ ﻦﻣ ﺔﻣﺰﺣ ﻱﻮﺤﺗ ﺔﻄﺧ ﻰﻟﺍ ﺝﺎﺘﺤﻧ
+General comments
+ﺮﻴﺧﺎﺗ ﻰﻟﺍ ﻯﺫﺍ ﻯﺬﻟﺍ ﺮﻣﻻﺍ ﺔﺌﻴﺒﻟﺍ ﺓﺭﺍﺯﻭ ﺔﻋﺍﺭﺰﻟﺍ ﺓﺭﺍﺯﻭ ﺔﻴﻨﻌﻤﻟﺍ ﺔﻟﻭﺪﻟﺍ ﺕﺎﺴﺳﺆﻣ ﻦﻴﺑﺎﻣ ﺕﺎﺻﺎﺼﺘﺧﻻﺍ ﻞﺧﺍﺪﺗ ﻲﻓ ﻞﺜﻤﺘﺗ ﺕﺎﻴﻟﺎﻜﺷﻻﺍ ﻩﺬﻫ ﺕﺎﻫﺰﺘﻨﻤﻟﺍﻭ ﺔﻴﻌﻴﺒﻄﻟﺍ ﺕﺎﻴﻤﺤﻤﻟﺍ ﻉﻮﺿﻮﻣ ﻲﻓ ﺕﺎﻴﻟﺎﻜﺷﺍ ﻙﺎﻨﻫ ﺖﻟﺍﺯﺎﻣ
+ﺓﺩﻮﺴﻣ ﻊﺿﻭ ﺎﻬﻨﻣ ﺕﺍﺭﺩﺎﺒﻤﻟﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺎﺑ ﺖﻣﺎﻗ ﺪﻗﻭ 2021 ﻲﻓ ﺔﺌﻴﺒﻠﻟ ﺓﺭﺍﺯﻭ ءﺎﺸﻧﺍ ﻢﺗ ﺪﻘﻓ ﺔﻴﻤﺤﻤﻟﺍ ﻖﻃﺎﻨﻤﻟﺍ ﺺﺨﻳ ﺎﻤﻴﻓ ﺕﺍﺭﺩﺎﺒﻣ ﺓﺪﻋ ﻙﺎﻨﻫ ﺖﻧﺎﻛ 2020 ﺪﻌﺑ ﺎﻣ . ﺔﻴﻤﺤﻤﻟﺍ ﻊﻗﺍﻮﻤﻟﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﻞﻴﻫﺄﺗ ﺓﺩﺎﻋﺍ
+ﻊﺿﻭﻢﺗﻢﻛﺔﻳﺮﺒﻟﺍءﺎﻴﺣﻻﺍﺔﻳﺎﻤﺤﻟﺕﺎﻴﻤﺤﻣﻭﺔﺒﻃﺭﻲﺿﺭﺍﺕﺎﻴﻤﺤﻣﻭﺔﻴﻠﺣﺎﺳﺔﻳﺮﺤﺑﺕﺎﻴﻤﺤﻣﻮﻫﺎﻣﺎﻬﻨﻣﺔﻴﻤﺤﻤﻟﺍﻖﻃﺎﻨﻤﻟﺍﻦﻣﺪﻳﺪﻌﻟﺍﻥﻼﻋﺄﺑﺖﻣﺎﻗﻚﻟﺬﻛﻭﺔﻴﻠﺣﺎﺴﻟﺍﻭﺔﻴﻌﻴﺒﻄﻟﺍﺕﺎﻴﻤﺤﻤﻟﺎﺑﺹﺎﺧﻥﻮﻧﺎﻗ
+ﺔﻴﻠﺣﺎﺳ ﺔﻴﻌﻴﺒﻃ ﺕﺎﻴﻤﺤﻤﻛ ﻞﺠﺴﺗ ﺕﺎﺟﺎﺴﻣ %10 ﺔﺣﺎﺴﻣ ﻰﻟﺍ ﺎﻴﺒﻴﻟ ﻞﺼﺗ ﻥﺍ ﻊﻗﻮﺘﻤﻟﺍﻭ ﻲﺑﺎﺠﻳﺍ ﺮﻴﺛﺎﺗ ﺎﻬﻟ ﺕﺎﻴﻄﻌﻤﻟﺍ ﻩﺬﻫ ﻞﻛ ﺔﻴﻤﺠﻤﻟﺍ ﻖﻃﺎﻨﻤﻠﻟ ﺔﻴﻨﻃﻮﻟﺍ ﺔﻴﺠﻴﺗﺍﺮﺘﺳﻻﺍ .
+36 / 96
+
+--- Page 37 ---
+SO-4: To generate global environmental benefits through effective implementation of the United Nations Convention to Combat
+Desertification.
+SO4 Voluntary Targets
+SO4-VT.T1
+Level of Status of target
+Target Year Comments
+application achievement
+ﺔﻴﺗﺎﺒﻨﻟﺍ ﻉﺍﻮﻧﻸﻟ ءﺍﺮﻤﺣ ﺔﻤﺋﺎﻗﻭ ﺕﺎﻧﺎﻴﺑ ﺓﺪﻋﺎﻗ ﺩﺍﺪﻋﺍ ﻰﻟﺍ ﻝﻮﺻﻮﻟﺍ ﺩﺍﺪﻋﺍ ﻲﻠﻋ ﻞﻐﺘﺸﺗ ﺔﻴﻨﻃﻭﻥﺎﺠﻟ ﻙﺎﻨﻫ ﻥﻮﻜﻴﺳ
+2025 National Ongoing
+ﺽﺍﺮﻘﻧﻻﺎﺑ ﺓﺩﺪﻬﻤﻟﺍ ﺔﻴﻧﺍﻮﻴﺤﻟﺍﻭ ﺔﻤﺋﺎﻘﻟﺍ ﻩﺬﻫ
+Complementary information
+ﺔﻌﻴﺒﻄﻟﺍ ﻥﻮﺼﻟ ﻲﻟﻭﺪﻟﺍ ﺩﺎﺤﺗﻼﻟ ءﺍﺮﻤﺤﻟﺍ ﺔﻤﺋﺎﻘﻟﺍ ﻊﻣ ﺔﻘﻓﺍﻮﺘﻣ ﻲﺟﻮﻟﻮﻴﺒﻟﺍ ﻉﻮﻨﺘﻠﻟ ﺕﺎﻧﺎﻴﺑ ﺓﺪﻋﺎﻗ ﻚﻟﺬﻛﻭ ﺔﻴﺗﺎﺒﻨﻟﺍﻭ ﺔﻴﻧﺍﻮﻴﺤﻟﺍ ﻉﺍﻮﻧﻸﻟ ﺔﻤﺋﺎﻗ ﻙﺎﻨﻫ ﻥﻮﻜﻴﺳ ﺽﺮﺘﻔﻤﻟﺍ IUCN ﺔﻴﺠﻴﺗﺍﺮﺘﺳﺍ ﺔﻴﺠﻬﻨﻣ ﻊﻣ ﺔﻘﻓﺍﻮﺘﻣ ﻚﻟﺬﻛﻭ
+ﺲﺘﻳﺎﺳ ﺔﻴﻗﺎﻔﺗﺍﻭ ﻲﺟﻮﻟﻮﻴﺒﻟﺍ ﻉﻮﻨﺘﻟﺍ
+37 / 96
+
+--- Page 38 ---
+SO-5: To mobilize substantial and additional financial and non-financial resources to support the implementation of the
+Convention by building effective partnerships at global and national level
+SO5-1 Bilateral and multilateral public resources
+Tier 1: Please provide information on the international public resources provided and received for the
+implementation of the Convention, including information on trends.
+Trends in international bilateral and multilateral public resources provided
+Up ↑
+Stable ←→
+Down ↓
+Unknown ∾
+Trends in international bilateral and multilateral public resources received
+Up ↑
+Stable ←→
+Down ↓
+Unknown ∾
+ﺔﻋﺍﺭﺰﻟﺍﻭ ﺔﻳﺬﻏﻻﺍ ﺔﻤﻈﻨﻣ ﻰﻟﺍ ﻪﺟﻮﺘﻟﺍ، ﺔﻟﻭﺪﻠﻟ ﺔﻣﺎﻌﻟﺍ ﺔﻴﻧﺍﺰﻴﻤﻟﺍ ﺮﻴﻏ ﻯﺮﺧﺍ ﻞﻳﻮﻤﺗ ﺭﺩﺎﺼﻣ ﺚﺠﺒﻟﺍ ﺔﺳﺎﻴﺳ ﺪﻠﺒﻟﺍ ﺕﺪﻤﺘﻋﺍ FAO ﻲﻤﻟﺎﻌﻟﺍ ﺔﺌﻴﺒﻟﺍ ﻖﻓﺮﻣ GEF ﻉﺎﻄﻗ ﺔﻧﻭﺮﻣ ﺓﺩﺎﻳﺯ ﺩﺎﻔﻳﻻﺍ ﻊﻣ ﻊﻳﺭﺎﺸﻤﻟﺍ ﺩﺎﻔﻳﻻﺍﻭ
+ﻝﺍﻭ . ﻲﺧﺎﻨﻤﻟﺍ ﺮﻴﻐﺘﻟﺍ ﺔﻬﺑﺎﺠﻣ ﻲﻓ ﺔﻋﺍﺭﺰﻟﺍ GEF ﻲﺿﺍﺭﻻﺍﺭﻮﻫﺪﺗ ﺪﻴﻴﺤﺗ
+ﺭﺍﺮﻘﺘﺳﻻﺍ ﻡﺪﻋ ﺔﻟﺎﺣﻭ ﺩﻼﺒﻟﺍ ﺎﻬﺑ ﺮﻤﺗ ﻰﺘﻟﺍ ﻑﻭﺮﻈﻟﺍ ﺐﺒﺴﺑ ﻍﻼﺑﻻﺍ ﺓﺮﺘﻓ ﻝﻼﺧ ﻲﻨﻓﻭﺍ ﻲﻟﺎﻣ ﻢﻋﺩ ﺕﺎﻤﻈﻨﻤﻟﺍ ﻡﺪﻘﺗ ﻥﺍ ﺔﻴﻧﺎﻜﻣﺍ ﻙﺎﻨﻫ ﻦﻜﻳ ﻢﻟ
+Tier 2: Table 1 Financial resources provided and received
+Total Amount USD
+Provided / Received Year Committed Disbursed / Received
+Committed Disbursed
+Provided 2016
+0 0
+Committed Disbursed
+Provided 2017
+0 0
+Committed Disbursed
+Provided 2018
+0 0
+Committed Disbursed
+Provided 2019
+0 0
+Committed Received
+Received 2016
+9 952 .45 1 105 .83
+Committed Received
+Received 2017
+11 272 .70 11 272 .70
+Committed Received
+Received 2018
+538 000 .00 538 000 .000
+Committed Received
+Received 2019
+0 0
+Total resources provided: 0 0
+Total resources received: 559 225 .15 550 378 .53
+Documentation box
+Explanation
+Year 2018
+Recipient / Provider ﺔﻋﺍﺭﺰﻟﺍﻭ ﺔﻳﺬﻏﻻﺍ ﺔﻤﻈﻨﻣ
+Title of project, programme, activity or other ﺔﻨﺴﺤﻤﻟﺍ ﺭﻭﺪﺒﻠﻟ ﻭﺎﻔﻟﺍ ﻱءﺭﺍﻮﻃ ﻉﻭﺮﺸﻣ
+Total Amount USD 538.0000 ﺭﻻﻭﺩ
+38 / 96
+
+--- Page 39 ---
+SO-5: To mobilize substantial and additional financial and non-financial resources to support the implementation of the
+Convention by building effective partnerships at global and national level
+Explanation
+Sector ﺔﻋﺍﺭﺰﻟﺍ
+Capacity Building ﻦﻴﺣﻼﻔﻟﺍ ﻦﻣ ﺩﺪﻋ ﺐﻳﺭﺪﺗ ﻢﺗ
+Technology Transfer ﺔﻨﺠﻬﻣﺭﻭﺪﺑ
+Gender Equality ﺓﺍﺮﻤﻟﺍ ﺔﻤﻫﺎﺴﻣ
+Channel ﺔﻴﻧﺍﻮﻴﺤﻟﺍ ﺓﻭﺮﺜﻟﺍﻭ ﺔﻋﺍﺭﺰﻟﺍ ﺓﺭﺍﺯﻭ
+Type of flow ﻱﺮﻬﺷ
+Financial Instrument ﻢﻋﺩ
+Type of support ﻲﻟﺎﻣﻭ ، ﻲﻨﻓ
+Amount mobilised through public
+538,000.000
+interventions
+ﻢﻬﺗﺎﺟﺎﻴﺘﺣﺍ ﺮﻴﻓﻮﺗﻭ ﻢﻬﻋﺭﺍﺰﻣ ﻲﻓ ﺕﺍﻭﺮﻀﺧ ﺔﻠﺳ ﺝﺎﺘﻧﺍ ﻲﻓ ﻦﻴﻋﺭﺍﺰﻤﻟﺍ ﺓﺪﻋﺎﺴﻤﻟ ﺎﻴﺒﻴﻠﻟ ﺔﻋﺍﺭﺰﻟﺍﻭ ﺔﻳﺬﻏﻻﺍ ﺔﻤﻈﻨﻣ ﻢﻋﺩ ﺭﺎﻃﺍ ﻲﻓ
+Additional Information
+ﺔﻴﺋﺍﺬﻐﻟﺍ
+General comments
+ﻰﻠﻋ ﺎﻬﻌﻳﺯﻮﺗ ﻢﺗ ﺚﻴﺣ ﺔﻴﺋﺍﺬﻏ ﺔﻠﺳ ﺝﺎﺘﻧﻻ ﺭﻭﺬﻴﻟﺎﺑ ﻢﻫﺪﻣﻭ ﻦﻴﻋﺭﺍﺰﻤﻟﺍ ﺭﺎﻐﺻ ﻢﻋﺩ ﻑﺪﻬﺘﺴﻳ ﻉﻭﺮﺸﻤﻟﺍ ﺍﺬﻫ ﻥﺎﻛ . ﺔﻴﺿﺍﺮﺘﻓﻻﺍ ﺕﺎﻧﺎﻴﺒﻟﺍ ﻩﺬﻫ ﺭﺪﺼﻣ ﺓﺎﻘﻠﺘﻤﻟﺍﻭ ﺔﻣﺪﱠﻘﻤﻟﺍ ﺔﻴﻟﺎﻤﻟﺍ ﺩﺭﺍﻮﻤﻟﺍ - 1 ﻝﻭﺪﺠﻟﺍ :2 ﻯﻮﺘﺴﻤﻟﺍ
+ﻞﻴﺴﻛﻻﺍ ﻝﻭﺪﺟ ﻞﻳﺪﻌﺗ ﻢﺗ ﺎﻬﺒﻳﺭﺪﺗﻭ ﺓﺍﺮﻤﻟﺍ ﺔﻛﺭﺎﺸﻣﻭﻭ ﺔﻴﺒﻳﺭﺪﺗ ﺕﺍﺭﻭﺩ ءﺎﻄﻋﺍ ﻊﻣ ﺕﺎﻳﺪﻠﺒﻟﺍ ﻦﻣ ﺮﻴﺒﻛ ﺩﺪﻋ
+39 / 96
+
+--- Page 40 ---
+SO-5: To mobilize substantial and additional financial and non-financial resources to support the implementation of the
+Convention by building effective partnerships at global and national level
+SO5-2 Domestic public resources
+Tier 1: Please provide information on the domestic public expenditures, including subsidies, and revenues,
+including taxes, directly and indirectly related to the implementation of the Convention, including information
+on trends.
+Trends in domestic public expenditures and national level financing for activities relevant to the implementation of the Convention
+Up ↑
+Stable ←→
+Down ↓
+Unknown ∾
+Trends in domestic public revenues from activities related to the implementation of the Convention
+Up ↑
+Stable ←→
+Down ↓
+Unknown ∾
+( ﺔﻴﻟﺎﻤﻟﺍ ﺓﺭﺍﺯﻭ) ﺔﻟﻭﺪﻠﻟ ﻡﺎﻌﻟﺍ ﺩﺍﺮﻳﻻﺍ ﺏﺎﺴﺤﻟ ﻊﺟﺮﺗ ﺕﺍﺩﺍﺮﻳﻻﺍ ﻞﻛ ﺮﺤﺼﺘﻟﺍ ﺔﺤﻓﺎﻜﻤﻟ ﺔﺼﺼﺨﻣ ﺔﻴﻠﺤﻣ ﺕﺍﺩﺍﺮﻳﺍ ﺪﺟﻮﺗﻻ
+ﺮﺤﺼﺘﻟﺍ ﺔﺤﻓﺎﻜﻤﻟ ﺔﻴﻨﻃﻮﻟﺍ ﺔﻨﺠﻠﻟﺍﻭ ﺔﻋﺍﺭﺰﻟﺍ ﺓﺭﺍﺯﻮﻟ ﺔﻣﺎﻌﻟﺍ ﺔﻴﻧﺍﺰﻴﻤﻟﺍ ﻦﻣ ﺺﺼﺨﻳ ﺎﻣ ﻻﺍ ﻍﻼﺑﻻﺍ ﺩﺍﺪﻋﺎﺑ ﺔﺒﺻ ﺎﻬﻟ ﺕﺎﻳﺪﻠﺒﻟﺎﺑ ﺔﻴﻠﺤﻣ ﺕﺍﺩﺍﺮﻳﺍ ﺪﺟﻮﺗﻻ
+Tier 2: Table 2 Domestic public resources
+Year Amounts Additional Information
+Government expenditures 2019 19 000 000 ﻲﻋﺍﺮﻤﻟﺍ ﺮﻳﻮﻄﺗﻭ ﺔﻴﻤﻨﺗ ، ﻞﻴﺨﻨﻟﺍ ﺔﺳﻮﺳ ﺔﺤﻓﺎﻜﻣﻭ ﺔﻴﻋﺍﺭﺰﻟﺍ ﻊﻳﺭﺎﺸﻤﻟﺍ ﺔﻴﻤﻨﺗ .
+Directly related to combat DLDD 2019 400 .000 ﻝﺎﻣﺮﻟﺍ ﺖﻴﺒﺜﺗ
+Indirectly related to combat DLDD 0 ﺪﺟﻮﺗ ﻻ
+Subsidies 2019 0 ﺮﺤﺼﺘﻟﺍ ﺔﺤﻓﺎﻜﻤﺑ ﻖﻠﻌﺘﺗ ﺕﺎﻧﺎﻋﺍ ﻱﺍ ﺪﺟﻮﺗ ﻻ
+Subsidies related to combat DLDD 2019 0 ﺔﺣﺎﺘﻤﻟﺍ ﻞﺋﺍﺪﺒﻟﺍ ﺮﻴﻓﻮﺗﻭ ﻑﺎﻔﺠﻟﺎﺑ ﻖﻠﻌﺘﺗ ﺕﺎﻧﺎﻋﺍ ﻱﺍ ﺪﺟﻮﺗﻻ
+Total expenditures / total per year
+Additional
+Year Amounts
+Information
+Government revenues 2019 0
+Environmental taxes for the conservation of land resources and taxes related to combat
+2019 0
+DLDD
+Total revenues / total per year
+Documentation box
+Explanation
+Government expenditures ﺔﻟﻭﺪﻠﻟ ﺔﻣﺎﻌﻟﺍ ﺔﻴﻧﺍﺰﻴﻤﻟﺍ
+Subsidies ﺪﺟﻮﺗﻻ
+Government revenues ﺔﻓﻭﺮﻌﻣ ﺮﻴﻏ
+Domestic resources directly or indirectly related to combat ﺓﺭﺍﺯﻮﻟ ﻊﺟﺮﺗ. ﻲﺷﺍﻮﻤﻟﺍ ﻱﺩﺭﺍﻮﻣﻭ ﻦﻴﻋﺭﺍﺰﻤﻠﻟ ﺔﻴﻧﺍﻮﻴﺤﻟﺍ ﺓﻭﺮﺜﻟﺍﻭ ﺔﻋﺍﺭﺰﻟﺍ ﺓﺭﺍﺯﻭ ﺎﻬﻣﺪﻘﺗ ﻰﺘﻟﺍ ﺕﺎﻣﺪﺨﻟﺍ ﺔﻳﺎﺒﺟ
+DLDD ﺔﻴﻟﺎﻤﻟﺍ
+Has your country set a target for increasing and mobilizing domestic resources for the implementation of the Convention?
+Yes
+40 / 96
+
+--- Page 41 ---
+SO-5: To mobilize substantial and additional financial and non-financial resources to support the implementation of the
+Convention by building effective partnerships at global and national level
+No
+ﺎﻬﺘﻴﻤﻨﺗﻭ ﺔﻴﻋﺍﺭﺰﻟﺍ ﻊﻳﺭﺎﺸﻣ ﺔﻣﺎﻗﺍ. ﺎﻬﻠﻴﻫﺎﺗﻭ ﻲﻋﺍﺮﻤﻟﺍ ﺔﻴﻤﻨﺗﻭ ﺞﻳﺮﺤﺘﻟﺍﻭﺮﻴﺠﺸﺘﻟﺎﺑ ﺔﻓﺪﻬﺘﺴﻤﻟﺍ ﻲﺿﺍﺭﻻﺍ ﺕﺎﺣﺎﺴﻣ ﺓﺩﺎﻳﺯ ﻝﻼﺧ ﻦﻣ ﻲﺿﺍﺭﻻﺍ ﺭﻮﻫﺪﺗ ﺮﺛﺍ ﺪﻴﻴﺤﺗ ﻭ ﻑﺎﻔﺠﻟﺍ ﺔﻬﺑﺎﺠﻣﻭ ﺮﺤﺼﺘﻟﺍ ﺔﺤﻓﺎﻜﻣ
+General comments
+ﺞﻳﺮﺤﺘﻟﺍﻭ ﺮﻴﺠﺸﺘﻟﺍ ﺕﺎﻴﻠﻤﻋﻭ ﺔﻴﻌﻴﺒﻄﻟﺍ ﻲﻋﺍﺮﻤﻟﺍ ﺔﻴﻤﻨﺗﻭ ﺮﺤﺼﺘﻟﺍ ﺔﺤﻓﺎﻜﻣﻭ ﺔﻴﻋﺍﺭﺰﻟﺍ ﻊﻳﺭﺎﺸﻤﻟﺍ ﺔﻴﻤﻨﺗ ﻲﻓ ﺎﻬﻟﺎﻤﻌﺘﺳﻻ ﺔﻋﺍﺭﺰﻟﺍ ﺓﺭﺍﺯﻮﻟ ﺔﻣﻮﻜﺤﻟﺍ ﺎﻬﺼﺼﺨﺗ ﻰﺘﻟﺍ ﻞﻳﻮﻤﺗ ﺭﺩﺎﺼﻣ ﺮﻴﻏ ﺕﺎﻧﺎﻋﺍ ﻱﺍ ﺪﺟﻮﺗﻻ
+ﺔﻴﻋﺍﺭﺰﻟﺍﺙﻮﺤﺒﻟﺍﻭﺕﺎﺳﺍﺭﺪﻟﺍءﺍﺮﺟﺍﻭﺕﺎﻓﻻﺍﺔﺤﻓﺎﻜﻣﻭ
+41 / 96
+
+--- Page 42 ---
+SO-5: To mobilize substantial and additional financial and non-financial resources to support the implementation of the
+Convention by building effective partnerships at global and national level
+SO5-3 International and domestic private resources
+Tier 1: Please provide information on the international and domestic private resources mobilized by the
+private sector of your country for the implementation of the Convention, including information on trends.
+Trends in international private resources
+Up ↑
+Stable ←→
+Down ↓
+Unknown ∾
+Trends in domestic private resources
+Up ↑
+Stable ←→
+Down ↓
+Unknown ∾
+ﺔﻌﻴﺒﻄﻟﺍ ﻥﻮﺼﻟ ﻲﻟﻭﺪﻟﺍ ﺩﺎﺤﺗﻻﺍ ﻞﻳﻮﻤﺘﺑ ﺔﻳﺮﻄﻌﻟﺍﻭ ﺔﻴﺒﻄﻟﺍ ﺕﺎﺗﺎﺒﻨﻟﺍ ﻝﻮﺘﺷ ﺝﺎﺘﻧﺍ IUCN
+ﻥﻮﺼﻟ ﻲﻟﻭﺪﻟﺍ ﺩﺎﺤﺗﻻﺍ ﺎﻬﺤﻨﻤﻳ ﻰﺘﻟﺍ ﺕﺍﺭﺩﺎﺒﻤﻟﺍ ﻦﻤﺿ ﺔﻳﺮﻄﻌﻟﺍﻭ ﺔﻴﺒﻄﻟﺍ ﺕﺎﺗﺎﺒﻨﻟﺍ ﻞﻴﺘﺸﺗ ﺔﻴﻠﻤﻋ ﺔﻴﻠﻫﻻﺍ ﺕﺎﻴﻌﻤﺠﻟﺍ ﺪﺣﺍ ﺖﻟﻮﺗ ﺚﻴﺣ ، ﺞﻳﺮﺤﺘﻟﺍﻭ ﺮﻴﺠﺸﺘﻟﺍ ﺕﺎﻴﻠﻤﻋ ﻲﻓ ﻚﻳﺮﺷ ﺖﺤﺒﺻﺍ ﻲﻧﺪﻤﻟﺍ ﻊﻤﻨﺠﻤﻟﺍ ﺕﺎﻤﻈﻨﻣ
+ﺔﻌﻴﺒﻄﻟﺍ .
+Tier 2: Table 3 International and domestic private resources
+Title of project, programme, Total Type of Additional
+Year Financial Instrument Recipient
+activity or other Amount USD institution Information
+☐ Charitable grant
+☐ Commercial
+loans
+☐ Non-
+concessional loan
+Libya
+☐ Private Export
+Non-profit
+2016 ﺔﻳﺮﻄﻌﻟﺍﻭ ﺔﻴﺒﻄﻟﺍ ﺕﺎﺗﺎﺒﻨﻟﺍ ﻝﻮﺘﺷ ﺝﺎﺘﻧﺍ ☐ Domestic
+☐ Credit institution
+mobilization
+☐ Private Equities
+☐ Private Insurance
+☒ Other(specify)
+ﻲﻟﻭﺪﻟﺍ ﺩﺎﺤﺗﻻﺍ ﻦﻣ ﻢﻋﺩ
+ﺔﻌﻴﺒﻄﻟﺍ ﻥﻮﺼﻟ
+Total 0
+Total per year 2016: 0
+Please provide methodological information relevant to data presented in table 3
+ﺔﻴﻟﻭﺪﻟﺍ ﺕﺎﻤﻈﻨﻤﻟﺍ ﺍﺪﻟ ﻞﻳﻮﻤﺗ ﺭﺩﺎﺼﻣ ﻦﻋ ﺚﺤﺒﻟﺎﺑ ﺔﻴﻟﺎﻣﻭ ﺎﻴﻨﻓ ﻪﻤﻋﺩ ﺎﻨﻣ ﺏﺎﻄﺘﻳ ﺍﺬﻫﻭ ﺮﺤﺼﺘﻟﺍ ﺔﺤﻓﺎﻜﻣ ﻊﻳﺭﺎﺸﻣﻭ ﺞﻣﺍﺮﺑ ﺬﻴﻔﻨﺘﻟ ﻝﺎﻌﻓ ﻚﻳﺮﺷ ﺹﺎﺨﻟﺍ ﻉﺎﻄﻘﻟﺍ ﺢﺒﺻﺍ
+Has your country taken measures to encourage the private sector as well as non-governmental organizations,
+foundations and academia to provide international and domestic resources for the implementation of the
+Convention?
+ﻦﻋ ﻒﺸﻜﻟﺍﻭ ﺔﻴﻠﻘﺤﻟﺍ ﺕﺎﻴﻠﻤﻌﻟﺍ ﺔﻌﺑﺎﺘﻣ ﻚﻟﺬﻛﻭ ﻦﻴﻋﺭﺍﺰﻤﻠﻟ ﺩﺎﺷﺭﺍﻭ ﻢﻋﺩ ﻚﻟﺬﻛﻭ ﺕﺍﺪﻌﻣﻭ ﺓﺪﻤﺳﺍ ﻦﻣ ﺔﻴﻋﺍﺭﺰﻟﺍ ﺕﺎﻣﺰﻠﺘﺴﻤﻟﺍ ﺮﻴﻓﻮﺗ ﻰﻟﻮﺘﺗ ﺔﻋﺍﺭﺰﻟﺍ ﻝﺎﺠﻣ ﻲﻓ ﺔﻠﻣﺎﻌﻟﺍ ﺔﺻﺎﺨﻟﺍ ﺕﺎﻛﺮﺸﻟﺍ ﻦﻣ ﺮﻴﺒﻛ ﺩﺪﻋ ﻙﺎﻨﻫ، ﻢﻌﻧ
+ﻞﻤﻋ ﺵﺭﺭﻭ ﺔﻴﺒﻳﺭﺪﺗ ﺕﺍﺭﻭﺩ ﻡﺪﻘﺗﻭ ﻦﻴﺣﻼﻔﻟﺍ ﺎﻬﻴﻓ ﻊﻤﺠﺘﻳ ﺔﻴﻠﻫﺍ ﺕﺎﻴﻌﻤﺟﻭ ﺥﺎﻨﻤﻟﺍﻭ ﺔﺌﻴﺒﻟﺍ ﻲﻓ ﺺﺼﺨﺘﻣ ﺎﻬﻨﻣ ﺩﺪﻋ ﻙﺎﻨﻫ ﻲﻧﺪﻟﺍ ﻊﻤﺘﺠﻤﻟﺍ ﺕﺎﻤﻈﻨﻣ ﺎﻣﺍ ﻦﻴﻋﺭﺍﺰﻤﻠﻟ ﺢﺼﻨﻟﺍ ﻡﺪﻘﺗﻭ ﺽﺍﺮﻣﻻﺎﺑ ﺔﺑﺎﺻﻻﺍ .
+General comments
+ﺩﺭﺍﻮﻤﻟﺍ ﺔﻳﺎﻤﺣﻭ ﻲﻋﺍﺭﺰﻟﺍ ﺝﺎﺘﻧﻻﺍ ﺓﺩﺎﻳﺯ ﻲﻓ ﺔﻤﻫﺎﺴﻤﻠﻟ ﺔﻣﺯﻼﻟﺍ ﺕﺎﺟﺎﻴﺘﺣﻻﺍ ﻞﻛ ﻡﺪﻘﺗﻭ ﺮﻴﻓﻮﺗﻭ ﻢﻬﺒﻳﺭﺪﺗﻭ ﻦﻴﻋﺍﺭﺰﻤﻟﺍ ﺓﺪﻧﺎﺴﻤﻟ ﺔﻋﺍﺭﺰﻟﺍ ﺕﻻﺎﺠﻣ ﻲﻓ ﺔﺼﺼﺨﺘﻤﻟﺍ ﺔﻴﻠﻫﻻﺍ ﺕﺎﻴﻌﻤﺠﻟﺍ ﻦﻳﻮﻜﺗ ﺔﻴﻠﻤﻋ ﺔﻣﻮﻜﺤﻟﺍ ﻊﺠﺸﺗ
+ﺔﻴﻌﻴﺒﻄﻟﺍ
+42 / 96
+
+--- Page 43 ---
+SO-5: To mobilize substantial and additional financial and non-financial resources to support the implementation of the Convention by building effective
+partnerships at global and national level
+SO5-4 Technology transfer
+Tier 1: Please provide information relevant to the resources provided, received for the transfer of technology for the
+implementation of the Convention, including information on trends.
+Trends in international bilateral and multilateral public resources provided
+Up ↑
+Stable ←→
+Down ↓
+Unknown ∾
+Trends in international bilateral and multilateral public resources received
+Up ↑
+Stable ←→
+Down ↓
+Unknown ∾
+ﻊﺑﺎﺘﻟﺍ ﺎﻴﻓﺍﺮﻐﺠﻟﺍ ﺪﻬﻌﻣ ﻊﻣ ﺪﻗﺎﻌﺘﻟﺎﺑ ﻝﺎﻣﺮﻟﺍ ﺖﺒﺜﺘﻟ ﺔﻴﻨﻴﺼﻟﺍ ﺔﺑﺮﺠﺘﻟﺍ ﻞﻘﻧ ﻰﻟﺍ ﺖﻌﺳ ﺚﻴﺣ ﻝﺎﺠﻤﻟﺍ ﺍﺬﻫ ﻲﻓ ﺔﻣﺪﻘﺘﻜﻟﺍ ﻝﻭﺪﻟﺍ ﺏﺭﺎﺠﺗ ﻦﻣ ﺓﺩﺎﻔﺘﺳﻻﺍﻭ ﺮﺤﺼﺘﻟﺍ ﺔﺤﻓﺎﻜﻣ ﻲﻓ ﺔﺜﻳﺪﺤﻟﺍ ﺕﺎﻴﻨﻘﺘﻟﺍ ﻦﻴﻃﺆﺗﻭ ﻝﺎﺧﺩﺍ ﻰﻟﺍ ﺮﺤﺼﺘﻟﺍ ﺔﺤﻓﺎﻜﻤﻟ ﺔﻴﻨﻃﻮﻟﺍ ﺔﻨﺠﻠﻟﺍ ﻰﻌﺴﺗ
+ﻚﻟﺫ ﻥﻭﺩ ﻝﺎﺣ ﺩﻼﺒﻟﺍ ﻪﺑ ﺮﻤﺗ ﻱﺬﻟﺍ ﻲﺋﺎﻨﺜﺘﺳﻻﺍ ﻉﻮﻟﺍ ﻥﺍ ﻻﺍ ، ﺱﺪﻨﻬﻣ 20 ﺐﻳﺭﺪﺗﻭ ﻝﺎﻣﺮﻟﺍ ﻒﺣﺰﺑ ﺓﺮﺛﺄﺘﻤﻟﺍ ﺕﺍﺭﺎﺴﻤﻟﺍﻭ ﻕﺮﻄﻟﺍ ﻦﻣ ﺩﺪﻋ ﻲﻓ ﺔﺑﺮﺠﺗ ﺔﻣﺎﻗﻻ ﺔﻴﺌﻴﺒﻟﺍ ﻡﻮﻌﻠﻟ ﺔﻴﻨﻴﺼﻟﺍ ﺔﻴﻤﻳﺩﺎﻛﻼﻟ .
+ﻦﻣ ﺕﻻﻼﺳ ﺝﺎﺘﻧﺍ ﻰﻟﺍ ﺔﻬﺟﻮﻤﻟﺍ ﺙﻮﺤﺒﻟﺍ ﻢﻋﺩ ﻰﻟﺍ ﻪﺟﻮﺘﻟﺍ ﺓﺩﺪﺠﺘﻤﻟﺍﻭ ﺔﻔﻴﻈﻨﻟﺍ ﺔﻗﺎﻄﻟﺍ ﻮﺤﻧ ﻩﺎﺠﺗﻻﺍﻭ ﺔﻈﻓﺎﺤﻟﺍ ﺔﻋﺍﺭﺰﻟﺍ ﻡﺍﺪﺨﺘﺳﺍ ﻭﺍ ﻑﺎﻔﺠﻟﺍ ﻡﻭﺎﻘﺗﻭ ﺔﺣﻮﻠﻤﻟﺍ ﻞﻤﺤﺘﺗ ﺭﺎﺠﺷﺍ ﺖﻧﺎﻛ ﻮﺳ ﺔﻴﺌﻴﺒﻟﺍ ﺎﻨﻓﻭﺮﻈﻟ ﺔﻬﺑﺎﺸﻤﻟﺍ ﻝﻭﺪﻟﺍ ﻲﻓ ﺔﺤﺟﺎﻨﻟﺍ ﺏﺭﺎﺠﺘﻟﺍ ﻝﺎﺧﺩﺍ
+ﻞﻴﺻﺎﺤﻤﻟﺍ ﻱﺭ ﻲﻓ ﺔﻴﻟﺎﻋ ﺓءﺎﻔﻛ ﺕﺍﺫ ﺕﺎﻴﻨﻘﺗﻭ ﺐﻴﻟﺎﺳﺍ ﻡﺍﺪﺨﺘﺳﺍ ﻑﺎﻔﺠﻠﻟ ﺔﻠﻤﺤﺘﻤﻟﺍ ﻞﻴﺻﺎﺤﻤﻟﺍ
+Tier 2: Table 4 Resources provided and received for technology transfer measures or activities
+Title of Status Use,
+Timeframe
+project, Description Activities of impact
+Provided Recipient Type of of Additional
+Year programme, Amount and Sector undertaken measure and
+Received Provider technology measure Information
+activity or objectives by or estimated
+or activity
+other activity results
+Total provided: 0 Total received: 0
+Please provide methodological information relevant to data presented in table 4
+Include information on underlying assumptions, definitions and methodologies used to identify and report on technology transfer
+support provided and/or received and/or required. Please include links to relevant documentation.
+4 ﻢﻗﺭ ﻝﻭﺪﺠﻟﺎﺑ ﻊﻳﺭﺎﺸﻣ ﺪﺟﻮﺗﻻ
+Please provide information on the types of new or current technologies required by your country to address desertification, land
+degradation and drought (DLDD), and the challenges encountered in acquiring or developing such technologies.
+ﺐﻳﺭﺪﺘﻟﺍ . ﺔﻴﻧﺎﻜﻣ ﺕﺎﻧﺎﻴﺑ ﺔﺌﻴﻫ ﻰﻠﻋ ﺎﻬﺟﺍﺮﺧﺍﻭ ﺎﻬﺗﺎﺣﺎﺴﻣ ﺏﺎﺴﺣﻭ ﻲﺿﺍﺭﻻﺍﺭﻮﻫﺪﺗﻭ ﺮﺤﺼﺘﻟﺍ ﺔﻟﺎﺣ ﻢﻴﻴﻘﺗ ﻲﻓ ﺪﻌﺑ ﻦﻋ ﺭﺎﻌﺸﺘﺳﻻﺍﻭ ﺔﻴﻓﺍﺮﻐﺠﻟﺍ ﺕﺎﻣﻮﻠﻌﻤﻟﺍ ﻢﻈﻧ ﺕﺎﻣﺍﺪﺨﺘﺳﺍ ﺎﻬﺗﺎﻣﺍﺪﺨﺘﺳﺍ ﻰﻠﻋ ﺐﻳﺭﺪﺘﻟﺍ ﻚﻟﺬﻛﻭ ﻪﻤﻴﻴﻘﺗﻭ ﻑﺎﻔﺠﻟﺍ ﻊﺒﺘﺘﻟ ﺪﺻﺍﺮﻣ ﻝﺎﺧﺩﺍ
+ﺮﺤﺼﺘﻟﺍ ﺔﺤﻓﺎﻜﻣ ﻝﺎﺠﻣ ﻲﻓ ﺔﺜﻳﺪﺤﻟﺍ ﺕﺎﻴﻨﻘﺘﻟﺍ ﻡﺍﺪﺨﺘﺳﺍ ﻰﻠﻋ ﺓﺭﺩﺎﻗ ﺔﻴﻨﻃﻭ ﺭﺩﺍﻮﻛ ءﺎﻨﺑﻭ ﻞﻴﻫﺄﺘﻟﺍﻭ .
+General comments
+ﻲﻓ ﺓﺪﺋﺍﺮﻟﺍ ﻝﻭﺪﻟﺍ ﻞﺋﺍﻭﺍ ﻦﻣ ﺎﻴﺒﻴﻟ ﺖﻧﺎﻛ ﺚﻴﺣ ﻲﺋﺍﺬﻐﻟﺍ ﻦﻣﻻﺍ ﻖﻴﻘﺤﺗﻭ ﺔﻳﺩﺎﺼﺘﻗﻻﺍ ﻭﺍ ﺔﻴﺌﻴﺒﻟﺍ ﺎﻫﺭﺍﺮﺿﺍ ﻞﻴﻠﻘﺗﻭ ﺓﺮﻫﺎﻈﻟﺍ ﻩﺬﻫ ﺮﻃﺎﺨﻣ ﻦﻣ ﺪﺤﻟﺍ ﻲﻓ ﺔﻣﺎﻬﻟﺍ ﻞﺋﺎﺳﻮﻟﺍ ﻦﻣ ﻑﺎﻔﺠﻟﺍﻭ ﻲﺿﺍﺭﻻﺍ ﺭﻮﻫﺪﺗﻭ ﺮﺤﺼﺘﻟﺍ ﺔﺤﻓﺎﻜﻣ ﻝﺎﺠﻣ ﻲﻓ ﺔﺜﻳﺪﺣ ﺕﺎﻴﻨﻘﺗ ﻡﺍﺪﺨﺘﺳﺍ ﺮﺒﺘﻌﻳ
+ﻞﻴﺨﻧ ﺕﺎﻔﻟﺎﺨﻣ ﻲﻫﻭ ﻲﺌﻴﺒﻟﺍ ﺵﺍﺮﻔﻟﺍ ﺔﻴﻨﻘﺗ ﺖﻠﺧﺩﺍﻭ ( ﺔﻴﺒﻴﻠﻟﺍ ﺔﻘﻳﺮﻄﻟﺍ ) ﺮﻴﻛ ﻞﻜﺸﺑ ﻢﻟﺎﻌﻟﺍ ﻯﻮﺘﺴﻣ ﻰﻠﻋ ﺕﺮﺸﺘﻧﺍﻭ ﺔﻴﻄﻔﻨﻟﺍ ﺕﺎﻘﺘﺸﻤﻟﺍ ﻡﺍﺪﺨﺘﺳﺎﺑ ﻝﺎﻣﺮﻟﺍ ﺖﻴﺒﺜﺗ ﺔﺑﺮﺠﺗ
+43 / 96
+
+--- Page 44 ---
+SO-5: To mobilize substantial and additional financial and non-financial resources to support the implementation of the
+Convention by building effective partnerships at global and national level
+SO5-5 Future support for activities related to the implementation of the Convention
+SO5-5.1: Planned provision and mobilization of domestic public and private resources
+Please provide information relevant to the planned provision and mobilization of domestic resources for the
+implementation of the Convention, including information relevant to indicator SO5-2, as well as information
+on projected levels of public financial resources, target sectors and planned domestic policies.
+ﻪﺗﺍﺮﺼﻣ ﺔﻨﻳﺪﻣ ﺏﺮﻏ ﺲﻤﺨﻟﺍ ﺔﻨﻳﺪﻣ ﻰﻟﺍ ﺔﻴﺴﻧﻮﺘﻟﺍ ﺩﻭﺪﺤﻟﺍ ﻦﻣ ﺪﺘﻤﻳ ﺮﻀﺧﺍ ﻡﺍﺰﺣ ﺔﻣﺎﻗﺍ ﻲﺗﺎﺒﻨﻟﺍ ءﺎﻄﻐﻠﻟ ﺔﻄﺋﺮﺧ ﺝﺎﺘﻧﺍ ﻑﺎﻔﺠﻠﻟﺔﻴﻨﻃﻭ ﺔﻴﺠﻴﺗﺍﺮﺘﺳﺍ ﺩﺍﺪﻋﺍ ﻲﺿﺍﺭﻻﺍ ﺭﻮﻫﺪﺗ ﺮﺛﺍ ﺪﻴﻴﺤﺘﻟ ﺔﻴﻨﻃﻮﻟﺍ ﻑﺍﺪﻫﻻﺍ ﺩﺍﺪﻋﺍ
+ﺮﺤﺼﺘﻟﺍ ﺔﺤﻓﺎﻜﻣﻭ ﺎﻬﻴﻠﻋ ﺔﻈﻓﺎﺤﻤﻠﻟ ﻑﺎﻔﺠﻠﻟ ﺔﻣﻭﺎﻘﻤﻟﺍ ﺔﻳﺮﻄﻌﻟﺍﻭ ﺔﻴﺒﻄﻟﺍ ﺕﺎﺗﺎﺒﻨﻟﺍ ﺔﻋﺍﺭﺯ
+SO5-5.2: Planned provision and mobilization of international public and private resources
+Please provide information relevant to the planned provision and mobilization of international resources for
+the implementation of the Convention, including information on projected levels of public financial resources
+and support to capacity building and transfer of technology, target regions or countries, and planned
+programmes, policies and priorities.
+ﺭﺩﺍﻮﻜﻟﺍ ءﺎﻨﺑ ﻞﻳﻮﻤﺗ ﺭﺩﺎﺼﺼﻣ ﻦﻋ ﺚﺤﺒﻠﻟ ﺔﻴﺑﺮﻌﻟﺍﻭ ﺔﻴﻤﻴﻠﻗﻻﺍﻭ ﺔﻴﻟﻭﺪﻟﺍ ﺕﺎﻤﻈﻨﻤﻠﻟ ﻊﻳﺭﺎﺸﻣ ﻖﺋﺎﺛﻭ ﻢﻳﺪﻘﺗ . ﺔﻴﻌﻴﺒﻄﻟﺍ ﺩﺭﺍﻮﻤﻟﺍ ﻞﻴﻫﺄﺗﻭ ﺔﻳﺎﻤﺣﻭ ﺔﻈﻓﺎﺤﻤﻠﻟ ﺔﻟﻭﺪﻠﻠﻟ ﺔﻣﺎﻌﻟﺍ ﺔﻴﻧﺍﺰﻴﻤﻟﺍ ﻦﻣ ﺺﺼﺨﻳ ﺎﻣ ﻦﻣ ﻞﻳﻮﻤﺘﻟﺍ
+ﻊﻳﺭﺎﺸﻤﻟﺍ ﻩﺬﻫ ﻲﻓ ﺔﻤﻫﺎﺴﻤﻠﻟ ﺓﺍﺮﻤﻟﺍﻭ ﺏﺎﺒﺸﻟﺍ ﻊﻴﺠﺸﺗﻭ ﻑﺎﻔﺠﻟﺍﻭﺮﺤﺼﺘﻟﺍ ﺮﻃﺎﺨﻤﺑ ﻲﻋﻮﻟﺍ ﺰﻳﺰﻌﺗ ﻞﻴﻫﺎﺘﻟﺍﻭ ﺐﻳﺭﺪﺘﻟﺍﻭ ﺔﻴﻨﻃﻮﻟﺍ
+SO5-5.3: Resources needed
+Please provide information relevant to the financial resources needed for the implementation of the
+Convention, including on the projects and regions which needs most support and on which your country has
+focused to the greatest extent.
+ﺔﻘﻄﻨﻤﺑ ﻞﺣﺎﺴﻟﺍ ﻰﻠﻋ ﺔﻴﻋﺍﺭﺰﻟﺍ ﻖﻃﺎﻨﻤﻟﺍ ﻰﻫﻭ ﺭﺎﻄﻣﻻﺍ ﻁﻮﻘﺳ ﺔﻠﻗﻭ ﻑﺎﻔﺠﻟﺍ ﺔﺠﻴﺘﻧ ﺓﺮﻴﺧﻻﺍ ﺕﺍﻮﻨﺴﻟﺍ ﻝﻼﺧ ﺕ ﺭﺮﻀﺗ ﺮﺜﻛﻻﺍ ﻖﻃﺎﻨﻤﻟﺍ ﺔﻟﻭﺪﻟﺍ ﺔﻴﻧﺍﺰﻴﻣ ﻦﻣ ﺭﺎﻨﻳﺩ ﻥﻮﻴﻠﻣ ﺓﺮﺸﻋ ﻰﻟﺍﻮﺣ ﺔﻣﺯﻼﻟﺍ ﺔﻴﻟﺎﻤﻟﺍ ﺩﺭﺍﻮﻤﻟﺍ
+ﻲﺋﺍﺬﻐﻟﺍ ﻦﻣﻻﺍ ﻖﻴﻘﺤﺗﻭ ﺏﻮﺒﺤﻟﺍ ﺝﺎﺘﻧﺍ ﺓﺩﺎﻳﺰﻟ ﺔﻴﻋﺍﺭﺰﻟﺍ ﺮﺋﺍﻭﺪﻟﺎﺑ ﻑﺮﻌﻳ ﺎﻤﻴﻓ ﺔﻴﺑﻮﻨﺠﻟﺍ ﺔﻘﻄﻨﻤﻟﺍ ﻚﻟﺬﻛﻭ ﺝﺮﻤﻟﺍﻭ ﺓﺭﺎﻔﺠﻟﺍ ﻞﻬﺳ
+General comments
+ﻲﻓ ﺔﻤﻫﺎﺴﻤﻟﺍﻭ ﺓﺮﺠﻬﻟﺍ ﻊﻨﻣﻭ ﻲﻣﻮﻘﻟﺍ ﻦﻣﻻﺍ ﻖﻴﻘﺤﺗﻭ ءﺍﺬﻐﻟﺍ ﺮﻴﻓﻮﺗ ﻲﻫﻭ ﺎﻬﻠﺟﺍ ﻦﻣ ﺖﺌﻧﺍ ﻱﺬﻟﺍ ﻑﺪﻬﻟﺍ ﻖﻴﻘﺤﺗﻭ ﺎﻬﻠﻴﻫﺎﺗ ﺓﺩﺎﻋﻻ ﻞﻳﻮﻤﺗﻭ ﻢﻋﺩ ﻰﻟﺍ ﺝﺎﺘﺤﺗ ﻰﺘﻟﺍ ﺔﻴﺠﻴﺗﺍﺮﺘﺳﻻﺍ ﺕﺎﻋﻭﺮﺸﻤﻟﺍ ﻦﻣ ﻊﻳﺭﺎﺸﻤﻟﺍ ﻩﺬﻫ ﺪﻌﺗ
+ﺔﻴﺟﻮﻟﻮﻜﻳﻻﺍ ﻢﻈﻨﻟﺍ ﺔﻳﺎﻤﺣﻭ ﻢﻬﻟ ﻞﻤﻋ ﺹﺮﻓ ﺮﻴﻓﻮﺗﻭ ﺔﻳﺩﺎﺼﺘﻗﻻﺍ ﻢﻬﻋﺎﺿﻭﺍ ﻦﻴﺴﺤﺗﻭ ﻦﻴﻴﻠﺤﻤﻟﺍ ﻥﺎﻜﺴﻟﺍ ﻦﻴﻃﻮﺗ
+44 / 96
+
+--- Page 45 ---
+IF: Implementation Framework
+Financial and Non-Financial Sources
+Increasing the mobilization of resources:
+Would you like to share an experience on how your country has increased the mobilization of resources within the reporting
+period?
+Yes
+No
+What type of resources were mobilized (check all that apply)?
+☒ Financial Resources
+☒ Non-Financial
+Which sources were mobilized?
+☒ International
+☐ Domestic
+☒ Public
+☐ Private
+☒ Local communities
+☐ Non-traditional funding sources
+☐ Climate Finance
+☐ Other (please specify)
+Use this space to describe the experience:
+ﻻ ﺕﺎﻬﺠﻟﺍ ﻩﺬﻫ ﻦﻣ ﺔﻣﺪﻘﻤﻟﺍﻭ ﺔﺣﻮﻨﻤﻤﻟﺍ ﻢﻴﻘﻟﺍ ﻦﻜﻟﻭ ﺔﻴﻗﺎﻔﺗﻻﺍ ﺬﻴﻔﻨﺗ ﺞﻣﺍﺮﺑ ﻲﻓ ءﺪﺒﻠﻟ ﺔﻤﻋﺍﺩﻭ ﺓﺪﻴﺟ ﺮﺒﺘﻌﺗ ﺔﻴﻠﺤﻤﻟﺍ ﺕﺎﻌﻤﺘﺠﻤﻟﺍﻭ ﺔﻣﺎﻌﻟﺍ ﺔﻴﻣﻮﻜﺤﻟﺍﻭ ﺔﻴﻟﻭﺪﻟﺍ ﺕﺎﻬﺠﻟﺍ ﻞﺒﻗ ﻦﻣ ﺔﺌﺒﻌﺘﻠﻟ ﺖﻌﻀﺧ ﻲﺘﻟﺍ ﺭﺩﺎﺼﻤﻟﺍ ﺔﺑﺮﺠﺗ ﻥﺇ
+ﺮﺤﺼﺘﻟﺍ ﺔﺤﻓﺎﻜﻣ ﻲﻓ ﺪﻴﺟ ﻯﻮﺘﺴﻣﻰﻟﺍ ﻲﻘﺗﺮﺘﻟ ﺔﻴﺿﺮﻣﻭ ﺔﺑﻮﻠﻄﻣ ﺞﺋﺎﺘﻧ ﻰﻟﺍ ﻝﻮﺻﻮﻠﻟ ﺞﻣﺍﺮﺒﻟﺍ ﻩﺬﻫ ﺔﻴﻄﻐﺘﻟ ﻲﻔﻜﺗ
+What were the challenges faced, if any?
+ﺩﺭﺍﻮﻤﻟﺍ ﺔﺌﺒﻌﺗ ﻰﻠﻋ ﺔﻴﻠﺤﻤﻟﺍ ﺕﺎﻌﻤﺘﺠﻤﻟﺍ ﺓﺭﺪﻗ ﻡﺪﻋ ﺔﻟﻭﺪﻠﻟ ﺔﻣﺎﻌﻟﺍ ﺔﻴﻧﺍﺰﻴﻤﻟﺍ ﻦﻣ ﻞﻳﻮﻤﺘﻟﺍ ﻒﻌﺿ
+What do you consider to be the lessons learned?
+ﺓﺪﻳﺪﺟ ﺔﺌﺒﻌﺗ ﺭﺩﺎﺼﻣ ﻦﻋ ﻢﺋﺍﺪﻟﺍ ﺚﺤﺒﻟﺍ .2 ﺔﺣﻮﻨﻤﻤﻟﺍ ﻢﻴﻘﻟﺍﻭ ﺐﺳﺎﻨﺘﻳ ﺎﻤﺑ ﺮﺤﺼﺘﻟﺍ ﺔﺤﻓﺎﻜﻣ ﻊﻳﺭﺎﺸﻣﻭ ﺞﻣﺍﺮﺑ ﺭﺎﻴﺘﺧﺍ ﻖﻳﺮﻃ ﻦﻋ ﻯﻭﺪﺟ ﺮﺜﻛﺍ ﻞﻜﺸﺑ ﺔﺣﻮﻨﻤﻤﻟﺍ ﺔﺌﺒﻌﺘﻟﺍﺭﺩﺎﺼﻣ ﻡﺍﺪﺨﺘﺳﺍ ﺔﻴﻔﻴﻛ .1 :ﻲﻓ ﺖﻧﺎﻛ ﺓﺩﺎﻔﺘﺳﻻﺍ
+ﺔﺣﻮﻨﻤﻤﻟﺍ ﻢﻴﻘﻟﺍ ﻲﻓ ﺺﻗﺍﻮﻨﻟﺍ ﺔﻴﻄﻐﺘﻟ ﺓﺩﺪﺠﺘﻣﻭ
+How did you ensure that women benefited from/got access to this funding?
+ﺮﺤﺼﺘﻟﺍ ﺔﺤﻓﺎﻜﻣ ﺞﻣﺍﺮﺑﻭ ﻊﻳﺭﺎﺸﻤﻟ ﻞﻤﻋ ﻕﺮﻓ ﻦﻤﺿ ﻦﻬﺟﺍﺭﺩﺍﻭ ﺔﻳﻮﻋﻮﺗ ﻞﻤﻋ ﺵﺭﻭﻭ ﺞﻣﺍﺮﺑ ﻲﻓ ءﺎﺴﻨﻟﺍ ﻙﺍﺮﺷﺍ ﻖﻳﺮﻃ ﻦﻋ
+Use this space to provide any further complementary information you deem relevant:
+ﻒﻳﺮﻟﺍ ﻦﻜﺳ ءﺎﺴﻨﻠﻟ ﺔﻄﺳﻮﺘﻤﻟﺍﻭ ﻯﺮﻐﺼﻟﺍ ﻊﻳﺭﺎﺸﻤﻟﺍ ﺮﻴﻓﻮﺘﻟ ﺔﻔﻠﺘﺨﻣ ﺭﺩﺎﺼﻣ ﺮﻴﻓﻮﺘﻟ ﻲﻌﺴﻟﺍﻭ ﺔﻴﻟﺎﻤﻟﺍ ﺩﺭﺍﻮﻤﻟﺍ ﺔﺌﺒﻌﺗ ﻰﻠﻋ ﺚﺤﺒﻟﺍ ﻰﻟﺍ ﻰﻌﺴﺗ ﺕﺎﻤﻈﻨﻣ ﻲﻓ ءﺎﺴﻨﻟﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﺖﻤﻀﻧﺍ
+Has your country supported other countries in the mobilization of financial and non-financial resources for the implementation
+of the Convention?
+Yes
+45 / 96
+
+--- Page 46 ---
+IF: Implementation Framework
+No
+Using Land Degradation Neutrality as a framework to increase investment:
+From your perspective, would you consider that you have taken advantage of the LDN concept to enhance the coherence,
+effectiveness and multiple benefits of investments?
+Yes
+No
+Use this space to describe the experience:
+ﺓﺮﻴﺒﻛ ﺕﺎﺣﺎﺴﻤﻟ ﻲﺗﺎﺒﻨﻟﺍ ءﺎﻄﻐﻟﺍ ﺓﺩﺎﻋﺍﻭ ﻪﺗﺍﺮﺼﻣ ﺔﻨﻳﺪﻤﺑ ﺮﻀﺧﻻﺍ ﻡﺍﺰﺤﻟﺍ ﺔﻘﻄﻨﻣ ﻲﻓ ﻥﺎﻛ ﻮﺳ ﻪﻠﻴﻫﺎﺗﻭ ﻩﺎﺠﺗﺍ ﺲﻜﻋ ﻲﻓ ﻚﻟﺫﻭ ﺎﻣ ﺎﻋﻮﻧ ﺔﻴﺿﺮﻣ ﺔﺟﺭﺩ ﻰﻟﺍ ﺭﻮﻫﺪﺘﻟﺍ ﺪﻴﻴﺤﺗ ﻡﻮﻬﻔﻣ ﻦﻣ ﺓﺩﺎﻔﺘﺴﺳﻻﺍ ﻲﻓ ﺎﻴﺒﻴﻟ ﺖﺤﺠﻧ
+ﻥﺎﻳﺮﻏﻭ ﺔﻳﺰﻳﺰﻌﻟﺍ ﺔﻨﻳﺪﻣ ﻦﻴﺑ ﻂﺑﺍﺮﻟﺍ ﻖﻳﺮﻄﻟﺍ ﻲﺒﻧﺎﺟ ﻰﻠﻋ ﺮﺘﻣﻮﻠﻴﻛ 7 ﺔﻓﺎﺴﻣ ﻰﻠﻋ ﻝﺎﻣﺮﻟﺍ ﺖﻴﺒﺜﺗ ﻲﻓ ﺔﻋﺍﺭﺰﻟﺍ ﺓﺭﺍﺯﻭ ﺖﺤﺠﻧ ﺓﺮﻴﻬﻟﺍ ﻖﻳﺮﻃ ﺲﻠﺑﺍﺮﻃ ﺏﻮﻨﺟ ﺓﺰﻳﺰﻌﻟﺍ ﺔﻘﻄﻨﻤﺑ ﻚﻟﺬﻛﻭ ﺮﺘﻣﻮﻠﻴﻛ 42 ﻰﻟﺍﻮﺤﻟ ﺪﺘﻤﺗ
+ﻝﺎﺠﻤﻟﺍ ﻩﺬﻫ ﻲﻓ ﺕﺍﺮﺒﺧ ﺔﻠﻣﺎﻌﻟﺍ ﻯﻮﻘﻟﺍ ﺖﺒﺴﺘﻛﺍﻭ .
+What were the challenges faced, if any?
+ﻲﺑﺮﻣ ﻦﻣ ﺕﺎﻳﺪﻌﺘﻟﺍ . ﺔﻟﻭﺪﻟﺍ ﺔﻴﻧﺍﺰﻴﻣ ﻦﻣ ﺺﺼﺨﻤﻟﺍ ﻞﻳﻮﻤﺘﻟﺍ ﻒﻌﺿ ﻉﻭﺮﺸﻤﻟﺍ ﺍﺬﻫ ﻲﻓ ﻊﺳﻮﺘﻟﺍ ﻥﻭﺩ ﺖﻟﺎﺣ ﺔﻟﻭﺪﻠﻟ ﺔﻛﻮﻠﻤﻣ ﺮﻴﻐﻟﺍ ﻲﺿﺍﺭﻼﻟﺍ ﺓﺯﺎﻴﺣ ﻑﺎﻔﺠﻟﺍ ﻚﻟﺬﻛﻭ ﺓﺭﺍﺮﺠﻟﺍ ﺕﺎﺟﺭﺩ ﻉﺎﻔﺗﺭﺍﻭ ﺔﻴﺧﺎﻨﻤﻟﺍ ﺕﺍﺮﻴﻐﺘﻟﺍ
+ﻲﻋﺮﻤﻛ ﻊﻗﻮﻤﻟﺍ ﺍﺬﻫ ﻡﺍﺪﺨﺘﺳﻻ ﻡﺎﻨﻏﻻﺍ
+What do you consider to be the lessons learned?
+ءﺎﻄﻐﻟﺍ ﻦﺴﺣﻭ ﻞﻤﻋ ﺹﺮﻓ ﺮﻴﻓﻮﺗ ﻲﻓ ﻢﻫﺎﺳﻭ ﺎﻬﺘﻴﻤﻨﺗ ﻦﻣ ﺔﻘﻄﻨﻤﻟﺍ ﻩﺬﻬﻟ ﻦﻳﺭﻭﺎﺠﻤﻟﺍ ﻥﺎﻜﺴﻟﺍ ﺓﺩﺎﻔﺘﺳﺍ ﻭ ﺕﺍﺭﺎﻬﻣ ﺏﺎﺴﺘﻛﺍ. ﺔﻴﻟﺎﻋ ﺔﻴﻠﻋﺎﻔﺑ ﺞﺋﺎﺘﻧ ﻰﻄﻋﺍﻭ ﺮﺤﺼﺘﻟﺍ ﺔﺤﻓﺎﻜﻣ ﻲﻓ ًﺎﺣﺎﺠﻧ ﺮﺜﻛﺍ ﻲﺟﻮﻟﻮﻴﺒﻟﺍ ﺖﻴﺒﺜﺘﻟﺍ ﻥﺍ
+ﻲﺗﺎﺒﻨﻟﺍ
+Improving existing and/or innovative financial processes and institutions
+From your perspective, do you consider that your country has improved the use of existing and/or innovative financial
+processes and institutions?
+Yes
+No
+46 / 96
+
+--- Page 47 ---
+IF: Implementation Framework
+Policy and Planning
+Action Programmes:
+Has your country developed or helped develop, implement, revise or regularly monitor your national action programme?
+Yes
+No
+Use the space below to share more details about your country's experience:
+ﺔﻴﺠﻴﺗﺍﺮﺘﺳﻻﺍ ﻑﺍﺪﻫﻼﻟ ًﺎﻘﻓﻭ ﺮﺤﺼﺘﻟﺍ ﺔﺤﻓﺎﻜﻤﻟ ﺓﺪﺤﺘﻤﻟﺍ ﻢﻣﻻﺍ ﺔﻴﻗﺎﻔﺗﻻ ﻲﺠﻴﺗﺍﺮﺘﺳﻻﺍ ﺭﺎﻃﻻﺍ ﻊﻣ ﻰﺷﺎﻤﺘﻳ ﺎﻤﺑ ﺎﻴﺒﻴﻟ ﻲﻓ ﺮﺤﺼﺘﻟﺍ ﺔﺤﻓﺎﻜﻤﻟ ﻲﻨﻃﻮﻟﺍ ﺞﻣﺎﻧﺮﺒﻟﺍ ﺚﻳﺪﺤﺘﺑ ﺮﺤﺼﺘﻟﺍﺔﺤﻓﺎﻜﻤﻟ ﺔﻴﻨﻃﻮﻟﺍ ﺔﻨﺠﻠﻟﺍ ﺖﻣﺎﻗ
+ﻲﻋﺍﺮﻤﻟﺍ ﺮﻳﻮﻄﺗﻭ ﺔﻴﻤﻨﺗﻭ ﻩﺎﻴﻤﻟﺍ ﺩﺎﺼﺣﻭ ﺕﺎﻴﻤﺤﻤﻟﺍ ﺔﻴﻤﻨﺗﻭ ﺔﻴﺒﺸﻌﻟﺍ ﺕﺎﺣﺎﺴﻤﻟﺍﻭ ﺭﺎﺠﺷﻻﺎﺑ ﺓﺎﻄﻐﻤﻟﺍ ﺕﺎﺣﺎﺴﻤﻟﺍ) ﻲﺗﺎﺒﻨﻟﺍ ءﺎﻄﻐﻟﺍ ﻦﻴﺴﺤﺗ ﻰﻠﻋ ﻞﻤﻌﺗ ﻰﺘﻟﺍ ﺔﻄﺸﻧﻻﺍﻭ ﺞﻣﺍﺮﺒﻟﺍ ﻦﻣ ﺔﻣﺰﺣ ﻦﻤﻀﺘﻳ ﺔﻴﻠﻴﻐﺸﺘﻟﺍﻭ
+ﺔﻴﻋﺍﺭﺰﻟﺍ ﻊﻳﺭﺎﺸﻤﻟﺍ ﻦﻣ ﺩﺪﻋ ﻞﻴﻫﺄﺗ ﺓﺩﺎﻋﺍﻭ ﻝﺎﻣﺮﻟﺍ ﺖﻴﺒﺘﺛﻭ ﺔﻴﻌﻴﺒﻄﻟﺍ .
+Would you consider the action programmes and/or plans to be successful and what do you consider the main reasons for
+success or lack thereof?
+ﻢﻏﺭ. ﻲﺋﺍﺬﻐﻟﺍ ﻦﻣﻻﺍ ﻦﻣ ءﺰﺟ ﻖﻴﻘﺤﺗﻭ. ﺔﻴﺒﺸﻋﻲﺿﺍﺭﺍﻭﺍ ﻞﻴﺻﺎﺤﻣ ﻲﺿﺍﺭﺍ ﺖﻧﺎﻛ ءﻮﺳ ﻲﺿﺍﺭﻻﺍ ﺔﻴﺟﺎﺘﻧﺍ ﺓﺩﺎﻳﺯ ﻰﻟﺍ ﺔﻓﺎﺿﻻﺎﺑ ﺔﻴﺧﺎﻨﻤﻟﺍ ﺕﺍﺮﻴﻐﺘﻟﺍ ﻊﻣ ﻒﻴﻜﺘﻟﺍ ﻢﻬﺴﺗ ﻰﺘﻟﺍ ﺔﺤﺟﺎﻨﻟﺍ ﻂﻄﺨﻟﺍ ﻢﻫﺍ ﻦﻣ ﺮﺒﺘﻌﺗ
+ﺮﻀﺧﻻﺍ ﻞﺒﺠﻟﺎﺑ ﺕﺎﺣﺎﺴﻣ ﺔﻴﻤﻨﺗ ، ﺓﺮﻴﻬﻟﺍ ﺮﻴﺠﺸﺗ ﺓﺩﺎﻋﺍ ﻊﻗﻮﻣﻭ ، ﻦﻄﻴﻟﺯ ﺔﺗﺍﺮﺼﻣ ﺮﻀﺧﻻﺍ ﻡﺍﺰﺤﻟﺍ ﺔﻴﻤﻨﺗ ﻲﻓ ﺕﺎﺣﺎﺠﻧ ﻙﺎﻨﻫ ﺔﻄﻴﺴﺒﻟﺍ ﺕﺎﻴﻧﺎﻜﻣﻻﺍﻭ ﻑﻭﺮﻈﻟﺍ.
+What were the challenges faced, if any?
+- ( ﻲﺋﺎﻨﺜﺘﺳﺍ ﺔﻠﺣﺮﻣ ) ﺩﻼﺒﻟﺍ ﺎﻬﺑ ﺮﻤﺗ ﻰﺘﻟﺍ ﻑﻭﺮﻈﻟﺍ - .ﺞﻣﺍﺮﺒﻟﺍ ﻩﺬﻫ ﺯﺎﺠﻧﺍ ﻲﻓ ﺕﺎﻴﻨﻘﺘﻟﺍ ﻡﺍﺪﺨﺘﺳﻻ ﺍ ﻰﻠﻋ ﺔﺑﺭﺪﻤﻟﺍﻭ ﺔﻠﻫﺆﻤﻟﺍ ﺔﻴﻨﻃﻮﻟﺍ ﺭﺩﺍﻮﻜﻟﺍ ﺔﻠﻗ - ﻊﻳﺭﺎﺸﻤﻟﺍﻭ ﺞﻣﺍﺮﺒﻟﺍﻭ ﻂﻄﺨﻟﺍ ﻩﺬﻫ ﺬﻴﻔﻨﺘﻟ ﻡﺯﻻﺍ ﻞﻳﻮﻤﺘﻟﺍ ﻒﻌﺿ
+What do you consider to be the lessons learned?
+ﺕﺎﻤﻈﻨﻤﻟﺍ ﻩﺬﻫ ﻦﻤﺿ ﺓﺍﺮﻤﻟﺍﺔﻛﺭﺎﺸﻣﻮﺗﺍﺮﺒﺧ ﻖﻴﺤﺗﻭ ﺮﺒﻛﺍ ﺔﻴﻠﻋﺎﻔﺑ ﻲﻧﺪﻤﻟﺍ ﻊﻤﺘﺠﻤﻟﺍ ﺕﺎﻤﻈﻨﻣ ﻙﺍﺮﺷﺍ .ﻊﻳﺭﺎﺸﻤﻟﺍ ﻩﺬﻬﻟ ﻦﻴﻴﻠﺤﻤﻟﺍ ﻥﺎﻜﺴﻟﺍ ﺔﻛﺭﺎﺸﻣﻭ ﺝﺎﻣﺩﺍ ﺞﻣﺍﺮﺒﻟﺍ ﻩﺬﻫ ﺓﺭﺍﺩﺍﻭ ﺬﻴﻔﻨﺗ ﻲﻓ ﺓﺮﺒﺧ ﺏﺎﺴﺘﻛﺍ
+Policies and enabling environment:
+During the reporting period, has your country established or helped establish policies and enabling environments to promote
+and/or implement solutions to combat desertification/land degradation and mitigate the effects of drought?
+Yes
+No
+These policies and enabling environments were aimed at (check all that apply):
+☒ Promoting solutions to combat desertification, land degradation and drought (DLDD)
+☒ Implementing solutions to combat DLDD
+☐ Protecting women’s land rights
+☒ Enhancing women’s access to natural, productive and/or financial resources
+☐ Other (please specify)
+How best to describe these experiences (check all that apply):
+☒ Prevention of the effects of DLDD
+☐ Relief efforts after DLDD has caused environmental and or socioeconomic stress on ecosystems and or populations
+☐ Recovery efforts after DLDD has caused environmental and or socioeconomic stress on ecosystems and or populations
+☐ Engagement of women in decision - making
+☐ Implementation and promotion of women's land rights and access to land resources
+☒ Building women's capacity for effective UNCCD implementation
+47 / 96
+
+--- Page 48 ---
+IF: Implementation Framework
+☐ Other (please specify)
+Use the space below to share more details about your country/sub-region/region/institution's experience.
+ﺩﻼﺒﻟﺍ ﺩﺭﺍﻮﻣ ﺔﻴﻤﻨﺘﻟ ﺬﻴﻔﻨﺘﻠﻟ ﺔﻠﺑﺎﻗ ﺔﻧﺯﺍﻮﺘﻣ ﺔﻠﻣﺎﻜﺘﻣ ﺔﻄﺧ ﻊﺿﻭ ﺔﻋﺍﺭﺰﻟﺍ ﺓﺭﺍﺯﻭ ﺕﺍﺭ ﻚﻟﺬﻟ ﺔﺑﺮﺘﻟﺍ ﻒﻌﺿﻭ ﻩﺎﻴﻤﻟﺍ ﺢﺷ ﺎﻬﻨﻣ ﺕﺎﻗﻮﻌﻤﻟﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﻪﺟﺍﻮﺗﺎﻴﺒﻴﻟ ﻲﻓ ﺔﻋﺍﺭﺰﻟﺍ ﺓﺭﺍﺯﻭ ﺎﻬﻌﺒﺘﺗ ﻰﺘﻟﺍ ﺔﻳﻮﻤﻨﺘﻟﺍ ﺕﺎﺳﺎﻴﺴﻟﺍ ﻥﺍ
+ﺭﺎﻤﺜﺘﺳﻻﺍﻭ ﻲﻠﻫﻻﺍ ﻁﺎﺸﻨﻟﺍ ﻊﻴﺠﺸﺗ ﻰﻟﺍ ﻑﺪﻬﺗﻭ ﻊﻗﺍﻮﻟﺍ ﺕﺎﻳﺪﺤﺘﻟ ﺐﻴﺠﺘﺴﺗﻭ ﻲﻋﺎﻤﺘﺟﻻﺍﻭ ﻱﺩﺎﺼﺘﻗﻻﺍ ﻯﻮﺘﺴﻤﻟﺍ ﻦﻣ ﻊﻓﺮﻟﺍ ﻑﺪﻬﺑ ﺕﺎﻓﻻﺍﻭ ﺮﺤﺼﺘﻟﺍ ﺔﺤﻓﺎﻜﻣﻭ ﻥﺎﻜﺴﻟﺍ ﺭﺍﺮﻘﺘﺳﺍﻭ ﻲﺋﺍﺬﻐﻟﺍ ﻦﻣﻻﺍ ﻖﻴﻘﺤﺗﻭ ﺔﻴﻋﺍﺭﺰﻟﺍ
+ﺔﺌﻴﺒﻟﺍ ﻰﻠﻋ ﺔﻈﻓﺎﺤﻤﻟﺍﻭ ﺔﻴﻋﺍﺭﺰﻟﺍ ﺩﺭﺍﻮﻤﻠﻟ ﻞﺜﻣﻻﺍ
+Do you consider these policies to be successful in promoting or implementing solutions to address DLDD, including prevention,
+relief and recovery, and what do you consider the main factors of success or lack thereof?
+ﺔﻴﺒﻴﻠﻟﺍ ﺏﺮﺘﻟﺍ ﻉﺍﻮﻧﺍ ﻦﻣ ﻉﻮﻧ ﻞﻛ ﺐﺴﺣ ﺔﺒﺳﺎﻨﻤﻟﺍ ﺔﻨﻜﻴﻤﻟﺍ ﻡﺍﺪﺨﺘﺳﺍ ﺕﺎﺳﺎﻴﺴﻟﺍ ﻩﺬﻫ ﻞﺜﻣ ﻞﺸﻓ ﺏﺎﺒﺳﺍ ﻢﻫﺍ ﻦﻣ ﺪﻴﺷﺮﻟﺍ ﺮﻴﻐﻟﺍﻭ ﻢﺋﻼﻤﻟﺍ ﺮﻴﻏ ﻡﺍﺪﺨﺘﺳﻻﺍ ﺮﺒﺘﻌﻳ ﺚﻴﺣ ﻩﺎﻴﻤﻟﺍﻭ ﺔﺑﺮﺘﻟﺍ ﺩﺭﺍﻮﻤﻠﻟ ﺕﺎﺳﺍﺭﺩ ﻰﻠﻋ ﺖﻴﻨﺑ ﺎﻬﻧﻻ
+ﺔﻴﻠﺤﻤﻟﺍ ﻑﻭﺮﻇ ﻊﻣ ﺔﻔﻴﻜﺘﻤﻟﺍ ﺔﺜﻳﺪﺤﻟﺍ ﺔﻴﻨﻘﺘﻟﺍ ﻒﻴﻇﻮﺗ
+What were the challenges faced, if any?
+ﻲﺴﺳﺆﻤﻟﺍ ﺭﺍﺮﻘﺘﺳﻻﺍ ﻡﺪﻋ ﺔﻴﺧﺎﻨﻤﻟﺍ ﺕﺍﺮﻴﻐﺘﻟﺍ ﺔﺑﺭﺪﻤﻟﺍ ﺔﻠﻣﺎﻌﻟﺍ ﻯﻮﻘﻟﺍ ﻒﻌﺿ ﺔﻳﺩﺎﻤﻟﺍ ﺕﺎﻴﻧﺎﻜﻣﻻﺍ ﻒﻌﺿ
+What would you consider to be the lessons learned?
+ﻰﺘﻟﺍ ﻞﻛﺎﺸﻤﻟﺍ ﻞﻜﻟ ﻲﻤﻠﻌﻟﺍ ﺚﺤﺒﻟﺍﻭ، ﻞﻴﻫﺎﺘﻟﺍﻭ ﺐﻴﻳﺭﺪﺘﻟﺍﻭ ﻢﻴﻠﻌﺘﻟﺍ ﻖﻳﺮﻃ ﻦﻋ ﺔﻣﺍﺪﺘﺴﻣ ﺔﻳﺮﺸﺑ ﺔﻴﻤﻨﺗ ﺞﻣﺍﺮﺑ ﻖﻓﻭ ﻚﻟﺫﻭ ﻲﺿﺍﺭﻻﺍ ﺭﻮﻫﺪﺗﻭ ﺮﺤﺼﺘﻟﺍ ﺔﻠﻜﺸﻤﻟﺍ ﺓﺭﻮﻄﺧ ﻢﻬﻔﺗ ﻰﻠﻋ ﺭﺩﺎﻗ ﻥﻮﻜﻳ ﻢﻬﻔﺘﻣﻭ ﻉﻭ ﻞﻴﺟ ﻖﻠﺧ
+ﺔﻴﻔﻳﺮﻟﺍ ﺓﺍﺮﻤﻟﺍ ﺔﻴﻤﻨﺗﻭ ﻲﻋﺍﺭﺰﻟﺍ ﻡﻼﻋﻻﺍﻭ ﺔﻋﺍﺭﺰﻟﺍ ﻪﺟﺍﻮﺗ
+Has your country supported other countries in establishing policies and enabling environments to promote and implement
+solutions to combat desertification/land degradation and mitigate the effects of drought, including prevention, relief and
+recovery?
+Yes
+No
+Synergies:
+From your perspective, has your country leveraged synergies and integrated DLDD into national plans related to other MEAs,
+particularly the other Rio Conventions and other international commitments?
+Yes
+No
+Your country's actions were aimed at (please check all that apply):
+☒ Leveraging DLDD with other national plans related to the other Rio Conventions
+☒ Integrating DLDD into national plans
+☒ Leveraging synergies with other strategies to combat DLDD
+☒ Integrating DLDD into other international commitments
+☒ Other (please specify)
+ﺔﺛﻼﺜﻟﺍ ﺔﻴﺌﻴﺒﻟﺍ ﻮﻳﺭ ﺕﺎﻴﻗﺎﻔﺗﺍ ﻦﻴﺑ ﻖﻴﺴﻨﺘﻟﺍﻭ ﻥﻭﺎﻌﺘﻟﺍﺰﻳﺰﻌﺗ
+Use the space below to describe your country's experience.
+ﻭﻞﻴﺻﻮﺗﻭﺭﺯﺄﺘﻟﺍﻡﻮﻬﻔﻣﺰﻳﺰﻌﺗﺔﻴﻐﺑﻚﻟﺫﻭﻲﺧﺎﻨﻤﻟﺍﺮﻴﻐﺘﻟﺍﺔﻴﻗﺎﻔﺗﺍﻭﻲﺟﻮﻟﻮﻴﺒﻟﺍﻉﻮﻨﺘﻟﺍﺔﻴﻗﺎﻔﺗﺍﻭﺮﺤﺼﺘﻟﺍﺔﺤﻓﺎﻜﻤﻟﺓﺪﺤﺘﻤﻟﺍﻢﻣﻻﺍﺔﻴﻗﺎﻔﺗﻻﺔﻴﻨﻃﻮﻟﺍﻝﺎﺼﺗﻻﺍﻁﺎﻘﻧﻦﻴﺑﺕﺎﻋﺎﻤﺘﺟﻻﺍﻭﺕﺍءﺎﻘﻠﻟﺍﻦﻣﺪﻳﺪﻌﻟﺍﺪﻘﻋﻢﺗ
+ﻲﺧﺎﻨﻤﻟﺍﺮﻴﻐﺘﻟﺍﻭ ﻱﻮﻴﺤﻟﺍ ﻉﻮﻨﺘﻟﺍ ﺔﻳﺎﻤﺣﻭ ﺮﺤﺼﺘﻟﺍ ﺔﺤﻓﺎﻜﻤﻟ ﻡﺪﺨﺗ ﺔﻴﻨﻃﻮﻟﺍ ﺔﻴﺠﻴﺗﺍﺮﺘﺳﻻﺍ ﺩﺍﺪﻋﺍ ﺓﺭﻭﺮﻀﺑ ﺭﺍﺮﻘﻟﺍ ﻱﺪﺨﺘﻣﻭ ﺕﺎﺳﺎﻴﺴﻟﺍ ﻲﻌﻧﺎﺻ
+Do you consider this experience a success and, if so, what do you consider the reasons behind this success (or lack thereof)?
+ﺐﻠﻄﺘﻳ ﺍﺬﻫﻭ ،ﻱﻮﻴﺤﻟﺍ ﻉﻮﻨﺘﻟﺍ ﺓﺩﻮﻋ ﻲﻟﺎﺘﻟﺎﺑﻭ ﻲﺧﺎﻨﻤﻟﺍ ﺮﻴﻐﺘﻟﺍ ﻊﻣ ﻒﻴﻜﺘﻟﺍﻭ ﻒﻴﻔﺨﺘﻟﺍ ﻲﻓ ﺔﻤﻫﺎﺴﻤﻟﺍﻭ ﺮﺤﺼﺘﻟﺍ ﺔﺤﻓﺎﻜﻣﻭ ﺔﻴﻌﻴﺒﻄﻟﺍ ﺩﺭﺍﻮﻤﻟﺍ ﺔﻳﺎﻤﺣ ﻰﻠﻋ ﻝﺎﻌﻓ ﺮﺛﺍ ﻪﻟ ﻥﻮﻜﻴﺳ ﻮﻳﺭ ﺕﺎﻴﻗﺎﻔﺗﺍ ﻦﻴﺑ ﺩﻮﻬﺠﻟﺍ ﻞﻣﺎﻜﺗ ﻢﻌﻧ
+48 / 96
+
+--- Page 49 ---
+IF: Implementation Framework
+ﻲﺧﺎﻨﻤﻟﺍﺭ ﻲﻐﺘﻟﺍﻭ ﺮﺤﺼﺘﻟﺍ ﺔﺤﻓﺎﻜﻣ ﺔﻴﻗﺎﻔﺗﺍﻭ ﻱﻮﻴﺤﻟﺍ ﻉﻮﻨﺘﻟﺍ ﺔﻴﻗﺎﻔﺗﺍ ﻦﻴﺑ ﺔﺑﺮﺠﺘﻟﺍ ﻩﺬﻬﻟ ﻡﺯﻼﻟﺍ ﻲﻟﺎﻤﻟﺍ ﻢﻋﺪﻟﺍ ﺮﻴﻓﻮﺗ
+What were the challenges faced, if any?
+ﻢﻬﻓ ﻰﻠﻋ ﺔﻴﻨﻃﻮﻟﺍ ﺮﺻﺎﻨﻌﻟﺍﻒﻌﺿ ﺭﺯﺎﺘﻟﺍ ءﺍﺪﺒﻣ ﻖﻘﺤﺘﻳ ﻦﻟ ﺪﺋﺎﺴﻟﺍ ﻮﻫ ﻱﺩﺮﻔﻟﺍ ﻞﻤﻌﻟﺍ ءﺍﺪﺒﻣ ﻝﺍﺯﺎﻣ ﻲﻨﻌﻤﺑ ﻱﺍ ﺕﺎﻴﻗﺎﻔﺗﻻﺍ ﻩﺬﻫ ﻰﻠﻋ ﻢﺋﺎﻗ ﻦﻤﻣ ﺪﻳﺪﻌﻠﻟ ﺔﺒﺴﻨﻟﺎﺑ ﺢﺿﺍﻭ ﺮﻴﻏ ﻮﻳﺭ ﺕﺎﻴﻗﺎﻔﺗﺍ ﻦﻴﺑ ﺭﺯﺄﺘﻟﺍ ﻉﻮﺿﻮﻣ ﻝﺍﺯﺎﻣ
+ﺔﻴﺌﻴﺒﻟﺍ ﺕﺎﻴﻗﺎﻔﺗﻻﺍ ﻞﻛ ﻪﻴﻠﻋ ﺚﺤﺗ ﻰﺘﻟﺍ ﺭﻮﻈﻨﻤﻟﺍ ﺍﺬﻫ
+What would you consider to be the lessons learned?
+ﺔﻴﺌﻓﺪﻟﺍ ﺕﺍﺯﺎﻐﻟﺍﺕﺎﺛﺎﻌﺒﻧﺍ ﻞﻴﻠﻘﺗﻭ ﻱﺭﺍﺮﺤﻟﺍ ﺱﺎﺒﺘﺣﻻﺍ ﻦﻣ ﻞﻴﻠﻘﺘﻟﺍﻭ ﻲﺧﺎﻨﻤﻟﺍ ﺮﻴﻐﺘﻟﺍﺔﻬﺑﺎﺠﻣﻭ ﻱﻮﻴﺤﻟﺍ ﻉﻮﻨﺘﻟﺍ ﺓﺩﺎﻳﺯﻭ ﺮﺤﺼﺘﻟﺍ ﺔﺤﻓﺎﻜﻣ ﺞﻣﺍﺮﺑﻭ ﻂﻄﺨﻠﻟ ﺞﺋﺎﺘﻧ ﻕﺩﺍﻭ ﺔﻴﻠﻋﺎﻓ ﺮﺜﻛﺍ
+Mainstreaming desertification, land degradation and drought:
+From your perspective, did your country take specific actions to mainstream, DLDD in economic, environmental and social
+policies, with a view to increasing the impact and effectiveness of the implementation of the Convention?
+Yes
+No
+If so, DLDD was mainstreamed into (check all that apply):
+☒ Economic policies
+☒ Environmental policies
+☐ Social policies
+☒ Land policies
+☐ Gender policies
+☒ Agricultural policies
+☐ Other (please specify)
+Use the space below to describe your country's experience.
+ﻦﻴﻧﺍﻮﻘﻟﺍﻭ ﺕﺍءﺍﺮﺟﻻﺍ ﻦﻣﺔﻣﺰﺣ ﺕﺍءﺎﻘﻠﻟﺍﻭ ﺕﺎﺸﻗﺎﻨﻤﻟﺍﻭ ﺕﺎﻋﺎﻤﺘﺟﻻﺍ ﻩﺬﻫ ﻦﻋ ﺖﺠﺘﻧﻭ ﻑﺎﻔﺠﻟﺍﻭ ﻲﺿﺍﺭﻻﺍ ﺭﻮﻫﺪﺗﻭ ﺮﺤﺼﺘﻟﺍ ﺔﺤﻓﺎﻜﻣ ﺲﻤﻠﺗ ﻲﺘﻟﺍ ﺕﺎﻋﺎﻄﻘﻟﺍﻭ ﺕﺎﻬﺠﻟﺍ ﻦﻴﺑ ﺔﻳﺭﻭﺎﺸﺗ ﺕﺎﻋﺎﻤﺘﺟﺍ ﺓﺪﻋ ﺖﺛﺪﺣ
+ﺔﺣﻮﻠﻤﻟﺍﻭ ﻑﺎﻔﺠﻟﺍ ﻞﻤﺤﺘﺗ ﻰﺘﻟﺍ ﻞﻴﺻﺎﺤﻤﻟﺍ ﻲﻓ ﻊﺳﻮﺘﻟﺍﻭ ﺔﻴﻟﺎﻌﻟﺍ ﺔﻴﺋﺎﻤﻟﺍ ﺕﺎﺟﺎﻴﺘﺣﻻﺍ ﺕﺍﺫ ﻞﻴﺻﺎﺤﻤﻟﺍ ﻞﻴﻠﻘﺗﻭ ﻩﺎﻴﻤﻟﺍ ﻲﻓ ﻁﺮﻔﻤﻟﺍ ﻡﺍﺪﺨﺘﺳﻻﺍ ﻦﻣ ﺪﺤﺗ ﺔﻴﺋﺎﻣﻭ ﺔﻴﻋﺍﺭﺯ ﺕﺎﺳﺎﻴﺳ ﺬﻴﻔﻨﺗ ﻦﻤﻀﺗ ﻰﺘﻟﺍ ﻊﻳﺭﺎﺸﻤﻟﺍﻭ ﺞﻣﺍﺮﺒﻟﺍﻭ
+ﺔﻴﺳﺍﺭﺪﻟﺍ ﺕﺎﻳﻮﺘﺴﻤﻟﺍ ﻒﻠﺘﺨﻣ ﻲﻓ ﺔﻴﻤﻴﻠﻌﺗ ﺞﻫﺎﻨﻣﻭ ﺔﻴﻣﻼﻋﺍ ﺞﻣﺍﺮﺑ ﺮﺒﻋ ﻲﺿﺍﺭﻷﺍ ﻡﺍﺪﺨﺘﺳﺍﻭ ﻩﺎﻴﻤﻟﺍ ﺩﺭﺍﻮﻤﻟ ﻞﺜﻣﻻﺍ ﻡﺍﺪﺨﺘﺳﻻﺍ ﻰﻠﻋ ﺚﺤﻟﺍﻭ ﻲﻋﻮﻟﺍ ﻦﻣ ﻊﻓﺮﻟﺍ ﻰﻟﺍ ﺔﻓﺎﺿﻻﺎﺑ
+Do you consider this experience a success and, if so, what do you consider the reasons behind this success (or lack thereof)?
+ﺔﻴﻟﺎﺣﻭ ﺔﻘﺑﺎﺳ ﺕﺍﺮﺘﻓ ﻲﻓ ﺩﻼﺒﻟﺍ ﻪﺑ ﺮﻤﺗﻭ ﻪﺑ ﺕﺮﻣﺎﻣﻭ ﺩﻼﺒﻟﺍ ﺔﻌﻗﺭ ﺮﺒﻛ ﻭ ﺓﺮﻫﺎﻈﻟﺍ ﻩﺬﻬﺑ ﻡﺎﻤﻟﻻﺍﻭ ﻲﻋﻮﻟﺍ ﺔﻠﻗ ﺐﺒﺴﺑ ﺢﻴﻘﻨﺘﻟﺍﻭ ﻞﻳﺪﻌﺘﻟﺍﻭ ﺮﻳﻮﻄﺘﻟﺍ ﺭﻮﻃ ﻲﻓ ﺔﺑﺮﺠﺘﻟﺍ ﻩﺬﻫ ﺖﻟﺍﺯﺎﻣﻭ ﻲﺿﺮﻣ ﺔﺟﺭﺩ ﻰﻟﺍ ﻢﻌﻧ
+What were the challenges faced, if any?
+1. ﻲﻓ ﻦﻴﻠﻋﺎﻔﻟﺍ ﺹﺎﺨﺷﻻﺍﻦﻴﺑ ﺔﻠﺻﺎﻔﻟﺍ ﻲﻫ ﺔﻓﺎﺴﻤﻟﺍ ﺖﻧﺎﻛ ﺎﻤﻟﻭ ﻲﺑﺮﻐﻟﺍ ءﺰﺠﻟﺍ ﻦﻤﺿ ﻊﻘﻳﺎﻣ ﺎﻬﻨﻣﻭ ﺩﻼﺒﻟﺍ ﻦﻣ ﻲﻗﺮﺸﻟﺍ ءﺰﺠﻟﺍ ﻲﻓ ﻊﻘﻳﺎﻣ ﺎﻬﻨﻤﻓ ﺔﻟﻭﺪﻟﺍ ﻕﺎﻄﻧ ﻦﻤﺿ ﺔﻔﻠﺘﺨﻤﻟﺍ ﺕﺎﻬﺠﻟﺍ ﻦﻴﺑ ﻖﻴﺴﻨﺘﻟﺍ ﺏﺎﻴﻏﻭ ﻒﻌﺿ
+ﺔﻴﻔﻴﻛﻭ ،ﻲﺿﺍﺭﻻﺍ ﺭﻮﻫﺪﺗﻭ ﻑﺎﻔﺠﻟﺍ ﺔﻣﻭﺎﻘﻣ ﺞﻣﺍﺮﺑ ﻢﻴﻤﻌﺗﻭ ﺮﺤﺼﺘﻟﺍ ﺔﺤﻓﺎﻜﻣ ﺔﻴﻤﻫﺃ ﻙﺭﺪﻳ ﻱﺩﺎﻌﻟﺍ ﻦﻃﺍﻮﻤﻟﺍ ﻞﻌﺟ ﺔﻴﻔﻴﻛ .2 .ءﺎﻀﻋﻻﺍ ﻊﻴﻤﺟ ﻙﺍﺮﺷﺍ ﻥﺎﻤﻀﻟ ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍﻭ ﺕﺎﻴﻨﻘﺘﻟﺍ ﻒﻌﺿﻭ ﻂﻄﺨﻟﺍ ﻊﺿﻭ
+ﻲﺿﺍﺭﻻﺍ ﺭﻮﻫﺪﺗﻭ ﻑﺎﻔﺠﻟﺍ ﺮﻃﺎﺨﻣ ﻞﻴﻠﻘﺘﻟ ﺔﻣﻭﺎﻘﻤﻟﺍﻭ ﺔﺤﻓﺎﻜﻤﻟﺍ ﺞﻣﺍﺮﺑ ﻲﻓ ﻢﻬﻛﺍﺮﺷﺍ
+What would you consider to be the lessons learned?
+1. ﺭﻮﻫﺪﺗﻭ ﻑﺎﻔﺠﻟﺍﻭ ﺮﺤﺼﺘﻟﺍ ﻡﻮﻤﻬﻔﻣ ﻢﻴﻤﻌﺗ ﻲﻓ ﺔﻴﻟﻮﻤﺷ ﺮﺜﻛﺍ ﺭﺎﻜﻓﺍﻭ ﺢﺿﻭﺍ ﺔﻳﺅﺭ ﺎﻨﻳﺪﻟ ﺢﺒﺻﺍ .2 ﺔﻴﻗﺎﺒﺘﺳﺍ ﻂﻄﺧ ﻊﺿﻭﻭ ﻖﺑﺎﺴﻟﺍ ﻲﻓ ﺎﻨﺘﻬﺟﺍﻭ ﻲﺘﻟﺍ ﻞﻛﺎﺸﻤﻟﺍ ﻞﺣ ﺔﻟﻭﺎﺤﻤﻟ ﺔﻴﻟﻭﻻﺍ ﻂﻄﺨﻟﺍ ﻊﺿﻭ ﻲﻓ ﺎﻧﺃﺪﺑ
+ﻊﻤﺘﺠﻤﻟﺍ ﻲﻓ ﺢﺋﺍﺮﺸﻟﺍ ﻒﻠﺘﺨﻣﻭ ﺕﺎﻬﺠﻟﺍ ﺔﻓﺎﻛ ﻦﻴﺑ ﻲﺿﺍﺭﻻﺍ
+Drought-related policies:
+Has your country established or is your country establishing national policies, measures and governance for drought
+preparedness and management?
+Yes
+49 / 96
+
+--- Page 50 ---
+IF: Implementation Framework
+No
+Use the space below to describe your country's experience.
+1. ﺪﺣﺍ ﻊﻣ ﻥﻭﺎﻌﺘﻟﺎﺑ ﻑﺎﻔﺠﻟﺍ ﺔﻬﺑﺎﺠﻤﻟ ﺔﻴﻨﻃﻭ ﺔﻴﺠﻴﺗﺍﺮﺘﺳﺍ ﺬﻴﻔﻨﺗ ﻰﻠﻋ ﺽﻭﺎﻔﺘﻟﺍ ﻱﺭﺎﺟ .3 ﻑﺎﻔﺠﻟﺍ ﻝﻮﺣ ﻞﻣﺎﺷ ﻲﻨﻃﻭ ﺮﻳﺮﻘﺗ ﺩﺍﺪﻋﺍ ﻰﻠﻋ ﻞﻤﻌﻟﺍ ﻱﺭﺎﺟ .2 ﺎﻴﺒﻴﻟ ﻲﻓ ﻑﺎﻔﺠﻠﻟ ﺔﻴﻨﻃﻮﻟﺍ ﺕﺍﺮﺷﺆﻤﻟﺍ ﺮﻳﺮﻘﺗ ﺩﺍﺪﻋﺍ ﻢﺗ
+ﻑﺎﻔﺠﻟﺍ ﺔﻬﺑﺎﺠﻣ ﺞﻣﺍﺮﺒﻟ ﺔﻠﻣﺎﺷ ﺔﻄﺧ ﺩﺍﺪﻋﺍ ﻢﺗ ﻦﻣﻭ . ﺔﻴﻟﻭﺪﻟﺍ ﺕﺎﻤﻈﻨﻤﻟﺍ
+Do you consider this experience a success and, if so, what do you consider the reasons behind this success (or lack thereof)?
+ﻊﻤﻨﺠﻤﻟﺍ ﺕﺎﺌﻓ ﻞﻛ ﻙﺍﺮﺷﺍﻭ ﺮﺜﻛﺍ ﻢﻬﻔﻟ ﺭﺍﺮﻘﻟﺍ ﻱﺪﺨﺘﻣﻭ ﺕﺎﺳﺎﻴﺴﻟﺍ ﻲﻌﻧﺎﺻ ﻦﻣ ﻱﺩﺎﻤﻟﺍﻭ ﻲﻨﻔﻟﺍ ﻢﻋﺪﻟﺍ ﻦﻣ ﺪﻳﺰﻤﻟﺍ ﺐﻠﻄﺘﺗﻭ ﺓﺪﻴﻟﻭ ﻝﺍﺰﺗ ﺎﻣ ﺎﻬﻧﺍ ﻦﻣﻢﻏﺮﻟﺎﺑ ﻲﺿﺮﻣ ﺪﺣ ﻰﻟﺍ ﺔﺤﺟﺎﻧ ﻢﻌﻧ
+What were the challenges faced, if any?
+ﻰﻟﺍ ﻪﺟﻮﺘﻟﺍﻼً ﺜﻣ ﻑﺎﻔﺠﻟﺍ ﺔﻠﻜﺸﻣ ﻞﺣﻦﻣ ءﺰﺠﻛ ﻝﻭﺪﻟﺍ ﻪﻣﺪﻘﺗ ﻥﺍ ﺽﺮﺘﻔﻳ ﻰﺘﻟﺍ ﺔﺣﺎﺘﻤﻟﺍ ﻞﺋﺍﺪﺒﻟﺍ ﻊﻣ ﻞﻣﺎﻌﺘﻟﺍ ﺔﻴﻔﻴﻛﻭ ﺔﺤﻠﺼﻤﻟﺍ ﺏﺎﺤﺻﺍﻭ ﻦﻴﻴﺌﻴﺒﻟﺍ ءﺎﻛﺮﺸﻟﺍ ﻦﻣ ﺪﻳﺪﻌﻠﻟ ﺔﺒﺴﻨﻟﺎﺑ ﺔﻠﻜﺸﻤﻟﺍ ﺮﻫﻮﺠﻟ ﻢﻬﻔﺗﺩﻮﺟﻭ ﻡﺪﻋ
+ﺓﺰﻛﺮﻤﻟﺍﻑﻼﻋﻻﺍﺮﻴﻓﻮﺗﻭﺔﻘﻠﻐﻤﻟﺍﻡﺎﻨﻏﻻﺍﺔﻴﺑﺮﺘﻟﺍ،
+What would you consider to be the lessons learned?
+ﺓﺪﺣﺍﻭ ﺕﺎﻳﻮﻟﻭﻻﺍﻭ ﻑﺍﺪﻫﻼﻟﺍ ﻞﻌﺠﻟ ﺭﺎﻜﻓﻻﺍ ﻦﻴﺑ ﺏﺮﻘﺘﻟﺍﻭ ﻲﺿﺍﺭﻻﺍ ﺭﻮﻫﺪﺗﻭ ﻑﺎﻔﺠﻟﺍ ﻰﻣﻭﺎﻘﻣﻭ ﺮﺤﺼﺘﻟﺍ ﺔﺤﻓﺎﻜﻣ ﻲﻓ ﺔﻛﺍﺮﺸﻟﺍ ﺕﺍﺫ ﺕﺎﻬﺠﻟﺍ ﺕﺎﻳﻮﻟﻭﺍﻭ ﺕﺎﻣﺎﻤﺘﻫﻻﺍ ﻑﻼﺘﺧﺍ ﻥﺎﻴﺒﺘﺳﺍ
+Has your country supported other countries in establishing policies, measures and governance for drought preparedness and
+management, in accordance with the mandate of the Convention?
+Yes
+No
+50 / 96
+
+--- Page 51 ---
+IF: Implementation Framework
+Action on the Ground
+Sustainable land management practices:
+Has your country implemented or is your country implementing sustainable land management (SLM) practices to address
+DLDD?
+Yes
+No
+What types of SLM practices are being implemented?
+☐ Agroforestry
+☒ Area closure (stop use, support restoration)
+☒ Beekeeping, fishfarming, etc
+☐ Cross-slope measure
+☒ Ecosystem-based disaster risk reduction
+☐ Energy efficiency
+☐ Forest plantation management
+☐ Home gardens
+☒ Improved ground/vegetation cover
+☒ Improved plant varieties animal breeds
+☐ Integrated crop-livestock management
+☐ Integrated pest and disease management (incl. organic agriculture)
+☐ Integrated soil fertility management
+☒ Irrigation management (incl. water supply, drainage)
+☒ Minimal soil disturbance
+☒ Natural and semi-natural forest management
+☒ Pastoralism and grazing land management
+☐ Post-harvest measures
+☐ Rotational system (crop rotation, fallows, shifting, cultivation)
+☐ Surface water management (spring, river, lakes, sea)
+☐ Water diversion and drainage
+☒ Water harvesting
+☒ Wetland protection/management
+☐ Windbreak/Shelterbelt
+☐ Waste management / Waste water management
+☐ Other (please specify)
+Use the space below to share more details about your country's experience:
+ﺔﻴﺋﺎﻗﻮﻟﺍ ﺔﻣﺰﺣﻻﺍ ﺔﻣﺎﻗﺍ ﻰﻠﻋ ﻕﺎﻔﺗﻻﺍ ﻞﺜﻣ ﻲﺿﺍﺭﻻﺍ ﺔﻣﺍﺪﺘﺳﺍ ﺞﻣﺍﺮﺑ ﺕﺍءﺍﺮﺟﺍ ﻦﻴﺴﺤﺗ ﺓﺩﺎﻳﺰﻟ ﺕﺎﻬﺟﻮﺗ ﻙﺎﻨﻫﻭ ﺭﺍﺮﺿﻻﺍ ﻞﻴﻠﻘﺗﻭ ﻲﺿﺍﺭﻻﺍ ﻡﺍﺪﺨﺘﺳﺍ ﻦﻴﺴﺤﺗ ﻦﻣ ﺎﻣ ﺪﺣ ﻰﻟﺍ ﺕﺩﺍﺯ ﻲﺿﺍﺭﻼﻟ ﺔﻣﺍﺪﺘﺴﻤﻟﺍ ﺕﺍءﺍﺮﺟﻻﺍ
+ﻲﻋﺮﻟﺍ ﻊﻨﻣﻭ ﺓﺩﻮﻌﻠﻟ ﻰﻴﻌﻴﺒﻄﻟﺍ ﻲﺗﺎﺒﻨﻟﺍ ءﺎﻄﻐﻟﺍ ﺓﺪﻋﺎﺴﻤﻟ ﺔﻘﻠﻐﻤﻟﺍ ﻢﻈﻨﻟﺍ ﻉﺎﺒﺗﺍﻭ.ﻲﺤﺼﻟﺍ ﻑﺮﺼﻟﺍ ﻩﺎﻴﻣ ﻡﺍﺪﺨﺘﺳﺍ ﻰﻠﻋ ﻊﻴﺠﺸﺘﻟﺍ ﻚﻟﺬﻛﻭ ﺔﻴﻋﺍﺭﺰﻟﺍ ﻲﺻﺍﺭﻻﺍﻭ ﻥﺪﻤﻟﺍ ﻝﻮﺣ ﺡﺎﻳﺮﻟﺍ ﺕﺍﺪﺼﻣﻭ
+Would you consider the implemented practices successful and what do you consider the main factors of success?
+ﺔﺸﻴﻌﻤﻟﺍ ﻑﻭﺮﻇ ﻦﻴﺴﺤﺗ ﻲﻓ ﺖﻤﻫﺎﺳﻲﺘﻟﺍ ﺞﺋﺎﺘﻨﻟﺍﻭ ﻲﺿﺍﺭﻼﻟ ﺔﻣﺍﺪﺘﺳﻻﺍ ﺩﺭﺍﻮﻣ ﺔﻴﻤﻫﺄﺑ ﻲﻋﻮﻟﺍ ﺓﺩﺎﻳﺰﻟ ﻊﺟﺮﻳ ﺡﺎﺠﻨﻟﺍ ﺐﺒﺳﻭ ﺎﻣ ﺪﺣ ﻰﻟﺍ ﺔﺤﺟﺎﻧ
+What were the challenges faced, if any?
+ﻲﺿﺍﺭﻻﺍ ﻡﺍﺪﺨﺘﺳﻻ ﻂﻴﻄﺨﺘﻟﺍﻭ ﻲﺿﺍﺭﻻﺍ ﻡﺍﺪﺨﺘﺳﺍ ﺔﻠﻳﺪﺒﻟﺍ ﺞﻣﺍﺮﺒﻟﺍ ﺔﻠﻗﻭ ﺔﻣﺍﺪﺘﺳﻻﺍ ﺞﻣﺍﺮﺑ ﻲﻓ ﺔﻴﻣﻮﻜﺤﻟﺍ ﺕﺎﻬﺠﻟﺍ ﻦﻣ ﻢﻋﺪﻟﺍ ﻒﻌﺿﻭ ﺕﺎﻴﻧﺎﻜﻣﻻﺍ ﺔﻠﻗ
+51 / 96
+
+--- Page 52 ---
+IF: Implementation Framework
+What do you consider to be the lessons learned?
+ﺔﻴﻠﺒﻘﺘﺴﻤﻟﺍ ﺮﻃﺎﺨﻤﻟﺍ ﺔﻬﺟﺍﻮﻤﻟ ﺔﻋﻮﻨﺘﻣ ﺕﺎﻴﺠﻬﻨﻣ ﻡﺍﺪﺨﺘﺳﺍ ﻮﺤﻧ ﻪﺟﻮﺘﻟﺍ ﻭ ،ﻲﺿﺍﺭﻻﺍ ﻡﺍﺪﺘﺴﻣ ﻡﺍﺪﺨﺘﺳﻻ ﺔﻴﻟﺎﻋ ﺓﺩﻮﺟ ﺕﺍﺫ ﺔﻠﻳﺪﺑ ﻞﺋﺎﺳﻭ ﺩﺎﺠﻳﺍ ﻲﻓ ﺓﺩﺎﻔﺘﺳﻻﺍ
+How did you engage women and youth in these activities?
+ﺩﺭﺍﻮﻤﻟﺍﺔﻣﺍﺪﺘﺳﺍﻂﻄﺧﻦﻤﺿﻪﻴﺟﻮﺘﻟﺍﻭﻱﺃﺮﻟﺎﺑﻲﺿﺍﺭﻻﺍﻡﺍﺪﺨﺘﺳﺍﻝﺎﺠﻣﻲﻓﺹﺎﺧﻉﻭﺮﺸﻣﻪﻟﻦﻣﺔﻛﺭﺎﺸﻣﻭﺞﻣﺍﺮﺒﻟﺍﻩﺬﻫﻲﻓﻦﻴﻠﻣﺎﻌﻟﺍﻦﻤﺿﻦﻣﻢﻬﻠﻌﺟﻭﻲﺿﺍﺭﻼﻟﺔﻣﺍﺪﺘﺴﻤﻟﺍﺓﺭﺍﺩﻻﺍﺞﻣﺍﺮﺑﻦﻤﺿﻢﻬﻟﺎﺧﺩﺎﺑ
+Has your country supported other countries in the implementation of SLM practices?
+Yes
+No
+Restoration and Rehabilitation:
+Has your country implemented or is your country implementing restoration and rehabilitation practices in order to assist with
+the recovery of ecosystem functions and services?
+Yes
+No
+What types of rehabilitation and restoration practices are being implemented?
+☒ Restore/improve tree-covered areas
+☒ Increase tree-covered area extent
+☐ Restore/improve croplands
+☐ Restore/improve grasslands
+☐ Restore/improve wetlands
+☐ Increase soil fertility and carbon stock
+☐ Manage artificial surfaces
+☐ Restore/improve protected areas
+☒ Increase protected areas
+☐ Improve coastal management
+☐ General instrument (e.g. policies, economic incentives)
+☒ Restore/improve multiple land uses
+☒ Reduce/halt conversion of multiple land uses
+☐ Restore/improve multiple functions
+☐ Restore productivity and soil organic carbon stock in croplands and grasslands
+☐ Other/general/unspecified
+Use the space below to share more details about your country's experience:
+ﺓﺩﺎﻌﺘﺳﺍ ﻝﺎﺠﻣ ﻲﻓ ﻞﻤﻌﻟﺍ ﺭﺩﺎﻛ ﻦﻣ ﻊﻓﺮﻠﻟ ﺔﻴﻤﻴﻠﻗﺍﻭ ﺔﻴﻠﺤﻣ ﺕﺎﻋﺎﻤﺘﺟﺍ ﻲﻓ ﺔﻛﺭﺎﺸﻤﻠﻟ ﻰﻌﺴﺗ ﻲﻬﻓ ﺔﺣﺎﺘﻤﻟﺍ ﺩﺭﺍﻮﻤﻟﺍ ﻦﻣ ﻦﻜﻤﻳﺎﻣ ﻞﻴﻫﺎﺗﺓﺩﺎﻋﺍﻭ ﺓﺩﺎﻌﺘﺳﺍ ﻲﻓ ﺓﺮﻓﻮﺘﻤﻟﺍ ﺕﺎﻴﻧﺎﻜﻣﻻﺍ ﺔﻓﺎﻛ ﻡﺍﺪﺨﺘﺳﻻ ﺓﺪﻫﺎﺟ ﺎﻧﺪﻠﺑ ﻝﻭﺎﺤﺗ
+ﺎﻨﻓﻭﺮﻇ ﻊﻣ ﻪﺑﺎﺸﺘﺗ ﺎﻬﻓﻭﺮﻇﻭ ﺔﺤﺟﺎﻧ ﺏﺭﺎﺠﺗ ﺎﻬﻟ ﻰﺘﻟﺍ ﻝﻭﺪﻟﺍ ﺏﺭﺎﺠﺗ ﻝﺎﺧﺩﺍﻭ ﻞﻴﻫﺎﺘﻟﺍ
+Would you consider the implemented practices successful and what do you consider the main factors of success?
+ﺕﺍﻭﺪﻨﻟﺍﻭ ﻞﻤﻌﻟﺍ ﺵﺭﻭ ﻲﻓ ﻢﻬﺗﻮﻋﺩ ﻝﻼﺧ ﻦﻣ ﺩﺭﺍﻮﻤﻟﺍ ﻞﻴﻫﺎﺗ ﺩﺎﻌﺘﺳﺍ ﺞﻣﺍﺮﺑ ﻲﻓ ﻢﻬﻛﺍﺮﺷﺍ ﺮﺒﻋ ﻚﻟﺫﻭ ﺩﺭﺍﻮﻤﻟﺍ ﻡﺍﺪﺨﺘﺳﺍ ﻦﻣ ﻦﻳﺪﻴﻔﺘﺴﻤﻟﺍ ﺹﺎﺨﺷﻼﻟ ﻞﺜﻣﻻﺍ ﻑﺍﺪﻬﺘﺳﻻﺍ ﻮﻫ ﺡﺎﺠﻧ ﻲﻓ ﻢﻫﺎﺳ ﺎﻣﻭ ﺎﻣ ﺪﺣ ﻰﻟﺍ ﺔﺤﺟﺎﻧ
+ﺎﺑ ﻰﻨﻌﺗ ﻲﺘﻟﺍ
+What were the challenges faced, if any?
+ﺎﻬﻠﻴﻫﺎﺗ ﺓﺩﺎﻋﺍ ﻑﺪﻬﺘﺴﻤﻟﺍ ﻖﻃﺎﻨﻤﻟﺎﺑ ﻩﺎﻴﻤﻟﺍ ﺢﺷﻭ ﺔﻴﺧﺎﻨﻤﻟﺍ ﺕﺍﺮﻴﻐﺘﻟﺍ ﺮﺗﺍﻮﺗﻞﻴﻫﺄﺘﻟﺍ ﺓﺩﺎﻋﺍ ﻲﻓ ﺓﺮﻜﺘﺒﻣﻭ ﺓﺪﻳﺪﺟ ﺕﺎﻴﻨﻘﺗ ﻡﺍﺪﺨﺘﺳﺍ ﻰﻠﻋ ﺔﺑﺭﺪﻣ ﺔﻴﻨﻃﻭ ﺮﺻﺎﻨﻋ ﺩﻮﺟﻭ ﻡﺪﻋﻭ ﻢﻋﺪﻟﺍﻭﺔﻴﻟﺎﻤﻟﺍ ﺕﺎﻴﻧﺎﻜﻣﻻﺍ ﺔﻠﻗ
+52 / 96
+
+--- Page 53 ---
+IF: Implementation Framework
+What do you consider to be the lessons learned?
+ﻞﻴﻫﺎﺘﻟﺍ ﺓﺩﺎﻋﺍ ﺓﺭﻭﺮﻀﺑ ﻲﻋﻮﻟﺍ ﺰﻳﺰﻌﺗﻭ ﻊﻓﺭ ﻢﻫﺩﺍﺪﻋﺍ ﺔﻠﻗ ﻦﻣ ﻢﻏﺮﻟﺎﺑ ﻞﻴﻫﺎﺘﻟﺍ ﺓﺩﺎﻋﺍ ﻝﺎﺠﻣ ﺍﺬﻫ ﻲﻓ ﻦﻴﻠﻣﺎﻌﻠﻟ ﺓﺮﺒﺧ ﺏﺎﺴﺘﻛﺍ .
+How did you engage women and youth in SLM activities?
+ﻲﺿﺍﺭﻻﺍﺔﻣﺍﺪﺘﺳﺎﺑﻰﻨﻌﺗﻲﺘﻟﺍﻊﻳﺭﺎﺸﻤﻟﺍﺾﻌﺑﻞﻋﻑﺍﺮﺷﻻﺍﻲﻓﻢﻬﺑﺔﻧﺎﻌﺘﺳﻻﺍﻭﻲﺿﺍﺭﻻﺍﺔﻣﺍﺪﺘﺳﺍﻊﻳﺭﺎﺸﻣﻲﻓﻢﻬﺠﻣﺩﻖﻳﺮﻃﻦﻋ
+Has your country supported other countries with restoration and rehabilitation practices in order to assist with the recovery of
+ecosystem functions and services?
+Yes
+No
+Drought risk management and early warning systems:
+Is your country developing a drought risk management plan, monitoring or early warning systems and safety net programmes to
+address DLDD?
+Yes
+No
+Has your country supported other countries in developing drought risk management, monitoring and early warning systems and
+safety net programmes to address DLDD?
+Yes
+No
+Alternative livelihoods:
+Does your country promote alternative livelihoods practice in the context of DLDD?
+Yes
+No
+Could you list some practices implemented at country level to promote alternative livelihoods?
+☒ Crop diversification
+☐ Agroforestry practices
+☐ Rotational grazing
+☒ Rain-fed and irrigated agricultural systems
+☒ Small vegetable gardens
+☒ Production of artisanal goods
+☐ Renewable energy generation
+☐ Eco-tourism
+☒ Production of medicinal and aromatic plants
+☐ Aquaculture using recycled wastewater
+☐ Other (please specify)
+Use the space below to describe your country's experience.
+ﻦﻤﺿ ءﺎﻔﺘﻛﻻﺍ ﻖﻴﻘﺤﺗ ﺽﺮﻐﺑ (ﻥﻮﺘﻳﺰﻟﺍ ﺭﺎﺠﺷﺍﻭ ،ﺔﻬﻛﺎﻔﻟﺍ،ﺏﻮﺒﺤﻟﺍ) ﺔﻴﻠﻘﺤﻟﺍ ﻞﻴﺻﺎﺤﻤﻟﺍ ﻲﻓ ﻉﻮﻨﺗ ﻞﺜﻤﺗ ﺔﺼﺼﺨﺘﻣ ﻉﺭﺍﺰﻣ ﺓﺭﻮﺻ ﻲﻓ ﺔﻴﻣﻮﻜﺣ، ﺔﻴﻋﺍﺭﺯ ﻊﻳﺭﺎﺸﻣ ءﺎﺸﻧﺍ ﻲﻓ ﻲﻘﻓﻭﻷﺍ ﻊﺳﻮﺘﻟﺎﺑ ﺎﻴﺒﻴﻟ ﺔﻟﻭﺩ ﺖﻋﺮﺷ
+ﺓﺯﺎﻘﻨﻟﺍ ﺔﺑﺎﻏﻭ،ءﺎﻀﻴﺒﻟﺎﺑ ﻱﺮﻤﺤﻟﺍ ﺪﻤﺤﻣ ﻱﺪﻴﺳﻭ ﺞﻧﻼﺒﻟﺍ ﺔﺑﺎﻏ) ﻞﺜﻣ ﺕﺎﺑﺎﻐﻟﺍ ﺾﻌﺑﻲﻓ ﺪﻗﺎﻔﻟﺍ ﺾﻳﻮﻌﺗﻭ ﺮﻴﺠﺸﺗ ﺓﺩﺎﻋﺈﺑ ﻡﺎﻤﺘﻫﺍ ﺔﺒﻗﺎﻌﺘﻤﻟﺍ ﺕﺎﻣﻮﻜﺤﻟﺍ ﻲﻟﻮﺗ ﻚﻟﺬﻛﻭ . ﻖﻃﺎﻨﻤﻟﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﻞﻤﺷ ﺔﻴﻋﺍﺭﺰﻟﺍ ﺔﻴﻤﻨﺘﻟﺍ ﺔﻄﺧ
+ﻒﻗﻭﻭ ﻑﺎﻔﺠﻟﺍﻭﺮﺤﺼﺘﻟﺍ ﺔﺤﻓﺎﻜﻣﺭﺎﻃﺍ ﻲﻓ ﺩﻼﺒﻟﺍ ﻉﻮﺑﺭ ﻲﻓ ﻝﺎﻣﺮﻠﻟ ﺕﺍﺪﺼﻣﻭ ﺓﺪﻳﺪﺟ ﺕﺎﺑﺎﻏ ﺙﺍﺪﺤﺘﺳﺎﺑﻭ ( ﺎﻫﺮﻴﻏﻭ ﺓﺭﺍﻭﺯﻭ ﻥﺎﺘﻧﺰﻟﺍﻭ ﺔﻳﻭﺍﺰﻟﺍ ﻑﺎﺸﻜﻟﺍ ﺔﺑﺎﻏ ،ﻪﺗﻼﺴﻣﺍ ﻦﻴﻴﻓﺎﻌﺸﻟﺍ ﺔﻴﻤﺤﻣ، ﺕﺎﺤﺷ ﺔﺑﺎﻏ ،
+53 / 96
+
+--- Page 54 ---
+IF: Implementation Framework
+ﻞﻫﺮﻴﻏﻭ ﻥﺎﻣﺮﺻ ﺔﻴﻤﺤﻣﻭ ، ﻥﺎﻀﻴﺒﻟﺍ ﺔﻴﻤﺤﻤﺑﻭ ﺔﺴﻌﻟﺍ ﻦﻴﻟﺍﺪﻗﺭ ﻖﻳﺮﻃ ﻝﻮﻃ ﻰﻠﻋﻭ ، ﻲﺑﺮﻐﻟﺍ ﻞﺒﺠﻟﺍ ﺔﻳﺰﻳﺰﻌﻟﺍ ﻖﻳﺮﻃ ﻰﻠﻋﻭ ﺔﻳﻭﺍﺰﻟﺍﻭ ﻥﺎﻣﺮﺻ ﺔﻘﻄﻨﻣ ﻝﻮﺣ ﻡﺍﺰﺤﻟﺍ ﻞﺜﻣ ﻱﻭﺍﺮﺤﺼﻟﺍ ﻒﺣﺰﻟﺍ.
+Do you consider this experience a success and, if so, what do you consider the reasons behind this success (or lack thereof)?
+ﺙﻮﺤﺒﻟﺍ ﺾﻌﺑ ﺭﺎﻃﺇ ﻲﻓﻭﺔﺻﺎﺨﻟﺍ ﻉﺭﺍﺰﻤﻟﺍﻭ ﺔﻴﻋﺍﺭﺰﻟﺍ ﻊﻳﺭﺎﺸﻤﻟﺍ ﺾﻌﺑ ﻲﻓ ﺮﻳﻮﺒﺘﻟﺍﻭﺔﻴﻟﻮﻘﺑ ﻞﻴﺻﺎﺤﻣ ﻝﺎﺧﺩﺈﺑ ﺔﻴﻋﺍﺭﺰﻟﺍ ﺕﺍﺭﻭﺪﻟﺍ ﻖﻴﺒﻄﺗ ﺐﺒﺴﺑ ﺓﺪﺋﺍﺮﻟﺍ ﻝﻭﺪﻟﺍ ﻦﻣ ﺖﺤﺒﺻﺍﻭ ﻝﺎﺠﻤﻟﺍ ﺍﺬﻫ ﻲﻓ ﺎﻴﺒﻴﻟ ﺖﺤﺠﻧ ﻢﻌﻧ
+ﺰﻴﺣ ﺔﻴﻨﻴﺒﻟﺍ ﺕﺎﻋﺍﺭﺰﻟﺍ ﻞﻐﺸﺗﻭ .ﺔﻋﺭﺰﻤﻟﺍ ﻦﻣ ﺪﺋﺎﻌﻟﺍ ﻊﻓﺭﻭ ﺔﺑﻮﺼﺨﻟﺍ ﺓﺩﺎﻳﺯﻭ ﺔﺑﺮﺘﻟﺍ ﻆﻔﺤﻟ ﺔﻴﻨﻴﺒﻟﺍ ﺕﺎﻋﺍﺭﺰﻟﺍ ﺔﺳﺭﺎﻤﻤﺑ ﺹﺎﺨﻟﺍ ﻉﺎﻄﻘﻟﺍ ﻉﺭﺍﺰﻣ ﺐﻠﻏﺍ ﻲﻓ ﺚﻳﺪﺤﻟﺍ ﻩﺎﺠﺗﻻﺍﻭ .ﺕﺎﻌﻣﺎﺠﻟﺍﻭ ﺔﻴﺜﺤﺒﻟﺍ ﺰﻛﺍﺮﻤﻟﺎﺑ ﺓﺬﻔﻨﻤﻟﺍ
+ﺩﻼﺒﻟﺍ ﻉﻮﺑﺭ ﻲﻓ ﺔﻋﺍﺭﺰﻟﺍ ﺔﻨﻬﻣﻊﺳﺍﻭ ﻕﺎﻄﻧ ﻰﻠﻋ ﻥﺪﻤﻟﺍ ﺝﺭﺎﺧ ﻦﻴﻨﻃﺍﻮﻤﻟﺍ ﺱﺭﺎﻤﻳﻭ .ﺔﻴﻋﺍﺭﺰﻟﺍ ﺓﺭﻭﺪﻟﺍ ﻞﻴﺻﺎﺤﻣ ﻢﻫﺍ ﺔﻴﻟﻮﻘﺒﻟﺍ ﻞﻴﺻﺎﺤﻤﻟﺍ ﺪﻌﺗﻭ ﺭﺎﻀﺨﻟﺍ ﻞﻴﺻﺎﺤﻣ ﺾﻌﺑ ﻝﺎﺧﺩﺍ ﻢﺘﻳﻭ ﻥﻮﺘﻳﺰﻟﺍ ﻉﺭﺍﺰﻣ ﻲﻓ ﺮﻴﺒﻛ
+ﻲﻟﺎﻫﻷﺍ ﺕﺍﺩﺎﻋﻭ ﺔﻴﺻﻮﺼﺧ ﺐﺴﺣ ﺭﺎﻀﺨﻟﺍ ﻞﻴﺻﺎﺤﻣﺩﺪﺤﺗﻭ ﻲﺗﺍﺬﻟﺍ ءﺎﻔﺘﻛﻼﻟ ﺔﻴﻋﺍﺭﺯ ﻖﺋﺍﺪﺣ ءﺎﺸﻧﺎﺑ ﻚﻟﺫﻭ ﺔﻴﺳﺎﺳﻷﺍ ﻢﻬﻔﺋﺎﻇﻭ ﻊﻣ.
+What were the challenges faced, if any?
+ﻖﻴﺴﻨﺘﻟﺍ ﻒﻌﺿﻭ ﺏﺎﻴﻏ ﻥﺎﻴﺣﻻﺍ ﺾﻌﺑ ﻲﻓ ﻲﺴﺳﺆﻤﻟﺍ ﺭﺍﺮﻘﺘﺳﻻﺍ ﻡﺪﻋ ﻞﻳﻮﻤﺘﻟﺍ ﻒﻌﺿ
+What would you consider to be the lessons learned?
+ءﺍﺬﻐﻟﺍ ﺔﻣﺯﺍ ﻞﺿ ﻲﻓ ، ﺓﺮﻴﺧﻷﺍ ﺕﺍﻮﻨﺴﻟﺍ ﻲﻓ ﺔﻴﺒﻴﻠﻟﺍ ﺕﺎﻣﻮﻜﺤﻟﺍ ﻑﺍﺪﻫﺍ ﻢﻫﺃ ﺔﻠﺣﺮﻤﻟﺍ ﺕﺎﺒﻠﻄﺘﻣ ﻊﻣ ﺔﻴﻠﻋﺎﻓ ﺮﺜﻛﺃ ﺔﻴﻋﺍﺭﺯ ﺕﺎﺳﺎﻴﺳ ﺩﺎﻤﺘﻋﺍﻭ ﺔﻴﻋﺍﺭﺰﻟﺍ ﻊﻳﺭﺎﺸﻤﻟﺍﻭ ﺔﻄﺸﻧﻷﺍ ﻢﻴﻴﻘﺗ ﺓﺩﺎﻋﺇﻭ ﻲﺿﺎﻤﻟﺍ ءﺎﻄﺧﺃ ﺔﺠﻟﺎﻌﻣ
+ﺕﺎﻋﺍﺭﺰﻟﺍ ﻦﻣ ﺪﺋﺎﻌﻟﺍ ﻊﻓﺮﻳ ﻩﺎﻴﻤﻟﺍ ﺔﻴﺟﺎﺘﻧﺇ ﻢﻴﻈﻌﺘﻟ ﻩﺎﺠﺗﻻﺍ ﻚﻟﺬﻛﻭ ﺔﺑﺮﺘﻠﻟ ﺔﻣﺍﺪﺘﺴﻤﻟﺍ ﺓﺭﺍﺩﻹﺎﺑ ﻲﻋﻮﻟﺍ ﺓﺩﺎﻳﺯ ﻭ ﺔﺑﺮﺘﻟﺍ ﺓﺪﺣﻮﻟ ﻞﺜﻣﻷﺍ ﻝﻼﻐﺘﺳﻻﺍ ﺪﻌﻳ ﺎﻴﺒﻴﻠﺑ (ﻩﺎﻴﻤﻟﺍ ، ﺔﺑﺮﺘﻟﺍ) ﺩﺭﺍﻮﻤﻟﺍ ﺔﻳﺩﻭﺪﺤﻣ ﻊﻣ . ﺔﻴﺧﺎﻨﻤﻟﺍ ﺕﺎﻳﺪﺤﺘﻟﺍﻭ
+ﻖﻴﻘﺤﺘﻟ ﺔﻠﻴﺳﻭ ﺎﻴﺒﻴﻠﺑ ﺔﻴﻟﺰﻨﻤﻟﺍ ﻖﺋﺍﺪﺤﻟﺍ ﻞﻌﺟ ﻖﺋﺍﺪﺤﻟﺍ ﻖﻴﺴﻨﺘﻟﺍﻭ ﻢﻴﻤﺼﺘﻟﺍ ﺐﺗﺎﻜﻣﻭ ﻝﺎﻤﻋﻻﺍ ﺩﺍﻭﺭ ﻝﻼﺧ ﻦﻣ ﺎﻴﺒﻴﻟ ﺖﺤﺠﻧ ﻥﺎﻜﺴﻟﺍ ﺭﺍﺮﻘﺘﺳﺍﻭ ﻲﺋﺍﺬﻐﻟﺍ ﻦﻣﻻﺍ ﻖﻘﺤﻳﻭ.ﺭﻮﻫﺪﺘﻟﺍ ﻦﻣ ﻲﺿﺍﺭﻷﺍ ﺪﻴﻴﺤﺗ ﺹﺮﻓ ﺪﻳﺰﻳﻭ ﺔﻴﻨﻴﺒﻟﺍ
+ﻲﻬﻴﻓﺮﺘﻟﺍﻭ ﻲﻟﺎﻤﺠﻟﺍ ﺐﻧﺎﺠﻟﺍ ﻲﻟﺍ ﺔﻣﺍﺪﺘﺳﻻﺍ.
+Do you consider your country to be taking special measures to engage women and youth in promoting alternative livelihoods?
+Yes
+No
+Please elaborate
+ﺔﻠﻣﺎﻌﻟﺍ ﺓﻮﻘﻟﺍ ﻦﻣ %50 ﺎﺒﻳﺮﻘﺗ60 ﻡﺎﻋ 40 ﻦﻣ ﻞﻗﺃ ﺮﻤﻋ ﻭﺫ ﺏﺎﺒﺸﻟﺍ ﻞﻜﺸﻳﻭ ءﺎﺴﻨﻟﺍ ﺮﺼﻨﻋ ﻦﻣ % 35 ﻦﻣ ﺮﺜﻛﺃ ﻦﻣ ﻲﺿﺍﺭﻷﺍ ﺭﻮﻫﺪﺗﻭ ﺮﺤﺼﺘﻟﺍ ﺔﻣﻭﺎﻘﻣﻭ ﺔﻋﺍﺭﺰﻟﺎﺑ ﺔﻴﻨﻌﻤﻟﺍ ﺔﻴﻣﻮﻜﺤﻟﺍ ﺕﺎﺴﺳﺆﻤﻟﺍ ﺞﻣﺍﺮﺑ ﻥﻮﻜﺘﺗ
+ﺩﻮﻬﺟ ﻲﻓ ﺓﺍﺮﻤﻟﺍ ﻙﺍﺮﺷﻻ ﺮﻴﺑﺍﺪﺗ ﺩﺎﻤﺘﻋﺍ ﻢﺗ ﺎﻤﻛ ﺔﻴﻔﻳﺮﻟﺍ ﺓءﺍﺮﻤﻟﺎﺑ ﻰﻨﻌﺗ ﺔﺼﺼﺨﺘﻣ ﺕﺎﺴﺳﺆﻣﻭ ﺔﻣﺎﻋ ﺔﺌﻴﺒﻟﺎﺑ ﻰﻨﻌﺗ ﺔﻴﺑﺎﺒﺷ ﺕﺎﺴﺳﺆﻣ ﺓﺮﻴﺧﻷﺍ ﺕﺍﻮﻨﺴﻟﺍ ﻝﻼﺧ ﺕﺯﺮﺑﻭ ، ﻞﻴﻫﺄﺘﻟﺍ ﺓﺩﺎﻋﺇ ﻭ ﻢﻴﻴﻘﺘﻟﺍ ﻊﻳﺭﺎﺸﻣ ﻲﻓ
+ﺔﻴﺸﻳ.ﺔﻋﺍﺭﺰﻟﺍ ﺓﺭﺍﺯﻭ ﺎﻬﻨﻣﻭ ﺔﻴﻣﻮﻜﺤﻟﺍ ﺕﺎﺴﺳﺆﻤﻟﺍ ﻞﻜﺑ ﺓءﺍﺮﻤﻟﺍ ﻦﻴﻜﻤﺗﻭ ﻙﺍﺮﺷﺎﺑ ﺹﺎﺧ ﺐﺘﻜﻣ ءﺎﺸﻧﺈﺑ ﻚﻟﺫﻭ ﺔﻣﺍﺪﺘﺳﻻﺍ .
+Establishing knowledge sharing systems:
+Has your country established systems for sharing information and knowledge and facilitating networking on best practices and
+approaches to drought management?
+Yes
+No
+Please use this space to share/list the established systems available in your country for sharing information and knowledge
+and facilitating networking on best practices and approaches to drought management.
+ﺕﺍﻮﻨﺴﻟﺍ ﻝﻼﺧ ﺬﻴﻔﻨﺗ ﻢﺗ ﻰﺘﻟﺍ ﺙﻮﺤﺒﻟﺍﻭ ﺕﺎﺳﺍﺭﺪﻟﺍ ﻞﻛ ﻊﻴﻤﺠﺘﻟ ﺓﺭﺍﺯﻮﻠﻟ ﺔﻌﺑﺎﺘﻟﺍ ﺕﺎﺌﻴﻬﻟﺍﻭ ﺕﺎﺴﺳﺅﻮﻤﻟﺍ ﻞﻛ ﻦﻴﺑ ﻑﺭﺎﻌﻤﻟﺍﻭ ﺕﺎﻧﺎﻴﺒﻟﺍ ﻝﺩﺎﺒﺘﻟ ﺔﻜﺒﺷ ﺬﻴﻔﻨﺗ ﻲﻓ ﺔﻋﺍﺭﺰﻟﺍ ﺓﺭﺍﺯﻮﺑ ﺕﺎﻣﻮﻠﻌﻤﻟﺍﻭ ﻖﻴﺛﻮﺘﻟﺍ ﺰﻛﺮﻣ ﻉﺮﺷ
+ﺔﺤﻴﺤﺻﻭ ﺔﻘﻴﻗﺩ ﺕﺎﻧﺎﻴﺑ ﻰﻠﻋ ﻲﻨﺒﻤﻟﺍ ﻭﺭﺍﺮﻘﻟﺍ ﺩﺎﺨﺗﺍ ﺔﻋﺮﺳ ﻰﻠﻋ ﺭﺍﺮﻘﻟﺍ ﻱﺬﺨﺘﻣ ﺓﺪﻋﺎﺴﻣ ﻲﻓ ﻢﻬﺴﺗﻭ ﺕﺎﻧﺎﻴﺒﻟﺍ ﻩﺬﻫ ﻦﻣ ﺓﺩﺎﻔﺘﺳﻻﺍ ﻦﻣﺭﺪﻗ ﺮﺒﻛﺍ ﻖﻴﺤﺗ ﺔﻴﻐﺑ ﺔﻴﻟﺎﺤﻟﺍﻭ ﺔﻘﺑﺎﺴﻟﺍ
+Do you consider this experience a success and, if so, what do you consider the reasons behind this success (or lack thereof)?
+ﺢﻴﺤﺼﻟﺍ ﻞﻜﺸﻟﺎﺑ ﺎﻫﺭﺎﻤﺜﺘﺳﺍ ﺔﻴﻔﻴﻛﻭ ﺕﺎﻧﺎﻴﺒﻟﺍ ﻞﻛ ﻝﺎﺧﺩﺍﻭ ﻊﻤﺟ ﻰﻠﻋ ﺓﺭﺩﺎﻗ ﺔﻴﻨﻃﻭ ﺮﺻﺎﻨﻋ ﺐﻳﺭﺪﺗ ﻰﻠﻋ ﺪﻤﺘﻌﻳ ﺎﻬﺣﺎﺠﻧﻭ ﺎﻬﺘﻳﺍﺪﺑ ﻲﻓ ﺖﻟﺍﺯﺎﻣ ﺎﻬﻧﻻ ﺔﻠﺣﺮﻤﻟﺍ ﻩﺬﻫ ﻲﻓ ﺎﻬﻤﻴﻴﻘﺗ ﻦﻜﻤﻳﻻ
+What were the challenges faced, if any?
+ﺕﺎﻧﺎﻴﺒﻟﺍ ﻢﺠﺣ ﻝﺎﺠﻤﻟﺍ ﺍﺬﻫ ﻲﻓ ﺔﺼﺼﺨﺘﻤﻟﺍ ﺔﻴﻨﻃﻮﻟﺍ ﺕﺍﺭﺪﻘﻟﺍ ﻒﻌﺿ
+What would you consider to be the lessons learned?
+54 / 96
+
+--- Page 55 ---
+IF: Implementation Framework
+ﺎﻴﺟﺭﺎﺧﻭ ﺎﻴﻠﺧﺍﺩ ﻦﻴﺳﺪﻨﻬﻤﻟﺍ ﻦﻣ ﺩﺪﻋ ﻞﻴﻫﺎﺗﻭ ﺐﻳﺭﺪﺗﻭ ﺩﺍﺪﻋﺍﻭ ﺔﻌﻳﺮﺳﻭ ﺔﺤﻴﺤﺻ ﺕﺍﺭﺍﺮﻗ ﺩﺎﺨﺗﺍﻭﻢﻬﻟ ﺔﻠﻛﺆﻤﻟﺍ ﻡﺎﻬﻤﻟﺍ ﺯﺎﺠﻧﺍ ﺔﻋﺮﺳ ﻲﻓ ﻦﻴﻴﻟﺆﺴﻤﻟﺍ ﺓﺪﻋﺎﺴﻣ ﺪﻓﺍﻭﺭﻦﻣ ﺪﻓﺍﺭ
+Do you consider that your country has implemented specific actions that promote women’s access to knowledge and
+technology?
+Yes
+No
+Please elaborate
+ﺔﻴﻟﻭﺪﻟﺍﻭ ﺔﻴﻠﺤﻤﻟﺍ ﻞﻤﻌﻟﺍ ﺵﺭﻭﻭ ﺽﺭﺎﻌﻤﻟﺍ ﺔﻣﺎﻗﺍﻭ ﺔﻘﻄﻨﻣ ﻞﻛ ﺎﻬﺑ ﺯﺎﺘﻤﺗ ﻰﺘﻟﺍ ﺔﻴﻓﺮﺤﻟﺍﻭ ﺔﺒﺣﺎﺼﻤﻟﺍ ﺕﺎﻋﺎﻨﺻ ﺔﻣﺎﻗﺍ ﻲﻓ ﻲﻨﻔﻟﺍ ﻢﻋﺪﻟﺍ ﺮﻴﻓﻮﺘﺑ ﻚﻟﺫﻭ ﺔﻴﻔﻳﺮﻟﺍ ﺔﻴﻤﻨﺘﻟﺍ ﻝﺎﺠﻣ ﻲﻓ ﻝﺎﻌﻓ ﺭﻭﺩ ﺱﺭﺎﻤﺗ ﺓﺍﺮﻤﻟﺍ ﺖﺤﺒﺻﺍ
+ﺔﻴﻔﻳﺮﻟﺍ ﺓﺍﺮﻤﻟﺍ ﺐﻳﺭﺪﺗﻭ ﺮﻳﻮﻄﺗ ﻰﻨﻌﺗ ﺕﺎﻤﻈﻨﻣ ﻞﻴﻜﺸﺗﻭ ﻲﻋﺍﺭﺰﻟﺍ ﻥﻭﺎﻌﺘﻟﺍﻭ ﻡﻼﻋﻻﺍﻭ ﺩﺎﺷﺭﻻﺍ ﺰﻛﺮﻣ ﻊﻣ ﻖﻴﺴﻨﺘﻟﺎﺑ ﺔﻄﺸﻧﻻﺍ ﻩﺬﻬﺑ ﺔﺻﺎﺨﻟﺍ
+Do you consider this experience a success and, if so, what do you consider the reasons behind this success (or lack thereof)?
+ﺕﺍﺭﺍﺮﻘﻟﺍ ﻱﺬﺨﺘﻣﻭ ﺕﺎﺳﺎﻴﺴﻟﺍ ﻲﻌﻧﺎﺻ ﻞﺒﻗ ﻦﻣ ﺮﺒﻛﺍ ﻢﻬﻓﻭ ﻢﻋﺩ ﻰﻟﺍ ﺔﺟﺎﺤﺑ ﻝﺍﺰﺗﺎﻣ ﺎﻬﻧﺍ ﻻﺍ ﺕﻻﺎﺠﻤﻟﺍ ﻩﺬﻫ ﻲﻓ ﺕﺍﺪﺋﺍﺭ ﺎﻨﻳﺪﻟﻭ ﺔﺑﺮﺠﺘﻟﺍ ﻩﺬﻫ ﻲﻓ ﺓﺍﺮﻤﻟﺍ ﺖﺤﺠﻧ
+What were the challenges faced, if any?
+ﻱﺩﺎﻤﻟﺍ ﻢﻋﺪﻟﺍ ﺔﻠﻗ ﺓﺭﺮﻀﺘﻤﻟﺍ ﻖﻃﺎﻨﻤﻟﺍ ﻥﺎﻜﺳ ﺔﻴﻋﻮﺗﻭ ﺮﺸﻧﺍﻭ ﺔﻴﻔﻳﺮﻟﺍ ﺔﻴﻤﻨﺘﻟﺍ ﻲﻓ ﺓﺍﺮﻤﻟﺍ ﺕﺍﺭﺪﻗ ﺔﻴﻤﻨﺗ ﻲﻓ ﻢﻫﺎﺴﺗ ﻰﺘﻟﺍ ﺔﺜﻳﺪﺤﻟﺍ ﺕﺎﻴﻨﻘﺘﻟﺍ ﻡﺍﺪﻘﺘﺳﺍ ﻰﻠﻋ ﺓﺭﺩﺎﻘﻟﺍ ﺔﺑﺭﺪﻤﻟﺍ ﺔﻴﺋﺎﺴﻨﻟﺍ ﺮﺻﺎﻨﻌﻟﺍ ﺔﻠﻗ
+What would you consider to be the lessons learned?
+ﺔﺤﻓﺎﻜﻣ ﺞﻣﺍﺮﺑﻭ ﻊﻳﺭﺎﺸﻣ ﻦﻤﺿ ﺎﻬﻟ ﻞﻤﻋ ﺹﺮﻓ ﺮﻴﻓﻮﺗﻭ ﺎﻬﺘﺸﻴﻌﻣ ﻯﻮﺘﺴﻣ ﻦﻣ ﻦﺴﺤﺗ ﻰﺘﻟﺍ ﺞﻣﺍﺮﺒﻟﺍ ﻞﻛ ﻲﻓ ﺎﻬﺘﻛﺭﺎﺸﻣ ﺓﺭﻭﺮﺿ ﻰﻠﻋ ءﺎﺴﻨﻟﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﺐﻳﺭﺪﺗﻭﺮﻳﻮﻄﺗ ﻰﻟﺍ ﺎﻬﻴﻌﺳﻭ ﻝﺎﺠﻤﻟﺍ ﺍﺬﻫ ﻲﻓ ﺓﺍﺮﻤﻟﺍ ﻝﻮﺧﺩ
+ﻲﺿﺍﺭﻻﺍ ﺭﻮﻫﺪﺗﻭ ﺮﺤﺼﺘﻟﺍ
+55 / 96
+
+--- Page 56 ---
+Other files for Reporting
+LIBYA_4NHLL7r ﻝﻭﺪﺠﻟﺍ ﺚﻳﺪﺤﺗ ﻢﺗ Download 9.4 KB
+56 / 96
+
+--- Page 57 ---
+Libya – SO1-1.M1
+Land cover in the initial year of the baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• European Space Agency Climate Change Initiative Land Cover (ESA CCI-LC) product, 1992-2019. URL: https://www.esa-landcover-cci.org/
+57 / 96
+
+--- Page 58 ---
+Libya – SO1-1.M2
+Land cover in the baseline year
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• European Space Agency Climate Change Initiative Land Cover (ESA CCI-LC) product, 1992-2019. URL: https://www.esa-landcover-cci.org/
+58 / 96
+
+--- Page 59 ---
+Libya – SO1-1.M3
+Land cover in the latest reporting year
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• European Space Agency Climate Change Initiative Land Cover (ESA CCI-LC) product, 1992-2019. URL: https://www.esa-landcover-cci.org/
+59 / 96
+
+--- Page 60 ---
+Libya – SO1-1.M4
+Land cover change in the baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• European Space Agency Climate Change Initiative Land Cover (ESA CCI-LC) product, 1992-2019. URL: https://www.esa-landcover-cci.org/
+60 / 96
+
+--- Page 61 ---
+Libya – SO1-1.M5
+Land cover change in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• European Space Agency Climate Change Initiative Land Cover (ESA CCI-LC) product, 1992-2019. URL: https://www.esa-landcover-cci.org/
+61 / 96
+
+--- Page 62 ---
+Libya – SO1-1.M6
+Land cover degradation in the baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• European Space Agency Climate Change Initiative Land Cover (ESA CCI-LC) product, 1992-2019. URL: https://www.esa-landcover-cci.org/
+62 / 96
+
+--- Page 63 ---
+Libya – SO1-1.M7
+Land cover degradation in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• European Space Agency Climate Change Initiative Land Cover (ESA CCI-LC) product, 1992-2019. URL: https://www.esa-landcover-cci.org/
+63 / 96
+
+--- Page 64 ---
+Libya – SO1-2.M1
+Land productivity dynamics in the baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• EC-JRC, 2021, based on Xavier Rotllan-Puig, Eva Ivits, Michael Cherlet, LPDynR: A new tool to calculate the land productivity dynamics indicator, Ecological Indicators, Volume 133, 2021, 108386, ISSN
+1470-160X. URL: https://doi.org/10.1016/j.ecolind.2021.108386
+64 / 96
+
+--- Page 65 ---
+Libya – SO1-2.M2
+Land productivity dynamics in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• EC-JRC, 2021, based on Xavier Rotllan-Puig, Eva Ivits, Michael Cherlet, LPDynR: A new tool to calculate the land productivity dynamics indicator, Ecological Indicators, Volume 133, 2021, 108386, ISSN
+1470-160X. URL: https://doi.org/10.1016/j.ecolind.2021.108386
+65 / 96
+
+--- Page 66 ---
+Libya – SO1-2.M3
+Land productivity degradation in the baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• EC-JRC, 2021, based on Xavier Rotllan-Puig, Eva Ivits, Michael Cherlet, LPDynR: A new tool to calculate the land productivity dynamics indicator, Ecological Indicators, Volume 133, 2021, 108386, ISSN
+1470-160X. URL: https://doi.org/10.1016/j.ecolind.2021.108386
+66 / 96
+
+--- Page 67 ---
+Libya – SO1-2.M4
+Land productivity degradation in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• EC-JRC, 2021, based on Xavier Rotllan-Puig, Eva Ivits, Michael Cherlet, LPDynR: A new tool to calculate the land productivity dynamics indicator, Ecological Indicators, Volume 133, 2021, 108386, ISSN
+1470-160X. URL: https://doi.org/10.1016/j.ecolind.2021.108386
+67 / 96
+
+--- Page 68 ---
+Libya – SO1-3.M1
+Soil organic carbon stock in the initial year of the baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• International Soil Reference and Information Centre (ISRIC) SoilGrids250m dataset. URL: https://www.isric.org/explore/soilgrids
+68 / 96
+
+--- Page 69 ---
+Libya – SO1-3.M2
+Soil organic carbon stock in the baseline year
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• International Soil Reference and Information Centre (ISRIC) SoilGrids250m dataset. URL: https://www.isric.org/explore/soilgrids
+69 / 96
+
+--- Page 70 ---
+Libya – SO1-3.M3
+Soil organic carbon stock in the latest reporting year
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• International Soil Reference and Information Centre (ISRIC) SoilGrids250m dataset. URL: https://www.isric.org/explore/soilgrids
+70 / 96
+
+--- Page 71 ---
+Libya – SO1-3.M4
+Change in soil organic carbon stock in the baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• International Soil Reference and Information Centre (ISRIC) SoilGrids250m dataset. URL: https://www.isric.org/explore/soilgrids
+71 / 96
+
+--- Page 72 ---
+Libya – SO1-3.M5
+Change in soil organic carbon stock in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• International Soil Reference and Information Centre (ISRIC) SoilGrids250m dataset. URL: https://www.isric.org/explore/soilgrids
+72 / 96
+
+--- Page 73 ---
+Libya – SO1-3.M6
+Soil organic carbon degradation in the baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• International Soil Reference and Information Centre (ISRIC) SoilGrids250m dataset. URL: https://www.isric.org/explore/soilgrids
+73 / 96
+
+--- Page 74 ---
+Libya – SO1-3.M7
+Soil organic carbon degradation in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• International Soil Reference and Information Centre (ISRIC) SoilGrids250m dataset. URL: https://www.isric.org/explore/soilgrids
+74 / 96
+
+--- Page 75 ---
+Libya – SO1-4.M1
+Proportion of land that is degraded over total land area (SDG Indicator 15.3.1) in the baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Derived based on the methodology in the Good Practice Guidance Version 2 for Sustainable Development Goal (SDG) indicator 15.3.1 - Proportion of land that is degraded over total land area. URL:
+https://www.unccd.int/publications/good-practice-guidance-sdg-indicator-1531-proportion-land-degraded-over-total-land
+75 / 96
+
+--- Page 76 ---
+Libya – SO1-4.M2
+Proportion of land that is degraded over total land area (SDG Indicator 15.3.1) in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Derived based on the methodology in the Good Practice Guidance Version 2 for Sustainable Development Goal (SDG) indicator 15.3.1 - Proportion of land that is degraded over total land area. URL:
+https://www.unccd.int/publications/good-practice-guidance-sdg-indicator-1531-proportion-land-degraded-over-total-land
+76 / 96
+
+--- Page 77 ---
+Libya – SO1-4.M3
+Progress towards Land Degradation Neutrality (LDN) in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Derived based on the methodology in the Good Practice Guidance Version 2 for Sustainable Development Goal (SDG) indicator 15.3.1 - Proportion of land that is degraded over total land area. URL:
+https://www.unccd.int/publications/good-practice-guidance-sdg-indicator-1531-proportion-land-degraded-over-total-land
+77 / 96
+
+--- Page 78 ---
+Libya – SO1-4.M5
+Land Degradation Hotspots
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Land Degradation data derived based on the Good Practice Guidance Version 2 for Sustainable Development Goal (SDG) indicator 15.3.1 - Proportion of land that is degraded over total land area.
+• The Hot spots data displayed on this map was provided by the Government of Libya.
+78 / 96
+
+--- Page 79 ---
+Libya – SO2-3.M1
+Total Population exposed to land degradation (baseline)
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• WorldPop project URL: https://www.worldpop.org
+79 / 96
+
+--- Page 80 ---
+Libya – SO2-3.M2
+Female Population exposed to land degradation (baseline)
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• WorldPop project URL: https://www.worldpop.org
+80 / 96
+
+--- Page 81 ---
+Libya – SO2-3.M3
+Male Population exposed to land degradation (baseline)
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• WorldPop project URL: https://www.worldpop.org
+81 / 96
+
+--- Page 82 ---
+Libya – SO2-3.M4
+Total Population exposed to land degradation (reporting)
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• WorldPop project URL: https://www.worldpop.org
+82 / 96
+
+--- Page 83 ---
+Libya – SO2-3.M5
+Female Population exposed to land degradation (reporting)
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• WorldPop project URL: https://www.worldpop.org
+83 / 96
+
+--- Page 84 ---
+Libya – SO2-3.M6
+Male Population exposed to land degradation (reporting)
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• WorldPop project URL: https://www.worldpop.org
+84 / 96
+
+--- Page 85 ---
+Libya – SO3-1.M1
+Drought hazard in first epoch of baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+85 / 96
+
+--- Page 86 ---
+Libya – SO3-1.M2
+Drought hazard in second epoch of baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+86 / 96
+
+--- Page 87 ---
+Libya – SO3-1.M3
+Drought hazard in third epoch of baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+87 / 96
+
+--- Page 88 ---
+Libya – SO3-1.M4
+Drought hazard in fourth epoch of baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+88 / 96
+
+--- Page 89 ---
+Libya – SO3-1.M5
+Drought hazard in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+89 / 96
+
+--- Page 90 ---
+Libya – SO3-2.M1
+Drought exposure in first epoch of baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+90 / 96
+
+--- Page 91 ---
+Libya – SO3-2.M2
+Drought exposure in second epoch of baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+91 / 96
+
+--- Page 92 ---
+Libya – SO3-2.M3
+Drought exposure in third epoch of baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+92 / 96
+
+--- Page 93 ---
+Libya – SO3-2.M4
+Drought exposure in fourth epoch of baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+93 / 96
+
+--- Page 94 ---
+Libya – SO3-2.M5
+Drought exposure in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+94 / 96
+
+--- Page 95 ---
+Libya – SO3-2.M6
+Female drought exposure in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+95 / 96
+
+--- Page 96 ---
+Libya – SO3-2.M7
+Male drought exposure in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+96 / 96

@@ -1,0 +1,2198 @@
+--- Page 1 ---
+United Nations Convention to Combat Desertification
+Performance review and assessment of implementation system
+Seventh reporting process
+Report from
+Liberia
+This report has been submitted by the government of Liberia to the United Nations Convention to Combat Desertification
+(UNCCD).
+The designations employed and the presentation of material in this report do not imply the expression of any opinion
+whatsoever on the part of the UNCCD concerning the legal status of any country, territory, city or area or of its authorities, or
+concerning the delimitation of its frontiers or boundaries.
+7 February 2023
+
+--- Page 2 ---
+Contents
+1. SO: Strategic objectives
+A. SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote
+sustainable land management and contribute to land degradation neutrality.
+SO1-1 Trends in land cover
+SO1-2 Trends in land productivity or functioning of the land
+SO1-3 Trends in carbon stocks above and below ground
+SO1-4 Proportion of degraded land over the total land area
+SO1 Voluntary Targets
+2. Other files for Reporting
+3. Templated Maps
+A. Land cover in the initial year of the baseline period
+B. Land cover in the baseline year
+C. Land cover in the latest reporting year
+D. Land cover change in the baseline period
+E. Land cover change in the reporting period
+F. Land cover degradation in the baseline period
+G. Land cover degradation in the reporting period
+H. Land productivity dynamics in the baseline period
+I. Land productivity dynamics in the reporting period
+J. Land productivity degradation in the baseline period
+K. Land productivity degradation in the reporting period
+L. Soil organic carbon stock in the initial year of the baseline period
+M. Soil organic carbon stock in the baseline year
+N. Soil organic carbon stock in the latest reporting year
+O. Change in soil organic carbon stock in the baseline period
+P. Change in soil organic carbon stock in the reporting period
+Q. Soil organic carbon degradation in the baseline period
+R. Soil organic carbon degradation in the reporting period
+S. Proportion of land that is degraded over total land area (SDG Indicator 15.3.1) in the baseline period
+T. Proportion of land that is degraded over total land area (SDG Indicator 15.3.1) in the reporting period
+U. Progress towards Land Degradation Neutrality (LDN) in the reporting period
+V. Land Degradation Hotspots
+W. Land Improvement Brightspots
+X. Areas of voluntary targets and related implemented actions
+2 / 59
+
+--- Page 3 ---
+3 / 59
+
+--- Page 4 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+SO1-1 Trends in land cover
+Land area
+SO1-1.T1: National estimates of the total land area, the area covered by water bodies and total country area
+Year Total land area (km²) Water bodies (km²) Total country area (km²) Comments
+2 001 95 503 453 95 956
+2 005 95 505 451 95 956
+2 010 95 507 449 95 956
+2 015 95 511 445 95 956
+2 019 95 511 445 95 956
+Land cover legend and transition matrix
+SO1-1.T2: Key Degradation Processes
+Degradation Process Starting Land Cover Ending Land Cover
+Deforestation Tree-covered areas Croplands
+Vegetation Loss Croplands Grasslands
+Urban Expansion Croplands Artificial surfaces
+Wetland Drainage Wetlands Artificial surfaces
+Other
+Tree-covered areas Artificial surfaces
+Mining
+Urban Expansion Wetlands Artificial surfaces
+Woody Encroachment Tree-covered areas Other Lands
+Are the seven UNCCD land cover classes sufficient to monitor the key degradation processes in your country?
+Yes
+No
+SO1-1.T4: UNCCD land cover legend transition matrix
+Original/ Final Tree-covered areas Grasslands Croplands Wetlands Artificial surfaces Other Lands Water bodies
+Tree-covered areas 0 - - - - - 0
+Grasslands + 0 + - - - 0
+Croplands + - 0 - - - 0
+Wetlands - - - 0 - - 0
+Artificial surfaces + + + + 0 + 0
+Other Lands + + + + - 0 0
+Water bodies 0 0 0 0 0 0 0
+Land cover
+SO1-1.T5: National estimates of land cover (km²) for the baseline and reporting period
+Other
+Tree-covered Grasslands Croplands Wetlands Artificial Water No data
+Lands
+areas (km²) (km²) (km²) (km²) surfaces (km²) bodies (km²) (km²)
+(km²)
+2000 46 916 280 47 842 282 181 0 454
+4 / 59
+
+--- Page 5 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Tree-covered Grasslands Croplands Wetlands Artificial Other Lands Water No data
+areas (km²) (km²) (km²) (km²) surfaces (km²) (km²) bodies (km²) (km²)
+2001 45 792 280 48 965 278 187 0 454
+2002 45 448 282 49 307 276 189 0 454
+2003 45 431 282 49 324 275 190 0 454
+2004 43 887 282 50 869 274 191 0 452
+2005 43 872 281 50 881 274 197 0 451
+2006 43 920 280 50 829 273 204 0 451
+2007 43 862 277 50 879 273 215 0 450
+2008 43 862 279 50 874 272 220 0 449
+2009 43 842 281 50 887 272 224 0 449
+2010 43 608 281 51 118 272 229 0 449
+2011 43 544 280 51 178 274 234 0 447
+2012 43 540 276 51 182 275 236 0 446
+2013 43 507 273 51 215 275 241 0 446
+2014 43 379 272 51 339 276 245 0 446
+2015 43 378 271 51 337 276 248 0 446
+2016 43 433 268 51 284 278 248 0 446
+2017 43 433 269 51 283 277 249 0 446
+2018 43 574 266 51 144 278 249 0 446
+2019 43 564 265 51 153 278 250 0 446
+2020
+Land cover change
+SO1-1.T6: National estimates of land cover change (km²) for the baseline period
+Artificial Other Water
+Tree-covered Grasslands Croplands Wetlands Total
+surfaces Lands bodies
+areas (km²) (km²) (km²) (km²) (km²)
+(km²) (km²) (km²)
+Tree-covered
+42 724 18 4 156 4 14 0 0 46 916
+areas (km²)
+Grasslands
+8 252 0 0 20 0 0 280
+(km²)
+Croplands (km²) 638 0 47 178 0 26 0 0 47 842
+Wetlands (km²) 7 1 3 268 4 0 0 283
+Artificial
+0 0 0 0 181 0 0 181
+surfaces (km²)
+Other Lands
+0 0 0 0 0 0 0 0
+(km²)
+Water bodies
+2 0 1 4 2 0 445 454
+(km²)
+Total 43 379 271 51 338 276 247 0 445
+SO1-1.T7: National estimates of land cover change (km²) for the reporting period
+5 / 59
+
+--- Page 6 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Artificial Other Water
+Tree-covered Grasslands Croplands Wetlands Total land
+surfaces Lands bodies
+areas (km²) (km²) (km²) (km²) area (km²)
+(km²) (km²) (km²)
+Tree-covered
+43 019 2 353 3 1 0 0 43 378
+areas (km²)
+Grasslands
+8 263 0 0 0 0 0 271
+(km²)
+Croplands
+536 0 50 800 1 0 0 0 51 337
+(km²)
+Wetlands (km²) 1 0 0 274 1 0 0 276
+Artificial
+0 0 0 0 248 0 0 248
+surfaces (km²)
+Other Lands
+0 0 0 0 0 0 0 0
+(km²)
+Water bodies
+0 0 0 0 0 0 446 446
+(km²)
+Total 43 564 265 51 153 278 250 0 446
+Land cover degradation
+SO1-1.T8: National estimates of land cover degradation (km²) in the baseline period
+Area (km²) Percent of total land area (%)
+Land area with degraded land cover 4 253 4 .4
+Land area with non-degraded land cover 91 702 95 .6
+Land area with no land cover data 0 0 .0
+SO1-1.T9: National estimates of land cover degradation (km²) in the reporting period
+Area (km²) Percent of total land area (%)
+Land area with improved land cover 544 0 .6
+Land area with stable land cover 95 049 99 .1
+Land area with degraded land cover 362 0 .4
+Land area with no land cover data 0 0 .0
+General comments
+A team of national experts from government institutions (Liberia Institute for Statistics and Geo-Information Services, Forestry
+Development Authority, Ministry of Agriculture, Land Authority, Ministry of Mines and Energy, Ministry of Finance Development Planning,
+etc..,) and others from developmental partners (FAO, World Bank, etc...) and media and CSO representatives gathered for a two-day
+validation of SO-1. A consensus was reached to use default estimates since we didn't have national datasets as required for the baseline
+and reporting period. A national land cover dataset for 2019 exists but the country does not have the required dataset for the baseline year;
+hence, the team of experts agreed to use the default dataset and make improvements on using national dataset to report on SO-1 in the
+next reporting period.
+6 / 59
+
+--- Page 7 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+SO1-2 Trends in land productivity or functioning of the land
+Land productivity dynamics
+SO1-2.T1: National estimates of land productivity dynamics (in km²) within each land cover class for the
+baseline period
+Net land productivity dynamics (km²) for the baseline period
+Land cover class
+Declining (km²) Moderate Decline (km²) Stressed (km²) Stable (km²) Increasing (km²) No Data (km²)
+Tree-covered areas 392 4 801 2 325 2 900 32 301 4
+Grasslands 7 52 72 14 107 0
+Croplands 250 7 886 2 803 2 222 34 014 2
+Wetlands 4 57 123 24 58 1
+Artificial surfaces 12 33 108 5 25 0
+Other Lands 0 0 0 0 0 0
+Water bodies 4 33 215 47 62 84
+SO1-2.T2: National estimates of land productivity dynamics (in km²) within each land cover class for the
+reporting period.
+Net land productivity dynamics (km²) for the reporting period
+Land cover class
+Declining (km²) Moderate Decline (km²) Stressed (km²) Stable (km²) Increasing (km²) No Data (km²)
+Tree-covered areas 197 491 2 351 15 485 24 041 4
+Grasslands 6 27 72 29 115 0
+Croplands 94 1 724 3 595 13 835 30 629 3
+Wetlands 5 22 125 38 76 1
+Artificial surfaces 4 14 138 16 25 0
+Other Lands 0 0 0 0 0 0
+Water bodies 10 25 233 48 44 84
+SO1-2.T3: National estimates of land productivity dynamics for areas where a land conversion to a new land
+cover class has taken place (in km²) for the baseline period.
+Land Conversion Net land productivity dynamics (km²) for the baseline period
+Net area change Declining Moderate Decline Stressed Stable Increasing
+From To
+(km²) (km²) (km²) (km²) (km²) (km²)
+Tree-covered
+Croplands 4 156 44 662 289 296 2 865
+areas
+Tree-covered
+Croplands 638 3 135 44 43 413
+areas
+Artificial
+Croplands 26 2 11 7 1 6
+surfaces
+Artificial
+Grasslands 20 2 4 10 1 4
+surfaces
+SO1-2.T4: National estimates of land productivity dynamics for areas where a land conversion to a new land
+cover class has taken place (in km²) for the reporting period.
+7 / 59
+
+--- Page 8 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Land Conversion Net land productivity dynamics (km²) for the reporting period
+Net area change Declining Moderate Decline Stressed Stable Increasing
+From To
+(km²) (km²) (km²) (km²) (km²) (km²)
+Tree-covered
+Croplands 1 273 4 36 102 410 720
+areas
+Tree-covered
+Croplands 978 1 25 47 306 598
+areas
+Artificial
+Croplands 23 1 4 6 4 8
+surfaces
+Artificial
+Grasslands 16 0 2 8 2 4
+surfaces
+Land Productivity degradation
+SO1-2.T5: National estimates of land productivity degradation in the baseline period
+Area (km²) Percent of total land area (%)
+Land area with degraded land productivity 14 368 15 .0
+Land area with non-degraded land productivity 81 126 84 .9
+Land area with no land productivity data 6 0 .0
+SO1-2.T6: National estimates of land productivity degradation in the reporting period
+Area (km²) Percent of total land area (%)
+Land area with improved land productivity 56 234 58 .9
+Land area with stable land productivity 36 601 38 .3
+Land area with degraded land productivity 2 666 2 .8
+Land area with no land productivity data 7 0 .0
+General comments
+This indicator was measured using the UNCCD's default data, and this was agreed upon since Liberia does not have a national dataset to
+measure and report on this indicator. The final results for the reporting period showed a positive outcome. It can be seen that "land area
+with improved productivity" is 21 times more in extent than "land area with degraded productivity". This is a result of regrown plantation
+lands (palm, rubber, cocoa, etc.) that were cleared during the baseline period but regrown in the reporting period. Also, new legislation on
+forest and environmental management prevents forested areas from being given out for agriculture concessions - this has preserved
+forested areas and also increased the productivity in croplands. The Liberia Forest Sector Project (LFSP) has also worked with local
+communities in areas of sustainable land and forest management. The project has provided tremendous support to Forest rangers and
+Environmental and Mine Inspectors in being robust in curbing non-compliant environmental and forestry activities.
+8 / 59
+
+--- Page 9 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+SO1-3 Trends in carbon stocks above and below ground
+Soil organic carbon stocks
+SO1-3.T1: National estimates of the soil organic carbon stock in topsoil (0-30 cm) within each land cover
+class (in tonnes per hectare).
+Soil organic carbon stock in topsoil (t/ha)
+Year
+Tree-covered areas Grasslands Croplands Wetlands Artificial surfaces Other Lands Water bodies
+2000 66 82 72 91 100 0 26
+2001 68 82 71 93 97 0 26
+2002 68 81 70 93 96 0 26
+2003 68 81 70 94 95 0 26
+2004 71 81 68 94 95 0 26
+2005 71 81 68 94 92 0 26
+2006 71 82 68 95 89 0 26
+2007 71 83 68 94 84 0 26
+2008 71 82 68 95 82 0 26
+2009 71 82 68 95 81 0 26
+2010 71 82 68 95 79 0 26
+2011 71 82 68 94 77 0 26
+2012 71 83 68 94 77 0 26
+2013 71 84 68 94 75 0 26
+2014 71 84 67 93 74 0 26
+2015 72 82 67 94 70 0 26
+2016 72 83 67 93 70 0 26
+2017 72 83 67 94 70 0 26
+2018 71 84 67 94 70 0 26
+2019 71 84 67 93 69 0 26
+2020
+If you opted not to use default Tier 1 data, what did you use to calculate the estimates above?
+Modified Tier 1 methods and data
+Tier 2 (additional use of country-specific data)
+Tier 3 (more complex methods involving ground measurements and modelling)
+SO1-3.T2: National estimates of the change in soil organic carbon stock in soil due to land conversion to a
+new land cover class in the baseline period
+Land Conversion Soil organic carbon (SOC) stock change in the baseline period
+Net area Initial SOC Final SOC Initial SOC Final SOC SOC stock
+From To
+change (km²) stock (t/ha) stock (t/ha) stock total (t) stock total (t) change (t)
+Tree-covered
+Croplands 638 75 .6 83 .7 4 821 405 5 337 209 515 804
+areas
+9 / 59
+
+--- Page 10 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Land Conversion Soil organic carbon (SOC) stock change in the baseline period
+Net area Initial SOC Final SOC Initial SOC Final SOC SOC stock
+From To
+change (km²) stock (t/ha) stock (t/ha) stock total (t) stock total (t) change (t)
+Artificial
+Grasslands 20 78 .0 48 .4 156 087 96 814 -59 273
+surfaces
+Artificial
+Croplands 26 80 .3 55 .2 208 789 143 462 -65 327
+surfaces
+Tree-covered
+Croplands 4 156 66 .7 58 .6 27 732 538 24 343 473 -3 389 065
+areas
+SO1-3.T3: National estimates of the change in soil organic carbon stock in soil due to land conversion to a
+new land cover class in the reporting period
+Land Conversion Soil organic carbon (SOC) stock change in the reporting period
+Net area Initial SOC Final SOC Initial SOC Final SOC SOC stock
+From To
+change (km²) stock (t/ha) stock (t/ha) stock total (t) stock total (t) change (t)
+Tree-covered
+Croplands 536 69 .3 71 .2 3 716 438 3 815 129 98 691
+areas
+Tree-covered
+Grasslands 8 91 .2 91 .2 72 950 72 950 0
+areas
+Tree-covered
+Wetlands 3 91 .1 91 .1 27 329 27 329 0
+areas
+Tree-covered
+Croplands 353 72 .9 70 .4 2 573 517 2 485 297 -88 220
+areas
+Soil organic carbon stock degradation
+SO1-3.T4: National estimates of soil organic carbon stock degradation in the baseline period
+Area (km²) Percent of total land area (%)
+Land area with degraded soil organic carbon (SOC) 3 313 3 .5
+Land area with non-degraded SOC 92 140 96 .5
+Land area with no SOC data 47 0 .0
+SO1-3.T5: National estimates of SOC stock degradation in the reporting period
+Area (km²) Percent of total land area (%)
+Land area with improved SOC 0 0 .0
+Land area with stable SOC 95 394 99 .9
+Land area with degraded SOC 65 0 .1
+Land area with no SOC data 50 0 .1
+General comments
+Soil organic carbon does not degrade at the same rate as landcover or land productivity. A once-forested land cleared for agricultural
+purpose might yet have its carbon (below-ground biomass) in situ. This indicator was measured using the UNCCD's default data - a
+consensus reached since Liberia does not such data or plans to produce one soon.
+10 / 59
+
+--- Page 11 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+SO1-4 Proportion of degraded land over the total land area
+Proportion of degraded land over the total land area (Sustainable Development Goal Indicator 15.3.1)
+SO1-4.T1: National estimates of the total area of degraded land (in km²), and the proportion of degraded land
+relative to the total land area
+Total area of degraded land (km²) Proportion of degraded land over the total land area (%)
+Baseline Period 17 883 18 .7
+Reporting Period 8 537 8 .9
+Change in degraded extent -9346
+Method
+Did you use the SO1-1, SO1-2 and SO1-3 indicators (i.e. land cover, land productivity dynamics and soil organic carbon
+stock) to compute the proportion of degraded land?
+Which indicators did you use?
+☒ Land Cover
+☒ Land Productivity Dynamics
+☒ SOC Stock
+Did you apply the one-out, all-out principle to compute the proportion of degraded land?
+Yes
+No
+Level of Confidence
+Indicate your country’s level of confidence in the assessment of the proportion of degraded land:
+High (based on comprehensive evidence)
+Medium (based on partial evidence)
+Low (based on limited evidence)
+Describe why the assessment has been given the level of confidence selected above:
+Liberia is using the UNCCD's default dataset for this reporting period. We opted to use the dataset for the assessment because it presents
+the permissible quality, extent, trends, and land cover classes needed to measure land degradation over time. At the moment, such data
+isn't available nationally. Data collected from our national forest inventory conducted in 2019 would've been ideal for use - but it lacks the
+temporal coverage (baseline - final year) required for the reporting period. Though the default data is not high-resolution, yet it presents the
+land cover classes and temporal extent for LDN calculations. Our confidence in rating this assessment as seen above is a result of a
+comparative ground truthing exercise, using high-res satellite imager (bing) that was employed to ascertain the accuracy of the classified
+image used for UNCCD's reporting. We chose "Medium" based on partial evidence. Though high-res bing images were used to assess the
+data's accuracy - on-the-ground observations would've given a clearer meaning to our assessment.
+False positives/ False negatives
+SO1-4.T3: Justify why any area identified as degraded or non-degraded in the SO1-1, SO1-2 or SO1-3 indicator
+data should or should not be included in the overall Sustainable Development Goal indicator 15.3.1
+calculation.
+Location Name Type Recode Options Area (km²) Process driving false +/- outcome Basis for Judgement Edit Polygon
+Perform qualitative assessments of areas identified as degraded or improved
+SO1-4.T4: Degradation hotspots
+11 / 59
+
+--- Page 12 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Action(s)
+taken to
+redress
+Direct drivers degradation
+Area Assessment of land in terms of Remediating action(s) (both Edit
+Hotspots Location
+(km²) Process degradation Land forward-looking and current) Polygon
+hotspots Degradation
+Neutrality
+response
+hierarchy
+• General instrument (e.g.
+policies, economic
+1. Cropland and
+incentives)
+agroforestry
+management
+• Restore/improve tree-
+2. Deforestation
+Land covered areas
+Stakeholder and clearance
+degradation Grand Cape perspectives of other native ☒ Avoid ◦ Reduce/halt
+hotspots Mount, Bomi 2 from surveys, vegetation deforestation and
+around Lake Counties - 513 workshops 3. Mineral ☒ Reduce conversion of tree Polygon
+Piso Multiple LIBERIA .6 and resource ☐ Reverse cover to other land
+use nature interviews extraction cover types (e.g.
+reserve conserving forest land)
+4. Non-timber
+◦ Restore tree-covered
+natural
+areas
+resource
+extraction
+• Reduce/halt conversion of
+multiple land uses
+Total no. of
+8
+hotspots
+Total
+17 816 .2
+hotspot area
+12 / 59
+
+--- Page 13 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Action(s)
+taken to
+redress
+Direct drivers degradation
+Area Assessment of land in terms of Remediating action(s) (both Edit
+Hotspots Location
+(km²) Process degradation Land forward-looking and current) Polygon
+hotspots Degradation
+Neutrality
+response
+hierarchy
+• General instrument (e.g.
+policies, economic
+incentives)
+• Restore/improve croplands
+◦ Practise sustainable
+land management
+◦ Increase land
+productivity in
+agricultural areas
+• Other/general/unspecified
+◦ Achieve LDN
+◦ Avoid/prevent/halt
+1. Mineral degradation (of
+resource degraded lands)
+extraction
+2. Cropland and • Manage artificial surfaces
+Stakeholder agroforestry ◦ Restore degraded
+Land perspectives management ☒ Avoid mining areas
+d ho eg ts r a in dation B G o b n a g p , olu - 3 022 from surveys, 3. Deforestation ☒ Reduce ◦ Halt illegal mining Polygon
+workshops and clearance and/or reduce mining
+Northwest LIBERIA .2 and of other native ☐ Reverse areas
+Liberia
+interviews vegetation
+4. Non-timber • Restore/improve protected
+natural areas
+resource ◦ Improve management
+extraction
+of protected areas
+• Restore productivity and
+soil organic carbon stock in
+croplands and grasslands
+• Increase soil fertility and
+carbon stock
+◦ Reduce soil erosion
+◦ Rehabilitate bare land
+and/or restore
+degraded land
+• Reduce/halt conversion of
+multiple land uses
+Total no. of
+8
+hotspots
+Total hotspot
+17 816 .2
+area
+13 / 59
+
+--- Page 14 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Action(s)
+taken to
+redress
+Direct drivers degradation
+Area Assessment of land in terms of Remediating action(s) (both Edit
+Hotspots Location
+(km²) Process degradation Land forward-looking and current) Polygon
+hotspots Degradation
+Neutrality
+response
+hierarchy
+• Restore/improve croplands
+◦ Practise sustainable
+land management
+• Other/general/unspecified
+◦ Achieve LDN
+• Manage artificial surfaces
+◦ Halt/reduce/regulate
+1. Infrastructure,
+expansion of
+industry and
+urban/artificial
+urbanization
+surfaces
+2. Cropland and
+Stakeholder agroforestry
+Land Montserrado, perspectives management ☒ Avoid • Restore/improve protected
+d ar e o g u ra n d d ation M co a u r n g t i i b e i s - 2 374 f w ro o m rk s s h u o rv p e s ys, 3. a D n e d fo c r l e e s a t r a a t n io c n e ☒ Reduce ar ◦ ea I s mprove management Polygon
+urbanized LIBERIA .6 and of other native ☐ Reverse of protected areas
+area
+interviews vegetation
+4. Non-timber • Restore/improve multiple
+natural land uses
+resource
+extraction • Restore productivity and
+soil organic carbon stock in
+croplands and grasslands
+• Increase soil fertility and
+carbon stock
+◦ Reduce soil erosion
+◦ Improve
+watershed/landscape
+management
+Total no. of
+8
+hotspots
+Total hotspot
+17 816 .2
+area
+14 / 59
+
+--- Page 15 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Action(s)
+taken to
+redress
+Direct drivers degradation
+Area Assessment of land in terms of Remediating action(s) (both Edit
+Hotspots Location
+(km²) Process degradation Land forward-looking and current) Polygon
+hotspots Degradation
+Neutrality
+response
+hierarchy
+• Restore/improve wetlands
+◦ Restore/preserve
+wetlands and reduce
+degradation of
+wetlands
+◦ Halt/reduce wetland
+conversion to other
+land uses (includes
+conserving wetlands)
+1. Cropland and • Restore/improve croplands
+agroforestry ◦ Practise sustainable
+management land management
+2. Deforestation ◦ Increase land
+and clearance productivity in
+of other native agricultural areas
+Stakeholder
+vegetation
+Land Grand Bassa perspectives 3. Non-timber ☒ Avoid • Other/general/unspecified
+degradation County - 4 from surveys, natural ☒ Reduce ◦ Achieve LDN Polygon
+hotspot LIBERIA 739 w an o d rkshops resource ☐ Reverse
+extraction
+interviews • Manage artificial surfaces
+4. Infrastructure, ◦ Halt illegal mining
+industry and
+and/or reduce mining
+urbanization
+areas
+5. Mineral ◦ Improve land
+resource
+productivity on artificial
+extraction
+surfaces
+• Restore/improve tree-
+covered areas
+◦ Increase land
+productivity in tree
+covered areas
+• Restore productivity and
+soil organic carbon stock in
+croplands and grasslands
+Total no. of
+8
+hotspots
+Total hotspot
+17 816 .2
+area
+15 / 59
+
+--- Page 16 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Action(s)
+taken to
+redress
+Direct drivers degradation
+Area Assessment of land in terms of Remediating action(s) (both Edit
+Hotspots Location
+(km²) Process degradation Land forward-looking and current) Polygon
+hotspots Degradation
+Neutrality
+response
+hierarchy
+• Restore/improve croplands
+◦ Practise sustainable
+land management
+◦ Increase land
+productivity in
+agricultural areas
+• Other/general/unspecified
+1. Cropland and ◦ Avoid/prevent/halt
+agroforestry
+degradation (of
+management
+degraded lands)
+2. Deforestation
+Stakeholder and clearance
+• Restore/improve
+Grand Bassa, perspectives of other native ☒ Avoid
+Land Rivercess 1 from surveys, vegetation grasslands
+degradation 821 ☒ Reduce ◦ Improve land Polygon
+counties - workshops 3. Non-timber
+hotspot LIBERIA .6 and natural ☐ Reverse productivity in
+grasslands
+interviews resource
+extraction
+4. Mineral • Improve coastal
+resource management
+extraction ◦ Reduce coastal erosion
+• Manage artificial surfaces
+◦ Halt illegal mining
+and/or reduce mining
+areas
+• Restore/improve multiple
+functions
+Total no. of
+8
+hotspots
+Total hotspot
+17 816 .2
+area
+16 / 59
+
+--- Page 17 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Action(s)
+taken to
+redress
+Direct drivers degradation
+Area Assessment of land in terms of Remediating action(s) (both Edit
+Hotspots Location
+(km²) Process degradation Land forward-looking and current) Polygon
+hotspots Degradation
+Neutrality
+response
+hierarchy
+• Restore/improve wetlands
+◦ Restore/preserve
+wetlands and reduce
+degradation of
+wetlands
+◦ Halt/reduce wetland
+conversion to other
+land uses (includes
+conserving wetlands)
+1. Deforestation
+and clearance • Restore/improve croplands
+of other native ◦ Practise sustainable
+vegetation land management
+Stakeholder 2. Cropland and
+perspectives agroforestry ☒ Avoid • Other/general/unspecified
+Land Sinoe county 2 from surveys, management ◦ Achieve LDN
+degradation - LIBERIA 310 workshops 3. Non-timber ☒ Reduce ◦ Improve land Polygon
+hotspot .9 and natural ☐ Reverse productivity
+interviews resource (unspecified land use)
+extraction
+4. Mineral • Manage artificial surfaces
+resource ◦ Halt illegal mining
+extraction
+and/or reduce mining
+areas
+• Restore/improve protected
+areas
+◦ Improve management
+of protected areas
+• Restore/improve multiple
+functions
+Total no. of
+8
+hotspots
+Total hotspot
+17 816 .2
+area
+17 / 59
+
+--- Page 18 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Action(s)
+taken to
+redress
+Direct drivers degradation
+Area Assessment of land in terms of Remediating action(s) (both Edit
+Hotspots Location
+(km²) Process degradation Land forward-looking and current) Polygon
+hotspots Degradation
+Neutrality
+response
+hierarchy
+• Increase protected areas
+◦ Increase protected
+area extent
+• Restore/improve croplands
+◦ Practise sustainable
+land management
+◦ Improve water use for
+irrigation
+◦ Rehabilitate bare or
+degraded land for crop
+production
+• Other/general/unspecified
+◦ Achieve LDN
+◦ Avoid/prevent/halt
+degradation (of
+degraded lands)
+1. Cropland and
+• Restore/improve protected
+agroforestry
+areas
+management
+Stakeholder ◦ Improve management
+perspectives 2. Deforestation ☒ Avoid of protected areas
+Land and clearance
+Lofa County - 760 from surveys,
+degradation of other native ☒ Reduce Polygon
+hotspot LIBERIA .1 w an o d rkshops vegetation ☐ Reverse • Restore/improve tree-
+covered areas
+interviews 3. No n n a - t t u im ra b l er ◦ Reduce/halt
+resource deforestation and
+extraction conversion of tree
+cover to other land
+cover types (e.g.
+conserving forest land)
+◦ Increase land
+productivity in tree
+covered areas
+◦ Improve tree cover
+management e.g. fire
+management
+• Restore/improve multiple
+functions
+• Increase soil fertility and
+carbon stock
+◦ Reduce soil erosion
+• Reduce/halt conversion of
+multiple land uses
+Total no. of
+8
+hotspots
+Total hotspot
+17 816 .2
+area
+18 / 59
+
+--- Page 19 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Action(s)
+taken to
+redress
+Direct drivers degradation
+Area Assessment of land in terms of Remediating action(s) (both Edit
+Hotspots Location
+(km²) Process degradation Land forward-looking and current) Polygon
+hotspots Degradation
+Neutrality
+response
+hierarchy
+• Restore/improve croplands
+◦ Practise sustainable
+land management
+◦ Rehabilitate bare or
+degraded land for crop
+production
+• Other/general/unspecified
+◦ Achieve LDN
+◦ Avoid/prevent/halt
+degradation (of
+degraded lands)
+1. Cropland and
+agroforestry • Manage artificial surfaces
+management
+◦ Halt illegal mining
+2. Mineral and/or reduce mining
+Stakeholder resource
+areas
+perspectives extraction ☒ Avoid
+Land
+degradation River Gee - 274 from surveys, 3. Deforestation ☒ Reduce • Restore/improve protected Polygon
+LIBERIA .2 workshops and clearance
+hotspot and of other native ☐ Reverse areas
+interviews vegetation ◦ Improve management
+of protected areas
+4. Non-timber
+natural
+resource • Restore/improve tree-
+extraction covered areas
+• Restore/improve multiple
+functions
+• Increase soil fertility and
+carbon stock
+◦ Increase carbon stock
+and reduce soil/land
+degradation
+• Reduce/halt conversion of
+multiple land uses
+Total no. of
+8
+hotspots
+Total hotspot
+17 816 .2
+area
+What is/are the indirect driver(s) of land degradation at the national level?
+1. Institutions and governance
+2. Cultural
+3. Demographic
+4. Economic
+5. Science, knowledge and technology
+SO1-4.T5: Improvement brightspots
+19 / 59
+
+--- Page 20 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+What action(s) led
+to the brightspot
+Area Assessment in terms of the Implementing action(s) (both Edit
+Brightspots Location
+(km²) Process Land Degradation forward-looking and current) Polygon
+Neutrality
+hierarchy?
+• General instrument (e.g.
+policies, economic incentives)
+• Increase protected areas
+◦ Increase protected area
+extent
+Stakeholder
+☒ Avoid
+Voinjema - Wologizi perspectives
+proposed protected Lofa County 872 from surveys, ☒ Reduce • Manage artificial surfaces Polygon
+area. .3 workshops and ☐ Reverse ◦ Halt illegal mining and/or
+interviews reduce mining areas
+◦ Halt/reduce/regulate
+expansion of
+urban/artificial surfaces
+• Reduce/halt conversion of
+multiple land uses
+• General instrument (e.g.
+policies, economic incentives)
+• Increase protected areas
+◦ Increase protected area
+extent
+• Restore/improve croplands
+◦ Practise sustainable land
+management
+◦ Improve water use for
+irrigation
+Stakeholder
+☒ Avoid
+perspectives • Other/general/unspecified
+Wonegisi Proposed
+Lofa County 36 from surveys, ☒ Reduce ◦ Achieve LDN Polygon
+Protected area.
+workshops and ☐ Reverse ◦ Avoid/prevent/halt
+interviews
+degradation (of degraded
+lands)
+• Restore/improve protected
+areas
+• Increase soil fertility and
+carbon stock
+◦ Maintain the current level
+of SOC
+• Reduce/halt conversion of
+multiple land uses
+Total no. of brightpots 13
+Total brightspot area 4 083 .7
+20 / 59
+
+--- Page 21 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+What action(s) led
+to the brightspot
+Area Assessment in terms of the Implementing action(s) (both Edit
+Brightspots Location
+(km²) Process Land Degradation forward-looking and current) Polygon
+Neutrality
+hierarchy?
+• General instrument (e.g.
+policies, economic incentives)
+• Increase protected areas
+• Manage artificial surfaces
+Stakeholder ◦ Halt illegal mining and/or
+☒ Avoid
+perspectives reduce mining areas
+42 .9 from surveys, ☒ Reduce Polygon
+workshops and
+☐ Reverse • Increase soil fertility and
+interviews
+carbon stock
+◦ Rehabilitate bare land
+and/or restore degraded
+land
+• Reduce/halt conversion of
+multiple land uses
+• Restore/improve croplands
+◦ Practise sustainable land
+management
+• Restore/improve grasslands
+◦ Improve land productivity
+in grasslands
+• Improve coastal management
+• Manage artificial surfaces
+◦ Halt illegal mining and/or
+reduce mining areas
+• Restore/improve protected
+areas
+Brigtspots mapped in Stakeholder ☒ Avoid ◦ Improve management of
+perspectives
+Wonegisi proposed Lofa county protected areas
+46 .8 from surveys, ☒ Reduce Polygon
+protected area - LIBERIA
+workshops and
+landscape. ☐ Reverse • Restore/improve tree-covered
+interviews
+areas
+◦ Reduce/halt deforestation
+and conversion of tree
+cover to other land cover
+types (e.g. conserving
+forest land)
+• Increase soil fertility and
+carbon stock
+◦ Maintain the current level
+of SOC
+◦ Rehabilitate bare land
+and/or restore degraded
+land
+• Reduce/halt conversion of
+multiple land uses
+Total no. of brightpots 13
+Total brightspot area 4 083 .7
+21 / 59
+
+--- Page 22 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+What action(s) led
+to the brightspot
+Area Assessment in terms of the Implementing action(s) (both Edit
+Brightspots Location
+(km²) Process Land Degradation forward-looking and current) Polygon
+Neutrality
+hierarchy?
+• Restore/improve croplands
+◦ Practise sustainable land
+management
+◦ Rehabilitate bare or
+degraded land for crop
+production
+Stakeholder
+Bright spot mapped in perspectives ☒ Avoid • Restore/improve protected
+Wonegisi proposed Lofa county
+75 .1 from surveys, ☒ Reduce areas Polygon
+protected area - LIBERIA workshops and ☐ Reverse ◦ Improve management of
+landscape.
+interviews protected areas
+• Restore/improve multiple
+functions
+• Reduce/halt conversion of
+multiple land uses
+• General instrument (e.g.
+policies, economic incentives)
+• Restore/improve croplands
+◦ Practise sustainable land
+management
+◦ Improve water use for
+irrigation
+◦ Increase land productivity
+in agricultural areas
+◦ Rehabilitate bare or
+degraded land for crop
+production
+• Restore/improve tree-covered
+areas
+Stakeholder
+☒ Avoid ◦ Reduce/halt deforestation
+perspectives
+Bright spot mapped in Lofa county 387 and conversion of tree
+from surveys, ☒ Reduce Polygon
+Voinjema landscape - LIBERIA .4 cover to other land cover
+workshops and
+☐ Reverse types (e.g. conserving
+interviews
+forest land)
+◦ Improve tree cover
+management e.g. fire
+management
+• Restore/improve multiple
+functions
+• Increase soil fertility and
+carbon stock
+◦ Rehabilitate bare land
+and/or restore degraded
+land
+• Reduce/halt conversion of
+multiple land uses
+Total no. of brightpots 13
+Total brightspot area 4 083 .7
+22 / 59
+
+--- Page 23 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+What action(s) led
+to the brightspot
+Area Assessment in terms of the Implementing action(s) (both Edit
+Brightspots Location
+(km²) Process Land Degradation forward-looking and current) Polygon
+Neutrality
+hierarchy?
+• Restore/improve croplands
+◦ Practise sustainable land
+management
+• Manage artificial surfaces
+◦ Restore degraded mining
+areas
+◦ Halt illegal mining and/or
+reduce mining areas
+• Restore/improve protected
+areas
+Stakeholder
+☒ Avoid ◦ Improve management of
+Bright spot mapped in Gbapolu perspectives
+385 protected areas
+Gola National Forest county - from surveys, ☒ Reduce Polygon
+.6
+landscape LIBERIA workshops and ☐ Reverse
+interviews • Restore/improve tree-covered
+areas
+◦ Reduce/halt deforestation
+and conversion of tree
+cover to other land cover
+types (e.g. conserving
+forest land)
+• Restore/improve multiple
+functions
+• Reduce/halt conversion of
+multiple land uses
+Total no. of brightpots 13
+Total brightspot area 4 083 .7
+23 / 59
+
+--- Page 24 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+What action(s) led
+to the brightspot
+Area Assessment in terms of the Implementing action(s) (both Edit
+Brightspots Location
+(km²) Process Land Degradation forward-looking and current) Polygon
+Neutrality
+hierarchy?
+• Restore/improve croplands
+◦ Practise sustainable land
+management
+• Manage artificial surfaces
+◦ Halt illegal mining and/or
+reduce mining areas
+• Restore/improve protected
+areas
+◦ Improve management of
+protected areas
+• Restore/improve tree-covered
+areas
+Bright spot mapped in Stakeholder ◦ Reduce/halt deforestation
+☒ Avoid
+Arcelo Mital Nimba 211 perspectives and conversion of tree
+Conservation county - .6 from surveys, ☒ Reduce cover to other land cover Polygon
+International Project LIBERIA workshops and ☐ Reverse types (e.g. conserving
+landscape. interviews forest land)
+◦ Improve tree cover
+management e.g. fire
+management
+• Restore/improve multiple
+functions
+• Increase soil fertility and
+carbon stock
+◦ Increase carbon stock
+and reduce soil/land
+degradation
+• Reduce/halt conversion of
+multiple land uses
+Total no. of brightpots 13
+Total brightspot area 4 083 .7
+24 / 59
+
+--- Page 25 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+What action(s) led
+to the brightspot
+Area Assessment in terms of the Implementing action(s) (both Edit
+Brightspots Location
+(km²) Process Land Degradation forward-looking and current) Polygon
+Neutrality
+hierarchy?
+• Restore/improve croplands
+◦ Practise sustainable land
+management
+• Manage artificial surfaces
+◦ Restore degraded mining
+areas
+◦ Halt illegal mining and/or
+reduce mining areas
+• Restore/improve protected
+Stakeholder areas
+Bright spot mapped in ☒ Avoid
+Gbapolu perspectives ◦ Improve management of
+FDA/LFSP/SCNL Gola
+county - 61 .2 from surveys, ☒ Reduce protected areas Polygon
+National Forest
+LIBERIA workshops and
+☐ Reverse
+landscape.
+interviews
+• Restore/improve tree-covered
+areas
+◦ Reduce/halt deforestation
+and conversion of tree
+cover to other land cover
+types (e.g. conserving
+forest land)
+◦ Increase land productivity
+in tree covered areas
+• Reduce/halt conversion of
+multiple land uses
+• Restore/improve croplands
+◦ Practise sustainable land
+management
+• Restore/improve protected
+areas
+◦ Improve management of
+Stakeholder protected areas
+Bright spot mapped in ☒ Avoid
+Nimba perspectives
+East Nimba Nature 154
+Reserve protected county - .7 from surveys, ☒ Reduce • Restore/improve tree-covered Polygon
+LIBERIA workshops and
+☐ Reverse areas
+area landscape
+interviews ◦ Reduce/halt deforestation
+and conversion of tree
+cover to other land cover
+types (e.g. conserving
+forest land)
+• Reduce/halt conversion of
+multiple land uses
+Total no. of brightpots 13
+Total brightspot area 4 083 .7
+25 / 59
+
+--- Page 26 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+What action(s) led
+to the brightspot
+Area Assessment in terms of the Implementing action(s) (both Edit
+Brightspots Location
+(km²) Process Land Degradation forward-looking and current) Polygon
+Neutrality
+hierarchy?
+• Restore/improve croplands
+◦ Practise sustainable land
+management
+• Manage artificial surfaces
+◦ Halt illegal mining and/or
+reduce mining areas
+◦ Halt/reduce/regulate
+expansion of
+urban/artificial surfaces
+Gbapolu Stakeholder
+Bright spots mapped and Grand perspectives ☒ Avoid • Restore/improve protected
+in Gola National Cape Mount 1 414 from surveys, ☒ Reduce areas Polygon
+Forest Protected Area Counties - .5 workshops and ◦ Improve management of
+☐ Reverse
+landscape. LIBERIA interviews protected areas
+• Restore/improve tree-covered
+areas
+◦ Reduce/halt deforestation
+and conversion of tree
+cover to other land cover
+types (e.g. conserving
+forest land)
+• Reduce/halt conversion of
+multiple land uses
+• Restore/improve croplands
+◦ Practise sustainable land
+management
+• Manage artificial surfaces
+◦ Halt illegal mining and/or
+reduce mining areas
+Nimba, Stakeholder
+☒ Avoid
+Bright spot mapped in Grand perspectives
+LDN targeted Gedeh 204 from surveys, ☒ Reduce • Restore/improve tree-covered Polygon
+.4
+landscape county - workshops and ☐ Reverse areas
+LIBERIA interviews ◦ Reduce/halt deforestation
+and conversion of tree
+cover to other land cover
+types (e.g. conserving
+forest land)
+• Reduce/halt conversion of
+multiple land uses
+Total no. of brightpots 13
+Total brightspot area 4 083 .7
+26 / 59
+
+--- Page 27 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+What action(s) led
+to the brightspot
+Area Assessment in terms of the Implementing action(s) (both Edit
+Brightspots Location
+(km²) Process Land Degradation forward-looking and current) Polygon
+Neutrality
+hierarchy?
+• Restore/improve wetlands
+◦ Restore/preserve
+wetlands and reduce
+degradation of wetlands
+◦ Halt/reduce wetland
+conversion to other land
+uses (includes conserving
+wetlands)
+• Restore/improve croplands
+◦ Practise sustainable land
+management
+◦ Increase land productivity
+in agricultural areas
+• Manage artificial surfaces
+◦ Halt illegal mining and/or
+reduce mining areas
+Stakeholder
+Bright spot mapped in Grand Cape perspectives ☒ Avoid • Restore/improve protected
+Lake Piso Multiple Mount 191 from surveys, ☒ Reduce areas Polygon
+Use Reserve county - .2 workshops and ◦ Improve management of
+landscape Liberia interviews ☐ Reverse protected areas
+• Restore/improve tree-covered
+areas
+◦ Reduce/halt deforestation
+and conversion of tree
+cover to other land cover
+types (e.g. conserving
+forest land)
+◦ Increase land productivity
+in tree covered areas
+• Increase soil fertility and
+carbon stock
+◦ Reduce soil erosion
+◦ Reduce sand
+encroachment
+• Reduce/halt conversion of
+multiple land uses
+Total no. of brightpots 13
+Total brightspot area 4 083 .7
+What are the enabling and instrumental responses at the national level driving the occurrence of brightspots?
+1. Rights-based instruments and customary norms
+2. Social and cultural instruments
+3. Economic and financial instruments
+4. Climate change adaptation planning
+5. Legal and regulatory instruments
+�. Protected areas
+7. Integrated landscape planning
+�. Responses to the adverse effects of globalisation, demographic change, migration
+9. Institutional and policy reform
+10. Anthropogenic assets
+27 / 59
+
+--- Page 28 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+General comments
+The assessment was done using UNCCD default data. The result submitted under this category was validated by a cross-section of
+national experts from government, private, civil society, academic, and non-governmental organizations working on the ground, etc. Liberia
+is heavily endowed with natural resources and hosts about 43% of the remaining upper Guinean forest of West Africa. The country has vast
+hydro-potential and has some of the rarest mineral deposits of ore metals in the world. Competing for land resources to drive the economy
+and national development has made Liberia susceptible to land and environmental degradation. Hotspots and bright spots observed during
+the assessment were attributed to a series of processes. Land degradation hotspots are a reflection of prevalent unsustainable agriculture,
+mining, and forestry activities taking place across the Liberian landscapes. The combined effect of these three main drivers is Liberia's
+greatest threat to achieving LDN by 2030. Regulatory policies and institutional structures are in place to curb land degradation activities, but
+the absence of political will and logistical support for regulating agencies and ministries is a serious challenge. Bright spots: In as much as
+there's a financial and logistically challenged environmental monitoring and regulating system in Liberia, series of efforts taken by the
+government in partnership with bilateral and multilateral missions working on the ground has yielded significant results in curbing
+environmental issues. Under the Liberia Forest Sector Project, participating regulating ministries, agencies, and commissions involved in
+national environmental governance and natural resource management have been strengthened to be more efficient in fulfilling their
+institution's mandate. Platforms, to foster collaboration (Environmental Sector Working Group, REDD+ Working Group, SLM/LDN Working
+Group, etc.) have been established. Action on the ground through the implementation of livelihood projects has also brought local
+communities into compliance and this has had a positive impact on the overall environment. Protection-effectiveness, of designated and
+proposed protected areas, has hit great heights. The presence of rangers, Environmental and Mining inspectors in landscapes where land-
+degrading activities are prevalent, has helped to control the unsustainable management of land resources. Through livelihood projects
+implemented by the likes of Conservation International (CI), Society for the Conservation of Nature in Liberia (SCNL), Flora & Fauna
+International (FFI), Sustainable Trade Initiative (IDH), GIZ, USAID, UNDP (GEF Small Grants Programme), etc..., local communities have
+become more conscious of the negative consequences of their unsustainable management of the environment and introduced to more
+sustainable ways of using land resources. This has allowed natural systems to regenerate, and critically important biodiversity habitats
+preserved. Liberia is an iron-magnesium-rich environment and receives an average rainfall that ranges from more than 4500 mm along the
+coast to about 2000 mm in the interior. When left undisturbed, the environment is able to naturally regenerate. This indigenous knowledge
+is known by locals, and they have utilized it in their agricultural activities for centuries. This plays a huge role in the reflection of bright spots
+as seen from the assessment.
+28 / 59
+
+--- Page 29 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land management and
+contribute to land degradation neutrality.
+SO1 Voluntary Targets
+SO1-VT.T1: Voluntary Land Degradation Neutrality targets and other targets relevant to strategic objective 1
+Overarching
+type of Is this an LDN Which other
+Total
+Land Status of target? If so, important goals
+Target Edit
+Target Year Location(s) Degradation Targeted action(s) target under which are also being
+Area Polygon
+Neutrality achievement process was it addressed by this
+(km²)
+(LDN) defined/adopted? target?
+intervention
+• Convention
+on Biological
+Diversity –
+National
+Biodiversity
+Strategies
+LDN is and Action
+achieved Plans &
+by 2030 as National
+compared Yes Targets
+to 2015
+and an ☒ Avoid No • Bonn
+additional 2030 National ☒ Reduce • Increase tree-covered Ongoing Participation in Challenge
+area extent
+10% of the ☒ Reverse the LDN Target • AFR100
+national Setting
+landscape Programme • United
+has Nations
+improved Framework
+(net gain). Convention
+on Climate
+Change –
+Nationally
+Determined
+Contributions
+Sum of all targeted areas
+Total
+7 606
+29 / 59
+
+--- Page 30 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land management and
+contribute to land degradation neutrality.
+Overarching
+Is this an LDN Which other
+Total type of Land
+Status of target? If so, important goals
+Target Degradation Edit
+Target Year Location(s) Targeted action(s) target under which are also being
+Area Neutrality Polygon
+achievement process was it addressed by this
+(km²) (LDN)
+defined/adopted? target?
+intervention
+• General instrument
+(e.g. policies,
+economic incentives)
+• Restore/improve
+croplands
+◦ Practise
+sustainable land
+management
+◦ Improve water use
+for irrigation
+• Other/general
+/unspecified
+◦ Achieve LDN
+• Convention
+on Biological
+• Restore/improve
+LDN is grasslands Diversity –
+achieved in ◦ Improve land National
+selected Biodiversity
+productivity in
+districts in Strategies
+grasslands
+Lofa and Action
+county by Plans &
+2 1 c t n a a o o n d e 0 0 t m d d 3 % 2 l i 0 0 o a t p i 1 n s o a a 5 s t n r e ) a ( d n l o 2030 V F Q - C L o o O u O y i a U n a F d j N h A a u , T m g Y b a o , nie 1 .1 346 ☒ ☒ ☒ A R R e e vo v d e i u d r c s e e • • p R R r e e ◦ o s s t t t e m p I o o m c r r r a o t e e p e n t / / r e d a i i o m m c g v a t e e p p e re m r r d o o a e a v v s n r e e e t t a o r s e f e- Ongoing P t S h e a e t r Y N t t L i i e n o c D s g i N pa T ti a o r n g e in t • • N T C B A a o h F a r n a R t g i l n 1 o e le 0 n t n s 0 a g l e Polygon
+country- covered areas Programme • United
+specific ◦ Reduce/halt Nations
+percentage deforestation and Framework
+of this conversion of tree Convention
+landscape cover to other land on Climate
+improved cover types (e.g. Change –
+(net gain). conserving forest Nationally
+land) Determined
+◦ Increase land Contributions
+productivity in tree
+covered areas
+◦ Restore tree-
+covered areas
+• Restore productivity
+and soil organic
+carbon stock in
+croplands and
+grasslands
+• Increase soil fertility
+and carbon stock
+◦ Reduce soil
+erosion
+Sum of all targeted areas
+Total
+7 606
+30 / 59
+
+--- Page 31 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land management and
+contribute to land degradation neutrality.
+Overarching
+Is this an LDN Which other
+Total type of Land
+Status of target? If so, important goals
+Target Degradation Edit
+Target Year Location(s) Targeted action(s) target under which are also being
+Area Neutrality Polygon
+achievement process was it addressed by this
+(km²) (LDN)
+defined/adopted? target?
+intervention
+• Restore/improve
+croplands
+◦ Practise
+sustainable land
+management
+◦ Increase land
+productivity in
+agricultural areas
+• Other/general
+/unspecified
+◦ Achieve LDN
+◦ Avoid/prevent/halt
+degradation (of
+degraded lands)
+• Restore/improve
+grasslands • Convention
+◦ Improve land on Biological
+LDN is productivity in Diversity –
+achieved in grasslands National
+selected Biodiversity
+d N i i s m tr b ic a ts in • Restore/improve S an tr d a t A e c g t i i e o s n
+c 2 1 o 0 0 u 3 % n 0 t a y t by Boe and pr ◦ o te m Im c a t p e n r d a o g v a e e re m a e s nt of Yes P N Ta l a a r t g n io s e n t & s al
+protected areas
+compared Quillah, Buu ☒ Avoid No • Bonn
+t n o e t 2 l 0 o 1 s 5 s ) (no 2030 Y D a o o e , , L Y o a w rm er ein 1 .3 228 ☒ Reduce • Restore/improve tree- Ongoing Participation in Challenge Polygon
+and an - NIMBA ☒ Reverse covered areas the LDN Target • AFR100
+additional COUNTY ◦ Reduce/halt Setting
+country- deforestation and Programme • United
+specific conversion of tree Nations
+percentage cover to other land Framework
+of this cover types (e.g. Convention
+landscape conserving forest on Climate
+improved land) Change –
+(net gain). ◦ Increase land Nationally
+productivity in tree Determined
+covered areas Contributions
+◦ Restore tree-
+covered areas
+• Restore productivity
+and soil organic
+carbon stock in
+croplands and
+grasslands
+• Increase soil fertility
+and carbon stock
+◦ Reduce soil
+erosion
+• Reduce/halt
+conversion of multiple
+land uses
+Sum of all targeted areas
+Total
+7 606
+31 / 59
+
+--- Page 32 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land management and
+contribute to land degradation neutrality.
+Overarching
+Is this an LDN Which other
+Total type of Land
+Status of target? If so, important goals
+Target Degradation Edit
+Target Year Location(s) Targeted action(s) target under which are also being
+Area Neutrality Polygon
+achievement process was it addressed by this
+(km²) (LDN)
+defined/adopted? target?
+intervention
+• Restore/improve
+croplands
+◦ Practise
+sustainable land
+management
+◦ Increase land
+productivity in
+agricultural areas
+• Other/general
+/unspecified
+◦ Achieve LDN
+◦ Avoid/prevent/halt
+degradation (of
+degraded lands)
+• Restore/improve
+grasslands
+◦ Improve land
+• Convention
+productivity in
+on Biological
+grasslands
+Diversity –
+LDN is National
+achieved in • Restore/improve Biodiversity
+selected protected areas Strategies
+districts in ◦ Improve and Action
+Gbapolu management of Plans &
+county by protected areas National
+2030 at 7% Yes Targets
+c t n o o e t m 2 l 0 o p 1 s a 5 s r e ) ( d no 2030 L a o nd w e B r o B p e u l l l u eh 2 .4 030 ☒ ☒ A Re vo d i u d ce • c R o e ◦ v s e t R o re e re d d / u a im c r e e p / a r h s o a v l e t tree- Ongoing Par N ti o cipation in • C Bo h n al n lenge Polygon
+and an ☐ Reverse deforestation and the LDN Target • AFR100
+additional conversion of tree Setting
+country- cover to other land Programme • United
+specific cover types (e.g. Nations
+percentage conserving forest Framework
+of this land) Convention
+landscape ◦ Increase land on Climate
+improved productivity in tree Change –
+(net gain). covered areas Nationally
+◦ Restore tree- Determined
+covered areas Contributions
+• Restore productivity
+and soil organic
+carbon stock in
+croplands and
+grasslands
+• Increase soil fertility
+and carbon stock
+◦ Reduce soil
+erosion
+◦ Rehabilitate bare
+land and/or
+restore degraded
+land
+• Reduce/halt
+conversion of multiple
+land uses
+Sum of all targeted areas
+Total
+7 606
+32 / 59
+
+--- Page 33 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land management and
+contribute to land degradation neutrality.
+Overarching
+Is this an LDN Which other
+Total type of Land
+Status of target? If so, important goals
+Target Degradation Edit
+Target Year Location(s) Targeted action(s) target under which are also being
+Area Neutrality Polygon
+achievement process was it addressed by this
+(km²) (LDN)
+defined/adopted? target?
+intervention
+• Convention
+on Biological
+LDN is Diversity –
+achieved in National
+selected Biodiversity
+districts in Strategies
+Grand and Action
+Gedeh Plans &
+county by Yes National
+2030 at 7% Targets
+compared ☒ Avoid No • Bonn
+t n o e t 2 l 0 o 1 s 5 s ) (no 2030 B pl ’ o h e a , i , P G u b tu oe- 1 .1 030 ☒ Reduce Ongoing Participation in Challenge Polygon
+and an ☒ Reverse the LDN Target • AFR100
+Setting
+additional
+country- Programme • United
+specific Nations
+percentage Framework
+of this Convention
+landscape on Climate
+improved Change –
+(net gain). Nationally
+Determined
+Contributions
+• Convention
+LDN is on Biological
+achieved in Diversity –
+selected National
+districts in Biodiversity
+Grand Strategies
+Bassa and and Action
+Rivercess Plans &
+counties by Disrtict 4, Yes National
+2030 at Nekree, St. Targets
+15% John River ☒ Avoid No • Bonn
+compared 2030 District, Fen 1 488 ☒ Reduce Ongoing Participation in Challenge Polygon
+t n o e t 2 l 0 o 1 s 5 s ) (no R R i i v v e e r r , , Jo ☒ Reverse t S h e e t t L in D g N Target • AFR100
+a a n d d d i a ti n onal Norwein Programme • United
+country- Nations
+specific Framework
+percentage Convention
+of this on Climate
+landscape Change –
+improved Nationally
+(net gain). Determined
+Contributions
+• Convention
+on Biological
+Diversity –
+LDN is National
+achieved in Biodiversity
+selected Strategies
+districts in and Action
+Grand Kru Plans &
+county by National
+2030 at 6% Lower Jloh, Yes Targets
+c to o m 20 p 1 a 5 r e ( d no F J e e l k o w - i,Nrokwi- ☒ Avoid No • Bonn
+net loss) 2030 Wesldow, 483 .1 ☒ Reduce Ongoing Participation in Challenge Polygon
+and an Grandcess- ☒ Reverse the LDN Target • AFR100
+additional Wedabo Setting
+country- Programme • United
+specific Nations
+percentage Framework
+of this Convention
+landscape on Climate
+improved Change –
+(net gain). Nationally
+Determined
+Contributions
+Sum of all targeted areas
+Total
+7 606
+33 / 59
+
+--- Page 34 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land management and
+contribute to land degradation neutrality.
+SO1.IA.T1: Areas of implemented action related to the targets (projects and initiatives on the ground).
+Extent
+Implemented Action start Edit
+Relevant Target Location (placename) of Total Area Implemented So Far (km²)
+Action date Polygon
+action
+Other Grand Cape Mount,
+G Pa o r o t d n e G rs ro h w ip th B B o o m ng i , c G o b u a n r t p ie o s lu i , n and 2017-06-01 1 .5 0 903 0 Polygon
+Project Northwest, Liberia.
+LDN is achieved by 2030 as
+compared to 2015 and an Other
+additional 10% of the Liberia Forest Liberia 2016-04-16 12 982 12 982 .00
+national landscape has Sector Project
+improved (net gain).
+Sum of all areas relevant to actions under the
+same target
+LDN is achieved by 2030 as compared to
+12
+2015 and an additional 10% of the
+982
+national landscape has improved (net
+.00
+gain).:
+LDN is achieved in selected districts in Lofa
+county by 2030 at 10% compared to 2015
+0
+(no net loss) and an additional country-
+.00
+specific percentage of this landscape
+improved (net gain). :
+LDN is achieved in selected districts in
+Nimba county by 2030 at 10% compared to
+0
+2015 (no net loss) and an additional
+.00
+country-specific percentage of this
+landscape improved (net gain). :
+LDN is achieved in selected districts in
+Gbapolu county by 2030 at 7% compared to
+0
+2015 (no net loss) and an additional
+.00
+country-specific percentage of this
+landscape improved (net gain). :
+LDN is achieved in selected districts in
+Grand Gedeh county by 2030 at 7%
+0
+compared to 2015 (no net loss) and an
+.00
+additional country-specific percentage of
+this landscape improved (net gain). :
+LDN is achieved in selected districts in
+Grand Bassa and Rivercess counties by
+2030 at 15% compared to 2015 (no net loss) 0
+and an additional country-specific .00
+percentage of this landscape improved (net
+gain). :
+LDN is achieved in selected districts in
+Grand Kru county by 2030 at 6% compared
+0
+to 2015 (no net loss) and an additional
+.00
+country-specific percentage of this
+landscape improved (net gain). :
+General comments
+1. Good Growth Partnership Project The Good Growth Partnership (GGP) project, whose main goal was “Reducing Deforestation from Commodity Production”
+sought to turn the sustainable production of key commodities from niche and specialized operations to the norm in each commodity sector. The Project’s overall
+objective is to reduce the global impacts of agriculture commodities on GHG emissions and biodiversity by meeting the growing demand for palm oil through
+supplies that do not lead to deforestation and related GHG emissions. Specifically, this project encouraged sustainable practices for oil palm in Liberia, while
+conserving forests and safeguarding the rights of smallholder farmers and forest-dependent communities. The GGP project was implemented in the counties of
+Grand Cape Mount, Bomi, Gbarpolu, and Bong in North West, Liberia. Link to GGP project report: https://erc.undp.org/evaluation/documents/download/15544 2.
+Liberia Forest Sector Project The Liberia Forest Sector Project (LFSP) integrates improvement in land use planning, support for existing and new protected areas,
+enhancement of people’s livelihoods through community forestry, and investment in sustainable agriculture to reduce deforestation pressures. The Project achieves
+its goals through focused investment in the implementation of strategic land use options in targeted landscapes while building capacity of a range of stakeholders
+and addressing weaknesses in governance. The LFSP advances Liberia’s REDD+ Strategy with the objective of securing performance-based climate finance. Liberia
+Forest Sector Project: https://projects.worldbank.org/en/projects-operations/project-detail/P154114
+34 / 59
+
+--- Page 35 ---
+Other files for Reporting
+Liberia - SO5-1 recipient Download 13.6 KB
+35 / 59
+
+--- Page 36 ---
+Liberia – SO1-1.M1
+Land cover in the initial year of the baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• European Space Agency Climate Change Initiative Land Cover (ESA CCI-LC) product, 1992-2019. URL: https://www.esa-landcover-cci.org/
+36 / 59
+
+--- Page 37 ---
+Liberia – SO1-1.M2
+Land cover in the baseline year
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• European Space Agency Climate Change Initiative Land Cover (ESA CCI-LC) product, 1992-2019. URL: https://www.esa-landcover-cci.org/
+37 / 59
+
+--- Page 38 ---
+Liberia – SO1-1.M3
+Land cover in the latest reporting year
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• European Space Agency Climate Change Initiative Land Cover (ESA CCI-LC) product, 1992-2019. URL: https://www.esa-landcover-cci.org/
+38 / 59
+
+--- Page 39 ---
+Liberia – SO1-1.M4
+Land cover change in the baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• European Space Agency Climate Change Initiative Land Cover (ESA CCI-LC) product, 1992-2019. URL: https://www.esa-landcover-cci.org/
+39 / 59
+
+--- Page 40 ---
+Liberia – SO1-1.M5
+Land cover change in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• European Space Agency Climate Change Initiative Land Cover (ESA CCI-LC) product, 1992-2019. URL: https://www.esa-landcover-cci.org/
+40 / 59
+
+--- Page 41 ---
+Liberia – SO1-1.M6
+Land cover degradation in the baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• European Space Agency Climate Change Initiative Land Cover (ESA CCI-LC) product, 1992-2019. URL: https://www.esa-landcover-cci.org/
+41 / 59
+
+--- Page 42 ---
+Liberia – SO1-1.M7
+Land cover degradation in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• European Space Agency Climate Change Initiative Land Cover (ESA CCI-LC) product, 1992-2019. URL: https://www.esa-landcover-cci.org/
+42 / 59
+
+--- Page 43 ---
+Liberia – SO1-2.M1
+Land productivity dynamics in the baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• EC-JRC, 2021, based on Xavier Rotllan-Puig, Eva Ivits, Michael Cherlet, LPDynR: A new tool to calculate the land productivity dynamics indicator, Ecological Indicators, Volume 133, 2021, 108386, ISSN
+1470-160X. URL: https://doi.org/10.1016/j.ecolind.2021.108386
+43 / 59
+
+--- Page 44 ---
+Liberia – SO1-2.M2
+Land productivity dynamics in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• EC-JRC, 2021, based on Xavier Rotllan-Puig, Eva Ivits, Michael Cherlet, LPDynR: A new tool to calculate the land productivity dynamics indicator, Ecological Indicators, Volume 133, 2021, 108386, ISSN
+1470-160X. URL: https://doi.org/10.1016/j.ecolind.2021.108386
+44 / 59
+
+--- Page 45 ---
+Liberia – SO1-2.M3
+Land productivity degradation in the baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• EC-JRC, 2021, based on Xavier Rotllan-Puig, Eva Ivits, Michael Cherlet, LPDynR: A new tool to calculate the land productivity dynamics indicator, Ecological Indicators, Volume 133, 2021, 108386, ISSN
+1470-160X. URL: https://doi.org/10.1016/j.ecolind.2021.108386
+45 / 59
+
+--- Page 46 ---
+Liberia – SO1-2.M4
+Land productivity degradation in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• EC-JRC, 2021, based on Xavier Rotllan-Puig, Eva Ivits, Michael Cherlet, LPDynR: A new tool to calculate the land productivity dynamics indicator, Ecological Indicators, Volume 133, 2021, 108386, ISSN
+1470-160X. URL: https://doi.org/10.1016/j.ecolind.2021.108386
+46 / 59
+
+--- Page 47 ---
+Liberia – SO1-3.M1
+Soil organic carbon stock in the initial year of the baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• International Soil Reference and Information Centre (ISRIC) SoilGrids250m dataset. URL: https://www.isric.org/explore/soilgrids
+47 / 59
+
+--- Page 48 ---
+Liberia – SO1-3.M2
+Soil organic carbon stock in the baseline year
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• International Soil Reference and Information Centre (ISRIC) SoilGrids250m dataset. URL: https://www.isric.org/explore/soilgrids
+48 / 59
+
+--- Page 49 ---
+Liberia – SO1-3.M3
+Soil organic carbon stock in the latest reporting year
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• International Soil Reference and Information Centre (ISRIC) SoilGrids250m dataset. URL: https://www.isric.org/explore/soilgrids
+49 / 59
+
+--- Page 50 ---
+Liberia – SO1-3.M4
+Change in soil organic carbon stock in the baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• International Soil Reference and Information Centre (ISRIC) SoilGrids250m dataset. URL: https://www.isric.org/explore/soilgrids
+50 / 59
+
+--- Page 51 ---
+Liberia – SO1-3.M5
+Change in soil organic carbon stock in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• International Soil Reference and Information Centre (ISRIC) SoilGrids250m dataset. URL: https://www.isric.org/explore/soilgrids
+51 / 59
+
+--- Page 52 ---
+Liberia – SO1-3.M6
+Soil organic carbon degradation in the baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• International Soil Reference and Information Centre (ISRIC) SoilGrids250m dataset. URL: https://www.isric.org/explore/soilgrids
+52 / 59
+
+--- Page 53 ---
+Liberia – SO1-3.M7
+Soil organic carbon degradation in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• International Soil Reference and Information Centre (ISRIC) SoilGrids250m dataset. URL: https://www.isric.org/explore/soilgrids
+53 / 59
+
+--- Page 54 ---
+Liberia – SO1-4.M1
+Proportion of land that is degraded over total land area (SDG Indicator 15.3.1) in the baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Derived based on the methodology in the Good Practice Guidance Version 2 for Sustainable Development Goal (SDG) indicator 15.3.1 - Proportion of land that is degraded over total land area. URL:
+https://www.unccd.int/publications/good-practice-guidance-sdg-indicator-1531-proportion-land-degraded-over-total-land
+54 / 59
+
+--- Page 55 ---
+Liberia – SO1-4.M2
+Proportion of land that is degraded over total land area (SDG Indicator 15.3.1) in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Derived based on the methodology in the Good Practice Guidance Version 2 for Sustainable Development Goal (SDG) indicator 15.3.1 - Proportion of land that is degraded over total land area. URL:
+https://www.unccd.int/publications/good-practice-guidance-sdg-indicator-1531-proportion-land-degraded-over-total-land
+55 / 59
+
+--- Page 56 ---
+Liberia – SO1-4.M3
+Progress towards Land Degradation Neutrality (LDN) in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Derived based on the methodology in the Good Practice Guidance Version 2 for Sustainable Development Goal (SDG) indicator 15.3.1 - Proportion of land that is degraded over total land area. URL:
+https://www.unccd.int/publications/good-practice-guidance-sdg-indicator-1531-proportion-land-degraded-over-total-land
+56 / 59
+
+--- Page 57 ---
+Liberia – SO1-4.M5
+Land Degradation Hotspots
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Land Degradation data derived based on the Good Practice Guidance Version 2 for Sustainable Development Goal (SDG) indicator 15.3.1 - Proportion of land that is degraded over total land area.
+• The Hot spots data displayed on this map was provided by the Government of Liberia.
+57 / 59
+
+--- Page 58 ---
+Liberia – SO1-4.M6
+Land Improvement Brightspots
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Land Degradation data derived based on the Good Practice Guidance Version 2 for Sustainable Development Goal (SDG) indicator 15.3.1 - Proportion of land that is degraded over total land area.
+• The Bright spots data displayed on this map was provided by the Government of Liberia.
+58 / 59
+
+--- Page 59 ---
+Liberia – SO1.VT.M1
+Areas of voluntary targets and related implemented actions
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Land Degradation data derived based on the Good Practice Guidance Version 2 for Sustainable Development Goal (SDG) indicator 15.3.1 - Proportion of land that is degraded over total land area.
+• Liberia LDN Targets
+• GGP/UNDP/CI/Liberia
+59 / 59

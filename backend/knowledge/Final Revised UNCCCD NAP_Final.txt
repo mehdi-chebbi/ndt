@@ -1,0 +1,2301 @@
+--- Page 1 ---
+UNITED REPUBLIC OF TANZANIA
+VICE PRESI DENT'S OFFICE
+NATIONAL ACTIO N PROGRAMME TO
+COMBAT DES ERTIFICATION
+(2025 -2030)
+January, 2025
+i
+
+--- Page 2 ---
+ACKNOWLEDGEMENT
+Successful preparation of this National Action Programme to Combat Desertification (NAP)
+(2025-2030) is a result of the commitment and hard work by many individuals and institutions. It
+is not possible to mention them all, but I would like to take this opportunity to assure them our
+heartfelt appreciation that we value their cooperation and support.
+I would like to thank the team of experts for their time and inputs in the preparation of the NAP,
+with members drawn from both Mainland Tanzania and Zanzibar. For the Mainland Tanzania,
+experts were drawn from President’s Office - Regional Administration and Local Government
+(PO-RALG); Ministry of Agriculture; Ministry of Livestock and Fisheries Development;
+Ministry of Water; Ministry of Natural Resources and Tourism; Ministry of Energy; Ministry of
+Minerals; Ministry of Health; and Ministry of Lands, Housing and Human Settlements
+Development; Tanzania Forest Services; National Environment Management Council (NEMC);
+and Ardhi University. For Zanzibar, experts were drawn from President’s Office - Regional
+Administration and Local Government; First Vice President’s Office; Ministry of Agriculture,
+Irrigation and Livestock; Ministry of Water and Energy; Ministry of Blue Economy and
+Fisheries; Ministry of Lands and Housing Development; and Zanzibar Environmental
+Management Authority (ZEMA).
+I am indebted to the management of the Vice President’s Office (Mainland Tanzania) and First
+Vice President’s Office (Zanzibar) for the guidance and overseeing the process of developing the
+NAP.
+i
+
+--- Page 3 ---
+CONTENTS
+PREFACE ....................................................................................... Error! Bookmark not defined.
+ACKNOWLEDGEMENT ............................................................................................................. i
+LIST OF TABLES ....................................................................................................................... iv
+LIST OF FIGURES ..................................................................................................................... iv
+ACRONYMS AND ABBREVIATIONS ..................................................................................... v
+CHAPTER ONE: INTRODUCTION ......................................................................................... 1
+1.1 Background and Context......................................................................................... 1
+1.2 The Multi-Dimensional Problem of Desertification, Land Degradation and
+Drought (DLDD) .................................................................................................... 2
+1.3 Purpose of the National Action Programme (NAP) ............................................... 2
+1.4 Rationale for Review and Alignment of the NAP (2014)...................................... 2
+1.5 National Action Programme (NAP) Review Process ............................................. 4
+1.6 Overview on Policy and Legal framework ............................................................. 5
+1.6.1 Policy Framework ....................................................................................... 5
+1.6.2 Legal Framework ........................................................................................ 7
+CHAPTER TWO: COUNTRY PROFILE .............................................................................. 11
+2.1 Physiography......................................................................................................... 11
+2.2 Physical Features .................................................................................................. 11
+2.2.1 Topography ............................................................................................... 11
+2.2.2 Soils........................................................................................................... 12
+2.2.3 Vegetation ................................................................................................. 13
+2.2.4 Geology ..................................................................................................... 13
+2.3 Climate .................................................................................................................. 13
+2.3.1 Rainfall ...................................................................................................... 13
+2.3.2 Temperature .............................................................................................. 14
+2.3.3 Wind .......................................................................................................... 14
+2.3.4 Humidity ................................................................................................... 15
+2.4 Socio-Economic Issues ......................................................................................... 15
+2.4.1 Population .................................................................................................... 15
+2.4.2 Key Economic Sectors ................................................................................. 15
+2.5 Natural Resources ................................................................................................. 15
+2.5.1 Forest......................................................................................................... 16
+2.5.2 Water Resources ....................................................................................... 16
+2.5.3 Wetlands ................................................................................................... 17
+2.5.4 Land .......................................................................................................... 17
+2.5.5 Wildlife ..................................................................................................... 18
+2.5.6 Natural gas ................................................................................................ 18
+2.5.7 Minerals .................................................................................................... 18
+ii
+
+--- Page 4 ---
+2.5.8 Energy ....................................................................................................... 19
+CHAPTER THREE: SITUATIONAL ANALYSIS ................................................................ 22
+3.1 State of Land Degradation and Affected Ecosystems........................................... 22
+3.2 Causes of Land Degradation ................................................................................. 23
+3.3 Impacts of Land Degradation................................................................................ 25
+3.4 National Initiatives ................................................................................................ 26
+3.5 Mobilization of Financial and Non-Financial Resources ..................................... 30
+3.6 Assessment of Implementation of the National Action Programme (NAP) (2014)
+31
+CHAPTER FOUR: THE NATIONAL ACTION PROGRAMME ....................................... 36
+4.1 Goal and objectives ............................................................................................... 36
+4.2 Key Planning Frameworks for NAP ..................................................................... 36
+4.2.1 UNCCD Strategic Plan and Framework (2018-2030) .............................. 36
+4.2.2 National Environmental Master Plan for Strategic Interventions (2022-
+2032) ......................................................................................................... 39
+4.2.3 Voluntary National Land Degradation Neutrality (LDN) Targets ........... 39
+4.3 Synergies ............................................................................................................... 40
+4.4 The Action Plan .................................................................................................... 41
+CHAPTER FIVE: IMPLEMENTATION ARRANGEMENT .............................................. 58
+5.1 Institutional Arrangement ..................................................................................... 58
+5.2 Resource Mobilization .......................................................................................... 60
+5.3 Monitoring, Review and Evaluation Plan ............................................................. 61
+5.3.1 Monitoring Plan ........................................................................................ 61
+5.3.2 Performance Review Meetings ................................................................. 61
+5.3.3 Performance Evaluation Plan .................................................................... 62
+5.3.4 Performance Reporting Plan ..................................................................... 62
+iii
+
+--- Page 5 ---
+LIST OF TABLES
+Table 1: List of common SLM best practices in Tanzania ........................................................... 26
+Table 2: Key achievements made and challenges encountered in implementation of NAP (2014)
+....................................................................................................................................................... 32
+Table 3: Strategic objectives of the UNCCD Strategic Framework (2018-2030) ........................ 37
+Table 4:Voluntary land degradation neutrality target(s) ............................................................... 40
+Table 5: Additional targets relevant to Strategic Objective 1 ....................................................... 40
+Table 6: The Action Plan .............................................................................................................. 42
+Table 7: Review Meetings ............................................................................................................ 61
+LIST OF FIGURES
+Figure 1: The map of Tanzania showing regional and international boundaries .......................... 12
+Figure 2: Map indicating land degradation severity map in Tanzania (URT, 2022) .................... 23
+iv
+
+--- Page 6 ---
+ACRONYMS AND ABBREVIATIONS
+ACRP Agriculture Climate Resilience Plan
+AFR-100 African Forest Landscape Restoration Initiative to bring 100 million hectares of
+land in Africa into restoration by 2030
+a.m.s.l above mean sea level
+ASDP Agricultural Sector Development Programme
+COFMA Community Forest Management Agreement
+COP Conference of the Parties
+COSTECH Tanzania Commission for Science and Technology
+CSA Climate Smart Agriculture
+CSOs Civil Society Organizations
+DLDD Desertification, Land Degradation and Drought
+PMO-DMD Prime Minister's Office - Disaster Management Department
+EMA Environmental Management Act
+GACOF Great Horn of Africa Climate Outlook Forum
+GDP Gross Domestic Product
+GEF Global Environment Facility
+HBS Household Budget Survey
+HFO Heavy Furnace Oil
+IWRMD Integrated Water Resource Management and Development
+JFM Joint Forest Management
+JNIA Julius Nyerere International Airport
+kWh Kilowatt-hour
+MDAs (Government) Ministries, Departments and Agencies
+MPAs Marine Protected Areas
+MTEF Medium Term Expenditure Framework
+MW Megawatt
+MWp Megawatt peak
+LDN Land Degradation Neutrality
+LGAs Local Government Authorities
+LPG Liquefied Petroleum Gas
+NAFORMA National Forest Resources Monitoring and Assessment Project
+NAP National Action Programme
+NBS National Bureau of Statistics
+NCMC National Carbon Monitoring Centre
+NDC National Development Corporation
+NEAC National Environmental Advisory Committee
+NEMC National Environment Management Council
+NEP National Environment Policy
+NLUPC National Land Use Planning Commission
+ODA Official Development Assistance
+PFM Participatory Forest Management
+PO-RALG President's Office - Regional Administration and Local Government Authorities
+REA Rural Energy Agency
+RUWASA Rural Water Supply and Sanitation Agency
+v
+
+--- Page 7 ---
+SADC Southern African Development Community
+SDGs Sustainable Development Goals
+SLM Sustainable Land Management
+SO Strategic Objective
+SOC Soil Organic Carbon
+TaFF Tanzania Forest Fund
+TAFIRI Tanzania Fisheries Research Institute
+TAFORI Tanzania Forest research Institute
+TALIRI Tanzania Livestock Research Institute
+TANAPA Tanzania National Parks
+TanBIF Tanzania Biodiversity Information Facility
+TANESCO Tanzania Electric Supply Company
+TANROADS Tanzania National Roads Agency
+TARI Tanzania Agricultural Research Institute
+TARURA Tanzania Rural and Urban Roads Agency
+TAWIRI Tanzania Wildlife Research Institute
+TCSAA Tanzania Climate Smart Agriculture Alliance
+TFS Tanzania Forest Services Agency
+TGDC Tanzania Geothermal Development Corporation
+TMA Tanzania Meteorological Agency
+TPDC Tanzania Petroleum Development Corporation
+TPSF Tanzania Private Sector Foundation
+TSCF Trillion Standard Cubic Feet
+TZS Tanzanian Shillings
+UNCCD United Nations Convention to Combat Desertification
+UNESCO United Nations Educational, Scientific and Cultural Organization
+URT United Republic of Tanzania
+USD United States Dollar
+VPO Vice President's Office
+WMAs Wildlife Management Areas
+WRB World Reference Base for Soil Resources
+WSDP Water Sector Development Programme
+vi
+
+--- Page 8 ---
+CHAPTER ONE
+INTRODUCTION
+1.1 Background and Context
+An estimate of dry lands is approximately 61% of Tanzania. It is further elaborated that
+degradation in the dry lands has increased from 42 in 1980s to 80% in 2018. These dry lands
+include the arid areas, semi-arid and dry sub-humid areas with a growing season of less than 179
+days. Dodoma, Singida, Manyara and Shinyanga fall in arid lands, semi-arid areas include large
+part of Tabora, Mbeya, Tanga, Dar-es-salaam, Pwani, Kilimanjaro, Arusha, Mara, Kagera Lindi,
+Mtwara and Zanzibar.
+In view of the global dimension and associated impacts of land degradation, the United Nations
+Convention to Combat Desertification (UNCCD) was established in 1992 and entered into force
+in 1994 while Tanzania ratified the Convention in June, 1997. The objective of the Convention is
+to curb desertification and mitigate the effects of drought through effective action at all levels,
+supported by international cooperation and partnership arrangements, in the framework of an
+integrated approach which is consistent with Agenda 21, with a view to contributing to the
+achievement of sustainable development in affected areas. Articles 9 and 10 of the UNCCD
+requires Parties to prepare and implement National Action Programs (NAPs). In this regard,
+NAPs are a key tool for the implementation of the UNCCD at the country level supported by
+action programmes at sub-regional and regional levels. Tanzania developed its first NAP in
+1999, the second in 2004 and the third in 2014. The later ended in 2018.
+In the context of the UNCCD, the term Desertification, Land Degradation, and Drought (DLDD)
+is commonly used to capture these interrelated processes with similar socio-economic and
+environmental impacts. Addressing DLDD will involve long-term integrated strategies that
+simultaneously focus on the improved productivity of land and the rehabilitation, conservation
+and sustainable management of land and water resources. In this regard, the UNCCD Strategic
+Framework (2018-2030) was adopted through Decision 7/COP.13 in 2017 which aims to avoid,
+minimize, and reverse desertification/land degradation and mitigate the effects of drought at all
+levels. In addition, Parties are required to apply and, as appropriate, align with the UNCCD
+Strategic Framework (2018−2030) in their national policies, programmes, plans and processes
+relating to DLDD, including in their National Action Programmes, as appropriate.
+In view of the Party obligations under the UNCCD, the previous NAP (2014) has been revised to
+align with the newly adopted UNCCD Strategic Framework (2018-2030). This is also in
+response to various national, regional and international instruments which emerged since the
+NAP (2014) was formulated. The review and alignment of the NAP, 2014 demonstrates the
+Government's commitment to fulfill its obligations under the UNCCD and contribute on the
+global efforts to achieve land degradation neutrality (LDN1).
+1 LDN is a state whereby the amount and quality of land resources, necessary to support ecosystem functions and
+services and enhance food security, remains stable or increase within specified temporal and spatial scales and
+ecosystems.
+1
+
+--- Page 9 ---
+1.2 The Multi-Dimensional Problem of Desertification, Land Degradation and Drought
+(DLDD)
+Land is a dynamic resource for producing food and other ecosystem goods and services
+including conserving biodiversity, regulating hydrological regimes, cycling soil nutrients, and
+storing carbon, among others. Productive land is the most significant geo-resource, or natural
+capital assets, that human beings possess; human subsistence depends on it. For the rural poor
+communities that depend heavily on land as their main asset, their survival and the sustainability
+of their livelihoods are completely dependent upon, and intricately linked to, the health and
+productivity of their land. Increased population, climate change, unsustainable land use, land
+degradation and growing urban areas increase the pressure on productive land and water
+resources. Simultaneously, competition for productive land increases due to growing demand for
+food and fodder.
+The dry lands (arid, semi-arid and dry sub-humid) continue to be the most vulnerable and
+threatened by desertification, land degradation and drought (DLDD). Drought also disrupts
+ecological and economic systems. Sustainable Land Management (SLM) with its focus on soil
+structure and land cover improvements has the potential to make significant progress towards
+four critical global sustainability goals related to DLDD, namely food security (SDG-2), energy
+access (SDG-7), water availability (SDG-6) and Life on Land (SDG-15). SLM practices
+significantly enhance soil water retention capacity and improve water availability.
+Women bear the burden of land degradation but can also be part of the solutions. In this respect,
+gender sensitive investments in addressing the conditions of degraded land will not only
+contribute to achieving food security, poverty alleviation and sustainability but also contribute to
+improving the living conditions of women in ecosystems affected by DLDD. Land is intimately
+related to climate change adaptation and mitigation, and its sustainable management provides a
+tool for addressing both. Maintaining and enhancing the condition of land also contributes to
+biodiversity conservation and its sustainable management. Serious actions are needed to protect,
+restore and manage land and soils sustainably to be able to achieve our commitments for climate
+change adaptation and mitigation, biodiversity conservation, forest and SDG targets.
+1.3 Purpose of the National Action Programme (NAP)
+According to article 10 of the UNCCD, the purpose of NAP is to identify the factors contributing
+to desertification and practical measures necessary to combat desertification and mitigate the
+effects of drought. The NAP provides a national framework for domesticating and implementing
+obligations under the UNCCD. It reviews the state of land degradation in the country, identifies
+critical issues and challenges of land degradation and offers strategic interventions in line with
+relevant national priorities, obligations of the Convention and relevant regional and international
+instruments.
+1.4 Rationale for Review and Alignment of the NAP (2014 - 2018)
+Land degradation remains as one of the priority environmental and socio-economic challenges in
+the country in spite of continued conservation and management efforts over several pa
+2
+
+--- Page 10 ---
+st decades. It is acknowledged that effects of DLDD and efforts needed to address it are complex
+and long-term, and therefore holistic approach is vital to better manage and restore land
+resources. On this basis, the commitment and engagement of Tanzania in implementing the
+UNCCD, as a multilateral platform for global action on DLDD, is considered to be the most
+cost-effective means. Interestingly, the benefits of actions to combat land degradation are not
+limited to the country but are trans-boundary in geographic scale as they also benefit neighboring
+countries due to shared ecosystems and catchments.
+The adoption of the updated UNCCD Strategic Framework (2018-2030) provides revitalized
+drive and blueprint for avoiding, reducing, and reversing land degradation which will also
+contribute in climate change adaptation and mitigation, biodiversity conservation and the
+provision of ecosystem services. Consequently, domestication of the new global land agenda
+through the review and alignment of NAP (2014) is necessary to facilitate and bring change on
+the ground. The focus is to restore the productivity of the degraded land which constitutes almost
+half of the country land area, improve the livelihoods of more than 30 million people, and to
+reduce the impacts of drought on vulnerable populations in the country.
+In the same breath, the 2030 Agenda for Sustainable Development which was adopted in 2015,
+introduced 17 Sustainable Development Goals (SDGs) particularly SDG 15: Life on Land which
+aims to protect, restore and promote sustainable use of terrestrial ecosystems, sustainably
+manage forests, combat desertification, and halt and reverse land degradation and halt
+biodiversity loss. More specifically, Target 15.3 states that, “By 2030, combat desertification,
+restore degraded land and soil, including land affected by desertification, drought and floods, and
+strive to achieve a land degradation-neutral world”. This target has therefore become a strong
+vehicle to drive UNCCD agenda, while at the same time contributing to other SDGs, including
+those relating to climate change mitigation and adaptation, biodiversity conservation, ecosystem
+restoration, food and water security, disaster risk reduction and poverty reduction.
+Africa Agenda 2063 is a blueprint for transforming Africa into the global powerhouse of the
+future. It recognizes environmental sustainability and climate resilient economies and
+communities as a key for undiminishing future of the region. It also advocates for Sustainable
+natural resource management and Biodiversity conservation fostering sustainable land
+management including sustainable consumption and production patterns.
+Similarly, there are several national strategies and plans which entail broad and specific national
+priorities and targets that are relevant in combating DLDD. It is therefore of strategic importance
+to capitalize on synergies, cross-sectoral integration and multi-stakeholder engagement as an
+important accelerator for achieving most of the Sustainable Development Goals. These include:
+the Third Five Year Development Plan (2021/22- 2025/26); National Environment Policy
+(2021); National Environmental Master Plan for Strategic Interventions (2022-2032); National
+Strategic Campaign on Environmental Conservation and Sanitation (2021-2026); National
+Climate Change Response Strategy (2021-2026); Zanzibar Climate Change Strategy, (2014),
+Nationally Determined Contribution (2021); National Invasive Species Strategy and Action Plan
+(2019-2029); Land Degradation Neutrality (LDN) Target Setting Programme (2020); and
+relevant Sectoral Policies, Plans and Strategies.
+3
+
+--- Page 11 ---
+The overall implementation of the previous NAP (2014) had mixed results. Some of the notable
+achievements includes increasing protected area to about 40 percent of the total land area;
+demarcating, gazetting and protecting water sources; country wide tree planting campaign;
+development and implementation of land use plans; and increasing land area under irrigation.
+However, some of the challenges encountered include increasing deforestation; inadequate
+capacity of Local Government Authorities; and low level of awareness among key stakeholders.
+In view of this situation, there is a need for strengthening integrated approach to improve and
+sustain national efforts in addressing Desertification, Land Degradation and Drought (DLDD).
+It is against this background that, the review and alignment of NAP (2014) regardless of being an
+obligation under the UNCCD, is an opportunity to take stock of the achievements made,
+effectiveness of existing policy approach and interventions, and consolidate and direct future
+actions to combat land degradation and associated drivers in a more focused, strategic, holistic
+and effective manner using participatory approaches that capture the interests, needs, experience
+and expectations of all stakeholders.
+1.5 National Action Programme (NAP) Review Process
+The NAP has largely been developed from a broad-based consultative and participatory planning
+process, involving a wide range of stakeholders. The formulation of this NAP adopted the
+following approach namely, stocktaking, drafting of the NAP, and stakeholder’s consultation. A
+brief description of each of the steps is provided hereunder.
+a) Stocktaking
+Preparation of the NAP was preceded by a stocktaking exercise involving review of current
+DLDD data and the performance in implementation of the NAP (2014). The purpose of
+stocktaking exercise was to gauge the implementation performance of the preceding NAP and
+update trends; assess achievements, gaps, challenges, lessons learned; and consider emerging
+issues so as to inform the formulation of new NAP.
+The first step during the stocking exercise was a desk review of current DLDD information
+involving compilation, examination and synthesizing of information from national, regional and
+international documents. This involved review of policies and strategies, plans, project
+documents, reports and published papers related to DLDD.
+The second step using various progress reports was to evaluate the implementation of NAP
+(2014), which involved assessment of its achievements, challenges and lessons learnt. Based on
+review of current DLDD information and review of NAP (2014), a draft stocktaking report was
+prepared.
+The third step was to share the draft stocktaking report with key stakeholders particularly
+Ministries, Departments and Agencies (MDAs) and other stakeholders. The stocktaking draft
+report was also posted on the website of the Vice President's Office and the public was invited to
+submit comments. Comments from stakeholders were incorporated in the final stocktaking report
+which paved the way and informed drafting of the revised NAP.
+4
+
+--- Page 12 ---
+b) Drafting of the NAP
+Drafting of the NAP was done by a multi-stakeholder team of experts which was formed by the
+Permanent Secretary, Vice President’s Office. The team of experts commenced drafting based on
+the stocktaking report and the UNCCD Strategic Framework (2018-2030), among other
+reference documents. The draft revised NAP was produced and subjected to national
+stakeholder’s workshop.
+c) Consultation of stakeholders
+The Draft NAP was subjected to a broad spectrum of stakeholders through a National
+Stakeholders Workshop that was organized to validate the final revised NAP before it was
+published. The workshop gathered participants from Local Government Authorities (LGA),
+Government Ministries, Departments and Agencies (MDAs), Academia, Development Partners,
+Civil Society Organizations (CSOs), private sector and the media. Comments obtained from the
+stakeholders were incorporated into the Final Draft NAP.
+1.6 Overview on Policy and Legal framework
+The Tanzania Development Vision 2025 (TDV 2025) for mainland and the Vision 2050 for the
+Revolutionary Government of Zanzibar (ZDV50) have set the overall National Development Agendas.
+Both visions aim at high standard of living by raising incomes of their people and economic
+growth. Among the key attributes of the TDV 2025 are high quality livelihoods, good governance and
+competitive economy capable of producing stained inclusive and shared benefits. The ZDV50
+envisioned attaining Upper Middle-Income Status by the year 2050 through sustainable and inclusive
+human development. The vision recognizes and places in priority the roles of agriculture production,
+blue economy and tourism through effective and sustainable exploitation of marine resources. The
+ZDV50 envisage targets to exploit a competitive advantage in fisheries and aquaculture, coastal and
+marine tourism, marine trade and infrastructure as well as oil and gas. During preparation of this NAP the
+United Republic of Tanzania was developing a Vision 2050 which among others will take into account
+issues of environment particularly DLDD, Climate Change and Biodiversity conservation as among the
+pillars to achieve sustainable development of the Country.
+1.6.1 Policy Framework
+The two development visions have been streamlined into Tanzania mainland and Zanzibar
+sectorial development policy frameworks. The relevant policy frameworks with key provisions
+in combating environmental problems including the desertification, land degradation, drought
+climate change impacts and biodiversity losses are:
+a) The Tanzania Environmental Policy (2021)
+National Environmental Policy (NEP) 2021 is a core guide which serves as the national
+framework for harmonized and coordinated environmental management, including the forests,
+land and water resources for the improvement of the welfare of present and future generations in
+Tanzania.
+5
+
+--- Page 13 ---
+b) The Zanzibar Environmental Policy (2013)
+The Zanzibar Environmental Policy (ZEP 2013) serves to guide environmental management
+including land, water and forests reflecting the ZV 2050, envisioning “Sound environment
+management for sustainable economic and social benefit for present and future generations”
+through promoting the “sound and sustainable environmental management practices through
+provision of policy guidance, institutional strengthening and cooperation”.
+c) The National Agriculture Policy (2013)
+This provides overall agricultural development framework to contribute to the TDV2025. It
+recognizes issues of land degradation associated with agriculture; notably soil erosion causing
+adverse changes in hydrological, biological, chemical and physical properties of soils. Thus it
+promotes actions for sustainable intensification of agricultural practices and discourages slash
+and burn and overuse of agro-chemicals. Among others it fosters improvement of land husbandry
+through agro-forestry, soil erosion control and soil fertility improvement activities contributing
+to sustainable land management and addressing climate change.
+d) The Zanzibar Agricultural Policy (2002)
+The agricultural development focus for Zanzibar is to modernize and commercialize the
+agricultural sector for increased productivity and rural incomes while ensuring an ecologically
+sustainable environment. This is pursued through promoting “sustainable development of the
+agricultural sector for economic, social and environmental benefits for its people”.
+e) The National Land Policy (1995)
+It provides framework for village land use planning and management and empowers the village
+authorities. The policy synergistic aim for SADC-GWWI is protecting land resources from
+degradation for sustainable development.
+f) The National Forestry Policy (1998)
+The National Forestry Policy 1998 provides framework for forests landscapes management and
+ecosystem stability through conservation of forest biodiversity, water catchments and soil
+fertility. It recognizes and encourages ownership of forest as private, local authority and
+communities forests reserves through the Participatory Forests Management (PFM).
+g) The Zanzibar Forest Policy (1999)
+The Zanzibar Forest Policy 1999, it provided framework for protecting and conserving forest
+resources and landscapes biodiversity. It recognizes the role of forest resources in maintaining
+soil and water conservation and other environmental benefits.
+6
+
+--- Page 14 ---
+h) National Livestock Policy (2006)
+The national livestock policy provides the framework for livestock sector development and
+natural resources management in the rangelands. The policy promotes the sustainable utilization
+of rangelands in livestock production, adaptation and management of rangeland with respect to
+seasonal variations of quality and quantity of forage.
+i) The National Water Policy (2002)
+The Policy aims to ensure there is enough supply of quality and potable water to meet domestic,
+environmental and other priority development needs of the present and future generations. It
+advocates promotion of Integrated Water Resources Management (IWRM) as away to ensure
+water sources are effectively used and conserved.
+j) The National Energy Policy (2015)
+The Policy is to provide guidance for sustainable development and utilization of energy
+resources to ensure optimal benefits to Tanzanians and contribute towards transformation of the
+national economy. Further, the policy emphases are promotion of sustainable renewable energy
+sources and energy efficiency and conservation to foster implementation of climate change
+adaptation and mitigation activities to support sustainable development and economic growth.
+k) The National Wildlife Policy (2007)
+The Policy provides for protection of water catchments for wildlife water supply; conservation of
+biodiversity; protection of fragile ecosystems; and restoration of degraded habitats for flora and
+fauna. The Policy emphases is effective participation of all stakeholders, especially local
+communities and the private sector, in the management and conservation of wildlife resources.
+l) The Zanzibar Blue Economy Policy (2020)
+The Blue Economy Policy of the Revolutionary Government of Zanzibar, places importance on
+recognizing the role of blue economy in promoting socio-economic development of the people of
+Zanzibar by integrating the economic potential of the sea and the inland terrestrial catchments
+without depleting the ecosystems, through protecting the marine environment and the sustainable
+use of biodiversity, carbon sequestration and coastal resilience to climate change impacts.
+1.6.2 Legal Framework
+Tanzania has two main Legal frameworks for environmental compliances. These are:
+a) The Environmental Management Act Cap 191. It provides the legal and
+institutional framework for sustainable management of the environment for
+Tanzania mainland.
+7
+
+--- Page 15 ---
+b) The Zanzibar Environmental Management Act (2015) Part III (Articles 14-23). The
+Act empowers Zanzibar Environmental Authority (ZEMA) to help safeguard the
+environment.
+A part from these two main frameworks, many other acts can support the NAP implementation
+in the country. These are listed as:
+i) The Forest Act No. 14 Cap. 323, providing legal framework for the management of
+forests. The Act governs protection, conservation, management and utilization of
+forests and forest products in Tanzania.
+ii) Zanzibar Forests and Conservation Act No. 10 of 1996 (Parts I-XIII), providing legal
+framework for protection, conservation and the development of forests in Zanzibar
+for the social, economic and environmental benefit of present and future generations
+of the people of Zanzibar.
+iii) The Land Act No. 4 Cap 113. This Act governs all land issues in Tanzania. It
+stipulates that land in Tanzania is public property and remain vested in the President
+as trustee for and on behalf of all citizens of Tanzania;
+iv) The Village Land Act No. 5 Cap 114, governing village land category. It empowers
+the village Governments to have legal control of village land and its uses.
+v) The Land Use Planning Act Caps 287 & 113, providing procedures for preparation,
+administration and enforcement of land use plans.
+vi) The Grazing-land and Animal Feed Resources Act No. 13 Cap.180, dealing with the
+management and development of grazing-lands and animal feed resources. It provides
+mandate to the Local Government Authorities in safeguarding and developing grazing
+lands
+vii) The Water Resources Management Act No. 11 with environmental management Cap
+191, enforcing the protection, the use and the development of water resources for
+meeting basic present and future generation human needs.
+viii) The Wildlife Conservation Act No. 5 Cap 283 R.E. 2022. stipulating the importance
+of involvement of local communities in the management and conservation of
+ecosystems in the Wildlife Management Areas (WMAs).
+ix) National Park Act No 11, Cap 282, provides for the establishment, control and
+management of national parks and for related matters with regards to natural
+resources and wildlife.
+x) Ngorongoro Area Conservation Act No 14, Cap 284, promotes natural resources
+conservation and development, while safeguarding and promoting the local
+community interests.
+8
+
+--- Page 16 ---
+xi) Plant Health Act No 4, includes Cap 191, which enforces compliance to
+environmental management procedures when dealing with pesticides.
+Further, the Government deployed a number of initiatives and interventions. These include:
+a) National Environmental Action Plan (NEAP of 2010)
+This is a national guiding framework for sustainable environmental management
+including biodiversity, which lead to identification and planning for urgent climate
+change adaptation actions that are robust enough to lead to long-term sustainable
+development by reducing risks in a changing climate.
+b) The National Adaption Programme of Action of (2007)
+The national adaptation programme incorporates environmental concerns into natural
+resource management planning for economic development. It provided framework for
+preventing the loss of wildlife habitats and biodiversity; control of invasive alien
+species & deforestation, environmental degradations, i.e. water resources
+degradation and pollution; and addressing the climate change impacts.
+c) National Environmental Master Plan for Strategic Interventions (NEMPSI)
+(2022-2032)
+The NEMPSI provide the framework for addressing the environmental challenges
+including land degradations, deforestation, biodiversity loss, climate change,
+deterioration of water sources, coastal and marine degradation, waste management
+and environmental pollution, biotechnology and invasive species
+d) Nationally Determined Contribution (NDCs)
+This is as a national commitment for climate action consistent with decision 1/CP.20
+to be implemented by the relevant sectors by 2030. It provides national relevant
+sectors contributions to climate change mitigation and adaptation actions.
+e) National Climate Change Response Strategy (2021 – 2026)
+This is a framework provides CC technological and infrastructural adaptation and
+mitigation for resilience and mainstreaming sector policies and action plans and
+the complimentary initiatives that focus on biodiversity conservation and
+sustainable use.
+f) Zanzibar Climate Change Strategy, (2014)
+The strategy is a framework for addressing vulnerability adaptation to CC,
+climate smart agriculture and natural resource management, including sustainable
+forests and energy sources. It prioritizes climate change actions that build resilience
+9
+
+--- Page 17 ---
+and developing opportunities for carbon- relevant sustainable development.
+g) National Invasive Species Strategy and Action Plan (2019 – 2029)
+This strategy provides a framework for managing the negative ecological, health and
+economic impacts caused by invasive species (IS). It is particularly of
+significance to GGW with regards to the impacts the IS on biodiversity, crops
+and pasture production and water resources.
+10
+
+--- Page 18 ---
+CHAPTER TWO
+COUNTRY PROFILE
+2.1 Physiography
+Tanzania is an East African country lying just below the equator, Latitude 1º S and 12ºS and
+Longitude 29ºE and 41ºE (Figure 1). The most Northerly point is Mutukula (10 01' S and 310 25'
+E), most Southerly point Mtalika (110 32' S and 370 05' E. The most Westerly and Easterly points
+are Kigoma (40 52' S and 290 38' E) and Msimbati (100 21' S and 400 26' E), respectively.
+Mainland Tanzania is bordered on the north by Kenya and Uganda; on the west by Rwanda,
+Burundi and Democratic Republic of the Congo; on its south western side by Zambia and
+Malawi; in the south by Mozambique and in the east by the Indian Ocean.
+The country is constituted by Mainland Tanzania and Zanzibar with a total area of 945,249 km2
+comprising of land area of 883,749 km2 (881,289 km2 Mainland and 2,460 km2 Zanzibar
+Islands), plus 61,500 km2 inland water bodies. Mainland Tanzania encompasses major island of
+Mafia (518 km2) and Zanzibar consists of Unguja (1,666 km2) and Pemba (795 km2).
+2.2 Physical Features
+2.2.1 Topography
+The Tanzania terrain comprises plains along the coast; a plateau in the central area that ranges
+between 1,000 and 1,500 meters above sea level (a.m.s.l); highlands in the north-east and south
+west are characterized by mountain ranges and peaks; river and lake basins and the Great East
+African Rift Valley.
+11
+
+--- Page 19 ---
+Figure 1: The map of Tanzania showing regional and international boundaries
+(URT, 2022)
+2.2.2 Soils
+According to the World Reference Base for Soil Resources (WRB), Tanzania has 19 dominant
+soil types. These are dominated by Cambisols (35.64 percent), Acrisols (8.63 percent), Leptosols
+(8.11 percent), Luvisols (7.26 percent), Ferralsols (6.32 percent), Vertisols (5.02 percent) and
+Lixisols (4.95 percent). Zanzibar is predominantly with six types of soils. These include: Laptosols
+(43.5%), Ferralsols (16.3%), Vertisols (17.8), Acrisols (7.2), Nitisol (5.3) and Histosols (3.2%).
+12
+
+--- Page 20 ---
+2.2.3 Vegetation
+Tanzania vegetation ranges from grasses to shrubs, miombo woodland and montane to rich
+forests that contain more than 2,000 plant species. The most typical vegetation is the dry
+grassland scattered with thorny scrub and acacia that is found along the Eastern Plateau, which
+makes up most of the country’s land area. This area includes open grasslands, savanna as well as
+woodlands and comprises the Serengeti Plains. Most of the Tanzania forest is montane
+vegetation which is located on the Eastern Arc Mountains, forming an unbroken range between
+50 and 200 km inland. A belt of miombo woodland stretches in southern and western Tanzania
+and is characterised by Brachystegia, Acacia and Baobab trees. Along the coast are fairly
+common, with alpine moors on the slopes of Mount Kilimanjaro and Meru. These ecosystems
+are famous habitats for diverse types of wildlife. The most dominant vegetation in Zanzibar are
+tropical coastal forest, coral rag forest, Mixed vegetation and mangrove forest.
+2.2.4 Geology
+The general geology of Tanzania comprises mainly of the Precambrian2. The Precambrian rocks
+underlie most of central and western Tanzania. Archean granite and greenstone rock assemblages
+form the central nucleus of the country, the Tanzania Craton. The craton is surrounded by
+Proterozoic belts: the Paleoproterozoic Usagaran-Ubendian belt, and the Mesoproterozoic
+Kibaran (Karagwe-Akolean). The Neoproterozoic Mozambique Belt occurs in the eastern part of
+the country. Parts of the Usagaran-Ubendian belt were rejuvenated during the Neoproterozoic to
+early Cambrian Pan-African thermo-tectonic event. Shallow water sediments of the
+Neoproterozoic (900-800 million years) Malagarasi Super group underlie parts of western
+Tanzania. The Karoo basin crosses southern Tanzania in a north-easterly direction. Mesozoic and
+younger marine sediments occur along the coast of Tanzania. Geology of Zanzibar Islands (Unguja
+and Pemba) is characterized by sediments Miocene and Quartenary rocks (<25 million years).
+Quartenary rocks of terraced coralline reefs and coral limestone mostly are developed inwards from the
+eastern part of the Islands.
+2.3 Climate
+2.3.1 Rainfall
+The climate of Tanzania is characterized by bimodal and unimodal rainfall regimes. The northern
+part of the country including areas around Lake Victoria Basin (Mwanza, Kagera, Mara,
+Shinyanga, Geita and Simiyu), North-Eastern Highlands (Kilimanjaro, Arusha and Manyara) and
+the Northern Coast (Dar es Salaam, Tanga and Northern Morogoro) experience two main rain
+seasons (bimodal) namely, long rains (Masika) which normally begins in mid-March and end at
+the end of May and short rains (Vuli), which begins in mid-October and continues to early
+December. The Central part of the country (Dodoma and Singida), the Southern part (Ruvuma,
+2 The Precambrian is the earliest of the geologic ages, which are marked by different layers of sedimentary rock.
+Laid down over millions of years, these rock layers contain a permanent record of the Earth's past, including the
+fossilized remains of plants and animals buried when the sediments were formed.
+13
+
+--- Page 21 ---
+Lindi and Mtwara), the Western areas (Kigoma, Tabora, Katavi and Rukwa) and South-western
+Highlands (Mbeya, Njombe, Iringa and Southern Morogoro) have a prolonged unimodal rainfall
+regime that start in November and continues to the end of April. These rain seasons are
+associated with the southwards and northwards movement of the Inter-tropical Convergence
+Zone (ITCZ).
+Annual rainfall amount varies from 550 mm in the central parts of the country to 2,500 mm in
+some parts of surrounding Lake Victoria. Tanzania’s topographical diversity gives rise to four
+distinct climate zones namely: i) hot and humid coastal belt (including the Zanzibar archipelago),
+which has the warmest temperatures, averaging 27-30°C, and receives 750-1,250 mm of annual
+rainfall, with Zanzibar receiving 1,400-2,000 mm; ii) hot and arid central plateau, which receives
+just 500 mm of rainfall; iii) cooler semi-temperate high lakes region in the north and west which
+receives 750-1,250 mm of rainfall annually; and iv) highlands of the northeast (i.e. Kilimanjaro)
+and southwest including the coldest parts of the country with average temperatures of 20-23°C.
+2.3.2 Temperature
+Along the coast and in the off-shore islands the average temperatures ranges between 27°C and
+29°C, while in the central, northern and western parts temperatures range between 20°C and
+30°C. Temperatures are higher between the months of December and March and coolest during
+the months of June and July. In the Southern highlands and mountainous areas of the north and
+northeast, temperature occasionally drops below 15°C at night, and in the cold months on June
+and July sub-zero temperatures can also be experienced. Distribution of minimum temperature
+(Tmin) is identical to that of maximum temperature (Tmax), lower values of Tmin are centered
+on south-western and north-eastern highlands. Mbeya, Iringa, Njombe, Arusha and Kilimanjaro
+are the coolest regions characterized by mean annual Tmin values which are less than 15°C.
+Coastal areas including Dar es Salaam, Tanga, Mtwara, Zanzibar and Pemba are characterized by
+relatively higher values (>20°C) of mean annual Tmin. Annual mean maximum temperature for
+Tanzania for the period of 2012 to 2016 was 28.5°C. Furthermore, the highest mean maximum
+temperature observed was 32.2°C recorded at Julius Nyerere International Airport (JNIA)
+meteorological station in Dar es Salaam in 2012. The lowest mean maximum temperature was
+23.7°C recorded at Mbeya meteorological station in 2014. Available statistics show that, annual
+mean maximum temperature variations from station to station are small.
+2.3.3 Wind
+The climate of Tanzania is influenced by the monsoon winds, the southerly monsoons and the
+northerly monsoons. The southerly monsoons begin in April ending in September and they are
+usually strong and predominantly southerly. They are characterised with lower temperatures
+(approximately 250C) and bring the long rains (Masika) from March to May. The northerly
+monsoons begin in November ending in February. These are lighter winds and are predominantly
+northerly. The northerly monsoon is characterised with high air temperatures (>300C) and bring
+the lighter rains (Vuli) from November to December. The mean relative average humidity in
+Tanzania is recorded as 44.6 percent and on monthly basis, it ranges from 30 percent in
+September and October to 58 percent in March. The coastal areas are more humid compared to
+the rest of the country.
+14
+
+--- Page 22 ---
+2.3.4 Humidity
+The mean relative humidity in Tanzania for an average year is recorded as 44.6 percent and on
+monthly basis, it ranges from 30 percent in September and October to 58 percent in March. The
+coastal areas are more humid compared to the rest of the country.
+2.4 Socio-Economic Issues
+2.4.1 Population
+The population of Tanzania is 61.7 million, according to the 2022 National Population and
+Housing Census, with women comprising 51.3 percent of the total population as compared to
+48.7 percent for men. The annual population growth rate is about 3.2 percent. The average
+population density is 59 persons per km2 with variation across administrative regions. The
+average household size in Tanzania Mainland is 4.4 persons per household, whereby rural
+households have the largest household size of 4.7 persons. Zanzibar has sparsely population
+density of 768 persons per km2 with variation across regions, the average household size is 5.0
+persons indicating slightly decrease from an average 5.1 persons recorded in 2012.
+Life expectancy at birth has increased from an average of 62.2 years in 2013 to 66.1 years
+in 2021 as a result of continued improvements in social services. Total Fertility Rate (TFR) has
+declined from an average of 5.3 children in 2013 to 5.0 children in 2019. Crude death rate has
+declined from an average of 9.0 deaths per 1,000 people in 2013 to 7.2 deaths in 2019.
+Projections indicate that by 2021, almost a third of the population in country was urban. By
+2021, 32.6 percent of the population was urban whereas 67.4 percent of the population lives in
+rural areas. Major urban centers/cities and towns include Dar es Salaam, Arusha, Mwanza,
+Mbeya and Morogoro.
+2.4.2 Key Economic Sectors
+The major contributing economic sectors to the national GDP in 2021 were agriculture (26.1
+percent), construction (13.8 percent); trade and repairs (8.7 percent); manufacturing (8.8
+percent); transport and storage (7.1 percent); mining and quarrying (7.2 percent), forestry and
+hunting (3.9 percent); financial and insurance service (3.4 percent); information and
+communication (1.5 percent); Accommodation and food services (1.1 percent); water supply,
+sewerage and waste management (0.5 percent); and electricity (0.2 percent).
+2.5 Natural Resources
+Tanzania is endowed with various treasures of unique environmental resources. Tanzania’s rich
+natural resources are also fundamental for the country’s growth and economic development.
+Among important environmental resources found in Tanzania include forest, water, land, coastal
+marine ecosystems, wildlife, natural gas and minerals.
+15
+
+--- Page 23 ---
+2.5.1 Forest
+Forests and wooded areas coverage in Tanzania is about 48.1 million hectares. The three types of
+natural forests in Tanzania include: i) miombo woodlands, ii) montane forests and ii) mangroves.
+These forests are further categorized by type of vegetation cover, usage and legal status, and that
+with regard to type of vegetation cover, 44.6 million ha or equivalent to 93 percent of the total
+forest area in Tanzania is covered by woodlands, followed by Lowland forests (3.4 percent),
+Humid Montane Forest (2.0 per cent), Plantation Forest (1.2 percent) and Mangroves (0.3
+percent).
+In Zanzibar the total area covered by forest are 107,468 ha of which 37,492 ha are protected
+areas (16.863 ha mangrove and 20,609ha terrestrial), 60,000ha are community managed forest,
+8,706 ha forest plantation, and 1,270 ha are rubber plantation. (Zanzibar Wood Biomass Survey
+2013) The forest cover of Zanzibar is endowed with rich and valuable biodiversity and natural
+resources, which to a large extent play an important role in the daily livelihood of the people of
+Zanzibar. They are very important for cooking, building timber, tourism, fodder, water
+catchments, habitat for wildlife, medicinal, climate regulator, rain fall and estuaries for fish
+breeding areas. To the large extent, the forest resources contributed significantly towards the
+exiting social and economic development of Zanzibar and its environmental integrity. Currently,
+the forest and green environment of Zanzibar is at risk of deteriorating due to natural and human
+influences. In generally, forests occupy 40 % of the total land area.
+In terms of usage, the estimated annual consumption of wood is 1.34 million cubic metre which
+exceed the annual allowable of 0.48 million cubic metres. The current annual deficit is 0.85
+million cubic metre per annum. The annual deficit is met by over-harvesting in the accessible
+forests. This leads to degradation and deforestation of the remaining forest and woodlands.
+(Zanzibar Wood Biomass Survey 2013)
+2.5.2 Water Resources
+Tanzania has relatively abundant water resources, with relatively high, but seasonal, rainfall and
+a number of major rivers and lakes in which many of them are transboundary.
+Water Basins: Tanzania is divided into nine hydrological zones or river basins for purposes of
+water resources management. These basins are: (i) Pangani; (ii) Wami/Ruvu; (iii) Rufiji;
+(iv)Ruvuma and Southern Coast, all of which drain into the Indian Ocean; (v) Lake Nyasa; (vi)
+Lake Rukwa; (vii) Lake Tanganyika; (viii) Lake Victoria; and (ix) the internal drainage basin. As
+can be noted the most extensive is Rufiji water basin which covers an area of 181,964 km2,
+followed by Lake Tanganyika (160, 426 km2) and internal drainage basin (142,943km2),
+respectively. The smallest is Lake Nyasa basin which covers an area of 33,997. km2.
+Per capita water resources: Renewable water resources in Tanzania constitute rivers, reservoirs
+and lakes, shallow and deep-water wells (boreholes), artesian wells and springs. Temporal and
+spatial distribution of surface and groundwater sources in the country is mainly controlled by the
+natural geological setting and weather. The available annual renewable water resources in
+Tanzania are estimated at 125,763 MCM per year, which include 104,568 MCM of surface water
+16
+
+--- Page 24 ---
+and 21,195 MCM of groundwater. This estimate is equivalent to an average of 2,250 m3/cap/yr,
+which is above the globally agreed Water Stress Indicator of 1700 m3/cap/yr. However, the
+amount of renewable water resources decreases with time and hence reduces the annual average
+available per capita due to different reasons including climate change effects, poor planning,
+inadequate water security infrastructures, population increase, increased social economic
+activities and catchment degradation.
+Freshwater Systems: About 5.7 percent of the total land area of the country is covered by three
+important lakes in Africa, namely, Lake Victoria, Lake Tanganyika and Lake Nyasa. Tanzania
+shares other lakes and rivers with other countries. These include Lakes Chala and Jipe and Rivers
+Kagera, Mara, Ruvuma and Songwe. Lake Victoria is the second largest lake in the world
+(68,800 km2)) while Lake Tanganyika is the second deepest water reservoir (1,470 m deep) in the
+world. Tanzania is home to many great rivers which provide habitats for multiple plant and
+animal species, fishing, farming and hydro-power generation.
+2.5.3 Wetlands
+There are about 115 different wetlands ecosystems occupying 10 percent of the total land area of
+Mainland Tanzania (approximately 88,300 km2) harbouring over 650 associated species, such as
+molluscs, crustaceans, echinoderms and fish. The wetlands have different conservation status,
+whereby some are in forests and game reserves, national parks, and other protected areas, while
+others have no conservation status. The major wetlands include Kilombero, Malagarasi-
+Muyovosi, Rufiji-Mafia, Lake Natron and Ihefu. In terms of their distribution, 60 percent extend
+over village land while the remaining 40 percent is located over public land.
+2.5.4 Land
+Tanzania possesses 94,508,700 ha of territorial area, out of which nearly 89 million ha is land
+and the remaining is covered by water. About 44 million ha are classified as suitable for
+agricultural production and only 24 percent of arable land is being utilized. Land under medium
+and large-scale farming is 1.5 million ha and land under smallholder farmers is about 8.6 million
+ha. Generally, the urban areas occupy 2 percent of the total geographical area even as they are
+now occupied by close to 30 percent of population.
+The percentage shares of total land area for agricultural land constitute 43.7 percent, forest (37.3
+percent) and other land uses (19 percent). Agricultural land is further divided into: i) arable land
+which amounts to 14.3 percent of the total agricultural land and used for cultivation of crops like
+wheat, maize, and rice that are replanted after each harvest; ii) land for permanent crops which
+constitute 2.3 percent of the agricultural land and used for cultivation of crops like citrus, coffee,
+and rubber that are not replanted after each harvest, and includes land under flowering shrubs,
+fruit trees, nut trees, and vines; and iii) land for permanent pastures and meadows (27.1percent).
+17
+
+--- Page 25 ---
+2.5.5 Wildlife
+Tanzania is endowed with unique diverse wildlife attractions which include National parks,
+Game reserve, Game Controlled Area and Marine Parks. Tanzania has a total of 22 gazetted
+national parks which comprise a total area of 104,578 km2 which is equivalent to 11.6 percent of
+the total land area. Nyerere National Park is the largest national park in the country with a total
+area of 30,893 km2 (3.2 percent of the total land surface). Ruaha is the second largest national
+park with an area of 20,300 km2 whereas Serengeti is the third largest national park with an area
+of 14,763 km2. Saanane is the smallest national park covering an area of 50 km2
+Tanzania has a total of 28 game reserves covering an area of 117,755.4 km2. Game reserves are
+wildlife protected areas which are declared for the purpose of conservation. Consumptive and
+non-consumptive wildlife utilization is allowed after obtaining permits. Selous is the largest
+game reserve covering an area of 50,000 km2 (54,600) which is about 42.5 percent of the total
+area under game reserves. The remaining game reserves individually constitute less than 10
+percent of the total game reserve area.
+In Zanzibar there are 10 terrestrial protected areas of which 6 are in Unguja Island and 4 are in
+Pemba Island. With respect to protected area status Zanzinbar has one 1 National Park Jozani –
+Chwaka Bay National Park), two nature reserves (Ngezi- Vumawinbi in Pemba and Masingini in
+Unguja) and seven forest reserves (Jambiani – Muyuni, Kiwengwa – Pongwe, Ufufuma –
+Pongwe, Kidikotundu – Nongwe – Vundwe, Malilini, Msitu mkuu and Ras kiuyu. Unlike
+Mainland, Zanzibar has no big wildlife, however, has endowed with small endemic wildlife
+which are very potential for eco-tourism include red colobus monkey and Pemba flying fox.
+2.5.6 Natural gas
+Tanzania counts on four tectonic groups of natural gas basins (coastal, Karoo rift, the East
+African valley and cratonic sag basins) of which, so far, only two have become productive.
+These corresponds to the fields at Songo Songo Island in Lindi and those of Mnazi Bay in
+Mtwara. As of 2022, the confirmed quantity of discovered gas was 57.54 trillion Standard Cubic
+Feet (TSCF).
+At present, natural gas is being used in several power plants (TANESCO and Songas) and to
+about 48 industries that are using natural gas as replacement fuel of other refined products. There
+are more than 1,000 households in Dar es Salaam, Pwani, Lindi and Mtwara that are linked to the
+natural gas network for cooking and water heating and more than 1,000 vehicles that are using
+natural gas.
+2.5.7 Minerals
+The country has various mineral resources including gold, iron, silver, copper, platinum, nickel
+and tin; gemstones such as diamonds, Tanzanite, ruby, garnet, emerald, alexandrite and sapphire;
+industrial minerals such as kaolin, phosphate, lime, gypsum, diatomite, bentonite, vermiculite,
+18
+
+--- Page 26 ---
+salt and beach sand; building materials such as stone aggregates and sand; and energy minerals
+such as coal and uranium.
+The mineral sector contributed 7.2 percent of GDP in 2021 and about 50 percent of the country’s
+foreign exchange earnings from exports apart from traditional exports. The mining industry
+experienced an estimated 9.6 percent growth in 2021.
+2.5.8 Energy
+The Tanzania national energy balance is dominated by biomass which accounts for 85 percent.
+Other sources include petroleum (9 percent), electricity (5 percent) and renewable energies (1
+percent). In energy statistics, two types of energy production namely, primary and secondary
+energy are distinguished. Primary energy products are extracted or captured directly from natural
+resources such as crude oil, coal and natural gas. Secondary energy products are produced by
+transforming primary energy products.
+2.5.8.1 Energy Production and Consumption
+According to the Ministry of Energy, the total share of Biomass in Primary Energy Supply is
+expected to decrease by 49 percent by 2040 due to increase of modern energy supply and
+services. Energy consumption pattern in Tanzania indicates the highest energy consumer to be
+the residential/domestic uses (73 percent), followed by industry (14 percent) and transport (6
+percent).
+2.5.8.2 Electricity Generation
+Electricity generation in 2021 was largely dominated by natural gas, which accounted for 892.72
+MW (57 percent), followed by hydro power with 573.70 (36.6 percent). Diesel/HFO/GO
+accounted for 88.80 MW (5.7 percent) and Biomass 10.50 MW (0.7 percent). It is also revealed
+that, electricity generation increased from 7,862.9 GWh in 2020 to 8,580.8 GWh in 2021.
+2.5.8.3 Electricity Consumption in Tanzania
+By June 2021, the average electricity consumption per capita in Tanzania was 138 kWh/year.
+This is relatively small compared to 2,500 kWh/year global average and 550 kWh/year for Sub-
+Saharan Africa. The average growth rate for electricity demand in Tanzania ranges between 10
+percent and 15 percent per annum. Electricity consumption statistics show that the largest user
+group in 2021 was general use (T1) which accounted for 36.7 percent of total electricity
+consumption. This is followed by high Voltage use (T3) which accounted for 35.8 percent. The
+lowest electricity consumption group was domestic use (D1) which accounted for 3.6 percent of
+total consumption in the year.
+2.5.8.4 Renewable Energy
+Tanzania has various renewable energy sources including biomass, solar, hydropower,
+geothermal, biogas, wind, tidal, and waves. According to the ADBG, (2015), currently, the
+19
+
+--- Page 27 ---
+country’s total generation capacity from renewable energy (excluding large hydro) is about 4.9
+percent; this includes captive generation in sugar, tannin and sisal factories, solar and small
+hydro plants.
+a) Hydropower
+Currently, hydropower constitutes about 33.91 percent of the total power generated in Tanzania.
+Hydropower in Tanzania has an installed capacity of 574.6 MW, which is approximately one-
+third of total installed power capacity. Apart from the existing 574.6 MW, Tanzania is expected
+to generate additional 2,612 MW of hydropower including 2,115 MW that will be generated
+from the Julius Nyerere Hydropower Plant.
+b) Wind Energy
+Tanzania has areas of high wind potential that cover more than 10 percent of her land with
+annual average wind speeds of 5–8 m/s which exist along a coastline of about 800 km with
+predominant surface winds, moving from south-east to northeast. The country’s wind energy
+production potential stands at 1,000 MWp although there is currently not much to show as its
+contribution to the national power grid. Areas such as Makambako (Njombe) and Kititimo
+(Singida) have sufficient wind speed for grid-scale electricity generation, with average of wind
+speeds 8.9 m/s and 9.9 m/s at the height of 30 m, respectively.
+c) Solar Energy
+Tanzania has substantial amount of solar energy ranging between 2,800-3,500 hours of sunshine
+per year, and a global horizontal radiation of 4-7 kWh per m2 per day, suggesting that solar can
+be a major source of energy in the country. The national solar energy potential is estimated at
+670 MWp. Solar energy is used as a source of power by 24.7 percent of the households with
+access to electricity in the country. On the other hand, solar energy is used mostly in rural areas
+with about 64.8 percent compared to urban areas with only 3.4 percent. The regions of Lindi,
+Njombe, Mtwara, Katavi, and Ruvuma lead in the use of solar power electricity in Tanzania. The
+main uses include heating and drying and photovoltaic for lighting, water pumps, refrigeration
+purposes, and telecommunication. About 6 MWp (megawatt peak) of solar PV electricity has
+been installed countrywide for various applications in schools, hospitals, health centres, police
+posts, small telecommunications enterprises and households, as well as for street lighting.
+d) Biomass energy
+Wood energy demand accounts for approximately 85-90 percent of Tanzania’s overall energy
+supply and demand. Almost 90 percent of that demand comes from the household sector, with
+the remainder coming from household enterprises (often referred to as cottage industries),
+commercial, institutional and some industrial demand. Charcoal demand has nearly doubled over
+the past ten years driven by rapid urbanisation and high relative prices or scarcity of energy
+substitutes, particularly kerosene, electricity, biogas, biomass briquettes and LPG. Dar es Salaam
+city and other urban centers remain the largest charcoal consumers. Over 1 million tons of
+20
+
+--- Page 28 ---
+charcoal is consumed annually, of which Dar es Salaam City consumes more than 60 percent, the
+quantity is predicted to be double by 2030.
+Biomass is mainly from forests that is harvested traditionally and unsustainably. More than 1
+million people engage in charcoal production and supply. Additional to forestry biomass, there
+are residues or wastes from agriculture and forest. They include agricultural crop residues, such
+as coffee husks, rice husks, coconut husks, and sisal, cashewnut, cotton, wheat and other crop
+residues that result from agro-processing; and animal wastes. Forestry wastes including sawdust,
+shavings, thinning and other residues that come from harvesting, cutting and processing forest
+resources primarily for timber, pulp and paper, are potentially extensive alternative biomass
+resources. Biomass is presently also used for grid generation (around 18 MW) and by the agro-
+industry to generate its own electricity (about 58 MW estimated). Currently, the installed
+capacity of sugar industries for power generation through co-generation from the bagasse is
+about 40 MW.
+e) Geothermal
+Tanzania has significant geothermal potential exceeding 5,000 MW, with most prospects located
+in the East African Rift System. Geothermal prospects are grouped into main three zones,
+namely, the northeaster zone with regions of Mara, Kilimanjaro, and Arusha; the south-western
+zone with regions of Rukwa and Mbeya; and the eastern coastal belt zone in Rufiji Basin. The
+Government through the Tanzania Geothermal Development Company (TGDC) has completed
+four detailed surface studies on developing areas such as Ngozi and Kiejo-Mbaka in Mbeya
+region, Songwe in Songwe region, and Luhoi in Coast region.
+21
+
+--- Page 29 ---
+CHAPTER THREE
+SITUATIONAL ANALYSIS
+Land is under increasing pressure stemming from competition for access, changing consumption
+patterns and the drive for greater economic growth. These have resulted in land degradation in
+many parts of the country. Land degradation is caused by many factors acting alone or in
+combination, concurrently or one at a time, yet progressively. Human activities including
+unsustainable farming, overgrazing, over exploitation of forest resources; and inadequate land
+use management are the causes of land degradation, which changes the quality of the land.
+3.1 State of Land Degradation and Affected Ecosystems
+The general trends of land degradation in the country reveals that it has increased from 42% in
+1980 to about 80 percent (46 percent being moderate and 34 percent highly degraded) of the total
+land area is degraded at varying rates (Figure 2). The extent and magnitude vary across regions,
+depending on the type and intensity of the economic activities that drive the degradation. The
+highly degraded areas in the country are, Tabora, Dodoma, Singida, Shinyanga, Lindi, Pwani,
+Simiyu, Manyara and Arusha. Moderately degraded areas include Iringa, Songwe, Katavi, Mara,
+Mwanza, Tanga and Morogoro. Very few areas in the country have low level of Degradation.
+These include, Kagera, Geita, Kigoma, Njombe, Kilimanjaro and Ruvuma.
+22
+
+--- Page 30 ---
+Figure 2: Map indicating land degradation severity map in Tanzania (URT, 2022)
+3.2 Causes of Land Degradation
+Land degradation is associated with unsustainable human activities that cause removal of land
+cover, soil loss and loss of soil quality. The activities include unsustainable agriculture,
+deforestation, overgrazing, unsustainable mining activities, bush fires and proliferation of
+invasive species. Human activities and climate change influence the changes in land use and land
+use cover which affects the status of land degradation.
+i) Unsustainable agriculture
+The unsustainable agricultural activities include agricultural expansion, cultivation on steep
+slopes, cultivation within 60m from river banks, cultivation in valley bottom (vinyungu) and
+23
+
+--- Page 31 ---
+river banks, misuse of agrochemicals (fertilizers and pesticides) and mismanagement of
+irrigation water. For instance, valley bottom cultivation “vinyungu” which has now changed to
+commercial level, contributes to land degradation through obstruction of water flow downstream,
+sedimentation, and contamination of river water by agrochemicals. Areas affected most are
+Iringa, Njombe, Mbeya and Songwe. Cultivation in riverbanks, is mostly evidenced in
+Morogoro, Pwani, Mbeya, Njombe, Iringa.
+ii) Overgrazing
+Livestock grazing when sustained at acceptable levels has ecological importance in terrestrial
+ecosystems. However, overgrazing causes ecological consequences in the ecosystem and
+contributes to land degradation. The livestock population has dramatically increased contributing
+to reduced land cover, increase soil erodibility and making the land fragile and prone to other
+agents of degradation. The livestock census in 2008 and 2020 shows that livestock population
+has increased dramatically in the southern part of the Country as there has been increasing
+migration from the northern semi- arid areas to the southern part. There has been very high
+increase in livetock population in Kigoma (846.1%), Mtwara (700.1%), Lindi (562.47%),
+Ruvuma (498.1%), Pwani (189.6%), Iringa (133.6), (Njombe (125%), Mbeya (119.5%), and
+Tanga (106.1%). The drastic increase in cattle population has aggravated land degradation to the
+southern part of the country.
+iii) Mining activities
+Unsustainable mining activities cause serious physical disturbance to the land, river banks and
+bed, hence accelerate soil erosion and siltation. Abandoned open pits, tailings and waste rocks
+which remain after mining of metallic, gemstones and building materials. Mining activities also
+contribute to erosion and sedimentation in rivers and river banks. The other factor that
+contributes to land degradation includes deforestation, which involves forest clearing for timber,
+fuelwood and construction material. Deforestation removes the land cover and leaves the land
+unprotected and prone to other agents of land degradation.
+iv) Inadequate land-use planning
+Land use planning is an important tool to ensure that land is used on a sustainable basis. In
+Tanzania, much of land, especially the village land is used without formally approved land use
+plans, resulting in unsustainable use of land such as overstocking and unplanned settlements. Out
+of 12,450 villages in Tanzania, it is only about 2,370 villages have been surveyed and land use
+plans prepared (NLUPC, 2021). About half of the 48 Local Government Authorities (LGAs)
+surveyed in 2017/18, (52%) ranked inadequate land-use management as the highest driver to
+land degradation in their areas of jurisdiction.
+v) Culture and beliefs
+Unsustainable land management practices built up over generations have often become part of
+cultural fabric of traditional pastoral and peasant farming communities. Pastoral/nomadic
+livestock keeping practices is one of the long-standing unsustainable land uses practice in
+24
+
+--- Page 32 ---
+Tanzania. This culture is built upon keeping large herds of cattle often for prestige, exceeding the
+carrying capacity of grazing land. Under this culture, land is viewed as open access and the
+herdsmen move with their large herds of cattle from one place to another in search for fodder and
+water. Some of these communities include agro-pastoral Sukuma, Barbaig and Maasai.
+3.3 Impacts of Land Degradation
+i) Loss of agriculture and grazing land
+Land degradation causes decline in soil fertility and productivity, crop and pasture production
+hence diminishing arable land. Degradation can also cause decrease in arable land through
+physical soil removal and formation of gullies. The loss of land productivity further leads to
+limited growth of pasture and hence reduce grazing land. This is evidenced in most dryland areas
+of Arusha, Manyara, Simiyu, Dodoma, Shinyanga and Singida.
+ii) Deterioration of water sources
+Land degradation is associated with catchment degradation which leads to soil erosion and
+sedimentation in riverbeds that cause degradation of water quality. Degradation of catchments
+reduce the catchment capacity to retain rainwater and maintain gradual water flow downstream.
+This reduces perennial flow of water which makes some rivers to become seasonal and increase
+flood incidences due to increased surface runoff.
+iii) Migration and land conflicts
+Excessive land degradation triggers migration of people and their livestock in search for
+productive land, fodder and water. Grazing land in semi-arid areas such as Shinyanga, Mwanza,
+Simiyu, Dodoma and Manyara, have been affected by overgrazing, recurring droughts and
+subsequent soil erosion. As a result, livestock-keepers move to other areas, often to agriculture
+production areas searching for water and fodder. This results in conflicts of farmers-livestock
+keepers, in various places of the country such as Rufiji (Pwani Region), Mvomero, Kilosa and
+Kilombero (Morogoro Region) and Mbarali (Mbeya Region).
+iv) Biodiversity loss
+Land degradation leads to removal of vegetation cover which consists of a number of species.
+The vegetation is also a habitat to a number of faunas which when the vegetation is removed,
+their habitat is lost and hence their survival is threatened. Widespread deforestation could lead to
+loss of biodiversity. Logging of the most valuable timber species such as Milicia excelsa
+(Mvule), Pterocarpus angolensis (Mninga) and Dalbergia melanoxylon (Mpingo) has led to
+threaten the species to extinction.
+Continued biodiversity loss, unsustainable utilization and associated degradation of a wide range
+of ecosystem services amounts to at least 5 percent of the national GDP and affects most
+severely the poor communities who depend most directly on their immediate environment for
+survival.
+25
+
+--- Page 33 ---
+3.4 National Initiatives
+a) Mainstreaming of NAP into national policies, plans, programmes and strategies
+Mainstreaming sustainable land management is at the forefront of development planning and
+policy formulation across all sectors in the country. Guidelines of mainstreaming NAP into
+sectoral Policies, Plans and Programmes were prepared and published in 2014. The Guidelines
+are meant to ensure that relevant policies, plans, programmes integrate sustainable land
+management (SLM) with a wider-reaching set of outcomes towards achieving sustainable
+development. Sectors that have made substantial efforts in mainstreaming DLDD include
+Agriculture, Forestry, Tourism, Wildlife, Energy, Mining, Fisheries, Livestock, and Water .
+b) Promoting SLM best practices
+A series of best practices for SLM has proven to be successful in the country which are
+documented in the Compendium of Best Practices for Sustainable Land Management in
+Tanzania (2014). Common SLM best practices being practiced in in the country are listed in
+Table 1.
+Table 1: List of common SLM best practices in Tanzania
+Sector SLM practice Specific type
+Agriculture Conservation agriculture • Minimum tillage
+• Cover crops
+• Crop rotation
+• Contour bunds (ridge terraces or stones)
+• Mulching
+• Intercropping with leguminous cover crops
+• crop residue management
+Soil and water conservation • Crop residues management
+• drip/trickle irrigation
+• Rice intensification
+• Rainwater harvesting
+• Pit and trench farming
+• Terracing
+• Ridging
+• Tie-ridging
+• Excavated bunded basins (majaluba)
+• Composting
+Cropland management • Crop diversification
+• Green manuring
+Soil fertility management • Integrated soil fertility management
+• Integrated Plant Nutrient Management
+• Manuring and compost manure
+• Efficient use of fertilizer (micro dosing)
+• Ngoro pits
+26
+
+--- Page 34 ---
+Sector SLM practice Specific type
+Agro-forestry • tree in crop land
+• rotational wood lot
+• improved fallow
+• fodder bank
+Livestock • sustainable grazing land • Pasture farming
+management • Proper livestock carrying capacity
+• Intensive livestock keeping practice Traditional
+fodder conservation – ngitiri
+• Establishment of community grazing areas in
+each district of Zanzibar
+• Establishment/digging of water wells and
+proper irrigation drainage system at Kizimbani
+pasture museum for sustainable pasture farming
+• Performing on farm research on drought
+resistance pasture species
+• Water availability and • Water melons (Citrus vulgaris) as an
+conservation alternative source of water for livestock
+• Charco /earth dams
+• Rainwater harvesting and preservation
+• Boreholes
+Water • Water storage and • Subsurface dams
+Resources conservation of water • Rain water harvesting
+sources • Road runoff harvesting
+• Silt trapping
+• Stream-flow diversions (Ndiva)
+Fisheries • Aquaculture • Fish ponds
+• Mariculture
+• integrated aquaculture
+• cage culture
+• sustainable fishing
+Energy Energy efficient cooking
+stoves
+Renewable Energy Sources • Photovoltaic solar power
+• Wind power
+• Biogas
+Wildlife • Sustainable wildlife • National Parks
+management • Wildlife Management Areas (WMAs)
+• Game Reserves
+• Game Controlled areas
+• Sustainable use of wildlife in protected areas
+Zanznibar
+• Zoo establishment
+• Establish wildlife breeding site in small islands
+with minimum human impact
+• Wildlife conservation club
+27
+
+--- Page 35 ---
+Sector SLM practice Specific type
+• Trophy hunting in Community forests
+• Establishment of Bee reserves in community
+forest
+Forestry Indigenous vegetation • Spiritual and traditional beliefs
+conservation technologies • natural regeneration
+• Tree planting in degraded areas
+• Friendly eco-tourism investment
+• Improved cooking stoves (Majiko mkombozi)
+• Carbon trading
+Participatory Forest • Joint Forest Management (JFM)
+Management • Community Based Forest Management
+(CBFM)
+• Community Forest Management Agreement
+(COFMA)
+•
+Alternative Income • Butterfly • Beekeeping • Ecotourism
+generating activities farming • Mat • Spice growing
+• Pottery weaving • Establishing
+• Crab • Investment zoos
+fattening, in forest • Fish farming in
+area mangroves
+c) Restoration and rehabilitation
+Restoration and rehabilitation of degraded lands is practiced in order to assist with the recovery
+of ecosystem functions and services. Tanzania has pledged to restore 5.2 million ha by 2030,
+under the African Forest Landscape Restoration Initiative (AFR 100). Some of the practices
+being promoted and implemented include tree planting through which each district is required to
+plant 1.5 million trees annually; agroforestry; indigenous forestation practices like ngitili;
+destocking; alternative sources of energy; sustainable crop and livestock intensification; and
+Participatory Forest Management (PFM). On other hand through the same programe African
+Forest Landscape Restoration Initiative (AFR 100) Zanzibar aimed to restore 25,000 ha through
+enrichment planting in protected areas, natural regeneration, and woodlot.
+Several programmes that are implemented with regional approach such as Lake Tanganyika
+Sustainable Management Programme, Mara River Environmental Project, Songwe River Project,
+Lake Victoria Environmental Management Project, and Nile basin Transboundary Programme
+were collaborative with neighbor countries. These programmes have helped improve the
+environmental situation of the respective ecosystems, contribute to poverty reduction and
+improve food security of adjacent communities.
+d) Drought risk management and early warning systems
+Tanzania has specific disaster drought risk management and early warning systems in
+Agriculture, Livestock, Forest and Wildlife sectors. For instance, the Ministry of Natural
+28
+
+--- Page 36 ---
+Resources and Tourism has wildfire monitoring system using GIS and remote sensing. Further,
+Tanzania Meteorological Agency (TMA) monitors weather and climate and provides early
+warning information. Tanzania is also collaborating with other regional early warning centers
+(GACOF-Nairobi, SADC-Botswana, Indian Ocean Center-Reunion) through sharing
+meteorological data and early warning information.
+e) Promoting alternative livelihoods
+Traditional livelihoods have been observed as land-intensive practices, such as agriculture and
+production of land-based goods. The inability of these systems to meet the needs of growing
+populations along with the pressures of intensive use of marginal lands has led to vested interests
+in alternative livelihood sources.
+Some of the alternative livelihoods being promoted and implemented in the country include:
+beekeeping (traditional and commercial using commercial beehives and modified traditional
+beehives) in Singida and Tabora Regions; butterfly farming in Eastern Arc Mountains - Muheza,
+Tanga.; eco-tourism; handcrafts (including pottery and mat making); spice growing - Muheza
+Tanga Region; aquaculture; horticulture; and keeping small ruminants and poultry.
+f) Establishing knowledge sharing systems
+Knowledge sharing systems are common platforms meant to strengthen and improve DLDD
+information generation, management, dissemination, sharing and exchange for policy and
+decision makers, public, media and other key stakeholders.
+Several such systems exist in the country including:
+i) Tanzania Climate Smart Agriculture Alliance (TCSAA): is a platform for the
+promotion of Climate Smart Agriculture (CSA) across United Republic of
+Tanzania (Mainland and Zanzibar), with the aim of creating a truly national and
+broad-based forum on CSA in Tanzania through effective linkages with key CSA
+initiatives at the Region, Africa and Global levels;
+ii) Tanzania Biodiversity Information Facility (TanBIF): promotes mobilization,
+sharing and utilization of biodiversity data and information in Tanzania;
+iii) Tanzania Biosafety Clearing House: This is a mechanism set up to facilitate the
+exchange of information on a variety of scientific, technical, environmental, legal
+and capacity building information on Living Modified Organisms (LMOs);
+iv) The Agricultural Sector Stakeholders Database: The purpose of this database is to
+improve visibility of agricultural investments and interventions to help the
+Government strategize better and make informed decisions.
+29
+
+--- Page 37 ---
+v) Ministerial Gender desks: All Government Institutions have dedicated desks
+responsible for addressing gender issues relevant to the sector/institution
+knowledge and technology inclusive.
+vi) Tanzania Association of Women Leaders in Agriculture and Environment
+(TAWLAE) implemented a project for scaling up sustainable Climate Smart Agro-
+ecology practices for enhanced food security and Environmental Conservation in
+Serengeti Ecosystem. The project aimed at capacity building of Women on
+sustainable livelihoods, greenhouses farming and poultry keeping.
+g) Improving access to safe drinking water in affected areas
+Water is used for different purposes ranging from water supply for domestic use, hydropower
+production, recreation, irrigation and livestock watering, fisheries, and biodiversity conservation,
+industrial production and navigation. Irrigation is by far the largest consumptive use comprising
+about 89 percent of the total, with domestic water supply comprising 9 percent and industrial
+water use 2 percent.
+Water supply coverage in Tanzania is 86.2 percent and 47.9 percent for urban and rural areas,
+respectively. Nearly nine in ten households (87.8 percent) use water from improved water
+sources during the rainy season while 73.0 percent uses such water during the dry season.
+Despite these figures, it is worthwhile to note that more than one third of water in urban areas is
+lost through a leakage that is about 37 percent and 41.8 percent for other urban areas and Dar es
+Salaam, respectively.
+3.5 Mobilization of Financial and Non-Financial Resources
+a) Bilateral and multilateral funding mechanisms
+Tanzania has implemented projects and programs relevant to the UNCCD through the support of
+bilateral and multilateral sources including the Global Environment Facility (GEF), Africa
+Development Bank and Adaptation Fund. Some of the projects implemented are: Lake
+Tanganyika Sustainable Environmental Management Programme; Lake Victoria Environmental
+Management Programme; Sustainable Land Management Programme in Kilimanjaro Region;
+Sustainable Land Management Programme in Tabora Region; and Sustainable Land
+management in Ruvu and Zigi Catchments.
+b) Public resources
+Trends in national-level financing for activities relevant to the implementation of the Convention
+has been inadequate but generally stable. This includes Government Budget allocated to
+activities related to tree planting, forest management and conservation, land use planning,
+promotion of alternative energy, and rehabilitation of degraded areas.
+c) Innovative sources of finance, including from the private sector
+30
+
+--- Page 38 ---
+Amount of resources mobilized from innovative sources of finance, including from the private
+sector for activities relevant to the implementation of the Convention has been inadequate but
+generally increasing. Typical innovative sources of funding included the following:
+i) Part of revenue raised from forest sector is allocated to Tanzania Forest Fund for
+tree planting and other land conservation activities;
+ii) Revenue raised by National Environment Management Council through fines,
+fees and penalties is used for funding its operations;
+iii) Private companies also funding UNCCD related activities including financial
+institutions, private companies and mobile companies.
+3.6 Assessment of Implementation of the National Action Programme (NAP) (2014)
+The NAP (2014) provided a framework for action to combat the accelerating threats of
+desertification in the country. Overall implementation of NAP has had mixed results (Table 2).
+31
+
+--- Page 39 ---
+Table 2: Key achievements made and challenges encountered in implementation of NAP (2014)
+Sector Achievements Challenges
+Environment • National Environment Policy (2021) • Persisting land degradation countrywide
+• National Environmental Master Plan for Strategic Interventions (2022- • Limited financing for addressing DLDD
+2032) • Low public awareness on DLDD issues
+• National Climate Change Response Strategy (2021-2026) • Inadequate engagement of private sector and
+• Nationally Determined Contribution (2021) CSOs in addressing DLDD
+• Land Degradation Neutrality Target Setting in Tanzania (2020)
+• National Invasive Species Strategy and Action Plan (2021-2029)
+• National Guidelines and Regulations (2022) for governing carbon
+trading in Tanzania
+• Engagement with Green Great Wall Initiative (GGWI) which aims to
+restore the degraded land of Africa.
+• Accreditation of institutions to serve as Implementing Entities of
+Multilateral Funding Mechanisms including Green Climate Fund
+(GCF) and Adaptation Fund.
+• Zanzibar Environmental Policy 2013
+• Zanzibar Green Legacy Initiative
+• Climate Change Strategy 2014
+• Zanzibar Biodiversity Finance Plan
+Agriculture • Agricultural Land use Master Plan • Unsustainable agricultural activities include
+• Agriculture Climate Resilience Plan (ACRP) (2014-2019) and Climate agricultural expansion, cultivation on steep
+Smart Agriculture Guidelines (2017) slopes, cultivation within 60m from river
+• Area under irrigation has increased from 461,324 ha to 694,715 ha banks, cultivation in valley bottom (vinyungu)
+and river banks, misuse of agrochemicals
+(fertilizers and pesticides) and mismanagement
+of irrigation water.
+Livestock • Tanzania Livestock Master Plan (2017/18-2021/22) and Strategy for • Overgrazing and nomadic pastoral practices
+Reliable Access to Grazing and Water for Livestock (2018) were • Migration and land use conflicts
+prepare • Shrinking of rangelands
+• Livestock were evicted from Ihefu wetland (about 150 km2) in • Inadequate livestock infrastructure
+32
+
+--- Page 40 ---
+Sector Achievements Challenges
+2006/2007 which has resulted into regeneration of vegetation and • Invasive Species
+increased water level.
+Forest • Tree planting campaign through which a total of 382.1 million trees • Overdependence on fuel wood and charcoal as
+were planted country-wide between 2015 and 2020 sources of energy (85% of the energy demand)
+• 4,122,500 hectares which is about 12% of all forests in the country are • Unsustainable farming practices
+managed through PFM and 60,000 ha through COFMA • Wildfire/Bush fire
+• A total of 1,734 ha of new commercial plantations were established • Tobacco Curing
+including Wino (Songea), Iyondomsimwa (Ileje), Silayo (Chato), • Increasing demand and trade for plant and
+Mpepo (Mbinga), Buhigwe (Kigoma) and Mtibwa/Pagale (Mvomero). animal species
+In addition, a 50,000-ha acacia plantation for production of gum was • Increasing demands of pegs for seaweed
+established in Iramba, Singida; farming
+Wildlife and • 40% of the total land area is protected • Invasion by exotic (non-native) species is a
+forest • 33 Wildlife Management Areas (WMAs) covering more than 30,000 significant management issue in some areas,
+(protected km2 (or about 8% of the wildlife protected area) involving about 300 including within protected areas.
+villages
+areas)
+• 77 Important Bird Areas (IBAs) covering a total of more than 168,000
+km2 or about 18% of the total land area
+Minerals • Efforts towards formalization of artisanal miners • Unsustainable mining activities cause serious
+physical disturbance to the land, river banks
+and bed, hence accelerate soil erosion and
+siltation.
+• Abandoned open pits, tailings and waste rocks
+which remain after mining of contributes to
+land degradation through reduced land
+functionality
+•
+Energy • Deployment of energy efficient firewood and charcoal cooking stoves • Overdependence on fuel wood and charcoal as
+• Biogas plants have been installed countrywide for domestic sources of energy (85% of the energy demand)
+consumers
+• Natural gas distribution services for domestic and industrial use
+33
+
+--- Page 41 ---
+Sector Achievements Challenges
+Land • National Land Use Framework Plan (2013-2033) was prepared. • Inadequate formulation and/or enforcement of
+• Out of 12,450 villages in Tanzania, about 2,370 villages have been land use plans at national and local
+surveyed and land use plans prepared government authority levels
+• most of the land remains open access for
+various activities such as pastoralism and
+shifting cultivation
+Water • Integrated Water Resources Management and Development • Unsustainable human activities in water
+resources (IWRMD) Plans have been prepared for all nine (9) water basins; catchment basins
+• A total of 133 water sources have been demarcated, whereas 18 water • Encroachment of water sources
+sources have been gazetted in all nine water basins
+• Water Resources Management Strategic Interventions and Action Plan
+to Implement Climate Change Adaptation (2013-2018)
+Waste • Improved collection of solid waste in urban areas from an average of • Inappropriate and haphazard disposal of both
+management about 5% in 1990’s to 50% to date and provision of sewerage systems solid waste and wastewater
+covering about 10% to 15% of the urban population • Inadequate urban planning
+• Licensing system for collection, recycling and export of hazardous
+waste
+Financial • Modest Government budget was allocated to address some of the • Inadequate mechanisms to mobilize needed
+resources DLDD related challenges resources.
+• At the operational phase of application for GEF-6 funding for July • Inadequate engagement of private sector
+2014-June 2018, the United Republic of Tanzania became eligible for especially the banking and industry sub-
+development and implementation of projects worth US$ 21.2 million sectors as potential source of finance for the
+for biodiversity protection, US$ 7.3 million for climate change and implementation of the NAP.
+about US$ 8.6 million for land degradation.
+34
+
+--- Page 42 ---
+Other major factors responsible for the inadequate implementation of NAP (2014) included:
+i) insufficient capacity of central and local government authorities to coordinate the
+planning, formulation and implementation of projects addressing DLDD-related
+activities;
+ii) Inadequate institutional capacity on law enforcement;
+iii) Inadequate formulation and/or enforcement of land use plans at national and local
+government authority levels;
+iv) Low level of awareness of DLDD issues among key stakeholders;
+v) Inadequate mechanisms to mobilize needed resources for implementation particularly
+from local (governmental budget and private sector) with less focus on innovative
+financial resource mobilization;
+vi) The role of private sector especially the banking and industry sub-sectors as potential
+source of finance for the implementation of the NAP was overlooked, particularly
+considering the role they can play in facilitating and augmenting the existing
+investments made by land managers.
+35
+
+--- Page 43 ---
+CHAPTER FOUR
+THE NATIONAL ACTION PROGRAMME
+The National Action Programme (NAP) to Combat Desertification describes its goal and
+objectives; key planning frameworks; and the Action Plan entailing priority actions, targets,
+indicators and means of verification.
+4.1 Goal and objectives
+The goal of the NAP is to prevent, halt and where possible reverse the effects and impacts of
+desertification, land degradation and drought, in order to contribute to poverty alleviation, reduce
+loss of biodiversity, adapt to climate change, improve livelihoods, achieve land degradation
+neutrality and sustainable development goals (SDGs), for the benefit of current and future
+generations.
+The specific objectives of the NAP are to:
+i) improve the condition of affected ecosystems, combat desertification and land
+degradation, promote sustainable land management and contribute to land
+degradation neutrality;
+ii) improve the living conditions of affected populations;
+iii) mitigate, adapt to, and manage the effects of drought in order to enhance resilience of
+vulnerable populations and ecosystems;
+iv) generate national and global environmental benefits through effective implementation
+of the UNCCD; and
+v) mobilize substantial and additional financial and non-financial resources to support
+the implementation of the Convention by building effective partnerships at global and
+national level.
+4.2 Key Planning Frameworks for NAP
+4.2.1 UNCCD Strategic Plan and Framework (2018-2030)
+The UNCCD Strategic Framework (2018-2030) is a new global roadmap to address land
+degradation that was adopted at the UNCCD COP13 in September, 2017. It is a global
+commitment to achieve Land Degradation Neutrality (LDN) in order to restore the productivity
+of vast swathes of degraded land, improve the livelihoods of more than 1.3 billion people, and to
+reduce the impacts of drought on vulnerable populations.
+The general objective of the Strategic Framework is to avoid, minimize and reverse
+desertification and land degradation, mitigate the effects of drought and strive to achieve a land
+degradation-neutral world. It targets five strategic objectives, clarified in each case by a list of
+actions for their implementation and the expected impacts. Table 3 presents the operational
+objectives of the Strategy, expected impacts and indicators.
+36
+
+--- Page 44 ---
+Table 3: Strategic objectives of the UNCCD Strategic Framework (2018-2030)
+Strategic objective Expected impacts Indicators
+Strategic objective 1: • Expected impact 1.1: Land productivity and related ecosystems • SO 1-1: Trends in land cover
+To improve the services are maintained or enhanced.
+condition of affected • SO 1-2: Trends in land productivity or functioning of
+ecosystems, combat • Expected impact 1.2: The vulnerability of affected ecosystems the land
+desertification/land is reduced and the resilience of ecosystems is increased.
+degradation, promote • SO 1-3: Trends in carbon stocks above and below
+sustainable land • Expected impact 1.3: National voluntary land degradation ground
+management and neutrality targets are set and adopted by countries wishing to do
+contribute to land so, related measures are identified and implemented, and
+degradation neutrality necessary monitoring systems are established.
+• Expected impact 1.4: Measures for sustainable land
+management and the combating of desertification/land
+degradation are shared, promoted and implemented.
+Strategic objective 2: • Expected impact 2.1: Food security and adequate access to • SO 2-1: Trends in population living below the relative
+To improve the living water for people in affected areas is improved. poverty line and/or income inequality in affected areas
+conditions of affected
+populations • Expected impact 2.2: The livelihoods of people in affected areas • SO 2-2: Trends in access to safe drinking water in
+are improved and diversified. affected areas
+• Expected impact 2.3: Local people, especially women and
+youth, are empowered and participate in decision-making
+processes in combating DLDD.
+• Expected impact 2.4: Migration forced by desertification and
+land degradation is substantially reduced.
+Strategic objective 3: • Expected impact 3.1: Ecosystems’ vulnerability to drought is • Monitored through qualitative information
+To mitigate, adapt to, reduced, including through sustainable land and water
+and manage the effects management practices.
+of drought in order to
+enhance resilience of • Expected impact 3.2: Communities’ resilience to drought is
+vulnerable populations increased.
+and ecosystems
+37
+
+--- Page 45 ---
+Strategic objective Expected impacts Indicators
+Strategic objective 4: • Expected impact 4.1: Sustainable land management and the • SO 4-1: Trends in carbon stocks above and below
+To generate global combating of desertification/land degradation contribute to the ground
+environmental benefits conservation and sustainable use of biodiversity and addressing
+through effective climate change. • SO 4-2: Trends in abundance and distribution of
+implementation of the selected species
+UNCCD • Expected impact 4.2: Synergies with other multilateral
+environmental agreements and processes are enhanced. • SO4-3: trends in adaptive capacity to climate change
+impacts
+• SO4-4: trends in resilience to climate change impacts.
+Strategic objective 5: • Expected impact 5.1: Adequate and timely public and private • SO 5-1: Trends in international bilateral and
+To mobilize substantial financial resources are further mobilized and made available to multilateral official development assistance
+and additional financial affected country Parties, including through domestic resource
+and non-financial mobilization. • SO 5-2: Trends in domestic public resources
+resources to support the
+implementation of the • Expected impact 5.2: International support is provided for • SO 5-3: Trends in number of co-financing partners
+Convention by building implementing effective and targeted capacity-building and “on-
+effective partnerships at the-ground interventions” in affected country Parties to support • SO 5-4: Resources mobilized from innovative sources
+global and national the implementation of the Convention, including through North– of finance, including from the private sector
+level South, South–South and triangular cooperation.
+• SO 5-5: Total amount of approved funding for
+• Expected impact 5.3: Extensive efforts are implemented to developing countries and countries with economies in
+promote technology transfer, especially on favourable terms and transition to promote the development, transfer,
+including on concessional and preferential terms, as mutually dissemination and diffusion of environmentally sound
+agreed, and to mobilize other non-financial resources. technologies
+• SO 5-6: Number of science and/or technology
+cooperation agreements and programmes between
+countries, by type of cooperation
+• SO 5-7: United States dollar value of financial and
+technical assistance, including through North–South,
+South–South and triangular cooperation, committed to
+developing countries and countries with economies in
+transition
+38
+
+--- Page 46 ---
+4.2.2 National Environmental Master Plan for Strategic Interventions (2022-2032)
+Tanzania’s economy is largely dependent on natural resources. However, unsustainable
+utilization driven by over-dependence on natural resources has increased pressure on these
+resources resulting into environmental degradation. This affects a range of ecosystems that
+subsequently results to an economic loss of at least five percent (5%) of the national Gross
+Domestic Product (GDP). Despite Government initiatives put in place including national policies
+and legislations, environmental challenges persist. One of the factors exacerbating this situation
+is limited spatial information on environmental degradation and their appropriate intervention
+options resulting into formulation of interventions that are generic, inappropriate to specific areas
+and duplication and misallocation of limited resources at local and national level. In view of that,
+the Government has developed National Environmental Master Plan for Strategic Interventions
+(NEMPSI).
+The Master Plan serves as a blueprint for environmental management in the country. The overall
+objective of the NEMPSI is to guide strategic and coordinated environmental interventions at all
+levels, based on spatial variation of environmental challenges and intervention options. The
+specific objectives of the master plan are to:
+i) Provide the existing status of environmental challenges, indicating the causal effect,
+existing initiatives and constraints;
+ii) Provide the direction of required changes;
+iii) Indicate priority focus areas for interventions; and
+iv) Establish realistic and fact-based intervention options for addressing the
+environmental challenges.
+The NEMPSI covers all regions of the Mainland Tanzania and zooms-in at a local scale and
+ecosystem level. It addresses environmental challenges identified by the National Environment
+Policy (2021) and other relevant national policies. It has identified a total of twelve (12) key
+environmental challenges facing the country including land degradation; deterioration of water
+sources; impacts of climate change; environmental pollution; deforestation and forest
+degradation; loss of wildlife habitat and biodiversity; deterioration of coastal and marine
+ecosystem; wetland deterioration; inadequate waste management; urban environmental
+challenges; proliferation of invasive species; and inadequate environmental governance.
+With reference to land degradation, it is revealed that the extent of land degradation has
+increased from 42% in 1980 to 80% (whereby 46% is moderate and 34% is highly degraded) in
+2018. The highly degraded areas are found in Tabora, Dodoma, Singida, Shinyanga, Lindi,
+Pwani Simiyu, Manyara, Arusha, and Ruvuma regions while the moderately degraded areas
+include Iringa, Songwe, Katavi, Mara, Mwanza, Tanga and Morogoro.
+4.2.3 Voluntary National Land Degradation Neutrality (LDN) Targets
+The concept of Land Degradation Neutrality (LDN) emerged from the United Nations
+Conference on Sustainable Development (Rio+20) in 2012 which envisage to secure enough
+healthy and productive natural resources by adopting sustainable land management policies and
+practices to minimize current, and avoid future, land degradation; and restoring degraded and
+39
+
+--- Page 47 ---
+abandoned lands. The LDN was also adopted as one of the Sustainable Development Goals
+(SDGs) - (Goal 15.3). The objective of LDN is to maintain the amount of healthy and productive
+land resources over time in line with national sustainable development priorities through
+Sustainable Land Management (SLM) practices and ecosystem restoration.
+Tanzania participated in the Land Degradation Neutrality (LDN) Targets Setting Programme in
+2018, supported by the UNCCD, which aimed to identify the LDN baseline and define voluntary
+national LDN targets so as to be able to evaluate the effectiveness of the actions taken to address
+problems of land degradation towards achieving land degradation neutrality. The voluntary LDN
+targets set are presented in Table 4 and 5.
+Table 4:Voluntary land degradation neutrality target(s)
+Target Year
+1. Restore 11,011,950 ha of forests through sustainable forest management 2030
+2. Prevent and avoid decline of land productivity of forests on 2,640,600 ha 2030
+3. Improve land productivity of shrub and grassland on 1,714,500 ha 2030
+4. Improve land productivity of croplands on 8,462,500.5 ha 2030
+5. Improve land productivity of wetlands on 361,275ha 2030
+6. Increase soil organic carbon in cropland to 54.5 tons/ha 2030
+7. Reduce soil erosion (loss of top soils) by 19tons/ha 2030
+Table 5: Additional targets relevant to Strategic Objective 1
+Target Year
+1. 60 percent reduction of charcoal Consumption in urban area 2030
+2. 100 million tree planted country wide 2030
+3. Access to clean and safe drinking water in rural areas improved from 72 percent to 85 2030
+percent
+4. Village Land Use Plans increased to 30 percent 2030
+5. Rural Population with Access to clean water increased to 90 percent 2030
+6. Increased tree seed orchards from 160 ha to 1,000 ha 2030
+7. Improved and increased botanical gardens from 8 to 15 2029
+8. Non-wood forest products species planted for commercial production increased from 0 to 20 2029
+9. Restore 5.2 million ha of degraded forest landscapes 2030
+10. Increased area of commercial forest plantations to 1,850,000 ha 2030
+11. Increased number of large projects approved and complying with EIA and Audit Regulations 2030
+12. Increase Number of Nature Reserves from 17 to 35 in order to increase forest Cover 2030
+4.3 Synergies
+The implementation of the NAP will involve joint planning and programming for the
+implementation of the Rio Conventions (the United Nations Framework Convention on Climate
+Change; the Convention on Biological Diversity; and the United Nations Convention to Combat
+Desertification) and the 2030 Agenda on Sustainable Development. Efforts will be made to link
+climate change adaptation and mitigation initiatives with the underlying causes of DLDD, in
+addition to linking the NAP with the need for institutional capacity development at all levels. In
+40
+
+--- Page 48 ---
+this context, the implementation of the NAP would adopt holistic strategies that focus on
+improved productivity of land, rehabilitation, conservation and sustainable management of land
+resources, contributing to improved living conditions of communities.
+4.4 The Action Plan
+Table 6 presents the Action Plan to Combat Desertification indicating priority activities that will
+be implemented for the period from 2023 to 2030. The Action Plan also includes targets,
+indicators, indicative budget, timeframe, means of verification, and responsible institution.
+41
+
+--- Page 49 ---
+Table 6: The Action Plan
+Indicative Means of
+Budget Verification Responsible
+Priority Actions Targets Indicators Timeframe
+(TZS Institutions
+billion)
+Specific objective 1: To improve the condition of affected and likely to be affected ecosystems, combat desertification and land degradation,
+promote sustainable land management and contribute to land degradation neutrality by 2030
+1.1 Restore highly degraded 70 percent Proportion of agricultural 50 2023-2030 Monitoring LGAs, Ministry
+areas and enhance land area restored in reports responsible for Lands,
+Sustainable Land seriously degraded Livestock, Water,
+Management (SLM) in landscapes of Great Agriculture, Minerals,
+moderately and low Ruaha River, Wami-Ruvu and Natural Resources;
+degraded areas River sub-basins, NLUPC; TFS;
+Uluguru Mountains and TANAPA; Research and
+Eastern Watershed of Academic Institutions,
+Lake Victoria private sector, Ministry
+50 percent Proportion of area of the 30 2023-2030 Monitoring of Agriculture, Irrigation,
+other landscapes (non- reports Natural Resources and
+agriculture and grazing) Livestock Zanzibar,
+in the degradation Lands Commission,
+hotspots (Dodoma, Ministry of Water,
+Singida, Tabora, Energy and Minerals
+Shinyanga, Pwani and Zanzibar.
+Manyara and Zanzibar)
+restored through
+vegetation regeneration,
+afforestation, and gully
+rehabilitation
+50 percent Proportion of area of 30 2023-2030 Monitoring
+42
+
+--- Page 50 ---
+Indicative Means of
+Budget Verification Responsible
+Priority Actions Targets Indicators Timeframe
+(TZS Institutions
+billion)
+degraded mountain Reports,
+ecosystems, primarily by Research
+soil erosion, which are reports
+important catchment
+areas restored through
+Soil conservation,
+agroforestry and best
+agricultural practices
+50 percent Proportion of area 50 2023-2030 Monitoring
+restored in moderately Reports,
+degraded areas of Research
+Pangani Basin, Reports
+western watershed of
+Lake Victoria, Kigoma,
+Katavi, Njombe, Iringa,
+Kilimanjaro, Manyara
+and Morogoro through
+soil erosion control
+practices, Soil
+fertility management, and
+climate smart agriculture
+50 percent Proportion of area of 30 2023-2030 Monitoring
+degraded rangeland reports
+restored to reduce
+livestock feed/ water
+stress and livestock
+migration in the Lake
+Victoria and dryland
+zones of Mara, Mwanza,
+Simiyu, Shinyanga,
+43
+
+--- Page 51 ---
+Indicative Means of
+Budget Verification Responsible
+Priority Actions Targets Indicators Timeframe
+(TZS Institutions
+billion)
+Tabora, Singida,
+Manyara, Arusha and
+Dodoma regions and
+Zanzibar
+1.2 Restore degraded 25 percent Proportion of excavated 50 2023-2030 Monitoring Mining Commission,
+landscape due to small- pits by small-scale reports Ministry responsible for
+scale mining activities mining that are refilled Minerals, Lands,
+(Geita, Chunya, Nzega, and vegetated Livestock, Water,
+Mara, Singida, Shinyanga Agriculture, and Natural
+Katavi, Mwanza, Manyara, 50 percent Proportion of restored 40 2023-2030 Monitoring Resources; TFS;
+Tanga, Morogoro Regions landscape affected by reports Research and Academic
+and Zanzibar) small-scale mining Institutions, private
+sector and CSOs
+50 percent Proportion of the 0.5 2023-2030 Monitoring Ministry of Agriculture,
+primary mining licenses reports Irrigation, Natural
+that have developed and Resources and Livestock
+implemented plans to use Zanzibar, Ministry of
+plantation trees as Water, Energy and
+alternative supporting Minerals Zanzibar.
+poles in mining activities
+1.3 Restore highly deforested 4 Number of highly 12 2023-2030 Monitoring LGAs, and MNRT,
+regions to ensure deforested regions that Reports MAINL, MoW; VPO;
+maximum provision of have developed and TFS: private sector; and
+ecosystem services implemented forest CSOs Ministry of
+(Tabora, Shinyanga, conservation programmes Agriculture, Irrigation,
+Kigoma, Katavi, and projects Natural Resources and
+Micheweni, Chake-chake, Livestock Zanzibar,
+North ‘A’, North ‘B’ and
+Central Districts in
+Zanzibar)
+44
+
+--- Page 52 ---
+Indicative Means of
+Budget Verification Responsible
+Priority Actions Targets Indicators Timeframe
+(TZS Institutions
+billion)
+By June Programmes for forest 5 2023-2030 Monitoring LGAs, VPO, and
+2030 fire management in forest reports MNRT; TFS; private
+areas strengthened and sector; and CSOs
+implemented Ministry of Agriculture,
+Irrigation, Natural
+Resources and Livestock
+Zanzibar,
+1.5 million Number of trees planted 20 2023-2030 Monitoring
+trees by each district annually reports
+annually
+By June Programmes to access 20 2023-2030 Monitoring
+2030 carbon credit market reports
+through awareness
+creation and capacity
+building developed and
+implemented
+1.4 Develop and implement 50 percent Proportion of households, 1 2023-2030 Monitoring Ministry responsible for
+programmes for up- institutions and charcoal Reports, Energy, VPO, REA,
+scaling use of alternative producers in highly Household TPDC, NDC, Private
+sources of energy for deforested areas that use survey Sector, Research and
+domestic cooking and energy efficient reports Academic Institutions
+industrial use technologies (cooking CSOs and
+stoves and charcoal kiln) Ministry of Agriculture,
+Irrigation, Natural
+Resources and Livestock
+Zanzibar.
+By June Establishment of 100 2023-2030 Monitoring Ministry of Agriculture,
+2030 infrastructure to support Reports, Irrigation, Natural
+supply and accessibility Household Resources and Livestock
+45
+
+--- Page 53 ---
+Indicative Means of
+Budget Verification Responsible
+Priority Actions Targets Indicators Timeframe
+(TZS Institutions
+billion)
+of natural gas for uses in survey Zanzibar
+households and industries reports
+promoted
+By June Cultivation of fast- 1 2023-2030 Monitoring Ministry of Agriculture,
+2030 growing tree species Reports, Irrigation, Natural
+suitable for charcoal and Household Resources and Livestock
+commercial firewood survey Zanzibar
+production promoted reports
+By June Awareness programme 5 2023-2030 Monitoring
+2030 on targeted behavioral Reports,
+change towards use of Household
+charcoal and firewood survey
+developed and reports
+implemented
+1.5 Develop and implement 50 percent Proportion of remaining 85 2023-2030 Monitoring Ministry of Lands,
+sustainable village land 9,762 villages without Reports LGAs; NLUPC; CSOs
+use plans and Community land-use plans to reduce Ministry of Agriculture,
+Forest Management competition and conflict Irrigation, Natural
+Agreement (COFMA) over natural resources. Resources and Livestock
+Zanzibar, Zanzibar
+Commission of lands
+1.6 Prepare and update Prepared by National Atlas of Land 1 2023-2030 Annual VPO, NBS, PO-RALG,
+regularly National Atlas June 2025 Degradation in place Reports NCMC, Academia
+of Land Degradation and updated Commission for Lands,
+depicting land use, by 2030 Ministry of Water,
+process of degradation Energy and Minerals
+and severity level Zanzibar
+46
+
+--- Page 54 ---
+Indicative Means of
+Budget Verification Responsible
+Priority Actions Targets Indicators Timeframe
+(TZS Institutions
+billion)
+1.7 Review and disseminate a By June Reviewed compendium 0.5 2023-2025 Annual VPO, PO-RALG;
+compendium of 2025 of best practices in place Reports Ministry responsible for
+indigenous knowledge, Natural resources, Lands,
+best practices, appropriate Education, Water,
+technologies and success Fisheries, Agriculture;
+stories on SLM. TMA, CSOs; Academia;
+and Media, Ministry of
+Agriculture, Irrigation,
+Natural Resources and
+Livestock Zanzibar,
+Zanzibar Commission
+for Lands
+1.8 Enforce environmental 6,000 Number of development 1 2023-2030 Annual VPO, NEMC, PO-
+compliance in projects that comply to Reports RALG, LGAs, Ministry
+development activities SEA and EIA regulations responsible for: Works,
+that pose land Minerals, Energy,
+degradation risks (road Industry; TANROADS,
+construction, mining, TARURA, Mining
+urban development, Commission, and private
+waste management) sector FVPO
+Ministry of Water,
+Energy and Minerals
+Zanzibar
+Sub-total (1) 532
+Specific objective 2: To improve the living conditions of affected and likely to be affected populations by 2030
+2.1 Conserve, protect and By June Plans for restoration and 5 2023-2030 Monitoring Ministry responsible for
+manage water sources in a 2030 management of land reports Water, Agriculture,
+sustainable manner cover in water sources Livestock; Water Basin
+(Priority rivers include through tree planting and Boards; UWSSSAs;
+Kagera, Mara, Ruaha natural regeneration RUWASA; LGAs;
+47
+
+--- Page 55 ---
+Indicative Means of
+Budget Verification Responsible
+Priority Actions Targets Indicators Timeframe
+(TZS Institutions
+billion)
+Mkuu, Momba, Lufurio, developed and NEMC; VPO;
+Wami and Ruvu Rivers; implemented. Academia; CSOs and
+water basins of Lake
+Victoria, Lake Ministry of Water,
+Tanganyika, Lake Nyasa, Energy and Minerals
+Lake Rukwa; and Zanzibar
+wetlands of Mara,
+Malagarasi Malagarasi-
+Muyovosi
+Water catchment areas in
+Zanzibar
+By June Program to promote 10 2023-2030 Monitoring
+2030 sustainable livestock reports
+keeping including
+destocking, rangeland
+management and access
+to water for livestock
+developed and
+implemented
+By June Sustainable agriculture 5 2023-2030 Monitoring
+2030 through the adoption of reports
+best agricultural
+practices, conservation
+agriculture and climate-
+smart agriculture
+promoted
+80 percent Proportion of water 20 2023-2030 Annual
+48
+
+--- Page 56 ---
+Indicative Means of
+Budget Verification Responsible
+Priority Actions Targets Indicators Timeframe
+(TZS Institutions
+billion)
+sources identified and Reports,
+conserved in DLDD Monitoring
+affected areas Reports
+2.2 Promote alternative 50 percent Proportion of affected 50 2023-2030 Monitoring LGAs, PO-RALG,
+livelihoods of affected population involved in Reports Ministry responsible for
+communities in DLDD alternative livelihood Community
+affected areas activities in highly Development, Natural
+degraded Regions Resources, Energy,
+(Tabora, Dodoma, Minerals, Agriculture,
+Shinyanga, Water, CSOs and
+Singida, Pwani and Ministry of Agriculture,
+Manyara) and Irrigation, Natural
+ecologically important Resources and Livestock
+Ecosystems in Unguja Zanzibar,
+and Pemba
+2.3 Improve infrastructure in 70 percent Proportion of livestock 100 2023-2030 Monitoring Ministry responsible for
+the areas affected by, or keepers with access to Reports Livestock, Minerals
+prone to DLDD livestock infrastructures Agriculture, Natural
+in highly degraded Resources, Land,
+Regions (Tabora, Disaster Management
+Dodoma, Shinyanga, and Fisheries, LGAs
+Singida, Pwani Manyara, Ministry of Agriculture,
+Unguja and Pemba Irrigation, Natural
+ecologically important Resources and Livestock
+Ecosystems
+50 percent Proportion of farmers 500 2023-2030 Monitoring Ministry responsible for
+with access to irrigation Reports, Agriculture, Water; NIC;
+49
+
+--- Page 57 ---
+Indicative Means of
+Budget Verification Responsible
+Priority Actions Targets Indicators Timeframe
+(TZS Institutions
+billion)
+infrastructures in highly Annual PO-RALG, LGAs
+degraded Regions Report
+Sub-total (2) 690
+Specific objective 3: To mitigate, adapt to, and manage the effects of drought in order to enhance resilience of vulnerable populations and
+ecosystems by 2030
+3.1 Prepare and implement By June National Drought 0.5 2023-2025 Annual PMO-Disaster
+National Drought 2025 Management Plan in reports Management; TMA;
+Management Plan place VPO, Ministry
+responsible for
+80 percent Proportion of 10 2023-2030 Annual Agriculture, Livestock
+interventions from reports, and Water; CSOs
+Drought Management Monitoring
+Plan implemented reports
+3.2 Promote use of climate 50 percent Proportion of farmers 5 2023-2030 Annual Ministry responsible for
+smart agriculture (CSA) practicing CSA in reports Agriculture, Livestock,
+practices and technologies drought affected areas Land, Natural resources
+Fisheries and Water;
+Research and academic
+institutions; LGAs;
+District Authorities
+private sector; CSOs
+Ministry of Agriculture,
+Irrigation, Natural
+Resources and Livestock
+Zanzibar, LGA Zanzibar
+50
+
+--- Page 58 ---
+Indicative Means of
+Budget Verification Responsible
+Priority Actions Targets Indicators Timeframe
+(TZS Institutions
+billion)
+3.3 Develop and 80 percent Proportion of population 100 2023-2030 Monitoring PMO-Disaster
+operationalize safety-net with access to safety-net reports, Management; VPO,
+programmes. programmes in DLDD survey Ministry responsible for
+affected areas reports Agriculture, Natural
+resources Health, Water;
+PO-RALG, private
+sector, CSOs
+Ministry of Agriculture,
+Irrigation, Natural
+Resources and Livestock
+Zanzibar.
+3.4 Promote mainstreaming 100 percent Proportion of LGAs that 20 2023-2030 Annual PMO-DMD, PO-RALG,
+drought and disaster risk have mainstreamed Reports, VPO, LGAs, District
+reduction strategies into drought and disaster risk Monitoring Authorities.
+LGA plans and budgets strategies Reports
+3.5 Promote and invest on 1,850,000 Hectares of commercial 15 2023-2030 Annual Ministry responsible for
+commercial Forest ha forest plantations Reports, Natural Resources; TFS,
+plantations Monitoring VPO, Research and
+reports academic institutions,
+private sector, CSOs
+Ministry of Agriculture,
+Irrigation, Natural
+Resources and Livestock
+Zanzibar.
+3.6 Promote and invest on From Area under irrigation in 50 2023-2030 Annual National Irrigation
+sustainable irrigation 694,715 to hectares Reports, Commission; Ministry
+agriculture 1,000,000 Monitoring responsible for
+51
+
+--- Page 59 ---
+Indicative Means of
+Budget Verification Responsible
+Priority Actions Targets Indicators Timeframe
+(TZS Institutions
+billion)
+ha Reports Agriculture, Water and
+Livestock; LGAs; private
+sector
+Ministry of Agriculture,
+Irrigation, Natural
+Resources and
+Livestock.
+3.7 Establishment of 80 percent Proportion of highly 10 2023-2030 Annual TMA, Ministry
+Automated agro- vulnerable agricultural reports, responsible for
+meteorological Stations areas (districts) with monitoring Agriculture, Water,
+in Highly Vulnerable installed Automated reports Disaster Management,
+Agricultural Areas Agro-meteorological Livestock; LGAs
+Stations. Ministry of Agriculture,
+Irrigation, Natural
+Resources and Livestock
+Zanzibar.
+Sub-total (3) 210.5
+Specific objective 4: To generate national and global environmental benefits through effective implementation of the UNCCD by 2030
+4.1 Promote mainstreaming By June Environmental issues 2 2023-2030 Annual Ministry responsible for
+of environmental issues in 2030 mainstreamed in land use reports and Lands, Agriculture,
+land use planning and planning Monitoring Livestock, Natural
+management across reports Resources, Water;
+sectors NLUPC; Research and
+Academic Institutions;
+LGAs; VPO Ministry of
+Agriculture, Irrigation,
+Natural Resources and
+Livestock
+FVPO. COLA
+52
+
+--- Page 60 ---
+Indicative Means of
+Budget Verification Responsible
+Priority Actions Targets Indicators Timeframe
+(TZS Institutions
+billion)
+4.2 Undertake periodic By 2030 Periodic Assessment 3 2023-2030 Annual VPO, Ministry
+assessment on economics Report on economics of reports responsible for Finance,
+of land degradation land degradation in place. Natural Resources, Land,
+Water, Agriculture.
+Livestock, Fisheries;
+Research and Academic
+Institutions; NBS;
+COSTECH; LGAs’
+Ministry of Agriculture,
+Irrigation, Natural
+Resources and Livestock
+Zanzibar,
+Ministry of Water,
+Energy and Minerals
+Zanzibar
+4.3 Prepare and implement Prepared by National Awareness 0.5 2023-2030 Annual VPO, PO-RALG; LGAs
+National Awareness 2026 and Campaign in place Reports Ministry of Agriculture,
+Campaign on DLDD implemente Irrigation, Natural
+d by 2030 Resources and Livestock
+60 percent Level of community 5 2023-2030 Monitoring VPO, LGAs, PMO-
+awareness on land Report, RALG Ministry
+degradation in DLDD Survey responsible for Minerals,
+affected areas Reports Agriculture, Livestock,
+Fisheries, Water,
+Forestry, Energy,
+Infrastructure,
+Education; Media; CSOs
+53
+
+--- Page 61 ---
+Indicative Means of
+Budget Verification Responsible
+Priority Actions Targets Indicators Timeframe
+(TZS Institutions
+billion)
+Ministry of Agriculture,
+Irrigation, Natural
+Resources and Livestock
+4.4 Promote sustainable 20 Number of sustainable 100 2023-2030 Annual PO-RALG, Ministry
+management on energy initiatives implemented in Report, responsible for Lands,
+sources, waste, sand Cities and Municipalities Monitoring LGAs
+mining, urban greening Reports Ministry of Agriculture,
+and urban planning in Irrigation, Natural
+major Cities and Resources and Livestock
+Municipalities
+Develop and maintain Developed Database on DLDD in 1 2023-2030 Annual VPO, NBS, PO-RALG,
+database on DLDD issues by June place Reports Ministry responsible for:
+to support the preparation 2025 and Agriculture, Water,
+of National Report on maintained Minerals, Livestock and
+Implementation of the by 2030 Finance; CSOs;
+UNCCD Academia, Ministry of
+Agriculture, Irrigation,
+Natural Resources and
+Livestock
+Sub-total (4) 111.5
+Specific objective 5: To mobilize substantial and additional financial and non-financial resources to support the implementation of the Convention
+by building effective partnerships at global and national level by 2030
+5.1 Review and implement Reviewed Revised Integrated 0.5 2023-2026 Monitoring VPO, Ministry
+Integrated Financing by June Financial Strategy and Report responsible for Finance;
+Strategy and Investment 2026 Investment Framework in Sector Ministries;
+Framework (2014), place Research and academic
+including proposals for institutions; CSOs;
+projects and activities for private sector
+resource mobilization for
+NAP implementation, and 2 Number of programme 0.5 2023-2030 Annual VPO, Ministry
+54
+
+--- Page 62 ---
+Indicative Means of
+Budget Verification Responsible
+Priority Actions Targets Indicators Timeframe
+(TZS Institutions
+billion)
+overcoming the barriers to programme proposals and activities Report responsible for Finance;
+its implementation. proposals for resource mobilization Sector Ministries, private
+prepared by prepared and sector, CSOs, FVPO
+2026 and implemented
+implemente
+d by 2030
+50 percent Proportion of 1 2023-2030 Annual VPO, Ministry
+interventions from Report responsible for Finance;
+Integrated Financial Sector Ministries,
+Strategy and Investment NEMC; private sector,
+Framework implemented CSOs
+5.2 Promote mainstreaming 90 percent Proportion of SLM 5 2023-2030 Annual Ministry responsible for
+of SLM issues into relevant sectors Report Agriculture, Livestock,
+sectoral policies, (Agriculture, Water and Lands, Fisheries,
+strategies and plans Land Sectors) that have Minerals, energy,
+mainstreamed SLM agriculture, Natural
+issues in their policies Resources and Water;
+and plans PO-RALG; LGAs; VPO,
+FVPO. Ministry of
+Agriculture, Irrigation,
+Natural Resources and
+Livestock
+55
+
+--- Page 63 ---
+Indicative Means of
+Budget Verification Responsible
+Priority Actions Targets Indicators Timeframe
+(TZS Institutions
+billion)
+5.3 Promote economic By June Conduct assessment to 0.5 2023-2025 Annual VPO, Ministry
+incentives that encourage 2025 identify investment Report responsible for Finance;
+investments in restoration opportunities in TPSF FVPO, Ministry of
+of degraded land sustainable land Water, Energy and
+management (SLM) Minerals Zanzibar
+By June Establish and promote 0.5 2023-2025 Annual VPO, Ministry
+2025 Business models for Report responsible for Finance;
+attracting investment in TPSF
+SLM activities in
+degraded landscapes
+By June Strengthen capacity for 0.5 2023-2026 Annual VPO, Ministry
+2026 access to finance for land Report responsible for Finance;
+management TPSF
+5.4 Engage private sector, 20 Number of projects and 0.5 2023-2030 Annual VPO, Ministry
+CSOs and other programmes addressing Report responsible for Finance;
+stakeholders in DLDD implemented by TPSF
+mobilization of resources Private Sector and CSOs
+for addressing DLDD
+10 billion Amount of funding 0.1 2023-2030 Annual VPO, Ministry
+per year resources mobilized by Report responsible for Finance,
+CSO and the Private Community
+Sector for addressing Development, Home
+DLDD Affairs; PO-RALG;
+LGAs; TPSF
+56
+
+--- Page 64 ---
+Indicative Means of
+Budget Verification Responsible
+Priority Actions Targets Indicators Timeframe
+(TZS Institutions
+billion)
+5.5 Engage development 10 Number of Development 0.5 2023-2030 Annual VPO, FVPO
+partners, international and Partners cooperating with Report
+national financing Tanzania in addressing
+institutions in financing DLDD issues
+DLDD interventions
+5 projects Number of interventions, 0.5 2023-2030 Annual VPO, FVPO
+projects or programmes Report
+on DLDD funded
+140 billion Amount of fund resources 0.1 2023-2030 Annual VPO, Ministry
+per year mobilized by Report responsible for Finance;
+international and national private sector; CSOs
+financial institutions or
+addressing DLDD issues
+Sub-total (5) 10.2
+GRAND TOTAL 1,554.2
+57
+
+--- Page 65 ---
+CHAPTER FIVE
+IMPLEMENTATION ARRANGEMENT
+5.1 Institutional Arrangement
+a) Vice President's Office and the first vice Presidents of the Revolutionary
+Government of Zanzibar
+The overall coordination of the implementation of the NAP will be the responsibility of Vice
+President’s Office (VPO) in Mainland, and the First Vice President Office (FVPO) of the
+Revolutionary Government of Zanzibar (RGZ) as elaborate in Figure 1 (URT, 2014 a). The VPO
+will also be responsible for coordinating preparation of national DLDD related implementation
+frameworks, strategies, plans and guidelines. Further, the VPO will be responsible for
+coordinating and overseeing monitoring and evaluation of the overall implementation of the
+NAP.
+b) Government Ministries, Departments and Agencies
+The general implementation of the strategies at sectoral level will be the responsibility of the
+relevant Government Departments and Agencies. In addition, MDAs will collaborate and
+cooperate with other state and non-state actors in preparation and implementation of projects,
+programmes, action plans and strategic interventions relevant to their respective sectors based on
+the strategic interventions identified in the NAP.
+Each MDA will prepare sector specific action plans indicating targets to be achieved; time frame
+for implementing the interventions in short, medium and long term; and outcome indicators. The
+plans will subsequently be integrated into the Government budgets through the Medium-Term
+Expenditure Frameworks (MTEF) for implementation.
+Broad and complex interventions may be addressed by preparing and implementing stand-alone
+projects or programmes.
+Sectoral ministries and LGAs will be reporting the implementation status to VPO on an annual
+basis whereby the VPO will ensure the availability of such information to the public.
+c) President’s Office - Regional Administration and Local Government (PO-
+RALG)
+The PO-RALG will coordinate and work closely with Local Government Authorities
+(LGAs) in collaboration with Sector Ministries to implement strategic interventions at local
+level.
+58
+
+--- Page 66 ---
+d) National Bureau of Statistics (NBS)
+The National Bureau of Statistics (NBS) will have the responsibility to keep and update database
+on DLDD, climate change and biodiversity whereas the Prime Minister’s Office (PMO) will
+continue to be a coordinate management of all disasters in the country, including those related to
+DLDD and climate change.
+e) Tanzania Meteorological Authority (TMA)
+Furthermore, Tanzania Meteorological Authority (TMA) is responsible for the provision of
+meteorological services, weather forecasts, climate services and warnings and advisories
+information for the country.
+f) Civil Society Organizations (CSOs)
+CSOs are encouraged to cooperate with the Government in implementing the NAP through
+various projects and/or programmes. The private sector is encouraged to implement innovative
+projects to address DLDD.
+g) Development Partners
+Development partners either bilaterally or through multilateral arrangements are encouraged to
+support the government in implementing the NAP by providing technical and financial support,
+as well as facilitating resource mobilization. They are also encouraged to provide capacity
+building and facilitate technology development and transfer to various stakeholders to contribute
+towards implementation of the NAP.
+59
+
+--- Page 67 ---
+60
+N a
+C
+V P O /F V P O
+( S ta te M in is te r s R e s p o n s ib le f o r E n v ir o n m e n t)
+P e r m a n e n t S e c r e t a r ie s V P O /F V P O
+D iv is io n o f E n v ir o n m e n t ( D o E )
+( D ir e c to r s o f E n v ir o n m e n t V P O /F V P O )
+N a t io n a l E n v ir o n m e n t a l A d v is o r y tio n a l E n v ir o n m e n ta l M a n a g e m e n t
+c o m m it t e e ( N E A C ) C o u n c il (N E M C ) & Z a n z ib a r
+E n v ir o n m n ta l M a n a g e m e n t
+A u th o r ity (Z E M A )
+( D ir e c to r G e n e r a l)
+S e c t o r M in is t r y E n v ir o n m e n t a l U n it s
+( S e c to r E n v ir o n m e n ta l c o o r d in a to r s )
+R e g io n a l s e c r e t a r ia t s & N E M C /Z E M A
+( E n v ir o n m e n ta l m a n a g e m e n t E x p e r ts )
+M u n ic ip a l C o u n c il T o w n C o u n c il it y c o u n c il D is t r ic t C o u n c il
+E n v ir o n n e m e n ta l E n v ir o n m e n ta l E n v ir o n m e n ta l E n v ir o n m e n ta l
+m a n a g e m e n t m a n a g e m e n t M a n a g e m e n t m a n a g e m e n t
+o f f ic e & o f f ic e r & O f f ic e r & o f f ic e r
+C o m m itte e c o m m itte e C o m m itte e & c o m m itte e
+W a r d s /S h e h ia
+E n v ir o n m e n ta l m a n a g e m e n t o f f ic e r s & c o m m itte e s
+V illa g e s /S h e h ia S t r e e t s
+E n v ir o n n e m e n ta l M a n a g e m e n t O f f ic ie r E n v ir o n m e n ta l M a n a g e m e n t O f f ic e r &
+C o m m itte e s C o m m itte e s
+S u b - v illa g e
+E n v ir o n m e n ta l M a n a g e m e n t O f f ic e r
+& C o m m itte e s
+F ig u r e 1 : I n s t it u t io n s a n d a r r a n g e m e n t s f o r e n v ir o n m e n t a l m a n a g e m e n t in T a n z a n ia
+&
+5.2 Resource Mobilization
+Tanzania will largely depend on financial support from international community that are
+financing DLDD include the Global Environment Facility (GEF), Green Climate Fund (GCF),
+Adaptation Fund, LDCF and bilateral development partners. Domestic funding from the
+government budget, private sector, civil society organizations as well as individual contributions
+will complement this effort. However, an integrated approach and coordinated working system is
+
+--- Page 68 ---
+highly required to ensure that funds to address DLDD are used to achieve the objectives
+presented in this NAP.
+5.3 Monitoring, Review and Evaluation Plan
+5.3.1 Monitoring Plan
+Monitoring will involve continuous and systematic data collection, analysis, indicator and
+reporting frequencies, interpreting and reporting on the implementation of NAP. This will
+provide information to the Ministry Responsible for Environment and stakeholders on ongoing
+interventions, for the purpose of assessing the extent of progress and achievements made over
+the objectives and the use of allocated funds.
+For effective conducting monitoring activities, the Ministry responsible for Environment, in
+collaboration with Sector ministries and LGAs, will prepare a joint comprehensive annual
+monitoring plan. For the sake of transparency and common understanding, the plan will be
+approved by the Permanent Secretaries from sector ministries and LGAs implementing the NAP.
+For effective implementation of the joint monitoring plan, the VPO’s Permanent Secretary in
+consultation with Sector Permanent Secretaries will compose a team of experts. The team shall
+be required to prepare and submit a monitoring report to the Permanent Secretary of the Ministry
+responsible for Environment.
+5.3.2 Performance Review Meetings
+Performance review meetings will be conducted by the Ministry responsible for Environment in
+collaboration with sector ministries, LGAs, Department and Agencies to track the progress on
+milestones developed and targets. Table 7 describes how review meetings will be conducted.
+Table 7: Review Meetings
+No. Type of meeting Frequency of the Chairperson Participants
+meeting
+1. Quarterly Review Quarterly Director of Directors in sector
+meetings Environment ministries, Executive
+Directors of Departments
+and Agencies
+2. Mid-Year Review Twice per Year Permanent Permanent Secretaries
+Meetings Secretary, from Sector Ministries
+VPO
+3. Annual Review Once per Year Minister of Ministers from Sector
+Meetings Environment Ministries
+61
+
+--- Page 69 ---
+5.3.3 Performance Evaluation Plan
+Performance evaluation will be a periodic assessment to identify the effectiveness and efficiency
+of performance of the objectives. The evaluation process will concentrate on outcomes. During
+the seven years of implementation, two evaluations will be conducted mid (3.5 years) and final
+evaluation (7 years). These evaluations will assess progress towards attainment of NAP specific
+goals and targets. Challenges encountered during the implementation will be identified and
+measures to address them will be developed accordingly. The final evaluation will be conducted
+to obtain evidence as to whether the interventions and outputs have led to the achievement of the
+outcomes as envisioned in the NAP.
+5.3.4 Performance Reporting Plan
+This will involve reporting on the performance incompliance to the progress towards attainment
+of NAP. Goals and Targets or implementation of targets against expenditures focusing on the
+impacts to stakeholders and community at large. The Sector Ministries and Local Government
+Authorities shall be required to prepare quarterly progressive report on the performance of the
+NAP implemented on their areas of jurisdictions. The reports shall be submitted to the
+Permanents Secretary of the Ministry Responsible for Environment. For the case of LGAs, the
+report shall be submitted thorough the Ministry responsible for LGAs.
+62

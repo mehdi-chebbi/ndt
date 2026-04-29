@@ -1,0 +1,2596 @@
+--- Page 1 ---
+United Nations Convention to Combat Desertification
+Performance review and assessment of implementation system
+Seventh reporting process
+Report from
+Mali
+Le présent rapport a été soumis par le gouvernement de Mali à la Convention des Nations Unies sur la lutte contre la
+désertification (CNULCD).
+Les appellations employées dans ce rapport et la présentation des données qui y figurent n'impliquent de la part de la
+Convention sur la lutte contre la désertification aucune prise de position quant au statut juridique des pays, territoires, villes ou
+zones, ou de leurs autorités, ni quant au tracé de leurs frontières ou limites.
+15 mars 2023
+
+--- Page 2 ---
+Contents
+1. SO: Strategic objectives
+A. SO-1: Pour améliorer l'état des écosystèmes touchés, combattre la désertification / dégradation des terres,
+promouvoir la gestion durable des terres et contribuer à la neutralité de la dégradation des terres.
+SO1-1 Évolution de la structure du couvert terrestre
+SO1-2 Évolution de la productivité ou du fonctionnement des terres
+SO1-3 Évolution des stocks de carbone dans le sol et en surface
+SO1-4 Proportion de terres dégradées par rapport à la superficie totale des terres (indicateur 15.3.1
+des objectifs de développement durable)
+SO1 Cibles Volontaires
+B. SO-2: Améliorer les conditions de vie des populations touchées.
+SO2-1 Évolution de la population vivant sous le seuil de pauvreté relatif et/ou des inégalités de
+revenus dans les zones touchées
+SO2-2 Évolution de l’accès à l’eau potable dans les zones touchées
+SO2-3 Évolution de la proportion de la population exposée à la dégradation des terres, ventilée par
+sexe
+SO2 Cibles Volontaires
+C. SO-3: Pour atténuer, à s'y adapter et de gérer les effets de la sécheresse afin d'améliorer la résilience des
+populations et des écosystèmes vulnérables.
+SO 3-1 Évolution de la proportion de terres frappées par la sécheresse au regard de la superficie totale
+SO 3-2 Évolution de la proportion de la population exposée à la sécheresse
+SO 3-3 Évolution du degré de vulnérabilité à la sécheresse
+SO3 Cibles Volontaires
+D. SO-4 : Générer des avantages environnementaux mondiaux grâce à la mise en œuvre effective de la
+Convention des Nations Unies sur la lutte contre la désertification.
+SO4-1 Évolution des stocks de carbone dans le sol et en surface
+SO4-2 Évolution de l’abondance et de la répartition de certaines espèces
+SO4-3 Proportion des sites importants pour la biodiversité terrestre et la biodiversité des eaux douces
+qui se trouvent dans des aires protégées (par type d’écosystème)
+SO4 Cibles Volontaires
+E. SO-5: Mobiliser les ressources financières et non financières importantes et supplémentaires pour appuyer la
+mise en œuvre de la Convention en établissant des partenariats efficaces au niveau mondial et national
+SO5-1 Ressources publiques bilatérales et multilatérales
+SO5-2 Ressources publiques nationales
+SO5-3 Ressources privées internationales et nationales
+SO5-4 Transfert de technologie
+SO5-5 Appui futur aux activités liées à la mise en œuvre de la Convention
+2. IF : Cadre de mise en œuvre
+A. Sources financières et non financières
+B. Politique et planification
+C. Agir sur le terrain
+3. Autres fichiers pour le rapport
+4. Templated Maps
+A. Land cover in the initial year of the baseline period
+B. Land cover in the baseline year
+C. Land cover in the latest reporting year
+D. Land cover change in the baseline period
+E. Land cover change in the reporting period
+F. Dégradation du couvert terrestre (Période de référence)
+G. Dégradation du couvert terrestre (Période considérée)
+H. Dynamiques de la productivité des terres (Période de référence)
+I. Dynamiques de la productivité des terres (Période considérée)
+J. Dégradation de la productivité des terres (Période de référence)
+K. Dégradation de la productivité des terres (Période considérée)
+L. Soil organic carbon stock in the initial year of the baseline period
+M. Soil organic carbon stock in the baseline year
+N. Soil organic carbon stock in the latest reporting year
+2 / 91
+
+--- Page 3 ---
+O. Change in soil organic carbon stock in the baseline period
+P. Change in soil organic carbon stock in the reporting period
+Q. Dégradation du carbone organique dans le sol (Période de référence)
+R. Dégradation du carbone organique dans le sol (Période considérée)
+S. Proportion of land that is degraded over total land area (SDG Indicator 15.3.1) in the baseline period
+T. Proportion of land that is degraded over total land area (SDG Indicator 15.3.1) in the reporting period
+U. Progress towards Land Degradation Neutrality (LDN) in the reporting period
+V. Total Population exposed to land degradation (baseline)
+W. Female Population exposed to land degradation (baseline)
+X. Male Population exposed to land degradation (baseline)
+Y. Total Population exposed to land degradation (reporting)
+Z. Female Population exposed to land degradation (reporting)
+AA. Male Population exposed to land degradation (reporting)
+AB. Drought hazard in first epoch of baseline period
+AC. Drought hazard in second epoch of baseline period
+AD. Drought hazard in third epoch of baseline period
+AE. Drought hazard in fourth epoch of baseline period
+AF. Drought hazard in the reporting period
+AG. Drought exposure in first epoch of baseline period
+AH. Drought exposure in second epoch of baseline period
+AI. Drought exposure in third epoch of baseline period
+AJ. Drought exposure in fourth epoch of baseline period
+AK. Drought exposure in the reporting period
+AL. Female drought exposure in the reporting period
+AM. Male drought exposure in the reporting period
+3 / 91
+
+--- Page 4 ---
+4 / 91
+
+--- Page 5 ---
+SO-1: Pour améliorer l'état des écosystèmes touchés, combattre la désertification / dégradation des terres, promouvoir la
+gestion durable des terres et contribuer à la neutralité de la dégradation des terres.
+SO1-1 Évolution de la structure du couvert terrestre
+Superficie
+SO1-1.T1 : Estimations nationales de la superficie totale des terres, de la superficie couverte par les masses
+d’eau et de la superficie totale du pays
+Année Superficie totale des terres (En km²) Masses d’eau (En km²) Superficie totale du pays (En km²) Observations
+2 001 1 248 823 3 911 1 252 734
+2 005 1 248 849 3 885 1 252 734
+2 010 1 248 947 3 787 1 252 734
+2 015 1 248 919 3 815 1 252 734
+2 019 1 248 933 3 801 1 252 734
+Légende du couvert terrestre et matrice de transition
+SO1-1.T2 : Processus de dégradation clefs
+Processus de dégradation Couvert terrestre initial Couvert terrestre final
+Expansion urbaine Zones couvertes d’arbres Surfaces artificielles
+Expansion urbaine Zones humides Surfaces artificielles
+Déboisement Zones couvertes d’arbres Terres cultivées
+Déboisement Zones couvertes d’arbres Prairies
+Inondations Zones couvertes d’arbres Masses d’eau
+Empiétement d’espèces ligneuses Zones couvertes d’arbres Prairies
+Les sept catégories de couvert terrestre définies par la Convention sont-elles suffisantes pour surveiller les principaux processus de dégradation dans
+votre pays ?
+Oui
+Non
+SO1-1.T4 : Matrice de transition du couvert terrestre au titre de la Convention
+Zones couvertes Terres Zones Surfaces Autres Masses
+Initiales/Finales Prairies
+d’arbres cultivées humides artificielles terres d’eau
+Zones couvertes
+0 - - - - - 0
+d’arbres
+Prairies + 0 + - - - 0
+Terres cultivées + - 0 - - - 0
+Zones humides - - - 0 - - 0
+Surfaces artificielles + + + + 0 + 0
+Autres terres + + + + - 0 0
+Masses d’eau 0 0 0 0 0 0 0
+Couvert terrestre
+SO1-1.T5 : Estimations nationales du couvert terrestre (en km²) pour la période de référence et la période
+considérée
+5 / 91
+
+--- Page 6 ---
+SO-1: Pour améliorer l'état des écosystèmes touchés, combattre la désertification / dégradation des terres, promouvoir la
+gestion durable des terres et contribuer à la neutralité de la dégradation des terres.
+Zones couvertes Terres Zones Surfaces Autres Masses Pas de
+Prairies
+d’arbres (En cultivées (En humides (En artificielles (En terres (En d’eau (En données (En
+(En km²)
+km²) km²) km²) km²) km²) km²) km²)
+2000 0 0 0 0 0 0 0
+2001 22 547 257 775 260 682 2 995 222 704 601 3 911
+2002 22 700 257 192 261 521 2 998 236 704 188 3 900
+2003 22 795 257 555 261 678 3 001 253 703 560 3 892
+2004 22 942 259 129 262 276 2 999 268 701 232 3 888
+2005 22 966 259 283 262 245 3 000 278 701 077 3 885
+2006 22 995 259 594 262 275 3 011 291 700 716 3 852
+2007 23 035 259 655 262 847 3 024 301 700 043 3 831
+2008 23 097 259 623 262 878 3 044 310 699 988 3 794
+2009 23 141 260 252 262 959 3 044 317 699 226 3 795
+2010 23 148 261 834 263 241 3 049 324 697 350 3 787
+2011 23 152 262 378 263 532 3 053 328 696 512 3 779
+2012 23 162 263 169 263 511 3 057 338 695 722 3 775
+2013 23 176 263 090 263 545 3 060 357 695 735 3 771
+2014 23 239 262 897 263 717 3 059 371 695 636 3 816
+2015 23 239 262 896 263 710 3 059 379 695 636 3 816
+2016 23 309 263 982 263 775 3 059 459 694 330 3 820
+2017 23 359 265 720 263 950 3 060 495 692 332 3 818
+2018 25 120 268 578 263 855 3 070 499 687 808 3 804
+2019 25 936 269 144 266 160 3 070 556 684 067 3 802
+2020 0 0 0 0 0 0 0
+Changements du couvert terrestre
+SO1-1.T6 : Estimations nationales des changements du couvert terrestre (en km²) pour la période de
+référence
+Zones
+Terres Zones Surfaces Autres Masses Total
+couvertes Prairies
+cultivées (En humides (En artificielles (En terres (En d’eau (En (En
+d’arbres (En (En km²)
+km²) km²) km²) km²) km²) km²)
+km²)
+Zones couvertes
+d’arbres (En 22 527 12 5 0 2 1 0 22 547
+km²)
+Prairies (En 257
+651 250 424 4 402 5 13 2 266 15
+km²) 776
+Terres cultivées 260
+46 1 204 259 256 8 140 3 26
+(En km²) 683
+Zones humides
+0 0 0 2 982 0 0 12 2 994
+(En km²)
+Total 23 238 262 896 263 710 3 059 379 695 636 3 815
+6 / 91
+
+--- Page 7 ---
+SO-1: Pour améliorer l'état des écosystèmes touchés, combattre la désertification / dégradation des terres, promouvoir la
+gestion durable des terres et contribuer à la neutralité de la dégradation des terres.
+Zones
+Terres Zones Surfaces Autres Masses Total
+couvertes Prairies
+cultivées (En humides (En artificielles (En terres (En d’eau (En (En
+d’arbres (En (En km²)
+km²) km²) km²) km²) km²) km²)
+km²)
+Surfaces
+artificielles (En 0 0 0 0 222 0 0 222
+km²)
+Autres terres 704
+0 11 209 21 0 0 693 362 8
+(En km²) 600
+Masses d’eau
+14 47 26 64 2 4 3 754 3 911
+(En km²)
+Total 23 238 262 896 263 710 3 059 379 695 636 3 815
+SO1-1.T7 : Estimations nationales des changements du couvert terrestre (en km²) pour la période considérée
+Zones Superficie
+Terres Zones Surfaces Autres Masses
+couvertes Prairies totale des
+cultivées humides artificielles terres d’eau (En
+d’arbres (En (En km²) terres (En
+(En km²) (En km²) (En km²) (En km²) km²)
+km²) km²)
+Zones
+couvertes
+23 218 9 11 0 1 0 0 23 239
+d’arbres (En
+km²)
+Prairies (En
+1 666 256 222 4 515 4 7 479 3 262 896
+km²)
+Terres
+cultivées (En 1 013 934 261 579 5 169 0 9 263 709
+km²)
+Zones
+humides (En 2 0 0 3 051 0 0 5 3 058
+km²)
+Surfaces
+artificielles (En 0 0 0 0 379 0 0 379
+km²)
+Autres terres
+36 11 977 34 0 0 683 588 0 695 635
+(En km²)
+Masses d’eau
+1 1 21 9 0 0 3 784 3 816
+(En km²)
+Total 25 936 269 143 266 160 3 069 556 684 067 3 801
+Dégradation du couvert terrestre
+SO1-1.T8 : Estimations nationales de dégradation du couvert terrestre (en km²) pour la période de référence
+Superficie (En Pourcentage de la superficie totale des terres (En
+km²) %)
+Superficie des terres dont le couvert s’est dégradé 3 659 0 ,3
+Superficie des terres dont le couvert terrestre n’est pas
+1 249 074 99 ,7
+dégradé
+Superficie sans données sur le couvert terrestre 0 0 ,0
+SO1-1.T9 : Estimations nationales de dégradation du couvert terrestre (en km²) pendant la période considérée
+Superficie (En km²) Pourcentage de la superficie totale des terres (En %)
+Superficie des terres dont le couvert s’est amélioré 19 241 1 ,5
+Superficie des terres dont le couvert terrestre est resté stable 1 231 870 98 ,3
+Superficie des terres dont le couvert s’est dégradé 1 622 0 ,1
+7 / 91
+
+--- Page 8 ---
+SO-1: Pour améliorer l'état des écosystèmes touchés, combattre la désertification / dégradation des terres, promouvoir la
+gestion durable des terres et contribuer à la neutralité de la dégradation des terres.
+Superficie (En km²) Pourcentage de la superficie totale des terres (En %)
+Superficie sans données sur le couvert terrestre 0 0 ,0
+Observations d’ordre général
+Bien vrai que le Mali soit un pays assez vaste, le retour des acteurs du terrain semble conclure qu'on assiste plutôt à l'aggravation du
+phénomène de dégradation des terres. Cela peut s'expliquer notamment par le contexte socio-politique difficile du pays depuis 2012 mais
+aussi par les effets néfastes des changements climatiques et la grande pression démographique sur les terres.
+8 / 91
+
+--- Page 9 ---
+SO-1: Pour améliorer l'état des écosystèmes touchés, combattre la désertification / dégradation des terres, promouvoir la
+gestion durable des terres et contribuer à la neutralité de la dégradation des terres.
+SO1-2 Évolution de la productivité ou du fonctionnement des terres
+Dynamique de la productivité des terres
+SO1-2.T1 : Estimations nationales de la dynamique de la productivité des terres (en km²) dans chaque
+catégorie de couvert terrestre pour la période de référence
+Dynamique de la productivité nette des terres (en km²) pour la période de référence
+Catégorie de couvert
+En baisse (En En baisse modérée Tendue (En Stable (En En hausse (En Pas de données
+terrestre
+km²) (En km²) km²) km²) km²) (En km²)
+Zones couvertes
+1 233 1 714 12 10 905 8 639 23
+d’arbres
+Prairies 9 494 19 666 772 145 846 74 504 142
+Terres cultivées 16 762 23 099 1 991 114 955 102 269 179
+Zones humides 103 105 146 955 1 601 72
+Surfaces artificielles 46 12 12 96 54 2
+Autres terres 3 444 1 462 2 233 669 086 17 084 53
+Masses d’eau 97 48 110 324 359 2 816
+SO1-2.T2 : Estimations nationales de la dynamique de la productivité des terres (en km²) dans chaque
+catégorie de couvert terrestre pour la période considérée
+Dynamique de la productivité nette des terres (en km²) pour la période considérée
+Catégorie de couvert
+En baisse (En En baisse modérée Tendue (En Stable (En En hausse (En Pas de données
+terrestre
+km²) (En km²) km²) km²) km²) (En km²)
+Zones couvertes
+2 707 4 309 14 11 062 4 819 24
+d’arbres
+Prairies 12 365 22 068 771 149 600 63 775 131
+Terres cultivées 24 407 32 436 1 902 128 969 71 174 173
+Zones humides 92 134 124 885 1 679 69
+Surfaces artificielles 93 16 12 120 34 3
+Autres terres 2 597 737 2 020 646 458 30 572 51
+Masses d’eau 93 67 103 365 304 2 795
+SO1-2.T3 : Estimations nationales de la dynamique de la productivité des terres pour les superficies
+converties en une nouvelle catégorie de couvert terrestre (en km²) pour la période de référence
+Conversion de terres Dynamique de la productivité nette des terres (en km²) pour la période de référence
+Variation nette de la En baisse En baisse Tendue (En Stable (En En hausse
+De En
+superficie (En km²) (En km²) modérée (En km²) km²) km²) (En km²)
+Autres
+Prairies 11 209 77 303 3 7 859 2 967
+terres
+Terres
+Prairies 4 402 395 475 2 1 478 2 051
+cultivées
+Autres
+Prairies 2 266 329 123 111 1 479 225
+terres
+Terres
+Prairies 1 204 171 165 11 393 464
+cultivées
+9 / 91
+
+--- Page 10 ---
+SO-1: Pour améliorer l'état des écosystèmes touchés, combattre la désertification / dégradation des terres, promouvoir la
+gestion durable des terres et contribuer à la neutralité de la dégradation des terres.
+SO1-2.T4 : Estimations nationales de la dynamique de la productivité des terres pour les superficies
+converties en une nouvelle catégorie de couvert terrestre (en km²) pour la période considérée
+Conversion de terres Dynamique de la productivité nette des terres (en km²) pour la période considérée
+En baisse
+Variation nette de la En baisse Tendue (En Stable (En En hausse
+De En modérée (En
+superficie (En km²) (En km²) km²) km²) (En km²)
+km²)
+Autres
+Prairies 18 548 35 59 4 11 555 6 895
+terres
+Prairies Terres cultivées 7 003 1 127 1 116 2 3 156 1 600
+Zones couvertes
+Prairies 1 900 66 241 17 953 622
+d’arbres
+Terres
+Prairies 1 827 222 430 24 778 373
+cultivées
+Dégradation de la productivité des terres
+SO1-2.T5 : Estimations nationales de la dégradation de la productivité des terres (en km²) pendant la période
+de référence
+Superficie (En Pourcentage de la superficie totale des terres (En
+km²) %)
+Superficie des terres dont la productivité s’est dégradée 79 330 6 ,4
+Superficie des terres dont la productivité ne s’est pas
+1 168 992 93 ,6
+dégradée
+Superficie sans données sur la productivité des terres 499 0 ,0
+SO1-2.T6 : Estimations nationales de la dégradation de la productivité des terres pendant la période
+considérée
+Superficie (En km²) Pourcentage de la superficie totale des terres (En %)
+Superficie des terres dont productivité s’est améliorée 182 272 14 ,6
+Superficie des terres dont la productivité est restée stable 960 272 76 ,9
+Superficie des terres dont la productivité s’est dégradée 105 867 8 ,5
+Superficie sans données sur la productivité des terres 505 0 ,0
+Observations d’ordre général
+10 / 91
+
+--- Page 11 ---
+SO-1: Pour améliorer l'état des écosystèmes touchés, combattre la désertification / dégradation des terres, promouvoir la
+gestion durable des terres et contribuer à la neutralité de la dégradation des terres.
+SO1-3 Évolution des stocks de carbone dans le sol et en surface
+Stocks de carbone organique du sol
+SO1-3.T1 − Estimations nationales du stock de carbone organique du sol dans la couche arable (0-30 cm)
+dans chaque catégorie de couvert terrestre (en tonnes par hectare)
+Stock de carbone organique du sol dans la couche arable (En t/ha)
+Année Zones couvertes Terres Zones Surfaces Autres Masses
+Prairies
+d’arbres cultivées humides artificielles terres d’eau
+2000 0 0 0 0 0 0 0
+2001 53 21 33 42 36 6 14
+2002 53 21 33 42 36 6 13
+2003 53 21 33 42 35 6 13
+2004 53 21 33 42 35 6 13
+2005 53 21 33 42 34 6 13
+2006 53 21 33 42 34 6 13
+2007 53 21 33 42 33 6 13
+2008 53 21 33 42 33 6 12
+2009 53 21 33 42 32 6 12
+2010 53 20 33 42 32 6 12
+2011 53 20 33 42 31 6 12
+2012 53 20 33 42 31 6 12
+2013 53 20 33 42 30 6 12
+2014 53 20 33 42 29 6 12
+2015 53 20 33 42 29 6 12
+2016 53 20 33 42 30 6 12
+2017 53 20 33 42 29 6 12
+2018 52 20 33 42 28 6 12
+2019 52 19 33 42 28 6 13
+2020 0 0 0 0 0 0 0
+Si vous avez choisi de ne pas utiliser les données par défaut du niveau 1, comment avez-vous calculé les
+estimations ci dessus ?
+Méthodes et données de niveau 1 modifiées
+Niveau 2 (utilisation supplémentaire de données propres au pays)
+Niveau 3 (méthodes plus complexes impliquant des mesures au sol et la modélisation)
+SO1-3.T2 : Estimations nationales de la variation du stock de carbone organique du sol due à la conversion
+de terres en une nouvelle catégorie de couvert terrestre pendant la période de référence
+Conversion de terres Variation du stock de carbone organique du sol pendant la période de référence
+11 / 91
+
+--- Page 12 ---
+SO-1: Pour améliorer l'état des écosystèmes touchés, combattre la désertification / dégradation des terres, promouvoir la
+gestion durable des terres et contribuer à la neutralité de la dégradation des terres.
+Variation du
+Variation Stock initial de Stock final de Stock initial total Stock final total
+stock de
+nette de la carbone carbone de carbone de carbone
+De En carbone
+superficie (En organique du organique du organique du sol organique du
+organique du
+km²) sol (En t/ha) sol (En t/ha) (En t/ha) sol (En t/ha)
+sol (En t)
+Autres
+Prairies 11 209 5 ,8 7 ,9 6 454 149 8 819 220 2 365 071
+terres
+Terres
+Prairies 1 204 29 ,6 31 ,8 3 560 873 3 833 027 272 154
+cultivées
+Autres
+Prairies 2 266 8 ,6 4 ,6 1 939 007 1 037 497 -901 510
+terres
+Terres
+Prairies 4 402 33 ,8 30 ,2 14 883 876 13 298 346 -1 585 530
+cultivées
+SO1-3.T3 : Estimations nationales de la variation du stock de carbone organique du sol due à la conversion
+de terres en une nouvelle catégorie de couvert terrestre pendant la période considérée
+Conversion de terres Variation du stock de carbone organique du sol pendant la période considérée
+Variation du
+Variation Stock initial de Stock final de Stock initial Stock final total
+stock de
+nette de la carbone carbone total de carbone de carbone
+De En carbone
+superficie (En organique du organique du organique du organique du
+organique du
+km²) sol (En t/ha) sol (En t/ha) sol (En t/ha) sol (En t/ha)
+sol (En t)
+Autres
+Prairies 11 977 5 ,2 5 ,3 6 244 083 6 372 179 128 096
+terres
+Zones
+Terres
+couvertes 1 013 41 ,7 42 ,2 4 223 660 4 273 860 50 200
+cultivées
+d’arbres
+Zones
+Prairies couvertes 1 666 45 ,6 45 ,6 7 594 837 7 595 833 996
+d’arbres
+Terres
+Prairies 4 515 41 ,7 40 ,6 18 805 123 18 311 363 -493 760
+cultivées
+Dégradation du stock de carbone organique du sol
+SO1-3.T4 : Estimations nationales de dégradation du stock de carbone organique du sol pendant la période
+de référence
+Superficie (En Pourcentage de la superficie totale des terres
+km²) (En %)
+Superficie des terres où le carbone organique du sol s’est dégradé 7 043 0 ,6
+Superficie de terres où le carbone organique du sol ne s’est pas
+1 241 579 99 ,4
+dégradé
+Superficie sans données sur le carbone organique du sol 199 0 ,0
+SO1-3.T5 : Estimations nationales de la dégradation du stock de carbone organique du sol pour la période
+considérée
+Superficie (En Pourcentage de la superficie totale des terres (En
+km²) %)
+Superficie des terres où le carbone organique du sol s’est
+18 941 1 ,5
+amélioré
+Superficie des terres où le carbone organique du sol est resté
+1 226 503 98 ,2
+stable
+12 / 91
+
+--- Page 13 ---
+SO-1: Pour améliorer l'état des écosystèmes touchés, combattre la désertification / dégradation des terres, promouvoir la
+gestion durable des terres et contribuer à la neutralité de la dégradation des terres.
+Superficie (En Pourcentage de la superficie totale des terres (En
+km²) %)
+Superficie des terres où le carbone organique du sol s’est
+3 252 0 ,3
+dégradé
+Superficie sans données sur le carbone organique du sol 221 0 ,0
+Observations d’ordre général
+13 / 91
+
+--- Page 14 ---
+SO-1: Pour améliorer l'état des écosystèmes touchés, combattre la désertification / dégradation des terres, promouvoir la
+gestion durable des terres et contribuer à la neutralité de la dégradation des terres.
+SO1-4 Proportion de terres dégradées par rapport à la superficie totale des terres (indicateur
+15.3.1 des objectifs de développement durable)
+Proportion de terres dégradées par rapport à la superficie totale des terres (indicateur 15.3.1 des objectifs de
+développement durable)
+SO1-4.T1 : Estimations nationales de la superficie totale des terres dégradées (en km²) et de la proportion de
+terres dégradées par rapport à la superficie totale des terres
+Superficie totale des terres dégradées Proportion des terres dégradées par rapport à la superficie totale
+(En km²) des terres (en %)
+Période de Référence 86 052 6 ,9
+Période Considérée 115 822 9 ,3
+Variation de l’étendue
+29770
+dégradée
+Méthode
+Avez-vous utilisé les indicateurs SO1-1, SO1-2 et SO1-3 (c’est-à-dire le couvert terrestre, la dynamique de la
+productivité des terres et le stock de carbone organique du sol) pour calculer la proportion de terres dégradées ?
+Quels indicateurs avez-vous utilisé ?
+☒ Couvert terrestre
+☒ Dynamique de la productivité des terres
+☒ Stock de carbone organique du sol
+Avez-vous appliqué le principe du paramètre déclassant pour calculer la proportion de terres dégradées ?
+Oui
+Non
+Niveau de confiance
+Indiquer le niveau de confiance de votre pays dans l’évaluation de la proportion de terres dégradées :
+Élevé (données factuelles complètes)
+Moyen (données factuelles partielles)
+Faible (données factuelles limitées)
+Expliquer pourquoi l’évaluation est créditée du niveau de confiance ci-dessus :
+Le choix du niveau de confiance moyen s'explique par l'utilisation uniquement de données de télédétection pour l'évaluation de la
+proportion des terres dégradées. Le niveau de confiance serait élevé si et seulement si il y avait eu des validations sur le terrain.
+Faux positifs/Faux négatifs
+SO1-4.T3 : Expliquer pourquoi toute superficie considérée comme dégradée ou non dégradée dans les
+données des indicateurs SO1-1, SO1-2 ou SO1-3 devrait ou non être prise en compte dans le calcul de
+l’indicateur global 15.3.1 des objectifs de développement durable.
+Nom du Recode Superficie (En Processus conduisant à un Éléments Modifier le
+Type
+lieu Options km²) résultat faux +/- d’appréciation polygone
+Effectuer des évaluations qualitatives des superficies considérées comme dégradées ou améliorées
+SO1-4.T4 : Zones sensibles à la dégradation des terres
+14 / 91
+
+--- Page 15 ---
+SO-1: Pour améliorer l'état des écosystèmes touchés, combattre la désertification / dégradation des terres, promouvoir la
+gestion durable des terres et contribuer à la neutralité de la dégradation des terres.
+Mesure(s) prise(s)
+pour remédier à la
+Facteurs directs Mesure(s) de
+dégradation en
+de la remise en état Modifier
+Zones Superficie Processus fonction de la
+Emplacement dégradation des (à la fois le
+sensibles (En km²) d’évaluation hiérarchie des mesures
+terres dans les future(s) et polygone
+visant la neutralité en
+zones sensibles actuelle(s))
+matière de dégradation
+des terres
+Nombre
+total de
+0
+zones
+sensibles
+Superficie
+totale des
+0
+zones
+sensibles
+Quel(s) est/sont le(s) facteur(s) indirect(s) de la dégradation des terres au niveau national ?
+1.
+2.
+3.
+4.
+5.
+SO1-4.T5 : Zones favorables à l’amélioration des terres
+Quelle(s) mesure(s) a (ont) conduit
+Mesure(s) de mise
+à l’apparition d’une zone favorable
+Zones Superficie Processus en œuvre (à la fois Modifier le
+Emplacement en fonction de la hiérarchie de
+favorables (En km²) d’évaluation future (s) et polygone
+neutralité en matière de la
+actuelle (s))
+dégradation des terres ?
+Nombre total de zones
+0
+favorables
+Superficie totale des zones
+0
+favorables
+Quels sont les mesures habilitantes et instruments adoptés au niveau national qui conduisent à l’apparition de zones favorables ?
+1.
+2.
+3.
+4.
+5.
+�.
+7.
+�.
+9.
+10.
+Observations d’ordre général
+15 / 91
+
+--- Page 16 ---
+SO-1: Pour améliorer l'état des écosystèmes touchés, combattre la désertification / dégradation des terres, promouvoir la gestion durable des terres et
+contribuer à la neutralité de la dégradation des terres.
+SO1 Cibles Volontaires
+SO1-VT.T1. Cibles volontaires de neutralité en matière de dégradation des terres et autres cibles pertinentes pour l’objectif
+stratégique 1
+Type
+primordial Est-ce une cible
+d’intervention Mesure de NDT? Si oui,
+Zone Quels autres
+dans le dans dans le cadre
+cible objectifs Modifier
+domaine de laquelle de quel
+Objectif Année Emplacement(s) totale Mesures ciblées importants sont le
+la neutralité la cible processus a t
+(en également visés polygone
+en matière de a été elle été
+km²) par cette cible ?
+dégradation atteinte définie/adoptée
+des terres ?
+(NDT)
+• Augmentation de
+l’étendue des zones • Convention
+protégées sur la
+◦ Accroître l’étendue diversité
+des zones protégées biologique −
+Stratégies
+• Restauration/amélioration et plans
+de l’état des zones d’action
+protégées nationaux
+A d’ u ic g i m 20 e 3 n 0 te , r la ◦ p R r e o s t t é a g u é r e e s r les aires Oui e b n io m div a e ti r è s r i e té d e e t
+s fo u r p e e s r t fi iè c r i e e à 2030 L te 'e r n ri s to em ire ble du 321 ☒ ☒ É R v é i d te u r ire ◦ d A e m s é a li i o re re s r p la ro g té e g s é ti e o s n En Par N ti o c n ipation au c n i a b t l i e o s nales
+2 s to u 6 t p % a e l e d rfi e d c u l i a e national 943 ☒ Inverser • d R e e s l’ t é a t u a r t a d ti e o s n z /a o m ne é s lioration cours P d ci é r b o fi l g e n r s i a t i d m o e n m N d e D e d T e • • A Co FR nv 1 e 0 n 0 tion-
+territoire boisées cadre des
+Nations Unies
+sur les
+• Augmentation de
+changements
+l’étendue de la zone
+climatiques −
+boisée
+Contributions
+◦ Accroître les terres déterminées
+couvertes d’arbres au niveau
+(gain net), par national
+exemple les
+plantations
+Somme de toutes les zones ciblées
+Total
+356 943
+16 / 91
+
+--- Page 17 ---
+SO-1: Pour améliorer l'état des écosystèmes touchés, combattre la désertification / dégradation des terres, promouvoir la gestion durable des terres et
+contribuer à la neutralité de la dégradation des terres.
+Type
+primordial Est-ce une cible
+d’intervention Mesure de NDT? Si oui,
+Zone Quels autres
+dans le dans dans le cadre
+cible objectifs Modifier
+domaine de laquelle de quel
+Objectif Année Emplacement(s) totale Mesures ciblées importants sont le
+la neutralité la cible processus a t
+(en également visés polygone
+en matière de a été elle été
+km²) par cette cible ?
+dégradation atteinte définie/adoptée
+des terres ?
+(NDT)
+• Restauration/amélioration
+de l’état des terres
+cultivées
+◦ Pratiquer une gestion
+durable des terres
+◦ Augmenter la
+productivité des
+terres dans les zones
+agricoles
+◦ Réhabiliter les terres • Convention
+nues ou dégradées sur la
+pour la production de diversité
+cultures biologique −
+Stratégies
+• Rétablissement de la et plans
+d’action
+productivité et des
+nationaux
+Réduire, la réserves de carbone
+en matière de
+proportion organique du sol des Oui biodiversité et
+des terres terres cultivées et des
+c a u n l n ti u v e é l e le s ment, 2030 L te 'e r n ri s to em ire ble du 25 ☐ ☒ É R v é i d te u r ire prairies En Par N ti o c n ipation au c n i a b t l i e o s nales
+a u fe f n r f e e ti c l b i t t a é é i e s e s s t e p a d r e national 000 ☐ Inverser • f r A é e c s r c t e i r l r o i v t i é e s s s d e e d m s e s e c o n a l t r s b d o e e t n l d e a es cours P d ci é r b o fi l g e n r s i a t i d m o e n m N d e D e d T e • • A Co FR nv 1 e 0 n 0 tion-
+sujettes à ◦ Réduire l’érosion des cadre des
+l’érosion sols Nations Unies
+◦ Réduire sur les
+changements
+l’empiétement du
+climatiques −
+sable
+◦ Maintenir le niveau Contributions
+déterminées
+actuel du carbone
+au niveau
+organique du sol
+national
+◦ Améliorer la gestion
+des bassins versants
+et des paysages
+◦ Réhabiliter les terres
+nues et/ou restaurer
+les terres dégradées
+◦ Augmenter le stock
+de carbone et réduire
+la dégradation des
+sols et des terres
+• Convention
+sur la
+diversité
+Réduire d’au biologique −
+moins 25% la Stratégies
+perte annuelle • Restauration/amélioration et plans
+de superficie de l’état des zones d’action
+forestière soit boisées nationaux
+environ 125 ◦ Réduire/arrêter le en matière de
+000 ha, avec déboisement et la Oui biodiversité et
+comme conversion du couvert cibles
+finalité L'ensemble du ☒ Éviter forestier en d’autres Non nationales
+d’accroître la 2030 territoire 10 ☒ Réduire types de couvert En Participation au • Défi de Bonn
+p ag ro ri d c u o c le ti o e n t de national 000 ☐ Inverser t e e x r e re m s p tr le e , ( e p n ar cours Programme de • AFR100
+définition de
+préserver les préservant les terres
+écosystèmes forestières) cibles de NDT • Convention-
+avec une ◦ Améliorer la gestion cadre des
+amélioration du couvert forestier, Nations Unies
+nette du par exemple par la sur les
+couvert gestion des incendies changements
+végétal de climatiques −
+10% Contributions
+déterminées
+au niveau
+national
+Somme de toutes les zones ciblées
+Total
+356 943
+SO1.IA.T1 : Zones dans lesquelles ont été mises en œuvre des mesures en rapport avec les cibles (projets et initiatives sur le terrain)
+17 / 91
+
+--- Page 18 ---
+SO-1: Pour améliorer l'état des écosystèmes touchés, combattre la désertification / dégradation des terres, promouvoir la gestion durable des terres et
+contribuer à la neutralité de la dégradation des terres.
+Date de début
+Étendue Superficie totale où des mesures ont Modifier
+Mesures mises en Emplacement de mise en
+Cible pertinente de la été mises en œuvre jusqu’à présent (en le
+œuvre (nom de lieu) œuvre des
+mesure km²) polygone
+mesures
+Divers
+Augmenter d’ici 2030, la superficie L'étendue du
+forestière à 26% de la superficie Réalisation d'action territoire 2019-01-01 673 ,51 673 ,51
+totale du territoire de reboisement et national
+d'afforestation
+Réduire, la proportion des terres Divers
+L'étendue du
+c p u a l r t i u v n é e e s b a a i n s n s u e e d ll e e m fe e rt n il t i , t a é f e fe t c s t u é j e e s ttes R de é a re lis s a ta ti u o r n a t d io 'a n c d ti e o s n t n e a r t r i i o to n i a re l 2019-01-01 3 249 ,2 3 330 ,22
+à l’érosion terres et dunes
+Réduire, la proportion des terres Divers L'étendue du
+cultivées annuellement, affectées
+par une baisse de fertilité et sujettes Mise en défens de territoire 2019-01-01 81 ,02 3 330 ,22
+à l’érosion terres dégradées national
+Réduire d’au moins 25% la perte
+annuelle de superficie forestière soit Divers
+environ 125 000 ha, avec comme L'étendue du
+fi ag n r a i l c it o é l e d e ’a t c d c e ro p ît r r é e s l e a r v p e r r o d le u s ction L co es n t a re c t l i e o s n s fe d u e x l d u e tte t n e a r t r i i o to n i a re l 2020-01-01 4 ,4 6 1 015 51 372 ,67
+écosystèmes avec une amélioration brousse
+nette du couvert végétal de 10%
+Réduire d’au moins 25% la perte
+annuelle de superficie forestière soit Divers
+environ 125 000 ha, avec comme Aménagement L'étendue du
+finalité d’accroître la production durable des forêts territoire 2019-01-01 5 339 ,43 51 372 ,67
+agricole et de préserver les (élaboration de plan national
+écosystèmes avec une amélioration de gestion) des
+nette du couvert végétal de 10%
+Réduire d’au moins 25% la perte
+annuelle de superficie forestière soit
+environ 125 000 ha, avec comme Divers L'étendue du
+finalité d’accroître la production L’enrichissement de territoire 2021-01-01 17 ,83 51 372 ,67
+agricole et de préserver les forêt villageoise national
+écosystèmes avec une amélioration
+nette du couvert végétal de 10%
+Somme de toutes les zones
+pertinentes où ont été mises en œuvre
+des mesures visant la même cible
+Augmenter d’ici 2030, la superficie
+673
+forestière à 26% de la superficie
+,51
+totale du territoire:
+Réduire, la proportion des terres
+3
+cultivées annuellement, affectées
+330
+par une baisse de fertilité et
+,22
+sujettes à l’érosion :
+Réduire d’au moins 25% la perte
+annuelle de superficie forestière soit
+environ 125 000 ha, avec comme 51
+finalité d’accroître la production 372
+agricole et de préserver les ,67
+écosystèmes avec une amélioration
+nette du couvert végétal de 10%:
+Observations d’ordre général
+18 / 91
+
+--- Page 19 ---
+SO-2: Améliorer les conditions de vie des populations touchées.
+SO2-1 Évolution de la population vivant sous le seuil de pauvreté relatif et/ou des inégalités
+de revenus dans les zones touchées
+Critère de mesure pertinent
+Choisir la mesure pertinente pour votre pays :
+Pourcentage de la population vivant en
+dessous du seuil international de pauvreté
+Inégalités de revenus (indice de Gini)
+Inégalités de revenus (indice de Gini)
+SO2-1.T2 : Estimations nationales des inégalités de revenus (indice de Gini)
+Année Inégalités de revenus (indice de Gini)
+2000
+2001 39
+2002
+2003
+2004
+2005
+2006 38 ,9
+2007
+2008
+2009 32
+2010
+2011 42
+2012
+2013 34
+2014 37
+2015 34
+2016 35
+2017 36
+2018 38
+2019 40
+2020 38
+Évaluation qualitative
+SO2-1.T3 : Interprétation de l’indicateur
+Critère de mesure Évolution de
+Observations
+de l’indicateur l’indicateur
+Inégalités de De 2013 à nos jours, nous constatons une légère tendance à la hausse de l'indice Gini. Cela
+revenus (indice de Augmentation s'expliquerait par le contexte sociéconomique, politique et sécuritaire du Mali qui ne favorise pas
+Gini) une répartition des richesses entre les différentes couches de la population malienne.
+Observations d’ordre général
+19 / 91
+
+--- Page 20 ---
+SO-2: Améliorer les conditions de vie des populations touchées.
+20 / 91
+
+--- Page 21 ---
+SO-2: Améliorer les conditions de vie des populations touchées.
+SO2-2 Évolution de l’accès à l’eau potable dans les zones touchées
+Proportion de la population utilisant des services d’alimentation en eau potable gérés en toute sécurité
+SO2-1.T1 : Estimations nationales de la proportion de la population utilisant des services d’alimentation en
+eau potable gérés en toute sécurité
+Année Urbaine (%) Rurale (%) Totale (%)
+2000
+2001
+2002
+2003
+2004
+2005
+2006
+2007
+2008
+2009
+2010
+2011
+2012
+2013 69.2 61.3 63.6
+2014 70 63.7 65.5
+2015 70.6 63.3 65.3
+2016 70.6 65.3 66.9
+2017 74.7 65.3 68
+2018 76 65.9 68.8
+2019 77.7 65.8 69.2
+2020 79.7 65.6 69.6
+Évaluation qualitative
+SO2-2.T2 : Interprétation de l’indicateur
+Évolution de
+Observations
+l’indicateur
+Pour le niveau urbain, nous assistons à l'augmentation des valeurs de l'indicateur du fait de la concentration des
+Augmentation
+interventions dans le milieu urbain.
+En ce qui concerne le niveau rural, le changement est quasi inexistant du fait que ces zones ne bénéficient pas en
+Aucun changement
+général depuis une dizaine d'années des projets d'adduction d'eau potable.
+Observations d’ordre général
+L'indicateur choisi est en effet un indicateur proxy (taux d'accès à l'eau potable) de l'indicateur ODD6.
+21 / 91
+
+--- Page 22 ---
+SO-2: Améliorer les conditions de vie des populations touchées.
+SO2-3 Évolution de la proportion de la population exposée à la dégradation des terres,
+ventilée par sexe
+Proportion de la population exposée à la dégradation des terres, ventilée par sexe
+SO2-3.T1 : Estimations nationales de la proportion de la population exposée à la dégradation des terres,
+ventilée par sexe
+Population Population Pourcentage de la
+Population Pourcentage de la Pourcentage de la
+féminine masculine population
+Période exposée population totale population féminine
+exposée exposée masculine totale
+(nombre) exposée (%) totale exposée (%)
+(nombre) (nombre) exposée (%)
+Période de
+4466101 25 ,5 2251559 25 ,5 2214542 25 ,6
+référence
+Période
+6539682 31 ,1 3298778 31 ,1 3240904 31 ,1
+considérée
+Évaluation qualitative
+SO2-3.T2 : Interprétation de l’indicateur
+Évolution de
+Observations
+l’indicateur
+En analysant l'évolution de l'indicateur au cours des deux périodes, on assiste à une augmentation de l'exposition de la
+population (en général et ventilé par sexe) à la dégradation des terres. Cette augmentation s'explique par 2 facteurs
+Augmentation
+essentiels : (i) l'augmentation de la population malienne en général et (ii) les modes de production et de consommation
+peu respectueux de l'environnement de cette population.
+Observations d’ordre général
+22 / 91
+
+--- Page 23 ---
+SO-2: Améliorer les conditions de vie des populations touchées.
+SO2 Cibles Volontaires
+SO2-VT.T1
+Objectif Année Niveau d’application Mesure dans laquelle la cible a été atteinte Observations
+Observations d’ordre général
+23 / 91
+
+--- Page 24 ---
+SO-3: Pour atténuer, à s'y adapter et de gérer les effets de la sécheresse afin d'améliorer la résilience des populations et des
+écosystèmes vulnérables.
+SO 3-1 Évolution de la proportion de terres frappées par la sécheresse au regard de la
+superficie totale
+Indicateur du risque de sécheresse
+SO3-1.T1 : Estimations nationales de la superficie des terres relevant de chaque catégorie d’intensité de
+sécheresse, telle que définie par l’indice de précipitations normalisé ou d’autres indicateurs nationaux ayant
+trait à la sécheresse
+Catégorie d’intensité de sécheresse
+Sécheresse légère (En Sécheresse modérée Sécheresse intense (En Sécheresse extrême Pas de sécheresse (En
+km²) (En km²) km²) (En km²) km²)
+2000 509 840 59 814 26 563 15 312 643 207
+2001 608 180 92 902 4 639 0 549 017
+2002 329 912 83 238 122 541 79 378 639 669
+2003 192 302 0 0 0 1 062 436
+2004 498 438 42 964 34 263 739 678 334
+2005 305 372 25 567 18 294 0 905 505
+2006 182 239 16 791 14 777 32 886 1 008 044
+2007 355 602 55 212 3 950 0 839 974
+2008 143 447 21 629 0 0 1 089 662
+2009 339 108 21 626 2 265 0 891 738
+2010 94 459 0 0 0 1 160 279
+2011 778 928 43 210 15 661 442 416 496
+2012 341 208 0 0 0 913 529
+2013 277 940 43 499 1 498 0 931 800
+2014 221 080 5 238 0 0 1 028 420
+2015 151 905 1 515 3 726 997 1 096 593
+2016 230 029 0 0 0 1 024 709
+2017 276 555 62 823 24 915 0 890 444
+2018 117 013 0 0 0 1 137 724
+2019 154 369 0 0 0 1 100 368
+2020
+2021
+SO3-1.T2 : Tableau récapitulatif de la superficie des terres touchées par la sécheresse sans ventilation par
+catégorie
+Superficie totale des terres touchées par la sécheresse (En km²) Proportion de terres touchées par la sécheresse (En %)
+2000 611 530 49 ,0
+2001 705 721 56 ,5
+2002 615 069 49 ,3
+24 / 91
+
+--- Page 25 ---
+SO-3: Pour atténuer, à s'y adapter et de gérer les effets de la sécheresse afin d'améliorer la résilience des populations et des
+écosystèmes vulnérables.
+Superficie totale des terres touchées par la sécheresse (En km²) Proportion de terres touchées par la sécheresse (En %)
+2003 192 302 15 ,4
+2004 576 404 46 ,2
+2005 349 233 28 ,0
+2006 246 693 19 ,8
+2007 414 763 33 ,2
+2008 165 076 13 ,2
+2009 362 999 29 ,1
+2010 94 459 7 ,6
+2011 838 241 67 ,1
+2012 341 208 27 ,3
+2013 322 937 25 ,9
+2014 226 317 18 ,1
+2015 158 144 12 ,7
+2016 230 029 18 ,4
+2017 364 293 29 ,2
+2018 117 013 9 ,4
+2019 154 369 12 ,4
+2020 -
+2021 -
+Évaluation qualitative:
+Aucune tendance claire ne se dégage. Cependant, les épisodes de sécheresse des dernières années semblent touchés moins de terres qu'il
+ya 20 ans.
+Observations d’ordre général
+25 / 91
+
+--- Page 26 ---
+SO-3: Pour atténuer, à s'y adapter et de gérer les effets de la sécheresse afin d'améliorer la résilience des populations et des
+écosystèmes vulnérables.
+SO 3-2 Évolution de la proportion de la population exposée à la sécheresse
+Indicateur de l’exposition à la sécheresse
+L’exposition renvoie au nombre de personnes exposées à la sécheresse, calculé à partir des données de l’indicateur SO3-1.
+SO3-2.T1 : Estimations nationales du pourcentage de la population totale dans chaque catégorie d’intensité
+de sécheresse, ainsi que du nombre de personnes et de la part de la population nationale exposée à la
+sécheresse, quelle qu’en soit l’intensité.
+Sécheresse
+Non-exposed Sécheresse légère Sécheresse intense Sécheresse extrême Population exposée
+modérée
+Année Nombre Nombre Nombre Nombre Nombre Nombre
+% % % % % %
+considérée d’habitants d’habitants d’habitants d’habitants d’habitants d’habitants
+54 35 2 2 4 45
+2000 654764 428175 24959 29234 54831 537 199
+,9 ,9 ,1 ,5 ,6 ,1
+49 30 18 1 0 50
+2001 602701 366598 230374 19320 0 616 292
+,4 ,1 ,9 ,6 ,0 ,6
+0 0 1 23 75 99
+2002 1990 3542 18593 292518 954117 1 268 770
+,2 ,3 ,5 ,0 ,1 ,8
+99 0 0 0 0 0
+2003 1306363 12250 0 0 0 12 250
+,1 ,9 ,0 ,0 ,0 ,9
+95 4 0 0 0 4
+2004 1320283 59091 0 0 0 59 091
+,7 ,3 ,0 ,0 ,0 ,3
+0 95 3 0 0 99
+2005 12977 1373016 48414 0 0 1 421 430
+,9 ,7 ,4 ,0 ,0 ,1
+58 41 0 0 0 41
+2006 877743 621294 0 0 0 621 294
+,6 ,4 ,0 ,0 ,0 ,4
+50 49 0 0 0 49
+2007 792692 768002 0 0 0 768 002
+,8 ,2 ,0 ,0 ,0 ,2
+60 39 0 0 0 39
+2008 985971 650424 2030 0 0 652 454
+,2 ,7 ,1 ,0 ,0 ,8
+54 18 21 5 0 45
+2009 929417 317331 372525 84473 0 774 329
+,6 ,6 ,9 ,0 ,0 ,4
+99 0 0 0 0 0
+2010 1774981 6296 0 0 0 6 296
+,6 ,4 ,0 ,0 ,0 ,4
+62 37 0 0 0 37
+2011 1171129 698918 102 2350 128 701 498
+,5 ,3 ,0 ,1 ,0 ,5
+99 0 0 0 0 0
+2012 1920214 2849 0 0 0 2 849
+,9 ,1 ,0 ,0 ,0 ,1
+58 41 0 0 0 41
+2013 1178530 828138 0 0 0 828 138
+,7 ,3 ,0 ,0 ,0 ,3
+99 0 0 0 0 0
+2014 2094835 2287 0 0 0 2 287
+,9 ,1 ,0 ,0 ,0 ,1
+43 46 1 7 1 56
+2015 948562 1022743 28612 159194 37994 1 248 543
+,2 ,5 ,3 ,2 ,7 ,8
+76 23 0 0 0 23
+2016 1758412 531370 0 0 0 531 370
+,8 ,2 ,0 ,0 ,0 ,2
+28 33 19 17 0 71
+2017 689218 804042 475323 419811 0 1 699 176
+,9 ,7 ,9 ,6 ,0 ,1
+93 6 0 0 0 6
+2018 2337710 153266 0 0 0 153 266
+,8 ,2 ,0 ,0 ,0 ,2
+96 3 0 0 0 3
+2019 2494688 97413 0 0 0 97 413
+,2 ,8 ,0 ,0 ,0 ,8
+2020 - - - - - - -
+2021 - - - - - - -
+SO3-2.T2 : Estimations nationales du pourcentage de femmes touchées pour chaque catégorie d’intensité de
+sécheresse.
+Sécheresse Nombre de femmes
+Non-exposed Sécheresse légère Sécheresse intense Sécheresse extrême
+modérée exposées
+26 / 91
+
+--- Page 27 ---
+SO-3: Pour atténuer, à s'y adapter et de gérer les effets de la sécheresse afin d'améliorer la résilience des populations et des
+écosystèmes vulnérables.
+Année Nombre Nombre Nombre Nombre Nombre Nombre
+% % % % % %
+considérée d’habitants d’habitants d’habitants d’habitants d’habitants d’habitants
+55 35 2 2 4 45
+2000 333883 218144 12712 14837 27773 273 466
+,0 ,9 ,1 ,4 ,6 ,0
+49 30 19 1 0 50
+2001 306334 186869 117718 9946 0 314 533
+,3 ,1 ,0 ,6 ,0 ,7
+0 0 1 23 75 99
+2002 913 1777 9430 148823 485845 645 875
+,1 ,3 ,5 ,0 ,1 ,9
+99 0 0 0 0 0
+2003 664701 6248 0 0 0 6 248
+,1 ,9 ,0 ,0 ,0 ,9
+95 4 0 0 0 4
+2004 671806 30253 0 0 0 30 253
+,7 ,3 ,0 ,0 ,0 ,3
+0 95 3 0 0 99
+2005 6408 698941 24893 0 0 723 834
+,9 ,7 ,4 ,0 ,0 ,1
+58 41 0 0 0 41
+2006 445999 317100 0 0 0 317 100
+,4 ,6 ,0 ,0 ,0 ,6
+50 49 0 0 0 49
+2007 403436 390602 0 0 0 390 602
+,8 ,2 ,0 ,0 ,0 ,2
+60 39 0 0 0 39
+2008 502163 330246 1028 0 0 331 274
+,3 ,6 ,1 ,0 ,0 ,7
+54 18 21 5 0 45
+2009 472098 161270 189899 43009 0 394 178
+,5 ,6 ,9 ,0 ,0 ,5
+99 0 0 0 0 0
+2010 902679 3153 0 0 0 3 153
+,7 ,3 ,0 ,0 ,0 ,3
+62 37 0 0 0 37
+2011 594228 355486 51 1175 64 356 776
+,5 ,4 ,0 ,1 ,0 ,5
+99 0 0 0 0 0
+2012 975897 1364 0 0 0 1 364
+,9 ,1 ,0 ,0 ,0 ,1
+58 41 0 0 0 41
+2013 597647 421330 0 0 0 421 330
+,7 ,3 ,0 ,0 ,0 ,3
+99 0 0 0 0 0
+2014 1062157 1134 0 0 0 1 134
+,9 ,1 ,0 ,0 ,0 ,1
+43 46 1 7 1 56
+2015 480124 518868 14571 80824 19219 633 482
+,1 ,6 ,3 ,3 ,7 ,9
+76 23 0 0 0 23
+2016 890613 269619 0 0 0 269 619
+,8 ,2 ,0 ,0 ,0 ,2
+28 33 20 17 0 71
+2017 347647 407585 241409 213014 0 862 008
+,7 ,7 ,0 ,6 ,0 ,3
+93 6 0 0 0 6
+2018 1183770 77784 0 0 0 77 784
+,8 ,2 ,0 ,0 ,0 ,2
+96 3 0 0 0 3
+2019 1263073 49319 0 0 0 49 319
+,2 ,8 ,0 ,0 ,0 ,8
+2020 - - - - - - -
+2021 - - - - - - -
+SO3-2.T3 : Estimations nationales du pourcentage d’hommes touchés pour chaque catégorie d’intensité de
+sécheresse.
+Sécheresse Nombre d’hommes
+Non-exposed Sécheresse légère Sécheresse intense Sécheresse extrême
+modérée exposés
+Année Nombre Nombre Nombre Nombre Nombre Nombre
+% % % % % %
+considérée d’habitants d’habitants d’habitants d’habitants d’habitants d’habitants
+54 35 2 2 4 45
+2000 320881 210031 12247 14397 27058 263 733
+,9 ,9 ,1 ,5 ,6 ,1
+49 30 18 1 0 50
+2001 296367 179729 112656 9374 0 301 759
+,5 ,0 ,8 ,6 ,0 ,5
+0 0 1 23 75 99
+2002 1077 1765 9163 143695 468272 622 895
+,2 ,3 ,5 ,0 ,0 ,8
+99 0 0 0 0 0
+2003 641662 6002 0 0 0 6 002
+,1 ,9 ,0 ,0 ,0 ,9
+95 4 0 0 0 4
+2004 648477 28838 0 0 0 28 838
+,7 ,3 ,0 ,0 ,0 ,3
+0 95 3 0 0 99
+2005 6569 674075 23521 0 0 697 596
+,9 ,7 ,3 ,0 ,0 ,1
+27 / 91
+
+--- Page 28 ---
+SO-3: Pour atténuer, à s'y adapter et de gérer les effets de la sécheresse afin d'améliorer la résilience des populations et des
+écosystèmes vulnérables.
+Sécheresse Nombre d’hommes
+Non-exposed Sécheresse légère Sécheresse intense Sécheresse extrême
+modérée exposés
+Année Nombre Nombre Nombre Nombre Nombre Nombre
+% % % % % %
+considérée d’habitants d’habitants d’habitants d’habitants d’habitants d’habitants
+58 41 0 0 0 41
+2006 431744 304194 0 0 0 304 194
+,7 ,3 ,0 ,0 ,0 ,3
+50 49 0 0 0 49
+2007 389256 377400 0 0 0 377 400
+,8 ,2 ,0 ,0 ,0 ,2
+60 39 0 0 0 39
+2008 483808 320178 1002 0 0 321 180
+,1 ,8 ,1 ,0 ,0 ,9
+54 18 21 5 0 45
+2009 457319 156061 182626 41464 0 380 151
+,6 ,6 ,8 ,0 ,0 ,4
+99 0 0 0 0 0
+2010 872302 3143 0 0 0 3 143
+,6 ,4 ,0 ,0 ,0 ,4
+62 37 0 0 0 37
+2011 576901 343432 51 1175 64 344 722
+,6 ,3 ,0 ,1 ,0 ,4
+99 0 0 0 0 0
+2012 944317 1485 0 0 0 1 485
+,8 ,2 ,0 ,0 ,0 ,2
+58 41 0 0 0 41
+2013 580883 406808 0 0 0 406 808
+,8 ,2 ,0 ,0 ,0 ,2
+99 0 0 0 0 0
+2014 1032678 1153 0 0 0 1 153
+,9 ,1 ,0 ,0 ,0 ,1
+43 46 1 7 1 56
+2015 468438 503875 14041 78370 18775 615 061
+,2 ,5 ,3 ,2 ,7 ,8
+76 23 0 0 0 23
+2016 867799 261751 0 0 0 261 751
+,8 ,2 ,0 ,0 ,0 ,2
+29 33 19 17 0 71
+2017 341571 396457 233914 206797 0 837 168
+,0 ,6 ,8 ,5 ,0 ,0
+93 6 0 0 0 6
+2018 1153940 75482 0 0 0 75 482
+,9 ,1 ,0 ,0 ,0 ,1
+96 3 0 0 0 3
+2019 1231615 48094 0 0 0 48 094
+,2 ,8 ,0 ,0 ,0 ,8
+2020 - - - - - - -
+2021 - - - - - - -
+Évaluation qualitative
+Interprétation de l’indicateur
+Aucune tendance réelle ne se dégage confirmant que le phénomène de sécheresse est très aléatoire. En effet d'une année à une autre, ce
+phénomène peut toucher différemment les terres et les populations y vivants.
+Observations d’ordre général
+28 / 91
+
+--- Page 29 ---
+SO-3: Pour atténuer, à s'y adapter et de gérer les effets de la sécheresse afin d'améliorer la résilience des populations et des
+écosystèmes vulnérables.
+SO 3-3 Évolution du degré de vulnérabilité à la sécheresse
+Indice de vulnérabilité à la sécheresse
+SO3-3.T1 : Estimations nationales de l’indice de vulnérabilité à la sécheresse
+Valeur totale de l’indice de Valeur de l’indice de vulnérabilité à la Valeur de l’indice de vulnérabilité à la
+Année vulnérabilité à la sécheresse du sécheresse chez les hommes (niveaux 2 et sécheresse chez les femmes (niveaux 2 et
+pays (niveau 1) 3 uniquement) 3 uniquement)
+2000
+2001
+2002
+2003
+2004
+2005
+2006
+2007
+2008
+2009
+2010
+2011
+2012
+2013
+2014
+2015
+2016
+2017
+2018 0 ,73
+2019
+2020
+2021
+Méthode
+Quel niveau avez-vous utilisé pour calculer l’indice de vulnérabilité à la sécheresse ?
+☐ L’évaluation de la vulnérabilité de niveau 1 ⓘ
+☐ L’évaluation de la vulnérabilité de niveau 2 ⓘ
+☐ L’évaluation de la vulnérabilité de niveau 3 ⓘ
+Évaluation qualitative
+SO3-3.T2 : Interprétation de l’indicateur
+Évolution de l’indicateur Observations
+Observations d’ordre général
+Aucune donnée disponible ne permet de renseigné cet indicateur pour le Mali. Cependant quelques études localisées existent dans la
+documentation nationale. Il serait indiquer d'accompagner le Mali sur le plan technique et financier pour la réalisation d'une étude
+d'envergure nationale.
+29 / 91
+
+--- Page 30 ---
+SO-3: Pour atténuer, à s'y adapter et de gérer les effets de la sécheresse afin d'améliorer la résilience des populations et des
+écosystèmes vulnérables.
+SO3 Cibles Volontaires
+SO3-VT.T1
+Objectif Année Niveau d’application Mesure dans laquelle la cible a été atteinte Observations
+Observations d’ordre général
+30 / 91
+
+--- Page 31 ---
+SO4-1 Évolution des stocks de carbone dans le sol
+et en surface
+Stocks de carbone organique du sol
+L’évolution des stocks de carbone dans le sol et en surface est un indicateur polyvalent utilisépour mesurer les progrès accomplis dans la réalisation des
+objectifs stratégiques 1 et 4.
+Des données quantitatives et une évaluation qualitative de l’évolution de cet indicateur sont communiquées au titre de l’indicateur de progrès SO1-3 de
+l’objectif stratégique 1.
+31 / 91
+
+--- Page 32 ---
+SO-4 : Générer des avantages environnementaux mondiaux grâce à la mise en œuvre effective de la Convention des Nations
+Unies sur la lutte contre la désertification.
+SO4-2 Évolution de l’abondance et de la répartition de certaines espèces
+SO4-2.T1 : Estimations nationales de l’indice de la Liste rouge, mesurant la survie des espèces
+Année Indice de la Liste rouge Limite inférieure Limite supérieure Observation
+2000 0 ,98416 0 ,98243 0 ,98464
+2001 0 ,98391 0 ,98208 0 ,98442
+2002 0 ,98366 0 ,98182 0 ,98422
+2003 0 ,98335 0 ,98152 0 ,98395
+2004 0 ,98307 0 ,98123 0 ,98371
+2005 0 ,98271 0 ,98086 0 ,98342
+2006 0 ,98236 0 ,98005 0 ,98314
+2007 0 ,98205 0 ,97953 0 ,98271
+2008 0 ,9817 0 ,97904 0 ,98248
+2009 0 ,98143 0 ,97854 0 ,98213
+2010 0 ,98109 0 ,97812 0 ,9819
+2011 0 ,98085 0 ,97747 0 ,98164
+2012 0 ,98067 0 ,97715 0 ,98146
+2013 0 ,98044 0 ,97672 0 ,9813
+2014 0 ,98031 0 ,97612 0 ,98133
+2015 0 ,98016 0 ,97592 0 ,98137
+2016 0 ,98006 0 ,97574 0 ,98141
+2017 0 ,97994 0 ,97503 0 ,98141
+2018 0 ,97977 0 ,97486 0 ,98149
+2019 0 ,97961 0 ,97468 0 ,98151
+2020 0 ,97951 0 ,97427 0 ,98153
+Évaluation qualitative
+SO4-2.T2 : Interprétation de l’indicateur
+Quels leviers sont-ils utilisés
+Facteurs responsables: Interventions qui
+Facteurs responsables: pour enrayer l’évolution
+Évolution de indirects (sélectionner ont débouché sur
+directs (sélectionner un négative et permettre un Observations
+l’indicateur un ou plusieurs une évolution
+ou plusieurs éléments) changement
+éléments) positive de l’ILR
+transformateur?
+1. Changement et 1. Modes de 1. Incitations et
+d’affectation des production et de renforcement des
+terres consommation capacités
+2. Surexploitation 2. Dynamique et 2. Mesures préventives
+Négatif 3. Espèces exotiques évolution de la 3. Droit de l’environnement
+envahissantes population humaine et application de celui-ci
+4. Changements 3. Commerce 4. Coopération
+climatiques 4. intersectorielle
+5. Pollution 5. 5.
+32 / 91
+
+--- Page 33 ---
+SO-4 : Générer des avantages environnementaux mondiaux grâce à la mise en œuvre effective de la Convention des Nations
+Unies sur la lutte contre la désertification.
+Observations d’ordre général
+Cet indicateur semble montrer une situation stable et pas inquiétant (valeur proche de 1 que 0). Cependant, de l'avis de plusieurs experts,
+au Mali, nous assistons à une perte réelle de la biodiversité due au phénomène de braconnage qui est culturel, aux effets des changements
+climatiques et surtout à l'insiffisance des moyens mis à la disposition des structures en charge de la protection de la faune et de la flore.
+33 / 91
+
+--- Page 34 ---
+SO-4 : Générer des avantages environnementaux mondiaux grâce à la mise en œuvre effective de la Convention des Nations
+Unies sur la lutte contre la désertification.
+SO4-3 Proportion des sites importants pour la biodiversité terrestre et la biodiversité des
+eaux douces qui se trouvent dans des aires protégées (par type d’écosystème)
+SO4-3.T1: National estimates of the average proportion of Terrestrial KBAs covered by protected areas (%)
+Année Proportion des sites se trouvant dans des aires protégées (%) Limite inférieure Limite supérieure Observations
+2000 5.77 5 ,77 5 ,77
+2001 5.77 5 ,77 5 ,77
+2002 8.06 8 ,06 8 ,06
+2003 8.06 8 ,06 8 ,06
+2004 8.06 8 ,06 8 ,06
+2005 8.06 8 ,06 8 ,06
+2006 8.06 8 ,06 8 ,06
+2007 8.06 8 ,06 8 ,06
+2008 8.06 8 ,06 8 ,06
+2009 8.06 8 ,06 8 ,06
+2010 8.06 8 ,06 8 ,06
+2011 8.06 8 ,06 8 ,06
+2012 8.06 8 ,06 8 ,06
+2013 8.06 8 ,06 8 ,06
+2014 8.06 8 ,06 8 ,06
+2015 8.06 8 ,06 8 ,06
+2016 8.06 8 ,06 8 ,06
+2017 8.06 8 ,06 8 ,06
+2018 8.06 8 ,06 8 ,06
+2019 8.06 8 ,06 8 ,06
+2020 8.06 8 ,06 8 ,06
+Évaluation qualitative
+SO4-2.T2 : Interprétation de l’indicateur
+Évaluation
+Observation
+qualitative
+Depuis de nombreuses années, nous n'assistons pas à la création de nouvelles aires protégées. Les efforts sont surtout
+Pas de concentrés pour le maintien des sites existants. Car maintenir un site protégé en l'état nécessite de nombreuses
+changement interventions sur plusieurs plan (prévention, information et sensibilisation, application du droit de l'environnement,
+renforcement des capacités, etc).
+Observations d’ordre général
+34 / 91
+
+--- Page 35 ---
+SO-4 : Générer des avantages environnementaux mondiaux grâce à la mise en œuvre effective de la Convention des Nations
+Unies sur la lutte contre la désertification.
+SO4 Cibles Volontaires
+SO4-VT.T1
+Objectif Année Niveau d’application Mesure dans laquelle la cible a été atteinte Observations
+Renseignements complémentaires
+35 / 91
+
+--- Page 36 ---
+SO-5: Mobiliser les ressources financières et non financières importantes et supplémentaires pour appuyer la mise en œuvre de
+la Convention en établissant des partenariats efficaces au niveau mondial et national
+SO5-1 Ressources publiques bilatérales et multilatérales
+Niveau 1 : Communiquer des informations sur les ressources publiques internationales fournies et reçues
+aux fins de la mise en œuvre de la Convention, y compris des informations sur l’évolution de ces ressources.
+Évolution des ressources publiques internationales bilatérales et multilatérales fournies
+En hausse ↑
+Stable ←→
+En baisse ↓
+Inconnue ∾
+Évolution des ressources publiques internationales bilatérales et multilatérales reçues
+En hausse ↑
+Stable ←→
+En baisse ↓
+Inconnue ∾
+Afin de mobiliser les ressources nationales et internationales en faveur de l'environnement, le Gouvernement du Mali à adopté la Stratégie
+Nationale de Financement de l'Environnement en 2020. Cette stratégie vise l'accroissement des ressources à tous les niveaux et dans sa
+mise en oeuvre, plusieurs entités nationales sont entrain d'être accréditées au mécanismes internationaux (Fonds Vert Pour le Climat,
+Fonds d'Adaptation, etc). De même, ni été le contexte politico-sécuritaire, l'allocation du budget national à l'environnement connaissait une
+certaine hausse. Le Fonds Climat Mali est aussi un mécanisme national qui permet de rehausser le niveau de financement en faveur de
+l'environnement. Il permet annuellement de financer jusqu'à hauteur de 17 milliard de F CFA, les projets et programmes environnementaux
+pour les communautés vulnérables.
+Niveau 2 : Tableau 1 Ressources financières fournies et reçues
+Montant total en dollars des États Unis
+Fourn/Reçu Année Engage-ment pris Décaissés/Reçus
+Engage-ment pris Versé
+Provided 2016
+0 0
+Engage-ment pris Versé
+Provided 2017
+0 0
+Engage-ment pris Versé
+Provided 2018
+0 0
+Engage-ment pris Versé
+Provided 2019
+0 0
+Engage-ment pris Reçu
+Received 2016
+105 596 514 ,16 78 506 128 ,32
+Engage-ment pris Reçu
+Received 2017
+50 978 224 ,63 67 048 697 ,95
+Engage-ment pris Reçu
+Received 2018
+106 811 424 ,19 107 813 884 ,88
+Engage-ment pris Reçu
+Received 2019
+46 875 391 ,40 77 701 027 ,57
+Total des ressources fournies: 0 0
+Total des ressources reçues: 310 261 554 ,38 331 069 738 ,72
+Documentation
+Explication
+Année
+Bénéficiaire / Pourvoyeur
+Titre du projet, programme, activité ou autre mesure
+Montant total en dollars des États Unis
+36 / 91
+
+--- Page 37 ---
+SO-5: Mobiliser les ressources financières et non financières importantes et supplémentaires pour appuyer la mise en œuvre de
+la Convention en établissant des partenariats efficaces au niveau mondial et national
+Explication
+Secteur
+Renforcement des capacités
+Transfert de technologie
+Égalité des sexes
+Canal
+Type de flux
+Instrument financier
+Type d’appui
+Montant des fonds mobilisés au moyen d’interventions publiques
+Renseignements complémentaires
+Observations d’ordre général
+37 / 91
+
+--- Page 38 ---
+SO-5: Mobiliser les ressources financières et non financières importantes et supplémentaires pour appuyer la mise en œuvre de
+la Convention en établissant des partenariats efficaces au niveau mondial et national
+SO5-2 Ressources publiques nationales
+Niveau 1 : Communiquer des informations sur les dépenses publiques nationales, y compris les subventions
+et les recettes, dont les impôts, directement et indirectement liées à la mise en œuvre de la Convention, y
+compris des renseignements sur l’évolution de ces montants.
+Évolution des dépenses publiques nationales et des ressources financières consacrées au niveau national aux activités liées à la mise en œuvre de la
+Convention
+En hausse ↑
+Stable ←→
+En baisse ↓
+Inconnue ∾
+Évolution des recettes publiques nationales provenant des activités liées à la mise en œuvre de la Convention
+En hausse ↑
+Stable ←→
+En baisse ↓
+Inconnue ∾
+Niveau 2 : Tableau 2 Ressources publiques nationales
+Année Montants Renseignements complémentaires
+Dépenses publiques
+Directement liées à la lutte contre la DDTS
+Indirectement liées à la lutte contre la DDTS
+Subventions
+Subventions liées à la lutte contre la DDTS
+Dépenses totales/total par an
+Renseignements
+Année Montants
+complémentaires
+Recettes publiques
+Taxes environnementales pour la conservation des ressources foncières et taxes
+liées à la lutte contre la DDTS
+Revenus totaux/total par an
+Documentation
+Explication
+Dépenses publiques
+Subventions
+Recettes publiques
+Ressources nationales directement ou indirectement liées à la lutte contre la DDTS
+Votre pays a-t-il fixé un objectif d’augmentation et de mobilisation des ressources nationales aux fins de la mise en œuvre de la Convention ?
+Oui
+Non
+Observations d’ordre général
+38 / 91
+
+--- Page 39 ---
+SO-5: Mobiliser les ressources financières et non financières importantes et supplémentaires pour appuyer la mise en œuvre de
+la Convention en établissant des partenariats efficaces au niveau mondial et national
+SO5-3 Ressources privées internationales et nationales
+Niveau 1 : Communiquer des informations sur les ressources publiques internationales et nationales
+mobilisées par le secteur privé de votre pays aux fins de la mise en œuvre de la Convention, y compris des
+informations sur l’évolution de ces ressources.
+Évolution des ressources publiques internationales
+En hausse ↑
+Stable ←→
+En baisse ↓
+Inconnue ∾
+Évolution des ressources publiques nationales
+En hausse ↑
+Stable ←→
+En baisse ↓
+Inconnue ∾
+Niveau 2 : Tableau 3 Ressources privées internationales et nationales
+Montant total en
+Titre du projet, programme, Instrument Type Renseignements
+Année dollars des États Bénéficiaire
+activité ou autre mesure financier d’institution complémentaires
+Unis
+Total 0
+Donner des informations méthodologiques utiles concernant les données présentées dans le tableau 3
+Votre pays a-t-il pris des mesures pour encourager le secteur privé ainsi que les organisations non
+gouvernementales, les fondations et les milieux universitaires à fournir des ressources internationales et
+nationales aux fins de la mise en œuvre de la Convention ?
+Observations d’ordre général
+39 / 91
+
+--- Page 40 ---
+SO-5: Mobiliser les ressources financières et non financières importantes et supplémentaires pour appuyer la mise en œuvre de la Convention en établissant des
+partenariats efficaces au niveau mondial et national
+SO5-4 Transfert de technologie
+Niveau 1 : Communiquer des informations sur les ressources fournies et reçues aux fins du transfert de technologie et de la mise en œuvre
+de la Convention, y compris des informations sur l’évolution de ces ressources.
+Évolution des ressources publiques internationales bilatérales et multilatérales fournies
+En hausse ↑
+Stable ←→
+En baisse ↓
+Inconnue ∾
+Évolution des ressources publiques internationales bilatérales et multilatérales reçues
+En hausse ↑
+Stable ←→
+En baisse ↓
+Inconnue ∾
+Niveau 2 : Tableau 4 Ressources fournies et reçues pour les mesures ou activités de transfert de technologie
+Titre du
+Calendrier Utilisation,
+projet,
+Activités État d’exécution incidence
+Fourni programme, Bénéficiaire Description Type de Renseignements
+Année Montant Secteur menées d’avancement de la et
+Reçu activité ou Pourvoyeur et objectifs technologie complémentaires
+par de l’activité mesure ou résultats
+autre
+de l’activité estimés
+mesure
+Total fourni : 0 Total reçu : 0
+Donner des informations méthodologiques utiles concernant les données présentées dans le tableau 4
+Communiquer des informations sur les hypothèses sous-jacentes, les définitions et les méthodes utilisées pour rendre compte des transferts
+de technologie assurés, reçus ou requis. Ajouter des liens vers des documents utiles.
+Donner des informations sur les types de technologies nouvelles ou actuelles dont votre pays a besoin pour lutter contre la désertification, la
+dégradation des terres et la sécheresse, et sur les difficultés rencontrées pour acquérir ou mettre au point ces technologies.
+Observations d’ordre général
+40 / 91
+
+--- Page 41 ---
+SO-5: Mobiliser les ressources financières et non financières importantes et supplémentaires pour appuyer la mise en œuvre de
+la Convention en établissant des partenariats efficaces au niveau mondial et national
+SO5-5 Appui futur aux activités liées à la mise en œuvre de la Convention
+SO5-5.1 : Fourniture et mobilisation prévues de ressources nationales publiques et privées
+Donner des informations sur les ressources nationales qu’il est prévu de fournir et de mobiliser aux fins de la
+mise en œuvre de la Convention, y compris des renseignements relatifs à l’indicateur SO5-2, ainsi que des
+informations sur les ressources financières publiques qu’il est prévu de verser, les secteurs cibles et les
+politiques nationales qu’il est prévu de mettre en œuvre.
+SO5-5.2: Fourniture et mobilisation prévues de ressources internationales publiques et privées
+Donner des informations sur les ressources internationales qu’il est prévu de fournir et de mobiliser aux fins
+de la mise en œuvre de la Convention, y compris des informations sur les ressources financières publiques et
+l’appui qu’il est prévu de consacrer au renforcement des capacités et au transfert de technologie, sur les
+régions et pays cibles, et sur les programmes et politiques prévus et les priorités fixées.
+SO5-5.3 : Ressources nécessaires
+Communiquer des informations sur les ressources financières nécessaires à la mise en œuvre de la
+Convention, notamment sur les projets qui ont le plus besoin de ressources et les régions qui ont le plus
+besoin d’aide et auxquels votre pays a accordé le plus d’attention.
+Observations d’ordre général
+41 / 91
+
+--- Page 42 ---
+IF : Cadre de mise en œuvre
+Sources financières et non financières
+Mobilisation accrue de ressources:
+Souhaitez-vous faire part de la façon dont votre pays a mobilisé davantage de ressources au cours de la période considérée ?
+Oui
+Non
+Quels ont été les types de ressources mobilisées (cochez toutes les cases correspondantes) ?
+☒ Ressources financières
+☒ Ressources non financières
+Quelles sources ont été mobilisées ?
+☒ Sources internationales
+☒ Sources nationales
+☒ Sources publiques
+☒ Sources privées
+☐ Collectivités locales
+☐ Sources de financement non traditionnelles
+☒ Financement de l’action climatique
+☐ Autre (préciser)
+Utiliser l’espace ci-dessous pour décrire cette expérience :
+La mobilisation des ressources est un processus qui est le plus souvent de longue haleine. Elle nécessite une équipe organisée et
+pluridisciplinaire. Une belle expérience de ces dernières années (notamment lors de la campagne agricole 2021-2022 ) en la matière est la
+mobilisation des ressources de l'African Risk Capacity (ARC). ARC est une initiative africaine d'assurance climatique qui a permis grâce à
+une bonne coordination du Commissariat à la Sécurité Alimentaire d’apporter véritablement des réponses adéquates aux populations
+vulnérables et au cheptel dans le besoin au titre de la saison 2021-2022.
+Quelles ont été les difficultés rencontrées, le cas échéant ?
+Les principales difficultés se résument : - à la faible capacité des porteurs de projets et d'initiative à préparer des projets respectant les
+standards internationaux; - les lourdeurs administratives au niveau national et au niveau de certains mécanismes de financement des
+risques climatiques; - le contexte sociopolitique et sécuritaire a été un frein pour développer un partenariat fécond avec les bailleurs de
+fonds.
+Quelles sont, selon vous, les enseignements à retenir à cet égard ?
+Le renforcement des capacités et la stabilité du pays constituent des facteurs indispensables pour un meilleur accès au financement.
+Comment avez-vous fait en sorte que les femmes bénéficient de ces sources de financement ou y aient accès ?
+Des projets spécifiques sont financés à l'endroit des femmes. De même pour les autres projets, des marqueurs genres sont exigés lors de
+leur financement et des analyses genre sont effectuées lors de leur mise en oeuvre.
+Utiliser l’espace ci-dessous pour fournir toute autre information complémentaire que vous jugez utile :
+42 / 91
+
+--- Page 43 ---
+IF : Cadre de mise en œuvre
+Votre pays a-t-il aidé d’autres pays à mobiliser des ressources financières ou non financières aux fins de la mise en œuvre de la
+Convention ?
+Oui
+Non
+Utilisation de la neutralité en matière de dégradation des terres comme cadre pour accroître l’investissement :
+De votre point de vue, avez-vous tiré parti de la neutralité en matière de dégradation des terres pour renforcer la cohérence,
+l’efficacité et les multiples avantages des investissements ?
+Oui
+Non
+Utiliser l’espace ci-dessous pour décrire cette expérience :
+La NDT a permi aujourd'hui de centrer les interventions du pays sur un certain nombre de cibles.
+Quelles ont été les difficultés rencontrées, le cas échéant ?
+L'absence d'un système adéquat de suivi de la mise en de la NDT au niveau national est un sérieux handicap pour le rapportage des progrès
+réalisés.
+Quelles sont, selon vous, les enseignements à retenir à cet égard ?
+L'absence de système de suivi empêche une mise en oeuvre efficace des engagements des pays.
+Amélioration des institutions et mécanismes de financement existants ou novateurs
+De votre point de vue, votre pays a-t-il amélioré l’utilisation des mécanismes et des institutions de financement existants ou
+novateurs ?
+Oui
+Non
+Est-ce que cela a été fait par l’un des moyens suivants (cochez toutes les cases qui s’appliquent) ?
+☐ Mécanismes de financement existants
+☐ Mécanismes de financement novateurs
+☒ FEM
+☐ Autres fonds (préciser)
+Utiliser l’espace ci-dessous pour décrire cette expérience :
+Le portage politique du FEM a été amélioré à travers la désignation en 2018 d'un point focal politique. Ce dernier, logé au niveau du
+ministère en charge des finances facilite l'appropriation politique des interventions du FEM au Mali.
+Quelles ont été les difficultés rencontrées, le cas échéant ?
+L'amélioration du portage politique était de nature à faciliter les interventions du FEM au Mali. Cependant, force est de constater que nous
+assistons ces derniers temps à l'insuffisance des appuis du budget d'Etat pour le suivi approprié des interventions du FEM au Mali par le
+Point Focal opérationnel.
+43 / 91
+
+--- Page 44 ---
+IF : Cadre de mise en œuvre
+Quelles sont, selon vous, les enseignements à retenir à cet égard ?
+La volonté politique peut être ebranlée par un contexte marqué par une situation sociopolitique et sécuritaire difficile.
+Votre pays a-t-il aidé d’autres pays à améliorer les mécanismes et les institutions de financement existants ou novateurs ?
+Oui
+Non
+44 / 91
+
+--- Page 45 ---
+IF : Cadre de mise en œuvre
+Politique et planification
+Programmes d’action :
+Votre pays a-t-il élaboré son programme d’action national ou a-t-il participé à son élaboration, à sa mise en œuvre, à sa révision
+ou à son suivi régulier ?
+Oui
+Non
+Utiliser l’espace ci-dessous pour fournir de plus amples informations sur l’expérience de votre pays :
+En 1998, le Mali a élaboré la politique nationale de protection de l'environnement. Cette politique a été assortie d'un plan national d'action
+environnemental qui valait également de plan d'action national de mise en oeuvre de la Convention sur la Désertification. Faisant suite au
+plan d'action de la PNPE, d'autres plans ou documents de mise en oeuvre de la convention ont été élaborés.
+Considérez-vous que les programmes et/ou plans d’action ont été couronnés de succès et quelles sont, selon vous, les
+principales raisons de ce succès (ou, dans le cas contraire, de cet échec) ?
+Nous pouvons dire que des progrès ont été obtenus suite à la mise en oeuvre du plan d'action de mise en oeuvre de la Convention. En effet,
+à partir du plan d'action, plusieurs projets de lutte contre la désertification et l'ensablement ont été exécutés sur le terrain. Les rasions des
+succès de ces projets et programmes se justifient par leur pertinence à résoudre les problèmes pour lesquels ils ont été mis en place. De
+même, ce sont des projets qui ont connu l'implication des populations et a suscité l'intérêt de la population à restaurer leurs paysage.
+Quelles ont été les difficultés rencontrées, le cas échéant ?
+La principale difficulté qui mérite d'être évoquée est l'absence d'un système de suivi permettant de capitaliser tous les progrès réalisés au fil
+des années de mien en oeuvre de la Convention au Mali.
+Quelles sont, selon vous, les enseignements à retenir à cet égard ?
+Le principal enseignement est que seul un système efficace de suivi des progrès au niveau national est capable de lier les générations de
+plan d'action de mise en oeuvre de la Convention.
+Politiques et conditions appropriées :
+Au cours de la période considérée, votre pays a-t-il mis en place ou contribué à mettre en place des politiques et des conditions
+appropriées visant à promouvoir et/ou appliquer des moyens de lutter contre la désertification et la dégradation des terres et
+d’atténuer les effets de la sécheresse ?
+Oui
+Non
+Ces politiques et ces conditions visaient à (cocher toutes les cases qui s’appliquent) :
+☒ Promouvoir des moyens de lutter contre la désertification, la dégradation des terres et la sécheresse (DDTS)
+☒ Appliquer des moyens de lutter contre la DDTS
+☐ Protéger les droits fonciers des femmes
+☒ Améliorer l’accès des femmes aux ressources naturelles, productives et/ou financières
+☐ Autre (préciser)
+Laquelle des options ci-après décrit le plus exactement ces activités (cocher toutes les cases qui s’appliquent) :
+☒ Prévention des effets de la DDTS
+45 / 91
+
+--- Page 46 ---
+IF : Cadre de mise en œuvre
+☒ Interventions de secours suite aux contraintes d’ordre environnemental et/ou socioéconomique exercées sur les écosystèmes et/ou les
+populations par la DDTS
+☒ Interventions de relèvement suite aux contraintes d’ordre environnemental et/ou socioéconomique exercées sur les écosystèmes et/ou
+les populations par la DDTS
+☒ Participation des femmes à la prise de décisions
+☒ Exercice et promotion des droits fonciers des femmes et amélioration de l’accès des femmes aux ressources foncières
+☒ Renforcement des capacités des femmes de contribuer à la mise en œuvre efficace de la Convention
+☐ Autre (préciser)
+Utiliser l’espace ci-dessous pour fournir de plus amples informations sur l’expérience de votre pays/sous-région/région
+/institution.
+Considérez-vous que ces politiques ont permis de promouvoir ou d’appliquer des moyens de lutter contre la DDTS, notamment
+en matière de prévention, de secours et de relèvement, et quels sont, selon vous, les principaux facteurs de réussite ou d’échec
+?
+Quelles ont été les difficultés rencontrées, le cas échéant ?
+Quelles sont, selon vous, les enseignements à retenir à cet égard ?
+Votre pays a-t-il aidé d’autres pays à mettre en place des politiques et des conditions appropriées visant à promouvoir et
+appliquer des moyens de lutter contre la désertification et la dégradation des terres et d’atténuer les effets de la sécheresse, y
+compris des mesures de prévention, de secours et de relèvement ?
+Oui
+Non
+Synergies :
+De votre point de vue, votre pays a-t-il exploité les synergies et intégré la DDTS dans des plans nationaux élaborés au titre des
+autres accords multilatéraux relatifs à l’environnement, en particulier des autres conventions de Rio, et dans d’autres
+engagements internationaux ?
+Oui
+Non
+Prise en considération de la désertification, de la dégradation des terres et de la sécheresse :
+De votre point de vue, votre pays a-t-il pris des mesures concrètes pour prendre en considération la DDTS dans les politiques
+économiques, environnementales et sociales afin d’accroître les effets et l’efficacité de la mise en œuvre de la Convention ?
+Oui
+Non
+Dans l’affirmative, la DDTS a été prise en considération dans (cocher toutes les cases qui s’appliquent) :
+☐ Les politiques économiques
+☒ Les politiques environnementales
+☐ Les politiques sociales
+☐ Les politiques foncières
+☐ Les politiques en matière d’égalité des sexes
+☐ Les politiques agricoles
+46 / 91
+
+--- Page 47 ---
+IF : Cadre de mise en œuvre
+☐ Autre (préciser)
+Utiliser l’espace ci-dessous pour décrire l’expérience de votre pays.
+La Politique Nationale de Protection de l'environnement prend en compte la mise en oeuvre de la Convention à travers les actions de son
+programme Gestion des ressources naturelles.
+Considérez-vous cette expérience comme un succès et, dans l’affirmative, quelles sont, selon vous, les raisons de ce succès
+(ou, dans la négative, de cet échec) ?
+Néant
+Quelles ont été les difficultés rencontrées, le cas échéant ?
+Néant
+Quelles sont, selon vous, les enseignements à retenir à cet égard ?
+Néant
+Politiques relatives à la sécheresse :
+Votre pays a-t-il mis en place ou est-il en train de mettre en place des politiques, des mesures et des modes de gouvernance
+nationaux pour la prévention et la gestion des situations de sécheresse ?
+Oui
+Non
+Utiliser l’espace ci-dessous pour décrire l’expérience de votre pays.
+Le pays dispose du Plan National Sécheresse 2021-2025. Il traduit en effet notre vision pour l’amélioration et le renforcement du niveau de
+préparation et de planification du pays face à la sècheresse. Le plan est axé prioritairement sur les trois piliers suivants : - Mettre en place
+des systèmes de surveillance de la sècheresse et d'alerte précoce ; - Évaluer la vulnérabilité ́et les risques liés à la sècheresse ; - Mettre en
+œuvre des mesures pour mieux répondre à la sècheresse et limiter ses impacts.
+Considérez-vous cette expérience comme un succès et, dans l’affirmative, quelles sont, selon vous, les raisons de ce succès
+(ou, dans la négative, de cet échec) ?
+Néant
+Quelles ont été les difficultés rencontrées, le cas échéant ?
+Néant
+Quelles sont, selon vous, les enseignements à retenir à cet égard ?
+Néant
+Votre pays a-t-il aidé d’autres pays à mettre en place des politiques, des mesures et des modes de gouvernance pour la
+prévention et la gestion des situations de sécheresse, en application de la Convention ?
+Oui
+Non
+47 / 91
+
+--- Page 48 ---
+IF : Cadre de mise en œuvre
+Agir sur le terrain
+Pratiques de gestion durable des terres:
+Votre pays a-t-il mis en œuvre ou est-il en train de mettre en œuvre des pratiques de gestion durable des terres (GDT) pour lutter
+contre la DDTS ?
+Oui
+Non
+Quels types de pratiques de GDT sont mises en œuvre ?
+☒ Agroforesterie
+☒ Fermeture de certaines zones (arrêt de l’utilisation, appui à la régénération)
+☒ Apiculture, pisciculture, etc
+☒ Mesure utilisant la technique des pentes transversales
+☒ Réduction écosystémique des risques de catastrophe
+☒ Efficacité énergétique
+☒ Gestion des plantations forestières
+☒ Jardins familiaux
+☒ Amélioration de la végétation basse/de la couverture végétale
+☒ Amélioration des variétés végétales et des espèces animales
+☒ Gestion intégrée des cultures et du bétail
+☒ Gestion intégrée des nuisibles et des maladies (y compris l’agriculture biologique)
+☒ Gestion intégrée de la fertilité des sols
+☒ Gestion de l’irrigation (y compris l’adduction d’eau, le drainage)
+☒ Réduction au minimum de la perturbation des sols
+☒ Gestion des forêts naturelles et semi-naturelles
+☒ Pastoralisme et gestion des pâturages
+☒ Mesures après-récolte
+☒ Système de rotation (rotation des cultures, jachères, agriculture itinérante)
+☒ Gestion des eaux de surface (source, rivière, lacs, mer)
+☒ Drainage et dérivation de l’eau
+☒ Récupération de l’eau
+☒ Protection/gestion des zones humides
+☒ Brise-vent/rideau brise-vent
+☒ Gestion des déchets/gestion des eaux usées
+☐ Autre (préciser)
+Utiliser l’espace ci-dessous pour fournir de plus amples informations sur l’expérience de votre pays :
+Le Mali utilise tous les paquets technologiques disponibles pour la GDT. Il dispose d'un Cadre Stratégique d’Investissement pour la Gestion
+Durable des Terres (CSI‐GDT) et a défini en 2020 ses cibles nationales de la Neutralité en matière de dégradation des Terres.
+Considérez-vous que les pratiques mises en œuvre sont couronnées de succès et quels sont, selon vous, les principaux
+facteurs de réussite ?
+Des cas de réussite de restauration des écosystèmes existent pour différentes agroécologiques du Mali. Ces réussites sont surtout
+imputables à l'appropriation par les populations des techniques et technologies de GDT.
+Quelles ont été les difficultés rencontrées, le cas échéant ?
+L'insuffisance voire absence de financement pour les activités est l'une des difficultés renontrées. De même, les problèmes fonciers
+48 / 91
+
+--- Page 49 ---
+IF : Cadre de mise en œuvre
+entravent certains investissement en matière de GDT.
+Quelles sont, selon vous, les enseignements à retenir à cet égard ?
+Néant
+Comment avez-vous fait participer les femmes et les jeunes à ces activités ?
+Les femmes et les jeunes ont été favorisés à travers des dispositifs législatifs pour leur accès aux ressources foncières, financières et
+techniques. A titre d'exemple, la loi d'orientation agricole du Mali exigent que 30% des aménagements hydroagricoles soient attribués aux
+femmes.
+Votre pays a-t-il aidé d’autres pays à mettre en œuvre des pratiques de GDT ?
+Oui
+Non
+Restauration et remise en état:
+Votre pays a-t-il mis en application ou est-il en train de mettre en application des pratiques de restauration et de remise en état
+visant à contribuer à rétablir les fonctions et les services fournis par les écosystèmes ?
+Oui
+Non
+Quels types de pratiques de restauration et de remise en état sont mis en application ?
+☒ Restauration/amélioration de l’état des zones boisées
+☒ Augmentation de l’étendue de la zone boisée
+☒ Restauration/amélioration de l’état des terres cultivées
+☒ Restauration/amélioration de l’état des prairies
+☒ Restauration/amélioration de l’état des zones humides
+☒ Accroissement de la fertilité des sols et des réserves de carbone
+☒ Gestion des surfaces artificielles
+☒ Restauration/amélioration de l’état des zones protégées
+☒ Augmentation de l’étendue des zones protégées
+☐ Amélioration de la gestion des côtes
+☒ Dispositif d’ordre général (par exemple, politiques, incitations économiques)
+☒ Rétablissement/amélioration de l’utilisation multiple des terres
+☒ Réduction/arrêt de la conversion des terres à utilisations multiples
+☒ Rétablissement/amélioration des fonctions multiples
+☒ Rétablissement de la productivité et des réserves de carbone organique du sol des terres cultivées et des prairies
+☐ Autre/Général/Non spécifié
+Utiliser l’espace ci-dessous pour fournir de plus amples informations sur l’expérience de votre pays :
+Considérez-vous que les pratiques mises en œuvre sont couronnées de succès et quels sont, selon vous, les principaux
+facteurs de réussite ?
+Quelles ont été les difficultés rencontrées, le cas échéant ?
+49 / 91
+
+--- Page 50 ---
+IF : Cadre de mise en œuvre
+Quelles sont, selon vous, les enseignements à retenir à cet égard ?
+Comment avez-vous fait participer les femmes et les jeunes aux activités de GDT ?
+Votre pays a-t-il aidé d’autres pays à mettre en application des pratiques de régénération et de remise en état visant à contribuer
+à rétablir les fonctions et les services fournis par les écosystèmes ?
+Oui
+Non
+Gestion des risques de sécheresse et systèmes d’alerte rapide :
+Votre pays élabore-t-il un plan de gestion des risques de sécheresse, des systèmes de surveillance ou d’alerte rapide et des
+programmes de protection sociale pour lutter contre la DDTS ?
+Oui
+Non
+Votre pays a-t-il aidé d’autres pays à élaborer des systèmes de gestion des risques de sécheresse, de surveillance ou d’alerte
+rapide et des programmes de protection sociale pour lutter contre la DDTS ?
+Oui
+Non
+Nouveaux moyens de subsistance:
+Votre pays encourage-t-il les pratiques permettant l’adoption de nouveaux moyens de subsistance dans le cadre de la DDTS ?
+Oui
+Non
+Pourriez-vous énumérer quelques pratiques appliquées au niveau national pour promouvoir de nouveaux moyens de
+subsistance ?
+☒ Diversification des cultures
+☒ Pratiques d’agroforesterie
+☒ Pâturage tournant
+☒ Systèmes agricoles pluviaux et irrigués
+☒ Petits jardins potagers
+☒ Production de biens artisanaux
+☒ Production d’énergie renouvelable
+☒ Écotourisme
+☒ Production de plantes médicinales et aromatiques
+☒ Aquaculture utilisant des eaux usées recyclées
+☐ Autre (préciser)
+Utiliser l’espace ci-dessous pour décrire l’expérience de votre pays.
+Considérez-vous cette expérience comme un succès et, dans l’affirmative, quelles sont, selon vous, les raisons de ce succès
+(ou, dans la négative, de cet échec) ?
+50 / 91
+
+--- Page 51 ---
+IF : Cadre de mise en œuvre
+Quelles ont été les difficultés rencontrées, le cas échéant ?
+Quelles sont, selon vous, les enseignements à retenir à cet égard ?
+Considérez-vous que votre pays prend des mesures particulières visant à faire participer les femmes et les jeunes à la
+promotion de nouveaux moyens de subsistance ?
+Oui
+Non
+Mise en place de systèmes de partage des connaissances :
+Votre pays a-t-il mis en place des systèmes de partage des informations et des connaissances sur les meilleures pratiques et
+méthodes de gestion des situations de sécheresse et de facilitation de la constitution de réseaux en la matière ?
+Oui
+Non
+Considérez-vous que votre pays a pris des mesures visant à favoriser l’accès des femmes aux connaissances et aux
+technologies ?
+Oui
+Non
+51 / 91
+
+--- Page 52 ---
+Autres fichiers pour le rapport
+Mali - SO5-1 recipient Télécharger 180,9 Kio
+52 / 91
+
+--- Page 53 ---
+Mali – SO1-1.M1
+Land cover in the initial year of the baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• European Space Agency Climate Change Initiative Land Cover (ESA CCI-LC) product, 1992-2019. URL: https://www.esa-landcover-cci.org/
+53 / 91
+
+--- Page 54 ---
+Mali – SO1-1.M2
+Land cover in the baseline year
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• European Space Agency Climate Change Initiative Land Cover (ESA CCI-LC) product, 1992-2019. URL: https://www.esa-landcover-cci.org/
+54 / 91
+
+--- Page 55 ---
+Mali – SO1-1.M3
+Land cover in the latest reporting year
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• European Space Agency Climate Change Initiative Land Cover (ESA CCI-LC) product, 1992-2019. URL: https://www.esa-landcover-cci.org/
+55 / 91
+
+--- Page 56 ---
+Mali – SO1-1.M4
+Land cover change in the baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• European Space Agency Climate Change Initiative Land Cover (ESA CCI-LC) product, 1992-2019. URL: https://www.esa-landcover-cci.org/
+56 / 91
+
+--- Page 57 ---
+Mali – SO1-1.M5
+Land cover change in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• European Space Agency Climate Change Initiative Land Cover (ESA CCI-LC) product, 1992-2019. URL: https://www.esa-landcover-cci.org/
+57 / 91
+
+--- Page 58 ---
+Mali – SO1-1.M6
+Land cover degradation in the baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• European Space Agency Climate Change Initiative Land Cover (ESA CCI-LC) product, 1992-2019. URL: https://www.esa-landcover-cci.org/
+58 / 91
+
+--- Page 59 ---
+Mali – SO1-1.M7
+Land cover degradation in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• European Space Agency Climate Change Initiative Land Cover (ESA CCI-LC) product, 1992-2019. URL: https://www.esa-landcover-cci.org/
+59 / 91
+
+--- Page 60 ---
+Mali – SO1-2.M1
+Land productivity dynamics in the baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• EC-JRC, 2021, based on Xavier Rotllan-Puig, Eva Ivits, Michael Cherlet, LPDynR: A new tool to calculate the land productivity dynamics indicator, Ecological Indicators, Volume 133, 2021, 108386, ISSN
+1470-160X. URL: https://doi.org/10.1016/j.ecolind.2021.108386
+60 / 91
+
+--- Page 61 ---
+Mali – SO1-2.M2
+Land productivity dynamics in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• EC-JRC, 2021, based on Xavier Rotllan-Puig, Eva Ivits, Michael Cherlet, LPDynR: A new tool to calculate the land productivity dynamics indicator, Ecological Indicators, Volume 133, 2021, 108386, ISSN
+1470-160X. URL: https://doi.org/10.1016/j.ecolind.2021.108386
+61 / 91
+
+--- Page 62 ---
+Mali – SO1-2.M3
+Land productivity degradation in the baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• EC-JRC, 2021, based on Xavier Rotllan-Puig, Eva Ivits, Michael Cherlet, LPDynR: A new tool to calculate the land productivity dynamics indicator, Ecological Indicators, Volume 133, 2021, 108386, ISSN
+1470-160X. URL: https://doi.org/10.1016/j.ecolind.2021.108386
+62 / 91
+
+--- Page 63 ---
+Mali – SO1-2.M4
+Land productivity degradation in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• EC-JRC, 2021, based on Xavier Rotllan-Puig, Eva Ivits, Michael Cherlet, LPDynR: A new tool to calculate the land productivity dynamics indicator, Ecological Indicators, Volume 133, 2021, 108386, ISSN
+1470-160X. URL: https://doi.org/10.1016/j.ecolind.2021.108386
+63 / 91
+
+--- Page 64 ---
+Mali – SO1-3.M1
+Soil organic carbon stock in the initial year of the baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• International Soil Reference and Information Centre (ISRIC) SoilGrids250m dataset. URL: https://www.isric.org/explore/soilgrids
+64 / 91
+
+--- Page 65 ---
+Mali – SO1-3.M2
+Soil organic carbon stock in the baseline year
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• International Soil Reference and Information Centre (ISRIC) SoilGrids250m dataset. URL: https://www.isric.org/explore/soilgrids
+65 / 91
+
+--- Page 66 ---
+Mali – SO1-3.M3
+Soil organic carbon stock in the latest reporting year
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• International Soil Reference and Information Centre (ISRIC) SoilGrids250m dataset. URL: https://www.isric.org/explore/soilgrids
+66 / 91
+
+--- Page 67 ---
+Mali – SO1-3.M4
+Change in soil organic carbon stock in the baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• International Soil Reference and Information Centre (ISRIC) SoilGrids250m dataset. URL: https://www.isric.org/explore/soilgrids
+67 / 91
+
+--- Page 68 ---
+Mali – SO1-3.M5
+Change in soil organic carbon stock in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• International Soil Reference and Information Centre (ISRIC) SoilGrids250m dataset. URL: https://www.isric.org/explore/soilgrids
+68 / 91
+
+--- Page 69 ---
+Mali – SO1-3.M6
+Soil organic carbon degradation in the baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• International Soil Reference and Information Centre (ISRIC) SoilGrids250m dataset. URL: https://www.isric.org/explore/soilgrids
+69 / 91
+
+--- Page 70 ---
+Mali – SO1-3.M7
+Soil organic carbon degradation in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• International Soil Reference and Information Centre (ISRIC) SoilGrids250m dataset. URL: https://www.isric.org/explore/soilgrids
+70 / 91
+
+--- Page 71 ---
+Mali – SO1-4.M1
+Proportion of land that is degraded over total land area (SDG Indicator 15.3.1) in the baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Derived based on the methodology in the Good Practice Guidance Version 2 for Sustainable Development Goal (SDG) indicator 15.3.1 - Proportion of land that is degraded over total land area. URL:
+https://www.unccd.int/publications/good-practice-guidance-sdg-indicator-1531-proportion-land-degraded-over-total-land
+71 / 91
+
+--- Page 72 ---
+Mali – SO1-4.M2
+Proportion of land that is degraded over total land area (SDG Indicator 15.3.1) in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Derived based on the methodology in the Good Practice Guidance Version 2 for Sustainable Development Goal (SDG) indicator 15.3.1 - Proportion of land that is degraded over total land area. URL:
+https://www.unccd.int/publications/good-practice-guidance-sdg-indicator-1531-proportion-land-degraded-over-total-land
+72 / 91
+
+--- Page 73 ---
+Mali – SO1-4.M3
+Progress towards Land Degradation Neutrality (LDN) in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Derived based on the methodology in the Good Practice Guidance Version 2 for Sustainable Development Goal (SDG) indicator 15.3.1 - Proportion of land that is degraded over total land area. URL:
+https://www.unccd.int/publications/good-practice-guidance-sdg-indicator-1531-proportion-land-degraded-over-total-land
+73 / 91
+
+--- Page 74 ---
+Mali – SO2-3.M1
+Total Population exposed to land degradation (baseline)
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• WorldPop project URL: https://www.worldpop.org
+74 / 91
+
+--- Page 75 ---
+Mali – SO2-3.M2
+Female Population exposed to land degradation (baseline)
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• WorldPop project URL: https://www.worldpop.org
+75 / 91
+
+--- Page 76 ---
+Mali – SO2-3.M3
+Male Population exposed to land degradation (baseline)
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• WorldPop project URL: https://www.worldpop.org
+76 / 91
+
+--- Page 77 ---
+Mali – SO2-3.M4
+Total Population exposed to land degradation (reporting)
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• WorldPop project URL: https://www.worldpop.org
+77 / 91
+
+--- Page 78 ---
+Mali – SO2-3.M5
+Female Population exposed to land degradation (reporting)
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• WorldPop project URL: https://www.worldpop.org
+78 / 91
+
+--- Page 79 ---
+Mali – SO2-3.M6
+Male Population exposed to land degradation (reporting)
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• WorldPop project URL: https://www.worldpop.org
+79 / 91
+
+--- Page 80 ---
+Mali – SO3-1.M1
+Drought hazard in first epoch of baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+80 / 91
+
+--- Page 81 ---
+Mali – SO3-1.M2
+Drought hazard in second epoch of baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+81 / 91
+
+--- Page 82 ---
+Mali – SO3-1.M3
+Drought hazard in third epoch of baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+82 / 91
+
+--- Page 83 ---
+Mali – SO3-1.M4
+Drought hazard in fourth epoch of baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+83 / 91
+
+--- Page 84 ---
+Mali – SO3-1.M5
+Drought hazard in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+84 / 91
+
+--- Page 85 ---
+Mali – SO3-2.M1
+Drought exposure in first epoch of baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+85 / 91
+
+--- Page 86 ---
+Mali – SO3-2.M2
+Drought exposure in second epoch of baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+86 / 91
+
+--- Page 87 ---
+Mali – SO3-2.M3
+Drought exposure in third epoch of baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+87 / 91
+
+--- Page 88 ---
+Mali – SO3-2.M4
+Drought exposure in fourth epoch of baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+88 / 91
+
+--- Page 89 ---
+Mali – SO3-2.M5
+Drought exposure in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+89 / 91
+
+--- Page 90 ---
+Mali – SO3-2.M6
+Female drought exposure in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+90 / 91
+
+--- Page 91 ---
+Mali – SO3-2.M7
+Male drought exposure in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+91 / 91

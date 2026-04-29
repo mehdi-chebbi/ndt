@@ -41,11 +41,15 @@ You have access to the platform's database to retrieve real data. When a user as
 To query the database, respond with ONLY a valid JSON object — no text before or after, no markdown, no explanation:
 {"tools": [{"name": "<tool_name>", "args": {"<arg1>": "<value1>"}}, {"name": "<tool_name2>", "args": {}}]}
 
-CRITICAL FORMAT RULES:
-- The entire response must be ONLY the JSON object — nothing else
-- ALL tools must be inside the single "tools" array — never output two separate JSON objects
+⚠️ ABSOLUTE RULE: When you decide to use tools, your ENTIRE response must be ONLY the JSON object starting with { — ABSOLUTELY NO text before it.
+- Do NOT write "Let me check", "Sure!", "I'll look that up", or ANY other text before the JSON
+- Do NOT write any text after the JSON either
+- The VERY FIRST character of your response MUST be { — if it is not, the tool call will fail
+- ALL tools must be inside a single "tools" array — never output two separate JSON objects
 - Valid: {"tools": [{"name": "get_country_stats", "args": {...}}, {"name": "show_country_on_map", "args": {...}}]}
-- Invalid: {"tools": [...]} {"tools": [...]}  ← two objects is WRONG
+- Invalid: Sure, let me look that up. {"tools": [...]}  ← WRONG: text before JSON
+- Invalid: {"tools": [...]} Here are the results  ← WRONG: text after JSON
+- Invalid: {"tools": [...]} {"tools": [...]}  ← WRONG: two objects
 
 Available tools:
 
@@ -84,11 +88,21 @@ Available tools:
    - Use when: user asks about a specific country and you want to show it on the map (e.g. "show me Tunisia's land cover", "what's the LC of Algeria?", "display Kenya on the map")
    - IMPORTANT: ALWAYS call this tool when a user asks about a specific country+layer combination, alongside get_country_stats. This makes the map automatically zoom to the country and show the clipped data.
 
+5. compare_country_layers
+   - Description: Compare statistics for a country across ALL layers matching a keyword. Automatically finds every layer matching the search term, queries stats for each one, and returns a structured comparison. Use this for any request involving comparison, trends over time, or when multiple layers share a common theme (e.g. all SPI periods, all land cover change layers).
+   - Args:
+     - country (string, required): country name in English (e.g. "Nigeria", "Algeria", "Kenya")
+     - search (string, required): keyword to find matching layers (e.g. "SPI", "land cover change", "water access")
+     - group (string, optional): filter by group/category name to narrow results
+   - Returns: comparison object with stats for each matching layer, or status info if no data found
+   - Use when: user asks to compare, view trends, or see data across multiple periods/variations (e.g. "compare Togo SPI across all years", "show me Tunisia land cover change", "Algeria water access trends", "compare all SPI periods")
+   - IMPORTANT: This is the PREFERRED tool for any comparison or multi-period request. Do NOT call get_country_stats multiple times — use this single tool instead. The backend handles finding all matching layers and querying them efficiently.
+
 KNOWLEDGE BASE:
 ${knowledgeInfo}
 The knowledge base contains official government and organizational documents (policies, action plans, frameworks, reports). When a user asks about policies, regulations, official programs, or any topic that might be covered in such documents, ALWAYS use the search_knowledge tool. Do NOT guess or make up policy information — search the knowledge base first.
 
-5. search_knowledge
+6. search_knowledge
    - Description: Search the platform's knowledge base of official documents for relevant information about policies, frameworks, reports, regulations, government programs, or any topic covered in official documents.
    - Args:
      - query (string, required): search terms describing what information is needed (e.g. "land degradation policy Benin", "water access framework Algeria")
@@ -439,6 +453,7 @@ async function getCountryStats(args: Record<string, any>): Promise<any> {
     status: 'found',
     country: countryName,
     layer: {
+      id: layer.id,
       name: layer.geoserver_name,
       display_name: layer.display_name,
       group: layer.group_name,
@@ -544,6 +559,181 @@ async function getCountriesForLayer(args: Record<string, any>): Promise<any> {
   };
 }
 
+async function compareCountryLayers(args: Record<string, any>): Promise<any> {
+  const country = args.country ? String(args.country) : null;
+  const search = args.search ? String(args.search) : null;
+  const groupKeyword = args.group ? String(args.group) : null;
+
+  if (!country || !search) {
+    return { status: 'error', message: '"country" and "search" are required' };
+  }
+
+  // Find ALL layers matching the search keyword
+  let layerQuery = `
+    SELECT l.id, l.geoserver_name, l.display_name, g.name as group_name
+    FROM layers l
+    LEFT JOIN layer_groups g ON l.group_id = g.id
+    WHERE l.is_active = true
+      AND (l.geoserver_name ILIKE $1 OR l.display_name ILIKE $1)
+  `;
+  const layerParams: any[] = [`%${search}%`];
+
+  if (groupKeyword) {
+    layerQuery += ` AND g.name ILIKE $2`;
+    layerParams.push(`%${groupKeyword}%`);
+  }
+
+  layerQuery += ` ORDER BY l.display_name ASC`;
+
+  const layerResult = await pool.query(layerQuery, layerParams);
+
+  if (layerResult.rows.length === 0) {
+    return {
+      status: 'not_found',
+      message: `No layers found matching "${search}"${groupKeyword ? ` in group "${groupKeyword}"` : ''}`,
+    };
+  }
+
+  // Query stats for each matching layer in parallel
+  const results = await Promise.all(
+    layerResult.rows.map(async (layer: any) => {
+      try {
+        const statsResult = await pool.query(
+          `SELECT country_file, total_area_km2, pixel_size_m, class_stats, computed_at
+           FROM country_stats
+           WHERE layer_id = $1 AND country_file ILIKE $2`,
+          [layer.id, `%${country}%`],
+        );
+
+        if (statsResult.rows.length === 0) {
+          return {
+            layer: {
+              id: layer.id,
+              name: layer.geoserver_name,
+              display_name: layer.display_name,
+              group: layer.group_name,
+            },
+            status: 'no_stats',
+            message: `No stats for "${country}" on this layer`,
+          };
+        }
+
+        const stats = statsResult.rows[0];
+        const countryName = stats.country_file.replace('.geojson', '');
+
+        const layerInfo = await pool.query('SELECT class_labels FROM layers WHERE id = $1', [layer.id]);
+        const classLabels = layerInfo.rows[0]?.class_labels || {};
+
+        const classStatsRaw = stats.class_stats || {};
+        const classStatsArray = Array.isArray(classStatsRaw)
+          ? classStatsRaw
+          : Object.values(classStatsRaw);
+        const totalPixels = classStatsArray.reduce(
+          (sum: number, c: any) => sum + (c.pixels || 0),
+          0,
+        );
+
+        const formattedClasses = classStatsArray.map((data: any) => {
+          const classId = String(data.class_id ?? '');
+          return {
+            class_id: classId,
+            class_name: data.class_name || classLabels[classId] || `Unknown (${classId})`,
+            pixels: data.pixels || 0,
+            area_km2: data.area_km2 || 0,
+            percentage: totalPixels > 0 ? Math.round(((data.pixels || 0) / totalPixels) * 1000) / 10 : 0,
+          };
+        });
+
+        return {
+          layer: {
+            id: layer.id,
+            name: layer.geoserver_name,
+            display_name: layer.display_name,
+            group: layer.group_name,
+          },
+          status: 'found',
+          country: countryName,
+          total_area_km2: stats.total_area_km2,
+          pixel_size_m: stats.pixel_size_m,
+          classes: formattedClasses,
+          computed_at: stats.computed_at,
+        };
+      } catch (error: any) {
+        return {
+          layer: {
+            id: layer.id,
+            name: layer.geoserver_name,
+            display_name: layer.display_name,
+            group: layer.group_name,
+          },
+          status: 'error',
+          message: error.message,
+        };
+      }
+    }),
+  );
+
+  const foundCount = results.filter((r) => r.status === 'found').length;
+
+  if (foundCount === 0) {
+    return {
+      status: 'no_stats',
+      message: `No pre-computed stats found for "${country}" on any layer matching "${search}"`,
+      layers_searched: layerResult.rows.length,
+      results,
+    };
+  }
+
+  return {
+    status: 'found',
+    country,
+    comparison: results,
+    total_layers: results.length,
+    layers_with_data: foundCount,
+  };
+}
+
+// ── Auto map-action helper ─────────────────────────────────────────
+
+/**
+ * Look up the clipped layer cache for a given country + layer ID.
+ * Returns the map_action payload if a clipped layer exists, or null.
+ */
+async function lookupClippedLayer(country: string, layerId: number): Promise<{
+  type: 'map_action';
+  country: string;
+  countryFile: string;
+  clippedLayerName: string;
+  workspace: string | null;
+  originalLayerName: string;
+  layerId: number;
+} | null> {
+  const countryFile = `${country}.geojson`;
+  const cacheResult = await pool.query(
+    'SELECT clipped_layer_name FROM clipped_layers_cache WHERE country_file ILIKE $1 AND layer_id = $2',
+    [countryFile, layerId],
+  );
+  if (cacheResult.rows.length === 0) return null;
+
+  const clippedLayerName = cacheResult.rows[0].clipped_layer_name;
+  const layerResult = await pool.query(
+    'SELECT geoserver_name FROM layers WHERE id = $1',
+    [layerId],
+  );
+  const originalLayerName = layerResult.rows[0]?.geoserver_name || '';
+  const [workspace] = clippedLayerName.includes(':') ? clippedLayerName.split(':') : [null, clippedLayerName];
+
+  return {
+    type: 'map_action',
+    country,
+    countryFile,
+    clippedLayerName,
+    workspace,
+    originalLayerName,
+    layerId,
+  };
+}
+
 // ── Tool Registry ──────────────────────────────────────────────────
 
 async function searchKnowledge(args: Record<string, any>): Promise<any> {
@@ -582,6 +772,7 @@ const toolRegistry: Record<string, (args: Record<string, any>) => Promise<any>> 
   get_countries_for_layer: getCountriesForLayer,
   show_country_on_map: showCountryOnMap,
   search_knowledge: searchKnowledge,
+  compare_country_layers: compareCountryLayers,
 };
 
 // ── Tool Call Parsing ──────────────────────────────────────────────
@@ -732,19 +923,26 @@ function validateAiConfig(): { ok: boolean; error?: string } {
   return { ok: true };
 }
 
-// ── Round 1: Smart-peek streaming ─────────────────────────────────
+// ── Round 1: Delayed-commit streaming ─────────────────────────────
+
+const TOOL_MARKER = '{"tools"';
+const SPECULATION_LIMIT = 400; // chars to buffer speculatively before committing to direct response
 
 /**
- * Stream the AI response, but peek at the very first non-whitespace character
- * before forwarding anything to the client.
+ * Stream the AI response using delayed-commit logic.
  *
- * Decision logic (made after seeing the first visible character):
- *   - Starts with `{` → potential tool call, keep buffering silently until done
- *   - Anything else  → definitely NOT a tool call, flush buffered chunks and
- *                      switch to live streaming for the rest
+ * Instead of deciding based on the first character (which fails when the AI
+ * prefixes conversational text before a tool-call JSON), we buffer
+ * speculatively until one of these conditions is met:
+ *   1. {"tools" found in accumulated text → tool call detected, buffer silently
+ *   2. Speculation limit reached without {"tools" → commit to direct response, flush & stream
+ *   3. Stream ends while still speculating → short response, decide now
+ *
+ * Additionally, after committing to direct-response mode, we keep scanning for
+ * {"tools" as a safety net. If found mid-stream, we emit a reset_to_searching
+ * event so the frontend can clear the partial message and switch to loading state.
  *
  * Returns { text: full accumulated response, streamed: whether client received chunks }
- * so the caller knows whether it still needs to send the content or it's already gone.
  */
 async function round1SmartStream(
   res: Response,
@@ -771,53 +969,97 @@ async function round1SmartStream(
   const decoder = new TextDecoder();
   let buffer = '';
   let accumulated = '';
-  let streamed = false;     // have we started forwarding chunks to the client?
-  let decided = false;      // have we made the tool-call/direct-response decision?
+  let streamed = false;        // have we started forwarding chunks to the client?
+  let isToolCall = false;       // have we determined this is a tool call?
+  let committed = false;       // have we committed to either streaming or buffering?
+  let toolCallLeaked = false;   // did a tool call appear after we already started streaming?
+
+  function processSseLine(line: string) {
+    const trimmed = line.trim();
+    if (!trimmed || trimmed === 'data: [DONE]') return;
+
+    if (!trimmed.startsWith('data: ')) return;
+
+    try {
+      const parsed = JSON.parse(trimmed.slice(6));
+      const content = parsed.choices?.[0]?.delta?.content;
+      if (!content) return;
+
+      accumulated += content;
+
+      if (!committed) {
+        // Still speculating — haven't committed to streaming or buffering yet
+        const trimmedAccumulated = accumulated.trimStart();
+
+        // Check if {"tools" marker appears anywhere in the accumulated text
+        if (trimmedAccumulated.includes(TOOL_MARKER)) {
+          // Tool call detected (possibly with prefix text)
+          isToolCall = true;
+          committed = true;
+          streamed = false;
+          // Do NOT send anything to client — buffer silently
+          aiLogger.info('Delayed-commit: tool call detected during speculation');
+        } else if (trimmedAccumulated.length >= SPECULATION_LIMIT) {
+          // Speculation limit reached without seeing {"tools" — commit to direct response
+          isToolCall = false;
+          committed = true;
+          streamed = true;
+          // Flush the entire speculative buffer to client
+          res.write(`data: ${JSON.stringify({ content: accumulated })}\n\n`);
+          aiLogger.info('Delayed-commit: speculation limit reached, flushing as direct response');
+        }
+        // else: still within speculation window, keep buffering silently
+      } else if (streamed && !toolCallLeaked) {
+        // Already committed to streaming — forward each chunk, but watch for late tool markers
+        if (accumulated.includes(TOOL_MARKER)) {
+          // Tool call appeared mid-stream after we already started streaming!
+          toolCallLeaked = true;
+          // Tell the frontend to clear the partial message and switch to searching state
+          res.write(`data: ${JSON.stringify({ type: 'reset_to_searching' })}\n\n`);
+          aiLogger.info('Delayed-commit: tool marker found mid-stream, emitting reset_to_searching');
+          // Do NOT forward any more content chunks
+        } else {
+          res.write(`data: ${JSON.stringify({ content })}\n\n`);
+        }
+      } else if (streamed && toolCallLeaked) {
+        // Tool call already leaked — stop forwarding content, buffer silently for tool execution
+      }
+      // else: committed to tool call path (streamed=false) — keep buffering silently
+    } catch {
+      // Non-critical SSE parse error, skip
+    }
+  }
 
   while (true) {
     const { done, value } = await reader.read();
-    if (done) break;
+
+    if (done) {
+      // Flush any remaining buffer before breaking
+      if (buffer.trim()) {
+        processSseLine(buffer);
+        buffer = '';
+      }
+      break;
+    }
 
     buffer += decoder.decode(value, { stream: true });
     const lines = buffer.split('\n');
     buffer = lines.pop() || '';
 
     for (const line of lines) {
-      const trimmed = line.trim();
-      if (!trimmed || trimmed === 'data: [DONE]') continue;
+      processSseLine(line);
+    }
+  }
 
-      if (trimmed.startsWith('data: ')) {
-        try {
-          const parsed = JSON.parse(trimmed.slice(6));
-          const content = parsed.choices?.[0]?.delta?.content;
-          if (!content) continue;
-
-          accumulated += content;
-
-          if (!decided) {
-            // Wait until we have at least one visible (non-whitespace) character
-            const firstVisible = accumulated.trimStart()[0];
-            if (!firstVisible) continue; // still only whitespace, keep buffering
-
-            decided = true;
-
-            if (firstVisible === '{') {
-              // Might be a tool call — buffer silently, do NOT stream to client
-              streamed = false;
-            } else {
-              // Definitely NOT a tool call — flush everything buffered so far and stream
-              streamed = true;
-              res.write(`data: ${JSON.stringify({ content: accumulated })}\n\n`);
-            }
-          } else if (streamed) {
-            // Decision already made and we're in streaming mode — forward each chunk
-            res.write(`data: ${JSON.stringify({ content })}\n\n`);
-          }
-          // else: decided=true, streamed=false → tool call path, keep buffering silently
-        } catch {
-          // Non-critical parse error, skip
-        }
-      }
+  // If we never committed (very short response), decide now
+  if (!committed) {
+    const trimmedAccumulated = accumulated.trimStart();
+    if (trimmedAccumulated.includes(TOOL_MARKER)) {
+      isToolCall = true;
+      streamed = false;
+    } else {
+      isToolCall = false;
+      streamed = false; // Will be flushed as a single chunk by the caller
     }
   }
 
@@ -834,6 +1076,7 @@ async function streamAiToClient(
   res: Response,
   messages: ApiMessage[],
   eventType?: string, // optional type field for SSE events (used by analyzeAreaWithAI)
+  filterToolJson: boolean = false, // if true, suppress {"tools" leaks mid-stream
 ): Promise<string> {
   const response = await fetch(`${process.env.AI_BASE_URL!}/chat/completions`, {
     method: 'POST',
@@ -856,10 +1099,28 @@ async function streamAiToClient(
   const decoder = new TextDecoder();
   let buffer = '';
   let accumulated = '';
+  let toolJsonLeaked = false; // track if we detected a tool JSON leak
 
   while (true) {
     const { done, value } = await reader.read();
-    if (done) break;
+    if (done) {
+      // Flush any remaining buffer before breaking
+      if (buffer.trim()) {
+        // process the last line inline (no function call needed here)
+        const trimmed = buffer.trim();
+        if (trimmed && trimmed !== 'data: [DONE]' && trimmed.startsWith('data: ')) {
+          try {
+            const parsed = JSON.parse(trimmed.slice(6));
+            const content = parsed.choices?.[0]?.delta?.content;
+            if (content) {
+              accumulated += content;
+            }
+          } catch { /* skip */ }
+        }
+        buffer = '';
+      }
+      break;
+    }
 
     buffer += decoder.decode(value, { stream: true });
     const lines = buffer.split('\n');
@@ -875,6 +1136,22 @@ async function streamAiToClient(
           const content = parsed.choices?.[0]?.delta?.content;
           if (content) {
             accumulated += content;
+
+            // Guard: if filtering is on and we detect a tool JSON leak, stop forwarding
+            if (filterToolJson && !toolJsonLeaked && accumulated.includes(TOOL_MARKER)) {
+              toolJsonLeaked = true;
+              aiLogger.warning('Round 2: tool JSON leak detected — suppressing output');
+              // Send reset_to_searching so frontend clears partial content
+              res.write(`data: ${JSON.stringify({ type: 'reset_to_searching' })}\n\n`);
+              // Don't forward this chunk
+              continue;
+            }
+
+            if (toolJsonLeaked) {
+              // Still accumulating for DB storage but not forwarding to client
+              continue;
+            }
+
             const payload = eventType ? { type: eventType, content } : { content };
             res.write(`data: ${JSON.stringify(payload)}\n\n`);
           }
@@ -883,6 +1160,19 @@ async function streamAiToClient(
         }
       }
     }
+  }
+
+  // If tool JSON leaked, strip it from the stored response
+  if (toolJsonLeaked) {
+    const toolMatch = accumulated.match(/\{[\s\S]*?"tools"[\s\S]*\}/);
+    if (toolMatch) {
+      accumulated = accumulated.replace(toolMatch[0], '').trim();
+    }
+    // Send a clean fallback message
+    if (!accumulated) {
+      accumulated = 'I retrieved the data but encountered an issue formatting the response. Please try again.';
+    }
+    res.write(`data: ${JSON.stringify({ content: accumulated })}\n\n`);
   }
 
   return accumulated;
@@ -994,23 +1284,22 @@ export async function chat(req: Request, res: Response) {
     res.flushHeaders();
 
     // ═══════════════════════════════════════════════════════════════
-    // ROUND 1: Smart-peek streaming
-    // Peeks at the first non-whitespace character to decide:
-    //   '{' → potential tool call, buffer silently until done
-    //   else → direct response, stream live to client
+    // ROUND 1: Delayed-commit streaming
+    // Buffers speculatively, scans for {"tools" marker, and commits
+    // only when confident about the response type.
     // ═══════════════════════════════════════════════════════════════
 
     let round1Text: string;
     let round1Streamed: boolean;
     try {
-      aiLogger.info('Round 1: Smart-peek streaming...');
+      aiLogger.info('Round 1: Delayed-commit streaming...');
       const result = await round1SmartStream(res, apiMessages);
       round1Text = result.text;
       round1Streamed = result.streamed;
       aiLogger.info('Round 1 complete', {
         length: round1Text.length,
         streamed: round1Streamed,
-        hasTools: round1Text.trimStart().startsWith('{'),
+        hasToolMarker: round1Text.includes(TOOL_MARKER),
       });
     } catch (error: any) {
       aiLogger.error('Round 1 failed', error);
@@ -1030,9 +1319,38 @@ export async function chat(req: Request, res: Response) {
     if (!toolCalls) {
       // ═══════════════════════════════════════════════════════════
       // NO TOOLS — direct response
-      // If already streamed chunk-by-chunk, just close the connection.
-      // If buffered (started with '{' but wasn't a tool call), send now.
       // ═══════════════════════════════════════════════════════════
+
+      // Guard: if the response looks like it was attempting a tool call
+      // (contains {"tools") but parsing failed, don't dump raw JSON to user
+      const looksLikeToolCall = round1Text.includes(TOOL_MARKER);
+
+      if (looksLikeToolCall) {
+        aiLogger.warning('Response contains tool marker but parsing failed — sending fallback message', {
+          textLength: round1Text.length,
+        });
+
+        await pool.query(
+          'INSERT INTO chat_messages (session_id, role, content) VALUES ($1, $2, $3)',
+          [sessionId, 'assistant', round1Text],
+        );
+
+        if (!round1Streamed) {
+          res.write(`data: ${JSON.stringify({ content: 'I encountered an issue retrieving that data. Please try again.' })}\n\n`);
+        }
+        // If round1Streamed was true, a reset_to_searching may have already been sent,
+        // or partial text was shown. Send a follow-up error.
+        if (round1Streamed) {
+          res.write(`data: ${JSON.stringify({ content: '\n\nI encountered an issue retrieving that data. Please try again.' })}\n\n`);
+        }
+
+        res.write('data: [DONE]\n\n');
+        res.end();
+
+        aiLogger.success(`Request [${requestId}] completed (tool parse failure — fallback)`);
+        aiLogger.separator();
+        return;
+      }
 
       aiLogger.info('No tool calls — finalizing direct response', { round1Streamed });
 
@@ -1046,7 +1364,7 @@ export async function chat(req: Request, res: Response) {
       );
 
       if (!round1Streamed) {
-        // Buffered (response started with '{' but wasn't a tool call) — send now
+        // Buffered during speculation but turned out to be a direct response — send now
         res.write(`data: ${JSON.stringify({ content: round1Text })}\n\n`);
       }
 
@@ -1077,7 +1395,12 @@ export async function chat(req: Request, res: Response) {
       results: toolResults.map((r) => ({ tool: r.tool, status: r.status })),
     });
 
-    // Emit map_action SSE events for clipped layer results
+    // Emit map_action SSE events — automatically for any tool returning country+layer data
+    // 1. Explicit show_country_on_map calls (still supported)
+    // 2. Auto-triggered after get_country_stats success
+    // 3. Auto-triggered after compare_country_layers (shows last layer with data)
+    const mapActionCandidates: { country: string; layerId: number }[] = [];
+
     for (const result of toolResults) {
       if (result.tool === 'show_country_on_map' && result.status === 'clipped' && result.data) {
         const mapAction = {
@@ -1090,7 +1413,36 @@ export async function chat(req: Request, res: Response) {
           layerId: result.data.layer?.id,
         };
         res.write(`data: ${JSON.stringify(mapAction)}\n\n`);
-        aiLogger.info('Emitted map_action SSE event', { mapAction });
+        aiLogger.info('Emitted map_action SSE event (explicit)', { mapAction });
+      } else if (result.tool === 'get_country_stats' && result.status === 'found' && result.data) {
+        mapActionCandidates.push({
+          country: result.data.country,
+          layerId: result.data.layer?.id,
+        });
+      } else if (result.tool === 'compare_country_layers' && result.status === 'found' && result.data) {
+        // Find the LAST layer with data in the comparison
+        const comparison: any[] = result.data.comparison || [];
+        const withData = comparison.filter((c: any) => c.status === 'found');
+        if (withData.length > 0) {
+          const lastWithData = withData[withData.length - 1];
+          mapActionCandidates.push({
+            country: result.data.country,
+            layerId: lastWithData.layer?.id,
+          });
+        }
+      }
+    }
+
+    // Auto-emit map_action for candidates (get_country_stats / compare_country_layers)
+    for (const candidate of mapActionCandidates) {
+      try {
+        const mapAction = await lookupClippedLayer(candidate.country, candidate.layerId);
+        if (mapAction) {
+          res.write(`data: ${JSON.stringify(mapAction)}\n\n`);
+          aiLogger.info('Emitted map_action SSE event (auto)', { mapAction });
+        }
+      } catch (err: any) {
+        aiLogger.warning('Failed to auto-lookup clipped layer', { error: err.message });
       }
     }
 
@@ -1121,11 +1473,12 @@ export async function chat(req: Request, res: Response) {
       ...apiMessages,
       { role: 'assistant', content: JSON.stringify({ tools: toolCalls }) },
       { role: 'system', content: dbResultsMessage },
+      { role: 'system', content: 'IMPORTANT: You have already called the tools and received the results above. Do NOT output any tool-call JSON (like {"tools": [...]}) in your response now. Respond ONLY with natural language analysis of the data. Never echo back the tool JSON or raw database output.' },
     ];
 
     let round2Content: string;
     try {
-      round2Content = await streamAiToClient(res, round2Messages);
+      round2Content = await streamAiToClient(res, round2Messages, undefined, true);
     } catch (error: any) {
       aiLogger.error('Round 2 failed', error);
       res.write(

@@ -1,0 +1,1445 @@
+--- Page 1 ---
+LIBERIA NATIONAL DROUGHT PLAN
+Environmental Protection Agency
+Republic of Liberia
+March, 2019
+0
+
+--- Page 2 ---
+TABLE OF CONTENTS Page
+Acknowledgement…………………………………………………………………………....3
+Acronyms……………………………………………………………………………………..4
+Executive Summary…………………………………………………………………………..6
+1.0 Introduction……………………………………………………………………………...9
+1.1 Background…………………………………………………………………………..9
+1.2 Purpose……………………………………………………………………………...10
+1.3 Goals and Objectives………………………………………………………………..10
+2.0 National Drought Circumstances……………………………………………………...11
+2.1 Overview of Drought in Liberia……………………………………………………..11
+2.2 Potential Drought Impact by Sectors………………………………………………...12
+2.3 Existing Legal and Policy Framework Influencing Drought Management………….16
+3.0 Drought Monitoring, Forecasting and Impact Assessment………………………….25
+3.1 Drought Indices……………………………………………………………………...25
+3.2 Drought Monitoring, Forecasting…………………………………………………....29
+3.3 Drought Impact Assessment…………………………………………………………30
+4.0 Drought Risk and Vulnerability Profile………………………………………………32
+4.1 Agriculture…………………………………………………………………………...32
+4.2 Forestry………………………………………………………………………………33
+4.3 Fisheries………………………………………………………………………...……33
+4.4 Health………………………………………………………………………...………34
+4.5 Gender………………………………………………………………………...……...34
+5.0 Strategy for Drought Management……………………………………………...…….35
+5.1 Overall Vision………………………………………………………………………..35
+5.2 Strategic Objectives and Performance Indicators……………………………………35
+5.3 Priority Interventions………………………………………………………………...37
+5.3.1 Early Warning…………………………………………………………………..37
+5.3.2 Preparedness and Mitigation……………………………………………………38
+5.3.3 Response………………………………………………………………………..38
+5.3.4 Communication…………………………………………………………………39
+5.4 Institutional Arrangements………………………………………..………………….39
+1
+
+--- Page 3 ---
+5.5 Stakeholders Involvement Plan…………………………..………..………………..42
+6.0 Sources of Financing……………………………………...…….……………………..43
+6.1 Internal………………………………………………………………...……………43
+6.2 External……………………………………………………………..………………45
+7.0 Recommendations……………………………………………………...………………45
+References…………………………………………………………………………………...46
+2
+
+--- Page 4 ---
+Acknowledgement
+The Environmental Protection Agency of Liberia (EPA) would like to acknowledge the
+financial, technical and strategic contributions of the Global Mechanism of the United Nations
+Convention to Combat Desertification (UNCCD) which made it possible for the development of
+Liberia’s National Drought Plan. We also appreciate members of the National Drought Initiative
+and Land Degradation Neutrality Technical Working Group for their dedication and
+insightfulness in ensuring the completeness of this National Plan to represent Liberia. We are
+grateful to technicians from the various line ministries, agencies, and commissions (MACs),
+academia, civil society and non-governmental organizations and other individuals who made
+valuable inputs and recommendations to this Plan to make it what it is today. To the National
+Consultant, Mr. Darlington S. Tuagben and Team, we are grateful for your commitment and
+dedication in developing such a detailed Plan in consultation with key sectors institutions
+including the EPA. Finally, the commitment and dedication of the Executive Director (Hon.
+Nathaniel T. Blama, Sr.) and technical team including the UNCCD National Focal Point (Mr.
+Berexford S. Jallah) and the Science and Technology Correspondence (Mr. Jerome Nyenka)
+are highly appreciated for their insightful support and contributions which resulted in the
+successful development of this plan.
+3
+
+--- Page 5 ---
+Acronyms
+AAI Aridity Anomaly Index
+ACC Agricultural Coordination Committee
+AFDM African Flood and Drought Monitoring
+AfT Agenda for Transformation
+ARSDRR Africa Regional Strategy for Disaster Risk Reduction
+CAADP Comprehensive African Agriculture Development Programme
+CARI Central Agriculture Research Institute
+CI Conservation International
+CMI Crop Moisture Index
+COP Conference of Parties
+ECU Environment Coordination Unit
+EDI Effective Drought Index
+EP Effective Precipitation
+EPA Environmental Protection Agency
+EPML Environment Protection Management Law
+FACE Farmers Associated to Conserve the Environment
+FAO United Nations Food and Agriculture Organization
+FAPS Food and Agriculture Policy and Strategy
+FCPF Forest Carbon Partnership Facility
+FDA Forestry Development Authority
+FFI Fauna and Flora International
+GDP Gross Domestic Product
+GIZ Deutsche Gesellschaft für Internationale Zusammenarbeit
+HIV/AIDs Human Immunodeficiency Virus/ Acquired Immune Deficiency
+Syndrome
+iPRS Interim Poverty Reduction Strategy
+IUCN International Union for the Conservation of Nature and Natural
+Resources
+IWRMP Integrated Water Resources Management Policy
+4
+
+--- Page 6 ---
+KBDI Keetch–Byram Drought Index
+KFW German Development Bank
+LATA Liberia Agriculture Transformation Agenda
+LDN Land Degradation Neutrality
+LISGIS Liberia Institute of Statistics and Geo-Information Studies
+MME Ministry of Mines and Energy
+MoT Ministry of Transport
+NAP National Action Program
+NBSAP National Biodiversity Strategy and Action Plan
+NCCCD National Coordinating Committee to Combat Desertification
+NEP National Environmental Policy
+NEPAD New Partnership for African Development
+NDMP National Disaster Management Plan
+NDP National Drought Plan
+NFRL National Forestry Reform Law
+NGOs Non-Governmental Organizations
+PAPD Pro-Poor Agenda for Prosperity and Development
+PDSP Palmer Drought Severity Index
+RDDI Rainfall Deciles-Based Drought Index
+SCNL Society for the Conservation of Nature of Liberia
+SDGs Sustainable Development Goals
+SLM Sustainable Land Management
+SPEI Standardized Precipitation Evapotranspiration Index
+SPI Standardized Precipitation Index
+UNCBD United Nations Convention on Biological Diversity
+UNCCD United Nations Convention to Combat Desertification
+UNDP United Nations Development Program
+UNFCCC United Nations Framework Convention on Climate Change
+WASP Weighted Anomaly Standardized Precipitation
+5
+
+--- Page 7 ---
+Executive Summary
+Liberia lies within the Inter-Tropical Convergence Zone (ITCZ) and has two major seasons:
+rainy season (May-October) and dry season (November-April). The country has a tropical
+climate and a territorial area of 111,369 km2 with the dry land extending about 96,160 km2.
+Annual average rainfall ranges between 4500mm to 4624 mm. There are six major rivers
+namely: St. John, St. Paul, Mano, Lofa, Cavalla and Cestos, with several tributaries emptying
+into those rivers thus making its soil and environment moist all year round.
+Liberia has never experienced any recorded drought events in its history and would therefore be
+a surprise for a drought event to occur. The worst event that can happen is the dry spells that
+rarely occur during the dry season. There are a few ecological hazards affecting the county, most
+common among them are epidemics, floods, tropical storms, fire, tidal abnormalities, and
+erosion. The Liberia’s National Disaster Risk Management Policy identifies drought as a
+potential threat in Liberia. There are also reported impacts of climate change which threaten the
+economies of people and their livelihoods as well as biodiversity and the environment. A few
+climate change hazards have been recorded in Liberia including change in rainfall patterns, sea
+level rise, and coastal erosion.
+Drought is defined as a protracted period of deficient precipitation resulting in extensive damage
+to crops, and a consequential loss of yield. It can cause significant impediments for, especially,
+the most disadvantaged populations ranging from famine to migration and displacement.
+Hundreds of millions of people are at risk of the impacts of severe drought, and many more are
+expected to face unprecedented displacement within the next decade. Although the estimated
+proportion of Liberia’s landmass affected by desertification and land degradation is still
+minimum, the upsurge in extreme climate events documented in both the Liberia National
+Adaptation Program and the National Policy and Response Strategy on Climate Change,
+especially changing rainfall patterns, are giving reasons for serious concerns. It is therefore
+important that Liberia develops a comprehensive drought management plan as a preparedness
+approach to deal with whatever signs of drought that may appear in the future.
+6
+
+--- Page 8 ---
+The preparation of Liberia’s National Drought Plan proceeded with the guidance received from
+the Secretariat of the United Nations Convention to Combat Desertification (UNCCD) and a
+Model Drought Plan with a template describing the structure of a Drought Plan. A Technical
+Working Group (TWG) for both the Drought Initiative and Land Degradation Neutrality Target
+Setting was established. The TWG supervised and coordinated the process of developing the
+National Drought Plan and solicited inputs from relevant sectors stakeholders.
+In adherence to the UN Sustainable Development Goals (SDGs) and National Environmental
+Policy of Liberia, the overarching vision of National Drought Plan is the establishment of a
+comprehensive plan where systems are put in place to regularly assess and monitor the adverse
+impacts of drought and the effects of actions being employed to mitigate same. The Plan also
+intends to ensure effective communication with all stakeholders and populations about drought in
+order to deal with whatever future signs that may appear while at the same time maintaining a
+drought recovery program.
+The vision of this Plan will be achieved through the following Strategic Objectives:
+1. Identify and build the capacities of national institutions and human resources for early
+warning and drought monitoring;
+2. Identify national and regional hubs for the setting up of National Meteorological Stations.
+3. Establish processes, methodologies and identify specific activities for the collection of
+data on drought;
+4. Identify vulnerable landscapes, populations, sectors and build their resilience to drought;
+5. Develop and operationalize drought recovery programs;
+6. Build knowledge management network to ensure that food production practices and
+systems are climate proof;
+7. Design public education and awareness strategy and communicate with all populations
+about drought; and
+8. Mobilize financial and human resources for the implementation of the drought plan.
+The National Drought Plan considers the following priority intervention areas with emphasis on
+the issue of gender integration:
+7
+
+--- Page 9 ---
+1. Early Warning: In the case of Liberia, it will focus on strengthening specific national
+institutions to enable them to generate, record, store and share weather related
+information and data that will improve planning of various interventions in a timely and
+effective manner. This will allow for appropriate actions to be taken to avoid or reduce
+their risk and prepare for effective response.
+2. Preparedness and Mitigation: There shall be established, a National Drought Task Force.
+The membership shall be multidisciplinary and shall include all key stakeholders as
+specified in the stakeholder’s involvement plan. The Task Force shall coordinate and
+supervise the implementation of the drought plan at all levels of government and shall be
+tasked with the activation of the various elements of the plan during times of need.
+3. Response: It is important to prepare a drought response plan before a drought occurs.
+This allows time for the plan to receive public review and comments while not in a crisis
+mode. A Drought Contingency Plan shall be developed as a short-term response before
+drought sets in, and such plan shall take into consideration areas that are inaccessible.
+4. Communication: It is straightforward to construct a message about drought risk; but
+ensuring your message is understood and the implications of the message are accepted by
+your audience is most difficult. Communicating more effectively with members of the
+public and engaging the public around drought risk is important. Key elements to
+consider include: (a) how drought relieve is expected to be affected; (b) what cooperation
+and adjustments in living patterns may be expected from communities; (c) enhance
+people understanding on how to respond to drought once it occurs; (d) what the cost will
+be and; (e) what funding modalities are available and accessible.
+8
+
+--- Page 10 ---
+1.0 INTRODUCTION
+1.1 Background
+Drought is a protracted period of deficient precipitation resulting in extensive damage to crops,
+and a consequential loss of yield1. Drought can also be defined as a prolonged dry period in the
+natural climate cycle that can occur anywhere in the world2 and which can most often be
+accompanied by both short and long-term economic and social consequences to affected people
+worldwide. This menace can cause significant impediments for, especially, the most
+disadvantaged populations ranging from famine to migration and displacement. Hundreds of
+millions of people are at risk of the impacts of severe drought, and many more are expected to
+face unprecedented displacement within the next decade. Drought can be categorized into four
+types namely: Meteorological/Climatological Drought; Agricultural Drought; Hydrological
+Drought; and Socioeconomic Drought.
+In Africa, the impact of consecutive seasons of drought have seared harvests and destroyed
+livelihoods. Farmers, traders and consumers are hit in the most profligate manner; and the scorch
+has increased the malnutrition rates of children especially those in rural communities and driven
+up food prices for urban residents. Livestock deaths and fire have slashed the asset wealth of
+pastoralists, and cumulative bad harvests will make recovery all the harder for small-scale
+farmers. In the worst cases, where conflict has hampered farming and hindered humanitarian
+access, famine is likely to be exacerbated. According to Masih et al (2014), droughts have
+become more frequent, intense and widespread on the African continent during the last 50 years.
+The extreme droughts of 1972–1973, 1983–1984 and 1991–1992 were continental in nature and
+stand unique in the available records. Additionally, many severe and prolonged droughts were
+recorded in the recent past such as the 1970s and 1980s droughts in western Africa
+(Sahel);1999–2002 drought in northwest Africa; 2001–2003 drought in southern and
+southeastern Africa; and 2010–2011 drought in eastern Africa (Horn of Africa).
+1 http://drought.unl.edu/Education/DroughtIn-depth/WhatisDrought.aspx
+2 https://public.wmo.int/en/our-mandate/water/drought
+9
+
+--- Page 11 ---
+Liberia has never experienced any recorded drought events in its history. It would therefore be a
+surprise for drought to occur. The worst event that can happen is the dry spells that rarely occur
+during the dry season. Droughts occur from the lack of water in a certain area. This is caused by
+the absence of rain, moisture, and low dew points. There are a few hazards affecting Liberia,
+most common among them are epidemics, floods, tropical storms, fire, tidal abnormalities, and
+erosion. And the National Disaster Management Policy of Liberia (2012) forecast droughts as a
+future possibility.
+1.2 Purpose
+Although drought has never been reported in Liberia, the upsurge in extreme climate events
+documented in both the Liberia National Adaptation Program and the National Policy and
+Response Strategy on Climate Change, especially changing rainfall pattern, are giving reasons
+for serious concerns. It is therefore important that Liberia develops a comprehensive drought
+management plan as a preparedness approach to deal with whatever signs that may appear in the
+future. Thus, the reason for the development of a National Drought Plan. This Plan emphasizes
+gender equality in its implementation and will adopt best practices from elsewhere in the region
+to ensure the full inclusion and participation of men and women. It also seeks to reduce the
+gender gap existing between women and men by detailing actions to empower women and meet
+the different priorities of men and women in responding to drought and other phenomena.
+1.3 Goals and Objectives
+The goal and objectives of the National Drought Plan are consistent with the overall vision of
+establishing a comprehensive plan that will put in place systems to regularly assess and monitor
+the adverse impact of drought and the effects of actions being employed to mitigate same. The
+Plan is developed on the drought preparedness approach principle, which emphasizes the need
+for prior concrete and comprehensive plan and actions to avoid the associated risk of the impacts
+of severe drought that may occur in the future considering the danger of doing nothing until
+drought occurs. The goals and objectives of the NDP are developed with strong emphasis on
+gender inclusion and consideration.
+Goal 1: To design early warning programs and develop drought monitoring systems:
+10
+
+--- Page 12 ---
+Objectives:
+1. Strengthen the collection of meteorological and hydrological data including those on
+temperature, precipitation, humidity, wind velocity, lake levels, etc.;
+2. Maintain a common database or a network of databases for storage and retrieval of data sets;
+3. Ensure close and regular monitoring of drought incidences.
+Goal 2: To determine vulnerability profile and assess drought risks and impacts:
+Objectives:
+1. Define most vulnerable economic and social sectors to drought;
+2. Determine population groups most vulnerable to drought;
+3. Evaluate the risk levels and impacts of specific economic and social sectors and
+populations;
+4. Determine the legal and social concerns of drought;
+5. Assess the range of environmental issues arising from drought.
+Goal 3: To develop drought risk mitigation programs, preparedness and response
+measures.
+Objectives:
+1. Develop drought preparedness plan;
+2. Identify ways and actions to reduce drought risk;
+3. Design drought recovery operations and financing;
+4. Conduct intensive public education and information campaign.
+2.0 NATIONAL DROUGHT CIRCUMSTANCES
+2.1 Overview of Drought in Liberia
+Liberia lies within the Inter-Tropical Convergence Zone (ITCZ) and has two major seasons:
+rainy season (May-October) and dry season (November-April). With a tropical climate and a
+territorial area of 111,369 km2, the dry land of Liberia extends about 96,160 km2. The country
+has an annual average rainfall ranging between 4500 mm to 4624 mm making it one of the
+wettest in the world. It also has six major rivers namely: St. John, St. Paul, Mano, Lofa, Cavalla
+11
+
+--- Page 13 ---
+and Cestos, with several tributaries emptying into those rivers thus making its soil and
+environment moist all year round.
+There exist no published literature detailing any event and associated impacts of drought in
+Liberia. However, there are reported impacts of climate change which threaten the economies of
+people and their livelihoods as well as biodiversity and the environment. Based on available
+historical records from the Roberts International Airport weather station between the periods
+2009 and 2012, the temperature typically varied from 23°C to 33°C and was rarely below 21°C
+or above 34°C over the course of the year. The records show that there is an extreme warm
+season that runs from January 1 to May 8 with an average daily high temperature above 31°C.
+The month of March recorded the hottest average temperature for the recorded period. The
+projected climate of Liberia from 2010 – 2050 is based on an ensemble of Regional Climate
+Models (RCMs) which projects an average increase in temperature at 0.6°C in the 2020s with an
+expected increase by 1.3°C in the middle of the 21st century (EPA, 2013). These impacts
+indirectly have the potential to cause incidence of drought in the worst case. A few climate
+hazards have been recorded in Liberia including extreme rainfall and change in rainfall patterns,
+sea level rise, and coastal erosion (EPA, 2008).
+Drought can have a substantial impact on people, biodiversity, ecosystem, environment and
+agriculture productivity of the affected region and cause harm to the local economy. The National
+Disaster Risk Management Policy of Liberia (2012) identifies drought as a potential threat and
+goes further to categorize it into three potential types that would be experienced if adequate
+planning is not done. These drought types include: Meteorological droughts which measures
+negative departure of precipitation from the normal trend; Hydrological drought which measures
+the departure from normal flows in river, lakes and ground water aquifers; and Agricultural
+drought which considers the reduction in moisture availability below the optimum level required
+for productivity at various stages of growth. There is a high likelihood for the occurrences of
+drought events due to unsustainable land use practices especially in the forestry, agriculture,
+fishery, energy, health, tourism, transport and mining sectors.
+2.2 Potential Impacts of Drought by Sectors
+Traditionally, the impacts of drought are usually indirect, and their effects are critically
+dependent on context and underlying population vulnerability. For instance, the impact of
+12
+
+--- Page 14 ---
+drought on health is particularly dependent on the socio-economic environment that can
+influence the resilience of the population. Poor health, poverty, and conflict are additional
+contributing factors to the impact of drought. The degree of impacts depends on the socio-
+environmental vulnerability of an area. To date, there has been no recorded impacts of drought
+on any sector in Liberia, but this plan attempts to present the likely impacts on key sectors
+including gender as a cross-cutting unit.
+Forestry
+Forests cover about 43% of the total landmass of Liberia but continues to decline annually due
+largely to climate change and other human induced impacts including unsustainable logging and
+agricultural practices. The forestry sector is a key contributor to Liberia GDP and is reported to
+contribute over $15 million per annum (FDA, 2017). According to FDA (2017), the average
+annual forest cover loss between 2001 and 2014 was 0.46%. This decline has a potential to
+adversely impact water supply. The northern Foyah landscape of Lofa county is currently
+experiencing invasion by non-native plant species thereby affecting the structure and function of
+the forest. Similar situations are happening in other parts of Liberia including central Bong
+County where invasive Chromolaena odorata species have taken over the former dense forest
+ecosystem.
+The impact of climate change has a potential to induce drought associated impacts on the forest
+ecosystems thereby decreasing the economic and social benefits of the sector. This could
+exacerbate the incidence of poverty. Forecasts from climate models suggest an increased risk of
+droughts in tropical forests including the forest of Liberia over the next few decades, potentially
+threatening the large existing carbon sink.
+Agriculture
+The agricultural sector of Liberia is dominated by large scale monoculture plantations and
+traditional farming practices which result in biodiversity and soil fertility loss and unsustainable
+shifting cultivation respectively. In addition to the unsustainable human practices in this sector,
+climate change further aggravates the negative impacts on the already infertile mineral-rich
+latosols found in Liberia. This has the potential to cause low yields. Agricultural productivity is
+13
+
+--- Page 15 ---
+mainly dependent on rainfall. Drought associated climate change predictions show that the
+impacts of climate phenomenon will continue to exert significant pressure on the agriculture
+sector (EPA, 2018). The traditional subsistence farming practice in Liberia is season based and
+rain fed. The rainy season traditionally began in May and ended in October each year which
+farmers are accustomed to. But in recent years, there have been a significant shift in seasonal
+rainfall pattern, duration and distribution with the season sometimes beginning earlier and
+sometimes later. Recent climate variations resulting in fluctuation and shift in the rainy season is
+impacting agricultural productivity of farmers and their annual yields are reducing due to
+confusion in the planting season. Based on personal interview with some farmers in Liberia, it is
+confirmed that they are struggling to adapt to the variation in rainfall pattern in order to guide
+their farming activities. The occurrence of any drought event will also result in deaths of both
+domestic and wild animal population due to extreme weather conditions, dry spills and resulting
+poor health conditions. Farmers are likely to be faced with inadequate harvest to feed their
+families and further fulfill other economic requirements.
+Fisheries
+Fisheries make up a significant proportion of needed animal protein in the diets of Liberians. The
+fishery market is gender inclusive and booming one with a double stage marketing channel
+involving fish mongers (mostly women) trading between the fishermen (mostly men) and the
+consumers (men and women) thereby providing for the livelihoods and economic needs of rural
+dwellers. There is no recorded data on recent stock assessment of the sector. However, it is been
+observed by subject matter experts and key stakeholders of the sector that the stock is declining
+due largely to unsustainable fishing practices. It is therefore assumed that any occurrence of
+drought event will impact negatively on the already dwindling stock.
+Climate change has the potential to impact the fisheries sector. Annual variation in temperature
+and rainfall patterns resulting from climate change has a high potential to impact fish stocks and
+their survival. In the worst-case scenario where there exists an extended dry season, and
+depending on the severity, drought can have several impacts on fishes in rivers, streams and
+lakes from both a water quantity and quality perspective. Any incidence of drought will affect
+fish production due to decreased water levels and even drying up of lakes, rivers, streams, dams
+14
+
+--- Page 16 ---
+and ponds, thereby affecting fish habitats and breeding sites for most fish species, which will
+affect the future availability of fish stocks. During normal rainy season, high flows provide
+stream channel maintenance such as scouring, and sediment transport and fishes rely on regular
+channel maintenance for the creation of habitats, from spawning to adult life stages. In a worst
+case, the quantity of water in a stream and lake will be substantially reduced during the periods
+of droughts, leading to direct reductions in living space for various life stages of fish species.
+During low-water years, important spawning areas might be left dry, and fishes inhabiting water
+bodies may be forced into small pockets of water in pools. Cover, such as woody debris and
+vegetation, may not be accessible to juvenile fishes making them susceptible to predation.
+Reduced stream flows will also lead to increases in water temperature. Under these conditions,
+some fish species might become stressed resulting in decreased growth or even death (FAO,
+2009).
+Health
+The Liberian healthcare system and infrastructures are recognized globally to be poor. The Ebola
+Virus Disease outbreak further exposed the already weak, vulnerable and broken healthcare
+system that resulted in the unnecessary death of more than three thousand citizens and
+inhabitants. Any occurrence of drought event will have a high reaching negative impact on the
+health of the population. Drought impacts might range from those associated with nutrition-
+related effects, water related diseases, airborne and dust-related diseases and vector-borne
+diseases to mental health effects. Any occurrence of drought incidence in Liberia has the
+potential to disrupt natural systems, making the population very vulnerable to the spread of
+diseases (cholera, malaria, onchocerciasis, tuberculosis, HIV/AIDS, etc.).
+Mining
+Liberia is reported to be endowed with impressive stock of mineral reserves and has traditionally
+relied on iron ore, gold, and diamonds, as a major source of foreign exchange earnings. Mineral
+resources of varying types are reported to be located across the country (MME Report). The
+mining sector contributes significantly to the country’s GDP and has a high growth potential
+which is subsequently associated with the creation of employment, income generation, and
+15
+
+--- Page 17 ---
+infrastructure development. However, the environmental impacts associated with these mining
+activities are often unnoticed.
+The sector is extremely energy-intensive and therefore, one of the major emitters of greenhouse
+gases. It requires several suitable natural conditions including habitable climate and access to
+water resources to enable the extraction of resources and their subsequent processing for the end
+users. The occurrence of drought associated with changing climatic conditions will have direct
+and indirect impacts including water and heat related impacts on the mining sector (Sharma et al.
+2013). These impacts will incapacitate this very productive sector from contributing to the
+economy of the country. Any impact on the mining sector will also have far reaching impacts on
+human population within and around the footprint areas.
+Gender
+Gender, as used in most part of the world leans towards the weak and vulnerable women and
+youthful population. This is the case of Liberia. Gender should be treated as a socio-cultural
+variable encompassing both male and female population. While women and children are
+recognized to be striving for equality and integration, their men counterparts are equally facing
+various levels of inequality and marginalization in the society. It is therefore prudent to treat
+them as a unit for serious consideration especially in the event of disasters and other related
+natural phenomena. For example, in Liberia both men and women are traditionally involved in
+the labor-intensive agricultural practices without any forms of protection against diseases,
+extreme weather and other climatic conditions. Should there occur any drought or extreme
+climate event, those vulnerable men and women will be most impacted under very difficult and
+challenging situations. The National Drought Plan therefore considers the issue of gender as key
+in achieving equality between men and women of different social groups, age, tribes,
+backgrounds, etc. in order to build their resilience to the impact of drought and other natural
+phenomena including climate change.
+2.3 Existing Legal and Policy Framework Influencing Drought Management
+Legal and Policy Framework
+16
+
+--- Page 18 ---
+The National Drought Plan (NDP) is developed in conformity with national laws, legislations
+and protocols as well as other international protocols and agreements governing the environment,
+natural resource management and climate change. The NDP is aligned with other sector-specific
+instruments on the environment, land, forestry, agriculture, and natural resources that are
+associated with climate change, sustainable land use, drought management and recovery.
+Links to National Instruments
+Constitution of Liberia (1986)
+The Constitution of Liberia is particularly silent on the issue of natural resources and sustainable
+development; but in Article 7, some reference is made in reference to managing the economy and
+natural resources, as quoted: “The Republic shall, consistent with the principles of individual
+freedom and social justice enshrined in this Constitution, manage the national economy and the
+natural resources of Liberia in such manner and shall ensure the maximum feasible participation
+of Liberian citizens under conditions of equality as to advance the general welfare of the
+Liberian people and the economic development of Liberia”.
+Pro-Poor Agenda for Prosperity and Development 2018 to 2023 (PAPD)
+The Pro-Poor Agenda for Prosperity and Development is the second in the series of 5-years
+National Development Plans anticipated under the Liberia Vision 2030 framework. It follows the
+Agenda for Transformation 2012-2017 (AfT) and is informed by lessons learned from the
+implementation of the Interim Poverty Reduction Strategy 2007 (iPRS) and the Poverty
+Reduction Strategy (2008-2011). This National Agenda focuses on strengthening the capacities
+of the people to thrive and further draws all Liberians into the national development process. The
+PAPD, which is a five-years national development plan, intends to address the basic needs of
+Liberians for income security, better access to basic services, and greater opportunities for self-
+improvement in an enabling environment that is inclusive and stable with the long-term aim of
+raising per capita income levels and economic status of Liberia to a middle-income country as
+outlined under the Vision 2030 framework.
+The goals of the PADP are: 1. To build a stable, resilient, and inclusive nation embracing
+Liberia’s triple heritage and anchored on the people’s identity as Africans and 2. To lift an
+additional one million Liberians out of absolute poverty over the next six years through sustained
+17
+
+--- Page 19 ---
+and inclusive growth driven by scaled-up investments in agriculture, infrastructure, and human
+capital development. These goals are expected to be achieved through four key pillars which
+form the pathways for the next five years: Pillar one: Power to the People— To reduce
+developmental inequalities so the people can prosper; Pillar Two: Economy and Jobs—
+Economic stability and job creation through effective resource mobilization and prudent
+management of economic inclusion; Pillar three: Sustaining the Peace—Promoting a cohesive
+society for sustainable development; and Pillar Four: Governance and Transparency—An
+inclusive and accountable public sector for shared prosperity and sustainable development. Each
+pillar has a goal and a set of development outcomes to be produced over the next five years in
+support of the two high level national goals.
+National Disaster Management Policy of 2012 (NDMP)
+The National Disaster Management Policy provides an overall framework for disaster
+management in Liberia. The NDMP compliments other national plans, policies and legislations
+related to drought and climate change management and provides a platform for the
+harmonization of all disaster risks management strategies/policies in Liberia. It particularly aims
+at integrating risk reduction as appropriate into development policies and planning at all levels of
+government, including the new Pro-poor Agenda for Prosperity and Development, the
+environment, land, agriculture and forestry sectors, among others. The NDMP recognizes the
+importance and specificity of local risk patterns and trends and decentralize responsibilities and
+resources for disaster risks management to relevant regional or local authorities. The Policy
+forecasts drought as a future possibility and therefore emphasizes the need for the development
+of a drought management plan to tackle future events.
+Environment Protection and Management Law of 2003(EPML)
+The Environment Protection and Management Law forms the legal framework for sustainable
+development, management and protection of the environment and natural resources by the
+Environmental Protection Agency in partnership with relevant ministries, autonomous agencies
+and organizations as well as in a close and responsive relationship with the people of Liberia. It
+addresses a wide range of environmental issues including environmental impact assessment,
+guidelines and standards, international obligations, education and awareness.
+18
+
+--- Page 20 ---
+National Environmental Policy of 2003 (NEP)
+The necessity for formulating a national environmental policy is in recognition of the severe
+impact of man’s activities on all components of the natural environment, especially the
+influences of population dynamics, high density urbanization, resource exploitation and the
+further realization regarding the critical importance of restoring and maintaining environmental
+quality for the welfare and development of the people. The overall goal of the NEP is to ensure
+long-term economic prosperity of Liberia through sustainable social and economic development,
+which enhances environmental quality and resource productivity on a long-term basis that meets
+the requirements of the present generation without endangering the potential of future
+generations to meet their own needs. The aim of the national environmental policy is to ensure
+the improvement of the physical environment, the quality of life of the people, and the economic
+and social living conditions of the entire citizenry. It seeks to ensure reconciliation and
+coordination between economic development and growth with the sustainable management of
+natural resources.
+National Policy and Response Strategy on Climate Change of 2018
+The National Policy and Response Strategy on Climate Change is a vehicle developed to support
+climate change adaptation, disaster risk management and mitigation capacity in Liberia. It
+focuses on the implementation of Liberia’s commitment to achieving the Sustainable
+Development Goals (SDGs), especially Goals 13, 14 and 15 which all focus on combatting
+climate change and fostering sustainability. It also focuses on achieving Africa’s vision for
+promoting positive socio-economic transformation (Agenda 2063 adopted in 2013) over the next
+50 years. The Agenda 2063 recognizes climate change and natural disasters as major threats to
+Africa’s development now and in the future.
+Liberia National Action Program to Combat Desertification 2011-2018 (NAP)
+The Liberia National Action Program to Combat Desertification aims at tackling the impacts of
+land degradation in Liberia and is conscious that sustainable economic growth, social
+development and poverty reduction are current national priorities, and are essential to meeting
+sustainability objectives. The NAP focuses specifically on four main strategic objectives:
+Improvement of the standard of living of the people in areas affected by land degradation and its
+19
+
+--- Page 21 ---
+associated negative impacts; Improvement of the condition of the affected biodiversity within its
+habitats and affected ecosystems within the political boundaries of Liberia and its political
+sphere like the Liberian air space and the Liberia’s continental shelf; Generation of global
+benefits like improved biodiversity and reductions in climate change accrued from the
+implementation of the NAP on sustainable land management (SLM) and; Mobilization of
+financial and human resources.
+Land Rights Policy of 2013
+The Land Rights Policy of Liberia is premised on the former Land Commission’s policy
+recommendations for land rights in Liberia, centered on four basic types of land rights:
+i. Public Lands – lands designated for future use and managed in the public interest; these
+are not Government lands, or owned by a community and used or managed in accordance
+with customary practices and norms, or owned as Private Land;
+ii. Government Lands: land owned by the Government and used for the buildings, projects,
+or activities of the Government;
+iii. Customary Lands: land owned by a community and used or managed in accordance with
+customary practices and norms. These lands may include, but are not limited to:
+wetlands, communal forestlands, and fallow lands.
+iv. Private Lands: land owned by an individual or private entity, in which management and
+use decisions are based solely on formal law (i.e. statutes, regulations, executive orders,
+and court decisions), where the owner enjoys the full bundle of land rights, which
+include, but are not limited to, the right to: exclude all others, use and possession, own
+natural resources on the land (e.g. forest), and to transfer all or some of the rights through
+sale, lease, concession, gift, donation, will, or any other lawful means.
+The legal ownership of land will provide security of tenure to land users and holders thus giving
+them rights to sustainably manage and use their lands.
+National Forestry Reform Law of 2006 (NFRL)
+This Act amends the National Forestry Law of 2000 and the Act creating the Forestry
+Development Authority in 1976. It is an updated reflection of current day’s realities
+20
+
+--- Page 22 ---
+incorporating sustainable management principles. The NFRL mandates the FDA to ensure
+sustainable management of forest and forest resources and further is charge them with ensuring
+the effective governance and management of the country’s Protected Areas system. The core
+functions of the FDA are: to prepare long and medium-term plans in the forestry sector; to
+prepare documents or guidelines for forestry policy, law and administration; to monitor
+adherence to forest legislation and concession agreements; to assess forestry fees and evaluates
+investment proposals; to execute reforestation programs and forest research and training; and to
+monitor activities of timber companies.
+Mineral and Mining Law of 2002.
+The Mineral and Mining Law of Liberia calls for “reasonable preventive, corrective and
+restorative measures to limit pollution or contamination of, or damage of streams, dryland
+surfaces and the atmosphere in general”. The Law states that “minerals on the surface of the
+ground or in the soil or top-soil, rivers, streams, water courses, territorial waters and continental
+shelf of Liberia are the property of the Republic and anything pertaining to their exploration,
+development, mining and export shall be governed by the laws”. It considers the sustainable
+management and protection of water bodies and other key features and gives stakeholders the
+management rights through licensing processes and further ensures the sustainable management
+of the forests, environment and related natural resources for the benefits of the country.
+Integrated Water Resources Management Policy of 2009 (IWRMP)
+The Integrated Water Resource Management Policy constitutes the national policy on water
+resource utilization in Liberia and covers two broad areas, water resource management and water
+resource use. The goals of the IWRMP are to ensure: (i) full socio-economic benefits for
+present and future generations; (ii) access to safe and adequate water for the people; (iii) the
+availability of quantity and quality of water for the environment and ecology; (iv) the availability
+of sufficient quantity and quality of water for food security; (v) the availability of water for other
+uses such as hydropower generation, industry, transportation, recreation, etc. Key strategies of
+this Policy comprise: (i) decentralization of economic incentives and efficient and proper
+disposal of solid and liquid wastes; (ii) establishment of appropriate bodies responsible for water
+resources management; (iii) development and enhancement of national human resources and
+21
+
+--- Page 23 ---
+technological capacities; (iv) fostering of international cooperation in the management of shared
+river basins; (v) ensuring efficient means of domestic water supply; (vi) integrated and
+sustainable development and management of water resources for all sectors; (vii) protection of
+all water resources; and (viii) prevention of natural disasters and the effects of climate change.
+Links to National International Instruments
+The National Drought Plan of Liberia is also linked to several international instruments
+including:
+• Sustainable Development Goals;
+• United Nations Framework Convention on Climate Change (UNFCCC);
+• United Nations Convention on Biological Diversity (UNCBD)
+• United Nations Convention to Combat Desertification (UNCCD)
+• Africa Regional Strategy for Disaster Risk Reduction (ARSDRR); and,
+• Comprehensive African Agriculture Development Programme (CAADP)
+The Sustainable Development Goals (SDGs)
+In September 2015, the global community agreed on “The 2030 Agenda for Sustainable
+Development”, including 17 Sustainable Development Goals (SDG) and 169 targets. Goal 15
+urges countries to “protect, restore and promote sustainable use of terrestrial ecosystems,
+sustainably manage forests, combat desertification, and halt and reverse land degradation and
+halt biodiversity loss”. More specifically, target 15.3 aims to “combat desertification, restore
+degraded land and soil, including land affected by desertification, drought and floods, and strive
+to achieve a land degradation-neutral world” by 2030. This National Drought Plan goes beyond
+SDG 15 and considers the issue of security, environment and climate change.
+United Nations Framework Convention on Climate Change (UNFCCC)
+There exist direct links between the impact of drought and climate change as drought defines a
+period of below-average precipitation in a given region, resulting in prolonged water shortages.
+Drought is impacting millions of people globally and is one of the most far-reaching natural
+disasters, bringing short and long-term economic and social losses to millions of people
+worldwide. Drought and water scarcity resulting from climate change – interconnected
+22
+
+--- Page 24 ---
+phenomena that often aggravate each other’s effects – can trigger major setbacks for the most
+disadvantaged populations: from famine to migration and displacement. A single year of drought
+can set back years of social development, for vulnerable members of society. As a global
+agreement, UNFCCC is link directly to the National Drought Plan of Liberia as the plan
+addresses issues related to impacts of both drought and climate change. Liberia’s National Policy
+and Response Strategy on Climate Change focuses on all of the sectors which are considered
+under this National Plan and works in similar scopes in tackling the projected negative impacts
+of drought and climate change.
+United Nations Convention on Biological Diversity (UNCBD)
+The United Nations Convention on Biological Diversity, also known as the Biodiversity
+Convention, is a multilateral treaty with three main goals including: ensuring the conservation of
+biodiversity; sustainable utilization of its resources; and the fair and equitable sharing of benefits
+accrued. Liberia has domesticated the UNCBD and developed its National Biodiversity Strategy
+and Action Plan (NBSAP) which considers the integration of biodiversity conservation into
+sustainable management of the environment and natural resources. The NBSAP largely mirrors
+and details the vision and strategy for the Aichi Biodiversity Targets and a ten-year action plan
+(2015-2025) which ensures the conservation and sustainable management of Liberia’s
+biodiversity. The National Drought Plan of Liberia is developed in line with Liberia’s revised
+and updated NBSAP and the overall UNCBD objectives.
+United Nations Convention to Combat Desertification (UNCCD)
+The twelfth session of the Conference of Parties (COP 12) of the United Nations Convention to
+Combat Desertification (UNCCD) agreed to integrate the SDGs and related targets into the
+implementation of the Convention and decided that “striving to achieve SDG target 15.3 is a
+strong vehicle for driving implementation of the UNCCD” (decision 3/COP.12). The UNCCD
+was designed to address land degradation and desertification challenges in countries
+experiencing serious droughts in arid and semi-arid regions of the world particularly in Africa.
+Liberia National Action Program (NAP) developed in 2016 is aligned with the UNCCD ten years
+strategic plan and framework and estimates the total landmass currently affected by
+23
+
+--- Page 25 ---
+desertification to be insignificant (5–7%). The NAP also raises concerns that increased
+unsustainable land utilization coupled with creeping northern savannah gives reasons for serious
+planning ahead of any drought event. The government therefore began taking steps to address the
+issues of potential drought in Liberia through the development of this National Drought Plan
+which will detail how the country will prepare for droughts.
+Africa Regional Strategy for Disaster Risk Reduction (ARSDRR)
+The Africa Regional Strategy for Disaster Risk Reduction aims to contribute to the attainment of
+sustainable development and poverty eradication by facilitating the integration of disaster risk
+reduction into development.The strategic objectives of the ARSDRR are as follows: increase
+political commitment to disaster risk reduction; improve identification and assessment of disaster
+risks; enhance knowledge management for disaster risk reduction; increase public awareness of
+disaster risk reduction; improve governance of disaster risk reduction institutions; and integrate
+disaster risk reduction in emergency response management. The National Drought Plan of
+Liberia is consistent with the strategic objectives of the ARSDRR.
+Comprehensive African Agriculture Development Programme (CAADP)
+The Comprehensive Africa Agriculture Development Program (CAADP) is a critical Pan
+African initiative launched by the New Partnership for African Development (NEPAD)
+concerning the agricultural sector policies in Sub-Saharan Africa. The objective of CAADP is to
+help African countries reach a higher path of economic growth through agriculture-led
+development which eliminates hunger, reduces poverty and food insecurity, and facilitates
+expansion of exports. As a member of the CAADP, the Agricultural sector of Liberia has
+developed several instruments to enable her take national level actions in order to contribute to
+the CAADP objective. Key among them is the Liberia Agriculture Transformation Agenda
+(LATA) which focuses on six agro-clusters, or sectors, moving away from raw commodities to
+manufacturing and processing of priority value chains — cocoa, rubber, oil palm, fisheries and
+aquaculture, rice and cassava on a sustainable basis with serious emphasis on the environment,
+land, natural resources and climate change. This National Drought Plan is also consistent with
+the LATA and other instruments developed in the agriculture sector.
+24
+
+--- Page 26 ---
+Gender inclusion in existing Legal, Institutional and Policy Framework
+Ensuring gender inclusion into all legal and policy frameworks is key to achieving Liberia’s
+national development as well as the objectives for the establishment of institutions governing the
+management of the environment, agriculture, natural resource management and climate change.
+The Constitution of Liberia, the PAPD, and other national and sector specific legal instruments
+emphasize the importance of mainstreaming gender into all aspects of the society and the
+environment. It is therefore prudent to emphasize the significance of gender integration and
+mainstreaming into all national planning processes including the development of the NDP.
+Ensuring sustainable development and the management of the environment and natural resources
+requires mainstreaming gender into key policy and legal frameworks governing various aspects
+of the society which will eventually contribute to reducing poverty and achieving livelihood and
+food security among rural women and men. Such policies and legal frameworks should
+emphasize on the roles and responsibilities of men and women and further underscore the
+provision of support to the vulnerable population, especially rural women and children who are
+impacted greatly during incidences of disasters. Although the issue of gender is considered at a
+lower scale in existing legal instruments in Liberia, the government continues to throw more
+emphasis on gender inclusion and mainstreaming in all aspects of the society including the legal
+and institutional frameworks governing the various sectors of the society. A review of the
+policies and legal frameworks associated with drought and other potential disasters shows that
+issue of gender is not significantly captured in those documents. It is therefore important that
+gender be included in all legal and policy frameworks governing the sustainable management of
+land, environment and natural resources in Liberia if we are to achieve the Sustainable
+Development Goals and our national agenda as a country.
+It is important to note that rural women and men have different roles, responsibilities, and
+knowledge in using and managing land, the environment and natural resources in Liberia.
+Although their respective roles and responsibilities vary across counties and cultures, they often
+follow similar gender divisions of labor across the country. In most parts of Liberia, men use
+natural resources in agriculture, logging, and fishing for commercial purposes more than women.
+In crop production, women often grow a wider diversity of crops. In most cases, men and women
+25
+
+--- Page 27 ---
+perform complementary roles—for example, men clear land, women plant and tend crops, and
+men harvest and market crops. It is therefore important that the issue of gender be captured in all
+legal and institutional frameworks to spell out the roles and responsibilities of men and women
+in the various sectors of concern.
+3.0 DROUGHT MONITORING, FORECASTING AND IMPACT ASSESSMENT
+3.1. Drought Indices
+Adequately preparing and planning for drought and its associated impacts depends on
+information about the extent, severity and duration of drought events. Such information can only
+be obtained through monitoring and forecasting using drought indices which provide quantitative
+information to decision makers about drought characteristics (Dogan et al., 2012). The selection
+of a specific index for monitoring drought occurrence and impacts, and forecasting drought is
+determined by specific regional to national circumstances, such as availability of spatio-temporal
+data, technical capacity and the nuances of the climatic, social, economic and environmental
+conditions. Dogan et al., (2012) recommends the consideration of more than one drought index
+because comparing and combining different indices may help to: better characterize droughts;
+examine the sensitivity and accuracy of drought indicators; investigate the correlation between
+indicators, and; explore how coherent the drought indicators are in the context of a specific
+objective. Several indices have been proposed by various authors for drought characterization
+including: Aridity Anomaly Index (AAI, Gommes et al.2010); Keetch–Byram Drought Index
+(KBDI, Keetch and Byram, 1968); Weighted Anomaly Standardized Precipitation (WASP,
+Lyon, 2004); Crop Moisture Index (CMI, Palmer, 1968); Standardized Precipitation
+Evapotranspiration Index (SPEI, Vincent-Serran et al., 2009); Palmer Drought Severity Index
+(PDSI, Palmer, 1965); Rainfall Deciles-Based Drought Index (Gibbs and Maher, 1967),
+Standardized Precipitation Index (SPI, Mckee et al., 1993); Effective Drought Index (EDI, Byun
+and Wilhite, 1999); among others. Choosing the appropriate index will depend on the available
+information, drought type, impacts of drought events on vegetation, agriculture, water levels,
+etc., and on the spatial scales of the event.
+The four main types of drought, meteorological, agricultural, hydrological and socio-economic
+drought, are often represented in sense of drought indices. It is important to consider time scale
+26
+
+--- Page 28 ---
+when accessing the different types of drought. For example, meteorological drought is a
+precipitation deficiency, possibly combined with increased potential evapotranspiration,
+extending over a large area and spanning an extensive period (Van Loon, 2015) while
+agricultural drought is a deficit of soil moisture (mostly in the root zone), reducing the supply of
+moisture to vegetation and oftentimes leading to crop failure (Van Loon, 2015). On the other
+hand, the hydrological drought is a lack of water in the hydrological system, manifesting itself in
+abnormally low stream flow in rivers and abnormally low levels in lakes, reservoirs, and
+groundwater (Van Loon, 2015) while socio-economic drought occurs when the demand for an
+economic good exceeds supply because of a weather-related shortfall in water supply (Wilhite
+and Glantz, 1985).
+Since the issue of drought is new to Liberia and there is no recorded drought incidence in the
+past, this National Drought Plan is geared towards taking the first step in preparing for any event
+of future drought. As a tropical rainforest country, Liberia still holds a significant proportion of
+the Upper Guinean Forest of West Africa with abundant rainfall and excellent temperature. The
+country is however deficient in data availability that could be used for forecasting and
+monitoring drought events. The Ministries of Transport, and Mines and Energy have recently
+began making minimal efforts to generate hydrological and rainfall data to support forecasting
+and monitoring efforts.
+As this plan is being developed in the absence of country-specific data to prepare for future
+drought events, the government of Liberia have deemed it prudent to adopt indices generally
+used for forecasting drought events within Sub-Saharan Africa with special emphasis on those
+used in environments like ours with abundant rainfall and moderate temperatures. The National
+Drought Plan will put in place processes, mechanisms and build the capacities of sector
+stakeholders to develop methodologies and collect country specific data that will drive the
+determination on the use of specific index to monitor and forecast drought event (please
+reference Chapter 5.2: “Strategic Objectives and Performance Indicators”). Such future
+exercise will result in the provision of quantitative information to decision makers about drought
+characteristics in Liberia. For the purpose of this plan, we have therefore temporarily
+27
+
+--- Page 29 ---
+recommended the use of those indices generally used in Sub-Saharan Africa and that specifically
+apply to our ecoregion while developing our indices.
+Palmer Drought Severity Index (PDSI)
+The PDSI is a meteorological drought index which provides a standardized measurement of
+moisture conditions to compare between locations and over time (Palmer, 1965). This Index
+estimates duration and intensity of drought events by measuring departure of the moisture supply
+based on a supply-and-demand concept of the water balance equation. The PDSI also
+incorporates precipitation and temperature data, and local Available Water Content of the soil
+from an unspecified period that best corresponds to past 9-12 months. The PDSI is a soil
+moisture algorithm calibrated for relatively homogeneous regions and was the first
+comprehensive drought index developed in the United States. However, the Palmer values may
+not identify droughts as early as the other indices and is less well suited for mountainous land or
+areas of frequent climatic extremes.
+Rainfall Deciles-Based Drought Index (RDDI)
+The RDDI was originally suggested for investigating rainfall deficiency as per criteria set by the
+Australian Bureau of Meteorology (Gibbs and Maher (1967). Deciles are calculated from actual
+rainfall series (Jain et al., 2015). First, rainfall values of each calendar month (or sum of rainfall
+values for a group of months for multiple time step) are ranked from lowest to highest and a
+cumulative frequency distribution is constructed. The distribution is then split into 10 deciles
+(10% slices). The first decile that has the top rainfall values indicates wettest months in the series
+whilst the last decile indicates driest months in the series. The use of decile is advantageous due
+to simplicity in its computation.
+Standardized Precipitation Index (SPI)
+The SPI is considered the most popularly used drought index developed to identify and monitor
+drought events using monthly rainfall data. It is intended to identify drought periods as well as
+the severity of droughts at multiple time steps. It is calculated based on the long-term
+precipitation record for a desired period. The available long-term rainfall data is fitted to gamma
+probability distribution, which is then transformed to a normal distribution so that the mean SPI
+for the location and desired period is zero (Mckee et al., 1993). This transformed probability is
+28
+
+--- Page 30 ---
+the SPI value, which varies between +2.0 and −2.0, with extremes outside this range occurring at
+5% of the time (Edwards and Mckee, 1997). However, the objective choice on the best time step
+may depend on the purpose of drought analysis. Due to its reliability, and ability to address
+drought at multiple time steps for a variety of climatic regions, SPI has been used extensively in
+various parts of the world.
+Effective Drought Index (EDI)
+The EDI was proposed by Byun and Wilhite (1999) to monitor the duration and severity of
+drought. They used a new concept of effective precipitation (EP) which is a function of current
+month’s rainfall and weighted rainfall over a defined preceding period computed using a time
+dependent reduction function. Byun and Wilhite (1999) computed EDI as a function of the
+amount of precipitation required to return to normal (PRN). Originally, it was developed to
+monitor drought condition on daily time step (Lee et al., 2012) but was subsequently extended
+for monthly drought monitoring (Deo and Byun, 2014). The EDI is based on the concept of
+effective precipitation (EP) that is calculated by a time dependent reduction function on
+daily/monthly precipitation and requires specifying at least 30-years data for calculation of mean
+effective precipitation (Jain et al., 2015).
+The government of Liberia also considers using the African Flood and Drought Monitoring
+(AFDM), which produces several common individual and composite drought indices for
+monitoring and forecasting drought in sub-Saharan Africa (Sheffield et al., 2013). The AFDM
+uses numerous remotely sensed datasets and stream flow data to calculate high resolution
+spatially continuous indicators describing meteorological, agricultural, ecological and
+hydrological drought for use in real-time monitoring and seasonal forecasting.
+3.2 Drought Monitoring and Forecasting
+Drought monitoring and forecasting remains a challenge in Liberia due to limited technical and
+resource capacities to undertake such dedicated tasks. Successfully predicting drought events
+requires forecasting of both temperature and precipitation, knowledge of the current state of
+drought, and the ability to accurately model related changes in drought-relevant moisture stores
+such as soil moisture, groundwater, etc. (Crossman, 2018). Forecasting depends on the
+29
+
+--- Page 31 ---
+availability of highly skilled expertise and judgement to combine temperature and precipitation
+seasonal outlooks, short-term weather outlooks and information on initial drought-related
+hydrological, water resources and soil moisture conditions (Crossman, 2018). In Liberia, the
+Department of Meteorology situated at the Ministry of Transport (MoT) is responsible for
+establishing and maintaining a weather observation network in Liberia while the Department of
+Hydrological Services of the Ministry of Mines and Energy (MME) is responsible for
+establishing and maintaining a hydrological observation network along Liberia’s major river
+basins in order to collect meteorological data to inform hydrological planning. There are very
+low capacities within these departments which challenges the collection of accurate and
+standardized data as required.
+The National Drought Plan of Liberia is intended to ensure that issues of drought are integrated
+or mainstreamed into national development plans as well as regional and cross-sectorial plans
+following the national planning processes. The Environmental Protection Agency as the Agency
+leading the Drought Initiative in Liberia, will work closely with the MoT and MME to undertake
+drought monitoring and forecasting activities in the country. These institutions will also rely on
+functioning satellite receiving stations located around Liberia to collect weather and other related
+data for analysis by the MoT and MME in collaboration with the EPA. The EPA is expected to
+design detailed drought mainstreaming and monitoring tools and guidelines in close coordination
+with these two government ministries for forecasting of future drought and other extreme
+weather-related events. These institutions will also work with other line ministries and agencies
+responsible for land and biodiversity in Liberia as well as multilateral/bilateral and development
+partners including the United Nations Development Program (UNDP) and the Food and
+Agriculture Organization of the United Nations (FAO). The EPA will develop institutional
+drought monitoring protocols and share with selected member institutions of the National
+Drought Initiative and Land Degradation Neutrality Technical Working Group to enable them
+conduct internal sector monitoring exercises during the implementation of this National Drought
+Plan. These institutions will conduct and prepare periodic drought monitoring reports which will
+be submitted to the EPA for collation and finalization into a periodic national drought monitoring
+report. The EPA will organize and provide technical back up and capacity building to those
+selected institutions on the drought monitoring process. Perimeters expected to be considered in
+30
+
+--- Page 32 ---
+the drought forecasting and monitoring processes include: rainfall forecasts; seasonal duration of
+rainfall; rainfall distributions; weather and climate observation data; weather and climate
+projections; weather and climate change data and information on various socio-economic
+sectors; gender; etc.
+3.3 Drought Impact Assessment
+Liberia remains the hotspot for biodiversity in the region and hosts a significant proportion of the
+remaining Upper Guinean Tropical Rainforest of West Africa. As indicated earlier, Liberia is
+endowed with abundance of rainfall and has never experienced any incidence of drought event.
+However, evidences of changing climate on the socioeconomic livelihoods of people, especially
+rural poor farmers and fishermen, is alarming and demands immediate actions and planning to
+tackle the events of worse occurrences. Any occurrence of drought event has the propensity to
+directly impact key sectors including agriculture and food security, health and nutrition, forestry,
+etc. as well as the livelihoods of poor resources dependent communities. During periods of
+drought, impacts can be far-reaching and cut across economic sectors and the various levels of
+government. It is therefore important to assess the potential impacts of drought on these sectors
+since it is a new phenomenon with high potentials to occur in Liberia as a result of unsustainable
+land use practices couple with natural climate change events. The NDP considers drought
+impacts assessment as key to achieving its overall goal.
+The assessment of drought impact is a government-led process with expected technical support
+from development and civil society partners as well as the involvement of would-be affected
+population. The assessment will evaluate the effects of drought, gather information on the
+physical damages to be caused and the overall impact the potential disaster will have on
+sustainable development of the country. The drought impact assessment will be driven by the
+EPA in close collaboration with selected member institutions of the National Drought Initiative
+and Land Degradation Neutrality Technical Working Group. Crossman (2018) proposes two
+approaches for assessing the magnitude and diversity of impacts that are likely to result from
+drought occurrence. The first approach calls for an organized technical team like the LDN and
+Drought Initiative Technical Working Group to be charged with the responsibility of determining
+impacts whilst the second approach proposes the establishment of a series of working groups
+31
+
+--- Page 33 ---
+responsible for anticipating and identifying drought-related impacts in all economic sectors
+deemed to be important.
+The drought impact assessment will be conducted nationwide covering key sectors expected to
+be affected in the events of a drought occurrence namely: the agriculture, forestry, health,
+environment, gender, transport and energy sectors. To ensure the conduct of a successful impact
+assessment, it is important that the capacities of those institutions to be involved in the exercise
+are built in the technical aspects of drought impact assessment. The technical team will also be
+expected to develop data collection methodology and tools as well as data analysis tools.
+As previously indicated, the role of gender has traditionally been focused on the vulnerable
+women and children population in Liberia which is now shifting paradigm to include both men
+and women. There exist limited data on the role of gender in the implementation of development
+programs in Liberia. It is therefore prudent that this plan recommends the use of a systematic and
+standardized national process to collect, assess and share data, maps and trends on drought and
+vulnerability as well as for the effective monitoring and warning service that considers the
+abilities and needs of women and men. Such assessment will incorporate key concerns on
+women organizations involvement, women and men tradition knowledge in drought and other
+disaster forecasting, their perception on the characteristics of drought, their capacity to respond
+to incidence of drought, their level of involvement in decision making in their communities and
+their potential roles in the implementation of the Plan, etc.
+4.0 DROUGHT RISK AND VULNERABILITY PROFILE
+Climate change hazards is impacting Liberia and posing threats to both economic and social
+development. Risk is defined as vulnerability x hazards whilst Vulnerability (V) can be defined
+as Exposure (E) plus sensitivity (S) minus adaptive capacity (AC), thus: V=E+S-AC. The
+following narrative presents a synopsis of vulnerability to climate variability for selected key
+sectors over the last 10 years.
+4.1 Agriculture
+32
+
+--- Page 34 ---
+The agriculture sector of Liberia is labor intensive and characterized by low technologies and
+productivity with accompanying high food deficits. Agriculture-related imported products
+account for over half of total national imports since 2005 (EPA, 2018). Majority of the rural
+population of Liberia depend almost entirely on food crop production as an important source of
+livelihood. The system of production is rain-fed, indicating heavy dependence on rainfall.
+Increasing tendency of changes in rainfall pattern, and temperature have significantly impacted
+the sector. In the absence of regular supply of water, all metabolic processes are stopped
+apparently causing extensive damage and loss to the farmers and food insecurity in the nation.
+Moreover, drought can destroy flowers and flowering processes. In addition, climate change
+induced hazards, such as animal diseases and disease vectors could affect the productivity of the
+livestock sub-sector.
+Hazard: Changing rainfall patterns.
+Exposure: Loss of crops and livestock; low crops yields
+Vulnerability: Increase in poverty incidence due to failure in crop productivity and livestock
+diseases.
+4.2 Forestry
+The natural forests cover about 4.3 million hectares or 45 percent of the land area, and the
+artificial forests cover about 11,000 hectares. The forest areas have continued to decline mainly
+due to unstainable agriculture and inappropriate commercial logging. According to EPA (2016),
+additional pressure is being created by climate change (unreliability of rainfall, over-flooding of
+settlement and farmlands and disparity in weather pattern) resulting in the need for massive
+clearing of forest for agricultural production and settlement. A changing climate influences the
+structure and function of forest ecosystems and plays an essential role in forest health. In fact,
+increased temperature as a result of climate change has started to expand the ranges and to
+enhance the survival rates of forest pests such as the case of the armyworm caterpillars’ outbreak
+which occurred in rural Liberia in 2009.
+Hazard: Changing rainfall patterns and increased temperatures
+33
+
+--- Page 35 ---
+Exposure: Forest ecosystem diminished or destroyed due to expanding agriculture occasioned
+by decline in farming, and extreme temperature.
+Vulnerability: Economic activities hampered as national foreign exchange earning relies
+substantially on export of forest products.
+4.3 Fisheries
+Although there have been no recent stock assessment conducted in Liberia, fisheries continue to
+provide a significant proportion of the animal protein needs of the country. Climate change
+variability can adversely impact aquatic bodies and subsequent destruction of water organisms,
+thereby seriously threatening fishery production. It has been estimated from several studies that
+the combined effect of changing temperature and rainfall patterns has markedly affected fish
+stock in terms of declining levels of certain species. It has been predicted that climate induced
+changes in the biophysical characteristics of Liberia, along with extreme events, will have
+significant effects on the ecosystems which support especially inland fish production (EPA,
+2018).
+Hazard: Changing temperature and rainfall patterns.
+Exposure: Decline in fish stock, and disappearance of some species of high economic
+significance.
+Vulnerability: Household protein may decline, and livelihood of fishing community destroyed
+in near term.
+4.4 Health
+Considering the poor state of the country’s health care delivery system, and low health standards,
+increasing temperature is likely to exacerbate disease incidence to the extent to overwhelm the
+system. Climate-sensitive diseases could also be on the rise. Moreover, the impact of rise in
+average temperature and heat stress can cause serious skin irritation and rash. This can impair
+human health and productivity.
+Hazard: Increasing temperature.
+Exposure: Increase in climate-sensitive diseases posing danger to already impoverished
+populations.
+Vulnerability: Health infrastructure is severely fragile to cope with such challenges.
+34
+
+--- Page 36 ---
+4.5 Gender
+The impact of gender disparity is glaringly visible in Sub- Saharan Africa and across all sectors
+of government and the private sector. While women and children are recognized to be striving
+for equality and integration, their men counterparts are equally facing various levels of inequality
+and marginalization in the society. Men and women in Liberia are traditionally involved in the
+labor-intensive agricultural practices, although at varying levels, without any forms of protection
+against diseases, extreme weather and other climatic conditions. An incidence of drought will
+have far reaching consequences on their health, livelihoods and survivability. Gender
+considerations at all levels and spheres of the society is therefore important to reducing existing
+disparity and bridge the gaps to ensure equality for all.
+Hazard: Changing temperature and precipitation and sea level rise.
+Exposure: Men, women and youths may be impacted at varying scales
+Vulnerability: In the absence of proper gender mainstreaming in disaster management, the
+situation may persist.
+The NDP commends the adoption of the “gender-responsive risk assessment”, based on a
+gender-based vulnerability analysis, considering the practices of gender inequality in political,
+social, cultural and economic areas as well as the different roles that men and women play at
+national and local levels. This risks assessment that will be achieved through the consideration of
+gender during the planning and implementation of the drought risks and vulnerability
+assessments and will enable the identification of the nature, location, intensity, and probability of
+drought, determining the existence and degree of vulnerabilities and exposure to risks; whilst
+also identifying the capacities and resources available to address or manage droughts, and
+determining acceptable levels of risk.
+5.0 STRATEGY FOR DROUGHT MANAGEMENT
+5.1 Overall Vision
+The National Drought Plan of Liberia is developed in adherence to the SDGs and consistent with
+the National Environmental Policy of Liberia which ultimate aim is to ensure the improvement
+of the physical environment, the quality of life of the people and of their economic and social
+living conditions. The overarching vision of the NDP is the establishment of a comprehensive
+35
+
+--- Page 37 ---
+plan where systems are put in place to regularly assess and monitor the adverse impact of
+drought and the effects of actions being employed to mitigate same, ensure effective
+communication with all stakeholders and populations about drought in order to deal with
+whatever signs that may appear, and maintain a drought recovery program.
+5.2 Strategic Objectives and Performance Indicators
+Strategic Objective 1: Identify the capacity needs of national institutions for early warning
+and drought monitoring.
+Indicator 1.1: The capacity needs for 60% of national institutions for drought monitoring identified,
+and their capacities assessed by 2020;
+Indicator 1.2: The human capacity of staff within the assessed institutions raised to optimal level
+by
+2021;
+Indicator 1.3: Meteorological facilities for measuring temperature, humidity, soil moisture, etc.
+secured and installed by 2023;
+Strategic Objective 2: Identification of national and regional hubs for the setting up of National
+Meteorological Stations.
+Indicator 1.1: Five (5) National and regional meteorological stations set up by 2023;
+Indicator 1.2: Meteorological databases established within the five meteorological stations by
+2025.
+Strategic Objective 3: Establish processes and methodologies for the collection of data on
+drought.
+Indicator 3.1: Manuals for the approaches and methods of data collection on drought
+developed by 2020.
+Indicator 3.2: Nation-wide meteorological data collection commenced by 2024;
+Indicator 3.3: Improved quality data on drought available and disseminated to relevant end users,
+experts and decision makers by 2026.
+36
+
+--- Page 38 ---
+Strategic Objective 4: Identify vulnerable landscapes, population, sectors and build their
+resilience to drought
+Indicator 4.1: Areas susceptible and vulnerable to drought nationwide identified, and mapped out
+by
+2026.
+Indicator 4.2: Develop and implement drought response programs in priority five locations by
+2027;
+Indicator 4.3: The agricultural, forestry, fisheries, mining, and health sectors strengthened to
+ameliorate the adverse impact of drought by 2027.
+Strategic Objective 5: Develop and operationalize drought recovery programs.
+Indicator 5.1: Two (2) national water reservoir constructed by 2027;
+Indicator 5.2: Promulgate legislations and enforce mandatory water use restrictions by 2027;
+Indicator 5.3: National capacity for aid, contingency and other assistant packages developed by
+2026.
+Strategic Objective 6: Build knowledge management network to ensure that food production
+practices and systems are climate proof.
+Indicator 6.1: Extension packages for knowledge sharing in climate proof agriculture production
+systems developed and implemented by 2025;
+Indicator 6.2: Capacity in sustainable agriculture enhanced in 150 farming communities by 2025;
+Indicator 6.3: Farmers in 150 communities introduced to and trained in drought coping measures
+by
+2025.
+Indicator 6.4: Priority sector agencies commence technical assistance to farmers by 2024.
+Strategic Objective 7: Design public education and awareness strategy and communicate
+with all populations about drought.
+Indicator 7.1: Drought risk communication strategy developed and implemented by 2020;
+Indicator 7.2: People’s perception about drought are improved and appreciable by 2022;
+Indicator 7.3: Understanding of the people on how to respond to drought is enhanced by 2023;
+37
+
+--- Page 39 ---
+Indicator 7.4: Cooperation and adjustments in living patterns improved by 2026.
+Strategic Objective 8: Mobilization of resources financial and human for the implementation
+of the drought plan.
+Indicator 8.1: Diverse sources of funding for the implementation of the drought plan identified by
+2019;
+Indicator 8.2: Increased in national budgetary allocation for drought management by 2020;
+Indicator 8.3: Increased public-private-community partnerships for the financing of the drought
+Plan by 2020.
+5.3 Priority Interventions
+Based on findings from the analyses of Liberia national drought circumstances, the NDP envisions
+prioritizing the following key areas of intervention which substantial efforts are required in order to
+achieve the goals and objectives as outlined in the national plan.
+5.3.1 Early Warning
+Early warning is a practical and cost-effective tool for implementing timely and appropriate
+responses to drought. In the case of Liberia, it will focus on strengthening specific national
+institutions to enable them to generate, record, store and share weather related information and
+data that will improve planning of various interventions in a timely and effective manner. It will
+not only explore ways of information sharing, but also ensure the improved and sustained
+collection of extreme weather-related data. This will allow for appropriate actions to be taken to
+avoid or reduce their risk and prepare for effective response. Early warning involves forecasts
+based on climate projections and the area’s drought history, possible outcomes of developing
+drought events, and deducing the duration of the drought, its severity and impact. The early
+warning systems will also involve both technology and all interested parties in drought planning
+and response. The effectiveness of mitigation and emergency response actions will depend on the
+accuracy, timely assessments, recording and dissemination of weather data.
+38
+
+--- Page 40 ---
+5.3.2 Preparedness and Mitigation (Please see 5.2: “Strategic Objectives and Performance
+Indicators” above for specific short- and long-term actions to mitigate potential risks in
+Liberia).
+A National Drought Task Force will be established comprising key stakeholders as specified in
+the stakeholder’s involvement plan to coordinate and supervise the implementation of the
+drought plan at all levels of government. This Team will be tasked with the activation of the
+various elements of the plan during times of need and will specifically undertake the following
+task in short- and long term: (a) carry out regular monitoring, and conduct public information,
+education and awareness, (b) analyze trends and catalogue persisting conditions, (c) make the
+case for risk assessment, (d) recommend mandatory restrictions, and (e) enforce actions and
+implement mitigation and response programs. The Task force will work in close coordination
+with the EPA, MME and MOT which are the key institutions expected to feed them with
+empirical quantitative data for decision making.
+5.3.3 Response
+Drought response actions are designed to solve short term water supply deficits when drought
+occurs and meant to solve an emergency supply shortfall; thus, does not always need to be
+justified by avoided costs. It is important to prepare drought response plan before a drought
+occurs. This allows time for the plan to receive public review and comment while not in a crisis
+mode. A Drought Contingency Plan shall be developed as a short-term response before drought
+sets in, and such plan shall take into consideration areas that are inaccessible. Water supply and
+savings effects are directly related to: a) the public’s belief that the emergency is real; b) the
+public clearly understanding the actions required to reduce water use; and c) the active
+enforcement of mandatory water use restrictions.
+Priority actions to be considered include (a) periodic review of the preparedness and contingency
+plans focusing on the most vulnerable areas, populations and sectors, (b) strengthening
+institutional capacities at both local and national levels preparedness, (c) information
+dissemination and sharing and coordination among different elements of the plan and agencies
+(d) robust disaster preparedness exercises, including evacuation drills and the (e) establishment
+of emergency funding modalities.
+39
+
+--- Page 41 ---
+5.3.4 Communication
+It is straightforward to construct a message about drought risk; but ensuring that your message is
+understood by your audience and that its implications are accepted is most difficult.
+Communicating more effectively with members of the public and engaging the public around
+drought risk is important. There are several elements that ensure effective communication: (a)
+people’s perception is partly shaped by timing; (b) communicating using a trusted messenger is
+advantageous; (c) scientific facts alone are not sufficient to engage people with drought risk – it
+is important to provide a compelling narrative, grounded in peoples’ values; (d) connecting
+drought risk to health impacts can make it more personally relevant ; and (e) avoiding doom and
+gloom and focusing on opportunities and benefits for taking actions.
+When communicating with the general public during drought awareness, it is important to
+consider the following key issues: (a) how drought relieve is expected to be affected; (b) what
+cooperation and adjustments in living patterns may be expected from communities; (c)
+enhancement of people understanding on how to respond to drought once it occurs; (d) what the
+cost will be; and (e) what funding modalities are available and accessible.
+5.4 Institutional Arrangements
+While it is true that there exists no recorded incidence of drought in Liberia, its potential impacts
+associated with climate change events are indicative of the level of threats to the socioeconomic,
+ecological, environmental and health systems of Liberia should any incidence of drought ever
+occur. An important step towards preparedness to tackle the impact of drought in Liberia
+involves having a functioning institutional structure to coordinate drought mitigation initiatives
+across related sectors at the national and sub-national levels.
+As a new phenomenon not yet experienced in Liberia, current governance structure and
+institutional arrangements are inadequate to tackle any incidence of future drought events. It is
+therefore important to have an efficient and effective institutional arrangement that will seek to
+establish the political basis through which vulnerabilities associated with drought related risks
+40
+
+--- Page 42 ---
+are addressed. This institutional arrangement seeks to support effective response to drought by
+creating a governance structure that will seek to undertake the following tasks:
+i. Oversee the effective implementation of drought initiatives by providing leadership,
+coordination and political support;
+ii. Identify requisite institutional policies, structures and processes currently in place to
+address drought associated issues and harmonize as appropriate;
+iii. Create an information and knowledge base to identify, develop and implement effective
+responses to emerging drought related issues;
+iv. Ensure that gender considerations are integrated and mainstreamed into the development
+of any response to drought;
+v. Mainstream disaster management and climate change adaptation into long-term
+development planning; and
+vi. Establish a process to effectively disseminate information on drought related activities.
+The National Drought Initiative and Land Degradation Neutrality (LDN) Technical Working
+Group
+The National Drought Initiative and Land Degradation Neutrality Technical Working Group is a
+multi-disciplinary technical group chaired by the Environmental Protection Agency (EPA) of
+Liberia and co-chaired by the Liberia Institute for Statistics and Geo-Information Studies
+(LISGIS). The Secretariat of this Technical Working Group shall be housed at the EPA and
+coordinated through a collaborative effort between the UNCCD and the UNFCCC National
+Focal Persons.
+The Environmental Protection Agency (EPA) is the principal authority over all environmental
+programs and activities in the country. The agency recognizes the role of sectoral environmental
+units such as water, agriculture, maritime, energy and forestry. These units are to work in
+conjunction with the respective line ministries and autonomous agencies that are involved with
+the environment.
+The Forestry Development Authority (FDA) is responsible to sustainably manage the forest and
+its related resources. It provides long and middle-range planning in the forestry sector as well as
+41
+
+--- Page 43 ---
+preparing forestry policy, law and administration; supervises adherence to forest legislation and
+concession agreements; calculates and determines forestry fees; evaluates investment proposals;
+executes reforestation and forest research and training; monitors activities of timber companies
+and executes protected area programs and administers wildlife and national parks.
+The Ministry of Mines and Energy has the statutory responsibility for the development of
+mineral, water and energy resources of the country and their administration; oversees land
+surveys in all parts of the country; coordinates the activities of miners of gold and diamonds,
+including granting of operation licenses; regulates beach sand mining.
+The Liberia Land Authority is required to propose, advocate and coordinate reforms of land
+policy, laws and programs in Liberia with the ultimate aim of ensuring equitable and productive
+access to the nation’s land, both public and private, security of tenure in land and the rule of law
+with respect to landholding and dealings in land, and effective land administration and
+management. The Authority’s mandate covers all land and land based natural resources,
+including both urban and rural land, private and public land, and land devoted to residential,
+agricultural, industrial, commercial, forestry, conservation and any other purpose.
+The Ministry of Agriculture is the central policy–making body of government for the agricultural
+sector and is responsible for promoting agricultural development and regulating the sector. It
+proposes to achieve its development objectives by focusing on applied research and extension
+services.
+The Ministry of Internal Affairs is responsible to administer the affairs of all Government
+functionaries within local and urban areas of Liberia. The Ministry oversees the activities of
+local Government bodies such as chiefdoms and clans; supervises all County Superintendents;
+guided by the revised interior regulations of Liberia which give the Ministry custodianship over
+all private and public properties within territorial confines of the country.
+The Central Agricultural Research Institute (CARI) is the only research organization in the
+country that has been carrying out applied and adaptive research covering food and tree crops,
+42
+
+--- Page 44 ---
+livestock, aquaculture and related areas. CARI is striving to transfer new and improved
+technologies to farmers. Support from the central government to strengthen its capacity is
+limited, making it heavily dependent on external sources.
+The Ministry of Public Works is the government agency with responsibilities to provide basic
+social and physical services such as feeder roads, improved sanitation and piped water as a
+means to improve livelihood of rural peoples. Before the war, this agency was actively involved
+in providing services to the rural areas with the support of donors.
+5.5 Stakeholders Involvement Plan
+A National Drought Management Initiative involves multiple stakeholders. It is therefore
+important to identify such stakeholders and clarify the specific roles each is expected to play, and
+the nature of collaboration and coordination required both in the development and
+implementation of the National Drought Plan. Below are the principal stakeholders groups
+which will be involved with the National Drought Plan.
+1. Environment Coordination Unit (ECU)
+The establishment of the ECU is provided for by the EPA Act of 2003. It is expected to be
+spearheaded by the Environmental Protection Agency where the environment units of each
+government ministry and agency collaborate.
+2. Agricultural Coordination Committee (ACC)
+The ACC is consistent with the Food and Agriculture Policy and Strategy (FAPS) of 2008. It
+comprises of government ministries and agencies, community-based organizations, local and
+international non-governmental organizations, agricultural cooperatives, research and training
+institutions, and donor partners.
+3. National Coordinating Committee to Combat Desertification
+As the implementation of the UNCCD became a high national priority, the NCCCD was
+established in October 2008 with the aim of coordinating national actions in meeting Liberia’s
+obligations.
+43
+
+--- Page 45 ---
+4. Society for the Conservation of Nature of Liberia (SCNL)
+The Society for the Conservation of Nature of Liberia is Liberia’s premium conservation
+organization that was established in 1986 with the mission of promoting nature conservation,
+supporting the establishment of a protected area network, encouraging good governance of
+natural resource management and increasing public participation in biodiversity conservation.
+The SCNL has over the years being involved in the sustainable management of Liberia’s forests
+and associated biodiversity for the benefits of forest communities adjacent protected areas. The
+organization is also involved in the conduct of research on natural heritage, wildlife, forest and
+other key features and publishes reports for public consumption.
+5. Liberian Universities
+Several Universities in Liberia are expected to get involved with the implementation of the
+National Drought Plan. They include: University of Liberia, Cuttington University; William
+V.S. Tubman University; African Methodist Episcopal University; United Methodist University,
+and the Stella Maris Polytechnic. These institutions conduct undergraduate training in general
+agriculture, agronomy, forestry, wood science, home science and agriculture extension
+education, environmental science; agriculture engineering and food science.
+6.0 SOURCES OF FINANCING
+6.1 Internal
+Sector Financing
+In terms of sector financing, there are currently two (2) agencies of government; the
+Environmental Protection Agency and the National Disaster Management Agency through which
+direct sector financing could be channeled towards the implementation of the National Drought
+Plan. Additionally, the line ministries/agencies responsible for specific disaster shall make
+allocation every fiscal year during the national budgeting process. Several other sectoral
+ministries and agencies that have work plans supported by budgets should have an allocation
+devoted to the management of the environment operated through their Environmental Units.
+They also have the potential to raise their own funds from the public and private sector for the
+services that they perform and regulate and can support national drought management efforts.
+44
+
+--- Page 46 ---
+There are three (3) separate funding schemes that could be used to contribute to the
+implementation of the National Drought Plan: (a) the National Environment Trust Fund; (b) the
+National Disaster Management Fund and; (c) Agency Fees.
+Agency Fees are fees and fines charged by environmental regulatory agencies for the review of
+commercial projects, and fines for non-compliance and offences to deter private companies and
+others benefitting from Liberia’s resources, to respect the natural resources and environmental
+laws of the country. It is a critical source of needed revenue to provide adequate funding for the
+implementation of the National Drought Plan.
+NGOs funding
+Several Non-Governmental Organizations have already shown interest in Liberia. It is expected
+that they will continue to source funds for the protection of the Liberian environment. Prominent
+among them are (a) Birdlife International working with the Society for the Conservation of Nature
+in Liberia since 1986 (b) International Union for the Conservation of Nature and Natural
+Resources(IUCN) - currently funding a number of projects and studies (c) Conservation
+International (CI) - worked in Liberia in the early years of post-conflict Liberia, and now actively
+engaged in conservation efforts (d) Flora and Fauna International (FFI) – currently working in
+protected areas, and particularly the Sapo National Park
+Other - in - Country Financing
+Internal private sector participants including local entrepreneurs, mineral mining industry, agro-
+industrial producers including small holders, agribusiness, etc. have the potential to finance some
+activities in the National Drought Plan. Training and research institutions in the country do
+access finance for research and capacity building, hence they could attract funds for research in
+drought.
+6.2 External
+45
+
+--- Page 47 ---
+A number of donors are known to have shown interest in the environment and natural resources
+management worldwide. Some of these donors are already involved with projects or programs in
+Liberia. Key among them are the World Bank; European Union; Forest Carbon Partnership
+Facility (FCPF); African Development Bank; the German Development Bank (KFW); Global
+Environment Facility; Global Mechanism; United States Agency for International Development;
+the United Nations Environment Program; United Nations Development Program; and Deutsche
+Gesellschaft für Internationale Zusammenarbeit or (GIZ).
+7.0 RECOMMENDATIONS
+Considering the overview of drought in Liberia as earlier described in this plan; and consistent
+with the draft outline for the preparation of the drought plan as presented by the UNCCD
+coupled with an elaboration of drought vulnerability profile, and other country specific
+circumstances, the following recommendations are proffered:
+1. Commence the construction of minimum drought mitigation and preparedness
+infrastructures such as the development of alternative water sources in rural and urban
+areas; and water storage facilities;
+2. Identify regional sites and/or institutions for monitoring water resources and assessing
+water deficit impacts on agriculture, fisheries, forestry and health;
+3. Initiate national water quality monitoring including those of catchment areas, lakes,
+streams and rivers (whether perennial or seasonal), and aquifers;
+4. Establish and activate all structures that are expected to lead the implementation of the
+National Drought Plan;
+5. Commence public education, awareness, and outreach on drought and its implications on
+human health and survivability; and
+6. Ensure the inclusion of women and men, particularly of marginalized socio-economic
+groups, in decision making processes and in action implementation.
+7. Undertake pre and post drought and gender impact assessments to identify potential
+threats to the vulnerable rural population and enable an analysis of impacts for different
+classes of population, social and age groups, etc. in order to guide the development of
+national response protocols.
+46
+
+--- Page 48 ---
+References
+Byun, H.R. and Wilhite, D.A. (1999). Objective quantification of drought severity and duration
+J. Clim., 12, pp. 2747-2756.
+Crossman, N.D. (2018). Drought Resilience, Adaptation and Management Policy (DRAMP)
+Framework: Supporting Technical Guidelines. UNCCD, Bonn, Germany.
+Deo, R. and Byun, H. R. (2014). Quantifying the severity, duration and intensity of drought in
+Australia using the effective drought index. J. Hydrol. (in review). 2014.
+Dogan, S., Berktay, A., and, V.P. Singh V. P. (2012). Comparison of multi-monthly rainfall-
+based drought severity indices, with application to semi-arid Konya closed basin, Turkey J.
+Hydrol., 470–471, pp. 255-268.
+Edwards, D. C., and Mckee, T.B. (1997). Characteristics of 20th century drought in the United
+States at multiple time scales Atmos. Sci. Pap., 63, pp. 1-30.
+EPA (2018). National Policy and Response Strategy on Climate Change, Monrovia, Liberia.
+EPA (2016). Liberia National Action Program: Aligned with the United Nations Convention to
+Combat Desertification (UNCCD) 10 Year Strategic Plan and Framework, Monrovia, Liberia.
+EPA (2013). Liberia Initial National Communication, Monrovia, Liberia.
+EPA (2008). National Adaptation Program of Action (NAPA)-Liberia.
+FAO (2009). Climate change implications for fisheries and aquaculture: Overview of current
+scientific knowledge. FAO Fisheries and Aquaculture Technical Paper # 530. Rome, Italy.
+Gibbs, W.J., and Maher, J.V. (1967). Rainfall deciles as drought indicators. Bur. Meteorol.,
+Bulletin No. 48, Melbourne, Australia.
+Jain, V.K., Pandey, R.P., Jain, M.K., and Byun, H. (2015). Comparison of drought indices for
+appraisal of drought characteristics in the Ken River Basin. Weather and Climate Extremes, 8.
+pp. 1-11.
+Lee, S.M., Byun, H.R. and Tanaka, H.L. (2012). Spatiotemporal Characteristics of Drought
+Occurrences over Japan J. Appl. Meteorol. Climatol., 51. pp. 1087-1097
+Marsih, I., Maskey, S., Mussa, F.E.F., and Tranbauer, P. (2014). A Review of Droughts on the
+African Continent: A Geospatial and Long-Term Perspective, European Geosciences Union,
+Hydrol. Earth Syst. Sci., 18: 3635–3649.
+47
+
+--- Page 49 ---
+Mckee, T.B., Doesken, N.J., Kleist, J., (1993). The relationship of drought frequency and
+duration to time scales. In: Proceedings of the 8th Conference on Applied Climatology,
+Anaheim, CA, USA, pp. 179–184.
+Palmer, W.C. (1965). Meteorological Drought. US Department of Commerce, Weather Bureau,
+Technical Paper 45. pp. 58.
+Sharma, V. and Franks, D. (2013). In situ adaptation to climatic change: mineral industry
+responses to extreme flooding events in Queensland, Australia. In: Society and Natural
+Resources 26:11, pp. 1252-1267.
+Sheffield, J., Wood, E. F., Chaney, N., Guan, K., Sadri, S., Yuan, X., Olang, L., Amani, A., Ali,
+A., Demuth, S., and Ogallo, L. (2013). A Drought Monitoring and Forecasting System for Sub-
+Sahara African Water Resources and Food Security. Bulletin of the American Meteorological
+Society 95:861-882
+Van Loon, A. F. (2015). Hydrological drought explained. Wiley Interdisciplinary Reviews:
+Water 2:359-392.
+Wilhite, D. A., and M. H. Glantz (1985). Understanding the Drought Phenomenon: The Role of
+Definitions. Water International 10:111-120.
+48

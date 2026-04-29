@@ -1,0 +1,1183 @@
+--- Page 1 ---
+NATIONAL DROUGHT PLAN FOR
+ZIMBABWE
+
+--- Page 2 ---
+Contents
+Contents ................................................................................................................................................ ii
+List of Acronyms .................................................................................................................................. iv
+1 Introduction .................................................................................................................................... 1
+1.1 Understanding Drought: Meteorological, Agricultural, Hydrological and
+Socioeconomic Drought .................................................................................................................. 1
+1.2 Goal, Objectives and Scope ............................................................................................... 2
+Objectives ...................................................................................................................................... 2
+Scope ............................................................................................................................................. 2
+1.3 Background ........................................................................................................................... 2
+1.3.1 Zimbabwe’s Agro-ecological Zones .......................................................................... 3
+1.4 Plan Development: Introduction of the 10-Step Process ............................................... 4
+2 RELATIONSHIP OF DROUGHT PLAN TO OTHER PLANS AND POLICIES ................... 5
+2.1 National Laws, Existing Drought Mitigation Strategies and Planning .......................... 5
+2.2 Importance of National Drought Plan ................................................................................ 7
+3 OVERVIEW OF DROUGHT IN THE COUNTRY .................................................................... 7
+3.1 Definition and Contextualizing Drought ............................................................................ 7
+3.1.1 Historical Occurrences ................................................................................................ 7
+3.2 Drought Impacts: By sectors .............................................................................................. 8
+3.2.1 Socio-Economic Sector ............................................................................................... 9
+3.2.2 Agricultural Sector ........................................................................................................ 9
+3.2.3 Pastoral sector .............................................................................................................. 9
+3.2.4 Non-agricultural Sectors ............................................................................................ 10
+3.2.5 Environmental impacts .............................................................................................. 11
+3.2.6 Secondary impacts ..................................................................................................... 12
+4 ORGANIZATION AND ASSIGNMENT OF RESPONSIBILITIES ....................................... 12
+5 DROUGHT MONITORING, FORECASTING, AND IMPACT ASSESSMENT ................. 14
+5.1 Drought Indices ................................................................................................................... 14
+5.2 Current Monitoring, Forecasting and Data Collection................................................... 15
+5.3. Drought Severity in all relevant sectors .......................................................................... 15
+Economic ..................................................................................................................................... 15
+Agricultural and Pastoral ........................................................................................................... 16
+Environmental ............................................................................................................................. 16
+ii
+
+--- Page 3 ---
+Social sector ................................................................................................................................ 16
+5.4. Drought Impact Assessment Methodology .................................................................... 16
+2. Remote sensing and GIS (soil water content, vegetation condition) ........................... 17
+6. DROUGHT RISK AND VULNERABILITY .............................................................................. 17
+6.3. The Drought Risk and Vulnerability Assessment and GIS Mapping .......................... 17
+6.3.1. Drought Risk Assessment ......................................................................................... 18
+6.3.2. Vulnerability Analysis ................................................................................................. 18
+7. DROUGHT COMMUNICATION AND RESPONSE ACTIONS ........................................... 21
+7.3. Drought Communication Protocol .................................................................................... 21
+7.4. Declaration of Drought conditions.................................................................................... 22
+7.5. Communication and Coordination Guidelines ............................................................... 22
+7.6. Drought Response Actions ............................................................................................... 22
+8. DROUGHT MITIGATION AND PREPAREDNESS ............................................................... 23
+8.3. Water management practices .......................................................................................... 23
+8.4. Appropriate Land Use practices ....................................................................................... 24
+8.5. Education, Communication, Awareness ......................................................................... 24
+8.6. Legislation ........................................................................................................................... 24
+9. RECOMMENDATIONS AND IMPLEMENTATION ACTIONS ............................................ 26
+9.3. Future Updates and Revision ........................................................................................... 27
+REFERENCES ................................................................................................................................... 27
+iii
+
+--- Page 4 ---
+List of Acronyms
+AGRITEX Agriculture Research and Extension Services
+CPU Civil Protection Unit
+DAT Drought Assessment Team
+DMC Drought Monitoring Centre
+EMA Environmental Management Agency
+FGD Focus Group Discussion
+GIS Geographic Information System
+GMB Grain Marketing Board
+GoZ Government of Zimbabwe
+GPS Global Positioning System
+HCT Humanitarian Country Team
+HEA Household Economy Analysis
+HRF Humanitarian Response Forum
+HWC Human Wildlife Conflict
+MALRR Ministry of Lands, Agriculture and Rural Resettlement
+METHI The Ministry of Environment, Tourism and Hospitality Industry
+MHESTD Ministry of Higher Education, Science and Technology Development
+MIPBS Ministry of Information, Publicity and Broadcasting Services
+MoHCC Ministry of Health and Child Care
+MPSLSW Ministry of Public Service, Labour and Social Welfare
+MSD Meteorological Services Department
+NDC National Drought Council
+NDP National Drought Plan
+NDVI Normalised Difference Vegetation Index
+NEWU National Early Warning Unit
+NFNC National Food and Nutrition Council
+NGO Non-Governmental Organization
+PDC Provincial Drought Coordinator
+PLDC Provincial Level Drought Committee
+POTRAZ The Postal and Telecommunications Authority of Zimbabwe
+RDC Rural District Council
+RLA Rural Livelihoods Assessment
+VCI Vegetation Condition Index
+WASH Water Sanitation and Hygiene
+WRSI Water Requirement Satisfaction Index
+ZIMVAC Zimbabwe Vulnerability Assessment Committee
+ZINWA Zimbabwe National Water Authority
+iv
+
+--- Page 5 ---
+1 Introduction
+Drought is a prolonged dry period in the natural climate cycle. Its impacts vary and include
+decimation of crops and livestock, environmental degradation, socio-economic damage. The impacts
+of drought can be severe and have detrimental effects on livelihoods and as such authorities have to
+make decisions regarding the allocation of water and food, mitigation measures as well as
+preparedness strategies.
+Zimbabwe like most Sub-Saharan countries experiences frequent and severe droughts (Benson and
+Clay, 1998) and is vulnerable to the prospects of an El Niño effect. Measures to address drought
+have been channelled to alleviating its impacts and these have been on an ad hoc basis. As with any
+natural disaster, addressing drought should not be focused solely on managing the crisis, but needs to
+encompass the full cycle of disaster management (Crossman, 2018). It is now evident that drought as a
+national hazard has to be prepared for and impacts dealt with before its occurrence. The National
+Drought Plan has been developed with the intention of providing a guideline to drought
+management, appropriate responses and communication actions for when drought occurs.
+This document is based on a desk study of drought planning and mitigation measures in Zimbabwe.
+The purpose of this plan is to provide an organised program and a framework for integrating
+stakeholders in drought preparedness and mitigation. The plan is intended to serve as a working
+guide for stakeholders to develop effective response and mitigation programs within their areas of
+influence.
+1.1 Understanding Drought: Meteorological, Agricultural, Hydrological and
+Socioeconomic Drought
+There is no universally accepted definition of drought. Ideally, definitions should be related to the
+region under study and be specific to the particular application. Drought indicators can be either
+qualitative or quantitative. McMahon and Diaz Arenas (1982) define drought as a period of
+abnormally dry weather sufficiently prolonged for the lack of precipitation to cause a serious
+hydrological imbalance, carrying connotations of a moisture deficiency with respect to man's usage
+of water. Several general definitions have been proposed by hydrological authors for example Beran
+and Rodier (1985). Drought can be defined in terms of precipitation and temperatures, that is,
+meteorological and hydrological drought. It can also be defined based on the impacts of the reduced
+precipitation on the economy and social aspects of the lives of people, that is agricultural and socio-
+economic drought (FAO, 2004).
+Meteorological drought
+This is a reduction in rainfall supply compared with a specific average condition over some specified
+period. It is defined as a period during which less than a certain amount, for example 70%, of the
+normal precipitation is received over any large area for an extended period.
+Hydrological drought
+This is caused by the impact of a reduction in precipitation on natural and artificial surface and sub-
+surface water resources. It occurs when there is substantial deficit in surface runoff below normal
+conditions or when there is a depletion of groundwater supplies. Hydrological drought reduces the
+
+--- Page 6 ---
+supply of water for irrigation, hydro-electrical power generation and other household and industrial
+uses.
+Agricultural drought
+A reduction in water below the optimal level required by a crop during each different growth stage,
+resulting in impaired growth and reduced yields. Agricultural drought relates to an imbalance in the
+water content of the soil during the growing season, which although influenced by other variables
+such as the crop water requirement, the water-holding capacity and degree of evaporation is also
+largely dependent upon rainfall amount and distribution.
+Socio-economic drought
+The impacts of drought on human activities are both indirect and direct impacts. This relates to a
+meteorological anomaly or extreme event of intensity and/or duration outside the normal range of
+events taken into account by enterprises and public regulatory bodies in economic decision-making,
+thereby affecting production and wider economy.
+1.2 Goal, Objectives and Scope
+Goal
+Establish a framework for Zimbabwe to conduct an effective, coordinated and appropriate response
+to drought that minimizes potential adverse impacts.
+Objectives
+To be prepared for and mitigate against the impacts of future and occurring drought events in
+Zimbabwe.
+Scope
+The plan includes overview of drought characteristics, monitoring and forecasting, impact and
+vulnerability assessments, communication and response coordination and action, drought mitigation
+and preparedness strategies, organizational responsibilities and recommendations.
+1.3 Background
+Zimbabwe is located in southern Africa between latitudes 15° and 23° south of the Equator and
+longitudes 25° and 34° east of the Greenwich Meridian. It has a total land area of 391,757 km², of
+which approximately 43% or 16.8 million ha is under forests and woodlands. The country is
+landlocked borders Mozambique to the east, South Africa to the south, Botswana to the west and
+Zambia to the north and north-west. The Zambezi River in the north and the Limpopo River on the
+south, form Zimbabwe’s borders with Zambia and South Africa respectively.
+2
+
+--- Page 7 ---
+The population of Zimbabwe is approximately 13.1 million people, with 67% residing in rural areas
+and the rest in urban areas (Zimstat, 2012). The major source of income for the rural population is
+derived from agricultural activities. Agriculture is the backbone of Zimbabwe’s economy and
+underpins the economic and social lives of the majority of the people of Zimbabwe.
+The agricultural sector contributes 19% to the gross domestic product (GDP). Agricultural production
+in Zimbabwe is mainly rain-fed, and therefore crop production patterns follow rainfall patterns (FAO,
+2004). In recent years rainfall amounts in most parts of Zimbabwe have been largely erratic and sub-
+normal resulting in reduced crop production. Over the past decade, the amount of rainfall the
+country receives has decreased from the multi-decadal mean on a regular basis (UNEP, 2010). In the
+later part of the 20th century, runoff in the country decreased by 20% to 30%.
+1.3.1 Zimbabwe’s Agro-ecological Zones
+Zimbabwe is divided into five agro-ecological zones (Vincent and Thomas, 1960). These
+classifications are mainly based on spatial distribution of average rainfall. Agricultural activities in
+these agro-climatological zones are based on soil type, and agro-climate. The best zone for
+agricultural suitability is Region 1 and the least is Region 5. However, the country regularly
+experiences inter- and intra-seasonal droughts that affect even those Regions that are better suited
+for agriculture. This affects water resources and in the end human activities and livelihoods. Thus,
+climate is a major factor that affects water availability and livelihoods of both rural and urban
+communities. Regions IV and V generally receive low rainfall and are therefore less suitable for
+arable crop production.
+Drought is an insidious natural hazard that results from a deficiency of precipitation from the
+expected or normal in such a way that when it is extended over a season or longer period of time
+the amount of precipitation is insufficient to meet the demands of human activities or the
+environment (Iglesias et al 2009). Drought occurs in both low and high rainfall areas and have a
+negative impact on ecosystem functions, reduce social, political and economic stability and can
+increase vulnerability to other natural disasters, such as heat waves and floods (Crossman, 2018).
+Drought is recorded the most common natural hazards occurring in Zimbabwe between 1982 and
+2011 (Table 1), accounting for six out of ten top major natural disasters. Regions IV and V are most
+prone to drought and the major areas regularly affected are in Masvingo and Matabeleland
+provinces.
+3
+
+--- Page 8 ---
+Figure 1 : Zimbabwe’s Natural farming regions where Region 4 and 5 are drought prone (source OCHA)
+Table 1: Top Ten Natural Disasters in Zimbabwe, 1982 - 2011
+Disaster Year No. affected
+Drought 2001 6,000,000
+Drought 1991 5,000,000
+Drought 2007 2,100,000
+Drought 2010 1,680,000
+Drought 1982 700,000
+Epidemic 1996 500,000
+Flood 2000 266,000
+Epidemic 2008 98,349
+Drought 1998 55,000
+Flood 2001 30,000
+Source: (‘Zimbabwe National Contingency Plan’, 2013)
+1.4 Plan Development: Introduction of the 10-Step Process
+The 10-Step process towards establishing a National Drought Plan was initially put forward
+by the University of Nebraska and has since been modified to be more generic. The steps provide a
+framework to drought policy and preparedness planning. Steps 1–4 focus on bringing together
+competent stakeholders with a clear understanding of the process, what should be accomplished,
+and are supplied with adequate data to make unbiased and informed decisions when writing the
+actual drought plan. Step 5 describes the procedure of developing an organizational structure
+necessary to prepare the plan. Step 6 and 7 point out the need for continuous research and
+4
+
+--- Page 9 ---
+coordination between scientists and policy makers. Steps 8 and 9 stress the importance of endorsing
+and testing the plan before drought occurs. Finally, Step 10 emphasizes revising the plan to keep it
+up-to-date and assessing its effectiveness in the post- drought period (Hayes and Svoboda, 2005).
+Step 1: Appoint a Drought Task Force
+Step 2: State the Purpose and Objectives of the Drought Plan
+Step 3: Seek Stakeholder Participation and Resolve Conflict
+Step 4: Inventory Resources and Identify Groups at Risk
+Step 5: Establish and Write Drought Plan
+Step 6: Identify Research Needs and Fill Institutional Gaps
+Step 7: Integrate Science and Policy
+Step 8: Publicize the Drought Plan—Build Public Awareness and Consensus
+Step 9: Develop Education Programs
+Step 10: Evaluate and Revise Drought Plan
+Drought is one of many disasters that affect Zimbabwe. There is need to appoint a Drought Task
+Force as part of the overall disaster risk management effort or strategy in the country. The Task
+Force should be composed of representatives of various sectors including agriculture, environment,
+climate, energy, local government and the non-governmental and private sectors. The impacts of
+drought cut across various sectors in Zimbabwe. The purpose and objective of the Drought Plan
+must be clear to all stakeholders. These should be in the context of the overall National Disaster
+Management Plan. Drought affects a wide range of stakeholders from different sectors in Zimbabwe.
+There should be a comprehensive stakeholder analysis at the beginning and these should participate
+in consultation for the development of national drought plan.
+2 RELATIONSHIP OF DROUGHT PLAN TO OTHER PLANS AND POLICIES
+2.1 National Laws, Existing Drought Mitigation Strategies and Planning
+The Civil Protection Act is the principal Act and regulatory framework that guides and regulates all
+disaster risk reduction (DRR) activities in the country (Government of Zimbabwe 1989). This Act
+establishes a civil protection organisation (CPO) and provides for the operation of civil protection
+services in times of disasters. The CPO is a national platform made up of line
+ministries/departments, state enterprises, private sector and NGOs whose regular activities are
+related to disaster risk reduction and community development (Mavhura, 2016). The responsibility
+for the administration and implementation of the Act lies with the Department of Civil Protection
+(DCP), which falls under the Ministry of Local Government Public Works and National Housing.
+National Policy on Drought Management (NPDM) outlines government responsibilities in
+responding to natural disasters and reviews government capacities and structures to deal with
+drought preparedness, mitigation and response. This policy has however not been finalized and is
+not in the public domain.
+5
+
+--- Page 10 ---
+The National Policy and Programme on Drought Mitigation provides a guide for local level
+structures (provincial and district) to obtain financial assistance from foreign organizations for early
+warning and drought monitoring sentinel sites. The Policy encourages green growth strategies that
+encompass planting early, choosing of drought-tolerant and early maturing seed varieties, water
+conservation measures, and cross-breeding and selling of livestock. The policy has however not been
+finalized.
+The Water Policy provides guidelines for water use and management including for water, sanitation
+and hygiene (WASH). In times of drought, water management is critical as lack of water can lead to
+other disasters.
+The Irrigation Policy provides guidelines for the country to increase its irrigation capacity so as to
+minimize risks including drought, to increase production and productivity and to enhance crop
+diversification.
+A draft Disaster Risk Management Bill has been under development since the early 2000s with the
+intention to update and eventually supersede the Civil Protection Act.
+National Climate Change Response Strategy provides a framework for a comprehensive and
+strategic approach on aspects of adaptation, mitigation, technology, financing, public education and
+awareness.
+The Zimbabwe Drought Risk Management Strategy and Action Plan (2017–2025) was designed to
+provide a framework and guidance to support the implementation of suitable drought mitigation
+practices and interventions. In order to be able to provide an appropriate framework for mitigating
+the effects of drought, this strategy is based on a number of principles derived from the national
+policy on drought management and related national documents.
+National Disaster Risk Management Policy has not yet been developed in Zimbabwe, however a
+“civil protection policy statement” exists, stating that “every citizen of Zimbabwe should assist
+where possible to avert or limit the effects of a disaster”.
+The Food and Nutrition Security Policy (2011) informs the establishment and strengthening of
+national structures, mechanisms and capacities that move beyond narrow technical interventions to
+facilitate multi-disciplinary, broad-based collaborative approaches for addressing food and nutrition
+security in Zimbabwe.
+The Second Science, Technology and Innovation Policy (2012) aims to develop innovative
+approaches that facilitates scientific and technological contributions to the country’s development
+agenda at micro and macro levels. The policy provides for the use of scientific early warning systems
+and breading for specific needs such crop and livestock that are tolerant to climate risks such as
+drought. It also stresses the need to monitor and mitigate threats to the environment, such as
+pollution and carbon emissions
+6
+
+--- Page 11 ---
+The draft Comprehensive Agricultural Policy Framework (2012-2032) recognises that the country
+is susceptible to droughts and looks at the development of sound strategies for combatting the
+effects of climate change. These include research into the development of high yielding and drought
+tolerant crop varieties, and support the production of small grains especially in the drought prone
+areas (ZRBF, date unknown).
+2.2 Importance of National Drought Plan
+Zimbabwe has experienced regular droughts over the years with the most severe being the 1991/92
+drought (Kinsey and Willem, 1998; Mutowo and Chikodzi, 2014). This was evident as the drought
+adversely affected groundwater resources. Rainfall in 1992 was just 30% of the average amount, and
+the water table in some areas dropped by 100–200 metres, traditional shallow wells and boreholes
+dried up, and a number of rivers, reservoirs and their related ecosystems disappeared (Gumbo,
+2006). The impacts crippled the economy and other sectors of the country most severely rural
+livelihoods (Maia, Vivas and Serralheiro, 2015; Tadesse, 2016). It is in this vein that a National
+Drought Plan is vital as it gives guidance to all stakeholders on drought mitigation and preparedness
+(Hayes and Svoboda, 2005). On paper, Zimbabwe has a go-to procedure with regards to droughts as
+a disaster risk (Zimbabwe Drought Risk Management Strategy and Action Plan (2017–2025))
+however there is lack of its implementation and coordination between the respective authorities
+and stakeholders. It is important to develop drought preparedness plans to deal with these extended
+periods of water shortage in a timely, systematic manner as they evolve.
+3 OVERVIEW OF DROUGHT IN THE COUNTRY
+3.1 Definition and Contextualizing Drought
+3.1.1 Historical Occurrences
+Drought occurs in high as well as in low rainfall areas. It is a condition relative to some long-term
+average condition of balance between rainfall and evapotranspiration in a particular area, a
+condition often perceived as normal. Yet average rainfall does not provide an adequate statistical
+measure of rainfall characteristics in a given region, especially in the drier areas. Droughts are
+normal recurring climatic phenomena, occurring at many scales for periods varying from weeks to
+decades (Bayarjargal et al, 2006). Zimbabwe is a subtropical country which experiences frequent
+droughts. Even before the devastating droughts in the 1990s, the trend towards late rainy seasons,
+prolonged mid-season droughts and shorter growing seasons had already been detected(Brüntru
+and Tsegai, 2017). The rainy season in Zimbabwe, even in non-drought years, is characterized by
+mid-season droughts (Nangombe, 2015; UN, 2017). Using the Standardized Precipitation Index
+droughts in Zimbabwe were observed to have become smaller or less pervasive with extreme
+droughts appearing to inherit the coincidence of both very high values of spatial extent and intensity
+in a single event (Mutowo and Chikodzi, 2014).
+7
+
+--- Page 12 ---
+Table 2 : Droughts in Zimbabwe between 1950 and 2013
+Grade Extreme Severe Drought Mild Drought
+Drought
+Drought 1983, 1992 1968, 1967, 1951, 1960, 1964, 1965, 1970, 1984, 1987, 1991,
+years 1982, 2004 1995, 2002, 2003, 2005, 2007, , 2009, 2010
+Total 2 4 16
+3.3% 6.7% 26.7%
+*Adopted from Nangombe (2015)
+Data for the period (1983–1996) shows that Zimbabwe experienced four major droughts, that is, in
+1982–1984, 1986–1987, 1991–1992 and 1994–1995 (Figure 2). In three of the four droughts, state
+and nongovernmental organization (NGO) drought-relief schemes provided substantial support to
+help maintain household consumption levels. Zimbabwe
+Figure 2. Annual rainfall years in Zimbabwe between 1950 and 2010 (adopted from Sangombe 2015)
+3.2 Drought Impacts: By sectors
+Although there are inconclusive findings on the specific impacts of climate change on regional water
+resources, many scientists have suggested that climate change is likely to increase the frequency and
+intensity of extreme climate events such as drought (IPCC, 2007). In addition to the risk to future
+water supplies brought on by climate change, population growth, urban expansion and
+requirements for environmental protection have been stressing local water supplies in many places,
+exacerbating competition for already scarce water resources. Zimbabwe has experienced at least 23
+droughts between 1950 and 2013 (Sangombe, 2015). The increase in the frequency of these
+droughts and other natural hazards can be attributed to climate change.
+The impacts from natural hazards, including drought, can be both direct and indirect. Direct and
+indirect effects are sometimes referred to as primary and secondary (or higher-order) effects in the
+literature. Identifying an adequate definition for direct and indirect impacts is important for
+economic impact assessments because the bounds set by such definitions dictate the scope of
+impacts that may or may not be included. In the manuals of Flood Hazard Research Center Parker et
+al., (1987), direct costs were limited to loss of land, houses and machinery; while indirect costs are
+related to business interruption as well as backward and forward multiplier effects in the economy.
+8
+
+--- Page 13 ---
+3.2.1 Socio-Economic Sector
+The socio-economic impacts of drought are varied, ranging from famines, food insecurity and a
+decrease in GDP (Adams et al., 2012). The impact of droughts can be felt directly in the agriculture
+sector. However there are some sectors that are also indirectly affected in a “snowballing” effect.
+Low agricultural productivity leads to reduced household incomes and lack of food. Agriculture is a
+major contributor to Zimbabwe’s gross domestic product. Droughts have a major impact on the
+socio-economic sector as the country has to import cereal when crops, especially maize, fail.
+3.2.2 Agricultural Sector
+Drought impacts are most eye-catching and direct in the agricultural sector. Dried crops, abandoned
+farmland, and withered and yellow pastureland are the common signs of drought. Prolonged soil
+moisture deficits due to drought can cause damage to crops and pastures. Crop failures and pasture
+losses are the primary direct economic impact of drought within the agricultural sector. Drought-
+induced production losses cause negative supply shocks.
+Drought-induced losses are not completely borne by farmers; instead, a portion of the losses are
+passed on to consumers through increased prices. The higher the price increases, the more losses
+will be passed on to consumers. It is even possible that farmers are better off from the drought
+impacts, given that the price increases by a higher percentage than the supply decreases.
+Additionally, commercial farmers who purchase crop insurance will get part of their losses
+compensated by insurance companies, and some eligible farmers may receive direct disaster aid
+from the government. The ultimate losses borne by farmers could be very different from the actual
+impacts caused by drought. It is a common mistake to equate farmers’ income losses with the
+economic impacts of drought. Therefore, it is important to quantify overall drought impacts as well
+as identify the losses borne by different stakeholders.
+Zimbabwe’s economy is agro based and any developmental hopes are pinned to a successful rainy
+season. Approximately 80% of Zimbabweans depend on rain-fed agriculture for their livelihoods
+(Madzwamuse, 2010). In drought years irrigation schemes have been known to fail completely and
+require more than just one season to recover. Studies have shown that following the 1991/2
+drought the 1992/3 rainy season provided only 80% of normal rainfall and this was not sufficient to
+sustain river flow or raise the water table to safe levels. It took 3 rainy seasons for the system to
+stabilize again.
+During the 1991/2 drought there were virtually no harvests in the country and that resulted in the
+depletion of the country’s grain reserves in the GMB. In a drought recorded in Ethiopia in 2015
+about 435 000 children faced severe acute malnutrition and more than 1.7 million children,
+pregnant women and lactating women needed supplementary feeding.
+3.2.3 Pastoral sector
+In a drought year, together with crop failures comes livestock losses. In 2015 about 60% of cattle
+herd’s perished in some areas. In Zimbabwe the 1991/2 drought reduced the national herd by up to
+50%. A fall in fodder availability due to low rainfall is the first main effect of drought on livestock
+9
+
+--- Page 14 ---
+production systems. Low rainfall causes a drop in the availability of drinking water, precluding the
+effective grazing of certain pastures. Fertility levels and the timing of conception are strongly related
+to the nutritional status of female animals. In a drought year, animals suffer both a lower rate of
+conception, due to a tardy and incomplete return to peak bodyweight during the rains, and higher
+rates of miscarriage and stillbirth in the subsequent period of pregnancy and calving, due to the high
+level of stress experienced by animals as the dry season proceeds. Thus, drought in one year will
+lead to lower calving rates in the following year. This fall in the number of new calves entering the
+herd is further aggravated by high mortality rates among young stock. Milk output also falls as
+female animals’ access to fodder is reduced and, below a certain level of intake, lactation ceases
+completely. This fall in milk availability affects not only the calf's nutritional status but also the
+consumption level of the herders’ families, which rely for part of their food requirements on off-take
+of milk from the animals. In normal years, humans are often in tight competition with calves for the
+small amount of milk available from females in the herd. A drought-induced milk shortage will
+intensify this rivalry.
+Animal live-weight falls as grazing becomes scarce, reducing the value of stock as meat animals. This
+loss of condition also makes them less valuable for the transport of goods and pulling of loads, such
+as in ploughing, drawing water, etc. This worsens the drought impacts especially for the subsistence
+farmers who in good years invest in their livestock and in drought years want to sell off their
+livestock to purchase food for human consumption. The livestock are then sold at very low prices as
+their body condition will be very low but the farmer has no option as they need food for their
+families and also cannot sustain the herd. During the 2012 drought in Zimbabwe a lot of heat waves
+were experienced and many small domestic animals and fowl died of heat stress in areas like Kariba.
+Records of children fainting and failing to attend school due to heat related illnesses were also noted
+in the 2012 drought.
+Death rates increase with the fall in live-weight and increased susceptibility to disease. Young
+animals, elderly stock and pregnant females are the most vulnerable. Death rates increase as the
+period of drought continues, as the period of nutritional stress lengthens and as the degree of stress
+intensifies. A number of surveys have been carried out on stock losses during times of droughts and
+these show that death rates vary widely from one livestock species to another and from one drought
+situation to another.
+3.2.4 Non-agricultural Sectors
+Drought also causes significant economic impacts in non-agricultural sectors through its effects on
+water supplies including stream-flows, reservoirs, wetlands, and groundwater. These non-
+agricultural sectors include, but are not limited to, tourism and recreation, public utilities, and
+landscaping services, navigation and other industries that have significant water consumption. Public
+water supply systems are designed to deliver clean water to the public on a continuous basis. If their
+water sources are from reservoirs or groundwater aquifers, they would not be subject to effects of
+short-term precipitation variations. However, the occurrence of severe and sustained droughts that
+deplete water storage can still cause water scarcity, deteriorated water quality, and even
+interruptions of supply. In Zimbabwe the 1991/2 drought depleted both surface and aquifer water
+leading to the shortage of water supply for both urban and rural consumers. In rural areas people
+have to travel very long distances to get water in drought years. Water shortages also result in water
+10
+
+--- Page 15 ---
+related public health concerns. This causes the closure of schools and other public institutions like
+hospitals and clinics. Where these continue to run, strict water rationing measures will be put in
+place.
+To manage water shortages in urban areas, water authorities can adopt adjustments that reduce
+water demand or adjustments that increase water supply. Demand-side measures include but are
+not limited to voluntary and mandatory use restrictions, price changes, conservation education
+programs, and investment in water-saving equipment and appliances. Supply-side measures can
+include finding alternative water sources, providing emergency supplies (drilling new wells, hauling
+in water), and recycling water. During the most recent drought in Zimbabwe the urban municipalities
+engaged in a program to drill boreholes in highly populated residential areas, for example Highfield
+and Mbare, in order to improve water supply for people. The losses caused by drought include:
+households’ welfare losses due to restricted water use and deteriorated water quality; lost
+production or sales for industries and businesses due to forced slowdown or shutdown; costs of
+emergency supplies; revenue losses and increased monitoring and treatment costs for water
+suppliers.
+In the tourism and recreation sector, since many activities are water-related, droughts can bring
+critical losses to businesses in drought-stricken areas. Drought impacts exist for both winter and
+summer recreational activities. Reduced flows might result in fewer visits and a shorter rafting
+season in areas like the Victoria Falls which is an important tourism destination in the country. Other
+summer recreational activities, like fishing and boating, can be affected by drought as well,
+especially a multi-year drought that depletes water in lakes and reservoirs.
+Zimbabwe is very vulnerable to drought with the economic impacts of major droughts extending
+well beyond the immediate impact of reduced agricultural production. The energy sector in
+Zimbabwe is very vulnerable to water shortages and reduced flows as 80% of the county’s energy
+comes from Lake Kariba Power station. In the most well documented drought of 1991/2 Lake Kariba
+levels dropped to about 40% of its full capacity, any further drop would have made the generation of
+electricity impossible. Electricity production was reduced to about 30% thus the country had to
+import electricity form the Democratic Republic of Congo.
+Drought also affects the country’s disaster preparedness in general. It takes about three seasons for
+the system to fully recover from a severe drought as evidenced by the 1991/2 drought. During this
+recovery period the country will most likely be ill prepared to deal with any other shock that may
+come thus the impacts will be magnified.
+3.2.5 Environmental impacts
+Environmental impacts of drought range from loss of ecosystems, loss of biodiversity, loss of water
+bodies and desertification (Adams et. al., 2012). The reduced precipitation in drought years results in
+the disruption of ecosystems and death of wildlife species. During the notable 1991/2 drought a lot
+of animals had to be translocated from National Parks for example Gonarezhou National Park to
+private game reserves like Save Valley Conservancy where resources were available for artificial
+water provisions.
+In rural areas people have to travel for longer distances in search of water for domestic use. Some
+end up digging in dry river beds to access water. During the 1991/2 drought in Zimbabwe, rivers
+11
+
+--- Page 16 ---
+dried up and ground water was also depleted resulting in people having to travel longer distances to
+get water..
+3.2.6 Secondary impacts
+The secondary impacts of drought, as well as other natural disasters, are attributed to the
+interactions and transactions among industries and sectors. Outputs from one industry/sector
+become inputs into other industries/sectors. Therefore, the direct economic impacts on an
+individual industry would spread through the upstream or downstream linkages to other industries,
+causing secondary impacts. For example, farmers with crop losses will reduce their supplies to the
+downstream industries, such as food processors and ethanol plants. These consumers would have to
+bid a higher price for the inputs or otherwise reduce their production for the lack of inputs. In turn,
+their downstream customers may be forced to do the same. Such types of effects are called
+downstream or forward effects. On the contrary, farmers may reduce their input requirements like
+fertilizer from the upstream suppliers, which can cause upstream, or backward, effects. The
+upstream and downstream effects together are referred to as indirect effects. In addition, any
+income reduction caused by a disaster would force consumers to diminish expenditures, and thus
+generate another round of impacts. Such impacts are usually referred to as induced effects in the
+literature, and they are also part of the secondary effects.
+Any welfare changes experienced by human beings should also be counted into the measures of
+drought economic impacts. For example, if drought causes damages to the habitat of endangered
+species, then the welfare of people who care about these species would be harmed and therefore
+should be counted as a part of drought incurred losses. Similarly, if drought causes health problems,
+like stress and anxiety to people, their lost welfare should also be counted as a part of drought
+incurred losses. Economists and other social scientists have developed various methodologies and
+techniques to evaluate non-market values. The three most commonly used ones are: travel cost,
+hedonic pricing, and contingent evaluation (Hayes and Svoboda, 2005)
+4 ORGANIZATION AND ASSIGNMENT OF RESPONSIBILITIES
+Agencies and stakeholders provide different goods and services towards drought management and
+their communication and coordination is essential. For efficient drought management there is need
+to establish drought management bodies and assign responsibilities to each as described in Table 3.
+The National Drought Plan is proposed to serve as a “framework” through which the Zimbabwean
+government and local sectors can efficiently cooperate and implement mitigation measures and
+suitable response actions during periods of drought. Local and provincial synchronization within the
+drought organizational framework provide for participation of each respective stakeholder, as well
+as coverage of all phases of drought management. Coordination within the structures is greatly
+dependent on communication which involves sharing of drought- related information.
+The Provincial Level Drought Committees (PLDC) as described in Table 3, would monitor and assess
+current and potential impacts of imminent or ongoing drought at local level. The PLDCs apply
+appropriate local government drought responses and advise the National Drought Council of any
+12
+
+--- Page 17 ---
+partnership needs. The NDC comprises of members from CPU, GoZ, respective ministries and
+departments. Post-drought appraisal (e.g., impact assessments generated by the PLDCs) assists in
+the documentation of national drought impacts and response and mitigation measures
+effectiveness. The Provincial Drought Coordinator manages the exchange of information between
+the NDC, Provincial Drought Monitor and the PLDCs. The NDC and PLDCs will rely heavily on the PDM
+to provide drought monitoring and forecasting information. Likewise the NDC will depend upon the
+PLDCs to monitor and assess local impacts within each province during periods of drought.
+13
+
+--- Page 18 ---
+Table 3 : Drought Plan Tasks and Descriptions
+Zimbabwe Drought National Drought Provincial Drought Provincial Level Drought Provincial National
+Programme Council Coordinator Committee (PLDC) Drought Monitor
+Purpose Coordination at Supports preparation and Recognize, implement Collates drought-related
+government level to successful implementation and respond to drought information, provides
+develop drought of the National Drought at a local level and technical assessments,
+policy and Plan. establish localized and analyses drought
+implement the strategies and projects to forecast information
+National Drought implement provincial whilst running the
+Plan. drought mitigation. website.
+Membership Civil Protection Unit This position resides within Each PLDC should include The officer coordinates
+Ministry of the Civil Protection Unit representation from with NDC, PLDC, CPU,
+Agriculture appropriate government ZIMVAC, Disaster
+Ministry of agencies, stakeholders, Management Agencies,
+Environment and the private sector. AGRITEX and others to
+Provincial Officials assess drought conditions
+AGRITEX and impacts.
+Met Department
+ZIMVAC
+Responsibilities -Informs -Maintains the National -Monitors, assesses, and -Contributes local
+Government on Drought Plan reports drought knowledge and drought
+drought related -Provides coordination conditions conditions to the database
+issues with government and local -Reports drought impacts through monitoring of
+-Implements and assistance programs and -Executes drought available data and weekly
+maintains National acquires funding for mitigation and drought impacts
+Drought Plan program implementation preparedness actions -Communicates with local
+-Supports and -Develops and implements -Identifies and prioritizes drought stakeholders and
+facilitates PLDCs projects to facilitate emergency drought PLDCs to collect real time
+-Coordinates and drought mitigation assistance projects observations of drought
+reports drought -Provides administrative -Develops long-term conditions and impacts
+vulnerability and support to the National drought mitigation -Updates the Drought
+impact assessments Drought Council and strategies to minimize the Information as needed on
+-Promotes drought Provincial Level Drought effects/impacts of the website
+mitigation activities Committees drought.
+and reduce drought -Ensures timely
+vulnerability distribution of drought
+-Suggests legislation forecasts to agencies,
+to State and organizations and the
+provincial legislative public
+bodies for drought -Develops and implements
+program activities public awareness and
+-Facilitates access to drought education
+government and
+development
+partners for drought
+management
+program funding
+-Declaration of laws
+and/or rules as
+necessary to
+implement
+mitigation measures
+Frequency Convene at least Year round coordination Meets at least once a Evaluates drought
+twice a year and and facilitates meetings at year and more frequently condition weekly and
+more frequently least once a year for NDC during periods of drought updates site as conditions
+during periods of and PLDC. More frequent or if drought funding change.
+drought or if drought communication during becomes available.
+funding becomes drought or as funding
+available. becomes available.
+5 DROUGHT MONITORING, FORECASTING, AND IMPACT ASSESSMENT
+5.1 Drought Indices
+The Meteorological Services Department (MSD) uses the globally accepted Standardised
+Precipitation Index which qualifies the severity of droughts in drought monitoring whereas the
+14
+
+--- Page 19 ---
+Agriculture Research and Extension Services (AGRITEX) mainly use the Water Requirement
+Satisfaction Index (WRSI) in drought monitoring. Normalised Difference Vegetation Index (NDVI) is
+the most widely used index for monitoring drought at different spatial scales ranging from the
+landscape to the global. Information is gathered from the National Drought Monitor and other
+sources. Mutowo and Chikodzi (2014) found that remote sensing technologies using indices as the
+Vegetation Condition Index (VCI) can be used for drought monitoring in Zimbabwe.
+5.2 Current Monitoring, Forecasting and Data Collection
+Drought monitoring is a key component to effective drought risk management and profiling the
+history and occurrences of droughts in Zimbabwe is one of the first steps needed to achieve this
+(Mutowo & Chikodzi 2014). A number of drought monitoring methods have been used globally and
+these are continuously improving, much so in developed countries. Monitoring methods used in the
+African Drought Monitor include: 1) Monthly and seasonal precipitation in percentage of average for
+meteorological drought, 2: monthly soil moisture anomaly data for agricultural/ hydrological
+drought, 3) The NDVI (Normalized Difference Vegetation Index) data is used to measure agricultural
+drought, and 4) Lakes and rivers levels data for hydrological drought expected soon with sentinel
+suite of satellites. This data is used by the African Regional Climate Centre and the Monitoring for
+Environment and Security in Africa (MESA) for Long Range Forecasting. The seasonal forecast is
+generated by southern Africa regional climate experts together with the Southern Africa Regional
+Climate Outlook Forum and disseminated in August prior to the rainfall season (Nangombe, 2015).
+Each member state then downscale the regional forecast to their national level and continuously
+monitor to pick out intra-seasonal droughts.
+The Ministry of Lands, Agriculture and Rural Resettlement through the Meteorological Services
+Department (MSD); and through the Agriculture Research and Extension Services (AGRITEX) are
+responsible for drought monitoring, systematic observation and monitoring of hydro-meteorological
+parameters; provision and publication of information, forecasts, products and services related to
+weather and climate. Also these departments are responsible for the supply of data related to
+drought-relevant parameters, indices and indicators (Nangombe, 2015 to the NDM).
+5.3. Drought Severity in all relevant sectors
+Hayes (1999) notes that, drought severity is dependent not only on the duration, intensity and
+spatial extent of a specific drought episode, but also on the demands made by human activities and
+vegetation on a specific region’s water supply. Mutowo and Chikodzi (2014) concluded that droughts
+occur annually in Zimbabwe, although the severity and spatial distribution varies. Matabeleland
+North and South, Midlands and Mashonaland Central Provinces are prone to moderate and severe
+droughts. Severe drought episodes have dire impacts on the socio economic sector and the
+environment and can lead to massive famines and migration, natural resource degradation and
+weak economic performance. It can exacerbate social tensions and fuel civil unrest.
+5.3.1. Economic – the impact of drought shocks of similar severity will vary between economies,
+depending substantially upon the structure of the economy. Zimbabwe like most African
+economies relies on the natural resources and as such production would plunge (Benson and
+15
+
+--- Page 20 ---
+Clay, 1998). The manufacturing sector would witness water and electricity shortages, input
+supply difficulties, reduction in demand due to the high cost of goods and macroeconomic
+conditions leading to unemployment increases. Other shocks include loss of forestry and
+wildlife production, loss of farmers, recreation and tourism industry, loss of industries
+dependant on natural resources production (Maia, Vivas and Serralheiro, 2015). Increased
+importation of food, revenue shortfalls, financial institution collapses and reduction in
+economic development are additional stresses to the economy due to drought.
+5.3.2. Agricultural and Pastoral – Agriculture bears much of the impacts in developing countries
+absorbing 80% of all direct impacts with multiple effects on water availability, agricultural
+production, food security and rural livelihoods. Agriculture in Zimbabwe contributes to 19%
+of the country’s GDP and approximately 80% of Zimbabweans depend on this agriculture
+which is mostly rain fed for their livelihoods. The severity of drought in the agricultural
+sector cannot be ignored. Drought results in reduced crop productivity, insect and disease
+infestation, HWC, unavailability and high cost of livestock water and feed, high livestock
+mortality rate, disruption of reproduction cycles and land degradation (Benson and Clay,
+1998; Hayes and Svoboda, 2005).
+5.3.3. Environmental – Drought severity in the environmental sector will mainly affect water
+availability which in turn will lead to a number of effects such as damage to plant species
+and severity of fires, loss and degradation of wetlands including salinity level disruption,
+groundwater depletion as sources of water are used up. Biodiversity loss, water and air
+quality effects and reduction of water flow and stream levels
+5.3.4. Social sector – The severity of drought on the social sector cannot be ignored as this shows
+responses of individuals and communities to the impacts of drought. The mental and
+physical stress as well as health related low flow problems such as sewage flows reduce
+health standards. Nutrition reductions due to high cost of food and diet deficiencies increase
+susceptibility to diseases. General increase in poverty, Increased conflicts for resources and
+management, cultural and social value disruption, civil unrest, loss of aesthetic value,
+reduction in quality of life and lifestyle change and migration.
+Although droughts can persist for several years, even a short, intense drought can cause significant
+damage and harm the local economy. Such impacts include loss of fertile soils, mass migration,
+death due to famines and scarcity in water, economical loss, among others
+5.4. Drought Impact Assessment Methodology
+Lack of impact assessment methodology hinders impact estimates and the activation of mitigation
+and response programs. Impact knowledge early in the season enables preparation of early
+estimates and warnings about the size of impacts. There is need for a Drought Assessment Team
+(DAT) that is solely focused and competent in drought data collection.
+a) Household surveys and qualitative information generated from the key informants
+16
+
+--- Page 21 ---
+The DAT utilises adapted tools for the Focus Group Discussion (FGD) and Key Informant Interview
+(KII) tools by a simplification of the standard Humanitarian Response Forum (HRF) rapid assessment
+tools infused with collection of Household Economy Analysis (HEA) key parameters.
+The DAT collects and updates information on crop production, livestock production, commodity and
+food prices, labour wage rates and on-going food and cash safety nets. All this information is
+compared to selected baseline/reference years for the study zones to reflect the impacts of the
+current drought conditions on sources of food, cash income and basic expenditure. Parameters on
+water scarcity, impact on crop and livestock production, health and nutrition; and household coping
+are collected through use FGD and KII tools as well as field observations to validate the impact and
+severity of drought community level (Multi-Agency Drought Assessment Team, 2016).
+b) Remote sensing and GIS (soil water content, vegetation condition)
+Real time monitoring of droughts over large land sparse can be achieved through the use of
+geographic information system (GIS) and Global Positioning System (GPS). By engaging relevant
+authorities and GIS expertise this method of drought impact assessment can complement
+community survey data.
+Indexes such as the Normalized Difference Vegetation Index (NDVI), Land Surface Temperature
+(LST), etc., have been used to monitor the agricultural droughts in the relation to the plant growth
+(Mutowo and Chikodzi, 2014) and can thus be employed in Zimbabwe. The Vegetation Temperature
+Condition Index (VTCI) can be used to effectively monitor the drought of an area in the real time.
+6. DROUGHT RISK AND VULNERABILITY
+Drought risk and vulnerability assessment and GIS mapping is a key element of drought
+management as it helps identify areas most at risk of drought, allowing communities to plan as well
+as prepare for and mitigate possible impacts.
+6.3. The Drought Risk and Vulnerability Assessment and GIS Mapping
+According to the Drought Resilience, Adaptation and Management Policy (DRAMP) Framework
+(Crossman, 2018), there are three pillars of drought risk reduction and these are:
+a. Implement drought monitoring and early warning systems
+b. Assess drought vulnerability and risk
+c. Implement measures to limit impacts of drought and better respond to drought
+The following are the six goals of the DRAMP Framework and these may not mutually exclusive:
+1. Reduce exposure to drought
+2. Reduce vulnerability to drought
+3. Increase resilience to drought risk:
+4. Transformation - alter fundamental attributes of social, economic and ecological systems
+17
+
+--- Page 22 ---
+5. Prepare, respond and recover from drought
+6. Transfer and share drought risks - distribute risks among wider section of society to include those
+who benefit directly and indirectly from robust drought risk management.
+6.3.1. Drought Risk Assessment
+Drought risk refers to the potential loss of lives, reduced health status, livelihoods, assets and
+ecosystem services in connection with drought, which could occur to a particular community or a
+society over a specified time period in the future (UN-ISDR, 2009). Drought risk is calculated as the
+probability of negative impact caused by interactions between hazard, exposure and vulnerability.
+Hydro-meteorological or hydrological indicators for example NDVI and SPEI are common indicators
+used to assess drought risks that work by implementing remote sensing to determine potential
+drought hazards. The data can then be coupled with data on population and assets in an area, as
+well as the communities’ vulnerability to damage by drought, to assess the drought risk. It is
+important for data on drought risks to include data from both remote sensing and ground
+assessments.
+To reduce drought risk, there must be an understanding of the hazard using climatology, improved
+operational monitoring, an analysis of vulnerability to understand what people and sectors may be
+most affected by drought, why these impacts occur, and if these relationships are changing over
+time. Because of the product relationship, if there is no chance for the hazard or there is no
+vulnerability, the drought risk for that location is zero. For drought, there are very few places, if any,
+around the world where either component is zero, but this is not necessarily true for other natural
+hazards. For example, the likelihood of a tsunami in Nebraska is zero, making the state’s tsunami risk
+zero according to the new equation.
+6.3.2. Vulnerability Analysis
+Vulnerability is expressed by the conditions determined by physical, social, economic and
+environmental factors or processes which increase the susceptibility of a community to the impact
+of hazards, including land degradation and desertification. Natural hazard researchers are most
+familiar with the hazard analysis component of risk assessment. However, many researchers stress
+that when evaluating drought risk, vulnerability needs to be considered with at least the same
+degree of importance that is devoted to understanding and addressing the frequency and severity of
+other natural hazards (Downing and Bakker 2000). Confusion over the concept of vulnerability and
+its role in determining natural hazard risk may come from the many variations in vulnerability
+definitions. Variations in terminology associated with the meaning of vulnerability, for example,
+sensitivity, resilience, susceptibility, resistance, capacity, potentiality arise from different theoretical
+schools. The definitions of vulnerability vary widely. However, most of them contain a common
+thread: they all agree that vulnerability shows the degree of susceptibility of society to a hazard,
+which could vary either as a result of variable exposure to the hazard or because of coping abilities
+(Wilhelmi and Wilhite 2002).
+18
+
+--- Page 23 ---
+Vulnerability analysis can be divided into three components, that is, impact assessment, causal
+assessment, and a temporal understanding of these issues. An impact assessment is essential to
+inventory the social, economic, and environmental sectors that are susceptible to drought impacts in
+a particular region. This allows the broad range of drought impacts to be examined and possibly
+ranked as high and low priority needs. This analysis may be based on the effects of more frequent
+and less-severe droughts, a drought of record, or whatever level of severity is deemed appropriate,
+based on the initial hazard analysis. Impact assessment sub-committees are usually established to
+research the relevant impacts for a given planning area. To assist such endeavors, several
+researchers have done quantitative and qualitative research on the impacts of drought (Wilhite and
+Vanyarkho 2000), while others have also included geographic information systems (GIS) in this type
+of analysis (de Jager et al. 2000). In most drought planning efforts, GIS and historical information
+may be used when available, but an impact analysis is often based only on the collective memories
+of the participants. Table 4 below shows the mitigation measures, expected results and responsible
+stakeholders and agencies with regard to drought mitigation .
+19
+
+--- Page 24 ---
+Table 4. Drought mitigation measures and expected results
+Drought mitigation measures Expected results Implementation agency
+1 Upgrading and modernizing the Meteorological Services Department and Early Reliable and more detailed drought forecasts MSD, NEWU
+warning system
+2 Drought monitoring at local and provincial levels through drought monitoring Drought alerting data and conditions PLDC, CPU, AGRITEX,
+administrators and provincial drought coordinators DMC
+3 Accessible drought informing websites and information hubs Easily accessible government website for stakeholders
+4 Conducting Vulnerability Assessments and Risk Assessments to identify Vulnerability and risk map highlighting areas of ZIMVAC, Red Cross,
+communities and regions prone to drought concern and priority NGO’s
+5 Plan and establish local, provincial and national response actions and strategies Drafted drought response plans CPU, RDC,
+6 Framework for efficient drought coordination and communication between Synchronization and coordination between stakeholders CPU, PDC, Relevant
+stakeholders ministries
+7 Legislation improvement on procedures of community participation in decision Legislative basis for controlling water utilization and GoZ, HCT
+making process and access to drought data. management
+8 Empowering, encouraging and educating farmers on appropriate farming practices Adequate food security and reduction in agricultural MALRR , AGRITEX,
+in drought prone areas loss FAO, NFNC
+9 Research informed and suitable land use practices and infrastructure Appropriate land uses and environmental system MALRR, AGRITEX,
+utilization NGO’s, MHESTD
+10 Policy development at provincial and national levels on water resource allocation
+11 Establish water conservation and water efficient designs to reduce water Rational and effective use of water resources. ZINWA, Municipalities,
+consumption
+12 Develop and implement drought-related public awareness programs and campaigns Household knowledge and understanding regarding POTRAZ, Media,
+drought Schools
+20
+
+--- Page 25 ---
+7. DROUGHT COMMUNICATION AND RESPONSE ACTIONS
+7.3. Drought Communication Protocol
+There is need for official procedures of drought communication and systems between stakeholders
+in monitoring sectors, the state and local governments up to the general populace. Effective
+communications that engage users in a timely manner are essential to reduce severity of drought
+impacts and thus protect the environment.
+Table 5: Stakeholder and drought communication protocol
+Stakeholder Communication
+Regional Drought and Weather  Climate and drought monitoring for region
+Forecast Forums, NEWU, MSD  Provide national long term and seasonal drought forecast for
+member states
+METHI, MSD, ZIMVAC, NEWU,  Continuously monitor to pick out intra-seasonal droughts, early
+DMC , warning
+ Drought monitoring and advising government on country’s
+drought status
+Farmers, AGRITEX  Report on drought status to local authorities
+ Crop, livestock and natural environment status and condition
+District Officers, Red Cross,  Collate weather and environmental data from stakeholders
+Local authority  Advise relevant authorities
+Civil Protection Unit, Ministry of  Declaration of Drought Conditions
+Agriculture, Humanitarian  Recommends drought declaration
+organisations, ZIMVAC  Mitigation and Preparedness actions
+President  Declares State of Disaster, declares Drought
+MET department  Provides drought early warnings
+ Informs stakeholders on drought progress
+AGRITEX, UN-FAO, ZINWA,  Drought mitigation measures and practises
+MPSLSW, NGO’s  Preparedness strategies
+Media  Public awareness and education
+ Mitigation and preparedness strategies
+Local Authorities, Education  Water conservation measures
+institutions, social groups  Sustainable livelihood strategies
+The Meteorological Office, National Early Warning Unit (NEWU), Famine Early Warning systems
+Network (FEWSNET), World food Programme (WFP), Drought Monitoring Centre (DMC) and the
+Food and Nutrition Council in collaboration with ZIMVAC assess and monitor drought hazards and
+maintain early warning systems. The Agricultural Rural Extension Services (AGRITEX) and
+cooperating partners, particularly United Nations Food and Agricultural Organisation (UN-
+FAO),promote drought tolerant crops, grazing schemes, water harvesting, expansion of irrigation
+schemes and moisture conservation (GoZ and UN, 2013; UN, 2017). The Department of Social
+Welfare together with all partners who manage the food sector distributes grain to the affected
+populations.
+
+--- Page 26 ---
+7.4. Declaration of Drought conditions
+The Department of Civil Protection, recommends for the President of the Second Republic of
+Zimbabwe to declare a “State of Disaster”. The department is guided by the Zimbabwe Vulnerability
+Assessment Committee (ZIMVAC) which conducts the Rural Livelihoods Assessment (RLA) report.
+The assessment is part of an inclusive information system that informs the Government and its
+Development Partners on initiatives necessary for saving and strengthening rural livelihoods in
+Zimbabwe. For the ZIMVAC to advise the government to declare a drought state of disaster they
+consider the Rainfall and Agricultural Season Quality, crop and livestock performance, rural food
+insecurity against base year standards. Also considered is the Global Acute Malnutrition (GAM) rate
+of children aged 6-59 months and The Severe Acute Malnutrition (SAM) rate for children aged 6-59
+months which has a 2% threshold for emergency response in Zimbabwe (ZIMVAC, 2016b).
+7.5. Communication and Coordination Guidelines
+Communication and coordination between departments is essential for efficient drought
+management strategies. In terms of coordination, the Provincial/ District Civil Protection Committee
+are responsible for coordinating disaster risk management activities at district and provincial level.
+Civil protection committees form the backbone of the country’s preparedness and response
+coordination structures, with committees existing at national, provincial, and district levels(National
+Civil Protection, 2013; UN, 2017).
+The National Food and Nutrition Council (NFNC), under the coordination of the OPC, oversee
+drought management and response. The NFNC works closely with the MSD, which provides early
+warning information, and the MALRR, which is the implementing arm of drought management and
+response activities.
+A web-based Disaster Information Management System (www.dcpzim.org) has been developed
+with support from IOM to serve as the information management (IM) platform for the Government.
+At the moment (during the writing of this plan) the website is offline.
+POTRAZ is in the process of setting up two dedicated emergency numbers that will be managed at
+the national level.
+7.6. Drought Response Actions
+At the top of the preparedness and response coordination structure stands the Humanitarian
+Country Team (HCT). The HCT consists of representatives of NGOs, the Red Cross Movement,
+development partners and UN agencies in Zimbabwe. The HCT meets at head of agency level to
+discuss issues related to preparedness and response coordination.
+Water supply and demand management - the government initiated, District Development Fund is
+responsible towards sinking boreholes in drought prone rural communities. These boreholes are
+drilled before and during droughts and assist the people and livestock in providing water. However,
+prolonged droughts have a tendency of also drying up the boreholes in these areas. Once declared a
+22
+
+--- Page 27 ---
+drought, a number of measures have to be taken for sustainable water usage by households and
+industries. Local municipalities in association with relevant authorities such as ZINWA embark on
+water use restriction and with an increase to water scarcity the restriction develop to water use bans
+and subsequently water rationing
+Food security and livelihoods- In some communities the Rural District Council (RDC) has partnered
+with NGOs such as CARE Zimbabwe and the World Food Program in using Marketing Board storage
+facilities for reserve grain stocks that will serve as relief, as a drought response preparation in case of
+moderate to severe drought. This would avoid delayed importation, since the responsibility for this
+exercise and provision of funds will lie in the hands of the RDC through the Local Government. The
+government also receives support from development partners (NGOs) through implementing food
+aid and water projects to different affected communities. The Vet Field Services Department also
+works in collaboration with FAO in providing supplementary feeds for livestock in affected areas.
+Communication and partnerships- The MSD provides early warning information and AGRITEX plays
+an active role in getting farmers to adopt the necessary adjustments to their cropping. Public
+awareness activities are undertaken by a multitude of actors including DCP, the Red Cross
+Movement, national and international NGOs and development partners. The Postal and
+Telecommunications Authority of Zimbabwe (POTRAZ) has works with mobile network operators to
+dispatch early warning or early action messages to people at risk. Media and press play a significant
+role in educating and raising awareness on droughts but mostly keeping the public well informed.
+8. DROUGHT MITIGATION AND PREPAREDNESS
+To curb the impacts of droughts it is essential to build up resilience during the non-drought period
+and while interventions during the drought should be aligned to early response which focuses on
+the certainty of early warning systems and continuous monitoring of the prevailing drought
+conditions. The very first step in drought mitigation is identifying drought hotspots (National Civil
+Protection, 2013). The Zimbabwe Government plan is built around the key areas of grain
+importation, emergency irrigation rehabilitation, livestock destocking, emergency water supply, and
+school feeding and food security (ZIMVAC, 2016a). Drought interventions should include the
+preparedness measures for the next drought cycle thus integrating proactive and reactive measures
+(Brüntru and Tsegai, 2017). Preparedness is required on all levels of government.
+8.3. Water management practices
+Water scarcity as a major impact of droughts intensifies the need for water management as a
+drought mitigation measure. Water conservation is a powerful yet underutilized drought mitigation
+tool that can stave off the severe water shortages, financial losses, and public safety risks (Hayes &
+Svoboda 2005). The practice preserves, controls and develops water resources both surface and
+groundwater. Mitigation measures include introducing appropriate water resources management
+and irrigation development schemes such as drilling of boreholes, construction of more dams,
+23
+
+--- Page 28 ---
+conservation farming, rainwater harvesting techniques and supplemental irrigation and other
+irrigation resources development (FAO, 2004). There is need to invest in soil and water
+management practices, such as improved development and management of fragile catchment areas
+and river basins, including small-scale irrigation.
+8.4. Appropriate Land Use practices
+Drought preparedness is essential for the agriculture sector and appropriate crop production and
+farming systems have to be employed. Crop production has to be encouraged in areas that are
+climatically and topographically suitable for particular crops including farming of small grain drought
+tolerant crops and short season varieties. Farmers are encouraged to partake in Climate Change
+Adaptation projects such as bee keeping which can act as safety nets (FAO, 2004; Nangombe, 2015).
+Improving rangeland and livestock management by ensuring correct stocking rates of domestic
+livestock and establishment of grazing schemes and supporting programmes on reforestation are
+suitable mitigation measures. Facilitation of sustainable management of natural resources and
+reduction of land pressure through resettlement and proper land use practices mitigates the severity
+of drought impacts on the environment. With rural communities being the most drought vulnerable
+areas accelerating rural industrialization and promoting small-scale enterprises shifts livelihoods
+from agriculture dependence.
+8.5. Education, Communication, Awareness
+Effective communication among relevant stakeholders fosters efficient drought mitigation and
+preparedness strategies and actions. From the government to the public, each stakeholder plays a
+vital role in mitigating drought impacts however there has to be knowledge and information
+dissemination leading to efficient mitigation practices (Hayes and Svoboda, 2005; Tsegai, 2014).
+Education and research institutions should redirect research towards more appropriate farming
+systems and drought mitigation practices for all stakeholders and these should be compliment policy
+(Tsegai, 2014; Tadesse, 2016). Education and well executed awareness programmes foster local
+reality and behaviour oriented conservation leading to community participation, capacity
+development and sustainable livelihoods (Eludoyin, Eludoyin and Eslamian, 2017). Farmers, through
+AGRITEX, are advised to adopt more scientific based seasonal forecasts and farming practises whilst
+also in-cooperating indigenous knowledge systems (Nangombe, 2015).
+8.6. Legislation
+Effective drought mitigation and preparedness strategies are based on established policies and
+institutional capacity. Mushore et al. 2015 noted a lack in policy implementation, integration and
+coordination among Government departments, NGOs and other institutions in disaster management
+in Zimbabwe. Institutions face a number of challenges which include political interferences, lack of
+resources and lack of coordination in drought management. Policies have to be effected on all
+stages of drought management i.e. from monitoring to impact assessment (Brüntru and Tsegai,
+2017) however policy coherence and coordination is difficult as it involves numerous sectors, various
+decision-making levels, time, socio-economic and technological transitions.
+24
+
+--- Page 29 ---
+Table 6: Key policy domains/sectors for building up drought mitigation and preparedness
+Policy domain Non drought period Drought period Responsible stakeholders
+Early warning  Drought hotspots • On-going impact MSD , DMC, MIPBS,
+systems/knowledge  Risk assessment assessment National Early Warning
+management  Vulnerability assessment • Monitoring and Unit, Ministry of Higher
+ Drought planning evaluation of mitigation Education, Science and
+ Knowledge dissemination and emergency measures Technology Development
+Water/Landscape  Landscape/watershed  Household and MALRR , ZINWA, Local
+management, water industrial water Authorities,
+harvesting and conservation restrictions, ban Environmental
+on- and off-farm  Water conservation Management Agency,
+ Water storage  On-going monitoring WASH
+ (Water-saving) irrigation of environmental
+ Water contingency planning flows
+Agriculture  support of more intensified  Irrigation or stop MALRR , AGRITEX, GMB,
+crop diversification according to Ministry of Higher
+programmes drought severity Education, Science and
+ Drought resilience breeding and outlook Technology Development
+ Cropping system  Livestock
+adjustment (new crops) vaccination and
+ Fostering livestock markets reduction
+ Seed (emergency) stocks  Protecting key
+ Managing pastoralism and animals, recovery
+crop/livestock integration  Seed distribution
+(recovery)
+Finance  Crop and livestock  Ease Finance ministry and
+(weather) insurance disbursements financial institutions,
+ Savings  Use for
+ Cash transfer facilities emergency cash
+transfers (private
+and public)
+Social protection  Establishing social  Scaling up to Civil Protection Unit,
+protection systems drought-affected ZIMVAC, NFNC
+populations, cash
+or in kind
+Food markets  Fostering food crop markets  Facilitating Market associations,
+(integration, storage, commercial food Finance ministry, MALRR,
+commercial linkages) inflows Ministry of Industry,
+ Establishing food price  Situation-sensitive Commerce and Enterprise
+monitoring systems regional food aid Development
+General economic  Income diversification  Infrastructure- Ministry of Finance and
+development  Migration as income building as part of Economic Development ,
+diversification measure emergency aid GoZ, NGO’s
+ Infrastructure (transport, and
+storage, reconstruction
+telecommunication, etc.) (cash/food for
+ Contingency planning work)
+Based on drought mitigation measures adopted from and suggested by Brüntru & Tsegai
+2017, Wilhite, 2014).
+25
+
+--- Page 30 ---
+Some provinces and districts in Zimbabwe, have updated preparedness and response plans in place
+while others need to have plans updated (UN, 2017). There is need for policies and plans directed to
+drought national disaster mitigation measures as the current encompass all natural disasters. These
+should also be directed at local, provincial and national levels.
+9. RECOMMENDATIONS AND IMPLEMENTATION ACTIONS
+Drought is one of the many disasters that occur in Zimbabwe. Although droughts have occurred
+regularly in the past, the government has responded to drought through its structures. The
+President, in terms of the Civil Protection Act can declare state of disaster' due to drought. The last
+such declaration was in 2016.
+The effects of drought straddles across various sectors whose responsibility is domiciled in different
+government ministries. Although when the government can declare a ‘state of disaster’ in case of
+extreme precipitation deficiency, the planning for such events still needs to be more coordinated
+and comprehensive. Cereal production which is the staple food for the majority of Zimbabweans is
+most vulnerable to droughts. The Ministry of Lands, Agriculture and Rural Resettlement is
+responsible for food production in the country. Drought planning for food security should therefore
+be a priority for this arm of government. For environmental impacts of drought, the Ministry of
+Environment, Tourism and Hospitality Industry actions by its parastatals mainly the Environmental
+Management Agency, the Parks and Wildlife Management Authority and the Forestry Commission.
+Because of the cross-sectoral nature of droughts and the key government ministries being, the
+Ministry of Lands, Agriculture and Rural Resettlement; the Ministry of Environment, Tourism and
+Hospitality Industry; and the Ministry of Local Government Public Works and National Housing.
+Ownership of the drought management plan is critical to its implementation. It is therefore
+important for comprehensive cross-sectoral consultations when crafting such a plan. The
+government of Zimbabwe is party to the UNCCD and the Environmental Management Agency in the
+Ministry of Environment, Tourism and Hospitality Industry is the focal point. Planning for drought
+should not only be responsibility of EMA but all sectors that are affected by drought. There has to be
+agreement in terms of who in principally responsible for coordination of implementation of any
+drought plan. This document therefore gives general guidance on drought planning and the need for
+coordinated approach to planning and implementation of national drought plan.
+Below are some of the activities that are proposed as next steps.
+1. Develop an agreed Drought Mitigation Plan that is mainstreamed into the operations of the
+Ministry of Environment, Tourism and Hospitality Industry; the Ministry of Lands, Agriculture
+and Rural Resettlement; and the Ministry of Local Government Public Works and National
+Housing.
+2. Upgrading and modernizing the Meteorological Services Department and forecasting system
+and associated observation networks whilst also encouraging competent human and
+technical resources to maintain and operate them. There is dire need to improve
+monitoring, seasonal forecasts, and early warning and information delivery systems.
+26
+
+--- Page 31 ---
+3. Enhancing cooperation and coordination between various stakeholders and sectors (hydro-
+agro-meteorological sector, government, education and research institution, NGO’s, public).
+4. Training and capacity development in drought vulnerability and risk assessment, drought
+mitigation and preparedness including contingency plans at local and national level and
+creation of national drought policies based on the principles of risk reduction.
+5. Improve drought awareness and education through public outreach.
+9.3. Future Updates and Revision
+The National Drought Plan, once agreed, should be continuously updated at specified intervals after
+evaluation and revision. Information should be sought from the government, NGO’s and the public
+sector with participation of all stakeholders.
+REFERENCES
+Adams H. D., Luce C.H., Breshears D.D., Allen C.D., Weiler M., Hale V.C., Smith A.M.S., and Huxman T.
+E., (2012). Ecohydrological consequences of drought-and infestation-triggered tree die –off : insights
+and hypotheses. Ecohydrology 5 : 145-159
+Bayargargal, Y., Karnieli, A., Bayasgalan , M., Khudulmur, S., Gndush, C., and Tucker, J., (2006),
+Acomparative study of NOAA-AVHRR deriveddrought indices using change vector analysis. Remote
+Sensing of Environment. 105. 9-22. 10.1016/j.rse.2006.06.003.
+Benson, C. and Clay, E. (1998) Drought and Sub-Saharan African Economies : A Preliminary
+Examination, Technical Paper No. 401. Washington, D.C.
+Beran , M and Rodier, J.A ., (1985). Hydrological aspects of drought: a contribution to the
+International Hydrological Programme. Paris : UNESCO
+Brüntru, M. and Tsegai, D. (2017) ‘Drought Adaptation and Resilience in Developing Countries’, in
+Promoting food security in rural sub-Saharan Africa” of the German Development Institute /
+Deutsches Institut für Entwicklungspolitik (DIE) funded by the German Ministry for Economic
+Cooperation and Development (BMZ) under its ‘One World – No Hunger’ (SEW).
+Crossman, N.D., 2018. Drought Resilience, Adaptation and Management Policy (DRAMP)
+Framework.
+de Jager, J.M., Howard, M.D., and Fouche, H. J., (2000). Computing droughtseverity and forecasting
+its future impact on grazing in a GIS, In : D.A. Wilhite(ed.), Drought : A global assessment , Chap.20,
+Routledge, London, pp. 269-278
+Downing , T. E and Bakker , K., (2000). Drought Discourse and Vulnerability to Environmental
+Hazards. Social Sciences Quarterly .84: 242-261
+Eludoyin, A. O., Eludoyin, O. M. and Eslamian, S. (2017) ‘Drought Mitigation Practices’, (May).
+27
+
+--- Page 32 ---
+FAO (2004) ‘Drought impact mitigation and prevention in the Limpopo River Basin’, in Drought
+impact mitigation and prevention in the Limpopo River Basin A situation analysis. Rome: FAO.
+Government of Zimbabwe (1989), Civil Protection Act Chapter 10:06. Government of Zimbabwe,
+Zimbabwe
+Government of Zimbabwe, and United Nations. (2013) ‘Zimbabwe National Contigency Plan’,
+(December 2012), pp. 1–31.
+Gumbo, D., (2006), “Working Together to Respond to Climate Change” Annex I Expert Group
+Seminar in Conjunction with the OECD Global Forum on Sustainable Development : Country Case
+Study on Domestic Policy Frameworks for Adaptation in the Water Sector
+Hayes, M. J., (1999)
+Hayes, M. J. and Svoboda, M. (2005) Drought Monitoring : New Tools for the 21st Century. doi:
+10.1201/9781420028386.ch3.
+Iglesias, A., Cancelliere, A, Wilhite, D., Garrote, L., Cubillo, F., (2009). Coping with Drought Risk in
+Agriculture and Water Supply Systems: Drought Management and Policy Development in the
+Mediterranean . 10.1007/978-1-4020-9045-5
+Kinsey, B. and Willem, J. A. N. (1998) ‘Coping with Drought in Zimbabwe : Survey Evidence to Risk on
+Responses of Rural Households’, 26(1).
+Maia, R., Vivas, E. and Serralheiro, R. (2015) ‘Socioeconomic Evaluation of Drought Effects . Main
+Principles and Application to Guadiana and Algarve Case Studies’, pp. 575–588. doi: 10.1007/s11269-
+014-0883-9.
+Mavhura, E. (2016) ‘Disaster legislation: a critical review of the Civil Protection Act of Zimbabwe’,
+Natural Hazards. Springer Netherlands, 80(1), pp. 605–621. doi: 10.1007/s11069-015-1986-1.
+Mutowo, G. and Chikodzi, D. (2014) ‘Remote sensing based drought monitoring in Zimbabwe Article
+information ’:, (October). doi: 10.1108/DPM-10-2013-0181.
+Madzwamuse, M. (2010). Climate Governments in Africa: adaptation strategies and institutions. A
+synthesis report prepared for the Heinrich Boll Foundation.
+Nangombe, S.S., 2015. Drought conditions and management strategies in Zimbabwe. In Proceedings
+of the Regional Workshops on Capacity Development to Support National Drought Management
+Policies for Eastern and Southern Africa and the Near East and North Africa Regions (pp. 84-89).
+National Civil Protection (2013) Resource Book for Disaster Management in Zimbabwe. Edited by M.
+Allardice. Harare.
+Tadesse, T. (2016) ‘Strategic Framework for Drought Risk Management and Enhancing Resilience in
+Africa’.
+Team, M.-A. D. A. (2016) Rapid Drought Impact Assessment Report.
+Tsegai, D. (2014) ‘Towards Developing National Drought Management Policy : Focus on the 10-Step
+Process’, (August).
+UN (2017) Capacity Assessment of the Disaster Risk Management System in Zimbabwe.
+Vincent, V. and R.G. Thomas (1961) ‘An Agricultural Survey of Southern Rhodesia, Part One – Agro-
+28
+
+--- Page 33 ---
+ecological Survey’, The Government Printers, Salisbury.
+Wilhelmi, O. V and Wilhite, D. A. (2002). Natural Hazards 25:37.
+http://doi.org/10.1023/A:1013388814894
+Wilhite, D. A. (2014) ‘The Role of National Drought Policy Managing Drought Risk in a Changing
+Climate : Presentation Outline’, (August), pp. 5–8.
+Wilhite, D. A and Vanyarko, O., (2000). Chapter 18 Drought : PervasiveImpacts of Creeping
+Phenomenon. Drought mitigation Centre Faculty Publications. 71.
+‘Zimbabwe National Contingency Plan’ (2013), (November), pp. 1–31.
+Zimstat (2012) Zimbabwe Population Census 2012, Population Census Office.
+ZIMVAC (2016a) Zimbabwe Vulnerability Assessment Committee ( ZimVAC ) 2016 Urban Livelihoods
+Assessment Summary Report. Harare.
+ZIMVAC (2016b) Zimbabwe Vulnerability Assessment Committee (ZIMVAC) 2016 Rural Livelihoods
+Assessment. Harare.
+Wilhite, Donald A. and Glantz, Michael H. (1985). "Understanding the Drought Phenomenon: The
+Role of Definitions" Drought Mitigation Center Faculty Publications. Paper 20.
+ZRBF (accessed July 2018) http://www.zrbf.co.zw/data/media/00001236/GENDER-CLIMATE-
+CHANGE-AND-RESILIENCE-An-overview-of-the-linkages-in-Zimbabwe-2.pdf
+29

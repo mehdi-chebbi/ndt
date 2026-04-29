@@ -607,6 +607,21 @@ export default function AICopilot() {
                 continue
               }
 
+              // Handle "reset_to_searching" event — backend detected a tool call mid-stream
+              // after some content was already shown. Clear the partial message and show searching.
+              if (parsed.type === 'reset_to_searching') {
+                isSearching = true
+                accumulatedContent = ''
+                setMessages(prev => {
+                  const updated = [...prev]
+                  if (updated[assistantIndex]?.role === 'assistant') {
+                    updated[assistantIndex] = { role: 'assistant', content: t('messages.searching') }
+                  }
+                  return updated
+                })
+                continue
+              }
+
               if (parsed.content) {
                 // If we were showing "searching" indicator, reset for actual content
                 if (isSearching) {
@@ -682,8 +697,8 @@ export default function AICopilot() {
         <button
           data-tutorial="ai-button"
           onClick={() => setIsOpen(true)}
-          className="fixed right-4 top-1/2 -translate-y-1/2 z-50 bg-white hover:bg-gray-50
-                     text-gray-700 w-16 h-16 rounded-full shadow-lg border border-gray-200
+          className="fixed right-4 top-1/2 -translate-y-1/2 z-[60] bg-white hover:bg-gray-50
+                     text-gray-700 w-14 h-14 rounded-full shadow-lg border border-gray-200
                      flex items-center justify-center transition-all duration-200
                      hover:scale-110 hover:shadow-xl font-bold text-sm"
           title={t('header.title')}
@@ -694,28 +709,27 @@ export default function AICopilot() {
         </button>
       )}
 
-      {/* Chat Window */}
+      {/* Chat Window — full-height sidebar */}
       {isOpen && (
-        <div className="fixed right-4 top-1/2 -translate-y-1/2 z-50 flex flex-col items-end">
-          <div className="bg-white rounded-2xl shadow-2xl border border-gray-200 w-[400px]
-                      max-h-[520px] flex flex-col overflow-hidden">
+        <div className="fixed top-[60px] right-0 bottom-0 z-50 flex flex-col w-[460px] max-w-full shadow-2xl border-l border-gray-200 bg-white animate-slide-in-right">
 
             {/* Header */}
-            <div className="bg-gradient-to-r from-green-600 to-green-500 px-4 py-3 flex items-center justify-between">
+            <div className="bg-gradient-to-r from-green-600 to-green-500 px-5 py-4 flex items-center justify-between flex-shrink-0">
               <div className="flex items-center gap-2">
                 <div className={`w-2 h-2 rounded-full ${isLoading ? 'bg-green-300 animate-pulse' : 'bg-green-400'}`} />
                 <span className="text-white font-semibold text-sm">{t('header.title')}</span>
               </div>
               <button
                 onClick={() => setIsOpen(false)}
-                className="w-6 h-6 rounded-full bg-white/20 hover:bg-white/40 flex items-center justify-center transition-colors text-white hover:text-red-300 font-bold text-lg leading-none"
+                className="w-9 h-9 rounded-lg bg-white/20 hover:bg-red-500/80 flex items-center justify-center transition-colors text-white font-bold text-lg leading-none"
+                title="Close"
               >
-                ×
+                ✕
               </button>
             </div>
 
             {/* Messages */}
-            <div className="flex-1 overflow-y-auto p-4 bg-gray-50 min-h-[300px]">
+            <div className="flex-1 overflow-y-auto p-5 bg-gray-50">
               {!sessionReady ? (
                 <div className="h-full flex flex-col items-center justify-center text-gray-400">
                   <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-green-500 mb-3" />
@@ -821,7 +835,7 @@ export default function AICopilot() {
             )}
 
             {/* Input */}
-            <div className="p-3 bg-white border-t border-gray-200">
+            <div className="p-4 bg-white border-t border-gray-200 flex-shrink-0">
               <div className="flex items-end gap-2">
                 {/* Attach image button */}
                 <button
@@ -866,7 +880,6 @@ export default function AICopilot() {
                 {t('disclaimer')}
               </p>
             </div>
-          </div>
         </div>
       )}
     </>

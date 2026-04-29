@@ -1,0 +1,2000 @@
+--- Page 1 ---
+Eswatini National Drought Plan
+The Kingdom of Eswatini
+Ministry of Agriculture
+August 2020
+
+--- Page 2 ---
+Contents
+Eswatini National Drought Plan 1
+List of acronyms and abbreviations 4
+Acknowledgements 6
+Executive Summary 7
+CHAPTER 1: BACKGROUND 9
+1.1 Drought Overview 9
+1.2 Purpose and Scope of the National Drought Plan 9
+1.3 Guiding Principles 11
+2.1 Location and Bio-Physical Characteristics 12
+2.2 Climate 12
+2.3 Social Context 12
+2.4 Water Supply and Demand 13
+2.5 Climate Change and Drought 14
+2.6 Historical Drought Occurrences 14
+2.7 Activities During Past Droughts 16
+CHAPTER 3: LEGISLATIVE AND INSTITUTIONAL FRAMEWORK 18
+3.1 Related Policies, Legislation, Strategic Plans and Programmes 18
+3.2 Relevant Regional and International Policy Framework 20
+3.3 Drought Management in Eswatini 21
+3.4 Challenges Facing Disaster Risk Management in Eswatini 22
+3.5 Proposed Coordination of the National Drought Plan 26
+CHAPTER 4: DROUGHT MONITORING, FORECASTING & IMPACT ASSESSMENT 28
+4.1 Drought Monitoring Indicators 28
+4.2 Current Drought Monitoring in Eswatini 30
+4.3 Development of the Eswatini Drought Monitor 31
+4.4 Drought Impact Assessment 33
+4.5 Drought Impact Reporting 34
+CHAPTER 5: DROUGHT RISK AND VULNERABILITY 35
+5.1 Definitions 35
+5.2 Drought Risk Mapping by the European Commission Joint Research Centre 36
+5.3 Assessing Drought Vulnerability 37
+CHAPTER 6: DROUGHT COMMUNICATION AND RESPONSE ACTIONS 39
+2
+
+--- Page 3 ---
+6.1 Drought Communication Protocol 39
+6.2 Declaration of Drought Conditions 39
+6.3 Communication and Coordination Guidelines and Response Actions 40
+CHAPTER 7: DROUGHT MITIGATION AND PREPAREDNESS 43
+CHAPTER 8: THE ESWATINI NATIONAL DROUGHT ACTION PLAN 46
+8.1 Guiding Principles 46
+8.2 Goals, Objectives and Activities of the National Drought Plan 46
+CHAPTER 9: IMPLEMENTATION ARRANGEMENTS 48
+9.1 Mechanisms for Implementation 48
+9.2 Monitoring and Reporting 49
+9.3 Future Updates and Revisions 50
+References 50
+Appendix 1: Eswatini National Drought Action Plan 54
+3
+
+--- Page 4 ---
+List of acronyms and abbreviations
+CA Conservation Agriculture
+CANGO Coalition Assembly of national NGO’s
+CASP Comprehensive Agriculture Sector Policy
+CBOs Community Based Organizations
+CCA Climate Change Adaptation
+CDP Community Development Plan
+CSA Climate Smart Agriculture
+CSO Central Statistics Office
+DLDD Desertification, Land Degradation and Drought
+DPMO Deputy Prime Minister’s Office
+DRM Disaster Risk Management
+DRR Disaster Risk Reduction
+DWA Department of Water Affairs
+EEA Eswatini Environment Authority
+EMS Eswatini Meteorological Services
+EOC Emergency Operation Centre
+EPR Emergency Preparedness and Response
+ER Early Recovery
+ESWADE Eswatini Water and Agricultural Development Enterprise
+ESWC Eswatini Water Services Corporation
+EW Early Warning
+EWS Early Warning System
+FAO Food and Agricultural Organization
+GDP Gross Domestic Product
+GEF Global Environment Fund
+GoE Government of Eswatini
+IOHL Institutes of Higher Learning
+IPPC Intergovernmental Panel on Climate Change
+IWRM Integrated Water Resources Management
+KOBWA Komati Basin Water Authority
+LUSIP Lower Usuthu Smallholder Irrigation Project
+LUSLM Lower Usuthu Sustainable Land Management
+MDGs Millennium Development Goals
+MEPD Ministry of Economic Planning and Development
+MHCP Multi Hazard Contingency Plan
+MNRE Ministry of Natural Resources and Energy
+MoA Ministry of Agriculture
+MoET Ministry of Education and Training
+MoH Ministry of Health
+MTEA Ministry of Tourism and Environmental Affairs
+MTRD Ministry of Tinkhundla and Regional Development
+NAP National Action Programme
+4
+
+--- Page 5 ---
+NBSAP National Biodiversity Strategy and Action Programme
+NCCP National Climate Change Policy
+NDMA National Disaster Management Agency
+NDP National Drought Plan
+NDS National Development Strategy
+NDTF National Drought Task Force
+NEWU National Early Warning Unit
+NFP National Focal Point
+NGO Non-Governmental Organization
+NWA National Water Authority
+PNRI Percentage of Normal Rainfall Index
+RDRMC Regional Disaster Risk Management Committee
+SDGs Sustainable Development Goals
+SEAP Swaziland Environmental Action Plan
+SWALGA Swaziland Association for Local Government Authorities
+TNA Technology Needs Assessment
+TWRM Trans-boundary Water Resources Management
+ULA Urban Local Authorities
+UNCBD United Nations Convention on Biological Diversity
+UNCCD United Nations Convention to Combat Desertification
+UNCT United Nations Country Team
+UNESWA University of Eswatini
+UNFCCC United Nations Framework Convention on Climate Change
+UNISDR United Nations Office for Disaster Risk Reduction
+WASH Water and Sanitation Hygiene
+WFO World Food Programme
+5
+
+--- Page 6 ---
+Acknowledgements
+The Eswatini National Drought Plan (NDP) was compiled under the Drought Initiative of the United Nations
+Convention to Combat Desertification (UNCCD). The authors acknowledge the Ministry of Agriculture for
+guidance during the preparation of the NDP, particularly the UNCCD National Focal Point, Mr. Bongani
+Masuku, the Senior Land Planning Officer Mr. Bongani Magongo and the Land Development Officer, Mr.
+Sipho Shiba. The Eswatini Water and Agricultural Development Enterprise is kindly appreciated for
+assistance with workshop logistics and funding the workshops. Valuable inputs were also provided by the
+National Disaster Management Agency (NDMA) and officials from various stakeholders. These include the
+Department of Water Affairs, Eswatini Meteorological Serves (EMS), University of Eswatini, Eswatini water
+Services Corporation and Eswatini Environment Authority. Civil Society Organizations also contributed
+through the participation of WaterAid, Eswatini Red Cross Society and others.
+The UNCCD provided funding for the NDP development process and Mr. Hansol Park, the Programme
+Officer under the Drought Initiative offered valuable support and guidance throughout the formulation
+process. Previous national assessments of drought impacts from various national reports to the United
+Nations Rio Conventions provided valuable information for the NDP. The participants of the national
+workshop who convened to discuss the NDP are also very much appreciated for giving their personal time
+to provide their input and suggestions.
+6
+
+--- Page 7 ---
+Executive Summary
+Drought is a prolonged dry period in the natural climate cycle that can occur anywhere in the world.
+Drought is a natural disaster of significant concern in Eswatini. Although Eswatini has a sub-tropical
+climate with rainfall ranging from 400 - 1,500 mm per year, a modest drop in normal rainfall can trigger
+water shortages. The recent droughts of 2015 to 2016 led to major losses in the agriculture, wildlife, and
+forestry sectors and affected human health in all the country’s regions. Eswatini’s drought vulnerability
+assessments indicates an increasing trend in the frequency of very hot days exceeding 36°C in the
+country, which may induce more frequent and intense droughts in future. It is therefore, critical that the
+Eswatini citizens be well prepared in the event of a drought.
+Drought vulnerability in Eswatini is compounded by the poor economy and the subsistence nature of
+agriculture, whereby most of the farming is done on small scale basis and is often only sufficient to
+feed the farmer’s immediate household. Preparing for drought and reducing the risk and mitigating
+the impacts of drought are paramount given the significant vulnerabilities in the country.
+This National Drought Plan for Eswatini has several specific purposes. Firstly, it provides a compendium
+of the most up to date information on drought occurrence, impacts and risk in Eswatini. Secondly, it
+identifies a series of short-term immediate monitoring, communicating and response actions to address
+imminent drought impacts. Thirdly, it identifies longer-term actions that help prepare for future droughts
+by reducing drought risk. And finally, it provides a coordinated and consistent approach for government
+agencies, civil society, donors and the private sector actors to reduce the impacts of drought.
+The Eswatini NDP is planned for 10 years (2020 – 2030) to be in line with the UNCCD Revised Strategy
+(2018 -2030) and it’s supporting instruments such as the LDN Scientific and Conceptual Framework. The
+Eswatini NDP follows best-practice models for disaster management, including but not limited to, the
+Sendai Framework and the Theoretical National Drought Plan Framework. Its implementation relies on
+Eswatini’s disaster risk reduction, which is set out in the National Disaster Management Act (2006), which
+establishes 9 clusters for disaster reduction, including the three clusters (food and agriculture, health and
+water and sanitation) which are most affected by drought. Under the NDP, clusters and various
+government ministries are given specific responsibilities of preparing, monitoring, communicating,
+responding to and recovering from drought.
+The NDP envisions a drought resilient Eswatini by 2030 hence its lay-out is structured into goals, objectives and
+activities that have been developed around the three pillars for drought risk management. In addition, a
+fourth pillar is proposed which addresses cross cutting-issues. The NDP therefore has four (4) distinct yet
+mutually reinforcing pillars, namely:
+● Implementing Drought Monitoring, Early Warning Systems and Impact Assessment.
+● Assessment and Management of Drought Risk and Vulnerability.
+● Implementing Measures to Limit Impacts of Drought and Better Respond to Drought.
+● Addressing cross-cutting issues that lead to transformative changes in drought risk reduction.
+The summary of NDP pillars, goals and objectives are shown in Box 1 below. The detailed actions are
+7
+
+--- Page 8 ---
+outlined in appendix 1. The NDP encompasses a paradigm shift from a reactive emergency response
+emphasis to a proactive one of reducing the country’s vulnerability and increasing drought resilience.
+Table 6 describes the triggers and responses that should be made during the various phases of a drought
+based on different levels of drought indicators (Standardized Precipitation Index and Percent Normal
+Rainfall Index).
+Box 1: Summary of Eswatini NDP pillars, goals and objectives.
+Component / Key Pillar Goals Objectives
+Component 1 (Key Pillar 1): Goal 1: Robust Objective 1: Strengthen Early Warning
+Implementing Drought drought monitoring Systems
+Monitoring, Early Warning and early warning Objective 2: Disseminate reliable warning
+Systems and Impact messages so that response to the risks are
+Assessment. measured and timely
+Objective 3: Undertake drought impact
+assessment
+Component 2 (Key Pillar 2): Goal 2: Better Objective 1: Undertake drought impact
+Assessment and assessment of drought assessment
+Management of Drought risk and vulnerabilities
+Risk and Vulnerability.
+Component 3 (Key Pillar 3): Goal3: Effective Objective 1 : Respond to drought as it
+Implementing Measures to response during unfolds
+Limit Impacts of Drought and drought events
+Better Respond to Drought. Goal 4: Enhanced Objective 1: Improve drought understanding
+Drought Preparedness, Objective 2: Reduce drought risk and
+Mitigation and vulnerability (Mitigation)
+Resilience Objective 3: Support activities that increase
+resilience to drought
+Objective 4: Improve water supply and
+demand management
+Objective 5: Improve national food and
+nutrition security
+Objective 6: Improve agricultural resilience
+to drought
+Goal 5: Drought Risk Objective 1: Minimize losses due to drought
+Transfer and sharing
+Component 4 (key Pillar 4 ) Goal 6: Improve Objective 1: Improve drought
+Addressing cross-cutting communication, communication and awareness
+issues that lead to awareness, capacity Objective 2 Strengthen capacity to cope
+transformative changes in building, drought with drought
+drought risk reduction mainstreaming and Objective 3 Mainstream drought into
+resource mobilization. ministerial and sectoral plans
+Objective 4 Mainstream gender into drought
+risk reduction
+Objective 5: Mobilizing of adequate
+resources for drought preparedness, itoring
+and response
+8
+
+--- Page 9 ---
+CHAPTER 1: BACKGROUND
+1.1 Drought Overview
+Drought can be defined as a prolonged dry period in the natural climate cycle that can occur anywhere in
+the world. Drought is a normal, recurring feature of climate and can occur in high and low rainfall areas
+(Wilhite, 2000). Drought is a protracted period of deficient precipitation resulting in extensive damage
+to crops, and a consequential loss of yield. Another way of defining drought would be to consider the
+decrease in precipitation (less rain) as the underlying cause of the drought, while soil moisture, runoff and
+socio-economic issues could be considered as first or second-order impacts.
+http://drought.unl.edu/Education/DroughtIn-depth/WhatisDrought.aspx,
+https://public.wmo.int/en/our-mandate/water/drought
+Whichever definition is used, a drought represents a situation when reduced rainfall and diminished water
+supply affects all sectors and human activities that depend on water supply. Unlike other hazards such as
+floods, hurricanes and wildfires (which have a clear beginning and end), drought is a slow on-set hazard
+and its effects are not felt at once and can only be partially anticipated. Further, drought has unique
+characteristics that exacerbate other hazards (American Planning Association, 2019).
+According to Wilhite and Glantz, 1985; Wilhite, 2000; and Crausbay et al. 2017, drought can be categorized
+into five main types, as follows:
+Meteorological drought: occurs when there is a period of below average precipitation.
+Hydrological drought: occurs when there are deficiencies in surface and subsurface water supplies. It is
+generally measured as streamflow, lake, reservoir, and groundwater levels.
+Agricultural drought: occurs when there is an inadequate water supply to meet the needs of crops and
+other agricultural operations such as livestock.
+Socio-economic drought: occurs when a drought impacts health, well-being, and quality of life, or when
+a drought starts to have an adverse economic impact in a country or region.
+Ecological drought: occurs when deficiencies in surface water supplies create multiple distresses across
+ecosystems, impacting the flow of ecosystem services.
+Quantifying the beginning and ending of drought is often very difficult hence, drought is typically known
+as a creeping phenomenon because of its slow onset, which makes it difficult for a community to know
+when they are entering or leaving a drought period and how long it will last - months or years. Drought
+conditions often remain unnoticed until water shortages become severe and impacts become evident as
+they progress over time.
+1.2 Purpose and Scope of the National Drought Plan
+9
+
+--- Page 10 ---
+The NDP assesses the institutional and legislative framework for DRR in Eswatini by identifying the role
+players and drought issues in all relevant Eswatini policies, plans and legislation related to drought. These
+include national instruments which relate to agriculture, land use planning, rural economic development,
+poverty reduction, water resource management and development, ecosystem and biodiversity
+conservation, health and built infrastructure.
+Climate projections suggest that there will be persistent droughts over southern Africa, including Eswatini
+that are more intense than what has been experienced in the 20th century (Fourth National Climate
+Assessment 2018). The impacts of drought are many, but usually include damage to crops and reductions
+in crop yields, death of livestock and wildlife, increased fire hazard, reduced freshwater availability, and
+damage to wildlife and fish habitats.
+The impacts of drought have many economic and social consequences including reduced income for the
+agriculture and broader economic sectors, higher food prices and unemployment. Drought planning,
+including preparedness and risk mitigation measures, will help reduce the impacts and enhance human
+well-being and security during and after drought. Therefore, preparing for drought and reducing the risk
+and mitigating the impacts of drought are paramount given the high incidence of land degradation and
+human poverty and malnutrition in Eswatini.
+The NDP provides information on the challenges faced on drought management at the local and national
+level. It also draws attention to areas that require national collaboration to enhance consistent and
+coordinated national approaches by providing clarity around priorities, roles and responsibilities at all
+levels.
+The NDP documents the risk of drought and outline a series of approaches and actions Eswatini can take
+to prepare for and increase resilience to drought. It brings together the key government agencies,
+communities, and NGO’s and private sector organizations to take a proactive approach to drought
+management and develop appropriate response actions when drought occurs.
+The NDP envisions improved mitigation of the adverse effects of drought in all areas of Eswatini resulting
+in increased drought resilience of the country’s economic sectors, ecosystems and communities. It
+supports best-practice models for disaster management, including but not limited to, the Sendai
+Framework and the Theoretical National Drought Plan Framework (Crossman, 2017; UNCCD, 2018),
+which is operationalized via three priority pillars, namely:
+a. Implementing Drought Monitoring, Early Warning Systems and Impact Assessment.
+b. Assessment and Management of Drought Risk and Vulnerability.
+c. Implementing Measures to Limit Impacts of Drought and Better Respond to Drought.
+In addition the NDP, addresses cross-cutting issues that lead to transformative changes in drought risk
+reduction, including awareness raising, capacity building and mainstreaming specific drought issues that
+affect vulnerable groups such as women, youth and people leaving with disabilities.
+10
+
+--- Page 11 ---
+The NDP actions are informed by previous assessments of risk and vulnerability in Eswatini. Continuous drought
+monitoring and forecasting is promoted so that the indicators are used to trigger drought management
+responses. There are three key indicators that are recommended for use in Eswatini to monitor and
+forecast drought onset, duration, conclusion, severity and impacts in the plan, namely Standard
+Precipitation Index (SPI), Land Surface Temperature (LST) and Normalized Difference Vegetation Index
+(NDVI).
+The NDP is closely aligned to the Revised UNCCD Strategic Plan (2018-2030) and it’s supporting
+instruments such as the LDN Conceptual Framework. It also supports other on-going national initiatives
+including poverty reduction programmes. Some of the proposed actions in the NDP, such as under Goal
+4, are transformative in nature hence they can be attained in the long-term, while some are high-level
+actions which can be best pursued using a multi-sectoral approach. The timeframe for the NDP is
+therefore set at 10 years (2020 – 2030).
+The NDMA will coordinate the implementation of actions outlined in the NDP, while the MoA will serve
+as the Secretariat. The Ministry of Agriculture will use the NDP to report to the UNCCD on drought
+management in Eswatini. The National Disaster Management Agency (NDMA) is the national institution
+that is mandated to coordinate disaster risk reduction (DRR) in Eswatiini.
+1.3 Guiding Principles
+The National Drought Plan shall be used to deliver a robust drought risk reduction process in Eswatini,
+guided by the following four principles.
+1. Drought is a recurring phenomenon hence it is best managed by continuously monitoring, early
+warning, impact assessment and integrating results into drought response plans.
+2. The assessment and management of drought risk and vulnerability is key to effective drought risk
+reduction, so that mostly affected groups are included in drought decision-making processes, plans
+and policies.
+3. Eswatini needs to better prepare for drought by adopting measures that Limit the Impacts of Drought
+and help the country respond to drought better.
+4. Drought is best managed by addressing several cross-cutting issues and mainstreaming drought into
+existing national programmes, sectoral policies and plans, including the National Disaster
+Management Agency programmes
+11
+
+--- Page 12 ---
+CHAPTER 2: THE IMPACT OF DROUGHT IN ESWATINI
+2.1 Location and Bio-Physical Characteristics
+The Kingdom of Eswatini is a landlocked and mountainous country, with a land area of 17,363 sq.km that
+is situated in the south eastern part of the African Continent, bounded by the Republic of South Africa on
+the north, west and south and by the Republic of Mozambique to the east (Manyatsi et. al. 2010).
+Eswatini’s amazing variety of reliefs has four well-defined physiographic regions, extending longitudinally
+from north to south in roughly parallel belts. The land is classified into six physiographic zones. Highveld,
+Upper Middleveld, Lower Middleveld, Western Lowveld, Eastern Lowveld and Lubombo Range, (Sweet
+and Khumalo, 1994). Each of the physiographic regions has its own climate. In terms of altitude, Eswatini’s
+highest summit point stands at 1 862 m above sea level, and the lowest point is at 152.4 m, with four
+ecosystems (aquatic, forest montane grassland and woodland-savannah mosaic represented in the steep
+gradient).
+2.2 Climate
+Eswatini has a sub-tropical climate with summer rains (with 75% in the period between October and
+March) and distinct seasons. It has 4 distinct ecological zones with different climatic conditions that range
+from temperate and sub-humid in the Highveld to semi-arid in the Lowveld. The country is influenced by
+air masses from different origins: equatorial convergence zone, sub-tropical eastern continental moist
+maritime, dry continental tropical and marine west Mediterranean (GOE, 1997).
+Mean annual rainfall ranges from about 1 500 mm in the northern Highveld to 400 mm in the southern
+Lowveld. Precipitation varies considerably however from year to year, which leads to increases instances
+of flash flooding or drought. High recorded rainfall variation makes it difficult to identify trends with a high
+degree of certainty.
+Drought is an inherent feature of the current semi-arid climate. Rainfall levels have consistently reduced
+over the last five years (since the 2011/12 season). The El Niño phenomenon has exacerbated the drought
+during the period, where the lowest rainfall levels over the five year period occurred during the 2015/16
+season (Government of Eswatini, 2016b). The recorded and projected climate trends indicate that the
+Kingdom of Eswatini is particularly vulnerable to the effects of climate change. Measures to improve the
+functioning and wider disbursement of meteorological stations will assist the country to monitor and
+record climate related trends.
+2.3 Social Context
+Eswatini has a population of 1.3 million people of which 53% are women. The country is classified as a
+Lower Middle Income country with a per capita GDP of $3,500 and a GDP of $6.259 billion. Despite this
+classification, Eswatini still faces a number of serious development challenges which have been
+summarized in the United Nations Development Assistance Framework (2016-2020) as:
+Slow economic growth; high levels of inequality and poverty; high unemployment rates especially
+amongst the youth; high incidence and prevalence of communicable (HIV and TB) and non-communicable
+diseases in the face of health system constraints; high maternal mortality; high levels of chronic
+malnutrition; increasing number of vulnerable households; limited research and technical capacity to
+generate timely and quality data to inform integration of risks and climate change adaptation and;
+12
+
+--- Page 13 ---
+capacity constraints to effectively implement pro-poor development policies and slow uptake of
+development innovations at community level.
+The poverty level is estimated at 63% with high income inequality. Unemployment stood at 47.1% for the
+overall population in 2013 with youth and women more adversely affected by unemployment. Rural
+households involved in subsistence farming activities are the poorest. Poverty is closely correlated to the
+extent of food security mainly due to unsustainable farming techniques, low rainfall and limited arable
+land. The poverty situation is worsened HIV/AIDS and the effects of climate change manifested in chronic
+droughts.
+Eswatini's economy is predominantly agro-based with 77% of the population residing in rural areas and
+deriving their livelihoods from subsistence agriculture. The informal agricultural sector is largely
+responsible for the production of maize, legumes, sorghum and sweet potatoes. In addition, sugar cane
+and cotton are produced as cash crops in the informal sector. As the main producers of food crops, small
+and subsistence farmers operating in the informal sector are responsible for the production aspect of food
+security. The large scale operators under the Title Deed Land subsector cultivate almost exclusively, sugar
+cane, citrus and forests. Their involvement with food crops is limited.
+2.4 Water Supply and Demand
+Eswatini has been classified as a water scarce country where water supply comes from rainfall, surface
+water resources (rivers, dams, reservoirs) and groundwater. A variety of rivers traverse through Eswatini
+including Mlumati, Komati, Lusutfu, Ngwavuma and Mbuluzi Rivers, with an estimated 4.5km3/year of
+surface water, half of which originate in South Africa (GOE, 2014; Manyatsi and Brown, 2009). Water
+bodies make up only 4% of the land surface area, which is about 160 km2 of the total area of 17,364 km2.
+About 50% of the country is classified as dry sub-humid to moist semi-arid (see figures below).
+Figure 1: The major river basins in Eswatini and zones classified by levels of aridity (Source: Matondo (undated))
+13
+
+--- Page 14 ---
+2.5 Climate Change and Drought
+Droughts occur naturally, but climate change has generally accelerated the hydrological processes to
+make them set in quicker and become more intense, with many consequences (Mukherjee, Mishra &
+Trenberth, 2018). The impacts of climate change has been felt in many economic sectors of Eswatini
+including land, agriculture, water, forests and health, due to sharp reduction in crop yields in recent years,
+(Mhlanga-Ndlovu and Nhamo, 2017). Drought is an integral part of the actions that Eswatini needs in her
+proactive approach to climate change adaptation and disaster risk reduction. Thus the NDP needs to
+appreciate future projects on drought due to climate change predictions and prioritize accurate weather
+forecasting accurately to assist early planning for drought.
+2.6 Historical Drought Occurrences
+Drought is a natural climatic phenomenon that can potentially occur anywhere in the world. Eswatini is
+vulnerable to drought and other extreme natural and human induced hazards. Between 1980 and 2014,
+about ten drought events have been recorded with varying periods and intensity (see figure 2 below).
+Drought is a natural disaster of significant concern in Eswatini since prediction by the IPCC (2016) indicate
+that future drought events will be longer, more frequent and more intense in southern Africa, including
+Eswatini.
+Figure 2: Record of drought events in Eswatini from 1981 to 2013. (Source: NDMA)
+2.6.1 Environmental Impacts
+Although Eswatini has a sub- tropical climate receiving up to 400 -1 500 mm of average annual rainfall, El
+Nino events have triggered extended periods of well below average rainfall leading to major water
+shortages and crop losses.
+14
+
+--- Page 15 ---
+The impacts from drought in Eswatini include grass and forest fires, food shortages, reduced hydropower
+generation, loss of income and increased crime rates. The high incidence of poverty and malnutrition in
+Eswatini compounds the impacts of drought (https://public.wmo.int/en/our-mandate/water/drought).
+This makes drought risk alone to be capable of undermining the capacity of the country to make the capital
+investments and social expenditures necessary to develop sustainably. In Africa, it is estimated that
+drought accounts for more than 95 percent of the death toll caused by disasters and more than 80 percent
+of the number of people affected by disasters (UNCCD, 2019).
+2.6.2 Social Impacts
+Food security was also affected since drought is connected to climate change, mitigation and food security
+where the country’s poorer communities are most at risk of global climate variations and global
+commodity price fluctuations. Drought exuberates the country’s challenges to producing enough food to
+cover domestic requirements, contributing to the food insecurity of an estimated 20%-25% of the
+population (UNDP, 2012).
+In 2015, an estimated 25% of Eswatini’s population was severely food insecure, which is in contrast to the
+2012 figure, which was 7% (FAO/WFP, 2015). While food insecurity can cause lasting damage to future
+generations and to the environment, it can also cause physical harm ranging from malnutrition to death.
+Over the past decade, drought has continued to put a heavy toll on the well-being of individuals and
+communities in the country. During the 2015/16 drought about 620 000 people received support either
+as in kind or cash transfers and over 80 000 cattle deaths were recorded (FAO, 2017). The total economic
+loss was about E3.843 billion (Equivalent to USD 308 million), representing a 7.01% of the country’s GDP
+or 18.58% of government expenditure that year. Women, children and people in vulnerable situations
+were disproportionately affected.
+Figure 3: Declining seasonal average temperatures and rainfall recorded in Eswatini during the El Nino
+drought of 2015/16. (Source: NDMA).
+15
+
+--- Page 16 ---
+Figure 4: The increasing number of people depending on food grants due to drought incidents in Eswatini
+(Source: WFP).
+2.7 Activities During Past Droughts
+2.7.1 Food Distribution
+The Government of Eswatini supported household food security during past droughts targeting vulnerable
+groups during food distribution. Under the vulnerable group food distribution programmes in the past,
+free food was distributed to specific groups during drought periods. These groups included individuals
+living in households with no source of income, including children aged five years and under, pregnant and
+lactating mothers, people over 60 years of age, mentally and physically handicapped persons, and persons
+certified as malnourished by hospital or clinic staff. In practice, there has sometimes been reluctance at
+the local level to distinguish between households with and without income, as required. Although
+programmes were financed from the Government and donors, delivery has been contracted out to NGOs.
+Evaluation of the vulnerable group food distribution programme in Eswatini have revealed several major
+problems. First, the administrative and logistical difficulties of purchasing and distributing large amounts
+of food has meant that eligible households have not received food on time or in sufficient quantities, and
+that considerable funds have been spent on overheads at the expense of transfers. Second, the
+appropriateness and quality of some food items provided has been questioned. Third, over-registration
+has meant that the programme has been poorly targeted. This has arisen because efforts to distinguish
+between the poor and the non-poor households in some drought affected areas have been inadequate.
+Fourth, there has been concern that food has gone rotten or missing in transit. Fifth, there is a suspicion
+that food aid in general has a negative influence by creating dependency amongst beneficiaries, and by
+damaging private sector food retailers. In short, the Government and NGOs have faced challenges in
+delivering efficient food distribution programmes in time of drought.
+16
+
+--- Page 17 ---
+2.7.2 Livestock, Crop and Water Relief Programmes
+During past drought relief programmes, a central component has been support to livestock owners
+through a range of programmes. These have included fodder and lick subsidies, a marketing incentive
+scheme, support to transport cattle and lease grazing. In addition to the household food security
+programmes outlined above, communal-tenure crop farmers have been provided with subsidized
+agricultural inputs for the new planting season. In the past, water supply schemes were initiated in
+response to drought in order to meet emergency needs in a number of respects. This meant diversion of
+scarce resources to implement water supply schemes, initiated under drought relief programmes.
+17
+
+--- Page 18 ---
+CHAPTER 3: LEGISLATIVE AND INSTITUTIONAL FRAMEWORK
+3.1 Related Policies, Legislation, Strategic Plans and Programmes
+Eswatini has various existing plans and policies aimed to enhance water security, reduce risks associated
+with natural disasters, conserve natural resources, increase national wealth and increase the nation’s
+resilience to climate change. All these instruments are directly relevant to national drought planning and
+risk reduction. It is important to identify within these plans and policies the parts that will help the country
+to directly or indirectly better prepare for and reduce the risk of drought. The key policies which are
+relevant to drought preparation and risk reduction include the following:
+● The National Development Strategy (NDS) Vision 2022.
+● The Poverty Reduction Strategic and Action Plan (2007-2015)
+● The National Food and Nutrition Security Policy and Action Plan
+● National Disaster Management Act (2006)
+● National Disaster Risk Management Policy (2010)
+● The Swaziland Disaster Resilience Strategy and Action Plan (2017)
+● National Emergency Response, Mitigation and Adaptation Plan 2016-2022,
+● The Swaziland Environment Action Plan (SEAP);
+● Water Management Policies and Act
+● Eswatini Multi-Hazard Contingency Plans
+● Climate Change and Disaster Risk Reduction
+● National Climate Change Policy (2016)
+● National Biodiversity and Action Plan-2 (2018)
+● National Agricultural Research Policy (2013)
+● National Irrigation Policy (2005)
+● Urban Government Act (1969)
+3.1.1 National Development Strategy: Vision 2022
+The National Development Strategy (NDS) – Vision 2022 is the overarching framework that guides all
+socio- economic interventions in Eswatini. It broadly focuses on improving the standard of living in the
+country, particularly as it relates to poverty eradication, employment creation, gender equality and
+environmental protection. While the NDS does not directly address drought, it is incorporated in the
+strategic areas related to physical infrastructure, agriculture, land and rural development, education and
+training, health and social welfare, and gender and disadvantaged groups. The Government of Eswatini
+(GoE) recognizes that drought mitigation is an integral component of realizing this vision. Drought
+mitigation is closely aligned with Eswatini’s NDS since both promote poverty eradication; employment
+creation; gender equity; social integration and environmental protection.
+3.1.2 The National Disaster Management Act (2006)
+The National Disaster Management Act of 2006 establishes the institutional framework for DRR. In line
+with the Eswatini Disaster Management Act, the Eswatini Disaster Risk Reduction National Action Plan
+(2008-2015) has the following five objectives, to:
+18
+
+--- Page 19 ---
+● Create an effective and functional legal and institutional framework on DRR,
+● Improve risk identification mechanisms in the country,
+● Enhance information and knowledge management for disaster risk management,
+● Improve national risk management applications for poverty and disaster risk reduction, and
+● Establish / strengthen disaster preparedness and emergency response practices.
+The drafting of the Eswatini national drought plan is guided by the existing disaster management policy
+and Act, hence it supports improved drought management through the use of the existing disaster
+management structures.
+3.1.3 The National Emergency Response, Mitigation and Adaptation (2016- 2022).
+This plan directly supports the NDP since it was developed in response to the devastating 2014-2016 El
+Nino induced drought. It is coordinated by the NDMA, and establishes the foundation for adaptation to
+drought. It utilizes a sectoral approach which ensures that each sector develops a plan and participates
+in its implementation. This creates a relevant platform for implementing the NDP.
+3.1.4 National Disaster Management Plan
+The NDMP is a multi-sectoral plan that acknowledges the risks arising from the impacts of hazards and
+disasters on various sectors which include water resource management, agriculture and land use
+planning, health and education. The development of Integrated Climate-Resilient Flood Management
+Strategies and the implementation of water management interventions in catchment and urban areas is
+key to the success of the NDMP.
+3.1.5 The National Disaster Management Policy (2010)
+This policy framework aims to change the approach to and the nature of Disaster Risk Management in
+Eswatini. Specifically, in recognition of the country’s changing disaster profile, it sets down the
+requirements for the institutionalization of Disaster Risk Management in Eswatini on a cost effective,
+permanent and sustainable basis.
+3.1.7 Swaziland Environmental Action Plan
+The development of the Swaziland Environmental Action Plan (SEAP) was facilitated by the Eswatini
+Environment Authority (EEA) using a participatory approach which involved all sectors and different levels
+of the Eswatini community. Through the EEA, the importance of integrating environmental concerns into
+the national development planning process for the country is highlighted. The NDP aligns with the SEAP
+in that it will: i) assist policy and decision-makers and the general public in understanding drought
+impacts and their implications for natural resource and environmental management; and ii) enhance the
+technical and institutional capacity of Eswatini to integrate drought concerns into national planning and
+development. The SEAP has priorities in hydrology and water resources (fresh water), forestry and
+agriculture. The national plans for drought mitigation and adaptation are considered as priorities for the
+country, as well as vulnerability assessments for the identification of adaptation options.
+3.1.8 National Climate Change Policy
+19
+
+--- Page 20 ---
+The goal of the National Climate Change Policy (NCCP) is to support the development of a sustainable,
+climate-resilient and inclusive low-carbon green growth economy. In line with the objectives of the NCCP,
+the NDP will: i) promote and implement an integrated, climate-resilient catchment management
+approach; ii) enhance coordination of climate and drought risk response at the national and sub national
+levels; iv) disseminate information to improve awareness of drought risks to the public; and v) establish
+long-term drought mitigation plans and strategies.
+3.1.9 National Climate Change Strategy and Action Plan
+This plan is a roadmap to support greater integration of climate change and its associated impacts into
+Eswatini’s national development. It contributes to drought resilience by seeking to: i) improve national
+capacity for climate change integration, adaptation and mitigation; ii) create an environment that will
+empower vulnerable communities to actively participate in uplifting their living standards; iii) strengthen
+partnerships among national structures and stakeholders ; and iv) create an enabling environment
+through technical assistance, workshops and meetings.
+3.1.10 Nationally Determined Contributions
+Eswatini’s Nationally Determined Contributions (NDC’s) highlights the steps for the country to reduce GHG
+emissions and to adapt to climate change. These contributions will assist the NDP by i) providing lessons
+learned for the development and implementation of a National Climate Change Adaptation Plan (NAP); ii)
+scaling up investments in restoring and maintaining ecological infrastructure; iii) establishing effective
+long term catchment management; and iv) developing systems to integrate water resource management
+across all sectors.
+3.1.11 Gender Policy (2009)
+The Gender Policy in line with the constitution provides for gender equality. Several strategies have been
+put in place to support this policy since Eswatini is a signatory to a number of international conventions
+and agreements that have a bearing on gender equality and equity. These initiatives are aimed at
+addressing the inequitable access to education, reducing the skewed exposure of women to poverty due
+to their low participation in the formal employment sector, improving women’s access to land and
+confronting gender-based violence, which is a major problem affecting mainly women and children. In
+addition, several pieces of legislation have been initiated or subjected to reviews in support of the above,
+including the Marriage Act; the Sexual Offenses and Domestic Violence Bill; and the draft Land Policy and
+the Deeds and Registry Act. The NDP is related to these initiatives since they indirectly reduce the
+vulnerability of women and children to drought impacts.
+3.2 Relevant Regional and International Policy Framework
+Eswatini has a number of existing plans and policies aimed to enhance water security, reduce risks
+associated with natural disasters, conserve natural resources, increase national wealth, and increase the
+nation’s resilience to climate change – all of which are directly relevant to national drought planning and
+risk reduction. It is important to identify within these plans and policies the parts that will directly or
+indirectly better prepare for and reduce the risk of drought. The NDP is also aligned to two regional
+20
+
+--- Page 21 ---
+initiatives, namely; the strategic framework called “Drought Resilience and Prepared Africa (DRAPA)” and
+the “Regional Inter-Agency Standing Committee for Southern Africa” (RIASCO) Action Plan. It is also linked
+to the Sendai Framework for Disaster Risk Reduction 2015-2030, which was adopted at the Third UN
+World Conference in Sendai, Japan on March 18, 2015 and the Windhoek Declaration (2016).
+3.3 Drought Management in Eswatini
+The Government of Eswatini has the ultimate mandate and responsibility to lead and coordinate all
+national disaster preparedness and response actions to prevent and mitigate the effects of disasters.
+Under the DPMO the NDMA is the Agency that coordinates Disaster Risk Reduction (DRR) and Disaster
+Risk Management (DRM) programmes. The NDMA thus assumes the role of Inter-Cluster coordinator of
+the National Multi-Hazard Contingency Plan. The relevant Government Sector Ministries/Departments
+have focal points who assist the NDMA in coordinating and managing all issues pertaining to DRM in line
+with the Disaster Management Act (2006) and Disaster Risk Management Policy (2010). Other
+stakeholders are described below: Other role players are presented in the table below:
+Table 1: Role player in Eswatini Drought Risk Reduction and Mitigation
+ENTITY ROLE
+Government of Eswatini The government of Eswatini has the ultimate mandate and
+responsibility to lead and coordinate all national disaster
+preparedness and response actions to prevent and mitigate the
+effects of disasters. Under DPMO the NDMA is the overall national
+coordinator of Disaster Risk Reduction (DRR) and Disaster Risk
+Management (DRM) programmes.
+The NDMA The NDMA coordinates the different DRR clusters in line with the
+Disaster Management Act (2006) and Disaster Risk Management
+Policy (2010).
+The National Committee on Multi-sector involvement/engagement was undertaken through
+Multi-Hazard Contingency the Multi-Hazard Contingency Plan (MHCP). The MHCP is led,
+Planning (MHCP). coordinated and managed through the NDMA Clusters
+Civil Society In the context of an expanded humanitarian country partnership,
+civil society organizations such as Red Cross, World Vision
+Eswatini, Nazarene Compassionate Ministries and Save the
+Children play a vital role in DRR coordination and implementation
+of DRR activities.
+The United Nations Country Under the guidance of the UNRC, the United Nations Country
+Team (UNCT) Team (UNCT) is responsible for effective and efficient
+implementation of Inter-Agency disaster risk management
+activities. It provides overall leadership to the cluster planning,
+response and recovery and for initiating dialogue with the
+Government and donors. The UN Agencies serve as the Core Lead
+Agencies and work closely with their relevant counterpart Lead
+21
+
+--- Page 22 ---
+Agencies in Government.
+The National Emergency The National Emergency Preparedness and Response Unit Is
+Preparedness and Response responsible for providing leadership and coordination on health
+Unit emergencies, providing emergency medical/ambulance service,
+shaping the health emergency research agenda, setting norms
+and standards, articulating evidence-based policy options for
+disaster risk management for health, monitoring disease
+outbreaks and assessing performance of health system during
+emergencies.
+The Multi-sector involvement Since 2013 a multi-sector involvement on DRM has been
+/ Engagement Committee undertaken through the Multi-Hazard Contingency Plan (MHCP).
+This body is coordinated and managed through an Inter-
+Cluster/Sector arrangement with the relevant Government
+Agency serving as the Lead Agency and the United Nations or
+relevant NGO Agency as Core Lead Agency.
+The Eswatini Vulnerability This Body collects household level information to assess levels of
+Assessment Committee (VAC) chronic food insecurity, malnutrition, livelihoods and vulnerability
+in rural households in all regions of the country. It builds the
+capacity of core Swazi VAC members to undertake integrated food
+security and vulnerability analyses of household survey data.
+The Eswatini Meteorological The Eswatini Meteorological Service issues seasonal forecast and
+Service (EMS) sensitize farmers on the importance and the use of the forecast
+for planning.
+The Department of Water The DWA monitors hydro-meteorological indicators and issues
+Affairs (DWA) drought related information
+The National Early Warning The NEWU conducts food supply assessment in conjunction with
+Unit (NEWU) other stakeholders, provide advice on food supply policies, gather,
+analyze and disseminate information on food security issues,
+provide early warning information on the expected weather
+conditions and crop production in liaison with the Department of
+Meteorological Services. The unit further liaises with regional and
+international bodies on issues of food security that have a bearing
+on the local food security context.
+3.4 Challenges Facing Disaster Risk Management in Eswatini
+The Disaster Management Act of 2006, and the Disaster Risk Management Policy (2010) are in place,
+however their implementation has not been optimal due to the factors described below. As a result of
+these limitations, drought response and management in Eswatini is generally reactive and in terms of
+crisis management; known to be untimely; poorly coordinated and disintegrated; poorly targeted and
+response often lacks a scientific basis.
+a. Coordination Complexities
+The Act has complex management structures and thus coordination needs can grow exponentially, at the
+22
+
+--- Page 23 ---
+risk of duplication. Most of the organs created by the act are not in place except for the NDMA. The
+National Action Plan (NAP) 2008-2015 was adopted by cabinet. However, due to NDMA institutional
+constraints, the NAP lacks a coherent systematic coordination and management in terms of its
+implementation. The national DRM policy (2010) was adopted, however it has not been operationalized
+since its adoption. The policy lacks a coherent strategy for its operationalization. Further, there is need to
+review and align the Disaster Management Act and Disaster Risk Management Policy with the aim of
+promoting efficacy in DRM interventions in the country at various institutional levels. There is weak
+mainstreaming of DRR into National Development plans, sector plans and budgets which translates into
+lack of ownership of DRR initiatives.
+b. Slow Rate of Decentralization of DRR
+The Disaster Management Act (2006) is designed along the premise of decentralization and delegation of
+powers, for effective and timely delivery of relief in disaster emergency situations. It calls for the
+establishment of regional disaster management committees.
+The Act mandates all four Regional Administrators to establish a Regional Disaster Management
+Committee to be chaired by the Regional Secretary or a person appointed by that Regional Secretary, the
+composition of such committees are also defined in the Act. The functions of the Committee shall include:
+(i) reviewing Regional Disaster Management Policies and Plans and ensuring that they address the
+requirements for Disaster Management, including risk assessment, prevention, preparedness, rescue,
+evacuation, relief, recovery, rehabilitation and reconstruction measures at the regional level; (ii) making
+recommendations to the Minister, the Regional Administrator and the National Disaster Management;
+facilitating the implementation of Disaster Management Programmes and procedures at Regional,
+Inkhundla and Community level by the Agency and role players, etc. Three out of four Regional Disaster
+Management Committees have been established and trained on DRR issues, however, more work is still
+required to strengthen the capacity of Regional Disaster Management Committees to effectively execute
+their mandate.
+Similarly, the Urban Government Act (1969) provides that, all urban local authorities should develop
+Integrated Development Plans (IDP) which constitutes components like disaster management and
+environmental sustainability plan. However, there is a need to strengthen the effectiveness of disaster
+management component from the IDPs.
+However, the NDMA has not yet devolved at regional, urban and community levels, and thereby affecting
+its ability to coordinate DRR/M at these levels (UNDP, 2014). According to the National Multi-Hazard
+Planning (MHP) Progress Report (2013) there is weak Capacity of Urban Local Government Authorities to
+plan for and implement DRR agenda. Currently, there only three (out of thirteen) municipalities that have
+committed to the mainstreaming of DRR through development of contingency plans. There is a need to
+establish DRM structures at regional and local levels and strengthen local urban government capacity in
+disaster risk reduction, emergency preparedness and response as well as climate change adaptation and
+mitigation.
+c. Inadequate Capacity within Key DRR Institutions
+Key drought institutions such as the NDMA, NEWU an EMS have staff shortages and weak capacity to
+23
+
+--- Page 24 ---
+provide effective leadership, coordination and management of DRR and management interventions in the
+country. Currently none of the urban areas meet the risk reduction preparedness benchmark standards,
+given their development services to the national socio-economic development.
+Inadequate skilled and qualified personnel. Not all weather stations have officers deployed to run them.
+There are limited capacities in government technical units to produce and analyse data that would
+contribute to a proper risk assessment.
+No continuous data sets from meteorological service. Since the stations are insufficiently manned, there
+are difficulties in having observations carried out over the weekends. There is also frequent breakdown
+of the functioning of weather stations and most of the time they are not fixed in time hence gaps are
+recorded in data sets series.
+The country needs to address the challenges highlighted in the sections above by:
+Closing these gaps and inconsistencies in the national institutional framework by reviewing and
+harmonizing the Act and the policy. This includes review of Disaster Management Act (2006) as well as
+development of action plans for operationalizing DRM Policy through a review of the Disaster Risk
+Reduction National Action Plan in order to take into consideration new emerging issues.
+Establishment of DRM structures at regional and local levels and strengthen local urban government
+capacity in DRR, EPR as well as climate change adaptation and mitigation.
+Establishment of a National Platform to strengthen DRR and Emergency Preparedness coordination
+mechanisms which would facilitate coordination across sectors. It would further facilitate the integration
+of DRR into national policies, sector plans, as well as into international or bilateral development aid
+policies and programs. Due consideration of the additional resources needed to provide secretariat
+support to the National Platform would be given in the process.
+d. Weak Early Warning Systems
+In addition, the early warning ‘system’ (EWS) limitedly focuses on one sector, agriculture, and does not
+adequately involve most functions of a EWS. Effort to improve transfer and facilitate exchange of relevant
+information within the country remains essential. The Eswatini Meteorological Department (MET), which
+is the main recipient and provider of hazard data to national counterparts, requires further capacity
+strengthening to input information, process and issue more timely warnings.
+In addition, the system does not incorporate mechanisms for turning scientific/technical information on
+weather from the National Early Warning Unit (NEWU) into risk scenarios, for developing warning
+messages (such as evacuate in the face of potential floods/fires/hail storms) keyed to those scenarios,
+and, for transmitting those messages to communities at risk.
+e. Weak Communication and Collaboration
+The country also experiences weak communication and collaboration between producers, managers and
+users of EW information. The EWS is fragmented with little synergy and collaboration across sectors. There
+is an urgent need for effective communication and collaboration between producers of weather and
+24
+
+--- Page 25 ---
+climate information and users in order to empower farmers, individuals and communities under threat
+from natural and other hazards to take effective and timely measures to protect lives, property and the
+environment from the effects of disasters. The improved communication would form a basis for nation-
+wide and regional initiatives against climate change-induced disasters.
+f. Lack of Comprehensive Drought Risk Assessment
+There is no up-to-date comprehensive disaster risk profile for the country, however individual institutions
+do conduct risk assessment ad-hoc in a non-coherent manner and is not comprehensive. The country
+needs to conduct proper risk assessments in all its four regions of in order to compile a comprehensive
+risk profile. This will serve as guidance to influence decision-making in terms of mainstreaming DRR into
+the development processes.
+g. Inadequate Mainstreaming of Gender in DRR
+Disaster risk is not gender-neutral. Studies have shown that women and girls are disproportionately
+impacted by disasters and other social issues such as HIV/AIDS in Eswatini. Most of the affected people
+during the 2015/16 drought were women due to socially-constructed gender roles that determine what
+norms and behaviours are acceptable for women and men, and girls and boys. In particular, women tend
+to take responsibility for home-based tasks and work harder to protect their agricultural assets in the case
+of drought and famine. A gender-sensitive approach would identify how disasters affect men, women,
+boys and girls differently and shape policy that addresses people's specific vulnerabilities, concerns and
+needs.
+h. Weak Protocols for Collecting and Managing DRR Information
+The country’s protocols for collecting, management, use and storage of DRR information are weak due to
+the following:
+i. Poor dissemination and access to data and information:
+There is need for effective communication and collaboration between data and information
+producers and users in order to empower communities under threat from natural and other
+hazards to take effective and timely decision-making to protect lives, property and the
+environment from the effects of disasters. The National Early Warning Unit focuses on agriculture
+and food security which is a limitation on the type of hazards to be monitored.
+ii. Absence of a centralized database on previous disaster events and impacts:
+Historical information and previous disaster events are not yet stored in a centralized database
+managed by the NDMA. There is no aggregation or analysis done, and detailed maps do not exist.
+Baseline data on disaster incidents and vulnerability are not available to measure improvement.
+iii. Absence of systematic data collection and Information management for DRR:
+Data collection is considered as a challenge due to lack of tools, funding, staff and competencies.
+Therefore, most data collection is initiated as part of specific projects carried out by UN Agencies,
+NGOs or other International Organizations. Data collection is often halted once the projects end,
+25
+
+--- Page 26 ---
+and in most cases it does not constitute a nation-wide effort.
+iv. Lack of continuous data sets:
+There are difficulties in having consistent observations carried out such as over the weekends due
+to resources constraints. There is also reported frequent breakdown of the functioning of weather
+stations and most of the time they are not fixed in time hence gaps are recorded in data sets series.
+The country needs to establish a solid national risk observatory, which would continuously collect
+and analyze data from relevant agencies, coordinate and/or disseminate early warnings, and serve
+as a communications hub. The National Risk Observatory would unify the disparate databases of
+various agencies.
+v. Lack of a Centralized Disaster Loss Register.
+There is need for a centralized database system that will capture and quantify all disaster
+incidences into financial values so as to establish trends, and compare the impact of the hazards
+over the years.
+j. Financing Constraints
+Eswatini Government is supporting DRR activities in the country through budget allocation to the NDMA
+and provision of resources during disasters for emergency response activities. The Annual budget for
+Disaster Response in Eswatini during the period 2009 to 2012 is inadequate and limited. As a result,
+activities for disaster preparedness have been limited.
+There is no budget properly dedicated to DRR in line ministries and at Regional level. It was recognized
+that in part this was due to fiscal constraints faced by the government budget, as well as the need for
+stronger capacities in advocating for resources supported by clear rationale. The existing Emergency Fund
+under NDMA is used mainly to respond to emergencies and disasters when they occur.
+3.5 Proposed Coordination of the National Drought Plan
+The NDMA will coordinate the implementation of actions outlined in the NDP, while the MoA will serve
+as the Secretariat. The Ministry of Agriculture has responsibility to report to the UNCCD on drought
+management in Eswatini. The National Disaster Management Agency (NDMA) is the national institution
+that is mandated to coordinate disaster risk reduction (DRR) in Eswatini.
+Since Eswatini already has a robust DRR/DRM coordination structure in place, it will not be necessary to
+create a separate Drought National Committee to oversee the implementation of the NDP. Instead, the
+existing institutional arrangements for handling drought under the National Disaster Risk Management
+Committee, which is chaired by the DPM, is best suited to fast trek the NDP. This committee includes
+representation from line Ministries and several non-governmental organizations, as a national policy
+making and coordinating body. It is supported by the Disaster Management Unit in the Office of the
+Deputy Prime Minister which acts as its Secretariat, and the Early Warning Unit which provides
+information on the status of food production and stocks in the country. It is proposed that the
+composition of current National Disaster Risk Management Committee (NDRMC) be reviewed to ensure
+adequate representation of drought practitioners, targeting Senior Officer from the following sectors:
+26
+
+--- Page 27 ---
+● National Disaster Management Agency (NDMA)
+● Deputy Prime Minister’s Office (DPMO)
+● DPMO /Department of Social Welfare
+● Ministry of Tourism and Environmental Affairs/ Meteorological Department
+● Ministry Public Works and Transport / Housing Department
+● Ministry of Health- EPR Ministry of Agriculture
+● Ministry of Information, Communications & Technology
+● Ministry of Economic Planning and Development
+● Ministry of Tinkhundla Administration and Development
+● Ministry of Housing and Urban Development
+● Ministry of Natural Resources and Energy (MNRE) / Department of Water
+● Ministry of Natural Resources and Energy (MNRE) / Department of Energy
+● Eswatini Environmental Authority
+● World Food Programme (WFP)
+● Food and Agricultural Organization of the United Nations
+● United Nations Development Programme (UNDP)
+● Coalition Assembly of Non-Governmental Organizations (CANGO)
+● Business Eswatini
+● Baphalali Eswatini Red Cross Society
+● Eswatini Local Government Association
+In addition, units that exist within the MoA (NEWU), MTEA (EMS), and MNRE (DWA) should be
+strengthened to ensure that the provisions of this NDP with regard to weather information, agriculture
+and water programmes are implemented.
+Coordinating functions related to drought-recovery programmes and long-term drought mitigation
+programmes will be the responsibility of the NDMA, supported by Food Security Technical Committee
+under the FAO and WFP, as well as other national coordinating structures such as the National Focal Points
+for the UNFCCC, UNCCD and the UNCBD.
+At the Regional and Tinkhundla levels, responsibility for drought emergency management currently
+resides with Regional Disaster Management Committees. These structure are well suited for local level
+drought coordination, however they need to be strengthened, in line with the Government’s
+Decentralization Policy which calls for a strengthening of local involvement in development activities. As
+such, they are in a good position to deal with emergency management, recovery, and long term drought
+mitigation programmes in a holistic manner. During the disaster drought emergency phase, they are
+directed at a national level by the DPMO, and directly supported by the NDMA, while otherwise they will
+work in cooperation with other National bodies, including the Food Security and Nutrition Council, the
+National Land Use and Environment Authority, and the line Ministries. During non-emergency phases,
+government should continue supporting local structures in terms of capacity strengthening and
+preparedness to deal with future drought emergencies. The proposed organogram for implementing the
+Eswatini National Drought Plan is presented in section 9.1
+27
+
+--- Page 28 ---
+CHAPTER 4: DROUGHT MONITORING, FORECASTING & IMPACT
+ASSESSMENT
+Eswatini needs to adopt a proactive approach to drought management and that requires monitoring
+drought using a consistent set of indicators to identify when drought is occurring, its extent, and when it
+is ending. Monitoring reduces the chance of surprises and gives time for planning and implementing
+drought mitigation strategies. Monitoring also provide continuous feedback to government decision
+makers to determine when and where to implement preparation and response actions.
+Being able to forecast droughts allows for advance warnings that help sectors and organizations prepare
+for the adverse effects of drought. An impact assessment methodology is important for the Government
+of Eswatini to identify the sectors of the economy and society more likely to be adversely affected by
+drought.
+Without an effective drought monitoring and early warning system to deliver timely information for early
+action, effective impact assessment procedures, pro-active risk management measures, preparedness
+plans aimed at increasing the coping capacity, and effective emergency response programmes directed at
+reducing the impacts of drought, the Eswatini will continue to respond to drought in a reactive, crisis
+management approach.
+This chapter describes some of the tools and systems available to the Government of Eswatini for
+monitoring, forecasting and assessing impacts of drought
+4.1 Drought Monitoring Indicators
+Many indicators are available for monitoring the main types of drought - meteorological, agricultural,
+ecological, social and hydrological. The UNCCD Technical Guidelines to support its Drought Resilience,
+Adaptation and Management Policy (DRAMP) Framework (Crossman 2017) identifies ten indicators for
+meteorological drought, one indicator for hydrological drought and three indicators for agricultural
+drought. Data inputs required for these 14 indicators include a mix of rainfall, temperature,
+evapotranspiration, soil available water holding capacity and stream flow. The DRAMP Technical
+Guidelines also list nine remotely sensed indicators (mostly related to vegetation stress) and five modelled
+/ composite indicators that use multiple data inputs. Choosing an indicator is determined by specific
+national circumstances, such as availability of spatio-temporal data, technical capacity and the nuances
+of the climatic, social, economic and environmental conditions.
+Ideally a drought monitoring indicator would include spatial data on evapotranspiration and soil attributes
+to get a more complete picture of circumstances within agriculture in Eswatini. However, real time and/or
+regular collection of this information is expensive especially in a small developing country characterized
+by complex topography and a low GDP, like Eswatini. Rainfall-based indicators are a good basis for
+monitoring drought given that drought is an exceptional lack of water as compared to the expected
+normal (Carrão et al. 2016, Van Loon et al. 2016) and extended rainfall deficits cause agricultural,
+hydrological and/or socioeconomic disasters. Therefore rainfall indicators can be used as proxies for
+agricultural and hydrological drought (Vicente-Serrano et al. 2012).
+28
+
+--- Page 29 ---
+There are only five meteorological stations geographically dispersed across Eswatini, which limits the
+country’s ability to collect representative data to make accurate weather predictions. Within this
+limitation Eswatini needs to adopt a practical pragmatic approach in selecting indicators that can be used
+to monitor drought in future. Through a partnership that exists between the NDMA and University of
+Nebraska (USA), three common and accessible rainfall-based drought indicators have been selected for
+monitoring drought in Eswatini, due to ease of observance. It is envisaged that in future a fourth indicator
+(soil moisture) will be added to the drought monitor. The indicators are described below:
+4.1.1 Standardised Precipitation Index (SPI)
+Standardised Precipitation Index (SPI) is good indicator which expresses actual rainfall as a standardised
+departure from the long-term median rainfall. The values of SPI are expressed in standard deviations, with
+positive indicating greater than median rainfall and negative values indicating less than median rainfall.
+SPI can be applied over different timescales (1, 3, 6, 12, 24 and 48 months) and is normalised so it is
+applicable to different climates (Crossman 2017). The drought categories of SPI in the table below can be
+used as triggers for implementing various levels of planning and management actions. Drought starts
+when the SPI value is equal or below -1.0 and ends when the SPI value becomes positive (World
+Meteorological Organization 2012).
+Table 2: Probability of recurrence of drought event described by SPI. Source: World Meteorological Organization
+(2012).
+SPI Category Number of times in Severity of event
+100 years
+0 to -0.99 Mild dryness 33 1 in 3 years
+-1.0 to -1.49 Moderate dryness 10 1 in 10 years
+-1.5 to -1.99 Severe dryness 5 1 in 20 years
+-2.0 or less Extreme dryness 2.5 1 in 50 years
+4.1.2 Land Surface Temperature (LST)
+Land Surface Temperature (LST) as a reliable proxy indicator of soil moisture and therefore agricultural
+drought (Son et al. 2012, Perez et al. 2016). Both the Normalized Difference Vegetation Index (NDVI)
+and the LST are computable from MODIS satellite sensor data which has been collecting daily observation
+data at 5.6km resolution across Eswatini since 2001.
+4.1.3 Normalized Difference Vegetation Index (NDVI)
+The Normalized Difference Vegetation Index (NDVI) is the ratio of red to near infra-red light and can
+identify whether vegetation is present and is stressed (Tucker 1979, Sellers 1985). Many studies have
+found that there is a strong negative correlation between temperature (e.g. Land Surface Temperature,
+LST) and NDVI during drought periods, and that a time series of LST/NDVI is a rapid indicator of drought
+at country and province level in tropical areas (McVicar and Bierwirth 2001).
+29
+
+--- Page 30 ---
+4.1.4 The US Drought Monitor
+The US Drought Monitor serves as a good example of how a combination of different indicators can be
+used to develop a drought monitor. It is a state of the art in composite indicators for drought monitoring
+known as the US Drought Monitor (USDM, Svoboda et al. 2002). The full USDM combines six indicators of
+drought (Palmer Drought Severity Index, soil moisture, daily stream flow, rainfall deciles, SPI and
+Vegetation Health Index) that describe the major types of drought (meteorological, agricultural,
+hydrological). The USDM uses weighted averages of the inputs to produce a weekly real-time assessment
+of current drought conditions in the USA. The drought categories used by the USDM (table below) are
+potential triggers for different levels of planning and drought management response. The thresholds of
+each indicator are a useful guide for identifying triggers under each indicator in the USD.
+Table 3: The USDM drought categories, possible impacts and association with input indicators.
+Source: adapted from Svoboda et al. (2002)
+4.2 Current Drought Monitoring in Eswatini
+The Eswatini National Meteorological Services (EMS) under the Ministry of Tourism and Environmental
+30
+
+--- Page 31 ---
+Affairs (MTEA) is the national meteorological Service in Eswatini, while the Department of Water Affairs
+(DWA), under the Ministry of Natural resources and Energy (MNRE) is the agency responsible for
+hydrological services. The EMS is mandated to provide weather, flood, climate and astronomical products
+and services to promote people’s safety and well- being and contribute to national development.
+The EMS runs a country-wide network of 20 meteorological stations which ensure the recording,
+transmission and processing of meteorological information, according to internal needs and the directives
+of the World Meteorological Organisation.
+The information obtained from monitoring is used for various purposes. These include the development
+of meteorological and agro-meteorological forecasts, warnings on natural meteorological phenomena,
+for use in global and regional meteorological data exchange networks and climate change assessments.
+The main parameters being monitored are temperature, humidity, daily sunshine hours, atmospheric
+pressure, average daily wind speed, rainfall, lightning data and evaporation rates (TNA, 2016).
+4.3 Development of the Eswatini Drought Monitor
+With support from the World Bank and the European Union, Eswatini is currently developing a drought
+monitor in order to improve the country drought resilience, mitigate drought impacts and coordinate
+drought preparedness programmes and responses in an effective and efficient manner. Through this
+process Eswatini will improve collaboration among stakeholders on drought information, enhance
+monitoring systems and information delivery for preparedness and reduced drought impacts. It is
+envisaged that this will create a proactive approach drought mitigation and planning measures, risk
+management, public outreach and resource stewardship. Multiple users of the tool will be able to enhance
+their network and build the necessary capacity for a more substantive and sustained drought
+preparedness and resilience programme in the country.
+The idea is to consolidate the indices and indicators into one comprehensive national drought map,
+through a consultative process and produce a combined drought monitor for Eswatini (CDI-E), to monitor
+the temporal and spatial extents of historic drought events. It is worth noting that the intention is to
+provide an assessment product [by trying to capture these characteristics, the drought’s magnitude
+(duration + intensity), spatial extent, probability of occurrence and impact], not a forecast.
+31
+
+--- Page 32 ---
+Figure 5: The steps taken in developing a drought monitor for Eswatini (Source: NDMA)
+An example of the preliminary results of the CDI-E which was developed by combining the three
+satellite-based parameters (2001 to 2019) is shown in Figure 18 and 16 below:
+Figure 6: CDI-E measurements taken using 2009 data (source: NDMA).
+The tool will assist the decision making process in a number of ways such as assessment of current
+conditions and current impacts using precipitation and other parameter to incorporate to other key
+32
+
+--- Page 33 ---
+information and data. The indicators and CDI-E input data are objective parameters, which can be
+validated physically for decision making on onset of drought.
+The CDI-E will assist in multi-hazard risk assessment for developing detailed country risk profiles and
+maps, and updating disaster management strategies and action plans based on identified risks. It can
+also assist in undertaking a drought preparedness Cost Benefits analysis and costs of inaction
+assessment.
+It will also facilitate data integration through a team of experts, inputs from community based national
+volunteers for drought monitoring and national weather stations. Integrated data can be used in a number
+of ways such as supporting the development and implementing the drought monitor in order to prepare
+and update multi-sectoral drought preparedness and contingency plans; undertaking comprehensive risk
+transfer and finance strategy for the country and capacity building to support strategic management of
+water resources, drought and disaster risks, and climate change, including strategic partnerships with
+international institutions and expert.
+Figure 7: CDI-E measurements taken using 2019 data ( Source: NDMA).
+4.4 Drought Impact Assessment
+Drought can have many different effects on different sectors, hence impact assessments are required to
+33
+
+--- Page 34 ---
+quantify the consequences of a drought on the different sectors of society and the economy. The potential
+impacts to the major sectors in Eswatini are listed in the Table 4 below. This sections summarizes the
+importance of each of these major sectors to the Eswatini economy and society, and how they have been
+impacted in the past by drought.
+4.5 Drought Impact Reporting
+Detecting drought impacts early can help to prevent the drought turning into a humanitarian crisis
+because drought response actions can be implemented swiftly before the situation deteriorates.
+Collection of anecdotal data on drought impacts provides an early and, when complemented with
+technical information such as drought indices and forecasting, can create a comprehensive
+understanding of losses caused by drought. Anecdotal information can include word of mouth, media
+reports, photographs, food and water market activity and citizen science. Some of the key information
+is available from women and youth.
+Table 4: Potential drought impacts for the major sectors in Eswatini. (Source: adapted from One World One
+Water (2017))
+Agriculture and commerce Water supply Public health, environment
+and safety
+• Loss from crop production • Groundwater depletion • Mental and physical stress
+• Loss from livestock and • Reservoir draw down • Health-related water
+dairy production • Water quality declines shortage problems (water
+• Loss from fishery (increased salinity) contamination, diminished
+production • Disruption of water sewage flows)
+• Income loss for farmers supplies • Increased conflicts
+• Unemployment from • Increased surface water • Increased wildfire risk and
+drought-related depletion severity
+production declines • Increased conflicts over • Disruption to cultural
+• Loss to tourism industry water use belief systems
+• Declines in food • Mental and physical stress • Loss of aesthetic values
+production • Reduced quality of life and • Reduction in recreational
+• Cost of water transport changes in lifestyle activities
+• Reduced economic • Depleted rainwater • Reduced quality of life and
+development catchment and storage for changes in lifestyle
+• Mental and physical stress residents without water • Population migration
+• Reduced quality of life and service • Damage to biodiversity
+changes in lifestyle • Increased costs for water and ecosystem
+• Population migration hauling for residents degradation
+without water service • Loss of wetlands
+• Coral bleaching and
+marine habitat
+degradation
+34
+
+--- Page 35 ---
+CHAPTER 5: DROUGHT RISK AND VULNERABILITY
+The Kingdom of Eswatini is particularly vulnerable to drought as a developing country in which a significant
+portion of the population is reliant on subsistence farming for their daily sustenance and livelihoods. The
+ability to adapt to and cope with natural disasters, including drought, depends on economic resources,
+infrastructure, technology and social safety nets - many of which are typically lacking in Eswatini (TNC,
+2016). Furthermore, the country is under pressure due to rapid urbanization and resource depletion,
+making it even more vulnerable to the additional challenges resulting from drought. Thus the Resilience
+Strategy and Adaptation Plan for Eswatini (2017) identifies poverty and food insecurity, HIV and AIDS,
+weakened governance, development-generated factors, and the fragile environment as the major sources
+of vulnerability to disaster risk, including drought.
+Drought risk assessment is a core activity for establishing an effective drought monitoring and early
+warning system. A risk assessment provides important information for setting priorities and developing
+actions that prevent drought and mitigate drought impacts. The drought risk assessment can be used by
+authorities to target drought preparedness, mitigation and crises response actions to those communities
+and sectors most vulnerable to drought, and in locations where the impacts of drought are currently or
+forecast to be most severe. Outputs from a drought risk assessment should be incorporated into land use
+and rural development planning, health care systems, environmental and natural resource management
+approaches, supply chains and business models, and non- agricultural sectors.
+Thus, understanding and assessing drought risk is essential, as some sectors, population groups or regions
+can be more vulnerable than others or vulnerable in different ways. Accordingly, the NDP has attempted
+to carry out risk assessments in a consistent and coordinated manner.
+This chapter introduces the concepts of risk and vulnerability and compiles information for assessing risk
+and vulnerability to drought in Eswatini. Risk assessment outputs are provided from a global study
+completed by the European Commission’s Joint Research Centre (Carrão et al. 2016). These are
+complemented by several studies completed by national organizations that have assessed components of
+risk in Eswatini.
+5.1 Definitions
+Drought risk and vulnerability assessments are inextricably linked, with the latter being a subset of the
+former. A drought risk assessment extends the vulnerability assessment by including information
+about the drought hazard independent of the sectors and communities potentially impacted by
+drought.
+Drought risk can be calculated as:
+Drought risk = Vulnerability (V) x Hazard (H)
+Where vulnerability (V) is calculated as described below, and hazard (H) is the likelihood of drought
+35
+
+--- Page 36 ---
+occurrence calculated using the indicators and indices developed for the drought monitoring and
+early warning system (see Chapter 5).
+Vulnerability can be calculated as:
+Vulnerability (V) = Exposure (E) + Sensitivity (S) – Adaptive Capacity (AC)
+Where exposure (E) is the degree to which communities and ecosystems experience stress from drought
+(Adger 2004), sensitivity (S) is the degree to which communities and ecosystems are modified or affected
+by perturbations (Adger 2006), such as a change in climatic conditions brought about by the onset of
+drought, and adaptive capacity (AC) is the ability of communities and ecosystems to evolve in order to
+accommodate environmental hazards or policy change and to expand the range of variability with which
+it can cope (Adger 2006), including the ability to take advantage of opportunities, or to cope with the
+consequences (Füssel and Klein 2006).
+Completing a drought risk and vulnerability assessment is important for several reasons (Crossman, 2017):
+a. Identifying the communities and sectors that are at risk from a drought so that drought
+management plans, policies and risk mitigation measures can then be effectively designed,
+tailored and prioritized toward those at greatest risk. This is a pre-cursor to developing drought
+preparedness, monitoring, early warning response systems.
+b. It is an important learning and knowledge gathering exercise that can improve the
+understanding of human and natural processes that add to drought vulnerability and
+community resilience. Providing important insights into community groups that may be
+marginalized such as women, children, the elderly and sick, the landless, and indigenous
+communities.
+5.2 Drought Risk Mapping by the European Commission Joint Research Centre
+A drought risk assessment was completed by the Joint Research Centre of the European Commission for
+the period 2000-2014. It uses a global-scale top-down data driven approach that is consistent and
+applicable to all regions in the world. Drought risk is calculated as the probability of harmful
+consequences or likelihood of losses resulting from interactions between drought hazard (i.e. the
+possible future occurrence of drought events), drought exposure (i.e. the total population, its livelihoods
+and assets in an area in which drought events may occur), and drought vulnerability (i.e. the propensity
+of exposed elements to suffer adverse effects when impacted by a drought event) (Carrão et al. 2016).
+Specifically, drought risk was calculated as:
+Drought risk = Vulnerability x Hazard x Exposure
+Each component of drought risk was calculated independently of each other and based on global- sale
+indicators of different spatial resolutions. Hazard was using historical sequences of monthly
+precipitation deficits for the period between 1901 and 2010. Exposure was computed at the sub-
+national level using high spatial resolution gridded indicators of population and livestock density, crop
+cover and baseline water stress. Vulnerability was derived from a combination of factors of social,
+economic and infrastructural indicators.
+36
+
+--- Page 37 ---
+5.3 Assessing Drought Vulnerability
+Vulnerability assessments undertaken by the VAC should be integrative and comprehensive and
+incorporate different dimensions (e.g. social, economic, physical, environmental, and institutional). An
+elegant framework for calculating vulnerability of a system (e.g. people, communities, sectors) to drought
+is presented in the figure below. Variables describing drought, such as spatial extent, probability of
+occurrence (from historic drought events), projected frequencies under climate change, and intensity are
+often used to estimate exposure. The NDP therefore establishes the framework for estimating sensitivity,
+variables describing the system of interest (e.g. agriculture), such as dependency on water resources,
+extent of land degradation, population densities, and diversification of income sources. For estimating
+adaptive capacity, variables describing the five capitals (natural, social, human, financial, manufactured).
+The variables used to describe exposure, sensitivity and the adaptive capacity of the Eswatini’s social,
+human, financial, manufactured and natural capital would ideally be spatially explicit and high resolution.
+Figure 8: The conceptual framework showing the multiple dimensions to be included for assessing vulnerability
+to drought. Modified from Gbetibouo et al. (2010)6.4 Data Collected for Drought Risk Assessment
+Eswatini is mainly affected by hydro meteorological hazards, and the monitoring of these hazards is the
+responsibility of established institution such as Eswatini Meteorological Service. The Eswatini Vulnerability
+Assessment Committee (VAC) collects household level information to assess levels of chronic food
+insecurity, malnutrition, livelihoods and drought vulnerability in rural households in all regions of the
+country. It undertakes integrated food security and vulnerability analyses of households. Currently
+Eswatini uses a multi-sector approach to conduct disaster risk assessments (including drought) and uses
+that information for planning. However, there is no standardized tool that is being used to conduct the
+assessments by the various sectors, hence the country is developing standardized tools for assessment at
+the onset of a disaster targeting the household and institutional level.
+37
+
+--- Page 38 ---
+The National Disaster Management Agency: Acts as the central repository for assessment tools and
+reports and handles all issues pertaining to disaster risk reduction from preparedness, response,
+mitigation and recovery. This institution plays a coordination role among the role players stated below:
+The Department of Meteorology: has the mandate: to collect weather and climate (meteorological) data,
+to issue forecasts, to provide advisory for monitoring meteorological systems, to ensure that observing
+standards are met, instruments are calibrated and Eswatini participates in the international community,
+etc. The department regularly issues early warning information regarding storms, lightning, heat waves,
+cold waves and other weather related hazards in a timely manner. The major limitation of the early
+warning information / forecast provided by the Meteorology department is that it does not indicate the
+frequency and the spatial distribution of the rain.
+Eswatini Vulnerability Assessment Committee (EVAC): located under the NDMA pursues the main
+objective of the EVAC , which is to collect household level information in order to assess levels of chronic
+food insecurity, malnutrition, livelihoods and vulnerability in rural households in the four regions of the
+country. Its objectives include: understanding distribution of various vulnerabilities around the country;
+understanding linkages between food security, vulnerability and malnutrition in the country, using the
+household survey as a baseline for developing a multi-agency, inter-sectoral monitoring system in the
+country. It also aims at building the capacity of core Swazi VAC members to undertake integrated food
+security and vulnerability analyses of household survey data.
+National Early Warning Unit (NEWU): which is under the Ministry of Agriculture, conduct food supply
+assessment in conjunction with other stakeholders, provide advice on food supply policies, gather, analyze
+and disseminate information on food security issues, provide early warning information on the expected
+weather conditions and crop production in liaison with the Department of Meteorological Services, liaise
+with regional and international bodies on issues of food security that have a bearing on the local food
+security context.
+Other institutions that the coordination office works with include: the Surveyor Generals office, which
+provides maps and detailed locations, the Central Statistics Office, and Emergency Preparedness and
+Response Unit under the Ministry of Health. These departments deal with their risk assessment at the
+sector level.
+38
+
+--- Page 39 ---
+CHAPTER 6: DROUGHT COMMUNICATION AND RESPONSE ACTIONS
+Effective communication of the onset of drought and the actions required to respond to drought across
+all stakeholders is essential for reducing impacts. This calls for clear protocols to be put in place about
+who is responsible for drought messages, where are they made, when are they are made (in response to
+different drought conditions), and how to respond in the event of a drought.
+All stakeholders, whether they be government agencies, private sector or the general population in the
+Eswatini, have a responsibility to communicate and respond appropriately as a drought unfolds and
+conditions worsen. This chapter presents specific details and actions for communicating and responding
+to drought in Eswatini.
+The drafting of the NDP occurred during the outbreak of the Corona Virus Pandemic which offered many
+valuable lessons about communication during a disaster in Eswatini.
+6.1 Drought Communication Protocol
+Information and communication are critical to ensuring that drought‐affected people are at the centre of
+humanitarian action during drought. It is now recognized that information and communication are
+important forms of aid, in addition to traditional humanitarian aid such as food, water and shelter.
+Without information and communication, affected people cannot access services or make the best
+decisions for themselves and their communities. When people are given the opportunity to voice their
+opinions and provide feedback, this enhances their sense of well‐being, helps them adapt to the
+challenges they face, and better enables them to take an active role in their own recovery.
+Traditionally, drought communication has been a one-way process of alerting communities to evolving
+drought circumstances, providing advice on what they should do, and clarifying and coordinating the roles
+of each of the relevant government agencies as drought evolves. This is still very important to ensure
+coordination for effective response. Therefore, the communication protocol presented here is multi-
+dimensional, it presents actions for opening up effective lines of communication with communities during
+drought, and actions that the Government of Eswatini and communities take during and after drought.
+The actions for the Government for establishing two-way communication during the phases of drought
+are presented in the table below. The process of communicating actions as drought conditions evolve is
+presented in the remainder of this chapter and is linked to different levels of the key indicators used to
+monitor drought (see Chapter 4).
+6.2 Declaration of Drought Conditions
+Drought conditions in Eswatini are monitored by the NDMA, EMS and NEWU. The EMS in collaboration
+with WMO and partners in the SADC region provides three main products that can be used to monitor
+and forecast drought which all use the Percentage of Normal Rainfall Index (PNRI) at national scale
+a) Monthly climate assessment and outlook - monthly summary of the temperature and rainfall for the
+past month and a forecast of temperature and rainfall for the next month, including the weather
+systems and ENSO conditions underpinning the assessment and outlook;
+39
+
+--- Page 40 ---
+b) Season climate outlook - twice-yearly forecast of the temperature and rainfall for the coming two
+seasons (six months), including the weather systems and ENSO conditions underpinning the outlook;
+c) Monthly drought and dry spell assessments - monthly summary of drought conditions for the
+previous month, issued during periods of drought.
+EMS uses three categories of drought and dry spell, defined as:
+1. Drought: Three consecutive months of way below normal rainfall (>60% reduction from average
+rainfall), or Five consecutive months of below normal rainfall (21-60% reduction from average rainfall)
+2. Dry spell: Three consecutive months of below normal rainfall (21-60% reduction from average rainfall),
+or two consecutive months of way below normal rainfall (>60% reduction from average rainfall).
+3. Dry condition: Two consecutive months of below normal rainfall (21-60% reduction from average
+rainfall).
+NDMA recently adopted the Standardized Precipitation Index (SPI), Normalized Difference Vegetation
+Index (NDVI) and Land Surface Temperature (LST) anomaly for improved drought monitoring. The forum
+of data experts that will refine the CDI-E monitor is expected to harmonize the indices, as the CDI-E is
+finalized. The next section summaries monitoring, declaration and responses actions as the drought
+worsens and the values of the SPI indicator decreases beyond certain thresholds.
+6.3 Communication and Coordination Guidelines and Response Actions
+6.3.1 Communication during drought
+Various communication channels and tools will be used to disseminate information about drought
+management in the country, which will include the following:
+● Print media: Newspapers, magazines, newsletters, leaflets, brochures, pamphlets, road banners,
+roll-up banners, posters, bill boards;
+● Electronic media/broadcast: Radio, television, documentary, interactive website, social media.
+● Direct stakeholder engagement: Interactive engagements such as meetings, workshops,
+● symposia, exhibits/displays, road shows, school clubs
+● Social marketing and advertising: Newspapers, radio, TV.
+● Social Media Platforms: NDAM Website and accounts for Facebook, WhatsApp, Twitter etc.
+The approaches for communicating with different types of Emaswati audiences and their advantages and
+disadvantages are listed in the table below. It important to consider that Siswati translations, clear and
+simple communication protocols in any products distributed to people vulnerable to drought is vital.
+40
+
+--- Page 41 ---
+Table 5: Approaches for communicating with Emaswati and their advantages and disadvantages. Source:
+modified from Government of Malawi (2014).
+Target audience Communication Advantages Disadvantages
+approaches
+Rural communities Radios; mobile phones; Radio - reaches mass Not everyone has
+posters; TV; leaflets; audience access to radios
+brochures; meetings;
+Mobile phones - fast Mobile phones – not
+school clubs; national
+everyone has access
+radio stations
+and coverage; require
+electricity to charge
+Posters – easy to Posters - prone to
+distribute vandalism
+Urban communities Radios; mobile phones; Radio & TV – wide Radio & TV – requires
+posters; TV; leaflets; coverage electricity
+brochures; meetings;
+Social media – wide Social media – requires
+school & sport clubs;
+coverage data bundles and
+social media and
+modern technologies
+advertising
+which exclude older
+(newspapers; radio; TV)
+generations
+Whole of Government Newspapers; television; Newspapers – easily The number of people
+radios; workshops/ accessed relying on newspapers
+meetings; leaflets; for news in Eswatini is
+brochures; policy briefs
+declining
+International Newspapers; websites Social media – Websites and social
+community; private & social media; press widespread among media requires data
+sector; donors conferences; meetings; professional bundles, good
+reports; workshops communities
+connectivity and
+modern technologies
+which exclude older
+generations
+7.3.2 Coordination and Response
+In response to a major drought, the Government of Eswatini, via the NDMA will lead various actions as
+the drought unfolds. The responses will be coordinated under a cluster model as shown in the Figure
+below:
+41
+
+--- Page 42 ---
+Figure 9: Coordinated responses to drought under the Eswatini DRM Model based on clusters.
+There are many actions that should be implemented in Eswatini during a drought, and the different
+clusters will be responsible for different actions. The actions in responding to drought include:
+a. In general:
+• Rehabilitating irrigation networks to improve irrigation efficiency
+• Massive information campaign – daily media briefings
+• Water rationing
+• Intensification of leak repair programs
+• Water quality monitoring
+• Cloud seeding operation
+• Hydropower generation shall be kept to their respective minimum allowable generating capacities
+b. For agriculture:
+• Ensuring water availability in production areas through irrigation and cloud seeding. Climate risk
+factors should be incorporated into any new or expanded water supply projects;
+• Shifting of planting calendars or early planting, especially in drought vulnerable areas;
+• Planting early maturing crops that require less water and are more tolerant to drought.
+• Focus on location-specific varieties in drought vulnerable areas;
+• Emergency income assistance to compensate for farm/fishery income loss;
+• Emergency food assistance;
+• Promotion of alternative crops as replacement for major staples.
+• Providing seeds, planting materials and fingerlings;
+• Fertilizer support (organic/inorganic); and further irrigation development.
+The response actions are linked to various levels of drought intensity as indicated by the SPI and other
+drought indicators, and they are summarized in table 6. During the early phases of the drought, a drought
+risk, impact and needs assessment should be completed to identify the different regions, areas and
+communities requiring aid. Water supply enhancing technologies and food aid should be distributed as
+early as possible and use a practical approach to avoid human suffering.
+42
+
+--- Page 43 ---
+CHAPTER 7: DROUGHT MITIGATION AND PREPAREDNESS
+Being better prepared for the next drought requires actions to be put in place as soon as possible to
+reduce drought risk and potential impacts of future droughts. Preliminary interactions with key
+stakeholders has revealed the need to:
+a) Include disaster risk reduction in national sectoral plans (mainstreaming drought).
+b) Identify and engage stakeholders on disaster risk mitigation to minimize the impact of drought on
+communities.
+c) Establishment of a national risk observatory in Eswatini which would continuously collect and analyse
+data from relevant agencies, coordinate and/or disseminate early warnings, and serve as a
+communications hub. The National Risk Observatory will unify the disparate databases of various
+agencies, improve dissemination and access of data and information to empower communities under
+threat from drought.
+d) There is need for a centralized database system that will capture and quantify all disaster incidences
+into financial values so as to establish trends, and compare the impact of the hazards over the years.
+There are many things that the Kingdom of Eswatini could do to mitigate risk and be better prepared,
+including development of new and alternative water sources, community education and outreach to
+encourage water conservation practices, and improved water resource monitoring and impact
+assessment.
+This National Drought Action Plan (appendix 1) presents a number of options to monitor and enhance
+water supply, improve water quality and educate communities about the importance of water
+conservation. The actions available are presented in summary tabular format (Appendix 1) for ease of
+communication and reference.
+Table 6: Summary of response actions under different levels of drought (per the SPI and PNRI drought
+indicators), and by whom.
+43
+
+--- Page 44 ---
+Other
+Phase Indicators and Impacts Response actions Who leads Agencies
+involved
+Drought ● D0 (Abnormally dry) ● Regular monitoring
+Advisory ● PNRI (< 75% for 3 months) ● Enact the drought task force to monitor situation
+● SPI (-0.5 to -0.7)
+EMS
+● Short-term dryness slowing planting, growth of NDMA
+crops or pastures
+● Observed drops in reservoir, tank and
+groundwater levels
+● Close monitoring of conditions for persisting or rapidly
+• D1 (Moderate drought)
+worsening drought
+● Activate risk assessment committee and assess risks and
+impacts/needs to all potentially affected communities
+• PNRI (<70% for 3 months) SPI (-0.8 to -1.2) across the major clusters impacted by drought (Food & EMS;
+Non-food; Health; Education; Logistics and MoET;
+Drought Telecommunications; Shelter) MTRD,
+NDMA
+watch/alert MoH;
+• Some damage to crops, pastures ● Voluntary non-essential water-use restrictions applied ENPS,
+Defence
+● Intensive communication and public information
+• Reservoirs, tanks and wells low, Some water campaign – implement communication with
+shortages developing or imminent communities plan as per Table 5 and implement
+communication mediums as per Table 5
+Drought ● Mandatory and stringent water restrictions and water EMS; MoE;
+● D2 (Severe drought) NDMA
+warning conservation measures MTRD,MH
+44
+
+--- Page 45 ---
+● Drought task force and drought monitoring committee UD; MoH;
+● PNRI (< 65% for 6 months)
+activated ENPS;
+Defense
+● SPI (-1.3 to -1.5) ● Potential drought emergency declared
+MoA
+● Crop or pasture losses likely, Reservoirs, tanks
+● Distribution of RO units and hygiene kits to worst affected
+and wells continue to decline, Water shortages
+communities, especially schools
+common;
+● D3 (Extreme drought) ● Mandatory water allocations and emergency supplies
+EMS; MoE
+● PNRI (< 60% for 6 months) ● Maximum per capita daily water uses applied MTRD;
+MNUD,
+Drought
+NDMA MoH;
+emergency
+● SPI (-1.6 to -1.9) ● Prie Mnister declares national State of Emergency ENPS,
+Defense;
+● Major crop/pasture losses ● Activate Emergency Operations Centre (OpCen) MoA
+● Widespread water shortages or restrictions
+● D5 (Exceptional drought) ● Distribution of emergency food and water supplies
+EMS; MoE
+● NRI (< 65% for 12 months) ● Hospital disaster emergency operations implemented
+MTRD;
+MNUD,
+● SPI (-2.0 or less) NDMA MoH;
+ENPS,
+Defense;
+● Exceptional and widespread crop/pasture losses
+MoA
+● Shortages of water in reservoirs, tanks and wells
+threatening life
+45
+
+--- Page 46 ---
+CHAPTER 8: THE ESWATINI NATIONAL DROUGHT ACTION PLAN
+8.1 Guiding Principles
+The National Drought Plan shall be used to deliver a robust drought risk reduction process in Eswatini,
+guided by the following four principles.
+1. Drought is a recurring phenomenon hence it is best managed by mainstreaming it into existing
+national programmes, sectoral policies and plans, including the National Disaster Management Plans.
+2. Eswatini should prepare better for drought, hence the impact of drought should be continuously
+assessed and integrated into drought response plans.
+3. Drought is best managed by including affected groups of Eswatini society, giving priority to most
+vulnerable communities, the disable, women and youth and including them in drought decision-
+making processes, policy design and planning.
+4. The human, institutional, organizational and technical capacities of Eswatini citizens needs to be
+enhanced for effective implementation of the drought action plan
+8.2 Goals, Objectives and Activities of the National Drought Plan
+The National Drought Plan for Eswatini has been developed based on the three pillars for drought risk
+management. Below is an elaboration of its Goals, Purpose, Objectives and Activities to be undertaken.
+Apart from a descriptive outlay in the foregoing sections, the plan has also been further elaborated in
+matrix format (Appendix 1).
+8.2.1 Vision
+Improved mitigation of the adverse effects of drought in all areas of Eswatini resulting in increased
+drought resilience of the country’s economic sectors, ecosystems and communities.
+8.2.2 Goals and Objectives
+The NDP as four components, which have been adapted from the DRAMP Framework and supported by
+six goals and their corresponding objectives (see table below). Based on the drought cycle, the actions
+towards each objective (elaborated in appendix 1) are not mutually exclusive, since some of those that
+are aimed at managing and adapting to drought are also applicable to more than one pillar.
+Table 7: Summary of Eswatini NDP pillars, goals and objectives.
+46
+
+--- Page 47 ---
+Component / Key Pillar Goals Objectives
+Component 1 (Key Pillar 1): Goal 1: Robust Objective 1: Strengthen Early Warning
+Implementing Drought drought monitoring Systems
+Monitoring, Early Warning and early warning Objective 2: Disseminate reliable warning
+Systems and Impact messages so that response to the risks are
+Assessment. measured and timely
+Objective 3: Undertake drought impact
+assessment
+Component 2 (Key Pillar 2): Goal 2: Better Objective 1: Undertake drought impact
+Assessment and assessment of drought assessment
+Management of Drought risk and vulnerabilities
+Risk and Vulnerability.
+Component 3 (Key Pillar 3): Goal3: Effective Objective 1 : Respond to drought as it
+Implementing Measures to response during unfolds
+Limit Impacts of Drought and drought events
+Better Respond to Drought. Goal 4: Enhanced Objective 1: Improve drought understanding
+Drought Preparedness, Objective 2: Reduce drought risk and
+Mitigation and vulnerability (Mitigation)
+Resilience Objective 3: Support activities that increase
+resilience to drought
+Objective 4: Improve water supply and
+demand management
+Objective 5: Improve national food and
+nutrition security
+Objective 6: Improve agricultural resilience
+to drought
+Goal 5: Drought Risk Objective 1: Minimize losses due to drought
+Transfer and sharing
+Component 4 (Cross-Cutting Goal 6: Improve Objective 1: Improve drought
+Issues) communication, communication and awareness
+Addressing cross-cutting awareness, capacity Objective 2 Strengthen capacity to cope
+issues that lead to building, with drought
+transformative changes in mainstreaming drought Objective 3 Mainstream drought into
+drought risk reduction and resource ministerial and sectoral plans
+mobilization. Objective 4 Mainstream gender into drought
+risk reduction
+Objective 5: Mobilizing of adequate
+resources for drought preparedness,
+monitoring and response
+47
+
+--- Page 48 ---
+CHAPTER 9: IMPLEMENTATION ARRANGEMENTS
+9.1 Mechanisms for Implementation
+The NDMA will coordinate the implementation of actions outlined in the NDP, while the MoA will serve
+as the Secretariat. The Ministry of Agriculture will use the NDP to report to the UNCCD on drought
+management in Eswatini. The National Disaster Management Agency (NDMA) is the national institution
+that is mandated to coordinate disaster risk reduction (DRR) in Eswatiini.
+The implementation of this drought plan will be done through the clusters that are established under the
+NDMA Act, which are used for coordinating and directing the implementation of disaster risk management
+programs in the country. Within the clusters that are established under the NDMA, relevant ministries
+and other members of the various clusters should implement interventions in their own sectors while the
+NDMA will be managing the resources mobilized for drought risk mitigation, response, and recovery
+actions.
+The National Drought Plan is designed to be closely aligned with existing national programmes that are
+driven by various government ministries, so that it is sustainable. The NDP is based on the premise that
+there will be national collaboration to enhance consistent and coordinated national approaches around
+the identified priorities, roles and responsibilities. It brings together the key government agencies,
+communities, local urban government, NGO’s and private sector organizations to take a proactive
+approach to drought management and develop appropriate response actions when drought occurs.
+The agencies that are identified to play different roles in the NDP will seek to work with the National
+Disaster Management Agency and the Ministry of Agriculture and build the capacities of responsible
+entities and communities. This can be best achieved by following the guidelines of the RACI Approach,
+which tasks the lead institutions with the responsibility to clearly identify the role of stakeholders in the
+NDP based on their status (Responsible, Accountable, Consulted or Informed) and address them
+accordingly. The NDMA Act (2006) provides a good solid framework since the actions of the NDP can be
+coordinated through the nine clusters established under the Act, with priority actions directed to the
+clusters that are more vulnerable to drought such as food and agriculture, water and sanitation, forestry
+and environment etc.
+Central to the NDP implementation, is the ability to generate and communicate quality weather
+information. It is also crucial to ensure that different institutions that generate drought monitoring
+information collaborate in their respective roles to give a more accurate analysis of drought circumstances
+in the country. It is therefore recommended that a data sharing forum is established and capacitated to
+support the NDP. Similarly, in a Technical Advisory Capacity, an ad hoc body of national experts is
+proposed to support the NDP (see figure 10 below).
+48
+
+--- Page 49 ---
+Figure 10: Implementation structure for the Eswatini NDP (2020 – 2030).
+9.2 Monitoring and Reporting
+Regular reporting on the status of implementation of the NDP is required in order to assess progress, gaps
+and challenges as well as to capture lessons learned so that interventions deliver meaningful results. This
+shall be done through annual reviews in accordance with the Government of Eswatini policies and
+procedures focusing on the activities and timeframes.
+The Ministry of Economic Planning and Development is best placed to monitor progress on the NDP and
+report on its effectiveness together with cross-sectoral programmes that are anchored initiatives such as
+the Poverty Reduction Strategy. In submitting their periodic reports, the Ministry of Agriculture and the
+Office of the Deputy Prime Minister’s Office, will include progress on the on-going activities outlined in
+the drought, as well as activities undertaken during emergency drought situations.
+The NDP goals will be used as a basis for measuring progress on attainment of objectives and execution
+of activities. An evaluation system should be established through a consultative process with all
+stakeholders and sectors that have been involved in the planning and implementation of this drought
+plan. It is ideal that civil society is involved in the monitoring exercise. Activities to be monitored are those
+listed in Appendix 1. The NDMA should prepare and guide standardized data collection and analysis tools
+and approaches and produce and share periodic progress reports with all stakeholders. These progress
+reports should highlight successes and challenges in the implementation of the national drought plan and
+assist in reviewing and updating plan.
+49
+
+--- Page 50 ---
+9.3 Future Updates and Revisions
+Regular updating and revising the drought plan will ensure the following: (i) increased agricultural
+productivity and sustainability through sustainable agricultural practices; (ii) strengthened resilience of
+water resource management and supply; (iii) improved food security, nutrition and delivery of health
+services; and (iv) enhanced drought resilience and preparedness by strengthening the capacity of
+institutions and drought affected communities to reduce their risks and vulnerability.
+References
+1. Adger, W. N. (2006). Vulnerability. Global Environmental Change 16:268-281.
+2. Adger, W.N., Agrawala, S., Mirza, M.M.Q., Conde, C., O’Brien, K., Pulhin, J., Pulwarty, R., Smit, B. and
+Takahashi, K. (2007). Assessment of adaptation practices, options, constraints and capacity. Climate
+Change 2007: Impacts, Adaptation and Vulnerability. Contribution of Working Group II to the Fourth
+Assessment Report of the Intergovernmental Panel on Climate Change, pp. 717–743. In M.L. Parry,
+O.F. Canziani, J.P. Palutikof, P.J. van der Linden and C.E. Hanson, Eds. Cambridge, UK, Cambridge
+University Press.
+3. American Planning Association (2019). Falling Dominoes: A Planner’s Guide to Drought and Cascading
+Impacts.
+4. Manyatsi, A. M., Mhazo, N., and Masarirambi, M. T. 2010. Climate Variability and Change as Perceived
+by Rural Communities in Swaziland. Research Journal of Environmental and Earth Sciences, 2(3), 165-
+170.
+5. Mhlanga-Ndlovu, BFN & Nhamo, G. (2017) An assessment of Swaziland sugarcane farmer
+associations’ vulnerability to climate change, Journal of Integrative Environmental Sciences, 14:1, 39-
+57, https://doi.org/10.1080/1943815X.2017.1335329
+6. Brown, R. (2010). Parliamentary Role and Relationship in Effectively Addressing Change Issues,
+Swaziland. Climate Journal of Agricultural Studies. Vol. 2, No. 1, 86-98.
+7. Carrão, H., G. Naumann, and P. Barbosa (2016). Mapping Global Patterns of Drought Risk: An
+empirical framework based on sub-national estimates of hazard, exposure and vulnerability. Global
+Environmental Change 39:108-124.
+8. CDAC Network (2014). Practice Brief: Communicating with Communities during the First Six Weeks of
+an Emergency Response.
+9. Central Statistics Office. 2010a. Population Projection and Housing Census 2007-2030. Ministry of
+Agriculture and Cooperatives, Mbabane.
+10. Central Statistics Office. 2010b. Population Projection Report: 2007-2030. Central Statistics Office,
+Eswatini.
+50
+
+--- Page 51 ---
+11. Central Statistics Office. 2011. Poverty in a Decade of Slow Economic Growth: Swaziland in the 2000’s.
+Central Statistics Office, Eswatini.
+12. GoE (2016) National Climate Change Action Plan 2011-2028. Eswatini.
+13. Crausbay, S. D., A. R. Ramirez, S. L. Carter, M. S. Cross, K. R. Hall, D. J. Bathke, J. L. Betancourt, S. Colt,
+A. E. Cravens, M. S. Dalton, J. B. Dunham, L. E. Hay, M. J. Hayes, J. McEvoy, C. A. McNutt, M. A. Moritz,
+K. H. Nislow, N. Raheem, and T. Sanford (2017). Defining Ecological Drought for the Twenty-First
+Century. Bulletin of the American Meteorological Society 98:2543-2550.
+14. Crossman, N. D. (2017). Drought Resilience, Adaptation and Management Policy (DRAMP) Framework
+Technical Guidelines. UNCCD, Bonn.
+15. Fourth National Climate Assessment (2018). Impacts, Risks, and Adaptation in the United States.
+Chapter 28. “Reducing Risks through Actions.” Washington, D.C.: U.S. Global Change Research
+Program. Available at https://nca2018.globalchange.gov/chapter/28 .
+16. Füssel, H.-M., and R. J. T. Klein (2006). Climate Change Vulnerability Assessments: An Evolution of
+Conceptual Thinking. Climatic Change 75:301-329.
+17. Gamedze, M. (2006). Climate Change Vulnerability and Adaptation Assessments in Swaziland. Online
+publication Research Abstract available at
+http://unfccc.int/files/adaptation/adverse_effects_and_response_measures_art_48/application/pdf
+/200609_swaziland_iva_abstract.pdf Accessed 5 May 2020.
+18. Gbetibouo, G. A., C. Ringler, and R. Hassan (2010). Vulnerability of the South African farming sector to
+climate change and variability: An indicator approach. Natural Resources Forum 34:175-187.
+19. GoE (1997). Swaziland Environmental Action Plan. Ministry of Tourism, Environment and
+Communications, Mbabane.
+20. GoE (2014). National Disaster Risk Management Communication Strategy (2014 –2018).
+21. GoE (2016). Third National Communication to the United Nations Framework Convention on Climate
+Change.
+22. GoE (2015). National Progress Report on the Implementation of the Hyogo Framework for Action
+(2013-2015). http://www.preventionweb.net/english/hyogo/progress/reports/
+23. GoE (2013). Annual Vulnerability Assessment and Analysis Report. Mbabane, Government of
+Eswatini.
+24. GoE (2014). Optimizing Groundwater Use within the Context of Integrated Water Resources
+Management (IWRM) Framework and General Water Sector Reforms.
+25. GoE (2014). Vulnerability and Adaptation Assessment: Biodiversity and Ecosystems. Eswatini National
+Trust Commission, Ministry of Tourism and Environment Affairs, Mbabane.
+51
+
+--- Page 52 ---
+26. GoE, (2015). The Aligned Eswatini National Action Plan to Combat Desertification, Land Degradation
+and Drought FY 2015‐2025. Ministry of Agriculture, Mbabane.
+27. IFAD (2015). Rural Poverty in the Kingdom of Swaziland.
+www.ruralpovertyportal.org/country/home/tags/swaziland . Accessed 27 March 2020.05.18
+28. IPCC. (2014). Climate Change 2014: Impacts, Adaptation, and Vulnerability. Part A: Global and
+Sectoral Aspects. Contribution of Working Group II to the Fifth Assessment Report of the
+Intergovernmental Panel on Climate Change. pp. 1132. In Field, C.B., V.R. Barros, D.J. Dokken, K.J.
+Mach, M.D. Mastrandrea, T.E. Bilir, M. Chatterjee, K.L. Ebi, Y.O. Estrada, R.C. Genova, B. Girma, E.S.
+Kissel, A.N. Levy, S. MacCracken, P.R. Mastrandrea, and L.L. White, Eds. Cambridge University Press,
+Cambridge, United Kingdom and New York, NY, USA.
+29. Manyatsi, A.M. and Mhazo, N. (2014) A Comprehensive Scoping and Assessment Study of Climate
+Smart Agriculture (CSA) Policies in Swaziland (Draft). Commissioned by the Food, Agriculture and
+Natural Resources Policy Analysis Network (FANRPAN).
+30. Manyatsi, A.M. and Brown, R. (2009). Integrated Water Resources Management Survey and Status
+Report: Swaziland, Global Water Partnership, Southern Africa.
+31. Oseni, T. O. and Masarirambi, M. T. (2011). The Effects of Climate Change on Maize Production and
+Food Security in Swaziland. American Journal of Agriculture and Environmental Science, 11(3), 385-
+393.
+32. Remmelzwaal, A and Vilakati J.D. (1994). Physiographic map of Swaziland. Ministry of Agriculture and
+Cooperatives, Mbabane.
+33. Remmelzwaal R. (2006). Swaziland: Country Environment Profile. Report Prepared for the Joint-
+Venture of NIRAS PINSISI Consortium partners. AGROTEC S.p.A, June 2006.
+34. Sellers, P. J. (1985). Canopy reflectance, photosynthesis and transpiration. International Journal of
+Remote Sensing 6:1335-1372.
+35. Svoboda, M., D. LeComte, M. Hayes, R. Heim, K. Gleason, J. Angel, B. Rippey, R. Tinker, M. Palecki,
+D. Stooksbury, D. Miskus, and S. Stephens. 2002. The Drought Monitor. Bulletin of the American
+Meteorological Society 83:1181-1190.
+36. Sweet and Khumalo, 1994 Sweet, R.J. and Khumalo S. 1994. Range Resources and Grazing Potentials
+in Swaziland. FAO Report, Ministry of Agriculture and Co-operatives, Mbabane.
+37. Tsegai, D., J. Liebe, and R. Ardakanian (2015). Capacity Development to Support National Drought
+Management Policies: Synthesis. UNW-DPC, Bonn, Germany.
+38. UNISDR. (2015). Sendai Framework for Disaster Risk Reduction 2015 - 2030.
+39. Van Loon, A. F., T. Gleeson, J. Clark, A. I. J. M. Van Dijk, K. Stahl, J. Hannaford, G. Di Baldassarre, A. J.
+Teulng, L. M. Tallaksen, R. Uijlenhoet, D. M. Hannah, J. Sheffield, M. Svoboda, B. Verbeiren, T.
+Wagener, S. Rangecroft, N. Wanders, and H. A. J. Van Lanen. 2016. Drought in the Anthropocene.
+52
+
+--- Page 53 ---
+Nature Geosci 9:89-91. Vicente-Serrano, S. M., S. Beguería, J. Lorenzo-Lacruz, J. J. Camarero, J. I.
+López-Moreno, C. Azorin- Molina, J. Revuelto, E. Morán-Tejeda, and A. Sanchez-Lorenzo (2012).
+Performance of Drought Indices for Ecological, Agricultural, and Hydrological Applications. Earth
+Interactions 16:1-27.
+40. Vicente-Serrano, S. M., S. Beguería, J. Lorenzo-Lacruz, J. J. Camarero, J. I. López-Moreno, C. Azorin-
+Molina, J. Revuelto, E. Morán-Tejeda, and A. Sanchez-Lorenzo (2012). Performance of Drought Indices
+for Ecological, Agricultural, and Hydrological Applications. Earth Interactions 16:1-27.
+41. Wilhite, D. A. (2000). Drought as a Natural Hazard: Concepts and Definitions. Pages 3-18 in D. A.
+Wilhite, editor. Drought: A Global Assessment, Vol. I. Routledge, London.
+42. Wilhite, D. A., and M. H. Glantz (1985). Understanding: the Drought Phenomenon: The Role of
+Definitions. Water International 10:111-120. World Meteorological Organization. 2012. Standardized
+Precipitation Index User Guide. World Meteorological Organization, Geneva, Switzerland.
+53
+
+--- Page 54 ---
+Appendix 1: Eswatini National Drought Action Plan
+Goal / Objective Actions Who? Assisted by? By
+When?
+GOAL 1: ROBUST DROUGHT MONITORING AND EARLY WARNING
+Objective 1: 1. Continue developing the Eswatini Drought Monitor in order to produce reliable NDMA EMS , NEWU , DWA On-going
+Develop early seasonal forecasts and develop appropriate decision-support tools for impacted
+warning systems areas
+2. Monitor key indicators and indices of precipitation, temperature, soil moisture, DWA EMS On-going
+vegetation condition, stream flow, snowpack and ground water NDMA
+3. Incorporate indigenous knowledge into scientific drought monitoring and NDMA Communities IOHL On-going
+forecasting NEWU, DWA
+Objective 2: 1. Support national weather forecasting institution to deliver continuous data sets EMS NEWU, DWA On-going
+Disseminate on drought
+reliable warning
+2. Harmonize datasets held by different agencies CSU NEWU DWA 2022
+messages so that
+3. Establish clear data sharing protocols between key data institutions CSU NEWU DWA 2021
+response to the
+risks is measured 4. Use the Central Statistics Office as a national data repository of drought data CSU NEWU DWA 2020
+and timely
+5. Apply communications protocol to pass information to affected areas and sectors NDMA EMS, NEWU, DWA 2021
+of society
+Objective 3: 6. Monitor and assess the impact / consequences of drought, especially the impacts NDMA MOA SECTORS After
+Undertake to vulnerable sectors such as agriculture drought
+drought impact events
+assessment
+GOAL 2: BETTER ASSESSMENT OF DROUGHT RISK AND VULNERABILITIES
+Objective 1: 1. Monitor and assess the impact / consequences of drought, especially the impacts NDMA MOA SECTORS After
+Undertake to vulnerable sectors such as heath and agriculture drought
+54
+
+--- Page 55 ---
+drought impact events
+assessment 2. Report on drought impacts NDMA MOA SECTORS After
+drought
+events
+GOAL 3 : EFFECTIVE RESPONSE DURING DROUGHT EVENTS
+Objective 1: NDMA SECTORS During a
+1. Implement drought response actions as drought unfolds( Table 6)
+Respond to drought
+drought as it
+2. Adopt to the drought communication protocols as outlined in the NDP NDMA MOA, MTEA, CSU During a
+unfolds
+drought
+NDMA SECTORS During a
+3. Implement communication protocols with communities (Table 5)
+drought
+EMS NDMA, MICT On-going
+4. Use social media to receive real-time updates on community-level drought
+SECTORS
+impacts
+GOAL 4: ENHANCED DROUGHT PREPAREDNESS, MITIGATION AND RESILIENCE
+Objective 1: NDMA Civil Society Continuo
+1. Implement and improve systematic damage assessments
+Improve drought usly
+understanding NDMA MOA, IOHL EWSC Continuo
+2. Strengthen drought research
+Civil Society usly
+Objective 2: 1. Assess the physical, social, economic and environmental pressures on NDMA DWA Continuo
+Reduce drought communities to identify who and what is at risk and why, before, during and usly
+risk and shortly after drought
+vulnerability
+2. Undertake drought risk mapping by identifying drought impacts on vulnerable NDMA DWA 2022
+(Mitigation)
+economic sectors, including food and agriculture (cropping and livestock), EMS
+biodiversity and ecosystem, energy, tourism and health EWSC
+3. Assess conditions or situations that increase the resistance or susceptibility to NDMA MTEA EWSC On-going
+drought and the coping capacity of communities affected by drought MOA SECTORS
+55
+
+--- Page 56 ---
+4. Assess the extent of potential damage or loss in the event of a drought NDMA MTEA, MOA On-going
+SECTORS
+5. Support individuals and communities in long term efforts aimed at the reduction NDMA MTEA MOA On-going
+of vulnerability to drought, the management of drought, and recovery from SECTORS
+drought.
+6. Strengthen the capacity of institutions and drought affected communities to NDMA MNRE EWSC 2022
+reduce their risks and vulnerability (LT). SECTORS, MTEA MOA
+MEPD GOVT LINE 2025
+7. Develop and implement drought sector-wide response plans
+MINISTRIES
+NDMA MOA After
+8. Coordinate drought responses and procedures Civil Society drought
+events
+9. Assist farmers in restoring agricultural systems after drought NDMA NPGRC Civil Society After
+Donors drought
+events
+10. Mainstream drought into national development initiatives aimed at promoting MEPD GOVT LINE 2025
+sustainable rural livelihoods MINISTRIES
+11. Support national efforts to achieve country's Sustainable Development Goals, MEPD MOF, GOVT LINE 2025
+particularly SDG 14 in achieving a land degradation neutral status by 2030. MINISTRIES
+MOA Farmers 2030
+12. Support national sustainable rangeland management practices
+Objective 3: 1. Assist communities and local governments to draw up their own drought NDMA MTAD MHUB 2025
+Support activities contingency plans (Resilience) SECTORS
+that increase NDMA SECTORS On-going
+resilience to
+2. Mitigate future drought impacts by implementing response actions under
+drought
+different levels of drought (per the SPI and PNRI drought indicators in Table 6)
+3. Diversify income for both subsistence and commercial farmers, so as to reduce MOA MEPD MOF 2030
+dependence on rain-fed agriculture
+56
+
+--- Page 57 ---
+4. Support new activities like agroforestry, bee farming, conservation agriculture MOA ESWADE Civil Society 2022
+and small secondary industries. Donors
+Objective 4: 1. FastTrack implementation of integrated water resources management (IWRM) DWA MNRE MHUD 2022
+Improve water and cost recovery targets
+supply and
+2. Apply policies to ensure that the price of water and community management DWA MNRE EWSC 2022
+demand
+responsibility limits its consumption to sustainable levels MHUD
+management
+3. Apply water conservation measures and water awareness campaigns to increase DWA MNRE EWSC 2022
+the consumption efficiency and hence limit demand from primary sources MHUD
+4. Promote water-saving technologies in irrigated sugarcane and other production DWA MNRE EWSC MHUD 2022
+systems
+5. Introduce measures / incentives to promote efficient use of water DWA MNRE EWSC 2022
+MHUD
+6. Scale up water harvesting activities from previous programmes such as LUSLIM / MNRE Civil Society Donors 2023
+larger domestic rainwater tanks in remote areas
+7. Scale up the supply of small rainwater harvesting structures, water impounding MNRE MOA 2025
+structures, earth dams and farm reservoirs Civil Society Donors
+8. Scale up climate smart agriculture and conservation agricultural activities MOA Civil Society Donors 2025
+9. Rehabilitate existing small-scale irrigation systems for agricultural productivity MOA Civil Society Donors 2025
+and natural resources sustainability
+10. Construct more boreholes in the Lowveld and Lubombo MNRE Civil Society Donors 2025
+11. Community-based watershed management for sustainable water resources and MNRE MOA 2025
+livelihood development in critical watersheds of selected irrigation systems Civil Society Donors
+Objective 5: MOA MOH 2030
+1. Increase the resources available to poor households, in order to improve their
+Improve food and Civil Society Donors
+access to food during drought periods
+nutrition security H, F& A Sectors
+57
+
+--- Page 58 ---
+MOH MOA 2030
+2. Assist families to enable them to make the best use of available resources Civil Society Donors
+H, F& A Sectors
+MOA MOH MHUD 2030
+3. Promote improved food storage and preservation methods, starting at the
+Civil Society Donors
+household level
+H, F& A Sectors
+MOA MOH MHUD 2030
+4. Promote good nutritional practices, particularly for children and pregnant and
+Civil Society Donors
+lactating women, and improved health and sanitation practices.
+H, F& A Sectors
+NMC NAMBOARD 2021
+5. Maintain efficient arrangements with food importers
+MOA NDMA, Donors On-going
+6. Intervene during periods of food shortages
+Private Sector
+7. Distribute and encourage use of drought tolerant crops and high value crops NPGRC MOA EXT. 2022
+Objective 6: 1. Upscale programmes that support livestock breeds being made available to MOA MOA Dept. Vet 2022
+Improve farmers
+agricultural
+2. Adopt climate smart technologies and practices MOA Private Sector, DWA 2022
+resilience to
+3. Increase the range of drought mitigating technologies and practices. DARSS Private Sector 2022
+drought
+4. Increase number of farms that produce and store hay MOA MOA EXT. 2025
+Dept. Vet
+5. Distribute and encourage use of drought tolerant crops NPGRC MOA EXT. 2022
+6. Support shift to alternative cropping systems and calendars MOA DARSS 2022
+EXT.
+7. Increase the contribution of agricultural research and extension services to DARSS MOA EXT. 2022
+drought risk reduction
+GOAL 5: DROUGHT RISK TRANSFER AND SHARING
+58
+
+--- Page 59 ---
+Objective 1: 1. Establish drought risk insurance or fund MOF MEPD Farmers 2030
+Minimize losses Insurance Companies
+due to drought Private Sector
+2. Investigate new and novel drought risk financing options MOF MEPD Insurance 2030
+Companies Farmers
+Private Sector
+GOAL 6: IMPROVE COMMUNICATION, AWARENESS, CAPACITY BUILDING, DROUGHT MAINSTREAMING AND RESOURCE MOBILIZATION
+Objective 1 1. Spearhead campaigns on drought related disease spread and prevention MOH NDMA 2022
+Improve measures
+communication 2. Promotion of school gardening, urban gardens and backyard gardens to improve MoET MOHUB MOH 2023
+and awareness diet diversification and dissemination Civil Society
+3. Disseminate knowledge of compost-making techniques and resilience techniques MOA Civil Society 2023
+against drought (including water conservation techniques - drip irrigation - and
+traditional storage techniques)
+MoET Civil Society 2022
+4. Increase water supply and create backup options for schools
+MNRE
+5. Adopt technologies for rapid communication
+MoET MICT 2022
+MoET Civil Society 2022
+6. Target women, schools for education campaigns and awareness raising
+7. Raise awareness on drought at different level using various mechanisms MOH MNRE MHUD On-going
+NDMA LINE MINISTRIES, On-going
+8. Capacity building among professionals for communication, data collection and
+SECTORS
+early warning systems
+9. Set-up national platform on DRR and emergency preparedness NDMA MOA, MTEA , CSU 2021
+59
+
+--- Page 60 ---
+Objective 2 1. Capacitate the subsidiary bodies established under the NDMA Act, including the NDMA GOVT LINE On-going
+Strengthen National Disaster Management Council and the Regional Disaster Coordination MINISTRIES SECTORS
+capacity to cope Committees on drought issues so that the National Drought Plan is fully
+with drought implemented within the existing structures
+2. Establish an ad hoc body made up of a Technical Experts including the sectors of NDMA MNRE , MOA 2021
+government and non-government organizations needs in order to contribute MTEA, MHUD MTARD
+and harmonize data for drought monitoring.
+3. Build drought databases and capacity in key data institutions NDMA MOA MTEA 2025
+CSU, Donors
+4. Assess people's capacity to live with less water during a drought period and their NDMA MHUD , MOA MTEA, 2022
+willingness and capability to adapt MNRE
+MTARD
+5. Strengthen the existing drought institutional framework NDMA MOA 2025
+6. Train and involve local communities in drought decision-making processes, NDMA ESWADE Civil 2022
+policy design and planning MOA Society
+7. Increase water supply to schools and provide education and activities on water MNRE MoET 2025
+saving, urban gardens, composting. MOF
+Objective 3 1. Create an enabling policy and service environment to mainstream drought into MEPD GOVT LINE 2022
+Mainstream project development plans MINISTRIES
+drought into
+2. Prioritize drought into sectoral plans MEPD LINE MINISTRIES 2022
+ministerial and
+Civil Society
+sectoral plans
+Objective 4 3. Integrate women’s economic empowerment in NDP implementation activities in MEPD LINE MINISTRIES 2025
+Mainstream order to eradicate their extreme poverty. CIVIL SOCIETY
+gender into
+4. Identify and break down gender-related barriers to speed up implementation of MEPD GOVT LINE 2026
+drought risk
+the Aligned UNCCD NAP to create quality income earning opportunities for rural MINISTRIES Civil
+reduction
+women involved in implementation activities Society
+60
+
+--- Page 61 ---
+5. Develop strategic partnerships with women organizations to support DPMO NDMA SECTORS Civil 2025
+implementation of the NDP Society
+6. Support land and water based gender-related initiatives and to promote gender MEPF NDMA MOA MNRE, 2025
+equality and/or resource poor women’s empowerment at community level SECTORS
+Civil Society
+Objective 5: 7. Capitalization of the National Disaster Management Fund (DMF) NDMA MOA Government 2021
+Mobilizing of and cooperating
+adequate partners
+resources for
+8. Optimize available national, regional and international funding for drought MEPD NDMA, Government 2021
+drought
+preparedness, monitoring and response cooperating partners
+preparedness,
+9. Incorporate drought preparedness in all relevant capital projects MEPD MOF, MOA , NDMA 2021
+monitoring and
+Government and
+response
+cooperating partners
+61

@@ -1,0 +1,5176 @@
+--- Page 1 ---
+United Nations Convention to Combat Desertification
+Performance review and assessment of implementation system
+Seventh reporting process
+Report from
+Burundi
+This report has been submitted by the government of Burundi to the United Nations Convention to Combat Desertification
+(UNCCD).
+The designations employed and the presentation of material in this report do not imply the expression of any opinion
+whatsoever on the part of the UNCCD concerning the legal status of any country, territory, city or area or of its authorities, or
+concerning the delimitation of its frontiers or boundaries.
+28 November 2023
+
+--- Page 2 ---
+Contents
+1. SO: Strategic objectives
+A. SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote
+sustainable land management and contribute to land degradation neutrality.
+SO1-1 Trends in land cover
+SO1-2 Trends in land productivity or functioning of the land
+SO1-3 Trends in carbon stocks above and below ground
+SO1-4 Proportion of degraded land over the total land area
+SO1 Voluntary Targets
+B. SO-2: To improve the living conditions of affected populations.
+SO2-1 Trends in population living below the relative poverty line and/or income inequality in affected
+areas
+SO2-2 Trends in access to safe drinking water in affected areas
+SO2-3 Trends in the proportion of population exposed to land degradation disaggregated by sex
+SO2 Voluntary Targets
+C. SO-3: To mitigate, adapt to, and manage the effects of drought in order to enhance resilience of vulnerable
+populations and ecosystems.
+SO3-1 Trends in the proportion of land under drought over the total land area
+SO3-2 Trends in the proportion of the population exposed to drought
+SO3-3 Trends in the degree of drought vulnerability
+SO3 Voluntary Targets
+D. SO-4: To generate global environmental benefits through effective implementation of the United Nations
+Convention to Combat Desertification.
+SO4-1 Trends in carbon stocks above and below ground
+SO4-2 Trends in abundance and distribution of selected species
+SO4-3 Proportion of important sites for terrestrial and freshwater biodiversity that are covered by
+protected areas, by ecosystem type
+SO4 Voluntary Targets
+E. SO-5: To mobilize substantial and additional financial and non-financial resources to support the
+implementation of the Convention by building effective partnerships at global and national level
+SO5-1 Bilateral and multilateral public resources
+SO5-2 Domestic public resources
+SO5-3 International and domestic private resources
+SO5-4 Technology transfer
+SO5-5 Future support for activities related to the implementation of the Convention
+2. IF: Implementation Framework
+A. Financial and Non-Financial Sources
+B. Policy and Planning
+C. Action on the Ground
+3. Other files for Reporting
+4. Templated Maps
+A. Land cover in the initial year of the baseline period
+B. Land cover in the baseline year
+C. Land cover in the latest reporting year
+D. Land cover change in the baseline period
+E. Land cover change in the reporting period
+F. Land cover degradation in the baseline period
+G. Land cover degradation in the reporting period
+H. Land productivity dynamics in the baseline period
+I. Land productivity dynamics in the reporting period
+J. Land productivity degradation in the baseline period
+K. Land productivity degradation in the reporting period
+L. Soil organic carbon stock in the initial year of the baseline period
+M. Soil organic carbon stock in the baseline year
+N. Soil organic carbon stock in the latest reporting year
+O. Change in soil organic carbon stock in the baseline period
+2 / 136
+
+--- Page 3 ---
+P. Change in soil organic carbon stock in the reporting period
+Q. Soil organic carbon degradation in the baseline period
+R. Soil organic carbon degradation in the reporting period
+S. Proportion of land that is degraded over total land area (SDG Indicator 15.3.1) in the baseline period
+T. Proportion of land that is degraded over total land area (SDG Indicator 15.3.1) in the reporting period
+U. Progress towards Land Degradation Neutrality (LDN) in the reporting period
+V. Land Degradation Hotspots
+W. Land Improvement Brightspots
+X. Areas of voluntary targets and related implemented actions
+Y. Total Population exposed to land degradation (baseline)
+Z. Female Population exposed to land degradation (baseline)
+AA. Male Population exposed to land degradation (baseline)
+AB. Total Population exposed to land degradation (reporting)
+AC. Female Population exposed to land degradation (reporting)
+AD. Male Population exposed to land degradation (reporting)
+AE. Drought hazard in first epoch of baseline period
+AF. Drought hazard in second epoch of baseline period
+AG. Drought hazard in third epoch of baseline period
+AH. Drought hazard in fourth epoch of baseline period
+AI. Drought hazard in the reporting period
+AJ. Drought exposure in first epoch of baseline period
+AK. Drought exposure in second epoch of baseline period
+AL. Drought exposure in third epoch of baseline period
+AM. Drought exposure in fourth epoch of baseline period
+AN. Drought exposure in the reporting period
+AO. Female drought exposure in the reporting period
+AP. Male drought exposure in the reporting period
+3 / 136
+
+--- Page 4 ---
+4 / 136
+
+--- Page 5 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+SO1-1 Trends in land cover
+Land area
+SO1-1.T1: National estimates of the total land area, the area covered by water bodies and total country area
+Total land area Water bodies Total country area
+Year Comments
+(km²) (km²) (km²)
+2
+24 872 2 291 27 163
+001
+2 Diminution de la superficie de la masse d'eau suite à de faibles
+24 874 2 289 27 163
+005 précipitations
+2
+24 875 2 288 27 163
+010
+2 Diminution de la superficie terrestre suite à la montée du niveau
+24 871 2 292 27 163
+015 des eaux des lacs
+2
+24 871 2 292 27 163
+016
+2
+24 871 2 292 27 163
+019
+Land cover legend and transition matrix
+SO1-1.T2: Key Degradation Processes
+Degradation Process Starting Land Cover Ending Land Cover
+Deforestation Tree-covered areas Croplands
+Urban Expansion Croplands Artificial surfaces
+Urban Expansion Tree-covered areas Artificial surfaces
+Vegetation Loss Tree-covered areas Grasslands
+Are the seven UNCCD land cover classes sufficient to monitor the key degradation processes in your country?
+Yes
+No
+SO1-1.T4: UNCCD land cover legend transition matrix
+Original/ Final Tree-covered areas Grasslands Croplands Wetlands Artificial surfaces Other Lands Water bodies
+Tree-covered areas 0 - - - - - 0
+Grasslands + 0 + - - - 0
+Croplands + - 0 - - - 0
+Wetlands - - - 0 - - 0
+Artificial surfaces + + + + 0 + 0
+Other Lands + + + + - 0 0
+Water bodies 0 0 0 0 0 0 0
+Land cover
+SO1-1.T5: National estimates of land cover (km²) for the baseline and reporting period
+Other
+Tree-covered Grasslands Croplands Wetlands Artificial Water No data
+Lands
+areas (km²) (km²) (km²) (km²) surfaces (km²) bodies (km²) (km²)
+(km²)
+5 / 136
+
+--- Page 6 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Tree-covered Grasslands Croplands Wetlands Artificial Other Lands Water No data
+areas (km²) (km²) (km²) (km²) surfaces (km²) (km²) bodies (km²) (km²)
+2000 0 0 0 0 0 0 0
+2001 3 507 5 546 15 524 255 40 0 2 292
+2002 3 555 5 530 15 483 256 49 0 2 290
+2003 3 596 5 520 15 448 257 53 0 2 290
+2004 3 660 5 489 15 411 257 57 0 2 289
+2005 3 664 5 464 15 427 257 62 0 2 289
+2006 3 687 5 450 15 412 257 67 0 2 289
+2007 3 720 5 438 15 386 259 72 0 2 288
+2008 3 749 5 426 15 363 259 77 0 2 289
+2009 3 779 5 407 15 348 260 81 0 2 289
+2010 3 757 5 409 15 365 258 86 0 2 289
+2011 3 746 5 409 15 376 253 89 0 2 291
+2012 3 734 5 409 15 386 250 93 0 2 292
+2013 3 731 5 409 15 385 249 97 0 2 292
+2014 3 708 5 410 15 400 248 105 0 2 292
+2015 3 708 5 409 15 398 248 109 0 2 292
+2016 3 816 5 377 15 316 247 114 0 2 292
+2017 3 863 5 373 15 273 247 115 0 2 292
+2018 3 933 5 361 15 216 247 115 0 2 292
+2019 4 018 5 345 15 146 248 115 0 2 292
+2020 0 0 0 0 0 0 0
+Land cover change
+SO1-1.T6: National estimates of land cover change (km²) for the baseline period
+Artificial Other Water
+Tree-covered Grasslands Croplands Wetlands Total
+surfaces Lands bodies
+areas (km²) (km²) (km²) (km²) (km²)
+(km²) (km²) (km²)
+Tree-covered
+3 349 13 128 3 14 0 0 3 507
+areas (km²)
+Grasslands
+143 5 392 5 0 6 0 1 5 547
+(km²)
+Croplands (km²) 211 3 15 257 5 47 0 1 15 524
+Wetlands (km²) 4 0 7 240 1 0 3 255
+Artificial
+0 0 0 0 40 0 0 40
+surfaces (km²)
+Other Lands
+0 0 0 0 0 0 0 0
+(km²)
+Water bodies
+1 1 2 1 0 0 2 287 2 292
+(km²)
+Total 3 708 5 409 15 399 249 108 0 2 292
+6 / 136
+
+--- Page 7 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+SO1-1.T7: National estimates of land cover change (km²) for the reporting period
+Artificial Other Water
+Tree-covered Grasslands Croplands Wetlands Total land
+surfaces Lands bodies
+areas (km²) (km²) (km²) (km²) area (km²)
+(km²) (km²) (km²)
+Tree-covered
+3 812 1 3 0 0 0 0 3 816
+areas (km²)
+Grasslands
+35 5 342 0 0 0 0 0 5 377
+(km²)
+Croplands
+170 2 15 143 1 0 0 0 15 316
+(km²)
+Wetlands (km²) 1 0 0 246 0 0 0 247
+Artificial
+0 0 0 0 114 0 0 114
+surfaces (km²)
+Other Lands
+0 0 0 0 0 0 0 0
+(km²)
+Water bodies
+0 0 0 0 0 0 2 292 2 292
+(km²)
+Total 4 018 5 345 15 146 247 114 0 2 292
+Land cover degradation
+SO1-1.T8: National estimates of land cover degradation (km²) in the baseline period
+Area (km²) Percent of total land area (%)
+Land area with degraded land cover 230 0 .8
+Land area with non-degraded land cover 26 931 99 .1
+Land area with no land cover data 0 0 .0
+SO1-1.T9: National estimates of land cover degradation (km²) in the reporting period
+Area (km²) Percent of total land area (%)
+Land area with improved land cover 205 0 .8
+Land area with stable land cover 26 949 99 .2
+Land area with degraded land cover 8 0 .0
+Land area with no land cover data 0 0 .0
+General comments
+On a utilisé la carte des limites administratives fournie par l'institution nationale en charge de la cartographie (27163 km²). Ce shapefile a
+été chargé sur la plate forme de rapportage PRAIS4. Cette carte nationale présente les caractéristiques suivantes: SCR WGS 84 Propriétés:
+Géographique (utilise des coordonnées en latitude et longitude) Dynamique (repose sur un référentiel géodésique qui n'est pas fixé sur la
+plaque) Corps céleste : Earth Basé sur World Geodesic System 1984 ensemble (EPSG:6326), qui a une précision de 2 mètres au mieux.
+Méthode : Lat/long (Geodesic alias) Selon les tableaux S01-1.T8 et SO1-1.T9, il s'observe une amélioration de la couverture terrestre pour la
+période considérée (2016-2019).
+7 / 136
+
+--- Page 8 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+SO1-2 Trends in land productivity or functioning of the land
+Land productivity dynamics
+SO1-2.T1: National estimates of land productivity dynamics (in km²) within each land cover class for the
+baseline period
+Net land productivity dynamics (km²) for the baseline period
+Land cover class
+Declining (km²) Moderate Decline (km²) Stressed (km²) Stable (km²) Increasing (km²) No Data (km²)
+Tree-covered areas 327 389 0 2 191 438 3
+Grasslands 584 596 0 3 613 597 1
+Croplands 1 717 1 903 0 9 811 1 821 5
+Wetlands 48 19 0 128 41 4
+Artificial surfaces 26 2 0 8 2 0
+Other Lands 0 0 0 0 0 0
+Water bodies 7 4 2 26 10 2 238
+SO1-2.T2: National estimates of land productivity dynamics (in km²) within each land cover class for the
+reporting period.
+Net land productivity dynamics (km²) for the reporting period
+Land cover class
+Declining (km²) Moderate Decline (km²) Stressed (km²) Stable (km²) Increasing (km²) No Data (km²)
+Tree-covered areas 215 180 0 2 180 957 3
+Grasslands 227 219 0 3 326 1 553 1
+Croplands 980 758 0 9 033 4 258 5
+Wetlands 30 30 0 125 50 5
+Artificial surfaces 41 7 1 11 3 0
+Other Lands 0 0 0 0 0 0
+Water bodies 8 7 2 22 10 2 238
+SO1-2.T3: National estimates of land productivity dynamics for areas where a land conversion to a new land
+cover class has taken place (in km²) for the baseline period.
+Land Conversion Net land productivity dynamics (km²) for the baseline period
+Net area change Declining Moderate Decline Stressed Stable Increasing
+From To
+(km²) (km²) (km²) (km²) (km²) (km²)
+Tree-covered
+Croplands 211 17 27 0 130 36
+areas
+Tree-covered
+Grasslands 143 11 17 0 86 30
+areas
+Tree-covered
+Croplands 128 27 23 0 66 12
+areas
+Artificial
+Croplands 47 35 4 0 7 1
+surfaces
+SO1-2.T4: National estimates of land productivity dynamics for areas where a land conversion to a new land
+cover class has taken place (in km²) for the reporting period.
+8 / 136
+
+--- Page 9 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Land Conversion Net land productivity dynamics (km²) for the reporting period
+Net area change Declining Moderate Decline Stressed Stable Increasing
+From To
+(km²) (km²) (km²) (km²) (km²) (km²)
+Tree-covered
+Croplands 345 23 23 0 202 96
+areas
+Tree-covered
+Grasslands 132 3 5 0 80 43
+areas
+Tree-covered
+Croplands 103 17 6 0 67 14
+areas
+Artificial
+Croplands 39 27 4 0 8 1
+surfaces
+Land Productivity degradation
+SO1-2.T5: National estimates of land productivity degradation in the baseline period
+Area (km²) Percent of total land area (%)
+Land area with degraded land productivity 5 806 23 .3
+Land area with non-degraded land productivity 19 049 76 .6
+Land area with no land productivity data 14 0 .1
+SO1-2.T6: National estimates of land productivity degradation in the reporting period
+Area (km²) Percent of total land area (%)
+Land area with improved land productivity 6 982 28 .1
+Land area with stable land productivity 15 060 60 .6
+Land area with degraded land productivity 2 812 11 .3
+Land area with no land productivity data 15 0 .1
+General comments
+Pour la productivité, on a utilisé les données par défaut UNCCD Trends Earth. En comparant les résultats des tableaux SO1-2.T5 et
+SO1-2.T6 ci-haut, il s'observe une amélioration de la productivité des terres pour la période de 2005 à 2019 suite à l'amélioration des
+pratiques de gestion durable des terres.
+9 / 136
+
+--- Page 10 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+SO1-3 Trends in carbon stocks above and below ground
+Soil organic carbon stocks
+SO1-3.T1: National estimates of the soil organic carbon stock in topsoil (0-30 cm) within each land cover
+class (in tonnes per hectare).
+Soil organic carbon stock in topsoil (t/ha)
+Year
+Tree-covered areas Grasslands Croplands Wetlands Artificial surfaces Other Lands Water bodies
+2000 0 0 0 0 0 0 0
+2001 105 90 100 81 62 0 2
+2002 106 90 100 81 59 0 2
+2003 106 90 100 81 58 0 2
+2004 106 90 100 81 57 0 2
+2005 106 90 100 81 56 0 2
+2006 106 90 100 81 55 0 2
+2007 106 90 100 81 54 0 2
+2008 106 90 100 81 53 0 2
+2009 106 90 100 82 51 0 2
+2010 106 90 100 81 50 0 2
+2011 106 90 100 81 49 0 2
+2012 106 90 100 81 48 0 2
+2013 106 90 100 81 47 0 2
+2014 106 90 100 81 47 0 2
+2015 106 90 100 81 46 0 2
+2016 106 90 100 81 45 0 2
+2017 106 90 100 81 43 0 2
+2018 106 90 100 81 41 0 2
+2019 106 90 100 81 39 0 2
+2020 0 0 0 0 0 0 0
+If you opted not to use default Tier 1 data, what did you use to calculate the estimates above?
+Modified Tier 1 methods and data
+Tier 2 (additional use of country-specific data)
+Tier 3 (more complex methods involving ground measurements and modelling)
+SO1-3.T2: National estimates of the change in soil organic carbon stock in soil due to land conversion to a
+new land cover class in the baseline period
+Land Conversion Soil organic carbon (SOC) stock change in the baseline period
+Net area Initial SOC Final SOC Initial SOC Final SOC SOC stock
+From To
+change (km²) stock (t/ha) stock (t/ha) stock total (t) stock total (t) change (t)
+Tree-covered
+Croplands 211 108 .7 122 .9 2 294 235 2 593 066 298 831
+areas
+10 / 136
+
+--- Page 11 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Land Conversion Soil organic carbon (SOC) stock change in the baseline period
+Net area Initial SOC Final SOC Initial SOC Final SOC SOC stock
+From To
+change (km²) stock (t/ha) stock (t/ha) stock total (t) stock total (t) change (t)
+Tree-covered
+Grasslands 143 93 .2 93 .2 1 332 564 1 332 564 0
+areas
+Artificial
+Croplands 47 62 .8 41 .8 295 247 196 529 -98 718
+surfaces
+Tree-covered
+Croplands 128 108 .8 101 .1 1 392 849 1 293 490 -99 359
+areas
+SO1-3.T3: National estimates of the change in soil organic carbon stock in soil due to land conversion to a
+new land cover class in the reporting period
+Land Conversion Soil organic carbon (SOC) stock change in the reporting period
+Net area Initial SOC Final SOC Initial SOC Final SOC SOC stock
+From To
+change (km²) stock (t/ha) stock (t/ha) stock total (t) stock total (t) change (t)
+Tree-covered
+Croplands 170 95 .8 97 .7 1 629 435 1 660 234 30 799
+areas
+Croplands Grasslands 2 79 .4 81 .2 15 880 16 233 353
+Tree-covered
+Grasslands 35 97 .9 97 .9 342 494 342 494 0
+areas
+Tree-covered
+Croplands 3 149 .4 148 .1 44 818 44 434 -384
+areas
+Soil organic carbon stock degradation
+SO1-3.T4: National estimates of soil organic carbon stock degradation in the baseline period
+Area (km²) Percent of total land area (%)
+Land area with degraded soil organic carbon (SOC) 160 0 .6
+Land area with non-degraded SOC 24 704 99 .3
+Land area with no SOC data 6 0 .0
+SO1-3.T5: National estimates of SOC stock degradation in the reporting period
+Area (km²) Percent of total land area (%)
+Land area with improved SOC 0 0 .0
+Land area with stable SOC 24 779 99 .6
+Land area with degraded SOC 84 0 .3
+Land area with no SOC data 7 0 .0
+General comments
+Les résultats des tableaux (SO1-3.T4 et SO1-3.T5) ci-dessus montrent une augmentation du stock de carbone organique du sol suite
+l'amélioration du couvert végétal.
+11 / 136
+
+--- Page 12 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+SO1-4 Proportion of degraded land over the total land area
+Proportion of degraded land over the total land area (Sustainable Development Goal Indicator 15.3.1)
+SO1-4.T1: National estimates of the total area of degraded land (in km²), and the proportion of degraded land
+relative to the total land area
+Total area of degraded land (km²) Proportion of degraded land over the total land area (%)
+Baseline Period 5 948 23 .9
+Reporting Period 3 007 12 .1
+Change in degraded extent -2941
+Method
+Did you use the SO1-1, SO1-2 and SO1-3 indicators (i.e. land cover, land productivity dynamics and soil organic carbon
+stock) to compute the proportion of degraded land?
+Which indicators did you use?
+☒ Land Cover
+☒ Land Productivity Dynamics
+☒ SOC Stock
+Did you apply the one-out, all-out principle to compute the proportion of degraded land?
+Yes
+No
+Level of Confidence
+Indicate your country’s level of confidence in the assessment of the proportion of degraded land:
+High (based on comprehensive evidence)
+Medium (based on partial evidence)
+Low (based on limited evidence)
+Describe why the assessment has been given the level of confidence selected above:
+Le niveau de confiance est moyen car la résolution des données utilisées est faible pour représenter les réalités de terrain pour des
+exploitations de petites tailles.
+False positives/ False negatives
+SO1-4.T3: Justify why any area identified as degraded or non-degraded in the SO1-1, SO1-2 or SO1-3 indicator
+data should or should not be included in the overall Sustainable Development Goal indicator 15.3.1 calculation.
+Area Basis for Edit
+Location Name Type Recode Options Process driving false +/- outcome
+(km²) Judgement Polygon
+False Recode improved Zone d'expansion agricole considérée Confirmed
+Kumahoro_Kibira 0 .5 Polygon
+Positive as degraded comme stablecomme Locally
+False Recode degraded Zone qui n'a pas subit de changement Confirmed
+Gahoma_Mabayi 1 .2 Polygon
+Negative as stable et prise comme zone dégradée Locally
+False Recode improved Zone stable considérée comme Confirmed
+Ngarama_Ruyigi 0 .2 Polygon
+Positive as stable améliorée Locally
+Perform qualitative assessments of areas identified as degraded or improved
+SO1-4.T4: Degradation hotspots
+12 / 136
+
+--- Page 13 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Action(s)
+taken to
+redress
+Direct drivers degradation
+Area Assessment of land in terms of Remediating action(s) (both Edit
+Hotspots Location
+(km²) Process degradation Land forward-looking and current) Polygon
+hotspots Degradation
+Neutrality
+response
+hierarchy
+• General instrument (e.g.
+policies, economic
+incentives)
+• Restore/improve
+croplands
+◦ Practise sustainable
+land management
+◦ Increase land
+productivity in
+agricultural areas
+◦ Rehabilitate bare or
+degraded land for
+crop production
+• Other/general
+/unspecified
+1. Cropland and ◦ Achieve LDN
+agroforestry ◦ Restore vegetation
+management cover (unspecified
+2. Mineral land use)
+resource ◦ Avoid/prevent/halt
+extraction degradation (of
+3. Climate degraded lands)
+change
+☐ Avoid
+Establishment 4. Deforestation • Restore/improve tree-
+Zone MURWI 202 of expert and ☒ Reduce covered areas Polygon
+montagneuse
+panels clearance of ☒ Reverse ◦ Restore/improve
+other native grasslands
+vegetation ◦ Increase land
+5. Grazing land productivity in tree
+management covered areas
+�. Non-timber ◦ Restore tree-covered
+natural areas
+resource
+extraction
+• Increase tree-covered
+area extent
+◦ Increase tree covered
+land (net gain) e.g.
+plantations
+• Increase soil fertility and
+carbon stock
+◦ Reduce soil erosion
+◦ Improve
+watershed/landscape
+management
+◦ Rehabilitate bare land
+and/or restore
+degraded land
+◦ Increase carbon
+stock and reduce
+soil/land degradation
+Total no. of
+21
+hotspots
+Total hotspot
+7 427 .1
+area
+13 / 136
+
+--- Page 14 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Action(s)
+taken to
+redress
+Direct drivers degradation
+Area Assessment of land in terms of Remediating action(s) (both Edit
+Hotspots Location
+(km²) Process degradation Land forward-looking and current) Polygon
+hotspots Degradation
+Neutrality
+response
+hierarchy
+• General instrument (e.g.
+policies, economic
+incentives)
+• Restore/improve
+croplands
+◦ Practise sustainable
+land management
+◦ Halt/reduce
+conversion of
+cropland to other land
+cover types
+◦ Increase land
+productivity in
+agricultural areas
+◦ Rehabilitate bare or
+degraded land for
+crop production
+1. Deforestation • Other/general
+and /unspecified
+clearance of ◦ Achieve LDN
+other native ◦ Restore vegetation
+vegetation cover (unspecified
+2. Cropland and land use)
+agroforestry ☐ Avoid ◦ Improve land
+Terres MABANDA et Establishment management productivity
+d'altitude MAKAMBA 53 .2 of expert 3. Non-timber ☒ Reduce (unspecified land Polygon
+moyenne panels natural ☒ Reverse use)
+resource ◦ Avoid/prevent/halt
+extraction degradation (of
+4. Fire regime degraded lands)
+change
+5. Climate • Restore/improve tree-
+change covered areas
+◦ Reduce/halt
+deforestation and
+conversion of tree
+cover to other land
+cover types (e.g.
+conserving forest
+land)
+◦ Restore/improve
+grasslands
+◦ Increase land
+productivity in tree
+covered areas
+◦ Restore tree-covered
+areas
+◦ Improve tree cover
+management e.g. fire
+management
+• Increase soil fertility and
+carbon stock
+◦ Improve
+Total no. of
+21
+hotspots
+Total hotspot
+7 427 .1
+area
+14 / 136
+
+--- Page 15 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Action(s)
+taken to
+redress
+Direct drivers degradation
+Area Assessment of land in terms of Remediating action(s) (both Edit
+Hotspots Location
+(km²) Process degradation Land forward-looking and current) Polygon
+hotspots Degradation
+Neutrality
+response
+hierarchy
+watershed/landscape
+management
+◦ Rehabilitate bare land
+and/or restore
+degraded land
+◦ Increase carbon
+stock and reduce
+soil/land degradation
+1. Grazing land
+management
+☐ Avoid
+Establishment • Increase protected areas
+Z ro o c n h e euse BURURI et VUGIZO 81 of expert 2. Fir c e h r a e n g g im e e ☒ Reduce ◦ Increase protected Polygon
+panels ☐ Reverse area extent
+3. Climate
+change
+Total no. of
+21
+hotspots
+Total hotspot
+7 427 .1
+area
+15 / 136
+
+--- Page 16 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Action(s)
+taken to
+redress
+Direct drivers degradation
+Area Assessment of land in terms of Remediating action(s) (both Edit
+Hotspots Location
+(km²) Process degradation Land forward-looking and current) Polygon
+hotspots Degradation
+Neutrality
+response
+hierarchy
+• Restore/improve
+croplands
+◦ Practise sustainable
+land management
+◦ Halt/reduce
+conversion of
+cropland to other land
+cover types
+◦ Increase land
+productivity in
+agricultural areas
+◦ Rehabilitate bare or
+degraded land for
+crop production
+• Other/general
+/unspecified
+◦ Achieve LDN
+◦ Restore vegetation
+1. Cropland and
+cover (unspecified
+agroforestry
+management land use)
+◦ Improve land
+2. Climate
+productivity
+change
+(unspecified land
+3. Deforestation use)
+and ◦ Avoid/prevent/halt
+clearance of ☐ Avoid
+Zone de Establishment degradation (of
+hautes B RU U M YE O N N G G E E R - O VY - ANDA 4 .5 73 of expert o v t e h g e e r t n a a ti t o iv n e ☒ Reduce degraded lands) Polygon
+montagnes panels ☐ Reverse
+4. Non-timber
+natural • Restore/improve
+resource grasslands
+extraction ◦ Restore and improve
+5. Native and pastures
+planted ◦ Improve land
+forest productivity in
+management grasslands
+• Restore/improve
+protected areas
+◦ Restore protected
+areas
+◦ Improve
+management of
+protected areas
+• Restore/improve tree-
+covered areas
+◦ Reduce/halt
+deforestation and
+conversion of tree
+cover to other land
+cover types (e.g.
+conserving forest
+land)
+◦ Restore/improve
+grasslands
+Total no. of
+21
+hotspots
+Total hotspot
+7 427 .1
+area
+16 / 136
+
+--- Page 17 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Action(s)
+taken to
+redress
+Direct drivers degradation
+Area Assessment of land in terms of Remediating action(s) (both Edit
+Hotspots Location
+(km²) Process degradation Land forward-looking and current) Polygon
+hotspots Degradation
+Neutrality
+response
+hierarchy
+◦ Increase land
+productivity in tree
+covered areas
+◦ Restore tree-covered
+areas
+• Increase tree-covered
+area extent
+◦ Increase tree covered
+land (net gain) e.g.
+plantations
+Total no. of
+21
+hotspots
+Total hotspot
+7 427 .1
+area
+17 / 136
+
+--- Page 18 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Action(s)
+taken to
+redress
+Direct drivers degradation
+Area Assessment of land in terms of Remediating action(s) (both Edit
+Hotspots Location
+(km²) Process degradation Land forward-looking and current) Polygon
+hotspots Degradation
+Neutrality
+response
+hierarchy
+• Restore/improve
+croplands
+◦ Practise sustainable
+land management
+◦ Halt/reduce
+conversion of
+cropland to other land
+cover types
+◦ Increase land
+productivity in
+agricultural areas
+◦ Rehabilitate bare or
+degraded land for
+crop production
+• Other/general
+/unspecified
+◦ Achieve LDN
+◦ Restore vegetation
+cover (unspecified
+land use)
+◦ Improve land
+1. Cropland and productivity
+agroforestry (unspecified land
+management
+use)
+2. Native and ◦ Avoid/prevent/halt
+☐ Avoid
+Zone de Establishment planted degradation (of
+moyenne BUHINYUZA- 171 of expert forest ☒ Reduce degraded lands) Polygon
+altitude MWAKIRO .8 panels management ☒ Reverse
+3. Climate • Restore/improve
+change
+grasslands
+4. Fire regime ◦ Halt/reduce
+change
+conversion of
+grassland to other
+land cover types
+◦ Improve land
+productivity in
+grasslands
+• Restore/improve
+protected areas
+◦ Restore protected
+areas
+◦ Improve
+management of
+protected areas
+• Restore/improve tree-
+covered areas
+◦ Reduce/halt
+deforestation and
+conversion of tree
+cover to other land
+cover types (e.g.
+conserving forest
+land)
+Total no. of
+21
+hotspots
+Total hotspot
+7 427 .1
+area
+18 / 136
+
+--- Page 19 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Action(s)
+taken to
+redress
+Direct drivers degradation
+Area Assessment of land in terms of Remediating action(s) (both Edit
+Hotspots Location
+(km²) Process degradation Land forward-looking and current) Polygon
+hotspots Degradation
+Neutrality
+response
+hierarchy
+◦ Restore/improve
+grasslands
+◦ Increase land
+productivity in tree
+covered areas
+◦ Restore tree-covered
+areas
+◦ Improve tree cover
+management e.g. fire
+management
+• Increase tree-covered
+area extent
+◦ Increase tree covered
+land (net gain) e.g.
+plantations
+• Increase soil fertility and
+carbon stock
+◦ Improve
+watershed/landscape
+management
+◦ Increase carbon
+stock and reduce
+soil/land degradation
+Total no. of
+21
+hotspots
+Total hotspot
+7 427 .1
+area
+19 / 136
+
+--- Page 20 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Action(s)
+taken to
+redress
+Direct drivers degradation
+Area Assessment of land in terms of Remediating action(s) (both Edit
+Hotspots Location
+(km²) Process degradation Land forward-looking and current) Polygon
+hotspots Degradation
+Neutrality
+response
+hierarchy
+• Restore/improve
+croplands
+◦ Practise sustainable
+land management
+◦ Improve water use for
+irrigation
+◦ Halt/reduce
+conversion of
+cropland to other land
+cover types
+◦ Increase land
+productivity in
+agricultural areas
+◦ Rehabilitate bare or
+degraded land for
+crop production
+• Other/general
+/unspecified
+◦ Achieve LDN
+◦ Restore vegetation
+cover (unspecified
+1. Cropland and
+agroforestry land use)
+management ◦ Improve land
+productivity
+2. Deforestation
+and ☐ Avoid (unspecified land
+Zone de Establishment clearance of use)
+basse MISHIHA 68 .4 of expert other native ☒ Reduce ◦ Avoid/prevent/halt Polygon
+altitude panels vegetation ☒ Reverse degradation (of
+3. Fire regime degraded lands)
+change
+4. Climate • Restore/improve
+change grasslands
+◦ Restore rangeland
+(e.g. by controlling
+livestock and
+wildfires)
+◦ Restore and improve
+pastures
+◦ Improve land
+productivity in
+grasslands
+• Restore/improve tree-
+covered areas
+◦ Reduce/halt
+deforestation and
+conversion of tree
+cover to other land
+cover types (e.g.
+conserving forest
+land)
+◦ Restore/improve
+grasslands
+◦ Increase land
+productivity in tree
+Total no. of
+21
+hotspots
+Total hotspot
+7 427 .1
+area
+20 / 136
+
+--- Page 21 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Action(s)
+taken to
+redress
+Direct drivers degradation
+Area Assessment of land in terms of Remediating action(s) (both Edit
+Hotspots Location
+(km²) Process degradation Land forward-looking and current) Polygon
+hotspots Degradation
+Neutrality
+response
+hierarchy
+covered areas
+◦ Restore tree-covered
+areas
+◦ Improve tree cover
+management e.g. fire
+management
+• Increase tree-covered
+area extent
+◦ Increase tree covered
+land (net gain) e.g.
+plantations
+• Increase soil fertility and
+carbon stock
+◦ Reduce soil erosion
+◦ Improve
+watershed/landscape
+management
+◦ Rehabilitate bare land
+and/or restore
+degraded land
+◦ Increase carbon
+stock and reduce
+soil/land degradation
+Total no. of
+21
+hotspots
+Total hotspot
+7 427 .1
+area
+21 / 136
+
+--- Page 22 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Action(s)
+taken to
+redress
+Direct drivers degradation
+Area Assessment of land in terms of Remediating action(s) (both Edit
+Hotspots Location
+(km²) Process degradation Land forward-looking and current) Polygon
+hotspots Degradation
+Neutrality
+response
+hierarchy
+• Restore/improve
+croplands
+◦ Practise sustainable
+land management
+◦ Improve water use for
+irrigation
+◦ Halt/reduce
+conversion of
+cropland to other land
+cover types
+◦ Increase land
+productivity in
+agricultural areas
+◦ Rehabilitate bare or
+degraded land for
+crop production
+• Other/general
+/unspecified
+◦ Achieve LDN
+◦ Restore vegetation
+cover (unspecified
+land use)
+1. Cropland and
+agroforestry ◦ Improve land
+management productivity
+(unspecified land
+2. Deforestation ☐ Avoid
+Zone de Establishment use)
+basse MISHIHA 1 .4 03 of expert clear a a n n d ce of ☒ Reduce ◦ Avoid/prevent/halt Polygon
+altitude panels other native ☒ Reverse degradation (of
+vegetation degraded lands)
+3. Climate
+change • Restore/improve
+grasslands
+◦ Restore rangeland
+(e.g. by controlling
+livestock and
+wildfires)
+◦ Restore and improve
+pastures
+◦ Improve land
+productivity in
+grasslands
+• Restore/improve tree-
+covered areas
+◦ Reduce/halt
+deforestation and
+conversion of tree
+cover to other land
+cover types (e.g.
+conserving forest
+land)
+◦ Restore/improve
+grasslands
+◦ Increase land
+productivity in tree
+Total no. of
+21
+hotspots
+Total hotspot
+7 427 .1
+area
+22 / 136
+
+--- Page 23 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Action(s)
+taken to
+redress
+Direct drivers degradation
+Area Assessment of land in terms of Remediating action(s) (both Edit
+Hotspots Location
+(km²) Process degradation Land forward-looking and current) Polygon
+hotspots Degradation
+Neutrality
+response
+hierarchy
+covered areas
+◦ Restore tree-covered
+areas
+◦ Improve tree cover
+management e.g. fire
+management
+• Increase tree-covered
+area extent
+◦ Increase tree covered
+land (net gain) e.g.
+plantations
+Total no. of
+21
+hotspots
+Total hotspot
+7 427 .1
+area
+23 / 136
+
+--- Page 24 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Action(s)
+taken to
+redress
+Direct drivers degradation
+Area Assessment of land in terms of Remediating action(s) (both Edit
+Hotspots Location
+(km²) Process degradation Land forward-looking and current) Polygon
+hotspots Degradation
+Neutrality
+response
+hierarchy
+• Restore/improve
+croplands
+◦ Practise sustainable
+land management
+◦ Improve water use for
+irrigation
+◦ Increase land
+productivity in
+agricultural areas
+◦ Rehabilitate bare or
+degraded land for
+crop production
+• Other/general
+/unspecified
+◦ Achieve LDN
+◦ Restore vegetation
+cover (unspecified
+land use)
+◦ Improve land
+1. Cropland and
+agroforestry productivity
+management (unspecified land
+use)
+2. Deforestation
+and ◦ Avoid/prevent/halt
+clearance of degradation (of
+other native degraded lands)
+☐ Avoid
+Zone de Establishment vegetation
+basse GISAGARA 89 .8 of expert 3. Native and ☒ Reduce • Restore/improve Polygon
+altitude panels planted ☐ Reverse grasslands
+forest ◦ Restore rangeland
+management (e.g. by controlling
+4. Climate livestock and
+change wildfires)
+5. Fire regime ◦ Restore and improve
+change pastures
+◦ Improve land
+productivity in
+grasslands
+• Restore/improve
+protected areas
+◦ Restore protected
+areas
+◦ Improve
+management of
+protected areas
+• Restore/improve tree-
+covered areas
+◦ Reduce/halt
+deforestation and
+conversion of tree
+cover to other land
+cover types (e.g.
+conserving forest
+land)
+Total no. of
+21
+hotspots
+Total hotspot
+7 427 .1
+area
+24 / 136
+
+--- Page 25 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Action(s)
+taken to
+redress
+Direct drivers degradation
+Area Assessment of land in terms of Remediating action(s) (both Edit
+Hotspots Location
+(km²) Process degradation Land forward-looking and current) Polygon
+hotspots Degradation
+Neutrality
+response
+hierarchy
+◦ Restore/improve
+grasslands
+◦ Increase land
+productivity in tree
+covered areas
+◦ Restore tree-covered
+areas
+◦ Improve tree cover
+management e.g. fire
+management
+• Increase tree-covered
+area extent
+◦ Increase tree covered
+land (net gain) e.g.
+plantations
+Total no. of
+21
+hotspots
+Total hotspot
+7 427 .1
+area
+25 / 136
+
+--- Page 26 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Action(s)
+taken to
+redress
+Direct drivers degradation
+Area Assessment of land in terms of Remediating action(s) (both Edit
+Hotspots Location
+(km²) Process degradation Land forward-looking and current) Polygon
+hotspots Degradation
+Neutrality
+response
+hierarchy
+• Restore/improve
+croplands
+◦ Practise sustainable
+land management
+◦ Improve water use for
+irrigation
+◦ Increase land
+productivity in
+agricultural areas
+◦ Rehabilitate bare or
+degraded land for
+crop production
+• Other/general
+/unspecified
+◦ Achieve LDN
+◦ Restore vegetation
+cover (unspecified
+land use)
+◦ Improve land
+1. Native and productivity
+planted (unspecified land
+forest use)
+management ◦ Avoid/prevent/halt
+2. Cropland and degradation (of
+agroforestry degraded lands)
+☐ Avoid
+Zone de Establishment management
+basse BUSONI 1 .6 06 of expert 3. Climate ☒ Reduce • Restore/improve Polygon
+altitude panels change ☐ Reverse grasslands
+4. Mineral ◦ Restore rangeland
+resource (e.g. by controlling
+extraction livestock and
+5. Invasive Alien wildfires)
+Species ◦ Restore and improve
+pastures
+◦ Improve land
+productivity in
+grasslands
+• Manage artificial surfaces
+◦ Restore degraded
+mining areas
+◦ Halt illegal mining
+and/or reduce mining
+areas
+◦ Improve land
+productivity on
+artificial surfaces
+• Restore/improve
+protected areas
+◦ Restore protected
+areas
+◦ Improve
+management of
+protected areas
+Total no. of
+21
+hotspots
+Total hotspot
+7 427 .1
+area
+26 / 136
+
+--- Page 27 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Action(s)
+taken to
+redress
+Direct drivers degradation
+Area Assessment of land in terms of Remediating action(s) (both Edit
+Hotspots Location
+(km²) Process degradation Land forward-looking and current) Polygon
+hotspots Degradation
+Neutrality
+response
+hierarchy
+• Restore/improve tree-
+covered areas
+◦ Reduce/halt
+deforestation and
+conversion of tree
+cover to other land
+cover types (e.g.
+conserving forest
+land)
+◦ Restore/improve
+grasslands
+◦ Increase land
+productivity in tree
+covered areas
+◦ Restore tree-covered
+areas
+◦ Improve tree cover
+management e.g. fire
+management
+• Increase tree-covered
+area extent
+◦ Increase tree covered
+land (net gain) e.g.
+plantations
+• Increase soil fertility and
+carbon stock
+◦ Improve
+watershed/landscape
+management
+◦ Rehabilitate bare land
+and/or restore
+degraded land
+◦ Increase carbon
+stock and reduce
+soil/land degradation
+Total no. of
+21
+hotspots
+Total hotspot
+7 427 .1
+area
+27 / 136
+
+--- Page 28 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Action(s)
+taken to
+redress
+Direct drivers degradation
+Area Assessment of land in terms of Remediating action(s) (both Edit
+Hotspots Location
+(km²) Process degradation Land forward-looking and current) Polygon
+hotspots Degradation
+Neutrality
+response
+hierarchy
+• General instrument (e.g.
+policies, economic
+incentives)
+• Restore/improve
+wetlands
+◦ Restore/preserve
+wetlands and reduce
+degradation of
+wetlands
+◦ Halt/reduce wetland
+conversion to other
+1. Invasive Alien ☐ Avoid land uses (includes
+Zone de Establishment Species conserving wetlands)
+basse BUGABIRA-NTEGA 89 .1 of expert ☒ Reduce Polygon
+2. Climate
+altitude panels change ☐ Reverse • Other/general
+/unspecified
+◦ Achieve LDN
+◦ Restore vegetation
+cover (unspecified
+land use)
+◦ Improve land
+productivity
+(unspecified land
+use)
+◦ Avoid/prevent/halt
+degradation (of
+degraded lands)
+Total no. of
+21
+hotspots
+Total hotspot
+7 427 .1
+area
+28 / 136
+
+--- Page 29 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Action(s)
+taken to
+redress
+Direct drivers degradation
+Area Assessment of land in terms of Remediating action(s) (both Edit
+Hotspots Location
+(km²) Process degradation Land forward-looking and current) Polygon
+hotspots Degradation
+Neutrality
+response
+hierarchy
+• General instrument (e.g.
+policies, economic
+incentives)
+• Restore/improve
+croplands
+◦ Practise sustainable
+land management
+◦ Improve water use for
+irrigation
+◦ Increase land
+productivity in
+agricultural areas
+◦ Rehabilitate bare or
+degraded land for
+crop production
+• Other/general
+/unspecified
+◦ Achieve LDN
+◦ Restore vegetation
+cover (unspecified
+1. Native and land use)
+planted ◦ Improve land
+forest productivity
+Zone de management ☐ Avoid (unspecified land
+Establishment
+b m a o s y s e e n à ne B M U P K IN EM GA B A K _ A G Y I O H V A E RO- 879 of expert 2. No n n a - t t u im ra b l er ☒ Reduce ◦ u A s v e o ) id/prevent/halt Polygon
+panels
+altitude resource ☒ Reverse degradation (of
+extraction degraded lands)
+3. Climate
+change • Restore/improve
+grasslands
+◦ Restore rangeland
+(e.g. by controlling
+livestock and
+wildfires)
+◦ Restore and improve
+pastures
+◦ Improve land
+productivity in
+grasslands
+• Manage artificial surfaces
+◦ Improve land
+productivity on
+artificial surfaces
+◦ Halt/reduce/regulate
+expansion of
+urban/artificial
+surfaces
+• Restore/improve
+protected areas
+◦ Restore protected
+Total no. of
+21
+hotspots
+Total hotspot
+7 427 .1
+area
+29 / 136
+
+--- Page 30 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Action(s)
+taken to
+redress
+Direct drivers degradation
+Area Assessment of land in terms of Remediating action(s) (both Edit
+Hotspots Location
+(km²) Process degradation Land forward-looking and current) Polygon
+hotspots Degradation
+Neutrality
+response
+hierarchy
+areas
+◦ Improve management
+of protected areas
+• Restore/improve tree-
+covered areas
+◦ Reduce/halt
+deforestation and
+conversion of tree
+cover to other land
+cover types (e.g.
+conserving forest
+land)
+◦ Restore/improve
+grasslands
+◦ Increase land
+productivity in tree
+covered areas
+◦ Restore tree-covered
+areas
+• Increase tree-covered
+area extent
+◦ Increase tree covered
+land (net gain) e.g.
+plantations
+• Increase soil fertility and
+carbon stock
+◦ Reduce soil erosion
+◦ Improve
+watershed/landscape
+management
+◦ Rehabilitate bare land
+and/or restore
+degraded land
+Total no. of
+21
+hotspots
+Total hotspot
+7 427 .1
+area
+30 / 136
+
+--- Page 31 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Action(s)
+taken to
+redress
+Direct drivers degradation
+Area Assessment of land in terms of Remediating action(s) (both Edit
+Hotspots Location
+(km²) Process degradation Land forward-looking and current) Polygon
+hotspots Degradation
+Neutrality
+response
+hierarchy
+• General instrument (e.g.
+policies, economic
+incentives)
+• Restore/improve
+croplands
+◦ Practise sustainable
+land management
+◦ Improve water use for
+irrigation
+◦ Increase land
+productivity in
+agricultural areas
+◦ Rehabilitate bare or
+degraded land for
+crop production
+• Other/general
+/unspecified
+1. Deforestation ◦ Achieve LDN
+and ◦ Restore vegetation
+clearance of cover (unspecified
+other native land use)
+vegetation ◦ Improve land
+2. Fire regime productivity
+change ☐ Avoid (unspecified land
+Z m o o n y e e n d n e e B N U YA TE B Z IK I- ERE- 2 .4 52 E o s f t e a x b p l e is r h t ment 3. C ch lim an a g t e e ☒ Reduce ◦ u A s v e o ) id/prevent/halt Polygon
+altitude MUTUMBA panels ☐ Reverse degradation (of
+4. Cropland and
+agroforestry degraded lands)
+management
+5. Non-timber • Restore/improve
+natural protected areas
+resource ◦ Restore protected
+extraction areas
+◦ Improve
+management of
+protected areas
+• Restore/improve tree-
+covered areas
+◦ Reduce/halt
+deforestation and
+conversion of tree
+cover to other land
+cover types (e.g.
+conserving forest
+land)
+◦ Restore/improve
+grasslands
+◦ Increase land
+productivity in tree
+covered areas
+◦ Restore tree-covered
+areas
+◦ Improve tree cover
+Total no. of
+21
+hotspots
+Total hotspot
+7 427 .1
+area
+31 / 136
+
+--- Page 32 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Action(s)
+taken to
+redress
+Direct drivers degradation
+Area Assessment of land in terms of Remediating action(s) (both Edit
+Hotspots Location
+(km²) Process degradation Land forward-looking and current) Polygon
+hotspots Degradation
+Neutrality
+response
+hierarchy
+management e.g. fire
+management
+• Increase soil fertility and
+carbon stock
+◦ Reduce soil erosion
+◦ Improve
+watershed/landscape
+management
+◦ Rehabilitate bare land
+and/or restore
+degraded land
+◦ Increase carbon
+stock and reduce
+soil/land degradation
+Total no. of
+21
+hotspots
+Total hotspot
+7 427 .1
+area
+32 / 136
+
+--- Page 33 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Action(s)
+taken to
+redress
+Direct drivers degradation
+Area Assessment of land in terms of Remediating action(s) (both Edit
+Hotspots Location
+(km²) Process degradation Land forward-looking and current) Polygon
+hotspots Degradation
+Neutrality
+response
+hierarchy
+• General instrument (e.g.
+policies, economic
+incentives)
+• Restore/improve
+croplands
+◦ Practise sustainable
+land management
+◦ Improve water use for
+irrigation
+◦ Increase land
+productivity in
+agricultural areas
+◦ Rehabilitate bare or
+degraded land for
+crop production
+1. Cropland and • Other/general
+agroforestry
+/unspecified
+management
+◦ Achieve LDN
+2. Native and ◦ Restore vegetation
+planted
+cover (unspecified
+forest
+land use)
+management
+◦ Improve land
+3. Mineral productivity
+resource
+☐ Avoid (unspecified land
+Establishment extraction
+Z ha o u n t e e d a e ltitude B M U A K B I A N Y A I NYANA- 1 .3 62 of expert 4. Non-timber ☒ Reduce ◦ u A s v e o ) id/prevent/halt Polygon
+panels natural ☐ Reverse degradation (of
+resource
+degraded lands)
+extraction
+5. Climate • Restore/improve
+change
+protected areas
+�. Deforestation ◦ Restore protected
+and
+areas
+clearance of
+◦ Improve
+other native
+vegetation management of
+protected areas
+• Restore/improve tree-
+covered areas
+◦ Reduce/halt
+deforestation and
+conversion of tree
+cover to other land
+cover types (e.g.
+conserving forest
+land)
+◦ Increase land
+productivity in tree
+covered areas
+◦ Restore tree-covered
+areas
+◦ Improve tree cover
+management e.g. fire
+management
+Total no. of
+21
+hotspots
+Total hotspot
+7 427 .1
+area
+33 / 136
+
+--- Page 34 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Action(s)
+taken to
+redress
+Direct drivers degradation
+Area Assessment of land in terms of Remediating action(s) (both Edit
+Hotspots Location
+(km²) Process degradation Land forward-looking and current) Polygon
+hotspots Degradation
+Neutrality
+response
+hierarchy
+• Increase tree-covered
+area extent
+◦ Increase tree covered
+land (net gain) e.g.
+plantations
+Total no. of
+21
+hotspots
+Total hotspot
+7 427 .1
+area
+34 / 136
+
+--- Page 35 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Action(s)
+taken to
+redress
+Direct drivers degradation
+Area Assessment of land in terms of Remediating action(s) (both Edit
+Hotspots Location
+(km²) Process degradation Land forward-looking and current) Polygon
+hotspots Degradation
+Neutrality
+response
+hierarchy
+• General instrument (e.g.
+policies, economic
+incentives)
+• Restore/improve
+croplands
+◦ Practise sustainable
+land management
+◦ Improve water use for
+irrigation
+◦ Increase land
+productivity in
+agricultural areas
+◦ Rehabilitate bare or
+degraded land for
+crop production
+• Other/general
+/unspecified
+◦ Achieve LDN
+◦ Restore vegetation
+cover (unspecified
+land use)
+1. Cropland and ◦ Improve land
+agroforestry productivity
+management ☐ Avoid (unspecified land
+Establishment
+Z ha o u n t e e d a e ltitude B RU U G KE A Y Z E I_ - MUSIGATI 1 .9 14 of expert 2. r M es i o n u er r a c l e ☒ Reduce ◦ u A s v e o ) id/prevent/halt Polygon
+panels
+extraction ☐ Reverse degradation (of
+3. Climate degraded lands)
+change
+• Restore/improve
+protected areas
+◦ Restore protected
+areas
+◦ Improve
+management of
+protected areas
+• Restore/improve tree-
+covered areas
+◦ Reduce/halt
+deforestation and
+conversion of tree
+cover to other land
+cover types (e.g.
+conserving forest
+land)
+◦ Restore/improve
+grasslands
+◦ Increase land
+productivity in tree
+covered areas
+◦ Restore tree-covered
+areas
+Total no. of
+21
+hotspots
+Total hotspot
+7 427 .1
+area
+35 / 136
+
+--- Page 36 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Action(s)
+taken to
+redress
+Direct drivers degradation
+Area Assessment of land in terms of Remediating action(s) (both Edit
+Hotspots Location
+(km²) Process degradation Land forward-looking and current) Polygon
+hotspots Degradation
+Neutrality
+response
+hierarchy
+• Increase tree-covered
+area extent
+◦ Increase tree covered
+land (net gain) e.g.
+plantations
+Total no. of
+21
+hotspots
+Total hotspot
+7 427 .1
+area
+36 / 136
+
+--- Page 37 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Action(s)
+taken to
+redress
+Direct drivers degradation
+Area Assessment of land in terms of Remediating action(s) (both Edit
+Hotspots Location
+(km²) Process degradation Land forward-looking and current) Polygon
+hotspots Degradation
+Neutrality
+response
+hierarchy
+• Restore/improve
+wetlands
+◦ Restore/preserve
+wetlands and reduce
+degradation of
+wetlands
+• Restore/improve
+croplands
+◦ Practise sustainable
+land management
+◦ Improve water use for
+irrigation
+◦ Increase land
+productivity in
+agricultural areas
+◦ Rehabilitate bare or
+degraded land for
+crop production
+• Other/general
+/unspecified
+◦ Achieve LDN
+◦ Restore vegetation
+cover (unspecified
+☐ Avoid land use)
+Z ba o s n s e e de RUMONGE 8 .9 10 E o s f t e a x b p l e is r h t ment ☒ Reduce ◦ p Im ro p d r u o c ve ti v la it n y d Polygon
+altitude panels ☐ Reverse (unspecified land
+use)
+◦ Avoid/prevent/halt
+degradation (of
+degraded lands)
+• Restore/improve
+protected areas
+◦ Restore protected
+areas
+◦ Improve
+management of
+protected areas
+• Restore/improve tree-
+covered areas
+◦ Reduce/halt
+deforestation and
+conversion of tree
+cover to other land
+cover types (e.g.
+conserving forest
+land)
+◦ Restore/improve
+grasslands
+◦ Increase land
+productivity in tree
+covered areas
+Total no. of
+21
+hotspots
+Total hotspot
+7 427 .1
+area
+37 / 136
+
+--- Page 38 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Action(s)
+taken to
+redress
+Direct drivers degradation
+Area Assessment of land in terms of Remediating action(s) (both Edit
+Hotspots Location
+(km²) Process degradation Land forward-looking and current) Polygon
+hotspots Degradation
+Neutrality
+response
+hierarchy
+◦ Restore tree-covered
+areas
+• Increase tree-covered
+area extent
+◦ Increase tree covered
+land (net gain) e.g.
+plantations
+• Increase soil fertility and
+carbon stock
+◦ Reduce soil erosion
+◦ Improve
+watershed/landscape
+management
+◦ Rehabilitate bare land
+and/or restore
+degraded land
+◦ Increase carbon
+stock and reduce
+soil/land degradation
+Total no. of
+21
+hotspots
+Total hotspot
+7 427 .1
+area
+38 / 136
+
+--- Page 39 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Action(s)
+taken to
+redress
+Direct drivers degradation
+Area Assessment of land in terms of Remediating action(s) (both Edit
+Hotspots Location
+(km²) Process degradation Land forward-looking and current) Polygon
+hotspots Degradation
+Neutrality
+response
+hierarchy
+• General instrument (e.g.
+policies, economic
+incentives)
+• Restore/improve
+croplands
+◦ Practise sustainable
+land management
+◦ Improve water use for
+irrigation
+◦ Halt/reduce
+conversion of
+cropland to other land
+cover types
+◦ Increase land
+productivity in
+agricultural areas
+◦ Rehabilitate bare or
+degraded land for
+crop production
+• Other/general
+/unspecified
+◦ Achieve LDN
+1. Native and ◦ Restore vegetation
+planted
+☐ Avoid cover (unspecified
+Z m o o n y e e n d n e e M KA A Y K O A G M O B R A O - -KIBAGO 6 .4 46 E o s f t e a x b p l e is r h t ment man f a o g re e s m t ent ☒ Reduce ◦ l I a m n p d r o u v s e e ) land Polygon
+altitude panels 2. Mineral ☐ Reverse productivity
+resource
+(unspecified land
+extraction
+use)
+◦ Avoid/prevent/halt
+degradation (of
+degraded lands)
+• Restore/improve
+grasslands
+◦ Restore rangeland
+(e.g. by controlling
+livestock and
+wildfires)
+◦ Restore and improve
+pastures
+◦ Improve land
+productivity in
+grasslands
+• Restore/improve tree-
+covered areas
+◦ Reduce/halt
+deforestation and
+conversion of tree
+cover to other land
+cover types (e.g.
+conserving forest
+land)
+Total no. of
+21
+hotspots
+Total hotspot
+7 427 .1
+area
+39 / 136
+
+--- Page 40 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Action(s)
+taken to
+redress
+Direct drivers degradation
+Area Assessment of land in terms of Remediating action(s) (both Edit
+Hotspots Location
+(km²) Process degradation Land forward-looking and current) Polygon
+hotspots Degradation
+Neutrality
+response
+hierarchy
+◦ Restore/improve
+grasslands
+◦ Increase land
+productivity in tree
+covered areas
+◦ Restore tree-covered
+areas
+◦ Improve tree cover
+management e.g. fire
+management
+• Increase tree-covered
+area extent
+◦ Increase tree covered
+land (net gain) e.g.
+plantations
+Total no. of
+21
+hotspots
+Total hotspot
+7 427 .1
+area
+40 / 136
+
+--- Page 41 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Action(s)
+taken to
+redress
+Direct drivers degradation
+Area Assessment of land in terms of Remediating action(s) (both Edit
+Hotspots Location
+(km²) Process degradation Land forward-looking and current) Polygon
+hotspots Degradation
+Neutrality
+response
+hierarchy
+• General instrument (e.g.
+policies, economic
+incentives)
+• Restore/improve
+croplands
+◦ Practise sustainable
+land management
+◦ Improve water use for
+irrigation
+◦ Increase land
+productivity in
+agricultural areas
+◦ Rehabilitate bare or
+degraded land for
+crop production
+• Other/general
+/unspecified
+◦ Achieve LDN
+◦ Restore vegetation
+cover (unspecified
+1. Native and land use)
+planted ◦ Improve land
+forest productivity
+management ☒ Avoid (unspecified land
+BURURI-MAKAMBA- Establishment
+Z m o o n n e tagneuse GITANGA-RUTANA 9 .4 54 of expert 2. r M es i o n u er r a c l e ☒ Reduce ◦ u A s v e o ) id/prevent/halt Polygon
+-RUTOVU panels
+extraction ☒ Reverse degradation (of
+3. Cropland and degraded lands)
+agroforestry
+management • Restore/improve tree-
+covered areas
+◦ Reduce/halt
+deforestation and
+conversion of tree
+cover to other land
+cover types (e.g.
+conserving forest
+land)
+◦ Restore/improve
+grasslands
+◦ Increase land
+productivity in tree
+covered areas
+◦ Restore tree-covered
+areas
+◦ Improve tree cover
+management e.g. fire
+management
+• Increase tree-covered
+area extent
+◦ Increase tree covered
+land (net gain) e.g.
+plantations
+Total no. of
+21
+hotspots
+Total hotspot
+7 427 .1
+area
+41 / 136
+
+--- Page 42 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Action(s)
+taken to
+redress
+Direct drivers degradation
+Area Assessment of land in terms of Remediating action(s) (both Edit
+Hotspots Location
+(km²) Process degradation Land forward-looking and current) Polygon
+hotspots Degradation
+Neutrality
+response
+hierarchy
+• Increase soil fertility and
+carbon stock
+◦ Reduce soil erosion
+◦ Improve
+watershed/landscape
+management
+◦ Rehabilitate bare land
+and/or restore
+degraded land
+◦ Increase carbon
+stock and reduce
+soil/land degradation
+Total no. of
+21
+hotspots
+Total hotspot
+7 427 .1
+area
+42 / 136
+
+--- Page 43 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Action(s)
+taken to
+redress
+Direct drivers degradation
+Area Assessment of land in terms of Remediating action(s) (both Edit
+Hotspots Location
+(km²) Process degradation Land forward-looking and current) Polygon
+hotspots Degradation
+Neutrality
+response
+hierarchy
+• General instrument (e.g.
+policies, economic
+incentives)
+• Restore/improve
+croplands
+◦ Practise sustainable
+land management
+◦ Improve water use for
+irrigation
+◦ Halt/reduce
+conversion of
+cropland to other land
+cover types
+◦ Increase land
+productivity in
+agricultural areas
+◦ Rehabilitate bare or
+degraded land for
+crop production
+• Other/general
+/unspecified
+◦ Achieve LDN
+◦ Restore vegetation
+1. Native and ☐ Avoid cover (unspecified
+Zone de GITEGA-KARUSI- 1 Establishment planted land use)
+moyenne MUYINGA 031 of expert forest ☒ Reduce ◦ Improve land Polygon
+altitude .7 panels management ☒ Reverse productivity
+(unspecified land
+use)
+◦ Avoid/prevent/halt
+degradation (of
+degraded lands)
+• Restore/improve tree-
+covered areas
+◦ Reduce/halt
+deforestation and
+conversion of tree
+cover to other land
+cover types (e.g.
+conserving forest
+land)
+◦ Restore/improve
+grasslands
+◦ Increase land
+productivity in tree
+covered areas
+◦ Restore tree-covered
+areas
+◦ Improve tree cover
+management e.g. fire
+management
+• Increase tree-covered
+Total no. of
+21
+hotspots
+Total hotspot
+7 427 .1
+area
+43 / 136
+
+--- Page 44 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Action(s)
+taken to
+redress
+Direct drivers degradation
+Area Assessment of land in terms of Remediating action(s) (both Edit
+Hotspots Location
+(km²) Process degradation Land forward-looking and current) Polygon
+hotspots Degradation
+Neutrality
+response
+hierarchy
+area extent
+◦ Increase tree covered
+land (net gain) e.g.
+plantations
+Total no. of
+21
+hotspots
+Total hotspot
+7 427 .1
+area
+44 / 136
+
+--- Page 45 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Action(s)
+taken to
+redress
+Direct drivers degradation
+Area Assessment of land in terms of Remediating action(s) (both Edit
+Hotspots Location
+(km²) Process degradation Land forward-looking and current) Polygon
+hotspots Degradation
+Neutrality
+response
+hierarchy
+• General instrument (e.g.
+policies, economic
+incentives)
+• Restore/improve
+croplands
+◦ Practise sustainable
+land management
+◦ Improve water use for
+irrigation
+◦ Halt/reduce
+conversion of
+cropland to other land
+cover types
+◦ Increase land
+productivity in
+agricultural areas
+◦ Rehabilitate bare or
+degraded land for
+crop production
+• Other/general
+/unspecified
+◦ Achieve LDN
+1. Native and ◦ Restore vegetation
+planted
+☐ Avoid cover (unspecified
+Z m o o n y e e n d n e e M M U U T H A A H N O G - A-RANGO 4 .1 07 E o s f t e a x b p l e is r h t ment man f a o g re e s m t ent ☒ Reduce ◦ l I a m n p d r o u v s e e ) land Polygon
+altitude panels 2. Mineral ☒ Reverse productivity
+resource
+(unspecified land
+extraction
+use)
+◦ Avoid/prevent/halt
+degradation (of
+degraded lands)
+• Restore/improve tree-
+covered areas
+◦ Reduce/halt
+deforestation and
+conversion of tree
+cover to other land
+cover types (e.g.
+conserving forest
+land)
+◦ Increase land
+productivity in tree
+covered areas
+◦ Restore tree-covered
+areas
+◦ Improve tree cover
+management e.g. fire
+management
+• Increase tree-covered
+area extent
+◦ Increase tree covered
+Total no. of
+21
+hotspots
+Total hotspot
+7 427 .1
+area
+45 / 136
+
+--- Page 46 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Action(s)
+taken to
+redress
+Direct drivers degradation
+Area Assessment of land in terms of Remediating action(s) (both Edit
+Hotspots Location
+(km²) Process degradation Land forward-looking and current) Polygon
+hotspots Degradation
+Neutrality
+response
+hierarchy
+land (net gain) e.g.
+plantations
+• Increase soil fertility and
+carbon stock
+◦ Reduce soil erosion
+◦ Reduce sand
+encroachment
+◦ Improve
+watershed/landscape
+management
+◦ Rehabilitate bare land
+and/or restore
+degraded land
+◦ Increase carbon
+stock and reduce
+soil/land degradation
+Total no. of
+21
+hotspots
+Total hotspot
+7 427 .1
+area
+46 / 136
+
+--- Page 47 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Action(s)
+taken to
+redress
+Direct drivers degradation
+Area Assessment of land in terms of Remediating action(s) (both Edit
+Hotspots Location
+(km²) Process degradation Land forward-looking and current) Polygon
+hotspots Degradation
+Neutrality
+response
+hierarchy
+• General instrument (e.g.
+policies, economic
+incentives)
+• Restore/improve
+croplands
+◦ Practise sustainable
+land management
+◦ Improve water use for
+irrigation
+◦ Increase land
+productivity in
+agricultural areas
+◦ Rehabilitate bare or
+degraded land for
+crop production
+• Other/general
+/unspecified
+◦ Achieve LDN
+◦ Restore vegetation
+cover (unspecified
+land use)
+◦ Improve land
+1. Deforestation productivity
+☐ Avoid
+Zone de Establishment and (unspecified land
+moyenne MAKEBUKO-ITABA- 468 of expert clearance of ☒ Reduce use) Polygon
+altitude MUSONGATI .7 panels other native ☐ Reverse ◦ Avoid/prevent/halt
+vegetation
+degradation (of
+degraded lands)
+• Manage artificial surfaces
+◦ Restore degraded
+mining areas
+◦ Halt illegal mining
+and/or reduce mining
+areas
+◦ Improve land
+productivity on
+artificial surfaces
+• Increase soil fertility and
+carbon stock
+◦ Reduce soil erosion
+◦ Improve
+watershed/landscape
+management
+◦ Rehabilitate bare land
+and/or restore
+degraded land
+◦ Increase carbon
+stock and reduce
+soil/land degradation
+Total no. of
+21
+hotspots
+Total hotspot
+7 427 .1
+area
+47 / 136
+
+--- Page 48 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Action(s)
+taken to
+redress
+Direct drivers degradation
+Area Assessment of land in terms of Remediating action(s) (both Edit
+Hotspots Location
+(km²) Process degradation Land forward-looking and current) Polygon
+hotspots Degradation
+Neutrality
+response
+hierarchy
+• General instrument (e.g.
+policies, economic
+incentives)
+• Restore/improve
+croplands
+◦ Practise sustainable
+land management
+◦ Improve water use for
+irrigation
+◦ Increase land
+productivity in
+agricultural areas
+◦ Rehabilitate bare or
+degraded land for
+crop production
+• Other/general
+/unspecified
+◦ Achieve LDN
+◦ Restore vegetation
+cover (unspecified
+land use)
+◦ Improve land
+productivity
+1. Non-timber
+natural ☐ Avoid (unspecified land
+Zone M M U U R SI U G T A A T - I- 260 E o s f t e a x b p l e is r h t ment e r x e t s r o ac u t r i c o e n ☒ Reduce ◦ u A s v e o ) id/prevent/halt Polygon
+montagneuse .5
+BUKINANYANA panels 2. Invasive Alien ☐ Reverse degradation (of
+Species degraded lands)
+• Restore/improve
+protected areas
+◦ Restore protected
+areas
+◦ Improve
+management of
+protected areas
+• Restore/improve tree-
+covered areas
+◦ Reduce/halt
+deforestation and
+conversion of tree
+cover to other land
+cover types (e.g.
+conserving forest
+land)
+◦ Increase land
+productivity in tree
+covered areas
+◦ Restore tree-covered
+areas
+◦ Improve tree cover
+management e.g. fire
+management
+Total no. of
+21
+hotspots
+Total hotspot
+7 427 .1
+area
+48 / 136
+
+--- Page 49 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Action(s)
+taken to
+redress
+Direct drivers degradation
+Area Assessment of land in terms of Remediating action(s) (both Edit
+Hotspots Location
+(km²) Process degradation Land forward-looking and current) Polygon
+hotspots Degradation
+Neutrality
+response
+hierarchy
+Total no. of
+21
+hotspots
+Total hotspot
+7 427 .1
+area
+What is/are the indirect driver(s) of land degradation at the national level?
+1. Demographic
+2. Economic
+3. Science, knowledge and technology
+4. Institutions and governance
+5. Cultural
+SO1-4.T5: Improvement brightspots
+What action(s) led
+to the brightspot in
+Area Assessment Implementing action(s) (both forward- Edit
+Brightspots Location terms of the Land
+(km²) Process looking and current) Polygon
+Degradation
+Neutrality hierarchy?
+Total no. of brightpots 6
+Total brightspot area 1 625 .5
+49 / 136
+
+--- Page 50 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+What action(s) led
+to the brightspot in
+Area Assessment Implementing action(s) (both forward- Edit
+Brightspots Location terms of the Land
+(km²) Process looking and current) Polygon
+Degradation
+Neutrality hierarchy?
+• General instrument (e.g. policies,
+economic incentives)
+• Restore/improve croplands
+◦ Practise sustainable land
+management
+◦ Halt/reduce conversion of
+cropland to other land cover
+types
+◦ Increase land productivity in
+agricultural areas
+◦ Rehabilitate bare or degraded
+land for crop production
+• Other/general/unspecified
+◦ Achieve LDN
+• Restore/improve grasslands
+◦ Restore rangeland (e.g. by
+controlling livestock and
+wildfires)
+◦ Improve land productivity in
+☐ Avoid grasslands
+Establishment
+Plateaux BUKIRASAZI - 131 of expert ☒ Reduce Polygon
+centraux ITABA .9 panels • Restore/improve multiple land
+☐ Reverse
+uses
+• Restore/improve tree-covered
+areas
+◦ Restore/improve grasslands
+• Increase tree-covered area extent
+◦ Increase tree covered land (net
+gain) e.g. plantations
+• Restore productivity and soil
+organic carbon stock in croplands
+and grasslands
+• Increase soil fertility and carbon
+stock
+◦ Reduce soil erosion
+◦ Improve watershed/landscape
+management
+◦ Rehabilitate bare land and/or
+restore degraded land
+◦ Increase carbon stock and
+reduce soil/land degradation
+Total no. of brightpots 6
+Total brightspot area 1 625 .5
+50 / 136
+
+--- Page 51 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+What action(s) led
+to the brightspot in
+Area Assessment Implementing action(s) (both forward- Edit
+Brightspots Location terms of the Land
+(km²) Process looking and current) Polygon
+Degradation
+Neutrality hierarchy?
+• General instrument (e.g. policies,
+economic incentives)
+• Restore/improve croplands
+◦ Practise sustainable land
+management
+◦ Halt/reduce conversion of
+cropland to other land cover
+types
+◦ Increase land productivity in
+agricultural areas
+◦ Rehabilitate bare or degraded
+land for crop production
+• Other/general/unspecified
+◦ Achieve LDN
+◦ Avoid/prevent/halt
+degradation (of degraded
+lands)
+• Restore/improve grasslands
+◦ Improve land productivity in
+☐ Avoid grasslands
+Establishment
+Plateaux SONGA-BURURI- 244 of expert ☒ Reduce Polygon
+centraux RUTOVU .3 panels • Restore/improve tree-covered
+☐ Reverse
+areas
+◦ Reduce/halt deforestation and
+conversion of tree cover to
+other land cover types (e.g.
+conserving forest land)
+◦ Restore/improve grasslands
+◦ Increase land productivity in
+tree covered areas
+◦ Restore tree-covered areas
+◦ Improve tree cover
+management e.g. fire
+management
+• Increase tree-covered area extent
+◦ Increase tree covered land (net
+gain) e.g. plantations
+• Restore/improve multiple
+functions
+• Restore productivity and soil
+organic carbon stock in croplands
+and grasslands
+Total no. of brightpots 6
+Total brightspot area 1 625 .5
+51 / 136
+
+--- Page 52 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+What action(s) led
+to the brightspot in
+Area Assessment Implementing action(s) (both forward- Edit
+Brightspots Location terms of the Land
+(km²) Process looking and current) Polygon
+Degradation
+Neutrality hierarchy?
+• General instrument (e.g. policies,
+economic incentives)
+• Restore/improve croplands
+◦ Practise sustainable land
+management
+◦ Halt/reduce conversion of
+cropland to other land cover
+types
+• Other/general/unspecified
+◦ Achieve LDN
+◦ Improve land productivity
+(unspecified land use)
+◦ Avoid/prevent/halt
+degradation (of degraded
+lands)
+• Restore/improve tree-covered
+areas
+☐ Avoid
+R B e w g e i r o u n de N RU YA YI B G IT I-B SI W N E D R A U - 616 E o s f t e a x b p l e is r h t ment ☒ Reduce ◦ c R o e n d v u e c r e s / i h o a n l t o d f e tr f e o e re c s o t v a e ti r o t n o and Polygon
+panels ☐ Reverse other land cover types (e.g.
+conserving forest land)
+◦ Increase land productivity in
+tree covered areas
+◦ Restore tree-covered areas
+◦ Improve tree cover
+management e.g. fire
+management
+• Increase tree-covered area extent
+◦ Increase tree covered land (net
+gain) e.g. plantations
+• Restore productivity and soil
+organic carbon stock in croplands
+and grasslands
+• Increase soil fertility and carbon
+stock
+◦ Improve watershed/landscape
+management
+Total no. of brightpots 6
+Total brightspot area 1 625 .5
+52 / 136
+
+--- Page 53 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+What action(s) led
+to the brightspot in
+Area Assessment Implementing action(s) (both forward- Edit
+Brightspots Location terms of the Land
+(km²) Process looking and current) Polygon
+Degradation
+Neutrality hierarchy?
+• General instrument (e.g. policies,
+economic incentives)
+• Restore/improve croplands
+◦ Practise sustainable land
+management
+◦ Improve water use for
+irrigation
+◦ Increase land productivity in
+KAYOKWE-
+☐ Avoid agricultural areas
+BISORO- Establishment
+Plateaux NYARUSANGE- 252 of expert ☒ Reduce Polygon
+centraux MATANA- .7 panels • Other/general/unspecified
+RYANSORO ☐ Reverse ◦ Achieve LDN
+◦ Restore vegetation cover
+(unspecified land use)
+• Restore/improve multiple land
+uses
+• Restore productivity and soil
+organic carbon stock in croplands
+and grasslands
+• General instrument (e.g. policies,
+economic incentives)
+• Restore/improve wetlands
+◦ Restore/preserve wetlands
+and reduce degradation of
+wetlands
+• Restore/improve croplands
+◦ Practise sustainable land
+management
+◦ Improve water use for
+irrigation
+☐ Avoid
+R B e u g g i e o s n e r d a e N M T A E R G A A N -V G U A M RA BI- 1 .7 65 E o s f t e a x b p l e is r h t ment ☒ Reduce ◦ c H r a o l p t/ la re n d d u t c o e o c t o h n e v r e la rs n i d o n c o o v f er Polygon
+panels
+☒ Reverse types
+◦ Increase land productivity in
+agricultural areas
+◦ Rehabilitate bare or degraded
+land for crop production
+• Increase soil fertility and carbon
+stock
+◦ Improve watershed/landscape
+management
+◦ Rehabilitate bare land and/or
+restore degraded land
+◦ Increase carbon stock and
+reduce soil/land degradation
+Total no. of brightpots 6
+Total brightspot area 1 625 .5
+53 / 136
+
+--- Page 54 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+What action(s) led
+to the brightspot in
+Area Assessment Implementing action(s) (both forward- Edit
+Brightspots Location terms of the Land
+(km²) Process looking and current) Polygon
+Degradation
+Neutrality hierarchy?
+• General instrument (e.g. policies,
+economic incentives)
+• Restore/improve croplands
+◦ Practise sustainable land
+management
+◦ Increase land productivity in
+agricultural areas
+• Other/general/unspecified
+☐ Avoid
+R B e u g ye io n n zi B G U A S TA IG R A A -K - AYANZA- 2 .9 14 E o s f t e a x b p l e is r h t ment ☒ Reduce ◦ ( R u e n s s t p o e re c i v fi e e g d e l t a a n ti d o n u s c e o ) ver Polygon
+GAHOMBO-NGOZI panels ☐ Reverse ◦ Avoid/prevent/halt
+degradation (of degraded
+lands)
+• Increase soil fertility and carbon
+stock
+◦ Reduce soil erosion
+◦ Improve watershed/landscape
+management
+◦ Increase carbon stock and
+reduce soil/land degradation
+Total no. of brightpots 6
+Total brightspot area 1 625 .5
+What are the enabling and instrumental responses at the national level driving the occurrence of brightspots?
+1. Climate change adaptation planning
+2. Integrated landscape planning
+3. Responses to the adverse effects of globalisation, demographic change, migration
+4. Economic and financial instruments
+5. Institutional and policy reform
+�. Protected areas
+7. Legal and regulatory instruments
+�. Anthropogenic assets
+9. Rights-based instruments and customary norms
+10. Social and cultural instruments
+General comments
+Pour identifier les zones d'amélioration, les Experts se sont appuyés sur les connaissances locales du territoire car les données des cibles de
+la NDT fournis dans les rapports ne sont pas désagregées
+54 / 136
+
+--- Page 55 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land management and contribute
+to land degradation neutrality.
+SO1 Voluntary Targets
+SO1-VT.T1: Voluntary Land Degradation Neutrality targets and other targets relevant to strategic objective 1
+Overarching
+type of Is this an LDN Which other
+Total
+Land Status of target? If so, important goals
+Target Edit
+Target Year Location(s) Degradation Targeted action(s) target under which are also being
+Area Polygon
+Neutrality achievement process was it addressed by this
+(km²)
+(LDN) defined/adopted? target?
+intervention
+• General instrument (e.g.
+policies, economic
+incentives)
+• Restore/improve
+croplands • Convention
+◦ Practise sustainable on Biological
+land management Diversity –
+◦ Improve water use for National
+irrigation Biodiversity
+◦ Increase land Strategies
+productivity in and Action
+D’ici 2030, agricultural areas Plans &
+intensifier ◦ Rehabilitate bare or Yes National
+l’agriculture sur ☒ Avoid degraded land for No Targets
+une superficie crop production
+de 700 km² 2030 Burundi 700 ☒ Reduce Ongoing Participation in • Bonn
+pour réduire la ☐ Reverse • Other/general the LDN Target Challenge
+conversion des /unspecified Setting • United
+forets en terres ◦ Achieve LDN Programme Nations
+cultivés
+Framework
+• Increase soil fertility and Convention
+carbon stock on Climate
+◦ Reduce soil erosion Change –
+◦ Improve Nationally
+watershed/landscape Determined
+management Contributions
+◦ Rehabilitate bare land
+and/or restore
+degraded land
+◦ Increase carbon
+stock and reduce
+soil/land degradation
+Sum of all targeted areas
+Total
+5 260 .6
+55 / 136
+
+--- Page 56 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land management and contribute
+to land degradation neutrality.
+Overarching
+Is this an LDN Which other
+Total type of Land
+Status of target? If so, important goals
+Target Degradation Edit
+Target Year Location(s) Targeted action(s) target under which are also being
+Area Neutrality Polygon
+achievement process was it addressed by this
+(km²) (LDN)
+defined/adopted? target?
+intervention
+• General instrument (e.g.
+policies, economic
+incentives)
+• Restore/improve
+croplands
+◦ Practise sustainable
+land management
+◦ Halt/reduce
+conversion of
+cropland to other
+land cover types
+◦ Increase land
+productivity in • Convention
+agricultural areas on Biological
+◦ Rehabilitate bare or Diversity –
+degraded land for National
+crop production Biodiversity
+Strategies
+D pr ’i a c t i i q 2 u 0 e 3 r 0, • Other/general a P n la d n A s c & tion
+l s ’a u g r r u o n f e oresterie /u ◦ n s A p c e h c i i e fi v e e d LDN Yes N Ta a r t g io e n ts al
+superficie de ◦ Avoid/prevent/halt
+586 km² pour ☒ Avoid degradation (of No • Bonn
+éviter et réduire 2030 Burundi 586 ☒ Reduce degraded lands) Ongoing Participation in Challenge
+l p a r o p d e u rt c e t i d vi e té ☐ Reverse • Restore/improve multiple t S h e e t t L in D g N Target • AFR100
+liée la land uses Programme • United
+conversion des Nations
+forêts en terres • Restore/improve multiple Framework
+cultivées functions Convention
+on Climate
+• Restore productivity and Change –
+Nationally
+soil organic carbon stock
+Determined
+in croplands and
+Contributions
+grasslands
+• Increase soil fertility and
+carbon stock
+◦ Reduce soil erosion
+◦ Improve
+watershed/landscape
+management
+◦ Rehabilitate bare land
+and/or restore
+degraded land
+◦ Increase carbon
+stock and reduce
+soil/land degradation
+• Convention
+on Biological
+Diversity –
+National
+Biodiversity
+Strategies
+• Other/general and Action
+/unspecified Plans &
+◦ Achieve LDN National
+D’ici 2030, ◦ Avoid/prevent/halt Yes Targets
+reboiser
+434km² des ☐ Avoid degradation (of No • Bonn
+degraded lands)
+terres 2030 Burundi 434 ☒ Reduce Ongoing Participation in Challenge
+f c o o r n e v s e ti r è ti r e e s s en ☒ Reverse • Increase tree-covered t S h e e t t L in D g N Target • AFR100
+prairies ar ◦ ea I n e c x r t e e a n s t e tree covered Programme • United
+Nations
+land (net gain) e.g.
+Framework
+plantations
+Convention
+on Climate
+Change –
+Nationally
+Determined
+Contributions
+Sum of all targeted areas
+Total
+5 260 .6
+56 / 136
+
+--- Page 57 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land management and contribute
+to land degradation neutrality.
+Overarching
+Is this an LDN Which other
+Total type of Land
+Status of target? If so, important goals
+Target Degradation Edit
+Target Year Location(s) Targeted action(s) target under which are also being
+Area Neutrality Polygon
+achievement process was it addressed by this
+(km²) (LDN)
+defined/adopted? target?
+intervention
+• General instrument (e.g.
+policies, economic
+incentives)
+• Restore/improve
+croplands
+◦ Practise sustainable
+• Convention
+land management
+◦ Halt/reduce on Biological
+Diversity –
+conversion of
+National
+cropland to other
+Biodiversity
+land cover types
+D’ici 2030, ◦ Increase land S an tr d a t A e c g t i i e o s n
+intensifier la productivity in Plans &
+l a u n t t t i e érosive et ◦ a R g e r h ic a u b l i t li u ta ra te l a b r a e r a e s or Yes N Ta a r t g io e n ts al
+l’utilisation de degraded land for
+l’engrais vert ☐ Avoid crop production No • Bonn
+sur une 2030 Burundi 963 ☒ Reduce Achieved Participation in Challenge
+superficie de ☒ Reverse • Restore/improve multiple the LDN Target • AFR100
+963km² pour functions Setting
+réduire la Programme • United
+conversion des • Increase soil fertility and Nations
+terres cultivées carbon stock Framework
+en pâturage ◦ Reduce soil erosion Convention
+◦ Improve on Climate
+watershed/landscape Change –
+management Nationally
+◦ Rehabilitate bare land Determined
+and/or restore Contributions
+degraded land
+◦ Increase carbon
+stock and reduce
+soil/land degradation
+• Reduce/halt conversion
+of multiple land uses
+• Convention
+on Biological
+• General instrument (e.g. Diversity –
+policies, economic National
+incentives) Biodiversity
+Strategies
+• Other/general and Action
+/unspecified Plans &
+D’ici 2030, ◦ Achieve LDN Yes National
+restaurer ☐ Avoid ◦ Restore vegetation No Targets
+104km² des
+terres cultivées 2030 Burundi 104 ☒ Reduce cover (unspecified Ongoing Participation in • Bonn
+converties en ☐ Reverse land use) the LDN Target Challenge
+t a e r r t r ifi e c s ielles • Manage artificial S P e ro tt g in ra g mme • United
+Nations
+surfaces
+◦ Restore degraded Framework
+Convention
+mining areas
+◦ Improve land on Climate
+Change –
+productivity on
+Nationally
+artificial surfaces
+Determined
+Contributions
+Sum of all targeted areas
+Total
+5 260 .6
+57 / 136
+
+--- Page 58 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land management and contribute
+to land degradation neutrality.
+Overarching
+Is this an LDN Which other
+Total type of Land
+Status of target? If so, important goals
+Target Degradation Edit
+Target Year Location(s) Targeted action(s) target under which are also being
+Area Neutrality Polygon
+achievement process was it addressed by this
+(km²) (LDN)
+defined/adopted? target?
+intervention
+• Convention
+on Biological
+Diversity –
+• General instrument (e.g. National
+Biodiversity
+policies, economic
+D’ici 2030, incentives) Strategies
+intensifier and Action
+l d v ’a e e m r s s é b a n n a a t s s g s i e s n m u s r ent • / O u t ◦ n h s e A p r/ c e g h c e i i e fi n v e e e d r a L l DN Yes P N Ta l a a r t g n io s e n t & s al
+une superficie ☐ Avoid No • Bonn
+d am e 6 é 6 lio K r m er ² l e pour 2030 Burundi 66 ☒ Reduce • Restore/improve tree- Achieved Participation in Challenge
+stock du ☐ Reverse covered areas the LDN Target • AFR100
+carbone dans ◦ Reduce/halt Setting
+les zones deforestation and Programme • United
+forestières conversion of tree Nations
+converties en cover to other land Framework
+zones humides cover types (e.g. Convention
+conserving forest on Climate
+land) Change –
+Nationally
+Determined
+Contributions
+Sum of all targeted areas
+Total
+5 260 .6
+58 / 136
+
+--- Page 59 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land management and contribute
+to land degradation neutrality.
+Overarching
+Is this an LDN Which other
+Total type of Land
+Status of target? If so, important goals
+Target Degradation Edit
+Target Year Location(s) Targeted action(s) target under which are also being
+Area Neutrality Polygon
+achievement process was it addressed by this
+(km²) (LDN)
+defined/adopted? target?
+intervention
+• General instrument (e.g.
+policies, economic
+incentives)
+• Restore/improve
+croplands
+◦ Practise sustainable
+land management
+◦ Improve water use for
+irrigation
+◦ Halt/reduce
+conversion of
+cropland to other
+land cover types
+◦ Increase land
+productivity in
+agricultural areas
+◦ Rehabilitate bare or • Convention
+on Biological
+degraded land for
+Diversity –
+crop production
+National
+Biodiversity
+• Other/general Strategies
+/unspecified and Action
+D’ici 2030, ◦ Achieve LDN Plans &
+améliorer les ◦ Restore vegetation Yes National
+pratiques
+culturales sur ☐ Avoid cover (unspecified No Targets
+land use)
+une étendue de 2030 Burundi 2 400 ☒ Reduce ◦ Improve land Ongoing Participation in • Bonn
+2 ac 4 c 0 r 0 o k it m re ² l p a our ☐ Reverse productivity the LDN Target Challenge
+productivité (unspecified land Setting • United
+use) Programme
+d cu e l s t i t v e é r e re s s ◦ Avoid/prevent/halt N Fr a a t m io e n w s ork
+degradation (of Convention
+degraded lands) on Climate
+Change –
+• Restore/improve multiple Nationally
+land uses Determined
+Contributions
+• Restore productivity and
+soil organic carbon stock
+in croplands and
+grasslands
+• Increase soil fertility and
+carbon stock
+◦ Reduce soil erosion
+◦ Improve
+watershed/landscape
+management
+◦ Rehabilitate bare land
+and/or restore
+degraded land
+◦ Increase carbon
+stock and reduce
+soil/land degradation
+Yes
+3 .7 None
+No
+Yes
+3 .7 None
+No
+Yes
+0 .2 None
+No
+Sum of all targeted areas
+Total
+5 260 .6
+SO1.IA.T1: Areas of implemented action related to the targets (projects and initiatives on the ground).
+Extent
+Implemented Action start Edit
+Relevant Target Location (placename) of Total Area Implemented So Far (km²)
+Action date Polygon
+action
+59 / 136
+
+--- Page 60 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land management and contribute
+to land degradation neutrality.
+Extent
+Implemented Action start Edit
+Relevant Target Location (placename) of Total Area Implemented So Far (km²)
+Action date Polygon
+action
+D’ici 2030, intensifier
+l’agriculture sur une superficie Same As
+de 700 km² pour réduire la Targeted KAYANZA_NGOZI(Ruvubu) 2019-05-14 9 .5 15 .40 Polygon
+conversion des forets en Actions
+terres cultivés
+D’ici 2030, intensifier
+l’agriculture sur une superficie Same As
+de 700 km² pour réduire la Targeted NYAVYAMO 2017-03-03 2 .6 15 .40 Polygon
+conversion des forets en Actions
+terres cultivés
+D’ici 2030, intensifier
+l’agriculture sur une superficie Same As
+de 700 km² pour réduire la Targeted KABUYENGE 2021-08-03 0 .2 15 .40 Polygon
+conversion des forets en Actions
+terres cultivés
+D’ici 2030, intensifier
+l’agriculture sur une superficie Same As
+de 700 km² pour réduire la Targeted KANIGA 2020-12-16 0 .3 15 .40 Polygon
+conversion des forets en Actions
+terres cultivés
+D’ici 2030, intensifier
+l’agriculture sur une superficie Same As
+de 700 km² pour réduire la Targeted MUBARAZI 2020-06-06 2 .8 15 .40 Polygon
+conversion des forets en Actions
+terres cultivés
+Sum of all areas relevant to actions under the
+same target
+D’ici 2030, intensifier l’agriculture sur une
+15
+superficie de 700 km² pour réduire la
+.40
+conversion des forets en terres cultivés:
+D’ici 2030, pratiquer l’agroforesterie sur une
+superficie de 586 km² pour éviter et réduire 0
+la perte de productivité liée la conversion .00
+des forêts en terres cultivées:
+D’ici 2030, reboiser 434km² des terres 0
+forestières converties en prairies: .00
+D’ici 2030, intensifier la lutte antiérosive et
+l’utilisation de l’engrais vert sur une 0
+superficie de 963km² pour réduire la .00
+conversion des terres cultivées en pâturage:
+D’ici 2030, restaurer 104km² des terres 0
+cultivées converties en terres artificielles: .00
+D’ici 2030, intensifier l’aménagement des
+bassins versants sur une superficie de 66
+0
+Km² pour améliorer le stock du carbone
+.00
+dans les zones forestières converties en
+zones humides :
+D’ici 2030, améliorer les pratiques culturales
+0
+sur une étendue de 2400km² pour accroitre
+.00
+la productivité des terres cultivées :
+General comments
+Les cibles de la NDT n'ont pas été délimitées spatialement en 2018 ce qui rend difficile l'évaluation efficace de leur niveau de mise en œuvre
+60 / 136
+
+--- Page 61 ---
+SO-2: To improve the living conditions of affected populations.
+SO2-1 Trends in population living below the relative poverty line and/or income inequality in
+affected areas
+Relevant metric
+Choose the metric that is relevant to your country:
+Proportion of population below the
+international poverty line
+Income inequality (Gini Index)
+Proportion of population below the international poverty line
+SO2-1.T1: National estimates of the proportion of population below the international poverty line
+Year Proportion of population below international poverty line (%)
+2 000 94.2
+2 001 94.2
+2 002 94.2
+2 003 94.2
+2 004 94.2
+2 005 94.2
+2 006 90.5
+2 007 90.5
+2 008 90.5
+2 009 90.5
+2 010 90.5
+2 011 90.5
+2 012 90.5
+2 013 86.7
+2 014 86.7
+2 015 86.7
+2 016 86.7
+2 017 86.7
+2 018 86.7
+2 019 74.1
+2 020 74.1
+Qualitative assessment
+SO2-1.T3: Interpretation of the indicator
+61 / 136
+
+--- Page 62 ---
+SO-2: To improve the living conditions of affected populations.
+Change in the
+Indicator metric Comments
+indicator
+Le Burundi a adopté depuis 2006 deux Cadres Stratégiques de Croissance et de Lutte
+Proportion of population below
+Decrease contre la Pauvreté CSLP (CSLP I (2006-2009) et CSLPII (2010-2015) dans l'optique de
+the international poverty line
+réduction de la pauvreté
+General comments
+Avec les données fournies par l'Institut National des Statistiques du Burundi (INSBU), l'indicateur a été calculé en utilisant le seuil
+international de pauvreté de 3,65 dollars américains par personne et par jour (2306FBu/personne /jour), en PPA de 2017. Nous observons
+une tendance à la baisse du niveau de pauvreté depuis 2000 à 2019. Cependant, les données sur les dépenses de consommations des
+ménages qui servent à calculer cet indicateur ne sont pas produites régulièrement (tous les 5 ans) suite au coût élevé des enquêtes sur les
+conditions de vie des ménages.
+62 / 136
+
+--- Page 63 ---
+SO-2: To improve the living conditions of affected populations.
+SO2-2 Trends in access to safe drinking water in affected areas
+Proportion of population using safely managed drinking water services
+SO2-2.T1: National estimates of the proportion of population using safely managed drinking water services
+Year Urban (%) Rural (%) Total (%)
+2000
+2001
+2002
+2003
+2004
+2005 79.8 63.4 64.2
+2006 79.3 62.5 64.3
+2007
+2008
+2009
+2010 86.2 74.3 75.2
+2011
+2012
+2013 87.3 78.1 79.0
+2014
+2015
+2016
+2017 98.1 80.9 82.9
+2018
+2019 97.0 85.6 86.8
+2020
+Qualitative assessment
+SO2-2.T2: Interpretation of the indicator
+Change in the
+Comments
+indicator
+Le Cadre Stratégique de Croissance et de Lutte contre la Pauvreté (CSLP I 2006-2009 et II 2012-2015 ) ainsi que le Plan
+Increase
+National de Développement du Burundi (PND Burundi 2018-2027) ont promu l'amélioration de l'accès en eau potable
+General comments
+La collecte des données n'est pas régulière (annuelle) ce qui explique le manque des données pour certaines années.
+63 / 136
+
+--- Page 64 ---
+SO-2: To improve the living conditions of affected populations.
+SO2-3 Trends in the proportion of population exposed to land degradation disaggregated by
+sex
+Proportion of the population exposed to land degradation disaggregated by sex
+SO2-3.T1: National estimates of the proportion of population exposed to land degradation disaggregated by
+sex.
+Male
+Population Percentage of Female Percentage of total Percentage of total
+Time population
+exposed total population population female population male population
+period exposed
+(count) exposed (%) exposed (count) exposed (%) exposed (%)
+(count)
+Baseline
+3010971 30 .9 1490693 30 .2 1520278 31 .6
+period
+Reporting
+2241853 20 .4 1089852 19 .6 1152001 21 .2
+period
+Qualitative assessment
+SO2-3.T2: Interpretation of the indicator
+Change in the
+Comments
+indicator
+En se référant a l'indicateur de l'ODD 15.3.1 sur l'amélioration des terres dégradées sur la période considérée, la
+Decrease
+population affectée par dégradation de terres a diminué.
+General comments
+On a utilisé la carte des limites administratives fournie par l'institution nationale en charge de la cartographie (27163 km²) à la place des
+limites fournies dans PRAIS4. Ce shapefile a été chargé sur la plate forme de rapportage PRAIS4. Les données utilisées pour obtenir les
+résultats du tableau ci-dessus sont celles fournies par UNCCD dont les calculs ont été réalisés avec l'outil Trends Earth et chargés sur la
+plateforme de rapportage. La mise en œuvre des stratégies et programmes de lutte contre la dégradation des terres a réduit l'exposition
+des populations masculines et féminines.
+64 / 136
+
+--- Page 65 ---
+SO-2: To improve the living conditions of affected populations.
+SO2 Voluntary Targets
+SO2-VT.T1
+Level of Status of target
+Target Year Comments
+application achievement
+D’ici 2030, intensifier l’agriculture sur une superficie de 700 km² pour réduire
+2030 National Ongoing
+la conversion des forets en terres cultivés
+D’ici 2030, pratiquer l’agroforesterie sur une superficie de 586 km² pour
+éviter et réduire la perte de productivité liée la conversion des forêts en 2030 National Ongoing
+terres cultivées
+D’ici 2030, reboiser 434km² des terres forestières converties en prairies 2030 National Ongoing
+D’ici 2030, intensifier la lutte antiérosive et l’utilisation de l’engrais vert sur
+une superficie de 963km² pour réduire la conversion des terres cultivées en 2030 National Ongoing
+pâturage
+D’ici 2030, restaurer 104km² des terres cultivées converties en terres
+2030 National Ongoing
+artificielles
+D’ici 2030, intensifier l’aménagement des bassins versants sur une superficie
+de 66 Km² pour améliorer le stock du carbone dans les zones forestières 2030 National Ongoing
+converties en zones humides
+D’ici 2030, améliorer les pratiques culturales sur une étendue de 2400km²
+2030 National Ongoing
+pour accroitre la productivité des terres cultivée
+General comments
+Les cibles qui ont été définis en 2018 dans le NDT , n'ont pas été spatialisés et tous sont en cours d'exécution
+65 / 136
+
+--- Page 66 ---
+SO-3: To mitigate, adapt to, and manage the effects of drought in order to enhance resilience of vulnerable populations and
+ecosystems.
+SO3-1 Trends in the proportion of land under drought over the total land area
+Drought hazard indicator
+SO3-1.T1: National estimates of the land area in each drought intensity class as defined by the Standardized
+Precipitation Index (SPI) or other nationally relevant drought indices
+Drought intensity classes
+Mild drought (km²) Moderate drought (km²) Severe drought (km²) Extreme drought (km²) Non-drought (km²)
+2000 15 766 3 847 4 130 0 3 420
+2001 3 234 0 0 0 23 929
+2002 1 684 0 0 0 25 479
+2003 4 971 3 355 1 348 7 653 9 836
+2004 17 689 5 506 0 0 3 968
+2005 0 6 235 20 928 0 0
+2006 0 0 0 0 27 163
+2007 9 039 1 769 0 0 16 355
+2008 0 0 0 0 27 163
+2009 7 722 15 283 0 0 4 158
+2010 5 695 10 731 204 0 10 533
+2011 0 0 0 0 27 163
+2012 5 013 3 788 6 046 3 320 8 996
+2013 2 550 0 0 0 24 614
+2014 8 418 3 430 5 061 3 192 7 063
+2015 16 551 0 0 0 10 612
+2016 20 978 0 0 0 6 185
+2017 13 452 0 0 0 13 711
+2018 0 0 0 0 27 163
+2019 7 026 1 282 0 0 18 855
+2020
+2021
+SO3-1.T2: Summary table for land area under drought without class break down
+Total area under drought (km²) Proportion of land under drought (%)
+2000 23 743 95 .5
+2001 3 234 13 .0
+2002 1 684 6 .8
+2003 17 327 69 .7
+2004 23 195 93 .2
+2005 27 163 109 .2
+66 / 136
+
+--- Page 67 ---
+SO-3: To mitigate, adapt to, and manage the effects of drought in order to enhance resilience of vulnerable populations and
+ecosystems.
+Total area under drought (km²) Proportion of land under drought (%)
+2006 0 0 .0
+2007 10 808 43 .5
+2008 0 0 .0
+2009 23 005 92 .5
+2010 16 631 66 .9
+2011 0 0 .0
+2012 18 167 73 .0
+2013 2 550 10 .3
+2014 20 100 80 .8
+2015 16 551 66 .5
+2016 20 978 84 .3
+2017 13 452 54 .1
+2018 0 0 .0
+2019 8 309 33 .4
+2020 -
+2021 -
+Qualitative assessment:
+L'année 2005, a été caractérisée par une sécheresse sur l'ensemble du territoire tandis que les années 2006, 2008, 2011 et 2018, la quasi-
+totalité du territoire n'a pas été touché par la sécheresse.
+General comments
+On a utilisé la carte des limites administratives fournie par l'institution nationale en charge de la cartographie (27163 km²) à la place des
+limites fournies dans PRAIS4. Ce shapefile a été chargé sur la plate forme de rapportage PRAIS4. Cette carte nationale présente les
+caractéristiques suivantes: SCR WGS 84 Propriétés: Géographique (utilise des coordonnées en latitude et longitude) Dynamique (repose sur
+un référentiel géodésique qui n'est pas fixé sur la plaque) Corps céleste : Earth Basé sur World Geodesic System 1984 ensemble
+(EPSG:6326), qui a une précision de 2 mètres au mieux. Méthode : Lat/long (Geodesic alias) Cependant, les données utilisées pour obtenir
+les résultats du tableau ci-dessus sont celles fournies par UNCCD dont les calculs ont été réalisés avec l'outil Trends Earth. D'après l'Institut
+Géographique du Burundi (IGEBU), en charge de la gestion des données pluviométriques, le pays a connu trois périodes de cinq de
+décennies sèches dans lesquelles se trouve l'année 2005 et cinq périodes de décennies humides qui comprennent les années 2006, 2008,
+2011 et 2018.
+67 / 136
+
+--- Page 68 ---
+SO-3: To mitigate, adapt to, and manage the effects of drought in order to enhance resilience of vulnerable populations and
+ecosystems.
+SO3-2 Trends in the proportion of the population exposed to drought
+Drought exposure indicator
+Exposure is defined in terms of the number of people who are exposed to drought as calculated from the SO3-1 indicator data.
+SO3-2.T1: National estimates of the percentage of the total population within each drought intensity class as
+well as the total population count and the proportion of the national population exposed to drought
+regardless of intensity.
+Non-exposed Mild drought Moderate drought Severe drought Extreme drought Exposed population
+Reporting Population Population Population Population Population Population
+% % % % % %
+year count count count count count count
+18 54 13 13 0 81
+2000 1239344 3609050 859582 917738 0 5 386 370
+.7 .5 .0 .9 .0 .3
+93 6 0 0 0
+2001 6308169 467027 0 0 0 467 027 6 .9
+.1 .9 .0 .0 .0
+93 6 0 0 0
+2002 6501861 430168 0 0 0 430 168 6 .2
+.8 .2 .0 .0 .0
+35 18 17 3 25 64
+2003 2505890 1329231 1243831 230346 1788301 4 591 709
+.3 .7 .5 .2 .2 .7
+19 69 10 0 0 80
+2004 1428917 5048927 791977 0 0 5 840 904
+.7 .5 .9 .0 .0 .3
+0 25 74 0 100
+2005 0 0 .0 0 1926594 5523213 0 7 449 807
+.0 .9 .1 .0 .0
+100 0 0 0 0
+2006 7638764 0 0 0 0 0 0 .0
+.0 .0 .0 .0 .0
+73 24 2 0 0 26
+2007 5747861 1898419 185890 0 0 2 084 309
+.4 .2 .4 .0 .0 .6
+100 0 0 0 0
+2008 8038391 0 0 0 0 0 0 .0
+.0 .0 .0 .0 .0
+14 29 55 0 0 85
+2009 1227862 2439418 4583200 0 0 7 022 618
+.9 .6 .6 .0 .0 .1
+41 20 38 0 0 59
+2010 3473131 1726146 3264431 9215 0 4 999 792
+.0 .4 .5 .1 .0 .0
+100 0 0 0 0
+2011 8706242 0 0 0 0 0 0 .0
+.0 .0 .0 .0 .0
+35 20 13 24 6 64
+2012 3142372 1835770 1238369 2148393 584705 5 807 237
+.1 .5 .8 .0 .5 .9
+90 9 0 0 0
+2013 8359084 842965 0 0 0 842 965 9 .2
+.8 .2 .0 .0 .0
+15 35 10 23 15 84
+2014 1459377 3390845 1011975 2180597 1425289 8 008 706
+.4 .8 .7 .0 .1 .6
+26 73 0 0 0 73
+2015 2601511 7143913 0 0 0 7 143 913
+.7 .3 .0 .0 .0 .3
+35 64 0 0 0 64
+2016 3528544 6506133 0 0 0 6 506 133
+.2 .8 .0 .0 .0 .8
+53 46 0 0 0 46
+2017 5506549 4832572 0 0 0 4 832 572
+.3 .7 .0 .0 .0 .7
+100 0 0 0 0
+2018 10657962 0 0 0 0 0 0 .0
+.0 .0 .0 .0 .0
+80 17 2 0 0 19
+2019 8862022 1890378 237799 0 0 2 128 177
+.6 .2 .2 .0 .0 .4
+2020 - - - - - - -
+2021 - - - - - - -
+SO3-2.T2: National estimates of the percentage of the female population within each drought intensity class.
+Exposed female
+Non-exposed Mild drought Moderate drought Severe drought Extreme drought
+population
+Reporting Population Population Population Population Population Population
+% % % % % %
+year count count count count count count
+17 55 13 14 0 82
+2000 602279 1858252 441984 471069 0 2 771 305
+.9 .1 .1 .0 .0 .1
+68 / 136
+
+--- Page 69 ---
+SO-3: To mitigate, adapt to, and manage the effects of drought in order to enhance resilience of vulnerable populations and
+ecosystems.
+Exposed female
+Non-exposed Mild drought Moderate drought Severe drought Extreme drought
+population
+Reporting Population Population Population Population Population Population
+% % % % % %
+year count count count count count count
+93 6 0 0 0
+2001 3213810 234991 0 0 0 234 991 6 .8
+.2 .8 .0 .0 .0
+93 6 0 0 0
+2002 3312104 216232 0 0 0 216 232 6 .1
+.9 .1 .0 .0 .0
+34 19 17 3 25 65
+2003 1243552 685302 645491 118125 918773 2 367 691
+.4 .0 .9 .3 .4 .6
+19 69 10 0 0 80
+2004 731342 2564445 402783 0 0 2 967 228
+.8 .3 .9 .0 .0 .2
+0 26 74 0 100
+2005 0 0 .0 0 985227 2803222 0 3 788 449
+.0 .0 .0 .0 .0
+100 0 0 0 0
+2006 3883125 0 0 0 0 0 0 .0
+.0 .0 .0 .0 .0
+73 24 2 0 0 26
+2007 2914803 972346 92515 0 0 1 064 861
+.2 .4 .3 .0 .0 .8
+100 0 0 0 0
+2008 4082796 0 0 0 0 0 0 .0
+.0 .0 .0 .0 .0
+15 30 55 0 0 85
+2009 629979 1254624 2303956 0 0 3 558 580
+.0 .0 .0 .0 .0 .0
+41 20 37 0 0 58
+2010 1784765 887736 1622578 4444 0 2 514 758
+.5 .6 .7 .1 .0 .5
+100 0 0 0 0
+2011 4416467 0 0 0 0 0 0 .0
+.0 .0 .0 .0 .0
+35 20 13 23 6 64
+2012 1610171 948076 632470 1054464 293414 2 928 424
+.5 .9 .9 .2 .5 .5
+91 9 0 0 0
+2013 4246130 418656 0 0 0 418 656 9 .0
+.0 .0 .0 .0 .0
+15 35 10 23 15 84
+2014 738012 1698049 517497 1121643 722619 4 059 808
+.4 .4 .8 .4 .1 .6
+26 73 0 0 0 73
+2015 1327625 3608973 0 0 0 3 608 973
+.9 .1 .0 .0 .0 .1
+34 65 0 0 0 65
+2016 1751150 3330391 0 0 0 3 330 391
+.5 .5 .0 .0 .0 .5
+54 45 0 0 0 45
+2017 2833258 2400711 0 0 0 2 400 711
+.1 .9 .0 .0 .0 .9
+100 0 0 0 0
+2018 5393362 0 0 0 0 0 0 .0
+.0 .0 .0 .0 .0
+80 17 2 0 0 19
+2019 4480702 960452 118308 0 0 1 078 760
+.6 .3 .1 .0 .0 .4
+2020 - - - - - - -
+2021 - - - - - - -
+SO3-2.T3: National estimates of the percentage of the male population within each drought intensity class.
+Exposed male
+Non-exposed Mild drought Moderate drought Severe drought Extreme drought
+population
+Reporting Population Population Population Population Population Population
+% % % % % %
+year count count count count count count
+19 53 12 13 0 80
+2000 637065 1750798 417598 446669 0 2 615 065
+.6 .8 .8 .7 .0 .4
+93 7 0 0 0
+2001 3094359 232036 0 0 0 232 036 7 .0
+.0 .0 .0 .0 .0
+93 6 0 0 0
+2002 3189757 213936 0 0 0 213 936 6 .3
+.7 .3 .0 .0 .0
+36 18 17 3 24 63
+2003 1262338 643929 598340 112221 869528 2 224 018
+.2 .5 .2 .2 .9 .8
+19 69 10 0 0 80
+2004 697575 2484482 389194 0 0 2 873 676
+.5 .6 .9 .0 .0 .5
+0 25 74 0 100
+2005 0 0 .0 0 941367 2719991 0 3 661 358
+.0 .7 .3 .0 .0
+69 / 136
+
+--- Page 70 ---
+SO-3: To mitigate, adapt to, and manage the effects of drought in order to enhance resilience of vulnerable populations and
+ecosystems.
+Exposed male
+Non-exposed Mild drought Moderate drought Severe drought Extreme drought
+population
+Reporting Population Population Population Population Population Population
+% % % % % %
+year count count count count count count
+100 0 0 0 0
+2006 3755639 0 0 0 0 0 0 .0
+.0 .0 .0 .0 .0
+73 24 2 0 0 26
+2007 2833058 926073 93375 0 0 1 019 448
+.5 .0 .4 .0 .0 .5
+100 0 0 0 0
+2008 3955595 0 0 0 0 0 0 .0
+.0 .0 .0 .0 .0
+14 29 56 0 0 85
+2009 597883 1184794 2279244 0 0 3 464 038
+.7 .2 .1 .0 .0 .3
+40 20 39 0 0 59
+2010 1688366 838410 1641853 4771 0 2 485 034
+.5 .1 .3 .1 .0 .5
+100 0 0 0 0
+2011 4289775 0 0 0 0 0 0 .0
+.0 .0 .0 .0 .0
+34 20 13 24 6 65
+2012 1532201 887694 605899 1093929 291291 2 878 813
+.7 .1 .7 .8 .6 .3
+90 9 0 0 0
+2013 4112954 424309 0 0 0 424 309 9 .4
+.6 .4 .0 .0 .0
+15 36 10 22 15 84
+2014 721365 1692796 494478 1058954 702670 3 948 898
+.4 .2 .6 .7 .0 .6
+26 73 0 0 0 73
+2015 1273886 3534940 0 0 0 3 534 940
+.5 .5 .0 .0 .0 .5
+35 64 0 0 0 64
+2016 1777394 3175742 0 0 0 3 175 742
+.9 .1 .0 .0 .0 .1
+52 47 0 0 0 47
+2017 2673291 2431861 0 0 0 2 431 861
+.4 .6 .0 .0 .0 .6
+100 0 0 0 0
+2018 5264600 0 0 0 0 0 0 .0
+.0 .0 .0 .0 .0
+80 17 2 0 0 19
+2019 4381320 929926 119491 0 0 1 049 417
+.7 .1 .2 .0 .0 .3
+2020 - - - - - - -
+2021 - - - - - - -
+Qualitative assessment
+Interpretation of the indicator
+Selon les données météorologique de l'Institut Géographique du Burundi, l'année 2003 a connue une moyenne annuelle faible de
+précipitations . Ce qui explique une grande proportion de la population touchée par la sécheresse.
+General comments
+On a utilisé la carte des limites administratives fournie par l'institution nationale en charge de la cartographie (27163 km²). Ce shapefile a
+été chargé sur la plate forme de rapportage PRAIS4. Cette carte nationale présente les caractéristiques suivantes: SCR WGS 84 Propriétés:
+Géographique (utilise des coordonnées en latitude et longitude) Dynamique (repose sur un référentiel géodésique qui n'est pas fixé sur la
+plaque) Corps céleste : Earth Basé sur World Geodesic System 1984 ensemble (EPSG:6326), qui a une précision de 2 mètres au mieux.
+Méthode : Lat/long (Geodesic alias) Les données des populations utilisées proviennent du Worldpop fournies par l'UNCCD et comme les
+limites du pays ayant été modifiées, les résultats fournis par Trends.Earth sont aussi modifiés dans la même direction . De la période de
+référence , on constate une grande proportion de la population touchée par la sécheresse pour les années 2003 et 2014 tandis qu'on
+observe une baisse de proportion de la population touchée par la sécheresse durant la période de rapportage suite une augmentation des
+précipitations moyennes annuelles (voir les données des précipitations de l'Institut Géographyique du Burundi, IGEBU).
+70 / 136
+
+--- Page 71 ---
+SO-3: To mitigate, adapt to, and manage the effects of drought in order to enhance resilience of vulnerable populations and
+ecosystems.
+SO3-3 Trends in the degree of drought vulnerability
+Drought Vulnerability Index
+SO3-3.T1: National estimates of the Drought Vulnerability Index
+Year Total country-level DVI value (tier 1) Male DVI value (tiers 2 and 3 only) Female DVI value (tiers 2 and 3 only)
+2000
+2001
+2002
+2003
+2004
+2005
+2006 0 .88
+2007
+2008
+2009
+2010
+2011
+2012
+2013 0 .43
+2014
+2015
+2016
+2017
+2018
+2019
+2020
+2021
+Method
+Which tier level did you use to compute the DVI?
+☒ Tier 1 Vulnerability Assessment ⓘ
+☐ Tier 2 Vulnerability Assessment ⓘ
+☐ Tier 3 Vulnerability Assessment ⓘ
+Qualitative assessment
+SO3-3.T2: Interpretation of the indicator
+Change in the indicator Comments
+SO3-3 (country DVI) Decreasing L'indice de vulnérabilité a baissé entre 2006 et 2013
+General comments
+Les données disponibles ont permis le calcul de l'indice de vulnérabilité de la sécheresse de niveau 1 pour les années 2006 et 2013. La
+politique de gratuite scolaire du cycle fondamental a contribué pour réduire l'indice de vulnérabilité à la sécheresse
+71 / 136
+
+--- Page 72 ---
+SO-3: To mitigate, adapt to, and manage the effects of drought in order to enhance resilience of vulnerable populations and
+ecosystems.
+SO3 Voluntary Targets
+SO3-VT.T1
+Level of Status of target
+Target Year Comments
+application achievement
+D’ici 2030, intensifier l’agriculture sur une superficie de 700 km² pour réduire
+2030 National Ongoing
+la conversion des forets en terres cultivés
+D’ici 2030, pratiquer l’agroforesterie sur une superficie de 586 km² pour
+éviter et réduire la perte de productivité liée la conversion des forêts en 2030 National Ongoing
+terres cultivées
+D’ici 2030, reboiser 434km² des terres forestières converties en prairies 2030 National Ongoing
+D’ici 2030, intensifier la lutte antiérosive et l’utilisation de l’engrais vert sur
+une superficie de 963km² pour réduire la conversion des terres cultivées en 2030 National Ongoing
+pâturage
+D’ici 2030, restaurer 104km² des terres cultivées converties en terres
+2030 National Ongoing
+artificielles
+D’ici 2030, intensifier l’aménagement des bassins versants sur une superficie
+de 66 Km² pour améliorer le stock du carbone dans les zones forestières 2030 National Ongoing
+converties en zones humides
+D’ici 2030, améliorer les pratiques culturales sur une étendue de 2400km²
+2030 National Ongoing
+pour accroitre la productivité des terres cultivée
+General comments
+Ces cibles n'ont pas été spatialisés selon les zones frappées par la sécheresse et il est difficile de constater leur impact sur l'indice de
+vulnérabilité qui, lui aussi est calculé en utilisant les données par défaut.
+72 / 136
+
+--- Page 73 ---
+SO4-1 Trends in carbon stocks above and below
+ground
+Soil organic carbon stocks
+Trends in carbon stock above and below ground is a multi-purpose indicator used to measure progress towards both strategic objectives 1 and 4.
+Quantitative data and a qualitative assessment of trends in this indicator are reported under strategic objective 1, progress indicator SO1-3.
+73 / 136
+
+--- Page 74 ---
+SO-4: To generate global environmental benefits through effective implementation of the United Nations Convention to Combat
+Desertification.
+SO4-2 Trends in abundance and distribution of selected species
+SO4-2.T1: National estimates of the Red List Index of species survival
+Year Red List Index Lower Bound Upper Bound Comment
+2000 0 .89144 0 .87792 0 .89156
+2001 0 .89143 0 .87666 0 .89155
+2002 0 .89142 0 .87619 0 .89154
+2003 0 .89142 0 .87589 0 .89153
+2004 0 .89141 0 .8758 0 .89152
+2005 0 .89141 0 .87503 0 .89169
+2006 0 .89139 0 .87415 0 .89187
+2007 0 .89137 0 .8737 0 .89266
+2008 0 .89135 0 .87327 0 .89298
+2009 0 .89132 0 .87328 0 .89325
+2010 0 .8913 0 .87213 0 .89357
+2011 0 .89128 0 .87227 0 .89409
+2012 0 .89127 0 .87075 0 .89443
+2013 0 .89125 0 .87104 0 .89508
+2014 0 .89124 0 .8706 0 .895
+2015 0 .89122 0 .87021 0 .89564
+2016 0 .89121 0 .86994 0 .89627
+2017 0 .89121 0 .86916 0 .89655
+2018 0 .89119 0 .86904 0 .89662
+2019 0 .89119 0 .86832 0 .89698
+2020 0 .89118 0 .86774 0 .89793
+Qualitative assessment
+SO4-2.T2: Interpretation of the indicator
+Drivers: Indirect Which levers are being used to Responses that
+Change in Drivers: Direct (Choose
+(Choose one or more reverse negative trends and enable led to positive RLI Comments
+the indicator one or more items)
+items) transformative change? trends
+1. Incentives and Capacity-Building
+1. Land-use change
+1. Human Population 2. Environmental Law and
+2. Overexploitation Dynamics and Trends Implementation
+Negative 3. Climate change 2. Production and 3. Cross-Sectoral Cooperation
+4. Invasive alien species Consumption 4. Pre-Emptive Action
+Patterns
+5. Pollution 5. Decision-making in the Context of
+Resilience and Uncertainty
+General comments
+74 / 136
+
+--- Page 75 ---
+SO-4: To generate global environmental benefits through effective implementation of the United Nations Convention to Combat
+Desertification.
+Absence de données permettant de calculer l'ILR au niveau national
+75 / 136
+
+--- Page 76 ---
+SO-4: To generate global environmental benefits through effective implementation of the United Nations Convention to Combat
+Desertification.
+SO4-3 Proportion of important sites for terrestrial and freshwater biodiversity that are
+covered by protected areas, by ecosystem type
+SO4-3.T1: National estimates of the average proportion of Terrestrial KBAs covered by protected areas (%)
+Year Protected Areas Coverage(%) Lower Bound Upper Bound Comments
+2000 66.24 66 .24 66 .24
+2001 66.24 66 .24 66 .24
+2002 66.24 66 .24 66 .24
+2003 66.24 66 .24 66 .24
+2004 66.24 66 .24 66 .24
+2005 66.24 66 .24 66 .24
+2006 66.24 66 .24 66 .24
+2007 66.24 66 .24 66 .24
+2008 66.24 66 .24 66 .24
+2009 66.24 66 .24 66 .24
+2010 66.24 66 .24 66 .24
+2011 70.72 70 .72 70 .72
+2012 70.72 70 .72 70 .72
+2013 70.72 70 .72 70 .72
+2014 70.72 70 .72 70 .72
+2015 70.72 70 .72 70 .72
+2016 70.72 70 .72 70 .72
+2017 70.72 70 .72 70 .72
+2018 70.72 70 .72 70 .72
+2019 70.72 70 .72 70 .72
+2020 70.72 70 .72 70 .72
+Qualitative assessment
+SO4-3.T2: Interpretation of the indicator
+Qualitative
+Comment
+Assessment
+Pour cet indicateur, la proportion des sites importants se trouvant dans des aires protégées est passée de 66.24 % en
+Increasing 2000 à 70.72% en 2020; cette augmentation des sites importants pour la biodiversité terrestre est une mesure légale
+prise par le Gouvernement
+General comments
+76 / 136
+
+--- Page 77 ---
+SO-4: To generate global environmental benefits through effective implementation of the United Nations Convention to Combat
+Desertification.
+Les données nationales utilisées pour déterminer la proportion des sites importants pour la biodiversité sont fournies par l'Office Burundais
+pour la Conservation de l'Environnement en charge des aires protégées . De 2000 à 2010, la proportion des sites importants se trouvant
+dans des aires protégées était estimée à 66.24 % tandis qu'elle est passée de 70.72% à partir de 2011 jusqu'en 2020. L'augmentation de la
+proportion des sites importants pour la biodiversité est liée à l'augmentation de la superficie des ces derniers. La superficie de l'actuel Parc
+National de la Rusizi est passée de 5280 ha à 10673 ha en 2011 suite à la bonne gouvernance en matière de la conservation.
+77 / 136
+
+--- Page 78 ---
+SO-4: To generate global environmental benefits through effective implementation of the United Nations Convention to Combat
+Desertification.
+SO4 Voluntary Targets
+SO4-VT.T1
+Level of Status of target
+Target Year Comments
+application achievement
+0.6% de superficie à
+D'ici 2030, augmenter de 4.6% la superficie des aires protégées 2030 Subnational Ongoing protéger sont déjà
+délimités
+D’ici 2030, élaborer 14 plans de gestion et d'aménagement pour 6 plans de gestion et
+Partially
+diminuer le rythme de dégradation et de fragmentation des 2030 Subnational d'aménagement ont été
+achieved
+habitats naturels, y compris les forêts et les marais élaborés
+D’ici 2030, cartographier les étendues des 3 espèces exotiques
+envahissantes(Lantama camara, Sercostachys scandens et d' 2030 Subnational Ongoing
+Eichhornia crassipes).
+Complementary information
+Au regard des actions déjà exécutées , les cibles ci-haut sont faiblement atteinte. En effet, les objectifs nationaux ont été définis sur base
+des objectifs de la convention sur la diversité biologique qui étaient trop ambitieux.
+78 / 136
+
+--- Page 79 ---
+SO-5: To mobilize substantial and additional financial and non-financial resources to support the implementation of the
+Convention by building effective partnerships at global and national level
+SO5-1 Bilateral and multilateral public resources
+Tier 1: Please provide information on the international public resources provided and received for the
+implementation of the Convention, including information on trends.
+Trends in international bilateral and multilateral public resources provided
+Up ↑
+Stable ←→
+Down ↓
+Unknown ∾
+Trends in international bilateral and multilateral public resources received
+Up ↑
+Stable ←→
+Down ↓
+Unknown ∾
+Tier 2: Table 1 Financial resources provided and received
+Total Amount USD
+Provided / Received Year Committed Disbursed / Received
+Committed Disbursed
+Provided 2016
+0 0
+Committed Disbursed
+Provided 2017
+0 0
+Committed Disbursed
+Provided 2018
+0 0
+Committed Disbursed
+Provided 2019
+0 0
+Committed Received
+Received 2016
+2 931 211 .40 4 679 337 .93
+Committed Received
+Received 2017
+116 837 632 .83 4 134 999 .67
+Committed Received
+Received 2018
+7 676 845 .47 19 840 705 .99
+Committed Received
+Received 2019
+33 350 421 .21 15 819 502 .23
+Total resources provided: 0 0
+Total resources received: 160 796 110 .91 44 474 545 .82
+Documentation box
+Explanation
+Year
+Recipient / Provider
+Title of project, programme, activity or other
+Total Amount USD
+Sector
+Capacity Building
+Technology Transfer
+Gender Equality
+79 / 136
+
+--- Page 80 ---
+SO-5: To mobilize substantial and additional financial and non-financial resources to support the implementation of the
+Convention by building effective partnerships at global and national level
+Explanation
+Channel
+Type of flow
+Financial Instrument
+Type of support
+Amount mobilised through public interventions
+Additional Information
+General comments
+Absence de mécanisme de décentralisation des informations sur les engagements pris et le soutien reçu
+80 / 136
+
+--- Page 81 ---
+SO-5: To mobilize substantial and additional financial and non-financial resources to support the implementation of the
+Convention by building effective partnerships at global and national level
+SO5-2 Domestic public resources
+Tier 1: Please provide information on the domestic public expenditures, including subsidies, and revenues,
+including taxes, directly and indirectly related to the implementation of the Convention, including information
+on trends.
+Trends in domestic public expenditures and national level financing for activities relevant to the implementation of the Convention
+Up ↑
+Stable ←→
+Down ↓
+Unknown ∾
+Trends in domestic public revenues from activities related to the implementation of the Convention
+Up ↑
+Stable ←→
+Down ↓
+Unknown ∾
+Système d'exonération des alternatives au bois de chauffage
+Certaines dispositions du code forestier prévoient la création d'un fonds forestier national destiné à financer le secteur forêt
+Tier 2: Table 2 Domestic public resources
+Year Amounts Additional Information
+Government expenditures 2019 1 455 927 .70
+Directly related to combat DLDD 2019 817 969 .17 budget destiné au programme de reboisement
+Indirectly related to combat DLDD 2019 637 958 .53 Dépenses aux salaires du personnel
+Subsidies 2019 1 280 000 Allocation star FEM6
+Subsidies related to combat DLDD 2019 1 280 000
+Total expenditures / total per year
+Year Amounts Additional Information
+946 001 Taxes
+Government revenues 2019
+.20 environnementales
+Environmental taxes for the conservation of land resources and taxes related to combat 946 001
+2019
+DLDD .20
+Total revenues / total per year
+Documentation box
+Explanation
+Government expenditures Ces informations sont tirées dans la loi budgétaire 2019
+Subsidies Ces informations sont fournies par le point focal opérationnel FEM
+Government revenues Ces informations sont tirées dans la loi budgétaire 2019
+Domestic resources directly or indirectly related to combat DLDD Ces informations sont tirées dans la loi budgétaire 2019
+Has your country set a target for increasing and mobilizing domestic resources for the implementation of the Convention?
+Yes
+No
+81 / 136
+
+--- Page 82 ---
+SO-5: To mobilize substantial and additional financial and non-financial resources to support the implementation of the
+Convention by building effective partnerships at global and national level
+Mise en place d'une loi portant augmentation des taxes environnementaux pour de financer le fonds forestier national
+General comments
+Pour honorer les engagements pris dans le cadre de la convention, le Gouvernement a investi beaucoup dans la lutte contre la dégradation
+(voir dépenses par rapport au revenu)
+82 / 136
+
+--- Page 83 ---
+SO-5: To mobilize substantial and additional financial and non-financial resources to support the implementation of the
+Convention by building effective partnerships at global and national level
+SO5-3 International and domestic private resources
+Tier 1: Please provide information on the international and domestic private resources mobilized by the
+private sector of your country for the implementation of the Convention, including information on trends.
+Trends in international private resources
+Up ↑
+Stable ←→
+Down ↓
+Unknown ∾
+Trends in domestic private resources
+Up ↑
+Stable ←→
+Down ↓
+Unknown ∾
+Tier 2: Table 3 International and domestic private resources
+Title of project, programme, activity Total Amount Financial Type of Additional
+Year Recipient
+or other USD Instrument institution Information
+Total 0
+Please provide methodological information relevant to data presented in table 3
+Has your country taken measures to encourage the private sector as well as non-governmental organizations,
+foundations and academia to provide international and domestic resources for the implementation of the
+Convention?
+General comments
+Insuffisance d'informations sur l'intervention du secteur privé pour appuyer le gouvernement dans la mise en œuvre de la convention
+83 / 136
+
+--- Page 84 ---
+SO-5: To mobilize substantial and additional financial and non-financial resources to support the implementation of the Convention by building effective
+partnerships at global and national level
+SO5-4 Technology transfer
+Tier 1: Please provide information relevant to the resources provided, received for the transfer of technology for the
+implementation of the Convention, including information on trends.
+Trends in international bilateral and multilateral public resources provided
+Up ↑
+Stable ←→
+Down ↓
+Unknown ∾
+Trends in international bilateral and multilateral public resources received
+Up ↑
+Stable ←→
+Down ↓
+Unknown ∾
+Utilisation de la fumure organominérale, utilisation des énergies nouvelles et renouvelables (énergie solaire, biogaz, etc) Mise en place et diffusion des directives et
+bonnes pratiques pour la gestion durables des terres
+Tier 2: Table 4 Resources provided and received for technology transfer measures or activities
+Title of Status Use,
+Timeframe
+project, Description Activities of impact
+Provided Recipient Type of of Additional
+Year programme, Amount and Sector undertaken measure and
+Received Provider technology measure Information
+activity or objectives by or estimated
+or activity
+other activity results
+Total provided: 0 Total received: 0
+Please provide methodological information relevant to data presented in table 4
+Include information on underlying assumptions, definitions and methodologies used to identify and report on technology transfer
+support provided and/or received and/or required. Please include links to relevant documentation.
+Please provide information on the types of new or current technologies required by your country to address desertification, land
+degradation and drought (DLDD), and the challenges encountered in acquiring or developing such technologies.
+• Encourager la polyculture et l’incorporation d'engrais minéraux avec de la matière organique pour minimiser la dégradation des sols , la perte de la biodiversité,
+l’apparition des ravageurs et la rupture du cycle de l’eau • Promouvoir la Technologie ASSIS pour utiliser les données de télédétection par satellite afin de détecter les
+zones agricoles qui présentent une forte probabilité de stress hydrique, fournissant des données en temps réel . • Restaurer les terres dégradées en plantant des
+espèces indigènes d'arbres, d'arbustes et d'herbes • Reboiser les terres nues et/ou dégradées • Promouvoir des techniques efficaces d’irrigation collinaire • Améliorer
+la gestion des aires protégées par cadre légal et technique ainsi qu'en empêchant la pression anthropique • Encourager l'utilisation des énergies nouvelles et
+renouvelables
+General comments
+Insuffisance d'informations sur le soutien reçu en matière de transfert de technologie
+84 / 136
+
+--- Page 85 ---
+SO-5: To mobilize substantial and additional financial and non-financial resources to support the implementation of the
+Convention by building effective partnerships at global and national level
+SO5-5 Future support for activities related to the implementation of the Convention
+SO5-5.1: Planned provision and mobilization of domestic public and private resources
+Please provide information relevant to the planned provision and mobilization of domestic resources for the
+implementation of the Convention, including information relevant to indicator SO5-2, as well as information
+on projected levels of public financial resources, target sectors and planned domestic policies.
+SO5-5.2: Planned provision and mobilization of international public and private resources
+Please provide information relevant to the planned provision and mobilization of international resources for
+the implementation of the Convention, including information on projected levels of public financial resources
+and support to capacity building and transfer of technology, target regions or countries, and planned
+programmes, policies and priorities.
+Le Plan national de développement (PND 2018-2027) prévoit une augmentation des recettes publiques. Ainsi, les dépenses en matière de
+lutte contre la désertification suivront cette augmentation des recettes publiques.
+SO5-5.3: Resources needed
+Please provide information relevant to the financial resources needed for the implementation of the
+Convention, including on the projects and regions which needs most support and on which your country has
+focused to the greatest extent.
+• Encourager la polyculture et l’incorporation d'engrais minéraux avec de la matière organique pour minimiser la dégradation des sols , la
+perte de la biodiversité, l’apparition des ravageurs et la rupture du cycle de l’eau : 325 159 680 USD • Promouvoir la Technologie ASSIS pour
+utiliser les données de télédétection par satellite afin de détecter les zones agricoles qui présentent une forte probabilité de stress
+hydrique, fournissant des données en temps réel : 4 411 177 USD • Restaurer des terres dégradées en plantant des espèces indigènes
+d'arbres, d'arbustes et d'herbes: 84 146 707 USD • Reboiser les terres nues et/ou dégradées: 3 238 523 USD • Promotion des techniques
+efficaces d’irrigation collinaire : 6 197 705 USD • Intensifier l’aménagement des bassins versants pour améliorer le stock du carbone dans
+les zones forestières converties en zones humides: 32 954 092 USD • Améliorer les pratiques culturales sur une étendue de 2400km² pour
+accroitre la productivité des terres cultivées: 85 923 154 USD
+General comments
+Le Gouvernement du Burundi a promis d'améliorer les recettes pour lutter contre la désertification et la sécheresse à travers son Plan
+National de Développement (2018-2027). Ainsi, l'estimation du budget nécessaire le budget nécessaire pour mettre en œuvre les
+technologies ci-dessus a été faite partir des programmes d'actions prioritaires du PND.
+85 / 136
+
+--- Page 86 ---
+IF: Implementation Framework
+Financial and Non-Financial Sources
+Increasing the mobilization of resources:
+Would you like to share an experience on how your country has increased the mobilization of resources within the reporting
+period?
+Yes
+No
+Using Land Degradation Neutrality as a framework to increase investment:
+From your perspective, would you consider that you have taken advantage of the LDN concept to enhance the coherence,
+effectiveness and multiple benefits of investments?
+Yes
+No
+Improving existing and/or innovative financial processes and institutions
+From your perspective, do you consider that your country has improved the use of existing and/or innovative financial
+processes and institutions?
+Yes
+No
+Was this through any of the following (check all that apply)?
+☒ Existing financial processes
+☐ Innovative financial processes
+☒ The GEF
+☒ Other funds (please specify)
+Fonds Vert pour le Climat (GCF)
+Use this space to describe the experience:
+What were the challenges faced, if any?
+What do you consider to be the lessons learned?
+Did your country support other countries in the improvement of existing or innovative financial processes and institutions?
+Yes
+No
+86 / 136
+
+--- Page 87 ---
+IF: Implementation Framework
+Policy and Planning
+Action Programmes:
+Has your country developed or helped develop, implement, revise or regularly monitor your national action programme?
+Yes
+No
+Use the space below to share more details about your country's experience:
+Le Burundi a mis en place le Plan National Sécheresse en 2020 comme outil efficace pour faire face aux aléas naturels et réduire la
+vulnérabilité du pays à la sécheresse en tenant compte des groupes vulnérables y compris les femmes et les enfants
+Would you consider the action programmes and/or plans to be successful and what do you consider the main reasons for
+success or lack thereof?
+Pas encore mis en œuvre
+What were the challenges faced, if any?
+Insuffisance des moyens financiers
+What do you consider to be the lessons learned?
+L'élaboration d'un tel plan devrait être accompagné par la mise en place d'une stratégie de mobilisation des ressources
+Policies and enabling environment:
+During the reporting period, has your country established or helped establish policies and enabling environments to promote
+and/or implement solutions to combat desertification/land degradation and mitigate the effects of drought?
+Yes
+No
+These policies and enabling environments were aimed at (check all that apply):
+☒ Promoting solutions to combat desertification, land degradation and drought (DLDD)
+☒ Implementing solutions to combat DLDD
+☒ Protecting women’s land rights
+☒ Enhancing women’s access to natural, productive and/or financial resources
+☐ Other (please specify)
+How best to describe these experiences (check all that apply):
+☒ Prevention of the effects of DLDD
+☐ Relief efforts after DLDD has caused environmental and or socioeconomic stress on ecosystems and or populations
+☒ Recovery efforts after DLDD has caused environmental and or socioeconomic stress on ecosystems and or populations
+☒ Engagement of women in decision - making
+☒ Implementation and promotion of women's land rights and access to land resources
+☒ Building women's capacity for effective UNCCD implementation
+☒ Other (please specify)
+Promotion des droits peuples autochtones et amélioration de leur accès aux ressources foncières
+87 / 136
+
+--- Page 88 ---
+IF: Implementation Framework
+Use the space below to share more details about your country/sub-region/region/institution's experience.
+Do you consider these policies to be successful in promoting or implementing solutions to address DLDD, including prevention,
+relief and recovery, and what do you consider the main factors of success or lack thereof?
+What were the challenges faced, if any?
+What would you consider to be the lessons learned?
+Has your country supported other countries in establishing policies and enabling environments to promote and implement
+solutions to combat desertification/land degradation and mitigate the effects of drought, including prevention, relief and
+recovery?
+Yes
+No
+Synergies:
+From your perspective, has your country leveraged synergies and integrated DLDD into national plans related to other MEAs,
+particularly the other Rio Conventions and other international commitments?
+Yes
+No
+Your country's actions were aimed at (please check all that apply):
+☒ Leveraging DLDD with other national plans related to the other Rio Conventions
+☒ Integrating DLDD into national plans
+☒ Leveraging synergies with other strategies to combat DLDD
+☒ Integrating DLDD into other international commitments
+☐ Other (please specify)
+Use the space below to describe your country's experience.
+Do you consider this experience a success and, if so, what do you consider the reasons behind this success (or lack thereof)?
+What were the challenges faced, if any?
+What would you consider to be the lessons learned?
+Mainstreaming desertification, land degradation and drought:
+From your perspective, did your country take specific actions to mainstream, DLDD in economic, environmental and social
+policies, with a view to increasing the impact and effectiveness of the implementation of the Convention?
+88 / 136
+
+--- Page 89 ---
+IF: Implementation Framework
+Yes
+No
+If so, DLDD was mainstreamed into (check all that apply):
+☒ Economic policies
+☒ Environmental policies
+☒ Social policies
+☒ Land policies
+☒ Gender policies
+☒ Agricultural policies
+☐ Other (please specify)
+Use the space below to describe your country's experience.
+Do you consider this experience a success and, if so, what do you consider the reasons behind this success (or lack thereof)?
+What were the challenges faced, if any?
+What would you consider to be the lessons learned?
+Drought-related policies:
+Has your country established or is your country establishing national policies, measures and governance for drought
+preparedness and management?
+Yes
+No
+Use the space below to describe your country's experience.
+Do you consider this experience a success and, if so, what do you consider the reasons behind this success (or lack thereof)?
+What were the challenges faced, if any?
+What would you consider to be the lessons learned?
+Has your country supported other countries in establishing policies, measures and governance for drought preparedness and
+management, in accordance with the mandate of the Convention?
+Yes
+No
+89 / 136
+
+--- Page 90 ---
+IF: Implementation Framework
+Action on the Ground
+Sustainable land management practices:
+Has your country implemented or is your country implementing sustainable land management (SLM) practices to address
+DLDD?
+Yes
+No
+What types of SLM practices are being implemented?
+☒ Agroforestry
+☒ Area closure (stop use, support restoration)
+☒ Beekeeping, fishfarming, etc
+☒ Cross-slope measure
+☐ Ecosystem-based disaster risk reduction
+☒ Energy efficiency
+☒ Forest plantation management
+☐ Home gardens
+☐ Improved ground/vegetation cover
+☒ Improved plant varieties animal breeds
+☒ Integrated crop-livestock management
+☐ Integrated pest and disease management (incl. organic agriculture)
+☒ Integrated soil fertility management
+☒ Irrigation management (incl. water supply, drainage)
+☒ Minimal soil disturbance
+☒ Natural and semi-natural forest management
+☐ Pastoralism and grazing land management
+☒ Post-harvest measures
+☒ Rotational system (crop rotation, fallows, shifting, cultivation)
+☒ Surface water management (spring, river, lakes, sea)
+☒ Water diversion and drainage
+☒ Water harvesting
+☒ Wetland protection/management
+☒ Windbreak/Shelterbelt
+☒ Waste management / Waste water management
+☐ Other (please specify)
+Use the space below to share more details about your country's experience:
+Would you consider the implemented practices successful and what do you consider the main factors of success?
+What were the challenges faced, if any?
+What do you consider to be the lessons learned?
+90 / 136
+
+--- Page 91 ---
+IF: Implementation Framework
+How did you engage women and youth in these activities?
+Has your country supported other countries in the implementation of SLM practices?
+Yes
+No
+Restoration and Rehabilitation:
+Has your country implemented or is your country implementing restoration and rehabilitation practices in order to assist with
+the recovery of ecosystem functions and services?
+Yes
+No
+What types of rehabilitation and restoration practices are being implemented?
+☒ Restore/improve tree-covered areas
+☒ Increase tree-covered area extent
+☒ Restore/improve croplands
+☐ Restore/improve grasslands
+☒ Restore/improve wetlands
+☒ Increase soil fertility and carbon stock
+☐ Manage artificial surfaces
+☒ Restore/improve protected areas
+☒ Increase protected areas
+☐ Improve coastal management
+☒ General instrument (e.g. policies, economic incentives)
+☒ Restore/improve multiple land uses
+☐ Reduce/halt conversion of multiple land uses
+☒ Restore/improve multiple functions
+☒ Restore productivity and soil organic carbon stock in croplands and grasslands
+☐ Other/general/unspecified
+Use the space below to share more details about your country's experience:
+Would you consider the implemented practices successful and what do you consider the main factors of success?
+What were the challenges faced, if any?
+What do you consider to be the lessons learned?
+How did you engage women and youth in SLM activities?
+91 / 136
+
+--- Page 92 ---
+IF: Implementation Framework
+Has your country supported other countries with restoration and rehabilitation practices in order to assist with the recovery of
+ecosystem functions and services?
+Yes
+No
+Drought risk management and early warning systems:
+Is your country developing a drought risk management plan, monitoring or early warning systems and safety net programmes to
+address DLDD?
+Yes
+No
+Has your country supported other countries in developing drought risk management, monitoring and early warning systems and
+safety net programmes to address DLDD?
+Yes
+No
+Alternative livelihoods:
+Does your country promote alternative livelihoods practice in the context of DLDD?
+Yes
+No
+Do you consider your country to be taking special measures to engage women and youth in promoting alternative livelihoods?
+Yes
+No
+Establishing knowledge sharing systems:
+Has your country established systems for sharing information and knowledge and facilitating networking on best practices and
+approaches to drought management?
+Yes
+No
+Do you consider that your country has implemented specific actions that promote women’s access to knowledge and
+technology?
+Yes
+No
+Please elaborate
+Utilisation des foyers améliorés à petite échelle
+Do you consider this experience a success and, if so, what do you consider the reasons behind this success (or lack thereof)?
+L'utilisation des foyers améliorés a connus des succès car contribue à réduire quantité de bois de chauffage.
+92 / 136
+
+--- Page 93 ---
+IF: Implementation Framework
+What were the challenges faced, if any?
+Accès difficile suite à un faible pouvoir d'achat, Existences de prototypes de foyers améliorés dont on a pas encore définis leurs
+contribution pour réduire les émissions de CO2
+What would you consider to be the lessons learned?
+93 / 136
+
+--- Page 94 ---
+Other files for Reporting
+Burundi - SO5-1 recipient Download 40.0 KB
+94 / 136
+
+--- Page 95 ---
+Burundi – SO1-1.M1
+Land cover in the initial year of the baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 5555500000 k kkkkmmmmm 111110000000000 k kkkkmmmmm
+Disclaimer
+The national border data displayed on this map was provided by the Government of Burundi. The designations employed and the presentation of material on this map do not imply the expression of any
+opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or
+concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area of the country; offshore islands, overseas departments and territories may not be displayed due to
+cartographic limitations.
+Source Data Credits
+• European Space Agency Climate Change Initiative Land Cover (ESA CCI-LC) product, 1992-2019. URL: https://www.esa-landcover-cci.org/
+95 / 136
+
+--- Page 96 ---
+Burundi – SO1-1.M2
+Land cover in the baseline year
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 5555500000 k kkkkmmmmm 111110000000000 k kkkkmmmmm
+Disclaimer
+The national border data displayed on this map was provided by the Government of Burundi. The designations employed and the presentation of material on this map do not imply the expression of any
+opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or
+concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area of the country; offshore islands, overseas departments and territories may not be displayed due to
+cartographic limitations.
+Source Data Credits
+• European Space Agency Climate Change Initiative Land Cover (ESA CCI-LC) product, 1992-2019. URL: https://www.esa-landcover-cci.org/
+96 / 136
+
+--- Page 97 ---
+Burundi – SO1-1.M3
+Land cover in the latest reporting year
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 5555500000 k kkkkmmmmm 111110000000000 k kkkkmmmmm
+Disclaimer
+The national border data displayed on this map was provided by the Government of Burundi. The designations employed and the presentation of material on this map do not imply the expression of any
+opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or
+concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area of the country; offshore islands, overseas departments and territories may not be displayed due to
+cartographic limitations.
+Source Data Credits
+• European Space Agency Climate Change Initiative Land Cover (ESA CCI-LC) product, 1992-2019. URL: https://www.esa-landcover-cci.org/
+97 / 136
+
+--- Page 98 ---
+Burundi – SO1-1.M4
+Land cover change in the baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 5555500000 k kkkkmmmmm 111110000000000 k kkkkmmmmm
+Disclaimer
+The national border data displayed on this map was provided by the Government of Burundi. The designations employed and the presentation of material on this map do not imply the expression of any
+opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or
+concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area of the country; offshore islands, overseas departments and territories may not be displayed due to
+cartographic limitations.
+Source Data Credits
+• European Space Agency Climate Change Initiative Land Cover (ESA CCI-LC) product, 1992-2019. URL: https://www.esa-landcover-cci.org/
+98 / 136
+
+--- Page 99 ---
+Burundi – SO1-1.M5
+Land cover change in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 5555500000 k kkkkmmmmm 111110000000000 k kkkkmmmmm
+Disclaimer
+The national border data displayed on this map was provided by the Government of Burundi. The designations employed and the presentation of material on this map do not imply the expression of any
+opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or
+concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area of the country; offshore islands, overseas departments and territories may not be displayed due to
+cartographic limitations.
+Source Data Credits
+• European Space Agency Climate Change Initiative Land Cover (ESA CCI-LC) product, 1992-2019. URL: https://www.esa-landcover-cci.org/
+99 / 136
+
+--- Page 100 ---
+Burundi – SO1-1.M6
+Land cover degradation in the baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 5555500000 k kkkkmmmmm 111110000000000 k kkkkmmmmm
+Disclaimer
+The national border data displayed on this map was provided by the Government of Burundi. The designations employed and the presentation of material on this map do not imply the expression of any
+opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or
+concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area of the country; offshore islands, overseas departments and territories may not be displayed due to
+cartographic limitations.
+Source Data Credits
+• European Space Agency Climate Change Initiative Land Cover (ESA CCI-LC) product, 1992-2019. URL: https://www.esa-landcover-cci.org/
+100 / 136
+
+--- Page 101 ---
+Burundi – SO1-1.M7
+Land cover degradation in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 5555500000 k kkkkmmmmm 111110000000000 k kkkkmmmmm
+Disclaimer
+The national border data displayed on this map was provided by the Government of Burundi. The designations employed and the presentation of material on this map do not imply the expression of any
+opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or
+concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area of the country; offshore islands, overseas departments and territories may not be displayed due to
+cartographic limitations.
+Source Data Credits
+• European Space Agency Climate Change Initiative Land Cover (ESA CCI-LC) product, 1992-2019. URL: https://www.esa-landcover-cci.org/
+101 / 136
+
+--- Page 102 ---
+Burundi – SO1-2.M1
+Land productivity dynamics in the baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 5555500000 k kkkkmmmmm 111110000000000 k kkkkmmmmm
+Disclaimer
+The national border data displayed on this map was provided by the Government of Burundi. The designations employed and the presentation of material on this map do not imply the expression of any
+opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or
+concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area of the country; offshore islands, overseas departments and territories may not be displayed due to
+cartographic limitations.
+Source Data Credits
+• EC-JRC, 2021, based on Xavier Rotllan-Puig, Eva Ivits, Michael Cherlet, LPDynR: A new tool to calculate the land productivity dynamics indicator, Ecological Indicators, Volume 133, 2021, 108386, ISSN
+1470-160X. URL: https://doi.org/10.1016/j.ecolind.2021.108386
+102 / 136
+
+--- Page 103 ---
+Burundi – SO1-2.M2
+Land productivity dynamics in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 5555500000 k kkkkmmmmm 111110000000000 k kkkkmmmmm
+Disclaimer
+The national border data displayed on this map was provided by the Government of Burundi. The designations employed and the presentation of material on this map do not imply the expression of any
+opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or
+concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area of the country; offshore islands, overseas departments and territories may not be displayed due to
+cartographic limitations.
+Source Data Credits
+• EC-JRC, 2021, based on Xavier Rotllan-Puig, Eva Ivits, Michael Cherlet, LPDynR: A new tool to calculate the land productivity dynamics indicator, Ecological Indicators, Volume 133, 2021, 108386, ISSN
+1470-160X. URL: https://doi.org/10.1016/j.ecolind.2021.108386
+103 / 136
+
+--- Page 104 ---
+Burundi – SO1-2.M3
+Land productivity degradation in the baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 5555500000 k kkkkmmmmm 111110000000000 k kkkkmmmmm
+Disclaimer
+The national border data displayed on this map was provided by the Government of Burundi. The designations employed and the presentation of material on this map do not imply the expression of any
+opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or
+concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area of the country; offshore islands, overseas departments and territories may not be displayed due to
+cartographic limitations.
+Source Data Credits
+• EC-JRC, 2021, based on Xavier Rotllan-Puig, Eva Ivits, Michael Cherlet, LPDynR: A new tool to calculate the land productivity dynamics indicator, Ecological Indicators, Volume 133, 2021, 108386, ISSN
+1470-160X. URL: https://doi.org/10.1016/j.ecolind.2021.108386
+104 / 136
+
+--- Page 105 ---
+Burundi – SO1-2.M4
+Land productivity degradation in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 5555500000 k kkkkmmmmm 111110000000000 k kkkkmmmmm
+Disclaimer
+The national border data displayed on this map was provided by the Government of Burundi. The designations employed and the presentation of material on this map do not imply the expression of any
+opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or
+concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area of the country; offshore islands, overseas departments and territories may not be displayed due to
+cartographic limitations.
+Source Data Credits
+• EC-JRC, 2021, based on Xavier Rotllan-Puig, Eva Ivits, Michael Cherlet, LPDynR: A new tool to calculate the land productivity dynamics indicator, Ecological Indicators, Volume 133, 2021, 108386, ISSN
+1470-160X. URL: https://doi.org/10.1016/j.ecolind.2021.108386
+105 / 136
+
+--- Page 106 ---
+Burundi – SO1-3.M1
+Soil organic carbon stock in the initial year of the baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 5555500000 k kkkkmmmmm 111110000000000 k kkkkmmmmm
+Disclaimer
+The national border data displayed on this map was provided by the Government of Burundi. The designations employed and the presentation of material on this map do not imply the expression of any
+opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or
+concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area of the country; offshore islands, overseas departments and territories may not be displayed due to
+cartographic limitations.
+Source Data Credits
+• International Soil Reference and Information Centre (ISRIC) SoilGrids250m dataset. URL: https://www.isric.org/explore/soilgrids
+106 / 136
+
+--- Page 107 ---
+Burundi – SO1-3.M2
+Soil organic carbon stock in the baseline year
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 5555500000 k kkkkmmmmm 111110000000000 k kkkkmmmmm
+Disclaimer
+The national border data displayed on this map was provided by the Government of Burundi. The designations employed and the presentation of material on this map do not imply the expression of any
+opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or
+concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area of the country; offshore islands, overseas departments and territories may not be displayed due to
+cartographic limitations.
+Source Data Credits
+• International Soil Reference and Information Centre (ISRIC) SoilGrids250m dataset. URL: https://www.isric.org/explore/soilgrids
+107 / 136
+
+--- Page 108 ---
+Burundi – SO1-3.M3
+Soil organic carbon stock in the latest reporting year
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 5555500000 k kkkkmmmmm 111110000000000 k kkkkmmmmm
+Disclaimer
+The national border data displayed on this map was provided by the Government of Burundi. The designations employed and the presentation of material on this map do not imply the expression of any
+opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or
+concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area of the country; offshore islands, overseas departments and territories may not be displayed due to
+cartographic limitations.
+Source Data Credits
+• International Soil Reference and Information Centre (ISRIC) SoilGrids250m dataset. URL: https://www.isric.org/explore/soilgrids
+108 / 136
+
+--- Page 109 ---
+Burundi – SO1-3.M4
+Change in soil organic carbon stock in the baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 5555500000 k kkkkmmmmm 111110000000000 k kkkkmmmmm
+Disclaimer
+The national border data displayed on this map was provided by the Government of Burundi. The designations employed and the presentation of material on this map do not imply the expression of any
+opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or
+concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area of the country; offshore islands, overseas departments and territories may not be displayed due to
+cartographic limitations.
+Source Data Credits
+• International Soil Reference and Information Centre (ISRIC) SoilGrids250m dataset. URL: https://www.isric.org/explore/soilgrids
+109 / 136
+
+--- Page 110 ---
+Burundi – SO1-3.M5
+Change in soil organic carbon stock in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 5555500000 k kkkkmmmmm 111110000000000 k kkkkmmmmm
+Disclaimer
+The national border data displayed on this map was provided by the Government of Burundi. The designations employed and the presentation of material on this map do not imply the expression of any
+opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or
+concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area of the country; offshore islands, overseas departments and territories may not be displayed due to
+cartographic limitations.
+Source Data Credits
+• International Soil Reference and Information Centre (ISRIC) SoilGrids250m dataset. URL: https://www.isric.org/explore/soilgrids
+110 / 136
+
+--- Page 111 ---
+Burundi – SO1-3.M6
+Soil organic carbon degradation in the baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 5555500000 k kkkkmmmmm 111110000000000 k kkkkmmmmm
+Disclaimer
+The national border data displayed on this map was provided by the Government of Burundi. The designations employed and the presentation of material on this map do not imply the expression of any
+opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or
+concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area of the country; offshore islands, overseas departments and territories may not be displayed due to
+cartographic limitations.
+Source Data Credits
+• International Soil Reference and Information Centre (ISRIC) SoilGrids250m dataset. URL: https://www.isric.org/explore/soilgrids
+111 / 136
+
+--- Page 112 ---
+Burundi – SO1-3.M7
+Soil organic carbon degradation in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 5555500000 k kkkkmmmmm 111110000000000 k kkkkmmmmm
+Disclaimer
+The national border data displayed on this map was provided by the Government of Burundi. The designations employed and the presentation of material on this map do not imply the expression of any
+opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or
+concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area of the country; offshore islands, overseas departments and territories may not be displayed due to
+cartographic limitations.
+Source Data Credits
+• International Soil Reference and Information Centre (ISRIC) SoilGrids250m dataset. URL: https://www.isric.org/explore/soilgrids
+112 / 136
+
+--- Page 113 ---
+Burundi – SO1-4.M1
+Proportion of land that is degraded over total land area (SDG Indicator 15.3.1) in the baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 5555500000 k kkkkmmmmm 111110000000000 k kkkkmmmmm
+Disclaimer
+The national border data displayed on this map was provided by the Government of Burundi. The designations employed and the presentation of material on this map do not imply the expression of any
+opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or
+concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area of the country; offshore islands, overseas departments and territories may not be displayed due to
+cartographic limitations.
+Source Data Credits
+• Derived based on the methodology in the Good Practice Guidance Version 2 for Sustainable Development Goal (SDG) indicator 15.3.1 - Proportion of land that is degraded over total land area. URL:
+https://www.unccd.int/publications/good-practice-guidance-sdg-indicator-1531-proportion-land-degraded-over-total-land
+113 / 136
+
+--- Page 114 ---
+Burundi – SO1-4.M2
+Proportion of land that is degraded over total land area (SDG Indicator 15.3.1) in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 5555500000 k kkkkmmmmm 111110000000000 k kkkkmmmmm
+Disclaimer
+The national border data displayed on this map was provided by the Government of Burundi. The designations employed and the presentation of material on this map do not imply the expression of any
+opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or
+concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area of the country; offshore islands, overseas departments and territories may not be displayed due to
+cartographic limitations.
+Source Data Credits
+• Derived based on the methodology in the Good Practice Guidance Version 2 for Sustainable Development Goal (SDG) indicator 15.3.1 - Proportion of land that is degraded over total land area. URL:
+https://www.unccd.int/publications/good-practice-guidance-sdg-indicator-1531-proportion-land-degraded-over-total-land
+114 / 136
+
+--- Page 115 ---
+Burundi – SO1-4.M3
+Progress towards Land Degradation Neutrality (LDN) in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 5555500000 k kkkkmmmmm 111110000000000 k kkkkmmmmm
+Disclaimer
+The national border data displayed on this map was provided by the Government of Burundi. The designations employed and the presentation of material on this map do not imply the expression of any
+opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or
+concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area of the country; offshore islands, overseas departments and territories may not be displayed due to
+cartographic limitations.
+Source Data Credits
+• Derived based on the methodology in the Good Practice Guidance Version 2 for Sustainable Development Goal (SDG) indicator 15.3.1 - Proportion of land that is degraded over total land area. URL:
+https://www.unccd.int/publications/good-practice-guidance-sdg-indicator-1531-proportion-land-degraded-over-total-land
+115 / 136
+
+--- Page 116 ---
+Burundi – SO1-4.M5
+Land Degradation Hotspots
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 5555500000 k kkkkmmmmm 111110000000000 k kkkkmmmmm
+Disclaimer
+The national border data displayed on this map was provided by the Government of Burundi. The designations employed and the presentation of material on this map do not imply the expression of any
+opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or
+concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area of the country; offshore islands, overseas departments and territories may not be displayed due to
+cartographic limitations.
+Source Data Credits
+• Land Degradation data derived based on the Good Practice Guidance Version 2 for Sustainable Development Goal (SDG) indicator 15.3.1 - Proportion of land that is degraded over total land area.
+• The Hot spots data displayed on this map was provided by the Government of Burundi.
+116 / 136
+
+--- Page 117 ---
+Burundi – SO1-4.M6
+Land Improvement Brightspots
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 5555500000 k kkkkmmmmm 111110000000000 k kkkkmmmmm
+Disclaimer
+The national border data displayed on this map was provided by the Government of Burundi. The designations employed and the presentation of material on this map do not imply the expression of any
+opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or
+concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area of the country; offshore islands, overseas departments and territories may not be displayed due to
+cartographic limitations.
+Source Data Credits
+• Land Degradation data derived based on the Good Practice Guidance Version 2 for Sustainable Development Goal (SDG) indicator 15.3.1 - Proportion of land that is degraded over total land area.
+• The Bright spots data displayed on this map was provided by the Government of Burundi.
+117 / 136
+
+--- Page 118 ---
+Burundi – SO1.VT.M1
+Areas of voluntary targets and related implemented actions
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 5555500000 k kkkkmmmmm 111110000000000 k kkkkmmmmm
+Disclaimer
+The national border data displayed on this map was provided by the Government of Burundi. The designations employed and the presentation of material on this map do not imply the expression of any
+opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or
+concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area of the country; offshore islands, overseas departments and territories may not be displayed due to
+cartographic limitations.
+Source Data Credits
+• Land Degradation data derived based on the Good Practice Guidance Version 2 for Sustainable Development Goal (SDG) indicator 15.3.1 - Proportion of land that is degraded over total land area.
+• The Voluntary targets data displayed on this map was provided by the Government of Burundi.
+• The Implemented actions data displayed on this map was provided by the Government of Burundi.
+118 / 136
+
+--- Page 119 ---
+Burundi – SO2-3.M1
+Total Population exposed to land degradation (baseline)
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 5555500000 k kkkkmmmmm 111110000000000 k kkkkmmmmm
+Disclaimer
+The national border data displayed on this map was provided by the Government of Burundi. The designations employed and the presentation of material on this map do not imply the expression of any
+opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or
+concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area of the country; offshore islands, overseas departments and territories may not be displayed due to
+cartographic limitations.
+Source Data Credits
+• WorldPop project URL: https://www.worldpop.org
+119 / 136
+
+--- Page 120 ---
+Burundi – SO2-3.M2
+Female Population exposed to land degradation (baseline)
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 5555500000 k kkkkmmmmm 111110000000000 k kkkkmmmmm
+Disclaimer
+The national border data displayed on this map was provided by the Government of Burundi. The designations employed and the presentation of material on this map do not imply the expression of any
+opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or
+concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area of the country; offshore islands, overseas departments and territories may not be displayed due to
+cartographic limitations.
+Source Data Credits
+• WorldPop project URL: https://www.worldpop.org
+120 / 136
+
+--- Page 121 ---
+Burundi – SO2-3.M3
+Male Population exposed to land degradation (baseline)
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 5555500000 k kkkkmmmmm 111110000000000 k kkkkmmmmm
+Disclaimer
+The national border data displayed on this map was provided by the Government of Burundi. The designations employed and the presentation of material on this map do not imply the expression of any
+opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or
+concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area of the country; offshore islands, overseas departments and territories may not be displayed due to
+cartographic limitations.
+Source Data Credits
+• WorldPop project URL: https://www.worldpop.org
+121 / 136
+
+--- Page 122 ---
+Burundi – SO2-3.M4
+Total Population exposed to land degradation (reporting)
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 5555500000 k kkkkmmmmm 111110000000000 k kkkkmmmmm
+Disclaimer
+The national border data displayed on this map was provided by the Government of Burundi. The designations employed and the presentation of material on this map do not imply the expression of any
+opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or
+concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area of the country; offshore islands, overseas departments and territories may not be displayed due to
+cartographic limitations.
+Source Data Credits
+• WorldPop project URL: https://www.worldpop.org
+122 / 136
+
+--- Page 123 ---
+Burundi – SO2-3.M5
+Female Population exposed to land degradation (reporting)
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 5555500000 k kkkkmmmmm 111110000000000 k kkkkmmmmm
+Disclaimer
+The national border data displayed on this map was provided by the Government of Burundi. The designations employed and the presentation of material on this map do not imply the expression of any
+opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or
+concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area of the country; offshore islands, overseas departments and territories may not be displayed due to
+cartographic limitations.
+Source Data Credits
+• WorldPop project URL: https://www.worldpop.org
+123 / 136
+
+--- Page 124 ---
+Burundi – SO2-3.M6
+Male Population exposed to land degradation (reporting)
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 5555500000 k kkkkmmmmm 111110000000000 k kkkkmmmmm
+Disclaimer
+The national border data displayed on this map was provided by the Government of Burundi. The designations employed and the presentation of material on this map do not imply the expression of any
+opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or
+concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area of the country; offshore islands, overseas departments and territories may not be displayed due to
+cartographic limitations.
+Source Data Credits
+• WorldPop project URL: https://www.worldpop.org
+124 / 136
+
+--- Page 125 ---
+Burundi – SO3-1.M1
+Drought hazard in first epoch of baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 5555500000 k kkkkmmmmm 111110000000000 k kkkkmmmmm
+Disclaimer
+The national border data displayed on this map was provided by the Government of Burundi. The designations employed and the presentation of material on this map do not imply the expression of any
+opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or
+concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area of the country; offshore islands, overseas departments and territories may not be displayed due to
+cartographic limitations.
+Source Data Credits
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+125 / 136
+
+--- Page 126 ---
+Burundi – SO3-1.M2
+Drought hazard in second epoch of baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 5555500000 k kkkkmmmmm 111110000000000 k kkkkmmmmm
+Disclaimer
+The national border data displayed on this map was provided by the Government of Burundi. The designations employed and the presentation of material on this map do not imply the expression of any
+opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or
+concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area of the country; offshore islands, overseas departments and territories may not be displayed due to
+cartographic limitations.
+Source Data Credits
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+126 / 136
+
+--- Page 127 ---
+Burundi – SO3-1.M3
+Drought hazard in third epoch of baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 5555500000 k kkkkmmmmm 111110000000000 k kkkkmmmmm
+Disclaimer
+The national border data displayed on this map was provided by the Government of Burundi. The designations employed and the presentation of material on this map do not imply the expression of any
+opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or
+concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area of the country; offshore islands, overseas departments and territories may not be displayed due to
+cartographic limitations.
+Source Data Credits
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+127 / 136
+
+--- Page 128 ---
+Burundi – SO3-1.M4
+Drought hazard in fourth epoch of baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 5555500000 k kkkkmmmmm 111110000000000 k kkkkmmmmm
+Disclaimer
+The national border data displayed on this map was provided by the Government of Burundi. The designations employed and the presentation of material on this map do not imply the expression of any
+opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or
+concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area of the country; offshore islands, overseas departments and territories may not be displayed due to
+cartographic limitations.
+Source Data Credits
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+128 / 136
+
+--- Page 129 ---
+Burundi – SO3-1.M5
+Drought hazard in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 5555500000 k kkkkmmmmm 111110000000000 k kkkkmmmmm
+Disclaimer
+The national border data displayed on this map was provided by the Government of Burundi. The designations employed and the presentation of material on this map do not imply the expression of any
+opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or
+concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area of the country; offshore islands, overseas departments and territories may not be displayed due to
+cartographic limitations.
+Source Data Credits
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+129 / 136
+
+--- Page 130 ---
+Burundi – SO3-2.M1
+Drought exposure in first epoch of baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 5555500000 k kkkkmmmmm 111110000000000 k kkkkmmmmm
+Disclaimer
+The national border data displayed on this map was provided by the Government of Burundi. The designations employed and the presentation of material on this map do not imply the expression of any
+opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or
+concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area of the country; offshore islands, overseas departments and territories may not be displayed due to
+cartographic limitations.
+Source Data Credits
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+130 / 136
+
+--- Page 131 ---
+Burundi – SO3-2.M2
+Drought exposure in second epoch of baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 5555500000 k kkkkmmmmm 111110000000000 k kkkkmmmmm
+Disclaimer
+The national border data displayed on this map was provided by the Government of Burundi. The designations employed and the presentation of material on this map do not imply the expression of any
+opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or
+concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area of the country; offshore islands, overseas departments and territories may not be displayed due to
+cartographic limitations.
+Source Data Credits
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+131 / 136
+
+--- Page 132 ---
+Burundi – SO3-2.M3
+Drought exposure in third epoch of baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 5555500000 k kkkkmmmmm 111110000000000 k kkkkmmmmm
+Disclaimer
+The national border data displayed on this map was provided by the Government of Burundi. The designations employed and the presentation of material on this map do not imply the expression of any
+opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or
+concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area of the country; offshore islands, overseas departments and territories may not be displayed due to
+cartographic limitations.
+Source Data Credits
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+132 / 136
+
+--- Page 133 ---
+Burundi – SO3-2.M4
+Drought exposure in fourth epoch of baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 5555500000 k kkkkmmmmm 111110000000000 k kkkkmmmmm
+Disclaimer
+The national border data displayed on this map was provided by the Government of Burundi. The designations employed and the presentation of material on this map do not imply the expression of any
+opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or
+concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area of the country; offshore islands, overseas departments and territories may not be displayed due to
+cartographic limitations.
+Source Data Credits
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+133 / 136
+
+--- Page 134 ---
+Burundi – SO3-2.M5
+Drought exposure in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 5555500000 k kkkkmmmmm 111110000000000 k kkkkmmmmm
+Disclaimer
+The national border data displayed on this map was provided by the Government of Burundi. The designations employed and the presentation of material on this map do not imply the expression of any
+opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or
+concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area of the country; offshore islands, overseas departments and territories may not be displayed due to
+cartographic limitations.
+Source Data Credits
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+134 / 136
+
+--- Page 135 ---
+Burundi – SO3-2.M6
+Female drought exposure in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 5555500000 k kkkkmmmmm 111110000000000 k kkkkmmmmm
+Disclaimer
+The national border data displayed on this map was provided by the Government of Burundi. The designations employed and the presentation of material on this map do not imply the expression of any
+opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or
+concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area of the country; offshore islands, overseas departments and territories may not be displayed due to
+cartographic limitations.
+Source Data Credits
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+135 / 136
+
+--- Page 136 ---
+Burundi – SO3-2.M7
+Male drought exposure in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 5555500000 k kkkkmmmmm 111110000000000 k kkkkmmmmm
+Disclaimer
+The national border data displayed on this map was provided by the Government of Burundi. The designations employed and the presentation of material on this map do not imply the expression of any
+opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or
+concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area of the country; offshore islands, overseas departments and territories may not be displayed due to
+cartographic limitations.
+Source Data Credits
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+136 / 136
