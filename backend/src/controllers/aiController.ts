@@ -14,7 +14,6 @@ You help users explore and understand:
 - Land cover classification statistics via custom polygon drawing
 - Data reporting and invalid data flagging
 - Pre-computed country-level statistics per layer
-- A knowledge base of official documents (policies, reports, frameworks) related to African development, environment, and geospatial data
 
 STRICT BOUNDARIES:
 - You are EXCLUSIVELY a geospatial assistant for AfriGeoData. You do NOT generate code, scripts, essays, poems, recipes, or any content unrelated to the platform.
@@ -98,17 +97,7 @@ Available tools:
    - Use when: user asks to compare, view trends, or see data across multiple periods/variations (e.g. "compare Togo SPI across all years", "show me Tunisia land cover change", "Algeria water access trends", "compare all SPI periods")
    - IMPORTANT: This is the PREFERRED tool for any comparison or multi-period request. Do NOT call get_country_stats multiple times — use this single tool instead. The backend handles finding all matching layers and querying them efficiently.
 
-KNOWLEDGE BASE:
-${knowledgeInfo}
-The knowledge base contains official government and organizational documents (policies, action plans, frameworks, reports). When a user asks about policies, regulations, official programs, or any topic that might be covered in such documents, ALWAYS use the search_knowledge tool. Do NOT guess or make up policy information — search the knowledge base first.
-
-6. search_knowledge
-   - Description: Search the platform's knowledge base of official documents for relevant information about policies, frameworks, reports, regulations, government programs, or any topic covered in official documents.
-   - Args:
-     - query (string, required): search terms describing what information is needed (e.g. "land degradation policy Benin", "water access framework Algeria")
-   - Returns: top 5 most relevant text passages from the knowledge base, with source document names and chunk references
-   - Use when: user asks about official policies, government programs, regulations, frameworks, action plans, treaties, or any topic that seems like it would be covered in official documents
-   - IMPORTANT: When a user's question involves policies, official documents, or government positions, ALWAYS use this tool. Never fabricate policy content — always search first. If no relevant documents are found, say so clearly.
+NOTE: Knowledge base search (official documents, policies, frameworks) is NOT available in this mode. If a user asks about official documents or policies, inform them that they can enable Sources mode (📄 button) to search the knowledge base of official documents.
 
 IMPORTANT TOOL RULES:
 - ALWAYS use the exact display_name from the AVAILABLE LAYERS list when calling tools. Do NOT make up or rewrite layer names.
@@ -215,6 +204,49 @@ Use "pie" or "donut" for class distributions. Each data item MUST have "name" (s
 Be concise, spatially aware, and data-driven. Focus on actionable insights.
 Respond in the same language the user uses.`;
 
+// ── Sources Mode System Prompt ────────────────────────────────────
+
+const SOURCES_MODE_SYSTEM_PROMPT = (knowledgeInfo: string) => `You are the AI Copilot for AfriGeoData in SOURCES MODE.
+
+SOURCES MODE ACTIVE.
+You MUST search the knowledge base before answering ANY question. Do not answer from general knowledge — always search first.
+
+When constructing your search query, ALWAYS include key terms in BOTH English and French:
+- Example: user asks "secheresse Algerie" -> search for "secheresse drought Algerie Algeria"
+- Example: user asks "drought policy" -> search for "drought politique de secheresse"
+- Example: user asks "land degradation Benin" -> search for "land degradation degradation des terres Benin"
+- Example: user asks "water access framework" -> search for "water access acces a l'eau framework cadre"
+
+KNOWLEDGE BASE:
+${knowledgeInfo}
+
+To search the knowledge base, respond with ONLY a valid JSON object:
+{"tools": [{"name": "search_knowledge", "args": {"query": "<your multilingual search terms>"}}]}
+
+Rules:
+- If no relevant documents are found, say so clearly. Do NOT guess or fabricate information.
+- Always cite the source document name in your response (e.g. "According to Plan National Secheresse Algerie...").
+- Keep responses focused on what the documents actually say.
+- Respond in the same language the user uses.
+- Be concise and helpful.
+
+You also have access to these database tools for geospatial data:
+
+1. get_available_layers - List map layers (args: search?, group?)
+2. get_country_stats - Get stats for country+layer (args: country, layer, group?)
+3. get_countries_for_layer - Countries with data for a layer (args: layer, group?)
+4. show_country_on_map - Show country on map (args: country, layer, group?)
+5. compare_country_layers - Compare stats across layers (args: country, search, group?)
+
+Use these tools alongside search_knowledge when the user asks about specific geospatial data.
+
+CHART GENERATION:
+When presenting numerical data with 3+ categories, include a chart:
+\`\`\`chart
+{"type": "pie", "title": "...", "data": [{"name": "...", "value": 45.2}]}
+\`\`\`
+Chart types: pie, donut, bar, horizontal-bar, line.`;
+
 const MAX_CONTEXT_MESSAGES = 20;
 const MAX_MESSAGE_LENGTH = 4000;
 
@@ -241,6 +273,7 @@ interface ToolResult {
 interface ChatRequestBody {
   sessionId: number;
   message: string;
+  sourcesMode?: boolean;
 }
 
 // ── Layer Catalog ──────────────────────────────────────────────────
@@ -868,13 +901,16 @@ function buildApiMessages(
   dbMessages: { role: string; content: string }[],
   newMessage: string,
   layerCatalog: string,
+  sourcesMode: boolean = false,
 ): ApiMessage[] {
   const knowledgeStatus = getKnowledgeStatus();
   const knowledgeInfo = knowledgeStatus.available
     ? `Available with ${knowledgeStatus.documentCount} documents (${knowledgeStatus.chunkCount} indexed chunks). Use search_knowledge to find relevant information.`
     : 'Not available (no documents indexed).';
 
-  const systemPrompt = SYSTEM_PROMPT_TEMPLATE(layerCatalog, knowledgeInfo);
+  const systemPrompt = sourcesMode
+    ? SOURCES_MODE_SYSTEM_PROMPT(knowledgeInfo)
+    : SYSTEM_PROMPT_TEMPLATE(layerCatalog, knowledgeInfo);
   const apiMessages: ApiMessage[] = [{ role: 'system', content: systemPrompt }];
 
   // Include recent messages — skip stored tool-result system messages to avoid
@@ -1187,7 +1223,7 @@ export async function chat(req: Request, res: Response) {
     aiLogger.separator();
     aiLogger.info(`=== New Chat Request [${requestId}] ===`);
 
-    const { sessionId, message }: ChatRequestBody = req.body;
+    const { sessionId, message, sourcesMode }: ChatRequestBody = req.body;
     const userId = (req as any).userId;
 
     // ── Validate input ──
@@ -1246,7 +1282,8 @@ export async function chat(req: Request, res: Response) {
     }
 
     // ── Build messages for AI ──
-    const apiMessages = buildApiMessages(dbMessages, messageText, layerCatalog);
+    const apiMessages = buildApiMessages(dbMessages, messageText, layerCatalog, !!sourcesMode);
+    aiLogger.info('Sources mode', { sourcesMode: !!sourcesMode });
 
     aiLogger.info('Context built', {
       totalDbMessages: dbMessages.length,

@@ -10,30 +10,9 @@ const API_BASE = '' // Use relative paths for reverse proxy compatibility
 
 // ── Types ──────────────────────────────────────────────────────────
 
-interface TextContentPart {
-  type: 'text'
-  text: string
-}
-
-interface ImageContentPart {
-  type: 'image_url'
-  image_url: {
-    url: string // "/api/ai-images/uuid.png"
-  }
-}
-
-type ContentPart = TextContentPart | ImageContentPart
-
 interface Message {
   role: 'user' | 'assistant'
-  content: string | ContentPart[]
-}
-
-interface PendingImage {
-  file: File
-  preview: string // object URL for preview
-  status: 'pending' | 'uploading' | 'uploaded' | 'error'
-  imageUrl?: string // "/api/ai-images/uuid.png" after upload
+  content: string
 }
 
 interface SessionMessage {
@@ -42,39 +21,8 @@ interface SessionMessage {
   created_at: string
 }
 
-// ── Helpers ────────────────────────────────────────────────────────
+// ── Markdown prose styles for assistant messages ──
 
-/** Parse a DB content string into ContentPart[] if it's multimodal JSON */
-function parseContent(raw: string): ContentPart[] {
-  if (raw.startsWith('[')) {
-    try {
-      return JSON.parse(raw) as ContentPart[]
-    } catch {
-      return [{ type: 'text', text: raw }]
-    }
-  }
-  return [{ type: 'text', text: raw }]
-}
-
-/** Extract plain text from ContentPart[] */
-function extractText(content: string | ContentPart[]): string {
-  if (typeof content === 'string') return content
-  return content
-    .filter((p): p is TextContentPart => p.type === 'text')
-    .map(p => p.text)
-    .join(' ')
-    .trim()
-}
-
-/** Extract image URLs from ContentPart[] */
-function extractImageUrls(content: string | ContentPart[]): string[] {
-  if (typeof content === 'string') return []
-  return content
-    .filter((p): p is ImageContentPart => p.type === 'image_url')
-    .map(p => p.image_url.url)
-}
-
-/* ── Markdown prose styles for assistant messages ── */
 const markdownComponents = {
   h1: ({ children }: any) => <h1 className="text-base font-bold mt-3 mb-1 text-gray-900">{children}</h1>,
   h2: ({ children }: any) => <h2 className="text-[15px] font-bold mt-3 mb-1 text-gray-900">{children}</h2>,
@@ -126,27 +74,6 @@ const markdownComponents = {
   td: ({ children }: any) => (
     <td className="px-2 py-1 border border-gray-200">{children}</td>
   ),
-}
-
-// ── Image rendering component ──────────────────────────────────────
-
-function MessageImages({ urls }: { urls: string[] }) {
-  const { t } = useTranslation('ai-copilot')
-  if (urls.length === 0) return null
-
-  return (
-    <div className={`flex flex-wrap gap-1.5 mb-1.5 ${urls.length > 1 ? 'flex-col' : ''}`}>
-      {urls.map((url, i) => (
-        <img
-          key={i}
-          src={url}
-          alt={t('alt.uploaded')}
-          className="rounded-lg max-w-full object-cover cursor-pointer hover:opacity-90 transition-opacity"
-          style={{ maxHeight: '180px' }}
-        />
-      ))}
-    </div>
-  )
 }
 
 // ── Render assistant content with charts ────────────────────────────
@@ -226,11 +153,10 @@ export default function AICopilot() {
   const [error, setError] = useState<string | null>(null)
   const [sessionId, setSessionId] = useState<number | null>(null)
   const [sessionReady, setSessionReady] = useState(false)
-  const [pendingImages, setPendingImages] = useState<PendingImage[]>([])
+  const [sourcesMode, setSourcesMode] = useState(false)
 
   const messagesEndRef = useRef<HTMLDivElement>(null)
   const abortControllerRef = useRef<AbortController | null>(null)
-  const fileInputRef = useRef<HTMLInputElement>(null)
 
   // Auto-scroll to bottom when new messages arrive
   useEffect(() => {
@@ -243,8 +169,6 @@ export default function AICopilot() {
       if (abortControllerRef.current) {
         abortControllerRef.current.abort()
       }
-      // Revoke object URLs for pending images
-      pendingImages.forEach(img => URL.revokeObjectURL(img.preview))
     }
   }, []) // eslint-disable-line react-hooks/exhaustive-deps
 
@@ -412,128 +336,26 @@ export default function AICopilot() {
     }
   }, [isOpen, sessionReady, ensureSession, getToken])
 
-  // ── Image handling ────────────────────────────────────────────
-
-  const handleImageSelect = () => {
-    fileInputRef.current?.click()
-  }
-
-  const handleFilesChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const files = e.target.files
-    if (!files) return
-
-    const allowed = ['image/png', 'image/jpeg', 'image/webp']
-
-    Array.from(files).forEach(file => {
-      if (!allowed.includes(file.type)) return
-
-      const preview = URL.createObjectURL(file)
-      setPendingImages(prev => [
-        ...prev,
-        { file, preview, status: 'pending' },
-      ])
-    })
-
-    // Reset input so same file can be selected again
-    e.target.value = ''
-  }
-
-  const removePendingImage = (index: number) => {
-    setPendingImages(prev => {
-      const img = prev[index]
-      URL.revokeObjectURL(img.preview)
-      return prev.filter((_, i) => i !== index)
-    })
-  }
-
-  /** Upload all pending images to backend and return their URLs */
-  const uploadImages = async (): Promise<string[]> => {
-    if (pendingImages.length === 0) return []
-
-    // Mark all as uploading
-    setPendingImages(prev => prev.map(img => ({ ...img, status: 'uploading' })))
-
-    const formData = new FormData()
-    pendingImages.forEach(img => {
-      formData.append('images', img.file)
-    })
-
-    try {
-      const res = await fetch(`${API_BASE}/api/ai/upload-image`, {
-        method: 'POST',
-        headers: {
-          'Authorization': `Bearer ${getToken()}`,
-        },
-        body: formData,
-      })
-
-      if (!res.ok) {
-        throw new Error(t('errors.imageUploadFailed'))
-      }
-
-      const data = await res.json()
-      const urls: string[] = data.images.map((img: { imageUrl: string }) => img.imageUrl)
-
-      setPendingImages(prev => prev.map((img, i) => ({
-        ...img,
-        status: 'uploaded',
-        imageUrl: urls[i],
-      })))
-
-      return urls
-    } catch {
-      setPendingImages(prev => prev.map(img => ({ ...img, status: 'error' })))
-      throw new Error(t('errors.failedToUploadImages'))
-    }
-  }
-
   // ── Send message ──────────────────────────────────────────────
 
   const handleSend = async () => {
     const trimmedInput = inputText.trim()
-    const hasImages = pendingImages.length > 0
 
-    if ((!trimmedInput && !hasImages) || isLoading || !sessionId) return
+    if (!trimmedInput || isLoading || !sessionId) return
 
     setError(null)
     setIsLoading(true)
 
     try {
-      // Step 1: Upload images if any
-      let imageUrls: string[] = []
-      if (hasImages) {
-        imageUrls = await uploadImages()
-      }
-
-      // Step 2: Build the message content
-      let messageToSend: string | ContentPart[]
-      const parts: ContentPart[] = []
-
-      if (trimmedInput) {
-        parts.push({ type: 'text', text: trimmedInput })
-      }
-      for (const url of imageUrls) {
-        parts.push({ type: 'image_url', image_url: { url } })
-      }
-
-      // If only text, send as plain string; otherwise send as array
-      messageToSend = parts.length === 1 && parts[0].type === 'text'
-        ? trimmedInput
-        : parts
-
-      // Step 3: Add user message to UI immediately
-      const userMessage: Message = { role: 'user', content: messageToSend }
+      // Step 1: Add user message to UI immediately
+      const userMessage: Message = { role: 'user', content: trimmedInput }
       setMessages(prev => [...prev, userMessage])
       setInputText('')
-
-      // Clear pending images
-      pendingImages.forEach(img => URL.revokeObjectURL(img.preview))
-      setPendingImages([])
 
       // Dispatch tutorial event for step advancement
       window.dispatchEvent(new CustomEvent('ai-message-sent', { detail: { sent: true } }))
 
-      // Step 4: Create placeholder for assistant response
+      // Step 2: Create placeholder for assistant response
       const assistantIndex = messages.length + 1
       setMessages(prev => [...prev, { role: 'assistant', content: '' }])
 
@@ -547,7 +369,8 @@ export default function AICopilot() {
         },
         body: JSON.stringify({
           sessionId,
-          message: messageToSend,
+          message: trimmedInput,
+          sourcesMode,
         }),
         signal: abortControllerRef.current.signal,
       })
@@ -678,20 +501,12 @@ export default function AICopilot() {
 
   const dismissError = () => setError(null)
 
-  const canSend = (inputText.trim() || pendingImages.length > 0) && !isLoading && sessionReady
+  const canSend = inputText.trim() && !isLoading && sessionReady
+
+  const toggleSourcesMode = () => setSourcesMode(prev => !prev)
 
   return (
     <>
-      {/* Hidden file input */}
-      <input
-        ref={fileInputRef}
-        type="file"
-        accept="image/png,image/jpeg,image/webp"
-        multiple
-        className="hidden"
-        onChange={handleFilesChange}
-      />
-
       {/* Toggle Button */}
       {!isOpen && (
         <button
@@ -745,8 +560,7 @@ export default function AICopilot() {
               ) : (
                 <div className="space-y-3">
                   {messages.map((msg, index) => {
-                    const imageUrls = msg.role === 'user' ? extractImageUrls(msg.content) : []
-                    const textContent = extractText(msg.content)
+                    const textContent = msg.content
 
                     return (
                       <div
@@ -767,12 +581,7 @@ export default function AICopilot() {
                               {renderAssistantContent(textContent)}
                             </div>
                           ) : (
-                            <>
-                              {/* Render images first */}
-                              <MessageImages urls={imageUrls} />
-                              {/* Then text */}
-                              {textContent && <p className="whitespace-pre-wrap">{textContent}</p>}
-                            </>
+                            <p className="whitespace-pre-wrap">{textContent}</p>
                           )}
                         </div>
                       </div>
@@ -800,53 +609,31 @@ export default function AICopilot() {
               )}
             </div>
 
-            {/* Image previews */}
-            {pendingImages.length > 0 && (
-              <div className="px-3 py-2 bg-gray-50 border-t border-gray-100">
-                <div className="flex flex-wrap gap-2">
-                  {pendingImages.map((img, i) => (
-                    <div key={i} className="relative group">
-                      <img
-                        src={img.preview}
-                        alt={t('alt.uploadPreview')}
-                        className={`w-14 h-14 rounded-lg object-cover border border-gray-200 ${
-                          img.status === 'uploading' ? 'opacity-50' : ''
-                        } ${img.status === 'error' ? 'border-red-400 opacity-70' : ''}`}
-                      />
-                      {(img.status === 'pending' || img.status === 'error') && (
-                        <button
-                          onClick={() => removePendingImage(i)}
-                          className="absolute -top-1.5 -right-1.5 w-5 h-5 bg-red-500 text-white rounded-full
-                                     flex items-center justify-center text-xs leading-none opacity-0 group-hover:opacity-100
-                                     transition-opacity hover:bg-red-600 shadow-sm"
-                        >
-                          ×
-                        </button>
-                      )}
-                      {img.status === 'uploading' && (
-                        <div className="absolute inset-0 flex items-center justify-center">
-                          <div className="animate-spin rounded-full h-5 w-5 border-2 border-white border-t-transparent" />
-                        </div>
-                      )}
-                    </div>
-                  ))}
-                </div>
-              </div>
-            )}
-
-            {/* Input */}
+            {/* Input area */}
             <div className="p-4 bg-white border-t border-gray-200 flex-shrink-0">
+              {/* Sources mode badge */}
+              {sourcesMode && (
+                <div className="mb-2 flex items-center gap-2 bg-amber-50 border border-amber-200 rounded-full px-3 py-1.5">
+                  <svg className="w-3.5 h-3.5 text-amber-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                  </svg>
+                  <span className="text-xs text-amber-700 font-medium">Answers will be sourced from official documents</span>
+                </div>
+              )}
               <div className="flex items-end gap-2">
-                {/* Attach image button */}
+                {/* Sources toggle button */}
                 <button
-                  onClick={handleImageSelect}
-                  disabled={isLoading || !sessionReady}
-                  className="flex-shrink-0 p-2 text-gray-400 hover:text-gray-600 hover:bg-gray-100
-                             rounded-lg transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
-                  title={t('input.attachImage')}
+                  onClick={toggleSourcesMode}
+                  disabled={isLoading && !sourcesMode}
+                  className={`flex-shrink-0 p-2 rounded-lg transition-colors ${
+                    sourcesMode
+                      ? 'bg-amber-100 text-amber-700 hover:bg-amber-200'
+                      : 'text-gray-400 hover:text-gray-600 hover:bg-gray-100'
+                  } disabled:opacity-50 disabled:cursor-not-allowed`}
+                  title={sourcesMode ? 'Sources mode on' : 'Enable sources mode'}
                 >
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                   </svg>
                 </button>
 

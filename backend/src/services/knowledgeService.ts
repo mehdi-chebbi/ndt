@@ -68,11 +68,16 @@ let chunks: Chunk[] | null = null;
 
 // ── Helpers ─────────────────────────────────────────────────────────
 
-/** Lowercase, strip punctuation, remove stop words */
+/** Strip diacritics so accented chars match their base form (FR accent normalization) */
+function normalizeAccents(text: string): string {
+  return text.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+}
+
+/** Lowercase, strip accents, strip punctuation, remove stop words */
 function tokenize(text: string): string[] {
-  return text
+  return normalizeAccents(text)
     .toLowerCase()
-    .replace(/[^a-zàâäéèêëïîôùûüÿçœæ0-9\s-]/g, ' ')
+    .replace(/[^a-z0-9\s-]/g, ' ')
     .split(/\s+/)
     .filter(word => word.length > 2 && !STOP_WORDS.has(word));
 }
@@ -226,8 +231,8 @@ export function searchKnowledgeBase(
   // Score every chunk
   const scored = chunks.map(chunk => {
     let score = 0;
-    const textLower = chunk.text.toLowerCase();
-    const sourceLower = `${chunk.source} ${chunk.title}`.toLowerCase();
+    const textLower = normalizeAccents(chunk.text.toLowerCase());
+    const sourceLower = normalizeAccents(`${chunk.source} ${chunk.title}`.toLowerCase());
 
     for (const term of queryTokens) {
       // Text matches (each occurrence = 1 pt)
