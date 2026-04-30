@@ -811,26 +811,76 @@ const toolRegistry: Record<string, (args: Record<string, any>) => Promise<any>> 
 // ── Tool Call Parsing ──────────────────────────────────────────────
 
 /**
+ * Extract the outermost JSON object from text using a brace-depth counter.
+ * Handles preambles, trailing text, nested objects, and markdown fences.
+ * Returns the extracted JSON string, or null if no valid object is found.
+ */
+function extractJsonObject(text: string): string | null {
+  // Step 1: Try to extract from a markdown code fence first
+  const fenceMatch = text.match(/```(?:json)?\s*([\s\S]*?)\s*```/);
+  const toParse = fenceMatch ? fenceMatch[1].trim() : text.trim();
+
+  // Step 2: Brace-depth scanner — find the first { and walk to matching }
+  const firstBrace = toParse.indexOf('{');
+  if (firstBrace === -1) return null;
+
+  let depth = 0;
+  let inString = false;
+  let escaped = false;
+  let end = -1;
+
+  for (let i = firstBrace; i < toParse.length; i++) {
+    const ch = toParse[i];
+
+    if (escaped) {
+      escaped = false;
+      continue;
+    }
+    if (ch === '\\' && inString) {
+      escaped = true;
+      continue;
+    }
+    if (ch === '"') {
+      inString = !inString;
+      continue;
+    }
+    if (inString) continue;
+
+    if (ch === '{') depth++;
+    else if (ch === '}') {
+      depth--;
+      if (depth === 0) {
+        end = i;
+        break;
+      }
+    }
+  }
+
+  if (end === -1) return null;
+  return toParse.substring(firstBrace, end + 1);
+}
+
+/**
  * Parse {"tools": [...]} from AI response.
+ * Uses brace-depth extraction + fence stripping for robustness.
  * Returns null if no valid tool call is found.
  */
 function parseDbRequest(content: string): ToolCall[] | null {
-  // Find the outermost {...} that contains "tools"
-  const match = content.match(/\{[\s\S]*?"tools"[\s\S]*\}/);
-  if (!match) return null;
+  const jsonStr = extractJsonObject(content);
+  if (!jsonStr) return null;
 
   try {
-    const parsed = JSON.parse(match[0]);
+    const parsed = JSON.parse(jsonStr);
     if (Array.isArray(parsed.tools) && parsed.tools.length > 0) {
       return parsed.tools.map((t: any) => ({
         name: String(t.name),
         args: t.args || {},
       }));
     }
-    aiLogger.warning('Parsed JSON has no valid tools array', { matched: match[0] });
+    aiLogger.warning('Parsed JSON has no valid tools array', { matched: jsonStr });
     return null;
   } catch (e) {
-    aiLogger.warning('Failed to parse tools JSON', { matched: match[0], error: e });
+    aiLogger.warning('Failed to parse tools JSON', { matched: jsonStr, error: e });
     return null;
   }
 }
@@ -959,7 +1009,55 @@ function validateAiConfig(): { ok: boolean; error?: string } {
   return { ok: true };
 }
 
-// ── Round 1: Delayed-commit streaming ─────────────────────────────
+// ── Round 1a: Non-streaming call (Sources Mode) ─────────────────
+
+/**
+ * Non-streaming AI call for Sources Mode.
+ * Since we KNOW the AI will always output a tool call in Sources Mode,
+ * there's no need for speculative streaming. Just wait for the full response.
+ *
+ * Uses temperature=0 and low max_tokens for deterministic JSON output.
+ */
+async function round1NonStreaming(messages: ApiMessage[]): Promise<string> {
+  const response = await fetch(`${process.env.AI_BASE_URL!}/chat/completions`, {
+    method: 'POST',
+    headers: buildApiHeaders(),
+    body: JSON.stringify({
+      model: process.env.AI_MODEL!,
+      messages,
+      stream: false,
+      temperature: 0,
+      max_tokens: 150,
+    }),
+  });
+
+  if (!response.ok) {
+    const errorText = await response.text();
+    throw new Error(`AI API error ${response.status}: ${errorText}`);
+  }
+
+  const data = await response.json();
+  const rawContent = data.choices?.[0]?.message?.content ?? '';
+  const rawReasoning = data.choices?.[0]?.message?.reasoning ?? '';
+
+  let content = rawContent;
+  if (!content && rawReasoning) {
+    // Only use reasoning if it contains something that looks like JSON.
+    // "Need to search knowledge." is just chain-of-thought — not parseable.
+    // {"tools": [...]} is actual JSON output placed in reasoning by some models.
+    if (rawReasoning.includes('{')) {
+      content = rawReasoning;
+      aiLogger.info('round1NonStreaming: content was null, fell back to reasoning (contains JSON)');
+    } else {
+      aiLogger.info('round1NonStreaming: content was null, reasoning is plain text — treating as empty for retry', {
+        reasoningPreview: rawReasoning.substring(0, 80),
+      });
+    }
+  }
+  return content.trim();
+}
+
+// ── Round 1b: Delayed-commit streaming (normal mode) ──────────────
 
 const TOOL_MARKER = '{"tools"';
 const SPECULATION_LIMIT = 400; // chars to buffer speculatively before committing to direct response
@@ -1321,7 +1419,149 @@ export async function chat(req: Request, res: Response) {
     res.flushHeaders();
 
     // ═══════════════════════════════════════════════════════════════
-    // ROUND 1: Delayed-commit streaming
+    // SOURCES MODE: Non-streaming Round 1
+    // We KNOW the AI will always output a tool call, so no need for
+    // speculative streaming. Emit "searching" immediately, wait for
+    // the full response, parse the tool JSON, then proceed to Round 2.
+    // ═══════════════════════════════════════════════════════════════
+
+    if (!!sourcesMode) {
+      aiLogger.info('Sources Mode: non-streaming Round 1 with retry...');
+
+      // Emit "searching" immediately — zero perceived latency
+      res.write(`data: ${JSON.stringify({ type: 'searching' })}\n\n`);
+
+      let round1Text = '';
+      let toolCalls: ToolCall[] | null = null;
+      let parseSuccess = false;
+
+      // Up to 2 attempts (initial + 1 retry)
+      for (let attempt = 1; attempt <= 2; attempt++) {
+        try {
+          if (attempt > 1) {
+            aiLogger.info(`Sources Mode: retry attempt ${attempt}...`);
+          }
+
+          round1Text = await round1NonStreaming(apiMessages);
+          toolCalls = parseDbRequest(round1Text);
+
+          if (toolCalls) {
+            parseSuccess = true;
+            aiLogger.info(`Sources Mode: tool call parsed on attempt ${attempt}`, {
+              tools: toolCalls.map((t) => t.name),
+              rawLength: round1Text.length,
+            });
+            break;
+          }
+
+          // Log raw output for debugging
+          aiLogger.warning(`Sources Mode: parse failed on attempt ${attempt}`, {
+            rawOutput: round1Text,
+            rawLength: round1Text.length,
+          });
+        } catch (error: any) {
+          aiLogger.error(`Sources Mode: Round 1 failed on attempt ${attempt}`, error);
+
+          const userError = error.message?.includes('451')
+            ? 'Your message was blocked by the content filter. Please rephrase and try again.'
+            : 'Failed to get AI response. Please try again.';
+
+          res.write(`data: ${JSON.stringify({ error: userError })}\n\n`);
+          res.end();
+          return;
+        }
+      }
+
+      // Both attempts failed to parse
+      if (!parseSuccess || !toolCalls) {
+        aiLogger.error('Sources Mode: both parse attempts failed', {
+          rawOutput: round1Text,
+        });
+
+        res.write(`data: ${JSON.stringify({ content: 'I encountered an issue searching the knowledge base. Please try again.' })}\n\n`);
+        res.write('data: [DONE]\n\n');
+        res.end();
+        return;
+      }
+
+      // ═══════════════════════════════════════════════════════════════
+      // TOOLS NEEDED — execute, then stream round 2
+      // ═══════════════════════════════════════════════════════════════
+
+      aiLogger.info(`Sources Mode: executing ${toolCalls.length} tool(s)`, {
+        tools: toolCalls.map((t) => t.name),
+      });
+
+      const toolResults = await executeTools(toolCalls);
+
+      aiLogger.info('Tool execution complete', {
+        results: toolResults.map((r) => ({ tool: r.tool, status: r.status })),
+      });
+
+      // Build DB results context for round 2
+      const sourcesDbParts = toolResults.map((r) => {
+        const resultStr = JSON.stringify(r.data, null, 2);
+        return `Tool: ${r.tool}(args: ${JSON.stringify(r.args)})\nResult: ${resultStr}`;
+      });
+
+      const sourcesDbMessage = `DATABASE QUERY RESULTS:\n\n${sourcesDbParts.join('\n\n---\n\n')}\n\nINSTRUCTIONS:\n- If any result has status "no_documents", inform the user that no relevant documents were found in the knowledge base.\n- If results have status "found", analyze the data and provide a clear, helpful response citing the source documents.\n- Respond in the same language the user uses.`;
+
+      // Save tool results as system message for conversation continuity
+      await pool.query(
+        'INSERT INTO chat_messages (session_id, role, content) VALUES ($1, $2, $3)',
+        [sessionId, 'system', sourcesDbMessage],
+      );
+
+      // ═══════════════════════════════════════════════════════════════
+      // ROUND 2: Streaming — AI analyzes search results and responds
+      // ═══════════════════════════════════════════════════════════════
+
+      aiLogger.info('Sources Mode: Round 2 — streaming AI response...');
+
+      const round2Messages: ApiMessage[] = [
+        ...apiMessages,
+        { role: 'assistant', content: JSON.stringify({ tools: toolCalls }) },
+        { role: 'system', content: sourcesDbMessage },
+        { role: 'system', content: 'IMPORTANT: You have already searched the knowledge base and received the results above. Do NOT output any tool-call JSON (like {"tools": [...]}) in your response now. Respond ONLY with natural language analysis of the documents. Never echo back the tool JSON or raw search output. Cite the source document names in your response.' },
+      ];
+
+      let round2Content: string;
+      try {
+        round2Content = await streamAiToClient(res, round2Messages, undefined, true);
+      } catch (error: any) {
+        aiLogger.error('Sources Mode: Round 2 failed', error);
+        res.write(
+          `data: ${JSON.stringify({ error: 'Failed to analyze search results. Please try again.' })}\n\n`,
+        );
+        res.end();
+        return;
+      }
+
+      if (round2Content) {
+        await pool.query(
+          'INSERT INTO chat_messages (session_id, role, content) VALUES ($1, $2, $3)',
+          [sessionId, 'assistant', round2Content],
+        );
+        await pool.query(
+          'UPDATE chat_sessions SET updated_at = CURRENT_TIMESTAMP WHERE id = $1',
+          [sessionId],
+        );
+      }
+
+      res.write('data: [DONE]\n\n');
+      res.end();
+
+      aiLogger.success(`Request [${requestId}] completed (Sources Mode)`, {
+        toolsUsed: toolCalls.map((t) => t.name),
+        toolResults: toolResults.map((r) => r.status),
+        responseLength: round2Content.length,
+      });
+      aiLogger.separator();
+      return;
+    }
+
+    // ═══════════════════════════════════════════════════════════════
+    // NORMAL MODE: Round 1 — Delayed-commit streaming
     // Buffers speculatively, scans for {"tools" marker, and commits
     // only when confident about the response type.
     // ═══════════════════════════════════════════════════════════════
