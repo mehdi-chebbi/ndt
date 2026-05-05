@@ -65,6 +65,15 @@ export default function Navbar() {
                   Stories
                 </Link>
 
+                {/* API Docs */}
+                <Link
+                  href="/api-docs"
+                  className="text-sm text-gray-400 hover:text-white transition-colors duration-200"
+                  style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.03em' }}
+                >
+                  API
+                </Link>
+
                 {/* WaterWatch Africa */}
                 <Link
                   href="/waterwatch-africa"
@@ -144,6 +153,13 @@ export default function Navbar() {
                   style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.03em' }}
                 >
                   Stories
+                </Link>
+                <Link
+                  href="/api-docs"
+                  className="text-sm text-gray-400 hover:text-white transition-colors duration-200"
+                  style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.03em' }}
+                >
+                  API
                 </Link>
                 <Link
                   href="/login"
