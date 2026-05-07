@@ -82,6 +82,7 @@ import sessionRoutes from './routes/sessionRoutes';
 import tutorialRoutes from './routes/tutorialRoutes';
 import imageRoutes from './routes/imageRoutes';
 import statsBatchRoutes from './routes/statsBatchRoutes';
+import contactRoutes from './routes/contactRoutes';
 
 app.use('/api/auth', authRoutes);
 app.use('/api/admin', userRoutes);
@@ -95,6 +96,7 @@ app.use('/api/sessions', sessionRoutes);
 app.use('/api/users', tutorialRoutes);
 app.use('/api/ai', imageRoutes);
 app.use('/api/stats', statsBatchRoutes);
+app.use('/api/contact', contactRoutes);
 
 
 // Health check

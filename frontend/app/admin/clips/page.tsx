@@ -769,15 +769,6 @@ export default function ClipManagementPage() {
           </div>
         </div>
       )}
-
-      {/* Footer */}
-      <footer className="bg-white border-t mt-auto">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-          <p className="text-center text-gray-600">
-            {t('shared.footer')}
-          </p>
-        </div>
-      </footer>
     </div>
   )
 }

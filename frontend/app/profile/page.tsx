@@ -785,15 +785,6 @@ export default function ProfilePage() {
           )}
         </div>
       </main>
-
-      {/* Footer */}
-      <footer className="mt-auto">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-          <p className="text-center text-sm text-gray-400">
-            {t('footer.copyright')}
-          </p>
-        </div>
-      </footer>
     </div>
   )
 }

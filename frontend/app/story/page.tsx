@@ -467,41 +467,6 @@ export default function StoryPage() {
           </div>
         </div>
       </section>
-
-      {/* ═══════ FOOTER ═══════ */}
-      <footer className="border-t border-white/5">
-        <div className="max-w-5xl mx-auto px-6 py-8 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <div className="flex items-center gap-2">
-            <svg width="18" height="18" viewBox="0 0 32 32" fill="none">
-              <circle
-                cx="16"
-                cy="16"
-                r="15"
-                stroke="#22c55e"
-                strokeWidth="1.5"
-                opacity="0.5"
-              />
-              <path
-                d="M8 16 Q12 10 16 16 Q20 22 24 16"
-                stroke="#22c55e"
-                strokeWidth="1.5"
-                fill="none"
-                strokeLinecap="round"
-                opacity="0.5"
-              />
-            </svg>
-            <span
-              className="text-xs text-zinc-600"
-              style={{ fontFamily: "system-ui, sans-serif" }}
-            >
-              © 2025 AfriGeoData. All rights reserved.
-            </span>
-          </div>
-          <span className="text-xs text-zinc-700">
-            Interactive data story · Built with purpose
-          </span>
-        </div>
-      </footer>
     </main>
   );
 }

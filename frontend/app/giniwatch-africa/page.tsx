@@ -722,15 +722,6 @@ export default function GiniAfricaPage() {
           ))}
         </div>
       </main>
-
-      <footer style={{ padding: '24px 64px', borderTop: '1px solid #e5e7eb', display: 'flex', justifyContent: 'space-between', alignItems: 'center', background: '#ffffff' }}>
-        <p style={{ fontFamily: "'JetBrains Mono', monospace", fontSize: '11px', letterSpacing: '0.08em', color: '#9ca3af' }}>
-          {t('footer.left')}
-        </p>
-        <p style={{ fontFamily: "'JetBrains Mono', monospace", fontSize: '11px', letterSpacing: '0.08em', color: '#9ca3af' }}>
-          {t('footer.right')}
-        </p>
-      </footer>
     </div>
   )
 }

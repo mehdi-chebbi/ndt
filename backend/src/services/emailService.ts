@@ -168,3 +168,78 @@ export async function sendReportNotification(reportData: {
     throw error;
   }
 }
+
+// Send notification email for new contact form submission
+export async function sendContactNotification(contactData: {
+  name: string;
+  email: string;
+  subject: string;
+  message: string;
+}): Promise<void> {
+  const recipients = await getNotificationRecipients();
+
+  if (recipients.length === 0) {
+    console.log('No notification recipients configured for contact form');
+    return;
+  }
+
+  const { name, email, subject, message } = contactData;
+
+  const mailOptions = {
+    from: EMAIL_USER,
+    to: recipients.join(', '),
+    subject: `[NDT Platform] Contact Us: ${subject}`,
+    html: `
+      <!DOCTYPE html>
+      <html>
+      <head>
+        <style>
+          body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+          .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+          .header { background: #1f2937; color: white; padding: 20px; border-radius: 8px 8px 0 0; }
+          .content { background: #f9fafb; padding: 20px; border: 1px solid #e5e7eb; border-top: none; }
+          .field { margin-bottom: 15px; }
+          .label { font-weight: bold; color: #6b7280; font-size: 12px; text-transform: uppercase; }
+          .value { color: #111827; margin-top: 4px; }
+          .message-box { background: white; padding: 15px; border-radius: 8px; border: 1px solid #e5e7eb; white-space: pre-wrap; }
+          .footer { text-align: center; padding: 20px; color: #6b7280; font-size: 12px; }
+          .badge { display: inline-block; padding: 4px 12px; background: #dbeafe; color: #1d4ed8; border-radius: 9999px; font-size: 12px; font-weight: bold; }
+        </style>
+      </head>
+      <body>
+        <div class="container">
+          <div class="header">
+            <h2 style="margin: 0;">New Contact Form Submission</h2>
+            <p style="margin: 5px 0 0 0; opacity: 0.8;">LDN Platform Africa — Contact Us</p>
+          </div>
+          <div class="content">
+            <div class="field">
+              <div class="label">From</div>
+              <div class="value">${name} (${email})</div>
+            </div>
+            <div class="field">
+              <div class="label">Subject</div>
+              <div class="value"><span class="badge">${subject}</span></div>
+            </div>
+            <div class="field">
+              <div class="label">Message</div>
+              <div class="message-box">${message}</div>
+            </div>
+          </div>
+          <div class="footer">
+            <p>This is an automated notification from the NDT Platform Contact Form.</p>
+          </div>
+        </div>
+      </body>
+      </html>
+    `,
+  };
+
+  try {
+    await transporter.sendMail(mailOptions);
+    console.log(`Contact notification email sent to ${recipients.length} recipient(s)`);
+  } catch (error) {
+    console.error('Error sending contact notification email:', error);
+    throw error;
+  }
+}
