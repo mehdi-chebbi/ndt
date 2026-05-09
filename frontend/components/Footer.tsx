@@ -1,10 +1,16 @@
 'use client'
 
 import Link from 'next/link'
+import { usePathname } from 'next/navigation'
 
 const sans = { fontFamily: 'system-ui, sans-serif' }
 
 export default function Footer() {
+  const pathname = usePathname()
+
+  // Don't show footer on the map page (full-viewport map)
+  if (pathname === '/map') return null
+
   return (
     <footer className="relative z-10 border-t border-white/5 bg-[#060a08]">
       <div className="max-w-7xl mx-auto px-6 lg:px-8 py-12 lg:py-16">
@@ -58,11 +64,12 @@ export default function Footer() {
             <ul className="space-y-3">
               {[
                 { label: 'Home', href: '/' },
-                { label: 'LDN in Africa', href: '#' },
-                { label: 'Geoportal', href: '/map' },
+                { label: 'LDN in Africa', href: '/ldn-in-africa' },
+                { label: 'Geoportal', href: '/geoportail' },
+                { label: 'Resources', href: '/resources' },
                 { label: 'Dashboard', href: '/dashboard' },
                 { label: 'Success stories', href: '/story' },
-                { label: 'Resources', href: '/api-docs' },
+                { label: 'API Docs', href: '/api-docs' },
                 { label: 'Connexion', href: '/login' },
               ].map((page) => (
                 <li key={page.label}>

@@ -35,6 +35,104 @@ app.use(passport.session());
 // Static serving for GeoJSON files
 app.use('/geojson', express.static(path.join(__dirname, '../geojson')));
 
+// Resources API - scan folder tree
+interface FileEntry {
+  name: string;
+  path: string;
+  type: 'file' | 'folder';
+  size?: number;
+  extension?: string;
+  children?: FileEntry[];
+}
+
+function scanDirectory(dirPath: string): FileEntry[] {
+  const entries = fs.readdirSync(dirPath, { withFileTypes: true });
+  const result: FileEntry[] = [];
+  const resourcesDir = path.join(__dirname, '../resources');
+
+  for (const entry of entries) {
+    if (entry.name.startsWith('.')) continue;
+
+    const fullPath = path.join(dirPath, entry.name);
+    // Relative path from resources root for use with /api/resources/download?file=...
+    const relativePath = path.relative(resourcesDir, fullPath).replace(/\\/g, '/');
+
+    if (entry.isDirectory()) {
+      const children = scanDirectory(fullPath);
+      result.push({
+        name: entry.name,
+        path: relativePath,
+        type: 'folder',
+        children,
+      });
+    } else if (entry.isFile()) {
+      const fileStat = fs.statSync(fullPath);
+      const ext = entry.name.split('.').pop()?.toLowerCase() || '';
+      result.push({
+        name: entry.name,
+        path: relativePath,
+        type: 'file',
+        size: fileStat.size,
+        extension: ext,
+      });
+    }
+  }
+
+  // Sort: folders first, then files — both alphabetically
+  result.sort((a, b) => {
+    if (a.type !== b.type) return a.type === 'folder' ? -1 : 1;
+    return a.name.localeCompare(b.name);
+  });
+
+  return result;
+}
+
+app.get('/api/resources', (req: Request, res: Response) => {
+  try {
+    const resourcesDir = path.join(__dirname, '../resources');
+    if (!fs.existsSync(resourcesDir)) {
+      res.json({ tree: [] });
+      return;
+    }
+    const tree = scanDirectory(resourcesDir);
+    res.json({ tree });
+  } catch (error) {
+    console.error('Error scanning resources directory:', error);
+    res.status(500).json({ tree: [] });
+  }
+});
+
+// Download individual resource files
+app.get('/api/resources/download', (req: Request, res: Response) => {
+  try {
+    const filePath = req.query.file as string;
+    if (!filePath) {
+      res.status(400).json({ error: 'Missing file parameter' });
+      return;
+    }
+
+    // Prevent directory traversal
+    const resourcesDir = path.resolve(path.join(__dirname, '../resources'));
+    const resolvedPath = path.resolve(resourcesDir, filePath);
+
+    if (!resolvedPath.startsWith(resourcesDir)) {
+      res.status(403).json({ error: 'Access denied' });
+      return;
+    }
+
+    if (!fs.existsSync(resolvedPath)) {
+      res.status(404).json({ error: 'File not found' });
+      return;
+    }
+
+    const fileName = path.basename(resolvedPath);
+    res.download(resolvedPath, fileName);
+  } catch (error) {
+    console.error('Error downloading resource:', error);
+    res.status(500).json({ error: 'Download failed' });
+  }
+});
+
 // Static serving for AI chat images
 app.use('/api/ai-images', express.static(path.join(process.cwd(), 'ai-imgs')));
 
