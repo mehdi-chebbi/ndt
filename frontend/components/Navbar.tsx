@@ -44,7 +44,7 @@ function NavDropdown({ label, children }: { label: string; children: React.React
       </button>
 
       {open && (
-        <div className="absolute top-full left-0 mt-2 w-52 rounded-lg border border-white/10 bg-[#0f1512] shadow-xl shadow-black/40 py-2 z-50">
+        <div className="absolute top-full left-0 mt-2 w-52 rounded-lg border border-white/10 bg-[#0f1512] shadow-xl shadow-black/40 py-1.5 z-50">
           {children}
         </div>
       )}
@@ -52,16 +52,22 @@ function NavDropdown({ label, children }: { label: string; children: React.React
   )
 }
 
-function DropdownLink({ href, children }: { href: string; children: React.ReactNode }) {
+function DropdownLink({ href, children, active }: { href: string; children: React.ReactNode; active?: boolean }) {
   return (
     <Link
       href={href}
-      className="block px-4 py-2.5 text-sm text-gray-400 hover:text-white hover:bg-white/[0.05] transition-colors duration-150"
+      className={`block px-4 py-2 text-sm transition-colors duration-150 ${
+        active ? 'text-green-400 bg-green-500/[0.06]' : 'text-gray-400 hover:text-white hover:bg-white/[0.05]'
+      }`}
       style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.03em' }}
     >
       {children}
     </Link>
   )
+}
+
+function DropdownSeparator() {
+  return <div className="my-1.5 border-t border-white/[0.06] mx-3" />
 }
 
 /* ── Navbar ───────────────────────────────────────────────────── */
@@ -95,6 +101,57 @@ export default function Navbar() {
     return null
   }
 
+  // Shared nav items for both auth states
+  const sharedNav = (
+    <>
+      {/* Geo dropdown */}
+      <NavDropdown label="Geo">
+        <DropdownLink href="/map" active={pathname === '/map'}>{t('navbar.map')}</DropdownLink>
+        <DropdownLink href="/geoportail" active={pathname === '/geoportail'}>Geoportal</DropdownLink>
+      </NavDropdown>
+
+      {/* Watch dropdown */}
+      <NavDropdown label="Watch">
+        <DropdownLink href="/waterwatch-africa" active={pathname === '/waterwatch-africa'}>{t('navbar.waterWatch')}</DropdownLink>
+        <DropdownLink href="/giniwatch-africa" active={pathname === '/giniwatch-africa'}>{t('navbar.giniWatch')}</DropdownLink>
+      </NavDropdown>
+
+      {/* Dashboard dropdown */}
+      <NavDropdown label="Dashboard">
+        <DropdownLink href="/ldn-dashboard" active={pathname === '/ldn-dashboard'}>LDN Dashboard</DropdownLink>
+        <DropdownLink href="/dashboard" active={pathname === '/dashboard'}>{t('navbar.dashboard')}</DropdownLink>
+        {user?.role === 'admin' && (
+          <DropdownLink href="/admin" active={pathname === '/admin'}>Admin</DropdownLink>
+        )}
+      </NavDropdown>
+
+      {/* Stories */}
+      <Link
+        href="/story"
+        className={`text-sm transition-colors duration-200 ${pathname === '/story' ? 'text-white' : 'text-gray-400 hover:text-white'}`}
+        style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.03em' }}
+      >
+        Stories
+      </Link>
+
+      {/* Doc dropdown */}
+      <NavDropdown label="Doc">
+        <DropdownLink href="/api-docs" active={pathname === '/api-docs'}>API</DropdownLink>
+        <DropdownSeparator />
+        <DropdownLink href="/resources" active={pathname === '/resources'}>Resources</DropdownLink>
+      </NavDropdown>
+
+      {/* LDN in Africa */}
+      <Link
+        href="/ldn-in-africa"
+        className={`text-sm transition-colors duration-200 ${pathname === '/ldn-in-africa' ? 'text-white' : 'text-gray-400 hover:text-white'}`}
+        style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.03em' }}
+      >
+        LDN in Africa
+      </Link>
+    </>
+  )
+
   return (
     <header className="bg-[#0a0f0d] text-white sticky top-0 z-50 border-b border-white/5">
       <div className="max-w-7xl mx-auto px-6 lg:px-8 py-4">
@@ -111,159 +168,46 @@ export default function Navbar() {
             </span>
           </Link>
 
-          <nav className="flex items-center gap-6">
+          <nav className="flex items-center gap-5">
             {isAuthenticated ? (
               <>
-                {/* LDN in Africa */}
-                <Link
-                  href="/ldn-in-africa"
-                  className="text-sm text-gray-400 hover:text-white transition-colors duration-200"
-                  style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.03em' }}
-                >
-                  LDN in Africa
-                </Link>
-
-                {/* Geo dropdown: Map + Geoportal */}
-                <NavDropdown label="Geo">
-                  <DropdownLink href="/map">{t('navbar.map')}</DropdownLink>
-                  <DropdownLink href="/geoportail">Geoportal</DropdownLink>
-                </NavDropdown>
-
-                {/* Africa Watch dropdown: WaterWatch + GiniWatch */}
-                <NavDropdown label="Africa Watch">
-                  <DropdownLink href="/waterwatch-africa">{t('navbar.waterWatch')}</DropdownLink>
-                  <DropdownLink href="/giniwatch-africa">{t('navbar.giniWatch')}</DropdownLink>
-                </NavDropdown>
-
-                {/* Stories */}
-                <Link
-                  href="/story"
-                  className="text-sm text-gray-400 hover:text-white transition-colors duration-200"
-                  style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.03em' }}
-                >
-                  Stories
-                </Link>
-
-                {/* Resources */}
-                <Link
-                  href="/resources"
-                  className="text-sm text-gray-400 hover:text-white transition-colors duration-200"
-                  style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.03em' }}
-                >
-                  Resources
-                </Link>
-
-                {/* API Docs */}
-                <Link
-                  href="/api-docs"
-                  className="text-sm text-gray-400 hover:text-white transition-colors duration-200"
-                  style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.03em' }}
-                >
-                  API
-                </Link>
-
-                {/* LDN Dashboard */}
-                <Link
-                  href="/ldn-dashboard"
-                  className="text-sm text-green-400 hover:text-green-300 transition-colors duration-200"
-                  style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.03em' }}
-                >
-                  LDN Dashboard
-                </Link>
-
-                {/* Dashboard */}
-                <Link
-                  href={user?.role === 'admin' ? '/admin' : '/dashboard'}
-                  className="text-sm text-gray-400 hover:text-white transition-colors duration-200"
-                  style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.03em' }}
-                >
-                  {t('navbar.dashboard')}
-                </Link>
+                {sharedNav}
 
                 {/* Reports - Admin only */}
                 {user?.role === 'admin' && (
                   <Link
                     href="/reports"
-                    className="text-sm text-gray-400 hover:text-white transition-colors duration-200"
+                    className={`text-sm transition-colors duration-200 ${pathname === '/reports' ? 'text-white' : 'text-gray-400 hover:text-white'}`}
                     style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.03em' }}
                   >
-                    {t('navbar.reports')}
+                    Reports
                   </Link>
                 )}
 
-                {/* Profile */}
-                <Link
-                  href="/profile"
-                  className="text-sm text-gray-400 hover:text-white transition-colors duration-200"
-                  style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.03em' }}
-                >
-                  {t('navbar.profile')}
-                </Link>
+                {/* Separator */}
+                <div className="w-px h-5 bg-white/10" />
 
-                {/* User greeting */}
-                <span className="text-sm text-gray-400 hidden sm:block" style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.03em' }}>
-                  {t('navbar.greeting')} {user?.name}
-                </span>
+                {/* User menu */}
+                <NavDropdown label={user?.name || 'Account'}>
+                  <DropdownLink href="/profile" active={pathname === '/profile'}>{t('navbar.profile')}</DropdownLink>
+                  <DropdownSeparator />
+                  <button
+                    onClick={handleLogout}
+                    className="w-full text-left block px-4 py-2 text-sm text-gray-400 hover:text-white hover:bg-white/[0.05] transition-colors duration-150"
+                    style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.03em', background: 'none', border: 'none', cursor: 'pointer' }}
+                  >
+                    {t('common:signOut')}
+                  </button>
+                </NavDropdown>
 
-                {/* Logout */}
-                <button
-                  onClick={handleLogout}
-                  className="text-sm text-gray-400 hover:text-white transition-colors duration-200"
-                  style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.03em', background: 'none', border: 'none', cursor: 'pointer' }}
-                >
-                  {t('common:signOut')}
-                </button>
                 <LanguageSwitcher />
               </>
             ) : (
               <>
-                {/* LDN in Africa */}
-                <Link
-                  href="/ldn-in-africa"
-                  className="text-sm text-gray-400 hover:text-white transition-colors duration-200"
-                  style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.03em' }}
-                >
-                  LDN in Africa
-                </Link>
+                {sharedNav}
 
-                {/* Geo dropdown: Map + Geoportal */}
-                <NavDropdown label="Geo">
-                  <DropdownLink href="/map">{t('navbar.map')}</DropdownLink>
-                  <DropdownLink href="/geoportail">Geoportal</DropdownLink>
-                </NavDropdown>
-
-                {/* Africa Watch dropdown: WaterWatch + GiniWatch */}
-                <NavDropdown label="Africa Watch">
-                  <DropdownLink href="/waterwatch-africa">{t('navbar.waterWatch')}</DropdownLink>
-                  <DropdownLink href="/giniwatch-africa">{t('navbar.giniWatch')}</DropdownLink>
-                </NavDropdown>
-
-                {/* Stories */}
-                <Link
-                  href="/story"
-                  className="text-sm text-gray-400 hover:text-white transition-colors duration-200"
-                  style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.03em' }}
-                >
-                  Stories
-                </Link>
-
-                {/* Resources */}
-                <Link
-                  href="/resources"
-                  className="text-sm text-gray-400 hover:text-white transition-colors duration-200"
-                  style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.03em' }}
-                >
-                  Resources
-                </Link>
-
-                {/* API Docs */}
-                <Link
-                  href="/api-docs"
-                  className="text-sm text-gray-400 hover:text-white transition-colors duration-200"
-                  style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.03em' }}
-                >
-                  API
-                </Link>
+                {/* Separator */}
+                <div className="w-px h-5 bg-white/10" />
 
                 {/* Sign In */}
                 <Link
