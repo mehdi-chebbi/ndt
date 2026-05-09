@@ -1,0 +1,32 @@
+{
+  "title": "Créer un compte",
+  "subtitle": "Inscrivez-vous pour commencer",
+  "fullNameLabel": "Nom complet",
+  "fullNamePlaceholder": "Jean Dupont",
+  "emailLabel": "Adresse e-mail",
+  "emailPlaceholder": "vous@exemple.com",
+  "passwordLabel": "Mot de passe",
+  "passwordPlaceholder": "Min. 6 caractères",
+  "confirmPasswordLabel": "Confirmer le mot de passe",
+  "confirmPasswordPlaceholder": "Retapez le mot de passe",
+  "profileInfo": "Informations du profil",
+  "countryPlaceholder": "Rechercher ou sélectionner votre pays",
+  "phoneNumberLabel": "Numéro de téléphone",
+  "jobTitleLabel": "Poste",
+  "jobTitlePlaceholder": "ex. Chercheur, Data Scientist",
+  "institutionLabel": "Établissement / Organisation",
+  "institutionPlaceholder": "ex. Université de Lagos",
+  "creatingAccount": "Création du compte...",
+  "createAccountButton": "Créer un compte",
+  "orContinueWith": "Ou continuer avec",
+  "signUpWithGoogle": "S'inscrire avec Google",
+  "signUpWithMicrosoft": "S'inscrire avec Microsoft",
+  "haveAccount": "Vous avez déjà un compte ?",
+  "signInLink": "Se connecter",
+  "errors": {
+    "passwordsDoNotMatch": "Les mots de passe ne correspondent pas",
+    "passwordTooShort": "Le mot de passe doit contenir au moins 6 caractères",
+    "allFieldsRequired": "Veuillez remplir tous les champs",
+    "signupFailed": "Échec de l'inscription"
+  }
+}

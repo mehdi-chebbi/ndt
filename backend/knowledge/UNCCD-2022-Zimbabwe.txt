@@ -1,0 +1,2932 @@
+--- Page 1 ---
+United Nations Convention to Combat Desertification
+Performance review and assessment of implementation system
+Seventh reporting process
+Report from
+Zimbabwe
+This report has been submitted by the government of Zimbabwe to the United Nations Convention to Combat Desertification
+(UNCCD).
+The designations employed and the presentation of material in this report do not imply the expression of any opinion
+whatsoever on the part of the UNCCD concerning the legal status of any country, territory, city or area or of its authorities, or
+concerning the delimitation of its frontiers or boundaries.
+1 March 2023
+
+--- Page 2 ---
+Contents
+1. SO: Strategic objectives
+A. SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote
+sustainable land management and contribute to land degradation neutrality.
+SO1-1 Trends in land cover
+SO1-2 Trends in land productivity or functioning of the land
+SO1-3 Trends in carbon stocks above and below ground
+SO1-4 Proportion of degraded land over the total land area
+SO1 Voluntary Targets
+B. SO-2: To improve the living conditions of affected populations.
+SO2-1 Trends in population living below the relative poverty line and/or income inequality in affected
+areas
+SO2-2 Trends in access to safe drinking water in affected areas
+SO2-3 Trends in the proportion of population exposed to land degradation disaggregated by sex
+SO2 Voluntary Targets
+C. SO-3: To mitigate, adapt to, and manage the effects of drought in order to enhance resilience of vulnerable
+populations and ecosystems.
+SO3-1 Trends in the proportion of land under drought over the total land area
+SO3-2 Trends in the proportion of the population exposed to drought
+SO3-3 Trends in the degree of drought vulnerability
+SO3 Voluntary Targets
+D. SO-4: To generate global environmental benefits through effective implementation of the United Nations
+Convention to Combat Desertification.
+SO4-1 Trends in carbon stocks above and below ground
+SO4-2 Trends in abundance and distribution of selected species
+SO4-3 Proportion of important sites for terrestrial and freshwater biodiversity that are covered by
+protected areas, by ecosystem type
+SO4 Voluntary Targets
+E. SO-5: To mobilize substantial and additional financial and non-financial resources to support the
+implementation of the Convention by building effective partnerships at global and national level
+SO5-1 Bilateral and multilateral public resources
+SO5-2 Domestic public resources
+SO5-3 International and domestic private resources
+SO5-4 Technology transfer
+SO5-5 Future support for activities related to the implementation of the Convention
+2. IF: Implementation Framework
+A. Financial and Non-Financial Sources
+B. Policy and Planning
+C. Action on the Ground
+3. RC: Recalculations
+4. Other files for Reporting
+5. Templated Maps
+A. Land cover in the initial year of the baseline period
+B. Land cover in the baseline year
+C. Land cover in the latest reporting year
+D. Land cover change in the baseline period
+E. Land cover change in the reporting period
+F. Land cover degradation in the baseline period
+G. Land cover degradation in the reporting period
+H. Land productivity dynamics in the baseline period
+I. Land productivity dynamics in the reporting period
+J. Land productivity degradation in the baseline period
+K. Land productivity degradation in the reporting period
+L. Soil organic carbon stock in the initial year of the baseline period
+M. Soil organic carbon stock in the baseline year
+N. Soil organic carbon stock in the latest reporting year
+2 / 97
+
+--- Page 3 ---
+O. Change in soil organic carbon stock in the baseline period
+P. Change in soil organic carbon stock in the reporting period
+Q. Soil organic carbon degradation in the baseline period
+R. Soil organic carbon degradation in the reporting period
+S. Proportion of land that is degraded over total land area (SDG Indicator 15.3.1) in the baseline period
+T. Proportion of land that is degraded over total land area (SDG Indicator 15.3.1) in the reporting period
+U. Progress towards Land Degradation Neutrality (LDN) in the reporting period
+V. Total Population exposed to land degradation (baseline)
+W. Female Population exposed to land degradation (baseline)
+X. Male Population exposed to land degradation (baseline)
+Y. Total Population exposed to land degradation (reporting)
+Z. Female Population exposed to land degradation (reporting)
+AA. Male Population exposed to land degradation (reporting)
+AB. Drought hazard in first epoch of baseline period
+AC. Drought hazard in second epoch of baseline period
+AD. Drought hazard in third epoch of baseline period
+AE. Drought hazard in fourth epoch of baseline period
+AF. Drought hazard in the reporting period
+AG. Drought exposure in first epoch of baseline period
+AH. Drought exposure in second epoch of baseline period
+AI. Drought exposure in third epoch of baseline period
+AJ. Drought exposure in fourth epoch of baseline period
+AK. Drought exposure in the reporting period
+AL. Female drought exposure in the reporting period
+AM. Male drought exposure in the reporting period
+3 / 97
+
+--- Page 4 ---
+4 / 97
+
+--- Page 5 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+SO1-1 Trends in land cover
+Land area
+SO1-1.T1: National estimates of the total land area, the area covered by water bodies and total country area
+Year Total land area (km²) Water bodies (km²) Total country area (km²) Comments
+2 001 386 595 4 449 391 044 Verified as correct
+2 005 386 605 4 439 391 044 Verified as correct
+2 010 386 613 4 431 391 044 Verified as correct
+2 015 386 605 4 439 391 044 Verified as correct
+2 019 386 518 4 526 391 044 Verified as correct
+Land cover legend and transition matrix
+SO1-1.T2: Key Degradation Processes
+Degradation Process Starting Land Cover Ending Land Cover
+Deforestation Tree-covered areas Croplands
+Vegetation Loss Grasslands Croplands
+Urban Expansion Croplands Artificial surfaces
+Wetland Drainage Wetlands Croplands
+Are the seven UNCCD land cover classes sufficient to monitor the key degradation processes in your country?
+Yes
+No
+SO1-1.T4: UNCCD land cover legend transition matrix
+Original/ Final Tree-covered areas Grasslands Croplands Wetlands Artificial surfaces Other Lands Water bodies
+Tree-covered areas - + + - - - 0
+Grasslands + 0 + - - - 0
+Croplands + - 0 - - - 0
+Wetlands - - - 0 - - 0
+Artificial surfaces + + + + 0 + 0
+Other Lands + + + + - 0 0
+Water bodies 0 0 0 0 0 0 0
+Land cover
+SO1-1.T5: National estimates of land cover (km²) for the baseline and reporting period
+Other
+Tree-covered Grasslands Croplands Wetlands Artificial Water No data
+Lands
+areas (km²) (km²) (km²) (km²) surfaces (km²) bodies (km²) (km²)
+(km²)
+2000 113 354 129 112 142 475 288 414 952 4 450
+2001 113 368 128 732 142 837 290 416 952 4 449
+2002 113 300 127 308 144 323 293 421 953 4 447
+5 / 97
+
+--- Page 6 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Tree-covered Grasslands Croplands Wetlands Artificial Other Lands Water No data
+areas (km²) (km²) (km²) (km²) surfaces (km²) (km²) bodies (km²) (km²)
+2003 113 299 126 632 144 997 293 424 952 4 447
+2004 113 797 125 936 145 192 294 427 953 4 446
+2005 113 719 125 869 145 305 297 461 954 4 440
+2006 114 083 125 547 145 256 297 470 953 4 439
+2007 113 644 125 165 146 068 297 480 951 4 439
+2008 114 341 124 365 146 162 294 492 949 4 441
+2009 115 786 123 413 145 674 284 503 944 4 441
+2010 115 872 123 325 145 667 285 519 944 4 432
+2011 115 917 123 252 145 686 285 529 943 4 434
+2012 115 725 123 229 145 883 287 551 942 4 429
+2013 115 803 123 120 145 868 286 598 940 4 429
+2014 116 184 122 857 145 713 287 627 938 4 439
+2015 116 180 122 853 145 711 287 637 938 4 439
+2016 118 180 121 610 144 939 286 664 927 4 439
+2017 119 221 121 026 144 391 283 679 921 4 523
+2018 119 602 120 724 144 309 283 687 913 4 527
+2019 119 627 120 622 144 334 283 739 911 4 527
+2020
+Land cover change
+SO1-1.T6: National estimates of land cover change (km²) for the baseline period
+Artificial Other Water
+Tree-covered Grasslands Croplands Wetlands Total
+surfaces Lands bodies
+areas (km²) (km²) (km²) (km²) (km²)
+(km²) (km²) (km²)
+Tree-covered 113
+109 491 2 020 1 679 18 136 6 3
+areas (km²) 353
+Grasslands 129
+3 497 120 613 4 921 0 72 1 7
+(km²) 111
+142
+Croplands (km²) 3 149 209 139 097 0 13 0 6
+474
+Wetlands (km²) 22 0 0 265 0 0 2 289
+Artificial
+0 0 0 0 414 0 0 414
+surfaces (km²)
+Other Lands
+12 1 8 0 1 929 0 951
+(km²)
+Water bodies
+8 10 6 3 0 1 4 422 4 450
+(km²)
+Total 116 179 122 853 145 711 286 636 937 4 440
+SO1-1.T7: National estimates of land cover change (km²) for the reporting period
+6 / 97
+
+--- Page 7 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Artificial Other Water
+Tree-covered Grasslands Croplands Wetlands Total land
+surfaces Lands bodies
+areas (km²) (km²) (km²) (km²) area (km²)
+(km²) (km²) (km²)
+Tree-covered
+115 663 251 180 4 46 1 35 116 180
+areas (km²)
+Grasslands
+2 335 120 186 285 0 34 4 9 122 853
+(km²)
+Croplands
+1 613 183 143 858 0 12 1 44 145 711
+(km²)
+Wetlands (km²) 7 0 0 279 1 0 0 287
+Artificial
+0 0 0 0 637 0 0 637
+surfaces (km²)
+Other Lands
+11 1 11 0 9 905 0 937
+(km²)
+Water bodies
+0 0 0 0 0 0 4 439 4 439
+(km²)
+Total 119 629 120 621 144 334 283 739 911 4 527
+Land cover degradation
+SO1-1.T8: National estimates of land cover degradation (km²) in the baseline period
+Area (km²) Percent of total land area (%)
+Land area with degraded land cover 4 179 1 .1
+Land area with non-degraded land cover 386 864 98 .9
+Land area with no land cover data 0 0 .0
+SO1-1.T9: National estimates of land cover degradation (km²) in the reporting period
+Area (km²) Percent of total land area (%)
+Land area with improved land cover 4 254 1 .1
+Land area with stable land cover 386 056 98 .7
+Land area with degraded land cover 733 0 .2
+Land area with no land cover data 0 0 .0
+General comments
+Area with improved landcover increased due to cropland turning fallow, consequently experiencing regenerative forest growth throughout
+the rural areas of the country. This occurred particularly in cotton-growing regions due to the abandonment of cotton growing in response
+to the poor market prices of seed cotton.
+7 / 97
+
+--- Page 8 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+SO1-2 Trends in land productivity or functioning of the land
+Land productivity dynamics
+SO1-2.T1: National estimates of land productivity dynamics (in km²) within each land cover class for the
+baseline period
+Net land productivity dynamics (km²) for the baseline period
+Land cover class
+Declining (km²) Moderate Decline (km²) Stressed (km²) Stable (km²) Increasing (km²) No Data (km²)
+Tree-covered areas 9 9 660 46 704 19 703 33 406 9
+Grasslands 7 11 795 43 422 21 258 44 104 28
+Croplands 8 7 842 49 433 30 664 51 136 14
+Wetlands 0 14 63 42 143 3
+Artificial surfaces 0 14 115 139 146 0
+Other Lands 0 23 230 289 387 0
+Water bodies 2 85 697 549 611 2 477
+SO1-2.T2: National estimates of land productivity dynamics (in km²) within each land cover class for the
+reporting period.
+Net land productivity dynamics (km²) for the reporting period
+Land cover class
+Declining (km²) Moderate Decline (km²) Stressed (km²) Stable (km²) Increasing (km²) No Data (km²)
+Tree-covered areas 4 6 803 29 486 30 703 44 030 14
+Grasslands 6 7 186 37 855 37 376 36 409 17
+Croplands 4 6 200 40 667 35 748 58 422 11
+Wetlands 1 9 56 73 125 3
+Artificial surfaces 0 14 223 82 142 0
+Other Lands 1 56 234 173 439 0
+Water bodies 57 194 892 320 483 2 477
+SO1-2.T3: National estimates of land productivity dynamics for areas where a land conversion to a new land
+cover class has taken place (in km²) for the baseline period.
+Land Conversion Net land productivity dynamics (km²) for the baseline period
+Net area change Declining Moderate Decline Stressed Stable Increasing
+From To
+(km²) (km²) (km²) (km²) (km²) (km²)
+Grasslands Croplands 4 921 0 383 1 565 1 016 1 956
+Tree-covered
+Grasslands 3 497 0 192 713 704 1 888
+areas
+Tree-covered
+Croplands 3 149 0 117 688 746 1 599
+areas
+Tree-covered
+Grasslands 2 020 1 258 1 322 187 252
+areas
+SO1-2.T4: National estimates of land productivity dynamics for areas where a land conversion to a new land
+cover class has taken place (in km²) for the reporting period.
+Land Conversion Net land productivity dynamics (km²) for the reporting period
+8 / 97
+
+--- Page 9 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Net area change Declining Moderate Decline Stressed Stable Increasing
+From To
+(km²) (km²) (km²) (km²) (km²) (km²)
+Tree-covered
+Grasslands 4 672 0 220 803 1 761 1 887
+areas
+Tree-covered
+Croplands 3 862 0 128 621 1 282 1 832
+areas
+Grasslands Croplands 2 235 0 75 566 387 1 207
+Tree-covered
+Grasslands 1 448 0 140 614 337 357
+areas
+Land Productivity degradation
+SO1-2.T5: National estimates of land productivity degradation in the baseline period
+Area (km²) Percent of total land area (%)
+Land area with degraded land productivity 30 445 7 .9
+Land area with non-degraded land productivity 356 094 92 .1
+Land area with no land productivity data 54 0 .0
+SO1-2.T6: National estimates of land productivity degradation in the reporting period
+Area (km²) Percent of total land area (%)
+Land area with improved land productivity 145 276 37 .6
+Land area with stable land productivity 220 314 57 .0
+Land area with degraded land productivity 20 968 5 .4
+Land area with no land productivity data 46 0 .0
+General comments
+9 / 97
+
+--- Page 10 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+SO1-3 Trends in carbon stocks above and below ground
+Soil organic carbon stocks
+SO1-3.T1: National estimates of the soil organic carbon stock in topsoil (0-30 cm) within each land cover
+class (in tonnes per hectare).
+Soil organic carbon stock in topsoil (t/ha)
+Year
+Tree-covered areas Grasslands Croplands Wetlands Artificial surfaces Other Lands Water bodies
+2000 47 38 34 63 63 50 9
+2001 47 38 34 63 62 50 9
+2002 47 39 33 62 62 50 9
+2003 47 39 33 62 61 50 9
+2004 46 39 33 62 61 50 9
+2005 47 39 33 61 56 50 9
+2006 46 39 33 61 55 50 9
+2007 47 39 33 61 54 50 9
+2008 46 40 33 62 53 50 9
+2009 46 40 33 64 52 51 9
+2010 46 40 33 64 50 51 9
+2011 46 40 33 64 49 51 9
+2012 46 40 33 63 47 51 9
+2013 46 40 33 63 43 51 9
+2014 46 40 33 63 41 51 9
+2015 47 39 33 62 43 50 10
+2016 46 40 33 63 42 50 10
+2017 46 40 33 63 41 51 9
+2018 45 40 33 63 40 51 9
+2019 45 40 33 63 37 51 9
+2020
+If you opted not to use default Tier 1 data, what did you use to calculate the estimates above?
+Modified Tier 1 methods and data
+Tier 2 (additional use of country-specific data)
+Tier 3 (more complex methods involving ground measurements and modelling)
+SO1-3.T2: National estimates of the change in soil organic carbon stock in soil due to land conversion to a
+new land cover class in the baseline period
+Land Conversion Soil organic carbon (SOC) stock change in the baseline period
+Net area Initial SOC Final SOC Initial SOC Final SOC SOC stock
+From To
+change (km²) stock (t/ha) stock (t/ha) stock total (t) stock total (t) change (t)
+Tree-covered
+Croplands 3 149 43 .8 48 .1 13 800 230 15 136 103 1 335 873
+areas
+10 / 97
+
+--- Page 11 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Land Conversion Soil organic carbon (SOC) stock change in the baseline period
+Net area Initial SOC Final SOC Initial SOC Final SOC SOC stock
+From To
+change (km²) stock (t/ha) stock (t/ha) stock total (t) stock total (t) change (t)
+Tree-covered
+Grasslands 2 020 43 .5 43 .5 8 789 516 8 789 516 0
+areas
+Tree-covered
+Grasslands 3 497 44 .7 44 .7 15 622 521 15 622 378 -143
+areas
+Grasslands Croplands 4 921 26 .8 23 .3 13 201 459 11 462 270 -1 739 189
+SO1-3.T3: National estimates of the change in soil organic carbon stock in soil due to land conversion to a
+new land cover class in the reporting period
+Land Conversion Soil organic carbon (SOC) stock change in the reporting period
+Net area Initial SOC Final SOC Initial SOC Final SOC SOC stock
+From To
+change (km²) stock (t/ha) stock (t/ha) stock total (t) stock total (t) change (t)
+Tree-covered
+Croplands 1 613 38 .6 39 .6 6 230 424 6 393 542 163 118
+areas
+Tree-covered
+Grasslands 251 49 .3 49 .3 1 237 820 1 238 032 212
+areas
+Tree-covered
+Grasslands 2 335 39 .3 39 .3 9 171 481 9 171 642 161
+areas
+Grasslands Croplands 285 36 .4 35 .3 1 037 144 1 005 072 -32 072
+Soil organic carbon stock degradation
+SO1-3.T4: National estimates of soil organic carbon stock degradation in the baseline period
+Area (km²) Percent of total land area (%)
+Land area with degraded soil organic carbon (SOC) 4 126 1 .1
+Land area with non-degraded SOC 382 271 98 .9
+Land area with no SOC data 195 0 .1
+SO1-3.T5: National estimates of SOC stock degradation in the reporting period
+Area (km²) Percent of total land area (%)
+Land area with improved SOC 38 0 .0
+Land area with stable SOC 386 094 99 .9
+Land area with degraded SOC 267 0 .1
+Land area with no SOC data 204 0 .1
+General comments
+11 / 97
+
+--- Page 12 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+SO1-4 Proportion of degraded land over the total land area
+Proportion of degraded land over the total land area (Sustainable Development Goal Indicator 15.3.1)
+SO1-4.T1: National estimates of the total area of degraded land (in km²), and the proportion of degraded land
+relative to the total land area
+Total area of degraded land (km²) Proportion of degraded land over the total land area (%)
+Baseline Period 37 127 9 .6
+Reporting Period 35 656 9 .2
+Change in degraded extent -1471
+Method
+Did you use the SO1-1, SO1-2 and SO1-3 indicators (i.e. land cover, land productivity dynamics and soil organic carbon
+stock) to compute the proportion of degraded land?
+Which indicators did you use?
+☐ Land Cover
+☐ Land Productivity Dynamics
+☒ SOC Stock
+Did you apply the one-out, all-out principle to compute the proportion of degraded land?
+Yes
+No
+Level of Confidence
+Indicate your country’s level of confidence in the assessment of the proportion of degraded land:
+High (based on comprehensive evidence)
+Medium (based on partial evidence)
+Low (based on limited evidence)
+Describe why the assessment has been given the level of confidence selected above:
+We validated the World SOC data with field data for Zimbabwe.
+False positives/ False negatives
+SO1-4.T3: Justify why any area identified as degraded or non-degraded in the SO1-1, SO1-2 or SO1-3 indicator
+data should or should not be included in the overall Sustainable Development Goal indicator 15.3.1
+calculation.
+Location Name Type Recode Options Area (km²) Process driving false +/- outcome Basis for Judgement Edit Polygon
+Perform qualitative assessments of areas identified as degraded or improved
+SO1-4.T4: Degradation hotspots
+Action(s) taken to redress
+Remediating
+Direct drivers of degradation in terms of
+Area Assessment action(s) (both Edit
+Hotspots Location land degradation Land Degradation
+(km²) Process forward-looking and Polygon
+hotspots Neutrality response
+current)
+hierarchy
+Total no. of
+0
+hotspots
+Total
+hotspot 0
+area
+What is/are the indirect driver(s) of land degradation at the national level?
+12 / 97
+
+--- Page 13 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+1. Economic
+2. Demographic
+3. Science, knowledge and technology
+4. Cultural
+5. Institutions and governance
+SO1-4.T5: Improvement brightspots
+What action(s) led to the brightspot in Implementing action(s)
+Area Assessment Edit
+Brightspots Location terms of the Land Degradation (both forward-looking and
+(km²) Process Polygon
+Neutrality hierarchy? current)
+Total no. of brightpots 0
+Total brightspot area 0
+What are the enabling and instrumental responses at the national level driving the occurrence of brightspots?
+1. Climate change adaptation planning
+2. Protected areas
+3. Integrated landscape planning
+4. Responses to the adverse effects of globalisation, demographic change, migration
+5. Legal and regulatory instruments
+�. Institutional and policy reform
+7.
+�.
+9.
+10.
+General comments
+National programmes like Tobacco wood energy contributed significantly. Tobacco farmers are growing woodlots.
+13 / 97
+
+--- Page 14 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land management and contribute to land
+degradation neutrality.
+SO1 Voluntary Targets
+SO1-VT.T1: Voluntary Land Degradation Neutrality targets and other targets relevant to strategic objective 1
+Overarching
+type of Is this an LDN Which other
+Total
+Land Status of target? If so, important goals
+Target Edit
+Target Year Location(s) Degradation Targeted action(s) target under which are also being
+Area Polygon
+Neutrality achievement process was it addressed by this
+(km²)
+(LDN) defined/adopted? target?
+intervention
+• Restore/improve tree-
+covered areas
+◦ Reduce/halt
+• Convention
+deforestation and
+on Biological
+conversion of tree
+Diversity –
+cover to other land
+National
+cover types (e.g.
+Biodiversity
+conserving forest
+Strategies
+land)
+Reforestation with local M Ch h i o vi n , doro, ◦ Restore/improve Yes a P n la d n A s c & tion
+a 4 n 5 d 5 e 2 x 5 o 0 t i h c e s c p ta e r c e i s e s o o f n 6 S H h w a a m ng va e , , 66 ☐ Avoid ◦ g In r c a r s e s a la s n e d la s nd No N Ta a r t g io e n ts al
+forest converted to 2030 Umzingwane, 703 ☐ Reduce productivity in tree Ongoing Participation in
+shrubs and on 215 050 Chipinge and ☒ Reverse covered areas the LDN Target • United
+hectares of forest Zvishavane ◦ Restore tree-covered Setting Nations
+converted to cropland districts areas Programme Framework
+◦ Improve tree cover Convention
+management e.g. fire on Climate
+management Change –
+Nationally
+• Increase tree-covered Determined
+area extent Contributions
+◦ Increase tree covered
+land (net gain) e.g.
+plantations
+• Restore/improve tree-
+covered areas
+◦ Reduce/halt
+• Convention
+deforestation and
+on Biological
+conversion of tree
+Diversity –
+cover to other land
+National
+cover types (e.g.
+Biodiversity
+conserving forest
+Strategies
+land)
+Avoid further decline of Mhondoro, ◦ Restore/improve Yes and Action
+forest through Chivi, grasslands Plans &
+economic incentives Shamva, ☒ Avoid ◦ Increase land No National
+( h s d r h e e e o c c h t l w a i a n b i r n e e il g s i a t a n e o t a d f i o r l h l a n y a n ) s v d o i i g n f n g 2 s a 8 o 2 f 0 2030 H U C Zv m h w i i s p a z h i n i n n a g g g v e e w a , n a a e n n e d , 28 .2 ☐ ☐ R R e ev d e u r c s e e ◦ p c R o r e o v s d e to u re r c e d t i t v a r i r e t e y e a - i c n s o t v re e e red Ongoing P t S h e a e t r t t L i i n c D g i N pa T ti a o r n g e in t • T N U a n a r i t g t i e o e d n ts s
+declining productivity districts ◦ a Im re p a r s ove tree cover Programme F C r o a n m ve e n w t o io rk n
+management e.g. fire on Climate
+management Change –
+Nationally
+• Increase tree-covered Determined
+area extent Contributions
+◦ Increase tree covered
+land (net gain) e.g.
+plantations
+Sum of all targeted areas
+Total
+75 387 .9
+14 / 97
+
+--- Page 15 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land management and contribute to land
+degradation neutrality.
+Overarching
+Is this an LDN Which other
+Total type of Land
+Status of target? If so, important goals
+Target Degradation Edit
+Target Year Location(s) Targeted action(s) target under which are also being
+Area Neutrality Polygon
+achievement process was it addressed by this
+(km²) (LDN)
+defined/adopted? target?
+intervention
+• Convention
+on Biological
+Diversity –
+National
+Improve sustainable Biodiversity
+land management Strategies
+practices to avoid soil Mhondoro, Yes and Action
+and gully erosion, Chivi, Plans &
+encourage and enforce Shamva, ☒ Avoid No National
+a r h a p e t c p e t r s a o r o p e n r s i a 1 o t 7 e f 5 s s h 2 to r 5 u k 0 b in s g , 2030 H U C m h w ip a z i n i n n g g g e e w , a a n n e d , 1 .5 752 ☐ ☐ R R e ev d e u r c s e e • l R a e n s d t o u r s e e / s improve multiple Ongoing P th a e r t L ic D i N pa T ti a o r n g e in t • T U a n r i g te e d ts
+grasslands and Zvishavane Setting Nations
+sparsely vegetated districts Programme Framework
+Convention
+areas showing early
+on Climate
+signs of decline
+Change –
+Nationally
+Determined
+Contributions
+• Convention
+on Biological
+Diversity –
+• Increase soil fertility and National
+carbon stock Biodiversity
+Use conservation ◦ Reduce soil erosion Strategies
+farming and agro- Mhondoro, ◦ Maintain the current Yes and Action
+forestry practices to Chivi, level of SOC Plans &
+improve cropland Shamva, ☒ Avoid ◦ Improve No National
+p h s s a h t n e r r o o c d e d t w s e a u s i a r c n e e r t g d l s i y v s p o i s t t r f y i a o g c b o d n r l n u o s e c p 3 o b t l 6 f a i u v 1 n t it d 2 y 50 2030 H U C Z di v m h w s i i s t p a z r h i i n i c n n a g t g g v s e e w a , n a a e n n e d , 3 .5 612 ☐ ☐ R R e ev d e u r c s e e ◦ w m a d R n e e a a g d h t n e r / a a a o r b s g d r i h l e e r it e e m d a d s t l e t / a e o n l n a r b t d e n a d re s c la a n p d e Ongoing P t S P h e a r e o t r t g t L i i n r c D a g i N p m a T m ti a o e r n g e in t • T N F U r a n a a r i t m g t i e o e e d n t w s s ork
+Convention
+decline ◦ Increase carbon
+on Climate
+stock and reduce
+Change –
+soil/land degradation
+Nationally
+Determined
+Contributions
+• Convention
+on Biological
+Diversity –
+• Increase soil fertility and National
+carbon stock Biodiversity
+◦ Reduce soil erosion Strategies
+Embark on M Ch h i o vi n , doro, ◦ l M ev a e in l t o a f i n S O th C e current Yes a P n la d n A s c & tion
+land/catchment Shamva, ☐ Avoid ◦ Improve No National
+r o g a e e r f r n o c a f e 5 l z s a c i i n m 5 o te g 8 n a d 0 a t i b n h o y d e n c g / c r t u r e a o l s l r y p e to l s a r n o a d f tion 2030 H U C Z di v m h w s i i s t p a z r h i i n i c n n a g t g g v s e e w a , n a a e n n e d , 55 .8 ☐ ☒ R R e ev d e u r c s e e ◦ w m a d R n e e a a g d h t n e r / a a a o r b s g d r i h l e e r it e e m d a d s t l e t / a e o n l n a r b t d e n a d re s c la a n p d e Ongoing P t S P h e a r e o t r t g t L i i n r c D a g i N p m a T m ti a o e r n g e in t • T N F U r a n a a r i t m g t i e o e e d n t w s s ork
+Convention
+◦ Increase carbon
+on Climate
+stock and reduce
+Change –
+soil/land degradation
+Nationally
+Determined
+Contributions
+• Convention
+on Biological
+Diversity –
+National
+Biodiversity
+Strategies
+Enforce laws and Mhondoro, • Restore/improve multiple Yes and Action
+regulations, embark on Chivi, land uses Plans &
+awareness Shamva, ☐ Avoid No National
+p i r l e l r e h o g a g a b ra l i l m m ita i m n te e e r s 3 s t 7 a a 9 n rg 8 d e .6 t 0 ing 2030 H U C m h w ip a z i n i n n g g g e e w , a a n n e d , 37 .9 ☒ ☐ R R e ev d e u r c s e e • f R u e n s c t t o io re n / s improve multiple Ongoing P th a e r t L ic D i N pa T ti a o r n g e in t • T U a n r i g te e d ts
+h ill e e c g t a a l r e m s i n a i f n f g ected by Z di v s is tr h ic a t v s ane • o R f e d m u u c l e ti / p h le a l l t a c n o d n u v s e e rs s ion S P e ro tt g in ra g mme N F C r o a a n t m i v o e e n n w s t o io rk n
+on Climate
+Change –
+Nationally
+Determined
+Contributions
+Sum of all targeted areas
+Total
+75 387 .9
+15 / 97
+
+--- Page 16 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land management and contribute to land
+degradation neutrality.
+Overarching
+Is this an LDN Which other
+Total type of Land
+Status of target? If so, important goals
+Target Degradation Edit
+Target Year Location(s) Targeted action(s) target under which are also being
+Area Neutrality Polygon
+achievement process was it addressed by this
+(km²) (LDN)
+defined/adopted? target?
+intervention
+• Convention
+on Biological
+Diversity –
+National
+Biodiversity
+Strategies
+Mhondoro, and Action
+R he e c d t u a c r e e s t h o e f 8 la 8 n 5 d 7.92 C Sh h a iv m i, va, ☐ Avoid • Restore/improve multiple Y N e o s P N l a a t n io s n & al
+affected by alien Hwange, functions Targets
+species through 2030 Umzingwane, 88 .5 ☐ Reduce Ongoing Participation in
+chemical and Chipinge and ☒ Reverse • Reduce/halt conversion the LDN Target • United
+mechanical control Zvishavane of multiple land uses Setting Nations
+methods districts Programme Framework
+Convention
+on Climate
+Change –
+Nationally
+Determined
+Contributions
+• Restore/improve tree- • Convention
+on Biological
+covered areas
+◦ Reduce/halt Diversity –
+National
+deforestation and
+Biodiversity
+conversion of tree
+Strategies
+Mhondoro, cover to other land and Action
+Chivi, cover types (e.g. Yes Plans &
+Maintain and improve Shamva, ☐ Avoid conserving forest No National
+land productivity on 137 Hwange, land) Targets
+545 hectares of forests 2030 Umzingwane, 137 .5 ☒ Reduce ◦ Restore/improve Ongoing Participation in
+that are currently stable Chipinge and ☐ Reverse grasslands the LDN Target • United
+but stressed Zvishavane ◦ Increase land Setting Nations
+districts productivity in tree Programme Framework
+covered areas Convention
+◦ Restore tree-covered on Climate
+areas Change –
+◦ Improve tree cover Nationally
+management e.g. fire Determined
+management Contributions
+• Convention
+on Biological
+Provide alternatives
+Diversity –
+such as rural
+National
+electrification,
+Biodiversity
+renewable energy
+Strategies
+sources, expanded Mhondoro, • Restore/improve multiple and Action
+energy for tobacco Chivi, land uses Yes Plans &
+programme, provide Shamva, ☒ Avoid No National
+s m a u ra a s b t t e a le r i i n a la a ls n b d l f e o s r f a e f n n e d n c i c n f i o n g r g 2030 H U C m h w ip a z i n i n n g g g e e w , a a n n e d , 2 970 ☐ ☐ R R e ev d e u r c s e e • f R u e n s c t t o io re n / s improve multiple Ongoing P th a e r t L ic D i N pa T ti a o r n g e in t • T U a n r i g te e d ts
+b re r g ic u k l a b t u io rn n i s n o g n , e tr n e f e orce Z di v s is tr h ic a t v s ane • Reduce/halt conversion S P e ro tt g in ra g mme N Fr a a t m io e n w s ork
+cutting for fuel wood of multiple land uses Convention
+sale and reduce on Climate
+deforestation to protect Change –
+297 000 hectares of Nationally
+forest land Determined
+Contributions
+• Convention
+on Biological
+Diversity –
+National
+Biodiversity
+• Restore/improve Strategies
+wetlands Yes and Action
+Improve wetland ◦ Restore/preserve Plans &
+management and ☐ Avoid wetlands and reduce No National
+r h c e o e s c u t t n o a t r r r a e y t s ’ i s o o s n f e o t v h f e e 2 re 7 l 0 y 080 2045 w co h u o n le try 2 ☐ ☒ R R e ev d e u r c s e e ◦ d w H e a e g l t t l r / a a r n d e d a d s t u io ce n w of etland Ongoing P t S h e a e t r t t L i i n c D g i N pa T ti a o r n g e in t • T N U a n a r i t g t i e o e d n ts s
+degraded wetlands conversion to other Programme Framework
+land uses (includes
+Convention
+conserving wetlands)
+on Climate
+Change –
+Nationally
+Determined
+Contributions
+Sum of all targeted areas
+Total
+75 387 .9
+16 / 97
+
+--- Page 17 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land management and contribute to land
+degradation neutrality.
+SO1.IA.T1: Areas of implemented action related to the targets (projects and initiatives on the ground).
+Extent
+Implemented Location Action start Edit
+Relevant Target of Total Area Implemented So Far (km²)
+Action (placename) date Polygon
+action
+Mhondoro, Chivi,
+Reforestation with local and exotic species on 6 Shamva, Hwange,
+Same As
+455 250 hectares of forest converted to shrubs Umzingwane,
+and on 215 050 hectares of forest converted to Targeted Chipinge and 2018-01-01 66 703 66 703 .00
+Actions
+cropland Zvishavane
+districts
+Mhondoro, Chivi,
+Avoid further decline of forest through Shamva, Hwange,
+Same As
+economic incentives (rehabilitation) of 2 820 Umzingwane,
+hectares of land showing early signs of decline Targeted Chipinge and 2018-01-01 28 .2 28 .20
+Actions
+and having a declining productivity Zvishavane
+districts
+Improve sustainable land management Mhondoro, Chivi,
+practices to avoid soil and gully erosion, Shamva, Hwange,
+Same As
+encourage and enforce appropriate stoking Umzingwane, 1 752
+rates on 175 250 hectares of shrubs, Targeted Chipinge and 2018-01-01 .5 1 752 .50
+Actions
+grasslands and sparsely vegetated areas Zvishavane
+showing early signs of decline districts
+Mhondoro, Chivi,
+Use conservation farming and agro-forestry
+Shamva, Hwange,
+practices to improve cropland productivity on Same As
+Umzingwane, 3 612
+361 250 hectares of cropland showing stable Targeted Chipinge and 2018-01-01 .5 3 612 .50
+but stressed productivity and early signs of Actions
+Zvishavane
+decline
+districts
+Mhondoro, Chivi,
+Shamva, Hwange,
+Embark on land/catchment Same As
+Umzingwane,
+reclamation/restoration on 5 580 hectares of Targeted Chipinge and 2018-01-01 55 .8 55 .80
+grazing and cropland affected by gully erosion Actions
+Zvishavane
+districts
+Mhondoro, Chivi,
+Enforce laws and regulations, embark on Shamva, Hwange,
+Same As
+awareness programmes targeting illegal miners Umzingwane,
+and rehabilitate 3 798.60 hectares affected by Targeted Chipinge and 2018-01-01 37 .9 37 .90
+Actions
+illegal mining Zvishavane
+districts
+Mhondoro, Chivi,
+Shamva, Hwange,
+Reduce the 8 857.92 hectares of land affected Same As
+Umzingwane,
+by alien species through chemical and Targeted Chipinge and 2018-01-01 88 .5 88 .50
+mechanical control methods Actions
+Zvishavane
+districts
+Mhondoro, Chivi,
+Shamva, Hwange,
+Maintain and improve land productivity on 137 Same As
+Umzingwane,
+545 hectares of forests that are currently stable Targeted Chipinge and 2018-01-01 137 .5 137 .50
+but stressed Actions
+Zvishavane
+districts
+Provide alternatives such as rural electrification,
+renewable energy sources, expanded energy for Mhondoro, Chivi,
+tobacco programme, provide sustainable Shamva, Hwange,
+Same As
+fencing materials for fencing arable lands and Umzingwane,
+for brick burning , enforce regulations on tree Targeted Chipinge and 2018-01-01 2 970 2 970 .00
+Actions
+cutting for fuel wood sale and reduce Zvishavane
+deforestation to protect 297 000 hectares of districts
+forest land
+Mhondoro, Chivi,
+Shamva, Hwange,
+Improve wetland management and restoration Same As
+Umzingwane,
+of 270 080 hectares of the country’s severely Targeted Chipinge and 2018-01-01 2 2 .00
+degraded wetlands Actions
+Zvishavane
+districts
+17 / 97
+
+--- Page 18 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land management and contribute to land
+degradation neutrality.
+Extent
+Implemented Location Action start Edit
+Relevant Target of Total Area Implemented So Far (km²)
+Action (placename) date Polygon
+action
+Sum of all areas relevant to actions under the
+same target
+Reforestation with local and exotic species on
+66
+6 455 250 hectares of forest converted to
+703
+shrubs and on 215 050 hectares of forest
+.00
+converted to cropland:
+Avoid further decline of forest through
+economic incentives (rehabilitation) of 2 820 28
+hectares of land showing early signs of decline .20
+and having a declining productivity:
+Improve sustainable land management
+practices to avoid soil and gully erosion,
+1
+encourage and enforce appropriate stoking
+752
+rates on 175 250 hectares of shrubs,
+.50
+grasslands and sparsely vegetated areas
+showing early signs of decline :
+Use conservation farming and agro-forestry
+practices to improve cropland productivity on 3
+361 250 hectares of cropland showing stable 612
+but stressed productivity and early signs of .50
+decline:
+Embark on land/catchment
+55
+reclamation/restoration on 5 580 hectares of
+.80
+grazing and cropland affected by gully erosion:
+Enforce laws and regulations, embark on
+awareness programmes targeting illegal miners 37
+and rehabilitate 3 798.60 hectares affected by .90
+illegal mining:
+Reduce the 8 857.92 hectares of land affected
+88
+by alien species through chemical and
+.50
+mechanical control methods:
+Maintain and improve land productivity on 137
+137
+545 hectares of forests that are currently
+.50
+stable but stressed:
+Provide alternatives such as rural
+electrification, renewable energy sources,
+expanded energy for tobacco programme,
+2
+provide sustainable fencing materials for
+970
+fencing arable lands and for brick burning ,
+.00
+enforce regulations on tree cutting for fuel
+wood sale and reduce deforestation to protect
+297 000 hectares of forest land:
+Improve wetland management and restoration
+2
+of 270 080 hectares of the country’s severely
+.00
+degraded wetlands:
+General comments
+The implementation started when the LDN targets were adopted by the Government of Zimbabwe.
+18 / 97
+
+--- Page 19 ---
+SO-2: To improve the living conditions of affected populations.
+SO2-1 Trends in population living below the relative poverty line and/or income inequality in
+affected areas
+Relevant metric
+Choose the metric that is relevant to your country:
+Proportion of population below the
+international poverty line
+Income inequality (Gini Index)
+Proportion of population below the international poverty line
+SO2-1.T1: National estimates of the proportion of population below the international poverty line
+Year Proportion of population below international poverty line (%)
+2 000
+2 001
+2 002
+2 003
+2 004
+2 005
+2 006
+2 007
+2 008
+2 009
+2 010
+2 011 21.4
+2 012
+2 013
+2 014
+2 015
+2 016
+2 017 33.9
+2 018
+2 019 39.5
+2 020
+Qualitative assessment
+SO2-1.T3: Interpretation of the indicator
+Change in the
+Indicator metric Comments
+indicator
+Proportion of population below the climate change resulted in increased drought leading to inflation
+Increase
+international poverty line during the reporting period.
+General comments
+19 / 97
+
+--- Page 20 ---
+SO-2: To improve the living conditions of affected populations.
+The annual Zimbabwe Vulnerability Assessment Committee (ZimVAC) reports on the Food Poverty Line, which hints at the International
+Poverty Line, without giving percentages of the population. The Food Poverty Line reported in the ZimVac reports indicates a progressively
+(2016-2019) increasing population living below the International Poverty Line.
+20 / 97
+
+--- Page 21 ---
+SO-2: To improve the living conditions of affected populations.
+SO2-2 Trends in access to safe drinking water in affected areas
+Proportion of population using safely managed drinking water services
+SO2-2.T1: National estimates of the proportion of population using safely managed drinking water services
+Year Urban (%) Rural (%) Total (%)
+2000 64 17 33
+2001 64 17 33
+2002 64 17 33
+2003 64 17 33
+2004 64 17 33
+2005 64 16 33
+2006 64 16 33
+2007 64 16 32
+2008 64 16 32
+2009 64 15 32
+2010 64 15 32
+2011 65 15 31
+2012 65 15 31
+2013 65 14 31
+2014 65 14 31
+2015 65 14 30
+2016 65 14 30
+2017 65 14 30
+2018 65 13 30
+2019 65 13 30
+2020 65 13 30
+Qualitative assessment
+SO2-2.T2: Interpretation of the indicator
+Change in the indicator Comments
+No change There was no change in the indicator over the reporting period.
+General comments
+The figures are correct as confirmed with data available at http://154.120.240.158/rwims/Account
+/Login?returnUrl=~%2FHouseholdWater%2FIndex
+21 / 97
+
+--- Page 22 ---
+SO-2: To improve the living conditions of affected populations.
+SO2-3 Trends in the proportion of population exposed to land degradation disaggregated by
+sex
+Proportion of the population exposed to land degradation disaggregated by sex
+SO2-3.T1: National estimates of the proportion of population exposed to land degradation disaggregated by
+sex.
+Male
+Population Percentage of Female Percentage of total Percentage of total
+Time population
+exposed total population population female population male population
+period exposed
+(count) exposed (%) exposed (count) exposed (%) exposed (%)
+(count)
+Baseline
+1611097 12 .5 791212 12 .4 819885 12 .7
+period
+Reporting
+1420196 10 .4 688832 10 .3 731364 10 .6
+period
+Qualitative assessment
+SO2-3.T2: Interpretation of the indicator
+Change in the
+Comments
+indicator
+The percentage of the total population exposed to land degradation decreased by approximately 2.0 percentage
+Decrease
+points during the reporting period.
+General comments
+22 / 97
+
+--- Page 23 ---
+SO-2: To improve the living conditions of affected populations.
+SO2 Voluntary Targets
+SO2-VT.T1
+Level of Status of target
+Target Year Comments
+application achievement
+Vision 2030 seeks to fundamentally transform Zimbabwe to an upper middle
+income economy,with a per capita Gross National Income of over US$5000 in 2030 National Ongoing
+real terms by 2030, from the current US$1 440
+Employment Rates will be raised upwards by 80 percent, defined to cover all
+2030 National Ongoing
+those in formal employment
+Further, there will be a progressive reduction in the Poverty Rate, initially to
+under 25 percent of the population by 2030, from 62.5 percent in 2012,
+2030 National Ongoing
+consistent with upper middle income economies. The country will have
+achieved the SDGs, well on its way to achieving Agenda 2063
+Vision 2030 targets increasing the number of households accessing electricity
+from 52.2 percent in 2017 to over 72 percent by 2030. Rural households’ access
+2030 National Ongoing
+to electricity will increase to 60 percent from 27.7 percent, while urban
+households’ access will increase to 95 percent from 86 percent.
+By 2030, it is envisaged that Zimbabwean households will have universal access
+2030 National Ongoing
+to improved sources of water, up from 81 percent in 2017.
+Further, it strives for an average Life Expectancy of over 65 years from the
+current 60 years, and scoring in the upper echelons of the Happiness and 2030 National Ongoing
+Prosperity Indices.
+Noticeable improvements will also be in the areas of awareness, knowledge
+adoption, food security, affordable and accessible education and health 2030 National Ongoing
+services, infrastructure development, and economic empowerment
+General comments
+Source: http://www.zim.gov.zw/index.php/en/government-documents/category/1-vision-2030
+23 / 97
+
+--- Page 24 ---
+SO-3: To mitigate, adapt to, and manage the effects of drought in order to enhance resilience of vulnerable populations and
+ecosystems.
+SO3-1 Trends in the proportion of land under drought over the total land area
+Drought hazard indicator
+SO3-1.T1: National estimates of the land area in each drought intensity class as defined by the Standardized
+Precipitation Index (SPI) or other nationally relevant drought indices
+Drought intensity classes
+Mild drought (km²) Moderate drought (km²) Severe drought (km²) Extreme drought (km²) Non-drought (km²)
+2000 0 0 0 0 391 044
+2001 4 618 0 0 0 386 427
+2002 69 786 107 183 144 682 69 304 90
+2003 188 308 75 454 1 988 0 125 295
+2004 35 416 0 0 0 355 629
+2005 198 813 58 965 30 779 4 840 97 648
+2006 129 642 12 239 4 620 1 244 542
+2007 56 829 15 576 8 883 0 309 756
+2008 154 790 31 621 0 0 204 633
+2009 190 168 59 139 11 366 308 130 063
+2010 163 563 0 0 0 227 481
+2011 72 505 0 0 0 318 539
+2012 136 340 60 597 68 421 56 520 69 166
+2013 123 377 0 0 0 267 668
+2014 7 533 10 0 0 383 501
+2015 163 993 105 581 83 062 17 288 21 121
+2016 289 951 28 865 2 310 0 69 918
+2017 8 829 0 0 0 382 216
+2018 69 187 14 038 5 105 0 302 714
+2019 104 834 74 163 62 884 122 954 26 210
+2020
+2021
+SO3-1.T2: Summary table for land area under drought without class break down
+Total area under drought (km²) Proportion of land under drought (%)
+2000 0 0 .0
+2001 4 618 1 .2
+2002 386 595 100 .0
+2003 265 750 68 .7
+2004 35 416 9 .2
+2005 293 397 75 .9
+24 / 97
+
+--- Page 25 ---
+SO-3: To mitigate, adapt to, and manage the effects of drought in order to enhance resilience of vulnerable populations and
+ecosystems.
+Total area under drought (km²) Proportion of land under drought (%)
+2006 146 502 37 .9
+2007 81 288 21 .0
+2008 186 411 48 .2
+2009 260 982 67 .5
+2010 163 563 42 .3
+2011 72 505 18 .8
+2012 321 879 83 .3
+2013 123 377 31 .9
+2014 7 543 2 .0
+2015 369 923 95 .7
+2016 321 126 83 .1
+2017 8 829 2 .3
+2018 88 331 22 .9
+2019 364 835 94 .4
+2020 -
+2021 -
+Qualitative assessment:
+The trends in the area affected by drought during the reporting period can best be described as fluctuation.
+General comments
+25 / 97
+
+--- Page 26 ---
+SO-3: To mitigate, adapt to, and manage the effects of drought in order to enhance resilience of vulnerable populations and
+ecosystems.
+SO3-2 Trends in the proportion of the population exposed to drought
+Drought exposure indicator
+Exposure is defined in terms of the number of people who are exposed to drought as calculated from the SO3-1 indicator data.
+SO3-2.T1: National estimates of the percentage of the total population within each drought intensity class as
+well as the total population count and the proportion of the national population exposed to drought
+regardless of intensity.
+Non-exposed Mild drought Moderate drought Severe drought Extreme drought Exposed population
+Reporting Population Population Population Population Population Population
+% % % % % %
+year count count count count count count
+100 0 0 0 0
+2000 10423487 0 0 0 0 0 0 .0
+.0 .0 .0 .0 .0
+99 0 0 0 0
+2001 10597445 27520 0 0 0 27 520 0 .3
+.7 .3 .0 .0 .0
+11 23 55 9 100
+2002 0 0 .0 1245842 2587891 5973222 1050077 10 857 032
+.5 .8 .0 .7 .0
+25 39 34 0 0 74
+2003 2808826 4309095 3751849 97921 0 8 158 865
+.6 .3 .2 .9 .0 .4
+88 11 0 0 0 11
+2004 9909786 1287472 0 0 0 1 287 472
+.5 .5 .0 .0 .0 .5
+21 61 12 3 0 78
+2005 2419461 6979155 1402347 410374 92317 8 884 193
+.4 .7 .4 .6 .8 .6
+38 38 21 1 0 61
+2006 4403811 4366827 2490955 169871 0 7 027 653
+.5 .2 .8 .5 .0 .5
+84 14 0 0 0 15
+2007 9844047 1627808 109442 33828 0 1 771 078
+.8 .0 .9 .3 .0 .2
+62 31 5 0 0 37
+2008 7353869 3718649 674892 0 0 4 393 541
+.6 .7 .7 .0 .0 .4
+19 42 34 3 0 81
+2009 2260592 5035018 4152949 470688 2167 9 660 822
+.0 .2 .8 .9 .0 .0
+40 59 0 0 0 59
+2010 4860759 7235237 0 0 0 7 235 237
+.2 .8 .0 .0 .0 .8
+90 9 0 0 0
+2011 11088296 1120545 0 0 0 1 120 545 9 .2
+.8 .2 .0 .0 .0
+55 16 12 6 90
+2012 1152271 9 .3 6827227 2035498 1595208 800967 11 258 900
+.0 .4 .9 .5 .7
+74 25 0 0 0 25
+2013 9380821 3216645 0 0 0 3 216 645
+.5 .5 .0 .0 .0 .5
+99 1 0 0 0
+2014 12512353 130735 34 0 0 130 769 1 .0
+.0 .0 .0 .0 .0
+36 24 31 3 95
+2015 530973 4 .1 4656353 3171812 3982933 500673 12 311 771
+.3 .7 .0 .9 .9
+18 75 5 0 0 81
+2016 2425252 9910721 717674 2579 0 10 630 974
+.6 .9 .5 .0 .0 .4
+97 3 0 0 0
+2017 12828048 392592 0 0 0 392 592 3 .0
+.0 .0 .0 .0 .0
+63 28 6 1 0 36
+2018 8463519 3867470 828681 251776 0 4 947 927
+.1 .8 .2 .9 .0 .9
+23 24 16 30 94
+2019 744413 5 .5 3227922 3307889 2168529 4124661 12 829 001
+.8 .4 .0 .4 .5
+2020 - - - - - - -
+2021 - - - - - - -
+SO3-2.T2: National estimates of the percentage of the female population within each drought intensity class.
+Exposed female
+Non-exposed Mild drought Moderate drought Severe drought Extreme drought
+population
+Reporting Population Population Population Population Population Population
+% % % % % %
+year count count count count count count
+100 0 0 0 0
+2000 5274588 0 0 0 0 0 0 .0
+.0 .0 .0 .0 .0
+26 / 97
+
+--- Page 27 ---
+SO-3: To mitigate, adapt to, and manage the effects of drought in order to enhance resilience of vulnerable populations and
+ecosystems.
+Exposed female
+Non-exposed Mild drought Moderate drought Severe drought Extreme drought
+population
+Reporting Population Population Population Population Population Population
+% % % % % %
+year count count count count count count
+99 0 0 0 0
+2001 5360613 14104 0 0 0 14 104 0 .3
+.7 .3 .0 .0 .0
+11 24 54 9 100
+2002 0 0 .0 638250 1330174 2992783 538036 5 499 243
+.6 .2 .4 .8 .0
+26 39 33 0 0 73
+2003 1461924 2183724 1886389 49678 0 4 119 791
+.2 .1 .8 .9 .0 .8
+88 11 0 0 0 11
+2004 5067582 657819 0 0 0 657 819
+.5 .5 .0 .0 .0 .5
+21 61 12 3 0 78
+2005 1266395 3570139 722233 214707 47962 4 555 041
+.8 .3 .4 .7 .8 .2
+39 38 21 1 0 60
+2006 2319487 2263626 1259335 88272 0 3 611 233
+.1 .2 .2 .5 .0 .9
+84 14 1 0 0 15
+2007 5139369 857144 58942 19072 0 935 158
+.6 .1 .0 .3 .0 .4
+61 32 5 0 0 38
+2008 3835544 1993368 367229 0 0 2 360 597
+.9 .2 .9 .0 .0 .1
+19 42 34 3 0 80
+2009 1202846 2697869 2155929 245215 1248 5 100 261
+.1 .8 .2 .9 .0 .9
+40 59 0 0 0 59
+2010 2597146 3763168 0 0 0 3 763 168
+.8 .2 .0 .0 .0 .2
+90 9 0 0 0
+2011 5754954 589912 0 0 0 589 912 9 .3
+.7 .3 .0 .0 .0
+54 16 13 6 90
+2012 593118 9 .3 3443214 1055169 845561 425447 5 769 391
+.1 .6 .3 .7 .7
+74 25 0 0 0 25
+2013 4731185 1640287 0 0 0 1 640 287
+.3 .7 .0 .0 .0 .7
+99 1 0 0 0
+2014 6255828 64935 15 0 0 64 950 1 .0
+.0 .0 .0 .0 .0
+36 24 30 4 95
+2015 266777 4 .2 2320282 1565946 1965887 262280 6 114 395
+.4 .5 .8 .1 .8
+18 75 5 0 0 81
+2016 1202797 4894174 366541 1316 0 5 262 031
+.6 .7 .7 .0 .0 .4
+97 2 0 0 0
+2017 6337662 188806 0 0 0 188 806 2 .9
+.1 .9 .0 .0 .0
+63 28 6 1 0 36
+2018 4189679 1885483 416098 126308 0 2 427 889
+.3 .5 .3 .9 .0 .7
+24 23 16 30 94
+2019 379865 5 .7 1611944 1592439 1076282 2034090 6 314 755
+.1 .8 .1 .4 .3
+2020 - - - - - - -
+2021 - - - - - - -
+SO3-2.T3: National estimates of the percentage of the male population within each drought intensity class.
+Exposed male
+Non-exposed Mild drought Moderate drought Severe drought Extreme drought
+population
+Reporting Population Population Population Population Population Population
+% % % % % %
+year count count count count count count
+100 0 0 0 0
+2000 5148899 0 0 0 0 0 0 .0
+.0 .0 .0 .0 .0
+99 0 0 0 0
+2001 5236832 13416 0 0 0 13 416 0 .3
+.7 .3 .0 .0 .0
+11 23 55 9 100
+2002 0 0 .0 607592 1257717 2980439 512041 5 357 789
+.3 .5 .6 .6 .0
+25 39 34 0 0 75
+2003 1346902 2125371 1865460 48243 0 4 039 074
+.0 .5 .6 .9 .0 .0
+88 11 0 0 0 11
+2004 4842204 629653 0 0 0 629 653
+.5 .5 .0 .0 .0 .5
+21 62 12 3 0 79
+2005 1153066 3409016 680114 195667 44355 4 329 152
+.0 .2 .4 .6 .8 .0
+27 / 97
+
+--- Page 28 ---
+SO-3: To mitigate, adapt to, and manage the effects of drought in order to enhance resilience of vulnerable populations and
+ecosystems.
+Exposed male
+Non-exposed Mild drought Moderate drought Severe drought Extreme drought
+population
+Reporting Population Population Population Population Population Population
+% % % % % %
+year count count count count count count
+37 38 22 1 0 62
+2006 2084324 2103201 1231620 81599 0 3 416 420
+.9 .2 .4 .5 .0 .1
+84 13 0 0 0 15
+2007 4704678 770664 50500 14756 0 835 920
+.9 .9 .9 .3 .0 .1
+63 31 5 0 0 36
+2008 3518325 1725281 307663 0 0 2 032 944
+.4 .1 .5 .0 .0 .6
+18 41 35 4 0 81
+2009 1057746 2337149 1997020 225473 919 4 560 561
+.8 .6 .5 .0 .0 .2
+39 60 0 0 0 60
+2010 2263613 3472069 0 0 0 3 472 069
+.5 .5 .0 .0 .0 .5
+91 9 0 0 0
+2011 5333342 530633 0 0 0 530 633 9 .0
+.0 .0 .0 .0 .0
+55 16 12 6 90
+2012 559153 9 .2 3384013 980329 749647 375520 5 489 509
+.9 .2 .4 .2 .8
+74 25 0 0 0 25
+2013 4649636 1576358 0 0 0 1 576 358
+.7 .3 .0 .0 .0 .3
+99 1 0 0 0
+2014 6256525 65800 19 0 0 65 819 1 .0
+.0 .0 .0 .0 .0
+36 24 31 3 95
+2015 264196 4 .1 2336071 1605866 2017046 238393 6 197 376
+.2 .9 .2 .7 .9
+18 76 5 0 0 81
+2016 1222455 5016547 351133 1263 0 5 368 943
+.5 .1 .3 .0 .0 .5
+97 3 0 0 0
+2017 6490386 203786 0 0 0 203 786 3 .0
+.0 .0 .0 .0 .0
+62 29 6 1 0 37
+2018 4273840 1981987 412583 125468 0 2 520 038
+.9 .2 .1 .8 .0 .1
+23 24 15 30 94
+2019 364548 5 .3 1615978 1715450 1092247 2090571 6 514 246
+.5 .9 .9 .4 .7
+2020 - - - - - - -
+2021 - - - - - - -
+Qualitative assessment
+Interpretation of the indicator
+The percentage of the population exposed to drought in Zimbabwe fluctuated over the reporting period.
+General comments
+28 / 97
+
+--- Page 29 ---
+SO-3: To mitigate, adapt to, and manage the effects of drought in order to enhance resilience of vulnerable populations and
+ecosystems.
+SO3-3 Trends in the degree of drought vulnerability
+Drought Vulnerability Index
+SO3-3.T1: National estimates of the Drought Vulnerability Index
+Year Total country-level DVI value (tier 1) Male DVI value (tiers 2 and 3 only) Female DVI value (tiers 2 and 3 only)
+2000
+2001
+2002
+2003
+2004
+2005
+2006
+2007
+2008
+2009
+2010
+2011
+2012
+2013
+2014
+2015
+2016
+2017
+2018 0 .66
+2019
+2020
+2021
+Method
+Which tier level did you use to compute the DVI?
+☒ Tier 1 Vulnerability Assessment ⓘ
+☐ Tier 2 Vulnerability Assessment ⓘ
+☐ Tier 3 Vulnerability Assessment ⓘ
+Qualitative assessment
+SO3-3.T2: Interpretation of the indicator
+Change in the indicator Comments
+General comments
+Zimbabwe lacks data on this indicator.
+29 / 97
+
+--- Page 30 ---
+SO-3: To mitigate, adapt to, and manage the effects of drought in order to enhance resilience of vulnerable populations and
+ecosystems.
+SO3 Voluntary Targets
+SO3-VT.T1
+Level of Status of target
+Target Year Comments
+application achievement
+Vision 2030 will prioritise improving agricultural productivity through promotion
+of market based investments in sustainable farm mechanisation programmes
+2030 National Ongoing
+that improve farmer access to agricultural equipment and implements, under
+either purchase or leasing arrangements
+The attainment of food security and nutrition will be premised on strong
+research and development undertakings, coupled with the use of advanced 2030 National Ongoing
+technologies, including at the village level.
+Government, in conjunction with development partners, will broaden climate
+change mitigation and adaptation activities to include critical elements such as
+2030 National Ongoing
+water management and harvesting measures to mitigate the effects of drought,
+respect for biodiversity and wetland management issues.
+Government will implement an Irrigation Master Plan to rehabilitate and
+establish smallholder farmer irrigation facilities covering 200 hectares per 2030 National Ongoing
+Administrative District, per year for the next 10 years.
+General comments
+Source: http://www.zim.gov.zw/index.php/en/government-documents/category/1-vision-2030
+30 / 97
+
+--- Page 31 ---
+SO4-1 Trends in carbon stocks above and below
+ground
+Soil organic carbon stocks
+Trends in carbon stock above and below ground is a multi-purpose indicator used to measure progress towards both strategic objectives 1 and 4.
+Quantitative data and a qualitative assessment of trends in this indicator are reported under strategic objective 1, progress indicator SO1-3.
+31 / 97
+
+--- Page 32 ---
+SO-4: To generate global environmental benefits through effective implementation of the United Nations Convention to Combat
+Desertification.
+SO4-2 Trends in abundance and distribution of selected species
+SO4-2.T1: National estimates of the Red List Index of species survival
+Year Red List Index Lower Bound Upper Bound Comment
+2000 0 .79986 0 .79771 0 .8009 Verified as correct
+2001 0 .79951 0 .79736 0 .80054 Verified as correct
+2002 0 .79915 0 .79705 0 .8002 Verified as correct
+2003 0 .79881 0 .79677 0 .79983 Verified as correct
+2004 0 .7984 0 .79616 0 .79942 Verified as correct
+2005 0 .79811 0 .79579 0 .79907 Verified as correct
+2006 0 .79769 0 .79488 0 .79869 Verified as correct
+2007 0 .79732 0 .79454 0 .79854 Verified as correct
+2008 0 .79682 0 .79362 0 .79836 Verified as correct
+2009 0 .79638 0 .79245 0 .79833 Verified as correct
+2010 0 .79612 0 .79232 0 .79833 Verified as correct
+2011 0 .79552 0 .79147 0 .79821 Verified as correct
+2012 0 .79509 0 .79066 0 .79818 Verified as correct
+2013 0 .79463 0 .79012 0 .79841 Verified as correct
+2014 0 .79419 0 .7893 0 .79835 Verified as correct
+2015 0 .79376 0 .78872 0 .79844 Verified as correct
+2016 0 .79335 0 .78743 0 .79845 Verified as correct
+2017 0 .79304 0 .78724 0 .79845 Verified as correct
+2018 0 .79264 0 .78621 0 .79847 Verified as correct
+2019 0 .79229 0 .78555 0 .79863 Verified as correct
+2020 0 .79199 0 .78502 0 .7988 Verified as correct
+Qualitative assessment
+SO4-2.T2: Interpretation of the indicator
+Change in Drivers: Indirect Which levers are being used to Responses that
+Drivers: Direct (Choose
+the (Choose one or more reverse negative trends and led to positive Comments
+one or more items)
+indicator items) enable transformative change? RLI trends
+32 / 97
+
+--- Page 33 ---
+SO-4: To generate global environmental benefits through effective implementation of the United Nations Convention to Combat
+Desertification.
+Change in Drivers: Indirect Which levers are being used to Responses that
+Drivers: Direct (Choose
+the (Choose one or more reverse negative trends and led to positive Comments
+one or more items)
+indicator items) enable transformative change? RLI trends
+1. Human Population
+Dynamics and 1. Incentives and Capacity-
+Trends Building
+1. Land-use change
+2. Trade 2. Environmental Law and
+2. Overexploitation
+Implementation
+3. Production and
+3. Climate change
+Negative Consumption 3. Decision-making in the
+4. Invasive alien Patterns Context of Resilience and
+species Uncertainty
+4. Technological
+5. Pollution Innovations 4. Cross-Sectoral Cooperation
+5. Local to Global 5. Pre-Emptive Action
+Governance
+General comments
+The Red List Index showed an insignificant decrease in species survival from the year 2015 to the year 2019. Zimbabwe has been and is
+making concerted efforts to conserve keystone species through the intensification of law enforcement efforts and other management
+initiatives such as development and updating of Protected Area Management Plans and Species Specific Plans. Key Species Specific Plans
+include the Lion and Cheetah Action Plan, Elephant Management Plan, Leopard Action Plan. Various partnership models have been entered
+into with the Government of Zimbabwe through the Ministry of Environment, Climate, Tourism and Hospitality Industry and the Zimbabwe
+Parks and Wildlife Management Authority (Zimparks) to conserve species. Such other entities are not limited to UNDP - GEF 6 and GEF 7,
+UN Food and Agricultural Organization (FAO), International Fund for Animal Welfare (IFAW), African Parks Foundation, PANTHERA,
+Gonarezhou Trust with Frankfurt Zoological Society, Peace Parks Foundation, Tikki Hywood among others. A lot of work is ongoing within
+the country and also being strengthened at Regional level through 6 transboundary/ transfrontier initiatives at various stages of
+implementation. A lot of research and monitoring activities are ongoing more particularly national Elephant Monitoring, National Leopard
+and Cheetah Survey, Carnivore Monitoring, Fire Monitoring through NASA Firms among others.
+33 / 97
+
+--- Page 34 ---
+SO-4: To generate global environmental benefits through effective implementation of the United Nations Convention to Combat
+Desertification.
+SO4-3 Proportion of important sites for terrestrial and freshwater biodiversity that are
+covered by protected areas, by ecosystem type
+SO4-3.T1: National estimates of the average proportion of Terrestrial KBAs covered by protected areas (%)
+Year Protected Areas Coverage(%) Lower Bound Upper Bound Comments
+2000 63.95 53 .8 63 .95
+2001 63.95 53 .8 63 .95
+2002 76.11 70 .85 76 .11
+2003 76.11 70 .85 76 .11
+2004 76.11 70 .85 76 .11
+2005 76.11 70 .85 76 .11
+2006 76.11 70 .85 76 .11
+2007 76.11 70 .85 76 .11
+2008 76.11 70 .85 76 .11
+2009 76.11 70 .85 76 .11
+2010 76.11 70 .85 76 .11
+2011 76.11 70 .85 76 .11
+2012 76.11 70 .85 76 .11
+2013 81.22 81 .22 81 .22
+2014 81.22 81 .22 81 .22
+2015 81.22 81 .22 81 .22
+2016 81.22 81 .22 81 .22
+2017 81.22 81 .22 81 .22
+2018 81.22 81 .22 81 .22
+2019 81.22 81 .22 81 .22
+2020 81.22 81 .22 81 .22
+Qualitative assessment
+SO4-3.T2: Interpretation of the indicator
+Qualitative
+Comment
+Assessment
+There has been no change in the proportion of important sites for terrestrial and freshwater biodiversity that are
+No Change
+covered by protected areas.
+General comments
+34 / 97
+
+--- Page 35 ---
+SO-4: To generate global environmental benefits through effective implementation of the United Nations Convention to Combat
+Desertification.
+SO4 Voluntary Targets
+SO4-VT.T1
+Status of
+Level of
+Target Year target Comments
+application
+achievement
+Improve sustainable land
+management systems to maintain
+the current soil organic carbon
+Source: https://www.unccd.int/sites/default/files
+level beyond 2045, forest at 42.3
+2045 National Ongoing /ldn_targets
+tons/ha, shrubs, grasslands and
+/Zimbabwe%20LDN%20TSP%20Country%20Report.pdf
+sparsely vegetated areas at 38.6
+tons/ha, cropland at 38.9 tons/ha
+and wetlands at 52,2 tons/ha
+Complementary information
+Source: https://www.unccd.int/sites/default/files/ldn_targets/Zimbabwe%20LDN%20TSP%20Country%20Report.pdf
+35 / 97
+
+--- Page 36 ---
+SO-5: To mobilize substantial and additional financial and non-financial resources to support the implementation of the
+Convention by building effective partnerships at global and national level
+SO5-1 Bilateral and multilateral public resources
+Tier 1: Please provide information on the international public resources provided and received for the
+implementation of the Convention, including information on trends.
+Trends in international bilateral and multilateral public resources provided
+Up ↑
+Stable ←→
+Down ↓
+Unknown ∾
+Trends in international bilateral and multilateral public resources received
+Up ↑
+Stable ←→
+Down ↓
+Unknown ∾
+The Government of Zimbabwe reached out to the international world following the engagement and re-engagement policy since 2017.
+The government made a deliberate effort to attract higher flows of foreign direct investment to Zimbabwe during the reporting period, as
+explained in ZimbabweVision 2030 http://www.zim.gov.zw/index.php/en/government-documents/category/1-vision-2030
+Tier 2: Table 1 Financial resources provided and received
+Total Amount USD
+Provided / Received Year Committed Disbursed / Received
+Committed Disbursed
+Provided 2016
+0 652 750 000
+Committed Disbursed
+Provided 2017
+0 725 840 026
+Committed Disbursed
+Provided 2018
+0 794 510 009
+Committed Disbursed
+Provided 2019
+0 842 750 000
+Committed Received
+Received 2016
+18 340 066 .29 34 291 700 .39
+Committed Received
+Received 2017
+3 448 238 .23 26 157 964 .04
+Committed Received
+Received 2018
+63 904 923 .77 15 706 326 .45
+Committed Received
+Received 2019
+7 771 801 .73 6 524 245 .90
+Total resources provided: 0 3 015 850 035
+Total resources received: 93 465 030 .02 82 680 236 .78
+Documentation box
+Explanation
+All the information for the reporting period is available here: https://data.worldbank.org/indicator
+Year
+/DT.ODA.ODAT.CD?locations=ZW and here https://stats.oecd.org/
+All the information for the reporting period is available here: https://data.worldbank.org/indicator
+Recipient / Provider
+/DT.ODA.ODAT.CD?locations=ZW and here https://stats.oecd.org/
+Title of project, programme, One well documented project is GEF 6 which injected $30,849,201 to the conservation of biodiversity
+activity or other and improve livelihoods in the Lower Zambezi Valley
+36 / 97
+
+--- Page 37 ---
+SO-5: To mobilize substantial and additional financial and non-financial resources to support the implementation of the
+Convention by building effective partnerships at global and national level
+Explanation
+Total Amount USD $30,849,201
+Sector Environment
+Capacity Building
+Technology Transfer
+Gender Equality
+Channel
+Type of flow Official development assistance
+Financial Instrument
+Type of support
+Amount mobilised through
+public interventions
+Additional Information
+General comments
+The GEF 6 funding is/was inclusive focusing on reduction in human -wildlife conflict, woodland and forest management among other
+natural resources management capacity development interventions.
+37 / 97
+
+--- Page 38 ---
+SO-5: To mobilize substantial and additional financial and non-financial resources to support the implementation of the
+Convention by building effective partnerships at global and national level
+SO5-2 Domestic public resources
+Tier 1: Please provide information on the domestic public expenditures, including subsidies, and revenues,
+including taxes, directly and indirectly related to the implementation of the Convention, including information
+on trends.
+Trends in domestic public expenditures and national level financing for activities relevant to the implementation of the Convention
+Up ↑
+Stable ←→
+Down ↓
+Unknown ∾
+Trends in domestic public revenues from activities related to the implementation of the Convention
+Up ↑
+Stable ←→
+Down ↓
+Unknown ∾
+The Zimbabwe National Budget reports of 2016 to 2019 show an increase of domestic funds allocated to the Ministry of Environment
+increased from $40,100,000 in 2017 to $85,505,000 in 2018, to $38,136,000 in 2019 of the total annual budgets.
+Sources of information are as follows: https://www.dpcorp.co.zw/assets/2016-national-budget.pdf https://www.veritaszim.net/sites
+/veritas_d/files/2019%20National%20Budget%20Highlights.pdf https://www.veritaszim.net/sites/veritas_d/files
+/2018%20budget%20highlights_0.pdf https://www.veritaszim.net/sites/veritas_d/files
+/2017%20Zimbabwe%20National%20Budget%20Highlights.pdf
+Tier 2: Table 2 Domestic public resources
+Year Amounts Additional Information
+40 100 Government expenditure within the Ministry responsible for the environment and
+Government expenditures 2016
+000 environmental protection.
+Directly related to combat
+DLDD
+Indirectly related to combat
+DLDD
+Subsidies
+Subsidies related to combat
+DLDD
+Total expenditures / total per
+year
+Additional
+Year Amounts
+Information
+Government revenues
+Environmental taxes for the conservation of land resources and taxes related to combat
+DLDD
+Total revenues / total per year
+Documentation box
+Explanation
+Expenditure within the ministry is responsible for protecting the environment, as reported in the official annual
+Government
+budgetary statements. For example here: https://www.veritaszim.net/sites/veritas_d/files
+expenditures
+/2017%20Zimbabwe%20National%20Budget%20Highlights.pdf
+Subsidies
+Government revenues
+38 / 97
+
+--- Page 39 ---
+SO-5: To mobilize substantial and additional financial and non-financial resources to support the implementation of the
+Convention by building effective partnerships at global and national level
+Explanation
+Domestic resources
+directly or indirectly
+related to combat DLDD
+Has your country set a target for increasing and mobilizing domestic resources for the implementation of the Convention?
+Yes
+No
+The country set to increasing domestic resources for the implementation of the Convention via increases in national budget allocations to
+the Ministry responsible for the environment.
+General comments
+The country set to increasing domestic resources for the implementation of the Convention via increases in national budget allocations to
+the Ministry responsible for the environment.
+39 / 97
+
+--- Page 40 ---
+SO-5: To mobilize substantial and additional financial and non-financial resources to support the implementation of the
+Convention by building effective partnerships at global and national level
+SO5-3 International and domestic private resources
+Tier 1: Please provide information on the international and domestic private resources mobilized by the
+private sector of your country for the implementation of the Convention, including information on trends.
+Trends in international private resources
+Up ↑
+Stable ←→
+Down ↓
+Unknown ∾
+Trends in domestic private resources
+Up ↑
+Stable ←→
+Down ↓
+Unknown ∾
+Tier 2: Table 3 International and domestic private resources
+Title of project, programme, Total Financial Type of Additional
+Year Recipient
+activity or other Amount USD Instrument institution Information
+☐ Charitable grant
+☐ Commercial
+loans
+☐ Non-
+concessional loan
+Runde-Tende Dam and Private ☐ Domestic
+2016 472 000 000
+Irrigation Project ☐ Private Export corporation mobilization
+☐ Credit
+☒ Private Equities
+☐ Private Insurance
+☐ Other(specify)
+☐ Charitable grant
+☐ Commercial
+loans
+☐ Non-
+concessional loan
+Private ☐ Domestic
+2016 Kudu Irrigation Project 470 000 000
+☐ Private Export corporation mobilization
+☐ Credit
+☒ Private Equities
+☐ Private Insurance
+☐ Other(specify)
+Total 942 000 000
+Total per year 2016: 942 000 000
+Please provide methodological information relevant to data presented in table 3
+Sources of information: https://connextconfindustria.it/kp/uploads/file_aziende
+/ZIDA%20PUBLIC%20PRIVATE%20PARTNERSHIPS%20IN%20ZIMBABWE%20PAMPHLET.pdf
+Has your country taken measures to encourage the private sector as well as non-governmental organizations,
+foundations and academia to provide international and domestic resources for the implementation of the
+Convention?
+Section 34, 4 schedule of the ZIDA Act provides a framework for governing PPPs in Zimbabwe. The act indicates the government of
+Zimbabwe's commitment to promoting an enabling environment for Public-Private Partneships to operate.
+General comments
+40 / 97
+
+--- Page 41 ---
+SO-5: To mobilize substantial and additional financial and non-financial resources to support the implementation of the
+Convention by building effective partnerships at global and national level
+The Government of Zimbabwe supports and encourages Private-Pubic Partnerships as a vehicle for national development.
+41 / 97
+
+--- Page 42 ---
+SO-5: To mobilize substantial and additional financial and non-financial resources to support the implementation of the Convention by building effective
+partnerships at global and national level
+SO5-4 Technology transfer
+Tier 1: Please provide information relevant to the resources provided, received for the transfer of technology for the
+implementation of the Convention, including information on trends.
+Trends in international bilateral and multilateral public resources provided
+Up ↑
+Stable ←→
+Down ↓
+Unknown ∾
+Trends in international bilateral and multilateral public resources received
+Up ↑
+Stable ←→
+Down ↓
+Unknown ∾
+The most known technology implemented in Zimbabwe during the focal period is the Climate Smart Agriculture, locally known as Pfumvudza, a zero tillage approach,
+for growing maize/corn and cotton seed among other crops. The approach is also being exported to neighbouring countries.
+Smallholder farmers countrywide are empowered and encouraged to use the Pfumvudza approach. Incentives come in the form of seeds and fertilizer as well as
+extension from the Government.
+Tier 2: Table 4 Resources provided and received for technology transfer measures or activities
+Title of Status Use,
+Timeframe
+project, Description Activities of impact
+Provided Recipient Type of of Additional
+Year programme, Amount and Sector undertaken measure and
+Received Provider technology measure Information
+activity or objectives by or estimated
+or activity
+other activity results
+Total provided: 0 Total received: 0
+Please provide methodological information relevant to data presented in table 4
+Include information on underlying assumptions, definitions and methodologies used to identify and report on technology transfer
+support provided and/or received and/or required. Please include links to relevant documentation.
+Sources of information: https://sdgs.un.org/partnerships/zimbabwe-pfumvudza-programme
+Please provide information on the types of new or current technologies required by your country to address desertification, land
+degradation and drought (DLDD), and the challenges encountered in acquiring or developing such technologies.
+The programme requires Training, seeds and fertilizers, both are produced locally.
+General comments
+42 / 97
+
+--- Page 43 ---
+SO-5: To mobilize substantial and additional financial and non-financial resources to support the implementation of the
+Convention by building effective partnerships at global and national level
+SO5-5 Future support for activities related to the implementation of the Convention
+SO5-5.1: Planned provision and mobilization of domestic public and private resources
+Please provide information relevant to the planned provision and mobilization of domestic resources for the
+implementation of the Convention, including information relevant to indicator SO5-2, as well as information
+on projected levels of public financial resources, target sectors and planned domestic policies.
+The Government of Zimbabwe has promoted Private-Public Partnerships as the vehicle to mobilise both domestic and multilateral
+investments to find the implementation of the Convention.
+SO5-5.2: Planned provision and mobilization of international public and private resources
+Please provide information relevant to the planned provision and mobilization of international resources for
+the implementation of the Convention, including information on projected levels of public financial resources
+and support to capacity building and transfer of technology, target regions or countries, and planned
+programmes, policies and priorities.
+The Government of Zimbabwe promoted Private-Public Partnerships as the vehicle to mobilise both domestic and multilateral investments
+to find the implementation of the Convention during the reporting period.
+SO5-5.3: Resources needed
+Please provide information relevant to the financial resources needed for the implementation of the
+Convention, including on the projects and regions which needs most support and on which your country has
+focused to the greatest extent.
+Zimbabwe has focused mainly on combating land degradation through Climate Smart Agriculture.
+General comments
+The experience was affected by the limitation in financial resources.
+43 / 97
+
+--- Page 44 ---
+IF: Implementation Framework
+Financial and Non-Financial Sources
+Increasing the mobilization of resources:
+Would you like to share an experience on how your country has increased the mobilization of resources within the reporting
+period?
+Yes
+No
+What type of resources were mobilized (check all that apply)?
+☒ Financial Resources
+☐ Non-Financial
+Which sources were mobilized?
+☒ International
+☐ Domestic
+☒ Public
+☒ Private
+☐ Local communities
+☐ Non-traditional funding sources
+☒ Climate Finance
+☐ Other (please specify)
+Use this space to describe the experience:
+Zimbabwe jointly applied
+What were the challenges faced, if any?
+Scarcity of funds and limited capacity.
+What do you consider to be the lessons learned?
+Community and stakeholder engagement is key in all interventions
+How did you ensure that women benefited from/got access to this funding?
+The Government of Zimbabwe has a clear guideline on gender mainstreaming. For example, "Gender will be mainstreamed throughout the
+implementation of all adaptation measures. This will ensure that gender-biases are prevented when planning for their implementation, and
+that the measures can also directly target gender inequality as an important factor of vulnerability to climate change. Similarly, the
+measures will also consider the role of the youth as a way to provide opportunities for employment and skills development, and to ensure
+that youth perspectives are represented when planning for implementation"
+Use this space to provide any further complementary information you deem relevant:
+Source: https://www.undp.org/zimbabwe/news/zimbabwe-validates-climate-change-gender-action-plan
+Has your country supported other countries in the mobilization of financial and non-financial resources for the implementation
+of the Convention?
+44 / 97
+
+--- Page 45 ---
+IF: Implementation Framework
+Yes
+No
+Use this space to describe the experience:
+Zimbabwe helped the Democratic Republic of Congo to mobilise funds to implement the Convention in 2019.
+What were the challenges faced, if any?
+Limited technical expertise, particularly grant proposal writing.
+Was part of the funding earmarked for women and/or women led activities/businesses?
+Part of the funding was targeted at women. For example, 60% of the GEF Small Grants targeted women-only projects.
+What do you consider to be the lessons learned?
+Cooperation leads to greater results than working alone.
+Using Land Degradation Neutrality as a framework to increase investment:
+From your perspective, would you consider that you have taken advantage of the LDN concept to enhance the coherence,
+effectiveness and multiple benefits of investments?
+Yes
+No
+Use this space to describe the experience:
+What were the challenges faced, if any?
+What do you consider to be the lessons learned?
+Improving existing and/or innovative financial processes and institutions
+From your perspective, do you consider that your country has improved the use of existing and/or innovative financial
+processes and institutions?
+Yes
+No
+Was this through any of the following (check all that apply)?
+☒ Existing financial processes
+☐ Innovative financial processes
+☒ The GEF
+☐ Other funds (please specify)
+Use this space to describe the experience:
+45 / 97
+
+--- Page 46 ---
+IF: Implementation Framework
+Zimbabwe successfully applied for $10,025,964 to implement the Strengthening Biodiversity and Ecosystems Management and Climate-
+Smart Landscapes in the Mid to Lower Zambezi Region of Zimbabwe.
+What were the challenges faced, if any?
+None
+What do you consider to be the lessons learned?
+Co-financing is important in applying for grants
+Did your country support other countries in the improvement of existing or innovative financial processes and institutions?
+Yes
+No
+Use this space to describe the experience:
+Leveraging from other countries' experience helped Zimbabwe to use of existing and/or innovative financial processes and institutions
+(such as the Global Environment Facility (GEF) or other newer funds).
+What were the challenges faced, if any?
+Limited technical knowhow.
+What do you consider to be the lessons learned?
+Cooperation is key.
+46 / 97
+
+--- Page 47 ---
+IF: Implementation Framework
+Policy and Planning
+Action Programmes:
+Has your country developed or helped develop, implement, revise or regularly monitor your national action programme?
+Yes
+No
+Use the space below to share more details about your country's experience:
+The Government of Zimbabwe enacted the policies between 2016 and 2019 1. National Climate Policy (2016) 2. Environmental and Climate
+Change Policy (2016) 3. National Adaptation Plan (NAP) Roadmap for Zimbabwe https://napglobalnetwork.org/wp-content/uploads
+/2019/04/napgn-en-2019-nap-roadmap-for-zimbabwe.pdf 4. Locahttps://www.ema.co.zw/index.php/agency/downloads/local-
+environmental-action-planning-leapl Environmental Action Plans
+Would you consider the action programmes and/or plans to be successful and what do you consider the main reasons for
+success or lack thereof?
+There are ongoing programmes.
+What were the challenges faced, if any?
+Limited financial resources and technical know-how.
+What do you consider to be the lessons learned?
+The bottom-up approach works wonders.
+Policies and enabling environment:
+During the reporting period, has your country established or helped establish policies and enabling environments to promote
+and/or implement solutions to combat desertification/land degradation and mitigate the effects of drought?
+Yes
+No
+These policies and enabling environments were aimed at (check all that apply):
+☒ Promoting solutions to combat desertification, land degradation and drought (DLDD)
+☒ Implementing solutions to combat DLDD
+☒ Protecting women’s land rights
+☒ Enhancing women’s access to natural, productive and/or financial resources
+☐ Other (please specify)
+How best to describe these experiences (check all that apply):
+☒ Prevention of the effects of DLDD
+☒ Relief efforts after DLDD has caused environmental and or socioeconomic stress on ecosystems and or populations
+☒ Recovery efforts after DLDD has caused environmental and or socioeconomic stress on ecosystems and or populations
+☒ Engagement of women in decision - making
+☒ Implementation and promotion of women's land rights and access to land resources
+☐ Building women's capacity for effective UNCCD implementation
+47 / 97
+
+--- Page 48 ---
+IF: Implementation Framework
+☐ Other (please specify)
+Use the space below to share more details about your country/sub-region/region/institution's experience.
+Developing, implementing, revising and regularly monitoring, as appropriate, national, subregional and regional action programmes and/or
+plans as effective tools for UNCCD implementation.
+Do you consider these policies to be successful in promoting or implementing solutions to address DLDD, including prevention,
+relief and recovery, and what do you consider the main factors of success or lack thereof?
+They are still ongoing
+What were the challenges faced, if any?
+Limited financial resources.
+What would you consider to be the lessons learned?
+Synergies are important.
+Has your country supported other countries in establishing policies and enabling environments to promote and implement
+solutions to combat desertification/land degradation and mitigate the effects of drought, including prevention, relief and
+recovery?
+Yes
+No
+Has your country offered support related to or including the setting of policy measures in terms of mainstreaming gender in the
+implementation of the UNCCD?
+Yes
+No
+Use the space below to describe your country's experience.
+Countries in the Southern Africa region learned from Zimbabwe's Climate Smart Agriculture programme during the reporting period.
+Do you consider this experience a success and, if so, what do you consider the reasons behind this success (or lack thereof)?
+Yes
+What were the challenges faced, if any?
+What would you consider to be the lessons learned?
+Are women’s land rights protected in national legislation?
+Yes
+No
+48 / 97
+
+--- Page 49 ---
+IF: Implementation Framework
+If so, how (please provide the reference to the relevant law/policy)
+Synergies:
+From your perspective, has your country leveraged synergies and integrated DLDD into national plans related to other MEAs,
+particularly the other Rio Conventions and other international commitments?
+Yes
+No
+Mainstreaming desertification, land degradation and drought:
+From your perspective, did your country take specific actions to mainstream, DLDD in economic, environmental and social
+policies, with a view to increasing the impact and effectiveness of the implementation of the Convention?
+Yes
+No
+Drought-related policies:
+Has your country established or is your country establishing national policies, measures and governance for drought
+preparedness and management?
+Yes
+No
+Use the space below to describe your country's experience.
+The drought preparedness plan can be found here: https://www.unccd.int/sites/default/files/country_profile_documents
+/1%2520FINAL_NDP_Zimbabwe.pdf
+Do you consider this experience a success and, if so, what do you consider the reasons behind this success (or lack thereof)?
+The National Drought Plan has been developed with the intention of providing a guideline for drought management, appropriate responses,
+and communication actions for when drought occurs.
+What were the challenges faced, if any?
+None
+What would you consider to be the lessons learned?
+Stakeholder participation is key.
+Has your country supported other countries in establishing policies, measures and governance for drought preparedness and
+management, in accordance with the mandate of the Convention?
+Yes
+No
+Use the space below to describe your country's experience.
+Zimbabwe led the Monitoring of the Environment for Security in Africa (MESA) Project.
+49 / 97
+
+--- Page 50 ---
+IF: Implementation Framework
+Do you consider this experience a success and, if so, what do you consider the reasons behind this success (or lack thereof)?
+Zimbabwe trained cadres from SADC member states on tools for monitoring drought .
+What were the challenges faced, if any?
+None
+What would you consider to be the lessons learned?
+Synergies are important in implementing the Convention.
+50 / 97
+
+--- Page 51 ---
+IF: Implementation Framework
+Action on the Ground
+Sustainable land management practices:
+Has your country implemented or is your country implementing sustainable land management (SLM) practices to address
+DLDD?
+Yes
+No
+What types of SLM practices are being implemented?
+☒ Agroforestry
+☒ Area closure (stop use, support restoration)
+☒ Beekeeping, fishfarming, etc
+☐ Cross-slope measure
+☐ Ecosystem-based disaster risk reduction
+☒ Energy efficiency
+☒ Forest plantation management
+☒ Home gardens
+☒ Improved ground/vegetation cover
+☒ Improved plant varieties animal breeds
+☒ Integrated crop-livestock management
+☒ Integrated pest and disease management (incl. organic agriculture)
+☒ Integrated soil fertility management
+☒ Irrigation management (incl. water supply, drainage)
+☒ Minimal soil disturbance
+☐ Natural and semi-natural forest management
+☐ Pastoralism and grazing land management
+☒ Post-harvest measures
+☒ Rotational system (crop rotation, fallows, shifting, cultivation)
+☒ Surface water management (spring, river, lakes, sea)
+☐ Water diversion and drainage
+☒ Water harvesting
+☒ Wetland protection/management
+☐ Windbreak/Shelterbelt
+☒ Waste management / Waste water management
+☐ Other (please specify)
+Use the space below to share more details about your country's experience:
+One example of Zimbabwe's approach to SLM is the Climate-Smart Agriculture, locally known as the Pfumvudza. https://sdgs.un.org
+/partnerships/zimbabwe-pfumvudza-programme
+Would you consider the implemented practices successful and what do you consider the main factors of success?
+The programme is ongoing
+What were the challenges faced, if any?
+Limited financial resources
+51 / 97
+
+--- Page 52 ---
+IF: Implementation Framework
+What do you consider to be the lessons learned?
+Stakeholder participation is important and guarantees success.
+How did you engage women and youth in these activities?
+Zimbabwe's involvement of youth and women in SLM activities is guided by the Zimbabwe Climate Change Gender Action Plan.
+https://www.undp.org/zimbabwe/news/zimbabwe-validates-climate-change-gender-action-plan
+Has your country supported other countries in the implementation of SLM practices?
+Yes
+No
+Use the space below to share more details about your country's experience:
+Zimbabwe exported its Climate-Smart Agricultural model to Zambia in particular.
+Would you consider the implemented practices successful and what do you consider the main factors of success?
+The practices ate still ongoing.
+What were the challenges faced, if any?
+Limited financial resources.
+What do you consider to be the lessons learned?
+Synergies are important in development work
+Restoration and Rehabilitation:
+Has your country implemented or is your country implementing restoration and rehabilitation practices in order to assist with
+the recovery of ecosystem functions and services?
+Yes
+No
+What types of rehabilitation and restoration practices are being implemented?
+☒ Restore/improve tree-covered areas
+☒ Increase tree-covered area extent
+☒ Restore/improve croplands
+☒ Restore/improve grasslands
+☒ Restore/improve wetlands
+☒ Increase soil fertility and carbon stock
+☒ Manage artificial surfaces
+☒ Restore/improve protected areas
+☐ Increase protected areas
+☐ Improve coastal management
+☒ General instrument (e.g. policies, economic incentives)
+☒ Restore/improve multiple land uses
+52 / 97
+
+--- Page 53 ---
+IF: Implementation Framework
+☒ Reduce/halt conversion of multiple land uses
+☒ Restore/improve multiple functions
+☒ Restore productivity and soil organic carbon stock in croplands and grasslands
+☐ Other/general/unspecified
+Use the space below to share more details about your country's experience:
+Zimbabwe produced a National Wetlands Masterplan and the associated policy document during the reporting period.
+https://www.ema.co.zw/index.php/agency/downloads/national-wetlands-policy?format=html
+Would you consider the implemented practices successful and what do you consider the main factors of success?
+Ongoing
+What were the challenges faced, if any?
+Limited financial resources
+What do you consider to be the lessons learned?
+Synergies are rudimentary to the success of development work
+How did you engage women and youth in SLM activities?
+Zimbabwe's involvement of youth and women in SLM activities is guided by the Zimbabwe Climate Change Gender Action Plan.
+https://www.undp.org/zimbabwe/news/zimbabwe-validates-climate-change-gender-action-plan
+Has your country supported other countries with restoration and rehabilitation practices in order to assist with the recovery of
+ecosystem functions and services?
+Yes
+No
+Drought risk management and early warning systems:
+Is your country developing a drought risk management plan, monitoring or early warning systems and safety net programmes to
+address DLDD?
+Yes
+No
+If so, DLDD was mainstreamed into (check all that apply):
+☒ A drought risk management plan
+☒ Monitoring and early warning systems
+☒ Safety net programmes
+Use the space below to describe your country's experience.
+Zimbabwe produced its Drought Risk Management Plan during the reporting period. https://www.unccd.int/sites/default/files
+/country_profile_documents/1%2520FINAL_NDP_Zimbabwe.pdf
+Do you consider this experience a success and, if so, what do you consider the reasons behind this success (or lack thereof)?
+53 / 97
+
+--- Page 54 ---
+IF: Implementation Framework
+The activities are on-going
+If you have or are developing a drought risk management plan as part of the Drought Initiative, please share here your
+experience on activities undertaken?
+Zimbabwe produced its Drought Risk Management Plan during the reporting period. https://www.unccd.int/sites/default/files
+/country_profile_documents/1%2520FINAL_NDP_Zimbabwe.pdf
+What were the challenges faced, if any?
+Limited financial resources
+What would you consider to be the lessons learned?
+Stakeholder participation is important.
+Has your country supported other countries in developing drought risk management, monitoring and early warning systems and
+safety net programmes to address DLDD?
+Yes
+No
+Use the space below to describe your country's experience.
+Zimbabwe led the MESA project.
+Do you consider this experience a success and, if so, what do you consider the reasons behind this success (or lack thereof)?
+Activities are still on-going
+What were the challenges faced, if any?
+Limited financial resources
+What would you consider to be the lessons learned?
+Cooperation brings more positive results than countries working alone.
+Alternative livelihoods:
+Does your country promote alternative livelihoods practice in the context of DLDD?
+Yes
+No
+Could you list some practices implemented at country level to promote alternative livelihoods?
+☒ Crop diversification
+☒ Agroforestry practices
+☒ Rotational grazing
+☒ Rain-fed and irrigated agricultural systems
+☒ Small vegetable gardens
+☒ Production of artisanal goods
+54 / 97
+
+--- Page 55 ---
+IF: Implementation Framework
+☒ Renewable energy generation
+☒ Eco-tourism
+☐ Production of medicinal and aromatic plants
+☐ Aquaculture using recycled wastewater
+☐ Other (please specify)
+Use the space below to describe your country's experience.
+The Government of Zimbabwe encourages, and incentives crop diversification, agroforestry practices, and irrigated agricultural systems.
+For example, the Government of Zimbabwe supported the construction of the Tokwe-Mukosi Dam and the subsequent land-use plan, which
+promotes irrigation with the dammed water.as oulines in the GOVERNMENT OF THE REPUBLIC OF ZIMBABWE SUPPORT TO NEPAD–
+CAADP IMPLEMENTATION. https://www.fao.org/3/ae565e/ae565e00.pdf
+Do you consider this experience a success and, if so, what do you consider the reasons behind this success (or lack thereof)?
+The activities are on-going
+What were the challenges faced, if any?
+Limited financial resources
+What would you consider to be the lessons learned?
+None
+Do you consider your country to be taking special measures to engage women and youth in promoting alternative livelihoods?
+Yes
+No
+Please elaborate
+Zimbabwe's involvement of youth and women in SLM activities is guided by the Zimbabwe Climate Change Gender Action Plan.
+https://www.undp.org/zimbabwe/news/zimbabwe-validates-climate-change-gender-action-plan
+Establishing knowledge sharing systems:
+Has your country established systems for sharing information and knowledge and facilitating networking on best practices and
+approaches to drought management?
+Yes
+No
+Please use this space to share/list the established systems available in your country for sharing information and knowledge
+and facilitating networking on best practices and approaches to drought management.
+Zimbabwe used Mass SMS to share information regarding drought.
+Do you consider this experience a success and, if so, what do you consider the reasons behind this success (or lack thereof)?
+The government harnessed the increase in cellular network coverage to help farmers share information via mass SMS.
+What were the challenges faced, if any?
+55 / 97
+
+--- Page 56 ---
+IF: Implementation Framework
+There still exist gaps in cellular network coverage across the country of Zimbabwe.
+What would you consider to be the lessons learned?
+None
+Do you consider that your country has implemented specific actions that promote women’s access to knowledge and
+technology?
+Yes
+No
+Please elaborate
+Zimbabwe's involvement of youth and women in SLM activities is guided by the Zimbabwe Climate Change Gender Action Plan.
+https://www.undp.org/zimbabwe/news/zimbabwe-validates-climate-change-gender-action-plan
+Do you consider this experience a success and, if so, what do you consider the reasons behind this success (or lack thereof)?
+The practices are still on-going
+What were the challenges faced, if any?
+Cultural traditions.
+What would you consider to be the lessons learned?
+Community engagement is important to win buy-ins
+56 / 97
+
+--- Page 57 ---
+RC: Recalculations
+RC: Recalculations
+RC.T1: Recalculation of the baseline period, as reported in 2018.
+Indicator Explanatory Quantitative impact of the Impact of the recalculations
+Justifications
+recalculated information recalculations on baseline on national targets
+☐ Changes in methodology
+☐ New and improved data
+☐ Correction of errors in a N/A N/A N/A
+previous version of the data
+☐ Other adjustment
+57 / 97
+
+--- Page 58 ---
+Other files for Reporting
+Zimbabwe - SO5-1 recipient Download 36.6 KB
+58 / 97
+
+--- Page 59 ---
+Zimbabwe – SO1-1.M1
+Land cover in the initial year of the baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• European Space Agency Climate Change Initiative Land Cover (ESA CCI-LC) product, 1992-2019. URL: https://www.esa-landcover-cci.org/
+59 / 97
+
+--- Page 60 ---
+Zimbabwe – SO1-1.M2
+Land cover in the baseline year
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• European Space Agency Climate Change Initiative Land Cover (ESA CCI-LC) product, 1992-2019. URL: https://www.esa-landcover-cci.org/
+60 / 97
+
+--- Page 61 ---
+Zimbabwe – SO1-1.M3
+Land cover in the latest reporting year
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• European Space Agency Climate Change Initiative Land Cover (ESA CCI-LC) product, 1992-2019. URL: https://www.esa-landcover-cci.org/
+61 / 97
+
+--- Page 62 ---
+Zimbabwe – SO1-1.M4
+Land cover change in the baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• European Space Agency Climate Change Initiative Land Cover (ESA CCI-LC) product, 1992-2019. URL: https://www.esa-landcover-cci.org/
+62 / 97
+
+--- Page 63 ---
+Zimbabwe – SO1-1.M5
+Land cover change in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• European Space Agency Climate Change Initiative Land Cover (ESA CCI-LC) product, 1992-2019. URL: https://www.esa-landcover-cci.org/
+63 / 97
+
+--- Page 64 ---
+Zimbabwe – SO1-1.M6
+Land cover degradation in the baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• European Space Agency Climate Change Initiative Land Cover (ESA CCI-LC) product, 1992-2019. URL: https://www.esa-landcover-cci.org/
+64 / 97
+
+--- Page 65 ---
+Zimbabwe – SO1-1.M7
+Land cover degradation in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• European Space Agency Climate Change Initiative Land Cover (ESA CCI-LC) product, 1992-2019. URL: https://www.esa-landcover-cci.org/
+65 / 97
+
+--- Page 66 ---
+Zimbabwe – SO1-2.M1
+Land productivity dynamics in the baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• EC-JRC, 2021, based on Xavier Rotllan-Puig, Eva Ivits, Michael Cherlet, LPDynR: A new tool to calculate the land productivity dynamics indicator, Ecological Indicators, Volume 133, 2021, 108386, ISSN
+1470-160X. URL: https://doi.org/10.1016/j.ecolind.2021.108386
+66 / 97
+
+--- Page 67 ---
+Zimbabwe – SO1-2.M2
+Land productivity dynamics in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• EC-JRC, 2021, based on Xavier Rotllan-Puig, Eva Ivits, Michael Cherlet, LPDynR: A new tool to calculate the land productivity dynamics indicator, Ecological Indicators, Volume 133, 2021, 108386, ISSN
+1470-160X. URL: https://doi.org/10.1016/j.ecolind.2021.108386
+67 / 97
+
+--- Page 68 ---
+Zimbabwe – SO1-2.M3
+Land productivity degradation in the baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• EC-JRC, 2021, based on Xavier Rotllan-Puig, Eva Ivits, Michael Cherlet, LPDynR: A new tool to calculate the land productivity dynamics indicator, Ecological Indicators, Volume 133, 2021, 108386, ISSN
+1470-160X. URL: https://doi.org/10.1016/j.ecolind.2021.108386
+68 / 97
+
+--- Page 69 ---
+Zimbabwe – SO1-2.M4
+Land productivity degradation in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• EC-JRC, 2021, based on Xavier Rotllan-Puig, Eva Ivits, Michael Cherlet, LPDynR: A new tool to calculate the land productivity dynamics indicator, Ecological Indicators, Volume 133, 2021, 108386, ISSN
+1470-160X. URL: https://doi.org/10.1016/j.ecolind.2021.108386
+69 / 97
+
+--- Page 70 ---
+Zimbabwe – SO1-3.M1
+Soil organic carbon stock in the initial year of the baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• International Soil Reference and Information Centre (ISRIC) SoilGrids250m dataset. URL: https://www.isric.org/explore/soilgrids
+70 / 97
+
+--- Page 71 ---
+Zimbabwe – SO1-3.M2
+Soil organic carbon stock in the baseline year
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• International Soil Reference and Information Centre (ISRIC) SoilGrids250m dataset. URL: https://www.isric.org/explore/soilgrids
+71 / 97
+
+--- Page 72 ---
+Zimbabwe – SO1-3.M3
+Soil organic carbon stock in the latest reporting year
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• International Soil Reference and Information Centre (ISRIC) SoilGrids250m dataset. URL: https://www.isric.org/explore/soilgrids
+72 / 97
+
+--- Page 73 ---
+Zimbabwe – SO1-3.M4
+Change in soil organic carbon stock in the baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• International Soil Reference and Information Centre (ISRIC) SoilGrids250m dataset. URL: https://www.isric.org/explore/soilgrids
+73 / 97
+
+--- Page 74 ---
+Zimbabwe – SO1-3.M5
+Change in soil organic carbon stock in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• International Soil Reference and Information Centre (ISRIC) SoilGrids250m dataset. URL: https://www.isric.org/explore/soilgrids
+74 / 97
+
+--- Page 75 ---
+Zimbabwe – SO1-3.M6
+Soil organic carbon degradation in the baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• International Soil Reference and Information Centre (ISRIC) SoilGrids250m dataset. URL: https://www.isric.org/explore/soilgrids
+75 / 97
+
+--- Page 76 ---
+Zimbabwe – SO1-3.M7
+Soil organic carbon degradation in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• International Soil Reference and Information Centre (ISRIC) SoilGrids250m dataset. URL: https://www.isric.org/explore/soilgrids
+76 / 97
+
+--- Page 77 ---
+Zimbabwe – SO1-4.M1
+Proportion of land that is degraded over total land area (SDG Indicator 15.3.1) in the baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Derived based on the methodology in the Good Practice Guidance Version 2 for Sustainable Development Goal (SDG) indicator 15.3.1 - Proportion of land that is degraded over total land area. URL:
+https://www.unccd.int/publications/good-practice-guidance-sdg-indicator-1531-proportion-land-degraded-over-total-land
+77 / 97
+
+--- Page 78 ---
+Zimbabwe – SO1-4.M2
+Proportion of land that is degraded over total land area (SDG Indicator 15.3.1) in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Derived based on the methodology in the Good Practice Guidance Version 2 for Sustainable Development Goal (SDG) indicator 15.3.1 - Proportion of land that is degraded over total land area. URL:
+https://www.unccd.int/publications/good-practice-guidance-sdg-indicator-1531-proportion-land-degraded-over-total-land
+78 / 97
+
+--- Page 79 ---
+Zimbabwe – SO1-4.M3
+Progress towards Land Degradation Neutrality (LDN) in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Derived based on the methodology in the Good Practice Guidance Version 2 for Sustainable Development Goal (SDG) indicator 15.3.1 - Proportion of land that is degraded over total land area. URL:
+https://www.unccd.int/publications/good-practice-guidance-sdg-indicator-1531-proportion-land-degraded-over-total-land
+79 / 97
+
+--- Page 80 ---
+Zimbabwe – SO2-3.M1
+Total Population exposed to land degradation (baseline)
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• WorldPop project URL: https://www.worldpop.org
+80 / 97
+
+--- Page 81 ---
+Zimbabwe – SO2-3.M2
+Female Population exposed to land degradation (baseline)
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• WorldPop project URL: https://www.worldpop.org
+81 / 97
+
+--- Page 82 ---
+Zimbabwe – SO2-3.M3
+Male Population exposed to land degradation (baseline)
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• WorldPop project URL: https://www.worldpop.org
+82 / 97
+
+--- Page 83 ---
+Zimbabwe – SO2-3.M4
+Total Population exposed to land degradation (reporting)
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• WorldPop project URL: https://www.worldpop.org
+83 / 97
+
+--- Page 84 ---
+Zimbabwe – SO2-3.M5
+Female Population exposed to land degradation (reporting)
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• WorldPop project URL: https://www.worldpop.org
+84 / 97
+
+--- Page 85 ---
+Zimbabwe – SO2-3.M6
+Male Population exposed to land degradation (reporting)
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• WorldPop project URL: https://www.worldpop.org
+85 / 97
+
+--- Page 86 ---
+Zimbabwe – SO3-1.M1
+Drought hazard in first epoch of baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+86 / 97
+
+--- Page 87 ---
+Zimbabwe – SO3-1.M2
+Drought hazard in second epoch of baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+87 / 97
+
+--- Page 88 ---
+Zimbabwe – SO3-1.M3
+Drought hazard in third epoch of baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+88 / 97
+
+--- Page 89 ---
+Zimbabwe – SO3-1.M4
+Drought hazard in fourth epoch of baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+89 / 97
+
+--- Page 90 ---
+Zimbabwe – SO3-1.M5
+Drought hazard in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+90 / 97
+
+--- Page 91 ---
+Zimbabwe – SO3-2.M1
+Drought exposure in first epoch of baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+91 / 97
+
+--- Page 92 ---
+Zimbabwe – SO3-2.M2
+Drought exposure in second epoch of baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+92 / 97
+
+--- Page 93 ---
+Zimbabwe – SO3-2.M3
+Drought exposure in third epoch of baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+93 / 97
+
+--- Page 94 ---
+Zimbabwe – SO3-2.M4
+Drought exposure in fourth epoch of baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+94 / 97
+
+--- Page 95 ---
+Zimbabwe – SO3-2.M5
+Drought exposure in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+95 / 97
+
+--- Page 96 ---
+Zimbabwe – SO3-2.M6
+Female drought exposure in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+96 / 97
+
+--- Page 97 ---
+Zimbabwe – SO3-2.M7
+Male drought exposure in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+97 / 97

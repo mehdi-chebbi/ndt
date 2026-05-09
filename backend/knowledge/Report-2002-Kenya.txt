@@ -1,0 +1,2687 @@
+--- Page 1 ---
+RepublicofKenya
+MinistryofEnvironment andNatural Resources
+NATIONAL ACTION PROGRAMME
+A FRAMEWORK FOR COMBATING DESERTIFICATION IN KENYA
+In theContextof theUnited Nations Convention toCombatDesertification
+NationalEnvironmentSecretariat
+P.O.BOX67839,Nairobi,Kenya
+Tel.254-2-248349;Fax254-2-248851
+E-Mail:ken-nap@swiftkenya.com
+February2002
+0
+
+--- Page 2 ---
+PREFACE
+Kenya’s drylands account for 88% of her land surface area. They are the home of a
+population of approximately 10 million people. About 50% and 70% of livestock and
+wildlife respectivelyare located in the drylands. Tourism, which is mainlybased on wildlife
+viewing, contributes 25% of the national foreign exchange earnings. In this regard, drylands
+play a big role in the socio-economic development of Kenya. The existing ecological
+conditions in drylands are harsh and fragile. These conditions are exacerbated by frequent
+drought and the influx of people from the high potential areas into the drylands. Overgrazing
+and subdivision of land into uneconomic land parcel sizes have further worsened them.
+Under these circumstances, drylands are getting more and more vulnerable to desertification
+inKenya.
+Desertification is a global issue and cannot be tackled by one government. As a result the
+world community negotiated the United Nations Convention to Combat Desertification. The
+Convention serves as a mechanism for concerted efforts and synergies among world
+communities toaddress desertificationeffectively.
+Kenya ratified the convention in 1997 with a view to joining the World Community to
+Combat Desertification. One of the main commitments of the Parties to the Convention is to
+develop National Action Programme, which serve as guiding frameworks for the
+implementation of the Convention at national levels. In this respect, Kenya developed the
+National Action Programme (NAP) through a consultative and participatory process that
+involved all the stakeholders and culminated in the production of this document in line with
+theprinciples oftheCCD.
+The success of the implementation of NAP lies on the preparation of viable projects within
+the framework of these NAP priorityareas. Further, special attention will be given to NAP in
+the major national development strategies, frameworks and process such as the Poverty
+Reduction Strategy Paper (PRSP). Implementation of NAP is going to be the responsibility
+of all institutions including various Government arms and agencies, Research Institutions,
+UN agencies, multilateral and bilateral development partners, NGOs, CBOs, local
+communities and individuals. In this regard, the stakeholders are challenged to playtheir part
+byexpeditingpreparationoftheaforesaidprojects andprogrammes.
+On its part, the Government of Kenya, over and above ratifyingthe Convention, will continue
+toofferanenablingenvironment forthesuccessful implementationofNAP.
+Hon.Joseph J.Kamotho,E.G.H
+MINISTERFORENVIRONMENT
+MINISTRYOFENVIRONMENT ANDNATURAL RESOURCES
+1
+
+--- Page 3 ---
+ACKNOWLEDGEMENT
+Preparation of the National Action Programme (NAP) has been an enormous task, which
+could not be adequately accomplished without institutional support, significant financial
+outlay and expertise in many disciplines drawn from various organizations. The office of the
+Minister for Environment and Natural Resources provided encouragement and inspiration
+while that of the Permanent Secretary provided overall guidance, advice and coordination
+duringthewholeprocess ofthedevelopment ofNAP.
+The initial financial support for processes that culminated into the 1st National Forum, which
+included sensitization workshops and consensus buildingfora was provided byUNDP/UNSO
+and the Government of Kenya. Drafting, editing, printing and the validation workshop were
+supported by the UNCCD Secretariat and the Government of Kenya. All this support is
+herebyacknowledgedwithdeepappreciation.
+Many stakeholders drawn from Government departments and ministries, universities,
+research institutions, private sector, United Nations agencies, NGOs, CBOs and local
+communities provided baseline information and recommendations which formed the bulk of
+NAP at the formative stage. They have also provided useful critique and adopted the NAP
+document. Their consensus has facilitated consideration and approval of NAP by the
+Government ofKenya.Theircontributiontothedocument is acknowledgedwithgratitude.
+A number of consultants carried out intensive research on the thematic areas of NAP. Their
+findings further provided very useful data and information on which the stakeholders based
+their informed recommendations for the NAP. In this regard, the contribution of the
+consultants is herebyalsoacknowledged.
+Many thanks also go to the NAP Task Force (names appended) that worked tirelessly to
+coordinate and provide logistics for the validation forum, editing and publication of the NAP
+document. The National Steering Committee provided the technical guidance for the
+process.
+It is indeed impossible to thank all persons and institutions that have contributed to the
+success of the NAP document by name. Their efforts are hereby acknowledged with deep
+appreciation.
+The demise of Mr. F.S. Guturo and Prof. S.M. Mutiso, which occurred in the years 2000 and
+2001 respectively, are much regretted. Prof. Mutiso was the first chairman of the National
+steering Committee until his death. Mr. Guturo was an active founder member of the
+National NGO Coordinating Committee on Desertification (NCCD-K). He played a major
+role in zealously mobilizing local communities and CBOs to participate effectively in the
+NAP process. Their contributions are posthumorouslyacknowledged. Maythe almightyGod
+rest theirsouls ineternal peace.
+2
+
+--- Page 4 ---
+ACRONYMS
+AHITI Animal HealthandIndustryTrainingInstitute
+ALDEV AfricanLandDevelopment Board
+ASAL AridandSemi-aridLands
+BOT BoardofTrustees
+CAP CommunityActionPlan
+CBO CommunityBasedOrganization
+CBS Central BureauofStatistics
+UNCCD UnitedNations ConventiontoCombat Desertification
+DCTF DesertificationCommunityTrust Fund
+DDC District Development Committee
+DEC District Environment Committee
+DMC Drought MonitoringCenter
+DRSRS Department ofResourceSurveys andRemoteSensing
+FAO FoodandAgricultureOrganizationoftheUnitedNations
+GEF Global Environment Facility
+GoK Government ofKenya
+GMO GeneticallyModifiedOrganism
+GM Global Mechanism
+GTZ GermanTechnical AssistanceAgency
+IMCE Inter-Ministerial CommitteeonEnvironment
+IGAD Intergovernmental AuthorityonDevelopment
+ITCZ Inter-Tropical ConvergenceZone
+KARI KenyaAgricultural ResearchInstitute
+KLDP KenyaLivestockDevelopment Programme
+KREMU KenyaRangelandEcological MonitoringUnit
+MLRWD MinistryofLandReclamationRegional andWaterDevelopment
+MoU Memorandum ofUnderstanding
+MRDASAW Ministry of Reclamation and Development of Arid and Semi-Arid and
+Wastelands
+NAP National ActionProgramme
+NCB National CoordinatingBody
+NCCD National NGOCoordinatingCommitteeonDesertification
+NDF National DesertificationFund
+NES National Environment Secretariat
+NGO Non-Governmental Organization
+NIB National IrrigationBoard
+PACD PlanofActiontoCombat Desertification
+PRSP PovertyReductionStrategyPaper
+SIDA SwedishInternational Development Agency
+SRAP Sub-regional ActionProgramme
+SSO Sahara-SahelianObservatory
+UNCED UnitedNations Conferenceon Environment andDevelopment
+UNDP United Nations Development Programme
+UNEP UnitedNations Environment Programme
+UNSO UNDP OfficetoCombat Desertification
+USAID UnitedStates AgencyforInternational Development
+WFP WorldFoodProgramme
+WCPC WaterConservationandPipelineCorporation.
+3
+
+--- Page 5 ---
+EXECUTIVESUMMARY
+Kenya ratified the United Nations Convention to Combat Desertification (CCD) in 1997.
+One of the main commitments of the parties to the Convention is to develop national action
+programmes, which serve as guiding frameworks for the implementation of the convention.
+The key guiding principles include involvement of all the stakeholders and bottom-up
+approachintheimplementationofNAPS.
+In 1997, Kenya received financial support from UNDP/UNSO to Develop the National
+Action Programme (NAP). The initial stages were characterized bya process of sensitization
+of stakeholders including government departments, research institutions, private sector, non-
+governmental organizations (NGOs) community-based organizations (CBOs) and local
+communities in affected dry lands. The sensitization was carried out simultaneously with
+data and information collation and analysis for background information, which could assist
+the stakeholders to make informed decisions in the recommendations for the NAP. At the
+same time direct support was provided on a pilot basis to local level community-based
+initiatives associated with combating desertification with a view to learning and promoting
+management of local natural resources, food security and partnerships with local
+communities.
+Consultation workshops were conducted at local and national levels for the stakeholders to
+deliberate and make recommendations on NAP. The recommendations form the bulk of this
+NAP document, which has been subjected to stakeholders' review and adoption. The
+document is divided into three parts, namely, background, priority areas and implementation
+strategies.
+In part I of this document, the background and rationale for Kenya to ratify CCD has been
+stated. This recognizes the pressure exerted on the natural resources base by the high and
+ever increasing population as well as the climate and socioeconomic conditions prevailing in
+the drylands of the country. The review indicated that the resource bases in the drylands of
+Kenyaareadequatetoreverseoreffectivelycontrol desertificationinthecountry.
+A review of the past actions revealed that the efforts to combat desertification date back to
+the 1930s. These previous efforts fell short of achieving their objectives due to various
+constraints. These constraints contributed to the limited positive impacts of programmes and
+projects in the drylands ecosystems / environments; the socio-economic development;
+abandonment ofuncompletedprojects; duplicationofefforts; andconflict ofinterests.
+Theseconstraints werediagnosedas including:
+• Sectoral approachtoprogramming
+• Uncoordinated and frequent shifts of mandate of dryland development from one
+institutiontoanother
+• Lowanduncoordinatedfunding
+• Inadequateinvolvement oflocal communities inprogramminganddecisionmaking
+• Inadequatepolicies andregulatoryframeworks
+• Inadequatecapacityforimplementation,monitoringandevaluation
+• Inadequateaccess toproductionresources bylocal communities
+4
+
+--- Page 6 ---
+This framework plan endeavors to address the above constraints in order to have an effective
+implementationofNAP.
+To ensure that these constraints are adequately addressed the NAP formulation process was
+characterized by intensive consultations of all the stakeholders with a bottom-up approach.
+This ensured to a good extent ownership of this National Action Programme. Thus Part I
+presents further achievements made in the mobilization of stakeholders, awareness raising,
+institutional as well as proposed financial arrangements for implementing the NAP at various
+levels from communitytonational levels.
+At the 1st National Forum the stakeholders identified priority areas for action as presented in
+Part II. These actions and measures fall in three clusters. The first cluster presented in
+Chapter 4 are proposed activities and measures that will lead to a conducive or an enabling
+environment forcombatingdesertificationat all levels ofaction.Thesemeasures include:
+• Putting in place adequate and robust policies, legal and institutional frameworks to
+enable all stakeholders effectively participate in the programmes and projects for
+combating desertification, including the local communities' ability to sustainably
+managetheirnatural resources at theirlevels.
+• Effective and ecologically sound land use plans / zoning policies including land and
+resourcetenurepolicies andlegal frameworks.
+• Provision of adequate information and enhancement of knowledge on the causes,
+processes andeffectivemeasures incontrollingdesertification.
+• Putting in place sustained programmes for comprehensive and actor-specific
+education and awareness raising for all the stakeholders. This will facilitate
+cooperation and a common understanding of the objectives of NAP among the
+stakeholders.
+• Putting in place effective strategies in support of local level community initiatives
+through education and awareness on issues of desertification; communities' roles and
+responsibilities in the management of their projects and natural resources; and though
+direct financial support.
+• Putting in place sustained and assured financial resources and mechanisms to ensure
+completionofprojects andsustainedprogrammes
+• Ensurecapacitybuildingforall stakeholders andinstitutions.
+The second cluster of activities and measures are presented in Chapter 5. These are sectoral
+priority areas in which investments could be employed at various levels to ensure sustainable
+development and management of natural resources; reverse adverse trends; rehabilitate
+degraded areas and /or reclaim wastelands. These will also include innovative ways of
+creating alternative livelihood systems in order to spare land and land resources from
+unsustainableexploitationbytherapidlyexpandinghumanpopulations.
+Thesesectoral priorityareas includeprogrammes andprojects in:
+• Energy
+• Vegetationcoverandwildlife
+• Forest conservation
+• Agricultureandpastoralism
+• Soil management
+5
+
+--- Page 7 ---
+• Waterresources management
+The third cluster of activities and measures are cross-sectoral in nature. They are activities
+and measures that will support sectoral investment programmes as well as prop the
+effectiveness ofthoseforenhancingtheenablingenvironment.
+Thepriorityareas withinthecross-sectoral programmes include:
+• Mainstreaminggenderintoall desertificationprogrammes andprojects
+• Scienceandtechnology
+• Povertyandenvironment
+• Earlywarningsystems
+In each of the priority areas, the status was assessed, key issues identified and proposed
+priority actions stated. Part II of the document forms the backbone of the implementation of
+NAP, as the proposed actions form the framework on which projects for implementation will
+be based. Detailed programmes and projects in line with this NAP framework could be an
+initiative of any of the main stakeholders who are therefore encouraged to commence
+initiatives.
+Part III of the document elaborates the envisaged implementation strategy that will ensure
+that the NAP is well coordinated and steered, financed and monitored. Thus coordination
+arrangements do not only include steering and institutional collaboration but also emphasizes
+takingownershipthroughclearroles andresponsibilities byall stakeholders.
+The expected financial resources and mechanisms for all the priority areas are outlined
+including the special Desertification CommunityTrust Fund (DCTF) that will be focusing on
+local level communityinitiatives that combat desertification.
+Particular emphasis is also given to monitoring and evaluation with the central utilization of
+environmental information systems. This monitoring and evaluation process emphasizes the
+importanceoflearning,flexibilityanditerativenatureoftheNAP process.
+InconclusiontheNAP frameworkdocument recommends that
+• Appropriate mechanisms be developed to sensitize and mobilize stakeholders to develop
+as manyviableprogrammes andprojects as possibleforimplementationofNAP
+• Resources bemobilizedfrom all possiblesources forimplementationofNAP
+• Mechanisms forimplementationofNAP bedevelopedtoensure:
+• Transparencyandaccountability
+• Bottom-upandparticipatoryapproach
+• Equityinbenefits sharingespeciallytheaffectedlocal communities
+• Mechanisms for mainstreaming NAP in the national development process including
+budgetingareenhanced.
+• NAP is integratedintoregional andsub-regional programmes.
+6
+
+--- Page 8 ---
+Tableof Contents
+PREFACE..........................................................................................................................................................1
+ACKNOWLEDGEMENT.................................................................................................................................2
+ACRONYMS.....................................................................................................................................................3
+EXECUTIVESUMMARY................................................................................................................................4
+PARTI:BACKGROUND...................................................................................................................................9
+1.INTRODUCTION.........................................................................................................................................9
+1.1 GeneralHistoricalBackground...........................................................................................................9
+1.2 PROFILEOFKENYA.................................................................................................................................10
+1.3 DesertificationinKenya....................................................................................................................11
+2. OVERVIEWOFNATIONALEFFORTSTOCOMBATDESERTIFICATION......................................14
+2.1 Introduction.......................................................................................................................................14
+2.2 PolicyFrameworks............................................................................................................................15
+2.3 LegalFrameworks.............................................................................................................................15
+2.4 InstitutionalFrameworks...................................................................................................................16
+2.5 Programmes.......................................................................................................................................17
+2.6 Coordination......................................................................................................................................19
+2.7 CooperationandPartnership............................................................................................................19
+2.8 FinancialArrangements....................................................................................................................20
+2.9 Constraints.........................................................................................................................................20
+3. NATIONALACTIONPROGRAMMEPROCESS...................................................................................21
+3.1 Background........................................................................................................................................21
+3.2 InitialActivitiesinformulatingNAP.................................................................................................22
+PART11:PRIORITYAREAS..........................................................................................................................24
+4. ENABLINGENVIRONMENT............................................................................................................24
+4.1 Policy,LegalandInstitutionalFramework.......................................................................................25
+4.2 LandUseandTenure.........................................................................................................................25
+4.3 InformationandEnhancementofKnowledge...................................................................................26
+4.4 PublicAwareness...............................................................................................................................27
+4.5 SupporttoLocalLevelCommunityInitiatives...................................................................................28
+4.6 FinancialMechanisms.......................................................................................................................28
+4.7 CapacityBuilding..............................................................................................................................29
+5. SECTORALPROGRAMMEAREAS...................................................................................................30
+5.1 EnergySector....................................................................................................................................30
+5.2 VegetationCoverandWildlife...........................................................................................................31
+5.3 ForestConservation..........................................................................................................................32
+5.4 ConservationofBiodiversity.............................................................................................................33
+5.5 AgricultureandPastoralism..............................................................................................................35
+5.6 SoilManagement...............................................................................................................................36
+5.7 WaterResourcesManagement..........................................................................................................37
+6. CROSSSECTORALPROGRAMMEAREAS..........................................................................................38
+6.1 MainstreamingGender......................................................................................................................39
+6.2 ScienceandTechnology....................................................................................................................39
+6.3 PovertyandEnvironment..................................................................................................................40
+6.4 EarlyWarningSystems......................................................................................................................42
+PARTIII:IMPLEMENTATIONSTRATEGY...............................................................................................44
+7. COORDINATIONARRANGEMENTS....................................................................................................44
+7.2 RoleofVariousActors.......................................................................................................................44
+7.3 PartnershipBuilding.........................................................................................................................46
+7.4 Co-ordination...................................................................................................................................47
+8. FINANCINGMECHANISMS...............................................................................................................47
+8.1 ResourceMobilization.......................................................................................................................47
+8.2 FundraisingStrategies.......................................................................................................................48
+8.3. PotentialFundingSources.................................................................................................................49
+7
+
+--- Page 9 ---
+8.4 FundingSystems................................................................................................................................49
+8.6 GeneralGuidelinesforPrioritizationofResourceAllocation.........................................................51
+9. MONITORINGANDEVALUATION......................................................................................................52
+9.1 RoleofEnvironmentalInformationSystems(EIS)............................................................................52
+9.3 DevelopmentofIndicatorsandBenchmarks.....................................................................................52
+9.3 RoleofStakeholders..........................................................................................................................53
+9.3 FeedbackStrategies...........................................................................................................................54
+10.RECOMMENDATIONSANDWAYFORWARD..................................................................................55
+ANNEXES............................................................................................................................................................0
+Annex1.NAPImplementationMatrix..........................................................................................................0
+Annex2:NationalActionProgrammeTaskForceTeam.............................................................................0
+8
+
+--- Page 10 ---
+PART I:BACKGROUND
+1.INTRODUCTION
+1.1 General Historical Background
+Globally, there have been many attempts to combat desertification. The first major
+international effort was the 1977 Plan of Action to Combat Desertification (PACD). PACD
+and other past interventions have had dismal impact on desertification, because of various
+reasons, including inability to institute measures and mobilize sufficient resources to achieve
+set objectives.
+The devastating drought of 1968-1974 in the Sudano-Sahelian region led to the birth of
+United Nations Sudano-Sahelian Office (UNSO), while the 1992 United Nations Conference
+on Environment and Development (UNCED) recommended to the UN General Assemblyfor
+the negotiation for the United Nations Convention to Combat Desertification and the effects
+of drought, particularlyin Africa (CCD). Negotiations began in early1993. The Convention
+was concluded and opened for signing in June 1994 and entered into force on 26th December
+1996. The Government of Kenya (GoK) signed the convention in October 1994 and ratified it
+in June 1997. Over 129 countries had ratified the Convention by the beginning of 1998 and
+currently over 173 countries have ratified it. The seriousness attached to the Convention
+could be attributed to the fact that desertification affects over 5.2 billion hectares and about 1
+billionpeopleworldwideinover100countries.
+The CCD defines desertification as land degradation in arid, semi-arid and dry sub-humid
+areas (also referred to as drylands) resulting from various factors, including climatic
+variations and human activities. At the national level, the CCD calls for the implementation
+of activities aimed at prevention and/or reduction of land degradation, rehabilitation of partly
+degraded lands and reclamation of degraded lands through National Action Programmes.
+Preparation of the National Action Programme (NAP) is an obligation of parties to the
+convention.
+The CCD, although a global agreement, was an African initiative whose activities and
+programmes emphasize people's participation in programme and project formulation and
+implementation. The programmes and projects should incorporate measures for reducing
+povertyandotherfactors knowntocontributetodesertification.
+The GoK is keen to implement the provisions of the Convention in cooperation and
+partnership with all stakeholders. The main objectives are to enhance synergy, maximize use
+of resources, minimize duplication of efforts and conflicts, and increase resource use
+efficiency and effectiveness. In fact, the CCD recognizes that financing the anti-
+desertificationactivities is theresponsibilityofthegovernment andotherstakeholders.
+This report presents a summary of the main elements of the Kenya National Action
+Programme that have been agreed upon by all the main stakeholders through a consultative
+process.
+9
+
+--- Page 11 ---
+1.2 Profileof Kenya
+1.2.1 Physiography
+Kenya lies on the eastern coast of the African continent, between latitudes 5o40’ north and
+404’ south and between longitudes 33o50’ and 41o45’ east. The Equator bisects the country
+into two almost equal parts. Kenya has a total land area of approximately590,000 km2. Most
+of the country lies within the eastern end of the Sudano-Sahelian belt, a region often affected
+bydrought anddesertificationinAfrica.
+Kenya has diverse landforms ranging from the coastal plains through the dryNyika plateau to
+the savanna grasslands and the highlands on either side of the rift valley. Mount Kenya, the
+Mau Ranges, Mount Elgon and the Aberdare Range dominate the highlands that are traversed
+by the Great Rift Valley. The vast expanse of northwestern, northern, eastern and southern
+parts of Kenya varies from flat semi-desert in the east to the more rugged country west of
+lake Turkana. The coastal region is narrower in the south but widens out in the north with an
+altitude range of 0–400m above sea level. Mountains and hills, including the Taita Hills and
+Chyulurangemarkthewesternlimits ofthecoastal region.
+The Nyika plateau occupies the greater part of Kenya. It covers the whole of the northern
+Kenya and lies between the coastal region and the highlands to the east of the rift valley.
+Altitude ranges from about 360m to just over 900m above sea level except in the north where
+there are volcanic hills such as Marsabit (1428m). The Nyika Plateau and the Costal Region
+aretheareas mainlyaffectedandthreatenedbydesertification.
+1.2.2 Climate
+Physiographyto a large extent influences rainfall potential and subsequently, water resources.
+For instance, the topographic heights determine the windward and leeward side with the
+former having more rainfall. For example, the flanks of the western and eastern sides of the
+Rift Valley have higher rainfall than the Rift Valley floor. “Relief” rainfall occurs on the
+windward side of high areas while ‘convectional’ rainfall is experienced inpredominantlyflat
+areas,especiallynearlargewaterbodies likeLakeVictoria.
+Further, the seasonal northward and southward movement of the inter-tropical convergence
+zone (ITCZ) has enormous influence on the climatic condition of the country. ITCZ
+produces two rainy seasons – March-May (long rains) and October-November (short rains).
+The coastal belt is relatively wet with more rainfall in the south. The Nyika plateau is
+generallyaridandsemi-arid.Thehighlands receivemoderatetoveryheavyrainfall.
+The mean annual rainfall ranges between 250 mm and 1000 mm in dry lands. Although the
+rains are experienced in two distinct seasons, they are erratic in both temporal and spatial
+terms. The temperatures are relatively high and account for annual potential evaporation,
+which is often above 2500 mm. The rainfall and the potential evaporation have been the
+causeoffrequent cropfailureinthedrylands.
+Climatic variation is the main cause of droughts in Kenya. According to the
+Intergovernmental Panel on Climate Change Third Assessment Report, 2001, climate will be
+10
+
+--- Page 12 ---
+associated with rise of mean temperatures by the year 2025. The change is likely to increase
+the intensity and frequency of drought. Droughts that have occurred in Kenya have caused
+heavy losses in terms of crop failure, deaths of livestock and human beings and heavy
+investments for purchase of relief food. It is anticipated that the projected climate change by
+theyear2025will exacerbatethelosses alreadyexperiencedduetodrought.
+1.2.3 Socio-EconomicDimension
+Kenya is a developing country whose population is still largely rural with only 25% living in
+urban areas. According to the 1999 population census report, Kenya’s population was about
+28.4 million people, and is projected to reach 37.5 million by the year 2010. About 60% of
+the population is below the age of 20 years. About 70% of Kenya’s population live in the
+12% of the total land area, which is classified as being of medium to high potential. The
+remaining 30% of the population live in the dry lands, a zone which accounts for 88% of the
+total land area. The high potential areas (e.g., central highlands, western Kenya, parts of the
+rift valley) are characterised by high population density of about 300 people per km2or more,
+while the dry lands are sparsely populated with as low as 3 people per km2. The high
+potential areas enjoy a high rainfall regime with fairly even distribution and are therefore
+areas of high productivity in terms of agriculture and livestock production. The main source
+of livelihood for the majority of Kenyans is agriculture, livestock, fishing and forestry. In
+addition, tourism is Kenya’s greatest foreign exchange earner, and one of the largest
+employers. However, the new goal towards industrialization by the year 2020 is expected to
+increaseemployment intheindustrial sector.
+According to the 1998 published information of the Ministry of Finance and Planning, over
+65% of the population in drylands lives below the poverty line. Poverty prevalence was
+highest in North Eastern and Eastern provinces, while gross enrolment rateinschools inthese
+provinces was much lower than in other areas of the country. Additionally, about 75% of
+Kenyanhouseholds aremaleheaded,whiletherest arefemaleheaded.
+1.3 Desertification in Kenya
+1.3.1 Status
+In Kenya, activities to combat desertification and mitigate the effects of drought have been
+carried out since 1940s. The implementation of the Convention to Combat Desertification
+must therefore take into account this historical background and take cognizanceofthelessons
+learnt.
+The drylands on average receive an annual rainfall of between 250mm and 1000mm. The
+rains are typically of short duration, but of high intensity and therefore highly erosive. The
+rateofevapotranspirationis alsohigh.
+The main challenge in developing drylands is how to increase availability and access to
+information and technology for the development and management of natural resources. The
+other major limitation is inadequate government policy for developing drylands, a zone that
+constitutes about 88 % of the country and supports about two-thirds of the entire livestock
+population. Area classified as ASALs vary from district to district (see Table 1). The eco-
+climaticzones provideagoodindicationofthedrylands ofKenya(figure1).
+11
+
+--- Page 13 ---
+Desertification is intensifying and spreading in Kenya, threateningmillions of inhabitants and
+severely reducing productivity of the land. The droughts of 1970-2000 have accelerated soil
+degradation and reduced per-capita food production. According to the United Nations
+Environment Programme (UNEP) much of the problem is due to a growing imbalance
+betweenpopulation,resources,development andenvironment.
+Table1. PercentofareaofvariousdistrictsclassifiedasASAL
+District %ASAL %ofKenyaASALS
+Isiolo,Marsabit,Garissa,Mandera,Wajir,Turkana 100% 62
+Kitui,Tana-River,Taita-Taveta,Kajiado,Samburu 85-100% 25
+Embu,Meru,Machakos,West-Pokot,Kilifi,Kwale,Baringo 50-85% 10
+Lamu,Narok,Keiyo,Marakwet 30-50% 3
+NB:ASALreferstoveryarid,aridandsemi-aridlands,whiledrylandsrefertoveryarid,arid,semiaridanddrysub-humid
+lands
+Rapid population growth is exacerbating the existing problems of imbalance between human
+numbers and available arable land, deforestation, poor land use systems and inappropriate
+farming methods. All these are among the major problems leading to food crises and
+desertification in Kenya. Drought and population pressure are considered as key in
+acceleratingdesertificationinKenya.
+1.3.2 Drought
+Drought is a phenomenon, whose effects are amplified by ineffective social responses and
+poor land use practices. Severe drought in combination with poor land use practices often
+result in serious land degradation and loss of productivity. Drought could have a permanent
+effect byacceleratingsoil erosionanddegradation
+Impacts of drought on croplands or rangelands which are already subjected to poor
+cultivation and grazing practices, leaves land bare and vulnerable to wind and water erosion.
+Erosion strips away the topsoil, destroying the land's fertility and its potential to support
+human and animal populations. Rains, particularly the torrential ones common to much of
+tropical Africa, accelerate soil erosion. Most run-off, tears away the topsoil at an even faster
+rate.
+1.3.3 Population Pressure
+High population growth rates and skewed distribution has played a key role in land
+degradation. According to the 1999 national population census, Kenya’s population was 28.4
+million people. About 70% of the population lives in 12% of thecountry’s landarea,whichis
+suitable for rain-fed cultivation, most of which is already being utilised. Unprecedented
+increase in population size in recent decades has led to excessive pressures on arable land and
+the subsequent spill-over into marginal areas, pasture and forest lands, and steep slopes. This
+excessive human pressure on fragile eco-systems has led to accelerated land degradation. The
+spill-over has led to deforestation, poor land use systems and inappropriate farming methods.
+These are among the major factors that have contributed to accelerated desertification in
+Kenya.
+12
+
+--- Page 14 ---
+13
+
+--- Page 15 ---
+There are other factors such as aridity, which limit the area of usable land, intensifying the
+pressures on available farm and grazing lands. Rapid population increase and encroachment
+of rangelands have accelerated the collapse of the traditional cultivation systems that allowed
+land to regain its productivity. Fallow periods are therefore progressivelygetting shorter with
+disastrous resultsonlandproductivity.
+Increasing demand for food crop production has led to expansion of cultivated areas, which
+however diminishes fallow periods in marginal lands. This in turnhas ledtolong-term loss of
+productivity and increased land degradation. Other effects include encroachment of
+rangelands,deforestationandsoil erosion.
+a)RangelandEncroachment
+Population pressure on rainfed croplands and increasing encroachment by cultivators on
+adjacent rangelands are diminishing available grazing lands. This has resulted to intensified
+overstocking and overgrazing. This is more so in northern and eastern rangelands where the
+landis morevulnerable.
+b)Deforestation
+Forest cover is decreasing rapidly due mainly to clearing for settlement, cultivation,
+extraction of timber for commercial and domestic use, and removal for fuel and charcoal
+production. In Kenya, the forest cover has reduced to a worrying 2.8 % of the total land area.
+Furthermore, forest is being cut much faster than it is being replaced thus the forest cover is
+rapidly diminishing. Demand for fuelwood far exceeds the supply. In some areas fuelwood
+supplies have already run out and people are forced to use animal dung and crop residue as
+cookingfuel.
+c)Soil Erosion
+Deforestation and poor cultivation and grazing practices are the principal threats to the
+livelihoods of the people in drylands. All of them contribute to soil erosion. Once the forest
+cover is gone, the often fragile soils become vulnerable to rapid destruction by wind and
+water erosion. Average annual rate of soil loss in Kenya is estimated at 4310 metric tons per
+km2.
+2. OVERVIEWOF NATIONALEFFORTSTOCOMBAT DESERTIFICATION
+2.1 Introduction
+The review of past and present efforts to combat desertification highlights the policy and
+legislative frameworks that have influenced institutional arrangements and structures. In
+general, institutional arrangements focus on the structures and bodies required to facilitate the
+implementation of the Convention. This review also addresses programmes, co-operation
+and financial arrangements that focus on efforts for achieving sustainable development in
+drylands. It further highlights the constraints that have affected, in one way or another, the
+efforts.
+14
+
+--- Page 16 ---
+2.2 PolicyFrameworks
+The management of Kenya’s dry lands has been guided by several cross-sectoral policy
+instruments, most of which came to force long before Kenya ratified the CCD. In this regard
+they form a firm foundation and opportunity for Kenya to implement CCD. Some of the
+policies are:
+a) SwynertonPlanof1954
+b) Sessional Paper No. 10 of 1965 on African Socialism and its Application to Planning in
+Kenya.
+c) District Focus forRural Development (1982)
+d) Sessional PaperNo.1of1986onEconomicManagement forRenewedGrowth.
+e) Development PolicyforAridandSemi-AridAreas of1992
+f) National Environmental ActionPlanof1994.
+g) Sessional Paper No. 1 of 1994 on Recovery and Sustainable Development to the year
+2010
+h) National Development Plans for 1974-79, 1980-84, 1985-89, 1990-92, 1993-97 and
+1998-02.
+i) Sessional PaperNo.6of1999onEnvironment andDevelopment
+j) National PovertyEradicationPlan(1999)
+k) PovertyReductionStrategyPaper(2001)
+The broad-based policy instruments have been supplemented by sectoral instruments, which
+include,amongothers:
+a) National WaterPolicy
+b) ForestryPolicy
+c) PopulationGrowthManagement Policy
+d) National FoodStrategy
+e) WildlifeManagement Policy
+2.3 Legal Frameworks
+Prior to late 1999, laws on the environment, issues on desertification and drought were
+sectoral inapproach.Theseinclude,amongothers:
+a) WaterAct (Cap372);
+b) National Water Conservation and Pipeline Corporation Order 1988 (L.N. 270 of 1988)
+undertheStateCorporations Act (Cap446);
+c) Forests Act (Cap385),
+d) WildlifeConservationand Management Act (Cap376)
+e) Scienceand TechnologyAct (Cap 250)of1977
+f) Land(GroupRepresentative)Act (Cap287).
+g) AgricultureAct.
+The Environmental Management and Coordination Act No. 8 of 1999 has harmonized the
+hitherto sectoral laws and has addressed the required policy, legal and institutional
+framework to manage the environment including actions to combat desertification and
+mitigatetheeffects ofdrought.
+15
+
+--- Page 17 ---
+2.4 Institutional Frameworks
+Several bodies, including governmental, inter-governmental, non-governmental and donor
+agencies have been involved in initiatives to combat desertification and, to a lesser extent,
+mitigatetheeffects ofdrought. Someoftheinstitutions arebrieflydescribedbelow.
+2.4.1 African Land DevelopmentBoard
+One of the earliest bodies to combat land degradation in Kenya is the African Land
+Development Board (ALDEV). It was created in 1946 to address the serious effects of land
+degradation that followed the 1933-34 droughts. The primary function of the Board was to
+improve basic infrastructure and promote proper agricultural practices. The Board introduced
+de-stocking, grazing control schemes, afforestation of steep slopes and soil erosion control.
+Some of the ALDEV initiatives became projects, programmes and grazing schemes that later
+translated into group ranches. Later the World Bank and the Kenya Livestock Development
+Programme (KLDP) supported this approach. Communities in the southern rangelands
+registered group ranches, while in northern and eastern Kenya, the grazing block approach
+was adopted. Thelatterapproachwas coerciveandwas abandonedsoonafterindependence.
+2.4.2 RangeManagementDivision
+After independence, initiatives to combat desertification were assigned to the Range
+Management Division of the Ministryof Agriculture. Its mandate was to conserve rangelands
+through proper grazing management programmes, develop rangelands and ensure equity for
+pastoralists in the provision of national development resources. However, a major constraint
+totheDivisionwas lackofanenablinglegal frameworkonrangelandmanagement.
+2.4.3 Arid and Semi-Arid Lands Branch
+The Branch was created in 1977 and mandated to develop and implement projects based on
+pre-investment studies carried out in four ASAL districts, namely, Kitui, Tana-River,
+SamburuandNarok.
+2.4.4 KenyaRangeland Ecological MonitoringUnit(KREMU)
+The Kenya Rangeland Ecological Monitoring Unit (KREMU) was established in 1975 to
+monitor ecological changes in the drylands. It later evolved to become the Department of
+Resource Survey and Remote Sensing (DRSRS) initially under the ministry of Tourism and
+Wildlife, and later under the ministry Planning and National Development. It was relocated
+totheMinistryofEnvironment andNatural Resources in2001.
+2.4.5 Ministry of Reclamation and Development of Arid, Semi Arid Areas and
+Wastelands (MRDASAW)
+The Ministry of Reclamation and Development of Arid, Semi-Arid Areas and Wastelands
+(MRDASAW) was created in 1989 to resolve the problems arising out of the fragmented
+16
+
+--- Page 18 ---
+approach and resultant conflicting sectoral objectives in ASAL development. The mandate of
+the ministrywas to co-ordinate the overall policyformulation of all development activities in
+the ASAL. The ministry was scrapped in 1997 and the ASAL mandate relocated to the
+MinistryofWaterResources.
+2.4.6 National EnvironmentSecretariat(NES)
+The National Environment Secretariat (NES) was established in 1974 and charged with
+responsibility for the inter-sectoral co-ordination of all environmental issues, including those
+of drylands. It is largely involved in policy formulation and monitoring of their
+implementation. NES is currently responsible for the follow-up of the CCD through the
+National Co-ordination (NCB) a body whose activities are supervised by a sub-committee of
+Inter-Ministerial CommitteeonEnvironment (IMCE)
+2.4.7 DonorCommunity
+Many initiatives in the drylands are supported by donor agencies including bilateral,
+multilateral,UnitedNations agencies andotherorganizations
+2.4.8 Non-Governmental Organizations
+There are many NGOs operating in the drylands or dealing with issues of drylands.
+Presently, the National NGO’s Coordinating Committee on Desertification (NCCD)
+coordinates local NGOs addressingissues ofdesertification.
+2.4.9 DroughtManagementCommittees (DMC)
+The Drought Management Committees (DMC) was established following the 1984 drought.
+The committees have representatives from government, international organizations and
+NGOs. The Drought Management Committees are constituted within the Drought Relief
+Programme housed in the Office of the President. However DMCs in some districts have
+becomeinactive.
+2.4.10 Extension Services
+The permanent community-level institutions that exist in the ASALs are mainly within the
+extension services system of the various ministries. Technical staffs run the systems
+supplemented by para-professionals. The latter are individuals who live among the
+communities, but receive minimum technical training, informally, in order to supplement the
+workofthegovernment andnon-governmental extensionstaff.
+2.5 Programmes
+There have been many programmes that address assessment and monitoring of ASAL
+resources inKenya. Someoftheseprogrammes arehighlightedbelow.
+17
+
+--- Page 19 ---
+2.5.1 Research and Training
+The institutional capacity to monitor land degradation processes dates back to the era of
+ALDEV (1946-62). The research activities at Chemeron Range Research Station in 1950s
+focused on land degradation processes such as land denudation, bush encroachment and
+rangeimprovement throughreseedingofsuitablegrass species. Relatedprojects included.
+a) Training of technical experts in Range Management at Egerton college (established
+in1964) and the Animal Health and Industrial Training Institute (A.H.I.T.I) established in
+1966at Kabete.
+b) Promoting research activities at Chemeron in Baringo, which were later re-located to
+Katumani Research Station. The research activities were started in the 1950s byALDEV.
+Research in range management was upgraded when Kiboko National Range Station was
+establishedin1970.
+c) Establishment of a mobile Extension Unit for Range Education among the nomadic
+communities.
+d) Feasibility studies on ASAL potential for cropping were undertaken in 1977 covering 5
+districts, namely: Kitui, Machakos, Embu, Baringo and West Pokot. The findings of
+these studies were implemented by ASAL Unit (1977-78) of the Ministry of Agriculture.
+It is thesestudies that popularisedthedrylands.
+2.5.2 Vegetation Transects
+Permanent vegetation transects were established in the late 1950s in pastoral areas. The
+Range Management Division established other permanent range transects in the 1960s.
+DRSRS established other transects in 1970s. These transects are irregularlymonitored due to
+lackofoperational funds.
+2.5.3 KenyaLivestock DevelopmentProgramme(KLDP)
+The Kenya Livestock Development Project (KLDP, 1968-82) of the Ministry of Agriculture
+was undertaken in two phases. Phase I developed grazing models. The group ranch
+development strategy was adopted in Kajiado and Narok districts, which to a large degree
+was a continuation of the controlled grazingscheme of the colonial period. The “Group Land
+Representative Act” of 1968 legalized group ranches. Some in favour of freehold individual
+ownershiphavesinceabandonedthegroupranchstrategy.
+A grazing block project (1970-82) aimed to increase livestock production by improving
+infrastructure. This project suffered a number of setbacks including poor livestock sales due
+to quarantine measures, in security along trek routes, and poor maintenance of boreholes and
+dams upon withdrawal of external support. Three grazing blocks in North Eastern Province
+covering a total a 7430km2 were fullydeveloped in terms of water requirements (9 boreholes,
+70waterpans)andaccess trackway-cum-firebreakof1200km duringPhaseIofKLDP.
+Phase II of the KLDP accelerated development of grazing blocks to cover about 47% of the
+whole of North Eastern Province. It also developed physical infrastructure such as livestock
+holding grounds, marketing stock routes and established diseases quarantine measures.
+Consequently, the livestock marketing system under the Livestock Marketing Division
+increased offtake from rangelands. The roads and trackways opened up formerly inaccessible
+18
+
+--- Page 20 ---
+areas. Staff houses and offices were built, while meat processing plants and slaughterhouses
+were established. The Kenya Meat Commission was improved to handle a capacity of 600
+heads ofcattleperdaywhileanadditional 20modernslaughterhouses wereconstructed.
+2.5.4 Desertification Assessmentand Mapping
+In 1984 DRSRS in partnership with UNEP carried out a pilot study on desertification
+assessment and mapping in Baringo. The results of a follow-up study on National Land
+Degradation Assessment and Mapping Project were presented at a national workshop in
+November 1996. The project involved several institutions, including the University of
+Nairobi, DRSRS, NES, Kenya Soil Survey and Ministry of Land Reclamation, Regional and
+Water Development under the technical co-ordination of UNEP. Other institutions that have
+been active in monitoring land degradation include Kenya Soil Survey in KARI and the Soil
+ConservationBranchintheMinistryofAgriculture.
+2.5.5 DistrictEnvironmental Profiles
+Fifteen District Environmental Profiles were published by NES between 1980 and 1987.
+Work slowed thereafter because of financial constraints. Consequently, some district profiles
+remain incomplete to date. The launching of a Regional SSO/ROSELT on long term
+ecological monitoring in 1996 will strengthen ecological monitoring activities in the country.
+Othersignificant efforts includenatural resources surveys carriedout in1995.
+2.6 Coordination
+The ASAL development programmes were given heightened priority by the creation in 1989
+of the Ministryof Reclamation and Development of Arid and Semi-Arid Areas and Wetlands
+(MRDASAW). In 1992, the Ministry launched a comprehensive development policy and an
+Environmental Action Plan for ASAL. This was followed by a number of studies used to
+produce a final report in January1993 entitled “A Framework for the Management of District
+Integrated Development Programmes in ASAL’’. The ministrywas merged with the Ministry
+of Water Developments in 1993, thus reducing MRDASAW into a department under the new
+Ministry of Land Reclamation, Regional and Water Development (MLRWD). Consequently,
+ASAL development was adversely affected following loss of capacity to handle ASAL
+related issues. In addition, ASAL activities were scattered in several departments and
+ministries, such as Department of Relief and Rehabilitation in the Office of the President,
+Ministry of Planning and National Development, and Ministry of Agriculture, Livestock
+Development and Marketing. This scenario has been complicated by inadequate co-
+ordination of various programmes in the different ministries. In 1997 the department was
+relocated to the Ministry of Agriculture and Rural Development. There is therefore an urgent
+needtoestablishacoordinationmechanism tofacilitatedevelopment ofdrylands.
+2.7 Cooperation and Partnership
+Over the years, the government has established strong cooperation mechanisms with
+development partners at multilateral and bilateral levels for development initiatives in
+drylands. Most development partners-funded projects operate independently. They lack a
+coordinationmechanism.This mayleadtoconflict ofinterests andduplicationofefforts.
+19
+
+--- Page 21 ---
+2.8 Financial Arrangements
+ASAL programmes have for many years received financial support from government as well
+as from bilateral and multilateral development partners. However, most programmes address
+only sectoral issues and lack a coordination mechanism. Consequently, it has been difficult
+tomeasuretheimpact ofdrylands programmes.
+2.9 Constraints
+In summary, the previous government efforts to combat desertification and mitigate the
+effects of drought have fallen short of desired expectations because of the following factors
+among others: sectoral approach, shift of mandate, low and uncoordinated funding,
+inadequate involvement of local communities, inadequate regulatory framework
+implementation,monitoringandevaluation.
+a) Sectoral Approach: Many projects have been sectoral in nature, with hardly any
+coordination between the actors. Consequently, it is very difficult to assess
+complementarities, duplication or conflicts. Relevant ministries and departments and
+donors often use different planning procedures. Furthermore, these efforts offer limited, if
+any, opportunity to sharing of experience among projects and programmes supported by
+different sponsors.
+b) Shift of Mandate: Drylands programmes and projects have been managed by various
+departments or ministries. Many have been shifted from ministry to ministry over very
+short periods. This has resulted in poor follow-up and coordination. In some cases
+projects have been abandoned because of the low importance attached to them by new
+institutions which were not involved in their formative and design stages. The frequent
+shift of mandate has caused concern to stakeholders who are interested in projects with
+sustainability.
+c) Low and Uncoordinated Funding: Some projects have been abandoned midway,
+particularly in situations where planning has not taken into account sustainability and the
+public sector cannot provide further funding. Additionally each funding agencies often
+use different planning procedures making coordination difficult. Some donors prefer to
+fund non-governmental organizations or community-based organizations directly. This
+has exacerbatedthepoorcoordinationmechanism andhas reducedaccountability.
+d) Inadequate Involvement of Local Communities: Low awareness and inadequate
+involvement of local communities has greatly reduced the sense of ownership of the
+projects by communities. This has resulted in abandonment of projects, which would
+otherwisehavebeensustainable.
+e) Inadequate Policies and Regulatory Framework: Some good policy and legal
+frameworks on drylands exist, but they lack supportive and or facilitative standards and
+regulatory frameworks to ensure enforcement. However some important policies have
+givenlowprioritytodevelopment ofdrylands.
+f) Inadequate Capacity for Implementation, Monitoring and Evaluation: There is low
+capacity for implementing existing policy and legal frameworks in drylands. Some
+20
+
+--- Page 22 ---
+programmes are often poorly managed, while others are abandoned due to inadequate
+knowledge and capacity to address local needs or failure to consult local communities.
+Additionally, capacity and infrastructure facilities for monitoring and evaluation are
+inadequate.
+g) Inadequate access to production resources by local people: The state has had
+overwhelming power over land resources. This was (firstly) through land alienation for
+European settlement, and later through the Swynerton plan, which declared drylands trust
+lands. Increasinghumanpopulations has complicatedthis situation.
+3. NATIONALACTIONPROGRAMMEPROCESS
+3.1 Background
+This National Action Programme (NAP) was developed through a popular consultative
+process, using a bottom-up approach that culminated in the First National Forum. The
+process of formulating the NAP started in 1997 with a Memorandum of Understanding
+(MoU) between the Government of Kenya (GoK) and the United Nations Office to Combat
+Desertification(UNSO).
+Wide stakeholder sensitization and consultations were carried out in a participatory manner
+throughout the country between July 1997 and August 1998. The consultative process
+included seven regional workshops held in different parts of the country. These
+regional/district workshops identifiedanddefined:
+a) Issues and problems which affect various communities and stakeholders that should be
+addressedbytheauthorities andtheFirst National Forum;
+b) Specific constraints that affect the various communities and stakeholders that should be
+addressedbytheauthorities andtheFirst National Forum;
+c) Solutions totheconstraints identified;
+d) Institutional arrangements and structures to enable the various communities and
+stakeholders toactivelyandmeaningfullyparticipateintheNAP process; and
+e) Roles,responsibilities andactivities ofthevarious stakeholders intheNAP process.
+Concurrently, various thematic working groups and consultants were commissioned to
+research on various issues of the NAP process. The results of the regional/district
+consultations were taken up by the working groups for incorporation into their thematic area
+reports and subsequently discussed by the First National Forum held 21-23 October 1998.
+186 representatives of the main stakeholders attended the forum. The forum discussed and
+established national consensus on the objectives, scope, content, and implementation
+modalities oftheNAP.
+In view of the complexity of the factors influencing desertification in Kenya as alluded to
+above,the1st National Forum concludedthat theNAP will:
+• Needjudicious planningandimplementation.
+• Identify factors causing desertification and implement practical measure to combat it and
+mitigateeffects ofdrought.
+21
+
+--- Page 23 ---
+• Use integrated measures encompassing institutional, legal, economic and technical
+actions.
+3.2 Initial Activities in formulatingNAP
+Initial stakeholders consultation which started in 1996 provided a framework for the NAP
+process constitutingthefollowingthreebroadoverlappingphases:
+Phase I: The aim of this phase was to develop mechanisms and processes that enable all
+stakeholders to participate or contribute to the design of the action plan. Implementation
+startedinNovember1997withsupport from UNDP/UNSO.
+Phase II: The national, local area and community action plans were designed. Community
+Action Plans (CAPs) would be initiated and implemented on a pilot basis. The action plans at
+this phase form the building blocks for conceptualizing the local area and National Action
+plans.
+Phase III: The third phase would involve the full implementation of the national and local
+area action plans, which like the CAPs should be flexible and iterative to allow for as many
+revisions as lessons and experiences gained. The strategy of all these phases would be to
+increase opportunities for stakeholders’ contribution to the process using a bottom up
+approach.
+UNSO provided catalytic support to Kenya to initiate phase I together with pilot CAPs. The
+three implementation phases were broad and overlapping. Many activities continued to be
+undertaken after the First National Forum either bythe NCB or byrelevant government arms.
+These included support to communityinitiatives, awareness raising, matters of the DCTF and
+legal reforms. These are activities, which could fall in anyof the phases. The next major step
+howeveris toensurethat activities envisagedunderphaseIIarecompleted.
+Theinitial objectives aimedto:
+• Initiate activities that would lead to the creation of an enabling environment for the
+establishment oftheNAP process;
+• FacilitatestakeholderparticipationinthedesignandimplementationoftheNAP; and
+• Establishnecessaryarrangements forNAP implementation.
+Thefollowingspecificactivities werecarriedout:
+a) Identifying priority programmes, roles and responsibilities of various stakeholders and
+establishingpartnershiparrangements;
+b) Strengtheningofthegovernment focal point tosupport theNAP process;
+c) Carrying out capacity needs assessment for NGOs/CBOs and formulate capacity building
+programmes foreffectiveparticipationintheNAP process;
+d) InitiatingtheNAP consultativeprocess;
+e) Definingroles andresponsibilities ofstakeholders;
+f) Raisingpublicawareness;
+g) Buildingpartnershipamongstakeholders;
+22
+
+--- Page 24 ---
+h) Definingfinancial resources andfundingmechanisms; and
+i) Definingtheelements andcontents ofNAP.
+Subsequentlythefollowingachievements wererealized:
+a) A multi-stakeholder national steering committee was established to spearhead the NAP
+process, which comprises government, civil society organizations, public universities and
+international organizations.
+b) TheNational Focal Point was strengthenedtoenableit coordinatetheNAP.
+c) Raising public awareness and mobilizing and preparing main stakeholders to participate
+in the First National Forum through six regional workshops, specific contacts as well as
+usingtheprint andelectronicmedia.
+d) A preliminary stakeholder inventory was prepared; this needs continuous up dating. It
+was used to identify potential stakeholders for the sensitization and consultation process
+as well as beingusedtoassess theNGOandCBOneeds.
+e) Issues of concern were formulated and presented for discussion at the First National
+Forum.
+f) Local level participation in the NAP process was facilitated through attachment of
+volunteers whose main responsibility was to facilitate participation of local communities
+in the awareness/consultation workshops and general support to National Coordinator’s
+Office.
+g) Communityinitiatives were supported to address environmental conservation and poverty
+alleviation. Seven CBOs were identified through a Participatory Rural Appraisal process.
+The CBOs received preliminary trainings before being given direct financial support to
+implement Community Action Plans (CAP). Additionally, a local NGO was always
+identified and given further training on backstopping, monitoring and evaluation of the
+CAPs. The CAPs varied from community to community. Three were for pastoral
+communities,whilefourfocusedonagro-pastoralism.
+h) The National NGO Coordinating Committee on Desertification (NCCD), an umbrella
+body of NGOs involved in desertification issues was supported in networking and in
+restructuringandstrengtheningits organizational structure.
+i) Capacity needs of NGOs and CBOs were assessed in terms of their effectiveness in
+participating and implementing the Convention. The report recommended and outlined a
+capacitybuildingprogrammeforNGOs andCBOs.
+j) The Desertification Community Trust Fund (DCTF) was recommended and subsequently
+created by the Government. A proposal for using DCTF to channel resources for
+activities at the local level was completed. The fund will be autonomous, and managed
+jointly by key stakeholders through a Board of Trustees (BOT); the government will be
+represented alongside NGOs, CBOs and private sector firms. Modalities for
+operationalizingtheTrust Fundareat anadvancedstage.
+23
+
+--- Page 25 ---
+PART 11:PRIORITYAREAS
+The NAP is based on the objectives of the CCD, which is stated as “to combat desertification
+and mitigate the effects of drought in countries experiencing serious drought and/or
+desertification particularly in Africa”. This is to be achieved through effective action at all
+levels, supported by international co-operation arrangements, integrated approach which is
+consistent with Agenda 21, and the principles of sustainable development. The NAP priority
+goals aims at: reclaiming severely degraded areas, rehabilitating partly degraded areas,
+reducing further degradation of affected areas and conserving areas that are not yet degraded.
+These goals will be mainstreamed into the national objectives of sustainable development
+that focus on: poverty alleviation, enhancement of foods security and environmental
+conservation. Thespecificobjectives ofNAP include:
+a) Develop mechanisms for effective implementation of activities identified under NAP
+process inaflexibleanditerativeprocess.
+b) Mainstream the identified NAP priorityareas into major national development initiatives,
+andframeworks.
+c) Facilitate active participation of all stakeholders, particularlythe local communities in the
+NAP process.
+d) Establishaspirit ofpartnershipamongcooperatinginstitutions.
+e) Strengthen coordination by putting in place relevant policy, legal and institutional
+frameworks.
+f) Ensuresufficient andsustainablefinancial resources andmechanisms.
+The NAP priority concerns have been grouped into the following three broad areas; enabling
+environment, sectoral, and cross-sectoral programme areas. The NAP implementation matrix
+is shown in annex I. However, it should be noted that this being a framework programme,
+monitoring indicators couldn’t be provided. They should be contained in the detailed
+programmes and projects. Further, the budget provided is only indicative for the next 15
+years foreachprogrammearea.
+4. ENABLINGENVIRONMENT
+Themainfactors that contributetoanenablingenvironment include:
+a) Policy,legal andinstitutional frameworks
+b) Landuseandtenure
+c) Informationandenhancement ofknowledge
+d) Publicawareness
+e) Local level communityinitiatives
+f) Financial mechanisms
+g) Capacitybuilding
+24
+
+--- Page 26 ---
+4.1 Policy,Legal and Institutional Framework
+4.1.1SITUATIONANALYSIS
+Some policies, legal instruments, and programmes for addressing issues of land degradation
+and mitigating the effects of drought were in place before the Convention came into force.
+They provided an inadequate enabling environment in terms of political and policy guidance
+and were inadequate with regard to support for existing institutions for combating
+desertification
+The Convention calls for a “bottom up” approach in the preparation of NAP. Manyprevious
+policy development initiatives in drylands reflect little or no input from the affected
+populations. This can be attributed to the lack of structures and distinct legal measures to
+facilitate these processes. The Environment Management and Coordination Act of 1999
+should facilitate involvement of local communities in combating desertification. The key
+issues and proposed actions in the policy, legal, and institutional framework have been
+identified.
+4.1.2KeyIssues
+a) Lackofapolicyonlanduseandtenure.
+b) Conflictingsectoral laws.
+c) Lack of a community involvement mechanism in policy development and use of their
+local natural resources.
+d) Inadequatecoordinationmechanism.
+e) Unclearroles andresponsibilities ofstakeholders.
+f) Inadequatefinancial resources.
+g) Inadequatehumanandinstitutional capacity.
+4.1.3Proposed Actions
+a) Formulate a comprehensive land use and tenure policy and reform programme to
+facilitateeffectiveactions oncombatingdesertificationindrylands.
+b) Establish clear mechanisms to facilitate effective involvement of local communities in
+policyanddecisionmakingprocesses.
+c) Use structures under the Environment Management and Coordination Act of 1999 to
+involveall keystakeholders particularlylocal communities.
+d) Buildandstrengthenthecapacities oftheNCBandtheNCCD.
+4.2 Land Useand Tenure
+4.2.1 Situation Analysis
+25
+
+--- Page 27 ---
+In arid and semi-arid areas, land is being sub-divided into individual/private freehold
+property. Sub-divisionhas reachedlevels wheresomeparcels areun-economical.
+Traditional methods of land use among the nomadic pastoral communities such as seasonal
+migration were ecologically viable strategies for land-use management. Seasonal migration
+in search of pasture reduces pressure on land resource. This flexibility of resource use and
+mobility promotes balance between environment and resource utilization. Communal land
+use in drylands ensured that all members had collective equal rights towater,grazingandfuel
+wood.
+Individualization of land holdings in areas occupied by pastoral communities has restricted
+theirmovement anddisruptedtheirtraditional landmanagement systems.
+4.2.2KeyIssues
+a) Conflicts duetoinadequateaccess toandright ofuseofdifferent landresources,
+b) Lackoflandusepolicyinthederylands
+c) Widespreadpovertyinthedrylands
+4.2.3Proposed Actions
+a) Conduct a thorough study of the land tenure system in ASAL with a view to
+recommendingafairandworkablesystem.
+b) Study land use conflicts and recommend appropriate policy and legislation instruments
+forpromotingproperlandusemanagement.
+c) Establishearlywarningsystem tomonitorspreadofdesertification.
+d) Changepeople’s altitudeofviewinglandownershipas thebest form ofsocial security.
+e) Encouragecommunities toparticipateinactivities,whichreducepoverty.
+4.3 Information and Enhancementof Knowledge
+4.3.1Situation Analysis
+The national policy on Environment and Development and the National Environment Action
+Plan recognize the serious deficiencies in information collection, analysis, and dissemination.
+Additionally, both documents recognize that existing information centres are poorlymanaged
+and have inadequate network mechanisms and capacities. Furthermore,availableinformation
+is not easily accessible and lack collection standards to facilitate comparative analysis,
+monitoringandevaluation.
+Although data, computers and communication links are the most visible feature of any
+information system, the supporting institutions and their staff constitute the fundamental
+buildingblocks foranysystem tobefunctional.
+4.3.2KeyIssues
+a) Inadequateinformationsystem.
+b) Lackofdata/informationexchangebetweendifferent stakeholders.
+26
+
+--- Page 28 ---
+4.3.3Proposed Actions
+a) Developanenvironmental informationsystem.
+b) Networkexistingenvironmental informationsystem
+c) Standardizedataprocessingandaccess.
+d) Developsimplifiedindicators formonitoringdesertification.
+4.4 PublicAwareness
+4.4.1Situation Analysis
+Desertification is a multi-faceted phenomenon, involving environment, socio-economics,
+administrative strata, policy and law, and all levels of society. It is an issue that touches many
+groupswithdifferentconcernsandrolesindevelopment.
+It is important to clearly identify actors as they provide a basis for the production of specific
+sensitization materials and for identifying appropriate dissemination channels for each group.
+In this regard, five broad stakeholder groups have been identified: government, resource
+users, civil society organizations, development partners, and the private sector. However
+existing public awareness institutional frameworks, structures and programmes have
+inadequate capacities to effectively serve these groups. Furthermore, the structures and
+programmes often ignore to address the media used and potential perceptions within the
+different strataofthetarget groups andstakeholders.
+4.4.2KeyIssues
+a) Lackofinformationonthetargetgroups;
+b) Geographicdistributionofthetargetgroups;
+c) Generalperceptionandliteracylevelsofthemajorityintargetgroups;
+d) Inadequate information on the internal structure of institutions of the target groups through
+whichtheycanbereachedbyvariousmeans;
+e) Bureaucracyandprotocolrequiredtoreachcertaintargetgroups;
+f) Povertylevels;and
+g) Culturalbiasesandtaboos.
+4.4.3Proposed Actions
+a) Identifyanddefinetargetgroupsandtheirsensitizationneeds;
+b) Identify and elaborate on the contents, methodologies and communication media options
+forsensitizingthevarioustargetgroups.
+c) Identify and describe resources needed for the campaign including financial estimates,
+resource persons, equipment/facilities, media costs, and identification of partners and
+sourcesoffunds.
+d) Produce and disseminate sensitization packages, including preparation of materials for
+print media, radio and television; documentaries; bulletins; seminars/workshops; and
+pamphlets andbrochures.
+27
+
+--- Page 29 ---
+4.5 SupporttoLocal Level CommunityInitiatives
+4.5.1Situation Analysis
+CBOs are major stakeholders in the NAP process and have a large number of roles and
+responsibilities. They provide an organizational structure for interacting with local
+communities. The role of CBOs in assistinglocal communities implement theCCDshouldbe
+one of sensitization, organization, mobilization, and project conceptualization, identification,
+formulation, implementation, and participatory monitoring and evaluation. They are also
+expected to assist in prioritization of issues, planning, mobilization of local and international
+resources, training, identification of capacity to implement and indigenous technical
+knowledge. The CBOs should also build consensus within local communities as well as
+changepeople's attitudes soas todiversifytheeconomyofpeoplelivingindrylands.
+4.5.2KeyIssues
+a) Lackofawareness
+b) Political interferenceinCBOactivities.
+c) Inadequatecapacityformanagingresources andprojects.
+d) Undefinedareas forwhichCBOsupport wouldleadtosustainabledevelopment.
+e) Lackofstructures andgovernancetoenablevoiceofCBOs tobeheardat all levels
+f) Inadequatemechanisms fordirect deliveryofresources toaffectedlocal communities
+g) Increasedinsecurityandlivestockrustling.
+h) Debilitatingpovertyandheightenedeconomicmarginalization.
+i) Inappropriateformal andinformal educationsystems.
+j) Inadequaterights onlandandnatural resources indrylands.
+k) Acceleratedbreakdownofeffectivetraditional management systems.
+l) Developparadigms inform oftop-downnon-participatoryapproaches.
+4.5.3Proposed Actions
+a) Empower communities to fully participate in the decision-making and management
+processes.
+c) Build capacities of communities to manage their Community action Plans and their
+natural resources.
+d) Build and strengthen stakeholder partnerships for sustained and effective implementation
+ofCAPs.
+e) Provide security and strengthened appropriate conflict resolution mechanism to affected
+communities
+f) OperationalizetheDCTFforsustainablefundingofprojects at communitylevel.
+4.6 Financial Mechanisms
+4.6.1Situation Analysis
+Existing and available financial resources at the national level are inadequate for
+implementation of NAP. Generally, the government allocates resources on sectoral basis,
+while development agencies and partners including NGOs operate independently.
+28
+
+--- Page 30 ---
+Contributions bydevelopment partners often lack sustainabilitydue to inadequate community
+consultations andinvolvement as well as phaseout procedures.
+The CCD recognizes the above constraints and advocates for the establishment of the
+national desertification financial mechanisms that would ensure efficiency and effectiveness
+inchannelingresources tothelocal level.
+4.6.2KeyIssues
+a) Inadequateresources;
+b) Poorcoordinationoffundingactivities indrylands;
+c) Unclearfundingmechanisms forNAP activities at all levels; and
+d) Abandonedincompleteprojects.
+4.6.3Proposed Actions
+a) Mainstream NAP intomajornational strategies andprogrammes;
+b) DeveloparesourcemobilizationstrategyforNAP;
+c) Prepareaprofileofall donoragencies andNGOs workingindrylands;
+d) Develop a coordination mechanism of all donor funded activities in various districts with
+aviewtoavoidingduplicationofefforts; and
+e) OperationalizeDCTFand
+f) Incorporate sustainability principles in planning and design to avoid abandonment of
+projects
+4.7 CapacityBuilding
+4.7.1Situation analysis
+Most projects that address desertification have a component on capacity building. However,
+many capacity building efforts have concentrated on awareness creation through workshops,
+an activity that is difficult to evaluate. In this regard capacity building has not been holistic
+and has made very little impact on targeted stakeholders. This has lead to poor
+implementationofvarious programmes.
+4.7.2 KeyIssues
+a) Poorunderstandingofcapacitybuildingneeds forprojects andprogrammes.
+b) Inadequatefunds forcapacitybuilding.
+c) Lackofindicators forcapacitybuilding.
+d) Lack of monitoring and evaluation mechanisms and methodologies for capacity
+building.
+4.7.3Proposed Actions
+a) Enhanceunderstandingoftheprogramme.
+b) Identifycapacitybuildingneeds at institutional andstakeholderlevels.
+c) Allocateadequatefunds foridentifiedcapacitybuildingactivities.
+d) Establishindicators forcapacitybuilding.
+e) Monitorandevaluatetheapplicationofcapacitybuilt.
+f) Reviewcapacitybuildingmethodologies toensuretheireffectiveness.
+29
+
+--- Page 31 ---
+5. SECTORALPROGRAMMEAREAS
+5.1 EnergySector
+5.1.1Situation Analysis
+Energy is an essential resource for social and economic development. In Kenya, the major
+forms of energy are woodfuel, petroleum, electricity, coal and alternative energies. Two
+scenarios dominate the energy sector in Kenya: heavy dependence on imported petroleum
+fuels for the commercial sector needs and heavy reliance on wood fuel for the needs of rural
+and urban households and small-scale industries. Woodfuel accounts for 76% of the total
+energy consumed in the country, 36% of which is consumed in form of firewood, while 40%
+is used in form of charcoal. Most charcoal is consumed in urban areas and originates from
+drylands further contributing to devegetation. However, efficiency of charcoal kilns used to
+convert woodfuel to charcoal is low leading to high losses. Rural-urban migration continues
+to increase urban population, which in turn increases demand for charcoal. Trends have
+shownthat useofwoodfuel is unlikelytochangeinthenearfuture.
+The policy objective of energy development in Kenya is to ensure adequate and sustainable
+energy supplies at least cost, and in line with broad national development goals. Strategies
+employed by the GoK to achieve this objective include promotion of conservation
+technologies, domestic fuel substitution through promotion of alternative energy sources,
+intensified exploration efforts for fossil and geothermal energy sources, increasing on-farm
+and plantation woodfuel supplies, and improving the distribution network for all forms of
+energy. Whereas tree planting efforts have paid off in the high potential areas where most
+human settlements are found, the same cannot be said of the drylands where people lead a
+nomadic life that makes implementation of tree planting programmes rather difficult. The
+same can be said of the promotion of energy saving stoves. In drylands, people have been
+known to face acute energy shortages, which lead them to utilize cow dung as a source of
+energy. This in turn has contributed to a decrease in soil productivity since the manure that
+shouldbeusedtoimprovesoil becomes unavailable.
+Use of woodfuel from water catchment areas has also contributed to serious land degradation.
+Areas that wereonceofmedium potential areslowlyturningintomarginal areas.
+5.1.2KeyIssues
+a) Woodfuel is predominant as a source of energy in the domestic and rural industrial
+sectors that contributes to depletion of forest cover. The rising demand of charcoal for
+urban use exerts a lot of pressure on existing stocks of trees in drylands without matched
+treeplantingefforts.
+30
+
+--- Page 32 ---
+b) Energy supply to communities living in the drylands is insufficient. This is exacerbated
+byfrequent droughts that maketree-plantingefforts almost futile.
+c) The low efficiency of charcoal conversion technologies currently in use contributes
+greatly to the degradation of drylands because more trees are cut down than would be the
+caseifmoreefficient technologies wereused.
+d) Most peoplelivingindrylands havelimitedaccess toalternativeforms ofenergy.
+e) Weak planning, co-ordination, monitoring and evaluation capabilities due to insufficient
+allocationoffinancial resources andlackofintegratedstrategies.
+5.1.3Proposed Actions
+a) Improve energy supply – demand balance for households and rural industries through
+improved management of woody resources at the relevant level(s) and promote efficient
+conservationandconversiontechnologies.
+b) Diversifyenergyuseindrylands throughpromotionofalternativeenergysources.
+c) Improve distribution network of conventional energy sources (electricity and gas) and
+reviewpricingpolicies fortheseenergyforms.
+d) Strengthen institutional planning, co-ordination and monitoring capabilities by instituting
+comprehensiveandintegratedstrategies.
+e) Develop and promote biomass waste utilization technologies that are beneficial to
+drylands.
+5.2 Vegetation Coverand Wildlife
+5.2.1 Situation Analysis
+The vegetation cover in Kenya has been changing rapidly in recent times. Forests and
+grasslands have been turned into croplands. Declining yields in crops and livestock per unit
+landarea,fuel woodscarcity,acutewaterandpastureshortageindicatethechanges.
+The agriculture sector has addressed this problem through research on soil/crop management,
+promotion of agroforestry, encouragement of alternative income generating activities, and
+promotingdietaryhabits tofoodsourcesthat donot causeunduepressureontheland.
+Wildlife is a valuable asset to the country's economy. Over 70% of our country's national
+parks and game reserves are found in drylands, which also hold about 67% of all livestock.
+Wildlife is presently protected from hunting but they compete with livestock for forage and
+water. Livestock and wildlife co-exist in drylands, while livestock are excluded in the
+national parks andgamereserves.
+Kenya's wild fauna is a national heritage of unique value and the backbone of the tourist
+industry. In addition, the fauna is valuable scientifically for research into evolutionary and
+31
+
+--- Page 33 ---
+ecological processes. The wildlife occurs in the national parks and game reserves, open
+communal ranges and on private ranches. Wildlife usually modifies the vegetation of an
+area. However, anthropogenic activities that contribute to ecological degradation are by far
+greater than that by wildlife. Domestic woodfuel needs, shelter and development of
+infrastructure in the parks and game reserves have been recognized for their destructive
+effects.
+5.2.2KeyIssues
+a) Inappropriateapplicationofsoil conservation,waterandothernatural resource
+management technologies.
+b) Unreliablefoodproductionduetoinfertilesoils anderraticrainfall patterns.
+c) Overstockingoflivestockanduncontrolledwildlifemanagement outsideprotectedareas.
+d) InadequateInformationanddataonvegetationdepreciation.
+e) Lackofresearchfindings onappropriatedrylands agricultural andtreeplanting
+techniques.
+f) Lackoflandusepolicyfordrylands,leadingtopersistent human/wildlifeconflicts.
+g) Lackoflandtenuresystem andregulations toaddress environmental protection.
+h) Lowadoptionofresearchfindings andappropriatetechnologies.
+5.2.3 Proposed Actions
+a) Strengthenefforts intheinventoryofvegetationresources andcovertrends.
+b) Conduct research to identify options that efficiently contribute to development of
+drylands agricultureandtreeplantingtechnology.
+c) Formulatepolicies andstrategies forsustainableuseofdrylands.
+d) Initiate deliberate policy interventions aimed at aggressively supporting fuelwood
+substitutionandefficient enduse.
+e) Conduct researchonsoil/cropandwatermanagement.
+f) Promoteagroforestryas analternativesourceofforest products.
+g) Initiate mini irrigation schemes to enhance food production along with alternative
+incomegeneratingactivities.
+h) Promotechangeindietaryhabits tofoods that donot causeunduepressureontheland.
+i) Promotedisseminationofresearchfindings andadoptionofappropriatetechnologies.
+5.3 ForestConservation
+5.3.1Situation Analysis
+Woodlands in marginal areas are prone to drought and desertification. The fragile balance
+and system capacity are affected by overgrazing, inappropriate land use practices and
+population pressure on the natural systems for provision of energy, building materials, food
+andmedicines all leadingto acceleratedecological breakdown.
+Woody vegetation is a renewable resource and its most important role in drylands is
+provision of forage for livestock and as soil cover. Forests and woodlands are also
+biologically important because of the diverse fauna and flora associated with them. They
+therefore contribute significantly to the livelihood and welfare of drylands inhabitants.
+32
+
+--- Page 34 ---
+However, they are a fragile ecosystem under adverse climatic conditions. The dry zones are
+alsofacingincreasingdemands from expandinghumanandlivestockpopulations.
+In Kenya, forests are associated, to a large extent, with mountains that are also very fragile
+ecosystems. Mountain forests are associated with water catchments that supply areas
+regularlyaffectedbydrought anddesertificationincludingdrylands.
+5.3.2KeyIssues
+a) Inadequatemappinginformationonall forestedareas.
+b) Decliningsupplyoftimber,woodfuel andotherforest products.
+c) Inadequatefinancial resources tofacilitateeffectivemanagement offorest estate.
+d) Low adoption of efficient conversion and end use technologies that would translate to
+conservationgains.
+e) Encroachments onforests andwoodlands.
+5.3.3Proposed Actions
+a) Promoteagroforestryas analternativesourceofforest products
+b) Promoteefficient utilizationofforestryresources formaximum sustainablebenefits.
+c) Survey and map all forests at cadastral levels and establishment a central land information
+system.
+d) Reforest clear-felledandexposedlandsandrehabilitateover-exploitedareas;
+e) Protect forests and woodlands for their biological importance and for protection of fragile
+ecosystems.
+f) Develop and promote programmes for socio-economic benefits, improved wood supply
+andenvironmental conservation.
+g) Initiate deliberate policy interventions aimed at aggressively supporting fuel substitution
+andenduseefficiency.
+h) Strengthentheinstitutional capacityforforestrymanagement.
+i) Promote forestry extension services and public awareness campaigns via the mass media,
+communitygrassroot traininginwatermanagement,soil conservationandreforestation.
+j) Implement the new forest policy, especially those aspects that address management of
+dryland forests for provision of a wide range of products such as dry-season browse, fruits,
+resins, etc. and to re-define roles and responsibilities of the community and other
+stakeholders in sustainable forest management and utilization of non-consumptive forest
+products.
+5.4 Conservation of Biodiversity
+5.4.1Situation Analysis
+Kenya has some of the most diverse forest eco-systems. Ideally, biodiversity should be
+considered at three levels: Genetic variabilitywithin species; number of species; and types of
+ecosystems withtheirinteractingspecies andecological processes.
+33
+
+--- Page 35 ---
+The extinction of anyspecies represents a loss to biodiversityoften with further effects on the
+intricate web of an ecosystem life. If biodiversity is not to be diminished, it is important to
+maintainarepresentativesampleofeco-systems.
+Kenya has continued to loose some of her well-known biodiversity resources, often due to
+population increase; habitat destruction, over exploitation of species, drainage of wetlands,
+and introduction of alien species. The problem of invasive species is compounded by limited
+capacity and mechanism for monitoring and regulating the introduction into the country of
+alieninvasivespecies,includinggeneticallymodifiedorganisms (GMOs).
+Another threat to biodiversity is illegal collection of genetic materials (biopiracy). The
+increased demand for genetic materials for use in biotechnology in developed countries is
+mainly responsible for illegal collection of genetic materials. This denies the countryrevenue
+from the use of such materials including its potential of developing her own biotechnology
+capacityandrelatedindustrial products.
+Currently, there is no comprehensive policy on biotechnology and legislative framework to
+regulate access and exploitation of genetic resources. The country lacks a mechanism to
+monitorcollectionofgeneticresources forindustrial purposes.
+The National Biodiversity Strategy and Action Plan has sets out the strategies and actions
+necessary for achieving conservation of biological diversity and its sustainable utilization
+includingequitablebenefit sharing.
+5.4.2 Keyissues
+a) Destructionofecosystem andoverexploitationofspecies
+b) Negativeimpact ofinvasivespecies.
+c) Loss occasionedbybiopiracy.
+d) Lack of policy and legislative framework on biotechnology and bio-safety as well as
+GMOs.
+e) Lack of a management policy and regulatory mechanism for protecting biological
+resources against changeoflanduseanddestructionofecosystems.
+f) Inadequate public awareness and information on loss of biodiversity, bio-safety and
+biotechnology.
+5.4.3 Proposed Actions
+a) Develop new or strengthen existing strategies, plans or programmes of action for the
+conservation of biological diversity and the sustainable use of biological resources, taking
+intoaccount educationandtrainingneeds.
+b) Integrate strategies for the conservation of biological diversity and the sustainable use of
+biological and genetic resources into relevant sectoral or cross-sectoral plans, programmes
+andpolicies.
+c) Take effective economic, social and other appropriate incentive measures to encourage the
+conservation of biological diversity and the sustainable use of biological resources,
+including the promotion of sustainable production systems, such as traditional methods of
+agriculture, agroforestry, forestry, range and wildlife management, which use, but
+maintainorincreasebiodiversity.
+34
+
+--- Page 36 ---
+d) Subject to national legislation, take action to respect, record, protect and promote the
+wider application of knowledge, innovations and practices of indigenous and local
+communities embodying traditional lifestyles for the conservation of biological diversity
+and the sustainable use of biological resources, with a view to the fair and equitable
+sharing of the benefits arising, and promote mechanisms to involve those communities,
+includingwomen,inthemanagement andconservationofecosystems.
+e) Undertake long-term research on the importance of biodiversity for the functioning of
+ecosystems and role of ecosystems in producing goods, environmental services and other
+values supportingsustainabledevelopment.
+f) Conserve biological diversity, whenever necessary through in-situ conservation of
+ecosystems andnatural habitats.
+g) Promote the rehabilitation and restoration of damaged eco-systems and the recovery of
+threatenedandendangeredspecies.
+h) Develop policies to encourage the conservation of biodiversity and the sustainable use of
+biological andgeneticresources onprivatelands.
+i) Promote environmentally sound and sustainable development in areas adjacent to
+protectedareas withaviewtofurtheringprotectionoftheseareas.
+j) Promote, where appropriate, the establishment and strengthening of national inventory,
+regulation or management and control systems related to biological resources, at
+appropriatelevels.
+k) Encourage a greater understanding and appreciation of the value of biological diversity, as
+manifestedbothinits component parts andintheecosystem services provided.
+l) Build capacity, especially within government, business enterprises and bilateral and
+multi-lateral development agencies, for integrating biodiversity concerns, potential
+benefits and opportunity cost calculations into project design, implementation and
+evaluation processes, as well as for evaluating the impact on biological diversity of
+proposeddevelopment projects.
+5.5 Agricultureand Pastoralism
+5.5.1Situation Analysis
+About 88% of Kenya’s land surface is arid, semi arid, and dry sub-humid lands. These
+drylands are characterized by their severe climatic conditions, which necessitate application
+of sensitive land management and land use planning methods. The soils are prone to severe
+erosion and proper conservation techniques are needed to minimize further degradation.
+Conflicts inresourceuseindrylands haveresultedinloseoflifeandproperty.
+Introduction of centralized services in drylands, such as animal water points and
+encroachment of dry grazing areas by farmers have added to degradation of the environment.
+Productionofdrought resistant crops andtrees needs tobepromotedindrylands.
+Drylands are mainly used for livestock production such as pastoralism and ranching,
+normally by nomadic communities who keep large numbers of livestock. Environmental
+degradation is contributed by livestock activities. Overgrazing due to large livestock
+numbers makes the land prone to soil degradation calamities. The unplanned shift from
+pastoralism to arable agriculture as well as subdivision of land has resulted in widespread
+environmental degradation and blockage of the natural migration routes of both livestock and
+wildlife.
+35
+
+--- Page 37 ---
+Besides loss of land due to encroachment and land alienation process, insecurity has also
+pushed pastoralists to drier and more marginal lands. Throughout much of north and north-
+eastern Kenya, insecurity has disrupted the lives of pastoralists and their economies. The
+pastoralists have not, in some cases, been able to return to their former areas even where
+pasture and water are available, for fear of cattle rustlers. Existing social, cultural, legal as
+well as the provincial administration should be used to resolve landandresourceuseconflicts
+andrustling.
+5.5.2KeyIssues
+a) Increasedalienationoflandanddisplacement ofpastoralists.
+b) Introductionofinappropriatelandusepractices.
+c) Insecurityandresourceuseconflicts.
+d) Inappropriatelandtenuresystems.
+e) Inadequate public awareness on research findings and alternative income generating
+activities that couldeasepressureonnatural resources.
+f) Low adoptions of drought and pest resistant as well as early maturing crops and trees in
+drylands.
+g) Unsustainablepopulationoflivestockindrylands.
+5.5.3Proposed Actions
+a) Formulatepolicies andenact legislationtoprovidefor appropriatelanduseandtenure.
+b) Strengthensocial andlegal mechanisms forconflict resolution.
+c) Promoteadoptionoflivestock,crops andtrees indrylands e.g.drought andpest resistant,
+andearlymaturingcrops andtrees.
+d) Createpublicawareness onresearchfindings onalternativeincomegeneratingactivities.
+e) Provideanenablingenvironment fortradeindrylands products e.g.marketingof
+livestockandnon-timberforest products.
+5.6 Soil Management
+5.6.1Situation Analysis
+Soil Management in drylands is increasingly becoming important as the fragile ecosystems
+are subjected to land use practices that are destructive and unsustainable. The situation is
+exacerbated by climate change and human activities that accelerate soil erosion, overgrazing,
+deforestationandencroachment intosteepslopes andsensitivewatercatchment areas.
+In the short and medium term, nation-wide efforts have been put in place to address the
+problems of soil and land degradation. These targeted individuals and groups of local
+communities at the grassroots, with varying degrees of success. Specific area-based projects
+were implemented bythe government in Kitui, Embu, Machakos Isiolo and Kisumu districts.
+Programmes and projects aimed at combating land degradation and soil erosion have strived
+to use bottom-up approach, but more needs to be done. The participatory approach holds
+hope for the success of any future interventions. The land users ought to be involved at the
+local level in the formulation of strategies and approaches to enhance impact of extension
+services and improve ownership and adoption of conservation programmes and projects.
+36
+
+--- Page 38 ---
+Gender issues are not fully catered for in anti-desertification activities and therefore require
+integration.
+5.6.2KeyIssues
+a) Declining soil productivity due to lowering of soil water holding capacity and erosion of
+fertilesoils.
+b) Declining soil fertilityowing to miningof soil nutrients through crop and tree harvests and
+lackofreplenishment ofthelost nutrients throughorganicandinorganicfertilizers.
+c) Reduced vegetative cover and deterioration of the range ecology due to overgrazing, bush
+fires,charcoal burning,deforestationandotherunsustainablelandusepractices.
+d) Useofinappropriatetechnologies infoodproduction.
+5.6.3Proposed Actions
+a) Promote appropriate soil conservation technologies including agroforestry among local
+communities.
+b) Promotesoil fertilitymanagement.
+c) Promotesustainablelandusepractices throughparticipatoryapproaches.
+d) Enhancecollaborationandnetworkingamongstakeholders,includinglocal communities.
+e) Buildcapacityofextensionstaffandlocal communities.
+5.7 WaterResources Management
+5.7.1Situation Analysis
+There are over 30 institutions, both governmental and non-governmental, that play various roles
+in the water sector. These institutions lack policy guidelines, elaborate legal framework, human
+and fiscal capacity to effectively undertake their respective responsibilities. This situation has
+potentialtomanifestinduplicationofefforts,conflicts,andnon-accountability.
+Water resources are governed bythe Water Act (Cap. 372). The Water Resources Department is
+the overall authority charged with administering the Act, by ensuring proper and orderly water
+resources management including assessment, conservation, development and protection of the
+environment against degradation from water related activities. Other major players in the water
+sector are the Water Conservation and Pipeline Corporation (WCPC) regional development
+authorities,andtheNationalIrrigationBoard(NIB). Localauthorities(municipalities,towns,and
+counties) and some NGOs are also involved in water management. The National Water Master
+Planandwaterpolicyshouldguideallwatermanagementissues.
+In order to quantify use and apportion available water the Water Resources Department has
+established water level gauging stations for hydrological and water quality variations and
+characteristics of springs, rivers and lakes. The department carries out data processing and
+interpretation. ThedataisutilisedbytheWaterApportionmentBoardinissuingpermitsforwater
+use. The Water Apportionment Board by way of permits controls abstractions. Groundwater
+assessment is being done on demand basis, while monitoring is based on available information
+fromoperationalboreholes.
+Water is becoming increasingly scarce due the population of pressure, destruction of catchments
+areas. It becomes critical particularly during dry seasons and drought in drylands. The scarcity
+often results to large migration of pastoralists, conflicts due to limited water points, occasioning
+37
+
+--- Page 39 ---
+land degradation around the source. It also leads to lowering of the reservoirs and reduced
+hydropoweroutput.
+The Water Apportionment Board has gazetted certain areas as groundwater conservation areas in
+order to prevent over-abstraction. In all cases, authorisation from the Board is required for
+sinkingboreholesandabstractionofgroundwaterfromdeepandshallowaquifers.
+Water is increasingly scarce because of increased population and destruction of catchments. It
+becomes particularly critical during dry seasons and drought periods in drylands. This scarcity
+often results in large migrations of pastoralists to limited water sources /points. Scarcity in dry
+periodshasalsoloweredwaterlevelsinpowerdamsandcausedpoweroutages.
+5.7.2KeyIssues
+a) Waterprojects oftendonot givedueconsiderationtocatchment management/protection.
+b) Lack of inter-ministerial coordination in the development of water resources and water
+management strategies so as to maximize the use of the resource through an integrated
+approach.
+c) Low capacity and gender imbalance among the leaders representing the community in
+wateruserboards resultingtoineffectivelyparticipation.
+d) Lackofresources toutilizedevelopedwaterresources bylocal communities.
+e) Lack of institutional framework for resources management at grassroots level because
+thereis noemphasis oncommunityownershipoftheprojects.
+f) Lack of a capacity building programme to empower communities to utilize water
+resources that aremadeavailabletothem.
+g) Lowadoptionofappropriatewaterharvestingtechnologies
+5.7.3Proposed Actions
+a) Facilitate coordination between the Water Development Department and other partners in
+the water sector to ensure that catchment area management is treated as part of water
+project development.
+b) Develop partnerships among the communities and donors, government agencies, NGOs
+and the private sector in formulating development plans that utilize water to meet the
+needs oflocal populations.
+c) Train and empower communities to start projects using the water resources to create
+alternative livelihoods, including fisheries, growing of fodder for livestock and small-scale
+irrigation.
+d) Develop a capacity building programme to strengthen the role of various actors at
+communitylevel includinggenderbalance.
+e) Promote integrated approaches to watershed management for the sustainable utilization of
+waterresources bothupstream anddownstream.
+f) Promoteuseofappropriatetechnologyespeciallyforwaterharvesting.
+g) Integrateuseofappropriateindigenous watermanagement technologies andsystems.
+6. CROSSSECTORALPROGRAMMEAREAS
+38
+
+--- Page 40 ---
+6.1 MainstreamingGender
+6.1.1Situation Analysis
+The concept of gender marks a fundamental axis of power relations in society and is used to
+define distinctions in activities, access and control of resources, most of which are
+fundamental to development and contribute to poverty, desertification and land degradation.
+In most Kenyan societies women are responsible for food production, caring for the young
+and animals, but do not have equal access with men to economic resources. As producers of
+household food women in fragile ecosystem face a host of problems as opposed to their
+counterparts in high potential areas. These are characterized by water, food and fuelwood
+scarcity. Women are usually given a secondary role when it comes to environmental
+management, and this amounts to relegation of their responsibility as food producers. In
+addition, the harsh environment under which they have to fulfill their duties makes gender
+mainstreaming one of the areas that needs to be addressed under NAP. Mainstreaming
+gender issues in NAP should lead to the recognition that women legitimately have the ability
+to participate in decision makingprocesses that shape their lives and that of the entiresociety.
+There is need to make the people understand that gender roles can be interchanged for fair
+division of labor. It will therefore be worthwhile to make a deliberate effort to mainstream
+genderissues intheimplementationofNAP.
+6.1.2KeyIssues
+a) Mainstreaming gender concerns are limited by cultural taboos, traditional practices and
+structures.
+b) Poor co-ordination, unsupportive policies and laws, and inappropriate institutional
+frameworks forintegrationofgenderissues inprogrammes
+c) Limited knowledge and understanding of gender and how it can be translated into
+concreteactions.
+d) Limitedexistenceanduseofgenderdisaggregateddata
+6.1.3Proposed Actions
+a) Develop a gender mainstreaming kit specifying appropriate activities for women, men
+and children in consultation with the relevant communities. This will include
+development of indicators for monitoring gender balance in the management and
+utilizationofnatural resources.
+b) Promote institutionalization of gender perspective in all sectors and institutions. This will
+includesensitizationofkeyplayers anduseofaffirmativeactionwhereappropriate.
+c) Formulate a gender strategy that can be used to address gender issues in existing
+programmes tocombat desertification.
+6.2 Scienceand Technology
+6.2.1 Situation Analysis
+Adverse impacts of desertification and drought appear to be increasing in the drylands of
+Kenya. The impacts are manifested by, among others, frequent crop failure, soil degradation,
+39
+
+--- Page 41 ---
+diminishing water resources, loss of livestock, heavy dependence on wood for fuel and
+buildingandfrequent droughts.Thesehappendespitethefact
+that Kenya has many institutions with scientific and technological potential to solve the
+problems of desertification. The institutions include research institutes, universities,
+government ministries anddepartments,andprivatesectorfirms.
+Desertification issues have not been priority concerns in most of these institutions.
+Additionally, researches on dryland issues have not been coordinated and findings arising
+from them are poorlydisseminated. These have lead to lowadoption ofresearch findings and
+technologies in the drylands. The aforesaid have been exacerbated bylack of involvement of
+local communities and private sector and integration of indigenous knowledge in research
+anddevelopment ofissues relatedtodesertification.
+6.2.2KeyIssues
+a) Lack of a comprehensive policy on application of science and technology that includes
+combatingdesertification.
+b) Lack of demand-driven, prioritized and coordinated research and technology on
+desertification.
+c) Low human and institutional capacity for application of current technologies for
+assessment,monitoringandmitigationofdesertification.
+d) Inadequate involvement of local communities and private sector in matters related to
+desertification.
+e) Lackofindicators oftechnologytransferinprojects andprogrammes
+f) Relatively low allocation of public funds for science and technology particularly in the
+fieldofdesertification.
+g) Lack of recognition and integration of indigenous knowledge and technologies in
+programmes andprojects forcombatingdesertification.
+h) Lowtechnological transfers inprojects andprogrammes.
+6.2.3 Proposed Actions
+a) Formulate a policy that integrates application of science and technology in combating
+desertification.
+b) Enhance institutional and human capacity for science and technology to address issues of
+desertification.
+c) Mobilise adequate financial resources for the application science and technology
+programmes incombatingdesertification.
+d) Strengthen mechanisms that promote prioritization and coordination of projects and
+programmes ondesertification.
+e) Build capacities of local communities and private sector in the application of technologies
+toaddress desertification.
+f) Integratetraditional knowledgeinproject andprogrammes forcombatingdesertification.
+g) Develop indicators to ensure effective screening and transfer of appropriate technologies
+inmatters relatedtodesertification.
+6.3 Povertyand Environment
+40
+
+--- Page 42 ---
+6.3.1Situation Analysis
+There has never been a comprehensive assessment on the relationship between poverty and
+environment inKenya. However,povertyreductionhasbeenacentralgoalofdevelopmentand
+high on the agenda of policy makers. Recent development experiences indicate that rapid
+sustainable progress in alleviating poverty should not ignore environmental management and
+enhancement. This has been spelt out clearlyin the PovertyReduction StrategyPaper (PRSP)
+of June 2001, which outlines the priorities and measures necessary for poverty reduction and
+economic growth. The main aim of the strategypaper is to facilitate the implementation of the
+National Poverty Eradication Plan of 1997. The key principle is the link between policy,
+planningandresourceallocation.ThepriorityconcernsofPRSPinclude:
+• Facilitationofsustainedandrapideconomicgrowth.
+• Increasingtheabilityofthepoortoraisetheirincomelevels.
+• Improvingthequalityoflifeofthepoor.
+• Improvingequityandparticipation.
+Economic growth could be indicated by increase in income and productivity, increased
+employment opportunities, economic diversification, a better quality of life, enhanced food
+security, improved status of women, improved environmental conservation and movement
+towardsmacro-economicbalances.
+Achieving a high rate of economic growth should therefore be balanced, structurally and
+ecologically. A growth rate, which runs ahead of the natural rate of resource regeneration, or
+depletes non-renewable resources, will soon decelerate growth itself and reduce the capacityto
+increase the productivity of the rural poor. Community Based Organisations (CBOs), women
+and youth groups have been identified by PRSP as key players in poverty alleviation and
+environmentalmanagement.
+Any strategy should be clear and implicit that poverty alleviation initiatives should focus on
+local communities through provision of alternative sources of livelihood that are sustainable
+in the long run. According to the 8th National Development Plan (1997 - 2001), the major
+socio-economic characteristics of the poor, which form the basis for targeted intervention,
+include those of the arid and semi-arid lands (ASAL). Poverty in these regions is caused by
+lack of resources other than livestock, poor integration with the rest of the economy, drought
+andinappropriatetechnologies.
+Production in drylands has fallen drastically due to overgrazing, depletion of water resources
+and fragmentation of land to uneconomic sizes. As a result, the communities have not had
+enough to feed themselves and surplus to sell. Consequently, their situation has worsened,
+acceleratinglevelofpoverty.
+6.3.2KeyIssues
+a) Lack of a comprehensive assessment on the relationship between poverty and
+environment.
+b) Lackofrecognitionofindigenous knowledge,skills andadaptivestrategies.
+41
+
+--- Page 43 ---
+c) Inadequate initiatives based on people’s voluntary participation in poverty reduction
+activities.
+d) Inadequateinformation,educationandawareness.
+e) Inadequate appreciation of the economic and intrinsic value of natural resources by
+communities.
+f) Inadequatecapacitytoinitiateandmanagealternativesources oflivelihoods at all levels.
+6.3.3Proposed Actions
+a) Conduct acomprehensiveassessment ofrelationshipbetweenpovertyandenvironment.
+b) Promoteindigenous knowledgeandadaptivestrategies.
+c) Empower communities in decision making and management of programmes, projects and
+natural resources.
+d) Promotetransferofappropriatetechnologies.
+e) Promotetheestablishment ofmicro-capital throughsubsidies andcredits.
+f) Promotealternativesources oflivelihoods.
+g) Provide an enabling environment for trade in drylands products e.g. livestock and non-
+timberforest products.
+6.4 EarlyWarningSystems
+6.4.1 Situation Analysis
+Early Warning Systems (EWS) for drought and food security are closely related to those of
+desertification monitoring and assessment as parameters and methodologies used overlap
+extensively. The EWS in Kenya are scattered in various institutions. In government the
+EWS collaborate under loose structures which often change and shift from one ministry to
+another. They have neither a policy nor a legal framework under which they operate.
+However,theyhaveworkedfairlyeffectivelyandintermittentlyoverthelast 20years.
+Technologies for EWS for drought and food security and desertification have made
+tremendous advancements in the last 30 years. These advancements have for example been
+remarkable in the area of remote sensing where they have been used to monitor
+environmental degradation and indicators and in information transfer and communication.
+These technological gains have not brought about food security and an end to famines. This
+is because EWS have concentrated on generation of information used mainlyto assess famine
+relief required. The main weakness is the packaging, dissemination, and use of the EWS
+information.
+An EWS for drought and desertification should go beyond just assessing and monitoring of
+drought and desertification, to include vulnerability and risk assessments and maps. Such
+vulnerability and risk maps will be used to prepare all actors in the prevention, relief and
+rehabilitation of the affected communities. These will also be used to sensitize and prepare
+the communities at risk to prepare for the disasters. Communities at risk have always been
+left out of this process of informing and awareness thus making them just recipients of relief
+aid. This is also despite enormous improvement in technologies for data handling, transfer
+and communication. The EWS information thus should aim at preventing or mitigating
+disasterandnot protectingcommunities from theimpacts ofdisaster.
+42
+
+--- Page 44 ---
+6.4.2 KeyIssues
+a) Unclearconceptual frameworks andobjectives ofEWS.
+b) Inadequatedatacollectionandanalysis procedures.
+c) Inadequate human, technological and institutional capacities for information
+management,networkingandcoordination.
+d) Weakinstitutional frameworkforinformationmanagement,networkingandcoordination.
+e) Lackoftrust/credibilityamongstakeholders.
+f) UntimelyreleaseofEW results.
+g) Useofinformationforselfishends.
+6.4.3 Proposed Actions
+a) Link meteorological knowledge to local experience related to drought occurrence,
+frequencyandduration.
+b) Evaluate, appraise and document the current capabilities of drought monitoring and early
+warningsystem.
+c) Increasepublicawareness ondrought at thelocal level.
+d) Strengthen environment monitoring systems through expansion of national
+meteorological and hydrological networks and improve range resources monitoring
+systems.
+e) Build human, technological and institutional capacities for monitoring environmental
+degradationandindicators ofdesertificationindrylands.
+f) Developappropriateguidelines fortheformulationofnational drought preparedness.
+g) Developindicatorsandbenchmarkstomonitor,assessandmitigateeffectsofdesertification.
+h) Developacommonlanguageandterminologyinordertofacilitateinteraction.
+i) Facilitateaccess toandtransferofinformation.
+j) Makeinformationmoredemanddrivenand develop adequatesubnational nodes.
+k) Developingdecision-makingtools andmechanisms forearlywarning.
+l) Strengthenpartnerships inordertoestablishanenablinginstitutional environment.
+43
+
+--- Page 45 ---
+PART III:IMPLEMENTATIONSTRATEGY
+7. COORDINATIONARRANGEMENTS
+7.1 STRATEGICAPPROACH
+Implementation of the NAP will be at four levels: sub-regional, national, district and
+community. The government will link NAP to the Intergovernmental Authority on
+Development (IGAD) Sub-regional Action Programme (SRAP) and the East Africa
+Community environment programmes in order to address common transboundary priority
+areas.
+The National Coordinating Body (NCB) will be responsible for co-coordinating NAP
+implementation, including planning, monitoring and evaluation. NCB will, therefore, require
+support interms offinance,humanandphysical resources.
+At the district level, the District Environment Committees (DEC) will be responsible for
+coordination, monitoring and evaluation. This will be done in collaboration with other
+stakeholders at that level.
+At the community level, communities and CBOs will collaborate with the DEC, NGOs and
+other stakeholders in identifying community problems and needs and in formulating
+Community Action Plans (CAPs) in a participatory manner. The communities and CBOs
+will thenimplement andmonitortheirCAPs.
+7.2 Roleof Various Actors
+Actors intheimplementationofNAP include:
+a) Government andits agencies at all levels;
+b) Theaffectedpeople(communities andlandusers);
+c) Civil societyorganizations -international andnational;
+d) Donors; and
+e) Privatesectorfirms.
+7.2.1 Government
+At the macro level, the government will be responsible for policies for ensuring smooth
+implementation of NAP and proper utilisation of the funds. Thus, the government will need
+to know about all on-going initiatives in order to monitor the implementation, evaluate
+effectiveness, and report to the Conference of the Parties to the CCD (COP). The government
+will also be responsible for increasing the capacity for negotiating the needed resources as
+well as facilitatingtheirflowtothecommunities.
+The National Steering Committee (NSC) comprising representatives of all key stakeholders
+will ensure that the views of communities are incorporated. NSC will establish information
+44
+
+--- Page 46 ---
+and consultative mechanisms through which NGOs and CBOs will present their projects and
+programmes.
+The government will fulfill its role through elaborate structures that run through the national,
+provincial, district, division and locational levels. However, due to the weak co-ordination
+and collaborative linkages between government departments and agents there is need to
+reviewtheirstructures andlegal relationships inawaythat eases implementationofNAP.
+7.2.2 NGOs
+NGOs will play a key role in the implementation of NAP by contributing to policy
+formulation, research, advocacy, capacity building and developing and implementing
+projects. At the grassroots, NGOs will function parallel to or in co-operation with CBOs and
+will playwatchdogforthecommunities.NGOroles will include:
+a) Adviceonon-goingactivities includingthoseofNGOs toavoidduplication;
+b) Assess thenatureandlevel ofparticipationbythevarious stakeholders;
+c) Recommend regulatorymeasures or policychanges to create an enabling environment so
+as toimproveefficiency;
+d) CollaboratewithotherNGOs outsidenational boundaries;
+e) Institutemechanisms toregulateandchecktheirrelationships withotherplayers;
+f) Negotiate for resources with the government and donors, in addition to their traditional
+sources; and
+g) Implement agreed projects and programmes.
+These roles will be effected under the guidance of the Kenya National NGO Co-ordinating
+CommitteetoCombat Desertification(NCCD).
+7.2.3 Communities and CBOs
+The CCD advocates for identification of projects and actions by the affected communities.
+This is one way of ensuring that the projects and programmes developed are demand driven.
+The identification process will be bottom-up, consultative and participatory. Active
+participation by communities will involve material, financial or in kind contribution as a way
+of cost sharing. The communities also have a responsibilityin monitoringthe implementation
+ofprojects andiftheyaredissatisfiedvoicetheircomplaints throughtheprovidedchannels.
+Community based organizations (CBOs) and other locally based groupings will provide
+effective channels for knowledge sharing. There is need to restructure and empower these
+groups sothat theirviews andaspirations canbeheardat thenational level.
+7.2.4 PrivateSector
+The structure of the private sector comprises internal supporters, partners and corporate
+entities whose businesses benefit from well managed resources such as water, forests,
+wildlife and minerals. Theycould reap direct benefits from increased purchasingpower ofthe
+communities living in drylands. However, sensitization in this sector is low and some
+persuasion is needed to interest them in efforts to combat desertification. This is because
+45
+
+--- Page 47 ---
+desertification is an issue that the private sector may not directly associate with their
+businesses.Oneapproachmaybetocreateanumbrellaassociationforthem forthis purpose
+It is necessary for the government and the communities to provide an enabling environment
+for the private sector duringthe implementation of NAP. Communities could do this bybeing
+receptive and supportive of the private sector efforts, while the government could do it by
+offering tax rebates for private firms that plough some of their profits into conservation of
+natural resources. This should be done bycloselyinvolving the private sector in management
+oftheresources theyuseandrespect thepolluteranduser-payprinciples.
+7.2.5 DevelopmentPartners
+This categoryincludes bilateral andmulti-lateral,international andintergovernmental
+organisations.
+The role of donors in the implementation of NAP is to extend assistance to the affected and
+threatened populations. Assistance may be financial, technical, or material. The financial and
+material assistance may be in form of loans, grants or donations. Disbursement may be
+throughthegovernment financingmechanism,NGOs,CBOs anddirect tocommunities.
+There is need to review the co-ordination and co-operation arrangements of donors with the
+government and NGOs in Kenya. In this regard, a keycomponent for donor co-operation and
+resource mobilization would address the formation of a standing committee on the CCD.
+Donors will be encouraged to establish a sub-committee comprising the development
+agencies andUNbodies toaddress implementationissues.
+7.3 Partnership Building
+Among the stated means of achieving the objectives of the CCD is through effective
+coordination efforts among and between key stakeholders, in a spirit of partnership.
+Consequently, there is need to recognize the comparative advantage of each partner and
+institute a mechanism that ensures coordinated and focused implementation strategies. The
+key stakeholders who need to build partnership include: relevant government
+ministries/departments, affected local communities, development partners, relevant United
+Nations agencies/organizations, civil society organizations, and the private sector. The
+followingaresomeidentifiedconstraints topartnershipbuilding:
+a) Lackofacoordinationmechanism forpartnershipbuilding.
+b) Sectoral approaches todevelopment ofASALas opposedtoanintegratedapproach.
+c) Unclear guidelines on priority areas for funding in ASAL and poor records of past
+investments inASAL.
+Inordertoovercometheaboveconstraints thefollowingactions areproposed:
+(cid:131) Establishacoordinationmechanism ofvarious partners andactors forNAP process.
+(cid:131) Developanintegratedmechanism forimplementingtheNAP.
+(cid:131) Define the roles and responsibilities of various partners that capitalize on
+complementingandsupplementingeachother.
+46
+
+--- Page 48 ---
+(cid:131) Take stock of previous investments by various partners working in ASAL and
+developaframeworkonpartnershiparrangements.
+7.4 Co-ordination
+The key interest for all key stakeholders in co-ordination and collaboration should be to
+enhance synergy and consensus through a bottom-up approach to planning. Sharing of
+responsibilities will vary from one project to another but generally should address the
+following:
+a) Co-operationandco-ordination.
+b) Cleardelineationofresponsibilities.
+c) Promotionofmutual coexistence.
+d) Cleardefinitiononsharingofbenefits.
+7.5Assumptions and Risks
+7.5.1.Assumptions
+a) Funds will beavailable.
+b) Therewill bepolitical will andsupport at thedistrict level.
+c) Genuinecollaborationpartnershipandnetworkingmechanisms will beinplace.
+d) Therewill bemutual trust betweenthestakeholders.
+e) Goodgovernancewill prevail
+f) Securitywill beenhanced
+g) Infrastructurewill beimproved.
+7.5.2.Risks
+a) Co-ordinationmaysufferifthereis achangeinthepolitical set-up.
+b) Failureonthepart ofstakeholders tomeet theirobligations.
+c) Natural calamities.
+8. FINANCINGMECHANISMS
+It is envisaged that NAP priorities would be mainstreamed into government programmes and
+budget systems so as to benefit from regular government exchequer and donor funds. It is
+generally recognized that the greatest disadvantaged stakeholders are the affected communities
+at the grassroots. These grassroot level communities normally receive inadequate resources;
+sufferfromfoodinsecurityandlackalternativesourcesoflivelihoods.TheFirstNationalForum
+agreed that the NDF should focus on the community, and thus renamed NDF to DCTF. It was
+further agreed that funds for implementing action plans could be drawn from both regular
+governmentbudgetaryallocationsaswellasdonorfunds,andfromtheDCTF.
+8.1 ResourceMobilization
+The Government of Kenya is committed to improvingthe livelihoods of theinhabitants ofthe
+drylands. A large amount of funds is required to introduce appropriate technologies and
+proper land use techniques, which contribute to improved land productivity, as well as
+47
+
+--- Page 49 ---
+countering the process of desertification. In line with the principles of CCD, the DCTF will
+mobilize resources on its own from government, private sector institutions, donors, voluntary
+organizations and local communities in cash or in kind. Similarly, mobilizing resources for
+theNAP process wouldinvolve,someorall ofthefollowingpreparatorysteps:
+a) Preparation of detailed strategies for fundraising involving different stakeholders
+includingtheprivatesectorandgeneral public.
+b) Identification of a United Nations agency to lead the fundraising campaigns among UN,
+multilateral andbilateral donoragencies.
+c) Preparationofacatalogueofprogrammes foruseinattractingproject-basedfunding.
+Community projects will be initiated, planned, managed, and funded by communities. The
+communities will also be responsible for raising funds for project implementation with
+possible support of stakeholders and government. These are many ways through which
+communities couldraisefunds,includingthefollowing:
+a) Form co-operatives to:
+i)Raisefunds onregularbasis (weekly,monthly,annually,etc);
+ii)Organizeincome-generatingprojects toenableabuild-upoffunds;
+iii)Mobilizesavings amongcommunities; and
+iv)Seekcounterpart fundingforspecificanti-desertificationactivities.
+b) Appeal to NGOs to popularize their programmes, solely to raise funds intended for
+desertificationprogrammes.
+c) Request the government through DDCs, to avail funds through DCTF and co-
+operativebanks.
+d) Initiateprojects that areincomegeneratingandseekexternal support.
+e) Set up special charity programmes to which the general public may contribute
+throughlotteries andindividual donations.
+f) EncourageNGOs toseekfundingforspecificprojects.
+g) Launch publicity campaigns to create awareness and mobilize finances for anti-
+desertificationactivities,includingbyappealingtodonors forsupport.
+8.2 FundraisingStrategies
+Thegovernment will endeavourtocreateanenablingenvironment forgettingfunds by:
+a) Encouraging foundations, individuals, and large firms to establish decentralized local
+trusts tocomplement theDCTF;
+b) Setting aside a proportion of its total funding for environmental activities, for purposes of
+supportingtheNAP;
+c) Issuingspecial bonds orinitiatingcharities toraisefunds from thegeneral public;
+d) Encouraging firms heavily dependent on natural resources such as paper companies,
+logging and saw milling companies, ranchingcompanies, construction companies, mining
+companies, cement industries, etc, to design their own social responsibility schemes
+withinwhichtheywill financesocial programmes withinneighbouringcommunities;
+e) Carrying out publicity campaigns to create awareness among donors, private firms, and
+the general public about the ongoing initiatives to combat desertification in Kenya
+48
+
+--- Page 50 ---
+throughall availablechannels ofcommunication;
+f) Exploring the possibilities of grantingtax rebates to businesses and individuals who make
+majorcontributions tocommunityNAP initiatives;
+g) Establishingspecial environmental levies forDCTF;
+h) Appealingtoprivatefirms todesigncommunitysupport schemes;
+i) Encouragingprivatefirms tosub-contract someoftheiroperations tolocal communities;
+j) Developingaprogrammeofactionforfundraising;
+k) Promoting charity programmes at national and district levels to complement formal
+fundraisinginitiatives; and
+l) Establishing committees to be entirely responsible to fundraising for community
+initiatives.
+8.3. Potential FundingSources
+Potential sources of funds for the NAP include DCTF, the Global Mechanism, Global
+Environment Facility (GEF), international financial institutions as well as bilateral and
+multilateral development agencies. NAP will be mainstreamed into programmes addressing
+biodiversityandclimatechangeas theyrelatetocombatingdesertification.
+8.4 FundingSystems
+Potential sources of funds have varying management and accessing procedure. Some of the
+existing potential funding systems include: DCTF, Joint Programme Funding, Parallel
+Financing, Project Funding, Social Responsibility Schemes, Miscellaneous Trusts,
+government funds,donorfunds,voluntaryagencies,andtheprivatesector.
+a) Desertification Community Trust Fund (DCTF): The government has approved
+establishment of DCTF as a semi-autonomous delivery mechanism for channeling funds to
+small-scale anti-desertification projects by eligible executing agencies or eligible
+communities. DCTF provides operational flexibility and ability to respond to the needs of
+communities that are often subject to emergency situations due to the harsh and variable
+conditions in the drylands. A Board of Trustees will operate the fund. In this regard DCTF
+couldbecomeamainplatform forquick,timely,andefficient responsetocommunityneeds.
+b) Joint Programme Funding: Joint funding could entail funding of specific components of a
+project through sharing of costs between government, development partners’ agencies,
+communities, and private firms for the implementation of specified components of a
+programme. The National Steering Committee will develop a comprehensive catalogue of
+programmes that aredesignedforjoint funding.
+c) Parallel Financing: Development partners may wish to finance some activities within the
+NAP framework without entering into anyco-financing arrangements with either government
+or other agencies. They will fund certain components of the NAP activities using direct
+disbursement procedures.
+d) Project Funding: A development partner may wish to collaborate with affected
+communities and other stakeholders in designing project(s) for its exclusive funding. Project
+funding is an option preferred by some bilateral and multilateral development partners who
+49
+
+--- Page 51 ---
+have sufficient resources to fully fund projects. This makes it easier for them to account for
+theirexpenditures andassociateproject success withthesourceoffunding.
+e) Social Responsibility Schemes: The government will encourage commercial firms whose
+operations use or potentiallydegrade environmental resources, especiallymining, tree felling,
+paper manufacturing, to set up and fund social assistance programmes within their areas of
+operationandwithintheNAP framework.
+f) Miscellaneous Trusts: Some private firms and individuals may be interested in supporting
+decentralized local trusts to complement the DCTF. The local trusts should be managed in
+partnerships with local authorities, NGOs, CBOs, and religious organizations. The appeal for
+suchtrusts will bedirectedtofoundations,privatefirms andindividuals.
+g) Government Funds: The government will continue to finance sectoral and cross-sectoral
+relevant programmes in drylands. There is potential for rationalizing some government
+resources already committed to these sectors and gradually shifting some resources to
+consolidatingparticipatoryprocesses withintheNAP framework.
+h) Donor Funds: It is expected that United Nations Agencies and bilateral and multilateral
+development partners will support NAP. Efforts have been made to mainstream NAP
+activities within the ongoing UNDP Country Co-operation Framework. Further, efforts
+should be made to mainstream NAP activities into programmes of other UN agencies such as
+Habitat,UNEP andFAO.
+i) NGOs and Voluntary Agencies: NGOs that have been or are involved in the education
+sectors; in the school milk and feeding programmes; bursaries, subsidized health services,
+and credit services with limited or no collateral requirements, will be encouraged to expand
+theiroperations tocovercommunityinitiatedanti-desertificationactivities.
+j) Private Sector: Tax rebates should be granted to those who make major contributions to
+community initiatives; and fees be levied to recover some of the profits made by large
+resource-based companies. There is also scope for the private sector to contribute to the NAP
+process by employing labour intensive techniques of production, and developing some
+communitysupport schemes.
+8.5 Disbursement ofFunds andAccountability
+The financing arrangements should ensure that financial resources are utilized efficiently
+with the objective of reaching the targeted beneficiaries. Direct disbursement of funds to
+eligible communities is increasingly preferred to alternative channels with intermediaries. In
+this case development partners are encouraged to either open a NAP account or channel their
+funds through the DCTF and thereby would ensure transparency, efficiency, and
+accountability. Efforts will be made to accommodate the interests of development partners’
+agencies who have to account to their own constituencies at home and who require various
+accounting,procurement anddisbursement procedures.
+a) Appropriations in Aid (A-in-A): A-in-A development partners’ funds are usually reflected
+in government annual budget estimates. Development partners are allowed direct
+50
+
+--- Page 52 ---
+disbursement, subject to treasury approval. This A-in-A procedures apply only to
+development partner-fundedprojects undertakenthroughthepublicsector.
+b) Direct Funding: Development partners could manage funds in-house, outside government
+budgetary process. In this regard, individual development partners are free to appoint their
+ownproject coordinators.
+c) Pooling of Resources: Contributors who have no desire to get involved directly in project
+implementation could contribute to DCTF and other miscellaneous Trust funds. The fund
+will be operated as an autonomous entity with adequate representation of the key
+stakeholders on the Board of Management. The selection of projects to be funded under this
+option will have to be demand-driven or demand managed. It would be desirable to fix
+district ceilings and carryout routine pre-investment evaluation before anyfunds are released
+toanyproject.
+Executing agencies would comprise of government, private firms, and civil society
+organizations with proven capacity to implement social projects. The implementing agencies
+will be required to consult and work with the intended beneficiaries at every stage of the
+project cycle. They would be required to collaborate with the NAP committees to ensure that
+project selection is in line with set criteria, anti-desertification priorities, and the bottom up
+approach.
+Disbursement of funds to civil society organizations or private firms should be done strictly
+on basis of specific work plans, clear implementation and cost schedules, benchmarks of
+achievement,andspecificmonitoringguidelines.
+d) Exchequer Funding: Projects eligible for government financing within the NAP
+framework will have to be identified by the communities and subjected to a participatory
+screening process within the district focus framework. Selected projects should reflect local
+priorities as ameans ofprioritizationinthebudgetingprocess.
+8.6 General Guidelines forPrioritization of ResourceAllocation
+The National Steering Committee will outline broad categories of areas of intervention. This
+will require an inventory of the activities, which are taking place in drylands. Clear
+indication of the proportion of available resources that should go to the following sets of
+activities will bemade.
+• Credit programme;
+• Sustainablelivelihoodprogrammes;
+• Capacitybuilding;
+• Basicinfrastructureandsocial services;
+• Emergencyinterventions; and
+• Special environmental conservationprogrammes.
+Criteria for prioritizing will be established in terms of geographical areas, social groups, and
+types of NAP activities for funding. Resource allocation will then be made on basis of the
+following:
+51
+
+--- Page 53 ---
+a) High priority districts under immediate threats of further desertification and for which
+timelyinterventionmayreversethetrendandprovidetangibleresults.
+b) Within these areas, identify social groups whose livelihood is largely dependent on the
+immediateenvironment.
+c) Pay special attention to alternative livelihood programmes designed to provide
+complementaryopportunities forearningaliving,whileconservingtheenvironment.
+9. MONITORINGANDEVALUATION
+9.1 Roleof Environmental Information Systems (EIS)
+9.1.1 Introduction
+Land degradation is an insidious long-term process caused by various physical processes, as
+well as social, economic, cultural and policy actions. The symptoms may not be obvious
+immediatelyor locally. The effects could be enormous, devastatingand costlyto remedy. It is
+therefore important to develop a framework for monitoring and increasing knowledge on the
+causes, processes and effects of factors that contribute to desertification. It is also important
+to monitor the impacts of measures undertaken to combat desertification. EIS under the
+frameworkofNAP will therefore:
+a) Contribute to the achievement of sustainable development in the drylands byensuring the
+collection,analysis,andexchangeofinformationandknowledge.
+b) Ensure the use of existing information systems as a starting point, and building on these
+foundations.
+c) Ensure that capacity is build for the information systems (data, computers and
+communicationlinks)humanresourceandinstitutions.
+d) Ensureuseoftheinformationsogeneratedtomeasureimpact oftheNAP.
+9.1.2 Objectives of EIS
+a) Developandmaintainadatabase.
+b) Strengthen institutional arrangements for sharing roles, responsibilities, information and
+networking.
+c) Standardize various elements of data and information to ensure compatibility and
+exchange.
+9.3 Developmentof Indicators and Benchmarks
+To measure change in the cause effects process in desertification (figure 2) there is need to
+develop robust procedures and methods that reduce the large number of observations that
+describe the state of the environment into a few indicators of change in land quality. In
+general andusingstandards ofaffectedpopulations desertificationindicators shouldbe:
+a) Attributes that enable the grouping together of several underlying land characteristics or
+52
+
+--- Page 54 ---
+phenomena;
+b) Tools in decision-making process that deal with land degradation at local, regional and
+national levels;
+c) Quantifiable,measurableandverifiablewhereverpossible;
+d) Quantitativeorqualitativevalues ofchangethat indicatestatus andtrends;
+e) Usedtomeasurechangeintheenvironment.
+The monitoring and evaluation programme must have clearly identified indicators and
+benchmarks. Each recommended priority programme or project must develop its own
+benchmarks and indicators on which the evaluation will be based. Benchmarks and
+indicators should be developed at the time of carrying out needs assessment. This could be
+includedinthelog-framewhenelaboratingontheprogrammes.
+The criteria for selection of benchmarks and indicators will be based on the simplicity with
+which they are derived, relevance to decision making, the degree to which they reflect
+community level needs and availability of data and information. It is important that these
+tools bequantifiableandverifiable.
+The benchmarks of NAP are to be developed for each priority area when detailed projects
+and sub-programmes are developed, elaborated with specific objectives, activities, target
+outputs, results and timeframes. Monitoring of each programme area should be internalised
+bytheimplementingagency.
+NATURALFACTORS
+HUMAN-INDUCEDFACTORS
+(cid:127)Badpolicy
+•Climaticfluctuation
+(cid:127)Poorplanning
+(cid:127)AlbedoChange VegD*
+(cid:127)Populationincrease
+(cid:127)Hightemperature WRD* SD* (cid:127)Deforestation
+(cid:127)Lowprecipitation
+CF* (cid:127)Overgrazing
+(cid:127)Lowhumidity
+(cid:127)Poorwastemanagement
+(cid:127)etc.
+ECONOMICISSUES SOCIALISSUES
+(cid:127)AgriculturalProduction (cid:127)Culturalaspects
+(cid:127)FoodSupply (cid:127)Populationand
+(cid:127) Energysupply
+demography
+(cid:127)Infrastructure (cid:127)Settlement
+(cid:127)Landmanagement (cid:127)Health
+•VegD*--VegetationDegradation
+(cid:127)SD*-SoilDegradation
+(cid:127)CF*-ChangeinFauna DESRTIFICATION
+(cid:127) WRD*-WaterResourceDeplition
+Figure2: Conceptual model oftheprocess ofdesertification
+9.3 Roleof Stakeholders
+The NAP will require information comprising several data sets obtainable from various
+agencies on physical, biological and socio-economic parameters (figure 3). This may be
+53
+
+--- Page 55 ---
+stored and processed in various systems in their home institutions. The networking partners
+will thereforeneedto:
+• Defineandsharethedatasets theywill providetothesystem;
+• Strengthen networking modalities of the existing systems that will only require
+standardisationofdata,processingandinformationexchangepolicy.
+• Define indicator data sets to be collected, processed and analysed based on set standards
+andneeds identifiedbystakeholders.
+SoilInformation
+Livestock& Meteorological
+Vegetation Information
+information
+Desertification
+Desertification
+Information
+Desertification Information
+Information
+OtherInformation
+Wildlife Information
+Environmental
+Information
+Desertification Desertification
+Information Information
+Agricultural
+Information
+WaterInformation Population
+Information
+Desertification Desertification
+Desertification
+Information Information Information
+Figure 3: Conceptual Model of the National Information Infrastructure for combating
+Desertification
+9.3Feedback Strategies
+The data needs for the EIS should be for both short-term monitoring of desertification factors
+and events such as droughts and for long-term trends, and measurement of land use changes,
+land productivity and socio-economic indicators. Thus, data collected in the EWS will
+become inputs to monitoring systems of desertification in the long run. The main aim of the
+system will be development of decision support systems for environmental management. The
+decisionsupport system will bringout clearlylessons learnt intheprocess andwill:
+a) Provide the GoK with harmonised baseline databases, which can be easily updated and
+usedforlong-term monitoringoflanddegradationprocesses.
+b) Strengthen the knowledge base on the causes, effects and possible remedies of
+desertification.
+c) Strengthen the collaborative efforts of various agencies in undertaking land degradation
+assessment andmonitoring.
+d) Facilitate an iterative implementation of NAP to combat desertification through the
+formulationofmoreefficient andeffectivestrategies forconservationoflandresources.
+54
+
+--- Page 56 ---
+e) Assist the GoK in national and district level land degradation assessment and mapping
+efforts.
+f) Assist indevelopingpractical methodologies fordesertificationassessment andmapping.
+10.RECOMMENDATIONSANDWAY FORWARD
+The National Stakeholders meeting at Kenya School of Monetary Studies on 28th February
+2002 reviewed the National Action Programme (NAP) for Combating Desertification within
+the framework of the United Nations Convention to Combat Desertification (UNCCD),
+adoptedtheNAP andproposedthefollowingrecommendations as awayforward:
+a) TheNAP document is circulatedtoas manystakeholders as possible.
+b) Appropriate mechanisms be developed to sensitize and mobilize stakeholders to
+develop as many viable programmes and projects as possible for implementation of
+NAP
+c) Mobilizeresources from all possiblesources forimplementationofNAP
+d) IntheimplementationofNAP mechanisms bedevelopedtoensure:
+i. Transparencyandaccountability
+ii. Bottom-upandparticipatoryapproach
+iii. Equityinbenefits sharingespeciallytheaffectedlocal communities
+e) Enhance mechanisms for mainstreaming NAP in the national development process
+includingbudgeting.
+f) IntegrateNAP intoregional andsub-regional programmes.
+55
+
+--- Page 57 ---
+sexennA
+xirtaMnoitatnemelpmIPAN.1xennA
+)hSK(
+tegduB
+srotcA
+emarFemiT
+snoitcAytiroirP
+aerAemmargorPytiroirP
+evitacidnI
+tnemnorivnegnilbanE
+.1
+000,000,05
+,CED
+,BCN
+,P.O
+,RNEM
+mret-trohS
+yciloperunet/esu-dnalevisneherpmocagnitalumroF
+)i
+dna
+lageL
+,yciloP
+1.1
+SLM,AOM,GA,seitinummoC
+gnikam-noisiced
+ni
+seitinummoc
+lacol
+evlovni
+ot
+msinahcem
+raelc
+tnemhsilbatsE
+)ii
+krowemarflanoitutitsnI
+mret-trohS
+ssecorp
+muideM
+sredlohekatsllaevlovniot
+)9991(ACMEehtrednuserutcurtsesU
+)iii
+mret-gnoL
+DCCN&BCNfoseiticapacnehtgnerts&dliuB
+)vi
+000,000,03
+tnemnrevog
+tnaveler
+,SRSRD
+mret-trohS
+stcilfnocesu-dnalydutS
+)i
+erunetdnaesu-dnaL
+2.1
+,CED
+,BCN
+,ytinummoc
+,seicnega
+mret-trohS
+)4.6ees(metsysgninrawylraenehtgnertS
+)ii
+SLM,GA,AOM
+ytiruces-laicosfomroftsebsapihsrenwodnalgniweivedutittas’elpoepegnahC
+)iii
+mret-gnoL
+noitcuderytrevopnietapicitrapotseitinummocegaruocnE
+)vi
+mret-trohS
+000,000,03
+,AOM
+,DMK
+,RNEM
+,CED
+,BCN
+mret-trohS
+smetsysnoitamrofni
+latnemnorivnekrowtendnapoleveD
+)i
+dna
+noitamrofnI
+3.1
+sresudnasredivorpnoitamrofni
+muideM
+sseccadnagnissecorpatadezidradnatS
+)ii
+fo
+tnemecnahnE
+muideM
+egnahclatnemnorivnerofsrotacidnideifilpmispoleveD
+)iii
+egdelwonk
+000,000,05
+dna
+sOBC
+,sOGN
+,CED
+,BCN
+mret-trohS
+sdeenrieht
+dnaspuorgtegratenifed&yfitnedI
+)i
+ssenerawAcilbuP
+4.1
+seitinummoC
+mret-trohS
+dedeensecruoserebircseddnayfitnedI
+)ii
+mret-trohS
+snoitpoaidemnoitacinummocdnaseigolodohtemnonoitarobaleyfitnedI
+)iii
+muideM
+slairemsegakcapnoitazitisnesetanimessiddnaecudorP
+)vi
+000,000,003
+,sOBCsOGN,CED,BCN,P.O,GA
+mret-gnoL
+seitinummoCrewopmE
+)i
+level
+lacoL
+troppuS
+5.1
+,RNEM
+,P
+&
+FM,seitinummoC
+mret-gnoL
+spihsrentrap&seiticapacdliuB
+)ii
+seitinummoc
+sronoDAOM
+muideM
+noitulosertcilfnocetairporppaedivorP
+)iii
+mret-trohS
+)6.1ees(FTCDehtesilanoitarepO
+)vi
+000,000,002
+ronoD
+,CED
+,DCCN
+,BCN
+mret-trohS
+seigetartSlanoitaNehtotniPANmaertsniaM
+)i
+smsinahceMlaicnaniF
+6.1
+,GA
+,eettimmoC
+noitanidrooC
+mret-trohS
+seigetartsnoitasilibomecruoserpoleveD
+)ii
+NU
+,MG
+,AOM
+,RNEM
+,P&FM
+mret-trohS
+sronodllafoeliforpaeraperP
+)iii
+)m8.5$SU(,seicnegA
+mret-trohS
+FTCDezilanoitarepO
+)vi
+000,000,004
+sredlohekatsllA
+mret-trohS
+sdeenehtyfitnedI
+)i
+gnidliub-yticapaC
+7.1
+t-gnoLottrohS
+sdnufetauqedaetacollA
+)ii
+mret-trohS
+noitaulavednagnirotinomrofsrotacidnihsilbatsE
+)iii
+saerAemmargorPlarotceS.2
+000,000,005
+,seitinummoC
+,EoM
+,CED
+,BCN
+mret-gnoL
+ecnalabdnamed-ylppusevorpmI
+)i
+,BRE
+,neGneK
+,sOBC
+,sOGN
+mret-gnoL
+esuygreneyfisreviD
+)ii
+ygrenE1.2
+PPI,CLPK
+mret-trohS
+gninnalplanoitutitsninehtgnertS
+)iii
+000,000,003
+,RNEM
+OGN
+,AoM
+,CED
+,BCN
+mret-trohS
+secruosernohcraeser&yrotnevnI
+)i
+revocnoitategeV2.2
+,TSCN
+,sOBC
+,seitinummoC
+muideM
+sdoohilevilfosecruosevitanretlaetomorP
+)ii
+sertnec/setutitsnIhcraeseR
+mret-gnoL
+ygolonhcetetairporppaetomorP
+)iii
+
+--- Page 58 ---
+000,000,005
+,sOBC
+,sOGN
+,RNEM
+,CED
+,BCN
+mret-trohS
+secruoserfognippam&yevruS
+)i
+noitavresnoctseroF3.2
+,TSCN
+,AOM
+,seitinummoC
+mret-gnoL
+secruosertseroffotnemeganamevorpmI
+)ii
+snoitutitsnihcraeseR
+mret-trohS
+noitnevretniycilopetairporppA
+)iii
+muideM
+yticapaclanoitutitsninehtgnertS
+)vi
+muideM
+ngiapmacssenerawacilbuptcudnoC
+)v
+000,000,005
+,sOBC
+,sOGN
+,RNEM
+,CED
+,BCN
+mret-trohS
+seigetartsetairporppapoleveD
+)i
+ytisrevidoiBfonoitavresnoC4.2
+hcraeseR
+,AOM
+,seitinummoC
+muideM
+noitaercssenerawA
+)ii
+KMN,SWK,snoitutitsnI
+muideM
+metsysocenohcraeserekatrednU
+)iii
+mret-trohS
+seicilopetairporppapoleveD
+)vi
+mret-gnoL
+gnidliubyticapaC
+)v
+000,000,005
+,sOBC
+,sOGN
+,AoM
+,CED
+,BCN
+mret-trohS
+erunetdnaesudnalnonoitalsigeltcanednaseicilopetalumroF
+)i
+msilarotsaPdnaerutlucirgA5.2
+hcraeseR
+,TSCN
+,seitinummoC
+mret-trohS
+smsinahcemnoitulosertcilfnocnehtgnertS
+)ii
+snoitutitsnI
+muideM
+ssenerawacilbupetaerC
+)iii
+mret-gnoL
+ppSeert&porckcotseviletairporppaetomorP
+)vi
+000,000,004
+,sOBC
+,sOGN
+,AoM,CED
+,BCN
+tgnol/muideM
+seigolonhcettnemeganamliosetairporppaetomorP
+)i
+tnemeganaMlioS6.2
+,snoitutitsnI
+hcraeseR
+,seitinummoC
+muideM
+secitcarpesu-dnalelbaniatsusetomorP
+)ii
+RNEM,TSCN
+trohS
+gnikrowtendnanoitaroballocecnahnE
+)iii
+mret-gnoL
+yticapacdliuB
+)vi
+000,000,007
+,sOBC
+,sOGN
+,RNEM
+,CED
+,BCN
+mret-trohS
+pihsrentrap&noitanidroocetatilicaF
+)i
+tnemeganamecruoseRretaW7.2
+seitinummoC
+mret-gnoL
+tnemrewopme&gnidliubyticapaC
+)ii
+snoitutitsnIhcraeseRTSCN
+muideM
+ygolonhcetdnatnemeganametairporppaetomorP
+)iii
+mret-gnoL
+secruoserretawlaitnetop
+fo.mpoleveddnatnemssessaetatilicaF
+)vi
+saerAemmargorPlarotceS-ssorC.3
+000,000,002
+,tpeD
+secivreS
+laicoS
+,CED
+,BCN
+mret-trohS
+stikgnimaertsniamrednegpoleveD
+)i
+redneGgnimaertsniaM1.3
+,sOGN
+muideM
+sevitcepsreprednegfonoitazilanoitutitsnietomorP
+)ii
+seitinummoC
+mret-trohS
+seigetartsrednegetalumroF
+)iii
+000,000,004
+,RNEM
+AOM
+,TSCN
+,BCN
+mret-trohS
+seicilopgnitalumroF
+)i
+ygolonhceTdnaecneicS2.3
+,sOGN
+,snoitutitsnI
+hcraeseR
+mret-gnoL
+seiticapacdliuB
+)ii
+,seitinummo,sOBC,seitisrevinU
+t-gnoLottrohS
+secruoserlaicnaniffonoitasiliboM
+)iii
+mret-gnoL
+egdelwonklanoitidartfoesU
+)vi
+000,000,003
+,TSCN
+,RNEM
+,sOGN
+,CED
+,BCN
+mret-trohS
+tnemnorivnednaytrevopfotnemssessA
+)i
+tnemnorivnEdnaytrevoP3.3
+hcraeseR
+seitinummoC
+soBC
+muideM
+egdelwonksuonegidnietomorP
+)ii
+AOM,sronod,snoititsnI
+mret-gnoL
+seitinummocrewopmE
+)iii
+mret-gnoL
+refsnartygolonhceT
+)vi
+000,000,005
+DMK
+,SRSRD
+TSCN
+,CED
+,BCN
+mret-trohS
+noitamrofngnisnesetomerfoesudnassenerawacilbupetaerC
+)i
+smetsysgninrawylraE4.3
+hcraeseR
+,PO
+,seitinummoC
+muideM
+smetsysgnirotinomlatnemnorivnenehtgnertS
+)ii
+RNEM,snoitutitsnI
+mret-trohS
+BCNrednumsinahcemgnirotinomputeS
+)iii
+mret-gnoL
+yticapaclanoitutitsni&lacigolonhcet,namuhdliuB
+)vi
+.7102-2002=mret-gnoL;2102-2002=mret-muideM;7002-2002=mret-trohS:BN
+1
+
+--- Page 59 ---
+Annex2:National Action ProgrammeTask ForceTeam
+Name Organisation
+1. BenardO.K’omudho National CCDFocal Point,National Environment
+Secretariat
+2. ReubenK.Sinange NAP Co-ordinator,Department ofResourceSurveys
+andRemoteSensing
+3. MauriceMbegera Permanent Presidential CommissiononSoil
+ConservationandAfforestation(PPCSCA)
+4. HumphreyKaburu CCD-DeskOfficer,National Environment Secretariat
+5. FrankMsafiri National NGOCoordinatingCommitteeon
+DesertificationinKenya(NCCD-K)
+6. RichardM. Mwangi National NGOCoordinatingCommitteeon
+DesertificationinKenya(NCCD-K)
+7. FaithOdongo MinistryofEnergy
+8. Gabriel M.Mailu National Council forScienceandTechnology
+9. BenardC.Muhang’u WaterDepartment,MinistryofEnvironment and
+Natural Resources
+10.AntonyOchino Forest Department,MinistryofEnvironment and
+Natural Resources
+11.HenryKinuthia National Environment Secretariat
+12.Julius Muinde National Environment Secretariat
+13.JoanKoilel National Environment Secretariat

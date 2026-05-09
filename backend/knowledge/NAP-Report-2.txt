@@ -1,0 +1,1752 @@
+--- Page 1 ---
+THE UNITED REPUBLIC OF TANZANIA
+VICE PRESIDENT’S OFFICE
+GUIDELINES FOR MAINSTREAMING
+NATIONAL ACTION PROGRAMME TO
+COMBAT DESERTIFICATION INTO SECTORAL
+POLICIES, PLANS AND PROGRAMMES
+DIVISION OF ENVIRONMENT
+NOVEMBER, 2014
+
+--- Page 2 ---
+2
+
+--- Page 3 ---
+FOREWORD
+Land is a natural resource base for which all communities in the country depend on for
+their livelihood. However, human activities, among other factors, have largely contributed
+to its degradation which is associated with decreasing land quality and value. In Tanzania,
+land degradation is mostly contributed by unsustainable land use practices, which
+threatens the social and economic development. The consequences of land degradation
+are numerous and serious including reduced land productivity, food insecurity, decrease of
+income and livelihoods, destruction of habitats and ecosystems, loss of biodiversity, and
+human migration. These challenges among others, call for the need of preparing a practical
+and technical guide that will enhance mainstreaming of sustainable land management
+approaches into sectoral policies, plans and programmes.
+Land degradation can be minimized and land quality restored to a large extent. Protecting
+and restoring the function and services that have been lost is a priority towards sustainable
+land management. In this context, the Government has taken various initiatives across
+the country to combat desertification, land degradation and drought. These initiatives
+include, among others, formulation and implementation of relevant policies, strategies
+and programmes; promoting adoption of sustainable land management practices such as
+integrated land use plans, integrated soil fertility management, conservation agriculture;
+rainwater harvesting, agro-forestry, and improvement of livestock management systems;
+supporting alternative income generating activities.
+Despite such efforts, the problem of land degradation and its associated impact has continued
+to persist. Such situation calls for more concerted effort to reduce the magnitude of the
+problem. This entails the need for integrated approach to facilitate adoption of sustainable
+land management practices to address challenges posed by land degradation in the country.
+Cognizant of this fact, these Guidelines have been developed to facilitate and ensure that
+relevant policies, plans, programmes integrate sustainable land management practices with
+a wider-reaching set of outcomes towards achieving sustainable development.
+The Guidelines cover brief country situational analysis and initiatives undertaken to
+address land degradation; description on step by step framework to be followed when
+mainstreaming Desertification Land Degradation and Drought concerns in sectoral
+policies, plans and programmes; institutional arrangement and roles of key stakeholders;
+and monitoring framework.
+The task of mainstreaming sustainable land management should be at the forefront of
+development planning and policy formulation across all sectors. It is my sincere hope
+that these Guidelines will be useful in supporting and enhancing the mainstreaming of
+i
+
+--- Page 4 ---
+DLDD issues in respective sectoral policies, plans and programmes. I therefore urge all
+sectors and other stakeholders to make use of these Guidelines for achieving sustainable
+development.
+Eng. Dr. Binillith S. Mahenge (MP)
+MINISTER OF STATE,
+VICE PRESIDENT’S OFFICE (ENVIRONMENT)
+ii
+
+--- Page 5 ---
+ACKNOWLEDGEMENT
+Successful preparation of these Guidelines is a result of the commitment and hard work
+by many individuals and institutions. It is not possible to mention them all, but I would
+like to take this opportunity to assure them our heartfelt appreciation that we value their
+cooperation and support.
+I would like to thank Sector Ministries, Departments and Agencies for participating in the
+preparation of these Guidelines. These include President’s Office - Planning Commission
+(POPC); Prime Minister’s Office Regional Administration and Local Government Authority
+(PMO-RALG); Ministry of Agriculture, Food Security and Cooperatives; Ministry of Livestock
+and Fisheries Development; Ministry of Water; Ministry of Natural Resources and Tourism;
+Ministry of Energy and Minerals; Ministry of Health and Social Welfare; and Ministry of
+Lands, Housing and Human Settlements Development; Tanzania Forest Services; National
+Environment Management Council; and Ardhi University.
+I wish to express my appreciation to the Journalists Environmental Association of Tanzania
+(JET) for their inputs in these Guidelines.
+I thank the Director of Environment, Dr. J. Ningu; Assistant Director Mr. R. Muyungi and
+members of the Secretariat from the Vice President’s Office for ensuring completion of these
+Guidelines.
+Lastly, I wish to extend our special thanks to the Global Environment Facility (GEF) through
+United Nations Development Programme (UNDP) for providing financial support that
+enabled preparation of these Guidelines.
+Sazi B. Salula
+PERMANENT SECRETARY
+VICE PRESIDENT’S OFFICE
+iii
+
+--- Page 6 ---
+LIST OF ABRIVIATIONS AND ACRONYMS
+AWC Available Water holding Capacity
+CBOs Community Based Organizations
+CSOs Civil Society Organizations
+CEMO City Environment Management Officer
+DEMO District Environment Management Officer
+DLDD Desertification, Land Degradation and Drought
+DPs Development Partners
+EA Environmental Audit
+EIA Environmental Impact Assessment
+EMA Environmental Management Act
+FAO Food and Agriculture Organization
+FBOs Faith Based Organizations
+GBS General Budget Support
+GM Global Mechanism
+GEF Global Environment Facility
+LGAs Local Government Authorities
+MDAs Ministries Department and Agencies
+MEAs Multilateral Environmental Agreements
+MEMO Municipal Environment Management Officer
+M&E Monitoring and Evaluation
+MKUKUTA Mkakati wa Kukuza Uchumi na Kupunguza Umaskini Tanzania
+MTEF Medium Term Expenditure Framework
+NAP National Action Programme to Combat Desertification
+NEAP National Environmental Action Plan
+NEP National Environmental Policy
+NEMC National Environment Management Council
+iv
+
+--- Page 7 ---
+PACD Plan of Action to Combat Desertification
+PPP Public Private Partnership
+PMO-RALG Prime Minister’s Office – Regional Administration and Local Government
+SLM Sustainable Land Management
+SOC Soil Organic Carbon
+SWOC Strengths, Weaknesses, Opportunities and Challenges
+TEMO Town Environment Management Officer
+TSD Topsoil depth
+UNEP United Nations Environment Programme
+UNCOD United Nation Conference on Desertification
+UNDP United Nations Development Programme
+UNCCD United Nations Convention to Combat Desertification
+UNCED United Nation Conference on Environment and Development
+VPO Vice President’s Office
+v
+
+--- Page 8 ---
+TABLE OF CONTENTS
+FOREWORD ................................................ I
+ACKNOWLEDGEMENT .........................................III
+LIST OF ABRIVIATIONS AND ACRONYMS ...........................IV
+CHAPTER ONE: INTRODUCTION.................................. 1
+1.1 BACKGROUND INFORMATION ........................... 1
+1.2 OBJECTIVE OF THE GUIDELINES .......................... 2
+1.3 JUSTIFICATION OF THE GUIDELINES ....................... 2
+1.4 SCOPE OF THE GUIDELINES............................. 2
+1.5 METHODOLOGY OF PREPARING THE GUIDELINES ............... 3
+CHAPTER TWO: INSTITUTIONAL FRAMEWORK ....................... 4
+2.1 INTRODUCTION ................................... 4
+2.2 POLICY FRAMEWORK ................................ 4
+2.3 LEGAL FRAMEWORK ................................. 4
+2.4 INSTITUTIONAL FRAMEWORK ........................... 4
+CHAPTER THREE: STATUS OF LAND DEGRADATION AND INITIATIVES TO
+COMBAT LAND DEGRADATION IN TANZANIA......................... 8
+3.1 STATUS OF LAND DEGRADATION ......................... 8
+3.1.1 Land cover change ............................10
+3.1.2 Soil fertility and crop production ..................... 8
+3.1.3 Salinization ................................. 9
+3.1.4 Soil erosion ................................. 9
+3.1.5 Soil acidification ..............................10
+3.1.6 Siltation ..................................10
+3.1.7 Loss of vegetation .............................10
+3.1.8 Soil pollution................................11
+3.2 INITIATIVES TO COMBAT LAND DEGRADATION ................11
+vi
+
+--- Page 9 ---
+CHAPTER FOUR: GUIDELINES FOR MAINSTREAMING NAP INTO SECTORAL
+POLICIES, PLANS AND PROGRAMMES ............................ 14
+4.1 GENERAL GUIDELINES ..............................14
+4.2 SECTOR POTENTIAL INTERVENTIONS FOR MAINSTREAMING NAP......16
+4.2.1 National Development Plans and Strategies (Finance) .........16
+4.2.2 Agriculture .................................18
+4.2.3 Livestock ..................................21
+4.2.4 Water ....................................23
+4.2.5 Energy....................................24
+4.2.6 Industry ..................................25
+4.2.7 Tourism ..................................27
+4.2.8 Forestry ..................................28
+4.2.9 Mining ...................................30
+4.2.10 Land ....................................30
+4.2.11 Coastal and Marine ............................31
+4.2.12 Fisheries ..................................32
+4.2.13 Wildlife and Wetland ...........................34
+4.2.14 Transport ..................................35
+4.2.15 Health....................................36
+4.3 SECTORAL MAINSTREAMING ACTION PLAN ..................37
+4.4 MONITORING AND EVALUATION .........................37
+CHAPTER FIVE: OPERATIONALIZATION OF THE GUIDELINES............. 38
+5.1 INTRODUCTION ..................................38
+5.2 STANDARD FOR OPERATIONALIZATION .....................38
+ANNEX................................................... 40
+DEFINITION OF TERMINOLOGIES AND CONCEPTS ................... 40
+vii
+
+--- Page 10 ---
+viii
+
+--- Page 11 ---
+CHAPTER ONE
+INTRODUCTION
+1.1 Background Information
+Land is a scarce natural resource in which majority of people rely on for their sustainable
+livelihood. However, climatic and anthropogenic factors have largely contributed to
+land degradation which has been associated with decreasing land quality and value.
+According to the United Nations Convention to Combat Desertification (UNCCD)
+(1994) statistics, land degradation affects 1.5 billion people globally. On the other
+side, 2.6 billion people depend directly on agriculture, but 52% of the land used for
+agriculture is moderately or severely affected by soil degradation while arable land
+loss estimated at 30 to 35 times the historical rate. Due to drought and desertification
+each year 12 million hectares are lost worldwide.
+In Tanzania, land degradation, which in most cases is due to unsustainable land
+management practices, threaten the social and economic development as well as
+livelihoods. Regions with high population densities per square kilometers have a
+remarkable high rate of land degradation. Rapid population growth is associated
+with declining amount of land for pasture, which triggers seasonal migration of
+pastoralists and their livestock. Pastoral and agro pastoral migrants like Maasai
+and Sukuma people from Arusha, Manyara, Shinyanga, Simiyu and Geita who are
+migrating to Mbeya, Mtwara, Morogoro, Tanga and Rukwa regions in search of
+pasture and agricultural land has been one of the causes of land degradation in the
+country.
+Various initiatives such as global/international and national efforts to combat
+desertification are being undertaken to address issues of DLDD. International efforts
+started way back in the 1970s when the United Nations Environment Programme
+(UNEP) held an international conference on desertification (UNCOD) in Nairobi
+Parties adopted a Plan of Action to Combat Desertification (PACD). Also, the UN
+Commission observed that desertification had become one of the most serious
+environmental and socio-economic problems of the world. The UNCCD was adopted
+in Paris on 17 June, 1994 and entered into force on 26 December, 1996. Tanzania
+ratified the Convention in 1997.
+Since ratification, several national efforts to address the impacts of DLDD, have been
+undertaken. The efforts include development of Strategy for Urgent Actions on Land
+Degradation and Water Catchment (2006) and the National Strategy on Conservation
+of Coastal and Marine Environment, Lakes, Dams and Rivers (2010). The Government
+1
+
+--- Page 12 ---
+has also developed a National Action Programme to combat DLDD (2014) that
+has been aligned to the Ten year Strategy of the UNCCD (2008 – 2018); Status of
+Land Degradation (2014); and Compendium of Best Practices for Sustainable Land
+Management (2014).
+The Environmental Management Act (Cap 191) under section 13(2) gives power to
+the Minister responsible for environment, in consultation with other sector ministries,
+to issue general guidelines to the Sector Ministries, LGAs and private institution for
+the purpose of addressing environmental issues including DLDD. These Guidelines
+have been prepared to enable relevant sectors and institutions to identify appropriate
+intervention measures that will address DLDD and its impacts so that they are
+incorporated in relevant policies, plans, strategies and programmes.
+1.2 Objective of The Guidelines
+The main objective of these Guidelines is to ensure that relevant policies, plans,
+programmes integrate sustainable land management (SLM) with a wider-reaching
+set of outcomes towards achieving sustainable development.
+1.3 Justification of the Guidelines
+In Tanzania, the issues of combating DLDD have been done for so long by sectors
+although challenges still exists. Mainstreaming of sustainable land management
+(SLM) has been identified to be essential to ensuring the development of policies,
+plans and programmes with a wider reaching set of outcomes than if these were
+to be undertaken on their own. SLM is a cross cutting issue and therefore holistic
+and integrated approach is necessary in addressing challenges posed by land
+degradation in the country. Mainstreaming SLM issues into national policies, plans
+and programmes ensures consistency between the needs of achieving SLM, poverty
+eradication and economic development.
+It is against this background that these Guidelines have been developed. The
+Guidelines will also contribute to the implementation of the National Environmental
+Policy (NEP 1997), Environmental Management Act, (EMA Cap 191), National
+Environmental Action Plan (NEAP, 2013 -2018), MKUKUTA II (2010), and the
+Multilateral Environmental Agreements (MEAs) and other sectoral Policies Plans
+and programmes.
+1.4 Scope of the Guidelines
+The Guidelines will facilitate mainstreaming of NAP into sectoral policies, plans and
+programmes. These sectors include Forestry, Tourism, wildlife, Marine and Coastal,
+2
+
+--- Page 13 ---
+Energy, Mining, Fisheries, Livestock, Water, Agriculture, Land use and Health. These
+guidelines are intended to be used by sectors as well as civil society organizations
+and private sector.
+1.5 Methodology of Preparing the Guidelines
+These Guidelines were prepared in a participatory approach by involving different
+stakeholders. The document was drafted by a team of experts from the Vice President’s
+Office (VPO). The draft Guidelines were then subjected to a stakeholders’ consultative
+workshop for discussion and review with representation from government ministries,
+departments and agencies; public and private sectors; civil society organizations;
+development partners; and media. The views of stakeholders were incorporated to
+finalize the Guidelines.
+The draft Guidelines were then tabled and adopted by the Steering Committee.
+3
+
+--- Page 14 ---
+CHAPTER TWO
+INSTITUTIONAL FRAMEWORK
+2.1 Introduction
+In Tanzania, implementation of the United Nations Convention to Combat
+Desertification (UNCCD) is guided by the National Environmental Policy (1997);
+Environmental Management Act, Cap 191; and sectoral policies and legislation.
+This Chapter describes issues of policy, legal and institutional framework for the
+implementation and management of environment in the context of combating DLDD.
+2.2 Policy Framework
+The overall policy framework for environmental management in Tanzania is provided
+by the National Environmental Policy (1997). The Policy recognizes environment as
+a cross–cutting issue that requires a holistic approach and multi–level engagement.
+In this perspective, the Policy addresses land degradation by involving sectors,
+LGAs and other stakeholders.
+In addition, sectoral policies does contribute in addressing DLDD within respective
+sectors and offer an opportunity for enhancing national efforts in combating DLDD.
+2.3 Legal Framework
+The Environmental Management Act, Cap 191 provides for legal and institutional
+framework for environmental management in the country. The Act requires sector
+ministries and LGAs to establish Environmental management units which, among
+others, will address issues of DLDD. Furthermore, Section 179 -181 of the Act gives
+mandate to the Minister responsible for environment to coordinate implementation
+of Multilateral Environmental Agreements (MEAs) in the country to which Tanzania
+is a Party including the UNCCD.
+2.4 Institutional Framework
+Environmental management needs effective, efficient coordination and cooperation
+among organs of the government and other key stakeholders. Environmental
+Management Act Cap. 191 has stipulated the following institutional arrangement
+responsible for environmental management in Tanzania including issues of
+combating DLDD (Figure 1).
+4
+
+--- Page 15 ---
+Vice President’s Office
+[Minister Responsible for Environment]
+Division of Environment
+[Director of Environment]
+National Environment National Environmental
+Management Council (NEMC) Advisory Committee (NEAC)
+[Director General]
+Sector Ministry Environmental Sections
+[Sector Environment Coordinator]
+Regional Secretariat
+[Regional Environmental Management Experts]
+City Co uncil Mu
+[M
+n
+u
+ic
+n
+i
+i
+p
+c
+a
+ip
+l
+a
+C
+l
+o
+E
+u
+n
+n
+v.
+c il
+(To
+T
+w
+o
+n
+w
+C
+n
+o
+C
+u
+o
+n
+u
+c
+n
+il
+c
+E
+i
+n
+l
+v.
+T
+(T
+o
+o
+w
+w
+n
+n
+s
+s
+h
+h
+i
+i
+p
+p
+C
+C
+o
+o
+u
+u
+n
+nc
+c
+i
+i
+l
+l District Council
+[City Council Env. Management Officer] Management Officer) Env. Management (District Council Env.
+C
+M
+it
+a
+y
+n
+E
+a
+C n
+g
+v o
+e
+. m
+m
+M m
+e
+a
+n
+i n t
+t
+t a e
+O
+g e
+f
+e
+fi
+m
+ce
+e
+r
+n
+]
+t M M u C a n o n i m c a i g p m e a i m t l t E e e e n n v t . Tow M C n a o n C m a o g m u e n i m t c te i e l e n E t n v. E T n o v w C . n M o
+O
+s m h a
+ff
+i n
+i
+m p
+c
+a
+e
+i C g t
+r
+t
+)
+e e o m e u n e c n il t
+M
+D
+a
+is
+n
+t M
+a
+r C i
+g
+c a
+e
+o t n
+m
+m C a o g
+e
+m e u
+n
+i m
+t
+n t t c e
+O
+e i e l n
+f
+E
+f
+t
+i c
+n
+e
+v
+r
+.
+)
+Ward Ward
+(Ward Env.
+(Ward Env. Management Management Officer)
+Officer) Ward Environmental
+Ward Envi ronmental Management Committee
+Management Committee
+Village
+Mtaa
+(Village Env. Management
+(Mtaa Env. Management Officer) Officer)
+Mtaa Environmental Village Environmental
+Management Committee Management Committee
+Kitongoji
+(Kitongoji Env.
+Management Officer)
+Kitongoji Environmental
+Management Committee
+Figure 1: Institutional arrangement for environmental management in Tanzania
+5
+
+--- Page 16 ---
+a) National Environmental Advisory Committee
+The Committee has been established to advise the Minister responsible for
+environment or any sector ministry on environmental matters. Section 11 and 12 of
+EMA, 2004 respectively stipulate the composition and functions of the committee. It
+offers an opportunity to elevate and address the issue of DLDD as a national agenda.
+b) Minister Responsible for Environment
+The Minister is responsible for articulation of policy guidelines necessary for
+protection, promotion and sustainable management of environment in Tanzania
+including issues of DLDD. The Minister may issue general guidelines to sector
+Ministries, Government Departments, City, Municipal or District Environmental
+Management Committee, Agency or any other public or Private Institution necessary
+for the purpose of addressing environmental issues including DLDD.
+The Vice President’s Office (VPO) is the national focal point for the United Nations
+Convention to Combat Desertification (UNCCD). Implementation of activities under
+this convention enhances sustainable land management in Tanzania. At the national
+level, SLM Steering Committee has been established chaired by the Permanent
+Secretary of the VPO that provide policy guidelines to the UNCCD Focal Point and
+the UNCCD Technical Committee to ensure coordinated actions and participation
+of various sectors in the planning and implementation of UNCCD activities in the
+country.
+c) National Environment Management Council (NEMC)
+The function of NEMC, among others, is to oversee the enforcement of EMA, 2004
+which includes enforcement and compliance; review and monitoring of Environmental
+Impact Assessment (EIA) and Environmental Audits; undertake programs to enhance
+environmental education and public awareness; and render advise and technical
+support to entities engaged in natural resources and environmental management.
+d) Sector Ministries
+The duties of sector Ministries to manage the environment are highlighted under
+section 30 (b) of EMA Cap 191 which provides for the ensuring all environmental
+matters contained in other written laws falling under the sector ministry are
+implemented.
+The functions of each sector Ministry among others is to ensure that NAP is
+mainstreamed into sector functions. Each sector ministry carries out its functions
+and duties in accordance with EMA, 2004 and any other related laws, provided that
+such laws do not conflict with EMA as per section 232 of that Act.
+6
+
+--- Page 17 ---
+e) Regional Secretariat
+The major responsibilities of Regional Secretariat is to coordinate all advice
+on environmental management in their respective regions (Section 34 of EMA,
+2004). Section 35 of the Act provides for appointment or designation of a Regional
+Environment Management Expert (REME). REME is charged with responsibilities to
+advise the local government authorities of that particular region on matters relating
+to implementation and enforcement of EMA. REME links the Region and the Director
+of Environment.
+f) Local Government Authorities
+The Environmental Management Act, Cap. 191 empowers LGAs to oversee
+environmental management in their areas of jurisdiction as stipulated under sections
+36 to 41 of the Act. The Act further empowers LGAs to designate/appoint Environment
+Management Officers to oversee implementation of EMA at their respective levels
+(City, Municipality, District and Town). The duties of the LGAs to manage the
+environment are also provided by Local Government Authorities Act No 7 and 8 of
+1982. The LGAs, among other duties, are responsible for addressing DLDD issues
+in their area of jurisdictions.
+7
+
+--- Page 18 ---
+CHAPTER THREE
+STATUS OF LAND DEGRADATION AND INITIATIVES
+TO COMBAT LAND DEGRADATION IN
+TANZANIA
+3.1 Status of Land Degradation
+Land is a natural resource in which majority of people in the country depend on for
+their livelihood. However, human actions among other factors have largely contributed
+to land degradation which has been associated with decreasing land quality and
+value. In Tanzania land degradation, which is due to unsustainable land management
+practices, is threatening the social and economic development as well as livelihoods.
+The consequences of land degradation are numerous and serious including reduced
+productivity, food insecurity, loss of income and livelihoods, destruction of important
+ecosystems, loss of biodiversity through changes to habitats and human migration.
+3.1.1 Land cover change
+Based on the Land degradation report of 2014, there is a detected land cover change
+based on the analysis conducted for 1980 and 2012. This analysis of 22 years (1980-
+2012) shows that the total area of bush land in Tanzania has decreased from 19.0%
+to 17.0%, cultivated lands have increased from 11.0% to 13.0%, with an increasing
+percent change of 2.0. Similarly, there has been an increase in grassland probably
+from reduced bush lands and increased fallow from 19.0% to 23.0%. Further analysis
+shows a decreasing trend of the woodlands from 41.0% to 36.0%. The increasing and
+decreasing trends of land use/cover changes are very clear for the category of bush
+lands, grasslands, cultivated land, as well as woodlands. The decrease in woodland
+cover has contributed to increased land degradation especially in agro ecological
+zones with high rate of deforestation.
+3.1.2 Soil fertility and crop production
+Declining soil fertility was perceived as the major indicator of land degradation in
+the studied areas. The most affected areas were observed in alluvial agro-ecological
+zone, especially in Usangu Basin where there is deterioration in the fertile Black
+Mbuga soils of the Western Wetland. The same situation was observed in Northern
+highlands, various areas of Karatu district. Further evidence of decline in soil fertility
+has also been reported in Mbeya region, along the foot and slopes of Mporoto
+Mountains. In the arid and semi-arid areas decline of soil fertility have been
+experienced in various localities in Chamwino and Kondoa districts. The decline
+8
+
+--- Page 19 ---
+of soil fertility is manifested by the increasing amounts of fertilizers application per
+acreage. For instance, farmers in Karatu district reported that fertilizers application
+for onion production has increased from an average of one to three bags of 50 kg
+in the 2000 to eight to ten bags per acre in the 2013, and that of rice and maize has
+increased from zero to 4 bags per acre; depending on the location of farms and the
+type of soil.
+3.1.3 Salinization
+It is estimated that some 17,000 km2 (2% of the total land area) of Tanzania are naturally
+affected by salinity, attributed to low rainfall, inherent soil properties and land form.
+It is also estimated that that salinization has affected 20 to 55% of irrigation schemes
+in Kilimanjaro, Tanga and Mtwara. In the arid and semi-arid agro-ecological zones
+where there is potential for irrigation agriculture there is also a potential for increasing
+secondary salinity and alkalinity in the affected areas. Soil analysis conducted in
+Bahi and Chali in Dodoma region show that there is high alkaline condition in the
+Bahi and Chali irrigation schemes. In Singida region, salinization has also been
+observed around Mgori dam. Some areas in the coastal agro-ecological zone such
+as Mkurunga and part of Bagamoyo have also been affected by salinization.
+Salinization has some effects on soil productivity, crop yields and other economic
+activities in three different ways: through salinity, sodicity and toxicity. High
+concentrations of salt leads to reduced crop growth and yield losses since the osmotic
+pressure causes water scarcity in the cells. Sodicity, the presence of excessive
+sodium, deteriorates soil structure and reduces water penetration into and through
+the soil. A good example of the effect of salinization were observed in some areas of
+Bagamoyo where it has resulted to the disappearance of some crops such as banana
+and reduction in commercial seed weed productivity due to sea water temperature/
+salinity. Salinization has also resulted to decline in fish catch and intrusion of salt
+water in the traditionally used fresh wells.
+3.1.4 Soil erosion
+Land degradation through soil erosion is a major threat to sustainable use of soil and
+water resources in the country. The threat is more serious for soils that are highly
+susceptible to erosion and other derivative processes.
+Soil erosion has been and continues to be serious problem in the arid and semi-
+arid areas where deforestation, shifting cultivation and bushfires is practiced. In
+Dodoma region in Mpwawa, Kondoa and Kongwa districts soil erosion is alarming.
+Similar situation is experienced in some areas of Tanga, Shinyanga, Ruvuma, Mbeya,
+9
+
+--- Page 20 ---
+Kilimanjaro and other regions in the country where erosion has advanced to terrain
+deformation. This calls for special attention to address the problem.
+3.1.5 Soil acidification
+Soil acidification is a problem in large parts of the country, and in particular in the
+southern part of the coastal agro-ecological zones in Mtwara and Lindi regions
+(FAO, 2004). Soil acidification is associated with the dusting of large quantities of
+elemental sulfur upon cashew trees aimed at controlling powdery mildew disease,
+and with an excessive use of nitrogenous fertilizers in maize fields. Soil acidification
+reduces the productivity of poor and fragile soils by increasing soil acidity, leaching
+of basic action nutrients (such as Ca, Mg and K), increasing toxic elements in the
+soil (particularly aluminum), reducing biological nitrogen fixation and creating
+detrimental conditions for microbial organisms. Soil acidification may also cause
+aluminum toxicity once the pH drops to below around 4.5. Aluminum is toxic to
+roots of most cultivated plants, such that root length is drastically reduced restricting
+exploration of soil nutrients and water.
+3.1.6 Siltation
+In semi-arid areas soil erosion is a serious problem since fertile soil is eroded and
+transported away from cultivated areas and the fact that the soil is trapped in reservoirs.
+Examples include Mgori Dam in Singida and Mabayani Dam in Tanga. Soil erosion
+from cultivated and pasture land is causing serious increases in sediment and nutrient
+loads getting into water sources. Siltation causes pollution and drying up of water
+sources. This is common in most of the areas where water sources are available and
+farming is done upstream. Siltation has detrimental effect to hydropower production
+dams. This has been the case in Mtera and Nyumba ya Mungu Dams. Deforestation
+on the upper parts of Mt. Kilimanjaro and the Pare Mountains as well as inappropriate
+farming practices around Lake Jipe is contributing to land degradation and siltation
+of these water reservoirs.
+3.1.7 Loss of vegetation
+Clearing of forest for crops is one of the most common reasons for loss of vegetation
+cover in the country. The extent of vegetation loss in country differs from one
+agro-ecological to another. In the west of Arusha (northern semi-arid lands), the
+natural vegetation in the area has been considerably destroyed by human activity,
+and pressure on grazing land has been increasing yearly, resulting in continued
+depletion of the vegetation. The area most critically affected lies in the rain shadow
+of Mt. Meru where the soil is composed of very light volcanic ash blown westward
+by the prevailing wind. Wind erosion is a very serious problem in these areas, while
+10
+
+--- Page 21 ---
+soil erosion and deposition is rapidly leading to the siltation of the reservoir dams
+constructed in the western area.
+3.1.8 Soil pollution
+Pollution is becoming an increasingly serious problem in the major mining areas.
+Such areas include the gold mining zone around Lake Victoria, Mpanda and Chunya;
+coal mining in Kiwira and Ngaka; tin mining in Ngara and Kyerwa Districts; ruby
+mining near Morogoro; tanzanite and phosphate mines in Arusha Region; limestone
+mines in Dar es Salaam, Tanga and Mbeya Regions; and salt mining along the coastal
+belt. With the advent of drilling for natural gas and possibly oil in the coastal zone,
+there may be profound negative impact on the environment especially fragile marine
+and coastal wetlands.
+3.2 Initiatives to Combat Land Degradation
+The Government has undertaken various initiatives to curb the situation of land
+degradation through implementation of Sustainable Land Management (SLM) plans,
+strategies and programmes in the country. These include National Land Use Framework
+plan 2011 – 2031; issuing villages guide for participatory planning and management
+of village land, 2010; National Agriculture Land Use Planning and Management
+Master plan, 2011; Sector Environmental Action Plans; Mainstreaming Environment
+into National Strategy for Growth and Poverty Reduction Phase II (MKUKUTA II);
+Strategy for Urgent Actions on Land Degradation and Water Catchments, 2006 and
+implementing projects and programme for SLM in Katavi, Kilimanjaro and Tabora.
+Some of the existing sector specific interventions are summarized in Table 1.
+S/N SECTOR INTERVENTION
+1. Land and Human i) Land use planning and management
+Settlement ii) Preparation of town plans
+iii) Housing development plans
+2. Agriculture i) Water harvesting techniques for irrigation
+ii) Efficient small scale irrigation schemes
+iii) Agricultural best practices techniques such as
+matengo pits (ngoro)
+iv) Terracing and contour farming
+v) Use of organic fertilizers
+vi) Conservation of water catchments and soil
+resources
+11
+
+--- Page 22 ---
+Table 1: Some of the sector specific interventions to address DLDD
+S/N SECTOR INTERVENTION
+3. Livestock i) Zero grazing
+ii) Marketing and infrastructure
+iii) Charcol dam construction
+iv) Livestock extension services
+v) Traditional fodder conservation (Ngitiri)
+vi) Conservation of water catchments and soil
+resources
+4. Water i) Integrated Water resource management
+ii) Rain water harvesting
+iii) Exploitation of underground water
+iv) Construction of water dams
+v) Existence of water user associations and water user
+rights
+5. Forest i) Participatory forest management (JFM and CBFM)
+ii) Indigenous knowledge in forest conservation
+iii) Collection of Non-timber forest products
+(Medicines, wild fruits and vegetables)
+iv) alternative income generating activities such as
+butterfly farming and beekeeping
+v) Ecosystem conservation
+vi) Conservation of water catchments and soil
+resources
+vii) Agroforestry
+viii) Ecotourism
+6. Fisheries i) Protection and conservation of aquatic ecosystems
+ii) Fish farming practices
+iii) Marketing for fish and fish products
+iv) Supporting alternative livelihood initiatives for
+fisheries communities
+v) Management of geographical areas of concerns and
+critical habitats
+vi) Beach Management Units (BMU)
+vii) Monitoring of fisheries species and habitats
+viii) Ecotourism
+ix) Sea weed farming
+x) Research and Development (R&D)
+12
+
+--- Page 23 ---
+S/N SECTOR INTERVENTION
+7. Energy i) Protection of hydropower catchments
+ii) Fuel switching
+iii) Use efficient energy technologies
+iv) Development of alternative energy sources (Solar,
+wind and biomass energy)
+8. Wildlife i) Conservation of Wildlife resources
+ii) Establishment of Wildlife Management Areas
+(WMAs)
+iii) Involvement of local communities in managing
+wildlife resources
+iv) Conservation of water catchments and soil
+resources
+v) Protection of areas of scenic beauty and cultural
+values
+9. Industries i) Value addition of raw materials
+ii) Processing, Marketing and selling
+iii) Use of cleaner technologies and production
+10. Tourism i) Promoting Ecotourism
+ii) Diversification of tourism attractions
+11. Coastal and Marine i) Coastal erosion control
+ii) Protection and management of mangroves
+iii) Protection of coastal forests
+iv) Conservation of critical habitats
+12. Wetland i) Conservation awareness activities
+ii) Restoration of wetlands
+iii) Designation of Ramsar sites
+iv) Implementation of projects and programmes related
+to conservation of wetlands
+v) Conservation of water catchments and soil
+resources
+13. Finance i) Financial Mechanism (VICOBA, SACCOS)
+13
+
+--- Page 24 ---
+CHAPTER FOUR
+GUIDELINES FOR MAINSTREAMING NAP
+INTO SECTORAL POLICIES, PLANS AND
+PROGRAMMES
+4.1 General Guidelines
+This Section describes a step by step practical guide for mainstreaming desertification,
+land degradation and drought issues into sectoral policies, plans and programmes.
+These steps are; sectoral DLDD situational analysis; institutional situational analysis;
+identification of potential interventions for mainstreaming DLDD issues for sectors;
+setting up sectoral mainstreaming action plans; monitoring and evaluation and
+reporting.
+4.1.1 Sectoral DLDD Situational Analysis
+Desertification, Land Degradation and Drought situational analysis looks at how
+the sector is affected, level of vulnerability and how it addresses DLDD challenges.
+It intends to support identification of DLDD mainstreaming opportunities of the
+sector which can be integrated into respective policies, plans and programmes. The
+process should involve the following steps:-
+a) Analyze susceptibility to DLDD
+i) Document the extent and nature of the sector’s exposure and sensitivity to
+DLDD both short and long term plans;
+ii) Identify the most important DLDD variables and indicators that the sector
+may be sensitive to;
+iii) Identify sectoral vulnerability indicators; and
+iv) Identify various approaches/tools that may be applied in analyzing sectoral
+vulnerability to DLDD. These may include (but not limited to), application
+of user friendly tools/approaches available in the UNCCD Portal, Literature
+Review, Expert opinion, Land Degradation Trend Analysis, Strategic
+Environment Assessment, Evidence Based Approaches and application of
+global models
+14
+
+--- Page 25 ---
+b) Evaluate Sectoral DLDD Impacts
+i) Identify existing DLDD measures in the sectors;
+ii) Analyze and review sectoral Policy, Plans and Programmes to identify
+gaps; and
+iii) Evaluate appropriateness of existing SLM Best Practices option for the
+sectors by reviewing different studies and involving key stakeholders in
+identifying, using and up scaling best practices from other areas
+c) Analyze Sectoral DLDD Impacts
+i) Identify and document the past DLDD impacts affecting the sector;
+ii) Identify and analyze impacted areas (thematic and geographical); and
+iii) Identify the challenges and opportunities emanating from DLDD impacts
+in the sector.
+4.1.2 Institution Situation Analysis
+This can be done through the following:-
+i) Provide overview of institutional arrangement including administration, roles,
+responsibilities, and existence of Sectoral Environment Section. A sector
+organization chart (organogram) should be included.
+ii) Analyze the institution adequacy in relation to realization of mainstreaming NAP
+objectives by undertaking institutional analysis on the Strength, Weakness,
+Opportunities and Challenges using a SWOC analysis approach in terms of
+human resources, finance, institutional arrangement/organization, technology,
+legislation and awareness; and
+iii) Undertake the analysis of sectoral linkages with and involvement of key
+stakeholders in combating DLDD. Such key stakeholders may include MDAs,
+LGAs, Private Sector, CSOs , Education Institutions and Bilateral International/
+Regional Organizations.
+4.1.3 Potential Interventions for Integrating NAP in sectoral Policies,
+Plans and Programs
+Based on the reviewed Sector Policy, Programmes, Plans and Strategies as well as
+identified potential sectoral DLDD and Institutional Situation Analysis as Clarified in
+sections 4.2 and 4.3:
+15
+
+--- Page 26 ---
+i) Provide/suggest potential interventions for combating desertification at each
+level (Policy, Strategy, Plans and Programmes) and measures for enhancing
+institutional combating desertification capacity in areas such as human
+resources, finance, institutional arrangement/organization, technology,
+legislation and awareness;
+ii) Integrate the proposed interventions into Sectoral Policy, Strategy, Plans and
+programmes;
+iii) Consider other cross cutting issues including gender, science and technology
+and vulnerable groups while integrating these interventions into Policy, Plans
+and Programme;
+iv) In the course of integration, reference should be made to various documents
+such as Tanzania Development Vision, 2025; Five Year Development Plan,
+2011; National Strategy for Growth and Reduction of Poverty II, 2010;, National
+Environmental Policy, 1997; Environmental Management Act, Cap 191;
+National Adaptation Programme of Action, 2007; National Adaptation Strategy
+and Action plan, 2009; National Women and Gender Development Policy, 2000;
+and other relevant sectoral policy documents;
+v) Establish sustainable financial mechanisms to address DLDD issues; and
+vi) Disseminate/communicate DLDD interventions integrated into policy, plan and
+programmes to key stakeholders.
+4.2 Sector Potential Interventions for Mainstreaming NAP
+This Chapter provides framework guidelines for mainstreaming NAP into Government
+policies, programmes and plans. This includes macro-economic development plans
+and strategies as well as sectoral policies, plans and strategies.
+Mainstreaming NAP guidelines developed following a review of the policies,
+programmes and plans in which priorities, opportunities and gaps for improvement
+in the context of DLDD were identified. These provided platform for achieving
+Sustainable Land Management (SLM) in Tanzania
+4.2.1 National Development Plans and Strategies (Finance)
+a) Macro-economic Framework
+Tanzania Development Vision 2025: The Vision seeks to transform Tanzania into a
+middle-income country by the year 2025, with a per capita income of USD 3,000 (in
+16
+
+--- Page 27 ---
+nominal terms) by 2025. It is envisioned that the following specific achievements
+would be attainable by the year 2025: high quality livelihood; good governance and
+the rule of law; and a strong and competitive economy.
+Second National Strategy for Growth and Reduction of Poverty (NSGRP II) (2010-
+2015): The Strategy emphasizes on: prioritization of interventions in key priority
+growth and poverty reduction sectors; strengthening evidence based planning and
+resource allocation in the priority interventions; aligning strategic plans of Ministries,
+Departments and Agencies (MDAs) and Local Government Authorities (LGAs) to this
+strategy; scaling up the role and participation of the private sector in priority areas
+of growth and poverty reduction; mainstreaming cross cutting issues in MDAs and
+LGAs processes; strengthening the monitoring and reporting systems; and better
+implementation of core reforms, including further improvement of public financial
+management systems .
+Tanzania Five Year Development Plan (TFYDP-I) (2011/12-2015/16): The Plan targets
+five core priorities to unleash Tanzania’s latent growth potentials. They include: (i)
+Infrastructure, and in particular large investments in energy, transport infrastructure
+(ports, railways, roads, air transport), water and sanitation and ICT; (ii) agriculture,
+focusing on the transformation of agriculture for food self-sufficiency and export,
+development of irrigation particularly in selected agricultural corridors, and high
+value crops including horticulture, floriculture, spices, vineyards etc.; (iii) industrial
+development specifically targeting industries that use locally produced raw materials
+such as textiles, fertilizer, cement, coal, iron and steel, as well as development of
+special economic zones, using public-private partnerships; (iv) human capital and
+skills development, with an emphasis on science, technology and innovation; and (v)
+tourism, trade and financial services.
+b) NAP Mainstreaming Guidelines
+i) Facilitate transformation of the economy from a predominantly agricultural
+one with low productivity to a diversified and semi-industrialized economy
+with a modern rural sector and high productivity in agricultural production;
+ii) Integrate environmental dimension in economic planning by taking into
+consideration the impact and the cost of environment in macro-economic
+planning;
+iii) Provide enabling environment such as infrastructure (especially energy,
+transport and communications), human resources and legal frameworks
+geared towards stimulating economic activity and private investment;
+17
+
+--- Page 28 ---
+iv) Support accelerated development and deployment of new technologies
+that address DLDD impacts; and
+v) Promote science and technology education.
+4.2.2 Agriculture
+a) Policies and Plans
+National Agriculture Policy (2013): The Policy emphasizes that for long term future of
+the country, the natural resources (land, soil, water and forests) must be managed so
+that agriculture is sustained. Some of the relevant policy interventions of relevance
+to DLDD are to: promote intensification and diversification of agriculture production;
+soil erosion control and soil fertility improvement; minimize encroachment in public
+lands including forests, woodlands, wetlands and pasture; strengthen agrochemical
+monitoring and registration; promote agro-forestry and organic farming; minimize
+pollution of both surface and ground water; improve water use efficiency in irrigation;
+and intensify plant genetic conservation programmes.
+National Irrigation Policy (2010): The main objective is to ensure sustainable
+availability of irrigation water and its efficient use for enhanced crop production,
+productivity and profitability that will contribute to food security and poverty reduction.
+Agricultural Sector Development Strategy (ASDS) (2001): The primary objective of the
+ASDS is to create an enabling and conducive environment for improving profitability
+of the agricultural sector as the basis for improved farm incomes and rural poverty
+reduction in the medium and long-term. The ASDS address the following critical
+issues: institutional framework for managing agricultural development; private
+sector participation; improving net farm returns and commercializing agriculture;
+and mainstreaming planning for agricultural development in other sectors
+Agricultural Sector Development Programmes (ASDP): The ASDP provides the
+operational instrument for implementing the ASDS. It mobilizes incremental
+resources for the sector in a coordinated manner, facilitates ASDS implementation,
+and brings added-value to the current approaches to sector investment management.
+ASDP therefore enhances streamlining of cross-cutting issues and multi-sectoral
+activities in agricultural interventions, enhances cross-sectoral coordination to
+bring synergies between agricultural and other sectors and monitors progress and
+assesses impact of interventions to achieve ASDS and PRSP targets, and shares
+information with stakeholders.
+“Kilimo Kwanza” Declaration (2009): is a national resolve to accelerate agricultural
+transformation. It comprises a holistic set of policy instruments and strategic
+18
+
+--- Page 29 ---
+interventions towards addressing various sectoral challenges and taking advantage of
+the numerous opportunities to modernize and commercialize agriculture in Tanzania.
+The implementation of KILIMO KWANZA revolves around ten pillars, namely
+i) Political will to push our agricultural transformation;
+ii) Enhanced financing for agriculture;
+iii) Institutional reorganization and management of agriculture;
+iv) Paradigm shift to strategic agricultural production;
+v) Land availability for agriculture;
+vi) Incentives to stimulate investments in agriculture;
+vii) Industrialization for agricultural transformation;
+viii) Science, technology and human resources to support agricultural transformation;
+ix) Infrastructure development to support agricultural transformation; and
+x) Mobilization of Tanzanians to support and participate in the implementation of
+KILIMO KWANZA.
+Tanzania Agriculture Food Security Investiment Plan (TAFSIP): The goal of the
+TAFSIP is to “contribute to the national economic growth, household income and
+food security in line with national and sectoral development aspirations”. It aims to
+“rationalize allocation of resources to achieve annual 6% agricultural GDP growth,
+consistent with national objectives to reduce rural poverty and improve household
+food and nutrition security”. TAFSIP consider cross cutting issues include but not
+limited to (i) empowerment of vulnerable groups; (ii) gender equality and equity, (iii)
+conservation farming practices, (iv) control of air and water pollution; other issues
+are also recognized in the framework.
+Southern Agriculture Growth Corridor of Tanzania (SAGCOT) (2010): The objectives
+of the SAGCOT Program are to have long-term positive socio-economic impacts
+throughout the Corridor, focused on priority clusters. Through the Catalytic Fund,
+the Project aims to provide opportunities for smallholder producers to engage in
+profitable agriculture, support agribusiness investment and development along
+the value chain, and build supply chains which include smallholder and emergent
+farmers and benefit rural communities. However, the SAGCOT Program is also likely
+to have significant environmental and social impacts associated with the numerous
+development challenges in the region and the Corridor’s important biodiversity and
+ecosystem services. Such concerns must raise the level of scrutiny for all development
+schemes in the Corridor.
+19
+
+--- Page 30 ---
+b) NAP Mainstreaming Guidelines
+i) Integrate implementation of ‘KILIMO KWANZA’ in relevant national plans
+and strategies and carry out Strategic Environmental Assessment (SEA) to
+ensure environmental issues are adequately integrated;
+ii) Promote value addition to agricultural products and strengthen linkage
+between agriculture and industry and increase access to local and foreign
+markets for value added products;
+iii) Strengthen the production of non-traditional export commodities to
+enhance the diversification of agriculture;
+iv) Expand organic farming and other environmentally friendly agricultural
+production systems;
+v) Promote development and application agricultural genetic modification to
+contribute in improving in productivity while ensuring that the introduction
+of GMO crops (laboratory research, confined field trial and commercial
+release) adhere to national biosafety regulatory framework;
+vi) Expand and improve irrigation infrastructure;
+vii) Use of appropriate low cost technologies blended with modern affordable
+technologies like drip and sprinkler irrigation systems and the use of wind
+and solar power for pumping water;
+viii) Ease availability and enhance utilization of modern agricultural inputs and
+mechanization;
+ix) Up scaling the SLM best Practices ;
+x) Establish and strengthen Financial mechanisms for combating DLDD;
+xi) Strengthen early warning system;
+xii) Integrate DLDD and environmental issues in educational curricula of
+agricultural training institutes; and
+xiii) Strengthen the linkage between research and agricultural extension; and
+20
+
+--- Page 31 ---
+4.2.3 Livestock
+a) Policies and Plans
+National Livestock Policy of 2006: The overall objective of the Policy is to develop a
+competitive and more efficient livestock industry that contributes to the improvement
+of the well being of the people whose principal occupation and livelihood is based on
+livestock. The specific objectives of the National Livestock Policy are to:-
+i) Contribute towards national food security through increased production,
+processing and marketing of livestock products to meet national nutritional
+requirements;
+ii) Improve standards of living of people engaged in the livestock industry through
+increased income generation from livestock;
+iii) Increase the quantity and quality of livestock and livestock products as raw
+materials for local industry and export;
+iv) Promote integrated and sustainable use and management of natural resources
+related to livestock production in order to achieve environmental sustainability;
+v) Strengthen technical support services, develop and disseminate new
+technologies;
+vi) Develop human resources including livestock farmers;
+vii) Promote production of safe and quality foods of animal origin in order to
+safeguard consumers;
+viii) Promote the use of draught animal power and biogas utilization; and
+ix) Mainstream cross-cutting and cross-sectoral issues such as gender, HIV/AIDS,
+land and environment.
+Livestock Sector Development Strategy (2010): The overall objective of the LSDS is
+to develop a competitive and more efficient livestock industry that contributes to the
+improvement of the livelihoods of all livestock keepers and the national economy.
+The specific objectives of the LSDS as defined under the NLP shall be to:
+i) Contribute towards national food security through increased production,
+processing and marketing of livestock products to meet national nutritional
+requirements;
+21
+
+--- Page 32 ---
+ii) Improve living standards of the people engaged in the livestock industry
+through increased income generation from livestock;
+iii) Increase the quantity and quality of livestock and livestock products as raw
+materials for local industry and for export;
+iv) Promote integrated and sustainable use and management of natural resources
+related to livestock production in order to achieve environmental sustainability;
+v) Promote production of safe and quality foods of animal origin in order to
+safeguard health of consumers;
+Livestock Sector Development Programmes (2011): The overall goal of the LSDP
+is to increase food security, stakeholder’s incomes and contribution to the national
+economy. The purpose of the programme is to improve the livelihoods of the livestock
+farmers (pastoralists and agropastoralists) by enhancing the delivery of livestock
+inputs and services to livestock farmers; improving marketing infrastructure and
+marketing systems for livestock and livestock products; strengthening the capacity
+of livestock farming communities and the private sector; and strengthen national and
+local government institutions to provide services to the livestock sector.
+b) NAP Mainstreaming Guidelines
+i) Increase production, processing and marketing of livestock products to
+meet national nutritional requirements;
+ii) Improve living standards of the people engaged in the livestock industry
+through increased income generation from livestock;
+iii) Increase the quantity and quality of livestock and livestock products as raw
+materials for local industry and for export;
+iv) Promote integrated and sustainable use and management of natural
+resources related to livestock production in order to achieve environmental
+sustainability;
+v) Promote production of safe and quality foods of animal origin in order to
+safeguard health of consumers;
+vi) Enhance development of livestock infrastructure;
+vii) Enhances integrated rangeland management;
+viii) Upscale SLM best practices in Livestock development; and
+ix) Establish and strengthen Financial mechanisms for combating DLDD
+22
+
+--- Page 33 ---
+4.2.4 Water
+a) Policies and Plans
+National Water Policy (2002): The main objective of the Policy is to develop a
+comprehensive framework for sustainable development and management of the
+water resources, in which an effective legal and institutional framework for its
+implementation will be put in place. The Policy embodies the principle that water
+basins should be the planning and management units rather than regions, and the
+principles of decentralization of water supply management to the lowest appropriate
+level.
+National Water Sector Development Strategy (NWSDS) (2005-2015): The main
+objective of the NWSDS is to develop a coherent, holistic and integrated strategy for
+the water sector. The Strategy promotes inter-sectoral linkages of water resources
+management through public education and awareness programmes as well
+encouraging inclusion in the education curricula.
+b) NAP Mainstreaming Guidelines
+i) Identify, protect, demarcate and acquire land title deeds for water sources
+and infrastructure;
+ii) Classify all water sources on the basis of quality and quantity, and
+determine and allocate minimum water requirements for ecosystem needs
+for all regulated and unregulated water sources;
+iii) Promote use of environmentally friendly technologies including gravity,
+solar and wind power for water pumping;
+iv) Enforce the “polluter pays” principle in conjunction with other legal and
+administrative actions that promote water conservation;
+v) Encourage and facilitate industries to adopt cleaner production technologies
+and techniques;
+vi) Promote safe and affordable off-site waste management services (sewerage
+and sludge collection, treatment and reuse/disposal) for densely populated
+areas;
+vii) Ensure that industries pre-treat their wastewater before discharging into
+municipal sewerage system;
+23
+
+--- Page 34 ---
+viii) Institute comprehensive water quality monitoring and assessment to
+identify extent and status of the quality of the water resources;
+ix) Promote and facilitate reuse of wastewater whenever appropriate in
+different economic sectors;
+x) Implement improved sanitation for schools, health facilities and other
+public institutions and locations;
+xi) Enhance storm water management to mitigate impacts on properties,
+infrastructure, human and the environment;
+xii) Promote Integrated Water Resource Management (IWRM);
+xiii) Promote and upscale SLM best practices such as rain water harvesting for
+domestic, agriculture and industrial use; and
+xiv) Establish and strengthen Financial mechanisms for combating DLDD.
+4.2.5 Energy
+a) Policy and Plans
+National Energy Policy (2003): The Policy aims at ensuring availability of reliable
+and affordable energy supplies and their use in a rational and sustainable manner in
+order to support national development goals. The goal of the Policy is to establish
+an efficient energy production, procurement, transportation, distribution and end use
+systems in an environmentally sound and sustainable manner.
+b) NAP Mainstreaming Guidelines
+i) Promote efficient woodfuel conversion and utilization technologies such
+as improved charcoal production technology, improved cooking stoves,
+use of bio-waste, and biogas production;
+ii) Provide economically justified feed-in tariffs or other mechanisms to
+give incentives and reduce risks for electricity production from renewable
+sources;
+iii) Promote research and development efforts aimed at dissemination of
+energy technology for rural development;
+iv) Promote use of clean coal energy and natural gas for domestic, industrial
+and commercial applications;
+24
+
+--- Page 35 ---
+v) Promote power trading with neighbouring countries; Promote sustainable
+production and utilization of bio-energy to improve energy security;
+vi) Encourage and promote energy efficiency in all sectors;
+vii) Institute energy pricing with due regard to social and environmental costs
+Conduct and/or encourage energy audits particularly in energy intensive
+industries;
+viii) Encourage community investment and ownership of energy systems e.g.
+solar farms, windmills and woodlots;
+ix) Use of the Clean Development Mechanism to facilitate the development of
+environmentally sound energy and reduction of emission;
+x) Promote co-generation of power by exploiting the biomass potential;
+xi) Promote SLM best practices such as wind power and solar power; and
+xii) Establish and strengthen Financial mechanisms for combating DLDD.
+4.2.6 Industry
+a) Policies and Plans
+Sustainable Industrial Development Policy (SIDP) (1996): The major goal of the
+Policy is to promote the sustainable productive base which maximizes the growth
+rate and sustainability of economic growth. Emphasis is given to development
+of intermediate and capital goods industries as agents for enhancing sustainable
+productivity, technological progression as well as structural transformation
+and integration. Furthermore, the Policy promotes environmentally friendly and
+ecologically sustainable industrial development.
+Integrated Industrial Development Strategy 2025 (IIDS 2025): The aim of the Strategy
+is to enhance industrialization under the newly emerging economic environment
+and contribute to the realization of targets stipulated in Tanzania Development
+Vision (TDV) 2025. The Strategy targets four sub-sectors, in view of comparative
+advantages, length of value chain and availability of resources, and these are:
+fertilizer and chemicals; iron and steel; textile; agro-processing; edible oil; cashew
+nut processing; fruit processing; milk and milk products; leather and leather products;
+light machinery; and hospitality industry. The Strategy targets an average growth of
+manufacturing sector of 15% and to increase its contribution to GDP from 9% in
+2010 to 23% in 2025.
+25
+
+--- Page 36 ---
+Small and Medium Enterprise (SMEs) Development Policy (2003): The overall
+objective of the SMEs Development Policy is to foster job creation and income
+generation through promoting the creation of new SMEs and improving the
+performance and competitiveness of the existing ones.
+National Trade Policy (2003): The policy goal is to facilitate smooth integration into
+the multilateral Trading System (MTS) and roll back the gradual descent towards
+marginalization. It is intended to ensure that trade liberalization offer meaningful,
+identifiable and measurable benefits. The policy emphases trading while protecting
+the environment by encouraging growth and development to be sustainable and
+optimal use of the world’s renewable and non-renewable resources.
+b) NAP Mainstreaming Guidelines
+i) Promote clustering (industrial packs) at every level and every feasible
+location to accelerate growth dynamism and to improve efficiency of
+industries;
+ii) Evaluate infrastructure needs of new industries and how they can be
+integrated into existing policies on infrastructure;
+iii) Encourage investment in industries that utilize local resources;
+iv) Promote rural industrialization through promotion of SMEs and up-
+grading of rural enterprises so as to add value to agro-products;
+v) Enhance supply chain linkages between SMEs and export oriented
+enterprises;
+vi) Promote environmentally friendly or resource efficient industrial
+production/manufacturing;
+vii) Encourage minimization of use of energy intensive process steps such as
+high heating differentials, heavy motors and extensive cooling in order to
+reduce the amount of energy needed by the production process;
+viii) Support investigation of external markets for recycling by other industrial
+processing operations located in the neighborhood or region (e.g., waste
+exchange);
+ix) Promote and facilitate innovation and creativity in enhancing sustainability
+of industries;
+26
+
+--- Page 37 ---
+x) Promote industrial investments which integrate pollution prevention
+programmes;
+xi) Ensure that environmental considerations are given due emphasis in all
+SME development interventions;
+xii) Enhance networking between R&D Institutions and SMEs to upgrade
+technologies so as to raise the productivity and competitiveness of the
+sector;
+xiii) Facilitate adoption of production/manufacturing technologies which utilize
+renewable energy;
+xiv) Emphasis use of clean technology (eco-labeling) in manufacturing process
+and energy efficiency in goods and service with less toxic outputs; and
+xv) Facilitate establishment or strengthening of a development fund for
+technology upgrading of production processes of firms with a national
+and international value chain.
+xvi) Upscale SLM best practices in Industry development (value addition,
+spice industry, fruit processing etc); and
+xvii) Establish and strengthen Financial mechanisms for combating DLDD
+4.2.7 Tourism
+a) Policy
+National Tourism Policy, 1999: The Policy acknowledges the relationship between
+the environment and development of sustainable tourism. Thus, it aims to ensure
+that development of tourism is based on careful assessment of carrying capacities
+of tourism products. It also ensures enhancement and improvement of special
+environment features in order that tourism development does not conflict with
+indigenous forests, beaches, mountains and other important types of vegetation.
+b) NAP Mainstreaming Guidelines
+i) Institute environmental management plans for each tourist attraction;
+ii) Support and promote ecotourism projects. Eg conservation and promotion
+of cultural heritage sites in order to decrease pressure in every impacted
+areas;
+27
+
+--- Page 38 ---
+iii) Ensure negative impacts of tourism on the natural and cultural environment
+are avoided or minimized through the responsible use of resources,
+effective waste management and minimizing pollution;
+iv) Recognize best practices in tourism through awards, certification and
+accreditation programmes;
+v) Promote participatory approach in planning and decision making,
+development and delivery of tourism programmes and services;
+vi) Support strategies that would ensure the informal sector benefits more
+from tourism;
+vii) Promote mutual use of facilities and services by local communities and
+tourists;
+viii) Support visits by local school children to tourism sites that promote and
+display their heritage;
+ix) Upscale SLM best practices in tourism development; and
+x) Establish and strengthen Financial mechanisms for combating DLDD
+4.2.8 Forestry
+a) Policy Framework
+National Forest Policy, 1998: The overall goal of the Policy (1998) is to enhance
+the contribution of the forest sector to the sustainable development of Tanzania and
+the conservation and management of her natural resources for the benefit of present
+and future generations. The Policy, among other aspects, recognizes the high value
+of forests due to the high potential for royalty collection, earnings from exportation
+of forest products and tourism as well as sequestering of carbon. Furthermore,
+the policy emphasizes on biodiversity conservation and describes the importance
+of forest ecosystems for maintaining biodiversity. Broadly, the policy focuses
+on ensured ecosystem stability through conservation of forest biodiversity, water
+catchments, and soil fertility.
+b) NAP Mainstreaming Guidelines
+i) Promote integrated watershed management approaches;
+ii) Promote afforestation and reforestation (A&R) programmes to generate
+and regenerate forests which are critical for environmental protection and
+reduction of land degradation;
+28
+
+--- Page 39 ---
+iii) Support diversification in forest utilization especially through promotion
+of non-consumptive use of forests such as eco-tourism and beekeeping;
+iv) Integrate carbon sequestration and the provision of carbon sinks in the
+planning, management, utilization and monitoring of forests;
+v) Institute forest monitoring mechanisms for potential risks of insects,
+diseases, invasive alien species and fire;
+vi) Institute certification mechanism for promoting environmental
+conservation;
+vii) Promote development of ecotourism in protected areas like nature reserves,
+to generate income for local and national benefits;
+viii) Facilitate economic and market valuation to better recognize the full
+range of goods (wood, fiber, bioenergy, non-wood forest products) and
+environmental services (storage of carbon, conservation of biological
+diversity, protection of soil and water and provision of ecotourism,
+recreation and amenity value) from forests;
+ix) Promote equitable sharing of benefits from forest resources among the
+stakeholders; Facilitate integration of the full value of forest goods and
+services in planning, management, monitoring and reporting, particularly
+by central government and local authorities;
+x) Promote development of viable and efficient forest-based industries,
+particularly in secondary and tertiary processingfor full utilization of
+forest products, reduce excessive waste and satisfy domestic and export
+demand. through appropriate incentives;
+xi) Introduce performance bonds for forest harvesting to improve best practice
+and to ensure responsible management;
+xii) Promote SLM best practices such as CBFM, JFM and Traditional Forest
+Management; and
+xiii) Establish and strengthen Financial mechanisms for combating DLDD.
+29
+
+--- Page 40 ---
+4.2.9 Mining
+a) Policy Framework
+Mineral Policy of Tanzania, 2009: One of the objectives of the Policy is to reduce or
+eliminate adverse environmental effects of mining by promoting health and safety
+conditions in mining areas and addressing social issues affecting local communities.
+It requires mining operations to carry out Environmental Impact Assessment (EIA)
+and directs mining companies to set aside funds for environmental rehabilitation and
+mine closure obligations.
+b) NAP Mainstreaming Guidelines
+i) Promote efficient mineral processing for value addition where there is
+comparative advantage to do so;
+ii) Promote the application of environmentally friendly technologies and
+methods in mineral exploitation;
+iii) Enhance local capacity for mineral analysis;
+iv) Ensure compliance to mine closure plan contained in respective
+Environmental Management Plans (EMPs);
+v) Establish monitoring programmes and/or early warning systems for the
+assessment of potential pollution and for the detection of pollution events
+from closed mines;
+vi) Provide extension services and facilitate access to appropriate technology,
+funding mechanisms and partnerships for artisanal and small scale miners;
+and
+vii) Encourage corporate social responsibility.
+4.2.10 Land
+a) Policy Framework
+National Land Policy (1997): The overall aim of National Land Policy is to promote
+and ensure a secure land tenure system, to encourage the optimal use of land
+resources, and to facilitate broad – based social and economic development without
+upsetting or endangering the ecological balance of the environment.
+30
+
+--- Page 41 ---
+b) NAP Mainstreaming Guidelines
+i) Promote an equitable distribution of and access to land by all citizens
+including vulnerable groups;
+ii) Ensure that existing rights in land especially customary rights of small
+holders (i.e. peasants and herdsmen who are the majority of the population
+in the country) are recognized, clarified and secured in law;
+iii) Prevent or avoid the phenomenon of land grabbing;
+iv) Ensure that land is put into its most productive use to promote rapid social
+and economic development in the country;
+v) Modify and streamline the existing land management systems and improve
+the efficiency of land delivery systems;
+vi) Streamline the institutional arrangements in land administration and land
+dispute adjudication and also make them more transparent;
+vii) Promote sound land information management system;
+viii) Protect resources from degradation for sustainable development; and
+ix) Establish and strengthen Financial mechanisms for combating DLDD.
+4.2.11 Coastal and Marine
+a) Policy Framework
+Fisheries Sector Policy and Strategy Statement (1997): The policy acknowledges
+the linkage between the sustainable exploitation of fish resources and the provision
+of high quality food, income and employment. Though the linkage between poverty
+and environment is recognized, the role of poverty as a constraint to sustainable
+management of fisheries resources, or possibility of developing positive environment/
+poverty linkages, is not highlighted in the policy.
+b) NAP Mainstreaming Guidelines
+i) Ensure that the Fisheries sector and fishing communities are resented
+and / or consulted in the decision making process and involved in other
+activities related to coastal area management, planning and development.
+ii) Promote the establishment of procedures and mechanism at appropriate
+administrative level to settle conflicts which arise within the fisheries
+31
+
+--- Page 42 ---
+sector and between fisheries resources users and other users of coastal
+area.
+iii) Facilitate the adoption of fisheries practice that avoid conflict among
+fisheries resources users and between them and other users of the coastal
+areas.
+iv) Promote multidisciplinary research in support of coastal areas management
+in particular on its environmental, biological, economic, social, legal and
+institutional aspects.
+v) Promote the creation of awareness of the need for the protection and
+management of coastal resources and the participation in the management
+process by those affected;
+vi) Promote SLM best practices such as CBFM, JFM and Traditional Forest
+Management; and
+vii) Establish and strengthen Financial mechanisms for combating DLDD.
+4.2.12 Fisheries
+a) Policy and Strategies
+National Fisheries Sector Policy and Strategy Statement, 1997: The Policy focuses on
+the promotion of sustainable exploitation, utilization and marketing of fish resources
+to provide food, income, employment and foreign exchange, earnings and effective
+protection of the aquatic environment to sustain development.
+Fisheries Sector Development Programme (2010): The overall goal of the Fisheries
+Sector Development Programme ( FSDP) is to develop a sustainable, competitive and
+more efficient fisheries and aquaculture industry that contributes to the improvement
+of the livelihoods of stakeholders and the national economy while preserving the
+environment. The specific objectives of FSDP are to:
+i) Ensure effective fisheries resources management, protection and
+ii) conservation;
+iii) Strengthen fisheries and aquaculture products utilization and marketing;
+iv) Strengthen and support fisheries and aquaculture research, training extension
+and information services;
+32
+
+--- Page 43 ---
+v) Develop and strengthen appropriate fisheries and aquaculture
+vi) Infrastructure; and
+vii) Promote aquaculture development, management and environmental
+conservation.
+b) NAP Mainstreaming Guidelines
+i) Encourage value addition to fish and fishery products;
+ii) Promote environmental friendly fishing gear, methods and practices;
+iii) Promote small scale and/or semi intensive aquaculture technologies and
+develop necessary infrastructure and support services;
+iv) Improve current extension services through public-private partnerships;
+v) Institute specification of access rights and controlled access to fisheries
+resources;
+vi) Encourage sustainable exploitation of under-utilized fisheries;
+vii) Promote fisheries co-management approach;
+viii) Promote use of appropriate fishery post-harvest handling and processing
+technologies;
+ix) Discourage land-based activities that have negative impact on biodiversity
+in the catchment areas;
+x) Ensure protection and rehabilitation of fragile aquatic ecosystems
+including wetlands and mangroves which act as fish breeding grounds
+and buffer zones;
+xi) Protect endangered and threatened aquatic species;
+xii) Institute preventive and control measures for the spread of noxious-water
+weeds such as water hyacinth;
+xiii) Promote SLM best practices in fisheries development; and
+xiv) Establish and strengthen Financial mechanisms for combating DLDD.
+33
+
+--- Page 44 ---
+4.2.13 Wildlife and Wetlands
+a) Policy Framework
+Wildlife Policy of Tanzania (2007): The Policy focuses on wildlife protection and
+conservation in order to ensure sustainability of wildlife ecosystems. Some of the
+objectives of the Policy include establishment of Protected Areas (PA); maintenance
+and development of a PA network in order to enhance biological diversity; conservation
+of wildlife and its habitats outside the core areas by establishing Wildlife Management
+Areas (WMAs) conserve water catchments and soil resources, protect areas of scenic
+beauty or cultural values and create opportunities for access to natural resources for
+enhancement of rural development.
+b) NAP Mainstreaming Guidelines
+i) Adopt an ecosystem-based management approach to wildlife conservation
+and management;
+ii) Enhance the use of indigenous knowledge in the conservation and
+management of wildlife;
+iii) Establish comprehensive wildlife resources database at all management
+levels for use in the policy, conservation planning and management
+decision-making processes;
+iv) Promote the processing of wildlife products locally and their marketing;
+v) Encourage diversification of the tourism product base to reduce pressure
+on wildlife resources and maximize economic benefits;
+vi) Ensure that benefits arising from access to genetic resources such as
+intellectual property rights, traditional knowledge and technology are
+shared equitably with communities living in areas adjacent to the protected
+areas; where the genetic material originated;
+vii) Establish collaborative management arrangements and joint ventures
+that enhance local community and private sector involvement in the
+management of protected areas;
+viii) Ensure conservation of wetlands for water storage, distribution, filtration
+and purification;
+ix) Promote gender equity in sustainable management, conservation,
+utilization and development of wildlife and wetlands resources;
+34
+
+--- Page 45 ---
+x) Regulate the importation of exotic species and the re-introduction of
+species including genetically modified organisms (GMOs); and
+xi) Institute control and preventive measures for invasive alien species in
+protected areas.
+xii) Promote SLM best practices in Wildlife and Wetland Management; and
+xiii) Establish and strengthen Financial mechanisms for combating DLDD.
+4.2.14 Transport
+a) Policy Framework
+National Transport Policy (2003): The Policy has five main objectives and goals
+namely: the need for a coherent policy, institutional arrangements, laws and regulation,
+sector capacity building and technological development. In addition, it emphasizes
+on incorporation of environment protection and management measures at the design
+and development stages of transport infrastructure and when providing service;
+strengthening of institutional framework and legislation for the provision of effective,
+reliable and integrated transport service; and enhancing technical and managerial
+capacity building in the transport sector. It further states that the low science and
+technology base is one of the main challenges in technological development.
+b) NAP Mainstreaming Guidelines
+i) Identify the modes of transport and the most economic corridors to be
+used for development planning;
+ii) Define and integrate into the priority strategic rural road network that allow
+linkages between agricultural and market centres of the country;
+iii) Develop railway corridors to link strategic economic areas (e.g. agriculture
+and mining);
+iv) Establish an efficient urban public transportation system in major cities
+and towns to reduce congestion, pollution, costs, and increase mobility
+for both the urban and rural population;
+v) Develop and create intermediate means of transportation, especially in the
+rural areas;
+vi) Establish a permanent inspection and maintenance programme for vehicles
+and other equipment related to the transport sector;
+35
+
+--- Page 46 ---
+vii) Establish regulations and tariffs against pollution emissions from vehicles;
+viii) Establish mitigation measures focused on the reduction of environmental
+impact of transport development projects;
+ix) Promote diversification of the modes of transport, and improvement of the
+quality of the transport services on the transit corridors.
+x) Promote SLM best practices in transport; and
+xi) Establish and strengthen Financial mechanisms for combating DLDD
+4.2.15 Health
+a) Policy Framework
+National Health Policy (2007): The objective of the Policy towards environmental
+health is to protect community health by enhancing sustainable environmental
+health. To achieve this objective, some of the policy statements are to:-
+i) Ensure that the community adhere to environmental health standards;
+ii) Improve waste management systems including disposal of hospital
+wastes;
+iii) Continue to educate health service providers on the importance of
+environmental health in their working areas;
+iv) Review and enact laws and procedures for conservation and protection of
+the environment; and
+v) Continue to involve stakeholders in protecting natural resources.
+b) NAP Mainstreaming Guidelines
+i) Promote preventive and regenerative healthcare which lower the need for
+subsequent resource-intensive interventions;
+ii) Improve access and services in the general health care delivery system;
+iii) Promote technologies in support of sanitation, environmental and
+occupational health;
+iv) Strengthen application of high impact interventions on the control of
+diseases which are the main contributors to the burden of morbidity and
+mortality, and the loss of productivity in the country;
+36
+
+--- Page 47 ---
+v) Strengthen epidemiological surveillance system to ensure effective
+detection of potential epidemics;
+vi) Promote integration of indigenous herbal and traditional knowledge and
+practices into the healthcare sector;
+vii) Promote research into plant medicine to complement allopathic medicine
+and commercialization of the research results;
+viii) Establish specialized health centers to promote health tourism; and
+ix) Create community awareness on issues related to environmental health by
+establishing health related programmes such as food hygienic, separation
+of wastes and pollution control at households;
+x) Promote best practices in Health sector; and
+xi) Establish and strengthen Financial mechanisms for combating DLDD
+4.3 Sectoral Mainstreaming Action Plan
+Each MDAs and LGAs should develop detailed action plan as shown below
+Issue Priority Targets Expected Indicator Time Unit Key Funding
+actions output frame Cost Actors Sources
+(Tshs.)
+1 2 3 4 5 6 7 8 9
+4.4 Monitoring and Evaluation
+Provide combating desertification performance indicators for monitoring and
+evaluation (M&E) purposes. To facilitate M&E each actor should prepare Monitoring
+Plans, Evaluation Plans, Reporting Plan and establish Planning review methodologies.
+37
+
+--- Page 48 ---
+CHAPTER FIVE
+OPERATIONALIZATION OF THE GUIDELINES
+5.1 Introduction
+This chapter aims at making the guideline operational. It articulates some of the
+generic activities that need to be undertaken in operationalizing the guidelines. It
+also describes key actors and their roles in facilitating the operationalization of the
+guidelines. Some of the key issues that are prioritized for making the guidelines
+operational include coordination and dissemination, finance mobilization, integration
+NAP into policies, plans and programmes, monitoring, evaluation and reporting of
+the guidelines.
+5.2 Standard for operationalization
+The overall coordination and dissemination of the guidelines is the responsibility
+of the Vice President’s Office (VPO). The guidelines will be disseminated to
+stakeholders such as MDAs, LGAs and Non State Actors through workshops, National
+commemoration days, VPO website and booklets. The existing National Sustainable
+Land Management Steering Committee; the National Sustainable Land Management
+Technical Committee and the Environmental Working Group (EWG) are responsible
+for overseeing and playing an advisory role in operationalizing the guidelines.
+The financing of the guidelines is done through General Budget Support (GBS).
+The mainstreaming interventions are integrated in each MDAs and LGAs through
+respective Medium Term Expenditure Frameworks (MTEF) for implementation.
+More resources are expected to be mobilized from international and regional funds,
+funds under the UNCCD and Global Mechanism (GM), bilateral, individuals and
+foundations funds.
+The integration of the NAP into respective sectoral policies, plans and programmes
+is the responsibility of the relevant MDAs. Specifically, the MDAs will undertake
+DLDD situation analysis, identify relevant maistreaming activities, prepare projects,
+programmes, action plans and mobilize funds for integration of NAP. The Prime-
+Minister’s Office-Regional Administration and Local Government (PMO-RALG)
+will work closely with Local Government Authorities (LGAs) through their various
+departments in collaboration with lined sectoral ministries to implement the NAP
+interventions at local level.
+38
+
+--- Page 49 ---
+The Civil Society Organisations are encouraged to cooperate with the Government in
+implementing the guidelines through various projects or programmes. The private
+sectors either individually or in collaboration with the Government in public-private
+partnership (PPP) arrangement are encouraged to implement innovative projects or
+programme to NAP mainstreaming.
+The Development Partners (DPs) either bilaterally or through their multilateral
+arrangements are invited to support the Government to operationalize these guidelines
+by building capacity in term of technical and financial support.
+The overall responsibility for monitoring, evaluating and reporting of the guidelines
+is under VPO. The progress towards operationalizing of the guidelines will be tracked
+and reported periodically. The MDAs and LGAs are responsible for monitoring,
+evaluating and reporting to VPO on progress made in the integration of NAP in their
+respective policies, plans and programmes annually.
+39
+
+--- Page 50 ---
+ANNEX
+DEFINITION OF TERMINOLOGIES AND CONCEPTS
+Land Degradation This refers to a process in which the value of the biophysical environment
+is affected by a combination of human-induced processes acting upon the
+land or is the deterioration in the quality of land, its topsoil, vegetation,
+and/or water resources, caused usually by excessive or inappropriate
+exploitation.
+Desertification This is the process by which fertile land becomes desert, typically as
+a result of drought, deforestation, or inappropriate agriculture or is the
+process of land degradation in arid, semi-arid and dry sub-humid areas
+resulting from various factors, including climatic variations and human
+activities.
+Drought This refers to the naturally occurring phenomenon that exists when
+precipitation has been significantly below normal recorded levels,
+causing serious hydrological imbalances that adversely affect land
+resource production systems or Is an extended period when a region
+receives a deficiency in its water supply, whether atmospheric, surface or
+ground water. A drought can last for months or years, or may be declared
+after as few as 15 days. Generally, this occurs when a region receives
+consistently below average precipitation. It can have a substantial
+impact on the ecosystem and agriculture of the affected region. Although
+droughts can persist for several years, even a short, intense drought can
+cause significant damage and harm to the local economy. Prolonged
+droughts have caused mass migrations and humanitarian crises.
+Combating Desertification This includes activities which are part of the integrated development
+of land in arid, semi-arid and dry sub-humid areas for sustainable
+development and are aimed at: (i) prevention and/or reduction of
+land degradation, (ii) rehabilitation of partly degraded land and (iii)
+reclamation of desertified land.
+Sustainable Land It is defined as “the adoption of land use systems that, through appropriate
+Management (SLM) management practices, enable land users to maximize the economic
+and social benefits from the land while maintaining or enhancing the
+ecological support functions of the land resources”
+Best practices for SLM These are those SLM practices that should increase production and
+be profitable, be cost efficient with short payback (economic viability),
+easy to learn, accepted, effectively adopted and taken up (socially and
+culturally accepted), environmentally friendly (contributing to the
+improvement of soils, water, and flora and fauna (biodiversity) and
+represent all stakeholders including socially marginalized groups.
+40
+
+--- Page 51 ---
+Climate Change This refers to a change of climate, which is attributed directly or indirectly
+to human activities that alter the composition of the global atmosphere,
+and which is additional to natural variability, and observed over
+comparable periods of time.
+Climate Climate encompasses the statistics of meteorological conditions, that is,
+temperature, humidity, atmospheric pressure, wind, rainfall, atmospheric
+particle count and other meteorological elements in a given region over
+long periods of time (usually 30 years).
+Ecosystem Services: Are the benefits provided by ecosystems that contribute to making
+human life both possible and worth living. The important benefits for
+human beings that arise from healthily functioning ecosystems, notably
+production of oxygen, soil genesis, and water detoxification.
+Livelihood This refers to the means for securing the necessities of life so that
+individuals, households and communities can sustain a living over time,
+using a combination of social, economic, cultural and environmental
+resources.
+Resilience This refers to the ability of a system to adapt to climate change, whether
+by taking advantage of the opportunities, or by dealing with their
+consequences.
+Sustainable development This refers to development which meets the needs of current generations,
+(Sustainability) without compromising the ability of the future generations to meet theirs.
+Soil Erosion Soil erosion occurs when soil is removed through the action of wind
+and water at a greater rate than it is formed. Soil erosion is caused by: -
+overstocking and overgrazing; inappropriate farming techniques such as
+deep ploughing land two or three times a year to produce annual crops;
+lack of crop rotation; and planting crops down the contour instead of
+along it.
+Salinisation This is the accumulation of soluble salts of sodium, magnesium and
+calcium in soil to the extent that soil fertility is severely reduced.
+Salinity This is the degree to which water contains dissolved salts.
+Soil Pollution It is defined as the presence of materials in the soil which are harmful to
+the living beings when they cross their threshold concentration levels.
+In this case the factors or substances which affect the soil are not static.
+It can be positive or negative. In the negative soil pollution there occur
+an overuse of soil and erosion. The erosion occurs by water and air. The
+water erosion occurs by the high speed rivers which remove the top layer
+of soil.
+41
+
+--- Page 52 ---
+Soil Acidification This refers to the buildup of hydrogen cations, also called protons,
+reducing the soil pH. This happens when a proton donor gets added
+to the soil. The donor can be an acid, such as nitric acid and sulfuric
+acid (these acids are common components of acid rain). It can also be
+a compound such as Aluminum Sulphate, which reacts in the soil to
+release protons. Acidification occurs when base cations such as calcium,
+magnesium, potassium and sodium are leached from the soil.
+Siltation This refers to the pollution of water by fine particulate terrestrial clastic
+material, with a particle size dominated by silt or clay. It refers both to the
+increased concentration of suspended sediments, and to the increased
+accumulation (temporary or permanent) of fine sediments on bottoms
+where they are undesirable. Siltation is most often caused by soil erosion.
+Sustainable land This refers to a knowledge-based procedure that aims at integrating
+management the management of land, water, biodiversity, and other environmental
+resources to meet human needs while sustaining ecosystem services
+and livelihoods.
+UNCCD This is the sole legally binding international agreement linking
+environment and development to sustainable land management. The
+Convention addresses specifically the arid, semi-arid and dry sub-
+humid areas, known as the drylands, where some of the most vulnerable
+ecosystems and peoples can be found.
+Vulnerability This refers to the degree of susceptibility to the negative effects of climate
+change. It is a function of the type, magnitude and frequency of climate
+events to which a system is exposed to (exposure) as well as sensitivity
+and capacity for adaptation (adaptive capacity).
+42

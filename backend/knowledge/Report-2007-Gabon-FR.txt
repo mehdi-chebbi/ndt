@@ -1,0 +1,2671 @@
+--- Page 1 ---
+République Gabonaise
+Primature
+Ministère de l’Environnement, de la Protection de la Nature,
+de la Recherche et de la Technologie
+Secrétariat Général de la Vice Primature
+Cellule de Coordination de Mise en Oeuvre de
+la Convention sur la lutte Contre la Désertification (CCMO/CCD)
+© Chris WILKS, WCS, 2002
+Programme d’Action National de Lutte Contre
+la Dégradation des Terres au Gabon (PANLCDT)
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+1/76
+
+--- Page 2 ---
+NOTE
+Vous trouverez ci-après, comme son titre l’indique, le Programme d’Action National de Lutte
+Contre la Dégradation des Terres (PANLCDT) dans le cadre de mise en œuvre de la
+Convention sur la lutte contre la Désertification (CCD). Ce document a été réalisé avec le
+concours de la Cellule de Coordination et de Mise en Oeuvre de la Convention.
+Cette version est l’œuvre de l’équipe nationale, sous la double supervision du Comité de pilotage
+et de la Cellule de Coordination et de mise en œuvre :
+• Georges RIGONDJA, Biochimiste senior, Point Focal National, Président du Comité de
+pilotage du PANLCDT Gabon, Inspecteur de l’Environnement - Vice-Primature, Ministère de
+l’Environnement, de la Protection de la Nature, de la Recherche et de la Technologie. -
+• Martial AGONDOGO, Géographe senior, Assistant du Point Focal National, Coordonnateur
+de la Cellule de coordination et de mise en oeuvre de la CCD, Chef de service des Etudes, de la
+Cartographie et de la Documentation à la Direction Générale de l’Environnement et de la
+Protection de la Nature – Vice-Primature, Ministère de l’Environnement, de la Protection de la
+Nature, de la Recherche et de la Technologie –
+• Paul Simon LOUNDOU, Sociologue senior, Assistant Administratif à la Cellule de
+coordination et de mise en oeuvre de la CCD, Chargé d’Etudes à la Direction Générale de
+l’Environnement et de la Protection de la Nature – Vice-Primature, Ministère de
+l’Environnement, de la Protection de la Nature, de la Recherche et de la Technologie –
+• Virginie BOUANGA ep. NLEP, Géographe senior, Consultant Agent à la Direction Générale
+de l’Environnement et de la Protection de la Nature – Vice-Primature, Ministère de
+l’Environnement, de la Protection de la Nature, de la Recherche et de la Technologie. –
+• Jean-Bernard MOUTSINGA, Pédologue senior, Consultant, Coordonnateur de l’étude,
+Chercheur à l’Institut de Recherches Agronomiques et Forestières (IRAF) – Vice-Primature,
+Ministère de l’Environnement, de la Protection de la Nature, de la Recherche et de la
+Technologie-
+• Pierre NDONG NZE, Agronome senior, Consultant, Directeur du Centre d’Appui Technique
+à l’Hévéaculture (CTAH) à la Direction Générale de l’Agriculture, – Ministère de
+l’Agriculture, de l’Elevage et du Développement Rural.
+• Emmanuel BAYANI NGOYI, Sociologue senior, Consultant, Chef de service de
+l’Environnement Urbain et Rural à la Direction Générale de l’Environnement et de la
+Protection de la Nature – Vice-Primature, Ministère de l’Environnement, de la Protection de la
+Nature, de la Recherche et de la Technologie. –
+• Norbert MBADINGA, Littéraire senior, Consultant, Ministère de l’Education Nationale et de
+l’Enseignement supérieur -
+Au nom de toute l’équipe, j‘adresse mes sincères remerciements à tous les acteurs qui ont
+collaboré à la réalisation de ce Rapport.
+Georges RIGONDJA.
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+2/76
+
+--- Page 3 ---
+AVANT – PROPOS
+Les processus de planification environnementale entrepris dans la période actuelle au Gabon
+constituent d'une certaine manière une réponse à la grave crise du développement, qui affecte ce
+pays dont l'économie reste largement tributaire des ressources naturelles. Ces exercices qui
+s'inscrivent dans le cadre de la dynamique impulsée par la Conférence sur l'Environnement et le
+Développement tenue à Rio de Janeiro en 1992, ont pour enjeu essentiel de promouvoir une
+articulation efficiente de la variable environnementale aux autres paramètres de développement
+économique et social.
+L’Assemblée Générale des Nations Unies lors de sa 58eme session a retenu la résolution
+A/Res/58/211 qui déclare « 2006 comme étant Année Internationale des Déserts et de la
+Désertification (AIDD) ». A cet effet, le Gabon a retenu comme activité phare, l’élaboration de
+son Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT).
+Le PAN qui en découle, constitue le cadre conceptuel et juridique de la mise en œuvre de la
+Convention sur la lutte contre la Désertification (CCD) à l’échelon national et local. Il décrit
+l’ensemble des politiques et les actions susceptibles de lutter contre la dégradation des terres.
+Le présent document a été réalisé dans le cadre de la mise en oeuvre de la CCD, par les pays
+parties, conformément à l’Article 10 de la convention qui demande à l’ensemble des pays touchés,
+d’élaborer leur PAN, s’appuyant sur les rapports nationaux antérieurs.
+Il a été rédigé en s’inspirant des PAN des autres pays parties touchés.
+Cette approche pluridisciplinaire a mis à contribution une équipe d’experts nationaux (biochimiste,
+agronome, pédologue, sociologues, géographes et littéraire), sous la Présidence du Comité de
+pilotage et la Cellule de Coordination et de mise en oeuvre de la CCD.
+Objectifs :
+Ce document vise les objectifs suivants :
+- faire ressortir non seulement les résultats obtenus, mais également les difficultés
+rencontrées dans la mise en œuvre de la Convention, afin de rechercher les moyens de
+mieux les surmonter, dans l’intérêt de toutes les parties prenantes ;
+- fournir des informations concises et cohérentes sur la mise en œuvre de la Convention, en
+particulier sur les progrès réalisés dans cette mise en œuvre, qui contribuent à l’élaboration
+du PAN ;
+- établir un cadre commun d'actions susceptible de favoriser une mobilisation durable des
+acteurs et une convergence des projets et programmes vers des axes stratégiques
+d'intervention articulés autour de la lutte contre la dégradation des terres et la pauvreté.
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+3/76
+
+--- Page 4 ---
+TABLE DES MATIERES
+INTRODUCTION
+1. Analyse contextuelle d’élaboration du Programme d’Action National de Lutte Contre la
+Dégradation des Terres (PANLCDT) au Gabon
+1.1. Contexte géographique
+1.2. Contexte démographique
+1.3. Contexte économique
+1.4. Contexte environnemental
+1.5. Les menaces qui pèsent sur l’environnement et les ressources
+2. Modalités d’élaboration du Programme d’Action National de Lutte Contre la
+Dégradation des Terres (PANLCDT)
+PREMIERE PARTIE: ETAT ACTUEL ET EVOLUTION DES RESSOURCES
+NATURELLES
+1. Les tendances d'évolution des ressources naturelles
+1.1 Ressources en eau
+1.1.1 Eaux de surface
+1.1.1.1. L’Ogooué
+1.1.1.2. La Nyanga
+1.1.1.3. Le Komo
+1.1.2. Les zones humides
+1.2. Ressources en sol
+1.2.1. Principaux types de sols
+1.2.1.1. Les sols des plateaux Nord-Nord-Est
+1.2.1.2. Les sols du bassin sédimentaire côtier
+1.2.1.3. Les sols de mangroves
+1.2.1.4. Les sols de la région sud-ouest
+1.2.1.5. Les sols des montagnes gabonaises
+1.2.1.6. Les sols du bassin sédimentaire francevillien
+1.2.1.7. Les sols des plateaux Batéké
+1.3. Ressources végétales
+1.3.1. La mangrove
+1.3.2. La savane
+1.4. Ressources animales
+1.5. Ressources halieutiques
+2. Causes et manifestations de la dégradation des terres
+2.1 Causes de la dégradation des terres
+2.1.1. Les aspects physiques
+2.1.1.1. Facteurs climatiques
+2.1.1.2. Facteurs topographiques
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+4/76
+
+--- Page 5 ---
+2.1.2. Les aspects humains
+2.1.2.1. La démographie
+2.1.2.2. La gestion des ressources naturelles
+2.2. Principales manifestations de la dégradation des terres
+2.2.1. Facteurs anthropiques
+2.2.2. Facteurs édaphiques
+3. Les incidences de la dégradation des terres sur les activités productives
+4. Mesures de protection des sols
+DEUXIEME PARTIE: EVALUATION DES ACTIONS DE LUTTE CONTRE LA
+DEGRADATION DES TERRES
+1. Les expériences engagées avant 1960 et durant la période post indépendance
+1.1. Durant la période pré et post indépendance
+1.2. Durant la période actuelle
+1.2.1. Evolution du cadre institutionnel de gestion des ressources naturelles
+1.2.1.1. Cadre institutionnel
+1.2.1.1.1. Départements ministériels
+1.2.1.1.2. Les centres de recherche
+1.2.1.1.3. Programmes et projets
+1.2.1.1.4. Les Organisations non gouvernementales et le mouvement associatif
+1.2.1.1.5. Structures sous-régionales
+1.2.1.1.5.1. COMIFAC (Commission des Forêts d’Afrique Centrale)
+1.2.1.1.5.2. ADIE/PRGIE (Agence Internationale pour le Développement de l’Information
+Environnementale/ Programme Régional de Gestion de l’Information Environnementale
+1.2.1.1.5.3. CEFDHAC (Conférence sur les Ecosystèmes de Forêts Denses et Humides d’Afrique
+Centrale)
+1.2.1.1.5.4. OSFAC (Observatoire Satellital des Forêts d’Afrique Centrale)
+1.2.1.1.5.5. RAPAC (Réseau des Aires Protégées d'Afrique Centrale)
+1.2.1.1.5.6. PFBC (Partenariat pour les forêts du bassin du Congo)
+1.1.6.7. NEPAD/Afrique Centrale
+1.1.6.9. AFLEG (Application de la Législation Forestière et la Gouvernance en Afrique).
+1.1.6.10. OAB (Organisation Africaine du Bois)
+1.1.6.11. OIBT (Organisation Internationale des Bois Tropicaux)
+1.1.6.12. OCFSA (Organisation pour la Conservation de la Faune Sauvage en Afrique)
+1.2.1.2. Cadre juridique
+1.2.1.2.1. Le Code forestier
+1.2.1.2.2. Le Code de l'Environnement
+1.2.1.2.3. Le Code des investissements agricoles
+1.2.2.1.4. La loi d’orientation agricole
+1.2.2.1.5. Le Code Minier
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+5/76
+
+--- Page 6 ---
+TROISIEME PARTIE: ELEMENTS DE PROGRAMME D'ACTION
+1. Eléments stratégiques
+1.1. Objectif de développement
+1.2. Principes Directeurs
+1.3. Objectifs spécifiques
+2. Eléments opérationnels
+2.1. Description des activités à mettre en œuvre
+3. Modalités de mise en œuvre du PAN.
+3.1.Mécanismes de financement
+3.2. Modalités de mise en œuvre du PAN.
+3.3.Démarche de mise en œuvre du PANLCDT
+4. Suivi évaluation
+4.1. Les objectifs du Système de Suivi et Evaluation (SSE)
+4.2. Les indicateurs
+5.3. Les outils
+5.3.1. Les Plans de Travail Semestriels (PTS)
+5.3.1.1. Les données du Plan de Travail Semestriel (PTS)
+5.3.1.2. Procédure d’élaboration du PTS
+5.3.1.3. Chronogramme annuel de réalisation
+5.3.2. Les rapports et comptes-rendus et autres informations
+6. Les préalables à la réussite du PANLCDT
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+6/76
+
+--- Page 7 ---
+LISTE DES ACRONYMES
+ADIE : Agence Internationale pour le Développement de l’Information
+Environnementale
+CATH : Centre d’Appui Technique à l’Hévéaculture
+CBC : Centre de Bouturage de Caféier
+CCC : Convention cadre sur les Changements Climatiques
+CCD : Convention Lutte contre la Dégradation des terres
+CDB : Convention sur la Diversité Biologique
+CEEAC : Communauté Economique des Etats d’Afrique Centrale
+CEFDHAC : Conférence sur les Ecosystèmes des Forêts Denses et Humides d’Afrique
+Centrale
+CEMAC : Communauté Economique et Monétaire d’Afrique Centrale
+CFD : Caisse Française de Développement
+CIAM : Centre d’Adaptation et de Multiplication de Matériel Végétal Vivrier, Fruitier et
+maraîcher
+CIRAD : Centre de Coopération Internationale de Recherche Agronomique pour le
+Développement
+CFC : Chlorofluoro Carbone
+COMIFAC : Commission Ministérielle des Forêts d’Afrique Centrale
+CMAE : Conférence Ministérielle Africaine sur l’Environnement
+CMCE : Centre de Multiplication de Cacaoyer d’Elite
+COP : Conférence des Parties
+CORAF : Conseil Ouest et Centre Africain pour la Recherche et le Développement
+Agricole
+CPSE : Cellule de Planification, Suivi et Évaluation
+CPR : Centre de Promotion Rurale
+CRAB : Cellule de Recherche et d’Accompagnement de Boumango
+DGEPN : Direction Générale de l’Environnement et de la Protection de la Nature
+DSRP : Document de Stratégie de Réduction de la Pauvreté
+ECOFAC : ECOsystèmes d’Afrique Centrale
+ENDR : Ecole Nationale de Développement Rural
+ERAIFT : Ecole Régionale d’Aménagement Intégré des Forêts Tropicales
+FEM : Fonds pour l’Environnement Mondiale
+ENEF : Ecole Nationale des Eaux et Forêts
+GEF : Global Environmement Facility
+GES : Gaz à Effet de Serre
+GIEC : Groupe d’Experts Intergouvernemental sur l’Evolution du Climat
+GLOBE : Global Learning and Observations to Benefit the Environment
+IEC : Information Education Communication
+IGAD : Institut Gabonais d’Appui au Développement
+INSAB : Institut National de Science Agronomique et de Biotechnologies
+IRAF : Institut de Recherche en Agronomie Forestière
+IRET : Institut de Recherche en Ecologie Tropicale
+IUCN : Union Mondiale pour le Nature
+FAO : Fonds Mondial pour l’Alimentation
+HEVEGAB : Société pour le Développement de l’Hévéa culture au Gabon
+MAB : Homme et la Biosphère
+MAEDR : Ministère de l’Agriculture, de l’Elevage et du Développement Rural
+MEFEPEPN : Ministère de l’Economie Forestière, des Eaux, de la Pêche, de l’Environnement
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+7/76
+
+--- Page 8 ---
+chargé de la Protection de la Nature
+MEPNRT : Ministère de l’Environnement, de la Protection de la Nature, de la Recherche et
+de la Technologie
+NEPAD : Nouveau Partenariat pour le Développement de l’Afrique
+OGM : Organisme Génétiquement Modifié
+ONC : Organe National de Coordination
+ONG : Organisation non Gouvernementale
+OSFAC/GOFC : Observatoire Satellitale des Forêts d’Afrique Centrale
+PAFN : Plan d’Action Forestière National
+PAN : Programme d’Action National
+PAS : Programme d’Ajustement Structurel
+PASR : Programme d'Action Sous Régional
+PCC : Projet Changements Climatiques
+PDF A : Document de Projet de Financement de type A
+PFE : Projet Forêt et Environnement
+PSFE : Programme Sectoriel Forêts et Environnement
+PNAE : Plan National d’Action pour l’Environnement
+PNUD : Programme des Nations Unies pour l’Environnement
+PNUE : Programme des Nations Unies pour le Développement
+PSVAP : Programme Sectoriel de Valorisation des Aires Protégées
+PRGIE : Projet Régional de Gestion de l’Information Environnementale
+RAPAC : Réseau des Aires Protégées d’Afrique Centrale
+RDC : République Démocratique du Congo
+ROSELT : Réseau d’Observations et de Surveillance Ecologique à Long Terme
+SAO : Substances Appauvrissant la Couche d’Ozone
+SIIE : Système d’Information Intégré sur l’Environnement
+SOGADEL : Société Gabonaise pour le Développement de l’Elevage
+SNPA-DB : Stratégie Nationale et Plan d’Action sur la Diversité Biologique
+WCS : Société de Conservation de la Vie Sauvage
+WWF : Fonds Mondial pour la Nature
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+8/76
+
+--- Page 9 ---
+PREFACE
+Par Son Excellence, Madame Georgette KOKO, Vice-Premier Ministre, Ministre de
+l’Environnement, de la Protection de la Nature, de la Recherche et de la Technologie
+A l’heure où le monde parle sans cesse de gestion durable de nos écosystèmes, le Gabon à l’instar
+de la communauté internationale s’est conformé à la nouvelle donne. L’entrée en vigueur le 17
+Juin 1994 à Paris (France), de la Convention des Nations Unies sur la lutte contre la Désertification
+(UNCCD) a marqué un des aboutissements des pays touchés par ce phénomène, débattu en long et
+en large durant la Conférence des Nations Unies sur l’Environnement et le Développement
+(CNUED), tenue à Rio de Janeiro en Juin 1992 et repris durant le Sommet Mondial de la Terre
+tenu en Août-Septembre 2002 à Johannesburg.
+Le Gabon, pays forestier du Bassin du Congo connaît des problèmes liés à la dégradation de ces
+ressources en terres. En dépit, d’un couvert forestier dense près de 80 à 85% du territoire national,
+la forêt a de tout temps marqué l’économie du Gabon. A cet effet, les différents gouvernements qui
+se sont succédés ont eu à cœur de protéger ce milieu fragile.
+Au cours de ces 40 dernières années, le Gabon a connu de profondes mutations économiques et
+sociales qui ont considérablement affecté l'impact des activités humaines sur l'environnement. Si
+on prend l'année 1960 comme référence, les performances économiques exprimées en taux de
+croissance du PIB, ont été particulièrement remarquables, comparées aux pays de la sous région.
+L'économie gabonaise a connu une croissance forte, soutenue et prolongée : le PIB a été multiplié
+par 95 ; le budget de l'Etat par 140 ; les exportations par 121 et les recettes budgétaires par 125.
+Cependant, ces performances n'ont été réalisées qu'au prix d'une forte sollicitation des patrimoines
+forestier, minier, pétrolier et halieutique, ce qui n'est pas sans conséquence sur la ressource
+environnementale. D'autant que l'extension de «l'économie extractive», amplifiée par la crise
+économique et la contraction subséquente du marché de l'emploi, a conduit de nombreux actifs du
+secteur formel à développer des stratégies de survie basés sur une utilisation du patrimoine naturel.
+D'où le développement, sans précédent depuis 1985, de la chasse commerciale, de la cueillette, de
+la pêche artisanale, de l'agriculture périurbaine, laquelle tend à se substituer à l’agriculture rurale
+traditionnelle, déclinante.
+Toutes tendances qui se traduisent par une érosion significative des ressources sensibles :
+dégradation des forêts côtières, dont le potentiel de production est structurellement orienté à la
+baisse ; érosion du capital faunique, dont le potentiel éco-touristique est déprécié par suite du
+développement anarchique des activités cynégétiques, qui exercent une pression de plus en plus
+insoutenable sur la faune sauvage ; menaces sur le milieu marin et sa biodiversité, imputables à la
+compétition entre les activités halieutiques artisanales et industrielles ; émergence des risques
+miniers et pétroliers et épuisement de certaines ressources du sous-sol.
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+9/76
+
+--- Page 10 ---
+C'est dans ce sens que le Gabon s'est attelé à élaborer l'instrument principal qui doit assurer sa mise
+en œuvre au niveau national, à savoir le Programme d'Action National (PAN). Cet exercice a été
+jadis, en partie initié dans le cadre du Plan National d'Action pour l'Environnement (PNAE), dont
+les principales recommandations portaient sur cette importante problématique. Le PAN constitue
+pour notre pays, un cadre stratégique devant permettre la prise en compte de la dimension
+environnementale de la dégradation des sols, dans le processus de développement économique et
+social.
+Conformément aux principes directeurs de l’UNCCD, basés sur les notions de Participation,
+Partenariat et Solidarité, le processus d'élaboration du PAN au Gabon a connu une implication
+sans précédent, de tous les segments de la société gabonaise intéressés par le phénomène de la
+dégradation des sols : services techniques de l'Etat, producteurs ruraux, organisations non
+gouvernementales, associations de jeunes et de femmes, société civile, structures de recherche et
+de formation, secteur privé, élus locaux, professionnels de la communication, etc.
+Ce processus a offert l'opportunité de passer en revue les expériences antérieures en matière de
+lutte contre la dégradation des terres. Les concertations menées à tous les niveaux du pays ont
+permis aux différents acteurs de procéder à un examen approfondi des problèmes, de tirer les
+enseignements des actions antérieures et de formuler un programme d'action qui a pour fil
+conducteur la prise en compte des préoccupations des populations à la base et le partenariat entre
+tous les acteurs, dans le cadre de la réalisation des actions retenues.
+Les partenaires au développement ont également contribué activement à ce processus à travers la
+participation à son financement et à la formulation de propositions pertinentes lors des
+concertations.
+Le pari de l'élaboration participative étant gagné, il s'agira, tout le long du processus de mise en
+œuvre, de veiller à ce que cette dynamique soit maintenue. Cela nous permettra certainement
+d'atteindre notre objectif de faire du PAN, le document cadre en matière de lutte contre la
+dégradation des terres au Gabon.
+Georgette KOKO
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+10/76
+
+--- Page 11 ---
+INTRODUCTION
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+11/76
+
+--- Page 12 ---
+1. Analyse contextuelle d’élaboration du Programme d’Action National de Lutte Contre la
+Dégradation des Terres (PANLCDT) au Gabon
+Au titre de la convention, l’article 1er1 donne plusieurs définitions aux concepts
+désertification/sécheresse. Des études ont également apporté des explications complémentaires à
+cette approche, parmi lesquelles celles de DELWAULLE (JC), 1973 et MAINGUET (M),1990.
+Selon DELWAULLE « […] la désertification sera […] la transformation d’une zone aride en une
+zone désertique, quelles que soient les causes qui l’occasionnent »2.
+Pour MAINGUET, « la désertification est une crise de l’environnement dont le terme est la mise
+en place de paysages désertiques : dégradation qualitative par disparition irréversible de certaines
+espèces végétales, et quantitative par le tarissement définitif des points d’eau de surface (mares,
+lacs, sources) abaissement des nappes souterraines, majoration, enfin, de la dégradation des sols
+par des processus d’érosion éolienne et hydrique » 3.
+Depuis près de dix ans, l’intégration des considérations environnementales dans le développement
+économique et dans les politiques sectorielles représente un défi pour le Gabon.
+C’est ainsi qu’un regain d’intérêt se fait sentir dans le secteur de l’environnement, qui oriente
+progressivement sa politique vers l’approche de « développement durable » Selon le Rapport
+Brundtland (1987), le développement durable est celui qui répond aux besoins du présent sans
+compromettre la capacité des générations futures de répondre aux leurs.
+Ainsi, suite aux engagements internationaux pris par le Gabon en faveur de la protection de
+l’environnement, on assiste à une conjonction des efforts d’investissements des pouvoirs publics
+dans ce secteur. Ils y déploient une politique sectorielle qui, avec la contribution de l’ensemble des
+partenaires, a toutes les chances d’amener le Gabon à évoluer progressivement vers le
+développement durable.
+2.1. Contexte géographique
+Le Gabon s’étend de part et d’autre de l’Equateur entre, d’une part, 2°30’ de latitude Nord et 3°55’
+de latitude Sud et, d’autre part, 8°30’ et 14°30’ de longitude Est. Limité au Nord par la Guinée
+Equatoriale, et le Cameroun, à l’Est et au Sud par le Congo (Brazzaville), le Gabon couvre une
+superficie évaluée à 267.667 km².
+1 Le terme "désertification" désigne la dégradation des terres dans les zones arides, semi-arides et subhumides sèches
+par suite de divers facteurs, parmi lesquels les variations climatiques et les activités humaines ;
+- l'expression "lutte contre la désertification" désigne les activités qui relèvent de la mise en valeur intégrée des terres
+dans les zones arides, semi-arides et subhumides sèches, en vue d'un développement durable ;
+- le terme "sécheresse" désigne le phénomène naturel qui se produit lorsque les précipitations ont été sensiblement
+inférieures aux niveaux normalement enregistrés et qui entraîne de graves déséquilibres hydrologiques préjudiciables
+aux systèmes de production des ressources en terres ;
+- l'expression "atténuation des effets de la sécheresse" désigne les activités liées à la prévision de la sécheresse et
+visant à réduire la vulnérabilité de la société et des systèmes naturels face à la sécheresse dans le cadre de la lutte
+contre la désertification ;
+- l'expression "dégradation des terres" désigne la diminution ou la disparition, dans les zones arides, semi-arides et
+subhumides sèches, de la productivité biologique ou économique et de la complexité des terres cultivées non irriguées,
+des terres cultivées irriguées, des parcours, des pâturages, des forêts ou des surfaces boisées du fait de l'utilisation des
+terres ou d'un ou de plusieurs phénomènes, notamment de phénomènes dus à l'activité de l'homme et à ses modes de
+peuplement ;
+2 DELWAULLE (JC), 1973
+3 MAINGUET (M) 1990
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+12/76
+
+--- Page 13 ---
+De par sa situation géographique, le Gabon a un climat de type équatorial humide à température
+peu variable (voisine de 26° C toute l’année), à humidité de l’air élevée (80 à 85%) et à
+précipitations fréquentes et abondantes (1500 à 4000 mm/an). Cependant, ces traits généraux ne
+sont pas uniformes pour l'ensemble du territoire.
+Le climat ainsi caractérisé induit une pédogenèse du type « ferrallitique » se traduisant par une
+hydrolyse totale des minéraux primaires suivie d’une élimination quasi totale des bases. Les sols
+formés ont un complexe d‘échange souvent dé-saturé, donc pauvres en éléments minéraux
+(biogènes).
+Les fortes précipitations associées à une topographie dominée par des reliefs accidentés, auxquels
+s’ajoutent des actions anthropiques, telles que l’intense exploitation forestière et les techniques
+agricoles traditionnelles (brûlis) et modernes (effet de labour) augmentent les risques d’érosion des
+sols (perte en terre).
+2.2. Contexte démographique
+Le Gabon a une population estimée à 1.586 876 habitants (RGPH, 2003), inégalement répartie
+(81,83% en milieu urbain et 18,16% en milieu rural ; contre 73,1% en milieu urbain et 26,9% en
+milieu rural en 1993). Répartie sur une superficie de 267.667 km2, la densité de la population
+gabonaise est de 5,2 hab/km2 .
+2.3. Contexte économique
+Depuis l’indépendance, toute l’activité économique a été basée sur l’exploitation des ressources
+naturelles essentiellement dans le secteur primaire (forêt, pêche, pétrole, manganèse). Cela a rendu
+le pays dépendant de l’évolution des cours de ces matières et des fluctuations du taux de change
+des devises étrangères, notamment le dollar américain.
+Le secteur forestier a longtemps constitué la principale richesse du pays avant d’être devancé par le
+pétrole (au début des années 70). Il occupe la deuxième place dans les recettes d’exportation (55 à
+60 milliards de F CFA) de l’Etat, mais il demeure toujours le premier employeur du secteur privé
+avec près de 18% de la population active et plus de 10 milliards de F CFA de salaires distribués
+par an. 4
+La forêt gabonaise couvre environ 22 millions d’hectares, soit près de 85% de la superficie totale.
+Elle recèle de nombreuses essences exploitables (400) dont 60 sont exploitées. Le potentiel global
+sur pied est de 2.600 millions de m3 et le potentiel en bois commercialisable de 1 500 m3 (dont 130
+millions pour l’okoumé). Le niveau annuel de la production avoisine les 2,5 millions de m3. 5
+Le secteur de la pêche joue un rôle non négligeable dans l’économie nationale. La production
+totale en 2003 est évaluée à 43 673 tonnes de ressources halieutiques contre 40 953 en 2002, soit
+une hausse de 6,6%. Cependant, cette production ne couvre que 70% des besoins locaux en
+poissons. De ce fait, le Gabon est obligé d’importer chaque année plus de la moitié de ses besoins
+en poisson pour assurer la sécurité alimentaire de sa population, ce qui représente une perte en
+devises conséquente au gré de la conjoncture du secteur.6
+4 Ministère de l’Economie et des Finances, Tableau de bord de l’Economie 2004, n°34
+5 Op cit
+6 ibdem
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+13/76
+
+--- Page 14 ---
+Le secteur agricole est le sixième pourvoyeur d’emplois dans le secteur privé moderne. Les filières
+pétrolière et minière ayant été privilégiées au détriment de l’agriculture, la contribution de celle-ci
+au Produit Intérieur Brut (PIB) demeure très faible et baisse d’année en année. Elle est passée de
+16% en 1964, 10% en 1975, à 6,7% en 1992 puis à 4% en 20037. Le Gabon est toujours tributaire
+des importations qui couvrent environ 60% des besoins alimentaires du pays.
+Face à ce constat, les pouvoirs publics avaient réagi en déclarant l’agriculture secteur prioritaire.
+Elle devrait désormais s’orienter vers la réalisation des objectifs fondamentaux suivants :
+- l’amélioration durable des conditions de vie des populations rurales ;
+- l’autosuffisance alimentaire ;
+- la contribution accrue de l’agriculture et de l’élevage à la constitution du PIB ;
+- la création de nombreux emplois ;
+- la lutte contre la pauvreté.
+Depuis 2003, le secteur pétrolier a enregistré de bonnes performances dans les domaines de
+l’exploration, de la production et de l’exportation. Dans le domaine de l’exploration, l’activité s’est
+illustrée par le forage de 14 puits. La production quant à elle a augmenté de 6,9% s’établissant à
+13,43 millions de tonnes contre 12,56 de millions de tonnes en 2002. Les exportations de brut
+durant la même année ont atteint le plafond de 12,68 millions de tonnes contre 11,64 millions de
+tonnes en 2002, correspondant à une augmentation de 8,9%.
+Le secteur minier est caractérisé par une production globale de minerai de manganèse estimée à 2
+millions de tonnes en 2003 contre 1,856 millions en 2002, soit un accroissement de 7,8%. La
+production d’agglomérés quant à elle, en 2003, a atteint 403005 tonnes contre 301275 tonnes en
+2002, soit une hausse de 34%. Au cours de la même période, les exportations ont atteint 1,944
+millions de tonnes contre 1,932 millions de tonnes en 2002, soit une progression de 0,6%.
+En vue de consolider ses actions de développement, et singulièrement dans la lutte contre la
+pauvreté, le Gabon a élaboré un Document de Stratégie de Croissance et de Réduction de la
+Pauvreté (DSCRP) dont les principaux axes sont :
+- l’accélération de la croissance en diversifiant les secteurs d’activité (agriculture, pêche,
+forêts, tourisme,) et en stimulant le secteur privé ;
+- l’amélioration de l’infrastructure de base dans certaines zones ;
+- l’accroissement des ressources humaines ;
+- le renforcement de la bonne gouvernance et des capacités institutionnelles.
+2.4. Contexte environnemental
+Le Gabon constitue un sanctuaire naturel d’une diversité biologique exceptionnelle. Sa richesse est
+l’une des plus importantes de toute la forêt tropicale africaine. Près de 40% de la superficie des
+forêts est restée dans un état primaire et le taux de déforestation est estimé à environ 0,1% par an8.
+La flore et la faune sont riches et présentent un taux d’endémisme et une diversité biologique très
+élevés. On estime généralement que, sur le plan des espèces végétales, c’est la région la pus riche
+d’Afrique ; ce qui en fait un refuge pour plusieurs d’entre elles9. Il a été dénombré jusqu’à ce jour
+plus de 8.000 espèces végétales, ainsi qu’une faune de plus de 150 espèces de mammifères parmi
+lesquels, on compte 19 espèces de primates. La population des grands primates est estimée à
+35.000 gorilles et 64.000 chimpanzés. De plus, selon les mêmes sources, le Gabon abrite une
+7 Idem
+8 Rapport d’activités, DGEF, 2005
+9 Stratégie Nationale Diversité Biologique, Plan d’action, 1999
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+14/76
+
+--- Page 15 ---
+importante population d’éléphants estimée à 80.000 individus 10 Avec plus de 600 espèces
+d’oiseaux, l’avifaune est également représentative.
+Par ailleurs, le Gabon possède une façade maritime longue de 800 km, un plateau continental de
+près de 40.000 km² et des eaux riches en ressources halieutiques, dont les stocks sont estimés à
+250.000 tonnes de petits pélagiques (sardinelles, anchois, chinchards), 400.000 à 500.000 tonnes
+de thonidés, 65.000 tonnes d’espèces démersales et 2.000 tonnes de crevettes11. On y trouve
+également des quantités importantes de langoustes, crevettes, crabes et seiches. Les ressources
+halieutiques des estuaires et des lagunes ne sont pas encore entièrement inventoriées. Il en est de
+même de stocks de poissons vivant dans les eaux continentales.
+Depuis peu, sur l’initiative des pouvoirs publics, 13 parcs nationaux mettant ainsi en réserve près
+de 11% du territoire national, ont été créés. Cette initiative répond aux conclusions et
+recommandations formulées dans le cadre de la Stratégie Nationale et Plan d’Action en matière de
+Diversité Biologique. Elle contribue également aux efforts de conservation de l’environnement
+mondial.
+L’eau, ressource abondante, est peu valorisée. Les différents usages de celle-ci ne représentent
+qu’un faible pourcentage des ressources en eau disponibles annuellement. Ainsi, l’implantation
+massive et anarchique des populations dans les grandes villes du pays de même que l’insuffisance
+d’assainissement et des systèmes d’épuration de l’eau, de collecte et de traitement des déchets, font
+que la qualité de l’eau soit fortement dégradée.
+2.5. Les menaces qui pèsent sur l’environnement et les ressources
+En dépit de la faible densité de la population (5,2 hab/km²) et de l'impact écologique peu marqué
+de l'agriculture itinérante sur brûlis, les activités anthropiques telles que l'exploitation forestière,
+intense dans certaines zones, et le braconnage, menacent certains écosystèmes et contribuent à la
+dégradation du milieu. Ces menaces s’expriment sous quatre formes :
+- les pollutions diverses des milieux qui engendrent l’appauvrissement et mettent en péril la
+santé publique surtout en milieu urbain ;
+- l’épuisement progressif de la première zone forestière, située le long du littoral, du fait
+d’une exploitation intensive et répétitive qui menace la régénération naturelle de la forêt et
+par là même sa pérennité ;
+- la pratique des méthodes traditionnelles de culture (brûlis) ;
+- l’intensification du braconnage, favorisée par la demande permanente et croissante de
+consommateurs urbains, risque de faire disparaître à moyenne échéance et de manière
+définitive certaines espèces animales du Gabon.
+Au regard de l’abondance des ressources naturelles et des menaces qui pèsent sur celles-ci, les
+défis à relever, en ce début du troisième millénaire, sont dus à la spécificité de l’environnement
+naturel et humain du Gabon, mais aussi au paradoxe lié au concept de « développement durable » :
+Comment conserver ces ressources naturelles abondantes, tout en y exerçant une pression,
+afin de garantir le développement économique des populations ?
+La recherche d’un juste équilibre revient à trouver une réponse objective et réaliste à la question de
+savoir, comment concevoir une économie viable et dynamique qui ne détruise pas les
+ressources naturelles et les systèmes écologiques dont elle dépend ?
+10 Idem
+11 PSFE, 2001
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+15/76
+
+--- Page 16 ---
+Autrement dit, comment continuer à produire du pétrole, couper du bois, creuser des galeries
+pour y extraire des minerais, défricher des forêts pour des besoins agricoles, etc... sans pour
+autant nuire à la biodiversité et occasionner la dégradation des terres ?
+Pour y parvenir, le Gabon a mis en place une politique axée sur le renforcement du cadre juridique
+et l’élaboration des exercices de planification afin de mettre en œuvre les conventions de Rio dont
+celle relative à la lutte contre la désertification. La ratification de celle–ci le 26 février 1998 a
+conduit le pays à prendre des mesures visant à :
+- mieux comprendre le concept désertification/sécheresse ;
+- prendre en compte ses impacts dans les secteurs d’activités socio-économiques ;
+- proposer des actions susceptibles d’endiguer les effets de la dégradation des terres.
+Ainsi, l’élaboration du Programme d’Action National de Lutte Contre la Dégradation des Terres
+(PANLCDT) constitue l’outil permettant de cerner lesdites mesures.
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+16/76
+
+--- Page 17 ---
+3. Modalités d’élaboration du Programme d’Action National de Lutte Contre la
+Dégradation des Terres (PANLCDT)
+Conformément aux dispositions du texte de base de la CCD en son article 312 et de l'annexe
+régionale pour l'Afrique (articles 6 et 8)13, l'élaboration du PANLCDT interpelle plusieurs
+catégories d'acteurs, dont les préoccupations doivent être réellement prises en compte.
+Le PANLCDT permet l'établissement d'un environnement favorable à un dialogue permanent entre
+les acteurs, en vue de susciter un consensus élargi sur le contenu et les orientations des
+programmes de lutte contre la dégradation des terres. Il favorise également la mise en place de
+mécanismes financiers flexibles, permettant de mobiliser en priorité des ressources nationales pour
+l'appui aux initiatives de lutte contre la dégradation des terres.
+Les dispositions de l'article 1014 du texte de base de la CCD, font du PANLCDT le principal
+instrument qui permet la traduction de la Convention en actions concrètes. Dans cette perspective,
+le programme :
+- fait l’état actuel et évolution des ressources naturelles ;
+- évalue les actions contre la lutte contre la dégradation des terres ;
+- définit des éléments du programme d’action.
+12 L’article 3 alinéa a) de la Convention stipule que : « les Parties devraient s'assurer que les décisions concernant la
+conception et l'exécution des programmes de lutte contre la désertification et/ou d'atténuation des effets de la
+sécheresse soient prises avec la participation des populations et des collectivités locales, et qu'un environnement
+porteur soit créé aux échelons supérieurs pour faciliter l'action aux niveaux national et local. »
+13
+L’articles 6 de la annexe régional pour l’Afrique stipulent que : « Outre les obligations générales que leur impose
+l'article 4, les pays développés Parties s'engagent :
+(a) à appuyer activement, comme convenu, individuellement ou conjointement, l'action menée par les pays en
+développement touchés Parties, en particulier ceux qui se trouvent en Afrique, et les pays les moins avancés, pour
+combattre la désertification et atténuer les effets de la sécheresse ;
+(b) à fournir des ressources financières importantes et d'autres formes d'appui pour aider les pays en développement
+touchés Parties, en particulier ceux d'Afrique, à mettre au point et appliquer de façon efficace leurs propres plans et
+stratégies à long terme pour lutter contre la désertification et atténuer les effets de la sécheresse ;
+(c) à favoriser la mobilisation de fonds nouveaux et additionnels, en application du paragraphe 2 (b) de l'article 20 ;
+(d) à encourager la mobilisation de fonds provenant du secteur privé et d'autres sources non gouvernementales ; et
+(e) à favoriser et à faciliter l'accès des pays touchés Parties, en particulier des pays en développement Parties, à la
+technologie, aux connaissances et au savoir-faire appropriés. » et l’article 8 alinéa 1 « Les Parties encouragent la
+coordination des activités menées en vertu de la Convention et, si elles y sont Parties, en vertu d'autres accords
+internationaux pertinents, notamment la Convention-cadre des Nations Unies sur les changements climatiques et la
+Convention sur la diversité biologique, afin de tirer le meilleur profit des activités prévues par chaque accord tout en
+évitant les doubles emplois. Les Parties encouragent l'exécution de programmes communs, en particulier dans les
+domaines de la recherche, de la formation, de l'observation systématique ainsi que de la collecte et de l'échange
+d'informations, dans la mesure où ces activités peuvent aider à atteindre les objectifs des accords en question. »
+14 L’article 10 alinéa 1 de la convention stipule que : « Les programmes d'action nationaux ont pour but d'identifier les
+facteurs qui contribuent à la désertification et les mesures concrètes à prendre pour lutter contre celle-ci et atténuer les
+effets de la sécheresse. »
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+17/76
+
+--- Page 18 ---
+PREMIERE PARTIE:
+ETAT ACTUEL ET EVOLUTION
+DES RESSOURCES NATURELLES
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+18/76
+
+--- Page 19 ---
+1. Les tendances d'évolution des ressources naturelles
+Les potentialités naturelles dont dispose le Gabon sont relativement importantes. Toutefois, le
+processus de dégradation des ressources naturelles semble s'amplifier et s'accélérer sous les effets
+combinés de plusieurs facteurs (changement climatique et pressions anthropiques).
+1.1 Ressources en eau
+1.1.1 Eaux de surface
+Selon Jean Saint Vil15, l’un des traits les plus frappant du milieu naturel gabonais est la très forte
+densité du réseau hydrographique. Celui-ci résulte d'une part, de la configuration géologique et
+géomorphologique du pays et, d'autre part du régime et de la répartition de la pluviométrie dans la
+sous-région. Par ailleurs, on y dénombre plusieurs zones humides qui contribuent à alimenter les
+deux fleuves que sont l’Ogooué et la Nyanga. A ces deux fleuves, il conviendrait d’ajouter le
+Komo en raison de l’étendue de son bassin versant.
+1.1.1.1. L’Ogooué
+Il prend sa source aux monts Massa à 690 m d’altitude dans la partie congolaise des plateaux
+batéké. L’Ogooué sillonne le territoire sur une longueur de 1200 km environ et s’étend sur toutes
+les zones climatiques du Gabon. Son bassin de 193500 km2 dessine un vaste triangle dont le
+sommet se trouve au Cap Lopez et la base unit approximativement Zanaga (Congo) et le mont
+Minkébé dans le Woleu-Ntem. Ce fleuve, est entrecoupé d’accidents notables dont le plus
+spectaculaire est la chute de Poubara (91 m de hauteur sur 70 km). L’Ogooué fait partie intégrante
+du paysage gabonais et sert de segment collecteur central dans lequel se déversent plusieurs cours
+d’eau dont les plus importants sont : la Mpassa, l’Ivindo et la Ngounié. Il se jette dans l’Océan
+Atlantique.
+1.1.1.2. La Nyanga
+La Nyanga est le second fleuve gabonais avec un bassin de 18 000 km2 et une longueur de 600 km.
+Il prend sa source au cœur du massif du Chaillu dans les monts Birougou à environ 1000m
+d’altitude. Plusieurs chutes et rapides jalonnent son cours en l’occurrence les chutes d’Ivela et
+d’Igotchi. Son principal affluent est la Moukalaba. La Nyanga se jette dans l’Océan Atlantique à
+70 km au nord de Mayumba.
+1.1.1.3. Le Komo
+Malgré ses dimensions relativement faibles (5000 km2 environ de bassin versant et 230 km de
+long), le Komo ne demeure pas moins un élément considérable du réseau hydrographique
+gabonais. En effet, il forme avec la Mbei un vaste estuaire par lequel, il se jette dans le golfe de
+Guinée. Son cours est également perturbé par de nombreux accidents (chutes de Tchimbélé et de
+Kinguélé).
+Il est à préciser que la pluviométrie, le relief, les sols et la végétation des diverses zones
+climatiques influencent les régimes des rivières et des fleuves. On distingue de nombreux régimes
+hydrologiques particuliers, regroupés en trois grandes zones :
+- le régime hydrologique des plateaux du Nord-Est influencé par le climat ;
+15 Toute cette section est tirée du document de SAINT VIL J., 1981
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+19/76
+
+--- Page 20 ---
+- le régime hydrologique des plateaux batéké où agissent le climat, la végétation (steppe
+herbeuse voire arbustive maigre) et les sols (formations géologiques sableuses et gréseuses)
+déterminent le régime fluvial ;
+- le régime hydrologique du reste du territoire (80% de la superficie) influencé par le relief,
+les sols et la végétation.
+1.1.2. Les zones humides
+Par définition, une zone humide est tout écosystème, aussi bien des rivières, lacs, lagunes, étangs,
+mares, marais, marécages que d’étendues d’eau marine dont la profondeur à haute marée ne
+dépasse pas 6 mètres.
+Selon RABENKOGO N.16, les milieux humides se rencontrent presque sur tout le territoire
+national. Cependant l’on peut observer des secteurs de forte concentration (Nord-Est du Gabon et
+plaine côtière) et des secteurs de forte dispersion (bassin amont de l’Ogooué et les vallées de la
+Ngounié et de la Nyanga) conséquence de leur inégale répartition et de la variabilité de leur
+étendue.
+Ainsi, le nord-est du Gabon est une zone de marais continentaux très étendue et de longues vallées
+marécageuses. On y rencontre les marais transfrontaliers (Gabon-Congo) de l’affluent de la rivière
+Ivindo dont la Djoua, dans la partie gabonaise, couvre une surface supérieure à 180 km2 . Au
+niveau de la frontière Gabon-Cameroun, se trouve une plaine d’inondation d’un affluent de la
+rivière Kom.
+A ces marais continentaux est associé un dense réseau de larges vallées marécageuses à fond plat,
+qui constituent les plaines d’inondation des rivières Ntem (120 km), Woleu (50 km), Ivindo (60
+km), Ayina (25 km), Bèmvoula (40 km), Nouna (40 km) et Sing (45 km), dans la province du
+Woleu-Ntem et Wong (30 km), Zadié (150 km) et Liboumba (220 km) dans la province de
+l’Ogooué-Ivindo.
+Dans le littoral, les zones humides sont assez importantes par leur étendue et leur diversité. On y
+trouve une variété d’embouchures (estuaires, deltas, baies et lagunes) et de vastes marais maritimes
+et fluvio-marins.
+Les marais maritimes se rencontrent dans le delta de l’Ogooué (325 km2), sur les berges des
+estuaires du Komo (210 km2), du Muni (40 km2) et dans la baie de la Mondah (57,5 km2).
+Les marais d’eau saumâtre ou salée occupent les rives des lagunes du Rembo-Nkomi (115 km2), de
+Ndougou (105 km2), d’Iguéla (40 km2) et de la Banio (20 km2).
+Les marais continentaux, dans le cours moyen de l’Ogooué, occupent le lit majeur de Ndjolé à la
+ligne Ngola-Ondombo. On y trouve plus de 865 km2 de lacs et de marais qui servent de plaine
+d’inondation à l’Ogooué, très développée entre Lambaréné et le delta maritime.
+En aval de Lambaréné, la plaine d’inondation a une largeur qui varie entre 1,5 km, en aval du
+marais Nkengué et 75 km sur une ligne allant du lac Azingo au lac Oguemoué. De Lambaréné à la
+ligne Ngola-Ondombo, la plaine mesure environ 125 km et atteint un développement maximum et
+continu. Les marais, très étendus, occupent une surface égale ou supérieure à 665 km2 (soit 595
+km2 pour le delta intérieur ou partie en aval de Lambaréné et 70 km2 pour la section comprise entre
+16 RABENGOKO N. ,2000
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+20/76
+
+--- Page 21 ---
+Ndjolé et Lambaréné). Les lacs les plus grands du pays sont : le lac Onangué (environ 120 km2 de
+superficie), le lac Anangué (46 km2), le lac Azingo (40 km2), etc.
+En revanche, en amont de Lambaréné à Ndjolé, le même auteur souligne que les marais et les lacs
+connaissent un développement moins important. Ils sont discontinus sur des distances pouvant
+atteindre plusieurs centaines de kilomètres (par exemple 250 km de distance entre le marais du lac
+Nguéné et celui de la rivière Mbiné). Les zones humides comprises entre Ndjôlé et Lambaréné
+couvrent une surface d’environ 87,5 km2. Les marais occupent 70 km2 répartis en 20 km2 pour le
+marais du lac Nguéné et 50 km2 pour les marais de la rivière Mbiné. Les lacs ont une superficie
+totale de près de 17,5 km2 dont 10 km2 pour le lac Ayèm et 7,5 km2 pour le lac Nguéné.
+Enfin, le reste du pays est composé des zones humides de taille modeste telles que les marécages,
+les rivières et les petits lacs. Elles prédominent dans la plaine d’inondation du cours amont de
+l’Ogooué, la vallée de la Ngounié et celle de la Nyanga.
+1.2. Ressources en sol
+Le climat équatorial chaud et humide oriente l’altération des roches vers une pédogenèse de type
+ferrallitique ; caractérisée par l’hydrolyse totale des minéraux primaires des roches mères, par
+l’exportation de la plus grande partie des cations (biogènes) libérés. Les éléments résiduels tels que
+le quartz, la kaolinite et les hydroxydes s’accumulent dans le milieu.
+Il en résulte des sols à faible richesse chimique mais à caractéristiques physiques bonnes surtout
+lorsque les teneurs en argile sont suffisantes.
+Ces sols, généralement profonds (2 à 5 m), à horizon organo-minéral peu épais (0 à 5 cm) reposent
+sur une épaisse altérite coiffée par une bande de concrétions de dimensions variables (stone-line).
+Les principaux facteurs qui impriment les caractéristiques aux sols et permettent leur
+différenciation sont : le climat, la géologie et la géomorphologie
+- Le climat :
+Bien que globalement situé en zone équatoriale humide, le Gabon compte environ quatre régions
+climatiques17 caractérisées comme suit :
+- une région Nord-Nord-Est à l’est de l’équateur jusqu’à Mitzic-Booué où la saison sèche
+dure 3 mois et la pluviométrie varie de 1500 à 1800 mm/an ;
+- une région Nord-Ouest de l’estuaire du Komo aux monts de Cristal où règne une saison
+sèche de 3 mois et tombent 2500 à 4000 mm/an de pluie ;
+- une région Centrale entre l’estuaire du Komo et le Mayombe (au sud-ouest), la frontière
+congolaise (au Sud-Est) et une grande partie du massif du Chaillu. On y note 3 à 4 mois de
+saison sèche et une pluviométrie variant entre 1500 à 2500 mm/an ;
+- une région Sud-Est (Haut Ogooué, Ogooué Lolo) à 3 mois de saison sèche et 1600 à 1800
+mm/an de pluie.
+17 CAROFF, RYDALESKI, 1970 : in MARTIN D., 1981
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+21/76
+
+--- Page 22 ---
+Tabl. I : Moyennes pluviométriques annuelles des principales stations (1951-1990)
+Ouest Moyennes Nord-Est Moyennes Sud-Est Moyennes
+Port-Gentil 2002 mm Mékambo 1611 mm Moanda 2015 mm
+Lambaréné 1949 mm Mitzic 1668 mm Lastourville 1770 mm
+Libreville 2887 mm Makokou 1672 mm Franceville 1885 mm
+Cocobeach 3165 mm Bitam 1770 mm - -
+Source : DMN, 2004
+Fig.1 : Carte des zones climatiques du Gabon
+Source : MALOBA JD, 2004 in
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+22/76
+
+--- Page 23 ---
+- Géologie et géomorphologie
+Le Gabon présente des paysages variés. L’imbrication de la géologie à la géomorphologie a permis
+d’identifier nombreuses régions naturelles18.
+On distingue du Nord au Sud :
+- les plateaux Nord-Nord-Est : prolongement des surfaces aplanies du sud Cameroun à relief
+monotone où s’élèvent quelques inselbergs (région d’Oyem) et massif d’itabirites (minerai
+de fer) de Bélinga-Mékambo. Les roches dominantes sont représentées par les granites ;
+- le bassin sédimentaire côtier (secondaire et tertiaire) : relief généralement plat (moins de 20
+m d’altitude) roches mères variées (grès, argilite, marnes) ;
+- la région sud-ouest : aux secteurs montagneux accidentés du Mayombe et des Monts
+Ikoundou, s’opposent les zones aplanies et ouvertes (savanes) dues aux étages schisto-
+calcaires de la Nyanga et de la Ngounié ;
+- les montagnes gabonaises s’étendent des monts du Cristal au massif du Chaillu en passant
+par les monts de Ndjolé ;
+- le bassin sédimentaire francevillien à paysages très variés dus à l’existence de plusieurs
+types de roches mères (grès, pélites, ampélites, jaspes, etc.) ;
+- les plateaux Batéké, dont la grande extension se trouve au Congo sont constitués par des
+dépôts continentaux sableux du tertiaire recouvrant le socle granito-gneissique et une partie
+du francevillien.
+1.2.1. Principaux types de sols
+1.2.1.1. Les sols des plateaux Nord-Nord-Est
+Les sols rencontrés dépendent de leur position dans le paysage
+Sur les sommets : les sols sont épais, présentent une couleur constante (jaune) et une induration
+plus ou moins intense en profondeur. La texture est argilo sableuse à sablo argileuse, le taux de
+matière organique varie entre 3 et 6% en surface (0-5 cm). Ils ont pour contraintes principales la
+faible fertilité chimique.
+Entre les sommets s’étendent des bas-fonds plus ou moins larges. Les sols, constamment engorgés,
+subissent une pédogenèse influencée par la présence d’eau (hydromorphie).
+Les sols hydromorphes des bas-fonds, à très faible drainage, à hétérogénéité texturale et organique
+ne peuvent convenir à une utilisation agricole. Cependant, localement, des petites rizicultures
+peuvent y être installées sur des faibles surfaces.
+1.2.1.2. Les sols du bassin sédimentaire côtier
+En relation avec la grande diversité des roches mères, les sols du bassin sédimentaire côtier
+présentent des caractéristiques variables. Ils sont en général de texture dominée par les sables et
+ont un bon drainage. De nombreuses cultures vivrières et arbustives (bananiers, palmier à huile,
+hévéa, etc..) peuvent s’y adapter. Dans les dépressions se sont développés des sols hydromorphes
+qui ne peuvent être utilisés qu’en saison sèche pour le maraîchage et la riziculture.
+18 FONTES, 1975 in MARTIN D., 1981
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+23/76
+
+--- Page 24 ---
+1.2.1.3. Les sols de mangroves
+Le terme « mangrove » s’applique exclusivement à la frange de terre qui subit de façon
+permanente ou temporaire l’influence des eaux salée ou saumâtre (halomorphie). L’aspect de la
+mangrove varie de la façade côtière à celle du delta de l’Ogooué (MARIUS, 1971).
+L’évolution des sédiments accumulés dépend de leur distance à l’océan et de la présence plus ou
+moins importante des sels solubles et des composés soufrés. Ces sols sont inutilisables dans les
+conditions actuelles (MARTIN D. et al 1981).
+1.2.1.4. Les sols de la région sud-ouest
+Dans cet ensemble à reliefs variés (relief accidenté du synclinal Ngounié-Nyanga et plateaux
+schisto-calcaire), la pédogenèse est complexe et la répartition des sols est liée à la géologie.
+Sur la partie accidentée du synclinal, les sols ont une texture argileuse et un complexe d’échange
+désaturé. L’agriculture paysanne peut pratiquer une gamme variée de cultures vivrières. Le relief
+rend impossible toute agriculture moderne.
+Sur les reliefs plats des plateaux schisto-calcaires, la pédogenèse est influencée par les produits
+d’altération des calcaires sous-jacents. Les sols, à texture argilo-sableuse à sablo-argileuse,
+présentent des fortes accumulations d’éléments grossiers à faible profondeur, des teneurs en
+matière organique faibles et des capacités d’échange ne dépassant pas 10 mé/100g de sol en
+surface. Ces sols sont très peu utilisés même en agriculture paysanne.
+1.2.1.5. Les sols des montagnes gabonaises
+La pédogenèse ferrallitique des sols de cette région est caractérisée par une altération des minéraux
+peu intense. Il en résulte des sols, peu profonds continuellement rajeunis par l’érosion, à texture
+sablo-argileuse à argileuse. La teneur en matière organique avoisine 10% en surface, la capacité
+d’échange est plus élevée que dans les autres sols ferrallitiques typiques (10-20 mé/100g de sol).
+Les pentes, généralement fortes et la faible profondeur des sols, constituent les principales
+contraintes quant à la mise en valeur des sols de cette région.
+1.2.1.6. Les sols du bassin sédimentaire francevillien
+La morphologie alterne entre les anciens plateaux élevés et les récentes formations plus basses.
+Malgré leur faible fertilité chimique, compensée par d’assez bonnes caractéristiques physiques, les
+sols des sommets des plateaux peuvent convenir à des utilisations diverses même si leur vocation
+principale paraît être l’élevage.
+Les sols des formations basses sont plus épais, rajeunis et leurs principales caractéristiques sont
+liées à la nature des roches mères. La texture est argilo-sableuse à sablo-argileuse.
+L’appauvrissement des horizons supérieurs est d’autant plus intense que le sol est plus riche en
+sable. Ces sols peuvent être utilisés pour l’agriculture paysanne, mais les pâturages intensifs et
+extensifs sont également possibles.
+1.2.1.7. Les sols des plateaux Batéké
+Les sols de cette région se sont développés sur des dépôts continentaux sableux du tertiaire ayant
+recouvert le socle ainsi qu’une partie du francevillien. Ils ont une texture sableuse dominée par les
+sables grossiers. Les processus pédogénétiques majeurs tels que : l’appauvrissement, la
+podzolisation et l’hydromorphie s’expriment en fonction la position des profils dans le paysage.
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+24/76
+
+--- Page 25 ---
+Les sommets des collines portent des sols de type ferrallitique appauvri ou lessivé, à texture
+sableuse à sable grossier, à faible fertilité chimique ne permettant qu’une agriculture de
+subsistance à faibles rendements ou un pâturage extensif à faible valeur nutritive pour les animaux.
+Le reboisement est par endroits possible. Quelques cirques d’érosion plus ou moins actifs existent
+(canyon de Léconi).
+Sur les pentes, les mêmes sols appauvris présentent des horizons blanc-cendre caractéristiques des
+sols podzoliques (podzols tropicaux).
+Les vallées sont comblées d’alluvions sableuses provenant probablement des cirques d’érosion.
+Sur ces alluvions, se sont développés des sols variés notamment des pseudo-podzols à horizon
+humo-ferrique induré, et des sols hydromorphes où s’accumule de la matière organique.
+Les problèmes de drainage auxquels s’ajoute la faible fertilité chimique excluent ces sols de toute
+utilisation.
+1.2.2. Menaces sur les sols
+Le Gabon dispose de 85 % de massif forestier et de 15% de savanes, de mangroves et de
+marécages ouverts. Faiblement peuplé (1.586.876 hab), le Gabon a une population rurale estimée à
+25% qui n’exploite que 2% des terres cultivables. Malgré ce constat, les forêts du Gabon subissent
+des menaces de plus en plus graves à cause de l’exploitation forestière intense et de l’utilisation
+des techniques agricoles traditionnelles (brûlis). On note de ce fait la régression du couvert
+forestier et l’apparition par endroits des formations végétales de type savanicole.
+A ces actions anthropiques s’ajoutent les effets de fortes précipitations (1500 à 4000 mm/an)
+associés aux facteurs topographiques dominés par des reliefs accidentés. Les sols du Gabon sont
+ainsi exposés à des risques d’érosion de plus en plus importants caractérisée par .
+- la diminution des potentiels physiques et chimiques des sols ;
+- la baisse de productivité et la baisse des rendements des cultures ;
+- la précarité de la sécurité alimentaire et la pauvreté ;
+- l’altération de la qualité de l’eau.
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+25/76
+
+--- Page 26 ---
+Carte n°2: Sols du Gabon
+Source : MARTIN D, 19
+1.3. Ressources végétales
+Le bois est l'une des principales ressources renouvelables du Gabon et la forêt a toujours joué un
+rôle de premier plan dans l'économie gabonaise. La principale espèce exploitée est l'Okoumé dont
+le Gabon a pour ainsi dire le « monopole », puisque plus de 80 % de son aire de distribution s’y
+trouvent. L'Ozigo est la deuxième essence exploitée. Outre l'Okoumé et l'Ozigo, d’autres essences
+appelées « Bois divers » possèdent un potentiel commercial également important.
+L’exploitation du secteur bois a connu un regain d’intérêt, avec les améliorations contenues dans la
+nouvelle législation forestière (Loi 16/2001 du 31 décembre 2001 dit Code forestier en République
+Gabonaise), qui encourage les exploitants forestiers à élaborer des plans d’aménagement.
+La production forestière annuelle varie en moyenne entre 3 et 3,5 millions de m³ de grumes,
+répartie comme suit :
+- exportations directes d’Okoumé et d’Ozigo : 1,5 à 2 millions de m³/an
+- exportations de bois divers (autres essences combinées): 700 à 800 mille m3/an.
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+26/76
+
+--- Page 27 ---
+- consommations des industries locales : 600 à 1000 m³/an.
+Tableau I : Niveau de production, d’exportation et de consommation
+Années Production Exportation Consommation
+(x 1000 m3) (x 1000 m3) locale (x 1000 m3)
+2000 3 714 2 579 1 135
+2001 3 531 2 310 1 221
+2002 2 825 1 927 898
+2003 3 020 1 717 1 303
+2004 2 562 1 959 603
+2005 (Estimation) 3 740 1 870 1 870
+2006 (estimation) 3 983 1 992 1 999
+Source : DGEF, 2005
+Le taux de transformation du bois au Gabon est demeuré faible au cours de ces dernières années
+(10%). Conscient de ce faible taux et en vue d’accroître la valeur ajoutée de ce secteur vital de
+l’économie gabonaise, le Gabon a lancé par l’intermédiaire du nouveau Code Forestier, une vaste
+politique d’encouragement de l’industrialisation plus poussée de la filière bois
+Les forêts denses humides sans okoumé. L'okoumé disparaît des forêts du nord et du nord-est.
+Celles-ci sont en revanche plus diversifiées: l'ako, le limbali, le limba, l'ayous, le wengé, le moabi,
+le dabéma s'y trouvent en abondance.
+Les écosystèmes de forêts inondées. Deux types se distinguent: les marais maritimes et les marais
+continentaux, qui se présentent comme suit.
+1.3.1. La mangrove
+Elle s'étend sur plus de 3500 Km² à travers le pays et est essentiellement constituée de Rhizophora
+(palétuvier) et d’Avicennia. Elle se localise le long du littoral côtier et dans les lagunes à eau
+saumâtre.
+1.3.2. La savane
+Elle est localisée dans les plateaux Batéké, dans les vallées de la Nyanga et de la Ngounié. On la
+trouve également dans la région de la Lopé et par îlots dans la zone côtière. Elle se compose
+principalement de graminées telles que l’Hyparrhenia, Andropogon, Pobeguinea. La strate
+herbacée est parfois dominée par des arbustes tels que Hymenocardia acida, Bridelia et Annona
+senegalensis.
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+27/76
+
+--- Page 28 ---
+Carte n°3: Principales formations végétales
+Source : CABALLE G., 1982 in Géographie et Cartographie du Gabon pp. 34-35
+1.4. Ressources animales
+Plusieurs types de chasse sont pratiqués au Gabon (chasse de subsistance, chasse sportive, chasse
+commerciale). La détérioration du niveau de vie, causée par la situation économique difficile et le
+chômage qui en découle, auxquels on adjoint la forte demande en viande de brousse dans les
+centres urbains, font du braconnage une activité lucrative, donc difficile à juguler (WWF/PNUD,
+1998). On constate ainsi dans certaines régions (cas de la Forêt de la Mondah) la raréfaction, voire
+la disparition de certaines espèces animales notamment le Situtunga (Tragelaphus spekei scriptus),
+le potamochère (Potamochoerus porcus), et le Mandrill (Papio sphinx).
+Aussi, 30 000 tonnes de viande de brousse sont consommées par an (2003). Graph. I, ci-après.
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+28/76
+
+--- Page 29 ---
+Graph. I : Les espèces de gibier les plus consommées au Gabon
+7% 3%8%
+10%
+56%
+16%
+Autres epèces Antilope (Cépahalophe rouge)
+Sanglier (Potamochère) Pangolin
+Gazelle (Céphalophe bleu) Porc épic (Atherure)
+Source : Filière de viande de brousse au Gabon (WCS), Infos 2, janvier 2005
+Cette situation illustre l’appauvrissement aussi qualitative que quantitative des ressources
+fauniques dans les forêts périurbaines des grandes villes (Libreville, Lambaréné,…).
+Les foyers de pression sur les ressources fauniques ont été identifiés lors des travaux du PNAE
+telle que le montre la carte n°4 ci-après.
+Carte n°4 : Foyers de pression
+Source : PNAE, 2001
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+29/76
+
+--- Page 30 ---
+Pour réduire l’importation des produits carnés et atténuer la pression sur la faune sauvage, le
+Gabon a initié des activités d’élevage dont le niveau actuel du cheptel est donné par les statistiques
+fournies par la Direction Générale de l’Agriculture, de l’Elevage et du Développement Rural.
+Tableau II : Situation du cheptel en 2005
+Année/ Cheptel nombre Cheptel Production Consommation Taux de
+Espèces de têtes exploitable nationale par Tonnes couverture
+nombre de tête Tonnes
+2005
+bovins 5 000 600 90 9 555 0,94
+ovins 231 184 60 108 865 1 092 79
+caprins 92 030 24 848 328 328 100
+porcin 232 750 69 825 3 518 7 508 47
+volaille 3 586 464 3 586 464 4 022 13 869 29
+œufs (nbr) 51 653 227 58 696 849 88
+Source : DGAE, 2005
+1.5. Ressources halieutiques
+Le Gabon qui possède une façade maritime longue de 800 km, a un plateau continental de près de
+40000 km² et des eaux riches en ressources halieutiques. Les stocks sont estimés à 250000 tonnes
+de petits pélagiques (sardinelles, anchois, chinchards), 400000 à 500000 tonnes de thonidés durant
+six à huit mois par an, 65000 tonnes d’espèces démersales et 2000 tonnes de crevettes joutent
+auxquelles s’ajoutent des quantités importantes de langoustes, crabes et seiches.
+Les ressources halieutiques des estuaires et des lagunes ne sont pas entièrement inventoriées. Il en
+est de même des stocks de poissons des eaux continentales.
+Les données statistiques sur les évolutions des captures sont reprises sur le tableau et le graphique
+ci-dessous :
+Tableau III: Evolution des captures
+Types de pêche 1998 1999 2000 2001 2002 2003 2004
+Pêche industrielle 13,96 11,38 11,73 9,48 10,96 12,49 6,6
+Pêche artisanale 30,64 29,19 24,89 23,49 20,5 22,7 8,5
+Pêche continentale 9,44 10 10,83 8,94 9,42 9,5 4
+Aquaculture 0,55 0,55 0,55 0,11 0,07 0,08 0
+Total 54,59 51,12 48 42,02 40,95 44,85 18,52
+NB :
+Pêche industrielle : tendances janvier-juin 2004
+Pêche artisanale maritime : tendances janvier-août province de l’Estuaire
+Pêche continentale : tendances janvier -juin 2004
+Source : DGPA, 2005
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+30/76
+
+--- Page 31 ---
+Graph II: Evolution des captures de 1998 à 2004
+35
+30
+25
+Quantité en
+20
+milliers de
+15
+tonnes
+10
+5
+0
+1998 1999 2000 2001 2002 2003 2004
+Années
+Pêche industrielle Pêche artisanale Pêche continentale Aquaculture
+Source : DGPA, 2005
+2. Causes et manifestations de la dégradation des terres
+Selon la définition retenue par la (CCD), le terme désertification désigne « la dégradation des
+terres dans les zones arides, semi-arides et sub-humides sèches par suite de divers facteurs,
+parmi lesquels les variations climatiques et les activités humaines ».
+Ainsi comprise, la désertification apparaît comme un phénomène dont les causes renvoient à des
+facteurs physiques et humains. L’évolution de ces facteurs révèle la complexité des processus de
+dégradation des ressources naturelles.
+2.1 Causes de la dégradation des terres
+2.1.1. Les aspects physiques
+2.1.1.1. Facteurs climatiques
+De par sa position géographique, le Gabon connaît un climat équatorial. Parmi les facteurs
+climatiques, seules les précipitations ont un effet très marqué sur la dégradation des terres. Ces
+dernières abondantes, fréquentes accompagnées d’orages, sont inégalement réparties (cf carte des
+zones climatiques) et affectent les ressources en eau et l’agriculture.
+2.1.1.2. Facteurs topographiques
+Le modelé du Gabon, peu élevé, est assez morcelé. Les altitudes varient de 300 m à la côte à plus
+de 1000 m vers le continent (1020 m au Mont Milondo). Quand les sols ne sont pas couverts, les
+valeurs des pentes conditionnent les vitesses d’écoulement des eaux de surface et induisent une
+forte érosion hydrique.
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+31/76
+
+--- Page 32 ---
+Photo 1 : Cirques de Léconie,
+Source : Consultants locaux, 2004
+2.1.2. Les aspects humains
+2.1.2.1. La démographie
+En 1960, le Gabon comptait environ 448.564 habitants. Cette population est passée à 600.000 en
+1975 et à 1.586.876 habitants en 2003, ainsi en 43 ans la population a triplé.
+Malgré ce constat, le Gabon demeure toujours un pays faiblement peuplé. Cependant, suite à
+l’exode qui s’exerce du milieu rural vers les grandes villes (Libreville, Port-Gentil, Franceville,
+etc.), celles-ci connaissent une explosion démographique, suivie d’une urbanisation rapide,
+spontanée et anarchique (82,29%). Pareil phénomène amplifie les problèmes d’évacuation des
+eaux (usée et de ruissellement) et de gestion des ordures ménagères et industrielles. Il s’ensuit des
+inondations fréquentes, source de dégradation des terres.
+2.1.2.2. La gestion des ressources naturelles
+Outre la croissance démographique qui provoque des déséquilibres au niveau des capacités de
+charge dans et autour des grandes agglomérations, les mauvaises pratiques agricoles caractérisées
+par des labours répétés des sols, parfois même sur des fortes pentes, l’exploitation forestière
+intense et répétitive, le défrichement massif des forêts et la pratique des feux de brousses (brûlis)
+accentuent les phénomènes d’érosion.
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+32/76
+
+--- Page 33 ---
+2.2. Principales manifestations de la dégradation des terres
+Les processus de dégradation de terre engendrent multiples conséquences qui affectent le milieu
+naturel.
+2.2.1. Facteurs anthropiques
+Sur toute l’étendue du territoire gabonais, des grandes superficies de forêts sont défrichées pour
+des raisons agricoles.
+Autour des grandes villes, afin de ravitailler les populations en légumes, se sont développées des
+« ceintures vertes » qui sont des espaces exploitées par des maraîchers. Les pratiques culturales
+utilisées : labours répétés des sols, utilisation excessive d’engrais et des pesticides sont
+préjudiciables à la conservation de l’environnement.
+L’exploitation forestière, pétrolière et minière (uranium, manganèse, etc.) et bientôt le fer causent
+la déforestation de plusieurs milliers d’hectares de forêts et remuent plusieurs milliers de tonnes de
+terre qui, si l’on n’y prend pas garde, seront transportés vers les cours d’eau qui à leur tour seront
+pollués ou asséchés.
+Toutes ces actions influent négativement sur les équilibres existant entre les différents
+écosystèmes.
+2.2.2. Facteurs édaphiques
+Formés sous climat équatorial chaud et humide, induisant une pédogenèse de type ferrallitique, les
+sols du Gabon sont originellement médiocres (fertilité chimique faible) pour l’agriculture et
+l’élevage.
+Fig. 1 : Dégradation des terres et perte de leur potentiel de récupération
+Ressources naturelles renouvelables
+Sols
+Eau de pluie Végétation
+Surexploitation et mauvaise pratique
+Perte du potentiel de productivité
+Diminution de la capacité de réponse
+Lessivage / dégradation des terres
+Source : Consultants locaux Gabon, 2006
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+33/76
+
+--- Page 34 ---
+3. Les incidences de la dégradation des terres sur les activités productives
+La dégradation des terres influe sur plusieurs activités productives, notamment l’agriculture,
+l’élevage et les ressources en eau. L’afflux massif des populations vers les grandes villes exerce
+des fortes pressions sur les terres. Les superficies des terres arables devenant de moins en moins
+disponibles, les jachères sont plus courtes voire même absentes. Il s’en suit une baisse de la
+productivité des terres et des rendements des récoltes, une sécurité alimentaire de plus en plus
+précaire et une diminution des revenus des populations.
+L’eau est un élément fondamental pour les populations et une ressource productive importante. Si
+le Gabon possède d’énormes potentialités en ressources en eau, la maîtrise et la gestion de celle-ci
+posent problème. L’accès à l’eau potable n’est pas aisé.
+La dégradation des terres provoque des déplacements de plusieurs tonnes de sédiments (érosion
+hydrique) qui s’accumulent des l’océan, les fleuves, les rivières et les lacs.
+Ces sédiments qui détériorent la qualité des eaux de rivières posent non seulement des problèmes
+de santé à ceux qui la consomment mais également réduisent les capacités de navigation dans les
+certains cours d’eau.
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+34/76
+
+--- Page 35 ---
+DEUXIEME PARTIE:
+EVALUATION DES ACTIONS DE LUTTE
+CONTRE LA DEGRADATION DES TERRES
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+35/76
+
+--- Page 36 ---
+5. Les expériences engagées avant 1960 et durant la période post indépendance
+Les explorateurs qui ont parcouru l’Afrique, se sont inquiétés de la dégradation des milieux et de la
+précarité des conditions d’existence des peuples. Pourtant, au cours des siècles écoulés, les
+populations de ces régions ont pu concilier les exigences de production et de subsistance avec la
+préservation des équilibres écologiques en adoptant des techniques et des pratiques respectueuses
+de l’environnement.
+Il a fallu attendre la conférence de Yangambi au Congo Belge (1956), pour voir s’ouvrir une
+nouvelle ère de préoccupations internationales en faveur d’une politique de la protection de la
+nature en Afrique, notamment sur le respect de la faune et de la flore.
+1.1. Durant la période pré et post indépendance
+Dès la deuxième moitié du 19è siècle, avec les voyages de SAVORGNAN de BRAZZA (1875) au
+Gabon, un mouvement d’études et d’observations de la nature (flore, faune) est enclenché. Ce
+mouvement sera poursuivi par des chercheurs isolés, des administrateurs des colonies et même des
+missionnaires (CHEVALIER, KLAINE, TETSU, etc.)
+Progressivement un embryon d’administration coloniale chargée de l’environnement est mis en
+place avec pour domaine essentiel d’étude : l’écosystème terrestre. Celui-ci sera subdivisé en zone
+urbaine et en zone rurale.
+Zone urbaine :
+Les actions menées concernant l’assainissement et l’hygiène publique étaient sous-tendues par des
+textes réglementaires pris par les autorités coloniales pour protéger le milieu. Citons19 :
+- arrêté du gouverneur Général (27 novembre 1937) réglementant l’hygiène et la salubrité de
+la voie et des immeubles des centres urbains de l’A.E.F
+- arrêté du Gouverneur Général (18 juin 1947) instituant un Conseil supérieur de l’hygiène
+de l’A.E.F
+- arrêté du Gouverneur Général (9 mai 1953) relatif aux infractions aux règlements
+d’hygiène et de la salubrité publiques au Gabon
+Zone rurale
+Dans cette zone les règlementations qui ont souvent concerné les forêts sont régies par les textes
+suivants :
+- arrêté du Gouverneur Général (29 décembre 1946) règlementant l’exploitation du bois en
+A.E.F
+- arrêté du 16 octobre 1947 déléguant les compétences au Gouverneur Général pour désigner
+par voie réglementaire les espèces forestières de valeur à protéger ;
+- arrêté du Gouverneur Général (16 octobre 1947) fixant le diamètre minimum
+d’exploitabilité ;
+- les délibérations de l’assemblée territoriale du 16 octobre 1957 instituant « la taxe de
+reboisement » et créant un « fonds forestier gabonais de reboisement ».
+Les actions de protection de la nature ont porté davantage sur la mise en place de structures de
+collection du matériel végétal (arboretum de Sibang et du Pk18 en 1933), mais surtout avec le
+programme de reboisement initié depuis 1946 (forêt classée de la Mondah, brigade de reboisement
+de la Bokoué, de la Mbiné et de la Mvoung).
+19 CHRISTY P., JAFFRE R., NTOUGOU O., WILKS C., 2003
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+36/76
+
+--- Page 37 ---
+Le Décret fixant le régime forestier en AEF, (20 mai 194620), prévoit que les forêts appartiennent
+au domaine privé de l’Etat, et qu’elles sont réparties en deux catégories :
+- les forêts classées gérées directement par le Service des eaux et forêts (anciennes réserves
+forestières existant avant le 20 mai 1946 et les forêts classées qui feront l’objet d’un
+classement après le 20 mai 1946) ;
+- les forêts protégées qui constituent le domaine forestier protégé (qui n’ont fait l’objet
+d’aucun arrêté de classement).
+Le décret du 20 mai 1946 modifié en 1955, développe une autre préoccupation en vue de
+sauvegarder l’intérêt général et de tenir compte de l‘influence du boisement, notamment sur la
+protection du sol, le régime des eaux et du climat. Mais il maintient les deux notions juridiques :
+les forêts sont soumises soit à un régime de classement, soit à un régime de protection et prévoit
+également les périmètres de restauration.
+En matière de protection de la faune, la notion d’espèces protégées intégralement, de permis de
+chasse et de la latitude d’abattage étaient prise en compte.
+Au lendemain de l’indépendance du Gabon (1960), la structure administrative est réorganisée et
+les législateurs prennent de nouveaux textes fondamentaux en 1960, 1961 et 1963 (loi 46-60 du 8
+juin 1960, décret d’application n°84/PR du 12 avril 1961 et code forestier édition 1963). Dans son
+édition de 1963, le code forestier du Gabon, suivant la tradition du décret de 1956 réglementant la
+forêt en AEF, se soucie de la protection de certaines espèces forestières.
+Les menaces sur l’environnement devenant de plus en plus pressantes, la Communauté
+internationale réunie à Stockholm (1972), crée le Programme des Nations Unies pour
+l’Environnement (PNUE). Celle-ci considère que la protection et l’amélioration de
+l’environnement sont une question d’importance majeure qui affecte le bien être des
+populations et le développement économique du monde entier. Dès lors, les dirigeants des pays
+du tiers-monde créent des Ministères chargés de la protection de l’environnement. Ainsi, le Gabon
+crée :
+- une Direction de l’environnement (1972) ;
+- le Centre National Anti-Pollution, CENAP, (ordonnance 5/76 du 21 janvier 1976) ;
+- le Ministère de l’environnement chargé de la protection de la nature (décret 913/85 du 25
+mai 1985).
+En matière agricole
+Pour mieux approvisionner les chantiers forestiers établis dans l’ensemble du pays en produits
+vivriers, l’Etat colonial avait axé sa politique agricole sur le regroupement des villages et
+l’encadrement technique des paysans.
+Les principales mesures prises à cet effet pour soutenir la production et le revenu des agriculteurs
+furent l’organisation de la commercialisation des produits agricoles et la création des deux
+établissements de formation des agents de base, dont une école de formation d’infirmiers
+vétérinaires à Ndendé et un centre de formation de moniteurs agricoles à Mikong (Oyem) pour
+l’encadrement des paysans.
+20 CHRISTY P., JAFFRE R., NTOUGOU O., WILKS C., 2003
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+37/76
+
+--- Page 38 ---
+Les résultats de cette politique agricole coloniale ont été remarquables grâce à un système de
+contrôle et de sanctions ainsi qu’à un encadrement technique de proximité vulgarisant des
+méthodes conservatrices des ressources naturelles. Ceux-ci peuvent se résumer, comme suit :
+- relative autosuffisance alimentaire ;
+- intégration progressive de l’agriculture paysanne au marché intérieur (approvisionnement
+des chantiers et centres urbains) ;
+- intégration progressive de l’agriculture paysanne au marché international
+(commercialisation des cultures de rente : café, cacao, huile de palme) ;
+- contribution significative de l’agriculture à la richesse nationale (environ 15% du PIB
+jusqu’en 1965).
+En matière forestière et environnementale
+De nombreux programmes ont été mis en chantier avec le concours des partenaires au
+développement. Ainsi, différentes initiatives ont été engagées dans le cadre de la recherche de
+solutions aux problèmes de gestion de l'environnement et des ressources naturelles.
+On notera qu'au départ, les stratégies d'intervention des pouvoirs publics ne se sont articulées
+principalement qu’autour des activités de sylviculture. Par la suite, les activités de reboisement ont
+été intégrées dans des programmes d'agroforesterie.
+1.2. Durant la période actuelle
+En matière des eaux et forêts, la Loi 1/82 du 22 juillet 1982 (Loi d’orientation en matière des Eaux
+et Forêts) modifiée par la Loi 16/2001 du 31 décembre 2001 (Code forestier) renferme les grandes
+lignes souvent reprises dans les différents plans de développement adoptés par le Gouvernement.
+Cette politique a évolution positive tient compte, des principes fondamentaux de la Déclaration de
+Rio (Sommet de la Terre tenu en Juin 1992 à Rio de Janeiro, Chapitre 11 de l’Agenda 21) et de
+l’Objectif an 2000 de l’OIBT, qui prônent les principes de conservation et de gestion durable des
+écosystèmes forestiers.
+L’objectif général visé par la loi est de promouvoir et de développer, dans un cadre global et
+cohérent d’aménagement du territoire, une gestion rationnelle et durable des ressources forestières,
+faunique, de même que l’industrialisation plus poussée de la filière bois afin d’accroître la
+contribution du secteur au développement économique, social, culturel et scientifique du pays.
+En matière d’Environnement et sur la base des recommandations de la Conférence de Rio, le
+Gouvernement gabonais a mis en place une politique nationale de protection de la nature,
+matérialisée par la promulgation de la Loi 16/93 du 26 août 1993 (code de l’environnement) et
+l’adoption en 1999 du Plan National d’Action Environnemental (PNAE) et en 2000 de la Stratégie
+Nationale Plan d’Action de la Diversité Biologique (SNPA DB).
+La politique gouvernementale en matière d’environnement vise à assurer une gestion rationnelle et
+durable qui garantisse la conservation des écosystèmes et la gestion des ressources biologiques
+afin de contribuer à l’amélioration du cadre et des conditions de vie des populations gabonaises
+ainsi qu’au développement harmonieux de la nation. Cette vision a permis d’élaborer une stratégie
+globale dont les grands axes sont :
+- la protection et l’amélioration du cadre de vie ;
+- la gestion durable des ressources biologiques ;
+- la valorisation économique des ressources naturelles.
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+38/76
+
+--- Page 39 ---
+Les principaux axes d’activités autour desquels s’articule la politique de gestion rationnelle des
+ressources sont notamment :
+- l’étude et la recherche en vue d’accroître les connaissances scientifiques et les capacités
+technologiques propres à assurer l’amélioration et le renouvellement des ressources
+naturelles ;
+- la gestion rationnelle des ressources, s’appuyant sur leur aménagement et se traduisant par
+une intervention soutenue des services publics dans le suivi des opérations d’inventaire, de
+reboisement, d’agroforesterie, d’assistance à la régénération naturelle, ainsi que par une
+redéfinition des conditions d’accès aux ressources et un renforcement du contrôle des
+activités des secteurs concernés ;
+- la constitution d’un réseau de parcs nationaux basé sur l’identification des sites critiques
+reconnus comme importants pour la conservation de la diversité biologique.
+1.2.1. Evolution du cadre institutionnel de gestion des ressources naturelles
+La lettre de politique générale du secteur forêt et environnement souligne les grandes lignes de la
+politique du Gabon dans les domaines de la forêt et de l’environnement et définit le cadre de
+diverses réflexions engagées par le Gouvernement au niveau dudit secteur depuis plusieurs années.
+1.2.1.1. Cadre institutionnel
+1.2.1.1.1. Départements ministériels
+Au niveau des structures gouvernementales, plusieurs départements techniques interviennent et
+initient des projets de gestion rationnelle des ressources naturelles qui tiennent compte de la lutte
+contre la dégradation des terres.
+Outre l'administration forestière et celle de l’environnement, il existe d'autres structures qui jouent
+un rôle important dans la planification, la mise en œuvre et la coordination des politiques de
+gestion des ressources naturelles. Au nombre de celles-ci, figurent :
+- la Direction Générale de l'Aménagement du Territoire ;
+- la Direction Générale de l'Elevage et du Développement Rural ;
+- le Conseil National des Parcs Nationaux ;
+- la Direction de la Météorologie Nationale ;
+- la Direction Générale des Mines et Géologie ;
+- la Direction Générale des Hydrocarbures ;
+- l’Institut de l’Hygiène et de l’Assainissement ;
+- la Direction Générale de l’Habitat ;
+- etc…
+1.2.1.1.2. Les centres de recherche
+Les centres de recherche contribuent à la gestion des ressources naturelles. Ils disposent de
+compétences appréciables notamment dans les domaines de la planification, du suivi-évaluation,
+de l'aménagement, de la recherche-développement et de l'animation. Par conséquent, ils sont en
+mesure de jouer un rôle important auprès des parties prenantes, entre autres les producteurs ruraux
+en matière de préservation des ressources et de lutte contre la dégradation des terres.
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+39/76
+
+--- Page 40 ---
+1.2.1.1.3. Programmes et projets
+Les programmes et projets initiés sur fonds propres ou avec l’assistance de la coopération des
+partenaires au développement s’intéressent à l’exécution de la politique définie dans ce secteur
+d'activités. Ils contribuent au renforcement des capacités nationales. (Annexe I).
+1.2.1.1.4. Les Organisations non gouvernementales et le mouvement associatif
+Les ONGs constituent l'une des composantes les plus dynamiques du mouvement associatif. Elles
+se sont renforcées et diversifiées au cours de ces dernières années (44 dans le domaine de
+l’environnement et plus d’une cinquantaine dans le domaine agricole). Elles présentent aujourd'hui
+une image multiforme du point de vue de leurs structures (coopératives, groupements de
+producteurs, groupements villageois, groupements d'intérêt économique, etc.).
+Quelques unes d’entre elles, à l’instar des organisations paysannes ont engagé plusieurs initiatives
+intéressantes. De plus, elles disposent d'un potentiel humain important qu'il importe de mettre à
+contribution pour impulser une dynamique plus vigoureuse dans la lutte contre la dégradation des
+terres. Il faut ajouter à cela la contribution des organisations féminines qui sont particulièrement
+efficaces dans le secteur de la gestion des ressources naturelles et de l’agriculture.
+1.2.1.1.5. Structures sous-régionales
+1.2.1.1.5.1. COMIFAC (Commission des Forêts d’Afrique Centrale)
+La prise de conscience sur la nécessité de protéger l’espace forestier du bassin du Congo a favorisé
+le développement de la coopération sous-régionale pour la gestion des ressources naturelles. C'est
+dans ce cadre qu'a été créé la COMIFAC dont les missions ont été élargies à la gestion des terres
+dans l’ensemble des pays d’Afrique centrale (Gabon, Cameroun, République Centrafricaine,
+République Démocratique du Congo, Congo, Tchad, Sao Tomé & Principe, Guinée
+Equatoriale, Rwanda, Burundi).
+Chacun de ces Etats a mis en place un Comité chargé de la coordination de leurs programmes. Par
+ailleurs, la COMIFAC a reçu de la CCD le mandat de conduire les exercices de planification
+relatifs à la lutte contre la dégradation des terres, de même que l’élaboration du Programme
+d’Action Sous Régional (PASR).
+1.2.1.1.5.2. ADIE/PRGIE (Agence Internationale pour le Développement de l’Information
+Environnementale/ Programme Régional de Gestion de l’Information Environnementale
+Cette institution a été créée à la suite de la signature d’un Protocole d'Accord de coopération sous-
+régionale par le Cameroun, le Congo, le Gabon, la Guinée Equatoriale, la République
+Centrafricaine, la République Démocratique du Congo, le Tchad, et Sao Tomé & Principe. A
+cet effet, un programme dénommé PRGIE a été conçu comme programme d’appui à l’ADIE, lui
+permettant de remédier aux problèmes de création, de diffusion et de valorisation de l’information
+environnementale. Il crée une dynamique de développement basée sur le réseautage d’agences
+publiques, privées et associatives de la sous-région, désireuses de partager leurs informations et
+leur expérience en matière de gestion durable de l’environnement.
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+40/76
+
+--- Page 41 ---
+1.2.1.1.5.3. CEFDHAC (Conférence sur les Ecosystèmes de Forêts Denses et Humides
+d’Afrique Centrale)
+Cette structure qui est née en 1996 et coordonnée par le Bureau Régional Afrique Centrale de
+l’UICN (UICN/BRAC), concerne dix Etats d’Afrique Centrale. Elle a produit un Plan d’Action
+Stratégique Régional pour la gestion des ressources biologiques d’Afrique Centrale.
+1.2.1.1.5.4. OSFAC (Observatoire Satellital des Forêts d’Afrique Centrale)
+C’est un réseau régional en Afrique Centrale (Cameroun, Congo, Gabon, République
+Centrafricaine, République Démocratique du Congo, Guinée-équatoriale) dont l’objectif
+principal est d'améliorer la gestion durable des ressources forestières et environnementales dans le
+bassin du Congo par la promotion et la dissémination des informations dérivées de la télédétection
+et autres données géo-spatiales.
+1.2.1.1.5.5. RAPAC (Réseau des Aires Protégées d'Afrique Centrale)
+Le RAPAC est une association régionale, créée en mai 2000 à Yaoundé. Elle regroupe les
+administrations en charge de la gestion des aires protégées de sept pays de la sous-région
+(Cameroun, Congo Brazzaville, Gabon, Guinée-Equatoriale, République Démocratique du
+Congo, de São Tomé & Príncipe, et Tchad.). C’est une structure à vocation technique,
+spécialisée dans l'aménagement d'aires protégées, dont l’objectif est la gestion rationnelle des aires
+protégées en Afrique Centrale.
+1.2.1.1.5.6. PFBC (Partenariat pour les forêts du bassin du Congo)
+Le bassin du Congo, vaste région forestière compacte d’environ 230 millions d’hectares (6 % de la
+surface forestière mondiale), constitue, après l’Amazonie, la seconde forêt tropicale au monde, en
+termes de surface.
+Le PFBC est une initiative destinée à mettre en œuvre l’Agenda 21 adopté au Sommet de la Terre
+de Rio en 1992 et constituent un des résultats du Sommet Mondial pour le Développement Durable
+(SMDD) de Johannesburg, août 2002. C’est un ensemble de projets de coopération multi-acteurs,
+avec un champ thématique et géographique précis.
+1.1.6.7. NEPAD/Afrique Centrale
+La stratégie sous-régionale d’intervention en matière d’environnement a été élaborée
+conformément aux domaines programmatiques du Plan d’Action Environnemental du NEPAD.
+Elle est basée sur le réseautage, la bonne gouvernance, le partenariat, la mise en œuvre, le suivi et
+évaluation, et la mobilisation des ressources financières.
+1.1.6.9. AFLEG (Application de la Législation Forestière et la Gouvernance en Afrique).
+C’est le processus d'amélioration de la bonne gouvernance et l'application des lois dans le secteur
+forestier en Afrique. Ce processus est relatif à la gestion durable des forêts, la bonne gouvernance,
+l'harmonisation des réglementations et le respect des engagements entre les producteurs et les
+consommateurs des produits forestiers ligneux.
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+41/76
+
+--- Page 42 ---
+1.1.6.10. OAB (Organisation Africaine du Bois)
+Créée en 1976, l’OAB est l’une des plus anciennes organisations intergouvernementales
+panafricaines qui s’occupe de la gestion des ressources forestières particulièrement des activités
+visant la production et la commercialisation des grumes. Elle a élargi son activité, en développant
+les Principes, Critères et Indicateurs (PCI).
+1.1.6.11. OIBT (Organisation Internationale des Bois Tropicaux)
+Créée en 1983, l’OIBT a pour mission de faciliter les discussions, les consultations et la
+coopération internationale en matière de commerce et d’utilisation durable des bois tropicaux et la
+gestion durable des ressources forestières. Parmi les pays membres, on dénombre dix pays
+africains producteurs de bois dont cinq sont d’Afrique Centrale (Cameroun, République
+Centrafricaine, Congo, République Démocratique du Congo, Gabon).
+1.1.6.12. OCFSA (Organisation pour la Conservation de la Faune Sauvage en Afrique)
+C’est une organisation régionale africaine créée en 1983, qui œuvre à la gestion durable des
+ressources de la faune sauvage. Elle regroupe six pays (Cameroun, République Centrafricaine,
+Gabon, Congo, Tchad et Soudan).
+1.2.1.2. Cadre juridique
+Après son accession à l'indépendance, le Gabon a mis en place un dispositif juridique permettant
+de promouvoir les actions de protection de l'environnement et d'assurer la prévention des conflits
+liés à l'accès et au contrôle des ressources naturelles. C'est ainsi que plusieurs textes ont été
+élaborés à cet effet. Il s’agit des textes suivants :
+1.2.1.2.1. Le Code forestier
+Le cadre juridique régissant la gestion des ressources naturelles donne une part de plus en plus
+grande à la négociation/médiation entre tous les acteurs concernés. Aussi, dans le code forestier
+récemment adopté et promulgué, il est fait une large place à la participation des populations
+autochtones et locales dans l’exploitation rationnelle de la forêt par la sensibilisation et la
+formation.
+1.2.1.2.2. Le Code de l'Environnement
+Cette loi aux objectifs spécifiques de protection et de conservation des écosystèmes a permis
+l’élaboration de décrets qui prennent en compte la nécessité de systématiser les études d'impact
+pour tous les projets et programmes susceptibles de porter atteinte à l'environnement.
+1.2.1.2.3. Le Code des investissements agricoles
+Le code des investissements agricoles stipule dans son article 9 qu’un soutien soit accordé aux
+exploitants des régions défavorisées et aux zones soumises à des contraintes environnementales
+afin de contribuer à atteindre les objectifs, ci-dessous :
+- préserver l’espace naturel ;
+- maintenir et promouvoir des modes d’exploitation durables qui tiennent compte des
+exigences environnementales ;
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+42/76
+
+--- Page 43 ---
+1.2.2.1.4. La loi d’orientation agricole
+En matière de politique agricole, la loi fixe les objectifs généraux du secteur agricole et définit les
+orientations stratégiques de développement en vue de contribuer au développement économique,
+social, scientifique, technologique, et culturel du pays. Cette nouvelle vision renforce la légitimité
+des aides publiques agricoles et adhère à la mise en œuvre de la politique d’aménagement du
+territoire, s’inscrivant dans l’objectif de développement durable.
+Dans le titre VI, concernant la gestion durable des ressources naturelles l’article 69 stipule : « les
+dispositions relatives à la gestion de l’espace agricole rural ou périurbain de l’environnement et de
+la prévention de la biodiversité, s’appliquent à l’ensemble des exploitants de l’espace agricole ».
+1.2.6. Le Code Minier
+En matière d’exploration, d’exploitation et de commercialisation des ressources minières, le code
+minier se donne aussi pour objectif le respect de l’environnement, notamment la remise en état des
+sites dégradés.
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+43/76
+
+--- Page 44 ---
+TROISIEME PARTIE:
+ELEMENTS DU PROGRAMME D'ACTION
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+44/76
+
+--- Page 45 ---
+Au lendemain du Sommet de Rio (1992), le Gabon s’est lancé dans l’élaboration et la mise en
+œuvre de plusieurs exercices de planification ; mais aucuns d’eux n’a fait principalement l’objet de
+la dégradation des terres.
+Toutefois, la ratification par le Gabon de la CCD a conduit le pays à prendre des mesures visant à :
+- mieux comprendre le phénomène ;
+- prendre en compte ses impacts dans les secteurs d’activités socio-économiques.
+L’une de ces mesures est l’élaboration du Programme d’Action National de Lutte Contre la
+Dégradation des Terres (PANLCDT).
+Contrairement à d'autres exercices de planification concernant, la conservation de l'environnement,
+le PANLCDT présente une tonalité originale par le fait que dans ses principes directeurs, il prône
+entre autre le partenariat et la participation effective de tous les acteurs.
+Il se propose d'apporter des réponses aux principaux défis suivants:
+- une meilleure connaissance du phénomène de la dégradation des terres et une maîtrise, par
+les populations locales, des actions à entreprendre pour lutter contre elle,
+- des mesures de surveillance et d'évaluation des effets de la dégradation des terres en vue de
+leur atténuation,
+- le maintien d'un équilibre entre une exploitation rationnelle des ressources naturelles, en
+vue de satisfaire les besoins actuels, et une bonne conservation pour assurer l'avenir
+(gestion durable),
+- l'amélioration du cadre juridique et institutionnel pour une meilleure efficacité des actions à
+entreprendre,
+- l'amélioration de l'environnement économique afin de mieux lutter contre la pauvreté,
+4. Mesures de protection des sols
+Une bonne gestion de la valeur écologique des sols commande :
+- en amont, une collecte d’informations sur les caractères physico-chimiques (sels minéraux,
+porosité, drainage, aération, fertilité du sol) et les contraintes vis-à-vis de certaines formes
+d’agriculture ;
+- une approche des aspects importants visant la planification provinciale, la mise en valeur
+par les cultures et l’aménagement des espaces verts ;
+- en aval, l’élimination de tout facteur d’érosion et d’appauvrissement des sols.
+La fragilité relative (faible fertilité chimique et forte instabilité structurale) des sols gabonais, la
+transition entre une agriculture traditionnelle (itinérante sur brûlis) et une agriculture moderne
+(mécanisée, intensive et/ou extensive) doivent inciter à la prise de précautions face aux menaces
+que sont l’érosion et l’appauvrissement des sols.
+L’aménagement du territoire (aménagement des voies de communication, aménagements urbains
+et ruraux) nécessite comme préalable indispensable des études d’impacts environnementaux afin
+d’éviter ou de limiter au maximum la dégradation des paysages. Ainsi, à titre d’exemple,
+- les thalwegs et les dépressions feront l’objet d’aménagements minutieux ;
+- les talus doivent être conçus suivant un pendage visant à réduire au maximum les
+ruissellement et ravinement ;
+- les horizons de concrétions (stone-line) seront protégés.
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+45/76
+
+--- Page 46 ---
+Outil de planification et de mise en œuvre de la CCD, le PANLCDT regroupe plusieurs actions
+prioritaires qui permettront au Gabon d’amorcer sa stratégie de protection et d’amélioration des
+sols. Il se décline singulièrement en :
+- objectif de développement ;
+- principes directeurs ;
+- objectifs spécifiques ;
+- résultats attendus ;
+- actions et tâches à réaliser ;
+- indicateurs.
+1. Eléments stratégiques
+1.1. Objectif de développement
+L’objectif de développement du PANLCDT procède du souci d’arrimer les préoccupations
+environnementales aux impératifs de développement socio-économique du pays. Aussi, il s’agit de
+rechercher une parfaite synergie entre les activités des acteurs socio-économiques et le souci de
+connaître et de protéger d’avantage nos sols.
+De ce fait, l’objectif de développement s’énonce comme suit : « Le Gabon, à l’horizon 2025, doit
+assurer la protection et l’amélioration de ses sols par des pratiques agricoles adaptées et une
+exploitation forestière durable. »”
+1.2. Principes Directeurs:
+- l’activité de développement au Gabon doit tenir compte des enjeux écologiques,
+économiques, sociaux et culturels de la conservation des sols ;
+- les activités agricoles et forestières au Gabon sont tributaires du sol et tous les acteurs
+socio-économiques doivent contribuer à sa protection ;
+- les acteurs socio-économiques doivent être encouragés à mettre en œuvre des mesures de
+protection des sols ;
+- le maintien des sols sous couvert végétal est nécessaire à la lutte contre l’érosion ;
+- la promotion des pratiques agricoles traditionnelles à faible impact sur les sols ;
+- la protection des sols exige la participation de toutes les compétences nationales ainsi q’une
+coopération sous-régionale et internationale ;
+1.3. Objectifs spécifiques
+La matérialisation de l’objectif de développement et des principes directeurs passe inéluctablement
+par la définition des objectifs spécifiques (OS) qui sont le socle de l’ensemble des activités à
+mettre en œuvre. Ceux-ci se déclinent comme suit :
+O.S. 1 : Améliorer le cadre institutionnel et juridique en matière de gestion durable des sols
+O.S. 2 : Améliorer la connaissance scientifique des types des sols du Gabon
+O.S. 3 : Concevoir et mettre en œuvre une stratégie de communication et de formation du public en
+matière de gestion durable des sols
+O.S. 4 : Mettre en œuvre les actions de lutte contre la dégradation des terres en vue d’une gestion
+intégrée
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+46/76
+
+--- Page 47 ---
+3. Eléments opérationnels
+Les éléments opérationnels ci-dessous énumérés sont le résultat d’une approche participative qui a
+impliqué l'ensemble des acteurs agissant dans les secteurs socio-économiques ayant un impact sur
+les sols.
+2.1. Description des activités à mettre en œuvre
+Composante 1 : Amélioration du cadre institutionnel et juridique en matière de gestion
+durable des sols
+L’amélioration du cadre institutionnel en matière de gestion durable des sols passe par la création
+au sein de la Commission Nationale du Développement Durable, d’un comité spécialement
+chargé des questions relatives à la protection des sols. Cela suppose (i) l’identification des
+ministères impliqués et des parties prenantes, de même que (ii) la rédaction des termes de
+référence dudit comité
+Au niveau juridique, il s’agira de concevoir un cadre juridique adapté comprenant (i)
+l’élaboration d’une loi cadre en matière de protection des sols qui intégrera l’ensemble des
+préoccupations sectorielles ; elle sera appuyée par (ii) l’élaboration de deux décrets relatifs à la
+lutte contre la pollution des sols et l’affection des terres ; enfin (iii) un arrêté gouvernemental
+créant et organisant le comité spécial chargé des questions relatives à la protection des sols.
+Composante 2 : Amélioration de la connaissance scientifique des types des sols du Gabon
+Il s’agira de comprendre la distribution, la structure et la fonction des sols en
+procédant (i) à l’inventaire, la typologie et la cartographie des sols. Il s’agira ensuite (ii)
+d’identifier et valoriser les savoirs et pratiques traditionnels en matière d’utilisation et
+de protection des sols.
+L’amélioration de la connaissance des sols implique la formation des spécialistes (i) à
+travers des formations continues et diplômantes et (ii) la vulgarisation des
+connaissances.
+L’amélioration de la connaissance des sols exige également la collaboration et le partenariat
+entre la science moderne et les détenteurs du savoir traditionnel par le biais (i) de
+l’organisation/participation aux fora locaux, nationaux, sous régionaux et internationaux et (ii) par
+l’appui aux programmes d'échange d'expérience entre les différents acteurs par les visites de
+terrain ou les voyages d'étude dans les pays également affectés.
+Composante 3 : Conception et mise en œuvre d’une stratégie de communication et de
+formation du public en matière de gestion durable des sols
+La conception et la mise en œuvre d’une stratégie de communication et de formation du public en
+matière de gestion durable des sols passent par la création des mécanismes de formation et
+d’échanges d’informations à partir de (i) la sensibilisation des jeunes par l’insertion des aspects
+environnementaux dans les programmes scolaires et universitaires, (ii) la signature de conventions
+de restitution des résultats de recherche aux praticiens et aux populations locales et (iii) la
+réalisation d’un site web.
+Elle requiert en conséquence une vulgarisation soutenue des données à travers (i) l’organisation
+de campagnes d’information et de valorisation des connaissances traditionnelles sur la gestion des
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+47/76
+
+--- Page 48 ---
+sols, (ii) la conception et la diffusion de techniques à faible apport externe visant à améliorer les
+pratiques agricoles traditionnelles ; et (iii) la production d’ouvrages de vulgarisation adaptés à
+toutes les couches sociales.
+Enfin, elle nécessite également le renforcement des capacités des organisations de base afin que
+le transfert des compétences entre l'Etat et les collectivités locales soit un succès. De ce fait il
+faudra (i) l’organisation des cessions de formation à la demande des acteurs, (ii) l’établissement
+d’une collaboration entre les organisations de base, les ONG, les collectivités locales et les
+structures techniques de l'Etat.
+Composante 4 : Mise en œuvre d’actions de lutte contre la dégradation des terres en vue
+d’une gestion intégrée
+Les actions de lutte contre la dégradation des terres en vue d’une gestion intégrée exigent la
+réalisation des activités de lutte contre l'érosion des sols dans les sites anthropisés à travers (i)
+l’enrichissement en matière organique des terres dégradées, (ii) le reboisement des espaces sans
+couvert végétal ; (iii) l’utilisation d’ouvrages hydro-agricoles en vue de maîtriser les eaux de
+ruissellements.
+Elles requièrent également l’utilisation des techniques moins destructives des sols, notamment (i)
+le semis direct, (ii) le labour zéro, (iii) la réalisation de projets agro-forestiers, (iv) les engrais verts
+et plantes de couverture.
+Elles s’appuient par ailleurs sur la maîtrise des ressources en eau par (i) l’exécution du
+programme d’hydraulique villageoise, (ii) la construction de mini barrages ou de retenues d’eau.
+Aussi nécessitent-elles, la maîtrise des impacts des activités socio-éconmiques sur les sols, à
+travers (i) l’étude des impacts de l’extraction minière sur les sols, (ii) l’étude des impacts de
+l’exploitation forestière sur les sols, (iii) les effets négatifs de l’activité agricole sur les sols et (iv)
+l’effectivité du plan d’affectation des terres.
+3. Modalités de mise en œuvre du PAN.
+3.1. Mécanismes de financement
+Le financement du PANLCDT est assuré par des ressources internes et externes. Les ressources
+internes proviennent de la contre partie de l’Etat gabonais tandis que les ressources externes sont
+constituées des contributions des bailleurs des fonds (GEF et co-financement provenant des autres
+bailleurs).
+En matière de procédure financière, la Coordination utilisera les procédures de chaque bailleur
+ayant participé à la réalisation des activités du PANLCDT.
+.
+3.2. Modalités de mise en œuvre du PAN. Démarche de mise en œuvre du PANLCDT
+La mise en œuvre du PANLCDT nécessite une implication accrue de l’ensemble des parties
+prenantes qui participent, à des degrés divers au processus décisionnel, de suivi et de contrôle de
+réalisation du Plan de Travail Semestriel (PTS) du PANLCDT. C’est dans cette optique qu’est
+proposé le montage institutionnel ci-dessous.
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+48/76
+
+--- Page 49 ---
+Fig . 2 : Organisation du PANLCDT
+Ministère de
+l’Environnement
+Commission Nationale
+Développement Durable
+Comité de pilotage
+Partenaires au
+Secrétariat
+développement
+UNCCD
+Coordination
+PANLCDT
+Bénéficiaires
+Source : Consultants locaux Gabon, 2006
+a) Ministère de l’environnement
+En qualité de maître d’œuvre en charge de l’exécution de la convention, il veille au bon
+déroulement de l’ensemble des activités et joue le rôle de facilitateur. A ce titre, il est charge
+de fournir les supports administratifs et financiers nécessaires au travail du Comité de Pilotage
+(CP).
+b) Commission nationale développement durable
+Elle veille à ce que les activités du PANLCDT soient conformes à la politique de développement
+durable du pays. En outre elle apporte un appui scientifique et technique du Comité de Pilotage
+(CP).
+c) Comité de Pilotage
+Le Comité de Pilotage comprend les représentants des départements ministériels concernés, du
+secteur privé, de la société civile et des partenaires au développement.
+Le Comité de Pilotage :
+- examine toute documentation émanant des autres exercices de planification en cours et
+toute autre documentation appropriée afin de s’assurer de la conformité de leur contenu
+avec les objectifs du PANLCDT ;
+- s’assure de la rédaction par la Coordination du PANLCDT des rapports techniques et
+financiers semestriels et de leur remise aux partenaires intéressés ;
+- approuve le plan de travail et le budget établis par la Coordination ;
+- mobilise les compétences nécessaires à l’exécution des objectifs du PANLCDT ;
+- s’assure que les informations sur la réalisation du PANLCDT ainsi que ses objectifs sont
+portés à l’attention des autorités locales et nationales ;
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+49/76
+
+--- Page 50 ---
+- aide à la mobilisation des données disponibles et s’assure du flux d’informations constant
+entre les parties concernées ;
+- établit une liaison effective entre la Coordination du PANLCDT et les autres acteurs pour
+la prise conjointe de décisions ;
+- s’assure que la politique environnementale du gouvernement est pleinement reflétée dans la
+documentation du PANLCDT ;
+- examine et approuve les documents d’évaluation du PANLCDT.
+d) Coordination du PANLCDT
+La Coordination du PANLCDT travaillant à plein temps est chargée de la coordination générale, la
+gestion et la supervision de tous les aspects relatifs à l’exécution du PANLCDT. A ce titre, elle :
+- rend compte au Comité de Pilotage et aux bailleurs de fonds de l’état de mise en œuvre du
+programme ;
+- élabore les rapports techniques et financiers du PANLCDT
+- supervise les activités des consultants, des sous-traitants et des autres partenaires ;
+- organise les réunions du Comité de Pilotage ;
+- élabore les projets de plans d’actions et de budget à soumettre au Comité de Pilotage ;
+- établit une liaison effective avec les autorités, les parties prenantes concernées, les autres
+programmes nationaux et internationaux en étroite collaboration avec le Comité Pilotage ;
+- maintient les contacts avec le Secrétariat de la CCD.
+e) Secrétariat UNCCD
+Il informe les pays parties, par l’intermédiaire du Point Focal, sur les obligations qui sont les leurs
+vis-à-vis de la mise en œuvre de la convention et facilite les contacts avec certains bailleurs
+externes pour la mise en œuvre du PANLCDT.
+f) Partenaires au développement
+Ils appuient techniquement et financièrement la mise en œuvre du PANLCDT. Les différents
+bailleurs impliqués dans le programme sont chargés de promouvoir la plate forme d’échanges et de
+négociations en accord avec le Comité de Pilotage. Ils lui communiquent les informations
+nécessaires à l’élaboration du PTS et au suivi évaluation des activités en laissant à la Coordination
+le choix d’orientation des investissements dans le respect des accords en vigueur.
+g) Bénéficiaires
+A travers des appels d’offres ouverts, restreints ou de gré à gré, les bénéficiaires sont chargés de
+réaliser les activités ciblées dans les délais impartis.
+4. Suivi évaluation
+Les procédures de suivi évaluation comprennent les éléments suivants :
+- les objectifs et définition du système ;
+- les indicateurs ;
+- les outils.
+4.1. Les objectifs du Système de Suivi et Evaluation (SSE)
+Les objectifs du Système de Suivi et Evaluation (SSE) sont au nombre de quatre :
+- fixer des objectifs partagés et réalisables par activité ;
+- mesurer les écarts par rapport aux prévisions et identifier les problèmes liés au déroulement
+des activités ;
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+50/76
+
+--- Page 51 ---
+- proposer des mesures correctives et alternatives ;
+- restituer les informations de suivi et évaluation sous forme de rapports semestriels pour un
+meilleur éclairage des partenaires du PANLCDT.
+Le nombre de composantes et de partenaires du PANLCDT (Administrations, Société civile,
+Opérateurs économiques, Collectivités locales) ainsi que la nécessité de gérer leur synergie exigent
+un système qui soit à la fois un outil de pilotage et de communication.
+4.2. Les indicateurs
+Pour le PANLCDT, nous distinguons deux types d'indicateurs : indicateurs de performance et
+indicateurs d'impact.
+Si les indicateurs de performance sont utiles au suivi technique des activités, ceux d’impact
+permettent d’en effectuer l’évaluation. A ce titre, il est très important de souligner que ces
+indicateurs de suivi et d’évaluation n’ont de sens que comparés à des valeurs objectives prédéfinies
+(valeurs intermédiaires et valeurs cibles).
+La différence entre indicateurs de performance et d’impact réside dans le fait que les premiers
+traduisent la capacité de la Coordination à réaliser les missions qui lui sont dévolues, tandis que les
+seconds sanctionnent l’opportunité et la pertinence desdites missions auprès des bénéficiaires.
+5.3. Les outils
+En matière de suivi-évaluation du PANLCDT, plusieurs outils vont être utilisés : les Plan de
+Travail Semestriel (PTS), le Plan de Gestion des Ressources Humaines (PGRH), le Plan de
+Gestion des Ressources Financières (PGRF), le Plan de Financement (PFIN) et les rapports
+semestriels de suivi-évaluation.
+5.3.1. Les Plans de Travail Semestriels (PTS)
+5.3.1.1. Les données du Plan de Travail Semestriel (PTS)
+Le PTS est un ensemble de documents comprenant :
+- La liste des activités identifiées du plan analytique et leurs indicateurs ;
+- Le Chronogramme annuel séquencé de Réalisation (CHR) des activités et tâches.
+Le chronogramme présente chaque mois, trimestre, semestre et année les activités et tâches du
+programme. Il est préparé par la Coordination et est destiné au Comité de Pilotage, aux bailleurs de
+fonds concernés et aux responsables de la réalisation desdites activités et tâches. Il comprend :
+- un semainier (calendrier hebdomadaire) ;
+- les tâches ;
+- les responsables ;
+- les lignes budgétaires correspondantes ;
+- les dates butoirs (deadline).
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+51/76
+
+--- Page 52 ---
+5.3.1.2. Procédure d’élaboration du PTS
+Le PTS, élaboré par la Coordination, obéit aux étapes suivantes :
+1. La Coordination passe en revue les activités et les tâches de chaque composante en vue de
+sélectionner les activités répondant, de manière non exhaustive aux critères ci-après :
+- l’activité initiale ;
+- l’activité est en cours d’achèvement ;
+- l’activité est récurrente ;
+- l’activité est souhaitée pour atteindre de nouveaux objectifs du cadre logique du
+programme.
+2. Les activités ainsi retenues doivent être accompagnées d’indicateurs de suivi évaluation
+pertinents parfaitement décrits.
+3. Les tâches définies par ces activités sont ensuite programmées dans l’année et séquencées à
+l’aide d’un chronogramme semestriel de précision. Ce chronogramme montre également les
+responsabilités et le temps passé des ressources humaines impliquées.
+4. Le Plan de Gestion des Ressources Humaines (PGRH) a pour but est de planifier la durée
+de travail des responsables d’activités dans la limite du temps matériel imparti conformément au
+chronogramme.
+5. L’identification des moyens matériels nécessaires en relation avec les ressources humaines
+mentionnées ci-dessus permet d’élaborer le Plan de Gestion des Ressources Financières (PGRF).
+6. Le PGRH et le PGRF se conjuguent pour élaborer le Plan de Financement (PFIN) du
+PANLCDT.
+5.3.1.3. Chronogramme annuel de réalisation :
+Il présente le déroulement d’une activité dans l’année, en ses différentes tâches, à une semaine
+près. L’activité prend effet là où commence la première tâche et s’arrête avec la tâche qui se
+termine en dernier lieu. Le chronogramme fait apparaître les chevauchements, les retards et les
+dépassements de durée par rapport aux prévisions. Ce sont les indicateurs temporels.
+5.3.2. Les rapports et comptes-rendus et autres informations
+Plusieurs types de rapports servent de support au suivi et évaluation. On distingue :
+- les termes de références mensuels : ensemble des tâches du personnel programmées dans le
+mois avec précision des responsabilités, résultats poursuivis, échéances et observations ;
+- la gestion du temps à passer par chaque acteur dans la réalisation des activités en vue d’un
+suivi hebdomadaire ;
+- la collecte des comptes-rendus périodiques comprenant les valeurs réalisées d’indicateurs
+de performance et d’impact ;
+- les tableaux de bords semestriels élaborés par la Coordination pour chaque composante et
+le tableau de bord consolidé du PANLCDT;
+- les rapports périodiques d’information à échéance mensuelle, trimestrielle, semestrielle et
+annuelle ;
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+52/76
+
+--- Page 53 ---
+- la consultation libre des données sur un site Internet piloté par la Coordination.
+6. Les préalables à la réussite du PANLCDT.
+Le PANLCDT dans sa double dimension d'engagement politique et d'outil de planification,
+nécessite pour sa réussite :
+- la mobilisation de toutes les énergies disponibles ;
+- l’implication effective de toutes les parties prenantes au processus ;
+- l’engagement du gouvernement à travers sa participation financière au projet (intégration
+du PANLCDT dans la politique de développement du pays) ;
+- l’engagement des bailleurs de fonds à accompagner la mise en œuvre du programme.
+La mise en œuvre du PANLCDT doit être soutenue par une campagne de sensibilisation visant le
+politique, les élus locaux, les agents de l'administration, la société civile, le secteur privé et les
+partenaires au développement. Cette campagne de sensibilisation doit s'attacher à expliquer les
+enjeux et à lever les ambiguïtés qui accompagnent les termes de désertification et sécheresse.
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+53/76
+
+--- Page 54 ---
+CONCLUSION
+Selon les estimations du Programme des Nations Unies pour l'Environnement (PNUE), 30 % des
+terres du globe sont menacés de dégradation des terres et le tiers des régions sèches ont déjà perdu
+plus du quart de leur potentiel productif. Les moyens de subsistance de 900 millions de personnes,
+soit le sixième de l'humanité, en sont compromis. Les effets les plus immédiats et les plus
+manifestes s’observent dans les régions africaines, asiatiques et latino-américaines.
+Le développement de l’exploitation forestière, minière et agricole est de nature à accentuer la
+dégradation des terres, si des mécanismes de lutte ne sont pas mis en place et appliqués. La
+Convention sur la lutte contre la Dégradation des terres (CCD) offre alors de nouveaux espoirs
+pour lutter contre la dégradation des terres et la pauvreté. C’est dans cet ordre d’idée que le
+PNUE/FEM a ouvert récemment un programme opération (# OP 15) spécifique permettant aux
+pays parties d’avoir recours à des sources de financement pour étudier les causes et minimiser les
+effets sur la dégradation des sols, sur la structure et l’intégrité fonctionnelle des écosystèmes et en
+même temps, de contribuer à l’amélioration des moyens d’existence et des conditions de vie des
+populations.
+L'élaboration du PANLCDT au Gabon marque une étape décisive dans le cadre de la lutte contre la
+dégradation des terres et la lutte contre la pauvreté telle qu’énoncé dans le Document de Stratégie
+de Réduction de la Pauvreté (DSRP) élaborée par le Gabon sous l’égide de la Banque Mondiale.
+Le Gabon n'a pas attendu l'élaboration de la CCD pour s'engager dans la lutte contre la dégradation
+des sols. En effet, plusieurs actions aux plans juridique, institutionnel et opérationnel, dont les
+résultats n'ont malheureusement pas répondu à toutes les attentes, ont été menées. Cependant, la
+démarche novatrice préconisée par la Convention, à savoir une approche participative et
+décentralisée sous tendue par un partenariat dynamique entre toutes les catégories d'acteurs,
+constitue un motif d'espoir et un gage de réussite de la mise en œuvre des actions retenues.
+C'est la raison pour laquelle le PANLCDT sera un instrument à caractère juridique, opérationnel et
+financier qui permettra à tous les acteurs impliqués dans la lutte contre la dégradation des terres au
+Gabon, de conjuguer leurs efforts afin de venir à bout de ce fléau qui menace la survie de milliers
+d'hommes dans notre pays.
+Comme préconisé par la CCD, le PANLCDT a d'abord procédé à l'identification des facteurs qui
+contribuent à la dégradation des terres et/ou la sécheresse et à l'évaluation de l'état des ressources
+et des capacités disponibles et nécessaires pour une mise en œuvre réussie de la convention. Il a
+ensuite pris en compte les enseignements tirés des expériences de lutte contre la dégradation des
+terres et/ou d'atténuation des effets de la sécheresse ainsi que les préoccupations des différentes
+catégories d'acteurs. Il a enfin défini des mesures pratiques à prendre sur les plans institutionnel,
+juridique et technique afin de résoudre les problèmes identifiés.
+Le PANLCDT a également prévu un certain nombre de mesures visant le renforcement de la
+participation des populations et des collectivités locales, l'amélioration de l'environnement
+économique, la lutte contre la pauvreté et la mise en place d'un système d'information et d'alerte
+permanente.
+Le caractère itératif et participatif du processus sera également maintenu à travers la tenue de
+réunions d'évaluation de la mise en œuvre du PANLCDT, qui doit se tenir tous les trois ans et qui
+regroupera les représentants de toutes les catégories d'acteurs.
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+54/76
+
+--- Page 55 ---
+Il faudra toutefois, se garder de considérer le présent document comme une panacée. En effet, loin
+de constituer une fin en soi, le principe directeur du processus ayant permis l'élaboration de ce
+document, à savoir une approche participative et partenariale, doit être poursuivi tout le long de la
+phase, de mise en œuvre. Cela permettra une mise à jour périodique du PANLCDT pour prendre
+en compte les inévitables mutations, que connaîtra notre pays dans la voie de son développement
+économique et social.
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+55/76
+
+--- Page 56 ---
+REFERENCES BIBLIOGRAPHIQUES
+________o0o________
+AGONDODGO M., BOUSSIENGUET J. et al., BAKENDA J. L., 1998 - Les risques naturels
+2001, - Plan National d’Action pour au Gabon - Université Omar Bongo, Rapport
+l’Environnement (PNAE) – les 3 piliers de la Licence Géographie. .
+durabilité « restaurer l’efficacité écologique,
+libérer le capital de croissance économique, BANQUE MONDIALE, 1992- Rapport sur
+réduire les vulnérabilités » - Ed. L’Harmattan, le développement dans le monde. Le
+Avril 2001 268 p. développement et l’environnement -
+Indicateurs du développement dans le monde,
+AGONDOGO M., 2001 – Note de présentation 299 p.
+de la Stratégie nationale CCD (PAN) –
+Direction Générale de l’Environnement (DGE), BARBERA I. G.,1986 - Le comportement du
+12 p. climat du sud - ouest du Gabon - ENS,
+Libreville, Mém. CAPES, 98 p. ronéo.
+AGONDOGO M., OGANDAGAS C., et al.
+2000 – Etat de l’environnement au Gabon - BAYET (A). , 1993 - Villes et aménagement
+Programme des Nations Unies pour du territoire gabonais – « Dossier Gabon » ;
+l’Environnement (PNUE) / Réseau de REGARDER L’AFRIQUE, le magazine des
+l’Environnement pour le Développement cités d’Afrique et de l’Océan Indien, n° 3 –
+Durable (REDDA) / Association pour le sept. 1993 – p. 13 à 35.
+Développement de l’Information
+Environnementale (ADIE) / Programme BERGONZINI (JC), 2004 - Changements
+Régional de Gestion de l’Information Climatiques, Désertification, Diversité
+Environnementale (PRGIE), 50 p., Biologique et Forêts – ed Silva et Riat, 146 p
+AGONDOGO M., OGANDAGAS C., 2000 – BINET D., MARCHAL E., 1993 - Large
+Etude sur l’impact de l’anthropisation de la marine ecosystem of shelf areas in the Gulf
+forêt classée de la Mondah – RAAF-FD ; 35 p. of Guinea : long - term variability induced
+by climatic changes - in : Sherman K.,
+AGROGABON, 1978 : Réalisation d’un Alexander LM.Gold BD ( éd), 1993.
+complexe agro-industriel dans la région de
+Lambarené – aspects techniques. BRECHE, 1991 – République gabonaise.
+Rapport National sur l’environnement
+ARONDO G., 1995 – L’ONU et la question de Conférence internationale sur
+l’environnement : aperçu de l’action l’environnement - Brésil – 1992 –Document
+environnementale du Gabon – in L’UNION, final du Bureau d’études Brèche
+Libreville, 26/10/1995. « Environnement Gabon doc. b.e. 25 juillet
+1991, 57 p.
+ASSOGHO (M), 1999 - « La variabilité
+climatique, impacts et adaptations au Gabon. » - CHRISTY P., JAFFRE R., NTOUGOU O. et
+In : Journal de l’Atelier de lancement sur la WILKS C., 2003 – La forêt et la filière bois
+Communication Nationale sur les au Gabon - 389 p. Ed. Multipress Libreville
+Changements Climatiques / Projet Gabon
+Changements Climatiques Gabon, Libreville,
+22-23 novembre ; 3 p.
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+56/76
+
+--- Page 57 ---
+DELWAULLE (JC), 1973 – Désertification de d’Appui au Développement (IGAD) /
+l’Afrique au sud du Sahara – in - Bois et Forêts Programme Régional de Gestion de
+des Tropiques (BFT) - n° 149. l’Information Environnementale (PRGIE), 13
+p. + 2 p. annexes.
+ESSONO NGOU P., 1992 - L’éco-
+développement en question – Rép. gabonaise - IGNOUNGA MIKALA B. 1981 : Les aspects
+Ministère Planification, Econ. et Aménagement biologiques de la protection de la nature
+du Territoire - Economie et Finances, n° 13, Doc ; CNE Mak. N°11
+nov. 1992, « Problèmes économiques
+contemporains », pp. 53-85. JAFFRE R., 2001 – Transformation plus
+poussée des bois tropicaux en Afrique -
+FEHR R., 1993 - La climatologie du Gabon - Document de base -, Conférence OAB/OIBT
+Gabon, Ministère Education Nationale, IPN, du 26 au 28 septembre 2001 à Libreville, 62 p.
+Libreville, 54 p.
+JEUNE AFRIQUE/L’INELLIGENT, 2000 –
+FORESTAL-Gabon, 1997 – Rapport de Forêt : l’exploiter pour la sauver- n°2055 du
+l’étude agro-économique dans la première 30 mai au 05 juin 2000. Groupe Jeune
+zone forestière du Gabon – OIBT PD/38/95 Afrique, France
+Rev.1(F), Juin
+KAMTO M., 1996 - Droit de
+FORESTS MONITOR 2001– La forêt prise en l’environnement en Afrique - Edicef
+otage. La nécessité de contrôler les sociétés /AUPELF, Paris, 415 p.
+forestières transnationales : une étude
+européenne - mars 2001, 73 p. MABALA et TRUONG, 1994 - Séminaire
+sur l’environnement Cap Estérias - Gabon,
+GIRESSE P., 1989 - Evolution quaternaire du Min. Eaux et Forêts / GTZ, 18 avril 1994, p.
+climat intertropical de l’Ouest africain
+d’après les dépôts des plateaux du Gabon, de MAINGUET (M) 1990, - L’homme et la
+la Côte d’Ivoire et du Congo - Rapports de sécheresse – Ed. Masson Coll. Géographie
+l’UNESCO sur les Sciences de la Mer - 50 - Paris
+Etude de la géologie marine de l’Afrique de
+l’Ouest et du Centre. Edité par E.-F. Chnukov et MARIUS C., 1971 Etude pédologique de la
+A. Suzuymov - Unesco – pp. 115 - 140. région Oyem-Ouest (woleu-Ntem) Orstom
+Libreville, 27p
+Global Environment Facility – Région Afrique
+Centrale : Projet Régional de Gestion de MARIUS C., 1971 - Notes sur les sols de
+l’Information sur l’Environnement - mangroves de l’Estuaire du Gabon -
+Document de Projet, décembre, 1977 - THE Orstom, Libreville, 23p
+WORLD BANK, 104 p. [ Rapport n° 17006 -
+AFR, Groupe Environnement, Région Afrique ]. MARTIN D. et ali., 1981 - les sols du Gabon
+-Orstom, notice n° 92, p.
+IBE A.C , OJO S.O., 1994 - Implications of
+expected Climatic Change in the West and Ministère du Tourisme, de l’Environnement et
+Central African Region ; An Overview - des Parcs Nationaux - Direction Générale de
+PNUE Regional Seas Reports and Studies n° l’Environnement - Lettre de politique
+148, PNUE, Nairobi. générale - Secteur Environnement - 13 p.
+IGAD, 1998 – Projet de création d’un MEBIAME J.B, 1981 : Une approche pour
+Système d’Information Géographique de la un aménagement de l’environnement au
+province de l’Estuaire – Institut Gabonais Gabon Doc. CNE Mak.n°11
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+57/76
+
+--- Page 58 ---
+Ministère du Tourisme, de l’Environnement et semestrielle de l’Institut de Recherches en
+des Parcs Nationaux - Direction Générale de Sciences Humaines, CENAREST(Gabon), pp
+l’Environnement - Direction des Etudes, du 15-26.
+Contentieux et du Droit de l’Environnement ;
+1991 - Etats des traités et conventions NGOUA R., 1997 - Le patrimoine naturel
+auxquels le Gabon est partie (prenante) dans gabonais et les problèmes liés à sa gestion -
+le domaine de l’environnement - MTEPN - PNAE Gabon - 68 p.
+DGE - DECDE, 17 p.
+NDEYA FATOU G., 1999 - Plan d’Action
+Ministère des Eaux et Forêts, de la Pêche, pour une agriculture urbaine viable au
+chargé du Reboisement / Programme d’Action Gabon – Institut Africain de gestion urbaine
+Forestier Tropical (PAFT), 1999 - Rapport de (IAGU)/ Projet d’Ajustement des Secteurs
+synthèse - ; 20 pages. Urbains et des Transports (PAPSUT) . p.,
+Novembre.
+Ministère de Eaux et Forêts et du Reboisement,
+1994 - Actes du Colloque National sur la lutte NDOULOU LOUBAMONO E.S., 1997 -
+contre le braconnage - Libreville, 23-25 Risques naturels d’inondations et
+novembre, 160 pages. problèmes d’environnement au Gabon:
+dynamique des milieux physiques - Doctorat
+Ministère de la Planification, Banque Mondial, N.R. de Géographie, Université de Paris I
+PNUD, 1996 - Rapport sur la pauvreté du Panthéon- Sorbonne 3 tomes.
+Gabon - 137 p.
+NTOUGOU NTOUTOUME O., 2001 –
+Ministère du Tourisme et de la Protection de la Stratégie de communication du Programme
+Nature, Direction Générale de Sectoriel Forêt Environnement (PSFE) – 81
+L’Environnement, septembre 1999 - Stratégie p.
+Nationale et Plan d’Action sur la diversité
+Biologique du Gabon - 77 p. ONDO NZE B., 1981 - Lutte contre la
+pollution au Gabon – Revue Gab. Et. Pol.
+Ministère de la Planification de Eco. et Jur., Libreville, n° 6, pp. 26-37.
+l’Environnement et du Tourisme, 1996 -
+Réflexion stratégique à long à terme Gabon ONDO NZE B., 1981 - La CONFERENCE
+2025 - 70 p. D’ABIDJAN ou la mise en place d’une
+structure régionale de gestion d
+MINTSA-MI-OWONO D., 1974 - Séminaire l’environnement marin – Revue Gab. Et.
+sur le rôle de l’administration touristique en Pol. Eco. et Jur., Libreville, n° 10, pp. 21- 25.
+matière d’environnement et de folklore -
+Rapport présenté par le Ministère de ONDO-OSSA A., 1997 - Stratégie de
+l’Environnement de la République Gabonaise, développement et politique de
+Libreville, le 9 septembre 1974, 6 p. l’environnement - Gabon, PNAE, actes du
+séminaire national de lancement, 5-6 juin
+Mission Permanente du Gabon auprès des 1997, note n° 9, p24.
+Nations - Unies, 1997 - Instruments et accords
+internationaux en vigueur en matière Organisation des Nations Unies / République
+d’environnement - MPG - ONU, New - York, Gabonaise – Note de stratégie du Gabon
+5 p. 1997 – 2001 – 6 décembre 1996, 26 p.
+MOMBO J.B., 1998 - « l’état de OSLISLY R., FONTUGNE M., 1993 - La fin
+l’environnement au Gabon » - In : RIRSH, du stade Néoloithique et le début de l’âge
+Vol. 2-3, n°2-3, juin 1997 – juin 1998, revue du fer dans la vallée de l’Ogooué au Gabon.
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+58/76
+
+--- Page 59 ---
+Problèmes chronologiques et changements présentation – Dossier Conseil des Ministres,
+culturels – C. R. Acad. Sc., sér. 2, 1993, vol. Document provisoire, Mai 1998, 7 p.
+316, n° 7, pp. 997-1003. Loc. INIST/PASCAL-
+GEODE 93-0393482) République gabonaise. Ministère du Cadastre,
+de l’Urbanisme, de l’Habitat, du logement, de
+PEYROT B., 1998 - Le massif de Wonga - la ville et du Bien Etre, chargé de
+Wongué : un paléomodelé holocène sur la l’Aménagement du Territoire ; 1998 – Loi-
+côte gabonaise. Problématique Programme 2000 – 2015 de l’Habitat et du
+paléomorphoclimatique et Logement. Note de présentation – Dossier
+phytogéographique – Trav. Labo. Géogr. Phys. Conseil des Ministres, Document provisoire,
+Appl., Univ. Bordeaux III, févr. 1998, n° 16, pp. Mai 1998, 27 p.
+23 - 44.
+République gabonaise. Ministère de l’Habitat,
+PNUE, Bureau Régional pour l’Afrique – Notes de l’Urbanisme, du Cadastre et de la ville
+sur l’appui fourni par le PNUE aux activités 1998 - Plan d’action Triennal 2000-2002 -
+de protection de l’environnement et de Ville de Libreville - Programme Villes-Santé.
+gestion des ressources naturelles dans les Décembre 1998, 134 pages.
+pays d’Afrique – Document 1, DOC / CSN /
+CSN – Gabon Na. 95 – 3536 ; 20 p. République gabonaise, Présidence de la
+République – Projet de Loi d’Orientation de
+RABENKOGO Nicaise, 2000 - Les zones la Politique de l’Aménagement et du
+humides au Gabon : typologie et localisation - Développement du Territoire – 12 p.
+in Le journal environnemental du Bassin du
+Congo « le Cri du pangolin », n° 24, mai-juin République gabonaise. Ministère de la
+2000, page 9. Planification, de la Programmation du
+Développement et de l’Aménagement du
+RAEMAEKERS R.H 2001 : Agriculture en Territoire. Projet d’Ajustement et de
+Afrique Tropicale Min. Aff ; Etr ; Com ext et Planification de Secteurs Urbain et Transports
+Coop Intern. Belgique (PAPSUT), 1999 – Diagnostic et plan
+d’actions dans le domaine foncier : Rapport
+République gabonaise, 1991 - Rapport
+provisoire -. BARBIER J., Rabat, Juin 1999,
+national sur l’environnement - Conférence
+44 p.
+internationale sur l’environnement – Brésil,
+1992 – Document final du bureau d’études «
+République gabonaise. Ministère de la
+Brèche, l’environnement des projets locaux »,
+Planification, de la Programmation du
+57 p.
+Développement et de l’Aménagement du
+Territoire. Projet d’Ajustement et de
+République gabonaise. Ministère de la
+Planification de Secteurs Urbain et Transports
+Planification de l’Environnement et du
+(PAPSUT), 1999 – Proposition et plan
+Tourisme, 1996 – La réflexion stratégique à
+d’actions pour la gestion des extensions
+long terme Gabon 2025. Rapport de la phase
+urbaines au Gabon - Rapport provisoire,
+IV : formulation des stratégies – Libreville,
+Stratégie Urbaine du Gabon. Zones
+juin 1996, 70 p.
+d’extension : plan d’actions - NICOLAS P.,
+août 1999, 47 p.
+République gabonaise. Ministère du Cadastre,
+de l’Urbanisme, de l’Habitat, du logement, de la
+République gabonaise. Ministère de la
+ville et du Bien Etre, chargé de l’Aménagement
+Planification et de l’Aménagement du
+du Territoire ; 1998 – Loi-Programme 2000 –
+Territoire MPAT/PAPSUT, (1997).
+2015 de l’Habitat et du Logement. Note de
+Diagnostic du secteur urbain. Stratégie et
+plans sectoriels Phase 1, étape 1 : macro
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+59/76
+
+--- Page 60 ---
+cadrage. Projet d’Ajustement et de 19-20 Décembre 1996. Système des Nations
+Planification des secteurs urbains et des Unies, 27 p.+ Annexes.
+transports - Ministère de la Planification et de
+l’Aménagement du Territoire, 126 p. République gabonaise – Annexe explicatives
+à la Loi de finances pour l’an 2003. Budget
+République gabonaise. Ministère de l’Economie général - - Ministère de l’Economie, des
+Forestière, des Eaux, de la Pêche chargé de Finances, , du Budget et de la privatisation,
+l’Environnement et de la Protection de la 231 p.
+Nature, PNAE, 2002 – Livre Blanc de
+l’Environnement Gabon. I. Etat de République gabonaise – 1976-1980 Troisième
+l’Environnement du Gabon au seuil des plan de développement économique et
+années 2000. II. Une vision, 100 mesures pour social - Présidence de la République -
+l’Environnement –Ed L’Harmattan 234 p. Ministère du Plan, du Développement et de
+l’Aménagement du Territoire. 339 p.+
+République gabonaise. Ministère des Eaux et Annexes.
+Forêts de la Pêche et de l’Environnement, 1993
+- « Le code de l’environnement ». In : Hebdo République gabonaise. Ministère des Eaux et
+information, n° 281, 15 septembre 1993, pp 149 Forêts et de la Pêche, du Reboisement chargé
+– 153. de l’Environnement et de la Protection de la
+Nature, 2001 Rapport d’Activités du
+République gabonaise. Ministère des Mines et Ministère 2000 –
+du pétrole, 2001 - « Le code miner ». In :
+Hebdo information, n° 437, 14-28 avril 2001, République gabonaise. Ministère des Eaux et
+pp 59 – 68. Forêts et de la Pêche, du Reboisement chargé
+de l’Environnement et de la Protection de la
+République gabonaise. Ministère de l’Economie Nature, 2000 – Convention Cadre sur les
+Forestière, des Eaux, de la Pêche chargé de Changements Climatiques : communication
+l’Environnement et de la Protection de la nationale du Gabon – 92 p. Novembre.
+Nature, 2001 - « Le code forestier » 46 p.
+décembre République gabonaise. Ministère des Eaux et
+Forêts et de la Pêche, du Reboisement chargé
+République gabonaise - TABLEAU DE BORD de l’Environnement et de la Protection de la
+DE L’ECONOMIE. Situation 2002 Nature, 2000 - Loi portant Code forestier en
+Perspectives 2003 - Direction Générale de République gabonaise – 63 p.
+l’Economie - Ministère des Finances, de
+l’Economie, du Budget et des participations, République gabonaise - Ministère de
+chargé de la privatisation, n° 28 - mai 1998, 144 l’Enseignement Supérieur de la Scientifique,
+p. de l’Environnement et de la Protection de la
+Nature - Esquisse d’un plan Quinquennal
+République gabonaise - TABLEAU DE BORD 1984-1988 en matière d’environnement et
+DE L’ECONOMIE. Situation 2003 de protection de la nature - 23 p. + 7 p.
+Perspectives 2004 - Direction Générale de annexes.
+l’Economie - Ministère des Finances, de
+l’Economie, du Budget et des participations, République gabonaise. Ministère de
+chargé de la privatisation, n° 29 - mai 1999, 121 l’Agriculture, de l’Elevage et du
+p. Développement Rural / Direction des Etudes
+et de la Recherche, – Fiche synthétique de
+République gabonaise – Actes du séminaire de l’agriculture gabonaise – p., Mai 1999.
+Libreville sur la Note de Stratégie du Gabon
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+60/76
+
+--- Page 61 ---
+République gabonaise. Ministère de TRAINER (J.), 1996 - Inventaire de la forêt
+l’Agriculture, de l’Elevage et du classée de la Mondah : Méthodes et
+Développement Rural / Direction des Etudes et résultats - E.N.E.F/GTZ, Libreville, 48 p.
+de la Recherche - Les acquis de la recherche
+agronomique au Gabon – TOURE Y., 1987 - La circulation
+atmosphérique zonale dans l’anneau
+République gabonaise. Ministère de tropical planétaire en 1982 - 1983 - Tropical
+l’Agriculture, de l’Elevage et du Ocean - Atmosphere Newsletter, july,
+Développement Rural / Direction des Etudes et
+de la Recherche – Capitalisation des résultats WAUTHY B., 1983 - (Introduction à la)
+et des acquis des structures de recherche climatologie du Golfe de Guinée -
+agronomique et d’encadrement paysannal – Océanographie tropicale , n° 18 (2), pp. 103 -
+Septembre 1997. 138.
+République gabonaise. Ministère du Tourisme WILKS (C.), 1990 - La Conservation des
+de l’Environnement et de la Protection de la Ecosystèmes forestiers du Gabon - U.I.C.N.
+Nature / Direction Générale de l’environnement, 215 p.
+(1999) - Stratégies Nationale et Plan d’Action WHITE (.L.), 1998 - « Exploitation
+sur la Diversité Biologique du Gabon - forestière et gestion de la faune au Gabon »
+Septembre 1999, 104 pages + annexes. - In : CANOPEE, n° 11, 13 p.
+RIAT, 2005 - Spécial Bassin du Congo- in Le World Resources Institut – Un premier
+Flamboyant n °59/60 Août – 59 p regard sur l’exploitation forestière au
+Gabon – Global Forest Watch, 2000, 50 p.
+RIOU G., 1990 – L’eau et les sols dans les
+géosystèmes tropicaux - Ed Masson Coll
+Géographie, 222 p.
+SAINT-VIL J., 1977 - Les climats du Gabon -
+Annales de l’Université Nationale du Gabon,
+série Lettres et Sc. Sociales, n° 1, décembre
+1977, p. 101 – 125
+SCHWARTZ D., 1992 - Assèchement
+climatique vers 3 000 BP et expansion bantu
+en Afrique centrale atlantique : quelques
+réflexions – Bull. Soc. Géol. France, 163, n° 3,
+pp. 353 - 361
+TILMONT (M.), 1992 – Législation foncière et
+urbaine et politique de l’habitat socio-
+économique – Villes nouvelles de France GIE,
+Ministère de la Coopération Française,
+République du Gabon, Ministère de l’Habitat et
+du Cadastre et de l’Urbanisme, Rapport, 74 p.
+SIAEB 1993 : Travaux de lutte anti-érosive
+Rapport de synthèse 1985-1992
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+61/76
+
+--- Page 62 ---
+ANNEXES
+________o0o________
+Annexe 1 : Tableau récapitulatif des investissement dans le domaine de l’environnement
+depuis 1992
+Annexe 2 : Cadre logique du PANLCDT
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+62/76
+
+--- Page 63 ---
+Annexe 1 : Tableau récapitulatif des intervention dans le secteur forestier depuis 1992
+Montants en Bailleur Nature du Date Date fin
+N° Activités Domaine Type de Fcfa principal financement début
+dépense (prêt/don/fonds
+propres)
+1. Etude de la stratification de la 1ère zone forestière du Exploitation forestière Intervention de Don
+Gabon en vue de son aménagement l’Etat 11.250.000 OIBT 1993 1993
+2. Récolte et traitement informatique des statistiques Exploitation forestière 1996
+forestières en vue d’améliorer la gestion des ressources Intervention de OIBT 1992
+forestières au Gabon l’Etat 487.462.500 Don
+3. Projet du GEF sur la conservation des espèces sauvages Biens et services Intervention de 750.000.000 GEF Don
+au Gabon environnementaux l’Etat 1993 1996
+27.450.000 Gouvernement Fonds propres
+4. Réalisation des études préliminaires et rédaction du Exploitation forestière Intervention de
+plan d’aménagement du massif forestier de la Bokoué l’Etat 879.780.000 OIBT Don 1994 1996
+5. Etude et définition d’un schéma directeur en vue de la Exploitation forestière Intervention de
+mise en œuvre des stratégies d’actions visant à parvenir l’Etat 66.181.500 OIBT Don 1997 1997
+à l’aménagement durable des forêts Gabonaises
+conformément à l’objectif «an 2000 » de l’OIBT
+6. Elaboration d’un plan directeur en matière Exploitation forestière Intervention de
+d’industrialisation de la filière bois au Gabon en l’Etat 70.500.750 OIBT Don 1997 1997
+conformité avec les normes de gestion durable des
+forêts
+7. Evaluation des essences indigènes de bois en vue du Exploitation forestière Intervention de 166.284.000 OIBT Don 1996 1997
+développement des plantation forestières l’Etat
+8. Biologie de l’Okoumé Valorisation des Intervention de 352.125.000 OIBT Don 1995 1998
+ressources humaines et l’Etat
+communication
+9. Stratification, cartographie et inventaire en vue de Exploitation forestière Intervention de 939.356.250 OIBT Don 1996 1998
+l’aménagement de la 1ère zone forestière du Gabon l’Etat
+10 Inventaire et préparation de l’aménagement de la zone Exploitation forestière Intervention de 657.460.500 OIBT Don 1997 2000
+forestière de Minkébé l’Etat
+11 Dissémination, testage et précisions des critères et Exploitation forestière Intervention de 363.942.000 a OIBT Don 1999 2000
+indications de l’OIBT en vue de la gestion durable des l’Etat
+forêts gabonaises
+12 Inventaire forestier et rédaction des plans Exploitation forestière Intervention de 476.738.250 OIBT Don 1999 2000
+d’aménagement des, aires forestières classées de l’Etat
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+63/76
+
+--- Page 64 ---
+production
+13 Projet Sylviculture et amélioration génétique de Exploitation forestière Intervention de 225.825.000 OIBT Don 1999 2001
+l’Okoumé l’Etat
+14 Reboisement Exploitation forestière Intervention de 745.000.000 Gouvernement Fonds propres 1996 1998
+l’Etat
+15 PAFT Gabon Exploitation forestière Exercice de Coopé Fr.(122) Don
+planification 357.000.000 FAO (29) Don 1994 1999
+Gouvernement Fonds propres
+(203)
+16 Biodiversité Biens et services Exercice de 172.500.000 GEF Don 01/1998 12/2000
+environnementaux planification
+17 Réhabilitation de l’ENEF Valorisation des Renforcement GTZ Don 1993 2001
+ressources humaines et des capacités
+communication institutionnelle
+s
+18 Projet Minkébé (appui technique à la création d’une Biens et services Intervention de 1.082.329.050
+aire protégée dans le nord-est du Gabon environnementaux l’Etat
+19 MIKE Biens et services Intervention de 33.750.000 CITES 01/2000 02/2001
+environnementaux l’Etat
+20 Téléphonie rurale de la mission sainte Anne et ses Valorisation des Intervention de 10.800.000 FIDA Don
+environs ressources humaines et l’Etat 01/2000 02/2001
+communication
+21
+22 Mise en place d’un observatoire côtier Exploitation des Intervention de 15.000.000 09/1999 06/2001
+ressources halieutiques l’Etat
+23 Aménagement forestier Exploitation forestière Intervention de 350.000.000 France (FAC) Don 02/1998 02/2001
+l’Etat
+24 Valorisation biodiversité végétale Biens et services Intervention de 100.000.000 France (FAC) Don 02/1998 02/2001
+environnementaux l’Etat
+25 Information environnementale Valorisation des Intervention de France (FAC) Don
+ressources humaines et l’Etat 30.000.000 02/1998 02/2001
+communication
+26 Renforcement de la CCP Exploitation forestière Renforcement 3.460.500.000 Banque Prêt
+des capacités mondiale 1994 2002
+1.153.500.000 Gouvernement Fonds propres
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+64/76
+
+--- Page 65 ---
+27 Renforcement de la DGEF Exploitation forestière Renforcement 7.913.250.000 Banque Prêt 1994 2002
+des capacités mondiale
+2.637.750.000 Gouvernement Fonds propres
+28 Biens et services Renforcement 381.000.000 Banque Prêt
+29 Renforcement de la DGE environnementaux des capacités mondiale 1994 2002
+127.000.000 Gouvernement Fonds propres
+30 Renforcement de la DG ENEF Valorisation des Renforcement Banque Prêt
+ressources humaines et des capacités 1.624.500.000 mondiale 1994 2002
+communication 541.500.000 Gouvernement Fonds propres
+31 Renforcement de la DIARF Exploitation forestière Renforcement 659.250.000 Banque Prêt 1994 2002
+des capacités mondiale
+219.750.000 Gouvernement Fonds propres
+32.Planification du Ministère Renforcement 218.250.000 Banque Prêt 1994 2002
+des capacités mondiale
+72.750.000 Gouvernement Fonds propres
+33 Formation Valorisation des Renforcement Banque Prêt
+ressources humaines et des capacités 161.250.000 mondiale 1994 2002
+communication 53.750.000 Gouvernement Fonds propres
+34 Valorisation des Renforcement 591.750.000 Banque Prêt
+35 Recherche ressources humaines et des capacités mondiale 1994 2002
+communication 197.250.000 Gouvernement Fonds propres
+36 Gestion des forêts Exploitation forestière Intervention de 3.271.500.000 Banque Prêt 1994 2002
+l’Etat mondiale
+1.090.500.000 Gouvernement Fonds propres
+37 Aires protégées Biens et services Intervention de 1.292.250.000 Banque Prêt 1994 2002
+environnementaux l’Etat mondiale
+430.750.000 Gouvernement Fonds propres
+38 Etude FOSA Exploitation forestière Exercice de 750.000 FAO Don 2000 2002
+planification
+39 PROTOTIPPEE Biens et services Intervention de 3.040.000.000 Banque Prêt (?)
+environnementaux l’Etat Mondiale
+950.000.000 UE Prêt (?)
+40 ECOFAC (Phase III) Biens et services Intervention de 688.754.850 UE Prêt 01/10/20 01/10/20
+environnementaux l’Etat 00 03
+41 Emission télévisée seconde nature Valorisation des Intervention de 172.800.000 Gouvernement Fonds propres 05/2000 06/2003
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+65/76
+
+--- Page 66 ---
+ressources humaines et l’Etat
+communication
+42 Biodiversité (fonds additionnels) Biens et services Intervention de 127.500.000 GEF Don 01/2001
+environnementaux l’Etat
+43 CARPE Valorisation des Intervention de 10.500.000.000 USAID 1995 2003
+ressources humaines et l’Etat
+communication
+44 Etude sur la biodiversité des Monts DOUDOU Biens et services Intervention de 179.552.861 BM (GEF) Don 10/1999
+environnementaux l’Etat
+45 Réfection Direction pêche industrielle Exploitation des Renforcement
+ressources halieutiques des capacités 24.000.000 Gouvernement Fonds propres 1992 2000
+institutionnelle
+s
+46 Réfection Direction Générale pêche artisanale & Exploitation des
+pisciculture ressources halieutiques Renforcement
+des capacités 49.000.000 Gouvernement Fonds propres 1992 2000
+institutionnelle
+s
+47 Equipement brigades Exploitation forestière Renforcement
+des capacités 1.582.000.000 Gouvernement Fonds propres 1992 2000
+institutionnelle
+s
+48 Aménagement réserve Lopé Biens et services
+environnementaux Intervention de 218.000.000 Gouvernement Fonds propres 1992 2000
+l’Etat
+49 Lutte antibraconnage Biens et services Intervention de
+environnementaux l’Etat 192.000.000 Gouvernement Fonds propres 1992 2000
+50 Aménagement Moukalaba Biens et services Interve,ntion 257.000.000 Gouvernement Fonds propres 1992 2000
+environnementaux de l’Etat
+51 Aménagement Bokoué Exploitation forestière Intervention de Gouvernement Fonds propres 1992 2000
+l’Etat 174.000.000
+52 Biens et services Intervention de Gouvernement Fonds propres 1992 2000
+Action de sensibilisation environnementaux l’Etat 22.000.000
+53 Contrôle de production forêt Exploitation forestière Intervention de Gouvernement Fonds propres 1992 2000
+l’Etat 284.000.000
+54 Pêche vulgarisation Peace corps Exploitation des Intervention de Gouvernement Fonds propres 1992 2000
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+66/76
+
+--- Page 67 ---
+ressources halieutiques l’Etat 84.000.000
+55 Renforcement ENEF Renforcement des Intervention de Gouvernement Fonds propres 1992 1998
+capacités de formation l’Etat 140.000.000
+56 Biologie de l’Okoumé Renforcement des Intervention de 101.000.000 Gouvernement Fonds propres 1992 1998
+capacités de recherche l’Etat
+57 Reboisement savane côtière Exploitation forestière Intervention de 78.000.000 Gouvernement Fonds propres 1992 1998
+l’Etat
+58 Réserve Setté-Cama Biens et services Intervention de 101.000.000 Gouvernement Fonds propres 1995 1998
+environnementaux l’Etat
+59 Statistiques forestières Exploitation forestière Intervention de 170.000.000 Gouvernement Fonds propres 1995 1998
+l’Etat
+60 Etude aménagement Minkébé Biens et services Intervention de 58.000.000 Gouvernement Fonds propres 1996 1998
+environnementaux l’Etat
+61 PNAE Biens et services Exercice de 65.000.000 Gouvernement Fonds propres 1996 1999
+environnementaux planification
+62 Etude aménagement zone centre Exploitation forestière Intervention de 136.000.000 Gouvernement Fonds propres 1996 1998
+l’Etat
+63 Informatisation gestion de la production forestière Valorisation des Intervention de 40.000.000 Gouvernement Fonds propres 1996 1996
+ressources humaines et l’Etat
+communication
+64 Aménagement 1ère zone forestière Exploitation forestière Intervention de 93.000.000 Gouvernement Fonds propres 1997 1998
+l’Etat
+65 Gestion intégrée ressources forestières Exploitation forestière Intervention de 92.000.000 Gouvernement Fonds propres 1997 1998
+l’Etat
+66 Contrôle & promotion industrielle Exploitation forestière Intervention de 94.000.000 Gouvernement Fonds propres 1997 1999
+l’Etat
+67 Zone sud Mourindi Exploitation forestière Intervention de 51.000.000 Gouvernement Fonds propres 1998 1998
+l’Etat
+68 Appui ENEF Valorisation des Renforcement 2.624.000.000 CE Don 2001 2004
+ressources humaines et des capacités
+communication
+69 Espèces phares Biens et services Intervention de 1.000.000.000 CE Don 2001 2004
+environnementaux l’Etat
+70 Réfection Direction des inventaires (DGEF) Exploitation forestière Renforcement 192.000.000 Gouvernement Fonds propres 1992 2000
+des capacités
+institutionnelle
+s
+71 Réfection Direction du reboisement Exploitation forestière Renforcement 159.000.000 Gouvernement Fonds propres 1992 2000
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+67/76
+
+--- Page 68 ---
+des capacités
+institutionnelle
+s
+72 Contrôle et promotion des industries du bois Exploitation forestière Intervention de 125.000.000 Gouvernement 1997 2000
+l’Etat
+73 Reboisement Exploitation forestière Intervention de 745.000.000 Gouvernement 1996 1998
+l’Etat
+74 Centres communautaires de pêche artisanale Exploitation des Renforcement 4.000.000.000 Coopération 2001 2005
+ressources halieutique des capacités japonaise
+institutionnelle
+s
+75 Appui institutionnel au secteur des pêches au Gabon Exploitation des Renforcement 300.000.000 Coopération 2001
+ressources halieutiques des capacités française
+76 Formation des pisciculteurs Exploitation des Renforcement 250.000.000 AECI 2001
+ressources halieutiques des capacités (Coopération
+espagnole
+77 Plan d’aménagement forestier de la forêt de la Mondah GTZ 1993 2006
+78 Soutien à la mise en œuvre de mesures Biens et services Intervention de 780.000.000 FFEM Don
+environnementales spécifiques dans les aménagement environnementaux l’Etat
+forestiers
+79 Valorisation des écosystèmes humides en Afrique Biens et services Intervention de 8.000.000 CARPE 1999 2000
+centrale environnementaux l’Etat
+80 Impact de l’Homme sur la biodiversité de la réserve de Biens et services Intervention de 3.000.000 Gouvernement Fonds propres 1997 1998
+Impassa environnementaux l’Etat
+81 La représentation mentale de la forêt par les citadins du Valorisation des Intervention de 500.000 APFT 1997 1998
+Gabon. Le cas des populations de Libreville ressources humaines et l’Etat
+communication
+82 STABEX bois (6ème FED) Valorisation des Intervention de 2.051.800.000 UE 1990 2000
+ressources humaines et l’Etat
+communication
+83 Développement au Gabon de l’élevage du gibier Valorisation des Intervention de 967.500.000 CE 1996 2000
+ressources humaines et l’Etat
+communication
+84 Accord de pêche Exploitation ressources Renforcement 797.000.000 CE 1998 2000
+halieutiques des capacités
+institutionnelle
+s et
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+68/76
+
+--- Page 69 ---
+réglementaires
+85 ECOFAC phase I (6ème FED) Biens et services Intervention de 1.450.000.000 UE 1992 1996
+environnementaux l’Etat
+86 ECOFAC phase II (7ème FED) Biens et services Intervention de 1.133.000.000 UE 1997 2000
+environnementaux l’Etat
+87 Amélioration de la vision de la faune à la Lopé (7ème Biens et services Intervention de 328.000.000 UE 1999 2001
+FED) environnementaux l’Etat
+88 Programme sectoriel de valorisation des aires protégées Biens et services Intervention de 3.083.000.000 UE 2001 2005
+(8ème FED) environnementaux l’Etat
+89 1er Rapport National UNCCD Biens et services 3 500 000 UNCCD Don 2002 2002
+environnementaux
+90 2nd Rapport National UNCCD Biens et services 10 000 000 GEF/UNCCD Don 2004 2004
+environnementaux
+91 Elaboration du PAN UNCCD Biens et services 20 000 000 GEF /MM Don 2005 2005
+environnementaux
+92 Projet Auto Evaluation Nationale des Capacités à Biens et services 200.000.000 GEF Don 2005 2007
+Renforcer (ANCR) environnementaux
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+69/76
+
+--- Page 70 ---
+Annexe 2 : CADRE LOGIQUE DU PANLCDT
+Matrice des objectifs et des activités
+Objectifs Indicateurs objectivement Sources de vérification Hypothèses critiques
+vérifiables
+Objectif global
+Le Gabon, à l’horizon 2025, doit assurer la • I
+protection et l’amélioration de ses sols par des
+pratiques agricoles adaptées et une exploitation
+forestière durable. »”
+Objectifs spécifiques :
+•
+O.S. 1 : Améliorer le cadre institutionnel et juridique
+en matière de gestion durable des sols
+O.S. 2 : Améliorer la connaissance scientifique des
+types des sols du Gabon
+O.S. 3 : Concevoir et mettre en œuvre une stratégie
+de communication et de formation du public en
+matière de gestion durable des sols
+O.S. 4 : Mettre en œuvre les actions de lutte contre la
+dégradation des terres en vue d’une gestion intégrée
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+70/76
+
+--- Page 71 ---
+Objectif de développement Le Gabon, à l’horizon 2025, doit assurer la protection et l’amélioration de ses sols par des pratiques agricoles adaptées et une
+exploitation forestière durable.
+Objectifs spécifiques : Résultats attendus Activités Taches Période Indicateurs Source de Partenaires
+objectivement vérification Technique Financier
+vérifiables (IOV)
+Amélioration du cadre le cadre institutionnel Créer un comité Identifier les
+institutionnel et et juridique en matière spécialement ministères
+juridique en matière de gestion durable des chargé des impliqués et les
+de gestion durable des sols amélioré questions relatives parties prenantes,
+sols à la protection des de même que
+sols au sein de la Rédiger les termes
+Commission de référence dudit
+Nationale du comité
+Développement
+Durable,
+concevoir un cadre Élaborer une loi
+juridique adapté cadre en matière de
+protection des sols
+qui intégrera
+l’ensemble des
+préoccupations
+sectorielles
+Élaborer deux
+décrets relatifs à la
+lutte contre la
+pollution des sols et
+l’affection des
+terres ; enfin
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+71/76
+
+--- Page 72 ---
+Adopter et
+vulgariser un arrêté
+gouvernemental
+créant et organisant
+le comité spécial
+chargé des
+questions relatives
+à la protection des
+sols.
+Amélioration de la la connaissance comprendre la Inventorier la
+connaissance scientifique des types distribution, la typologie et
+scientifique des types des sols du Gabon structure et la la
+des sols du Gabon améliorée fonction des sols cartographie
+des sols.
+identifier et
+valoriser les savoirs
+et pratiques
+traditionnels en
+matière
+d’utilisation et de
+protection des sols.
+la formation des Former de manière
+spécialistes continue et
+diplômante dans le
+domaine de gestion
+durable des sols.
+Vulgariser les
+connaissances
+la collaboration et Organiser/participer
+le partenariat entre aux fora locaux,
+la science moderne nationaux, sous
+et les détenteurs du régionaux et
+savoir traditionnel internationaux et.
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+72/76
+
+--- Page 73 ---
+Mettre en œuvre
+programmes
+d'échange
+d'expérience entre
+les différents
+acteurs par les
+visites de terrain ou
+les voyages d'étude
+dans les pays
+également affectés
+Conception et mise en stratégie de création des Sensibiliser les
+œuvre d’une stratégie communication et de mécanismes de jeunes par
+de communication et formation du public en formation et l’insertion des
+de formation du public matière de gestion d’échanges aspects
+en matière de gestion durable des sols d’informations environnementaux
+durable des sols conçue et mise en dans les
+œuvre programmes
+scolaires et
+universitaires
+Signer des
+conventions de
+restitution des
+résultats de
+recherche aux
+praticiens et aux
+populations locales
+et
+Concevoir un site
+web.
+Vulgariser Organiser des
+davantage les campagnes
+données d’information et e
+valorisation des
+connaissances
+traditionnelles sur
+la gestion des sols
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+73/76
+
+--- Page 74 ---
+Concevoir et
+diffuser de
+techniques à faible
+apport externe
+visant à améliorer
+les pratiques
+agricoles
+traditionnelles
+la production
+d’ouvrages de
+vulgarisation
+adaptés à toutes les
+couches sociales.
+renforcement des Organiser des
+capacités des cessions de
+organisations de formation à la
+base demande des
+acteurs,
+Etablir une
+collaboration entre
+les organisations de
+base, les ONG, les
+collectivités locales
+et les structures
+techniques de l'Etat.
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+74/76
+
+--- Page 75 ---
+Mise en œuvre réalisation des (i) l’enrichissement
+d’actions de lutte activités de lutte en matière
+contre la dégradation contre l'érosion des organique des terres
+des terres en vue d’une sols dans les sites dégradées, (ii) le
+gestion intégrée anthropisés reboisement des
+espaces sans
+couvert végétal ;
+(iii) l’utilisation
+d’ouvrages hydro-
+agricoles en vue de
+maîtriser les eaux
+de ruissellements.
+des techniques le semis direct,
+moins destructives le labour zéro,
+des sols utilisés
+réalisation de
+projets agro-
+forestiers,
+les engrais verts et
+plantes de
+couverture.
+l’exécution du
+programme
+d’hydraulique
+la maîtrise des villageoise
+ressources en eau la construction de
+mini barrages ou de
+retenues d’eau.
+impacts des l’étude des impacts
+activités socio- de l’extraction
+éconmiques sur les minière sur les sols,
+sols maîtrisés l’étude des impacts
+de l’exploitation
+forestière sur les
+sols,
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+75/76
+
+--- Page 76 ---
+les effets négatifs
+de l’activité
+agricole sur les sols
+et
+l’effectivité du plan
+d’affectation des
+terres.
+Programme d’Action National de Lutte Contre la Dégradation des Terres (PANLCDT)
+76/76

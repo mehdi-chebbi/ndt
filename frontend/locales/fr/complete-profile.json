@@ -1,0 +1,16 @@
+{
+  "title": "Complétez votre profil",
+  "subtitle": "Nous avons besoin de quelques informations supplémentaires pour commencer",
+  "countryPlaceholder": "Rechercher ou sélectionner votre pays",
+  "phoneNumberLabel": "Numéro de téléphone",
+  "jobTitleLabel": "Poste",
+  "jobTitlePlaceholder": "ex. Chercheur, Data Scientist",
+  "institutionLabel": "Établissement / Organisation",
+  "institutionPlaceholder": "ex. Université de Lagos",
+  "saving": "Enregistrement...",
+  "continueToDashboard": "Continuer vers le tableau de bord",
+  "errors": {
+    "allFieldsRequired": "Veuillez remplir tous les champs",
+    "failedToComplete": "Échec de la complétion du profil"
+  }
+}

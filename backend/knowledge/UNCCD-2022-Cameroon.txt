@@ -1,0 +1,3232 @@
+--- Page 1 ---
+United Nations Convention to Combat Desertification
+Performance review and assessment of implementation system
+Seventh reporting process
+Report from
+Cameroon
+This report has been submitted by the government of Cameroon to the United Nations Convention to Combat Desertification
+(UNCCD).
+The designations employed and the presentation of material in this report do not imply the expression of any opinion
+whatsoever on the part of the UNCCD concerning the legal status of any country, territory, city or area or of its authorities, or
+concerning the delimitation of its frontiers or boundaries.
+2 March 2023
+
+--- Page 2 ---
+Contents
+1. SO: Strategic objectives
+A. SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote
+sustainable land management and contribute to land degradation neutrality.
+SO1-1 Trends in land cover
+SO1-2 Trends in land productivity or functioning of the land
+SO1-3 Trends in carbon stocks above and below ground
+SO1-4 Proportion of degraded land over the total land area
+SO1 Voluntary Targets
+B. SO-2: To improve the living conditions of affected populations.
+SO2-1 Trends in population living below the relative poverty line and/or income inequality in affected
+areas
+SO2-2 Trends in access to safe drinking water in affected areas
+SO2-3 Trends in the proportion of population exposed to land degradation disaggregated by sex
+SO2 Voluntary Targets
+C. SO-3: To mitigate, adapt to, and manage the effects of drought in order to enhance resilience of vulnerable
+populations and ecosystems.
+SO3-1 Trends in the proportion of land under drought over the total land area
+SO3-2 Trends in the proportion of the population exposed to drought
+SO3-3 Trends in the degree of drought vulnerability
+SO3 Voluntary Targets
+D. SO-4: To generate global environmental benefits through effective implementation of the United Nations
+Convention to Combat Desertification.
+SO4-1 Trends in carbon stocks above and below ground
+SO4-2 Trends in abundance and distribution of selected species
+SO4-3 Proportion of important sites for terrestrial and freshwater biodiversity that are covered by
+protected areas, by ecosystem type
+SO4 Voluntary Targets
+E. SO-5: To mobilize substantial and additional financial and non-financial resources to support the
+implementation of the Convention by building effective partnerships at global and national level
+SO5-1 Bilateral and multilateral public resources
+SO5-2 Domestic public resources
+SO5-3 International and domestic private resources
+SO5-4 Technology transfer
+SO5-5 Future support for activities related to the implementation of the Convention
+2. IF: Implementation Framework
+A. Financial and Non-Financial Sources
+B. Policy and Planning
+C. Action on the Ground
+3. Other files for Reporting
+4. Templated Maps
+A. Land cover in the initial year of the baseline period
+B. Land cover in the baseline year
+C. Land cover in the latest reporting year
+D. Land cover change in the baseline period
+E. Land cover change in the reporting period
+F. Land cover degradation in the baseline period
+G. Land cover degradation in the reporting period
+H. Land productivity dynamics in the baseline period
+I. Land productivity dynamics in the reporting period
+J. Land productivity degradation in the baseline period
+K. Land productivity degradation in the reporting period
+L. Soil organic carbon stock in the initial year of the baseline period
+M. Soil organic carbon stock in the baseline year
+N. Soil organic carbon stock in the latest reporting year
+O. Change in soil organic carbon stock in the baseline period
+2 / 100
+
+--- Page 3 ---
+P. Change in soil organic carbon stock in the reporting period
+Q. Soil organic carbon degradation in the baseline period
+R. Soil organic carbon degradation in the reporting period
+S. Proportion of land that is degraded over total land area (SDG Indicator 15.3.1) in the baseline period
+T. Proportion of land that is degraded over total land area (SDG Indicator 15.3.1) in the reporting period
+U. Progress towards Land Degradation Neutrality (LDN) in the reporting period
+V. Total Population exposed to land degradation (baseline)
+W. Female Population exposed to land degradation (baseline)
+X. Male Population exposed to land degradation (baseline)
+Y. Total Population exposed to land degradation (reporting)
+Z. Female Population exposed to land degradation (reporting)
+AA. Male Population exposed to land degradation (reporting)
+AB. Drought hazard in first epoch of baseline period
+AC. Drought hazard in second epoch of baseline period
+AD. Drought hazard in third epoch of baseline period
+AE. Drought hazard in fourth epoch of baseline period
+AF. Drought hazard in the reporting period
+AG. Drought exposure in first epoch of baseline period
+AH. Drought exposure in second epoch of baseline period
+AI. Drought exposure in third epoch of baseline period
+AJ. Drought exposure in fourth epoch of baseline period
+AK. Drought exposure in the reporting period
+AL. Female drought exposure in the reporting period
+AM. Male drought exposure in the reporting period
+3 / 100
+
+--- Page 4 ---
+4 / 100
+
+--- Page 5 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+SO1-1 Trends in land cover
+Land area
+SO1-1.T1: National estimates of the total land area, the area covered by water bodies and total country area
+Year Total land area (km²) Water bodies (km²) Total country area (km²) Comments
+2 001 466 050 9 600 475 650
+2 005 466 050 9 600 475 650
+2 010 466 050 9 600 475 650
+2 015 466 050 9 600 475 650
+2 019 466 050 9 600 475 650
+2 020 466 051 9 600 475 651
+Land cover legend and transition matrix
+SO1-1.T2: Key Degradation Processes
+Degradation Process Starting Land Cover Ending Land Cover
+Urban Expansion Tree-covered areas Artificial surfaces
+Urban Expansion Grasslands Artificial surfaces
+Deforestation Tree-covered areas Croplands
+Inundation Tree-covered areas Water bodies
+Inundation Artificial surfaces Other Lands
+Wetland Drainage Wetlands Croplands
+Wetland Drainage Wetlands Grasslands
+Vegetation Loss Grasslands Other Lands
+Other
+Croplands Grasslands
+Dégradation des sols
+Are the seven UNCCD land cover classes sufficient to monitor the key degradation processes in your country?
+Yes
+No
+SO1-1.T4: UNCCD land cover legend transition matrix
+Original/ Final Tree-covered areas Grasslands Croplands Wetlands Artificial surfaces Other Lands Water bodies
+Tree-covered areas 0 - - - - - 0
+Grasslands + 0 + - - - 0
+Croplands + - 0 - - - 0
+Wetlands - - - 0 - - 0
+Artificial surfaces 0 0 0 0 0 + 0
+Other Lands + + + + + 0 0
+Water bodies 0 0 0 0 0 0 0
+Land cover
+SO1-1.T5: National estimates of land cover (km²) for the baseline and reporting period
+5 / 100
+
+--- Page 6 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Other
+Tree-covered Grasslands Croplands Wetlands Artificial Water No data
+Lands
+areas (km²) (km²) (km²) (km²) surfaces (km²) bodies (km²) (km²)
+(km²)
+2000 255 352 143 859 32 949 26 211 2 533 5 147 9 600
+2001 254 007 143 336 34 367 26 235 2 680 5 425 9 600
+2002 252 662 142 813 35 785 26 258 2 828 5 704 9 600
+2003 251 318 142 289 37 203 26 282 2 976 5 982 9 600
+2004 249 973 141 766 38 621 26 306 3 124 6 261 9 600
+2005 248 628 141 243 40 039 26 330 3 271 6 539 9 600
+2006 247 283 140 720 41 457 26 353 3 419 6 818 9 600
+2007 245 938 140 197 42 875 26 377 3 567 7 096 96 001
+2008 244 594 139 674 44 293 26 401 3 715 7 375 9 600
+2009 243 249 139 150 45 711 26 424 3 862 7 653 9 600
+2010 241 904 138 627 47 129 26 448 4 010 7 932 9 600
+2011 240 559 138 104 48 547 26 472 4 158 8 211 9 600
+2012 239 214 137 581 49 965 26 495 4 306 8 489 9 600
+2013 237 870 137 058 51 382 26 519 4 454 8 768 9 600
+2014 236 525 136 534 52 800 26 543 4 601 9 046 9 600
+2015 235 180 13 601 54 218 26 567 4 749 9 325 9 600
+2016 233 835 135 488 55 636 26 590 4 897 9 603 9 600
+2017 232 490 134 965 57 054 26 614 5 044 9 882 9 600
+2018 231 146 134 442 58 472 26 638 5 192 10 160 9 600
+2019 229 801 133 919 59 890 26 661 5 340 10 439 9 600
+2020 228 456 133 395 61 308 26 686 5 488 10 718 9 600
+Land cover change
+SO1-1.T6: National estimates of land cover change (km²) for the baseline period
+Artificial Other Water
+Tree-covered Grasslands Croplands Wetlands Total
+surfaces Lands bodies
+areas (km²) (km²) (km²) (km²) (km²)
+(km²) (km²) (km²)
+Tree-covered 255
+235 180 3 151 16 065 515 440 0 0
+areas (km²) 351
+Grasslands 152
+0 140 211 11 458 0 456 0 0
+(km²) 125
+Croplands (km²) 0 0 58 418 0 1 152 5 699 0 65 269
+Wetlands (km²) 0 11 102 27 766 67 0 0 27 946
+Artificial
+0 0 0 0 4 748 0 0 4 748
+surfaces (km²)
+Other Lands
+0 904 497 21 101 9 325 0 10 848
+(km²)
+Total 235 180 144 277 86 540 28 302 6 964 15 024 9 600
+6 / 100
+
+--- Page 7 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Artificial Other Water
+Tree-covered Grasslands Croplands Wetlands Total
+surfaces Lands bodies
+areas (km²) (km²) (km²) (km²) (km²)
+(km²) (km²) (km²)
+Water bodies
+0 0 0 0 0 0 9 600 9 600
+(km²)
+Total 235 180 144 277 86 540 28 302 6 964 15 024 9 600
+SO1-1.T7: National estimates of land cover change (km²) for the reporting period
+Artificial Other Water
+Tree-covered Grasslands Croplands Wetlands Total land
+surfaces Lands bodies
+areas (km²) (km²) (km²) (km²) area (km²)
+(km²) (km²) (km²)
+Tree-covered
+228 456 3 983 2 490 105 146 0 0 235 180
+areas (km²)
+Grasslands
+0 133 395 2 464 0 152 0 0 136 011
+(km²)
+Croplands
+0 0 61 308 0 987 6 099 0 68 394
+(km²)
+Wetlands (km²) 0 4 8 220 26 686 66 0 0 34 976
+Artificial
+0 0 0 0 5 488 0 0 5 488
+surfaces (km²)
+Other Lands
+0 501 691 0 200 10 718 0 12 110
+(km²)
+Water bodies
+0 0 0 0 0 0 9 600 9 600
+(km²)
+Total 228 456 137 883 75 173 26 791 7 039 16 817 9 600
+Land cover degradation
+SO1-1.T8: National estimates of land cover degradation (km²) in the baseline period
+Area (km²) Percent of total land area (%)
+Land area with degraded land cover 28 019 5 .9
+Land area with non-degraded land cover 447 631 94 .1
+Land area with no land cover data 0 0 .0
+SO1-1.T9: National estimates of land cover degradation (km²) in the reporting period
+Area (km²) Percent of total land area (%)
+Land area with improved land cover 14 911 3 .1
+Land area with stable land cover 460 739 96 .9
+Land area with degraded land cover 14 888 3 .1
+Land area with no land cover data 0 0 .0
+General comments
+les données considérées dans le présent rapport sont issus des extrapolations de la cartographie relative à la période de référence
+2000-2015. la formule d'extratpolation est la suivante Yt=Yt-1 + (Yt-1 - Yt-2)
+7 / 100
+
+--- Page 8 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+SO1-2 Trends in land productivity or functioning of the land
+Land productivity dynamics
+SO1-2.T1: National estimates of land productivity dynamics (in km²) within each land cover class for the
+baseline period
+Net land productivity dynamics (km²) for the baseline period
+Land cover class
+Declining (km²) Moderate Decline (km²) Stressed (km²) Stable (km²) Increasing (km²) No Data (km²)
+Tree-covered areas 5 .664 23 822 52 836 161 849 110 370 563
+Grasslands 468 1 833 3 295 12 929 13 203 120
+Croplands 1 052 5 778 7 798 45 202 12 432 376
+Wetlands 732 863 478 2 218 647 2 305
+Artificial surfaces 320 130 130 264 123 31
+Other Lands 9 2 6 4 5 0
+Water bodies 0 0 0 0 0 0
+SO1-2.T2: National estimates of land productivity dynamics (in km²) within each land cover class for the
+reporting period.
+Net land productivity dynamics (km²) for the reporting period
+Land cover class
+Declining (km²) Moderate Decline (km²) Stressed (km²) Stable (km²) Increasing (km²) No Data (km²)
+Tree-covered areas 4 899 24 248 111 107 85 453 124 647 306
+Grasslands 91 4 494 6 826 5 108 12 107 29
+Croplands 783 20 417 15 808 10 567 18 975 360
+Wetlands 594 101 1 505 385 841 737
+Artificial surfaces 21 49 396 50 40 1
+Other Lands 0 0 2 0 1 8
+Water bodies 93 94 1 691 268 422 1 019
+SO1-2.T3: National estimates of land productivity dynamics for areas where a land conversion to a new land
+cover class has taken place (in km²) for the baseline period.
+Land Conversion Net land productivity dynamics (km²) for the baseline period
+Net area change Declining Moderate Decline Stressed Stable Increasing
+From To
+(km²) (km²) (km²) (km²) (km²) (km²)
+Tree-covered
+Grasslands 388 0 26 230 61 70
+areas
+Grasslands Wetlands 3 0 0 1 0 1
+Grasslands Croplands 1 412 0 12 1 185 175 40
+Wetlands Grasslands 1 0 0 0 0 0
+Croplands Grasslands 208 0 1 40 96 71
+Other
+Wetlands 1 0 0 0 0 0
+Lands
+SO1-2.T4: National estimates of land productivity dynamics for areas where a land conversion to a new land
+8 / 100
+
+--- Page 9 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+cover class has taken place (in km²) for the reporting period.
+Land Conversion Net land productivity dynamics (km²) for the reporting period
+Net area change Declining Moderate Decline Stressed Stable Increasing
+From To
+(km²) (km²) (km²) (km²) (km²) (km²)
+Tree-covered
+Grasslands 1 593 0 179 546 262 604
+areas
+Grasslands Wetlands 7 0 1 2 1 3
+Grasslands Croplands 1 604 0 440 1 006 22 137
+Wetlands Grasslands 2 0 0 0 0 0
+Croplands Grasslands 189 0 26 29 11 124
+Land Productivity degradation
+SO1-2.T5: National estimates of land productivity degradation in the baseline period
+Area (km²) Percent of total land area (%)
+Land area with degraded land productivity 59 308 12 .7
+Land area with non-degraded land productivity 400 466 85 .9
+Land area with no land productivity data 1 557 0 .3
+SO1-2.T6: National estimates of land productivity degradation in the reporting period
+Area (km²) Percent of total land area (%)
+Land area with improved land productivity 160 113 34 .4
+Land area with stable land productivity 242 607 52 .1
+Land area with degraded land productivity 57 299 12 .3
+Land area with no land productivity data 1 594 0 .3
+General comments
+9 / 100
+
+--- Page 10 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+SO1-3 Trends in carbon stocks above and below ground
+Soil organic carbon stocks
+SO1-3.T1: National estimates of the soil organic carbon stock in topsoil (0-30 cm) within each land cover
+class (in tonnes per hectare).
+Soil organic carbon stock in topsoil (t/ha)
+Year
+Tree-covered areas Grasslands Croplands Wetlands Artificial surfaces Other Lands Water bodies
+2000 80 59 58 122 126 67 18
+2001 80 59 58 122 114 69 18
+2002 80 59 58 121 107 68 18
+2003 80 60 58 121 103 69 18
+2004 80 60 58 121 98 88 18
+2005 80 61 58 121 94 98 18
+2006 80 61 58 119 92 93 18
+2007 80 61 58 118 89 94 18
+2008 80 62 57 117 88 94 19
+2009 80 62 57 117 86 94 19
+2010 80 62 57 117 85 101 19
+2011 80 63 56 116 83 95 19
+2012 80 63 56 116 80 95 19
+2013 80 63 56 116 77 95 19
+2014 80 64 56 116 73 95 19
+2015 80 66 55 116 70 93 20
+2016 80 66 55 116 69 93 19
+2017 80 66 55 116 68 93 19
+2018 80 65 55 116 67 93 19
+2019 80 65 55 116 64 94 19
+2020 80 60 55 116 60 94 19
+If you opted not to use default Tier 1 data, what did you use to calculate the estimates above?
+Modified Tier 1 methods and data
+Tier 2 (additional use of country-specific data)
+Tier 3 (more complex methods involving ground measurements and modelling)
+SO1-3.T2: National estimates of the change in soil organic carbon stock in soil due to land conversion to a
+new land cover class in the baseline period
+Land Conversion Soil organic carbon (SOC) stock change in the baseline period
+Net area Initial SOC Final SOC Initial SOC Final SOC SOC stock
+From To
+change (km²) stock (t/ha) stock (t/ha) stock total (t) stock total (t) change (t)
+Tree-covered
+Grasslands 388 55 .8 55 .8 2 165 272 2 165 988 716
+areas
+10 / 100
+
+--- Page 11 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Land Conversion Soil organic carbon (SOC) stock change in the baseline period
+Net area Initial SOC Final SOC Initial SOC Final SOC SOC stock
+From To
+change (km²) stock (t/ha) stock (t/ha) stock total (t) stock total (t) change (t)
+Grasslands Wetlands 3 121 .8 121 .8 36 547 36 547 0
+Croplands Wetlands 17 84 .6 92 .1 143 784 156 507 12 723
+Artificial
+Wetlands 4 95 .9 49 .4 38 372 19 769 -18 603
+surfaces
+Croplands Grasslands 208 45 .6 50 .0 948 970 1 040 480 91 510
+Wetlands Other Lands 1 59 .6 45 .9 5 957 4 591 -1 366
+SO1-3.T3: National estimates of the change in soil organic carbon stock in soil due to land conversion to a
+new land cover class in the reporting period
+Land Conversion Soil organic carbon (SOC) stock change in the reporting period
+Net area Initial SOC Final SOC Initial SOC Final SOC SOC stock
+From To
+change (km²) stock (t/ha) stock (t/ha) stock total (t) stock total (t) change (t)
+Tree-covered
+Grasslands 1 310 86 .6 86 .6 11 347 641 11 348 467 826
+areas
+Grasslands Wetlands 5 105 .5 105 .6 52 746 52 799 53
+Wetlands Grasslands 1 63 .6 63 .6 6 358 6 358 0
+Croplands Grasslands 58 38 .7 39 .0 224 409 226 023 1 614
+Grasslands Croplands 440 45 .1 43 .8 1 985 919 1 928 122 -57 797
+Soil organic carbon stock degradation
+SO1-3.T4: National estimates of soil organic carbon stock degradation in the baseline period
+Area (km²) Percent of total land area (%)
+Land area with degraded soil organic carbon (SOC) 1 379 0 .3
+Land area with non-degraded SOC 459 755 98 .6
+Land area with no SOC data 196 0 .0
+SO1-3.T5: National estimates of SOC stock degradation in the reporting period
+Area (km²) Percent of total land area (%)
+Land area with improved SOC 0 0 .0
+Land area with stable SOC 460 969 98 .9
+Land area with degraded SOC 344 0 .1
+Land area with no SOC data 301 0 .1
+General comments
+les données par défaut ont été considérées fautes de méthodes nationales existantes. il a également été considéré que les valeurs entre
+2019 et 2020 restent inchangées conte tenu du temps qui implique une faible variailité.
+11 / 100
+
+--- Page 12 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+SO1-4 Proportion of degraded land over the total land area
+Proportion of degraded land over the total land area (Sustainable Development Goal Indicator 15.3.1)
+SO1-4.T1: National estimates of the total area of degraded land (in km²), and the proportion of degraded land
+relative to the total land area
+Total area of degraded land (km²) Proportion of degraded land over the total land area (%)
+Baseline Period 28 019 6 .0
+Reporting Period 14 888 3 .2
+Change in degraded extent -13131
+Method
+Did you use the SO1-1, SO1-2 and SO1-3 indicators (i.e. land cover, land productivity dynamics and soil organic carbon
+stock) to compute the proportion of degraded land?
+Which indicators did you use?
+☒ Land Cover
+☐ Land Productivity Dynamics
+☐ SOC Stock
+Did you apply the one-out, all-out principle to compute the proportion of degraded land?
+Yes
+No
+Level of Confidence
+Indicate your country’s level of confidence in the assessment of the proportion of degraded land:
+High (based on comprehensive evidence)
+Medium (based on partial evidence)
+Low (based on limited evidence)
+Describe why the assessment has been given the level of confidence selected above:
+du fait du manque de certaines données nationales cohérentes depuis la période de référence jusqu'à la priode considéré. néanmoins, le
+recours aux extrapolations permet d'avoir des données plus proches de laréalité que les données par défaut.
+False positives/ False negatives
+SO1-4.T3: Justify why any area identified as degraded or non-degraded in the SO1-1, SO1-2 or SO1-3 indicator
+data should or should not be included in the overall Sustainable Development Goal indicator 15.3.1
+calculation.
+Location Name Type Recode Options Area (km²) Process driving false +/- outcome Basis for Judgement Edit Polygon
+Perform qualitative assessments of areas identified as degraded or improved
+SO1-4.T4: Degradation hotspots
+Action(s) taken
+to redress
+degradation in
+Direct drivers of Remediating action(s)
+Area Assessment terms of Land Edit
+Hotspots Location land degradation (both forward-looking
+(km²) Process Degradation Polygon
+hotspots and current)
+Neutrality
+response
+hierarchy
+12 / 100
+
+--- Page 13 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Action(s) taken
+to redress
+degradation in
+Direct drivers of Remediating action(s)
+Area Assessment terms of Land Edit
+Hotspots Location land degradation (both forward-looking
+(km²) Process Degradation Polygon
+hotspots and current)
+Neutrality
+response
+hierarchy
+1. Deforestation
+and clearance
+of other native • Restore/improve
+vegetation protected areas
+2. Grazing land
+management • Restore/improve
+multiple land uses
+3. Non-timber
+Stakeholder
+natural ☐ Avoid
+Extrème 34 perspectives resource • Restore productivity
+Maroua Nord 246 from surveys, extraction ☒ Reduce and soil organic
+workshops and
+☐ Reverse carbon stock in
+interviews 4. Climate change croplands and
+5. grasslands
+�.
+7. • Reduce/halt
+�. conversion of
+9. multiple land uses
+10.
+11.
+1.
+2.
+3. • Restore/improve
+4. protected areas
+5.
+�. Deforestation • Restore/improve
+and clearance multiple land uses
+Stakeholder of other native
+☐ Avoid
+25 perspectives vegetation • Restore productivity
+Garoua Nord 517 from surveys, 7. Grazing land ☒ Reduce and soil organic
+workshops and
+management ☐ Reverse carbon stock in
+interviews
+croplands and
+�. Non-timber
+grasslands
+natural
+resource
+extraction • Reduce/halt
+conversion of
+9. Climate change
+multiple land uses
+10.
+11.
+Total no. of
+4
+hotspots
+Total
+98 250
+hotspot area
+13 / 100
+
+--- Page 14 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+Action(s) taken
+to redress
+degradation in
+Direct drivers of Remediating action(s)
+Area Assessment terms of Land Edit
+Hotspots Location land degradation (both forward-looking
+(km²) Process Degradation Polygon
+hotspots and current)
+Neutrality
+response
+hierarchy
+• Restore/improve
+1. multiple land uses
+2.
+3. • Restore/improve
+4. tree-covered areas
+5. ◦ Restore tree-
+�. Deforestation
+covered areas
+and clearance ◦ Improve tree
+of other native
+cover
+Stakeholder vegetation
+☐ Avoid management
+perspectives
+24 7. Grazing land e.g. fire
+Ngaoundéré Adamaoua from surveys, ☒ Reduce
+595 management management
+workshops and
+☐ Reverse
+interviews �. Non-timber
+natural • Restore productivity
+resource and soil organic
+extraction carbon stock in
+croplands and
+9. Fire regime
+grasslands
+change
+10. Climate change • Reduce/halt
+11. conversion of
+multiple land uses
+1.
+2.
+3.
+4. • Restore/improve
+5. multiple land uses
+�. Deforestation
+and clearance • Restore/improve
+Stakeholder of other native tree-covered areas
+☐ Avoid
+13 perspectives vegetation ◦ Restore tree-
+bafoussam Ouest 892 from surveys, 7. Grazing land ☒ Reduce covered areas
+workshops and
+management ☐ Reverse
+interviews
+�. Non-timber • Restore productivity
+natural and soil organic
+resource carbon stock in
+extraction croplands and
+grasslands
+9. Climate change
+10.
+11.
+Total no. of
+4
+hotspots
+Total
+98 250
+hotspot area
+What is/are the indirect driver(s) of land degradation at the national level?
+1. Demographic
+2. Science, knowledge and technology
+3.
+4.
+5.
+SO1-4.T5: Improvement brightspots
+14 / 100
+
+--- Page 15 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+What action(s) led to the
+Area brightspot in terms of the Implementing action(s) (both Edit
+Brightspots Location Assessment Process
+(km²) Land Degradation forward-looking and current) Polygon
+Neutrality hierarchy?
+• General instrument (e.g.
+policies, economic
+incentives)
+Stakeholder ☐ Avoid
+Maroua Extrème 34 perspectives from ☒ Reduce • Restore/improve multiple
+Nord 246 surveys, workshops land uses
+and interviews ☐ Reverse
+• Restore productivity and
+soil organic carbon stock in
+croplands and grasslands
+• General instrument (e.g.
+policies, economic
+incentives)
+Stakeholder ☐ Avoid
+25 perspectives from
+Garoua Nord 517 surveys, workshops ☒ Reduce • Restore/improve multiple
+and interviews ☐ Reverse land uses
+• Restore/improve multiple
+functions
+• General instrument (e.g.
+policies, economic
+incentives)
+• Restore/improve multiple
+land uses
+Stakeholder ☐ Avoid
+Ngaoundéré Adamaoua 24 perspectives from ☐ Reduce • Restore/improve tree-
+595 surveys, workshops
+covered areas
+and interviews ☐ Reverse ◦ Improve tree cover
+management e.g. fire
+management
+• Restore productivity and
+soil organic carbon stock in
+croplands and grasslands
+• General instrument (e.g.
+policies, economic
+incentives)
+• Restore/improve tree-
+covered areas
+Stakeholder ☐ Avoid
+◦ Restore tree-covered
+13 perspectives from
+Bafoussam Ouest ☒ Reduce areas
+892 surveys, workshops
+and interviews ☐ Reverse
+• Restore productivity and
+soil organic carbon stock in
+croplands and grasslands
+• Reduce/halt conversion of
+multiple land uses
+Total no. of brightpots 4
+Total brightspot area 98 250
+15 / 100
+
+--- Page 16 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land
+management and contribute to land degradation neutrality.
+What are the enabling and instrumental responses at the national level driving the occurrence of brightspots?
+1. Integrated landscape planning
+2. Climate change adaptation planning
+3. Rights-based instruments and customary norms
+4.
+5.
+�.
+7.
+�.
+9.
+10.
+General comments
+Au Cameroun, les facteurs de la dégradation sont d'ordre naturel (faible pluviométrie dans la zone soudano-sahélienne, prolongement de la
+saison sêche "08 à 09 mois", la forte insolation ainsi qu'un faible humidité de l'aire). pour ce est des facteurs anthropiques, nous
+mentionnons l'accroissement démographique, l'augmentation des espaces agricoles et le surpaturage caractérisé par des méthodes
+encore archaïques, la pression sur la ressource forestière pour le bois énergie, l'expansion urbaine, l'implantation de grands projets
+structurant et l'exploitation minière. Notons également les sols caractérisés par une dégradation du fait de l'absence de couvertures
+ligneuses et herbacées. en zone forestière, on constate une baisse de la canopée en terme de densitée et de la hauteur des arbres. en
+terme de mesure, on constate un forte volonté politque manifestée à travers l'adhésion du Cameroun dans plusieurs tel que AFR100,
+Grande Muraille Verte, LDN sans oublier la ratification à l'UNCCD...
+16 / 100
+
+--- Page 17 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land management
+and contribute to land degradation neutrality.
+SO1 Voluntary Targets
+SO1-VT.T1: Voluntary Land Degradation Neutrality targets and other targets relevant to strategic objective 1
+Overarching
+type of Is this an LDN Which other
+Total
+Land Status of target? If so, important goals
+Target Targeted Edit
+Target Year Location(s) Degradation target under which are also being
+Area action(s) Polygon
+Neutrality achievement process was it addressed by this
+(km²)
+(LDN) defined/adopted? target?
+intervention
+• Convention
+on Biological
+Diversity –
+National
+Biodiversity
+Strategies
+and Action
+la NDT est Plans &
+atteinte par Yes National
+rapport à 2015 Targets
+(absence de ☐ Avoid No • Bonn
+perte nette) et 2030 niveau national 120 ☒ Reduce Not Participation in Challenge
+10% de plus du 628 achieved
+territoire ☐ Reverse the LDN Target • AFR100
+Setting
+national s’est
+amélioré (gain Programme • United
+net) Nations
+Framework
+Convention
+on Climate
+Change –
+Nationally
+Determined
+Contributions
+• Convention
+on Biological
+Diversity –
+National
+Biodiversity
+Strategies
+and Action
+la NDT est Plans &
+atteinte dans National
+au moins 90% Yes Targets
+des communes
+situées dans niveau des ☐ Avoid Not No • Bonn
+les zones 2030 Communes ☒ Reduce achieved Participation in Challenge
+prioritaires ☐ Reverse the LDN Target • AFR100
+pour la lutte Setting
+contre la Programme • United
+dégradation Nations
+des terres Framework
+Convention
+on Climate
+Change –
+Nationally
+Determined
+Contributions
+Sum of all targeted areas
+Total
+120 628
+17 / 100
+
+--- Page 18 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land management
+and contribute to land degradation neutrality.
+Overarching
+Is this an LDN Which other
+Total type of Land
+Status of target? If so, important goals
+Target Degradation Targeted Edit
+Target Year Location(s) target under which are also being
+Area Neutrality action(s) Polygon
+achievement process was it addressed by this
+(km²) (LDN)
+defined/adopted? target?
+intervention
+• Convention
+on Biological
+Diversity –
+National
+Biodiversity
+Strategies
+and Action
+Plans &
+National
+Yes
+Targets
+12 062 768
+hectares de les trois régions ☐ Avoid Not No • Bonn
+terres 2030 septentriOnales ☒ Reduce achieved Participation in Challenge
+dégradées sont ☐ Reverse the LDN Target • AFR100
+restaurés Setting
+Programme • United
+Nations
+Framework
+Convention
+on Climate
+Change –
+Nationally
+Determined
+Contributions
+• Convention
+on Biological
+Diversity –
+la conversion National
+des forêts en Biodiversity
+d’autres formes Strategies
+d’occupation and Action
+du fait de la Plans &
+mise en œuvre National
+des Yes Targets
+programmes et
+projets de les cinq zones ☐ Avoid Not No • Bonn
+développement 2030 agroécologiques ☒ Reduce achieved Participation in Challenge
+et du ☐ Reverse the LDN Target • AFR100
+développement Setting
+de la Programme • United
+production Nations
+agricole, Framework
+animale et Convention
+halieutique est on Climate
+réduite de Change –
+moitié Nationally
+Determined
+Contributions
+• Bonn
+la dépendance Challenge
+au bois de
+chauffe des Yes • AFR100
+populations • United
+des zones ☐ Avoid No
+Nations
+urbaines dans 2030 les trois régions ☒ Reduce Not Participation in Framework
+les zones les septentriOnales achieved
+plus touchées ☐ Reverse the LDN Target Convention
+Setting on Climate
+par la
+Programme Change –
+dégradation
+Nationally
+des terres est
+Determined
+réduite de 75%
+Contributions
+Sum of all targeted areas
+Total
+120 628
+18 / 100
+
+--- Page 19 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land management
+and contribute to land degradation neutrality.
+Overarching
+Is this an LDN Which other
+Total type of Land
+Status of target? If so, important goals
+Target Degradation Targeted Edit
+Target Year Location(s) target under which are also being
+Area Neutrality action(s) Polygon
+achievement process was it addressed by this
+(km²) (LDN)
+defined/adopted? target?
+intervention
+• Bonn
+Challenge
+la dégradation zone Yes • AFR100
+des terres en agroécologique • United
+milieu forestier à pluviométrie ☐ Avoid No Nations
+due à 2030 bimodale, et ☒ Reduce Achieved Participation in Framework
+l f ’ o e r x e p s lo ti i è ta re t io et n z p o lu n v e io à métrie ☐ Reverse t S h e e t t L in D g N Target C on o n C v l e im nt a io te n
+minière est monomodale Programme Change –
+réduite de 75%
+Nationally
+Determined
+Contributions
+la dégradation Yes
+des terres ☐ Avoid No • Bonn
+causée par les Not Challenge
+projets est 2030 niveau national ☒ Reduce achieved Participation in
+compensée en ☐ Reverse the LDN Target • AFR100
+intégralité au Setting
+moins Programme
+• Bonn
+Challenge
+• AFR100
+Yes
+• United
+la dégradation zone ☐ Avoid No
+Nations
+des mangroves 2030 agroécologique ☒ Reduce Not Participation in Framework
+est réduite de à pluviométrie achieved
+moitié monomodale ☐ Reverse the LDN Target Convention
+Setting on Climate
+Programme Change –
+Nationally
+Determined
+Contributions
+Sum of all targeted areas
+Total
+120 628
+SO1.IA.T1: Areas of implemented action related to the targets (projects and initiatives on the ground).
+Action Extent
+Relevant Implemented Location Edit
+start of Total Area Implemented So Far (km²)
+Target Action (placename) Polygon
+date action
+19 / 100
+
+--- Page 20 ---
+SO-1: To improve the condition of affected ecosystems, combat desertification/land degradation, promote sustainable land management
+and contribute to land degradation neutrality.
+Action Extent
+Relevant Implemented Location Edit
+start of Total Area Implemented So Far (km²)
+Target Action (placename) Polygon
+date action
+Sum of all areas relevant to actions under the same target
+la NDT est atteinte par rapport à 2015 (absence de perte nette) 0
+et 10% de plus du territoire national s’est amélioré (gain net) : .00
+la NDT est atteinte dans au moins 90% des communes situées
+0
+dans les zones prioritaires pour la lutte contre la dégradation
+.00
+des terres:
+12 062 768 hectares de terres dégradées sont restaurés: 0 .00
+la conversion des forêts en d’autres formes d’occupation du fait
+de la mise en œuvre des programmes et projets de 0
+développement et du développement de la production agricole, .00
+animale et halieutique est réduite de moitié:
+la dépendance au bois de chauffe des populations des zones
+0
+urbaines dans les zones les plus touchées par la dégradation
+.00
+des terres est réduite de 75%:
+la dégradation des terres en milieu forestier due à l’exploitation 0
+forestière et minière est réduite de 75%: .00
+la dégradation des terres causée par les projets est 0
+compensée en intégralité au moins: .00
+la dégradation des mangroves est réduite de moitié: 0 .00
+General comments
+RS1. IA. T1 n'est pas renseigné car à l'heure actuelle, le Cameroun n'a pas encore eu de partenaires techniques et financiers pour la mise en ouvre de la
+NDT... Dans le cadre de la NDT, la superficie des forêts et terres dégradés considérée est l’estimation officielle de 12 062 768 ha. Ceci explique le vide
+dans les carrés réservés aux superficies.
+20 / 100
+
+--- Page 21 ---
+SO-2: To improve the living conditions of affected populations.
+SO2-1 Trends in population living below the relative poverty line and/or income inequality in
+affected areas
+Relevant metric
+Choose the metric that is relevant to your country:
+Proportion of population below the
+international poverty line
+Income inequality (Gini Index)
+Proportion of population below the international poverty line
+SO2-1.T1: National estimates of the proportion of population below the international poverty line
+Year Proportion of population below international poverty line (%)
+2 000
+2 001 40.0
+2 002
+2 003
+2 004
+2 005
+2 006
+2 007 40.0
+2 008
+2 009
+2 010
+2 011
+2 012
+2 013
+2 014 38.0
+2 015
+2 016
+2 017
+2 018
+2 019
+2 020
+Qualitative assessment
+SO2-1.T3: Interpretation of the indicator
+Change in
+Indicator metric the Comments
+indicator
+un des objectifs de la stratégie nationale de développement est de contribuer à l’amélioration
+Proportion of
+durable des conditions de vie de toutes les couches de la population. plusieurs simulation
+population below the
+Decrease montrent que le taux de pauvreté monétaire réduirait à 30,8 %, traduisant ainsi la volonté du
+international poverty
+Gouvernement de réduire le taux de pauvreté monétaire à un niveau considérable. (Source,
+line
+Ministère de l'Economie, du Plan et de l'Aménagement du Territoire MINEPAT).
+General comments
+21 / 100
+
+--- Page 22 ---
+SO-2: To improve the living conditions of affected populations.
+Au Cameroun, la pauvreté est assez accentuée en milieu rural et ce, malgré le transfert des compétences prévues par les lois de 2004 sur la
+décentralisation et des ressources financières y afférentes aux communes.
+22 / 100
+
+--- Page 23 ---
+SO-2: To improve the living conditions of affected populations.
+SO2-2 Trends in access to safe drinking water in affected areas
+Proportion of population using safely managed drinking water services
+SO2-2.T1: National estimates of the proportion of population using safely managed drinking water services
+Year Urban (%) Rural (%) Total (%)
+2000 71 12 39
+2001
+2002
+2003
+2004
+2005
+2006
+2007
+2008
+2009
+2010
+2011
+2012
+2013
+2014 93 54 73
+2015
+2016
+2017 77 39 40
+2018
+2019
+2020
+Qualitative assessment
+SO2-2.T2: Interpretation of the indicator
+Change in the
+Comments
+indicator
+L’accès à la ressource en eau est très inégal entre le milieu urbain et rural. Néanmoins, on observe une amélioration de la
+Decrease
+gouvernance manifesté par l'effectivité de la décentralisation (mise en place des conseils régionaux effectifs).
+General comments
+les résultats de SO2-2. T1 sont tels que: 1) les données de 2000 sont issus du rapport conjoint UNICEF ET OMS sur les Progrès en matière
+d’eau, d’assainissement et d’hygiène des ménages; 2) les données de 2014 et 2017 sont issues des études de l'Institut National de la
+statistique;
+23 / 100
+
+--- Page 24 ---
+SO-2: To improve the living conditions of affected populations.
+SO2-3 Trends in the proportion of population exposed to land degradation disaggregated by
+sex
+Proportion of the population exposed to land degradation disaggregated by sex
+SO2-3.T1: National estimates of the proportion of population exposed to land degradation disaggregated by
+sex.
+Male
+Population Percentage of Female Percentage of total Percentage of total
+Time population
+exposed total population population female population male population
+period exposed
+(count) exposed (%) exposed (count) exposed (%) exposed (%)
+(count)
+Baseline
+7404087 32 .4 3818910 33 .1 3585177 31 .7
+period
+Reporting
+9824390 37 .4 5006295 37 .8 4818095 37 .0
+period
+Qualitative assessment
+SO2-3.T2: Interpretation of the indicator
+Change in the
+Comments
+indicator
+le chevauchement de plusieurs activités, les mauvaises pratiques agricoles, la pression sur de nouvelles terres et, les
+Decrease effet multiples et bien souvent néfastes des changements climatiques contribuent à rendre davantage vulnérables les
+populations
+General comments
+la population exposée à la dégradation du sol est celle des régions mentionnées dans l'objectif SO1.
+24 / 100
+
+--- Page 25 ---
+SO-2: To improve the living conditions of affected populations.
+SO2 Voluntary Targets
+SO2-VT.T1
+Status of
+Level of
+Target Year target Comments
+application
+achievement
+Assurer l’accès universel et équitable à
+l’eau potable à un coût abordable à tous Dans sa Stratégie National de Développement
+les ménages, de veiller à une bonne (SND30), le Cameroun envisage améliorer l'accès aux
+planification de l’extension du réseau 2030 National Ongoing facilités sociales de base parmi lesquelles l'Accès à
+d’eau potable selon l’évolution l'eau potable. ceci, tout en donnant un rôle
+démographique et de développer les considérable au secteur privé.
+capacités techniques
+Comme cibles principales, il s’agira : (i) de ramener le
+taux de pauvreté de 37,5% en 2014 à moins de 25% en
+Améliorer les conditions de vie des
+2030 ; (ii) de ramener le sous-emploi de 77% en 2014 à
+populations et leur accès aux services
+moins de 50% en 2030 ; (iii) de porter l’Indice du
+sociaux de base en assurant une 2030 National Ongoing
+Capital Humain de 0,39 en 2018 à 0,55 et l’Indice de
+réduction significative de la pauvreté et
+Développement Humain de 0,52 en 2016 à 0,70 en
+du sous-emploi.
+2030. La réalisation de cet objectif contribue à
+l’atteinte des cibles des ODD 1 à 7 et l’ODD10.
+Renforcer les mesures d’adaptation et
+d’atténuation des effets des
+changements climatiques et la gestion
+Il s’agira d’atteindre les ODD 13, 14 et 15 avec leurs
+environnementale pour garantir une 2030 National Ongoing
+cibles contextualisées.
+croissance économique et un
+développement social durable et
+inclusif
+General comments
+La SND30 du Cameroun offre un cadre adéquat pour l'atteinte des ODD tout en les contextualisant de manières optimale. Ce qui tient à
+réitérer le caractère volontaire de l'atteinte des cibles permettant de réellement renverser la tendance en matière de sècheresse.
+25 / 100
+
+--- Page 26 ---
+SO-3: To mitigate, adapt to, and manage the effects of drought in order to enhance resilience of vulnerable populations and
+ecosystems.
+SO3-1 Trends in the proportion of land under drought over the total land area
+Drought hazard indicator
+SO3-1.T1: National estimates of the land area in each drought intensity class as defined by the Standardized
+Precipitation Index (SPI) or other nationally relevant drought indices
+Drought intensity classes
+Mild drought (km²) Moderate drought (km²) Severe drought (km²) Extreme drought (km²) Non-drought (km²)
+2000 218 506 13 176 2 719 8 985 221 854
+2001 86 034 116 458 134 940 23 994 103 814
+2002 145 645 12 393 0 0 307 203
+2003 191 551 48 711 15 720 7 668 201 590
+2004 185 356 9 064 3 645 0 267 175
+2005 250 642 27 208 5 570 0 181 821
+2006 163 484 82 199 16 371 6 297 196 889
+2007 120 406 58 676 31 317 0 254 841
+2008 212 055 42 819 27 015 8 260 175 090
+2009 147 297 31 005 37 630 27 575 221 732
+2010 86 746 0 0 0 378 494
+2011 183 390 57 588 43 358 64 006 116 898
+2012 28 465 1 633 0 0 435 142
+2013 59 709 34 671 12 343 6 382 352 135
+2014 337 471 30 394 7 377 6 137 83 861
+2015 69 376 96 975 124 012 95 048 79 830
+2016 13 856 0 0 0 451 384
+2017 196 726 40 874 14 918 3 821 208 901
+2018 163 515 58 046 35 835 5 020 202 824
+2019 84 199 33 579 43 484 73 108 230 871
+2020
+2021
+SO3-1.T2: Summary table for land area under drought without class break down
+Total area under drought (km²) Proportion of land under drought (%)
+2000 243 386 52 .2
+2001 361 426 77 .6
+2002 158 038 33 .9
+2003 263 650 56 .6
+2004 198 065 42 .5
+2005 283 420 60 .8
+26 / 100
+
+--- Page 27 ---
+SO-3: To mitigate, adapt to, and manage the effects of drought in order to enhance resilience of vulnerable populations and
+ecosystems.
+Total area under drought (km²) Proportion of land under drought (%)
+2006 268 351 57 .6
+2007 210 399 45 .1
+2008 290 150 62 .3
+2009 243 508 52 .2
+2010 86 746 18 .6
+2011 348 342 74 .7
+2012 30 099 6 .5
+2013 113 105 24 .3
+2014 381 379 81 .8
+2015 385 410 82 .7
+2016 13 856 3 .0
+2017 256 339 55 .0
+2018 262 416 56 .3
+2019 234 369 50 .3
+2020 -
+2021 -
+Qualitative assessment:
+Au regard des données ci haut mentionnées, il a été enregistré des cas de sècheresse intense et extrême au Cameroun. Ceci
+correspondrait à la situation qui a toujours prévalue dans les régions septentrionales du pays. les cas de sècheresse légère et modéré,
+correspondraient quant à elles, à des situations bien communes aux régions méridionales. les données exprimant la neutralité de la
+sècheresse sont caractéristiques des zones agroécologiques à pluviométrie monomodale et à pluviométrie bimodale.
+General comments
+Les produits de surveillance du Centre mondial de climatologie des précipitations peuvent être utilisées comme données par défaut.
+27 / 100
+
+--- Page 28 ---
+SO-3: To mitigate, adapt to, and manage the effects of drought in order to enhance resilience of vulnerable populations and
+ecosystems.
+SO3-2 Trends in the proportion of the population exposed to drought
+Drought exposure indicator
+Exposure is defined in terms of the number of people who are exposed to drought as calculated from the SO3-1 indicator data.
+SO3-2.T1: National estimates of the percentage of the total population within each drought intensity class as
+well as the total population count and the proportion of the national population exposed to drought
+regardless of intensity.
+Non-exposed Mild drought Moderate drought Severe drought Extreme drought Exposed population
+Reporting Population Population Population Population Population Population
+% % % % % %
+year count count count count count count
+35 63 0 0 0 64
+2000 4902531 8681755 103499 5437 73631 8 864 322
+.6 .1 .8 .0 .5 .4
+42 8 7 38 3 57
+2001 6028618 1215865 1031243 5397823 530480 8 175 411
+.4 .6 .3 .0 .7 .6
+65 22 11 0 0 34
+2002 9633575 3363322 1708954 0 0 5 072 276
+.5 .9 .6 .0 .0 .5
+46 30 6 13 3 53
+2003 7035184 4602704 939650 1988786 596524 8 127 664
+.4 .4 .2 .1 .9 .6
+43 55 0 0 0 56
+2004 6849966 8712197 70144 21328 0 8 803 669
+.8 .7 .4 .1 .0 .2
+55 41 2 0 0 44
+2005 9029217 6731778 389989 48899 0 7 170 666
+.7 .6 .4 .3 .0 .3
+74 22 2 0 0 25
+2006 12454928 3791645 422745 31863 7019 4 253 272
+.5 .7 .5 .2 .0 .5
+62 14 9 13 0 37
+2007 10863802 2440781 1679651 2331002 0 6 451 434
+.7 .1 .7 .5 .0 .3
+47 28 15 8 0 52
+2008 8460091 5141331 2747763 1464624 58501 9 412 219
+.3 .8 .4 .2 .3 .7
+25 43 15 8 7 74
+2009 4697175 8084543 2822565 1472758 1366308 13 746 174
+.5 .8 .3 .0 .4 .5
+85 14 0 0 0 14
+2010 16308963 2751960 0 0 0 2 751 960
+.6 .4 .0 .0 .0 .4
+43 46 6 1 2 56
+2011 8564184 9239796 1220049 257232 464534 11 181 611
+.4 .8 .2 .3 .4 .6
+90 8 0 0 0 9
+2012 18520890 1724537 154001 0 0 1 878 538
+.8 .5 .8 .0 .0 .2
+71 13 11 3 0 28
+2013 15104399 2755790 2492429 674367 92597 6 015 183
+.5 .0 .8 .2 .4 .5
+29 66 2 0 0 70
+2014 6543551 14605561 459978 89182 153697 15 308 418
+.9 .8 .1 .4 .7 .1
+8 13 30 34 13 91
+2015 2010406 2932892 6791697 7774856 3104640 20 604 085
+.9 .0 .0 .4 .7 .1
+96 3 0 0 0 3
+2016 22568477 812826 0 0 0 812 826
+.5 .5 .0 .0 .0 .5
+20 63 13 2 0 79
+2017 5038765 15285668 3357959 495937 36867 19 176 431
+.8 .1 .9 .0 .2 .2
+34 40 16 8 0 65
+2018 8647015 10068208 4139270 2008952 206831 16 423 261
+.5 .2 .5 .0 .8 .5
+38 35 1 2 22 61
+2019 10048551 9124623 352545 611649 5804121 15 892 938
+.7 .2 .4 .4 .4 .3
+2020 - - - - - - -
+2021 - - - - - - -
+SO3-2.T2: National estimates of the percentage of the female population within each drought intensity class.
+Exposed female
+Non-exposed Mild drought Moderate drought Severe drought Extreme drought
+population
+Reporting Population Population Population Population Population Population
+% % % % % %
+year count count count count count count
+35 63 0 0 0 64
+2000 2454807 4418993 51640 2757 37333 4 510 723
+.2 .4 .7 .0 .5 .8
+28 / 100
+
+--- Page 29 ---
+SO-3: To mitigate, adapt to, and manage the effects of drought in order to enhance resilience of vulnerable populations and
+ecosystems.
+Exposed female
+Non-exposed Mild drought Moderate drought Severe drought Extreme drought
+population
+Reporting Population Population Population Population Population Population
+% % % % % %
+year count count count count count count
+42 8 7 38 3 57
+2001 3023220 606975 514953 2764245 275861 4 162 034
+.1 .4 .2 .5 .8 .9
+64 23 12 0 0 35
+2002 4825648 1711292 901338 0 0 2 612 630
+.9 .0 .1 .0 .0 .1
+46 31 6 12 3 53
+2003 3535473 2378437 469766 988421 296478 4 133 102
+.1 .0 .1 .9 .9 .9
+43 56 0 0 0 57
+2004 3405797 4465104 34075 10040 0 4 509 219
+.0 .4 .4 .1 .0 .0
+56 41 2 0 0 43
+2005 4607174 3369946 191362 24442 0 3 585 750
+.2 .1 .3 .3 .0 .8
+74 22 2 0 0 25
+2006 6324155 1893169 211256 16073 3516 2 124 014
+.9 .4 .5 .2 .0 .1
+61 14 10 13 0 38
+2007 5418506 1245375 871284 1220635 0 3 337 294
+.9 .2 .0 .9 .0 .1
+47 29 15 8 0 53
+2008 4246150 2643507 1384061 732447 28779 4 788 794
+.0 .3 .3 .1 .3 .0
+26 43 15 7 7 73
+2009 2433298 4037785 1409780 740054 702858 6 890 477
+.1 .3 .1 .9 .5 .9
+85 14 0 0 0 14
+2010 8260484 1374028 0 0 0 1 374 028
+.7 .3 .0 .0 .0 .3
+43 46 6 1 2 56
+2011 4365213 4627526 620952 130162 233182 5 611 822
+.8 .4 .2 .3 .3 .2
+90 8 0 0 0 9
+2012 9352910 875455 79519 0 0 954 974
+.7 .5 .8 .0 .0 .3
+71 13 11 3 0 28
+2013 7630197 1399706 1249108 342660 46061 3 037 535
+.5 .1 .7 .2 .4 .5
+29 66 2 0 0 70
+2014 3298175 7381685 234801 45136 77312 7 738 934
+.9 .9 .1 .4 .7 .1
+8 12 29 34 13 91
+2015 1005384 1477462 3409590 3949760 1576089 10 412 901
+.8 .9 .9 .6 .8 .2
+96 3 0 0 0 3
+2016 11387683 416447 0 0 0 416 447
+.5 .5 .0 .0 .0 .5
+20 62 14 2 0 79
+2017 2537955 7659843 1755178 250603 17935 9 683 559
+.8 .7 .4 .1 .1 .2
+34 39 16 8 0 65
+2018 4366232 5011021 2107751 1061628 104012 8 284 412
+.5 .6 .7 .4 .8 .5
+38 35 1 2 22 61
+2019 5097119 4626130 175654 304316 2883222 7 989 322
+.9 .4 .3 .3 .0 .1
+2020 - - - - - - -
+2021 - - - - - - -
+SO3-2.T3: National estimates of the percentage of the male population within each drought intensity class.
+Exposed male
+Non-exposed Mild drought Moderate drought Severe drought Extreme drought
+population
+Reporting Population Population Population Population Population Population
+% % % % % %
+year count count count count count count
+36 62 0 0 0 64
+2000 2447724 4262762 51859 2680 36298 4 353 599
+.0 .7 .8 .0 .5 .0
+42 8 7 37 3 57
+2001 3005398 608890 516290 2633578 254619 4 013 377
+.8 .7 .4 .5 .6 .2
+66 22 11 0 0 33
+2002 4807927 1652030 807616 0 0 2 459 646
+.2 .7 .1 .0 .0 .8
+46 29 6 13 4 53
+2003 3499711 2224267 469884 1000365 300046 3 994 562
+.7 .7 .3 .3 .0 .3
+44 54 0 0 0 55
+2004 3444169 4247093 36069 11288 0 4 294 450
+.5 .9 .5 .1 .0 .5
+55 42 2 0 0 44
+2005 4422043 3361832 198627 24457 0 3 584 916
+.2 .0 .5 .3 .0 .8
+29 / 100
+
+--- Page 30 ---
+SO-3: To mitigate, adapt to, and manage the effects of drought in order to enhance resilience of vulnerable populations and
+ecosystems.
+Exposed male
+Non-exposed Mild drought Moderate drought Severe drought Extreme drought
+population
+Reporting Population Population Population Population Population Population
+% % % % % %
+year count count count count count count
+74 23 2 0 0 25
+2006 6130773 1898476 211489 15790 3503 2 129 258
+.2 .0 .6 .2 .0 .8
+63 14 9 13 0 36
+2007 5445296 1195406 808367 1110367 0 3 114 140
+.6 .0 .4 .0 .0 .4
+47 28 15 8 0 52
+2008 4213941 2497824 1363702 732177 29722 4 623 425
+.7 .3 .4 .3 .3 .3
+24 44 15 8 7 75
+2009 2263877 4046758 1412785 732704 663450 6 855 697
+.8 .4 .5 .0 .3 .2
+85 14 0 0 0 14
+2010 8048479 1377932 0 0 0 1 377 932
+.4 .6 .0 .0 .0 .6
+43 47 6 1 2 57
+2011 4198971 4612270 599097 127070 231352 5 569 789
+.0 .2 .1 .3 .4 .0
+90 8 0 0 0 9
+2012 9167980 849082 74482 0 0 923 564
+.8 .4 .7 .0 .0 .2
+71 13 11 3 0 28
+2013 7474202 1356084 1243321 331707 46536 2 977 648
+.5 .0 .9 .2 .4 .5
+30 66 2 0 0 70
+2014 3245376 7223876 225177 44046 76385 7 569 484
+.0 .8 .1 .4 .7 .0
+9 13 30 34 13 91
+2015 1005022 1455430 3382107 3825096 1528551 10 191 184
+.0 .0 .2 .2 .7 .0
+96 3 0 0 0 3
+2016 11180794 396379 0 0 0 396 379
+.6 .4 .0 .0 .0 .4
+20 63 13 2 0 79
+2017 2500810 7625825 1602781 245334 18932 9 492 872
+.9 .6 .4 .0 .2 .1
+34 40 16 7 0 65
+2018 4280783 5057187 2031519 947324 102819 8 138 849
+.5 .7 .4 .6 .8 .5
+38 35 1 2 22 61
+2019 4951432 4498493 176891 307333 2920899 7 903 616
+.5 .0 .4 .4 .7 .5
+2020 - - - - - - -
+2021 - - - - - - -
+Qualitative assessment
+Interpretation of the indicator
+tel que les données ci haut mentionnées le mettent en évidence, on constate une exposition des femmes à la sècheresse plus accentuée
+que celle des hommes. Les hommes et les femmes exposé à des cas de sècheresse intense et extrême sont situées, pour la majorité, dans
+les régions septentrionales du pays. Les hommes et les femmes exposé à des cas de sècheresse légère et modéré quant à eux, se
+localisent dans les régions méridionales. Les hommes et les femmes exposé à des non exposés à la sècheresse sont situées dans les
+zones agroécologiques à pluviométrie monomodale et à pluviométrie bimodale.
+General comments
+Les estimations provenant de la base de données World Poples permettent une meilleurs corrélation avec les données sur l'indice
+normalisé de précipitation du Centre mondial de climatologie des précipitations utilisées dans l'objectifs SO3-1
+30 / 100
+
+--- Page 31 ---
+SO-3: To mitigate, adapt to, and manage the effects of drought in order to enhance resilience of vulnerable populations and
+ecosystems.
+SO3-3 Trends in the degree of drought vulnerability
+Drought Vulnerability Index
+SO3-3.T1: National estimates of the Drought Vulnerability Index
+Year Total country-level DVI value (tier 1) Male DVI value (tiers 2 and 3 only) Female DVI value (tiers 2 and 3 only)
+2000 0 .46
+2001
+2002
+2003
+2004
+2005
+2006
+2007
+2008
+2009
+2010
+2011
+2012
+2013
+2014 0 .5
+2015
+2016
+2017
+2018 0 .65
+2019
+2020
+2021
+Method
+Which tier level did you use to compute the DVI?
+☒ Tier 1 Vulnerability Assessment ⓘ
+☐ Tier 2 Vulnerability Assessment ⓘ
+☐ Tier 3 Vulnerability Assessment ⓘ
+Qualitative assessment
+SO3-3.T2: Interpretation of the indicator
+Change in the
+Comments
+indicator
+SO3-3 L'indice de vulnérabilité a été seulement calculer pour les années 2000 et 2014. la données de l'année
+(country Increasing 2018 est une donnée par défaut. l'augmentation de cette indice peut se justifier par les changements
+DVI) liées aux perturbations climatiques.
+General comments
+Ici, la formule de l'addition des composantes sociales, économiques et d'infrastructures tel que décrite dans le guide des bonnes pratiques
+pour le niveau 1 des estimations a été utilisé pour les années 2000 et 2014.
+31 / 100
+
+--- Page 32 ---
+SO-3: To mitigate, adapt to, and manage the effects of drought in order to enhance resilience of vulnerable populations and
+ecosystems.
+SO3 Voluntary Targets
+SO3-VT.T1
+Level of Status of target
+Target Year Comments
+application achievement
+cette cible est spécifiques au rapport des NDT
+Les 12062768 hectares de terres
+2030 Subnational Not achieved et est ajusté à l'échéance de la Stratégie
+dégradées sont restaurés
+Nationale de Développement 2030
+La NDT est atteinte par rapport à 2015 cette cible est spécifiques au rapport des NDT
+(absence de perte nette) et 10% de plus du 2030 National Not achieved et est ajusté à l'échéance de la Stratégie
+territoire national s’est amélioré (gain net) Nationale de Développement 2030
+General comments
+Les cibles ci haut mentionnées correspondent à l'objectif stratégique SO3
+32 / 100
+
+--- Page 33 ---
+SO4-1 Trends in carbon stocks above and below
+ground
+Soil organic carbon stocks
+Trends in carbon stock above and below ground is a multi-purpose indicator used to measure progress towards both strategic objectives 1 and 4.
+Quantitative data and a qualitative assessment of trends in this indicator are reported under strategic objective 1, progress indicator SO1-3.
+33 / 100
+
+--- Page 34 ---
+SO-4: To generate global environmental benefits through effective implementation of the United Nations Convention to Combat
+Desertification.
+SO4-2 Trends in abundance and distribution of selected species
+SO4-2.T1: National estimates of the Red List Index of species survival
+Year Red List Index Lower Bound Upper Bound Comment
+2000 0 .84006 0 .83572 0 .84356
+2001 0 .83988 0 .83568 0 .84369
+2002 0 .83979 0 .83557 0 .84362
+2003 0 .83981 0 .83551 0 .84366
+2004 0 .83976 0 .83519 0 .84373
+2005 0 .83963 0 .83491 0 .84369
+2006 0 .83959 0 .83458 0 .8439
+2007 0 .83946 0 .8342 0 .84399
+2008 0 .83923 0 .83382 0 .84424
+2009 0 .83931 0 .8336 0 .84433
+2010 0 .8391 0 .83336 0 .84462
+2011 0 .83905 0 .83273 0 .84468
+2012 0 .839 0 .83251 0 .84521
+2013 0 .83884 0 .8321 0 .84537
+2014 0 .83882 0 .83128 0 .8455
+2015 0 .83881 0 .83089 0 .84583
+2016 0 .83862 0 .83043 0 .84602
+2017 0 .83856 0 .83028 0 .84658
+2018 0 .83862 0 .82944 0 .84657
+2019 0 .83851 0 .8289 0 .84723
+2020 0 .83845 0 .82874 0 .84748
+Qualitative assessment
+SO4-2.T2: Interpretation of the indicator
+Which levers are being
+Responses
+Change in Drivers: Direct Drivers: Indirect used to reverse
+that led to
+the (Choose one (Choose one or negative trends and Comments
+positive RLI
+indicator or more items) more items) enable transformative
+trends
+change?
+1. Production and
+Consumption
+1. Climate 1. Incentives and au regard des données ci haut
+Patterns
+change Capacity-Building renseignés, les tendances à la baisse
+2. Human de cet indicateur est traduit par la
+2. Land-use 2. Cross-Sectoral
+Population pression exercée sur les paysages et
+Negative change Cooperation
+Dynamics and écosystèmes. De plus, les
+3. Trends 3. perturbations liées aux changements
+4. 4. climatiques contribuent également à
+3.
+5. 5. cette baisse.
+4.
+5.
+34 / 100
+
+--- Page 35 ---
+SO-4: To generate global environmental benefits through effective implementation of the United Nations Convention to Combat
+Desertification.
+General comments
+La biodiversité du Cameroun est riche car, en Afrique elle se situe au 4e rang pour la flore et au 5e pour la faune (UNEP, 1997). En majorité
+(92%), les écosystèmes africains sont représentés au Cameroun et des études indiquent que cette biodiversité est abondante et
+caractérisée par un degré élevé d’endémisme, une large diversité et la fréquence de nouvelles découvertes. Cependant cette ressource est
+également sujette à des menaces et à la surexploitation d’espèces recherchées. Il existe aussi des tentatives de domestication de
+certaines espèces végétales ou animales.
+35 / 100
+
+--- Page 36 ---
+SO-4: To generate global environmental benefits through effective implementation of the United Nations Convention to Combat
+Desertification.
+SO4-3 Proportion of important sites for terrestrial and freshwater biodiversity that are
+covered by protected areas, by ecosystem type
+SO4-3.T1: National estimates of the average proportion of Terrestrial KBAs covered by protected areas (%)
+Year Protected Areas Coverage(%) Lower Bound Upper Bound Comments
+2000 5.7 5 .7 5 .7 16 sites créés
+2001 6.1 6 .1 6 .1 01 site créé
+2002 6.1 6 .1 6 .1 aucun site créé
+2003 6.1 6 .1 6 .1 aucun site créé
+2004 6.5 6 .5 6 .5 02 sites créés
+2005 7.15 7 .15 7 .15 01 site créé
+2006 7.15 7 .15 7 .15 aucun site créé
+2007 7.21 7 .21 7 .21 01 site créé
+2008 7.41 7 .41 7 .41 03 sites créés
+2009 7.54 7 .54 7 .54 01 site créé
+2010 7.65 7 .65 7 .65 01 site créé
+2011 7.65 7 .65 7 .65 aucun site créé
+2012 7.65 7 .65 7 .65 aucun site créé
+2013 7.65 7 .65 7 .65 aucun site créé
+2014 7.9 7 .9 7 .9 02 sites créés
+2015 8.2 8 .2 8 .2 01 site créé
+2016 8.2 8 .2 8 .2 aucun site créé
+2017 8.2 8 .2 8 .2 aucun site créé
+2018 8.2 8 .2 8 .2 aucun site créé
+2019 8.2 8 .2 8 .2 aucun site créé
+2020 8.2 8 .2 8 .2 aucun site créé
+Qualitative assessment
+SO4-3.T2: Interpretation of the indicator
+Qualitative
+Comment
+Assessment
+malgré la pression sur les écosystèmes fragiles et compte tenu de l'engagement du Cameroun à des conventions
+Increasing diverses sur l'environnement et la protection de la nature, plusieurs sites favorables à la biodiversité terrestre et la
+biodiversité ont été créés.
+General comments
+36 / 100
+
+--- Page 37 ---
+SO-4: To generate global environmental benefits through effective implementation of the United Nations Convention to Combat
+Desertification.
+les proportions ci haut mentionnées proviennent des estimations suivantes: "ratio de la valeur de la superficie des aires protégées d'une
+année par rapport à la superficie territoriale nationale". Bien qu'il soit observé une légère tendance à la hausse des aires protégées,
+l'urgence demeure en terme de mutualisation des efforts pour des stratégies et politiques publiques viables, afin d’évaluer les menaces sur
+la biodiversité au niveau national et d’estimer les mesures de réduction des menaces potentielles.
+37 / 100
+
+--- Page 38 ---
+SO-4: To generate global environmental benefits through effective implementation of the United Nations Convention to Combat
+Desertification.
+SO4 Voluntary Targets
+SO4-VT.T1
+Status of
+Level of
+Target Year target Comments
+application
+achievement
+l’atteinte de la NDT par rapport à 2015 sera effectiveavec
+urgence de mutualiser les
+l’atteinte des cibles au niveau communal et spécifique. Cette
+efforts, les stratégies et les
+démarche devra s’appuyer sur un ensemble de réformes
+politiques publiques, afin
+permettant l’intégration des aspects NDT dans la vision
+d’évaluer les menaces sur la
+globale du Développement du Cameroun et dans les
+biodiversité au niveau national et
+2030 National Not achieved différentes stratégies sectorielles en cours de mise en
+d’estimer les mesures de
+oeuvre et avenir. Il faudrait aussi partir de différentes
+réduction des menaces
+initiatives engagées par le pays dans le cadre de
+potentielles sur au moins deux
+l’implémentation des trois conventions issues de RIO 1992
+secteurs économiques clés au
+(CCNUCC, CBD, CNULCD) et permettre leur meilleure
+Cameroun.
+intégration possible avec les aspects NDT.
+il sera question ici d’intégrer les aspects NDT dans les Plans
+Communaux de Développement (PCD) et Plans d’ Utilisation
+la NDT est atteinte dans au et de Gestion Durable des Terres (PUGDT) des communes.
+moins 90% des communes Un accent particulier devra être mis 27 sur les communes
+situées dans les zones 2030 Subnational Not achieved situées dans les zones prioritaires de lutte contre la
+prioritaires pour la lutte contre la dégradation des terres. Cette démarche permet d’avoir des
+dégradation des terres spécificités liées à chaque commune en matière de
+dégradation des terres et d’y appliquer les mesures
+spécifiques nécessaires à l’atteinte des objectifs de NDT.
+Complementary information
+le choix des cibles ci haut définies s'est fait par une approches inclusives et participatives.
+38 / 100
+
+--- Page 39 ---
+SO-5: To mobilize substantial and additional financial and non-financial resources to support the implementation of the
+Convention by building effective partnerships at global and national level
+SO5-1 Bilateral and multilateral public resources
+Tier 1: Please provide information on the international public resources provided and received for the
+implementation of the Convention, including information on trends.
+Trends in international bilateral and multilateral public resources provided
+Up ↑
+Stable ←→
+Down ↓
+Unknown ∾
+Trends in international bilateral and multilateral public resources received
+Up ↑
+Stable ←→
+Down ↓
+Unknown ∾
+La volonté du Cameroun de tenir compte de l’environnement dans les actions de développement se traduit par une armature juridique et
+institutionnelle relativement complexe. Au plan juridique, ceci est matérialisé par l’adhésion à plusieurs conventions internationales dont
+celles issues du Sommet de Rio en 1992 à l’instar de la Convention des Nations Unies sur la lutte contre la désertification, la Convention
+cadre des nations unies sur les changements climatiques, la Convention sur la Diversité Biologique, la Convention sur les zones humides.
+On pourrait relever au niveau national, entre autres divers lois et textes d’application associés à l’instar de : - la loi n° 96/12 du 05 août 1996
+portant loi-cadre relative à la gestion de l’environnement qui en l’occurrence, stipule en son article (article 68) que la protection de terres
+contre l’érosion, la prévention et la lutte contre la désertification sont d’utilité publique; - plusieurs lois sectorielles faisant obligation de
+prendre en compte l’environnement notamment la loi portant régime des Forêts, Faune et Pêche, la loi portant régime de l’eau, le code
+minier et la loi régissant le secteur de l’électricité; - la loi n°2011/008 du 06 mai 2011 d’Orientation pour l’Aménagement et le
+Développement Durable du Territoire; - les lois de 2004 portant orientation de la décentralisation et fixant les règles applicables aux
+communes et aux Régions; - l’ordonnance relative au régime foncier n°74-1 du 6 juillet 1974, déterminant le cadre d’allocation des terres,
+stipulant que « l’État est le gardien de toutes les terres. Dans ces textes, le principe de mise en œuvre de la NDT pourrait se lire à travers
+l’exigence de veiller à la gestion durable des ressources naturelles et de l’environnement.
+Du point de vue institutionnel, le Cameroun semble avoir opté pour une approche de gestion de l’environnement multisectorielle, régionale,
+décentralisée et participative sous la coordination d’un ministère en charge de l’environnement, actuellement le ministère de
+l'Environnement et de la Protection de la Nature etdu Développement (MINEPDED), assisté par un Comité Interministériel de
+l’Environnement qui doit entre autres missions, veiller au respect et à la prise en compte des considérations environnementales notamment
+dans la conception et la mise en oeuvre des plans et programmes économiques, énergétiques et fonciers. Il importe de souligner que c’est
+le ministère en charge de l’environnement qui joue le rôle de point focal national de la CNULCD et du processus de définition volontaires
+des cibles de NDT. Le cadre institutionnel de la lutte contre la désertification et la gestion durable des terres, et plus globalement de la
+gestion de l'environnement, se base sur une approche multisectorielle, régionale et décentralisée et participative. On distingue plusieurs
+types de parties prenantes dont les structures techniques de l’État, les populations, les collectivités territoriales décentralisées, le secteur
+privé, la société civile et les partenaires au développement.
+Tier 2: Table 1 Financial resources provided and received
+Total Amount USD
+Provided / Received Year Committed Disbursed / Received
+Committed Disbursed
+Provided 2016
+0 0
+Committed Disbursed
+Provided 2017
+0 0
+Committed Disbursed
+Provided 2018
+0 0
+Committed Disbursed
+Provided 2019
+0 0
+Committed Received
+Received 2016
+19 290 513 .10 14 591 188 .10
+Committed Received
+Received 2017
+28 414 197 .81 18 122 226 .95
+Total resources provided: 0 0
+Total resources received: 68 761 941 .2 70 015 966 .4
+39 / 100
+
+--- Page 40 ---
+SO-5: To mobilize substantial and additional financial and non-financial resources to support the implementation of the
+Convention by building effective partnerships at global and national level
+Total Amount USD
+Provided / Received Year Committed Disbursed / Received
+Committed Received
+Received 2018
+7 270 612 .71 16 318 024 .02
+Committed Received
+Received 2019
+13 786 617 .58 20 984 527 .33
+Total resources provided: 0 0
+Total resources received: 68 761 941 .2 70 015 966 .4
+Documentation box
+Explanation
+Year
+Recipient / Provider
+Title of project, programme, activity or other
+Total Amount USD
+Sector
+Capacity Building
+Technology Transfer
+Gender Equality
+Channel
+Type of flow
+Financial Instrument
+Type of support
+Amount mobilised through public interventions
+Additional Information
+General comments
+Provenant de l'OCDE, les données par défaut sont choisies pour objectif SO5-1.
+40 / 100
+
+--- Page 41 ---
+SO-5: To mobilize substantial and additional financial and non-financial resources to support the implementation of the
+Convention by building effective partnerships at global and national level
+SO5-2 Domestic public resources
+Tier 1: Please provide information on the domestic public expenditures, including subsidies, and revenues,
+including taxes, directly and indirectly related to the implementation of the Convention, including information
+on trends.
+Trends in domestic public expenditures and national level financing for activities relevant to the implementation of the Convention
+Up ↑
+Stable ←→
+Down ↓
+Unknown ∾
+Trends in domestic public revenues from activities related to the implementation of the Convention
+Up ↑
+Stable ←→
+Down ↓
+Unknown ∾
+les instruments économiques sont multiples et se manifestent par l'existence de structures telles que : - La SOCOOPED : La Société
+Coopérative pour l’Epargne et le Développement. L’objet étant de constituer des ressources monétaires aux communautés afin de leur de
+permettre de faire face aux besoins d’accès aux ressources de base; - L’OFFICE CEREALIER : c’est la banque des céréales ; la structure
+constitue des stocks de céréale pour contrer toute inflation en période de sécheresse et faciliter la réaction des populations; - Le COMITE
+INTERREGIONAL DE LUTTE CONTRE LA SECHERESSE : c’est une structure mise en place pour créer des conditions permanentes et des
+habitudes de lutte contre la sécheresse en agissant sur les écosystèmes (pépinières, reboisement, appui en matériels de base pour la
+sylviculture). En plus, le pays dispose: d'un comité régional de lutte contre la Sécheresse sous tutelle du Ministère de l'Economie, de la
+Planification et de l'Aménagement du Territoire, un observatoire national de lutte contre les changements climatiques créé par Décret
+présidentiel le 10 décembre 2009 sous la tutelle du Ministère de l'Environnement, une Direction de la Protection civile au Ministère de
+l'Administration Territoriale, une Direction de la Météorologie nationale (DMN) du Ministère des Transports, le Centre de Recherche
+Hydrologique (CRH) du Ministère de la Recherche Scientifique et de l'Innovation, l’Observatoire national des Risques (ONR).
+Dans l'approche multisectorielle, régionale, décentralisée et participative, on distingue plusieurs types de parties prenantes dont les
+structures techniques de l’État, les populations, les collectivités territoriales décentralisées, le secteur privé et la société civile. - les
+Structures techniques Etat (en charge de l'Environnement, Agriculture, forêt, mines, industries, instituts de recherche, Missions de
+développement...), ont un rôle d'Orientation stratégique, d'Animation, de coordination et même de financement du processus; - Les
+Populations (organisations communautaires, femmes, d’éleveurs etc.), Expriment leurs préoccupations; - les Collectivités territoriales
+décentralisées ont pour rôle, l'Animation, la coordination et l'Encadrement de l'expression des besoins; - Société civile, (ONG, bureaux
+d'études, prestataires de service, parlementaires) a surtout un rôle d'Encadrement, animation et Diffusion des informations
+Tier 2: Table 2 Domestic public resources
+Year Amounts Additional Information
+Projet "Opération sahel vert" dont l'objectif est de lutter contre l’avancée du désert
+Government expenditures 2022 20 000 000
+dans la partie septentrionale du Cameroun
+Directly related to combat
+DLDD
+Indirectly related to
+combat DLDD
+Subsidies
+Subsidies related to
+combat DLDD
+Projet "Opération sahel vert" dont l'objectif est de lutter contre l’avancée du désert
+Dépenses publiques 2021 87 000 000
+dans la partie septentrionale du Cameroun
+100 000 Projet "Opération sahel vert" dont l'objectif est de lutter contre l’avancée du désert
+Dépenses publiques 2020
+000 dans la partie septentrionale du Cameroun
+245 000 Projet "Opération sahel vert" dont l'objectif est de lutter contre l’avancée du désert
+Dépenses publiques 2019
+000 dans la partie septentrionale du Cameroun
+Total expenditures / total
+per year
+41 / 100
+
+--- Page 42 ---
+SO-5: To mobilize substantial and additional financial and non-financial resources to support the implementation of the
+Convention by building effective partnerships at global and national level
+Year Amounts Additional Information
+Dépenses publiques 2022 13 000 000 Journée mondiale de l'environnement
+Dépenses publiques 2021 20 000 000 Journée mondiale de l'environnement
+Dépenses publiques 2022 20 000 000 Aménagement des bassins versants
+Dépenses publiques 2021 10 000 000 Aménagement des bassins versants
+150 000
+Dépenses publiques 2022 Création d'espaces verts
+000
+250 000
+Dépenses publiques 2021 Création d'espaces verts
+000
+Dépenses publiques 2022 10 000 000 Sensibilisation contre les feux
+Dépenses publiques 2021 20 000 000 Sensibilisation contre les feux
+Dépenses publiques 2022 10 000 000 participations aux dernières COP
+Dépenses publiques 2022 10 000 000 Renforcement des Capacités
+100 000
+Dépenses publiques 2022 Fonctionnement du Comité interrégional de lutte contre la sècheresse
+000
+100 000
+Dépenses publiques 2021 Fonctionnement du Comité interrégional de lutte contre la sècheresse
+000
+100 000
+Dépenses publiques 2020 Fonctionnement du Comité interrégional de lutte contre la sècheresse
+000
+Total expenditures / total
+per year
+Additional
+Year Amounts
+Information
+Government revenues
+Environmental taxes for the conservation of land resources and taxes related to combat
+DLDD
+Total revenues / total per year
+Documentation box
+Explanation
+Pour renseigner sur les dépenses publiques, l'équipe de rapportage a fait recours aux fichiers
+Government expenditures
+comptables et autres autres d'activités existant au sein du MINEPDED.
+Subsidies
+Government revenues
+Domestic resources directly or indirectly
+related to combat DLDD
+Has your country set a target for increasing and mobilizing domestic resources for the implementation of the Convention?
+Yes
+No
+En terme de mobilisation de ressources nationales, le Cameroun a prévu un budget de 180000000 de FCFA pour les activité de l'opération
+Sahel Vert. Par ailleurs, on peut noter un ensemble d'objectifs à savoir: - l’intégration de la Neutralité en matière de Dégradation des Terres
+(NDT) dans le schéma national d’aménagement et du développement durable; - la prise en compte de la NDT lors de l’élaboration, la mise
+en œuvre et le suivi des Politiques Plans Programmes et Projets de développement; - la mise en cohérence et en synergie de la NDT, la
+Contribution Déterminée au Niveau National (CDN) dans le cadre de l’accord de Paris sur les Changements climatiques et le processus de
+Réduction des Emissions dues à la Déforestation et la Dégradation des forêts et la gestion durable des terres (REDD+); - la mise en œuvre
+42 / 100
+
+--- Page 43 ---
+SO-5: To mobilize substantial and additional financial and non-financial resources to support the implementation of the
+Convention by building effective partnerships at global and national level
+de la stratégie nationale de restauration des paysages forestiers dans le cadre des initiatives (AFR 100/BONN challenge); - la définition et
+l’intégration dans les Plans Communaux de Développement et Plans d’Utilisation et de Gestion Durable des Communes sélectionnées les
+cibles de NDT correspondantes; - l’accroissement de la productivité et des stocks de carbone sur l’ensemble des terres agropastorales
+grâce à la mise en œuvre de l’Agriculture de deuxième génération; - la continuation de la promotion des foyers améliorés, de fours solaires
+de la méthanisation et/ou de la butanisation dans l'espace rural; - la poursuite de la mise en oeuvre des options prioritaires retenues, dans
+le cadre du Schéma directeur d’aménagement des mangroves du Cameroun.
+General comments
+les montants mentionnés ci-haut sont en Francs CFA. Plusieurs projets structurants ayant pour but de mettre à contribution l’effet de levier
+que constitue la NDT ont été proposé. on peut citer entre autre : - Le Projet d’appui à l’intégration de la NDT dans le processus du
+développement dont l’objectif global est de promouvoir, mettre en synergie et optimiser l’impact positif de l’intégration de la NDT dans le
+processus de développement au niveau national ; - Le Projet de sensibilisation et de renforcement des capacités sur la NDT dont l’objectif
+global est de promouvoir la participation du public à la lutte contre la désertification ; - Le Projet de Création d’un Centre/Observatoire
+National de la NDT dont l’objet est de disposer d’une institution spécialisée capable de fournir aux décideurs et différentes parties
+prenantes des informations pertinentes sur les indicateurs de NDT et en favoriser le suivi.
+43 / 100
+
+--- Page 44 ---
+SO-5: To mobilize substantial and additional financial and non-financial resources to support the implementation of the
+Convention by building effective partnerships at global and national level
+SO5-3 International and domestic private resources
+Tier 1: Please provide information on the international and domestic private resources mobilized by the
+private sector of your country for the implementation of the Convention, including information on trends.
+Trends in international private resources
+Up ↑
+Stable ←→
+Down ↓
+Unknown ∾
+Trends in domestic private resources
+Up ↑
+Stable ←→
+Down ↓
+Unknown ∾
+Tier 2: Table 3 International and domestic private resources
+Title of project, programme, activity Total Amount Financial Type of Additional
+Year Recipient
+or other USD Instrument institution Information
+Total 0
+Please provide methodological information relevant to data presented in table 3
+Has your country taken measures to encourage the private sector as well as non-governmental organizations,
+foundations and academia to provide international and domestic resources for the implementation of the
+Convention?
+Comme mesures incitatives allant dans ce sens, on peut noter: - L'organisation des tables rondes avec ces parties prenantes pour soutenir
+la mise en œuvre des AME (Accords Multilatéraux sur l'Environnement); - La promotion des solutions conçues pour lutter contre la
+désertification/dégradation des terres; - La mise en œuvre des solutions conçues pour lutter contre la désertification/dégradation des
+terres; Il existe également diverses lois et textes d’application associés permettent la prise en compte de plusieurs aspects liés à la
+convention, à l’instar de : - La loi n° 96/12 du 05 août 1996 portant loi-cadre relative à la gestion de l’environnement qui en l’occurrence,
+stipule en son article (article 68) que la protection de terres contre l’érosion, la prévention et la lutte contre la désertification sont d’utilité
+publique; - Plusieurs lois sectorielles faisant obligation de prendre en compte l’environnement notamment la loi portant régime des Forêts,
+Faune et Pêche, la loi portant régime de l’eau, le code minier et la loi régissant le secteur de l’électricité; - La loi n°2011/008 du 06 mai 2011
+d’Orientation pour l’Aménagement et le Développement Durable du Territoire; - Les lois de 2004 portant orientation de la décentralisation et
+fixant les règles applicables aux communes et aux Régions; - L’ordonnance relative au régime foncier n°74-1 du 6 juillet 1974, déterminant le
+cadre d’allocation des terres, stipulant que « l’État est le gardien de toutes les terres. Dans ces textes, le principe de mise en œuvre de la
+NDT pourrait se lire à travers l’exigence de veiller à la gestion durable des ressources naturelles et de l’environnement.
+General comments
+Dans le cadre institutionnel des NDT du Cameroun, le Secteur privé international et même national, a pour rôle principal un appui technique
+et financier. Ainsi, en plus de la responsabilité de Veiller à la bonne marche du processus, leur contribution participerait à l'Amélioration des
+revenus des populations. Néanmoins, des réflexions de hauts Niveau continuent d'être menées pour une efficacité de leur mobilisation.
+44 / 100
+
+--- Page 45 ---
+SO-5: To mobilize substantial and additional financial and non-financial resources to support the implementation of the Convention by building effective partnerships at global and
+national level
+SO5-4 Technology transfer
+Tier 1: Please provide information relevant to the resources provided, received for the transfer of technology for the implementation of the Convention,
+including information on trends.
+Trends in international bilateral and multilateral public resources provided
+Up ↑
+Stable ←→
+Down ↓
+Unknown ∾
+Trends in international bilateral and multilateral public resources received
+Up ↑
+Stable ←→
+Down ↓
+Unknown ∾
+Un des objectifs relatifs à la restauration des terres dégradées au Cameroun est d'Améliorer les connaissances sur les dynamiques sociales, économiques, biophysiques et culturelles des zones arides.
+A cet effet, il est prévu: - d’améliorer le processus décisionnel à travers de bonnes connaissances sur les facteurs biophysiques et socio- économiques et leurs interactions dans les zones touchées; -
+des mécanismes efficaces de collecte de données et de partage des connaissances, y compris les connaissances traditionnelles, sont en place pour aider les décideurs et les utilisateurs finaux,
+notamment par le recensement et la mise en commun des meilleures pratiques et des exemples de réussite; - que les réseaux et les établissements scientifiques et technologiques compétents dans
+les domaines de la désertification des terres et de la sécheresse apportent leur appui à la mise en œuvre du processus de lutte contre la dégradation des terres; Comme autre objectif phare, pour le
+Cameroun, en terme de restauration des terres dégradées, on note la mobilisation des ressources financières et technologiques aux niveaux national, bilatéral et multilatéral, ainsi que le meilleur moyen
+de les cibler et les coordonner pour accroître leur impact et leur efficacité. ceci prévoit: - la mise en place des cadres d’investissement intégrés visant à mobiliser des ressources nationales, bilatérales
+et multilatérales pour accroître l’efficacité et l’impact des interventions; - l'accès aux ressources des mécanismes de financement visant l’adaptation aux changements climatiques et leur atténuation, la
+préservation de la biodiversité et l’utilisation durable des ressources naturelles, ainsi que la réduction de la faim et de la pauvreté et l’atteinte des OMD; - Une coopération Sud – Sud, en particulier entre
+les pays du circum Sahara et une coopération triangulaire Sud-Nord-Sud est développée pour faciliter l’accès des acteurs locaux aux technologies adaptées. Le secteur privé international ou national a
+un rôle important à jouer également. ce rôle devra se manifesté à travers le financement et l'appui technique des actions de lutte contre la désertification en liaison avec leurs activités et dans un souci
+de gestion durable de l'environnement.
+tout un système de suivi-évaluation est prévu à cet effet. En effet, ce système de suivi évaluation permettra de mieux informer les acteurs par la fourniture régulière des rapports périodiques. Il sera
+ainsi question de formuler des indicateurs, lesquels seront mesurés de manière participative avec les communautés rurales. Ces indicateurs pourront être définis par rapport à quatre types de
+changements/impacts majeurs attendus, à savoir : - les capacités locales des communautés en matière de gestion durable des ressources naturelles; - les conditions socio-économiques des
+communautés rurales ; - le capital productif des ressources naturelles et des écosystèmes ; - la gouvernance.
+Tier 2: Table 4 Resources provided and received for technology transfer measures or activities
+Use, impact
+Title of project, Activities Status of Timeframe
+Provided Recipient Description and Type of and Additional
+Year programme, Amount Sector undertaken measure of measure
+Received Provider objectives technology estimated Information
+activity or other by or activity or activity
+results
+Total provided: 37 177 866 Total received: 874 785 244
+Total per year 2018 provided: 37 177 866 Total per year 2018 received: 874 785 244
+45 / 100
+
+--- Page 46 ---
+SO-5: To mobilize substantial and additional financial and non-financial resources to support the implementation of the Convention by building effective partnerships at global and
+national level
+Use, impact
+Title of project, Activities Status of Timeframe
+Provided Recipient Description and Type of and Additional
+Year programme, Amount Sector undertaken measure of measure
+Received Provider objectives technology estimated Information
+activity or other by or activity or activity
+results
+Ce projet était
+destiné à
+améliorer les
+conditions de
+vie des
+population
+locales à
+travers des
+actions
+concrètes de
+lutte contre les
+dynamiques de
+déforestation
+et/ou de
+dégradation
+forestière. Ce
+qui contribuerai
+également à
+valoriser le pays
+sur les marchés
+du carbone, par
+rapport à un
+scénario de
+référence
+estimé, un - Technique
+évitement de
+d’émissions de restauration
+CO2 mesuré, ☒ Agriculture du sol; -
+contrôlé et Pratiques le
+Projet Pilote validé. ☒ Forestry agricoles financement
+REDD+ au sein
+Structurée ☒ Water and résilientes a été obtenu 73300ha de
+Provided du Programme 850 autour de 03 Sanitation aux Effets Public en 2014 et terre ont
+2018 National de 000 Cameroon Completed
+Received Développement 000 volets (i) appui ☒ Cross- des sector la mise en été
+Participatif au cutting Changements oeuvre fut reboisées
+développement Climatiques; effective en
+(PNDP) et à la mise en ☐ Technique de 2018
+œuvre de Other(specify) Reboisement;
+projets pilotes Technique de
+REDD+, (ii) culture de
+appui à la fourages
+stratégie
+nationale
+REDD+ et(iii)
+Coordination,
+gestion,
+l’opération va
+durer environ 30
+mois pour un
+financement
+global d’environ
+1 967 000 000
+FCFA (3 000
+euros).Ce projet
+a été mis en
+oeuvre dans les
+commune de
+Piitoa et Lagdo
+dans le Nord, de
+Banganté-Bana-
+Bangou à l'Oest,
+de Tiko-Limbé
+au Sud-Ouest et
+de Yoko au
+Centre.
+☐ Agriculture
+☐ Forestry
+Elaboration du ☐ Water and un Rapport
+r e a t p d p é o fi r n t i n ti a o t n io d n e a s l Sanitation bonne s s u it r u a la tion de le rélicat n'a
+Provided Rapportage 37 177 cibles de ☐ Cross- pratique de Public le rapport a la toujours pas été
+Received 2018 PRAIS3 866 Cameroon n m e a u t t i r è a r l e it d é e en c ☒ utting r u e n p e o p rt l i a n t g fo v r i m a e sector Completed é e t n é 2 é 0 la 1 b 8 oré d d é e g s r t a e d rr a e t i a o u n r s e e ç c u ré p t a a r r i l a e t/Point
+dégradation des Other(specify) interactive Cameroun focal
+terres est élaboré
+bonne
+pratiques de
+Rapportage
+☐ Agriculture
+☐ Forestry
+Elaboration du ☐ Water and un Rapport
+r e a t p d p é o fi r n t i n ti a o t n io d n e a s l Sanitation bonne s s u it r u a la tion de le rélicat n'a
+Provided Rapportage 24 785 cibles de ☐ Cross- pratique de Public le rapport a la toujours pas été
+Received 2018 PRAIS3 244 Cameroon n m e a u t t i r è a r l e it d é e en c ☒ utting r u e n p e o p rt l i a n t g fo v r i m a e sector Completed é e t n é 2 é 0 la 1 b 8 oré d d é e g s r t a e d rr a e t i a o u n r s e e ç c u ré p t a a r r i l a e t/Point
+dégradation des Other(specify) interactive Cameroun focal
+terres est élaboré
+bonne
+pratiques de
+Rapportage
+Total provided: 37 177 866 Total received: 874 785 244
+Total per year 2018 provided: 37 177 866 Total per year 2018 received: 874 785 244
+Please provide methodological information relevant to data presented in table 4
+Include information on underlying assumptions, definitions and methodologies used to identify and report on technology transfer support provided and/or
+received and/or required. Please include links to relevant documentation.
+46 / 100
+
+--- Page 47 ---
+SO-5: To mobilize substantial and additional financial and non-financial resources to support the implementation of the Convention by building effective partnerships at global and
+national level
+Après des mois de mise en œuvre effective des projets de Réduction des Emissions dues à la Déforestation et la Dégradation des Terres (REDD+) sur le terrain, le PNDP s’est engagé dans le processus
+de capitalisation des acquis des résultats obtenus. Un consultant a été recruté afin d’évaluer et de mettre en évidence les éléments pertinents, les meilleurs pratiques et les leçons tirées du processus
+de développement et de mise en œuvre des projets pilotes REDD+, issus de la composante REDD+, du PNDP. Une capitalisation qui devrait permettre aussi de poser un regard sur les changements
+climatiques au Cameroun d’abord, au niveau international ensuite. Lien: https://archive.pfbc-cbfp.org/actualites/items/REDD-PNDP.html https://www.pndp.org/detail-operation.php?idactualite=289
+https://minepded.gov.cm/fr/projets-et-programmes/projets/banque-des-projets/?lcp_page0=2#lcp_instance_0
+Please provide information on the types of new or current technologies required by your country to address desertification, land degradation and drought
+(DLDD), and the challenges encountered in acquiring or developing such technologies.
+les besoins en technologie sont multiples et relatives à : - Des pratiques agricoles adaptatives tel que "LE BIOCHAR"; - La maîtrise de l'eau; - L'énergie Eolienne; - La surveillance via la Télédétection - ...
+General comments
+les besoins ci-haut cités pourraient permettre une meilleur visibilité en matière de lutte contre la désertification et la dégradation des terres au Cameroun.
+47 / 100
+
+--- Page 48 ---
+SO-5: To mobilize substantial and additional financial and non-financial resources to support the implementation of the
+Convention by building effective partnerships at global and national level
+SO5-5 Future support for activities related to the implementation of the Convention
+SO5-5.1: Planned provision and mobilization of domestic public and private resources
+Please provide information relevant to the planned provision and mobilization of domestic resources for the
+implementation of the Convention, including information relevant to indicator SO5-2, as well as information
+on projected levels of public financial resources, target sectors and planned domestic policies.
+Compte tenu des mentions faites en S05-2, 481666667 Francs CFA en moyenne peuvent être prévus chaque années à cet effet.
+SO5-5.2: Planned provision and mobilization of international public and private resources
+Please provide information relevant to the planned provision and mobilization of international resources for
+the implementation of the Convention, including information on projected levels of public financial resources
+and support to capacity building and transfer of technology, target regions or countries, and planned
+programmes, policies and priorities.
+SO5-5.3: Resources needed
+Please provide information relevant to the financial resources needed for the implementation of the
+Convention, including on the projects and regions which needs most support and on which your country has
+focused to the greatest extent.
+Au titre de ces projets structurants on pourrait proposer les projets ci-après : - Le Projet d’appui à l’intégration de la NDT dans le processus
+du développement dont l’objectif global est de promouvoir, mettre en synergie et optimiser l’impact positif de l’intégration de la NDT dans le
+processus de développement au niveau national ; - Le Projet de sensibilisation et de renforcement des capacités sur la NDT dont l’objectif
+global est de promouvoir la participation du public à la lutte contre la désertification ; - Le Projet de Création d’un Centre/Observatoire
+National de la NDT dont l’objet est de disposer d’une institution spécialisée capable de fournir aux décideurs et différentes parties
+prenantes des informations pertinentes sur les indicateurs de NDT et en favoriser le suivi. la mise œuvre de ces projets pourraient coûter
+plus 5 milliards de Francs CFA.
+General comments
+La dégradation des terres/ la désertification au Cameroun ont pris au fil du temps et à l’échelle spatiale un caractère de plus en plus urgent.
+Leurs impacts se font ressentir sur l'économie, l'environnement et le bien-être des populations, et en particulier des populations rurales
+dont la survie est tributaire à la disponibilité des ressources naturelles fournies par ces terres. L’atteinte des cibles de NDT demande la mise
+en œuvre des mesures technico économiques visant à éviter, minimiser ou inverser la dégradation des terres. Ces mesures tiennent
+largement compte des efforts déjà engagés ou prévus par le pays en lien avec la gestion durable de l’environnement et des terres et
+nécessite de faire preuve d’innovation. Au regard du caractère transversale de la NDT, tous les secteurs et parties prenantes
+(administration, collectivités territoriales décentralisées, secteur privé, société civile), ayant une incidence sur le capital naturel des terres,
+ainsi que les partenaires techniques et financiers doivent activement participer à la mise en œuvre de ces mesures pour que le Cameroun
+puisse atteindre ses cibles de neutralité en matière de dégradation des terres d'ici 2030. En fin, quelques leçons apprises pourraient se
+dégager du processus de NDT au Cameroun : - L'engagement du Ministre de l’Environnement de la Protection de la Nature et du
+Développement Durable qui a personnellement pris part à tous les ateliers organisés dans le cadre du processus a beaucoup facilité
+l’engagement des parties prenantes et le bon déroulement du processus ; - La mise en exergue de l’effet de levier de la NDT sur les autres
+processus et stratégies de développement et de gestion des ressources naturelles est essentiel pour faciliter son appropriation par les
+différentes parties prenantes ; - L’insuffisance d’études portant sur les données relatives à la dynamique de productivité des terres et le
+stock de carbone organique à 30 cm du sol a compliqué la contextualisation des données par défaut concernant ces indicateurs ; -
+L’intégration de la NDT dans l’élaboration, la mise en œuvre et le suivi des politiques, plans, programmes et projets comme source de
+financement non négligeable de la NDT semble sous-estimée ; - La centralisation des arrangements logistiques par le Mécanisme Mondial
+à Bonn a quelque fois posé des problèmes de coordination avec les structures de relais et de prestation de service au niveau national.
+48 / 100
+
+--- Page 49 ---
+IF: Implementation Framework
+Financial and Non-Financial Sources
+Increasing the mobilization of resources:
+Would you like to share an experience on how your country has increased the mobilization of resources within the reporting
+period?
+Yes
+No
+What type of resources were mobilized (check all that apply)?
+☒ Financial Resources
+☐ Non-Financial
+Which sources were mobilized?
+☒ International
+☒ Domestic
+☐ Public
+☐ Private
+☒ Local communities
+☐ Non-traditional funding sources
+☐ Climate Finance
+☐ Other (please specify)
+Use this space to describe the experience:
+Organisation des tables rondes avec les partenaires techniques et financiers pour soutenir la mise en oeuvre des AME (Accords
+Multilatéraux sur l'Environnement)
+What were the challenges faced, if any?
+le décaissement tardif qui retarde la mise en oeuvre.
+What do you consider to be the lessons learned?
+un mécanisme adéquat doit être mis sur pied au niveau national pour dédier des ressources locales pour la mise en oeuvre des activités
+relatif à la lutte contre la déforestation et tout autre stratégie pour la gestion environnementale.
+How did you ensure that women benefited from/got access to this funding?
+les femmes ont été mobilisées dans la chaine de décision ainsi que dans ldes activités de mise en oeuvre.
+Use this space to provide any further complementary information you deem relevant:
+Has your country supported other countries in the mobilization of financial and non-financial resources for the implementation
+of the Convention?
+Yes
+No
+49 / 100
+
+--- Page 50 ---
+IF: Implementation Framework
+Using Land Degradation Neutrality as a framework to increase investment:
+From your perspective, would you consider that you have taken advantage of the LDN concept to enhance the coherence,
+effectiveness and multiple benefits of investments?
+Yes
+No
+Use this space to describe the experience:
+Le Cameroun a définit des cibles volontaires pour la neutralité en matière de dégradation des terres. Ceci a permi d'avoir des financement
+pour améliorer la qualité du rapportage national à l'UNCCD. Ce qui permet d'améliorer la visibilité du pays et renforce la cohérence,
+l’efficacité et les multiples avantages des investissements.
+What were the challenges faced, if any?
+les données sont disparates et l'on a formcement recores à des méthodes d'extrapolation pour garder la cohérence dans les informations.
+What do you consider to be the lessons learned?
+L'éqipe du Secrétariat/Point Focal UNCCD doit voir leurs capacités renforcées en matière d'aglomération des données et de rapportage de
+manire à rendre les rapport davantage crédible.
+Improving existing and/or innovative financial processes and institutions
+From your perspective, do you consider that your country has improved the use of existing and/or innovative financial
+processes and institutions?
+Yes
+No
+Was this through any of the following (check all that apply)?
+☒ Existing financial processes
+☐ Innovative financial processes
+☐ The GEF
+☐ Other funds (please specify)
+Use this space to describe the experience:
+pour le Fond Vert Climat par exemple, une Autorité Nationale Désigné (AND) à été désigné et est placé en tant que point focal au sein du
+Ministère de l'Environnement, de la Protection de la Nature et du Développement Durable (MINEPDED). Plusieurs stratégies ont été
+élaborées pour une meilleur geestion de l'enviornnement (Stratégie Nationale REDD+; l'Initiative de Grande Muraille Verte; l'Initiative
+AFR100...).
+What were the challenges faced, if any?
+La moboilisation du don additionnel, pour le cas de la REDD+ par exemple, n'a pas été un succès;
+What do you consider to be the lessons learned?
+Des arragements intitutionnels adéquats et un système de transparence doivent être mis sur pied.
+Did your country support other countries in the improvement of existing or innovative financial processes and institutions?
+50 / 100
+
+--- Page 51 ---
+IF: Implementation Framework
+Yes
+No
+51 / 100
+
+--- Page 52 ---
+IF: Implementation Framework
+Policy and Planning
+Action Programmes:
+Has your country developed or helped develop, implement, revise or regularly monitor your national action programme?
+Yes
+No
+Use the space below to share more details about your country's experience:
+Le Cameroun dispose d'un Plan d'Action National de Lutte Contre la Désertification (PAN/LCD). Ce document du PAN/LCD est
+l’aboutissement d’un processus participatif qui a mis ensemble les acteurs et partenaires stratégiques à travers des consultations à la base
+et des concertations régionales et nationales. Les résultats obtenus à l’issue de cette série de discussions ont révélé la diversité de
+perception du phénomène de désertification au Cameroun. En effet, les différentes perceptions de la désertification/dégradation des terres
+traduisent le caractère diversifié du paysage géographique du triangle national. Cette variabilité du paysage est marquée par le phénomène
+d’aridification qui est à l’origine de la dégradation des sols dans l’Extrême-Nord (hardés), l’érosion des terres dans la région de l’Ouest et du
+Nord-Ouest et la dégradation des mangroves dans les zones côtières. Les facteurs déterminants de la désertification/dégradation des
+terres sont essentiellement liés au climat, à la grande pression humaine sur les ressources à travers des méthodes culturales et pastorales
+inadaptées et une exploitation anarchique du bois. La pauvreté rampante des masses rurales constitue un facteur aggravant de la
+dégradation des ressources naturelles. Face à ces phénomènes, l’Etat a entrepris plusieurs actions d’organisation institutionnelle et de lutte
+physique contre la désertification avec des résultats mitigés. Ainsi, le PAN/LCD se fixe pour objectif d’organiser la lutte contre la
+désertification en tenant compte des acquis et des faiblesses du passé à travers les axes stratégiques qu’il propose, notamment
+l’aménagement et la gestion participative de l’espace, la gestion durable des ressources naturelles, la restauration des terres dégradées et
+l’amélioration de la fertilité des sols, le renforcement des capacités des acteurs en matière de la LCD et la gestion concertée des
+ressources partagées au niveau sous-régional. Le PAN/LCD vise également le renforcement de la participation des populations et des
+collectivités locales ainsi que la lutte contre la pauvreté. Les activités proposées dans le cadre de la mise en œuvre du PAN/LCD s’articulent
+autour de la protection et la restauration des sols, le maintien du couvert végétal, l’exploitation durable des ressources ligneuses, la gestion
+rationnelle des ressources en eau, le maintien de l’équilibre des écosystèmes, le renforcement des activités génératrices de revenus et la
+surveillance du phénomène. Les activités sus évoquées seront réalisées dans un cadre de synergie et de cohérence.
+Would you consider the action programmes and/or plans to be successful and what do you consider the main reasons for
+success or lack thereof?
+autant on saurait parler d'echec qu'on ne saurait parler de succès. en effet, le Cameroun se trouve dans une situation intermédiaire du fait
+de la necessité de bien mettre en cohérence les exigence de la convention avec les orientations stratégiques qui, elles, se mettent
+régulièrement à jour compte tenue des nouveaux défis mondiaux.
+What were the challenges faced, if any?
+jusqu'ici, Le succès de la mise en œuvre du PAN/LCD dépend de la réduction jusqu’à un certain niveau de quelques facteurs, à savoir: - la
+pauvreté et la paupérisation: La pauvreté a toujours été identifiée comme l’une des causes principales de la pression sur les ressources
+naturelles. Sa forte incidence actuelle et la tendance à la paupérisation, observée notamment dans les zones les plus touchées par la
+désertification, est de nature à contrecarrer tous les efforts entrepris pour la lutte contre ce fléau au Cameroun. Ainsi, toute action visant à
+protéger ou conserver les ressources de l’environnement devrait tenir compte des besoins directs des populations en terme
+d’augmentation de leurs revenus. A cet effet, les activités de subsistance relatives à l’exploitation des ressources naturelles (bois de
+chauffe et de service, terres de culture, pâturages, ressources en eau etc…) devraient concourir à l’amélioration du niveau des revenus des
+ménages. L’usage des techniques d’exploitations appropriées permettrait le maintien durable de cette tendance. - la rigidité interne des
+institutions/structures de gestion concernées: Une faible capacité d’organisation et la présence limitée des services techniques sur le
+terrain constituent un handicap majeur à la réussite du PAN/LCD. - Les limites juridiques: La méconnaissance et la non appropriation des
+textes relatifs à la gestion du terroir seraient une entrave réelle à l’atteinte des objectifs fixés par la CCD. En effet, la plupart des textes
+revêtent un caractère fragmentaire et ne font pas souvent l’objet d’une vulgarisation suffisante. - les limites environnementales: Le principal
+risque environnemental réside dans l’avènement éventuel de catastrophes naturelles liées, soit à des aléas climatiques incontrôlables tels
+que la sécheresse, les éboulements, soit à des activités anthropiques comme les pollutions ou la surexploitation des terres.
+What do you consider to be the lessons learned?
+il est important de considérer les éléments suivants : 1. Le renforcement des appuis multiformes aux activités génératrices de revenus. 2.
+L'application des textes issus des réformes institutionnelles. 3. l'Implication plus accrue des populations locales aux réflexions, décisions et
+actions. 4. La protection accrue des écosystèmes et habitats à forte biodiversité. 5. Le renforcement des capacités de tous les acteurs
+impliqués dans la lutte contre la désertification. 6. La mise en place d’un observatoire national de la désertification. 7. La mise en place des
+mécanismes de financement durable de la LCD. 8. Le renforcement des actions de mise en œuvre du PAN/LCD (reboisement, restauration
+52 / 100
+
+--- Page 53 ---
+IF: Implementation Framework
+de la fertilité des sols, recherche multisectorielle, réhabilitation des terres dégradées, changement de mode de consommation en matière
+d’énergie etc.). 9. L'information, éducation, communication et sensibilisation des acteurs concernés. 10. La prise en compte de l’aspect
+genre dans la LCD.
+Policies and enabling environment:
+During the reporting period, has your country established or helped establish policies and enabling environments to promote
+and/or implement solutions to combat desertification/land degradation and mitigate the effects of drought?
+Yes
+No
+These policies and enabling environments were aimed at (check all that apply):
+☒ Promoting solutions to combat desertification, land degradation and drought (DLDD)
+☒ Implementing solutions to combat DLDD
+☒ Protecting women’s land rights
+☒ Enhancing women’s access to natural, productive and/or financial resources
+☐ Other (please specify)
+How best to describe these experiences (check all that apply):
+☒ Prevention of the effects of DLDD
+☒ Relief efforts after DLDD has caused environmental and or socioeconomic stress on ecosystems and or populations
+☒ Recovery efforts after DLDD has caused environmental and or socioeconomic stress on ecosystems and or populations
+☒ Engagement of women in decision - making
+☒ Implementation and promotion of women's land rights and access to land resources
+☒ Building women's capacity for effective UNCCD implementation
+☐ Other (please specify)
+Use the space below to share more details about your country/sub-region/region/institution's experience.
+Du point de vue institutionnel, le Cameroun semble avoir opté pour une approche de gestion de l’environnement multisectorielle, régionale,
+décentralisée et participative sous la coordination d’un ministère en charge de l’environnement, assisté par un Comité Interministériel de
+l’Environnement qui doit entre autres missions, veiller au respect et à la prise en compte des considérations environnementales notamment
+dans la conception et la mise en œuvre des plans et programmes économiques, énergétiques et fonciers. Dans le Cartographie des parties
+prenantes du processus, les femmes ont rôle prépondérant en terme d'Expression des préoccupation. ceci concourent à une Mobilisation
+des ressources locales à savoir: - L'accès durable et garanti à la propriété foncière et à la ressource; - La disposition de pâturages et de
+points d’eau à suffisance; - La disposition des espaces/pistes sécurisés pour leurs pâturages.
+Do you consider these policies to be successful in promoting or implementing solutions to address DLDD, including prevention,
+relief and recovery, and what do you consider the main factors of success or lack thereof?
+What were the challenges faced, if any?
+What would you consider to be the lessons learned?
+Has your country supported other countries in establishing policies and enabling environments to promote and implement
+solutions to combat desertification/land degradation and mitigate the effects of drought, including prevention, relief and
+recovery?
+Yes
+No
+53 / 100
+
+--- Page 54 ---
+IF: Implementation Framework
+Synergies:
+From your perspective, has your country leveraged synergies and integrated DLDD into national plans related to other MEAs,
+particularly the other Rio Conventions and other international commitments?
+Yes
+No
+Your country's actions were aimed at (please check all that apply):
+☒ Leveraging DLDD with other national plans related to the other Rio Conventions
+☒ Integrating DLDD into national plans
+☒ Leveraging synergies with other strategies to combat DLDD
+☒ Integrating DLDD into other international commitments
+☐ Other (please specify)
+Use the space below to describe your country's experience.
+Il s’agit de : - L’Engagement politique du Chef de l’Etat vis-à-vis de la mise en œuvre des ODD qui accorde une légitimité à l’atteinte de la
+Cible 15.3 par le Cameroun ; - La Formation, sensibilisation et Mobilisation des acteurs du développement en faveur de la NDTet de sa prise
+en compte dans leurs actions ; - La vision de Développent du Cameroun qui l’envisage comme un « pays émergent, démocratique et uni
+dans sa diversité d’ici 2035» relève auxrangs des défis de développement celui de la préservation de l’environnement. L’enjeu stratégique
+sera de maîtriser les risques environnementaux et de lutter contre les effets déjà perceptibles des changements climatiques. La NDT offre
+ainsi une alternative pour y arriver ; - La Stratégie Nationale de Développement qui est le cadre de référence de l’action gouvernementale
+pour la période 2020-2030 réaffirme la volonté du Gouvernement de poursuivre la réalisation des Objectifs du Millénaire pour le
+Développement (OMD) dans leur ensemble ; - L’élaboration des Schémas d’Aménagement du territoire (aux niveaux National, Régional et
+Communal) qui sont les documents présentant les orientations, les objectifs et les résultats attendus d’une vision de développement
+spatiale, physique et environnementale basée sur des options politiques, les ressources naturelles disponibles, la dynamique sociale ainsi
+que le patrimoine environnemental, artistique et culturel; - La Contribution Nationale Déterminée (CND) dans le Cadre de l’Accord Climat qui
+prévoit plusieurs orientations synergiques avec la NDTaux rangs desquelles la mise en cohérence de la planification et de l’aménagement
+de l’espace rural pour développer une production agricole, animale, halieutique, minière, forestière et éco touristique apte à améliorer les
+capacités de production agricole et valoriser les ressources du milieu dans le respect de l'environnement et permettant de limiter la
+déforestation/dégradation ; - Le processus REDD+ qui vise la Réduction des Emissions issues de la Déforestation et de la Dégradation des
+Forêts, la Gestion durable des forêts et leur Conservation. Les cibles volontaires déterminées devraient s’y adapter/conformer,notamment
+en ce qui concerne le suivi de l’évolution du carbone organique du sol ; - Le Programme Sectoriel Forêt et Environnement qui se veut être un
+cadre cohérent pour toute intervention concourant à la mise en œuvre de la politique forestière et faunique du Cameroun. Il s'articule autour
+de cinq composantes dont une porte sur la gestion environnementale des activités forestières. Les actions prévues dans le cadre de la lutte
+contre la désertification notamment au Nord du pays sont, pour l'essentiel, des actions de reforestation et d'aménagement des ressources
+forestières ; - D’autres Initiatives liées telles que le Processus de mise en œuvre des ODD, les Cibles d’Aichi de la CBD, Bonn Challenge sur la
+Restauration des Ecosystèmes Forestiers (REF) et l’Initiative sur la Restauration des Ecosystèmes Forestiers d’Afrique (AFR100). Ces
+initiatives déjà bien connues ont une forte interrelation avec le processus de définition des cibles volontaires de NDT et la définition des
+projets transformatifs notamment en ce qui concerne le volet restauration des terres ; - Le Plan de Convergence de la COMIFAC adopté en
+Février 2005 par les Chefs d'Etat d'Afrique Centrale, et revisité en 2015. Il compte dans ses axes prioritaires la lutte contre les effets du
+changement climatique et la désertification avec comme un des objectifs stratégiques : Inverser la tendance à la dégradation des forêts et
+des terres ; - Le Programme Sectoriel Agriculture-Elevage (PSAE) qui est un cadre de programmation, de coordination, de mise en œuvre et
+de suivi/évaluation de la Stratégie de Développement du Secteur Rural dans ses volets Agriculture et Elevage. Il a pour objectif la mise en
+place d’un cadre de programmation unique, concerté, exhaustif, dynamique et pluriannuel, avec un des objectifs qui porte sur l’optimisation
+de l’utilisation des ressources et qui est tout à fait favorable à la mise en œuvre de la NDT ; - Le Plan de développement des secteurs
+miniers et énergétiques qui dispose d’un cadre reglementaire en matière de protection et de gestion de l'environnement ; - La Stratégie
+sectorielle des transports qui vise à assurer une meilleure efficacité et undéveloppement durable et cohérent du secteur des transports
+pour que celui-ci contribue à la croissanceéconomique, à la réduction de la pauvreté et à la protection de l’environnement ; - L’éducation, la
+formation et la recherche qui intègrent et renforcent progressivement les programmes couvrant les aspects relatifs à la GDT ; - Le régime
+foncier avec la révision en cours de la loi foncière offre l’occasion de densifier les dispositions favorables à la gestion durable des terres ; -
+Le Programme National de Sensibilisation et d’Education à l’Environnement (PNSEE) qui apparait comme une plateforme de vulgarisation
+et de promotion des aspects de NDT.
+Do you consider this experience a success and, if so, what do you consider the reasons behind this success (or lack thereof)?
+What were the challenges faced, if any?
+54 / 100
+
+--- Page 55 ---
+IF: Implementation Framework
+What would you consider to be the lessons learned?
+Mainstreaming desertification, land degradation and drought:
+From your perspective, did your country take specific actions to mainstream, DLDD in economic, environmental and social
+policies, with a view to increasing the impact and effectiveness of the implementation of the Convention?
+Yes
+No
+If so, DLDD was mainstreamed into (check all that apply):
+☒ Economic policies
+☒ Environmental policies
+☒ Social policies
+☒ Land policies
+☒ Gender policies
+☒ Agricultural policies
+☐ Other (please specify)
+Use the space below to describe your country's experience.
+Il s’agit de : - L’Engagement politique du Chef de l’Etat vis-à-vis de la mise en œuvre des ODD qui accorde une légitimité à l’atteinte de la
+Cible 15.3 par le Cameroun ; - La Formation, sensibilisation et Mobilisation des acteurs du développement en faveur de la NDTet de sa prise
+en compte dans leurs actions ; - La vision de Développent du Cameroun qui l’envisage comme un « pays émergent, démocratique et uni
+dans sa diversité d’ici 2035» relève auxrangs des défis de développement celui de la préservation de l’environnement. L’enjeu stratégique
+sera de maîtriser les risques environnementaux et de lutter contre les effets déjà perceptibles des changements climatiques. La NDT offre
+ainsi une alternative pour y arriver ; - La Stratégie Nationale de Développement qui est le cadre de référence de l’action gouvernementale
+pour la période 2020-2030 réaffirme la volonté du Gouvernement de poursuivre la réalisation des Objectifs du Millénaire pour le
+Développement (OMD) dans leur ensemble ; - L’élaboration des Schémas d’Aménagement du territoire (aux niveaux National, Régional et
+Communal) qui sont les documents présentant les orientations, les objectifs et les résultats attendus d’une vision de développement
+spatiale, physique et environnementale basée sur des options politiques, les ressources naturelles disponibles, la dynamique sociale ainsi
+que le patrimoine environnemental, artistique et culturel; - La Contribution Nationale Déterminée (CND) dans le Cadre de l’Accord Climat qui
+prévoit plusieurs orientations synergiques avec la NDTaux rangs desquelles la mise en cohérence de la planification et de l’aménagement
+de l’espace rural pour développer une production agricole, animale, halieutique, minière, forestière et éco touristique apte à améliorer les
+capacités de production agricole et valoriser les ressources du milieu dans le respect de l'environnement et permettant de limiter la
+déforestation/dégradation ; - Le processus REDD+ qui vise la Réduction des Emissions issues de la Déforestation et de la Dégradation des
+Forêts, la Gestion durable des forêts et leur Conservation. Les cibles volontaires déterminées devraient s’y adapter/conformer,notamment
+en ce qui concerne le suivi de l’évolution du carbone organique du sol ; - Le Programme Sectoriel Forêt et Environnement qui se veut être un
+cadre cohérent pour toute intervention concourant à la mise en œuvre de la politique forestière et faunique du Cameroun. Il s'articule autour
+de cinq composantes dont une porte sur la gestion environnementale des activités forestières. Les actions prévues dans le cadre de la lutte
+contre la désertification notamment au Nord du pays sont, pour l'essentiel, des actions de reforestation et d'aménagement des ressources
+forestières ; - D’autres Initiatives liées telles que le Processus de mise en œuvre des ODD, les Cibles d’Aichi de la CBD, Bonn Challenge sur la
+Restauration des Ecosystèmes Forestiers (REF) et l’Initiative sur la Restauration des Ecosystèmes Forestiers d’Afrique (AFR100). Ces
+initiatives déjà bien connues ont une forte interrelation avec le processus de définition des cibles volontaires de NDT et la définition des
+projets transformatifs notamment en ce qui concerne le volet restauration des terres ; - Le Plan de Convergence de la COMIFAC adopté en
+Février 2005 par les Chefs d'Etat d'Afrique Centrale, et revisité en 2015. Il compte dans ses axes prioritaires la lutte contre les effets du
+changement climatique et la désertification avec comme un des objectifs stratégiques : Inverser la tendance à la dégradation des forêts et
+des terres ; - Le Programme Sectoriel Agriculture-Elevage (PSAE) qui est un cadre de programmation, de coordination, de mise en œuvre et
+de suivi/évaluation de la Stratégie de Développement du Secteur Rural dans ses volets Agriculture et Elevage. Il a pour objectif la mise en
+place d’un cadre de programmation unique, concerté, exhaustif, dynamique et pluriannuel, avec un des objectifs qui porte sur l’optimisation
+de l’utilisation des ressources et qui est tout à fait favorable à la mise en œuvre de la NDT ; - Le Plan de développement des secteurs
+miniers et énergétiques qui dispose d’un cadre reglementaire en matière de protection et de gestion de l'environnement ; - La Stratégie
+sectorielle des transports qui vise à assurer une meilleure efficacité et undéveloppement durable et cohérent du secteur des transports
+pour que celui-ci contribue à la croissanceéconomique, à la réduction de la pauvreté et à la protection de l’environnement ; - L’éducation, la
+formation et la recherche qui intègrent et renforcent progressivement les programmes couvrant les aspects relatifs à la GDT ; - Le régime
+foncier avec la révision en cours de la loi foncière offre l’occasion de densifier les dispositions favorables à la gestion durable des terres ; -
+Le Programme National de Sensibilisation et d’Education à l’Environnement (PNSEE) qui apparait comme une plateforme de vulgarisation
+et de promotion des aspects de NDT.
+Do you consider this experience a success and, if so, what do you consider the reasons behind this success (or lack thereof)?
+55 / 100
+
+--- Page 56 ---
+IF: Implementation Framework
+What were the challenges faced, if any?
+What would you consider to be the lessons learned?
+Drought-related policies:
+Has your country established or is your country establishing national policies, measures and governance for drought
+preparedness and management?
+Yes
+No
+Use the space below to describe your country's experience.
+Le Cameroun dispose d'un Plan d'Action National de Lutte Contre la Désertification (PAN/LCD). Ce document du PAN/LCD est
+l’aboutissement d’un processus participatif qui a mis ensemble les acteurs et partenaires stratégiques à travers des consultations à la base
+et des concertations régionales et nationales. Les résultats obtenus à l’issue de cette série de discussions ont révélé la diversité de
+perception du phénomène de désertification au Cameroun. En effet, les différentes perceptions de la désertification/dégradation des terres
+traduisent le caractère diversifié du paysage géographique du triangle national. Cette variabilité du paysage est marquée par le phénomène
+d’aridification qui est à l’origine de la dégradation des sols dans l’Extrême-Nord (hardés), l’érosion des terres dans la région de l’Ouest et du
+Nord-Ouest et la dégradation des mangroves dans les zones côtières. Les facteurs déterminants de la désertification/dégradation des
+terres sont essentiellement liés au climat, à la grande pression humaine sur les ressources à travers des méthodes culturales et pastorales
+inadaptées et une exploitation anarchique du bois. La pauvreté rampante des masses rurales constitue un facteur aggravant de la
+dégradation des ressources naturelles. Face à ces phénomènes, l’Etat a entrepris plusieurs actions d’organisation institutionnelle et de lutte
+physique contre la désertification avec des résultats mitigés. Ainsi, le PAN/LCD se fixe pour objectif d’organiser la lutte contre la
+désertification en tenant compte des acquis et des faiblesses du passé à travers les axes stratégiques qu’il propose, notamment
+l’aménagement et la gestion participative de l’espace, la gestion durable des ressources naturelles, la restauration des terres dégradées et
+l’amélioration de la fertilité des sols, le renforcement des capacités des acteurs en matière de la LCD et la gestion concertée des
+ressources partagées au niveau sous-régional. Le PAN/LCD vise également le renforcement de la participation des populations et des
+collectivités locales ainsi que la lutte contre la pauvreté. Les activités proposées dans le cadre de la mise en œuvre du PAN/LCD s’articulent
+autour de la protection et la restauration des sols, le maintien du couvert végétal, l’exploitation durable des ressources ligneuses, la gestion
+rationnelle des ressources en eau, le maintien de l’équilibre des écosystèmes, le renforcement des activités génératrices de revenus et la
+surveillance du phénomène. Les activités sus évoquées seront réalisées dans un cadre de synergie et de cohérence.
+Do you consider this experience a success and, if so, what do you consider the reasons behind this success (or lack thereof)?
+What were the challenges faced, if any?
+What would you consider to be the lessons learned?
+Has your country supported other countries in establishing policies, measures and governance for drought preparedness and
+management, in accordance with the mandate of the Convention?
+Yes
+No
+56 / 100
+
+--- Page 57 ---
+IF: Implementation Framework
+Action on the Ground
+Sustainable land management practices:
+Has your country implemented or is your country implementing sustainable land management (SLM) practices to address
+DLDD?
+Yes
+No
+What types of SLM practices are being implemented?
+☒ Agroforestry
+☐ Area closure (stop use, support restoration)
+☐ Beekeeping, fishfarming, etc
+☐ Cross-slope measure
+☐ Ecosystem-based disaster risk reduction
+☐ Energy efficiency
+☐ Forest plantation management
+☐ Home gardens
+☐ Improved ground/vegetation cover
+☐ Improved plant varieties animal breeds
+☒ Integrated crop-livestock management
+☐ Integrated pest and disease management (incl. organic agriculture)
+☒ Integrated soil fertility management
+☒ Irrigation management (incl. water supply, drainage)
+☐ Minimal soil disturbance
+☐ Natural and semi-natural forest management
+☒ Pastoralism and grazing land management
+☐ Post-harvest measures
+☐ Rotational system (crop rotation, fallows, shifting, cultivation)
+☐ Surface water management (spring, river, lakes, sea)
+☒ Water diversion and drainage
+☒ Water harvesting
+☐ Wetland protection/management
+☐ Windbreak/Shelterbelt
+☐ Waste management / Waste water management
+☐ Other (please specify)
+Use the space below to share more details about your country's experience:
+Ceci a été fait dans le cadre de la mise en oeuvre des projet pilote REDD+ tel que défini dasns l'objectif 5-O4
+Would you consider the implemented practices successful and what do you consider the main factors of success?
+What were the challenges faced, if any?
+What do you consider to be the lessons learned?
+57 / 100
+
+--- Page 58 ---
+IF: Implementation Framework
+How did you engage women and youth in these activities?
+Has your country supported other countries in the implementation of SLM practices?
+Yes
+No
+Restoration and Rehabilitation:
+Has your country implemented or is your country implementing restoration and rehabilitation practices in order to assist with
+the recovery of ecosystem functions and services?
+Yes
+No
+What types of rehabilitation and restoration practices are being implemented?
+☒ Restore/improve tree-covered areas
+☒ Increase tree-covered area extent
+☒ Restore/improve croplands
+☒ Restore/improve grasslands
+☒ Restore/improve wetlands
+☒ Increase soil fertility and carbon stock
+☐ Manage artificial surfaces
+☐ Restore/improve protected areas
+☐ Increase protected areas
+☐ Improve coastal management
+☐ General instrument (e.g. policies, economic incentives)
+☒ Restore/improve multiple land uses
+☐ Reduce/halt conversion of multiple land uses
+☒ Restore/improve multiple functions
+☒ Restore productivity and soil organic carbon stock in croplands and grasslands
+☐ Other/general/unspecified
+Use the space below to share more details about your country's experience:
+Ceci a été fait dans le cadre de la mise en oeuvre des projet pilote REDD+ tel que défini dasns l'objectif 5-O4.
+Would you consider the implemented practices successful and what do you consider the main factors of success?
+What were the challenges faced, if any?
+What do you consider to be the lessons learned?
+How did you engage women and youth in SLM activities?
+Has your country supported other countries with restoration and rehabilitation practices in order to assist with the recovery of
+58 / 100
+
+--- Page 59 ---
+IF: Implementation Framework
+ecosystem functions and services?
+Yes
+No
+Drought risk management and early warning systems:
+Is your country developing a drought risk management plan, monitoring or early warning systems and safety net programmes to
+address DLDD?
+Yes
+No
+Has your country supported other countries in developing drought risk management, monitoring and early warning systems and
+safety net programmes to address DLDD?
+Yes
+No
+Alternative livelihoods:
+Does your country promote alternative livelihoods practice in the context of DLDD?
+Yes
+No
+Could you list some practices implemented at country level to promote alternative livelihoods?
+☒ Crop diversification
+☒ Agroforestry practices
+☒ Rotational grazing
+☒ Rain-fed and irrigated agricultural systems
+☒ Small vegetable gardens
+☒ Production of artisanal goods
+☒ Renewable energy generation
+☐ Eco-tourism
+☒ Production of medicinal and aromatic plants
+☐ Aquaculture using recycled wastewater
+☐ Other (please specify)
+Use the space below to describe your country's experience.
+Ceci a été fait dans le cadre de la mise en oeuvre des projet pilote REDD+ tel que défini dasns l'objectif 5-O4
+Do you consider this experience a success and, if so, what do you consider the reasons behind this success (or lack thereof)?
+What were the challenges faced, if any?
+What would you consider to be the lessons learned?
+59 / 100
+
+--- Page 60 ---
+IF: Implementation Framework
+Do you consider your country to be taking special measures to engage women and youth in promoting alternative livelihoods?
+Yes
+No
+Please elaborate
+En faisant de ces couches socio proffessionelles des parties prenantes entière du prcessus décisionnel.
+Establishing knowledge sharing systems:
+Has your country established systems for sharing information and knowledge and facilitating networking on best practices and
+approaches to drought management?
+Yes
+No
+Do you consider that your country has implemented specific actions that promote women’s access to knowledge and
+technology?
+Yes
+No
+Please elaborate
+En faisant de cette couche socioproffessionelles une partie prenante entière du prcessus décisionnel.
+Do you consider this experience a success and, if so, what do you consider the reasons behind this success (or lack thereof)?
+What were the challenges faced, if any?
+What would you consider to be the lessons learned?
+60 / 100
+
+--- Page 61 ---
+Other files for Reporting
+Cameroon - SO5-1 recipient Download 35.1 KB
+61 / 100
+
+--- Page 62 ---
+Cameroon – SO1-1.M1
+Land cover in the initial year of the baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• European Space Agency Climate Change Initiative Land Cover (ESA CCI-LC) product, 1992-2019. URL: https://www.esa-landcover-cci.org/
+62 / 100
+
+--- Page 63 ---
+Cameroon – SO1-1.M2
+Land cover in the baseline year
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• European Space Agency Climate Change Initiative Land Cover (ESA CCI-LC) product, 1992-2019. URL: https://www.esa-landcover-cci.org/
+63 / 100
+
+--- Page 64 ---
+Cameroon – SO1-1.M3
+Land cover in the latest reporting year
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• European Space Agency Climate Change Initiative Land Cover (ESA CCI-LC) product, 1992-2019. URL: https://www.esa-landcover-cci.org/
+64 / 100
+
+--- Page 65 ---
+Cameroon – SO1-1.M4
+Land cover change in the baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• European Space Agency Climate Change Initiative Land Cover (ESA CCI-LC) product, 1992-2019. URL: https://www.esa-landcover-cci.org/
+65 / 100
+
+--- Page 66 ---
+Cameroon – SO1-1.M5
+Land cover change in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• European Space Agency Climate Change Initiative Land Cover (ESA CCI-LC) product, 1992-2019. URL: https://www.esa-landcover-cci.org/
+66 / 100
+
+--- Page 67 ---
+Cameroon – SO1-1.M6
+Land cover degradation in the baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• European Space Agency Climate Change Initiative Land Cover (ESA CCI-LC) product, 1992-2019. URL: https://www.esa-landcover-cci.org/
+67 / 100
+
+--- Page 68 ---
+Cameroon – SO1-1.M7
+Land cover degradation in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• European Space Agency Climate Change Initiative Land Cover (ESA CCI-LC) product, 1992-2019. URL: https://www.esa-landcover-cci.org/
+68 / 100
+
+--- Page 69 ---
+Cameroon – SO1-2.M1
+Land productivity dynamics in the baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• EC-JRC, 2021, based on Xavier Rotllan-Puig, Eva Ivits, Michael Cherlet, LPDynR: A new tool to calculate the land productivity dynamics indicator, Ecological Indicators, Volume 133, 2021, 108386, ISSN
+1470-160X. URL: https://doi.org/10.1016/j.ecolind.2021.108386
+69 / 100
+
+--- Page 70 ---
+Cameroon – SO1-2.M2
+Land productivity dynamics in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• EC-JRC, 2021, based on Xavier Rotllan-Puig, Eva Ivits, Michael Cherlet, LPDynR: A new tool to calculate the land productivity dynamics indicator, Ecological Indicators, Volume 133, 2021, 108386, ISSN
+1470-160X. URL: https://doi.org/10.1016/j.ecolind.2021.108386
+70 / 100
+
+--- Page 71 ---
+Cameroon – SO1-2.M3
+Land productivity degradation in the baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• EC-JRC, 2021, based on Xavier Rotllan-Puig, Eva Ivits, Michael Cherlet, LPDynR: A new tool to calculate the land productivity dynamics indicator, Ecological Indicators, Volume 133, 2021, 108386, ISSN
+1470-160X. URL: https://doi.org/10.1016/j.ecolind.2021.108386
+71 / 100
+
+--- Page 72 ---
+Cameroon – SO1-2.M4
+Land productivity degradation in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• EC-JRC, 2021, based on Xavier Rotllan-Puig, Eva Ivits, Michael Cherlet, LPDynR: A new tool to calculate the land productivity dynamics indicator, Ecological Indicators, Volume 133, 2021, 108386, ISSN
+1470-160X. URL: https://doi.org/10.1016/j.ecolind.2021.108386
+72 / 100
+
+--- Page 73 ---
+Cameroon – SO1-3.M1
+Soil organic carbon stock in the initial year of the baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• International Soil Reference and Information Centre (ISRIC) SoilGrids250m dataset. URL: https://www.isric.org/explore/soilgrids
+73 / 100
+
+--- Page 74 ---
+Cameroon – SO1-3.M2
+Soil organic carbon stock in the baseline year
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• International Soil Reference and Information Centre (ISRIC) SoilGrids250m dataset. URL: https://www.isric.org/explore/soilgrids
+74 / 100
+
+--- Page 75 ---
+Cameroon – SO1-3.M3
+Soil organic carbon stock in the latest reporting year
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• International Soil Reference and Information Centre (ISRIC) SoilGrids250m dataset. URL: https://www.isric.org/explore/soilgrids
+75 / 100
+
+--- Page 76 ---
+Cameroon – SO1-3.M4
+Change in soil organic carbon stock in the baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• International Soil Reference and Information Centre (ISRIC) SoilGrids250m dataset. URL: https://www.isric.org/explore/soilgrids
+76 / 100
+
+--- Page 77 ---
+Cameroon – SO1-3.M5
+Change in soil organic carbon stock in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• International Soil Reference and Information Centre (ISRIC) SoilGrids250m dataset. URL: https://www.isric.org/explore/soilgrids
+77 / 100
+
+--- Page 78 ---
+Cameroon – SO1-3.M6
+Soil organic carbon degradation in the baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• International Soil Reference and Information Centre (ISRIC) SoilGrids250m dataset. URL: https://www.isric.org/explore/soilgrids
+78 / 100
+
+--- Page 79 ---
+Cameroon – SO1-3.M7
+Soil organic carbon degradation in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• International Soil Reference and Information Centre (ISRIC) SoilGrids250m dataset. URL: https://www.isric.org/explore/soilgrids
+79 / 100
+
+--- Page 80 ---
+Cameroon – SO1-4.M1
+Proportion of land that is degraded over total land area (SDG Indicator 15.3.1) in the baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Derived based on the methodology in the Good Practice Guidance Version 2 for Sustainable Development Goal (SDG) indicator 15.3.1 - Proportion of land that is degraded over total land area. URL:
+https://www.unccd.int/publications/good-practice-guidance-sdg-indicator-1531-proportion-land-degraded-over-total-land
+80 / 100
+
+--- Page 81 ---
+Cameroon – SO1-4.M2
+Proportion of land that is degraded over total land area (SDG Indicator 15.3.1) in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Derived based on the methodology in the Good Practice Guidance Version 2 for Sustainable Development Goal (SDG) indicator 15.3.1 - Proportion of land that is degraded over total land area. URL:
+https://www.unccd.int/publications/good-practice-guidance-sdg-indicator-1531-proportion-land-degraded-over-total-land
+81 / 100
+
+--- Page 82 ---
+Cameroon – SO1-4.M3
+Progress towards Land Degradation Neutrality (LDN) in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Derived based on the methodology in the Good Practice Guidance Version 2 for Sustainable Development Goal (SDG) indicator 15.3.1 - Proportion of land that is degraded over total land area. URL:
+https://www.unccd.int/publications/good-practice-guidance-sdg-indicator-1531-proportion-land-degraded-over-total-land
+82 / 100
+
+--- Page 83 ---
+Cameroon – SO2-3.M1
+Total Population exposed to land degradation (baseline)
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• WorldPop project URL: https://www.worldpop.org
+83 / 100
+
+--- Page 84 ---
+Cameroon – SO2-3.M2
+Female Population exposed to land degradation (baseline)
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• WorldPop project URL: https://www.worldpop.org
+84 / 100
+
+--- Page 85 ---
+Cameroon – SO2-3.M3
+Male Population exposed to land degradation (baseline)
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• WorldPop project URL: https://www.worldpop.org
+85 / 100
+
+--- Page 86 ---
+Cameroon – SO2-3.M4
+Total Population exposed to land degradation (reporting)
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• WorldPop project URL: https://www.worldpop.org
+86 / 100
+
+--- Page 87 ---
+Cameroon – SO2-3.M5
+Female Population exposed to land degradation (reporting)
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• WorldPop project URL: https://www.worldpop.org
+87 / 100
+
+--- Page 88 ---
+Cameroon – SO2-3.M6
+Male Population exposed to land degradation (reporting)
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• WorldPop project URL: https://www.worldpop.org
+88 / 100
+
+--- Page 89 ---
+Cameroon – SO3-1.M1
+Drought hazard in first epoch of baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+89 / 100
+
+--- Page 90 ---
+Cameroon – SO3-1.M2
+Drought hazard in second epoch of baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+90 / 100
+
+--- Page 91 ---
+Cameroon – SO3-1.M3
+Drought hazard in third epoch of baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+91 / 100
+
+--- Page 92 ---
+Cameroon – SO3-1.M4
+Drought hazard in fourth epoch of baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+92 / 100
+
+--- Page 93 ---
+Cameroon – SO3-1.M5
+Drought hazard in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+93 / 100
+
+--- Page 94 ---
+Cameroon – SO3-2.M1
+Drought exposure in first epoch of baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+94 / 100
+
+--- Page 95 ---
+Cameroon – SO3-2.M2
+Drought exposure in second epoch of baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+95 / 100
+
+--- Page 96 ---
+Cameroon – SO3-2.M3
+Drought exposure in third epoch of baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+96 / 100
+
+--- Page 97 ---
+Cameroon – SO3-2.M4
+Drought exposure in fourth epoch of baseline period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+97 / 100
+
+--- Page 98 ---
+Cameroon – SO3-2.M5
+Drought exposure in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+98 / 100
+
+--- Page 99 ---
+Cameroon – SO3-2.M6
+Female drought exposure in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+99 / 100
+
+--- Page 100 ---
+Cameroon – SO3-2.M7
+Male drought exposure in the reporting period
+Legend
+Projection: EPSG:3857 (Web Mercator)
+00000 222225555500000 k kkkkmmmmm 555550000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+100 / 100

@@ -1,0 +1,1961 @@
+--- Page 2 ---
+FORWARD
+2
+
+--- Page 3 ---
+CONTENTS
+ACKNOWLEDGMENT ......................................................................................................... 7
+1. Introduction ...................................................................................................................... 11
+1.1. Climate Change Trends and their Influence on Drought Behavior .................................. 11
+1.2. Overview of Drought Occurrence in Ethiopia .................................................................. 12
+1.2.1. Understanding Drought: Definitions and Types ................................................................. 12
+1.3. Impacts of Drought in Ethiopia ........................................................................................ 13
+1.3.1. Economic Impacts .............................................................................................................. 13
+1.3.2. Humanitarian and Social Impacts ....................................................................................... 14
+1.4. Drought Risk and Vulnerability in Ethiopia ..................................................................... 18
+1.5. Identification and GIS Mapping of Drought Vulnerable Areas ...................................... 22
+1.5.1. Data..................................................................................................................................... 22
+1.5.2. Methodology ....................................................................................................................... 23
+1.6. Drought Risk Areas in Various Administrative Areas .......................................................... 24
+1.6.1. Scenario 1: Drought Vulnerability Assessment Including Mild Drought .......................... 24
+1.6.2. Scenario 2: Drought Vulnerability Assessment Including Severe Drought ....................... 25
+2. Ethiopia’s National Drought Resilience Plan and its Importance ............................... 28
+2.1.Background ....................................................................................................................... 28
+2.2.Purpose, goal and objectives of the National Drought Resilience Plan ............................ 29
+2.1.1. Purpose ............................................................................................................................... 29
+2.2.1.Goal and Objectives of the National Drought Resilience Plan....................................... 30
+2.2.2.Scope of the National Drought Resilience Plan ............................................................. 32
+3. Ten-Step Process of Drought Management Strategy and Action Plan Development 33
+4. Alignment of the National Drought Resilience Plan with other Policies and Strategies
+34
+4.1.Gaps in Existing Drought Mitigation Strategies and Suggested Improvements ............... 35
+4.1.1.Gaps 35
+4.1.2.Strengthening Ethiopia's Drought Resilience Plan .............................................................. 37
+5. Institutional Arrangement of Ethiopia’s Drought Resilience Plan .............................. 39
+6. National Drought Management Strategies ..................................................................... 42
+6.1.Scaling up Nature-based Solutions & Sustainable Tree-based Landscape Restoration and
+Natural Resources Management ......................................................................................... 42
+3
+
+--- Page 4 ---
+6.2.Strengthening Early Warning, Climate Monitoring and Communication Systems and
+Capacity Development, Governance and Knowledge Management ................................. 43
+6.3.Policy Alignment, Drought Mainstreaming and Enforcement ......................................... 44
+6.4. Promoting Climate Smart Agriculture ........................................................................ 44
+6.5. Promoting Sustainable Water Resources Management ................................................... 45
+6.6. Sustainable Development of Alternatives Rural Energy ................................................. 46
+6.7. Research and innovation for promotion of Sustainable and multi-sectoral livelihood
+diversification options........................................................................................................ 46
+7. National Drought Resilience Plan Communication ...................................................... 48
+7.1.Drought Communication Protocol .................................................................................... 49
+7.2.Declaration of Drought Condition ................................................................................. 50
+8. Prospects of Ethiopia’s Drought Resilience Plan through International Co-operation
+51
+4
+
+--- Page 5 ---
+LIST OF TABLES
+Table 1-. Summary of people in need of assistance: 2010-2016 ............................................. 15
+Table 2- Humanitarian Impact during notable drought years ................................................. 16
+Table 3- Humanitarian Impact during notable drought years ................................................. 23
+Table 4- Long-Term Drought Management Implementation Action Plan for 2025-2035 ..... 53
+5
+
+--- Page 6 ---
+LIST OF FIGURES
+Figure 1- illustrates how GDP growth tracks rainfall variability in Ethiopia. ........................ 14
+Figure 2- Dry land areas of Ethiopia....................................................................................... 18
+Figure 3- Drought probability map of Ethiopia (NMSA, 1996) ............................................. 19
+Figure 4- Broad Moisture Zones of Ethiopia ...................................................................... 20
+Figure 5- Drought Susceptibility map of Ethiopia (NDRMC) ............................................... 21
+Figure 6- Hotspot Woredas during 2015 El Niño drought ..................................................... 21
+Figure 7- PSNP Woredas in Ethiopia ..................................................................................... 22
+Figure 8- Drought Frequency map of Kiremt ......................................................................... 24
+Figure 9- Drought Frequency map of Belg ............................................................................. 25
+Figure 10- Severe drought probability map during Kiremt season .................................. 26
+Figure 11- Severe drought probability map in the Belg season .............................................. 27
+6
+
+--- Page 7 ---
+ACKNOWLEDGMENT
+We would like to express our sincere gratitude to H.E. Ato Kebede Yimam, Director General of
+Ethiopian Forestry Development, and Dr. Motuma Tolera, Deputy Director General for the guidance
+and direction during the development of national drought resilience plan. Our appreciation also
+goes to Dr. Tadesse Woldemariam Gole for his pioneering efforts in crafting the initial
+document. We greatly thank Dr. Adefires Worku coordinator of the green legacy initiative
+technical team who contributed a lot for the development of this revised plan with his
+immense knowledge on the climate change issues and Nature-based Solutions. Dr. Teshome
+Tamirat, the UNCCD National Focal Point established the partnerships with Global
+mechanism and mobilizing resources played a critical role in the successful development of
+this plan.
+We would like to express our sincere gratitude to the United Nations Convention to Combat
+Desertification (UNCCD), the Global Mechanism for its invaluable financial support in the
+development of the initial Drought Resilience Plan. This initiative has been crucial in
+addressing the multifaceted challenges posed by drought in our nation, particularly in
+enhancing resilience and promoting sustainable land management practices.
+Together, with the continued support of UNCCD and the collective efforts of all
+stakeholders, we aim to implement effectively the various strategies identified in this plan to
+enhance resilience against drought impacts in Ethiopia and beyond. Through collaboration of
+Riyadh drought resilience partnership, we are hopeful that this plan will serve as a beacon of
+resilience and a catalyst for sustainable development in the region and the world.
+7
+
+--- Page 8 ---
+Executive Summary
+Climate change is globally intensifying the frequency and severity of extreme weather events,
+particularly prolonged drought, posing profound socio-economic and environmental challenges
+worldwide. Developing countries are disproportionately affected by the negative impacts of climate
+change. Ethiopia, with its developing economy and communities intrinsically linked to natural
+resources, stands at the forefront of this global crisis. Ethiopia's high susceptibility to drought, with an
+annual probability exceeding 40% for moderate to severe events, is underscored by nearly 70% of its
+land being classified as dry lands. This makes the country highly vulnerable to climate variability,
+with historical data showing an alarming increase in drought occurrences since 1950, now striking
+approximately every two years. The consequences of drought are dire: undermining crop yields,
+critical water and feed shortages, widespread food insecurity, and persistent poverty. Beyond
+immediate impacts on the economy and livelihoods and the consequent humanitarian needs, recurrent
+droughts exacerbate land degradation, deforestation, and diminish the capacity of ecosystems to
+provide essential services, perpetuating a vicious cycle of vulnerability.
+The Government of Ethiopia has been actively engaging in climate change and droughts management
+through a comprehensive UNCCD framework of policies and strategies. The major policies and
+strategies include the National Adaptation Plan (NAP), the Climate Resilient Green Economy
+(CRGE) Strategy, the Nationally Determined Contribution (NDC), and the Long-Term Low Emission
+Economic Development Strategy (LT-LEDS). These are complemented by vital sector-specific
+policies on disaster risk management, land, forest, water, and agriculture, all designed to counter the
+severe impacts of climate extremes. The government has also been designing and implementing
+transformative initiatives like the Green Legacy Initiative, a flagship Nature-based Solution,
+exemplifying the nation's commitment to climate change mitigation, adaptation, and sustainable
+development. The continued vulnerability to the negative impacts of climate change necessitated the
+preparation of specific National Drought Resilience Plan (NDRP) which is strategically aligned with
+existing policies and strategies. Under UNCCD framework it also signifying a crucial shift from
+reactive crisis management to a proactive, multi-sectoral, and integrated approach focused on
+building long-term resilience. The NDRP's overarching goal is to significantly enhance the resilience
+and adaptive capacity of Ethiopia's vulnerable populations, especially smallholder farmers and
+pastoral communities. It establishes a predictable, multi-sectoral framework for drought response,
+ensuring coordinated, swift, and effective mitigation and recovery efforts. A core principle of the
+NDRP is to manage droughts while protecting natural resources and infrastructure, thereby
+safeguarding community livelihoods, ensuring food security, and promoting sustainable national
+development. The purposes of the NDRP include:
+ Scaling Up Nature-Based Solutions and Sustainable Land Management: The plan
+emphasizes the importance of nature-based solutions through the Green Legacy Initiative,
+which involves eco-friendly practices like integrated forest landscape restoration and
+sustainable land management. This approach aims to revitalize degraded ecosystems, thereby
+increasing community resilience to climate change.
+ Strengthening Early Warning Systems & Capacity Building: It is to enhance existing Early
+Warning Systems (EWS) that improve climate monitoring and data dissemination. It also
+includes investing in infrastructure and human resources training and knowledge
+management such as weather stations and satellite systems to facilitate timely and accurate
+information sharing among stakeholders, enabling better preparedness and decision-making.
+8
+
+--- Page 9 ---
+ Policy Alignment and Drought Mainstreaming in key Sectors: The plan calls for aligning
+land policies as cross-sectoral to multi-sectors with national resilience objectives to promote
+sustainable land use. Effective land use policies will enhance appropriate investment on land
+through effective land use planning for development, ultimately boosting land
+administration, agricultural productivity and community resilience.
+ Promoting Climate-Smart Agriculture: It is crucial for improving food security and
+livelihoods of the smallholder farmers and pastoral communities. Hence, addressing land
+degradation through sustainable practices, the plan aims to combat soil erosion and declining
+fertility, ensuring food and nutrition security for smallholder farmers and pastoral
+communities.
+ Sustainable Water Resources Management: Central to the plan is the promotion of
+sustainable water development and management over and under the surface as practices to
+enhance water availability and ecosystem resilience, equipping communities to effectively
+address drought impacts.
+ Development of Alternative Rural Energy: As climate vulnerabilities increase, the plan
+prioritizes sustainable alternative and technology-based energy sources to bolster resilience
+and economic development in pastoral and rural areas.
+ Research and innovation for promotion of Sustainable and multi-Sectoral livelihood
+diversification options: Finally, the plan encourages the implementation of multi-sectoral
+livelihood diversification options through research and innovation. These initiatives aim to
+integrate environmental sustainability with economic viability, thereby enhancing the
+resilience of pastoral communities and supporting long-term development and income
+generation.
+Key Strategies of the NDRP: The NDRP identifies comprehensive and forward-looking strategies
+that are aligned strategically with international frameworks like the Riyadh Drought Resilience
+Partnership and Ethiopia's policies and strategies and overall development agendas. It is designed to
+address the root causes of drought and promote long-term environmental sustainability, encompassing
+major drought-affected sectors such as agriculture, water and energy, natural resources, irrigation and
+lowland and disaster risk management. These strategies include:
+ Scaling up Nature based Solutions & Tree based Land Restoration and Natural
+Resources Management: This strategic direction enables Ethiopia to effectively reduce
+vulnerability and promote sustainable tree-based landscape restoration, a primary objective is
+to scale up nature-based solutions through the Green Legacy Initiative. This entails the
+extensive implementation of eco-friendly practices, including integrated landscape
+restoration, sustainable land and forest management practices. Hence, by adopting these
+practices, communities can revitalize degraded ecosystems, enhancing their resilience against
+the adverse effects of climate change shocks and improving their overall capacity to
+withstand drought impacts.
+ Strengthening Early Warning, Climate Monitoring, and Capacity Development: It aims
+to strengthen existing Early Warning Systems (EWS) to address their current limitations. It
+involves proactive monitoring of climate and environmental data, ensuring timely
+dissemination of drought-related information to all stakeholders. Key steps include investing
+in robust data collection infrastructure, such as weather stations, hydrological sensors, and
+satellite imagery systems, to gather accurate real-time data necessary for developing
+9
+
+--- Page 10 ---
+sophisticated predictive models. Additionally, enhancing governance and knowledge
+management system at federal and regional levels will also support effective and evidence
+based decision-making and community preparedness.
+ Policy Alignment, Drought Mainstreaming, and Enforcement: it focuses on aligning land
+policy and legislation with national drought resilience plans which is essential to facilitate
+sustainable land use and resource management. This strategy anticipates the mainstreaming
+an effective land-use planning to all sectors at all levels of administration. Given Ethiopia's
+vulnerability to recurrent droughts, effective land policies must promote practices that
+enhance appropriate utilization of land for specific purpose which reduces deforestation and
+soil and land degradation, ultimately improving agricultural productivity and community
+resilience. This includes promoting sustainable land and natural resource management to
+conserve forest resources, critical for biodiversity, climate regulation, and livelihoods.
+ Promoting Climate-Smart Agriculture: Promotion of climate-smart agriculture is vital for
+enhancing productivity and livelihoods of pastoral community in Ethiopia, as the lowland
+ecosystem is heavily reliant on agriculture and pastoralism. Addressing the degradation of
+farmlands and rangelands due to unsustainable practices and climate change is crucial.
+Implementing practices that combat climate change impact through carbon sequestration, soil
+erosion, acidification, and declining soil fertility that will support efforts to achieve food and
+nutrition security for millions of smallholder farmers and pastoral communities.
+ Promoting Sustainable Water Resources Management: Sustainable water resources
+management is a cornerstone strategy within Ethiopia's National Drought Resilience Plan.
+This objective focuses on enhancing water availability, improving ecosystem resilience, and
+building community capacity to combat the impacts of drought effectively. Improving all
+water points for livestock management and irrigation development can enhance drought
+resilience in long term.
+ Sustainable Development of Alternative Rural Energy: As climate change exacerbates
+vulnerabilities, promoting sustainable alternative rural energy sources which are technology
+based including solar and other energy sources are prioritized within Ethiopia's drought
+resilience plan. This initiative aims to enhance both resilience and economic development for
+pastoral and rural communities to reduce the utilization of biomass energy sources.
+ Research and innovation for promotion of Sustainable and multi-sectoral livelihood
+diversification options: Implementing sustainable and multi-sectoral livelihood
+diversification options through research and innovation is essential for enhancing the
+resilience of pastoral communities. This includes developing alternative rural energy sources,
+agroforestry, agricultural livelihoods and promoting practices that integrate environmental
+sustainability with economic viability, thereby supporting long-term sustainable development
+and income generation.
+By integrating these strategies and fostering broad collaboration among key stakeholders and
+partners, through this Plan Ethiopia aims to transform its approach to drought, moving from reactive
+emergency response to proactive, resilient development, safeguarding its communities, ecosystems,
+and fostering a more secure and prosperous future.
+10
+
+--- Page 11 ---
+1. Introduction
+Ethiopia, a nation deeply intertwined with its natural environment and rich cultural heritage, faces an
+escalating and existential crisis driven by climate change-induced droughts. These recurrent,
+prolonged periods of abnormally low rainfall are no longer mere meteorological events; they
+represent a profound threat to the livelihoods, food security, and socio-economic stability of millions
+across the country. Particularly, the most vulnerable Ethiopians are millions of smallholder farmers
+and pastoral communities, whose very existence and traditional ways of life are intrinsically linked to
+consistent rainfall patterns and healthy and productive ecosystems.
+1.1. Climate Change Trends and their Influence on Drought Behavior
+The intensification and increased frequency of droughts in Ethiopia are directly driven by shifting
+precipitation patterns and rising temperatures. Analysis of meteorological data reveals a clear
+warming trend: the mean annual temperature in Ethiopia increased by approximately by 1.3∘C
+between 1960 and 2006, at an average rate of 0.28∘C per decade1. Projections indicate this warming
+trend will continue, with mean monthly temperatures expected to rise by 1.8∘C by the 2050s and a
+staggering 3.7∘C by the end of the century under high-emission scenarios2.
+This warming is directly linked to a prevailing rise in drought intensity, duration, and frequency
+across the country. For instance, studies in areas like Borana projects a significant rise in hydrological
+drought occurrences between 2025 and 2074. Even the capital, Addis Ababa, has experienced an
+average of three months of extreme drought annually over the past two decades, with projections
+indicating a 53% increase in extreme drought events by 2040-20603.
+The broader consequences of climate change extend beyond direct temperature and rainfall
+anomalies. They severely hinder long-term resilience and adaptation efforts. Traditional coping
+mechanisms, once effective, are now overwhelmed by the unprecedented scale and frequency of these
+events. Rural populations struggle to implement sustainable agricultural and land and natural
+resources management practices due to persistent barriers, including limited access to financial
+resources, essential training, and appropriate technologies. These challenges are compounded by
+inadequate infrastructure and insufficient support from various levels of government structures.
+Moreover, the impact of climate change is often complicated by severe land and natural resource
+degradation. According to a study by WRI, more than 54 million hectares of land in Ethiopia (almost
+half of the country‘s landmass) has shown different levels of degradation, with about 11 million
+hectares potentially turning into desert without urgent restoration interventions. The sustainable
+management of Ethiopia's natural resources, particularly its expansive forest resources and precious
+biodiversity and water resources, is a major means of building community resilience. Forest resources
+1Ethiopia's Second National Communication (SNC) to the United Nations Framework Convention on
+Climate Change (UNFCCC). This is a primary source for observed climate trends and future
+projections for Ethiopia.
+2 The Federal Democratic Republic of Ethiopia, Ministry of Environment and Forest (MoEF). (2015).
+Ethiopia's Second National Communication to the United Nations Framework Convention on Climate
+Change (UNFCCC). Addis Ababa, Ethiopia.
+3 World Bank Ethiopia Country Climate and Development Report (CCDR) (February 2024), Addis
+Ababa.
+11
+
+--- Page 12 ---
+are crucial for maintaining the hydrological cycle, influencing local climates, and providing essential
+ecosystem services and resources for millions of communities before, during, and after drought
+incidences. However, the relentless impacts of climate change and advancing desertification have
+resulted in significant degradation and deforestation of these vital resources. Rising temperatures and
+unpredictable rainfall patterns undermine forest health, reduce natural regeneration and biomass, and
+impair the forests' critical ability to sequester carbon. Frequent droughts and degradation not only
+diminish the state of forests and biodiversity but also undermine their capacity to deliver critical
+ecosystem services and goods, such as water regulation and soil conservation, access to clean water,
+fodder, wood, and food, further exacerbating the challenges posed by drought and directly threatening
+the very foundations of smallholders' and pastoralists' livelihoods and their rich cultural heritage.
+1.2. Overview of Drought Occurrence in Ethiopia
+Ethiopia is highly vulnerable to drought, with an annual probability exceeding 40% for moderate to
+severe drought during the rainy season. Approximately 70% of the country's land is classified as
+drylands, characterized by low and irregular rainfall, leading to periodic droughts4. Historically, most
+famines in Ethiopia have been linked to drought, with the National Meteorological Service Agency
+(NMSA) documenting significant drought events through various historical records, including
+chronicles, travelers‘ diaries, and archival data.
+Drought periods have been categorized into four distinct eras, revealing a long history of drought and
+famine:
+ Pre-1500 AD: Droughts occurred roughly every nine years, with 177 documented instances.
+ 1500-1950 AD: The frequency decreased to about one drought every seven years, with
+catastrophic famines such as Quachine and Kifuken causing widespread devastation.
+ Post-1950 AD: The occurrence of droughts has intensified, with events happening
+approximately every two years.
+ 1970-1980 AD: This decade was particularly disastrous, marked by seven years of significant
+drought, leading to severe humanitarian crises in subsequent decades.
+The increasing intensity and frequency of droughts since the mid-1970s can be attributed to climate
+variability and global climate change. Notably, the 1975 drought was especially severe, impacting
+over half of Ethiopia's administrative regions due to the failure of short rains. This pattern
+underscores the urgent need for effective drought management strategies to mitigate the impacts on
+vulnerable communities and ensure food security.
+1.2.1. Understanding Drought: Definitions and Types
+Drought is defined by a prolonged period of abnormally low rainfall, leading to a significant shortage
+of water or moisture. This phenomenon is typically categorized into four types:
+ Meteorological drought: Characterized by a deficit in rainfall over a specific period
+compared to average conditions.
+4 Ethiopian Institute of Agricultural Research. 2012. “Impacts of Climate Variability and Change on Agricultural
+Systems of Semi-Arid Area of Ethiopia”. Edited by Habtamu Admassu, Mezgebu Getinet and Abebe Kirub. ISBN:
+978-99944-53-58-X.
+12
+
+--- Page 13 ---
+ Agricultural drought: Occurs when insufficient soil moisture impacts crop growth and
+agricultural productivity.
+ Hydrological drought: Marked by below-normal stream flow and depleted water reservoirs.
+ Socio-economic drought: Relates to an imbalance between water supply and demand for
+economic goods, often worsening during scarcity.
+Beyond just rainfall quantity, the timing and effectiveness of precipitation are crucial. Delays in the
+rainy season or insufficient rainfall during critical crop growth stages can severely impact agricultural
+output. The decline in agricultural productivity will exert massive pressure on remaining natural
+resources such as forests. Because each drought year presents unique climatic characteristics and
+challenges, tailored strategies are essential for effective mitigation and building community resilience.
+1.3. Impacts of Drought in Ethiopia
+The consequences of drought in Ethiopia are dire and multifaceted, pushing communities, mainly
+smallholder farmers and pastoral households deeper into a cycle of vulnerability. Historically, the
+most severe impact has been humanitarian crises, well-recorded in the country's history, particularly
+in the 1970s and 1980s. The 1988 drought in particular led to the historic and deadly famine, where
+several people in drought-affected northern and northeastern parts of the country died, and 90% of
+their animals perished5.
+More recently, between 2000 and 2017, six significant drought episodes were registered, with the
+latest two (in 2011 and 2016/17) devastating pastoral and agro-pastoral livelihoods. Herders'
+continued reliance on natural, rain-fed pasture, coupled with accelerating resource scarcity, has
+severely reduced their ability to cope with shocks like drought. Successive poor/failed rains in 2016
+and 2017 impacted pasture and water availability which causing abnormal migrations, deteriorating
+livestock body conditions, weakened immune systems, and increased cases of opportunistic diseases
+and parasites, further pushing up mortality rates. Milk production in cattle declined by as much as 80
+percent, with significant losses also recorded in camels and goats, raising serious concerns over
+already high malnutrition rates given the close link between milk availability and human nutrition in
+pastoral communities.
+Preliminary estimates indicate that between November 2016 and April 2017, more than 1.5 million
+livestock perished in southern and southeastern parts of the country, representing an economic loss of
+over USD 350 million. With low livestock production and unfavorable terms of trade, extreme coping
+mechanisms – such as reducing the number and size of meals, selling remaining productive assets,
+and, in increasing numbers of cases, destitution and displacement due to the complete loss of
+livestock assets – have been observed throughout affected areas. As far as pastoralist areas are
+concerned, the longest recorded drought lasted for 63 months in Borana Zone in southern Ethiopia
+during the 1983-2012 periods.
+1.3.1. Economic Impacts
+Droughts have a significant effect on the national economy. The economic impact of drought in
+Ethiopia is best demonstrated by its influence on the variability of the country's Gross Domestic
+5
+FDRE, 2018. Humanitarian and Disaster Resilience Plan, a Joint Government and Humanitarian
+Partners‘ Document
+13
+
+--- Page 14 ---
+Product (GDP). Figure 1 illustrates how GDP growth tracks rainfall variability in Ethiopia6.
+Figure 1- illustrates how GDP growth tracks rainfall variability in Ethiopia.
+Emergency aid for droughts has averaged US$509 million per year over the last 10 years (excluding
+the cost of refugee operations for major camps on the border with Somalia), according to the
+Financial Tracking Service (FTS) at UNOCHA. Oxfam estimates that drought alone costs the country
+US$1.1 billion per year. By comparison, in 2011, Ethiopia‘s GDP was US$95 billion. In 2015-2016,
+Ethiopia experienced a severe drought that required the delivery of US$1.7 billion in food assistance
+to nearly 17 million people. This drought was concentrated in the crop-producing regions in the north
+and west, leading to a significant shortfall in food availability. Following the 2015-2016 El Niño
+drought, in January 2017, the United Nations appealed for an additional US$900 million to support
+roughly five million more people, this time with the most severe impacts felt in the pastoral regions of
+southern Ethiopia.
+According to the World Bank, the average annual recurrent drought expenditure between 1997/98 and
+2005/06 was roughly $696 million.
+In the rain-fed agricultural system of Ethiopia, the amount and temporal distribution of rainfall are
+generally the single most important determinants of internal fluctuations in national crop production
+levels. According to von Braun (1991), for instance, a 10% decrease in seasonal rainfall from the
+long-term average generally translates into a 4.4% decrease in the country‘s food production. In 2002,
+reductions in maize and sorghum production in drought-affected lowland areas were estimated
+between 70% and 100%. Some surplus-producing parts of the country were also adversely affected.
+The overall national food availability in the country was thus low. In coffee-producing areas, the
+country's main cash crop on which almost 15 million people depend, the harvest declined by 30% in
+2002/03 due to drought (Fews.net). Preliminary production assessment results indicated that total
+annual crop production in 2002 decreased by 21% compared to the five previous years (DPPC, 2002).
+1.3.2. Humanitarian and Social Impacts
+6
+De Jong, the World Bank (2005) in World Bank (2010) ―The economics of Adaptation to climate
+change in Ethiopia‖. The World Bank Group Washington anager (2010) 24:1441-1460 DOI
+10.1007/s11269-009-9508-0.
+14
+
+--- Page 15 ---
+Droughts directly undermine agricultural productivity, crippling crop yields and forcing pastoral and
+agro-pastoral communities to confront critical shortages of water and feed for their livestock. This
+leads to pervasive food insecurity and heightened poverty levels. The devastating loss of livestock,
+often the primary source of income and sustenance for pastoralists who constitute 12-15% of
+Ethiopia's population, directly impacts their ability to meet basic needs, in some cases resulting in
+malnutrition7. Recent estimates show an increasing number of people facing drought-related food
+insecurity, with some reports indicating as many as 20 million people in Ethiopia are experiencing
+food insecurity. Furthermore, the intensified competition for dwindling natural resources frequently
+ignites inter-communal conflicts, eroding social cohesion and stability within and among
+communities.
+The nutrition status of a country is also greatly affected by the occurrence of droughts. Back in 2014,
+Ethiopia ranked first in having the highest number of people in a state of undernourishment, with 32.1
+million people. The World Food Program found long-term effects of chronic malnutrition cost
+Ethiopia approximately 16.5 percent of its GDP each year. The number of food-insecure people in the
+country is increasing from time to time, estimated at 2.9 million in 2014, 4.5 million in August 2015,
+and by the end of the same year, this figure had more than doubled to 10.2 million food-insecure
+people8.
+Table 1-. Summary of people in need of assistance: 2010-2016
+Regions 2010 and 2010-2016 2015-
+2011 years Maximum sum mean 2016
+Tigray 499378 7 1239755 4102851 586122 942343
+Afar 149008 7 774463 1964488 280641 606841
+Amhara 768620 7 2298494 6384030 912004 1858215
+Oromia 1548262 7 3755347 12483451 1783350 3326495
+Somali 1386205 7 1562000 8503248 1214750 1528746
+Benishangul Gumuz 78942 7 125213 324912 46416 54108
+SNNP 715672 7 836850 3080019 440003 622390
+Gambella 42180 7 84360 321741 45963 50341
+DireDawa 29623 7 65903 290571 41510 61337
+Harari 4645 7 65510 133401 19057 23534
+7
+FAO, 2017. Drought response plan and priorities in 2017, Ethiopia
+8
+MoWR and UN-DESA 2009. Strengthening Water Sector Monitoring and Information System in
+Ethiopia GIRWI-Ethiopia Project report. (Global Initiative for Rationalizing Water Information and
+Monitoring). Ministry of Water Resources and United Nations Department of Economic and Social
+Affairs.
+15
+
+--- Page 16 ---
+Table 2 details the humanitarian impacts during notable drought years, providing a historical
+perspective on the severity and widespread consequences of these events.
+Table 2- Humanitarian Impact during notable drought years
+Year Impact Remark
+Interval/Years
+1990-1992 0.5 million people were affected in A severely dry spring in 1992 occurred causing
+the northern, eastern and southeastern extreme drought on the 12 months scale of SPI in
+Ethiopia. the southern and southeastern lowlands. In the
+southern lowlands, spring 1992 was the worst
+during 1972-2011, and in the southeastern lowlands
+the second most.
+(Viste et al, 2012,)
+1999-2000 During 1999–2000, Ethiopia was The years 1998, 1999 and 2000 were all dry in the
+brought to the edge of a major south, mainly due to dry spring seasons. The worst
+disaster, with some 10 million people drought in the Southern Lowlands occurred in
+estimated to be in need of food 1999–2000. Similarly, the combination of 1999 and
+assistance at the height of the crisis. A 2000 made this the driest period on the 24-month
+repeat of the catastrophic famine of timescale. The spring season in 1999 was dry in all
+1984–5 was avoided, but the numbers of Ethiopia in both years In the Northern,
+of people affected, the loss of life and Northeastern and Central Highlands the 1999 spring
+the destruction of livelihoods made was the driest during the record. The spatial
+this one of the most serious crises in anomaly pattern for 2000 is strikingly similar to that
+the H The label ‗famine averted‘ of 1999, with a dry spring followed by a wet
+seems to summarise the crisis to the summer in the north, this time with a wet fall season
+satisfaction of most parties involved everywhere, except in the southwest. (Viste et al,
+in of Africa in the past 15 years. 2012,)
+2002-2003 About 13 million people needed food Due to a dry spring followed by a dry summer, 2002
+assistance. became one of the driest years during 1972–2011. In
+the Southwestern Rain Forest, this was the driest
+In 2002, about 14.2 million people
+year, and in the Central Rift Valley, the Central
+(over 20% of the total population)
+Highlands (IX), and the Southern Highlands the
+were affected by drought (World
+second driest. After a dry spring in 2003, a wet
+Bank 2007).
+summer brought some relief, but 2003 was also
+drier than normal. In the Southwestern Rain Forest
+(VI) the drought was extreme at all timescales from
+3 to 24months, and at some timescales also in
+adjacent zones and in the Southern Highlands.
+16
+
+--- Page 17 ---
+At the 12-month scale, moderate to severe drought
+persisted in most of the highlands and the Central
+Rift Valley from June–July 2002 through July 2003.
+(Viste et al, 2012,)
+2008-2011 5.2 million people required The drought from 2008 up to 2011was characterized
+emergency food assistance in the by the repetition of dry spring seasons
+2009-2010 period
+Dry springs affect all of Ethiopia, causing the largest
+relative precipitation deficits in the south, where this
+is the main rainy season. Among the recent years, In
+the Southern Highlands 2009 twas the driest year in
+the record, and in the Northeastern Rift Valley and
+the Southern Rift Valley the second driest year. As
+shown in Figure 5, t
+The spring season was dry in both 2008 and 2009,
+with the exception of the westernmost part. In most
+of the country, at least one of these springs was
+among the three driest during 1972–2011.
+2009 was the only year during 1972–2011
+when drought occurred on the annual scale in
+all of Ethiopia, in most zones ranging from
+Moderate to severe. I
+The drought in the south continued with a dry
+spring in 2011 (Figure 5), and at the end of the
+record in May 2011 the drought in the Southern
+and Southeastern Lowlands was still severe on
+timescales of 12 and 24 months. In the Eastern
+Highlands, the 2011 spring was the driest
+during 1972–2011.
+(Viste et al, 2012)
+2015-2016 The drought affected nearly 10 The observed 2015 drought was an extremely rare
+million Ethiopians. event that is expected to happen in the central to
+The 2015 El Niño drought is one of north-eastern parts of Ethiopia only about once
+the strongest droughts that have been every few hundred years.
+recorded in Ethiopian history were
+more than 27 million people became
+food insecure and total population
+of 18.1 million people require food
+assistance in 2016.
+17
+
+--- Page 18 ---
+1.4. Drought Risk and Vulnerability in Ethiopia
+Almost all parts of Ethiopia have experienced some degree of drought over the past three thousand
+years, although the frequency, intensity, and duration vary from one region to another. The most
+drought-prone areas of Ethiopia have been the northern, north-eastern, and south-eastern parts of the
+country, including the eastern half and the southern parts (Comenetez and Caviedes, 2002;
+WoldeGiorgis et al., 2001; Wolde Mariam, 1986). These drought-prone areas are found entirely over
+the moisture-deficit semi-arid regions of the country. These areas are characterized by high variability
+of rainfall from year to year with a high coefficient of variability, and the length of the growing
+period is on average less than 3 months. Hence, the occurrence of a few weeks of dry spells or early
+cessation of rainfall can result in an agricultural drought. Thus, it is important to note that addressing
+drought vulnerability in Ethiopia should consider the semi-arid areas of the country as a whole. The
+semi-arid areas, when combined with the arid (not growing areas), make up the dryland areas of the
+country.
+Figure 2- Dry land areas of Ethiopia
+The dry land areas of Ethiopia have very wide and diversified agricultural environments and farming
+systems (MoA, 1998). The dry land areas cover eight of the 18 major agro-ecologies and have 20 sub-
+agro-ecologies, covering about 66.6% of the total landmass of the country. This includes arid, dry
+semi-arid, moist-semi-arid, and dry-sub humid zones.
+18
+
+--- Page 19 ---
+Previous attempts to identify drought-prone areas include the National Meteorological Agency's work
+using the decile method for the March to October season (NMSA, 1996). However, this approach
+only considered the severe form of drought (rainfall below the second decile) and did not account for
+moderate drought. Furthermore, the resolution was very low and cannot be used for decision support
+at the zone or woreda level, and the data is over thirty years old.
+Figure 3- Drought probability map of Ethiopia (NMSA, 1996)
+Another approach utilizes broad moisture regimes, where semi-arid moisture-deficient areas (Zone 4)
+are considered more drought-prone. Zones 2 and 3 generally have sufficient moisture for cereal and
+enset cultivation, respectively, while Zone 4 is prone to droughts. The arid lowlands in the east of the
+country (Zone 5) are referred to as no-growing areas (i.e., through rain-fed agricultural systems).
+19
+
+--- Page 20 ---
+Figure 4- Broad Moisture Zones of Ethiopia
+The Woreda Disaster Risk Profile developed by the Ethiopian Disaster Risk Management
+Commission also provides important qualitative information on drought vulnerability at the woreda
+level, based on hazard, vulnerability, and coping capacity indicators. However, for detailed drought
+planning, more quantitative information on the expected probability of drought occurrences for a
+given woreda is needed.
+A drought susceptibility map based on 1975-2007 information (NDRMC) shows woredas that
+reported drought in more than 50% of the years. These are largely found over the northeastern,
+northern, eastern, and southeastern parts of the country, including the southern lowlands, with a few
+isolated cases over the northwestern parts. A major challenge with this data is the constant change in
+woreda boundaries.
+20
+
+--- Page 21 ---
+Figure 5- Drought Susceptibility map of Ethiopia (NDRMC)
+The identification of drought-vulnerable areas during El Niño years is crucial for implementing
+necessary mitigation measures when an El Niño year is forecasted. Lessons from strong El Niño
+years, such as 2015, show that drought-affected areas can include regions not traditionally considered
+drought-prone.
+Figure 6- Hotspot Woredas during 2015 El Niño drought
+21
+
+--- Page 22 ---
+PSNP (Productive Safety Net Program) woredas are typically chronically drought-prone areas, often
+also characterized by land degradation. These woredas should be a major target for long-lasting
+solutions within the drought mitigation plan. Figure 13 clearly shows that all PSNP woredas are
+found over central and eastern Tigray, the eastern half of Amhara, the whole of Afar and most parts
+of Somali, eastern parts of SNNPR, and eastern and southern parts of Oromia, probably comprising
+more than 50% of the country.
+Figure 7- PSNP Woredas in Ethiopia
+1.5. Identification and GIS Mapping of Drought Vulnerable Areas
+To provide a more quantitative and up-to-date assessment of drought vulnerability, a GIS mapping
+approach was employed using robust meteorological data and a standardized methodology.
+1.5.1. Data
+The data utilized is the National Meteorological Agency's merged 10-daily satellite-gauge rainfall
+data for the period 1983 to 2014, covering 532 woredas/Districts. This high-resolution data (10km at
+ten daily grid databases) was a result of collaborative support from the International Research
+Institute (IRI) and the University of Reading. It greatly addresses the problem of uneven distribution
+of meteorological stations across the country and can be used to characterize observed recent climate
+variability and trends, as well as climate change signals for verification of climate change projections.
+This data is publicly accessible on the NMA website (www.ethiomet.gov.et).
+22
+
+--- Page 23 ---
+1.5.2. Methodology
+The methodology for mapping drought vulnerability involved a series of steps:
+Step 1: Normalized Seasonal Rainfall Anomaly Computation
+The Normalized Seasonal Rainfall Anomaly (NSRF Anom) was computed for each year using the
+formula: NSRF Anomyear i=Seasonal STD (Obs. Seas. Rfyear i−Mean Seas RF) Where:
+ NSRF Anomyear i refers to the computed value of the Normalized Seasonal Rainfall
+Anomaly for a given year.
+ Obs. Seas. Rfyear i for year i refers to the observed seasonal rainfall for the given year.
+ Mean Seasonal RF refers to the computed value of the mean seasonal rainfall.
+ Seasonal STD refers to the computed value of the standard deviation of the seasonal rainfall.
+The rainfall seasonal classification used aligns with NMSA (1996), consisting of:
+ Belg Season: February to May
+ Kiremt Season: June to September
+ Bega Season: October to January
+The interpretation of NSRF values for identifying drought years was undertaken using the thresholds
+provided in Table 3. It's crucial to consider the moisture regime of a given area during map
+interpretation, as normalized rainfall anomaly is a simpler indicator for identifying drought years,
+especially with data durations of thirty years.
+Table 3- Humanitarian Impact during notable drought years
+NSRF value Interpretation Remark
+Greater than 2 Very Wet year Normalized rainfall anomaly is the
+Greater than 1 and less than 2 Wet year simplest indicator that can be used
+to identify years of droughts by
+Greater than -0.5 and less than 1 Close to Normal
+different researchers, especially
+with adata duration of thirty years.
+Less than -0.5 and greater than -1 Mild Drought
+How-ever during interpretation of
+the maps, it is important to take
+Less than -1 and greater than - 1.5 Moderate drought
+into account the moisture Regime
+of a given area.
+Less than -1.5 and greater than -2 Severe Drought
+Less than -2 Very Severe drought
+Step 2: Identification of Drought Years
+Based on the thresholds in Table 11, each year was identified as a drought year for a given season.
+This was performed for all years in the 1983-2014 periods across all 532 woredas.
+Step 3: Counting Drought Years
+The number of drought years was counted for each woreda and season. For example, using a
+threshold of -1.5 identified all severe drought years.
+23
+
+--- Page 24 ---
+Step 4: Computation of Drought Probability
+The probability of drought occurrence (in percentage) was calculated using the formula:
+Probability in %=(Nd/32) x100, where Nd refers to the number of counted drought years, and 32
+represents the total number of years in the analysis period (1983-2014).
+Step 5: Mapping Drought Vulnerability Levels
+The computed probabilities were mapped to identify different levels of drought vulnerability across
+various administrative areas.
+1.6. Drought Risk Areas in Various Administrative Areas
+The GIS mapping yielded valuable insights into drought risk across Ethiopia, considering different
+drought severities.
+1.6.1. Scenario 1: Drought Vulnerability Assessment Including Mild Drought
+The computation of drought probability using a standardized rainfall anomaly of -0.5 as a threshold
+(indicating mild drought occurrences) for the major rainfall seasons revealed that most parts of the
+country have a probability of experiencing mild agricultural drought at a probability of 30% to 50%.
+Figure 8- Drought Frequency map of Kiremt
+24
+
+--- Page 25 ---
+Figure 9- Drought Frequency map of Belg
+1.6.2. Scenario 2: Drought Vulnerability Assessment Including Severe Drought
+Understanding the probability of severe drought is critical for developing effective drought
+management strategies. This section details the findings from our vulnerability assessment, focusing
+on severe drought occurrences in both the Kiremt (main rainy season) and Belg (short rainy season)
+seasons, based on a standardized rainfall anomaly threshold of -1.
+Kiremt Season Severe Drought Probability
+During the Kiremt season, hotspot areas characterized by a recurrent severe drought probability of
+20% to 30% (meaning once in five years to once in three years) include:
+ Northwestern and southeastern parts of Tigray, with a few isolated spots in the northeast.
+ Eastern and western parts of Amhara.
+ Isolated areas over northwestern, southwestern, and eastern Oromia.
+ Northern parts of the previous SNNPR (Southern Nations, Nationalities, and Peoples'
+Region).
+ Northern parts of Somali.
+Major Finding: While most parts of the country can expect one severe drought year out of every five
+to ten years during the Kiremt season, a few specific locations face this severe impact more
+frequently—once every three to five years.
+25
+
+--- Page 26 ---
+Figure 10- Severe drought probability map during Kiremt season
+Belg Season Severe Drought Probability
+For the Belg season, hotspot areas experiencing recurrent severe droughts are predominantly located
+in:
+ Southern parts of Oromia.
+ Southern parts of SNNPR, particularly agro-pastoral areas highly susceptible to livelihood
+loss.
+ A few isolated spots across other regions, including parts of Benishangul-Gumuz and
+neighboring areas of Amhara, southern Afar, and northeastern Oromia.
+A comprehensive list of these woredas will be provided in an annex.
+Major Finding: Most parts of the country experience severe drought in the Belg season once every
+five to ten years. However, the identified hotspot areas in southern Oromia, southern SNNPR, parts of
+Benishangul, neighboring Amhara, southern Afar, and northeastern Oromia experience severe
+drought more frequently, typically once every three to five years.
+26
+
+--- Page 27 ---
+Figure 11- Severe drought probability map in the Belg season
+The vulnerability mapping, considering both mild and severe drought scenarios, highlights distinct
+patterns across Ethiopia. While mild drought is becoming more regular over most parts of the country
+(expected every two to three years, as shown in Figures 11 and 12 in the previous section),
+necessitating consistent moisture conservation and management practices, the occurrence of severe
+droughts is prevalent in a three-to-five-year cycle for many areas. This more frequent severe drought
+occurrence may be interrelated with ENSO (El Niño-Southern Oscillation) phenomena.
+Furthermore, although the Belg season generally exhibits greater rainfall instability across much of
+the country, the hotspot areas requiring focused attention for severe drought are more clearly defined
+during this season. These particularly vulnerable regions are predominantly found in the agro-pastoral
+areas, underscoring the urgent need for targeted interventions and robust drought management
+strategies in these critical zones.
+27
+
+--- Page 28 ---
+2. Ethiopia’s National Drought Resilience Plan and its Importance
+2.1. Background
+The Government of Ethiopia has enacted different policies and strategies and has been implementing
+different initiatives to mitigate off and adapt to the impacts of climate change. Cognizant of the
+increasing challenges of droughts at national and global level, the Government has prepared a
+comprehensive National Drought Resilience Plan/NDRP which will serve as an integrated framework
+guiding planning and implementation of interventions to mitigate off and adapt to droughts in the
+country. Given Ethiopia's profound vulnerability to recurrent droughts9 and its devastating impacts on
+the natural resources, ecosystem services, land production and productivity, food security, community
+well-being and overall economic growth, the development and implementation of this National
+Drought Plan (NDP) represents a pivotal shift for the country, transitioning the nation from a reactive
+stance of crisis management to a proactive approach focused on building long-term drought
+resilience. The NDRP outlines multi-sectoral interventions with a focus on promoting Nature-based
+Solutions to build ecosystem and community resilience to drought and build capacities and
+capabilities at strategic and operational levels. It represents Ethiopia's unwavering commitment to
+safeguarding its most vulnerable communities, preserving its vital ecosystems, and steering the nation
+towards a more secure, prosperous, and climate-resilient future.
+The core element of the national drought resilience plan is to assert that if droughts happen, they
+should not lead to displacement and eventually to famine. By identifying key stakeholders and
+establishing a predictable and multi-sectoral response mechanism, the NDRP will serve as
+instrumental in enhancing national coordination and fostering collaboration among a diverse array of
+stakeholders such as Ministry of Finance, Ministry of Agriculture, Ministry of Water and Energy,
+Ethiopian Forestry Development and Disaster Risk Reduction Commission along with their regional
+counter parts and other key actors including multilateral development partners, CBOs and private
+sector, to provide collective, efficient, and impactful actions that will help the GoE to prevent
+catastrophic outcomes of droughts. Such proactive interventions will help to save lives and protect
+livelihoods that are perpetually at risk.
+While facilitating relief during and post drought risks, the NDRP is designed to guide building long-
+term resilience of communities through sustainable management of ecosystems and ecosystem
+services and goods. Through the strategic integration of nature-based solutions, particularly
+sustainable forestry and land management practices, and by supporting the diversification of
+community livelihoods, the plan not only mitigates the immediate impacts of drought but also
+fundamentally strengthens the adaptive capacity of both populations and their environments. Such an
+integrated approach ensures communities are better equipped to withstand future climatic shocks. The
+also demonstrates that the NDRP is strongly linked with the major interventions in the National
+Determined Contribution and the Lon-Term Low Emission Economy strategy of the country, both of
+which identify sustainable forest resources management as major area of intervention to achieve the
+ambitious climate change mitigation and adaptation targets.
+Further, the paramount importance of this strategy lies in its commitment to mainstreaming drought
+risk management into sectoral plans and aligning with other key policies and strategies. It ensures that
+drought preparedness and response are not isolated endeavors but are deeply integrated into other
+national development plans and sectoral programs. This comprehensive approach fosters sustainable
+development and promotes environmental health across all sectors of national planning, embedding
+resilience as a core principle in Ethiopia's journey towards a more secure and prosperous future. The
+9 UNDRR (2021). Drought Special Report 2021. United Nations Office for Disaster Risk Reduction.
+28
+
+--- Page 29 ---
+plan also considers the importance of mobilizing additional resources to strengthen efforts to manage
+droughts risks. The strategy is hence designed to enable Ethiopia to prepare bankable proposals to
+mobilize funding from different sources including from the Riyadh Drought Resilience Partnership.
+These resources are critical for financing robust mitigation efforts such as planning and implementing
+nature-based solutions to build ecosystem resilience and providing necessary relief and recovery
+assistance to vulnerable communities.
+2.2. Purpose, goal and objectives of the National Drought Resilience Plan
+2.1.1. Purpose
+The National Drought Resilience Plan for Ethiopia is designed to fundamentally change how the
+nation confronts and manages the increasing threat of drought. This comprehensive strategy moves
+beyond traditional emergency response, establishing a robust framework for long-term resilience and
+sustainable development. The primary purpose of the National Drought Resilience Plan is to develop
+and implement a master drought management and resilience strategy for Ethiopia through multi-
+sectoral coordination. As mentioned in different section of this strategy, Ethiopia faces significant
+challenges from prolonged and widespread drought, exacerbated by climate change, population
+growth, and ongoing conflicts, all of which intensify existing vulnerabilities. In response, the NDRP
+aims to integrate nature-based strategies into a broader framework for drought mitigation and
+adaptation, while also considering other interventions to be done before, during and after drought
+incidents. By enhancing integrated restoration of degraded landscapes and ecosystem services, by
+integrating trees on farm and rangelands and developing innovative value chains, by promoting
+sustainable management of land and natural resources including forest resources of the country, the
+NDRP seeks to improve resilience against drought, safeguard vital ecosystems, and support local
+livelihoods, with a focus on most affected communities and areas. The plan encourages proactive
+measures through effective risk assessment and early warning systems, empowering communities to
+better prepare for and respond to drought conditions.
+The NDRP also emphasizes the critical interconnection between forestry and water resources
+management and agricultural practices. Scaling up and scaling out of best practices of the Green
+Legacy Initiative which include afforestation and reforestation, agroforestry, assisted natural
+regeneration, farmers managed natural regeneration and integrating soil and water conservation
+structures, can significantly enhance water availability and soil health, thereby enhancing mitigating
+the impacts of drought. The NDRP will also help strengthen food security and reduce dependency on
+external aid by promoting climate-resilient agricultural practices alongside forest development.
+Particularly, integrating fast growing trees, fruits and fodder species, not only help to diversify
+livelihoods of drought prone areas, but also help to improve ecosystem services and microclimate.
+The plan more than anything will promote an integrated approach that fosters collaboration among
+government agencies, local communities, and development partners, ensuring that forestry initiatives
+align with national and international planning efforts. Furthermore, the plan supports private sector
+engagement essential in drought response. Private sector engagement to contribute to drought
+management can be initiated in areas of businesses development in sustainable forestry practices and
+in investing in eco-friendly technologies including in acquiring, analyzing and disseminating climate
+information. The NDRP also helps to scale up best practices related to innovative financing
+mechanisms, necessary for timely drought response and recovery efforts, while tailored insurance
+schemes for forestry and agriculture provide a crucial safety net for communities, reducing their
+vulnerability to climate-induced shocks.
+29
+
+--- Page 30 ---
+Finally, through this comprehensive plan Ethiopian Forestry Development with a mandate from
+parliament and lead institution under the UNCCD framework be able to bring together key
+stakeholders including Ethiopian Disaster Risk Reduction Commission, line ministries and
+development partners to strengthen negotiations, partnership and mobilize additional resources to
+implement effective drought management projects and programs, ultimately enhancing long-term
+resilience for affected communities.
+2.2.1. Goal and Objectives of the National Drought Resilience Plan
+The overarching goal of Ethiopia‘s National Drought Plan is to enhance resilience and adaptive
+capacity among drought-affected communities. It seeks to establish a framework for a quality and
+predictable multi-sectoral response to drought occurrences across the nation, ensuring coordinated
+efforts that significantly expedite the mitigation, and recovery of communities impacted by drought.
+A core principle of the NDRP is that droughts need to be mitigated, and if it happens, it should be
+managed not harm natural resources and infrastructures, at least significantly, and ultimately
+safeguard food security and promoting sustainable development in the country. Specific objectives
+include:
+ Scaling-Up Nature Based Solutions & Tree-Based Land Restoration and Natural Resources
+Management: This strategy enables the country to effectively reduce vulnerability and promote
+sustainable natural resources development; a primary objective is to scale up tree-based nature-
+based solutions through the Green Legacy Initiative. This entails the extensive implementation of
+eco-friendly practices, including integrated tree-based landscape restoration, sustainable land and
+forest participatory forest management and conservation. Hence, by adopting tree-based forest
+landscape restoration practices, communities can revitalize degraded ecosystems, enhancing their
+resilience against the adverse effects of climate change and improving their overall capacity to
+withstand drought.
+ Strengthening Early Warning, Climate Monitoring, and Capacity Development: To
+strengthen existing Early Warning Systems (EWS) to address their current limitations with
+respect to climate information dissemination to alert the community. This involves proactive
+monitoring of climate and environmental data, ensuring timely dissemination of drought-related
+information to all stakeholders. Key steps include investing in robust data collection
+infrastructure, such as weather stations, hydrological sensors, and satellite imagery systems, to
+gather accurate real-time data necessary for developing sophisticated predictive models.
+Additionally, enhancing governance and knowledge management systems will support effective
+decision-making and community preparedness at federal and regional levels.
+ Policy Alignment, Drought Mainstreaming, and Enforcement: -Aligning land policy and
+legislation with national drought resilience plans which is essential to facilitate sustainable land
+use and resource management. Effective land use planning is crucial for sustainable investment
+and development, particularly in the context of Ethiopia's drought resilience. Aligning land policy
+and legislation with national drought resilience plans facilitates sustainable land use and resource
+management. Given the country's vulnerability to recurrent droughts, it is vital that land policies
+promote practices that enhance specific land use for different sectoral development including
+agriculture, forestry, settlement and urban areas. These efforts ultimately improve agricultural
+productivity and community resilience. Moreover, they support sustainable land and natural
+resource management, which is essential for conserving forest resources that are critical for
+biodiversity, climate regulation, and livelihoods. This includes promoting sustainable land and
+30
+
+--- Page 31 ---
+natural resource management to conserve forest resources, critical for biodiversity, climate
+regulation, and livelihoods.
+ Promoting Climate-Smart Agriculture: Promoting climate-smart agriculture is vital for
+enhancing productivity and livelihoods of the pastoral community, as the lowland community are
+reliant on agriculture and pastoralism. Addressing the degradation of farmlands and rangelands
+due to unsustainable practices and climate change is crucial. Promoting climate-smart agriculture
+is a vital solution for mitigating the impacts of climate change and building resilience against
+drought. By implementing practices that enhance soil health, improve water efficiency, and
+diversify crops, communities can adapt to changing weather patterns while ensuring food
+security. Climate-smart agriculture not only reduces greenhouse gas emissions but also increases
+agricultural productivity and sustainability. As farmers adopt these innovative techniques, they
+can better withstand the adverse effects of drought, ultimately fostering stronger, more resilient
+livelihoods and ecosystems. This holistic approach contributes to long-term sustainability and
+supports efforts to combat climate change at both local and global levels.
+ Promoting Sustainable Water Resources Management: Developing effective surface and
+groundwater management strategies is essential for mitigating the impacts of drought and
+building resilience in affected communities. As climate change intensifies the frequency and
+severity of droughts, sustainable water management practices become critical. By optimizing the
+use of available water resources, enhancing water conservation techniques, and implementing
+integrated watershed management, we can ensure a reliable supply of water for agriculture,
+drinking, and ecosystem health. Moreover, investing in infrastructure to capture and store
+rainwater, along with promoting community awareness and participation, can significantly reduce
+vulnerability to water scarcity. Ultimately, a proactive approach to water development and
+management not only safeguards against drought but also supports long-term economic stability
+and environmental sustainability.
+ Sustainable Development of Alternative Rural Energy: As climate change exacerbates
+vulnerabilities, promoting sustainable alternative rural energy sources is prioritized within
+Ethiopia's drought resilience plan. This initiative aims to enhance both resilience and economic
+development for pastoral and rural communities. Utilizing alternative rural energy sources,
+particularly through biogas technologies and rural electrification, significantly reduces reliance on
+traditional biomass energy, thereby enhancing the sustainability and resilience of pastoral
+communities facing drought impacts. By harnessing organic waste for biogas production, these
+communities can generate clean, renewable energy for cooking, lighting, and other essential
+needs, decreasing pressure on local forests and reducing deforestation.
+ Research and Innovation for Promotion of Sustainable and Multi-Sectoral Livelihood
+Diversification Options: Implementing sustainable and multi-sectoral livelihood diversification
+options is essential for enhancing the resilience of pastoral communities. This includes
+developing alternative rural energy sources and promoting practices that integrate environmental
+sustainability with economic viability, thereby supporting long-term sustainable development.
+Diversifying livelihood options across forestry, agriculture, energy, and water-based sectors is
+crucial for ensuring sustainable drought mitigation and resilience in pastoral communities. By
+integrating various income sources, such as agroforestry, sustainable agriculture practices, and
+renewable energy initiatives, these communities can reduce their vulnerability to climate
+variability and economic shocks.
+31
+
+--- Page 32 ---
+2.2.2. Scope of the National Drought Resilience Plan
+The National Drought Resilience Plan is a comprehensive and forward-looking strategy designed to
+fundamentally enhance Ethiopia's resilience to recurrent drought conditions. Its scope is deliberately
+made broad, encompassing a multi-sectoral approach that aligns strategically with the Riyadh
+Drought Resilience Partnership Plan and Ethiopia's climate policies and strategies and that of the
+overarching national development agendas. Under the leadership of the Ethiopian Forestry
+Development, designated as the focal institution for the United Nations Convention to Combat
+Desertification, the NDRP will guide coordinated efforts across key governmental bodies including
+Ministry of Finance, Ministry of Agriculture, Irrigation and lowland areas, Ministry of Water and
+Energy, Disaster Risk Reduction Commission and development partners. This integrated framework
+ensures that all relevant sectors contribute to a centralized national response. Geographically, major
+interventions of the plan will target drought-prone areas across Ethiopia, prioritizing areas identified
+as most vulnerable to climate shocks and food insecurity. The NDRP sets an ambitious
+implementation timeline from 2025 to 2035, allowing for sustained efforts in building long-term
+resilience, fostering sustainable development, and ensuring environmental protection.
+Key operational scope of the plan extends to several critical areas:
+ Early Warning Systems and Proactive Response: A core component of the NDP's scope is the
+establishment/strengthening of a robust, technologically advanced early warning system. This
+system will ensure timely and accurate information dissemination, enabling stakeholders at all
+levels, from national to local, to respond proactively and effectively to emerging drought threats.
+ Capacity Building and Community Empowerment: The plan places significant emphasis on
+empowering local communities, institutions and stakeholders. This will be achieved through
+targeted training programs designed to equip farmers and pastoral communities, regional and
+local administration, and others with essential knowledge and skills in climate responses,
+sustainable land and natural resources management, and climate-smart agricultural practices. This
+grassroots approach aims to foster a culture of resilience, strengthen local economies, and
+promote environmental stewardship. In addition to improving human resources, the capacity
+building effort will include improving the hardware aspects of drought management, improving
+infrastructure that advance access to climate information and mobility.
+ Scaling up and scaling out best practices of Nature based Solutions: In this case, Nature-
+based Solutions are a critical set of interventions implemented to manage drought. Such
+interventions leverage natural processes to address societal challenges effectively and adaptively,
+before, during and after drought incidents. For a highly vulnerable country such as Ethiopia, NBS
+offers sustainable and often cost-effective alternatives or complements to other development
+initiatives. Specific practices include afforestation, reforestation, forest and biodiversity
+conservation, management of invasive species, soil and water conservation practices and
+developing value chain development for selected nature-based products. Interventions also
+include domestication of drought resistant species and farming practices.
+ Innovative Water Resources Agricultural Practices: This involves the widespread promotion
+of effective management of water bodies, ground water recharge, rainwater harvesting, expansion
+of efficient irrigation systems, use of drought-resistant crops, improving land management and
+soil health through agro-forestry practices and introducing robust rangeland and livestock
+management system. By leveraging the diverse expertise across ministries, the plan will create
+synergistic projects to maximize resource efficiency and minimize vulnerabilities in food and
+water security.
+32
+
+--- Page 33 ---
+ Monitoring, Evaluation, and Adaptive Management: Integral to the effective implementation
+of the NDP is a rigorous monitoring and evaluation framework. This includes establishing clear
+indicators and performance metrics for regular assessments of progress, identification of
+challenges, and continuous learning. This adaptive management approach ensures that strategies
+remain relevant, effective, and responsive to evolving climatic conditions and on-the-ground
+realities.
+3. Ten-Step Process of Drought Management Strategy and Action Plan
+Development
+Drought does not affect all economic sectors in the same way. Therefore, this Plan is designed to
+recognize and respond to the differences in water supply availability and drought vulnerability for
+each sector and geographic area in Ethiopia. In light of this objective, the NDP contains a stepwise
+approach in drought plan that can be employed to mitigate the impacts of drought as well as response
+options that can be employed under increasing drought conditions. In developing the NDP, the ten-
+steps process is often used in drought plan preparation. The steps range from designating a national
+drought plan task force to setting a detailed set of procedures for plan evaluation and refinement. The
+ten-steps for drought plan preparation include:
+Step 1- Appoint a drought task force: a key political leader appoints a multidisciplinary drought
+task force to supervise and coordinate development of the plan.
+Step 2: State the purpose and objectives of the drought plan: The drought task force will state the
+general purpose and specific objectives for the drought plan. Objectives should reflect the unique
+characteristics of the country.
+Step 3: Seek stakeholder participation and resolve conflict: Task force members should identify all
+groups that have a stake in drought planning and understand their interests.
+Step 4- Inventory resources and identify groups at risk: An inventory of natural, biological, and
+human resources and their vulnerability to drought is undertaken; constraints to the planning process
+are identified.
+Step 5- Establish and write drought plan: The drought plan has three primary components: (I)
+monitoring, early warning, and prediction; (2) risk and impact assessment; and (3) mitigation and
+response.
+Step 6- Identify research needs and fill institutional gaps: The drought task force should compile a
+list of research needs and gaps in institutional responsibility and make recommendations on how to
+remedy them.
+Step 7- Integrate science and policy: Scientists may not be familiar with policy constraints and
+policy makers may not understand scientific and technical issues associated with drought.
+Communication and understanding between scientists and policy makers must be enhanced.
+Step 8- Publicize the drought plan-build public awareness and consensus: During drought, the
+task force should keep the public informed of the status of water supplies, conditions that might lead
+to requests for water use restrictions, and ways to access drought assistance.
+Step 9- Develop education programs: The task force should create an education program to raise
+awareness of short- and long-term water supply issues.
+Step 10- Evaluate and revise drought plan: Periodic testing, evaluation, and updating of the drought
+plan will keep the plan responsive to local, state, provincial, or national needs.
+The NDP of Ethiopia started from review of plans and policies related to drought followed by a brief
+33
+
+--- Page 34 ---
+account of drought in Ethiopia. It assessed responsibilities of sector institutions with regard to
+drought/ disaster, drought monitoring schemes, drought risks, and communication and mitigation
+measures. A description of the severity and vulnerability of drought conditions in different regions of
+the country and recommended response measures during the onset of future droughts is highlighted.
+4. Alignment of the National Drought Resilience Plan with other
+Policies and Strategies
+Ethiopia's National Drought Resilience Plan is strongly aligned with existing national development
+agendas and international commitments, fostering a cohesive and synergistic approach to build
+drought resilience. Despite Ethiopia has historically grappled with the pervasive impacts of drought,
+where some of them resulted in widespread food insecurity, economic hardship and some even to
+famine; and such loss of livelihoods often forces communities to exploit remaining natural resources,
+accelerating land degradation, deforestation and diminishing ecosystem resilience, thereby
+perpetuating a vicious cycle of vulnerability. There has been limitation in enacting specific drought
+strategy strongly alignment with other polices and strategies of the nation. If existed, previous
+drought mitigation strategies primarily focused on water and irrigation, weakly aligned with other
+sectoral policies, which in turn undermines multisectoral approach to effectively combat climate
+change-related challenges. Emphasis hence has been given to strongly align the NDRP with other
+national and global policies and strategies.
+Nationally, the NDRP is strongly aligned with the Nationally Determined Contribution (NDC) of the
+country. Ethiopia‘s updated NDC outlines the country's commitment to global climate action,
+integrating both mitigation and adaptation targets within its national development aspirations, notably
+its 10-Year Development Plan. Similarly, the NDRP strongly aligned with Long-Term Low Emission
+strategy which aims to build a carbon neutral economy by 2050. This strategy also emphasizes
+implementing different mitigation and adaptation strategies well aligned to the interventions
+mentioned in the NDRP, meaning the NDRP will significantly contribute to the achievement of
+ambitious targets set in the LT-LEDS. Further, the scope of the NDRP is well aligned with the
+policies and strategies of the forestry, agriculture, water and energy sectors. Existing policies and
+strategies in the agriculture, water and forest sectors not only are strongly aligned with the NDRP but
+also benefit from the specific interventions prioritized by the NDRP.
+The NDRP is also strongly aligned with development initiatives like the Green Legacy Initiative and
+the REED+ Investment Program, the Sustainable Land Management Program and more. The different
+interventions in the NDRP directly contribute to achieving the ambitious Green Legacy Initiative
+whose main objective is to restore degraded landscapes and sustainably manage natural resources and
+thereby improve food security and build a green economy. By contributing to sustainable water and
+energy management, the NDRP will also contribute to initiatives on sustainable water management
+and secure energy supply.
+Beyond national policies and strategies, the NDRP is also strongly aligned with global frameworks
+for climate action, sustainable natural resources management and sustainable development,
+demonstrating Ethiopia's commitment to international cooperation in addressing shared
+environmental challenges. For instance, the NDRP is strongly aligned with the United Nations
+Convention to Combat Desertification‘s effort to combat desertification, land degradation, and
+drought. Such alignment enables Ethiopia to actively participate in international dialogues, leverage
+global expertise, and benefit from the Riyadh Drought Resilience Partnership and similar other
+initiatives. Similarly, the NDRP's strong emphasis on nature-based solutions and climate-smart
+34
+
+--- Page 35 ---
+agricultural practices directly contributes to the Nationally Determined Contributions (NDCs) under
+the Paris Agreement. Further, the NDRP‘s objectives of restoring ecosystems are linked to the
+different goals of the Sustainable Development Goals, like SDG 1 (No Poverty), SDG 6 (Clean Water
+and Sanitation), SDG 13 (Climate Action) and SDG 15 (Life on Land). It is also important to note
+that the NDRP is strongly aligned with the recently enacted Green Legacy Initiative and Degraded
+Landscape Restoration Special Fund. The Proclamation that established the Special Fund seeks to
+mobilize additional financial resources to scale up and scale out best NbS to address environmental
+and socio-economic challenges in the country.
+4.1. Gaps in Existing Drought Mitigation Strategies and Suggested Improvements
+4.1.1. Gaps
+Despite a long history of grappling with drought, Ethiopia's existing drought management approaches
+face significant challenges, gaps, and problems that hinder their effectiveness in building long-term
+resilience and mitigating the multifaceted impacts of climate change. While efforts have been made,
+particularly in addressing immediate humanitarian needs, a more holistic and integrated approach is
+critically needed. Below are some of the gaps that undermine the effectiveness of existing drought
+mitigation and management practices:
+1. Sectoral Silos and Lack of Integrated Approach
+ Predominant Focus on Water and Agriculture: As highlighted in various assessments,
+existing strategies have as such primarily focused on addressing water and irrigation issues,
+leaving significant gaps in other critical sectors. While these areas are crucial, however, such
+narrow focus overlooks the interconnectedness of drought impacts across various sectors.
+ Weak Cross-Sectoral Linkages: Drought's negative effects on energy which triggers land and
+forest degradation due to wood fuel harvest, health issues due to malnutrition, disease
+outbreaks from water scarcity, and socio-economic issues such as loss of livelihoods, forced
+migration and the like are often addressed in isolation or reactively.
+ Limited Mainstreaming of Climate Change: Despite the Climate Resilient Green Economy
+(CRGE) strategy of Ethiopia strongly suggested integration of climate change into national
+and sectoral plan, its full mainstreaming into all sector-specific drought plans and daily
+operational activities remains a challenge. There is a tendency to see drought as a separate
+crisis rather than an exacerbated symptom of climate change requiring fundamental shifts in
+development planning.
+2. Reactive vs. Proactive Responses
+ Emphasis on Emergency Response: Ethiopia's drought management has historically been
+characterized by a reactive approach, heavily reliant on humanitarian aid and emergency
+interventions. While such an approach has its own benefits, it however fails to address the
+root causes of vulnerability and build long-term resilience. Efforts would have focused on
+among others, enhancing ecosystem resilience, sustainable management of forests,
+biodiversity, minimization of deforestation, soil erosion and enhancement of trees on
+landscapes, climate smart agricultural practices, etc.
+ Insufficient Investment in Prevention and Preparedness: Despite the improvements, there is
+still a serious gap in proactive measures such as widespread adoption of drought-resistant
+agricultural and natural resources management practices including water harvesting and
+35
+
+--- Page 36 ---
+storage solutions, diversified livelihoods, and robust early warning systems that effectively
+trigger early action.
+ Limited Long-Term Development Integration: The transition from emergency relief to long-
+term development is often a challenge, where communities may be hit by recurring droughts
+before they can fully recover and build resilience from the previous one, creating a vicious
+cycle of dependency.
+3. Weak Early Warning Systems and Information Flow
+ Inadequate Linkage of Early Warning to Early Action: While Ethiopia has recognized the
+need for early warning systems, there are often weaknesses in the translation of early warning
+information into timely and effective early actions at local levels. This can be due to
+institutional inefficiencies, lack of capacity, or insufficient resources.
+ Gaps in Data Collection and Dissemination: There can be limitations in the collection of real-
+time, comprehensive, and disaggregated data on drought impacts across all sectors.
+Furthermore, effective mechanisms for disseminating this information to vulnerable
+communities in an accessible and actionable format may be lacking.
+ Limited Integration of Traditional Knowledge: Traditional weather forecasting methods and
+indigenous knowledge systems, which have historically played a role in community-level
+adaptation, are not always systematically integrated with modern technologies for more
+accurate and localized predictions.
+4. Institutional and Governance Challenges
+ Coordination Gaps: While the Ethiopian Forestry Development (EFD) under the Ministry of
+Agriculture coordinates some efforts, effective inter-ministerial and inter-agency coordination
+for a truly multisectoral drought response remains a challenge. There can be overlaps in
+mandates, insufficient communication, and a lack of unified strategic direction.
+ Capacity Deficiencies: Limitations in human and institutional capacity, particularly at
+regional and local government levels, hinder the effective planning, implementation, and
+monitoring of drought resilience measures. This includes technical expertise in areas like
+climate modeling, sustainable land management, and financial risk management.
+ Inadequate Funding and Finance Mechanisms: Reliance on external aid for drought response,
+and limited domestic investment in drought mitigation and adaptation, leaves the country
+vulnerable. There's a gap in robust drought finance mechanisms and insurance options that
+empower communities to better withstand future shocks.
+5. Community-Level Vulnerabilities and Adaptive Capacity
+ Limited Access to Resources and Services: Vulnerable communities, particularly pastoralists
+and agro-pastoralists in lowland areas, often have limited access to basic services (water,
+health, education), financial resources, and diversified livelihood options, making them
+highly susceptible to drought impacts.
+ Environmental Degradation: Practices like overgrazing and deforestation, often exacerbated
+by drought and population pressure, contribute to land degradation, further diminishing the
+resilience of ecosystems and the communities dependent on them.
+ Gender-Specific Impacts and Response Gaps: Women and children disproportionately bear
+the brunt of drought impacts (e.g., increased burden of water collection, higher susceptibility
+to malnutrition and disease, increased risk of child marriage and school dropout). Existing
+36
+
+--- Page 37 ---
+plans may not fully address these gendered vulnerabilities and integrate gender-responsive
+interventions.
+4.1.2. Strengthening Ethiopia's Drought Resilience Plan
+To effectively combat these above-mentioned multifaceted challenges, a multisectoral drought
+mitigation strategy is essential. The revised National Drought Resilience Plan encompasses a range of
+improvements that ensure a truly resilient future. The following strategies are recommended to make
+improvements to address gaps in the existing Plan:
+1. Embrace a Holistic, Multisectoral, and Integrated Approach
+ Develop a National Drought Management Framework: Move beyond sector-specific
+plans to a unified national framework that clearly outlines roles, responsibilities, and
+coordination mechanisms across all relevant ministries (Agriculture, Water, Health, Forestry,
+Environment, Finance), regional states, and local administrations.
+ Integrate Drought into National Development Plans: Ensure that drought resilience is not
+an add-on but a core component of all national development strategies, poverty reduction
+programs, and sectorial plans.
+ Prioritize Nature-Based Solutions: Elevate the role of tree-based landscape restoration,
+agroforestry, sustainable land management, and watershed management as foundational
+elements that provide co-benefits for climate change mitigation, biodiversity conservation,
+and enhanced ecosystem resilience. Scaling up and scaling out best practices of the Green
+Legacy Initiative can serve as entry point.
+ Promote Wis Water Development: Implement strategies that balance water withdrawals
+and available supply, improve water use efficiency (especially in irrigation), and build water
+resilience through improved storage and transportation infrastructure, water trading, and
+crisis response mechanisms.
+2. Shift from Reactive to Proactive and Risk-based Management
+ Strengthen Early Warning to Early Action: Invest in robust, multi-hazard early warning
+systems that integrate meteorological, hydrological, agricultural, and socio-economic
+indicators. Crucially, establish clear thresholds and protocols for triggering timely and
+appropriate early actions (e.g., pre-emptive livestock destocking, provision of supplementary
+feed, early distribution of drought-resistant seeds, cash transfers).
+ Conduct Comprehensive Vulnerability and Risk Assessments: Systematically identify
+and map drought hotspots, vulnerable populations, and critical sectors at risk. These
+assessments should be regularly updated and inform targeted interventions.
+ Invest in Drought Preparedness Measures: Scale up investments in community-based
+preparedness plans, contingency funding mechanisms, and pre-arranged financing for drought
+response.
+ Diversify Livelihoods: Support communities in diversifying their livelihood strategies
+beyond rain-fed agriculture and traditional pastoralism, promoting climate-smart agriculture,
+small-scale irrigation, and off-farm income-generating activities.
+3. Enhance Institutional Capacity and Governance
+37
+
+--- Page 38 ---
+ Strengthen Coordination Mechanisms: Ethiopian Forestry Development need to coordinate
+key stakeholders and establish a high-level, inter-ministerial coordination body with clear
+authority and resources to oversee the implementation of the National Drought Plan. Foster
+effective vertical and horizontal coordination among federal, regional, and local levels.
+ Build Technical and Human Capacity: Invest in training and capacity building for staffs
+working at strategic and operational levels. The areas of training include drought risk
+management, early warning, climate-smart agriculture, water resource management, and
+natural resource management.
+ Improve Data Management and Information Sharing: Develop a centralized, accessible,
+and user-friendly platform for collecting, analyzing, and disseminating drought-related data
+and information across all stakeholders. Promote data sharing agreements.
+ Foster Partnerships and Collaboration: Strengthen collaboration with international
+organizations, NGOs, research institutions, and the private sector to leverage expertise,
+resources, and innovative solutions.
+4. Mobilize Sustainable Financing and Promote Economic Resilience
+ Develop Drought Finance Mechanisms: Explore and implement innovative financing
+mechanisms to mobilize resources from public, donor and private sectors, including
+establishing drought insurance schemes for farmers and pastoralists, contingency funds, and
+public-private partnerships.
+ Integrate Drought Risk into Budgeting: Ensure that drought risk is consistently factored
+into national and regional budgeting processes, allocating sufficient resources for both
+preparedness and response.
+ Enhance Economic Resilience at Community Level: Promote business responses, value
+chain development, and market access for drought-affected communities to enhance their
+economic resilience and reduce reliance on emergency aid.
+5. Prioritize Community Engagement and Gender-Responsive Approaches
+ Empower Local Communities: Engage local communities, including women, youth, and
+marginalized groups, in the design, implementation, and monitoring of drought management
+initiatives. Incorporate their traditional knowledge and adaptive strategies.
+ Implement Gender-Responsive Interventions: Recognize and address the specific
+vulnerabilities and needs of women and girls in drought contexts. This includes ensuring their
+access to water, sanitation, health services, and education, and promoting their participation
+in decision-making processes.
+ Strengthen Social Safety Nets: Enhance and expand existing social safety net programs,
+such as the Productive Safety Net Program (PSNP), to provide predictable support to
+vulnerable households during drought periods and enable them to invest in resilience-building
+activities.
+38
+
+--- Page 39 ---
+5. Institutional Arrangement of Ethiopia’s Drought Resilience Plan
+Effective drought management in Ethiopia demands a robust and well-coordinated institutional
+arrangement that transcends traditional sectoral boundaries. This plan establishes a comprehensive,
+multi-sectoral framework designed to foster proactive planning, rapid response, and long-term
+resilience across all levels of governance.
+5.1. Guiding Principles of Institutional Arrangement
+The institutional framework for the National Drought Resilience Plan is built on the following
+principles:
+ Shared Responsibility and Accountability: All relevant ministries, agencies, regional
+governments, and stakeholders bear clear responsibilities and are accountable for their
+contributions to drought risk management.
+ Multi-Sectoral Integration: Drought impacts are complex and interconnected, requiring
+coordinated action across agriculture, water, energy, environment, finance, health, disaster
+risk management, and other vital sectors.
+ Subsidiarity and Decentralization: Where appropriate, decision-making and
+implementation authorities are delegated to the lowest effective level of governance
+(regional, zonal, woreda, kebele) to ensure relevance and responsiveness to local contexts.
+ Science-Policy Interface: Decisions are informed by robust data, scientific analysis, and
+traditional knowledge, with strong linkages between research institutions and policymakers.
+ Transparency and Participation: Open communication and active engagement of
+communities, civil society organizations, and the private sector are integral to the plan's
+success.
+2. Coordinating Bodies and their Mandates
+The National Drought Resilience Plan will be spearheaded by a clearly defined set of coordinating
+bodies, each with specific roles:
+A. National Drought Management Steering Committee (NDMSC)
+Chaired by the Ethiopian Forestry Development, a Steering Committee with representation from key
+line ministries such as Agriculture, Water & Energy, Finance, Finance, Planning and Development,
+Disaster Risk Management Commission, representatives of research and academic institutions, and
+potentially representatives from regional states and development partners will be established at
+federal level, and development partners. This structure will also be cascaded to regions as it fits their
+contexts.
+The major Mandates of the SC includes:
+ Provide overall strategic direction and oversight for the National Drought Resilience Plan.
+ Approve national drought strategies and major investment plans.
+ Ensure high-level political commitment and resource mobilization for drought resilience
+efforts.
+ Facilitate inter-institutional coordination and resolve any jurisdictional issues.
+ Review and approve national drought risk assessments and early warning advisories.
+39
+
+--- Page 40 ---
+ Monitor the overall progress and impact of the plan.
+ Support resources mobilizations.
+B. Technical Working Group on Drought Management (TWG-DM)
+Strong technical experts from the SC ministries and partners will be established at federal and
+regional level to provide technical support.
+Key mandate of the Working groups include:
+ Develop detailed operational plans and guidelines for drought management activities.
+ Conduct in-depth drought risk assessments and vulnerability analyses.
+ Strengthen and integrate early warning systems for drought (meteorological, hydrological,
+agricultural, health, socio-economic).
+ Prepare technical advisories and recommendations for the NDMSC.
+ Coordinate data collection, analysis, and information dissemination across sectors.
+ Facilitate the implementation of specific drought mitigation and adaptation measures.
+ Act as the primary interface for technical cooperation with international partners.
+3. Key Sectoral Responsibilities and Contributions
+Each relevant ministry and agency will have defined responsibilities within the framework,
+contributing expertise and resources to the holistic drought management effort:
+Ethiopian Forestry Development (EFD): As stated in the law of the nation Regulation No.
+555/2022 EFD is focal institution to UNCCD liaises global drought negotiation and partnership,
+Ethiopian Forestry Development (EFD) plays crucial role in implementing nature-based
+solutions such as the Green Legacy Initiative to enhance the resilience of smallholder farmers
+and pastoral communities affected by recurrent and severe droughts. By promoting integrated
+landscape restoration and sustainable management of forest resources, EFD improves
+ecosystem services, and enhances biodiversity. These efforts not only mitigate the impacts of
+drought but also empower communities by providing them with alternative livelihoods and
+resources. Through coordination with various stakeholders, including line ministries and
+regional counter parts, NGOs, and community groups, EFD ensures that these initiatives are
+tailored to the specific needs of pastoralists, integrating traditional knowledge with modern
+techniques to foster long-term resilience and adaptive capacity in the face of climate change.
+As the focal institution for UNCCD and a key player in the Riyadh Drought Resilience Partnership,
+EFD will play a pivotal role in coordinating the stakeholders, and championing sustainable natural
+resource management, including scaling up Green Legacy best practices, supporting integrated
+landscape restoration and conservation interventions to contribute to climate change mitigation, and
+adaptation efforts. EFD will also represent Ethiopia globally on drought-related platforms and
+initiatives and play pivotal role in resources mobilization.
+ Ministry of Agriculture: Focus on promoting climate-resilient agriculture, sustainable land and
+natural resources management, livestock management, pasture development, irrigation scheme
+development, and agricultural extension services for smallholder farmers and pastoral
+communities.
+40
+
+--- Page 41 ---
+ Ministry of Water and Energy: Responsible for water resource assessment, planning,
+development, and management; improving water supply and distribution systems; promoting
+water harvesting and conservation; and providing crucial climate data and hydrological
+information in collaboration with the Ethiopian Meteorology Institute.
+ Ministry of Irrigation and Dry lands area: play a crucial role in managing water resources and
+promoting sustainable agricultural practices in lowland regions. Its primary responsibilities
+include the development and maintenance of irrigation systems, ensuring efficient water
+distribution, and enhancing agricultural productivity. By implementing policies and programs
+focused on water conservation and land management, the ministry aims to improve food security,
+support rural livelihoods, and mitigate the impacts of climate change.
+ Ministry of Finance: Crucial for establishing innovative financing mechanisms, mobilizing
+resources from public, donor, and private sectors; overseeing budget allocation for drought
+resilience; and exploring drought insurance schemes and other financial risk transfer instruments.
+ Ministry of Planning and Development: Support integration of drought resilience into national
+development strategies, monitor overall progress, and ensure alignment with national goals.
+ Disaster Risk Management Commission (DRMC): Plays a critical role in coordinating
+emergency response, vulnerability assessment, strengthening early warning systems, developing
+contingency plans, and supporting community engagement initiatives for preparedness and
+response. They will be primary users and disseminators of early warning information.
+ Regional and Local Administrations: Essential for localized risk assessment, community-level
+planning, implementation of resilience-building activities, and facilitating timely response. They
+serve as the direct link to affected communities.
+4. Cross-Cutting Enablers
+ Research and Academic Institutions: Provide scientific expertise, conduct research on drought
+impacts and solutions, and contribute to the development of innovative technologies and
+practices.
+ Civil Society Organizations (CSOs) and NGOs: Play a vital role in community mobilization,
+capacity building, delivering humanitarian assistance, and advocating for vulnerable populations.
+ Private Sector: Opportunities for private sector engagement in drought resilience include
+investments in water infrastructure, climate-smart agriculture technologies, renewable energy
+solutions, and insurance services.
+ Development Partners: Provide technical assistance, financial support, and facilitate knowledge
+exchange in drought management best practices.
+5. Strengthening the Institutional Framework
+To strengthen this institutional arrangement, the following actions are paramount:
+ Formalize Mandates and Linkages: Clearly define the roles, responsibilities, and reporting
+lines for each institution within the National Drought Resilience Plan through official decrees or
+memoranda of understanding.
+ Develop Standard Operating Procedures: Create clear standards for inter-agency collaboration,
+information sharing, early warning dissemination, and coordinated response actions.
+41
+
+--- Page 42 ---
+ Invest in Capacity Building: Provide targeted training and technical support to personnel across
+all levels of government and partner organizations in areas such as drought risk assessment, early
+warning systems, climate-smart agriculture, water resource management, and financial planning.
+ Allocate Dedicated Resources: Ensure that adequate and predictable financial and human
+resources are allocated to the institutions responsible for implementing the National Drought
+Resilience Plan.
+ Establish a Robust Monitoring and Evaluation Framework: Develop a clear framework with
+measurable indicators to track the performance of the institutional arrangement, the effectiveness
+of interventions, and the overall progress towards drought resilience goals. Regular reviews will
+allow for adaptive management and continuous improvement.
+6. National Drought Resilience Strategies
+This section of the National Drought Resilience Plan focuses on identifying and prioritizing strategies
+crucial for national adaptation to drought impacts and the safeguarding of food security, livelihoods,
+and economic stability. Noting the importance of strengthening Early Warning Systems and Climate
+Monitoring and Community Preparedness, the strategies encompass major drought-affected sectors
+such as agriculture, water and energy, natural resources, and finance. These interventions are
+designed to integrate sustainable land and natural resource management with water conservation,
+agricultural practices, and livelihood diversification, thereby addressing the root causes of drought
+and promoting environmental sustainability. Further, the prioritized strategies are well-aligned with
+ongoing national efforts such as the Green Legacy Initiative, hold international relevance, and are
+structured to foster collaboration among stakeholders, ultimately contributing to Ethiopia's long-term
+development amidst climate change.
+6.1. Scaling up Nature-based Solutions & Sustainable Tree-based Landscape
+Restoration and Natural Resources Management
+In order to reduce vulnerability and promote sustainable development, one of the key strategies for
+building resilience to drought and mitigating its impacts involves extensive implementation tree-
+based landscape restoration. This comprehensive approach includes integrated landscape restoration,
+sustainable land and forest management, and the efficient management of natural forests through
+participatory forest management. Hence, by adopting these practices, communities can revitalize
+degraded ecosystems and enhance their capacity to withstand the adverse effects of climate change
+and be able to be resilient to drought impacts.
+Integrated tree-based landscape restoration focuses on rehabilitating and managing forest-based
+landscapes and ecosystems in a holistic manner, ensuring that land, water, and biodiversity are
+considered together. This approach not only restores ecological balance but also improves soil health
+and increases agricultural productivity, mitigates climate change through carbon sequestration.
+Sustainable land and forest management practices, such as agroforestry and controlled grazing can
+enhance carbon sequestration while providing essential resources for local populations of the pastoral
+community. Additionally, sustainable watershed management ensures that water is available even
+during dry spells, significantly reducing the vulnerability of communities to drought.
+The Green Legacy Initiative of Ethiopia plays a crucial role in enhancing the sustainable resilience of
+drought-impacted lowland pastoral communities. These communities have faced recurrent droughts
+exacerbated by climate change, which threaten their livelihoods and food security. Hence, promoting
+42
+
+--- Page 43 ---
+large-scale reforestation and afforestation efforts will restore degraded lands, increase biodiversity,
+and improve water retention. This not only helps in combating desertification but also provides
+essential resources such as fodder and fuel wood, thereby supporting the livelihoods of pastoralists
+who rely on these ecosystems for their food security.
+Ethiopia‘s forest resources are essential for biodiversity conservation, climate regulation, and the
+livelihoods of millions that significantly impacts food security and the national economy, implying
+the significant contribution of forests in drought management. Forests play a crucial role both before,
+during and after drought incidents such as by way of providing alternative services and goods to
+vulnerable communities. However, forests are increasingly threatened by changing climate,
+degradation and deforestation, which undermine their natural perpetuation. The National Drought
+resilient plan emphasizes planning and implementation of integrated interventions including
+conservation and sustainable management of existing natural forests and protected areas through
+promoting legal recognition and participatory governance.
+By Doing these efforts we will enhance the ecological functions of forests including their ability to
+mitigate climate change, occurrence of drought and regulation of water resources. Effective forest
+management will be done via ensuring community engagement such as in the form of Participatory
+Forest Management (PFM). The strategy also targets restoration of degraded forest lands, crucial for
+communities reliant on these ecosystems. By scaling up best afforestation, reforestation, assisted
+natural regeneration and soil conservation measures practices, the plan aims to recover lost ecosystem
+services while creating alternative opportunities to enhance community resilience. Community
+involvement in planning and executing restoration efforts ensures that the needs and knowledge of the
+communities are incorporated. Furthermore, the strategy seeks to improve the management of
+plantation forests, establishing well-managed production forests, and developing value chains,
+Ethiopia can reduce its dependence on imported wood products while increasing exports.
+Strengthening market connections and fostering entrepreneurship will create green jobs, diversify
+livelihoods, and bolster the local and national economy, ultimately contributing to a more sustainable
+and resilient future against drought.
+6.2. Strengthening Early Warning, Climate Monitoring and Communication
+Systems and Capacity Development, Governance and Knowledge Management
+Assessments show that, existing Early Warning System has many limitations, implying a crucial need
+to strengthen it. Strengthening Early Warning System involves proactive monitoring of climate and
+environmental data to timely disseminate drought-related information to all stakeholders. Key steps
+include investing in robust data collection infrastructure, among others, weather stations, hydrological
+sensors, and satellite imagery systems, to gather accurate real-time data, essential to develop
+sophisticated predictive models. These models use climate science to forecast the onset, intensity, and
+duration of droughts, looking at indicators like rainfall anomalies and vegetation health. Equally
+important is to establish clear communication protocols to ensure these warnings reach national,
+regional, and local authorities, as well as communities, through accessible channels like SMS alerts,
+community radio, and local meetings. Finally, building capacity through training meteorologists,
+hydrologists, natural resources experts, and local extension workers is vital for effective data
+interpretation and communication of these critical early warnings.
+Ethiopia encounters significant challenges in its restoration and conservation efforts, particularly in
+the context of drought management. Weak institutional capacity, governance issues, and inadequate
+data management hinder effective landscape restoration initiatives. Addressing these limitations
+including governance gaps is vital for enhancing the country‘s resilience to drought and ensuring
+43
+
+--- Page 44 ---
+sustainable land management practices. To tackle these challenges, the drought management strategy
+emphasizes building the institutional, financial, and operational capacities of key implementing
+entities at federal and regional levels. This includes providing comprehensive need-based training
+programs designed to enhance technical skills, in planning and implementation of interventions.
+Establishing platforms for stakeholder engagement will improve coordination among government
+agencies, local communities, and NGOs, ensuring that all relevant parties are actively involved in
+planning and implementing the National Drought resilient plan. This collaborative approach will
+enhance decision-making processes and lead to more efficient and successful delivery.
+Additionally, implementing a robust knowledge management system is crucial for enhancing the
+effectiveness of the implementation of the Plan. This system will document and share best practices,
+success stories, and lessons learned, creating a centralized digital repository accessible to all
+stakeholders. By training professionals, government staff, and community members in effective
+knowledge management, the NDRP can build capacities and capabilities at strategic and operational
+levels to generate, analyze and utilize climate information and based on this to design mitigation and
+adaptation interventions. Furthermore, developing a Drought Monitoring System will enable tracking
+of drought incidents and provide real-time data that facilitate adaptive management.
+6.3. Policy Alignment, Drought Mainstreaming and Enforcement
+Land policy and legislation play a crucial role in effectively implementing the national drought
+resilient plan by enabling a framework for sustainable land use and resource management. Given the
+country's vulnerability to recurrent droughts, effective land policies can promote practices that
+enhance rainfall pattern, soil health, vegetation cover, water retention, and thereby improve
+agricultural productivity and resilience. By regulating land use and promoting sustainable practices,
+such policies and plans help minimize the impacts of drought, ensuring that communities are better
+equipped to manage scarcity that could be created by drought.
+Furthermore, comprehensive land legislation facilitates the long-term protection of critical
+ecosystems such as forests and wetlands, which play a vital role in climate regulation and biodiversity
+conservation. These ecosystems are essential for maintaining hydrological cycles, which are affected
+during and after drought hazards. Land use policies enhance natural resilience to drought, and also
+encourage community involvement in land management decisions, fostering a sense of ownership and
+responsibility. When communities are actively engaged in managing their land, they are more likely
+to adopt sustainable practices that align with drought mitigation efforts. Participatory approaches not
+only enhance the effectiveness of land management strategies but also empower communities to
+develop adaptive measures tailored to their specific environmental challenges.
+Lastly, strong land policies can attract international support and funding for drought management
+initiatives. By demonstrating a commitment to sustainable land use and resource management,
+Ethiopia can align its policies with global frameworks and attract investment for projects aimed at
+enhancing resilience to climate change. This alignment is essential for securing the necessary
+resources to implement effective drought management strategies that benefit both the environment
+and the livelihoods of vulnerable communities.
+6.4. Promoting Climate Smart Agriculture
+Ethiopia, as an agrarian nation, relies heavily on agriculture and pastoralism. However, the
+degradation of farmlands and rangelands due to unsustainable practices and climate change severely
+undermines productivity and the livelihoods of millions of smallholder farmers and pastoral
+44
+
+--- Page 45 ---
+communities. Challenges such as soil erosion, acidification, salinity, and declining soil fertility
+compromise efforts to achieve food and nutrition security. As a result, the vulnerability of farmers
+and pastoral communities has increased over the past decades, quite a significant portion of them is
+forced to be dependent on aid, and where this is not possible, they migrate to other places.
+The National Drought resilient plan identifies climate smart agriculture as one of the suitable
+strategies to manage the impacts of drought. Different environment friendly interventions including
+restoring degraded agricultural and rangeland landscapes by promoting soil and water conservation
+practices, scaling up and scaling out best agroforestry practices with a focus on promoting fruit and
+fodder-based agroforestry systems, where farmers will be supported to produce fodder for their
+livestock as they improve the management of existing rangelands. Various farmers managed natural
+regeneration interventions need to be integrated to improve crop lands, range lands and forest frontier
+lands. Managing invasive species also needs to be made an integral part of the interventions. As part
+of the livelihood diversification strategy, the development of values will be supported by engaging
+private sectors to establish different agri-businesses. The implementation of these practices will
+enhance agricultural production and productivity and eventually result in building long term
+resilience of millions of farmers and pastoral communities.
+6.5. Promoting Sustainable Water Resources Management
+Ethiopia's National Drought resilient plan hinges on sustainable water resources management as a
+cornerstone strategy to combat the impacts of drought, focusing on enhancing water availability,
+improving ecosystem resilience, and building community capacity. This comprehensive approach
+integrates the restoration of water bodies and wetlands, development of alternative water sources,
+robust watershed protection, continuous monitoring of water resources, and extensive public
+education.
+The restoration of areas around the water body and wetlands is critical for enhancing water
+availability and improving ecosystem resilience. Wetlands are vital for regulating water cycles,
+filtering pollutants, and providing diverse habitats. Restoring these degraded areas increases
+groundwater recharge, improves water quality, and creates buffer zones against flooding and erosion.
+These restored areas significantly boost local water supplies, particularly during droughts, supporting
+agricultural productivity and community livelihoods. This also includes promoting native vegetation
+and improved land management to support biodiversity and strengthen food security, fostering
+community ownership and sustainable practices. Integrating this with broader climate adaptation
+strategies, including sustainable agricultural practices, ensures long-term environmental health and
+sustainability, thereby enhancing national resilience to climate change. Restoration of areas around
+water bodies and wetlands needs to be aligned with watershed protection, which is vital for
+maintaining water quality and availability. This can be achieved by implementing sustainable land
+management practices such as reforestation, soil conservation, and erosion control that enhance
+watershed resilience against drought impacts. Protecting these critical areas ensures a reliable water
+supply for agricultural and domestic use while supporting biodiversity and ecosystem health, crucial
+for sustaining rural livelihoods.
+The restoration and protection efforts need to be supported by the development of alternative water
+sources, another critical strategy to enhance water security for vulnerable communities. This includes
+rainwater harvesting, groundwater recharge, and the utilization of treated wastewater, reducing
+reliance on traditional sources often insufficient during dry periods. Developing suitable
+infrastructure for these alternative sources improves access to safe drinking water and supports
+agricultural activities, enhancing food security and community resilience. This again requires
+engaging local populations in the planning and maintenance of these sources, which is influenced by
+45
+
+--- Page 46 ---
+public education. Building the capacity of communities is equally important for watershed protection
+and drought management. Raising awareness about the significance of watersheds and the impacts of
+human activities fosters a conservation culture. Educational programs for farmers, community
+leaders, and schoolchildren promote sustainable practices like agroforestry and soil conservation
+across watersheds to mitigate erosion and improve water retention. Engaging communities in
+participatory workshops and training empowers them to actively protect their watersheds, enhancing
+local drought resilience.
+Finally, monitoring surface and groundwater resources is crucial for effective water assessment and
+management. Implementing comprehensive monitoring systems allows for data collection on water
+levels, quality, and usage. Utilizing advanced technologies like satellite imagery, remote sensing, and
+groundwater modeling enhances assessment accuracy, providing real-time information for decision-
+making. This data is essential for identifying trends, predicting shortages, and optimizing water
+allocation for various uses, contributing to better drought preparedness and response. Fostering
+community involvement in monitoring efforts, through data collection and training programs, further
+enhances accuracy and promotes water conservation awareness, creating a robust monitoring
+framework for sustainable water management.
+6.6. Sustainable Development of Alternatives Rural Energy
+As climate change exacerbates vulnerability, Ethiopia's drought resilient plan prioritizes promoting
+sustainable alternative rural energy to enhance resilience and economic development. Investing in
+renewable energy sources like biomass, solar, wind, and biogas provides reliable energy, empowers
+communities, and supports water conservation and agricultural productivity. Alternative energy
+sources will also play a significant role in reducing forest degradation due to harvesting of fuelwood.
+Promoting biomass-based energy, including improved cook stoves, and biogas technology in rural
+areas offers dual benefits: waste management and clean energy production. Converting agricultural
+waste and livestock manure into biogas provides clean energy for cooking and heating, reducing
+pressure on forests and mitigating deforestation while fostering sustainable agricultural practices.
+Solar energy systems are particularly promising for rural communities, leveraging abundant sunlight
+to power irrigation, stabilize food production, and enhance food security even during dry periods.
+Solar energy also supports agricultural product processing, boosting local economies.
+Wind energy offers another viable option, with turbines generating electricity for local use in
+consistent wind regions. This renewable source powers water pumps and essential infrastructure,
+ensuring clean water access during droughts. Diversifying energy sources reduces reliance on
+biomass and fossil fuels, lowering emissions and improving environmental health.
+By strengthening the integration of these sustainable energy alternatives into national policies and
+community development plans, the country can improve its drought resilience and promote
+sustainable rural development that benefits both people and the environment.
+6.7. Research and innovation for promotion of Sustainable and multi-sectoral livelihood
+diversification options
+Sustainable and multi-sectoral livelihood diversification options are essential for enhancing the
+resilience of pastoral communities and promoting sustainable development. One of the key areas is
+the development of alternative rural energy sources. By investing in renewable energy technologies
+such as solar, wind, and biogas, pastoral communities can reduce their dependency on traditional
+fuels, which are often limited and environmentally damaging. Access to clean energy not only
+46
+
+--- Page 47 ---
+improves living conditions but also enables communities to engage in productive activities, such as
+small-scale processing of agricultural products or other income-generating enterprises. This shift
+towards sustainable energy sources contributes to both economic stability and environmental
+conservation.
+Sustainable water resources management is another critical component of livelihood diversification
+for pastoral communities. Given the frequent droughts that affect these regions, implementing
+efficient water management practices, such as rainwater harvesting, groundwater recharge, and the
+establishment of community-managed water points, is vital. These practices not only ensure a reliable
+water supply for livestock and agriculture but also enhance the resilience of communities against
+climate variability. By integrating water management with local governance and community
+participation, pastoralists can better manage their resources, ensure equitable access and promote
+collective stewardship of water resources.
+Furthermore, climate-smart agriculture (CSA) and effective land and natural resources management
+play a pivotal role in sustainable livelihood diversification. CSA practices, including crop
+diversification, soil conservation techniques, and the use of drought-resistant crop varieties, enable
+pastoral communities to adapt to changing climatic conditions while improving food security.
+Additionally, sustainable land management practices, such as agroforestry and rotational grazing,
+enhance soil health and biodiversity, which are crucial for maintaining productive landscapes. By
+adopting a holistic approach that combines these strategies, pastoral communities can create resilient
+livelihoods that not only address immediate challenges but also contribute to long-term sustainable
+development and environmental sustainability.
+Finally, adopting research proven drought-tolerant, export-oriented fruit trees presents a sustainable
+solution for enhancing livelihoods and promoting agroforestry in regions vulnerable to drought. These
+resilient species not only require less water, making them ideal for arid climates, but they also offer
+farmers an opportunity to diversify their income through the export of high-value fruits. By
+integrating these trees into agroforestry systems, communities can improve soil health, enhance
+biodiversity, and create microclimates that mitigate the effects of drought. This approach not only
+supports food security but also empowers local farmers to adapt to changing climatic conditions,
+fostering economic resilience and environmental sustainability.
+To strengthen Ethiopia's proactive approach to drought risk management and enhance long-term
+climate resilience, this research initiative focuses on generating evidence, tools, and technologies that
+inform policy, improve practices, and empower communities through nature-based solutions. The
+primary aim is to develop, pilot, and model forest and tree-based systems that foster drought-resilient
+landscapes and livelihoods.
+Research efforts will concentrate on creating site-specific forest and agroforestry technologies
+utilizing both native and adaptive exotic tree species. These technologies will be tailored to various
+ecological zones and socioeconomic contexts. The initiative will produce decision-support tools and
+guidelines for climate-smart land use planning, species selection, and restoration methods, addressing
+different drought scenarios. Additionally, actionable data on the biophysical and socioeconomic
+trade-offs related to restoration and agroforestry adoption will be compiled.
+To facilitate integrated land use planning, models will be developed to evaluate the impacts of diverse
+forest and agroforestry systems on drought mitigation, soil moisture retention, water use efficiency,
+and biodiversity conservation. These models will also simulate the socioeconomic returns of tree-
+47
+
+--- Page 48 ---
+based value chains and restoration efforts under future climate and drought conditions, incorporating
+factors such as forest hydrology, carbon storage, and ecosystem service flows at the landscape level.
+Technology demonstration and innovation platforms will be crucial for validating and scaling
+practical interventions. This includes establishing demonstration sites for forest restoration, fruit and
+fodder-based agroforestry, and farmer-managed natural regeneration (FMNR) in drought-prone
+regions. Community-led initiatives—such as integrating rainwater harvesting with tree planting,
+establishing sustainable woodlots, and implementing agroecological zoning—will be piloted.
+Inclusive innovation platforms will connect researchers, extension agents, farmers, and policymakers
+to test and refine adaptive technologies. To ensure that research informs actionable strategies, policy
+research will evaluate and enhance the enabling environment for embedding forest and agroforestry-
+based drought resilience into national and regional development plans. Evidence will be generated to
+demonstrate the effectiveness and scalability of nature-based solutions, influencing investment
+decisions, budget allocations, and land use policy reforms.
+Institutional learning will be fostered through the creation of knowledge products and training
+curricula aimed at practitioners and decision-makers across various governance levels, ensuring that
+insights from research lead to tangible improvements in resilience on the ground.
+7. National Drought Communication
+Drought communication in Ethiopia plays a critical role in managing the impacts of poor seasonal
+conditions on communities. A drought declaration serves as an official acknowledgment by the
+government that specific areas are affected by these adverse conditions. According to the newly
+approved Government policy on Disaster Risk Management, the Disaster Risk Management Council,
+chaired by the Prime Minister Office, is responsible for making these declarations. This council
+includes representatives from key institutions such as the National Meteorological Agency, the
+Ministry of Agriculture, Ethiopian Forestry Development, the Ministry of Water and Energy,
+Ministry of Finance, and Ministry of Planning and Development ensuring that decisions are informed
+by a broad range of expertise.
+To facilitate effective communication and coordination, the Disaster Risk Management Technical
+Working Group, led by the National Disaster Risk Management Commission (NDRMC), meets
+regularly to discuss and analyze drought conditions. This group comprises various stakeholders,
+including government agencies, UN organizations, NGOs, and donors. Meetings are held monthly, or
+more frequently as needed, to share early warning information and updates on meteorological
+conditions. The National Meteorological Agency provides essential forecasts and field reports, which
+guide discussions and decision-making processes regarding drought response.
+To ensure timely and effective interventions, the communication strategy incorporates Early Warning
+signs and clearly defined triggers for action. These mechanisms are based on specific thresholds that
+help determine the appropriate alert stages for drought conditions. Recommendations from these
+collaborative meetings are communicated to the top management of the NDRMC and the
+Commissioner, enabling swift actions to mitigate potential impacts. This structured approach to
+drought communication is vital for ensuring that affected communities receive the support they need
+in a timely manner, ultimately enhancing resilience against future droughts.
+48
+
+--- Page 49 ---
+7.1. Drought Communication Protocol
+The drought Communication protocol in Ethiopia is based on the Disaster management policy and
+strategy, which came into effect from 2013 onwards and the operational guidelines developed at the
+Federal level and recently for Woreda level administrative areas.
+The protocol can be categorized at three levels, i.e., the drought watch, drought alert and drought
+declaration levels. The drought watch level is initiated due to the advisory and seasonal climate
+forecast and probabilistic forecast of a possible drought event that is communicated by the National
+Meteorological Agency before the start of a rainfall season. This drought watch communication is not
+addressed to the public and as such is not made official due to its negative impact on crop price
+stability and thus this information is directly communicated to the Disaster Risk Management
+Commission, the Ministry of Agriculture and Livestock, the Ministry of Water, Irrigation and Energy,
+the Ministry of Health through the National Early Warning Working Group. This information is
+communicated to regional and Woreda officials and also NDRMC personnel at different
+administrative levels to undertake the close monitoring required and report to the center any relevant
+information, with regard to the drought watch case.
+The Woreda level implemented guideline describes a set of activities to be done during the drought
+watch and alert and these are:
+ Ensure that relevant guidelines with standards and for emergency responses are available at
+Woreda level for communication facilities and experts know them.
+ To train specific staff for communication emergency response management
+ Prepare communication plan for risk situation
+ Identify the different possibilities and communication channels at wereda and kebele level and
+coordinate with the different ESF how communication can support them.
+ Identify which are the best communication channels to communicate to the most vulnerable
+people
+ Identify the mechanisms the Woreda will use in case there is need to communicate to the media.
+ Train media people to communicate better disaster risk situations.
+ Prepare adequate preventive messages for a likely scenario.
+During the emergency stage, when drought has been declared officially. There are various types of
+communication channels which will be activated like the Woreda net including the mass media and
+others. ESF Objective is expressed as the communication ESF will cover the aspects of the
+humanitarian assistance related to the communication in order to inform properly the stakeholders,
+the different administrative levels and the community about the humanitarian situation
+Upon Early Warning of Emergency triggers, activate and coordinate response activities of the
+Emergency Support Function, with more emphasis on the following:
+ Disseminate preventive messages
+ Coordinate with the different ESF the support of the communication ESF.
+ Support the emergency response disseminating adequate messages to the most vulnerable
+people.
+ Communication plan for risk situation activated.
+ Monitor and evaluate the response of communication messages, creating an historical record
+49
+
+--- Page 50 ---
+of the emergency. Documentation of experiences and practices.
+Different mechanisms can be used to warn the population about a likely disaster. It is possible to use
+technology media like radio, phone, TV or internet, but also traditional mechanisms like going to the
+water points or to the market to spread relevant information. Also, there are local mechanisms like
+Dagu, used in the pastoralist areas where people exchange news and information when they meet on
+the road.
+The Development of Woreda Connectivity program is one area where, the government has a plan to
+automate the existing data collection system at woreda level. The government has already started the
+automation service in 35 pilot woredas across the country. It is believed that in places where there is
+internet access, information will be exchanged through electronic communication media. This will
+facilitate the flow of EW information to be used for timely decisions.
+7.2. Declaration of Drought Condition
+A drought declaration is an official acknowledgment by the government that a specific area or
+property is impacted by poor seasonal conditions. According to the newly approved Government
+policy on Disaster Risk Management, the Disaster Risk Management Council is responsible for
+officially declaring disasters, as outlined in Article 93 of the Constitution. Chaired by the Prime
+Minister, this council includes members from key sectoral institutions such as the National
+Meteorological Agency, the Ministry of Agriculture and Livestock, the Ministry of Water and
+Energy, and the Ministry of Health, among others. Historically, the National Disaster Prevention and
+Preparedness Committee has been the entity to declare disaster occurrences.
+The Disaster Risk Management Technical Working Group, led by the National Disaster Risk
+Management Commission (NDRMC), meets monthly to coordinate among various stakeholders. This
+group includes several Task Forces, which consist of representatives from government agencies, UN
+organizations, NGOs, and donors. Depending on the situation, these meetings can take place weekly
+or bi-monthly, with early warning information regularly shared among Disaster Risk Management
+partners. Given that drought is a significant issue, meteorological updates from the National
+Meteorological Agency are a regular agenda item, leading to in-depth discussions supported by field
+reports from other organizations.
+To ensure effectiveness, scenarios must be combined with Early Warning signs and triggers for
+actions based on realistic timelines for emergency interventions. This approach facilitates timely
+responses and helps mitigate the potential impacts of disasters. The triggering of different alert stages
+is based on specific thresholds, which guide the decision-making process. Recommendations from
+these meetings inform the top management of the NDRMC and the Commissioner for further actions.
+The Commissioner of the NDRMC serves as the secretary to the National Disaster Risk Management
+Council, which is tasked with officially declaring disasters in accordance with the new policy. The
+National Meteorological Agency, as a member of this council, provides critical updates on weather
+and climate assessments, seasonal rainfall forecasts, and field reports from relevant ministries. These
+inputs are essential for the council's declaration of drought crises, ensuring a coordinated and
+informed response to mitigate the impacts on affected communities.
+50
+
+--- Page 51 ---
+8. Prospects of Ethiopia’s Drought Resilience Plan through
+International Co-operation
+A. Context and Imperative for International Partnership
+Drought represents a significant and escalating threat to Ethiopia, profoundly impacting its economy,
+environment, and the livelihoods of its population, particularly smallholder farmers and pastoral
+communities. The country has observed a consistent shift in rainfall patterns, with more frequent and
+intense drought events becoming common. These events are a primary cause of environmental
+degradation and economic downturns, with some studies indicating a potential reduction of over 10%
+in GDP. Such crises disproportionately affect vulnerable communities, with its impact getting severe
+in the lowland ecosystems, creating income disparities between poor and well to do households,
+further marginalizing women and youths. Consequently, robust drought management strategies that
+shift from a reactive to a proactive and resilient approach are essential. The UNCCD framework and
+international cooperation offer a critical pathway for Ethiopia to enhance its drought management
+efforts and secure sustainable development, by mobilizing more resources from the public,
+international community and the private sector.
+B. Strategic Opportunities for Collaboration
+Ethiopia's engagement with international partners, particularly through initiatives like the Riyadh
+Drought Resilience Partnership, offers several strategic opportunities to strengthen its drought
+resilience plan. Knowledge and Technology Transfer: Ethiopia can leverage shared knowledge and
+innovative solutions from global partners to enhance its drought preparedness and response strategies.
+This includes adopting best practices for vulnerability assessments, developing advanced early
+warning systems, and implementing sustainable agricultural practices. Ethiopia can also share with
+the global community consolidated lessons such as due to the implementation of the Green Legacy
+Initiative, the world‘s largest integrated Nature-based Solution.
+Financial Mobilization and Investment: International cooperation is instrumental in mobilizing the
+necessary financial resources to implement the plan. Engaging with partners provides access to
+diverse funding mechanisms, including grants and concessional loans, which are crucial for large-
+scale investments in nature-based solutions, resilient agricultural systems and water management
+infrastructure. This support is vital for mitigating the economic impacts of drought and fostering
+sustainable growth. This is based on the notion that, the economic returns on investment in drought
+resilience can be up to ten times greater than the initial costs, making this a financially sound strategy.
+Evidence-Based Implementation: Collaborations facilitate the integration of evidence-based practices
+into Ethiopia's national drought resilience plan. This ensures that prioritized interventions are well-
+aligned with scientific data and are more likely to achieve their intended outcomes.
+C. Governance and Inclusivity
+The success of international cooperation hinges on the establishment of inclusive governance
+frameworks. The Riyadh Partnership emphasizes the importance of transparency, equity, and local
+engagement. In this regard, Ethiopia‘s National Drought Resilience Plan has two major peculiarities:
+Community-Centered Strategies: By involving local communities in decision-making, the plan
+enables Ethiopia to design and implement aligned strategies that are not only effective but also
+socially equitable and culturally sensitive. This approach enhances community buy-in and ensures the
+sustainability of drought resilience initiatives.
+51
+
+--- Page 52 ---
+Multisectoral Approach: A collaborative framework enables a multisectoral approach to drought
+management, ensuring that the plan is implemented with the coordinated efforts of various
+institutions, with Ethiopian Forestry Development as the national focal institution for UNCCD will
+not only implement Nature-based Solutions, but also coordinate efforts to build resilience against
+drought.
+D. Conclusion and Outlook
+The prospects for international cooperation in strengthening Ethiopia's drought management
+strategies are highly promising. By leveraging global partnerships, Ethiopia can significantly enhance
+its capacity to address the multifaceted challenges posed by drought and degradation. The integration
+of evidence-based practices, financial resources, and inclusive governance will form a robust
+framework for sustainable drought management. As Ethiopia navigates its path toward achieving its
+national development goals, international cooperation will be essential for building enduring
+resilience against future drought events and securing the long-term well-being of its citizens.
+52
+
+--- Page 53 ---
+Table 4- Ethiopia‘s Long-Term Drought Management Implementation Action Plan (2025-2035)
+No Long Term Strategies Key Interventions Indicators Target 10 Years Budget
+Estimated in
+(USD)
+1 Scaling up Nature-based Solutions and Community Number of community 15 (one by region
+tree based Sustainable Land and Natural Engagement and meetings held; participant and city
+Resources Management Awareness feedback scores administration
+and one at federal
+level)
+Reforestation and Hectares of land reforested; 2,000
+Afforestation number of trees planted
+Initiatives
+Sustainable Land Number of farmers adopting Twice a year 150,000,000
+Management practices; soil health
+Practices improvement metrics
+Biodiversity Number of species 10
+Conservation monitored; increase in
+Programs biodiversity indices
+Policy Advocacy and Number of policy changes 5
+Support influenced; stakeholder
+engagement levels
+2 Strengthening Early Warning, Climate Development of Number of alerts issued; 5
+Monitoring and Communication Early Warning response time to alerts
+Systems and Capacity Development, Systems
+Governance and Knowledge
+Climate Data Volume of data collected; 10
+Management
+Collection and frequency of data updates
+Monitoring
+200,000
+Capacity Building Number of workshops 10
+Workshops conducted; participant
+satisfaction ratings
+Communication Number of communication
+Strategy materials produced;
+Implementation audience reach
+. Knowledge Number of users accessing 20,000
+53
+
+--- Page 54 ---
+Management the platform; frequency of
+Platform updates and contributions
+3 Policy Alignment, Drought Policy Review and Number of policies 2
+Mainstreaming and Enforcement Analysis reviewed; gaps identified in
+existing frameworks
+Stakeholder Number of consultations 5
+Consultation held; diversity of
+stakeholders involved
+Development of Framework completion 3
+Drought Management status; approval from
+Framework relevant authorities
+Training on Policy Number of training sessions 10
+Implementation conducted; participant
+feedback
+Monitoring and Frequency of evaluation 5
+Evaluation of Policy reports; policy impact
+Impact metrics established
+4 Farmer Training Number of training sessions 25,000 central 550,000,000
+Promoting Climate smart Programs held; farmer participation nurseries
+agriculture rates 400 million
+seedlings
+Introduction of Hectares planted with 3 million
+Drought-Resistant drought-resistant varieties;
+Crops yield improvements
+Soil Health Soil quality assessments; 2
+Improvement increase in organic matter
+Initiatives content
+Water Management Percentage reduction in 2
+Strategies water usage; area under
+improved irrigation
+Market Access and Number of farmers 100,000
+Value Chain connected to new markets;
+Development increase in income from
+climate-smart products
+5 Promoting Sustainable Water Resources Water Conservation Number of training sessions 3 million 620,000,000
+Management Training conducted, participant
+54
+
+--- Page 55 ---
+feedback scores
+Implementation of Number of systems 3 million
+Rainwater Harvesting installed; volume of
+Systems rainwater harvested
+Watershed Hectares of watershed 15,000 central
+Management restored; biodiversity index nurseries
+Practices improvements 200 million
+seedlings
+Monitoring and Frequency of water quality 200,000
+Assessment of Water assessments; percentage of
+Quality samples meeting quality
+standard
+Community Water Number of committees 10
+Management established; community
+Committees participation rates in
+management activities
+6 Sustainable Development of Promotion of Number of renewable 1 million
+Alternatives Rural Energy Renewable Energy energy systems installed; 150,300,000
+Technologies energy output generated
+Training and Number of training sessions 15 million
+Capacity Building conducted; participant
+satisfaction rates
+Access to Financing Number of households 10
+for Energy Solutions receiving financial support;
+total amount disbursed
+Development of Number of cooperatives 100
+Local Energy formed; membership growth
+Cooperatives in cooperatives
+Awareness Number of campaigns held; 20
+Campaigns on increase in energy-saving
+Energy Efficiency practices adopted by
+households
+55
+
+--- Page 56 ---
+7 Research and innovation for Integrated Hectares of land converted 5 37,000,000
+promotion of Sustainable and Agroforestry Systems to agroforestry; increase in
+multi-sectoral livelihood crop yields
+diversification options
+Sustainable Forestry Area of forest under 2 million
+Practices sustainable management;
+volume of timber harvested
+sustainably
+Diversification of Number of renewable 8
+Energy Sources energy systems installed;
+reduction in reliance on non-
+renewable sources
+Water Resource Volume of water saved; area 3
+Management under improved water
+Initiatives management practices
+Capacity Building for Number of training sessions 20
+Livelihood held; percentage of
+Diversification participants adopting new
+practices
+Total Budget 1,507,300,000
+USD
+56
+
+--- Page 57 ---
+57

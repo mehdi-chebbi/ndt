@@ -1,0 +1,3356 @@
+--- Page 1 ---
+United Nations Convention to Combat Desertification
+Performance review and assessment of implementation system
+Seventh reporting process
+Report from
+Burkina Faso
+Le présent rapport a été soumis par le gouvernement de Burkina Faso à la Convention des Nations Unies sur la lutte contre la
+désertification (CNULCD).
+Les appellations employées dans ce rapport et la présentation des données qui y figurent n'impliquent de la part de la
+Convention sur la lutte contre la désertification aucune prise de position quant au statut juridique des pays, territoires, villes ou
+zones, ou de leurs autorités, ni quant au tracé de leurs frontières ou limites.
+7 mars 2023
+
+--- Page 2 ---
+Contents
+1. SO: Strategic objectives
+A. SO-1: Pour améliorer l'état des écosystèmes touchés, combattre la désertification / dégradation des terres,
+promouvoir la gestion durable des terres et contribuer à la neutralité de la dégradation des terres.
+SO1-1 Évolution de la structure du couvert terrestre
+SO1-2 Évolution de la productivité ou du fonctionnement des terres
+SO1-3 Évolution des stocks de carbone dans le sol et en surface
+SO1-4 Proportion de terres dégradées par rapport à la superficie totale des terres (indicateur 15.3.1
+des objectifs de développement durable)
+SO1 Cibles Volontaires
+B. SO-2: Améliorer les conditions de vie des populations touchées.
+SO2-1 Évolution de la population vivant sous le seuil de pauvreté relatif et/ou des inégalités de
+revenus dans les zones touchées
+SO2-2 Évolution de l’accès à l’eau potable dans les zones touchées
+SO2-3 Évolution de la proportion de la population exposée à la dégradation des terres, ventilée par
+sexe
+SO2 Cibles Volontaires
+C. SO-3: Pour atténuer, à s'y adapter et de gérer les effets de la sécheresse afin d'améliorer la résilience des
+populations et des écosystèmes vulnérables.
+SO 3-1 Évolution de la proportion de terres frappées par la sécheresse au regard de la superficie totale
+SO 3-2 Évolution de la proportion de la population exposée à la sécheresse
+SO 3-3 Évolution du degré de vulnérabilité à la sécheresse
+SO3 Cibles Volontaires
+D. SO-4 : Générer des avantages environnementaux mondiaux grâce à la mise en œuvre effective de la
+Convention des Nations Unies sur la lutte contre la désertification.
+SO4-1 Évolution des stocks de carbone dans le sol et en surface
+SO4-2 Évolution de l’abondance et de la répartition de certaines espèces
+SO4-3 Proportion des sites importants pour la biodiversité terrestre et la biodiversité des eaux douces
+qui se trouvent dans des aires protégées (par type d’écosystème)
+SO4 Cibles Volontaires
+E. SO-5: Mobiliser les ressources financières et non financières importantes et supplémentaires pour appuyer la
+mise en œuvre de la Convention en établissant des partenariats efficaces au niveau mondial et national
+SO5-1 Ressources publiques bilatérales et multilatérales
+SO5-2 Ressources publiques nationales
+SO5-3 Ressources privées internationales et nationales
+SO5-4 Transfert de technologie
+SO5-5 Appui futur aux activités liées à la mise en œuvre de la Convention
+2. IF : Cadre de mise en œuvre
+A. Sources financières et non financières
+B. Politique et planification
+C. Agir sur le terrain
+3. AI : Indicateurs additionnels
+4. RC : Recalculs
+5. Autres fichiers pour le rapport
+�. Templated Maps
+A. Land cover in the initial year of the baseline period
+B. Land cover in the baseline year
+C. Land cover in the latest reporting year
+D. Land cover change in the baseline period
+E. Land cover change in the reporting period
+F. Dégradation du couvert terrestre (Période de référence)
+G. Dégradation du couvert terrestre (Période considérée)
+H. Dynamiques de la productivité des terres (Période de référence)
+I. Dynamiques de la productivité des terres (Période considérée)
+J. Dégradation de la productivité des terres (Période de référence)
+K. Dégradation de la productivité des terres (Période considérée)
+2 / 105
+
+--- Page 3 ---
+L. Soil organic carbon stock in the initial year of the baseline period
+M. Soil organic carbon stock in the baseline year
+N. Soil organic carbon stock in the latest reporting year
+O. Change in soil organic carbon stock in the baseline period
+P. Change in soil organic carbon stock in the reporting period
+Q. Dégradation du carbone organique dans le sol (Période de référence)
+R. Dégradation du carbone organique dans le sol (Période considérée)
+S. Proportion of land that is degraded over total land area (SDG Indicator 15.3.1) in the baseline period
+T. Proportion of land that is degraded over total land area (SDG Indicator 15.3.1) in the reporting period
+U. Progress towards Land Degradation Neutrality (LDN) in the reporting period
+V. Land Degradation Hotspots
+W. Land Improvement Brightspots
+X. Total Population exposed to land degradation (baseline)
+Y. Female Population exposed to land degradation (baseline)
+Z. Male Population exposed to land degradation (baseline)
+AA. Total Population exposed to land degradation (reporting)
+AB. Female Population exposed to land degradation (reporting)
+AC. Male Population exposed to land degradation (reporting)
+AD. Drought hazard in first epoch of baseline period
+AE. Drought hazard in second epoch of baseline period
+AF. Drought hazard in third epoch of baseline period
+AG. Drought hazard in fourth epoch of baseline period
+AH. Drought hazard in the reporting period
+AI. Drought exposure in first epoch of baseline period
+AJ. Drought exposure in second epoch of baseline period
+AK. Drought exposure in third epoch of baseline period
+AL. Drought exposure in fourth epoch of baseline period
+AM. Drought exposure in the reporting period
+AN. Female drought exposure in the reporting period
+AO. Male drought exposure in the reporting period
+3 / 105
+
+--- Page 4 ---
+4 / 105
+
+--- Page 5 ---
+SO-1: Pour améliorer l'état des écosystèmes touchés, combattre la désertification / dégradation des terres, promouvoir la
+gestion durable des terres et contribuer à la neutralité de la dégradation des terres.
+SO1-1 Évolution de la structure du couvert terrestre
+Superficie
+SO1-1.T1 : Estimations nationales de la superficie totale des terres, de la superficie couverte par les masses
+d’eau et de la superficie totale du pays
+Masses
+Superficie totale Superficie totale
+Année d’eau (En Observations
+des terres (En km²) du pays (En km²)
+km²)
+La couche de la limite du pays utilisée est celle de la base nationale
+2 001 272 273 948 273 221 des données topographique de 2012 fournie par l'Institut
+Géographique du Burkina Faso (IGB).
+2 005 272 277 944 273 221 IDEM
+2 010 272 271 950 273 221 IDEM
+2 015 272 257 964 273 221 IDEM
+2 016 272 251 970 273 221 IDEM
+2 019 272 194 1 027 273 221 IDEM
+Légende du couvert terrestre et matrice de transition
+SO1-1.T2 : Processus de dégradation clefs
+Processus de dégradation Couvert terrestre initial Couvert terrestre final
+Divers
+Zones couvertes d’arbres Terres cultivées
+Exploitation agricole
+Déboisement Zones couvertes d’arbres Prairies
+Expansion urbaine Zones couvertes d’arbres Surfaces artificielles
+Empiétement d’espèces ligneuses Zones couvertes d’arbres Prairies
+Divers
+Zones couvertes d’arbres Autres terres
+Exploitation minière et de carrière
+Les sept catégories de couvert terrestre définies par la Convention sont-elles suffisantes pour surveiller les principaux processus de dégradation dans
+votre pays ?
+Oui
+Non
+SO1-1.T4 : Matrice de transition du couvert terrestre au titre de la Convention
+Zones couvertes Terres Zones Surfaces Autres Masses
+Initiales/Finales Prairies
+d’arbres cultivées humides artificielles terres d’eau
+Zones couvertes
+0 - - - - - 0
+d’arbres
+Prairies + 0 - + - - 0
+Terres cultivées + + 0 + - - 0
+Zones humides + - - 0 - - 0
+Surfaces artificielles + + + + 0 + 0
+Autres terres + + + + - 0 0
+Masses d’eau 0 0 0 0 0 0 0
+5 / 105
+
+--- Page 6 ---
+SO-1: Pour améliorer l'état des écosystèmes touchés, combattre la désertification / dégradation des terres, promouvoir la
+gestion durable des terres et contribuer à la neutralité de la dégradation des terres.
+Couvert terrestre
+SO1-1.T5 : Estimations nationales du couvert terrestre (en km²) pour la période de référence et la période
+considérée
+Zones couvertes Terres Zones Surfaces Autres Masses Pas de
+Prairies
+d’arbres (En cultivées (En humides (En artificielles (En terres (En d’eau (En données (En
+(En km²)
+km²) km²) km²) km²) km²) km²) km²)
+2000 0 0 0 0 0 0 0
+2001 35 143 67 042 168 668 258 223 940 949
+2002 33 815 67 022 169 975 258 244 960 947
+2003 33 221 67 003 170 578 258 251 963 947
+2004 32 299 66 991 171 497 258 256 974 947
+2005 31 999 67 001 171 778 258 268 974 945
+2006 31 801 66 999 171 946 259 280 993 944
+2007 31 215 67 066 172 453 259 289 996 944
+2008 31 070 67 066 172 553 259 301 1 030 944
+2009 30 787 67 116 172 758 259 306 1 045 950
+2010 30 739 67 143 172 764 260 314 1 052 951
+2011 30 483 67 187 172 956 260 322 1 063 949
+2012 30 374 67 236 173 006 260 332 1 065 949
+2013 30 271 67 250 173 070 260 353 1 069 948
+2014 30 165 67 254 173 138 262 368 1 069 965
+2015 30 165 67 253 173 130 262 378 1 069 965
+2016 30 057 67 257 173 120 261 454 1 102 970
+2017 30 069 67 257 173 020 260 512 1 110 994
+2018 30 621 67 171 172 476 255 566 1 112 1 020
+2019 30 460 67 222 172 488 256 601 1 166 1 028
+2020 0 0 0 0 0 0 0
+Changements du couvert terrestre
+SO1-1.T6 : Estimations nationales des changements du couvert terrestre (en km²) pour la période de
+référence
+Zones
+Terres Zones Surfaces Autres Masses Total
+couvertes Prairies
+cultivées (En humides (En artificielles (En terres (En d’eau (En (En
+d’arbres (En (En km²)
+km²) km²) km²) km²) km²) km²)
+km²)
+Zones couvertes
+d’arbres (En 29 761 202 5 172 0 3 0 4 35 142
+km²)
+Prairies (En
+3 66 738 124 0 27 147 3 67 042
+km²)
+Terres cultivées 168
+397 298 167 830 4 123 0 15
+(En km²) 667
+Total 30 164 67 254 173 129 263 377 1 069 965
+6 / 105
+
+--- Page 7 ---
+SO-1: Pour améliorer l'état des écosystèmes touchés, combattre la désertification / dégradation des terres, promouvoir la
+gestion durable des terres et contribuer à la neutralité de la dégradation des terres.
+Zones
+Terres Zones Surfaces Autres Masses Total
+couvertes Prairies
+cultivées (En humides (En artificielles (En terres (En d’eau (En (En
+d’arbres (En (En km²)
+km²) km²) km²) km²) km²) km²)
+km²)
+Zones humides
+1 0 0 255 0 0 2 258
+(En km²)
+Surfaces
+artificielles (En 0 0 0 0 223 0 0 223
+km²)
+Autres terres
+0 14 1 0 0 922 3 940
+(En km²)
+Masses d’eau
+2 2 2 4 1 0 938 949
+(En km²)
+Total 30 164 67 254 173 129 263 377 1 069 965
+SO1-1.T7 : Estimations nationales des changements du couvert terrestre (en km²) pour la période considérée
+Zones Superficie
+Terres Zones Surfaces Autres Masses
+couvertes Prairies totale des
+cultivées humides artificielles terres d’eau (En
+d’arbres (En (En km²) terres (En
+(En km²) (En km²) (En km²) (En km²) km²)
+km²) km²)
+Zones
+couvertes
+29 481 67 504 0 1 0 3 30 056
+d’arbres (En
+km²)
+Prairies (En
+32 66 957 137 0 28 98 5 67 257
+km²)
+Terres
+cultivées (En 946 164 171 846 2 117 1 44 173 120
+km²)
+Zones
+humides (En 2 0 0 254 0 0 5 261
+km²)
+Surfaces
+artificielles (En 0 0 0 0 454 0 0 454
+km²)
+Autres terres
+1 34 0 0 0 1 067 0 1 102
+(En km²)
+Masses d’eau
+0 0 0 0 0 0 970 970
+(En km²)
+Total 30 462 67 222 172 487 256 600 1 166 1 027
+Dégradation du couvert terrestre
+SO1-1.T8 : Estimations nationales de dégradation du couvert terrestre (en km²) pour la période de référence
+Superficie (En Pourcentage de la superficie totale des terres (En
+km²) %)
+Superficie des terres dont le couvert s’est dégradé 5 799 2 ,1
+Superficie des terres dont le couvert terrestre n’est pas
+267 422 97 ,9
+dégradé
+Superficie sans données sur le couvert terrestre 0 0 ,0
+SO1-1.T9 : Estimations nationales de dégradation du couvert terrestre (en km²) pendant la période considérée
+Superficie (En km²) Pourcentage de la superficie totale des terres (En %)
+Superficie des terres dont le couvert s’est amélioré 1 179 0 ,4
+7 / 105
+
+--- Page 8 ---
+SO-1: Pour améliorer l'état des écosystèmes touchés, combattre la désertification / dégradation des terres, promouvoir la
+gestion durable des terres et contribuer à la neutralité de la dégradation des terres.
+Superficie (En km²) Pourcentage de la superficie totale des terres (En %)
+Superficie des terres dont le couvert terrestre est resté stable 271 086 99 ,2
+Superficie des terres dont le couvert s’est dégradé 955 0 ,3
+Superficie sans données sur le couvert terrestre 0 0 ,0
+Observations d’ordre général
+Les données du couvert terrestre utilisées pour renseigner la plateforme sont issues du traitement Trends.earth. En effet, le Burkina Faso
+ne dispose pas de données spatiales actualisées sur l’occupation des terres pour la période considérée (2016-2019). Dans la configuration
+de l’outils, la partie nationale a harmonisé la matrice de changement et la définition des sous-unités d’occupation des sols avec les réalités
+nationales. Par ailleurs la limite du pays utilisée est celle en vigueur depuis 2012 (BNDT 2012) fournie par l’Institut Géographique du
+Burkina (IGB) qui est l’autorité technique en charge de la matérialisation des frontières. Par conséquent, les données des superficies ont été
+calculées par Trends.Earth en utilisant le fichier des frontières nationales. Le paramétrage de l'outil Trends.earth a été configuré comme
+suit : 01/01/2001 au 31/12/2015 pour la période de référence (baseline) et du 01/01/2016 au 31/12/2019 pour la période considérée
+(progress). De façon globale le couvert terrestre du pays est resté stable (99,22%).
+8 / 105
+
+--- Page 9 ---
+SO-1: Pour améliorer l'état des écosystèmes touchés, combattre la désertification / dégradation des terres, promouvoir la
+gestion durable des terres et contribuer à la neutralité de la dégradation des terres.
+SO1-2 Évolution de la productivité ou du fonctionnement des terres
+Dynamique de la productivité des terres
+SO1-2.T1 : Estimations nationales de la dynamique de la productivité des terres (en km²) dans chaque
+catégorie de couvert terrestre pour la période de référence
+Dynamique de la productivité nette des terres (en km²) pour la période de référence
+Catégorie de couvert
+En baisse (En En baisse modérée Tendue (En Stable (En En hausse (En Pas de données
+terrestre
+km²) (En km²) km²) km²) km²) (En km²)
+Zones couvertes
+1 625 5 562 150 16 806 5 606 11
+d’arbres
+Prairies 11 297 8 481 288 33 083 13 574 15
+Terres cultivées 31 308 29 006 1 274 68 128 38 058 57
+Zones humides 34 20 9 98 86 8
+Surfaces artificielles 49 13 13 87 58 3
+Autres terres 83 11 12 751 62 4
+Masses d’eau 41 20 26 67 72 713
+SO1-2.T2 : Estimations nationales de la dynamique de la productivité des terres (en km²) dans chaque
+catégorie de couvert terrestre pour la période considérée
+Dynamique de la productivité nette des terres (en km²) pour la période considérée
+Catégorie de couvert
+En baisse (En En baisse modérée Tendue (En Stable (En En hausse (En Pas de données
+terrestre
+km²) (En km²) km²) km²) km²) (En km²)
+Zones couvertes
+399 0 211 25 727 3 117 27
+d’arbres
+Prairies 4 725 0 663 56 112 5 425 32
+Terres cultivées 7 932 0 2 196 144 205 17 410 103
+Zones humides 7 0 15 190 25 16
+Surfaces artificielles 22 0 72 309 47 4
+Autres terres 12 0 23 787 239 7
+Masses d’eau 5 0 29 175 17 744
+SO1-2.T3 : Estimations nationales de la dynamique de la productivité des terres pour les superficies
+converties en une nouvelle catégorie de couvert terrestre (en km²) pour la période de référence
+Conversion de terres Dynamique de la productivité nette des terres (en km²) pour la période de référence
+En baisse
+Variation nette de la En baisse Tendue Stable En hausse
+De En modérée (En
+superficie (En km²) (En km²) (En km²) (En km²) (En km²)
+km²)
+Zones
+couvertes Terres cultivées 5 172 1 970 932 0 1 522 747
+d’arbres
+Zones
+Terres cultivées couvertes 397 6 29 0 117 245
+d’arbres
+Terres cultivées Prairies 298 225 19 12 41 2
+9 / 105
+
+--- Page 10 ---
+SO-1: Pour améliorer l'état des écosystèmes touchés, combattre la désertification / dégradation des terres, promouvoir la
+gestion durable des terres et contribuer à la neutralité de la dégradation des terres.
+Conversion de terres Dynamique de la productivité nette des terres (en km²) pour la période de référence
+En baisse
+Variation nette de la En baisse Tendue Stable En hausse
+De En modérée (En
+superficie (En km²) (En km²) (En km²) (En km²) (En km²)
+km²)
+Zones
+couvertes Prairies 202 68 62 0 59 14
+d’arbres
+SO1-2.T4 : Estimations nationales de la dynamique de la productivité des terres pour les superficies
+converties en une nouvelle catégorie de couvert terrestre (en km²) pour la période considérée
+Conversion de terres Dynamique de la productivité nette des terres (en km²) pour la période considérée
+En baisse
+Variation nette de la En baisse Tendue Stable En hausse
+De En modérée (En
+superficie (En km²) (En km²) (En km²) (En km²) (En km²)
+km²)
+Zones
+Terres cultivées couvertes 946 33 0 43 717 152
+d’arbres
+Zones
+couvertes Terres cultivées 504 8 0 0 439 57
+d’arbres
+Terres cultivées Prairies 164 47 0 16 99 2
+Prairies Terres cultivées 137 1 0 0 114 21
+Dégradation de la productivité des terres
+SO1-2.T5 : Estimations nationales de la dégradation de la productivité des terres (en km²) pendant la période
+de référence
+Superficie (En Pourcentage de la superficie totale des terres (En
+km²) %)
+Superficie des terres dont la productivité s’est dégradée 90 983 33 ,4
+Superficie des terres dont la productivité ne s’est pas
+181 180 66 ,5
+dégradée
+Superficie sans données sur la productivité des terres 108 0 ,0
+SO1-2.T6 : Estimations nationales de la dégradation de la productivité des terres pendant la période
+considérée
+Superficie (En km²) Pourcentage de la superficie totale des terres (En %)
+Superficie des terres dont productivité s’est améliorée 26 539 9 ,8
+Superficie des terres dont la productivité est restée stable 232 279 85 ,3
+Superficie des terres dont la productivité s’est dégradée 13 242 4 ,9
+Superficie sans données sur la productivité des terres 190 0 ,1
+Observations d’ordre général
+Les données sur la productivité ou le fonctionnement des terres utilisées pour renseigner la plateforme sont issues du traitement
+Trends.earth. En effet, le Burkina Faso ne dispose pas de données spatiales actualisées sur la productivité des terres. La limite du pays
+utilisée est celle en vigueur depuis 2012 (BNDT 2012) fournie par l’Institut Géographique du Burkina (IGB) qui est l’autorité technique en
+charge de la matérialisation des frontières. La base de données de Trends.Earth a été utilisée pour le calcul de la productivité. En somme, la
+tendance de la productivité ou du fonctionnement des terres du pays est restée stable sur 85,3% de la superficie totale du pays. Les
+améliorations portent sur 9,8% et la partie dégradée 4,9% du territoire national.
+10 / 105
+
+--- Page 11 ---
+SO-1: Pour améliorer l'état des écosystèmes touchés, combattre la désertification / dégradation des terres, promouvoir la
+gestion durable des terres et contribuer à la neutralité de la dégradation des terres.
+SO1-3 Évolution des stocks de carbone dans le sol et en surface
+Stocks de carbone organique du sol
+SO1-3.T1 − Estimations nationales du stock de carbone organique du sol dans la couche arable (0-30 cm)
+dans chaque catégorie de couvert terrestre (en tonnes par hectare)
+Stock de carbone organique du sol dans la couche arable (En t/ha)
+Année Zones couvertes Terres Zones Surfaces Autres Masses
+Prairies
+d’arbres cultivées humides artificielles terres d’eau
+2000 0 0 0 0 0 0 0
+2001 43 22 34 38 32 14 11
+2002 43 22 34 38 31 14 11
+2003 43 22 34 38 31 14 11
+2004 43 22 34 38 30 14 11
+2005 43 22 34 38 30 14 11
+2006 43 22 34 38 29 14 11
+2007 43 22 34 38 29 14 11
+2008 43 22 34 38 28 14 12
+2009 43 22 34 38 28 14 12
+2010 43 22 34 38 27 14 13
+2011 43 22 34 38 27 14 13
+2012 43 22 34 38 27 14 13
+2013 43 22 34 38 26 14 13
+2014 43 22 34 39 26 13 13
+2015 43 22 34 39 25 13 13
+2016 43 22 34 39 25 13 13
+2017 43 22 34 39 24 13 14
+2018 43 23 34 40 24 13 14
+2019 43 23 34 40 23 13 15
+2020 0 0 0 0 0 0 0
+Si vous avez choisi de ne pas utiliser les données par défaut du niveau 1, comment avez-vous calculé les
+estimations ci dessus ?
+Méthodes et données de niveau 1 modifiées
+Niveau 2 (utilisation supplémentaire de données propres au pays)
+Niveau 3 (méthodes plus complexes impliquant des mesures au sol et la modélisation)
+SO1-3.T2 : Estimations nationales de la variation du stock de carbone organique du sol due à la conversion
+de terres en une nouvelle catégorie de couvert terrestre pendant la période de référence
+Conversion de terres Variation du stock de carbone organique du sol pendant la période de référence
+11 / 105
+
+--- Page 12 ---
+SO-1: Pour améliorer l'état des écosystèmes touchés, combattre la désertification / dégradation des terres, promouvoir la
+gestion durable des terres et contribuer à la neutralité de la dégradation des terres.
+Stock initial Variation du
+Variation Stock initial de Stock final de Stock final total
+total de stock de
+nette de la carbone carbone de carbone
+De En carbone carbone
+superficie (En organique du organique du organique du
+organique du organique du
+km²) sol (En t/ha) sol (En t/ha) sol (En t/ha)
+sol (En t/ha) sol (En t)
+Zones
+Terres
+couvertes 397 45 ,4 48 ,9 1 801 344 1 941 513 140 169
+cultivées
+d’arbres
+Terres
+Prairies 298 21 ,5 23 ,1 640 051 687 107 47 056
+cultivées
+Zones
+couvertes Prairies 202 41 ,4 41 ,4 836 156 836 171 15
+d’arbres
+Zones
+Terres
+couvertes 5 172 39 ,0 34 ,4 20 170 405 17 771 888 -2 398 517
+cultivées
+d’arbres
+SO1-3.T3 : Estimations nationales de la variation du stock de carbone organique du sol due à la conversion
+de terres en une nouvelle catégorie de couvert terrestre pendant la période considérée
+Conversion de terres Variation du stock de carbone organique du sol pendant la période considérée
+Stock initial Variation du
+Variation Stock initial de Stock final de Stock final total
+total de stock de
+nette de la carbone carbone de carbone
+De En carbone carbone
+superficie (En organique du organique du organique du
+organique du organique du
+km²) sol (En t/ha) sol (En t/ha) sol (En t/ha)
+sol (En t/ha) sol (En t)
+Zones
+Terres
+couvertes 946 40 ,8 41 ,1 3 856 055 3 892 121 36 066
+cultivées
+d’arbres
+Terres
+Prairies 164 22 ,3 22 ,4 366 369 366 571 202
+cultivées
+Terres
+Prairies 137 17 ,3 16 ,3 237 371 223 702 -13 669
+cultivées
+Zones
+Terres
+couvertes 504 41 ,1 40 ,1 2 071 706 2 020 295 -51 411
+cultivées
+d’arbres
+Dégradation du stock de carbone organique du sol
+SO1-3.T4 : Estimations nationales de dégradation du stock de carbone organique du sol pendant la période
+de référence
+Superficie (En Pourcentage de la superficie totale des terres
+km²) (En %)
+Superficie des terres où le carbone organique du sol s’est dégradé 4 740 1 ,7
+Superficie de terres où le carbone organique du sol ne s’est pas
+267 476 98 ,2
+dégradé
+Superficie sans données sur le carbone organique du sol 55 0 ,0
+SO1-3.T5 : Estimations nationales de la dégradation du stock de carbone organique du sol pour la période
+considérée
+Superficie (En Pourcentage de la superficie totale des terres (En
+km²) %)
+Superficie des terres où le carbone organique du sol s’est
+31 0 ,0
+amélioré
+12 / 105
+
+--- Page 13 ---
+SO-1: Pour améliorer l'état des écosystèmes touchés, combattre la désertification / dégradation des terres, promouvoir la
+gestion durable des terres et contribuer à la neutralité de la dégradation des terres.
+Superficie (En Pourcentage de la superficie totale des terres (En
+km²) %)
+Superficie des terres où le carbone organique du sol est resté
+271 644 99 ,8
+stable
+Superficie des terres où le carbone organique du sol s’est
+518 0 ,2
+dégradé
+Superficie sans données sur le carbone organique du sol 56 0 ,0
+Observations d’ordre général
+Les données nationales existantes sur le carbone ne sont pas spatialement représentatives pour la période considérée (2016-2019). Cette
+situation a motivé l’utilisation des données issues du traitement Trends.earth. Dans la configuration de l’outils, la partie nationale a
+harmonisé la matrice de changement et la définition des sous-unités d’occupation des sols avec les réalités du pays. Par ailleurs la limite
+du pays utilisée est celle en vigueur depuis 2012 (BNDT 2012) fournie par l’Institut Géographique du Burkina (IGB) qui est l’autorité
+technique en charge de la matérialisation des frontières. Les résultats du traitement montrent que le stock de carbone organique du sol a
+connu une variation entre 2016 et 2019. Cette variation s’est traduite par une augmentation significative dans les unités de zones couvertes
+d’arbres et des zones humides ; et par une baisse dans les surfaces artificielles et les autres terres. Sur la période considérée, le Burkina
+Faso a perdu 3 306 833,65 tonnes de carbone organique du sol soit une baisse de 0.38% du stock total de carbone organique du sol. Cette
+perte est due exclusivement au changement observé au niveau des terres forestières qui sont passées de 150 242 930 Km² en 2016 à 131
+138 617 Km² en 2019 soit une perte de 13%.
+13 / 105
+
+--- Page 14 ---
+SO-1: Pour améliorer l'état des écosystèmes touchés, combattre la désertification / dégradation des terres, promouvoir la
+gestion durable des terres et contribuer à la neutralité de la dégradation des terres.
+SO1-4 Proportion de terres dégradées par rapport à la superficie totale des terres (indicateur
+15.3.1 des objectifs de développement durable)
+Proportion de terres dégradées par rapport à la superficie totale des terres (indicateur 15.3.1 des objectifs de
+développement durable)
+SO1-4.T1 : Estimations nationales de la superficie totale des terres dégradées (en km²) et de la proportion de
+terres dégradées par rapport à la superficie totale des terres
+Superficie totale des terres dégradées Proportion des terres dégradées par rapport à la superficie totale
+(En km²) des terres (en %)
+Période de Référence 94 207 34 ,6
+Période Considérée 22 347 8 ,2
+Variation de l’étendue
+-71860
+dégradée
+Méthode
+Avez-vous utilisé les indicateurs SO1-1, SO1-2 et SO1-3 (c’est-à-dire le couvert terrestre, la dynamique de la
+productivité des terres et le stock de carbone organique du sol) pour calculer la proportion de terres dégradées ?
+Quels indicateurs avez-vous utilisé ?
+☒ Couvert terrestre
+☒ Dynamique de la productivité des terres
+☒ Stock de carbone organique du sol
+Avez-vous appliqué le principe du paramètre déclassant pour calculer la proportion de terres dégradées ?
+Oui
+Non
+Niveau de confiance
+Indiquer le niveau de confiance de votre pays dans l’évaluation de la proportion de terres dégradées :
+Élevé (données factuelles complètes)
+Moyen (données factuelles partielles)
+Faible (données factuelles limitées)
+Expliquer pourquoi l’évaluation est créditée du niveau de confiance ci-dessus :
+Ce niveau de confiance s'explique par le fait que l'ensemble des trois indicateurs (Couvert terrestre (SO1-1), dynamique de la productivité
+(SO1-2) et stock de carbone organiques du sol (SO1-3)) ont été utilisés pour l'évaluation de la proportion des terres dégradées. Par ailleurs
+les données utilisées couvrent l'ensemble du pays ainsi que les années de référence (2001-2015) et la années considérées (2016-2019).
+Faux positifs/Faux négatifs
+SO1-4.T3 : Expliquer pourquoi toute superficie considérée comme dégradée ou non dégradée dans les
+données des indicateurs SO1-1, SO1-2 ou SO1-3 devrait ou non être prise en compte dans le calcul de
+l’indicateur global 15.3.1 des objectifs de développement durable.
+Nom du Recode Superficie (En Processus conduisant à un Éléments Modifier le
+Type
+lieu Options km²) résultat faux +/- d’appréciation polygone
+Effectuer des évaluations qualitatives des superficies considérées comme dégradées ou améliorées
+SO1-4.T4 : Zones sensibles à la dégradation des terres
+14 / 105
+
+--- Page 15 ---
+SO-1: Pour améliorer l'état des écosystèmes touchés, combattre la désertification / dégradation des terres, promouvoir la
+gestion durable des terres et contribuer à la neutralité de la dégradation des terres.
+Mesure(s)
+prise(s) pour
+remédier à la
+Mesure(s)
+Facteurs directs dégradation en
+de remise en
+de la fonction de la
+Zones Superficie Processus état (à la Modifier le
+Emplacement dégradation des hiérarchie des
+sensibles (En km²) d’évaluation fois polygone
+terres dans les mesures visant
+future(s) et
+zones sensibles la neutralité en
+actuelle(s))
+matière de
+dégradation des
+terres
+Zones ☒ Éviter
+périphériques
+Ouagadougou 0 ,4 ☒ Réduire
+de
+☒ Inverser
+Ouagadougou
+Zones ☒ Éviter
+périphériques
+Ouagadougou 0 ,6 None ☒ Réduire
+de
+☒ Inverser
+Ouagadougou
+Zones ☒ Éviter
+périphériques
+Ouagadougou 2 ,7 ☒ Réduire
+de
+☒ Inverser
+Ouagadougou
+Zones ☒ Éviter
+périphériques
+Ouagadougou 0 ,9 ☒ Réduire
+de
+☒ Inverser
+Ouagadougou
+Zones ☒ Éviter
+périphériques
+Ouagadougou 0 ,8 ☒ Réduire
+de
+☒ Inverser
+Ouagadougou
+Zones ☒ Éviter
+périphériques
+Ouagadougou 4 ,6 ☒ Réduire
+de
+☒ Inverser
+Ouagadougou
+Zones ☒ Éviter
+périphériques
+Ouagadougou 2 ,8 ☒ Réduire
+de
+☒ Inverser
+Ouagadougou
+Zones ☒ Éviter
+périphériques
+Ouagadougou 5 ,9 ☒ Réduire
+de
+☒ Inverser
+Ouagadougou
+Zones ☒ Éviter
+périphériques
+Ouagadougou 0 ,2 ☒ Réduire
+de
+☒ Inverser
+Ouagadougou
+Nombre total
+de zones 13
+sensibles
+Superficie
+totale des
+60
+zones
+sensibles
+15 / 105
+
+--- Page 16 ---
+SO-1: Pour améliorer l'état des écosystèmes touchés, combattre la désertification / dégradation des terres, promouvoir la
+gestion durable des terres et contribuer à la neutralité de la dégradation des terres.
+Mesure(s)
+prise(s) pour
+remédier à la
+Facteurs directs dégradation en Mesure(s)
+de la fonction de la de remise en
+Zones Superficie Processus Modifier le
+Emplacement dégradation des hiérarchie des état (à la fois
+sensibles (En km²) d’évaluation polygone
+terres dans les mesures visant future(s) et
+zones sensibles la neutralité en actuelle(s))
+matière de
+dégradation des
+terres
+1. Déboisement et
+défrichement de
+toute autre
+végétation
+indigène
+Zones 2. Gestion des ☒ Éviter
+périphériques Bobo- terres cultivées
+de Bobo- Dioulasso 8 ,8 et de ☒ Réduire Modifier le polygone
+l’agroforesterie ☒ Inverser
+Dioulasso
+3. Infrastructure,
+industrie et
+urbanisation
+4. Changements
+climatiques
+1. Déboisement et
+défrichement de
+toute autre
+végétation
+indigène
+Zones 2. Gestion des ☒ Éviter
+périphériques Bobo- terres cultivées
+de Bobo- Dioulasso 17 ,1 et de ☒ Réduire Modifier le polygone
+l’agroforesterie ☒ Inverser
+Dioulasso
+3. Infrastructure,
+industrie et
+urbanisation
+4. Changements
+climatiques
+1. Déboisement et
+défrichement de
+toute autre
+végétation
+indigène
+Zones 2. Gestion des ☒ Éviter
+périphériques Bobo- terres cultivées
+de Bobo- Dioulasso 9 ,1 et de ☒ Réduire Modifier le polygone
+l’agroforesterie ☒ Inverser
+Dioulasso
+3. Infrastructure,
+industrie et
+urbanisation
+4. Changements
+climatiques
+Nombre total
+de zones 13
+sensibles
+Superficie
+totale des
+60
+zones
+sensibles
+16 / 105
+
+--- Page 17 ---
+SO-1: Pour améliorer l'état des écosystèmes touchés, combattre la désertification / dégradation des terres, promouvoir la
+gestion durable des terres et contribuer à la neutralité de la dégradation des terres.
+Mesure(s)
+prise(s) pour
+remédier à la
+Facteurs directs dégradation en Mesure(s)
+de la fonction de la de remise en
+Zones Superficie Processus Modifier le
+Emplacement dégradation des hiérarchie des état (à la fois
+sensibles (En km²) d’évaluation polygone
+terres dans les mesures visant future(s) et
+zones sensibles la neutralité en actuelle(s))
+matière de
+dégradation des
+terres
+1. Déboisement et
+défrichement de
+toute autre
+végétation
+indigène
+Zones 2. Gestion des ☒ Éviter
+périphériques Bobo- terres cultivées
+de Bobo- Dioulasso 6 ,1 et de ☒ Réduire Modifier le polygone
+l’agroforesterie ☒ Inverser
+Dioulasso
+3. Infrastructure,
+industrie et
+urbanisation
+4. Changements
+climatiques
+Nombre total
+de zones 13
+sensibles
+Superficie
+totale des
+60
+zones
+sensibles
+Quel(s) est/sont le(s) facteur(s) indirect(s) de la dégradation des terres au niveau national ?
+1. Démographie
+2. Économie
+3. Science, connaissances et technologie
+4. Institutions et gouvernance
+5. Culture
+SO1-4.T5 : Zones favorables à l’amélioration des terres
+Quelle(s) mesure(s) a
+(ont) conduit à l’apparition Mesure(s) de
+d’une zone favorable en mise en œuvre
+Zones Superficie Processus Modifier le
+Emplacement fonction de la hiérarchie (à la fois future
+favorables (En km²) d’évaluation polygone
+de neutralité en matière (s) et actuelle
+de la dégradation des (s))
+terres ?
+Commune de
+Kyon (Région Berges du cours
+7 ,1 None
+du Centre- d'eau de Vranso
+Ouest)
+Commune de
+Sapouy
+UAF-5 22 ,4 None
+(Région du
+Centre-Ouest)
+Nombre total de zones favorables 12
+Superficie totale des zones favorables 243
+17 / 105
+
+--- Page 18 ---
+SO-1: Pour améliorer l'état des écosystèmes touchés, combattre la désertification / dégradation des terres, promouvoir la
+gestion durable des terres et contribuer à la neutralité de la dégradation des terres.
+Quelle(s) mesure(s) a
+(ont) conduit à l’apparition Mesure(s) de
+d’une zone favorable en mise en œuvre
+Zones Superficie Processus Modifier le
+Emplacement fonction de la hiérarchie (à la fois future
+favorables (En km²) d’évaluation polygone
+de neutralité en matière (s) et actuelle
+de la dégradation des (s))
+terres ?
+Commune de Espace de
+Ipelcé (Région conservation de 18 ,9 None
+du Centre-Sud) Narogtenga
+Commune de
+Bouroum- Forêt communale
+Bouroum de 34 ,5 None
+(Région du Bourou_Bouroum
+Sud-Ouest)
+Commune de
+Tenado
+Forêt de Lati 9 None
+(Région du
+Centre-Ouest)
+Commune de
+Partiaga
+Forêt de Mardaga 5 None
+(Région de
+l'Est)
+Commune de
+Kantchari Forêt villageoise de
+7 ,1 None
+(Région de Bantoini
+l'Est)
+Commune de
+Yé (Région de forêt villageoise de
+4 None
+la Boucle du Daman
+Mouhoun)
+Commune de
+Doulougou Forêt villageoise de
+32 ,9 None
+(Région du Guidissi-Toéghin
+Centre-Sud)
+Commune de
+Gossina
+forêt villageoise de
+(Région de la 1 ,8 None
+Madamao
+Boucle du
+Mouhoun)
+Commune de
+Doulougou Forêt villageoise de
+41 ,8 None
+(Région du Silemba
+Centre-Sud)
+Commune de
+Midebdo
+ZOVIC de Midebdo 58 ,5 None Modifier le polygone
+(Région du
+Sud-Ouest)
+Nombre total de zones favorables 12
+Superficie totale des zones favorables 243
+Quels sont les mesures habilitantes et instruments adoptés au niveau national qui conduisent à l’apparition de zones favorables ?
+1. Aires protégées
+2. Instruments juridiques et réglementaires
+3. Instruments sociaux et culturels
+4.
+18 / 105
+
+--- Page 19 ---
+SO-1: Pour améliorer l'état des écosystèmes touchés, combattre la désertification / dégradation des terres, promouvoir la
+gestion durable des terres et contribuer à la neutralité de la dégradation des terres.
+Planification de l’adaptation aux effets des changements climatiques
+5. Planification intégrée des paysages
+�. Réforme institutionnelle et politique
+7. Instruments économiques et financiers
+Observations d’ordre général
+L’estimation de la dégradation des terres au niveau du pays a été réalisée avec la méthode dite « dégradant » via Trends.Earth ; cela augure
+de résultats fiables. Néanmoins, une vérification de la dynamique de dégradation a été effectuée en utilisant Google Earth. La configuration
+de la matrice de transition et la définition des classes d'occupation des terres conformément au réalité du pays pourraient être à l’origine du
+décalage de la proportion des terres dégradées de 21,9% et 4, 9% suivant les données par défaut et les données améliorées de
+Trends.Earth. Les zones dégradées sont plus vraisemblables que les zones améliorées. Néanmoins dans l’ensemble l’estimation de la
+dégradation est appréciée positivement au regard de la précision des données utilisées. Cette technique d’évaluation des faux
+positifs/négatifs via Google Earth est jugée insuffisante pour renseigner PRAIS. Elle devrait être complétée par des sorties sur le terrain.
+Quant à l'évaluation qualitative des superficies considérées comme dégradées ou améliorées (Zones sensibles à la dégradation des
+terres/Zones favorables à l’amélioration des terres), elle n’est pas disponible à ce stade. Elle nécessite une vérification sur le terrain après
+une combinaison des paramètres de couvert terrestre, de productivité et de stock de carbone. Les informations seront fournies lorsqu’elles
+seront disponibles au niveau national.
+19 / 105
+
+--- Page 20 ---
+SO-1: Pour améliorer l'état des écosystèmes touchés, combattre la désertification / dégradation des terres, promouvoir la gestion durable des terres et contribuer à
+la neutralité de la dégradation des terres.
+SO1 Cibles Volontaires
+SO1-VT.T1. Cibles volontaires de neutralité en matière de dégradation des terres et autres cibles pertinentes pour l’objectif stratégique 1
+Type
+primordial Est-ce une cible
+d’intervention Mesure de NDT? Si oui,
+Zone Quels autres
+dans le dans dans le cadre
+cible objectifs
+domaine de laquelle de quel Modifier le
+Objectif Année Emplacement(s) totale Mesures ciblées importants sont
+la neutralité la cible processus a t polygone
+(en également visés
+en matière de a été elle été
+km²) par cette cible ?
+dégradation atteinte définie/adoptée
+des terres ?
+(NDT)
+• Dispositif d’ordre général (par
+exemple, politiques,
+incitations économiques)
+• Restauration/amélioration de
+l’état des zones humides
+◦ Restaurer/préserver les
+zones humides et réduire
+la dégradation des zones
+humides
+• Restauration/amélioration de
+l’état des terres cultivées
+◦ Pratiquer une gestion
+durable des terres
+◦ Réhabiliter les terres nues • Convention
+ou dégradées pour la sur la
+production de cultures diversité
+Restauration biologique −
+d’ici à 2030, • Restauration/amélioration de Stratégies
+de 5.16 l’état des prairies et plans
+millions ha ◦ Restaurer les pâturages d’action
+(100%) des (par exemple en nationaux
+terres contrôlant le bétail et les en matière de
+dégradées feux de forêt) biodiversité et
+par rapport à ◦ Restaurer et améliorer les cibles
+la période de pâturages nationales
+référence Oui • Divers:
+(2002-2013), ☒ Éviter • Gestion des surfaces Non Initiative de la
+soit 19% du Territoire artificielles En Grande
+territoire 2030 national 0 ,6 ☒ Réduire ◦ Restaurer les zones cours Participation au Muraille Verte Modifier le polygone
+national, tout ☒ Inverser minières dégradées Programme de au sahel et au
+en définition de
+Sahara
+maximisant • Restauration/amélioration de cibles de NDT
+les efforts l’état des zones protégées • AFR100
+p et o c u o r n ré tr d ô u le ir r e ◦ Restaurer les aires • Convention-
+l d a é v g i r t a e d s a s t e i o d n e ◦ p A r m ot é é li g o é r e e s r la gestion des c N a a d ti r o e n d s e U s nies
+des terres de aires protégées sur les
+sorte à changements
+atteindre la • Rétablissement/amélioration climatiques −
+NDT. de l’utilisation multiple des Contributions
+terres déterminées
+au niveau
+• Restauration/amélioration de national
+l’état des zones boisées
+◦ Réduire/arrêter le
+déboisement et la
+conversion du couvert
+forestier en d’autres types
+de couvert terrestre (par
+exemple, en préservant
+les terres forestières)
+◦ Restauration/amélioration
+de l’état des prairies
+◦ Restaurer/améliorer les
+zones couvertes d’arbres
+◦ Améliorer la gestion du
+couvert forestier, par
+exemple par la gestion
+des incendies
+Somme de toutes les zones ciblées
+Total
+10 931 ,1
+20 / 105
+
+--- Page 21 ---
+SO-1: Pour améliorer l'état des écosystèmes touchés, combattre la désertification / dégradation des terres, promouvoir la gestion durable des terres et contribuer à
+la neutralité de la dégradation des terres.
+Type
+primordial Est-ce une cible
+d’intervention Mesure de NDT? Si oui,
+Zone Quels autres
+dans le dans dans le cadre
+cible objectifs
+domaine de laquelle de quel Modifier le
+Objectif Année Emplacement(s) totale Mesures ciblées importants sont
+la neutralité la cible processus a t polygone
+(en également visés
+en matière de a été elle été
+km²) par cette cible ?
+dégradation atteinte définie/adoptée
+des terres ?
+(NDT)
+• Dispositif d’ordre général (par
+exemple, politiques,
+incitations économiques)
+• Restauration/amélioration de
+l’état des terres cultivées
+◦ Pratiquer une gestion • Convention
+durable des terres sur la
+◦ Améliorer l’utilisation de diversité
+l’eau pour l’irrigation biologique −
+◦ Augmenter la productivité Stratégies
+des terres dans les zones et plans
+agricoles d’action
+nationaux
+• Restauration/amélioration de en matière de
+Améliorer la l’état des prairies biodiversité et
+productivité ◦ Restaurer et améliorer les cibles
+dans les pâturages nationales
+catégories ◦ Améliorer la productivité Oui • Divers:
+d’occupation des terres dans les
+« arbustes, Territoire ☒ Éviter prairies En Non I G n r i a ti n a d ti e ve de la
+prairies» et « 2030 national 0 ,5 ☒ Réduire cours Participation au Muraille Verte Modifier le polygone
+terres ☐ Inverser • Restauration/amélioration de Programme de au sahel et au
+cultivées » l’état des zones protégées définition de Sahara
+en déclin ◦ Améliorer la gestion des cibles de NDT
+soit 2,5 aires protégées • AFR100
+millions
+d’hectares. • Rétablissement/amélioration • c C a o d n r v e e d n e ti s on-
+de l’utilisation multiple des Nations Unies
+terres sur les
+changements
+• Restauration/amélioration de climatiques −
+l’état des zones boisées Contributions
+◦ Augmenter la productivité déterminées
+des terres dans les zones au niveau
+couvertes d’arbres national
+◦ Améliorer la gestion du
+couvert forestier, par
+exemple par la gestion
+des incendies
+• Rétablissement/amélioration
+des fonctions multiples
+• Convention
+• Restauration/amélioration de sur la
+l’état des terres cultivées diversité
+◦ Pratiquer une gestion biologique −
+Stratégies
+durable des terres
+et plans
+d’action
+Améliorer • Rétablissement/amélioration nationaux
+les stocks de de l’utilisation multiple des en matière de
+carbone sur terres biodiversité et
+798 000 ha cibles
+pour • Accroissement de la fertilité nationales
+p m a i r n v im en u ir m à d u e n d ca e r s b s o o n l e s et des réserves de Oui • Divers:
+1 m o (a % r a p g t p a d iè n o e r i r q e t u d e e 2030 T n e a r t r io it n o a ir l e 7 980 ☒ ☒ ☐ É R In v é v i d t e e u r r s ir e e r ◦ ◦ ◦ s R R M a é é a b d d i l n u u e t i i r r e e e n l l i ’ ’ r é e l r m e o p s n i i i o é ve t n e a d m u e e a s n c s t t o u d l e u s l E co n urs P P dé a ro fi r N g t n i r o c i a t n i i p m o a n m t i d o e e n d a e u I G M a n u r i u a t s i r n a a a d t i h i l e v l e e e l V e d e t e r a t la u e
+Sahara
+5T de du carbone organique du cibles de NDT
+matière sol • AFR100
+organique à ◦ Améliorer la gestion des
+l’hectare bassins versants et des • Convention-
+tous les 2 paysages cadre des
+ans) ◦ Réhabiliter les terres nues Nations Unies
+et/ou restaurer les terres sur les
+dégradées changements
+◦ Augmenter le stock de climatiques −
+carbone et réduire la Contributions
+dégradation des sols et déterminées
+des terres au niveau
+national
+Somme de toutes les zones ciblées
+Total
+10 931 ,1
+21 / 105
+
+--- Page 22 ---
+SO-1: Pour améliorer l'état des écosystèmes touchés, combattre la désertification / dégradation des terres, promouvoir la gestion durable des terres et contribuer à
+la neutralité de la dégradation des terres.
+Type
+primordial Est-ce une cible
+d’intervention Mesure de NDT? Si oui,
+Zone Quels autres
+dans le dans dans le cadre
+cible objectifs
+domaine de laquelle de quel Modifier le
+Objectif Année Emplacement(s) totale Mesures ciblées importants sont
+la neutralité la cible processus a t polygone
+(en également visés
+en matière de a été elle été
+km²) par cette cible ?
+dégradation atteinte définie/adoptée
+des terres ?
+(NDT)
+• Convention
+sur la
+diversité
+• Gestion des surfaces biologique −
+artificielles Stratégies
+◦ Restaurer les zones et plans
+minières dégradées d’action
+◦ Arrêter les activités nationaux
+en matière de
+minières illégales et/ou
+biodiversité et
+réduire les zones minières
+◦ Améliorer la productivité cibles
+nationales
+des terres sur les
+Récupérer surfaces artificielles Oui • Divers:
+295 000 ☐ Éviter ◦ Arrêter/réduire/réguler Non Initiative de la
+hectares des Territoire l’expansion des surfaces En Grande
+terrains non 2030 national 2 950 ☐ Réduire urbaines/artificielles cours Participation au Muraille Verte
+viabilisés sur ☒ Inverser Programme de au sahel et au
+un total de • Rétablissement/amélioration définition de Sahara
+590 000 ha cibles de NDT
+de l’utilisation multiple des • AFR100
+terres
+• Convention-
+• Rétablissement/amélioration cadre des
+des fonctions multiples Nations Unies
+sur les
+• Réduction/arrêt de la changements
+conversion des terres à climatiques −
+utilisations multiples Contributions
+déterminées
+au niveau
+national
+Somme de toutes les zones ciblées
+Total
+10 931 ,1
+SO1.IA.T1 : Zones dans lesquelles ont été mises en œuvre des mesures en rapport avec les cibles (projets et initiatives sur le terrain)
+Mesures Date de début de
+Cible Emplacement Étendue de Superficie totale où des mesures ont été mises en œuvre jusqu’à présent (en Modifier le
+mises en mise en œuvre
+pertinente (nom de lieu) la mesure km²) polygone
+œuvre des mesures
+Somme de toutes les zones pertinentes où ont été mises en œuvre des
+mesures visant la même cible
+Restauration d’ici à 2030, de 5.16 millions ha (100%) des terres dégradées
+par rapport à la période de référence (2002-2013), soit 19% du territoire 0
+national, tout en maximisant les efforts pour réduire et contrôler la vitesse ,00
+de dégradation des terres de sorte à atteindre la NDT.:
+Améliorer la productivité dans les catégories d’occupation « arbustes, 0
+prairies» et « terres cultivées » en déclin soit 2,5 millions d’hectares.: ,00
+Améliorer les stocks de carbone sur 798 000 ha pour parvenir à un
+0
+minimum de 1% de matière organique (apport de 5T de matière organique à
+,00
+l’hectare tous les 2 ans):
+Récupérer 295 000 hectares des terrains non viabilisés sur un total de 590 0
+000 ha: ,00
+Observations d’ordre général
+Les cibles volontaires indiquées dans cette rubrique correspondent aux différentes cibles en matière de neutralité des terres au Burkina Faso établies sur la base des informations
+issues de l’établissement de la situation de référence pour la période 2002-2013. En plus des cibles nationales, des cibles régionales ont été définies pour être prises en compte
+dans les plans locaux de développement. Ces cibles sont ambitieuses car elles reposent sur une restauration équivalente à la superficie des terres qui ont été dégradées ces onze
+dernières années tout en limitant/évitant la dégradation pour les années futures. Ainsi en 2030, la neutralité en matière de dégradation des terres aura été atteinte par rapport à son
+niveau en 2002. Par ailleurs, elles sont en cohérence avec des engagements précédents pris notamment dans le cadre des conventions de Rio et de Ramsar. En ce qui concerne la
+mise en œuvre des mesures en rapport avec les cibles (projets et initiatives sur le terrain) le processus d'évaluation du niveau d’exécution à mi-parcours de ces mesures prises est
+en cours. par conséquent cette partie (SO1.IA.T1) n'a pu être renseignée.
+22 / 105
+
+--- Page 23 ---
+SO-2: Améliorer les conditions de vie des populations touchées.
+SO2-1 Évolution de la population vivant sous le seuil de pauvreté relatif et/ou des inégalités
+de revenus dans les zones touchées
+Critère de mesure pertinent
+Choisir la mesure pertinente pour votre pays :
+Pourcentage de la population vivant en
+dessous du seuil international de pauvreté
+Inégalités de revenus (indice de Gini)
+Pourcentage de la population vivant en dessous du seuil international de pauvreté
+SO2-1.T1 : Estimations nationales de la proportion de la population vivant en dessous du seuil international
+de pauvreté
+Année Pourcentage de la population vivant en dessous du seuil international de pauvreté (%)
+2 000
+2 001
+2 002
+2 003 57.4
+2 004
+2 005
+2 006
+2 007
+2 008 52.6
+2 009 55.4
+2 010
+2 011
+2 012
+2 013
+2 014 39.6
+2 015
+2 016
+2 017
+2 018 30.5
+2 019
+2 020
+Évaluation qualitative
+SO2-1.T3 : Interprétation de l’indicateur
+Critère de mesure de Évolution de
+Observations
+l’indicateur l’indicateur
+Selon les données de la Banque mondiale, le ratio de la population pauvre disposant de moins
+Pourcentage de la
+de 1,90 dollars/jour (2011 PPA) (en % de la population), est estimé à 30,5% en 2018 alors qu’en
+population vivant en
+2014 , il était de 39,6% La croissance économique a été le seul vecteur de la baisse de la
+dessous du seuil Baisse
+pauvreté entre 2014 et 2018. En effet selon le Plan National de Développement Economique et
+international de
+Social (PNDES II 2021-2025), le taux de croissance du Produit intérieur brut (PIB) s’est situé en
+pauvreté
+moyenne à 6,2% entre 2016 et 2019.
+23 / 105
+
+--- Page 24 ---
+SO-2: Améliorer les conditions de vie des populations touchées.
+Observations d’ordre général
+Deux études sur la pauvreté et les conditions de vie des ménages ont été réalisées en 2018 en collaboration avec la Banque mondiale et la
+Commission de l’UEMOA : l’Enquête Multisectorielle Continue (EMC-2018) a permis de dégager une tendance robuste de l’évolution de la
+pauvreté entre 2014 et 2018 et l’Enquête Harmonisée sur les Conditions de Vie des Ménages (EHCVM) a permis d’avoir une nouvelle
+référence pour la mesure et le suivi de la pauvreté et des conditions de vie des ménages au Burkina Faso.
+24 / 105
+
+--- Page 25 ---
+SO-2: Améliorer les conditions de vie des populations touchées.
+SO2-2 Évolution de l’accès à l’eau potable dans les zones touchées
+Proportion de la population utilisant des services d’alimentation en eau potable gérés en toute sécurité
+SO2-1.T1 : Estimations nationales de la proportion de la population utilisant des services d’alimentation en
+eau potable gérés en toute sécurité
+Année Urbaine (%) Rurale (%) Totale (%)
+2000
+2001
+2002
+2003
+2004
+2005
+2006
+2007
+2008
+2009
+2010
+2011
+2012
+2013
+2014 88 64.1 70.1
+2015 90 65 71.7
+2016 99 65.4 72.4
+2017 92 66.2 73.4
+2018 91.1 67.3 74
+2019 92.9 68.4 75.4
+2020
+Évaluation qualitative
+SO2-2.T2 : Interprétation de l’indicateur
+Évolution de
+Observations
+l’indicateur
+Tendance à la hausse de l’indicateur au niveau national et en milieu rural ; Tendance à la baisse en milieu
+Augmentation
+urbain
+Observations d’ordre général
+La tendance à la hausse au niveau national pourrait être liée aux efforts et à l’engagement de l’Etat et de ses partenaires pour l’atteinte des
+ODD notamment l’objectif 6 « Garantir l’accès de tous à l’eau et à l’assainissement et assurer une gestion durable des ressources en eau ».
+Cette tendance à la hausse est également observée en milieu rural. Cela pourrait s’expliquer par le fait que le milieu rural est le plus souvent
+la zone privilégiée des projets intervenant dans le domaine de l’approvisionnement en eau potable. Aussi la population urbaine est de plus
+en plus croissante. Elle est passée de 22,7% en 2006 à 26,3% en 2019, selon le 5ème Recensement Général de la Population et de l’Habitat
+(RGPH) réalisé en 2019 Cependant la croissance démographique rapide dans les zones non loties en milieu urbain qui ne pas le plus
+souvent pris en compte par les services de l’office national de l’eau et de l’assainissement dans l’extension de son réseau pourrait expliquer
+la tendance à la baisse de l’indicateur en milieu urbain.
+25 / 105
+
+--- Page 26 ---
+SO-2: Améliorer les conditions de vie des populations touchées.
+SO2-3 Évolution de la proportion de la population exposée à la dégradation des terres,
+ventilée par sexe
+Proportion de la population exposée à la dégradation des terres, ventilée par sexe
+SO2-3.T1 : Estimations nationales de la proportion de la population exposée à la dégradation des terres,
+ventilée par sexe
+Population Population Pourcentage de la
+Population Pourcentage de la Pourcentage de la
+féminine masculine population
+Période exposée population totale population féminine
+exposée exposée masculine totale
+(nombre) exposée (%) totale exposée (%)
+(nombre) (nombre) exposée (%)
+Période de
+7077405 37 ,3 3631120 37 ,1 3446285 37 ,6
+référence
+Période
+2821893 12 ,9 1430871 12 ,6 1391022 13 ,1
+considérée
+Évaluation qualitative
+SO2-3.T2 : Interprétation de l’indicateur
+Évolution de
+Observations
+l’indicateur
+On note une forte tandence à la baisse (de 37,3% à 12,9%) de la proportion de la population totale exposée à la
+Baisse dégradation des terres entre la période de référence et la période considérée. Cette forte tendance est également
+observée aussi bien au niveau de la population féminine (de 37,1% à 12,6%) que masculine (de 37,6% à 13,1% ) exposée.
+Observations d’ordre général
+La partie nationale a utilisé l’outil Trend Earth pour l’estimation de l’évolution de la proportion de la population exposée à la dégradation des
+terres ventilée par sexe. L’estimation de la proportion de la population exposée s’est appuyée sur les données de distributions spatiales de
+la population par defaut.
+26 / 105
+
+--- Page 27 ---
+SO-2: Améliorer les conditions de vie des populations touchées.
+SO2 Cibles Volontaires
+SO2-VT.T1
+Objectif Année Niveau d’application Mesure dans laquelle la cible a été atteinte Observations
+Observations d’ordre général
+27 / 105
+
+--- Page 28 ---
+SO-3: Pour atténuer, à s'y adapter et de gérer les effets de la sécheresse afin d'améliorer la résilience des populations et des
+écosystèmes vulnérables.
+SO 3-1 Évolution de la proportion de terres frappées par la sécheresse au regard de la
+superficie totale
+Indicateur du risque de sécheresse
+SO3-1.T1 : Estimations nationales de la superficie des terres relevant de chaque catégorie d’intensité de
+sécheresse, telle que définie par l’indice de précipitations normalisé ou d’autres indicateurs nationaux ayant
+trait à la sécheresse
+Catégorie d’intensité de sécheresse
+Sécheresse légère (En Sécheresse modérée Sécheresse intense (En Sécheresse extrême Pas de sécheresse (En
+km²) (En km²) km²) (En km²) km²)
+2000 161 373 32 182 7 517 1 503 70 647
+2001 150 943 51 368 9 447 0 61 463
+2002 132 373 67 254 47 164 12 125 14 307
+2003 0 0 0 0 273 222
+2004 130 149 42 569 10 374 0 90 130
+2005 87 197 24 770 22 446 0 138 809
+2006 97 831 22 824 3 946 0 148 620
+2007 97 888 15 627 3 911 0 155 797
+2008 52 323 4 619 0 0 216 280
+2009 38 368 5 0 0 234 849
+2010 43 800 16 546 752 0 212 124
+2011 160 284 31 433 20 075 4 587 56 842
+2012 43 524 31 0 0 229 667
+2013 81 652 40 575 104 190 851
+2014 57 093 969 661 29 214 469
+2015 41 266 2 188 931 627 228 209
+2016 48 500 1 153 125 2 223 442
+2017 66 136 21 320 19 497 3 776 162 494
+2018 43 287 6 016 0 0 223 919
+2019 4 247 0 0 0 268 974
+2020
+2021
+SO3-1.T2 : Tableau récapitulatif de la superficie des terres touchées par la sécheresse sans ventilation par
+catégorie
+Superficie totale des terres touchées par la sécheresse (En km²) Proportion de terres touchées par la sécheresse (En %)
+2000 202 575 74 ,4
+2001 211 758 77 ,8
+2002 258 915 95 ,1
+28 / 105
+
+--- Page 29 ---
+SO-3: Pour atténuer, à s'y adapter et de gérer les effets de la sécheresse afin d'améliorer la résilience des populations et des
+écosystèmes vulnérables.
+Superficie totale des terres touchées par la sécheresse (En km²) Proportion de terres touchées par la sécheresse (En %)
+2003 0 0 ,0
+2004 183 091 67 ,2
+2005 134 413 49 ,4
+2006 124 602 45 ,8
+2007 117 425 43 ,1
+2008 56 942 20 ,9
+2009 38 373 14 ,1
+2010 61 098 22 ,4
+2011 216 380 79 ,5
+2012 43 555 16 ,0
+2013 82 371 30 ,3
+2014 58 753 21 ,6
+2015 45 013 16 ,5
+2016 49 780 18 ,3
+2017 110 728 40 ,7
+2018 49 303 18 ,1
+2019 4 247 1 ,6
+2020 -
+2021 -
+Évaluation qualitative:
+Pour la période considérée, on observe principalement 02 types de sécheresse à savoir les sècheresses modérées et légères. Toutefois, il
+est observé des sècheresses intenses et extrêmes en 2016 et 2017.
+Observations d’ordre général
+La courte période considérée (2016-2019) ne permet pas de déceler un changement qualitatif sur les évolutions des superficies de terres
+touchées par la sécheresse. L’estimation de l’indicateur de l’objectif stratégique 3-1 a utilisé l’indice de précipitations normalisé (SPI). Cet
+indice a été généré avec l’outil Trends.Earth. Les séries chronologiques mensuelles du SPI reposent sur les données maillées sur les
+précipitations sélectionnées et sont calculées au moyen de la méthode SPI-12. En se basant sur l’arbre décisionnel, la partie nationale a
+choisi d’utiliser des données par défaut tirées du produit de suivi du Centre mondial de climatologie des précipitations (Global Precipitation
+Climatology Centre, GPCC).
+29 / 105
+
+--- Page 30 ---
+SO-3: Pour atténuer, à s'y adapter et de gérer les effets de la sécheresse afin d'améliorer la résilience des populations et des
+écosystèmes vulnérables.
+SO 3-2 Évolution de la proportion de la population exposée à la sécheresse
+Indicateur de l’exposition à la sécheresse
+L’exposition renvoie au nombre de personnes exposées à la sécheresse, calculé à partir des données de l’indicateur SO3-1.
+SO3-2.T1 : Estimations nationales du pourcentage de la population totale dans chaque catégorie d’intensité
+de sécheresse, ainsi que du nombre de personnes et de la part de la population nationale exposée à la
+sécheresse, quelle qu’en soit l’intensité.
+Sécheresse Sécheresse
+Non-exposed Sécheresse légère Sécheresse intense Population exposée
+modérée extrême
+Année Nombre Nombre Nombre Nombre Nombre Nombre
+% % % % % %
+considérée d’habitants d’habitants d’habitants d’habitants d’habitants d’habitants
+17 57 20 3 0 82
+2000 2064203 6613233 2407103 378771 81356 9 480 463
+,9 ,3 ,9 ,3 ,7 ,1
+19 48 30 1 0 80
+2001 2288433 5791030 3661959 154091 0 9 607 080
+,2 ,7 ,8 ,3 ,0 ,8
+55 21 18 3 98
+2002 131355 1 ,1 6791305 2582644 2289347 476200 12 139 496
+,3 ,0 ,7 ,9 ,9
+100 0 0 0 0 0
+2003 12694885 0 0 0 0 0
+,0 ,0 ,0 ,0 ,0 ,0
+42 42 11 3 0 57
+2004 5554520 5597501 1504288 428953 0 7 530 742
+,4 ,8 ,5 ,3 ,0 ,6
+54 29 7 7 0 45
+2005 7416549 4006340 1053698 1040556 0 6 100 594
+,9 ,6 ,8 ,7 ,0 ,1
+45 32 22 0 0 54
+2006 6322335 4486127 3083712 84446 0 7 654 285
+,2 ,1 ,1 ,6 ,0 ,8
+51 44 2 0 0 48
+2007 7468240 6488934 413444 68382 0 6 970 760
+,7 ,9 ,9 ,5 ,0 ,3
+86 12 0 0 0 13
+2008 12856821 1931642 136568 0 0 2 068 210
+,1 ,9 ,9 ,0 ,0 ,9
+90 10 0 0 0 10
+2009 13875192 1546335 0 0 0 1 546 335
+,0 ,0 ,0 ,0 ,0 ,0
+84 11 3 0 0 15
+2010 13444956 1893699 588079 27063 0 2 508 841
+,3 ,9 ,7 ,2 ,0 ,7
+13 68 9 4 4 86
+2011 2170781 11343248 1526478 697795 771952 14 339 473
+,1 ,7 ,2 ,2 ,7 ,9
+88 11 0 0 0 11
+2012 15173933 1922819 3663 0 0 1 926 482
+,7 ,2 ,0 ,0 ,0 ,3
+75 24 0 0 0 24
+2013 13400371 4278148 2352 12412 1633 4 294 545
+,7 ,2 ,0 ,1 ,0 ,3
+86 13 0 0 0 13
+2014 15786565 2486256 34000 15128 839 2 536 223
+,2 ,6 ,2 ,1 ,0 ,8
+89 10 0 0 0 11
+2015 16866652 1953109 92288 28240 16230 2 089 867
+,0 ,3 ,5 ,1 ,1 ,0
+89 10 0 0 0 10
+2016 17632137 1969889 33606 3398 36 2 006 929
+,8 ,0 ,2 ,0 ,0 ,2
+67 17 5 4 4 32
+2017 13649487 3613465 1183310 941899 966728 6 705 402
+,1 ,8 ,8 ,6 ,7 ,9
+88 10 1 0 0 12
+2018 18603602 2197437 328911 0 0 2 526 348
+,0 ,4 ,6 ,0 ,0 ,0
+99 0 0 0 0 0
+2019 21818348 125429 0 0 0 125 429
+,4 ,6 ,0 ,0 ,0 ,6
+2020 - - - - - - -
+2021 - - - - - - -
+SO3-2.T2 : Estimations nationales du pourcentage de femmes touchées pour chaque catégorie d’intensité de
+sécheresse.
+Sécheresse Sécheresse Nombre de femmes
+Non-exposed Sécheresse légère Sécheresse intense
+modérée extrême exposées
+30 / 105
+
+--- Page 31 ---
+SO-3: Pour atténuer, à s'y adapter et de gérer les effets de la sécheresse afin d'améliorer la résilience des populations et des
+écosystèmes vulnérables.
+Année Nombre Nombre Nombre Nombre Nombre Nombre
+% % % % % %
+considérée d’habitants d’habitants d’habitants d’habitants d’habitants d’habitants
+17 57 20 3 0 82
+2000 1052038 3444725 1240025 197193 42338 4 924 281
+,6 ,6 ,7 ,3 ,7 ,4
+19 48 30 1 0 80
+2001 1191451 2985166 1897885 82327 0 4 965 378
+,4 ,5 ,8 ,3 ,0 ,6
+55 21 18 3 98
+2002 67133 1 ,1 3508857 1354719 1178122 242958 6 284 656
+,2 ,3 ,5 ,8 ,9
+100 0 0 0 0 0
+2003 6567938 0 0 0 0 0
+,0 ,0 ,0 ,0 ,0 ,0
+42 42 11 3 0 57
+2004 2882808 2907305 762479 217026 0 3 886 810
+,6 ,9 ,3 ,2 ,0 ,4
+54 29 7 7 0 45
+2005 3832066 2094126 538227 528233 0 3 160 586
+,8 ,9 ,7 ,6 ,0 ,2
+45 32 21 0 0 54
+2006 3261405 2345347 1580955 42999 0 3 969 301
+,1 ,4 ,9 ,6 ,0 ,9
+52 44 2 0 0 47
+2007 3902044 3319889 212774 35101 0 3 567 764
+,2 ,4 ,8 ,5 ,0 ,8
+86 12 0 0 0 13
+2008 6664741 981192 70122 0 0 1 051 314
+,4 ,7 ,9 ,0 ,0 ,6
+90 9 0 0 0 9
+2009 7185081 787712 0 0 0 787 712
+,1 ,9 ,0 ,0 ,0 ,9
+84 11 3 0 0 15
+2010 6944171 984829 302262 13753 0 1 300 844
+,2 ,9 ,7 ,2 ,0 ,8
+13 69 9 4 4 87
+2011 1108886 5885091 790837 353831 390724 7 420 483
+,0 ,0 ,3 ,1 ,6 ,0
+88 11 0 0 0 11
+2012 7823796 1004322 1930 0 0 1 006 252
+,6 ,4 ,0 ,0 ,0 ,4
+76 23 0 0 0 24
+2013 6944910 2179035 1213 6528 899 2 187 675
+,0 ,9 ,0 ,1 ,0 ,0
+86 13 0 0 0 13
+2014 8143881 1285838 17451 8167 422 1 311 878
+,1 ,6 ,2 ,1 ,0 ,9
+88 10 0 0 0 11
+2015 8688668 1021848 47092 14454 8412 1 091 806
+,8 ,4 ,5 ,1 ,1 ,2
+89 10 0 0 0 10
+2016 9103624 1012547 16936 1706 19 1 031 208
+,8 ,0 ,2 ,0 ,0 ,2
+67 17 5 4 4 32
+2017 7056173 1871869 604682 480712 489463 3 446 726
+,2 ,8 ,8 ,6 ,7 ,8
+88 10 1 0 0 12
+2018 9596535 1140079 167695 0 0 1 307 774
+,0 ,5 ,5 ,0 ,0 ,0
+99 0 0 0 0 0
+2019 11260617 63665 0 0 0 63 665
+,4 ,6 ,0 ,0 ,0 ,6
+2020 - - - - - - -
+2021 - - - - - - -
+SO3-2.T3 : Estimations nationales du pourcentage d’hommes touchés pour chaque catégorie d’intensité de
+sécheresse.
+Sécheresse Sécheresse Nombre d’hommes
+Non-exposed Sécheresse légère Sécheresse intense
+modérée extrême exposés
+Année Nombre Nombre Nombre Nombre Nombre Nombre
+% % % % % %
+considérée d’habitants d’habitants d’habitants d’habitants d’habitants d’habitants
+18 56 21 3 0 81
+2000 1012165 3168508 1167078 181578 39018 4 556 182
+,2 ,9 ,0 ,3 ,7 ,8
+19 48 30 1 0 80
+2001 1096982 2805864 1764074 71764 0 4 641 702
+,1 ,9 ,7 ,3 ,0 ,9
+55 20 18 3 98
+2002 64222 1 ,1 3282448 1227925 1111225 233242 5 854 840
+,5 ,7 ,8 ,9 ,9
+100 0 0 0 0 0
+2003 6126947 0 0 0 0 0
+,0 ,0 ,0 ,0 ,0 ,0
+42 42 11 3 0 57
+2004 2671712 2690196 741809 211927 0 3 643 932
+,3 ,6 ,7 ,4 ,0 ,7
+54 29 7 7 0 45
+2005 3584483 1912214 515471 512323 0 2 940 008
+,9 ,3 ,9 ,9 ,0 ,1
+31 / 105
+
+--- Page 32 ---
+SO-3: Pour atténuer, à s'y adapter et de gérer les effets de la sécheresse afin d'améliorer la résilience des populations et des
+écosystèmes vulnérables.
+Sécheresse Sécheresse Nombre d’hommes
+Non-exposed Sécheresse légère Sécheresse intense
+modérée extrême exposés
+Année Nombre Nombre Nombre Nombre Nombre Nombre
+% % % % % %
+considérée d’habitants d’habitants d’habitants d’habitants d’habitants d’habitants
+45 31 22 0 0 54
+2006 3060930 2140780 1502757 41447 0 3 684 984
+,4 ,7 ,3 ,6 ,0 ,6
+51 45 2 0 0 48
+2007 3566196 3169045 200670 33281 0 3 402 996
+,2 ,5 ,9 ,5 ,0 ,8
+85 13 0 0 0 14
+2008 6192080 950450 66446 0 0 1 016 896
+,9 ,2 ,9 ,0 ,0 ,1
+89 10 0 0 0 10
+2009 6690111 758623 0 0 0 758 623
+,8 ,2 ,0 ,0 ,0 ,2
+84 11 3 0 0 15
+2010 6500785 908870 285817 13310 0 1 207 997
+,3 ,8 ,7 ,2 ,0 ,7
+13 68 9 4 4 86
+2011 1061895 5458157 735641 343964 381228 6 918 990
+,3 ,4 ,2 ,3 ,8 ,7
+88 11 0 0 0 11
+2012 7350137 918497 1733 0 0 920 230
+,9 ,1 ,0 ,0 ,0 ,1
+75 24 0 0 0 24
+2013 6455461 2099113 1139 5884 734 2 106 870
+,4 ,5 ,0 ,1 ,0 ,6
+86 13 0 0 0 13
+2014 7642684 1200418 16549 6961 417 1 224 345
+,2 ,5 ,2 ,1 ,0 ,8
+89 10 0 0 0 10
+2015 8177984 931261 45196 13786 7818 998 061
+,1 ,1 ,5 ,2 ,1 ,9
+89 10 0 0 0 10
+2016 8528513 957342 16670 1692 17 975 721
+,7 ,1 ,2 ,0 ,0 ,3
+66 17 5 4 4 33
+2017 6593314 1741596 578628 461187 477265 3 258 676
+,9 ,7 ,9 ,7 ,8 ,1
+88 10 1 0 0 11
+2018 9007067 1057358 161216 0 0 1 218 574
+,1 ,3 ,6 ,0 ,0 ,9
+99 0 0 0 0 0
+2019 10557731 61764 0 0 0 61 764
+,4 ,6 ,0 ,0 ,0 ,6
+2020 - - - - - - -
+2021 - - - - - - -
+Évaluation qualitative
+Interprétation de l’indicateur
+Pour la période considérée, on constate que les populations ont été exposées aux 02 types de sécheresse à savoir les sècheresses
+modérées et légères. Toutefois, on observe des populations qui ont été exposées aux sècheresses intenses et extrêmes en 2016 et 2017.
+En outre, on constate que la population de femme et d’hommes sont exposés à la sécheresse sur la période considérée.
+Observations d’ordre général
+La courte période considérée (2016-2019) ne permet pas de déceler un changement qualitatif sur l’évolution des populations touchées par
+la sécheresse.
+32 / 105
+
+--- Page 33 ---
+SO-3: Pour atténuer, à s'y adapter et de gérer les effets de la sécheresse afin d'améliorer la résilience des populations et des
+écosystèmes vulnérables.
+SO 3-3 Évolution du degré de vulnérabilité à la sécheresse
+Indice de vulnérabilité à la sécheresse
+SO3-3.T1 : Estimations nationales de l’indice de vulnérabilité à la sécheresse
+Valeur totale de l’indice de Valeur de l’indice de vulnérabilité à la Valeur de l’indice de vulnérabilité à la
+Année vulnérabilité à la sécheresse du sécheresse chez les hommes (niveaux 2 et sécheresse chez les femmes (niveaux 2 et
+pays (niveau 1) 3 uniquement) 3 uniquement)
+2000
+2001
+2002
+2003
+2004
+2005
+2006
+2007
+2008
+2009
+2010
+2011
+2012
+2013
+2014 0 ,83
+2015
+2016
+2017
+2018 0 ,12
+2019 0 ,33
+2020
+2021
+Méthode
+Quel niveau avez-vous utilisé pour calculer l’indice de vulnérabilité à la sécheresse ?
+☒ L’évaluation de la vulnérabilité de niveau 1 ⓘ
+☐ L’évaluation de la vulnérabilité de niveau 2 ⓘ
+☐ L’évaluation de la vulnérabilité de niveau 3 ⓘ
+Évaluation qualitative
+SO3-3.T2 : Interprétation de l’indicateur
+Évolution de
+Observations
+l’indicateur
+Pour le calcul de l’indice de vulnérabilité, la partie nationale a retenu le niveau 1. Ce choix se
+Indicateur SO3-3
+justifie par le fait qu’il n’existe pas de données ventilées par sexe au niveau national pour toute la
+(indice de
+Diminution période considérée. Aussi, il n’existe de données par défaut sur la plateforme. Sur la période
+vulnérabilité àla
+considérée, seules les données de 2018 et 2019 ont été utilisés pour le calcul. Au vu des résultats
+sécheresse du pays)
+obtenus, nous constatons que l’indice de vulnérabilité est en baisse de 2014 à 2019.
+33 / 105
+
+--- Page 34 ---
+SO-3: Pour atténuer, à s'y adapter et de gérer les effets de la sécheresse afin d'améliorer la résilience des populations et des
+écosystèmes vulnérables.
+Observations d’ordre général
+Pour le calcul de l’indice de vulnérabilité, la partie nationale a retenu le niveau 1. Ce choix se justifie par le fait qu’il n’existe pas de données
+ventilées par sexe au niveau national pour toute la période considérée. Aussi, il n’existe de données par défaut sur la plateforme. Sur la
+période considérée, seules les données de 2018 et 2019 ont été utilisés pour le calcul. Au vu des résultats obtenus, nous constatons que
+l’indice de vulnérabilité est en baisse de 2014 à 2019.
+34 / 105
+
+--- Page 35 ---
+SO-3: Pour atténuer, à s'y adapter et de gérer les effets de la sécheresse afin d'améliorer la résilience des populations et des
+écosystèmes vulnérables.
+SO3 Cibles Volontaires
+SO3-VT.T1
+Objectif Année Niveau d’application Mesure dans laquelle la cible a été atteinte Observations
+Observations d’ordre général
+Au niveau nationale, il n’existe pas une cible spécifique dédié à la population exposée à la dégradation des terres.
+35 / 105
+
+--- Page 36 ---
+SO4-1 Évolution des stocks de carbone dans le sol
+et en surface
+Stocks de carbone organique du sol
+L’évolution des stocks de carbone dans le sol et en surface est un indicateur polyvalent utilisépour mesurer les progrès accomplis dans la réalisation des
+objectifs stratégiques 1 et 4.
+Des données quantitatives et une évaluation qualitative de l’évolution de cet indicateur sont communiquées au titre de l’indicateur de progrès SO1-3 de
+l’objectif stratégique 1.
+36 / 105
+
+--- Page 37 ---
+SO-4 : Générer des avantages environnementaux mondiaux grâce à la mise en œuvre effective de la Convention des Nations
+Unies sur la lutte contre la désertification.
+SO4-2 Évolution de l’abondance et de la répartition de certaines espèces
+SO4-2.T1 : Estimations nationales de l’indice de la Liste rouge, mesurant la survie des espèces
+Année Indice de la Liste rouge Limite inférieure Limite supérieure Observation
+2000 0 ,98875 0 ,98746 0 ,98908
+2001 0 ,98864 0 ,98732 0 ,98897
+2002 0 ,98855 0 ,98717 0 ,98889
+2003 0 ,98844 0 ,9871 0 ,9888
+2004 0 ,98831 0 ,98686 0 ,9887
+2005 0 ,98819 0 ,98672 0 ,98861
+2006 0 ,98807 0 ,98642 0 ,98851
+2007 0 ,98787 0 ,98608 0 ,98838
+2008 0 ,98775 0 ,98582 0 ,98825
+2009 0 ,98752 0 ,98538 0 ,98813
+2010 0 ,98726 0 ,98516 0 ,98802
+2011 0 ,98702 0 ,98474 0 ,98778
+2012 0 ,98693 0 ,98437 0 ,98777
+2013 0 ,98687 0 ,98404 0 ,98761
+2014 0 ,98682 0 ,98394 0 ,98757
+2015 0 ,98678 0 ,9838 0 ,98776
+2016 0 ,98676 0 ,98336 0 ,98779
+2017 0 ,98674 0 ,98328 0 ,9879
+2018 0 ,9867 0 ,98331 0 ,98797
+2019 0 ,98668 0 ,98302 0 ,9881
+2020 0 ,98666 0 ,98285 0 ,98817
+Évaluation qualitative
+SO4-2.T2 : Interprétation de l’indicateur
+Quels leviers sont-ils utilisés
+Facteurs Facteurs responsables: Interventions qui
+pour enrayer l’évolution
+Évolution de responsables: directs indirects (sélectionner ont débouché sur
+négative et permettre un Observations
+l’indicateur (sélectionner un ou un ou plusieurs une évolution
+changement
+plusieurs éléments) éléments) positive de l’ILR
+transformateur?
+1. Incitations et renforcement
+1. Changement et
+des capacités
+d’affectation des terres
+1. Modes de production et
+2. Coopération intersectorielle
+2. Surexploitation de consommation
+3. Mesures préventives
+3. Changements 2. Dynamique et évolution
+Négatif
+climatiques de la population 4. Prise de décisions dans le
+humaine contexte de la résilience et de
+4. Pollution
+l’incertitude
+3. Commerce
+5. Espèces exotiques
+5. Droit de l’environnement et
+envahissantes
+application de celui-ci
+37 / 105
+
+--- Page 38 ---
+SO-4 : Générer des avantages environnementaux mondiaux grâce à la mise en œuvre effective de la Convention des Nations
+Unies sur la lutte contre la désertification.
+Observations d’ordre général
+Le Burkina Faso n’a pas mené d’étude spécifique relative à l’indice de la Liste rouge (ILR). Par conséquent, les données à défaut fournies
+par la plateforme ont été retenues. Ces données déterminent les tendances significatives sur l’état de la biodiversité en examinant les
+changements globaux dans le nombre d’espèces menacées dans les différents écosystèmes du territoire national.
+38 / 105
+
+--- Page 39 ---
+SO-4 : Générer des avantages environnementaux mondiaux grâce à la mise en œuvre effective de la Convention des Nations
+Unies sur la lutte contre la désertification.
+SO4-3 Proportion des sites importants pour la biodiversité terrestre et la biodiversité des
+eaux douces qui se trouvent dans des aires protégées (par type d’écosystème)
+SO4-3.T1: National estimates of the average proportion of Terrestrial KBAs covered by protected areas (%)
+Année Proportion des sites se trouvant dans des aires protégées (%) Limite inférieure Limite supérieure Observations
+2000 66.71 66 ,71 66 ,71
+2001 66.71 66 ,71 66 ,71
+2002 66.71 66 ,71 66 ,71
+2003 66.71 66 ,71 66 ,71
+2004 66.71 66 ,71 66 ,71
+2005 66.71 66 ,71 66 ,71
+2006 66.71 66 ,71 66 ,71
+2007 66.71 66 ,71 66 ,71
+2008 66.71 66 ,71 66 ,71
+2009 66.71 66 ,71 66 ,71
+2010 66.71 66 ,71 66 ,71
+2011 66.71 66 ,71 66 ,71
+2012 66.71 66 ,71 66 ,71
+2013 66.71 66 ,71 66 ,71
+2014 66.71 66 ,71 66 ,71
+2015 66.71 66 ,71 66 ,71
+2016 66.71 66 ,71 66 ,71
+2017 66.71 66 ,71 66 ,71
+2018 66.71 66 ,71 66 ,71
+2019 66.71 66 ,71 66 ,71
+2020 66.71 66 ,71 66 ,71
+Évaluation qualitative
+SO4-2.T2 : Interprétation de l’indicateur
+Évaluation
+Observation
+qualitative
+Pas de L'indicateur n'a pas changé du fait que les aires protégées au niveau du pays bénéficient d'un statut de conservation
+changement et font l'objet d'une protection spéciale.
+Observations d’ordre général
+Le Burkina Faso n’a pas mené d’étude spécifique relative à la détermination de la proportion moyenne des sites importants pour la
+biodiversité terrestre qui se trouvent dans les aires protégées. Les travaux menés dans le cadre de la deuxième monographie nationale sur
+la diversité biologique (2020) ont identifié les réservoirs potentiels de la biodiversité du Burkina Faso qui sont les aires classées au nom de
+l’Etat ou des collectivités territoriales, les sites Ramsar du Burkina Faso (zones d’Importance pour la Conservation des Oiseaux du Burkina
+Faso) et les chantiers d’aménagement forestiers (CAF) au Burkina Faso. A cela s’ajoute les résultats d’une mission d'évaluation de l’état de
+la biodiversité et des différentes menaces pesant sur elles aux niveaux national et local. L’objectif a été de produire une situation de
+référence qui servira de base pour sélectionner deux secteurs d’activités économiques impactant la biodiversité et clés pour le
+39 / 105
+
+--- Page 40 ---
+SO-4 : Générer des avantages environnementaux mondiaux grâce à la mise en œuvre effective de la Convention des Nations
+Unies sur la lutte contre la désertification.
+développement du pays. Ce travail a été commandité par le Programme de l’UICN pour le Burkina Faso dans le cadre de la mise en œuvre
+du projet BIODEV2030. Pour cela, les données par défaut fournies par la plateforme ont été retenues pour le renseignement de cet
+indicateur.
+40 / 105
+
+--- Page 41 ---
+SO-4 : Générer des avantages environnementaux mondiaux grâce à la mise en œuvre effective de la Convention des Nations
+Unies sur la lutte contre la désertification.
+SO4 Cibles Volontaires
+SO4-VT.T1
+Niveau Mesure dans laquelle la
+Objectif Année Observations
+d’application cible a été atteinte
+Assurer une amélioration de la connaissance de la DB et son
+2025 National En cours
+intégration à tous les niveaux.
+Assurer la conservation et la restauration de la diversité
+2025 National En cours
+biologique au Burkina Faso.
+Assurer la valorisation et l’utilisation durable de la diversité
+2025 National En cours
+biologique.
+Assurer l’accès aux ressources génétiques et le partage juste et
+2025 National En cours
+équitable des avantages découlant de leur utilisation.
+Renseignements complémentaires
+Ces cibles proviennent de la Stratégie et Plan d'Actions National sur la Biodiversité (2016-2025). La mise en œuvre de ces objectifs se fait
+dans le cadre d’une démarche multidisciplinaire cohérente susceptible de contribuer également à la lutte contre la désertification au
+Burkina Faso. Après l’adoption du cadre mondial sur la diversité biologique qui devrait assurer une meilleure préservation des ressources
+naturelles, ces objectifs seront revus pour mieux définir les actions prioritaires et activités correspondantes à la préservation de la
+biodiversité.
+41 / 105
+
+--- Page 42 ---
+SO-5: Mobiliser les ressources financières et non financières importantes et supplémentaires pour appuyer la mise en œuvre de
+la Convention en établissant des partenariats efficaces au niveau mondial et national
+SO5-1 Ressources publiques bilatérales et multilatérales
+Niveau 1 : Communiquer des informations sur les ressources publiques internationales fournies et reçues
+aux fins de la mise en œuvre de la Convention, y compris des informations sur l’évolution de ces ressources.
+Évolution des ressources publiques internationales bilatérales et multilatérales fournies
+En hausse ↑
+Stable ←→
+En baisse ↓
+Inconnue ∾
+Évolution des ressources publiques internationales bilatérales et multilatérales reçues
+En hausse ↑
+Stable ←→
+En baisse ↓
+Inconnue ∾
+Les mesures prises par le pays pour mobiliser des ressources publiques internationales; sur les projets et activités : - Adhésion du pays aux
+différentes initiatives mondiales et régionales ; - mise en place de la Coalition Nationale sur la Gestion Durable des Terres (GDT) en janvier
+2022 a regroupé cinq structures piliers de la GDT au Burkina Faso (SP/CPSA, SP/CNDD, SPONG, CNA, CPF ; - Organisation d'un symposium
+scientifique international sur la GDT ; - Alignement du Programme d’Action National de Lutte Contre la Désertification (PAN/LCD) au cadre
+stratégique 2018-2030 de la CNULCD ; - Fort engagement de la société civile (plaidoyer) ; - Elaboration et mise en œuvre des plans d'action
+nationaux sur lesquels se fondent les différents programmes et projets au niveau du pays.
+Niveau 2 : Tableau 1 Ressources financières fournies et reçues
+Montant total en dollars des États Unis
+Fourn/Reçu Année Engage-ment pris Décaissés/Reçus
+Engage-ment pris Versé
+Provided 2016
+0 0
+Engage-ment pris Versé
+Provided 2017
+0 0
+Engage-ment pris Versé
+Provided 2018
+0 0
+Engage-ment pris Versé
+Provided 2019
+0 0
+Engage-ment pris Reçu
+Received 2016
+49 771 209 ,81 47 585 798 ,10
+Engage-ment pris Reçu
+Received 2017
+40 481 032 ,57 56 665 000 ,01
+Engage-ment pris Reçu
+Received 2018
+85 348 120 ,61 57 408 266 ,74
+Engage-ment pris Reçu
+Received 2019
+59 174 626 ,47 77 580 840 ,19
+Total des ressources fournies: 0 0
+Total des ressources reçues: 234 774 989 ,46 239 239 905 ,04
+Documentation
+Explication
+Année
+Bénéficiaire / Pourvoyeur
+Titre du projet, programme, activité ou autre mesure
+Montant total en dollars des États Unis
+Secteur
+42 / 105
+
+--- Page 43 ---
+SO-5: Mobiliser les ressources financières et non financières importantes et supplémentaires pour appuyer la mise en œuvre de
+la Convention en établissant des partenariats efficaces au niveau mondial et national
+Explication
+Renforcement des capacités
+Transfert de technologie
+Égalité des sexes
+Canal
+Type de flux
+Instrument financier
+Type d’appui
+Montant des fonds mobilisés au moyen d’interventions publiques
+Renseignements complémentaires
+Observations d’ordre général
+Les montants communiqués par défaut ont été retenus car les mécanismes de suivi nationaux ne permettent pas de renseigner avec
+exactitude cet indicateur.
+43 / 105
+
+--- Page 44 ---
+SO-5: Mobiliser les ressources financières et non financières importantes et supplémentaires pour appuyer la mise en œuvre de
+la Convention en établissant des partenariats efficaces au niveau mondial et national
+SO5-2 Ressources publiques nationales
+Niveau 1 : Communiquer des informations sur les dépenses publiques nationales, y compris les subventions
+et les recettes, dont les impôts, directement et indirectement liées à la mise en œuvre de la Convention, y
+compris des renseignements sur l’évolution de ces montants.
+Évolution des dépenses publiques nationales et des ressources financières consacrées au niveau national aux activités liées à la mise en œuvre de la
+Convention
+En hausse ↑
+Stable ←→
+En baisse ↓
+Inconnue ∾
+Évolution des recettes publiques nationales provenant des activités liées à la mise en œuvre de la Convention
+En hausse ↑
+Stable ←→
+En baisse ↓
+Inconnue ∾
+Les instruments économiques utilisés pour freiner la dégradation des terres et pour inciter à la neutralité en matière de dégradation des
+terres sont : - développement des chaines de valeurs ; - promotion des microfinances ; - création des emplois verts ; - création d'un Fonds
+d'Intervention pour l'Environnement ; - mise en place des Fonds miniers au profit des collectivités ; - mise en place des taxes sur les
+prélèvements des ressources naturelles au niveau des collectivités.
+L'existence des taxes sur les prélèvements des ressources naturelles (agrégats, eau, bois, charbon de bois, taxes en sus) au niveau des
+collectivités permet de réduire la pression sur les ressources naturelles.
+Niveau 2 : Tableau 2 Ressources publiques nationales
+Année Montants Renseignements complémentaires
+Dépenses publiques
+Directement liées à la lutte contre la DDTS
+Indirectement liées à la lutte contre la DDTS
+Subventions
+Subventions liées à la lutte contre la DDTS
+Dépenses totales/total par an
+Renseignements
+Année Montants
+complémentaires
+Recettes publiques
+Taxes environnementales pour la conservation des ressources foncières et taxes
+liées à la lutte contre la DDTS
+Revenus totaux/total par an
+Documentation
+Explication
+Dépenses publiques
+Subventions
+Recettes publiques
+Ressources nationales directement ou indirectement liées à la lutte contre la DDTS
+Votre pays a-t-il fixé un objectif d’augmentation et de mobilisation des ressources nationales aux fins de la mise en œuvre de la Convention ?
+Oui
+Non
+Observations d’ordre général
+44 / 105
+
+--- Page 45 ---
+SO-5: Mobiliser les ressources financières et non financières importantes et supplémentaires pour appuyer la mise en œuvre de
+la Convention en établissant des partenariats efficaces au niveau mondial et national
+Nous avons opté de renseigner le niveau 1 uniquement .
+45 / 105
+
+--- Page 46 ---
+SO-5: Mobiliser les ressources financières et non financières importantes et supplémentaires pour appuyer la mise en œuvre de
+la Convention en établissant des partenariats efficaces au niveau mondial et national
+SO5-3 Ressources privées internationales et nationales
+Niveau 1 : Communiquer des informations sur les ressources publiques internationales et nationales
+mobilisées par le secteur privé de votre pays aux fins de la mise en œuvre de la Convention, y compris des
+informations sur l’évolution de ces ressources.
+Évolution des ressources publiques internationales
+En hausse ↑
+Stable ←→
+En baisse ↓
+Inconnue ∾
+Évolution des ressources publiques nationales
+En hausse ↑
+Stable ←→
+En baisse ↓
+Inconnue ∾
+Les sources de financement innovantes, les partenaires de cofinancement et les mécanismes de financement mixte auxquels le secteur
+privé du pays a accordé le plus d’attention pour la mise en œuvre de la Convention sont : Fonds pour l'Environnement Mondial, Fonds
+d'Intervention pour l'Environnement, Fonds NDT.
+Niveau 2 : Tableau 3 Ressources privées internationales et nationales
+Montant total en
+Titre du projet, programme, Instrument Type Renseignements
+Année dollars des États Bénéficiaire
+activité ou autre mesure financier d’institution complémentaires
+Unis
+Total 0
+Donner des informations méthodologiques utiles concernant les données présentées dans le tableau 3
+Votre pays a-t-il pris des mesures pour encourager le secteur privé ainsi que les organisations non
+gouvernementales, les fondations et les milieux universitaires à fournir des ressources internationales et
+nationales aux fins de la mise en œuvre de la Convention ?
+Observations d’ordre général
+46 / 105
+
+--- Page 47 ---
+SO-5: Mobiliser les ressources financières et non financières importantes et supplémentaires pour appuyer la mise en œuvre de la Convention en établissant des partenariats
+efficaces au niveau mondial et national
+SO5-4 Transfert de technologie
+Niveau 1 : Communiquer des informations sur les ressources fournies et reçues aux fins du transfert de technologie et de la mise en œuvre de la Convention,
+y compris des informations sur l’évolution de ces ressources.
+Évolution des ressources publiques internationales bilatérales et multilatérales fournies
+En hausse ↑
+Stable ←→
+En baisse ↓
+Inconnue ∾
+Évolution des ressources publiques internationales bilatérales et multilatérales reçues
+En hausse ↑
+Stable ←→
+En baisse ↓
+Inconnue ∾
+La informations mises au point pour, encourager et faciliter l’innovation et le transfert de technologie par le secteur privé sont : -Mise en place d’un système de Mesurage, Rapportage et Vérification
+national ; -Révision de la Contribution Déterminée au niveau National -Révision du Plan National d'Adaptation en cours.
+L'élaboration d’un décret pour la mise en place du système MRV National afin d’engager l'ensemble des parties prenantes par les inventaires des GES et leur permettre de travailler convenablement.
+Niveau 2 : Tableau 4 Ressources fournies et reçues pour les mesures ou activités de transfert de technologie
+Titre du Calendrier
+Utilisation,
+projet, Activités État d’exécution
+Fourni Bénéficiaire Description et Type de incidence et Renseignements
+Année programme, Montant Secteur menées d’avancement de la
+Reçu Pourvoyeur objectifs technologie résultats complémentaires
+activité ou par de l’activité mesure ou
+estimés
+autre mesure de l’activité
+le cadre de
+Capacity
+Bulding for Améliorer le ☒ Agriculture transparence,
+le système
+Burkina cadre de ☒ Foresterie Renforcement MRV et la
+Faso's Autre transparence ☒ Eau et de capacités Secteur plateforme
+Fourni Transparency (préciser) climatique afin assainissement à l'utilisation public en ligne, la
+Reçu 2019 S cl y im st a e t m e for 180 000 Burkina d re e n p d o re u v c o o i m r pte ☐ Niveau des nouvelles et/ou En cours 2020-2023 nouvelle Co-financement
+change Faso régulièrement transversal technologies privé CDN,
+des IGES nouveau
+Mitigation les CDN et les ☐ Autre PNA et les
+and BTR (préciser) facteurs
+adaptation
+d'émission
+Restaurer les
+terres
+dégradées à
+☒ Agriculture
+Treeplanting travers la
+as strategy promotion et ☒ Foresterie
+to promote le reboisement ☐ Eau et
+lands pour assainissement
+restoration conserver la
+biodiversity Autre diversité ☐ Niveau Renforcement Secteur 49426 plants
+Fourni conservation (préciser) biologique et transversal des capacités public pourvoyeurs PNUE
+Reçu 2019 a im nd p r t o o ve 80 000 B Fa u s rk o ina l d a u g ra e b s l t e io d n es ☒ (p r A éc u i t s re er) e r d e n e s s m t a te a u r t r r i a è e t r s i e o n de e p t r / iv o é u En cours 2019-2023 d en e t P e F r N re L mis ( c fi o n ré a e n n c ) ement
+livelihods of terres, former
+Agroforesterie,
+local les
+transformation
+communities bénéficiaires
+des produits
+in Burkina en technique
+forestiers non
+Faso de production
+ligneux
+des plants et
+transformation
+des PFNL
+Total fourni : 0 Total reçu : 260 000
+Total par an 2019 fourni : 0 Total par an 2019 reçu : 260 000
+Donner des informations méthodologiques utiles concernant les données présentées dans le tableau 4
+Communiquer des informations sur les hypothèses sous-jacentes, les définitions et les méthodes utilisées pour rendre compte des transferts de technologie
+assurés, reçus ou requis. Ajouter des liens vers des documents utiles.
+Les méthodes utilisées pour rendre compte des transferts de technologie sont : - l'élaboration des rapports périodiques des différents projets ;; - renseignement de la plateforme en ligne (www.mrv-
+burkina.bf) par les points focaux sectoriels.
+Donner des informations sur les types de technologies nouvelles ou actuelles dont votre pays a besoin pour lutter contre la désertification, la dégradation
+des terres et la sécheresse, et sur les difficultés rencontrées pour acquérir ou mettre au point ces technologies.
+Les types de technologies nouvelles ou actuelles dont le pays a besoin pour lutter contre la désertification, la dégradation des terres et la sécheresse, sont : - identification, capitalisation et diffusion
+des bonnes pratiques de GDT (RNA, CES/DRS, agroforestérie,...) ; - renforcement des capacités sur les outils SIG et Télédétections qui contribuent au rapportage et au suivi (Trends.Earth de QGis,....) ;
+Les difficultés rencontrées sont : - insuffisance de financement ; - insuffisance d'application des textes.
+Observations d’ordre général
+Les informations sur les technologies nouvelles et actuelles sont dans le document sur "les bonnes pratiques sur la gestion durable des terres au Burkina Faso" (2011).
+47 / 105
+
+--- Page 48 ---
+SO-5: Mobiliser les ressources financières et non financières importantes et supplémentaires pour appuyer la mise en œuvre de
+la Convention en établissant des partenariats efficaces au niveau mondial et national
+SO5-5 Appui futur aux activités liées à la mise en œuvre de la Convention
+SO5-5.1 : Fourniture et mobilisation prévues de ressources nationales publiques et privées
+Donner des informations sur les ressources nationales qu’il est prévu de fournir et de mobiliser aux fins de la
+mise en œuvre de la Convention, y compris des renseignements relatifs à l’indicateur SO5-2, ainsi que des
+informations sur les ressources financières publiques qu’il est prévu de verser, les secteurs cibles et les
+politiques nationales qu’il est prévu de mettre en œuvre.
+- Fonds d'Intervention pour l'Environnement avec un guichet spécialisé "GDT"; - Fonds minier de développement local ; - Agence nationale
+d'appui au développement des collectivités locales ; - Fonds de réhabilitation de fermeture des mines..
+SO5-5.2: Fourniture et mobilisation prévues de ressources internationales publiques et privées
+Donner des informations sur les ressources internationales qu’il est prévu de fournir et de mobiliser aux fins
+de la mise en œuvre de la Convention, y compris des informations sur les ressources financières publiques et
+l’appui qu’il est prévu de consacrer au renforcement des capacités et au transfert de technologie, sur les
+régions et pays cibles, et sur les programmes et politiques prévus et les priorités fixées.
+Les ressources alloués à l'accélérateur de l'Initiative de la grande Muraille Verte pour le Sahara et le Sahel.. L’accélérateur de la Grande
+muraille verte est une structure agile, multi-acteurs, qui apporte une nouvelle ambition politique au financement et à la réalisation de la
+Grande muraille verte.
+SO5-5.3 : Ressources nécessaires
+Communiquer des informations sur les ressources financières nécessaires à la mise en œuvre de la
+Convention, notamment sur les projets qui ont le plus besoin de ressources et les régions qui ont le plus
+besoin d’aide et auxquels votre pays a accordé le plus d’attention.
+Observations d’ordre général
+48 / 105
+
+--- Page 49 ---
+IF : Cadre de mise en œuvre
+Sources financières et non financières
+Mobilisation accrue de ressources:
+Souhaitez-vous faire part de la façon dont votre pays a mobilisé davantage de ressources au cours de la période considérée ?
+Oui
+Non
+Quels ont été les types de ressources mobilisées (cochez toutes les cases correspondantes) ?
+☒ Ressources financières
+☒ Ressources non financières
+Quelles sources ont été mobilisées ?
+☒ Sources internationales
+☒ Sources nationales
+☒ Sources publiques
+☐ Sources privées
+☒ Collectivités locales
+☐ Sources de financement non traditionnelles
+☒ Financement de l’action climatique
+☐ Autre (préciser)
+Utiliser l’espace ci-dessous pour décrire cette expérience :
+L'atteinte des cibles volontaires NDT du Burkina Faso à l'horizon 2030 nécessite un effort de mobilisation de 2.7 milliards de dollar US. Pour
+cela le pays a développé des stratégies de mobilisation aussi bien au niveau national qu'international. Au niveau international : - adhésion
+aux initiatives de mise en œuvre des différentes convention en lien avec l'environnement: - le développement des partenariats avec les
+partenaires technique et financiers. Au niveau national : - développement des instruments aptes à améliorer d'avantages la coordination
+des différents usages des ressources en terres ; - renforcement des capacités des acteurs pour le montages des projets
+transformationnels banquables. Au niveau des collectivités : -la prise en compte de la NDT et les nouvelles thématiques en matière
+d'Environnement dans les plans locaux de développement.
+Quelles ont été les difficultés rencontrées, le cas échéant ?
+Quelles sont, selon vous, les enseignements à retenir à cet égard ?
+Les enseignements tirés suite à la mobilisation des ressources sont : - le renforcement du dialogue interministériel avec toutes les parties
+prenantes concernées par l'utilisation des ressources en terres ; - .la mise en place d'outils de planification spéciaux temporels des projets
+de la LCD et l'optimisation des différents usages de la terre ; -l'adoption des objectifs chiffrés facilitant la mobilisation des partenaires et
+des financements.
+Comment avez-vous fait en sorte que les femmes bénéficient de ces sources de financement ou y aient accès ?
+Prise en compte du genre dans l'élaboration des projets transformatifs pour la recherche de financement au près des PTF et l'implication
+des femmes dans les rencontres d'échanges avec les partenaires.
+Utiliser l’espace ci-dessous pour fournir toute autre information complémentaire que vous jugez utile :
+Il est important de noter que malgré tous les nobles efforts entrepris par le Burkina Faso et ses partenaires au développement, les
+statistiques montrent que l'atteinte des objectifs de la NDT à l'horizon 2030 recommande plus d'investissements et de volontés,
+notamment dans les zones d'accueil des Personnes Déplacées Interne (PDI) marquées par leur vulnérabilité accrue face au terrorisme. Le
+49 / 105
+
+--- Page 50 ---
+IF : Cadre de mise en œuvre
+Burkina Faso fait face fait face au défi sécuritaire et les efforts de riposte amenuisent les ressources dédiées à la gestion durable des
+terres et impactent profondément les écosystèmes. Aussi, l'insécurité limite l'intervention de certains partenaires dans les zones
+impactées.
+Votre pays a-t-il aidé d’autres pays à mobiliser des ressources financières ou non financières aux fins de la mise en œuvre de la
+Convention ?
+Oui
+Non
+Utilisation de la neutralité en matière de dégradation des terres comme cadre pour accroître l’investissement :
+De votre point de vue, avez-vous tiré parti de la neutralité en matière de dégradation des terres pour renforcer la cohérence,
+l’efficacité et les multiples avantages des investissements ?
+Oui
+Non
+Utiliser l’espace ci-dessous pour décrire cette expérience :
+L'expérience du pays de la neutralité en matière de dégradation des terres pour renforcer la cohérence, l’efficacité et les multiples avantages
+des investissements est : - le renforcement du dialogue interministériel avec toutes les parties prenantes concernées par l'utilisation des
+ressources en terres ; - .la mise en place d'outils de planification spéciaux temporels des projets de la LCD et l'optimisation des différents
+usages de la terre ; -l'adoption des objectifs chiffrés facilitant la mobilisation des partenaires et des financements ; -la mise en place de la
+coalition nationale GDT ; -la participation citoyenne inclusive dans les politiques publiques du changement climatique et de la NDT en lien
+avec les ODD 13 et 15 respectivement.
+Quelles ont été les difficultés rencontrées, le cas échéant ?
+Quelles sont, selon vous, les enseignements à retenir à cet égard ?
+Avec la déclaration des cibles devant la communauté internationale, il y'a un affichage politique de la NDT comme principal moteur pour la
+GDT donnant ainsi une autre dimension à la GDT au Burkina Faso.
+Amélioration des institutions et mécanismes de financement existants ou novateurs
+De votre point de vue, votre pays a-t-il amélioré l’utilisation des mécanismes et des institutions de financement existants ou
+novateurs ?
+Oui
+Non
+Est-ce que cela a été fait par l’un des moyens suivants (cochez toutes les cases qui s’appliquent) ?
+☒ Mécanismes de financement existants
+☒ Mécanismes de financement novateurs
+☒ FEM
+☒ Autres fonds (préciser)
+Fonds pour l'accélération de l'IGMVSS
+Utiliser l’espace ci-dessous pour décrire cette expérience :
+L'amélioration des institutions et mécanismes de financements porte entre autre sur : -l'enclanchement du processus d'accréditation en
+cours de certaines institutions publiques et privées.
+50 / 105
+
+--- Page 51 ---
+IF : Cadre de mise en œuvre
+Quelles ont été les difficultés rencontrées, le cas échéant ?
+Quelles sont, selon vous, les enseignements à retenir à cet égard ?
+L'amélioration des institutions et mécanismes de financements a permis la formulation de projets intégrés.
+Votre pays a-t-il aidé d’autres pays à améliorer les mécanismes et les institutions de financement existants ou novateurs ?
+Oui
+Non
+51 / 105
+
+--- Page 52 ---
+IF : Cadre de mise en œuvre
+Politique et planification
+Programmes d’action :
+Votre pays a-t-il élaboré son programme d’action national ou a-t-il participé à son élaboration, à sa mise en œuvre, à sa révision
+ou à son suivi régulier ?
+Oui
+Non
+Utiliser l’espace ci-dessous pour fournir de plus amples informations sur l’expérience de votre pays :
+Notre pays a élaboré son programme d’action national à travers le Plan d'Actions National de Lutte Contre la Désertification qui prévoit des
+mesures concrètes pour leur mise en œuvre à l’échelle nationale. Sa mise en œuvre a donné lieu à l’élaboration et l’exécution de
+programmes et projets de reforestation, de restauration des sols et de lutte antiérosive., à l’élaboration des documents stratégiques tel que
+le Plan de Gestion Intégrée de la Sécheresse (PGIS), et le répertoire de bonnes pratiques GDT.
+Considérez-vous que les programmes et/ou plans d’action ont été couronnés de succès et quelles sont, selon vous, les
+principales raisons de ce succès (ou, dans le cas contraire, de cet échec) ?
+Le plan d’action national a été couronné de succès. Les principales raisons de ce succès car il sert d'outil de planification opérationnelle.
+Son élaboration a été participative c'est pourquoi il a connu l'adhésion de tous les acteurs. Il cadre également avec le référentiel national du
+pays. C'est un outil de référence a pour mérite de « contribuer à l'instauration d'un développement durable du pays par le renforcement de la
+capacité des autorités locales et assurer la participation active des populations, des collectivités et des groupes locaux dans les actions de
+lutte contre la désertification et d'atténuation des effets de la sécheresse ».
+Quelles ont été les difficultés rencontrées, le cas échéant ?
+Quelles sont, selon vous, les enseignements à retenir à cet égard ?
+Nous pouvons noter de la mise en œuvre de ce plan la concrétisation de la vison générale de la CNULCD. Nous notons également qu'il est
+évolutif.
+Politiques et conditions appropriées :
+Au cours de la période considérée, votre pays a-t-il mis en place ou contribué à mettre en place des politiques et des conditions
+appropriées visant à promouvoir et/ou appliquer des moyens de lutter contre la désertification et la dégradation des terres et
+d’atténuer les effets de la sécheresse ?
+Oui
+Non
+Ces politiques et ces conditions visaient à (cocher toutes les cases qui s’appliquent) :
+☒ Promouvoir des moyens de lutter contre la désertification, la dégradation des terres et la sécheresse (DDTS)
+☒ Appliquer des moyens de lutter contre la DDTS
+☒ Protéger les droits fonciers des femmes
+☒ Améliorer l’accès des femmes aux ressources naturelles, productives et/ou financières
+☒ Autre (préciser)
+accorder une place importante aux OSC sur les questions foncières
+Laquelle des options ci-après décrit le plus exactement ces activités (cocher toutes les cases qui s’appliquent) :
+☒ Prévention des effets de la DDTS
+52 / 105
+
+--- Page 53 ---
+IF : Cadre de mise en œuvre
+☐ Interventions de secours suite aux contraintes d’ordre environnemental et/ou socioéconomique exercées sur les écosystèmes et/ou les
+populations par la DDTS
+☐ Interventions de relèvement suite aux contraintes d’ordre environnemental et/ou socioéconomique exercées sur les écosystèmes et/ou
+les populations par la DDTS
+☒ Participation des femmes à la prise de décisions
+☒ Exercice et promotion des droits fonciers des femmes et amélioration de l’accès des femmes aux ressources foncières
+☒ Renforcement des capacités des femmes de contribuer à la mise en œuvre efficace de la Convention
+☐ Autre (préciser)
+Utiliser l’espace ci-dessous pour fournir de plus amples informations sur l’expérience de votre pays/sous-région/région
+/institution.
+La promotion des bonnes pratiques d'adaptation et de résilience aux effets de la DDTS.
+Considérez-vous que ces politiques ont permis de promouvoir ou d’appliquer des moyens de lutter contre la DDTS, notamment
+en matière de prévention, de secours et de relèvement, et quels sont, selon vous, les principaux facteurs de réussite ou d’échec
+?
+Ces politiques ont permis de promouvoir des moyens de lutter contre la DDTS au niveau de notre pays. Les principaux facteurs de réussite
+sont l'approche inclusive et participative basée sur le développement de tout homme et de tout l'homme.
+Quelles ont été les difficultés rencontrées, le cas échéant ?
+Quelles sont, selon vous, les enseignements à retenir à cet égard ?
+La mise en œuvre des objectifs de la convention requière des politiques et conditions appropriées au contexte national.
+Votre pays a-t-il aidé d’autres pays à mettre en place des politiques et des conditions appropriées visant à promouvoir et
+appliquer des moyens de lutter contre la désertification et la dégradation des terres et d’atténuer les effets de la sécheresse, y
+compris des mesures de prévention, de secours et de relèvement ?
+Oui
+Non
+Synergies :
+De votre point de vue, votre pays a-t-il exploité les synergies et intégré la DDTS dans des plans nationaux élaborés au titre des
+autres accords multilatéraux relatifs à l’environnement, en particulier des autres conventions de Rio, et dans d’autres
+engagements internationaux ?
+Oui
+Non
+Les actions de votre pays visaient à (cocher toutes les cases qui s’appliquent) :
+☒ Tirer parti des activités de lutte contre la DDTS en exploitant les synergies avec d’autres plans nationaux relevant des autres conventions
+de Rio
+☒ Intégrer la DDTS dans les plans nationaux
+☒ Tirer parti des synergies avec d’autres stratégies de lutte contre la DDTS
+☒ Intégrer la DDTS dans d’autres engagements internationaux
+☐ Autre (préciser)
+Utiliser l’espace ci-dessous pour décrire l’expérience de votre pays.
+Dans le cadre de la synergie entre conventions, le pays a mis en place un Cadre de Concertation Unique des Conventions (CCUC). C'est un
+53 / 105
+
+--- Page 54 ---
+IF : Cadre de mise en œuvre
+cadre d’échanges et d’orientation sur des questions relatives à la mise en œuvre harmonisée des Accords multilatéraux en matière
+d’environnement ratifiées par le Burkina Faso et sous la tutelle du Ministère en charge de l’Environnement.
+Considérez-vous cette expérience comme un succès et, dans l’affirmative, quelles sont, selon vous, les raisons de ce succès
+(ou, dans la négative, de cet échec) ?
+Cette expérience un succès car il contribue à la mise en œuvre harmonisée et efficiente des conventions internationales en matière
+d’environnement au Burkina Faso
+Quelles ont été les difficultés rencontrées, le cas échéant ?
+Quelles sont, selon vous, les enseignements à retenir à cet égard ?
+Ce cadre permet de mutualiser les efforts des différentes conventions.
+Prise en considération de la désertification, de la dégradation des terres et de la sécheresse :
+De votre point de vue, votre pays a-t-il pris des mesures concrètes pour prendre en considération la DDTS dans les politiques
+économiques, environnementales et sociales afin d’accroître les effets et l’efficacité de la mise en œuvre de la Convention ?
+Oui
+Non
+Dans l’affirmative, la DDTS a été prise en considération dans (cocher toutes les cases qui s’appliquent) :
+☒ Les politiques économiques
+☒ Les politiques environnementales
+☒ Les politiques sociales
+☒ Les politiques foncières
+☒ Les politiques en matière d’égalité des sexes
+☒ Les politiques agricoles
+☒ Autre (préciser)
+Les politiques pastorale
+Utiliser l’espace ci-dessous pour décrire l’expérience de votre pays.
+Pour les mesures concrètes pour prendre en considération la DDTS dans les différentes politiques du pays, nous pouvons avons élaborer
+un plan de gestion intégré de la sècheresse.
+Considérez-vous cette expérience comme un succès et, dans l’affirmative, quelles sont, selon vous, les raisons de ce succès
+(ou, dans la négative, de cet échec) ?
+C'est un succès dans la mesure où c'est un outil de planification qui fixe de façon claire les actions et les activités pertinentes à mener dans
+le cadre de la mise en œuvre de la lutte contre la désertification et l'atténuation des effets de la sécheresse.
+Quelles ont été les difficultés rencontrées, le cas échéant ?
+Quelles sont, selon vous, les enseignements à retenir à cet égard ?
+L'élaboration du plan nous a permis de savoir que les questions de la DDTS ne peuvent être résolu par un seul ministère et qu'il faut une
+cohérence dans l'action gouvernementale.
+Politiques relatives à la sécheresse :
+54 / 105
+
+--- Page 55 ---
+IF : Cadre de mise en œuvre
+Votre pays a-t-il mis en place ou est-il en train de mettre en place des politiques, des mesures et des modes de gouvernance
+nationaux pour la prévention et la gestion des situations de sécheresse ?
+Oui
+Non
+Utiliser l’espace ci-dessous pour décrire l’expérience de votre pays.
+Cette expérience est contenue dans le plan de gestion intégré de la sècheresse au Burkina Faso.
+Considérez-vous cette expérience comme un succès et, dans l’affirmative, quelles sont, selon vous, les raisons de ce succès
+(ou, dans la négative, de cet échec) ?
+C'est un succès dans la mesure où c'est un outil de planification qui fixe de façon claire les actions et les activités pertinentes à mener dans
+le cadre de la prévention et la gestion des situations de sécheresse.
+Quelles ont été les difficultés rencontrées, le cas échéant ?
+Quelles sont, selon vous, les enseignements à retenir à cet égard ?
+L'élaboration du plan nous a permis de savoir que les questions de prévention et de gestion des situations de sécheresse doivent ê intégrer
+tous les ministères du développement rural..
+Votre pays a-t-il aidé d’autres pays à mettre en place des politiques, des mesures et des modes de gouvernance pour la
+prévention et la gestion des situations de sécheresse, en application de la Convention ?
+Oui
+Non
+55 / 105
+
+--- Page 56 ---
+IF : Cadre de mise en œuvre
+Agir sur le terrain
+Pratiques de gestion durable des terres:
+Votre pays a-t-il mis en œuvre ou est-il en train de mettre en œuvre des pratiques de gestion durable des terres (GDT) pour lutter
+contre la DDTS ?
+Oui
+Non
+Quels types de pratiques de GDT sont mises en œuvre ?
+☒ Agroforesterie
+☐ Fermeture de certaines zones (arrêt de l’utilisation, appui à la régénération)
+☒ Apiculture, pisciculture, etc
+☐ Mesure utilisant la technique des pentes transversales
+☒ Réduction écosystémique des risques de catastrophe
+☒ Efficacité énergétique
+☒ Gestion des plantations forestières
+☒ Jardins familiaux
+☒ Amélioration de la végétation basse/de la couverture végétale
+☒ Amélioration des variétés végétales et des espèces animales
+☒ Gestion intégrée des cultures et du bétail
+☒ Gestion intégrée des nuisibles et des maladies (y compris l’agriculture biologique)
+☒ Gestion intégrée de la fertilité des sols
+☒ Gestion de l’irrigation (y compris l’adduction d’eau, le drainage)
+☒ Réduction au minimum de la perturbation des sols
+☒ Gestion des forêts naturelles et semi-naturelles
+☒ Pastoralisme et gestion des pâturages
+☒ Mesures après-récolte
+☒ Système de rotation (rotation des cultures, jachères, agriculture itinérante)
+☒ Gestion des eaux de surface (source, rivière, lacs, mer)
+☒ Drainage et dérivation de l’eau
+☒ Récupération de l’eau
+☒ Protection/gestion des zones humides
+☒ Brise-vent/rideau brise-vent
+☒ Gestion des déchets/gestion des eaux usées
+☐ Autre (préciser)
+Utiliser l’espace ci-dessous pour fournir de plus amples informations sur l’expérience de votre pays :
+Tous les domaines suscités vont l'objet de plans et textes d'application disponibles au pays.
+Considérez-vous que les pratiques mises en œuvre sont couronnées de succès et quels sont, selon vous, les principaux
+facteurs de réussite ?
+Ces pratiques mises en œuvre sont couronnées de succès et les principaux facteurs de réussite résident du fait que leur élaboration a été
+participative et inclusive.
+Quelles ont été les difficultés rencontrées, le cas échéant ?
+56 / 105
+
+--- Page 57 ---
+IF : Cadre de mise en œuvre
+Quelles sont, selon vous, les enseignements à retenir à cet égard ?
+Comment avez-vous fait participer les femmes et les jeunes à ces activités ?
+La mise en œuvre des pratiques de gestion durable des terres nous a permis de récupérer des terres dégradées dans certaines zones et
+d'augmenter leur productivité.
+Votre pays a-t-il aidé d’autres pays à mettre en œuvre des pratiques de GDT ?
+Oui
+Non
+Restauration et remise en état:
+Votre pays a-t-il mis en application ou est-il en train de mettre en application des pratiques de restauration et de remise en état
+visant à contribuer à rétablir les fonctions et les services fournis par les écosystèmes ?
+Oui
+Non
+Quels types de pratiques de restauration et de remise en état sont mis en application ?
+☒ Restauration/amélioration de l’état des zones boisées
+☒ Augmentation de l’étendue de la zone boisée
+☒ Restauration/amélioration de l’état des terres cultivées
+☐ Restauration/amélioration de l’état des prairies
+☒ Restauration/amélioration de l’état des zones humides
+☒ Accroissement de la fertilité des sols et des réserves de carbone
+☒ Gestion des surfaces artificielles
+☒ Restauration/amélioration de l’état des zones protégées
+☒ Augmentation de l’étendue des zones protégées
+☐ Amélioration de la gestion des côtes
+☒ Dispositif d’ordre général (par exemple, politiques, incitations économiques)
+☒ Rétablissement/amélioration de l’utilisation multiple des terres
+☒ Réduction/arrêt de la conversion des terres à utilisations multiples
+☒ Rétablissement/amélioration des fonctions multiples
+☒ Rétablissement de la productivité et des réserves de carbone organique du sol des terres cultivées et des prairies
+☐ Autre/Général/Non spécifié
+Utiliser l’espace ci-dessous pour fournir de plus amples informations sur l’expérience de votre pays :
+Toutes ces pratiques font parties de la liste des bonnes pratiques GDT.
+Considérez-vous que les pratiques mises en œuvre sont couronnées de succès et quels sont, selon vous, les principaux
+facteurs de réussite ?
+Ces pratiques mises en œuvre sont couronnées de succès et les principaux facteurs de réussite car elles ont été toutes testées et
+approuvées.
+Quelles ont été les difficultés rencontrées, le cas échéant ?
+57 / 105
+
+--- Page 58 ---
+IF : Cadre de mise en œuvre
+Quelles sont, selon vous, les enseignements à retenir à cet égard ?
+La mise en œuvre des pratiques de gestion durable des terres nous a permis de de savoir que leur application est plus efficace en
+association, facile à disloquer et accepter par les populations.
+Comment avez-vous fait participer les femmes et les jeunes aux activités de GDT ?
+Les femmes et les jeunes ont impliqué aux activités de GDT par la prise en compte de leur préoccupation et leur responsabilisation dans
+les activités spécifiques.
+Votre pays a-t-il aidé d’autres pays à mettre en application des pratiques de régénération et de remise en état visant à contribuer
+à rétablir les fonctions et les services fournis par les écosystèmes ?
+Oui
+Non
+Gestion des risques de sécheresse et systèmes d’alerte rapide :
+Votre pays élabore-t-il un plan de gestion des risques de sécheresse, des systèmes de surveillance ou d’alerte rapide et des
+programmes de protection sociale pour lutter contre la DDTS ?
+Oui
+Non
+Dans l’affirmative, la DDTS a été prise en considération dans (cocher toutes les cases qui s’appliquent) :
+☒ Un plan de gestion des risques de sécheresse
+☒ Des systèmes de surveillance et d’alerte rapide
+☒ Des programmes de protection sociale
+Utiliser l’espace ci-dessous pour décrire l’expérience de votre pays.
+Il a été mis en place des structures techniques ayant pour mission d'implémenter les actions relatives à la DDTS.
+Considérez-vous cette expérience comme un succès et, dans l’affirmative, quelles sont, selon vous, les raisons de ce succès
+(ou, dans la négative, de cet échec) ?
+Ces pratiques mises en œuvre sont couronnées de succès et les raisons de succès sont l'adhésion des acteurs et l'alignement au besoins
+des populations.
+Si vous avez élaboré ou élaborez un plan de gestion des risques de sécheresse dans le cadre de l’Initiative sur la sécheresse,
+fournir ci-dessous des informations sur les activités entreprises.
+Le plan a été élaboré mais aucune activité n'a été entrepris pour le moment.
+Quelles ont été les difficultés rencontrées, le cas échéant ?
+Quelles sont, selon vous, les enseignements à retenir à cet égard ?
+L'élaboration du plan devrait tenir compte de la mobilisation de ressources. nécessaires à sa sa mise en œuvre.
+Votre pays a-t-il aidé d’autres pays à élaborer des systèmes de gestion des risques de sécheresse, de surveillance ou d’alerte
+58 / 105
+
+--- Page 59 ---
+IF : Cadre de mise en œuvre
+rapide et des programmes de protection sociale pour lutter contre la DDTS ?
+Oui
+Non
+Nouveaux moyens de subsistance:
+Votre pays encourage-t-il les pratiques permettant l’adoption de nouveaux moyens de subsistance dans le cadre de la DDTS ?
+Oui
+Non
+Pourriez-vous énumérer quelques pratiques appliquées au niveau national pour promouvoir de nouveaux moyens de
+subsistance ?
+☒ Diversification des cultures
+☒ Pratiques d’agroforesterie
+☐ Pâturage tournant
+☒ Systèmes agricoles pluviaux et irrigués
+☒ Petits jardins potagers
+☒ Production de biens artisanaux
+☒ Production d’énergie renouvelable
+☒ Écotourisme
+☒ Production de plantes médicinales et aromatiques
+☒ Aquaculture utilisant des eaux usées recyclées
+☐ Autre (préciser)
+Utiliser l’espace ci-dessous pour décrire l’expérience de votre pays.
+Ce sont des actions complémentaires à la lutte contre la DDTS qui sont initiés et mise en œuvre pour réduire les pressions sur les
+ressources naturelles.
+Considérez-vous cette expérience comme un succès et, dans l’affirmative, quelles sont, selon vous, les raisons de ce succès
+(ou, dans la négative, de cet échec) ?
+Cette expérience est une réussite car elle contribue à la création de l'emploi et facilite l'implication des acteurs dans la lutte contre DDTS.
+Quelles ont été les difficultés rencontrées, le cas échéant ?
+Quelles sont, selon vous, les enseignements à retenir à cet égard ?
+La lutte contre la DDTS doit tenir compte des besoin des communautés rurales en matière de création d'emploi et de services
+écosystémiques.
+Considérez-vous que votre pays prend des mesures particulières visant à faire participer les femmes et les jeunes à la
+promotion de nouveaux moyens de subsistance ?
+Oui
+Non
+Donner toute précision utile
+La participation des femmes et des jeunes à la promotion de nouveaux moyens de subsistance se fait à travers la prise en compte de leur
+59 / 105
+
+--- Page 60 ---
+IF : Cadre de mise en œuvre
+préoccupation et leur responsabilisation dans la mise en œuvre de certaines activités.
+Mise en place de systèmes de partage des connaissances :
+Votre pays a-t-il mis en place des systèmes de partage des informations et des connaissances sur les meilleures pratiques et
+méthodes de gestion des situations de sécheresse et de facilitation de la constitution de réseaux en la matière ?
+Oui
+Non
+Considérez-vous que votre pays a pris des mesures visant à favoriser l’accès des femmes aux connaissances et aux
+technologies ?
+Oui
+Non
+Donner toute précision utile
+Le pays a pris des mesures visant à favoriser l’accès des femmes aux connaissances et aux technologies par -l'existence d'un ministère
+dédié à la promotion de la femme et du genre. -l'existence des maisons de la femme dans chaque régions administratives ; -prise en
+compte du genre dans toutes les initiatives du pays.
+Considérez-vous cette expérience comme un succès et, dans l’affirmative, quelles sont, selon vous, les raisons de ce succès
+(ou, dans la négative, de cet échec) ?
+Cette expérience est un succès car elle permis l'accès des femmes à dans les domaines d'activités.
+Quelles ont été les difficultés rencontrées, le cas échéant ?
+Quelles sont, selon vous, les enseignements à retenir à cet égard ?
+L’accès des femmes aux connaissances et aux technologies permet leur d'améliorer l'épanouissement et d'améliorer les moyens de
+subsistance des communautés locales et leur participation dans le développement socio-économique..
+60 / 105
+
+--- Page 61 ---
+AI : Indicateurs additionnels
+AI : Indicateurs additionnels
+L’évolution des stocks de carbone dans le sol et en surface est un indicateur polyvalent utilisépour mesurer
+les progrès accomplis dans la réalisation des objectifs stratégiques 1 et 4.?
+Critère de
+Critère de mesure de Évolution de
+mesure Observations
+l’indicateur l’indicateur
+pertinent
+L'initiative des espaces de conservation résulte de la vision du
+Superficie des espaces
+SO1 Accroissement Programme d'investissement Forestier (PIF) dans le cadre de la mise
+de conservation
+en œuvre de la REDD+ au Burkina Faso
+L'Initiative de la Grande Muraille Verte pour le Sahara et le Sahel qui vise
+Proportion des terres
+SO4 Accroissement a développé un corridor de restauration de 8000 km sur toute la plus
+dégradées récupérées
+grande largeur de l'Afrique.
+61 / 105
+
+--- Page 62 ---
+RC : Recalculs
+RC : Recalculs
+RC.T1 : Nouveau calcul de la période de référence, telle que communiquée en 2018.
+Répercussions des
+Répercussions quantitatives des
+Valeurs des Renseignements nouveaux calculs
+Justifications nouveaux calculs sur le seuil de
+indicateurs complémentaires sur les cibles
+référence
+nationales
+☐ Évolution de
+l’indicateur
+☐ Nouvelles
+données
+améliorées Le 8ème rapport a utilisé des
+On note une évolution quantitative
+données par défaut sur la
+☒ Correction entre les résultats du nouveau
+couverture terrestre dans
+d’erreurs dans recalcul par rapport au seuil de
+Trends.Earth (Land cover ESA
+une version référence. Cela pourrait s'expliquer Les cibles n'ont
+SO1-1 Évolution de la CCI, 1992-2020 d'une
+antérieure des par le fait que le 8ème rapport a pas
+structure du couvert résolution de 250m) avec une
+données procédé à une configurations des significativement
+terrestre configurations des classes
+☒ Autre classes d'occupation des terres et évoluées.
+d'occupation des terres ainsi
+ajustement de la matrice de transition pour
+qu'une matrice de transition
+tenir compte des spécificités
+La comparatibilté respectant les réalités
+nationales.
+des séries nationales.
+temporelles de la
+période de
+référence et celle
+considérée
+☐ Évolution de
+l’indicateur
+☐ Nouvelles
+données On note une évolution quantitative
+améliorées entre les résultats du nouveau
+recalcul par rapport au seuil de
+☐ Correction
+référence. Cela pourrait s'expliquer
+d’erreurs dans
+par le fait que le 8ème rapport a
+SO1-2 Évolution de la une version Le 8ème rapport a utilisé des Les cibles n'ont
+utilisé la base de données par
+productivité ou du antérieure des données par défaut sur la pas
+défaut (NDVI, MOD13Q1-coll6) afin
+fonctionnement des données productivité dans Trends.Earth significativement
+de pouvoir assurer la cohérence
+terres ☒ Autre (MOD13Q1-coll6, 2001-2021). évoluées.
+des séries temporelles avec la
+ajustement
+période considérée 2016-2019. Le
+La comparatibilté 7ème rapport ayant utilisé le
+des séries rapport NDT Burkina, 2017 pour
+temporelles de la renseigner ce sous-indicateur.
+période de
+référence et celle
+considérée
+☐ Évolution de
+l’indicateur
+☐ Nouvelles
+données On note une évolution quantitative
+améliorées entre les résultats du nouveau
+recalcul par rapport au seuil de
+☐ Correction
+référence. Cela pourrait s'expliquer
+d’erreurs dans
+par le fait que le 8ème rapport a
+SO1-3 Évolution des une version Le 8ème rapport a utilisé des Les cibles n'ont
+utilisé la base de données par
+stocks de carbone antérieure des données par défaut sur la pas
+défaut (Blocs sol, ISRIC) afin de
+dans le sol et en données productivité dans Trends.Earth significativement
+pouvoir assurer la cohérence des
+surface ☒ Autre (Blocs sol, ISRIC). évoluées.
+séries temporelles avec la période
+ajustement
+considérée 2016-2019. Le 7ème
+La comparatibilté rapport ayant utilisé le rapport NDT
+des séries Burkina, 2017 pour renseigner ce
+temporelles de la sous-indicateur.
+période de
+référence et celle
+considérée
+62 / 105
+
+--- Page 63 ---
+RC : Recalculs
+Répercussions des
+Répercussions quantitatives des
+Valeurs des Renseignements nouveaux calculs
+Justifications nouveaux calculs sur le seuil de
+indicateurs complémentaires sur les cibles
+référence
+nationales
+☐ Évolution de
+l’indicateur
+☐ Nouvelles
+données
+On note une évolution quantitative
+améliorées
+Le 8ème rapport a utilisé les entre les résultats du nouveau
+SO1-4 Proportion de ☐ Correction indicateurs SO1-1, SO1-2 et recalcul par rapport au seuil de
+terres dégradées par d’erreurs dans SO1-3 (c’est-à-dire le couvert référence. Cela pourrait s'expliquer
+rapport à la superficie une version terrestre, la dynamique de la par le fait que le 8ème rapport a Les cibles n'ont
+totale des terres antérieure des productivité des terres et le utilisé les bases de données par pas
+(indicateur 15.3.1 des données stock de carbone organique du défaut intégrées dans l'outils (Land significativement
+objectifs de ☒ Autre sol) pour calculer la proportion cover ESA CCI, MOD13Q1-coll6, évoluées.
+développement ajustement de terres dégradées suivant le Blocs sol, ISRIC) afin de pouvoir
+durable) principe du paramètre assurer la cohérence des séries
+La comparatibilté
+déclassant. temporelles avec la période
+des séries
+considérée 2016-2019.
+temporelles de la
+période de
+référence et celle
+considérée
+63 / 105
+
+--- Page 64 ---
+Autres fichiers pour le rapport
+Burkina Faso - SO5-1 recipient Télécharger 127,8 Kio
+64 / 105
+
+--- Page 65 ---
+Burkina Faso – SO1-1.M1
+Land cover in the initial year of the baseline period
+Legend
+Projection: EPSG:4326 (WGS 84)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• European Space Agency Climate Change Initiative Land Cover (ESA CCI-LC) product, 1992-2019. URL: https://www.esa-landcover-cci.org/
+65 / 105
+
+--- Page 66 ---
+Burkina Faso – SO1-1.M2
+Land cover in the baseline year
+Legend
+Projection: EPSG:4326 (WGS 84)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• European Space Agency Climate Change Initiative Land Cover (ESA CCI-LC) product, 1992-2019. URL: https://www.esa-landcover-cci.org/
+66 / 105
+
+--- Page 67 ---
+Burkina Faso – SO1-1.M3
+Land cover in the latest reporting year
+Legend
+Projection: EPSG:4326 (WGS 84)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• European Space Agency Climate Change Initiative Land Cover (ESA CCI-LC) product, 1992-2019. URL: https://www.esa-landcover-cci.org/
+67 / 105
+
+--- Page 68 ---
+Burkina Faso – SO1-1.M4
+Land cover change in the baseline period
+Legend
+Projection: EPSG:4326 (WGS 84)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• European Space Agency Climate Change Initiative Land Cover (ESA CCI-LC) product, 1992-2019. URL: https://www.esa-landcover-cci.org/
+68 / 105
+
+--- Page 69 ---
+Burkina Faso – SO1-1.M5
+Land cover change in the reporting period
+Legend
+Projection: EPSG:4326 (WGS 84)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• European Space Agency Climate Change Initiative Land Cover (ESA CCI-LC) product, 1992-2019. URL: https://www.esa-landcover-cci.org/
+69 / 105
+
+--- Page 70 ---
+Burkina Faso – SO1-1.M6
+Land cover degradation in the baseline period
+Legend
+Projection: EPSG:4326 (WGS 84)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• European Space Agency Climate Change Initiative Land Cover (ESA CCI-LC) product, 1992-2019. URL: https://www.esa-landcover-cci.org/
+70 / 105
+
+--- Page 71 ---
+Burkina Faso – SO1-1.M7
+Land cover degradation in the reporting period
+Legend
+Projection: EPSG:4326 (WGS 84)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• European Space Agency Climate Change Initiative Land Cover (ESA CCI-LC) product, 1992-2019. URL: https://www.esa-landcover-cci.org/
+71 / 105
+
+--- Page 72 ---
+Burkina Faso – SO1-2.M1
+Land productivity dynamics in the baseline period
+Legend
+Projection: EPSG:4326 (WGS 84)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• EC-JRC, 2021, based on Xavier Rotllan-Puig, Eva Ivits, Michael Cherlet, LPDynR: A new tool to calculate the land productivity dynamics indicator, Ecological Indicators, Volume 133, 2021, 108386, ISSN
+1470-160X. URL: https://doi.org/10.1016/j.ecolind.2021.108386
+72 / 105
+
+--- Page 73 ---
+Burkina Faso – SO1-2.M2
+Land productivity dynamics in the reporting period
+Legend
+Projection: EPSG:4326 (WGS 84)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• EC-JRC, 2021, based on Xavier Rotllan-Puig, Eva Ivits, Michael Cherlet, LPDynR: A new tool to calculate the land productivity dynamics indicator, Ecological Indicators, Volume 133, 2021, 108386, ISSN
+1470-160X. URL: https://doi.org/10.1016/j.ecolind.2021.108386
+73 / 105
+
+--- Page 74 ---
+Burkina Faso – SO1-2.M3
+Land productivity degradation in the baseline period
+Legend
+Projection: EPSG:4326 (WGS 84)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• EC-JRC, 2021, based on Xavier Rotllan-Puig, Eva Ivits, Michael Cherlet, LPDynR: A new tool to calculate the land productivity dynamics indicator, Ecological Indicators, Volume 133, 2021, 108386, ISSN
+1470-160X. URL: https://doi.org/10.1016/j.ecolind.2021.108386
+74 / 105
+
+--- Page 75 ---
+Burkina Faso – SO1-2.M4
+Land productivity degradation in the reporting period
+Legend
+Projection: EPSG:4326 (WGS 84)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• EC-JRC, 2021, based on Xavier Rotllan-Puig, Eva Ivits, Michael Cherlet, LPDynR: A new tool to calculate the land productivity dynamics indicator, Ecological Indicators, Volume 133, 2021, 108386, ISSN
+1470-160X. URL: https://doi.org/10.1016/j.ecolind.2021.108386
+75 / 105
+
+--- Page 76 ---
+Burkina Faso – SO1-3.M1
+Soil organic carbon stock in the initial year of the baseline period
+Legend
+Projection: EPSG:4326 (WGS 84)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• International Soil Reference and Information Centre (ISRIC) SoilGrids250m dataset. URL: https://www.isric.org/explore/soilgrids
+76 / 105
+
+--- Page 77 ---
+Burkina Faso – SO1-3.M2
+Soil organic carbon stock in the baseline year
+Legend
+Projection: EPSG:4326 (WGS 84)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• International Soil Reference and Information Centre (ISRIC) SoilGrids250m dataset. URL: https://www.isric.org/explore/soilgrids
+77 / 105
+
+--- Page 78 ---
+Burkina Faso – SO1-3.M3
+Soil organic carbon stock in the latest reporting year
+Legend
+Projection: EPSG:4326 (WGS 84)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• International Soil Reference and Information Centre (ISRIC) SoilGrids250m dataset. URL: https://www.isric.org/explore/soilgrids
+78 / 105
+
+--- Page 79 ---
+Burkina Faso – SO1-3.M4
+Change in soil organic carbon stock in the baseline period
+Legend
+Projection: EPSG:4326 (WGS 84)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• International Soil Reference and Information Centre (ISRIC) SoilGrids250m dataset. URL: https://www.isric.org/explore/soilgrids
+79 / 105
+
+--- Page 80 ---
+Burkina Faso – SO1-3.M5
+Change in soil organic carbon stock in the reporting period
+Legend
+Projection: EPSG:4326 (WGS 84)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• International Soil Reference and Information Centre (ISRIC) SoilGrids250m dataset. URL: https://www.isric.org/explore/soilgrids
+80 / 105
+
+--- Page 81 ---
+Burkina Faso – SO1-3.M6
+Soil organic carbon degradation in the baseline period
+Legend
+Projection: EPSG:4326 (WGS 84)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• International Soil Reference and Information Centre (ISRIC) SoilGrids250m dataset. URL: https://www.isric.org/explore/soilgrids
+81 / 105
+
+--- Page 82 ---
+Burkina Faso – SO1-3.M7
+Soil organic carbon degradation in the reporting period
+Legend
+Projection: EPSG:4326 (WGS 84)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• International Soil Reference and Information Centre (ISRIC) SoilGrids250m dataset. URL: https://www.isric.org/explore/soilgrids
+82 / 105
+
+--- Page 83 ---
+Burkina Faso – SO1-4.M1
+Proportion of land that is degraded over total land area (SDG Indicator 15.3.1) in the baseline period
+Legend
+Projection: EPSG:4326 (WGS 84)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Derived based on the methodology in the Good Practice Guidance Version 2 for Sustainable Development Goal (SDG) indicator 15.3.1 - Proportion of land that is degraded over total land area. URL:
+https://www.unccd.int/publications/good-practice-guidance-sdg-indicator-1531-proportion-land-degraded-over-total-land
+83 / 105
+
+--- Page 84 ---
+Burkina Faso – SO1-4.M2
+Proportion of land that is degraded over total land area (SDG Indicator 15.3.1) in the reporting period
+Legend
+Projection: EPSG:4326 (WGS 84)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Derived based on the methodology in the Good Practice Guidance Version 2 for Sustainable Development Goal (SDG) indicator 15.3.1 - Proportion of land that is degraded over total land area. URL:
+https://www.unccd.int/publications/good-practice-guidance-sdg-indicator-1531-proportion-land-degraded-over-total-land
+84 / 105
+
+--- Page 85 ---
+Burkina Faso – SO1-4.M3
+Progress towards Land Degradation Neutrality (LDN) in the reporting period
+Legend
+Projection: EPSG:4326 (WGS 84)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Derived based on the methodology in the Good Practice Guidance Version 2 for Sustainable Development Goal (SDG) indicator 15.3.1 - Proportion of land that is degraded over total land area. URL:
+https://www.unccd.int/publications/good-practice-guidance-sdg-indicator-1531-proportion-land-degraded-over-total-land
+85 / 105
+
+--- Page 86 ---
+Burkina Faso – SO1-4.M5
+Land Degradation Hotspots
+Legend
+Projection: EPSG:4326 (WGS 84)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Land Degradation data derived based on the Good Practice Guidance Version 2 for Sustainable Development Goal (SDG) indicator 15.3.1 - Proportion of land that is degraded over total land area.
+• The Hot spots data displayed on this map was provided by the Government of Burkina Faso.
+86 / 105
+
+--- Page 87 ---
+Burkina Faso – SO1-4.M6
+Land Improvement Brightspots
+Legend
+Projection: EPSG:4326 (WGS 84)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Land Degradation data derived based on the Good Practice Guidance Version 2 for Sustainable Development Goal (SDG) indicator 15.3.1 - Proportion of land that is degraded over total land area.
+• The Bright spots data displayed on this map was provided by the Government of Burkina Faso.
+87 / 105
+
+--- Page 88 ---
+Burkina Faso – SO2-3.M1
+Total Population exposed to land degradation (baseline)
+Legend
+Projection: EPSG:4326 (WGS 84)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• WorldPop project URL: https://www.worldpop.org
+88 / 105
+
+--- Page 89 ---
+Burkina Faso – SO2-3.M2
+Female Population exposed to land degradation (baseline)
+Legend
+Projection: EPSG:4326 (WGS 84)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• WorldPop project URL: https://www.worldpop.org
+89 / 105
+
+--- Page 90 ---
+Burkina Faso – SO2-3.M3
+Male Population exposed to land degradation (baseline)
+Legend
+Projection: EPSG:4326 (WGS 84)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• WorldPop project URL: https://www.worldpop.org
+90 / 105
+
+--- Page 91 ---
+Burkina Faso – SO2-3.M4
+Total Population exposed to land degradation (reporting)
+Legend
+Projection: EPSG:4326 (WGS 84)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• WorldPop project URL: https://www.worldpop.org
+91 / 105
+
+--- Page 92 ---
+Burkina Faso – SO2-3.M5
+Female Population exposed to land degradation (reporting)
+Legend
+Projection: EPSG:4326 (WGS 84)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• WorldPop project URL: https://www.worldpop.org
+92 / 105
+
+--- Page 93 ---
+Burkina Faso – SO2-3.M6
+Male Population exposed to land degradation (reporting)
+Legend
+Projection: EPSG:4326 (WGS 84)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• WorldPop project URL: https://www.worldpop.org
+93 / 105
+
+--- Page 94 ---
+Burkina Faso – SO3-1.M1
+Drought hazard in first epoch of baseline period
+Legend
+Projection: EPSG:4326 (WGS 84)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+94 / 105
+
+--- Page 95 ---
+Burkina Faso – SO3-1.M2
+Drought hazard in second epoch of baseline period
+Legend
+Projection: EPSG:4326 (WGS 84)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+95 / 105
+
+--- Page 96 ---
+Burkina Faso – SO3-1.M3
+Drought hazard in third epoch of baseline period
+Legend
+Projection: EPSG:4326 (WGS 84)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+96 / 105
+
+--- Page 97 ---
+Burkina Faso – SO3-1.M4
+Drought hazard in fourth epoch of baseline period
+Legend
+Projection: EPSG:4326 (WGS 84)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+97 / 105
+
+--- Page 98 ---
+Burkina Faso – SO3-1.M5
+Drought hazard in the reporting period
+Legend
+Projection: EPSG:4326 (WGS 84)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+98 / 105
+
+--- Page 99 ---
+Burkina Faso – SO3-2.M1
+Drought exposure in first epoch of baseline period
+Legend
+Projection: EPSG:4326 (WGS 84)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+99 / 105
+
+--- Page 100 ---
+Burkina Faso – SO3-2.M2
+Drought exposure in second epoch of baseline period
+Legend
+Projection: EPSG:4326 (WGS 84)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+100 / 105
+
+--- Page 101 ---
+Burkina Faso – SO3-2.M3
+Drought exposure in third epoch of baseline period
+Legend
+Projection: EPSG:4326 (WGS 84)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+101 / 105
+
+--- Page 102 ---
+Burkina Faso – SO3-2.M4
+Drought exposure in fourth epoch of baseline period
+Legend
+Projection: EPSG:4326 (WGS 84)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+102 / 105
+
+--- Page 103 ---
+Burkina Faso – SO3-2.M5
+Drought exposure in the reporting period
+Legend
+Projection: EPSG:4326 (WGS 84)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+103 / 105
+
+--- Page 104 ---
+Burkina Faso – SO3-2.M6
+Female drought exposure in the reporting period
+Legend
+Projection: EPSG:4326 (WGS 84)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+104 / 105
+
+--- Page 105 ---
+Burkina Faso – SO3-2.M7
+Male drought exposure in the reporting period
+Legend
+Projection: EPSG:4326 (WGS 84)
+00000 111110000000000 k kkkkmmmmm 222220000000000 k kkkkmmmmm
+Disclaimer
+The designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations Convention to Combat
+Desertification (UNCCD) concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. All maps represent the terrestrial area
+of the country; offshore islands, overseas departments and territories may not be displayed due to cartographic limitations.
+Source Data Credits
+• United Nations Clear Map, United Nations Geospatial.
+• Global Precipitation Climatology Centre (GPCC) monthly precipitation products,1982–present. URL: https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_monitoring_v6_doi_download.html
+105 / 105

@@ -1,0 +1,32 @@
+{
+  "header": {
+    "title": "Copilote IA"
+  },
+  "messages": {
+    "loading": "Chargement...",
+    "emptyState": "Posez-moi n'importe quelle question ou partagez une image !",
+    "thinking": "Réflexion en cours...",
+    "analyzing": "🔍 Analyse de la zone en cours... Cela peut prendre un instant.",
+    "searching": "🔍 Recherche dans la base de données..."
+  },
+  "input": {
+    "placeholder": "Tapez un message...",
+    "attachImage": "Joindre une image",
+    "sendButton": "Envoyer"
+  },
+  "errors": {
+    "somethingWentWrong": "Un problème est survenu. Veuillez réessayer.",
+    "requestFailed": "La requête a échoué",
+    "failedToGetResponse": "Impossible d'obtenir une réponse de l'IA",
+    "noResponseBody": "Aucune réponse du serveur",
+    "imageUploadFailed": "Échec du téléchargement de l'image",
+    "failedToUploadImages": "Impossible de télécharger les images",
+    "unknownChartType": "Type de graphique inconnu : ",
+    "failedToRenderChart": "Impossible de rendre le graphique"
+  },
+  "disclaimer": "Les réponses de l'IA peuvent ne pas être exactes",
+  "alt": {
+    "uploaded": "Image téléchargée",
+    "uploadPreview": "Aperçu du téléchargement"
+  }
+}

@@ -1,0 +1,2057 @@
+--- Page 1 ---
+REPUBLIC OF SUDAN
+MINISTRY OF AGRICULTURE AND FORESTRY
+NATIONAL DROUGHT AND DESERTIFICATION
+CONTROL UNIT (NDDCU)
+SUDAN NATIONAL ACTION PROGRAMME (SNAP)
+A FRAMEWORK FOR COMBATING DSESRTIFICATION IN SUDAN
+IN THE CONTEXT OF THE UNITED NATIONS CONVENTION TO
+COMBAT DESERTIFICATION
+KHARTOUM – MARCH 2006
+i
+
+--- Page 2 ---
+Preface
+The NDDCU of the Sudan Government, with support from UNDP, has set up a
+multidisciplinary team of experts (Task force) upon recommendation of the First
+National Forum in 1995. The task force was to assess past experiences in
+desertification in Sudan, identify problems of drought and desertification, analyze
+the immediate and underlying causes and proposes priority actions and strategies
+within the context of the UNCCD.
+The task force (Annex 3) constituted by the NDDCU was to prepare the Sudan
+NAP strategic planning document according to a designated term of reference.
+UNDP has agreed to make available the services of an international consultant to
+work with the team and assist in launching the initial activities of the NAP
+process.
+Meanwhile a Memorandum of Understanding (MOU) was signed between the
+Ministry of Agriculture (Sudan Government) and UNDP and accordingly a
+mission from UNSO were commissioned to further strengthen the process and
+its initial state of launching of NAP. This has added a welcoming new
+dimension to the work.
+The process was then made clear through the UNCCD secretariat guidelines
+with the support of the international consultant and a bottom-up approach was
+then used to conclude the SNAP. The process was culminated in the Second
+Forum and the NAP was to be written.
+The AOAD then agreed to support the process of editing the NAP. An Arabic
+draft was then submitted to the UNCCD secretariat.
+The Minister of Agriculture and Forests then located a committee to Review and
+Prepare the SNAP. The committee agreed to write an English version taking into
+account the guidelines of the UNCCD and including what is missed in the Arabic
+version. The committee then used all reference material found and all
+recommendations from the different workshops and forums and come up with
+this version.
+ii
+
+--- Page 3 ---
+Acknowledgement
+The NDDCU would like to acknowledge the immense efforts of the Committee
+to Review and Prepare the SNAP for their tireless effort for compiling this report.
+The NDDCU also recognizes the contribution of the taskforce team in collecting
+the data and preparing their genuine report which we used as abase for this
+document. Also the NDDCU recognizes the contribution of the AOAD in
+preparing the Arabic draft version of the SNAP in 2002. Furthermore, the
+Committee guidance, directives, inputs and amendments at all stages of this work
+has been commendable. In addition the NDDCU is highly defiantly appreciated
+the tireless efforts of the editors for insuring some consistency and coherency to
+this drat document. Thanks are also due to UNSO and UNDP for financing of
+the SNAP. The NDDCU is indebted to the Agricultural and Animal Affairs of the
+Sudan National Assembly, the FNC, and the Drylands Coordination Group
+(DCG) for their facilitation of finalization of the SNAP.
+iii
+
+--- Page 4 ---
+Acronyms and Abbreviations
+ACORD Agency for Cooperation and Research in Development
+AOAD Arab Organization for Agricultural Development
+ARC Agricultural Research Corporation
+CBD Convention on Biological Diversity
+CBOs Community Based Organizations
+DCG Dryland Coordination Group
+DECARP Desert Encroachment Control And Rehabilitation
+Programme
+FAO Food and Agriculture Organization of the United Nation
+FNC Forests National Corporation
+GEF Global Environment Facility
+GDP Growth Domestic Product
+HCCDDCP Higher Council for Coordinating Drought and
+Desertification Control Programmes
+HCENR Higher Council for Environment and Natural Resources
+IPRSP Interim Poverty Reduction Strategy Paper
+LWRC Lands and Water Research Centre
+MDGs Millennium Development Goals
+MOAF Ministry of Agriculture and Forestry
+NAP National Action Programme
+NDF National Desertification Fund
+NCCD National NGOs Coordinating Committee on Combating
+Desertification
+NCS National Comprehensive Strategy
+NCSA National Capacity Building of Self Assessment in Sudan
+to Manage Global Environmental Issues
+NCR National Centre for Research
+NDDCU National Drought and Desertification Control
+Programmes Coordination Unit
+NDDCCC National Drought and Desertification Control
+Programmes Coordination Council
+NGOs Non- Governmental Organizations
+SCSNAP Sudanese Civil Society Network for Alleviation of
+Poverty
+SECS Sudanese Environment Conservation Society
+SNAP Sudan National Action Programme
+UN United Nations
+iv
+
+--- Page 5 ---
+UNCCD United Nations Convention to Combat Desertification
+UNDP United Nations Development Programme
+UNESCO United Nations for Education, Science and Culture
+Organization
+UNFCCC United Nations Framework Convention on Climate
+Change
+UNSO United Nations Office for Combating Desertification
+WB World Bank
+WSDC Western Savanna Development Corporation
+WSDP Western Savanna Development Project
+WSSD World Summit for Sustainable Development
+WSARP Western Sudan Agricultural Research Project
+v
+
+--- Page 6 ---
+Executive Summary
+The Sudan has collaborated with and contributed to the international efforts to
+combat desertification. It is one of the first countries that signed the UNCCD
+and assigned the NDDCU for the coordination of programmes to mitigate the
+effects of drought and to combat desertification as a focal point.
+As a first step a NAP should be prepared. The UNCCD outlined the basic
+approach, principles and general features and contents of a model NAP. The
+convention underlined the principle of integrating strategies for poverty
+alleviation with progrmmes to combat desertification. It also emphasized those
+socio-economic and demographic factors contributing to desertification.
+This document provides background information on the present environment
+and natural resources conditions. It covers climate, renewable natural
+resources, energy, land use, biodiversity and national heritage. Attention has
+also been drawn to the impacts of the frequent drought periods that inflicted
+the country in recent decades on the socio-economic status of the population.
+The main constraints, challenges and former efforts and policies to streamline
+the optimum use of natural resources were also reviewed. Several national
+strategies emphasize environmental issues, natural resources and sustained
+development, but these are often sectoral, lack comprehensiveness and
+totality.
+Since the thirties of the last century, programmes to combat desertification and
+its component projects and interventions were being launched in the Sudan
+through technical and financial assistance (local and international) to improve
+land resources, production systems, and protection of the environment. This
+should enable the country to make full use of existing international
+interventions in the different sectors e.g. GEF (Biodiversity and Climate
+Change Conventions).
+vi
+
+--- Page 7 ---
+Attention was also drawn to the institutional set up and to the large number of
+the national, international organizations and NGOs involved in combating
+desertification. Their programmes activities and interests are so diversified
+and not particularly coordinated or effectively linked. This, of course,
+weakens their role greatly.
+Research in the area of combating desertification should be supported and
+strengthened by appropriate actions through the formulation of a
+comprehensive plan addressing the problem in a scientific manner. Similar
+efforts should be extended to education and training to establish a viable
+database.
+Financial resources needed to implement SNAP must be sought outside
+normal national budget which is often limited. In fact most efforts in the area
+of combating desertification has been supplied by UN agencies. If this
+situation is to continue projects related to SNAP must be well thought of and
+presented in a sound and appropriate manner that makes them internationally
+acceptable and highly saleable in the face of a strong regional competition.
+Therefore, the establishment of a NDF is paramount importance if
+desertification is to be checked in any way.
+Finally the document focuses on actions in the form of programmes and
+projects within the context of SNAP and in accordance with the objective of
+the UNCCD. These projects can be based on guidelines from the NCS and the
+Agricultural Sector Strategy (2002-2027). Needless to say that these projects
+have been drawn from proposals submitted by the thirteen affected states
+based on relevant studies and workshops recommendations. They present
+broad ideas that can later on be detailed to form draft documents that can be
+presented for funding.
+Since the NDDCU will be entrusted to carry out this tremendous task, its
+present situation must be seriously considered and strong backing becomes a
+necessity.
+vii
+
+--- Page 8 ---
+Contents
+No. Content Page
+Preface I
+Acknowledgement II
+Acronyms and abbreviations III
+Executive Summary V
+Contents VII
+Tables IX
+Figures IX
+1 CHAPTER ONE 1
+1. Background 1
+1.1. UNCCD Basic Approach 1
+1. 2. NAP Process 2
+1.2.1. Bottom-up Approach and Participation 2
+1.2.2. Key Stakeholders and Partners in the NAP Process 2
+1.2.3. Enabling Environment 2
+1.2.4. Steps of Formulation 3
+1.3. Environmental settings 5
+1.3.1 Climate 5
+1.3.2. Geology and Geomorphology 5
+1.3.3. Natural Resources 6
+Desert Zone 6
+Semi-Desert Zone 6
+Woodland Savanna 6
+1.3.3.1. Soils 7
+1.3.3.2. Water Resources 8
+Rainfall 8
+Nile water 9
+Seasonal Surface Non-Nile Waters 9
+Underground Water 10
+1.3.3.3. Forests 10
+1.3.3.4. Rangelands 10
+1.3.4. Energy 11
+1.3.5. Wild Life 11
+1.3.6. Socio-Economic Aspects 12
+2 CHAPTER TWO 14
+2. Desertification in Sudan 14
+2.1. Causes and Extent 14
+viii
+
+--- Page 9 ---
+2.1.1. Overgrazing 14
+2.1.2. Deforestation 14
+2.1.3. Over-cultivation, Cultivation of Marginal Lands and 15
+Irrational Use of Heavy Machinery.
+2.1.4. Bush Removal and Unplanned Burning 15
+2.2. Drought and Desertification Impacts 15
+2.3. Land Degradation 15
+2.4. Geographical Extent of Desertification in Sudan 16
+2.5. Policies and Legislation 17
+2.5.1 Polices 17
+2.5.2. Legislation 18
+2.6. Institutional Framework 18
+2.6.1. National Drought and Desertification Control 18
+Programmes Coordinating and Monitoring Unit
+(NDDCU)
+2.6.2. Agricultural Research Corporation (ARC) 19
+2.6.3. National Centre for Research (NCR) 20
+2.6.4. Desertification And Desert Cultivation Studies Institute 20
+(DADCS)
+2.6.5. The Non-Governmental Organizations (NGOs) 20
+2.7. The Present status of Desertification in the Affected 21
+States
+2.7.1. Current plans for Combating Desertification 22
+3 CHAPTER THREE 23
+3. Past and Present Projects for Combating Desertification 23
+3.1. Perspective 23
+3.2. Restocking of Gum Arabic Desertification Control 23
+Objectives 23
+Activities 23
+3.3. Integrated Resource Management for Desertification 24
+Control Al-Odaya
+Objectives 24
+Activities 24
+3.4 Western Savannah Development Project (WSDP) 24
+Objectives 24
+Activities 24
+4 CHAPTER FOUR 26
+4. Priority Programmes And Activities 26
+4.1. Programmes And Activities Related to Institutional 26
+Building, Coordination, Monitoring And Evaluation
+ix
+
+--- Page 10 ---
+4.2. Programmes And Activities Related to Capacity 28
+Building And Human Resources Development
+4.3. Programmes And Activities Related to Priority 29
+Programmes Areas at State Levels
+4.4. Pilot Projects 29
+4.5. Other Priorities Related to the Implementation of the 30
+UNCCD
+4.5.1. Mainstreaming of the NAP in the National Development 30
+Strategy
+4.5.2. Reform of Policies and Legislation 30
+4.5.3. Establishment of the National Desertification Control 30
+Fund (NDF)
+4.5.4. Capacity Building 30
+4.5.5. Awareness Raising and Partnerships 31
+4.5.6. Priority Projects Areas 31
+4.6. Traditional Knowledge 33
+4.7. Research on Desertification in Sudan 33
+References 35
+Annexes
+Annex N0. 1: Woody areas in Sudan 38
+Annex No. 2: Selected States pilot projects 39
+Annex No. 3: The Task force Team 52
+Annex No. 4: The Committee to review and prepare the 53
+NAP
+Annex No. 5: Funds allocated from the UN Agencies 54
+Tables
+No. Table Page
+1 Areas at Risk to Drought between Lat. 10-18 N 17
+Figures
+No. Figure Page
+1 Organization Structure of the HCCDDCP 27
+x
+
+--- Page 11 ---
+CHAPTER ONE
+1. Background
+Sudan is the largest (2.5 million km2) and most seriously affected country by
+desertification in Africa. The arid and semi-arid lands cover an area of 1.78
+million km2, which represents about 72% of the total area of the country. These
+large-scale arid lands prompted the elaboration of a National Action Programme
+(NAP) state-wise i.e. a plan for each affected state. Sudan has been severely
+affected by recurrent drought spells (1973/74-1984/85). Sudan is a poor county
+and there is a need for significant amount of external assistance to achieve the
+national development objectives. The convention underlined the principle of
+integrating strategies for poverty alleviation programmes and projects through
+efforts of combating desertification. The civil war in the south of Sudan has
+created very difficult socio-economic conditions and caused internal and regional
+migrations and displacement of people from war-affected areas.
+The population in the rural areas relies heavily on natural resources for
+subsistence (cultivation of marginal lands, reliance on wood-fuel, range lands
+…etc) and thus the consequence is serious land degradation.
+Sudan suffers from serious brain drain that has impacted negatively on
+technological base, scientific know-how, technical and educational capacity,
+leading to substantial capacity building requirements.
+Sudan implemented several development projects, some of which are relevant to
+combating Desertification. The county should capitalize and build on existing
+relevant successful projects, and make provisions for the new features presented
+by United Nations Convention to combat Desertification (UNCCD) to make the
+projects sustainable.
+Sudan should make full use of existing international interventions and synergies
+between relevant core conventions such as the Convention on Biological
+Diversity (CBD) and United Nations Framework Convention on Climate Change
+(UNFCCC).
+1.1. UNCCD Basic Approach
+In compliance with and in pursuit of Articles 8, 9 and 10 of UNCCD, Sudan
+as an affected African country has prepared its National Action Program
+(NAP). As a prerequisite to the NAP preparation, extensive process of
+consultation among local communities, administrative bodies, governmental
+bodies and non-government organizations was carried out. The NAP
+attempted to identify and analyze the constraints and gaps that are affecting
+the progress towards combating desertification which eventually hampering
+sustainable development in the country.
+1
+
+--- Page 12 ---
+The UNCCD calls for the effective participation of local populations and
+communities both in the national dialogue and in the design and implementation
+of programmes and projects in order to guarantee positive impacts on the
+livelihoods of affected populations and communities.
+As conceived in the UNCCD, the NAP is process oriented, bottom-up,
+iterative and decentralized. Through it a set of integrated measures was
+identified.
+1. 2. NAP Process
+1.2.1. Bottom-up Approach and Participation
+One of the major reasons for the failure of the past efforts to combat
+desertification was the top-down approach used and lack of commitment and
+participation of the local populations and communities. It is now believed that,
+from several projects and programmes implemented in the field of combating
+desertification, the effective involvement and participation of local
+communities concerned with these programmes is vital and guarantees a
+meaningful impact on the livelihoods of the affected populations.
+1.2.2. Key Stakeholders and Partners in the NAP Process
+Partnership is needed at the national level to facilitate effective use of
+resources for combating desertification and the mitigation of drought.
+The three main categories of stakeholders involved at the national level are:
+A- Government and its various entities.
+B- Natural resources users and other civil society sectors and NGOs.
+C- External partners consisting of developed country parties, United Nations
+(UN) agencies, non-governmental organizations (NGOs), multilateral and
+regional financial institutions.
+1.2.3. Enabling Environment
+Prior to the UNCCD, fortunately, Sudan has already established the National
+Drought and Desertification Control Unit (NDDCU) in 1978 and the National
+Drought and Desertification Control Coordinating Council (NDDCCC) in
+1991. Both the NDDCU and the NDDCCC were occupied in coordination and
+working as focal point for desertification projects and external donors. Also
+Sudan is already decentralized and divided into twenty-six states and more
+than sixty provinces and localities. All these institutional arrangements and the
+establishment of the Higher Council for Environment and Natural Resources
+(HCENR) in 1991 in addition to the activation of the Environment Protection
+2
+
+--- Page 13 ---
+Act have created a conducive atmosphere and an environment contributing to
+implementing the UNCCD.
+1.2.4. Steps of Formulation
+Soon after the UNCCD entered into force, Sudan started the implementation
+of the convention by developing the SNAP with the assistance of UNDP. The
+process started by engaging a committee of six national consultants in
+compiling and collecting basic information to help in the SNAP preparation.
+National experts visited the affected states undertaking, among others, the
+following tasks:
+A- Raising awareness about the convention among local communities;
+B- Surveying the affected states to gather information that is related to the
+SNAP process.
+C- Identifying the factors contributing to desertification and practical
+measures necessary to combat it and mitigate the effect of drought.
+D- Preparing the communities and civil society organizations in the states for
+near future consultation meetings.
+UNSO has also provided extra financial support for the completion of the
+SNAP.
+The process commenced by workshops involving national partners and local
+communities’ leaders. State-based workshops were convened in the thirteen
+affected states. Concerned Ministries of Agriculture at these states were the
+focal points. Experts from the same states prepared papers and some
+government officials initiated the comments and discussions revolved around
+three subjects:
+The state priority programmes in combating desertification and i-
+mitigating the effect of drought.
+The previous experience of each in combating desertification and ii-
+mitigating drought effects.
+Identification of the roles of different stakeholders in combating iii-
+desertification.
+The participants involved were 67% from local communities and 33% from
+government institutions and NGOs.
+These workshops were planned and coordinated by a steering committee
+formulated by the NDDCU. The main task of this committee was to assess and
+monitor the implementation taking into consideration the best approaches to
+ensure dialogue, negotiation, debate and constituency among and across
+sectors and institutions. The committee had put guidelines for writing the
+3
+
+--- Page 14 ---
+papers and programmes on the priority concerns that were addressed and
+discussed in these workshops.
+The second phase of the programme focused on convening specialized
+workshops at the federal level under a major theme; towards a Unified
+Strategy for Implementation of the National Action Programme for Drought
+and Desertification Control. Accordingly, national experts relating to social
+and economic development and environment conservation prepared ten
+working papers. The papers covered topics linked to the programme such as
+resource mobilization, roles of decision makers and NGOs in combating
+desertification. The programme has offered ideal chances to partners to
+participate in designation of opinions regarding the preparation necessary for
+implementing projects produced by the participants.
+The participants of these workshops represented decision-makers, government
+executives, NGOs, and financial sector. It was observed that decision-makers
+have given more attention to these specialized workshops.
+The third phase of the process was the National Forum. Participation in this
+forum included representatives of all stakeholders in the affected states and
+government officials. It was encouraging to see that partners from United
+Nations Development Programme (UNDP) and United Nations Office for
+Combating Desertification (UNSO) participated and made statements. More
+pronounced was the auspex of the Vice President, and the presence of states’
+Governors, and attendance of representatives from constitutional institutions
+reflected the political commitment.
+Papers presented have covered six main topics which included finance,
+capacity building, indigenous knowledge, programme priorities, government
+institutional structures, and monitoring and evaluation. It reflected what was
+agreed upon in the past workshops. Group discussions took place in the
+second, third, and fourth days of the forum.
+Some of the lessons learnt from this experience can be summarized in the
+following:
+The problem of desertification is now brought out to wider circles and •
+scope thus creating greater opportunity to increased awareness on the
+problem.
+Successful participation and cooperation between the government •
+officials and NGOs is consolidated.
+By closing the national forum, the important parts of the process were
+convened. Recommendations of the workshops and the national forum were
+collected, analyzed and a technical committee was formed to compile the
+written part of the SNAP.
+4
+
+--- Page 15 ---
+The Arab Organization for Agricultural Development (AOAD), in 2001,
+through a request from the Minister of Agriculture recruited two national
+consultants to write the SNAP document using the information collected from
+the workshops and the national forum. The consultants compiled the SNAP in
+2002 and it was submitted to the UNCCD Secretariat as a draft in Arabic
+Language.
+1.3. Environmental settings
+1.3.1. Climate
+The climate of the Sudan is predominantly tropical and continental. The
+climatic zones range from the arid and semi arid in the north to the wet
+monsoon in the extreme south. The rainfall ranges from less than 50 mm per
+year in the north to more than 1200 mm per year in the southern parts of the
+country. Rainfall is erratic and the annual variations are very high. The mean
+minimum temperature range between 18oC to 21oC in winter while the mean
+maximum temperature ranges between 42oC to 44oC in summer. The Red
+Sea area and its highlands are dominated by Mediterranean climate. The
+potential evapotranspiration is higher than the actual precipitation in most
+parts of the country.
+The country being part of the Sudano-Sahelian region, has been subjected to
+recurrent droughts especially during the 1970s and the 1980s.
+1.3.2. Geology and Geomorphology:
+Sudan has boundaries with nine countries and enjoys more than 750 km of
+coastline on the Red Sea. The geology reflects two different structural zones.
+In the south and east there is the ancient Basement Complex Formation, which
+has been uplifted and mostly covered by superficial deposits of continental
+origin with Umm Ruwaba series occupying a basin upon it. Horizontal
+sedimentary rocks resulting from marine incursions have overlain the northern
+and western parts of the country. Sandstones and other tertiary rocks appear
+on the surface as extensive outcrops, dipping very gently northward (Barbour,
+1964). The combined action of gentle warping and faulting has produced the
+Red Sea and its adjoining hills, while volcanic activities have produced Jebel
+Marra. Volcanic lava occurs in many other areas.
+The geological structures and geomorphic processes have given rise to a
+topography which is generally flat, with a gentle northward slope. This
+generally flat, low plain is dotted with a few highland areas, which mostly
+occupy its fringes. The major highland areas include the Jebel Marra massif in
+the west (3100 m), Mount Kingeti along the Sudan- Uganda border (3200 m)
+and the Red Sea hills (2200- 2700 m). Of lower significance are the scattered
+5
+
+--- Page 16 ---
+small rock masses the most prominent of which are the Nuba Mountains
+which do not exceed 1450 m in elevation. The ironstone plateau occupies the
+south- western part of the country, while sand sheets and fixed and mobile
+sand dunes cover northern Sudan, particularly west of the Nile. Most of the
+area of the country is below 500 m, while the valley of the Nile is less than
+300 m above sea level .
+The Nubian Sandstone Formation is the largest aquifer in Sudan with
+sandstone containing non-flowing artesian water. In western Sudan, recharge
+comes from Chad and Darfur highlands, while in the eastern part it is secured
+by the Nile. South of Khartoum the soil is too clayey for significant
+infiltration. Umm Ruwaba Formation contains a considerable storage of water
+(Alic and Usmab, 1982).
+As a result of ancient geological processes, erosion and deposition, 95% of the
+Sudan’s total land surface has an elevation of between 300 to 1200m above
+Sea Level, with almost half of the area below 500 m.
+1.3.3. Natural Resources
+The natural vegetation of the country is a result of the active interaction of
+climatic, topographic, edaphic and economic factors. It increases in richness
+from north to south, ranging from desert and semi-desert drought resisting,
+scanty type of vegetation through woodland savanna in the low and high
+rainfall areas to high savanna/semi-equatorial forests. The mountain types of
+vegetation are confined to limited isolated sites.
+Harrison and Jackson (1958) have distinguished the following three main
+ecological zones:
+• Desert Zone
+It receives an annual rainfall of zero to 75 mm and is only used for short
+periods by camels and sheep in good years of rainfall.
+• The Semi-Desert Zone
+This zone covers the northern parts of North Darfur, West Darfur and North
+and West Kordofan, the northern limits of the White Nile, Gezira, Khartoum,
+Gedarif, Kassala, Red Sea, River Nile and the Northern states. Annual rainfall
+varies from 75-300 mm. The vegetation is valuable for grazing and its
+distribution is more related to soil types rather than rainfall. The characteristic
+dominant woody species are Acacia sp. While the dominant grass cover is
+mainly annual with few perennials.
+• Woodland Savanna
+This is the largest ecological zone and it covers large expanses in Kordofan,
+Darfur and the Blue Nile States. The annual rainfall varies from 300-800 mm.
+6
+
+--- Page 17 ---
+Some valuable grazing areas are found in Southern Darfur and Kordofan
+States.
+This extensive ecological zone is divided into
+1- The low rainfall woodland Savanna in which large areas is used for
+cultivation and livestock production under nomadic pastoralism.
+2- The high rainfall woodlands Savanna which occurs in the wetter parts
+of the south on the slopes and terraces in an alluvial soil complex. The natural
+vegetation forms are woodland savanna with shrubby undergrowth and sparse
+grasses.
+The Sudan is endowed with a wide range of ecosystems and Biodiversity. The
+ecological range extends from the desert in the north to the rain forests in the
+South. This is in addition to the fresh water and marine environments. There
+are 12 orders of flowering plants out of the 13, which are available in Africa,
+including a number of families, genera and species. Records indicate the
+presence of 3132 species of flowering plants, 409 of those are endemic.
+There are 265 species of mammals seven of which are endemic. The bird
+species amount to 938, while the fresh water fish species are 106. Reptiles are
+estimated to be 91 species, six of which are endemic. There are three endemic
+amphibian species.
+1.3.3.1. Soils
+The Sudan sits on the Basement rocks of the African continent. It is overlain
+by the Nubian Sandstone formation in the centre and north-west and by the
+Umm Ruwaba formation in the south. The Basement rocks appear to the
+surface in the eastern part of the country forming the Red Sea Hills. Soils of
+the Sudan are products of these parent materials plus the alluvial deposits of
+its rivers and their tributaries. According to the Food and Agriculture
+Organization of the United Nation (FAO, 1995), soil resources of the Sudan
+can be divided into seven broad regions as follows:
+Soils of the hyper-arid area (about 78 million ha) of Xerosol comprising part
+of the Sahara Desert are superficial deposits of sand with bare rock debris,
+shifting dunes; and consolidated dunes. Recent alluvium provides a basis for
+productive agriculture in the narrow Nile valley north of Khartoum. Elsewhere
+soils are sandy with little agricultural potential.
+To the south of this region are the soils known locally as Goz and (gardud),
+soils; classified as Arenosols (about 28 million ha in area). Further to the south
+are 12 million ha of the more weathered Arenosols in the semi-arid climate of
+western land central Sudan. These soils are low in nutrients and organic matter
+7
+
+--- Page 18 ---
+and have a high sensitivity to erosion. The sands are free draining, with some
+clay or ferruginous clay as a bond near the surface, making them firm after the
+rains. Under high torrential rains their nutrients could be easily leached.
+Vertisols (about 70 million ha) have considerable agricultural potential in the
+semi-arid zone of the Sudan. They form the central clay plains extending
+southwards to the eastern part of the flood plains. Special management
+practices are required to secure sustained production of these Vertisols. Their
+problems lie in the area of physical soil characteristics and water management,
+while their assets are a rather high chemical fertility and their location in
+extensive level plains where mechanical cultivation is possible. Ferrasols
+(about 30 million ha) are the soils of the dry sub-humid and the moist sub-
+humid zones embracing the tropical rain forest of the Sudan and the lush tall
+grasses. These soils have good physical properties but are chemically poor.
+Their low natural fertility and very low nutrient retention capacity are serious
+limitations. Their great depth, high permeability and stable microstructure
+make them less susceptible to erosion than many soils in the country, other
+than the Vertisols.
+The rocky soils of the Red Sea Hills and parts of Marra mountains, classified
+as Leptosols, constitute about 18 million ha. The Red Sea Hills soils are
+shallow and poor in nutrients and with high gravel content. The Marra
+mountain soils are relatively rich volcanic soils. Because of the limited soils
+depth and sloping terrain these soils are liable to erosion by water.
+Cambisols are the smallest soil group in the Sudan (about 2 million ha), but
+could be among the most productive soils in the country. These soils lie along
+the undulating Ethiopian Highlands under dry and moist sub-humid
+conditions, and thus are prone to water erosion.
+1.3.3.2. Water Resources
+Rainfall
+Summer is the main rainy season, extending from May to October, with
+precipitation ranging between less than 50 mm in the extreme north to more than
+1200 mm in the extreme south. Rainfall, however, is characterized by significant
+variations in distribution as well as in timing and location thereby magnifying the
+risks of localized crop failure. To avert this risk, mechanized rainfed production
+schemes have been spread over substantial area of central Sudan. Apart from
+agriculture, the rains replenish the underground reserve and provide the scattered
+8
+
+--- Page 19 ---
+(wadis) and water points with annual quantities to support the enormous wealth
+of livestock and wildlife.
+Nile water
+Sudan is a meeting point of river tributaries that emanate from the Ethiopian
+plateau and the region of the Great Lakes. The Blue Nile with its tributaries,
+Dinder and Rahad, flows from the east annually providing some 54 md.c.m. The
+Atbara tributary adds another 12 md.c.m. On the other hand, Bahr el Jebel
+commences from Lake Victoria with permanent rains, but the greater part of the
+runoff is lost in the swampy area known as (Sudd) in southern Sudan, bringing
+only about 15 md.c.m. at Malakal. The Sobat River, which joins the White Nile
+at Malakal, flows from the Ethiopian plateau and is fed from tributaries inside
+and outside the Sudan. About 8 md.c.m. of its runoff (estimated at 13 md.c.m.)
+are lost in the Sudd area of Sobat and Mashar. Almost all the water flow of Bahr
+El Ghazal River (estimated at 14 md.c.m.) is lost in the Sudd area of Bahr El
+Ghazal basin, leaving only half a md.c.m. to join the White Nile at Lake No.
+The big variation in the Blue Nile and River Atbara flow between the high river
+during the flood season and the low river during the months from March to May
+has necessitated the construction of dams to store water for irrigation and for the
+generation of hydroelectric power. At present, there are three dams: Sennar (1
+md.c.m.), Roseires (3.4 md.cm.) and Khashm El Girba (1.3 md.c.m). However,
+the accumulated silt in the dam lakes has reduced the storage capacity by 25% in
+Roseires dam and by 40% in both Sennar and Khashm El Girba dams. Thus,
+heightening the Roseries dam to increase the storage capacity to 7.3 md.c.m. and
+constructing Siteit Dam across upper Atbara River to install additional storage
+capacity for irrigation projects are being seriously considered by the Sudan
+Government.
+Sudan is now utilizing about 14.6 md.c.m. of its share of the Nile water for
+irrigation, of which 9.5 md.c.m. are from the Blue Nile, 1.7 md.c.m. from River
+Atbara, 1.8 md.c.m. from the White Nile and 1.6 md.c.m. from the River Nile.
+The heightening of Roseries Dam and the construction of the new dams will
+enable the country to fully utilize its share of the Nile water, which stands
+currently at 20.5 md.c.m. at Sennar (18.5 md.c.m. at Aswan) according to the
+Nile Water Agreement of 1959. During the early eighties, Sudan and Egypt
+launched a joint project to excavate the Jongli canal and bypass part of the Sudd
+region, thereby sparing some 4 md.c.m. to be divided equally between the two
+countries. However, the project was hampered by the civil strife, which started in
+1983.
+9
+
+--- Page 20 ---
+Seasonal Surface Non-Nile Waters
+These include El Gash seasonal river which has an annual runoff of 600 million
+cubic meters (m.c.m.) and Khor Baraka with 500 m.c.m., in addition to about 40
+smaller riverlets or wadis scattered all over the central plain, providing about 6.7
+md.c.m., which are so far not utilized with the exception of about 0.16 md.c.m.
+used for domestic purposes. This has been made possible by constructing 63
+barrages across the wadis to store 130 m.c.m. and by digging 840 (hafirs) to store
+about 26 m.c.m.
+Underground Water
+The water bearing rock strata comprise the Nubian Sandstone, the Um Ruwaba
+Series and the basement complex which cover, respectively, 28.1%, 20.5% and
+9.1% of the total area of the Sudan. The preliminary surveys of the underground
+reserve quote the figure of nine md.c.m. However, there is need for more research
+to ascertain the actual figures for the reserve and the replenishment rate. At
+present, only about 1.3 md.c.m. underground reserves are utilized, of which about
+0.45 md.c.m. are used for domestic purposes, while about 0.85 md.c.m. are used
+to irrigate about 67,200 ha.
+Almost all the drainage systems flow into the Nile system. The Blue and
+White Niles, Bahr el-Ghazal and Bahr el-Arab perennial streams are fed by
+natural reservoirs located beyond the Sudanese boundaries. Other streams,
+including the Atbara and the Dinder and Rahad, which make appreciable
+contribution in summer to the Nile, dry up into disconnected pools, or
+disappear under their sandy beds during the dry season, or end up in inland
+deltas. Other occasional, intermittent streams radiating from the highlands
+during the rainy season, rarely if ever reach the Nile.
+1.3.3.3. Forests
+The forest resources of the Sudan cover approximately 47.3 million hectares
+and are mostly woodland Savannas. Their distribution is such that 65% are in
+the southern region whereas the remaining 35% are found in the northern
+region (Annex N0. 1: Woody areas in Sudan)
+Wood for fuel is the major forest product and Northern Sudan consumes about
+13.13 million m3 annually (FAO, 1994).
+Gum Arabic is also a major product and Sudan produces 80% of the world
+production. Building materials, fencing and furniture are locally produced
+from the forest resources.
+1.3.3.4. Rangelands
+10
+
+--- Page 21 ---
+The grazing resources as supplied by the natural rangelands cover about 116
+million hectares. These spread to occupy the ecological zones that range from
+the desert in the extreme north, where grazing areas are limited to semi-desert,
+the rainfall Savanna and the high rainfall woodland Savanna in the south. The
+northern rangelands are dominated by annual herbaceous plants with trees and
+bushes. In the Southern portion, perennial herbaceous plants increase with
+dense stands of woody cover.
+Browse species (trees and shrubs) are important components of the natural
+rangelands upon which livestock and wildlife depend during the dry season.
+In the drier areas where Acacias predominate, the pods, fruits, twigs and
+leaves are the main browse materials. In the wetter areas to the south where
+broad-leafed woody plants are dominant, livestock depend heavily on tree
+foliage.
+Some range areas are under-utilized during the dry season because of water
+shortage while others are overgrazed because of intensive water supply.
+The expansion of agriculture in the mechanized and traditional sectors has
+seriously reduced the grazing areas. A satisfactory balance must be found
+before the situation gets out of hands.
+1.3.4. Energy
+Forests are the most important renewable source of energy in the Sudan. The
+rural communities depend on forests, woodlands and vegetation for their
+livelihood. Fuel wood, sawn wood, building materials and fodder are obtained
+by direct picking from trees, felling or uprooting of standing trees. The total
+annual removals from Sudan forests amounts to about 15 million cubic meters
+of which 87% are consumed for fuel.
+FNC estimates that about 30% of the quantities of wood are consumed in
+Khartoum and Gezira states. It is also worth mentioning that 59% of wood
+consumed is obtained from the low rainfall savannah and 39% from the poor
+vegetation of the semi-desert region. The amount of wood removed annually
+exceeds the allowable limit by about 5 million cubic meters.
+The discovery of petroleum initiated the use of butane gas (Ghabat Gas) which
+hopefully adds a glimpse of hope to stop to the present forests attrition and
+recover an already lost asset.
+1.3.5. Wildlife
+It is generally accepted that wildlife was more abundant in northern Sudan
+than it is today. Wildlife has been disappearing from several areas in northern
+Sudan. The human and livestock populations are increasing creating more
+demand on natural resources. Natural pastures are destroyed and very little is
+done to keep human activities in harmony with the natural ecological balance.
+11
+
+--- Page 22 ---
+The diversity in the ecological zones is reflected in a wide variety of wildlife
+species. It has been reported that 91 genera and 224 species and sub-species
+of mammals other than bats have been described in the Sudan. It is worth
+mentioning that out of the thirteen-mammalian orders in Africa, twelve occur
+in Sudan.
+1.3.6. Socio-Economic Aspects
+Population has grown from 10.26 million in 1956 to 25.6 million in 1993. At
+present the country’s population is estimated at 31.7 million (WB, 2003) and
+its annual growth rate has increased from 1.9% to 2.7%. According to the
+fourth national census (1993) rural-to-urban migration has been steady and
+high, with urban population growth of 4% between 1983/1993. The urban
+population has grown from less than one million (854,000) in 1956 to 7.5
+million in 1993. The rural population in 1993 constituted 71% of Sudanese,
+(60% rural settlers and 11% nomads), whereas the urban population was 29%.
+At present, the urban population is estimated at 37 % of the total population
+(WB, 2003).
+It is predicted that urban population will double every 26 years. This trend of
+high rural-urban migration is due mainly to recurring droughts (which are
+increasing in frequency), major civil conflicts, budget cuts, and declining
+developmental investment in the rural areas.
+According to the fourth national census (1993) population density per square
+kilometer is estimated to be 10.2 persons. This figure, however, proves to be a
+misleading indicator, when population distribution is considered. In Sudan, a
+great deal of land is desert, desert-like, or simply non-arable. Therefore, when
+land area is limited to that which has some potential arability (as done by
+Modawi et al. 1995), measures of population density increase to 31.4
+persons/km2, and go as high as 370 persons/km2 when considering land
+presently cultivated. About 35% of the population resides adjacent to the Nile
+in Khartoum, Gezira, Sennar, Blue Nile and the White Nile States. This is
+mainly due to areas being uninhabitable, or becoming depopulated with the
+shrinking nomadic population in the drought prone north, and the harsh desert
+conditions from 12°N to 16°N. Overall, population density in relation to
+arable land is 63 people per square kilometer, but the central region, adjacent
+to the Nile valley, is most densely populated compared to traditional rainfed
+areas.
+Agriculture is the backbone of the national economy with about 80% of the
+people engaged in crop and animal production. This makes millions of people
+in the country directly dependent on natural resources for their livelihood and
+employment.
+12
+
+--- Page 23 ---
+This heavy dependence of Sudanese economy on natural resources is reflected
+in the contribution of the agricultural sector of Sudan GDP, which amounted
+to 29 to 46% during the period 1985 to 1997 and over 46% in 2001.
+The share of industry, manufacturing and mining in the GDP is estimated at
+15%, although the emergence of petroleum as Sudan’s primary export
+commodity is likely to change the situation in the years to come.
+13
+
+--- Page 24 ---
+CHAPTER TWO
+2. Desertification in Sudan
+Sudan with its large area and diversified ecosystems reflects different types of
+land use. The intensive use of the available resources has led to the appearance
+of the problem of desertification.
+In Sudan, desertification is regarded as the first environmental threat that
+poses a real constraint to achieving sustainable agricultural development.
+Desertification is a human made problem through misuse and mal practices of
+natural resources. Humans are thus the main agents of desertification as well
+as its victims. Land degradation is invariably accompanied by degradation of
+human well being and social prospects.
+Climate with its great variation and intensity is the second causal agent of
+desertification. The frequent severe drought that struck Sudan from 1967-73
+and 1982-84, in addition to lesser severe drought in late eighties with their
+great impact on the natural resource led to famine and human displacement.
+2.1. Causes and Extent
+2.1.1. Overgrazing
+Overgrazing is the most prevalent cause of desertification in almost all over
+Sudan. This is especially so around water points and where water table is often
+lowered after increased or excessive use of water. Sudan with its rich livestock
+is vulnerable to desertification through overgrazing. This has led to the
+disappearance of some palatable species and replacement by non-palatable
+types in some rangelands in Western Sudan. The carrying capacity of most of
+the rangeland areas in Kordofan, Darfur and Butana can hardly support the
+large number of livestock in the area.
+2.1.2. Deforestation
+Felling of trees for different reasons and the use of fuel wood energy are the
+causes of deforestation leading to desertification in forest areas. Alternative
+energy sources (solar, wind, biogas…etc) must be thought of if desertification
+due to deforestation is to be controlled.
+14
+
+--- Page 25 ---
+The use of butane gas as a substitute to biomass as a source of domestic
+energy has significantly improved the situation in this respect. The recently
+launched FNC Scheme (Ghabat gas) is really commendable.
+2.1.3. Over-cultivation, Cultivation of Marginal Lands and Irrational Use
+of Heavy Machinery.
+The over-cultivation and cultivation of marginal land especially in low rainfall
+areas is a serious cause of desertification in Sudan. This often causes: a) loss
+of soil fertility b) soil impermeability and c) loss of nutrients and biological
+activity.
+2.1.4. Bush Removal and Unplanned Burning
+The uprooting of bushes for wood and burning of grass and forest shrubs for
+crop cultivation can lead to desertification. This is practiced in some areas in
+Central Sudan. Fires destroy the soil cover leaving it bare and hence
+vulnerable to erosion and desertification.
+2.2. Drought and Desertification Impacts
+Drought and desertification had threatened the irrigation sector, mechanized
+crop production schemes and the traditional rain-fed agriculture. Moreover
+desert encroachment is threatening almost all the potentially cultivable land in
+the country. Large tracts of soils, even in the Gezira Scheme, have fallen out
+of production due to desert encroachment. Similarly forestlands over the
+country, especially the gum Arabic production belt in Kordofan are threatened
+with desert encroachment to a very large extent with all consequences on the
+country's economy. The major impacts of Desertification on natural resources
+can be summed up in the following:-
+Socio-economic livelihoods a.
+Decline of land productivity. b.
+Food production shortage. c.
+Resource based Conflict d.
+Decline in environmental quality. e.
+Decline of rangelands and pastoral resources. f.
+Shifting of sand dunes. g.
+In N. Kordofan and N. Darfur sand is continuously heaping over fairly
+productive soils. The entire strip of the Nile is subject to serious dune
+15
+
+--- Page 26 ---
+encroachment, particularly the area between Delgo and Karima in northern
+Sudan.
+2.3. Land Degradation
+Assessment of land degradation and its trends was based on the interaction of
+the factors of climate, soil, vegetative cover and the current human activities.
+Accordingly the concerned desertified states could be grouped into three
+categories. The states within each of the three classes share some common
+factors. The first class encompasses the most arid States, which are located in
+the northern and northeastern zones of the Sudan. It includes the Northern, the
+River Nile and Kassala States. Due to the relatively high aridity coupled with
+excessive agricultural land use, the land is experiencing a serious state of
+desertification. This stage has already been manifested in the form of bare
+lands around villages and water points. Riverbank erosion (Haddam) and sand
+dunes accumulation particularly in the western side of the Nile are all common
+symptoms of deterioration.
+The second class includes the states that are dominating the central clay plain
+of the Sudan, as well as the main irrigation schemes. These are the States of
+Gedarif, Sennar, Gezira and White Nile. This region enjoys a relatively high
+annual rainfall (100 – 500mm) and hence moderately desertified.
+The area had a fairly good vegetative cover but, currently the land has
+undergone serious degradation as irrational mechanized farming, extensive
+woodcutting and over-grazing are over mining land resources.
+northern Gezira and the western part of the White Nile are now experiencing
+progressive sand dune encroachment.
+Class three includes the western Sudan States of North Kordofan, west
+Kordofan, North Darfur and West Darfur. The soils are predominantly sandy
+and due to their favorable permeability and workability the soils are being
+extensively used for rain-fed traditional farming. These states are also the
+main resort for the nomadic pastoralists who flee livestock pests and diseases
+in the clays further south during the wet season. Consequently a multiple
+factors of climate, soil and irrational land use have contributed greatly to the
+current state of land degradation. But still the fact remains that prevention of
+land degradation is more cost-effective than suffering the severe consequences
+of desertification.
+2.4. Geographical Extent of Desertification in Sudan
+The desertified area in the country is confined to the mentioned ecological
+zones which fall between latitude 10o-18o N.
+16
+
+--- Page 27 ---
+Sudan is one of the Sudano-Sahelian countries that have been seriously
+affected by drought and desertification since the late sixties to the present.
+This has its lasting imprints on natural habitats, means of livelihood and socio-
+economic fabric of the societies. The magnitude of desertification in Sudan
+was assessed by assimilating the existing information through the use of
+Geographical Information Systems (GIS). The indicators used were:
+Land Use. •
+Geomorphology. •
+Human settlements. •
+Soil and drainage pattern and •
+Rainfall distribution. •
+Accordingly five classes of desertification were identified: Very Severe,
+Severe, Moderate, Slight and Very slight (Table 1).
+The maps produced by NDDCU show rainfall fluctuations. The most striking
+result is the shift of the rainfall isohyets during the period 1930 – 1990 from
+north to south, indicating an increase of the area under more arid conditions.
+The results in table (1), show that the area affected by desertification between
+Lat. 10o – 18oN is approximately 1,260,000 km2, which is about 51% of the
+country's total area.
+Table (1) Areas at Risk to Drought between Lat. 10-18 N
+Desertification Ecological Rainfall Area in % to Zone % to
+Classes Zones (mm) (000Km2) Area Sudan
+Area
+Desert Desert 0-100 307 24.4 12.3
+Very Severe- Semi-Desert 100-300 414 32.9 16.6
+Severe
+Moderate Low Rainfall 300-800 513 40.6 20.6
+Savanna
+Slight Montane 600-800 0.8 0.1 0.0
+Vegetation
+-Very slight Higher >800 25 2.0 1.0
+Rainfall
+Savanna
+Total 1,260 100.0 49.5
+Zone: 10o – 18oN,
+Zone area = Studied affected Area (10o – 18o)
+Source: E.M. Salih (1994).
+17
+
+--- Page 28 ---
+Hence it is an urgent necessity to initiate operational programmes to control
+desertification and mitigate drought particularly under severe and very severe
+conditions.
+2.5. Policies and Legislation
+2.5.1. Polices
+The main objectives of these policies are the achievement of food security,
+appropriate use of natural resources and sustainable development, poverty
+eradication, mitigation of drought effects and desertification control.
+Sudan has sensed the problem of drought and desert encroachment since the late
+sixties and prepared and implemented the Desert Encroachment Control And
+Rehabilitation Programme (DECARP) in 1976, followed by the National
+Comprehensive Strategy (1992-2002).
+Recently the Sudan embarked on a 25-year strategy with similar objectives.
+2.5.2. Legislation
+Land tenure systems in Sudan are complicated and consequently their role for
+optimum utilization of natural resources is confused and ineffective. Rules and
+regulations protecting the environment as a whole available, but hardly needed to
+activate these laws and regulations.
+The Sudan government is about to set up relevant bodies for the well
+management of natural resources to safeguard against tribal conflicts with
+specific role for tribal leaders. At present laws be issued locally (Mahallia),
+State (Wilaya) or Nationally.
+The role of the HCENR in this respect is, of course, of paramount importance in
+the area of coordination.
+Institutional Framework 2.6.
+In trying to review the organizations and institutes invariably all of them focus
+strongly on the way that makes best use and management of natural resources.
+Hence a clear and long term vision and in depth view of those strategies. It is
+high time that such approach be the prime target for all those involved in
+combating desertification. Needless to say that should have clear objectives,
+holistic and well coordinated with others to ensure the best use of the already
+strained financial resources.
+In spite of the relatively large number of institutions, organization and NGOs
+involved in combating desertification and the wide distribution of
+18
+
+--- Page 29 ---
+responsibilities and tasks there is a pressing need to achieve complementarities
+of activities and coordination efforts.
+2.6.1. National Drought and Desertification Control Programmes
+Coordinating and Monitoring Unit (NDDCU)
+The Ministry of Agriculture and Forestry (MOAF) is responsible for food
+security and mandated to operationalize the national strategies, policies and
+programmes. The Ministry has been the main entity to forecast disasters of
+drought and desertification since the sixties.
+Within its capacity and mandate the ministry has established the National
+Desertification Control and Monitoring Unit in 1978, which has been supported
+by United Nations Sudanosahelian Office (UNSO) (UNDP) in 1980. After the
+workshop on Guidelines of the National Plan for Combating Drought and
+desertification, the unit was upgraded to National Drought and Desertification
+Control Programmes Coordinating and Monitoring Unit (NDDCU) and its
+coordinating council was restructured to comprise the involved representatives
+from the relative sectors.
+NDDCU as an organ of information, synergy, dissemination and coordination,
+and the Coordination Council (high level experts) are responsible for
+formulating, and updating the approved national plans, programmes of action and
+for articulating elements and issues of the drought and desertification problems.
+They are mandated to modify the projects of priority according to actual
+conditions and essential needs.
+The present position of the National Drought and Desertification Control
+Programmes Coordinating and Monitoring Unit (NDDCU) under the
+Administration of Land Use and Desertification Control reflects an
+insufficient understanding of the role and importance of the unit.
+This position deprives the unit of autonomy and flexibility required to perform
+its function at the national level. It is hence imperative to reconsider the status
+of the unit within the context of enhancing the overall commitment of the
+government to tackle the problem of desertification in the country.
+2.6.2. Agricultural Research Corporation (ARC)
+19
+
+--- Page 30 ---
+In the process of trying to solve agricultural production problems ARC has
+humbly contributed to desertification control and research. Lands and
+Water Research Centre (LWRC) is contributing to research on
+desertification control through tackling programmes on land and water
+management, cultural practices, rehabilitation of forests and agroforestry.
+LWRC is also generating some useful data contributing to the
+understanding of desertification phenomenon in the Sudan.
+However, ARC in its ongoing programmes in the area of desertification in
+Gezira, White Nile, Khartoum, and Northern States is executing the following
+projects:
+1- Assessment of some degraded soil series and soil research.
+2- Soil sedimentation and soil crusting in wheat plots in Gezira.
+3- Water harvesting techniques in Butana and Gedarif.
+4- Salt-affected soils and use of organic agriculture in Khartoum and River Nile
+States.
+5- Reclamation of upper soil terraces in Southern Khartoum and Northern States
+through:
+Organic manure. •
+Water leaching. •
+Use of urea. •
+Use of salt tolerant wheat varieties. •
+6- Land and water management techniques in Gardud soils and cultural practices
+for gum Arabic production in Kordofan.
+2.6.3. National Centre for Research (NCR)
+The National Centre for Research in its broad objectives and targets is clearly
+set to:
+Lay sound solid database for sustainable development, (cid:131)
+Plan for scientific and technical state and the creation of an indusive (cid:131)
+environment for scientific research; and
+Fill up research gaps not covered by other research institutions. (cid:131)
+NCR via the institute of environmental research and natural resources launching
+an ambitious programme to combat desertification and mitigate its effects but, as
+expected, was faced with tremendous difficulties during the execution phase. The
+constraints are mainly financial resources and cadre. Nevertheless, the
+programme managed to contribute significantly in the areas of:
+Stabilization of sand dunes. (cid:131)
+Effects of shelterbelts. (cid:131)
+Use of sandy soils for agricultural and animal production. (cid:131)
+20
+
+--- Page 31 ---
+2.6.4. Desertification And Desert Cultivation Studies Institute (DADCSI)
+The institute is contributing significantly to desertification control knowledge
+through their guided research and studies.
+2.6.5. The Non-Governmental Organizations (NGOs)
+The role of NGOs need not be underscored and this is reflected in a few
+examples:
+The Sudanese Environment Conservation Society (SECS) could be classified
+as a leading NGO conducting participatory process in support of
+implementation of the SNAP related activities. SECS first strategy (1992–
+2002) specified the desertification problem as the major environmental
+problem in the Sudan. SECS housed the national NGOs Coordinating
+Committee on Combating Desertification (NCCD). SECS acted as focal point
+for a network of 100 branches located in more than 13 states. Also SECS had
+been active in conducting workshops and meetings at Khartoum and in the
+states where direct consultation and discussion on issues of SNAP related
+activities were discussed. Also SECS in its headquarters office housed the
+NGOs network for poverty alleviation. It should be added that the NCCD
+NGOs network was not as active during the period 2002-2004 when compared
+to 2000-2002, and that efforts to activate this network are being made.
+The Sudanese Civil Society Network for Alleviation of Poverty (SCSNAP) (cid:131)
+which was established by a group of NGOs in collaboration with the
+Netherlands' Oxfam participated in the consultation of IPRSP. The network
+conducted several meetings and workshops with emphasis on identifying
+Community Based Organizations (CBOs) best practices in mitigating the
+negative impact of poverty and work with other stakeholders towards
+introducing or recommending pro-poor macro-policies.
+During 2003 the FNC has put forth participatory efforts with CBOs to (cid:131)
+establish 105 community forests in 10474 feddans during 2003. Also
+Agency for Cooperation and Research in Development (ACORD) in the
+Red Sea State distributed 1500 seedlings and rehabilitated 50 feddans of
+rangeland. The SOS Sahel International (UK) established 14 community
+forests associations in Northern Kordofan. The associations registered in
+2002 were responsible for tree plantations in 7018 feddans in privately
+owned land and in 85,000 feddans in communally managed land. It was
+reported by SOS that community forestry had proved to be an effective
+strategy in strengthening the livelihood resources base of 32,000 persons in
+N. Kordofan.
+21
+
+--- Page 32 ---
+2.7. The Present status of Desertification in the Affected States
+The thirteen-affected states have tropical sub-continental type of climate
+whose nature is determined by two main air movements. One is a very dry air
+from the north that prevails throughout the year but not uniform. The second
+is a major airflow of Maritime Origin that enters the area from the south and
+carries moisture and brings rain. Accordingly there is a dry season from
+November to April and a wet season from May through October. The rainfall
+follows a general north-south gradient increase from 25 mm in the extreme
+north to 1000 mm in the southern fringes. Thus the states that are located in
+the southern part of the desertified area receive more annual rainfall than those
+in the extreme north, and hence less vulnerable to desertification, except the
+Northern State which is located in the desert.
+Each of the eleven remaining states are situated in two or more of the desert,
+semi-desert, arid and semi-arid climatic zones that follows consecutively from
+north to south similar to the rainfall isohyets.
+The annual rainfall is highly variable and the distribution is erratic with all
+direct implications on the cropping season. Except in August, which is the
+most humid month, the potential evapotranspiration in all other months
+exceeds the relative humidity.
+Assessment of land degradation and its trends was based on the interaction of
+the factors of climate namely: soil, vegetative coverage and the current human
+activities. Accordingly the concerned desertified states could be grouped into
+three categories. The states within each of the three classes share some
+common factors. The first class encompasses the most and states, which are
+located in the northern and northeastern zones of the Sudan. It includes the
+Northern, the River Nile and Kassala States. Due to the relatively high aridity
+coupled with excessive agricultural land use, the land is experiencing a serious
+impact of desertification. This state has already been manifested in the form
+of bare lands around villages and water points. Riverbank erosion in the form
+of bare lands around villages and water points. Riverbank erosion (Haddam)
+and sand dunes accumulation particularly in the western side of the Nile are
+all common symptoms of deteriorations.
+The second class includes the states that are dominating the central clay plain
+of the country as well as the main irrigation schemes. These are the States of
+Gedarif, Sennar, Gezira and White Nile. This region enjoys a relatively high
+annual rainfall (100-500 mm) and hence moderately desertified. The area had
+a fairly good vegetative cover but, currently the land has undergone serious
+degradation as irrational mechanized farming, extensive woodcutting and
+over-grazing are over mining land resources.
+22
+
+--- Page 33 ---
+Northern Gezira and the western part of the White Nile States are now
+experiencing progressive sand dunes encroachment.
+Class three includes the western Sudan States of North Kordofan, west
+Kordofan, North Darfur and West Darfur. The soil is predominantly sandy and
+due to their favorable permeability and workability the soils are being
+extensively used for rain-fed traditional farming. This State is also the main
+resort for the nomadic pastoralists who flee livestock pests and diseases in the
+clays further south during the wet season. Consequently a multiple factors of
+climate, soil and irrational land use have contributed greatly to the current
+state of land degradation.
+2.7.1. Current Plans for Combating Desertification
+There are few national and externally supported projects for combating
+desertification in most of the states but the effects are limited and localized
+due to the large area affected and the vast degree of deterioration. Some of the
+projects have already ceased to function due to lack of funds.
+Therefore unless serious and immediate action is pursued the gap between the
+sustainability of resources and the degree of exploitation will further widen.
+CHAPTER THREE
+3. Past and Present Projects for Combating Desertification
+3.1. Perspective
+About a quarter of a century back, the Rural Development Administration
+implemented several agricultural development projects in Sudan over a wide
+range of a climatic and soil conditions. Some of these projects were designed for
+combating what was referred to as Desert Encroachment Control And
+Rehabilitation Programme (DECARP, 1976). It was realized then that this
+phenomenon is triggered by human and livestock activities including,
+overgrazing, irrational cultivation, wood cutting and deforestation, uprooting
+shrubs for fuel, the lowering of water tables due to increased water use, and
+burning of grasslands forests and shrub lands. Some sort of action programmes
+supported these activities.
+The obvious hypothesis was that man and livestock are behind desertification.
+Hence appropriate projects to combat: overgrazing, marginal cultivation, wood
+23
+
+--- Page 34 ---
+cutting and deforestation, lowering of the water table and burning of grasslands
+(Harig) were implemented as priority action programmes.
+More, recently, several anti-desertification projects were set up, of which the
+following will be evaluated.
+3.2. Restocking of Gum Arabic Desertification Control
+Objectives
+The main objectives of the project are to establish ten extension service centers in
+three districts of northern Kordofan (Al Obied, Um Ruaba and Bara) and to
+promote individual and community involvement in the restocking of the gum
+belt. By so doing it is aimed to create facilities and a level of technical ability
+within the rural communities to enable them to become self reliant in combating
+desertification and in improving their living standards.
+Activities
+The activities include establishment of extension centres to mobilize community
+in restocking of the gum belt. Establishment of central nurseries. Distribution of
+seedlings to the farmers (Acacia Senegal, Acacia Trotilis, and Acacia Balamites).
+3.3. Integrated Resource Management for Desertification Control (Al-Odaya)
+Objectives
+The aim of the project is to establish institutional structure to promote individual
+and community involvement for the regeneration, conservation and proper
+management of the natural resources in their area. The Immediate Objectives are:
+- Creation of self-reliant rural communities through establishing operational
+Village Councils Development Committees (VCDCs) with their
+subcommittees that focuses on the natural resource management.
+- Improvement of land management with emphasis on range management, and
+- Development of water harvesting techniques.
+Activities
+- Consolidation of eleven operational VCDCs and formation of new ones.
+- Creation of nomadic development committees. .
+- Creation of a Council for Area Resources Management (CARM).
+24
+
+--- Page 35 ---
+- Establishment of specialized sub-committees on range, water, finance and
+village nurseries.
+- Provision of on-job training for village during participation in project
+activities.
+3.4. Western Savanna Development Project (WSDP)
+This project has formed an integrated part of government long-term agricultural
+and rural development programme in Southern Darfur.
+The Western Savanna Development Corporation (WSDC) became operative in
+1978 and had two projects, namely South Darfur Rural Development Project and
+The Savanna Development Project.
+Objectives
+- Increasing small farmer incomes through higher production.
+- Adoption of farming system.
+- Arresting the ongoing land degradation.
+- Rehabilitation of water supplies facilities.
+- Extension of new technologies.
+- Conservation of rangelands and pastures.
+Activities
+- Adoption of operational research and establishment of four controlled
+settlements with secure tenure.
+- Initiation of the registered deferred wet season enclosures.
+- A programme of rotational deferred wet season grazing system was
+implemented with a group of nomads
+- The WSDC worked closely with the National Water Corporation (NWC) to
+rehabilitate water yards.
+The Western Sudan Agricultural Research Project (WSARP) as an integral part
+of WSDC was supposed to generate new farming systems, crop varieties,
+introduce tillage implements, improve crop production and protect the
+environment. However, numerous problems and constraints interacted and
+limited its success to few technological packages.
+Each project achieved some of its objectives, for example:
+Establishment of nursery techniques and restocking of gum Arabic -
+gardens.
+Techology of rest-rotation grazing system WSARP. -
+Concept of traditional reserves and water catchment techniques (Al -
+Odaya).
+Establishment of an extension system WSARP. -
+25
+
+--- Page 36 ---
+Trials and partial success in the establishment of a new farming system -
+and a sustainable environment WSARP.
+Almost all three projects were limited by one or more of the following:
+Lack of efficient public awareness and popular participation mechanisms. -
+Lack of adequate community services in the project areas. -
+Some of the projects are heavily sector oriented, with slow cash flow -
+process.
+Lack of trained manpower in the field. -
+Almost all three projects lack an effective assessment and monitoring -
+evaluation system, with coordination at minimum.
+Other projects were designed to conserve the forest resources by providing
+energy substitute for use by households and services. Such projects included: the
+project of briquetting of groundnut shells and improved-strata dissemination at Al
+Nuhoud and the project of charcoal production from cotton stalks in the
+agriculture schemes of AlRahad, Gezira and biogas plants in Darfur State.
+Mobile or shifting sand dunes blockade watercourses cover productive lands, rail,
+roads and building. A notable successful project for sand dunes stabilization was
+N). The iْmplemented near Al-Bashiri village, 18Km northwest of Bara (L14
+method included fencing, establishment of chess board designed fences using
+local bush and planting of drought resistant grasses such are: Panicum turgidum
+and Leptadenia pyrotechnica shrubs, which are available in the area proved the
+best for making microfences.
+CHAPTER FOUR
+4. Priority Programmes and Activities
+These priorities are based on previous work and documents. Paramount among
+these, are the workshops carried out by the NDDCU in partnership with the
+NCCD in the 13 most affected states and the subsequent national workshops.
+They are also based on the parallel efforts of the NCCD which culminated in a
+national workshop and the recent work on the Millennium Development Goals
+(MDGs), especially Goal “7” which calls for ensuring environmental
+sustainability. The programmes were prepared and identified in conformity with
+the spirit of Chapter 12 Agenda 21.
+The programmes can be classified into four main programme types:
+Programmes and activities related to institutional building for •
+coordination, monitoring and evaluation.
+Programmes and activities related to capacity building and human •
+resources development.
+26
+
+--- Page 37 ---
+Programmes and activities related to priority programme areas at state •
+levels.
+Other priorities related to the implementation of the UNCCD. •
+Pilot projects. •
+4.1. Programmes And Activities Related to Institutional Building,
+Coordination, Monitoring And Evaluation
+It is recommended that a Higher Council for Coordinating Drought and
+Desertification Control Programmes (HCCDDCP) and its organs should be
+established. This council is to be enabled to play progressively and effectively its
+role within the SNAP process through institutional support to its General
+Secretariat and its organs through promoting the NDDCU to a general
+Secretariat.
+The logical framework could be described as follows:
+i)- Immediate objectives:
+Formalizing the new organizational chart (Fig. No. 1) for SNAP activities •
+coordination, monitoring and evaluation.
+Restructuring the NDDCU in order to promote it to a General Secretariat •
+for HCCDDCP.
+Building operating capacities of the General Secretariat (former NDDCU) •
+and its organs in the fields of desertification monitoring indicators,
+integrated information systems on environment and desertification, data
+collection and processing, policy analysis,
+Figure No. 1
+Organization Structure of the HCCDDCP
+Higher Council for Coordinating Drought
+Secretariat
+and Desertification Control Programmes
+(HCCDDCP)
+State Coordination Council
+Project Coordination Council
+27
+
+--- Page 38 ---
+Village D evelopment Council
+Services Water Range Forestry Agriculture
+Community base: farmers, laborers, Women, Youth, NGOs, CBOs
+and Private Sector
+capacity building, partnership promotion, resources mobilization and
+funding, etc…
+ii)- Expected outputs should include:
+Effective built in capacity within HCCDDCP . •
+Effective coordination and synergy between Rio conventions. •
+Initiating an integrated information system on desertification. •
+Improvement of decision-making processes with regard to natural •
+resources management issues at federal and state levels.
+A better-integrated approach towards sustainable development in •
+desertification affected areas.
+Substantial increase in desertification control activities at grassroots level. •
+iii)- The programme activities include:
+Training at relevant levels. •
+Improvement and strengthening of communication channels. •
+28
+
+--- Page 39 ---
+Supporting the HCCDDCP and its General Secretariat with required •
+equipment.
+Improvement and strengthening of infrastructure and premises. •
+4.2. Programmes And Activities Related to Capacity Building And Human
+Resources Development
+Programmes under this group aim at:
+Unifying environmental policies involving civil societies at state level •
+through the provision of an integrated/holistic Environment Information
+Systems.
+Promoting environmental public awareness using popular and state of the •
+art communication channels.
+Enhancing scientific research in the field of environment at federal and •
+state levels.
+Introducing environmental education programmes in curricula courses at •
+various levels, including scientific research outputs.
+Extending and promoting the utilization of environmental sound •
+intermediate technologies in rural areas.
+Promoting and developing alternative renewable energy sources (bio- •
+energy, solar energy, wind energy, etc…) as appropriate.
+The specific objectives of these programmes aim at building national capacities
+in various fields such as:
+Environment policies. •
+Extension and public awareness on environment. •
+Scientific research on environmental issues. •
+Environmental education issues. •
+Intermediate technologies. •
+Renewable energy sources. •
+4.3. Programmes And Activities Related to Priority Programmes Areas at
+State Levels
+At State level the SNAP process identified rough but clear state programme
+proposals covering the major aspects of desertification. However, these proposals
+did not identify regarding programme priorities, or criteria to be adopted in order
+to assess programme priorities within a given state. Nevertheless, these proposals
+are to be considered as an appropriate pipeline for the implementation of the
+SNAP taking into consideration the hypothetical scarcity of funding resources
+and, the priority criteria.
+29
+
+--- Page 40 ---
+In this regard a set of indicative criteria are proposed to be used when funding
+resources are secured. In order to facilitate the use of an integrated approach
+towards the preparation and implementation of these programmes. The proposed
+criteria are based more on socio-special or socio-geographic consideration than
+on sector. These criteria are:
+Natural resources potentialities: the highest is the potential to be •
+valorized or to be restored/protected; the highest is the priority to be
+considered.
+Scope of intensity of desertification processes. •
+Demographic density. •
+Dependency to rural employment: number of inhabitants for each •
+employment when available.
+Vicinity of an ADS or ARS or degree of complementation with any •
+other former ongoing development activities.
+Local socio-geographic balance and equity. •
+4.4. Pilot Projects
+Thirteen projects were selected among state priority programme areas, on the
+basis of one project for each affected state, to serve as pilot projects. These
+projects are summarized in (annex No. 2). The preparation and the
+implementation of these projects are intended to:
+initiate the implementation of the SNAP process through a learning •
+implementation process.
+give consistency to SNAP orientations and mechanisms. •
+allow substantial feed-back for further refinement of SNAP components. •
+4.5. Other Priorities Related to the Implementation of the UNCCD
+4.5.1. Mainstreaming of the SNAP in the National Development Strategy
+The National Comprehensive Strategy (NCS, 1992 – 2002) has laid, for the
+first time, an environmental strategy for Sudan. The NCS has stipulated that
+the environmental issues must be an integral part of the all-developmental
+activities. The HCNR and the National Planning Council, supported by the
+United Nations Division for Sustainable Development (UNDESA-DSD) held
+a number of activities to draw a National Sustainable Development Strategy
+for Sudan. This effort is reflected in the 25-year National Strategic Plan to
+link desertification with poverty, food security and conservation of the
+30
+
+--- Page 41 ---
+environment. The Government of Sudan is preparing an Interim Poverty
+Reduction Strategy Paper (IPRSP), with technical assistance from the World
+Bank and the United Nations Development Program (UNDP). The SNAP
+should be a focal point for all these strategies which require a very high state
+of political commitment and support.
+4.5.2. Reform of Policies and Legislation
+The current policies, especially in the agricultural sector, are increasing land
+degradation and leading to impoverishment of the rural communities. This is
+manifested in the expansion of crop cultivation even in marginal areas at the
+expense of forests and rangeland. This should be tackled in a way that
+balances the need for intensified crop production for food security and
+increase the areas of forests and rangelands. A second issue is the crucial
+issue of land tenure and land use. There is a clear need for a proper land use
+plan that caters for the needs of all land users. A Third issue is the current
+levels of governance (local, state and federal) which has generally adverse
+effects on the natural resources of the country.
+4.5.3. Establishment of the National Desertification Control Fund (NDF)
+All the stakeholders are convinced of the establishment of a National
+Desertification Fund (NDF). The current situation in Sudan is favourable
+following the signature of the Comprehensive Peace Agreement and the
+creation of the Multi Donor Trust Fund.
+Capacity Building 4.5.4.
+The state workshops carried out by the NDDCU has shown the need for
+building capacities at states and localities levels. This applies equally to the
+governmental and non-governmental organizations including the CBOs and
+the women and youth organizations. At the federal level, the capacities of the
+NDDCU as the focal point for the UNCCD in the country should be
+strengthened to deal with the multitude of problems associated with
+desertification and drought. In this regard the National Council for
+Desertification is to be revitalized. This process will make use of the project
+entitled : National Capacity Self Assessment Project (NCSA) in Sudan to
+manage global environmental issues” which is currently under
+implementation by HCENR. The objective of NCSA is to provide national
+stakeholders the opportunity to articulate a thorough participatory self-
+assessment and analysis of national capacity building needs, priorities and
+constraints as set forth in the Rio conventions and related international
+instruments. The NCSA will closely link to already planned/ongoing
+31
+
+--- Page 42 ---
+activities, specifically through GEF funding and will compliment the activities
+that were undertaken in context of the World Summit for Sustainable
+Development (WSSD).
+4.5.5. Awareness Raising and Partnerships
+To develop necessary mechanisms to enhance and activate public
+participation of CBOs, NGOs, private sector and local communities in all
+phases of implementation of the SNAP, with specially on the involvement of
+women, youth and administraters in the bottom-up approach.
+4.5.6. Priority Projects Areas
+Promotion environmental awareness among all parties at different levels. (cid:131)
+Promotion and rational management of rural water sources through proper (cid:131)
+distribution of water points, (hafirs) and boreholes.
+(cid:131) Increasing the storage capacity of ground water through the construction of
+dams, terraces, and water harvesting techniques.
+(cid:131) Compilation of information and data on natural resources surveying, land
+use mapping and establishing information bank.
+(cid:131) Improvement and rehabilitation of degraded rangelands through reseeding,
+nurseries, enclosures, and rehabilitation of vegetation cover especially in
+the marginal areas between latitudes 10o and 18o N.
+(cid:131) Development of forest cover and afforestation through dune fixation,
+shelterbelts, community forests, enclosures and greening of public utilities
+and rehabilitation of gum Arabic belt.
+(cid:131) Concentration on vertical expansion of agricultural production to decrease
+pressure on natural resources through integrated research programmes.
+(cid:131) Capacity building, training and scientific research to support sectoral
+institutions, academic, NGOs, public organizations, trade unions and land
+committees in all affected local communities.
+(cid:131) Protection of the Nile basin and its tributaries against gullying and sand
+encroachment.
+32
+
+--- Page 43 ---
+(cid:131) Promote and enhance poverty alleviation programmes through
+encouraging alternative livelihoods, and enhancing the use of traditional
+and intermediate technologies and rural industries.
+(cid:131) Establishing group solutions for local communities in marketing and fund
+mobilization.
+(cid:131) Strengthening and activating policies and legislation and their executing
+mechanisms to protect the environment and natural resources.
+(cid:131) Conservation and development of wild life through enhancing care of the
+national reserves and establishment of new reserves and forest areas to
+protect the wild life and tourist villages with cooperation and coordination
+of respective authorities.
+(cid:131) Development and provision of energy alternatives and optimizing energy
+use through use of biogas, solar and wind energy and utilizing of
+agricultural residues, molasses blocks, electricity and expanding use of
+improved stoves.
+(cid:131) Preparation of comprehensive plans for drought preparedness, relief
+management in drought periods, self-preparation in the affected and prone
+areas, and ready programmes to receive refugees and displaced.
+(cid:131) Establishment or creation of benchmarks and indicators to monitor the
+progress in combating desertification.
+(cid:131) Establishment of early warning system to monitor and enhance the
+preparations for the drought spans.
+(cid:131) Establishment of an endorsed roster of experts to the UNCCD secretariat
+to be used when appropriate.
+4.6. Traditional Knowledge
+As far as traditional knowledge is concerned, the SNAP strategic orientations has
+been based on the findings of the present situation and analyses with the
+following characteristics:
+• The high importance of traditional knowledge and practices creates the
+need to apprehend and use traditional knowledge and practices in the field
+of desertification.
+33
+
+--- Page 44 ---
+• The coordination with local communities in the reproduction of traditional
+knowledge and its sustainability.
+• Traditional knowledge and practices cover all aspects of human life and
+activities.
+• Inspite of their importance, traditional knowledge and practices are
+neither written nor referenced and sometimes too difficult to access.
+4.7. Research on Desertification in Sudan
+Recently, in February 2005, a committee of nine national experts chaired by
+the manager of UNESCO Chair of Desertification Studies, affiliated to the
+University of Khartoum, was mandated to put a plan of research for
+desertification in Sudan. After seven meetings and many deliberations the
+committee was finally able to draft a plan of research for clusters of similar
+states. The research efforts and management are to be coordinated at the
+national level. The principles and approach adopted towards formulating the
+plan were based upon UNCCD Articles relevant to preparation of the SNAP.
+Among the main features of the desertification research plan are the
+following:
+Review and documentation of relevant previous work. •
+Imperativeness of database for identification of gaps. •
+National, regional and international institutional linkages are vital. •
+Making use of the NCS and the 25-year Strategy documents (irrespective •
+of their status of approval).
+Research should consider sustainable development. •
+Emphasis should be put on efficient exploitation of fish resources. •
+Change in underground water needs to be examined. •
+It should be noted that Khartoum State is the only State in Sudan that is •
+blessed with three rivers.
+Salinity as one of the prominent problems of the State's soils and should •
+have been given some emphasis in the paper.
+Soil management, shelterbelts, water harvesting. •
+Legislation is important in many aspects especially land use and tenure. •
+Adoption of ecosystem approach. •
+Sticking to UNESCO's classification of the ecological zones. •
+Standardization of methodology used in development of the plan. •
+The Plan formulated has to encompass all the states of the country. •
+A separate a plan for each individual state might be difficult; clustering of •
+similar states is more reasonable.
+34
+
+--- Page 45 ---
+Distinction has to be made between sand movement (creep) and •
+desertification.
+Evaluation of traditional irrigation systems is important. •
+Sand encroachment and salt-affected soils are identified as areas of •
+research.
+Gully erosion (Haddam) needs further investigation. •
+Sud Merwi or Hamadab impacts on environment should be connected with •
+the research.
+The environmental impacts of Sud Merwi on Hod El Silaim need to be •
+evaluated.
+Identifying three separate environments in the northern states of the •
+country:
+Nuba Lake; -
+Oases; and -
+Wadies. -
+References
+Andrews, F.W, (1950-1960) The Flowering of the Anglo-Egyptian Sudan,
+Vol. 1 (1950). Vol. II (1952) Vol. III (1956), Buncle, Arboath
+Babiker, I.A. el Mustafa, M.A. Salih E.M. (1992) Desertification Assessment
+and Mapping Methodology in Sudan (NDDU).
+35
+
+--- Page 46 ---
+Badi, Kamal Hassan (1999). Protection against fire in the low rainfall savanna
+region of the Sudan, Sudan Silva No. 28 Vol. III, 1999, Khartoum.
+DANIDA (1989) Environmental Profile, the Sudan Department of
+International Cooperation, Ministry of Foreign Affairs, Copenhagen,
+Denmark.
+Department of Statistics, Census Office (1995) Sudan Fourth Population
+Census 1993, Final tabulations, Sudan – Northern States. Vol. I Demographic
+Characteristics.
+Desert Encroachment Control and Rehabilitation Program (DECARP), (1976).
+Elamin, H.M. (1990) Trees and Shrubs of the Sudan, Ithaca Press, Extrer.
+El-Khalifa, M.D. and H.O. Abel Nour (Eds). (1991): Republic of Sudan
+National Report. United Nations Conference on Environment and
+Development, Brazil
+FAO, FNC (1995): FAO and Forestry Corporation Study (1995), Khartoum,
+Sudan.
+FNC (1995). Forest Products Consumption Survey in the Sudan, Summary of
+findings, FNC, Khartoum.
+FNC (2001). The Forests of the Sudan in hundred years, 1902-2002, FNC and
+the Arab Organization for Agricultural Development, Khartoum (in Arabic).
+Fourth Population Census of Sudan 1993: Final Tabulation, Vol. I, Central
+Bureau of Statistics Khartoum, 1995.
+Guidelines of the National Plan for Combating Drought and Desertification
+(NDDU) 1991.
+Harrison. N.M. and J.K. Jackson (1958) Ecological Classification of the
+Vegetation of the Sudan. Forest Department, Bull. No. 2, New Series –
+Khartoum.
+Hillman, J.C. (1985). Wildlife Research in the Sudan in relation to
+Conservation and Management Seminar on Wildlife conservation and
+36
+
+--- Page 47 ---
+management in the Sudan. In: Dieter E. (Ed), Wildlife conservation Forces
+and the German Agency for Technical Cooperation (GTZ) Khartoum, Sudan.
+Ibrahim, F.N. (1984) Ecological Imbalance in the Republic of the Sudan with
+Reference to Desertification in Darfur, El Fashir.
+Ministry of Agriculture, (1985) Proposed National Plan for Combating
+Drought Effects and Desertification, Khartoum, Sudan.
+Mudawi, Abdel Wahab Ali, and Siddig, Kamal El Hag (1995) Population
+Distribution in the Sudan. Fourth Population Census of Sudan Advance
+Census Results, 1993, Central Bureau of Statistics, Khartoum, Sudan.
+NDDCU (1985). Proposed National Plan for Combating Drought Effects and
+Desertification (1985).
+NDDCU (1993). Sudan Five Year Program for INCD (1993).
+NDDCU (1993). Sudan National Case Study on Drought and Desertification for
+(INCD), 1993.
+NDDCU (1994). Technical Notes on Maps and database.
+Ramsis, H. Salama (1976) Ground Water Resources of Sudan, Rural Water
+Corporation Report.
+Salih, E.M. (1995) The Geographical Extent of Desertification in the Sudan.
+Stebbing, E,P. (1932). The Creeping Desert in the Sudan and Elsewhere in
+Africa between 13ْ & 15ْ latitudes, Forest Department Khartoum.
+Sudan National Comprehensive Strategy (SNCS) 1992-2002: Sudan National
+Comprehensive Strategy 1 Section 14 page 101.
+Tolba, M.K. and O.A. ElKholy (Eds.) 1992. The world Environment (1972-
+1992) UNEP.
+UN Convention to Combat Desertification in Those Countries Experiencing
+Drought and/or Desertification Particularly in Africa, 1997.
+37
+
+--- Page 48 ---
+UNDP 1992: A report of Integrated Rural Development in Sudan.
+UNICEF 1996: Situation Analysis of Children and Women in the Sudan,
+Khartoum, UNICEF Head Office.
+UNSO 1979: Assessment of the Problem of Desertification in Sudan.
+World Bank (1986). Sudan Forest Sector Review. The World Bank,
+Washington.
+World Resources Institute UNEP/UNDP 1994, People and Environment.
+Oxford University Press.
+World Bank Operational Manual (1994), Operational Directive OD 4.02
+Environmental Action Plan Annex a World Bank Publications.
+ﺔﻴﺑﺮﻌﻟا ﺔﻐﻠﻟﺎﺑ ﻊﺟاﺮﻤﻟا
+.1994 A/AC/241/27 ﺔﻴﻟوﺪﻟا ﺔﻴﻗﺎﻔﺗﻹا -
+ﺔ(cid:1127)(cid:1127)ﻳرﻮﻬﻤﺟ ﻲ(cid:1127)(cid:1127)ﻓ ﺮﺤ(cid:1127)(cid:1127)ﺼﺘﻟا ﺔ(cid:1127)(cid:1127)ﺤﻓﺎﻜﻤﻟ ﻲ(cid:1127)(cid:1127)ﻨﻃﻮﻟا ﺞﻣﺎﻧﺮﺒ(cid:1127)(cid:1127)ﻟا /ﺔﻴ(cid:1127)(cid:1127)ﻋارﺰﻟا ﺔﻴ(cid:1127)(cid:1127)ﻤﻨﺘﻠﻟ ﺔﻴ(cid:1127)(cid:1127)ﺑﺮﻌﻟا ﺔﻤﻈﻨ(cid:1127)(cid:1127)ﻤﻟا -
+.2002 (نﺎﺴﻴﻧ) ﻞﻳﺮﺑأ / مﻮﻃﺮﺨﻟا /نادﻮﺴﻟا
+ﻰ(cid:1127)(cid:1127)ﻠﻋﻷا ﺲ(cid:1127)(cid:1127)ﻠﺠﻤﻟا ،نادﻮ(cid:1127)(cid:1127)ﺴﻟا ﻲ(cid:1127)(cid:1127)ﻓ ﻲ(cid:1127)(cid:1127)ﺌﻴﺒﻟا ﻞ(cid:1127)(cid:1127)ﻤﻌﻠﻟ ﺔﻴ(cid:1127)(cid:1127)ﻣﻮﻗ ﺔ(cid:1127)(cid:1127)ﻄﺧ ﻮ(cid:1127)(cid:1127)ﺤﻧ /نوﺮ(cid:1127)(cid:1127)ﺧﺁو راﺮ(cid:1127)(cid:1127)آ ﺮ(cid:1127)(cid:1127)ﻔﻌﺟ -
+ﺔﻤﻈﻨ(cid:1127)(cid:1127)(cid:1127)ﻣ ﻊ(cid:1127)(cid:1127)(cid:1127)ﻣ نوﺎﻌﺘ(cid:1127)(cid:1127)(cid:1127)ﻟﺎﺑ ﺔﺌ(cid:1127)(cid:1127)(cid:1127)ﻴﺒﻟا ﺔ(cid:1127)(cid:1127)(cid:1127)ﻳﺎﻤﺤﻟ ﺔﻴﻧادﻮ(cid:1127)(cid:1127)(cid:1127)ﺴﻟا ﺔﻴ(cid:1127)(cid:1127)(cid:1127)ﻌﻤﺠﻟ ،ﺔﻴ(cid:1127)(cid:1127)(cid:1127)ﻌﻴﺒﻄﻟا دراﻮ(cid:1127)(cid:1127)(cid:1127)ﻤﻟاو ﺔﺌ(cid:1127)(cid:1127)(cid:1127)ﻴﺒﻠﻟ
+.1996 ﺔﻴﻧﺎﻤﻟﻷا تﺮﺒﻳأ ﺶﻳرﺪﻳﺮﻓ
+ﺔﺌ(cid:1127)(cid:1127)ﻴﺒﻟﺎﺑ ءﺎ(cid:1127)(cid:1127)ﻘﺗرﻹا ﻞ(cid:1127)(cid:1127)ﻤﻋ ﺔ(cid:1127)(cid:1127)ﺷرو ،ﺔﻳرﺎ(cid:1127)(cid:1127)ﻀﺤﻟا ﺔﺌ(cid:1127)(cid:1127)ﻴﺒﻟا :ضﻮ(cid:1127)(cid:1127)ﻋ ﺪ(cid:1127)(cid:1127)ﻤﺤﻣ ردﺎ(cid:1127)(cid:1127)ﻧو ﷲا ﺪﺒ(cid:1127)(cid:1127)ﻋ بﻮ(cid:1127)(cid:1127)ﻘﻌﻳ -
+م1995 نﺎﻜﺴﻠﻟ ﻲﻣﻮﻘﻟا ﺲﻠﺠﻤﻟا ،ﺔﻳﺮﻀﺤﻟا
+38
+
+--- Page 49 ---
+39
+
+--- Page 50 ---
+Annex No.2
+Selected States Pilot Projects
+Annex No. 2 – (1)
+State: Red Sea
+Locality: Olib
+Objectives Activities Participation Expected output Indicators for output
+Gov Com Oth assessment
+Combat desertification (cid:131) Management of grazing (cid:131) Cultivation of an area of • The quantity of seeds •
+and mitigate drought areas. 5900 feddans with collected.
+effects. Collection of seasonal seeds (cid:131) sorghum and vegetables. The managed •
+Establish effective (cid:131) of grasses, shrubs, and trees. Rehabilitation of forests • irrigable areas in
+water management. Provision of needed spp. (cid:131) in 43600 feddans. feddans.
+Provide adequate food (cid:131) Certified seeds quality. (cid:131) Improvement of range • Establishment of •
+production. Irrigation management. (cid:131) and pasture in 80220 nurseries.
+Rehabilitation of (cid:131) Moisture regulation. (cid:131) X X X feddans area. The quantity of •
+natural resources. Seed propagation. (cid:131)
+stored water.
+Ensure community (cid:131) Water storage. (cid:131)
+Cultivated areas in •
+participation in Nurseries. (cid:131)
+feddans.
+sustainable
+Forest stand area. •
+development.
+Improved range and •
+Provide technical (cid:131)
+appearance of
+training in environment
+palatable spp.
+management.
+Number of trained •
+Use of intermediate (cid:131)
+people and degree of
+technology to establish
+community
+reliable land use.
+participation.
+Control gully erosion. (cid:131)
+Gov = Government Com = Community Oth = Others
+Annex No. 2 – (2)
+
+--- Page 51 ---
+State: Gezira
+Locality: Abu Quta
+Objectives Activities Participation Expected outputs Indicators for output
+Gov Com Oth assessment
+Environmental • Environmental awareness • Training of 36 of • Increase of •
+awareness raising campaign. technicians in vegetation cover
+Wind breaks • Planting shelterbelts and • combating area.
+establishment community forests. desertification. Extent of •
+Increase of natural • Terass cultivation, water- • Training of 90 persons • alternative energy
+pasture and harvesting techniques by X X X from local using.
+vegetative cover. ridges and furrows. communities on Situation of •
+Establishment of • Increase of rangelands. • desertification control vegetation cover in
+community forests Use of alternative energy. • techniques. water spreading
+Sand dunes fixation • Sand dune fixation. • areas.
+Training of staff and • Increase of grass •
+community members. and range land
+cover in area wise.
+Sand dunes fixed. •
+Number of trained •
+people, CBOs
+leaders and
+technicians.
+Gov = Government Com = Community Oth = Others
+41
+
+--- Page 52 ---
+Annex No. 2 – (3)
+State: Northern
+Locality: Eddebba
+Objectives Activities Participation Expected outputs Indicators for output
+Gov Com Oth assessment
+Soil conservation in • Handcrafts establishment. • Shelterbelts and Number of •
+the proposed project. Community awareness. • windbreaks. nurseries,
+Village tree planting. • Staff training and CBOs • Improved soil distributed
+Training. • training at the village X X X management. seedlings and
+level. Training and community shelterbelts
+Nursery establishment. • awareness. established.
+Planting shelterbelts and • Number of trees •
+wind breaks length of 40 planted in the
+km. villages.
+Degree of soil •
+stability.
+Extend of •
+community
+participation and
+awareness.
+Number of trained •
+people.
+Gov = Government Com = Community Oth = Others
+42
+
+--- Page 53 ---
+Annex No. 2 – (4)
+State: Gedarif
+Locality: Subagh
+Objectives Activities Participation Expected output Indicators for output
+Gov Co Oth assessment
+m
+Combating and stopping • Rehabilitation of pasture • Increased vegetation • Vegetation cover •
+desertification. and tree cover. cover. situation.
+Rehabilitation of vegetation • Seed production and • Increased good • Appearance of •
+cover. distribution in an area of rangeland. palatable species.
+Increase of palatable species • 500 feddans. X X X Smooth animal passage • Number of trained •
+for animal feed. corridor (Roots). people and degree of
+Control of animal routes of • Sand dunes fixation. • community
+movements. participation.
+Enlighten the pastorals in • Measurement of soil •
+the field of soil conservation erodibility before and
+as pets and vegetation cover. after
+Gov = Government Com = Community Oth = Others
+43
+
+--- Page 54 ---
+Annex No. 2 – (5)
+State: Khartoum
+Locality: Wadi el Mugaddam
+Objectives Activities Participation Expected output Indicators for output
+Gov Com Oth assessment
+Cropping of 30 • Digging boreholes in • Cropping of 30 feddans in Bohat • Cropped areas and •
+feddans in Bohat area Bohat village. area with vegetables and winter number of established
+with vegetables and Installation of the well • pulses. social forests in each
+winter pulses. in Funga el Zariab and Establishment of socisl forests. • location.
+Planting social forests • Warat el Bagar. Cropping of 20 feddans in Funga • Area of reserved •
+and rehabilitation of Rehabilitation of earth • area with vegetables and winter rangeland.
+rangeland in Funga dam in Abu Ushar. pulses. Number of •
+area. Establishment of earth • X X X Cropping of 30 feddans in • established or
+Cropping of fodder • dam on Medaisees Ziraiab area with vegetables and rehabilitated earth
+and winter pulses in wadi. winter pulses. dams.
+Ziraiab area. Cropping of 10 feddans in Warat • Extent of community •
+Planting social forest • el Bagar area with vegetables participation.
+in Warat el Bagar area. and winter pulses.
+Increase rangelands in • 500 Feddans natural rangelands •
+Wadi Abu Ushar. and forests in Wadi Abu Ushar.
+Increase rangelands in • 300 Feddans natural rangelands •
+Mahmeila in Mehaimeela.
+44
+
+--- Page 55 ---
+Gov = Government Com = Community Oth = Others
+Annex No. 2 – (6)
+State: Sennar
+Locality: Singa Rural Area
+Objectives Activities Participation Expected output Indicators for output
+Gov Com Oth assessment
+Increase environmental • Seed distribution • Boreholes maintenance. • Number of •
+awareness. of range plants. Upgrading of range areas by • maintained boreholes.
+Find new alternative • Establishment of • seed distribution. Quality and quantity •
+methods of livelihood. nurseries. Establishment of the nursery and • of rangelands
+Improve potable water. • Establishment of • the farm. Number of trained •
+Link the people with their • experimental Establishment of the training and • people and degree of
+environment. farms. extension cntre. community
+Conservation and • Boreholes • X X X participation.
+rehabilitation of vegetation maintenance. Number of •
+cover. established nurseries
+Stop migration and increase • and distributed
+animal production. seedlings.
+Provide education and •
+health services and training
+on handicraft production in
+addition to women
+education and removing
+illiteracy.
+Gov = Government Com = Community Oth = Others
+45
+
+--- Page 56 ---
+Annex No. 2 – (7)
+State: Northern darfur
+Locality: Dar Assalam
+Objectives Activities Participation Expected output Indicators for output
+Gov Com Oth assessment
+Mitigate the effect of • Rehabilitation of • Rehabilitation of vegetation • Extent and success of •
+drought, desertification tree cover. cover. hashab and millet in
+control and poverty Water harvesting • Establishment of shelterbelts and • Qoz soils.
+alleviation. techniques. windbreaks around the villages. Number of seedlings •
+Upgrading of pasture. • Training on • Cultivation of Wadis. • planted around
+Training in the field of • optimizing the Introduction of mixed • villages.
+combating desertification. available X X X cultivation. Evaluation of earth •
+Encouraging of community • biomass. Introduction of solar energy as • dams experience for
+participation and cpacity Focus on planting • an alternative energy. water harvesting.
+building. indigenous quick Increase of per capita •
+Encourage clay soil • maturing species income.
+cultivation instead of Qoz to combat Extend of vegetation •
+lands. desertification. cover and success of
+Elight the negative impacts • quick maturing
+of the arbitrary allocation of varieties.
+water points. Number of trained •
+Link people with their • people and degree of
+environment for sustainable community
+development. participation.
+Gov = Government Com = Community Oth = Others
+46
+
+--- Page 57 ---
+Annex No. 2 – (8)
+State: Northern Kordofan
+Locality: Lagawa
+Objectives Activities Participation Expected outputs Indicators for output
+Gov Com Oth assessment
+Rehabilitation of • Production of seedlings. • Production of 250 000 • Improvement of •
+vegetation cover by Training water • seedling of some soil moisture.
+using water harvesting techniques. indigenous species. Extent of •
+harvesting Establishment and • Establishment of 100 • vegetation cover.
+techniques. production of improved feddans reserves. Quality and •
+Introduction and • stoves X X X Training of 50 persons • quantity of
+making of improved Extension and awareness • in environmental produced stoves.
+stoves. campaigns. awareness. Number of trained •
+Encourage the • Training of 100 • persons and CBOs
+community persons in making leaders.
+participation. improved stoves.
+3X3 m wood lots in 5 •
+villages.
+Gov = Government Com = Community Oth = Others
+47
+
+--- Page 58 ---
+Annex No. 2 (9)
+State: Western Darfur
+Locality: Kerainik
+Objectives Activities Participation Expected outputs Indicators for output
+Gov Com Oth assessment
+Rehabilitation of forestry • Survey the affected • Production of 300 • Increased forest •
+and refugees nurseries in farms. 000 Acacia (cid:31)enegal cover.
+Genaina. Rehabilitation of • seedlings. Gum Arabic belt •
+Rehabilitation of Acacia • forestry nurseries. Planting of seedlings. • rehabilitated area.
+(cid:31)enegal belts. Seedlings production. • Increase • Number of •
+Introducing of Acacia • Training workshops. • X X X environmental established nurseries
+(cid:31)enegal belts in sandy awareness. and seedlings
+areas. Training of 150 • produced.
+Training in nurseries • producers on Degree of •
+administration and seedling preparation, community
+execution of agricultural planting and nursing. participation and
+programmes. awareness and
+Natural resources • number of trained
+rational use. people.
+Extent and success •
+of Hashab tree in
+Qoz soils.
+Gov = Government Com = Community Oth = Others
+48
+
+--- Page 59 ---
+Annex No. 2 – (10)
+State: Western Kordofan
+Locality: Khuai – Wad Banda
+Objectives Activities Participation Expected outputs Indicators for output
+Gov Com Oth assessment
+Soil conservation. • Rehabilitation of gum • Rehabilitation of 250 • Degree of increased •
+Rehabilitation of gum • Arabic belts. 000 feddans of gum vegetation covers
+Arabic belts. Increased of desert • Arabic belt. and rangelands.
+Development of stoves. • sheep number. Developed storage •
+Production of water • Development of • X X X facilities and
+melon seeds. storage facilities. introduction of new
+Rehabilitation of animal • Production of water • techniques and
+herds. melon in Qoz soils. number of water
+points provided.
+Conserved soils and •
+erodability.
+Extent of •
+rehabilitation of
+gum Arabic belt.
+Extent of sand •
+dunes.
+Gov = Government Com = Community Oth = Others
+49
+
+--- Page 60 ---
+Annex No. 2 – (11)
+State: Kassala
+Locality: Kassala Rural Area
+Objectives Activities Participation Expected outputs Indicators for output
+Gov Com Oth assessment
+To apply agricultural • Land preparation. • A 10 000 m3 teras. • Evaluating the •
+production. Teras construction. • Measuring soil • effectiveness of
+Use of teras cultivation • Use of crop residues • moisture after each dams in increasing
+to increase production. for animal feed. rain shower. soil moisture.
+Increase relative • Control gully and • Planting 1000 • Productivity can be •
+humidity of dry soils by sheet erosion. feddans cultivated by measured by
+water harvesting. Increased of desert • X X X water harvesting. sacks/feddan
+Increase community • sheep number. Increase of • Conserved soils and •
+participation. Development of • production from 2 to erodability.
+Use of crop residues for • storage facilities. 4 sack/feddan. Extent of community •
+animal feed. Planting shade trees. • participation.
+Control gully and sheet • Training. •
+erosion.
+Planting shade trees. •
+Enhancement of •
+community income.
+Training. •
+Gov = Government Com = Community Oth = Others
+50
+
+--- Page 61 ---
+Annex No. 2 – (12)
+State: White Nile
+Locality: Giuly
+Objectives Activities Participation Expected output Indicators for output
+Gov Com Oth assessment
+Establishment of nurseries. • Reserved areas. • Fencing 50 feddans as reserved • Sand dunes fixation. •
+Establishment of • Preservation of 50 • area. Increased awareness •
+windbreaks around the feddans in Surait Sand fixation in 4 feddans area. • and number of
+villages to stop sand dunes area. Planting 2000 seedlings in each • trained people.
+movement. Sand dunes • farm. Preserved areas size •
+Staff and CBOs training. • fixation around X X X and fenced areas.
+Protection of villages and • four villages. Increase vegetation •
+agricultural lands against Training of • cover.
+sand movements. technicians. Number of successful •
+Enhancing capacity building • seedlings by each
+among rural people and farmer.
+technicians. Number of trained •
+people and degree of
+community
+participation.
+Gov = Government Com = Community Oth = Others
+51
+
+--- Page 62 ---
+Annex No. 2 – (13)
+State: River Nile
+Locality: Berber
+Objectives Activities Participation Expected output Indicators for output
+Gov Com Oth assessment
+Combating desertification • Planting of • Planting 6000 seedlings on an • Number of nurseries •
+and protection of the multiple-benefits area of 15 km2. established.
+irrigation pumps. trees on a 15km2 Number of seedlings •
+To avail farmers required • area. X X X produced by farmers
+equipment. trained people.
+Trees over-cutting • Windbreaks and •
+alleviation. shelterbelts
+To avail shadow and • established.
+fodders. Increase vegetation •
+To avail the right • cover.
+environment for agricultural Sand dunes fixation. •
+crops and increasing the
+agricultural production.
+To protect Alebaidiya •
+villages.
+Gov = Government Com = Community Oth = Others
+52
+
+--- Page 63 ---
+Annex No. 3
+Names and Specialization of the Taskforce team
+No. Name Specialization Status
+1. Prof. Ibrahim Ahmed Babiker Soil Scientist Team
+Leader
+2. Prof. Mukhtar Ahmed Mustafa Soil Scientist Member
+3. Dr. El Tigani M. Salih Soil Scientist Member
+4. Dr. Mahgoub Zaroug Pasture Specialist Member
+5. Mr. Mohamed Fadl el Mula Pasture Specialist Member
+6. Mr. Adil Mohamed Ali Community/NGOs Member
+7. Mr. Yousif Yaagoub Remote Sensing Member
+Specialist
+8. Mr. El Tayeb A. Abdalla Forestry Member
+9. Mr. Kamil Osman M. El Hag Environmentalist/ Member
+National Project
+Coordinator
+10. Ms. Fathia Salih Mousa Environmentalist/ Member
+Socioeconomist
+
+--- Page 64 ---
+Annex No. 4
+The Committee to review and prepare the NAP
+No. Name Status
+1. Mr. Abd El Gabbar Hussein Supervisor
+2. Mr. Salahaddeen Abdalla Alebaid Team Leader
+3. Prof. Mukhtar Ahmed Mustafa Member
+4. Prof. Ibrahim Ahmed Babiker Member
+5. Dr. Gaafar Karrar Fadul Member
+6. Dr. Nadir Mohamed Awad Member
+7. Dr. El Tigani Mohamed Salih Member
+8. Dr. Mutasim Basheer Nimir Member
+9. Dr. Ahmed Suliman El Wakeel Member
+10. Dr. Izzat Mirgani Taha Member
+11. Ms. Fathia Salih Mousa Member
+12. Mr. Adil Mohamed Ali Member
+13. Mr. Malik Abu Sin Member
+14. Mr. Kamal hassan Badi Member
+15. Ms. Fatima Shoeib Member
+53
+
+--- Page 65 ---
+Annex No. 5
+Funds allocated from the United Nations Agencies
+No. Agency Amount in US$
+1. United Nations development Programme 60 000
+2. Office to Combat Desertification and 160 000
+Drought (UNSO) (UNDP)
+54

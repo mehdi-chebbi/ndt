@@ -1,0 +1,2151 @@
+--- Page 1 ---
+MINISTERE DE LA PRODUCTION, DE L’ENERGIE, DE L’ENVIRONNEMENT,
+DE L’INDUSTRIE ET DE L’ARTISANAT
+DIRECTION GENERALE DE L’ENVIRONNEMENT ET DES FORETS
+PLAN D’ACTION NATIONAL
+POUR LA LUTTE CONTRE LA DESERTIFICATION AUX COMORES
+PAN/LCD - 2013
+Septembre 2013
+0
+
+--- Page 2 ---
+Acronymes et Abréviations
+1. Introduction
+2. Description du Milieu
+2.1 Contexte physique et géographique
+2.2 Milieu humain
+2.3 Situation écologique
+3. Contexte politique et socioéconomique
+3.1. Contexte politique
+3.2. Situation socioéconomique
+3.3. Le cadre National juridique et institutionnel
+4. Désertification et Dégradation des Terres
+4.1. Problématique de la désertification : facteurs et conséquences
+4.1.1. Définitions
+4.1.2. Les facteurs de la désertification
+4.1.3. Les conséquences de la désertification
+4.2. Problématique de la dégradation des terres aux Comores
+4.3. Actions réalisées ou en cours de réalisation
+4.4. Répartition géographique de la désertification et de la dégradation des terres
+5. Le PAN/LCD
+5.1. Objectifs, activités et résultats attendus
+5.2. Liens entre le PAN/LCD et le Plan-Cadre Stratégique de la CLD
+5.3. Les priorités géographiques et thématiques de la mise en œuvre du PAN/LCD
+5.4. Les principaux acteurs et parties prenantes à l’élaboration et la mise en œuvre
+5.5. Synergies avec les autres conventions environnementales
+5.6. Passerelles avec d’autres processus politiques
+6. Financement et Mise en œuvre
+6.1. Les besoins en financement
+6.2. La mobilisation de ressources
+6.2.1. Les principales sources potentielles de financement
+6.2.2. Les forces, faiblesses, opportunités et menaces
+6.2.3. Les acteurs à impliquer pour la mobilisation des ressources
+6.3. Le Suivi de la mise en œuvre
+6.4. Calendrier indicatif
+Conclusion
+Bibliographie
+1
+
+--- Page 3 ---
+Acronymes et Abréviations
+AME Accords Multilatéraux sur l’Environnement
+ANCAR Rapport d’Autoévaluation Nationale des Capacités à Renforcer pour la
+gestion de l’environnement
+AMIE Appui à la Micro Entreprise
+AFD Agence Française de Développement
+ANACM Agence Nationale de l’Aviation Civile et de la Météorologie
+ARMP Autorité de Régulation des Marché Publics
+BCC Banque Centrale des Comores
+BM Banque Mondiale
+BID Banque Islamique de Développement
+BPA Bonnes Pratiques Agricoles
+BADEA Banque Africaine pour le Développement Agricole
+BAD Banque Africaine de Développement
+CSP Cadre Stratégique de Programmation
+COI Commission de l’Océan Indien
+CGP Commissariat Général au Plan
+CDCF Fonds carbone pour l’aide au développement de proximité
+CEA Centre d’Encadrement Agricole
+CRDE Centre Régionaux de Développement Economique
+CPP Cadre de Programmation Pays
+CLD Convention pour la Lutte contre la Désertification
+CAPAC Centrale d’Achat des Professionnels Agricoles des Comores
+CDB Convention sur la Diversité Biologique
+COMESA Marché commun de l’Afrique de l’Est et Austral
+CNDD Commission Nationale de Développement Durable
+CIDD Commission Insulaire de Développement Durable
+CCNUCC Convention Cadre des Nations Unies sur les Changements Climatiques
+CNPMT Cadre National sur les Priorités à Moyen Terme
+DGEF Direction Générale de l’Environnement et des Forêts
+DNSAE Direction Nationale des Stratégies Agricoles et de l’Elevage
+DRS Défense et Restauration du Sol
+EU Etats Unis
+ETR Evapotranspiration réelle
+FADC Fonds d’Appui au Développement Communautaire
+FEM Fonds pour l’Environnement Mondial
+FED Fond Européen de Développement
+FAO Organisation des Nations Unies pour l’Alimentation et l’Agriculture
+FIDA Fond International pour le Développement Agricole
+FFEM Fonds Français pour l’Environnement Mondial
+FNAC Fédération Nationale des Agriculteurs Comoriens
+FNAC-FA Fédération Nationale des Agriculteurs Comoriens et Femmes Agricultrices
+FPCF Fonds de partenariat pour la réduction des émissions de carbone forestier
+GDT Gestion Durable des Terres
+2
+
+--- Page 4 ---
+IDH Indices de Développement Humain
+JICA Japan International Cooperation Agency
+JSDF Japan Social Development Fund
+MECK Mutuelles des Crédits ya Komor
+OMD Objectif du Millénaire pour le Développement
+OMS Organisation Mondiale de la Santé
+OPA Organisations Professionnelles Agricoles
+PNE Politique Nationale de l’Environnement
+PAE Plan d’Action Environnemental
+PAN Plan d’Action National de lutte contre la désertification
+PMA Pays les Moins Avancés
+PFNL Produits Forestiers Non Ligneux
+PMM Parc Marin de Mohéli
+PREDIVAC Projet de Renforcement et de Diversification des filières Agricoles aux Comores
+PNDHD Programme National de Développement Humain Durable
+PANA Plan d’Action National d’Adaptation au changement climatique
+PAPDF Plan d’Action Prioritaire de Développement Forestier
+PNUD Programme des Nations Unies pour le Développement
+PIB Produit Intérieur Brut
+PPTE Pays Pauvre Très Endetté
+PTF Partenaires Techniques et Financiers
+PDDAA Programme Détaillé pour le Développement de l’Agriculture Africaine
+REDD Réduction des Émissions dues au Déboisement et à la Dégradation des
+forêts
+SCADD Stratégie de Croissance Accélérée pour le Développement Durable
+« SANDUK » Caisses villageoises d’épargne et de crédits
+SCRP Stratégie de Croissance pour la Réduction de la Pauvreté
+SNA Stratégie Nationale Agricole
+STE Sciences et Techniques de l’Environnement
+SV Sciences de la Vie
+SNU Système des Nations Unies
+UA Union Africaine
+UE Union Européenne
+3
+
+--- Page 5 ---
+I. Introduction
+L’Union des Comores a ratifié la Convention des Nations Unies de Lutte Contre la
+Désertification (CLD) en 1998. En application de cet engagement, l’Union des Comores a
+élaboré son premier Rapport National en 2004, et a réalisé diverses actions relatives à la
+mise en œuvre de la Convention, avec l’appui de ses partenaires internationaux,
+principalement les agences du Système des Nations Unies. Parmi ces réalisations on citera
+notamment le Programme de Gestion Durable des Terres (GDT) mis en œuvre sur
+l’ensemble du territoire national de 2008 à 2012.
+Mais au vu des difficultés rencontrées dans la mise en œuvre de la Convention en général,
+et des modestes résultats obtenus en matière de lutte contre la désertification, la conférence
+des parties a adopté en 2007, un Plan-Cadre Stratégique Décennal visant à renforcer la
+mise en œuvre de la Convention sur la période 2008-2018. L’objectif de ce Plan Cadre est
+de « mettre en place un partenariat mondial visant à enrayer et à prévenir la désertification et
+la dégradation des terres et à atténuer les effets de la sécheresse dans les zones touchées
+afin de concourir à la réduction de la pauvreté et au respect durable de l’environnement ». A
+cet effet, les États parties à la Convention sont invités à aligner leurs PAN respectifs à ce
+nouveau plan stratégique ainsi que toute autre activité pertinente qu’ils mènent pour mettre
+en œuvre la CLD dans leurs pays. Il s’agit plus précisément de réviser les activités de mise
+en œuvre du PAN en les mettant en conformité avec les résultats attendus de la Stratégie
+Décennale tout en s’assurant que ces activités contribuent à atteindre les cinq objectifs
+opérationnels de la dite Stratégie qui sont :
+ La mise en place d’actions de plaidoyer, de sensibilisation et d’éducation, qui
+permettront d’influer sur les mécanismes et les acteurs locaux, nationaux et
+internationaux compétents.
+ L’élaboration d’un cadre d’action qui œuvre à la création d’un climat général
+favorable à la recherche de solutions pour combattre la désertification, la dégradation
+des terres et atténuer les effets de la sécheresse.
+ Le renforcement des connaissances, de l’expertise scientifique et technologique.
+ Le renforcement des capacités pour prévenir et enrayer la désertification et la
+dégradation des terres, et les effets néfastes de la sécheresse.
+ L’accroissement des ressources financières et technologiques aux niveaux national,
+bilatéral et multilatéral, et l’amélioration de leurs impacts.
+C’est sur ces bases que l’Union des Comores, avec l’appui du PNUD/FEM, a élaboré le
+présent Plan d’Action National de Lutte contre la désertification, afin de se conformer à cette
+nouvelle vision de la Convention des Nations Unies sur la lutte contre la Désertification
+(CLD). Ce Plan d’Action s’inscrit par ailleurs dans la droite ligne de la déclaration finale de la
+conférence de « Rio+20 » qui stipule que : « la désertification, la dégradation des terres et la
+sécheresse sont des défis planétaires qui continuent de poser de sérieuses difficultés pour le
+développement durable de tous les pays, notamment ceux en développement ». Aussi, « …
+il faut agir sans tarder pour inverser le processus de dégradation des terres ».
+La préparation du présent rapport a été précédée d’un travail d’analyse critique du PAN
+actualisé en 2013. Cette analyse a mis en relief des données clés et des orientations à
+suivre pour aligner le PAN à la Stratégie Décennale 2008-2018.
+Ce Plan d’Action « actualisé » et « aligné » est le résultat d’un travail collectif qui a impliqué
+plusieurs acteurs nationaux et internationaux dont, les institutions gouvernementales, les
+4
+
+--- Page 6 ---
+services des entités autonomes, les organisations de la société civile ainsi que des
+partenaires techniques et financiers pertinents.
+2. Description du milieu :
+2.1 Contexte physique et géographique:
+L’Archipel des Comores est constitué de quatre îles d’origine volcanique situées à l’entrée
+Nord du Canal de Mozambique entre Madagascar et la côte Orientale de l’Afrique. Mais l’une
+des quatre îles, Mayotte, est encore sous administration française. Ce rapport ne concerne
+donc que les trois îles qui sont sous la souveraineté effective de l’Union des Comores :
+Grande Comore, Mohéli, et Anjouan. A égale distance entre Madagascar et la côte Est
+africaine, les 3 îles couvrent une superficie totale de 1861km². Sur le plan géostratégique,
+les îles Comores se trouvent sur la principale route des géants pétroliers qui transportent le
+brut du Golfe persique vers l’Europe et l’Amérique.
+Cette position expose l’archipel à un
+risque très élevé de pollution maritime par
+un déversement accidentel
+d’hydrocarbures. Sur le plan écologique,
+les Comores se trouvent au centre du
+triangle : Sud-Tanzanie/nord-Mozambique/
+-nord-ouest de Madagascar, considéré
+aujourd’hui comme le second triangle de
+biodiversité récifale au monde après celui
+de l'Indonésie (Obura et al, 2012).
+Tous ces facteurs font des Comores, un pays fragile à plusieurs égards, et exposé à des risques de
+catastrophes naturelles et écologiques assez importants.
+Le Climat des Comores est de type tropical humide sous influence océanique, marqué par
+une saison chaude et pluvieuse (décembre à mai) et une saison sèche et fraiche (juin à
+novembre). Les températures moyennes se situent entre 23 et 35°C, avec des minima à
+14°C et des maxima à 38°. La pluviométrie moyenne peut atteindre 2 500 mm dans certains
+endroits du pays. Mais celle-ci varie beaucoup d’une île à l’autre et d’une région à l’autre et à
+l’intérieur de chaque île. Ce sont des conditions climatiques globalement généreuses et
+favorables aux activités agricoles. En revanche l’archipel est situé sur une zone cyclonique
+importante même si le passage des cyclones n’est pas très fréquent du fait que les îles sont
+plus ou moins protégées par la grande ’île voisine de Madagascar.
+Les données météorologiques et climatiques étalées sur une longue période sont très rares
+aux Comores. Et quand elles existent, elles sont fragmentaires et disparates. Toutefois les
+observations faites ces dernières années sur quelques stations (Réf. ANACM), font apparaitre
+une diminution continue des précipitations par rapport à la normale pluviométrique (300 mm)
+enregistrée sur 30 ans, de 1971 à 2000.
+5
+
+--- Page 7 ---
+Source : Seconde communication nationale des Comores sur les changements climatiques
+Et parallèlement à cela on observe une tendance à la hausse des moyennes thermiques
+annuelles sur la même période. (Revue analytique du PAN aux Comores, Youssouf H. 2013) En outre,
+le rapport du GIEC indique que, dans le bassin Océan indien, la température moyenne
+annuelle a augmenté de 0,9°C depuis 1960, et que « la zone des Comores devrait connaître
+en 2100 une augmentation de +1,4°C à +3,7°C ». Le même rapport relève également une
+diminution importante des précipitations annuelles dans la zone, plus particulièrement sur les
+parties Nord des Comores.
+Ces données indiquent que les Comores vont connaitre à l’avenir des périodes de sécheresse assez
+sévères qui affecteront les terres et les écosystèmes naturels.
+Distribution des jours de pluies sur la station de Moroni.
+Nombre de jours de pluie pour la Nombre de jours de pluie par décennie
+période 1971-2000
+Source : seconde communication nationale sur les CC
+Le réseau hydrographique des Comores varie d’une île à une autre. En Grande Comore, il
+n’y a pas de cours d’eau permanent en raison de la grande perméabilité des sols, et ce,
+malgré la pluviométrie abondante sur cette île. A Anjouan et Mohéli, les cours d’eau sont
+nombreux mais la plupart sont saisonniers ou en voie de tarissement, en raison du
+déboisement massif et incontrôlé des bassins versants et des têtes de sources. Il existe
+cependant dans les trois îles, des nappes aquifères souterraines, mais elles n’ont pas fait
+l’objet d’études approfondies sauf à la Grande Comore où une partie d’entre elles est
+exploitée.
+La végétation aux Comores est dense, généralement verdoyante et très diversifiée. Elle est
+variable en fonction de la nature du sol et des microclimats assez nombreux dans les îles.
+6
+
+--- Page 8 ---
+Elle est favorisée par une pluviométrie généralement abondante mais en régression selon
+les données contenues dans la deuxième communication nationale sur les changements
+climatiques.
+Vue aérienne de la mangrove de Nioumachoi et des collines en voie de dégradation: cliché F. Beudard
+Les sols comoriens, d’origine volcanique, sont généralement riches mais en dégradation
+continue. En effet les sols comoriens sont jeunes et très sensibles à l’érosion, accentuée par
+le relief accidenté et les pratiques agricoles non appropriées (Diagnostic de l’état de
+l’environnement aux Comores, 1993). De nature basaltique, ces sols ont évolué soit en sols
+ferralitiques rouges argileux ou bruns, soit en andosols peu évolués. Les sols ferralitiques
+sont généralement profonds mais peu fertiles. Les sols bruns sont généralement riches mais
+peu profonds. Ils sont très présents à Mohéli et Anjouan. Quant aux andosols, ils se
+développent sur du matériau volcanique récent. Ils sont très pierreux et généralement riches
+en matières organiques. Ils sont surtout présents en Grande Comores.
+Par ailleurs, pratiquement tous les sols cultivables sont appropriés par l’homme. En Grande
+Comores et à Mohéli, la proportion des terres cultivées par rapport au potentiel est de 70%.
+Elle s’élève à 80-90% pour Anjouan (FAO/BM, 2013). Et sur l’ensemble du territoire, seulement
+43% des terres cultivables sont arables et 30% sont occupées par des cultures
+permanentes. Et, chaque année les terres agricoles diminuent soit en raison de la
+dégradation des sols, soit au profit de l’urbanisation (FAO, 2007)..
+Ces données indiquent que les Comores risquent de connaitre à l’avenir des sérieux problèmes de
+ressources en eau et en terres agricoles, si aucune action d’envergure n’est entreprise pour
+remédier la situation.
+2.2 Le milieu humain :
+Le peuplement des îles Comores remonterait au 7ème siècle de notre ère. Il serait caractérisé
+par des vagues successives de migrations en provenance d’Asie et d’Afrique de l’Est et dans
+un deuxième temps de l’île voisine de Madagascar. Ce mélange a donné naissance à un
+peuple comorien homogène, soudé par une unité religieuse (musulmane), linguistique et
+culturelle.
+Selon les données de la direction nationale des statistiques, la population comorienne est
+estimée à 724 294 habitants en 2012. Elle atteindrait 897 219 habitants en 2020. C’est une
+population qui croit au rythme de 2,1% par an, l’un des plus élevés d’Afrique. La densité
+7
+
+--- Page 9 ---
+moyenne est de 400 habitants/km², mais varie d’une île à une autre : 517 habitants au Km² à
+Anjouan, 240 habitants au Km² à la Grande Comores et 99 habitants au Km² à Mohéli.
+Elle atteint même des seuils critiques dans certaines régions comme à Nyumakélé (Anjouan)
+où elle dépasse les 1000 habitants au kilomètre carré cultivable (estimation CGP). De plus
+c’est une population très jeune : l’âge moyen est de 24,1 ans, et 53,8% des habitants avaient
+moins de 20 ans lors du recensement de 2003.
+Cette forte croissance démographique entraîne une forte pression sur les terres agricoles et
+sur les ressources naturelles en général, et ce d’autant plus que les deux tiers de la
+population vivent en milieu rural. Mais la population urbaine progresse également
+rapidement au rythme de 6,5% par an et cela pose des problèmes d’urbanisation et
+d’insalubrité dans les villes.
+La croissance rapide de la population implique des défis importants notamment en matière de
+gestion des ressources, de foncier, d’éducation, de santé, de sécurité alimentaire, de formation
+professionnelle, et d’emplois.
+2.3 Situation écologique :
+L’environnement des Comores est caractérisé par une diversité des habitats, une grande
+richesse floristique et faunistique spécifique et un taux d’endémisme élevé, avec des
+éléments d’importance mondiale tels que le cœlacanthe (Latimeria Chalumnae) et la chauve-
+souris Livingstone (Pteroptus Lingston ii). On indique que : « à l’échelle mondiale, les
+Comores font partie des 20 îles ou archipels caractérisés par un endémisme spécifique
+remarquable de leur biodiversité » (CALDECOTT et al, 1996).
+Source : Seconde communication nationale des Comores sur les changements climatiques
+L’inventaire floristique réalisé en 2006 par le Muséum de l’Histoire Naturelle de Paris indique
+qu’il y a 1731 espèces de plantes terrestres connues sur les 3 îles (Anjouan, Mohéli, Grande
+Comores). Les résultats de l’étude indique en outre que par extrapolation, il n’y aurait pas
+moins de 2648 espèces de plantes vasculaires au total qui poussent aux Comores. Ce qui a
+permis aux auteurs d’affirmer que « Les îles des Comores, étant donnée leur surface réduite,
+se situeraient ainsi parmi les plus riches au monde en nombre d’espèces par km² ». Par
+ailleurs, la faune est très diversifiée et équilibrée en ce sens que toutes les espèces
+8
+
+--- Page 10 ---
+zoologiques y sont représentées. L’environnement marin et côtier est aussi très riche,
+caractérisé par des mangroves, des récifs coralliens et des herbiers abritant une faune
+marine remarquable et diversifiée.
+Faune associée aux récifs coralliens, ilots de Nioumachoi: cliché F. Beudard
+Mais le potentiel naturel des Comores est encore mal connu, et de nombreuses espèces
+sont menacées d’extinction en raison de la dégradation généralisée et continue des milieux.
+La principale cause de dégradation est l’homme qui exerce une forte pression sur les
+ressources naturelles et les écosystèmes. D’après le document relatif à la politique
+forestière, entre 1973 et 1983, les forêts ont diminué de 36% sur la Grande Comore, de 73
+% sur Anjouan et de 53 % à Mohéli, pour l’agriculture. Au cours de cette période, Anjouan
+aurait perdu 5 950 ha de forêts, contre 5 000 à la Grande Comore et 1800 à Mohéli. D’une
+manière générale, le déboisement est estimé à environ 386.7 ha en moyenne par an
+(Inventaire forestier de 2010, d’après l’analyse des photographies aériennes datant de 1949, 1974 et 1984). Le
+tableau ci-dessous indique l’évolution de la couverture forestière de 1990 à 2010.
+Année 1990 2000 2005 2010
+Surface en ha 33441 ha 29574 ha 27640.5 ha 25707 ha
+% /surface totale 18.21% 16.1% 15.06% 14%
+Sources :données IFN 2010
+Mais la pression sur les ressources naturelles est marquée aussi par le braconnage des
+espèces protégées, l’extraction des matériaux côtiers et la pollution des milieux due en
+grande partie aux déchets ménagers. Cette pression est favorisée par :
+ La croissance démographique continue ainsi que les besoins croissants en terre et
+en ressources naturelles
+ La grande pauvreté de la population et la forte dépendance à l’égard des
+ressources naturelles
+ Le manque de solutions alternatives aux pratiques traditionnelles des systèmes de
+production.
+Par conséquent, la conservation, la valorisation et l’utilisation durable des ressources
+naturelles constituent un défi majeur pour les Comores, face à une pression anthropique de
+plus en plus forte et non maîtrisée.
+9
+
+--- Page 11 ---
+Extraction des matériaux du littoral à Fomboni, dans l’île de Mohéli. Cliché : Aboubacar-Tayffa
+Par ailleurs, Petit Pays Insulaire en Développement, l’Union des Comores est exposée à de
+nombreuses menaces et catastrophes naturelles et environnementales : les éruptions
+volcaniques, les cyclones, les tempêtes tropicales, l’élévation du niveau de la mer, les
+inondations, les déversements d’hydrocarbures…etc. En outre, les pratiques actuelles
+entrainent une diminution importante de sa biodiversité et de ses ressources naturelles,
+notamment les ressources halieutiques, et un tarissement des rivières (plus d’une
+cinquantaine au cours des 30 dernières années). Cela rend le pays particulièrement
+vulnérable et fragile écologiquement mais aussi économiquement. Le Rapport sur le
+Développement Humain 2011, indique en effet que « l’Union des Comores présente une
+vulnérabilité estimée à 82,1%, face aux menaces liées aux Changements climatiques ». Et
+l’étude de vulnérabilité aux changements climatiques, réalisée par le projet « Acclimate » de
+la COI révèle que « la dérive climatique risque d’anéantir, les efforts de développement
+engagés et les stratégies spécifiques pour la sécurité alimentaire et la réduction de la
+pauvreté ».
+3. Contexte politique et socio-économique
+3.1 Contexte politique
+Depuis son accession à l’indépendance en 1975, l’Union des Comores a connu une histoire
+politique mouvementée, marquée en particulier par des coups d’Etat et l’entrée en
+dissidence de l’île d’Anjouan de 1997 à 2000. Cette situation d’instabilité n’a pas permis au
+pays de mettre en place des institutions stables susceptibles de placer durablement
+l’archipel sur la voie d’un développement économique durable pour lutter contre la pauvreté.
+Mais depuis l’Accord de réconciliation nationale signé à Fomboni en août 2000 sous la
+médiation de la communauté internationale, les Comores ont renoué avec la stabilité
+politique. Une nouvelle constitution a été adoptée par référendum en 2001, suivie de la mise
+en place de nouvelles institutions et la tenue d’élections présidentielles en 2002, 2006 et
+10
+
+--- Page 12 ---
+2011. Le système politique est de type fédéral avec, au niveau de l’Union, un Président élu
+au suffrage universel direct pour 5 ans et un parlement monocaméral. Au niveau de chaque
+île autonome, un Gouverneur et un conseil de l’île sont élus également pour 5 ans.
+Au niveau régional, l’Union des Comores est membre de l’Union Africaine, de la
+Commission de l’Océan Indien (COI) qui regroupe 4 États insulaires du Sud Ouest de
+l’Océan Indien (Madagascar, Maurice, Seychelles, Union des Comores) et le département
+français de la Réunion. Elle fait partie également du COMESA, le marché commun des
+États d’Afrique de l’Est et Australe. Toutes ces organisations mettent en œuvre des
+programmes régionaux ayant trait à l’intégration économique, au développement socio-
+économique ou à la gestion durable des ressources.
+Actuellement et depuis plus d’une dizaine d’années, la stabilité politique et institutionnelle est
+retrouvée, mais la situation demeure encore fragile comme en témoigne la récente tentative
+de déstabilisation survenue en avril 2013.
+L’appui de la communauté internationale reste donc encore nécessaire pour consolider les
+acquis de la paix, stabiliser les institutions, promouvoir la bonne gouvernance, et relancer les
+activités économiques, en faveur notamment des communautés les plus démunies
+Situation socio-économique
+Au plan économique, les Comores sont relativement isolées, du fait de leur éloignement des
+principaux marchés d’Asie, d’Europe et d’Amérique. L’économie repose essentiellement sur
+le secteur primaire et les services de détail, qui représentent respectivement environ 51 et 18
+% du PIB (BM, 2011). Le secteur primaire concerne surtout l’agroalimentaire (agriculture,
+pêche, élevage) qui génère prés de 50% du PIB. Trois grandes cultures commerciales (la
+vanille, les clous de girofle et l’ylang-ylang) procurent environ 90% des recettes
+d’exportation du pays. La production vivrière, principalement les bananes, les noix de coco et
+les tubercules, ainsi que la pêche, destinée à la consommation locale, reste sous-
+développée, et le secteur industriel est quasi inexistant.
+Contribution au PIB ; source : Direction nationale des statistiques, 2011.
+Toutefois la situation économique s’est généralement améliorée ces dernières années, grâce
+principalement aux transferts réguliers d’argent par la diaspora comorienne, à
+l’accroissement de l’aide extérieure, et à l’amélioration de l’intermédiation financière et de
+l’offre de crédit au secteur privé. Et parallèlement, la situation budgétaire s’est également
+améliorée par une meilleure mobilisation des ressources publiques notamment et un contrôle
+plus efficace des dépenses de l’État (évaluation de la SCRP, 2013).
+11
+
+--- Page 13 ---
+Mais, avec un PIB à 680 USD par tête d’habitant (2007), les Comores font partie du groupe
+des pays les moins avancés (PMA). En 2013, le pays est classé à la 169e place sur 186
+pays avec un Indicateur de Développement Humain (IDH) de 0.429. Et les récentes
+estimations indiquent que le taux de pauvreté des ménages est passé de 36,9% en 2004
+(date de l’enquête ménages) à 38% en 2012.
+Néanmoins les indicateurs non monétaires indiquent des progrès significatifs dans les
+secteurs sociaux. Sur le plan de la santé, des baisses sensibles du taux de mortalité
+infantile, infanto juvénile et maternelle et une réduction du taux de prévalence du paludisme
+ont été enregistrées. Et en matière d’éducation on a enregistré une augmentation du taux de
+scolarisation dans le préscolaire et dans le primaire, et du taux d’admission en 1ère année du
+secondaire.
+En résumé, l’économie comorienne est peu diversifiée et peu productive. Elle est caractérisée
+par des ressources naturelles limitées, un marché intérieur restreint, de faibles capacités
+institutionnelles et une base d’exportations étroite. Ce qui la rend particulièrement vulnérable
+aux chocs et variations des marchés extérieurs.
+3.2 Le Cadre National juridique et institutionnel
+Conformément aux engagements de Rio+10 en 2002 à Johannesburg et ceux du Burkina
+en 2004, le Gouvernement comorien a lancé un processus d’élaboration d’une Stratégie
+Nationale de Développement Durable. Celle-ci sera intégrée à la prochaine stratégie
+nationale de croissance économique intitulée Stratégie de Croissance Accélérée de
+Développement Durable (SCADD) dont la mise en œuvre est prévue démarrer en janvier
+2015.
+Pour la préparation et la mise en œuvre de cette stratégie, le pays a ratifié plus de 15
+Accords Multilatéraux sur l’Environnement (AME) dont les trois grandes Conventions de Rio:
+(1) La Convention sur la Diversité Biologique (CDB) ; (2) La Convention Cadre des Nations
+Unies sur les Changements Climatiques (CCNUCC) et (3) La Convention sur la Lutte contre
+la Désertification (CLD).
+Il a aussi élaboré et adopté, (1) le Rapport d’Auto-évaluation Nationale des Capacités à
+Renforcer pour la gestion de l’environnement (ANCAR), (2) le Cadre Stratégique de
+Programmation (CSP) sur les Changements Climatiques, l’environnement naturel et la
+réduction des risques, (3) le Document de Stratégie de Croissance et de Réduction de la
+Pauvreté (DSCRP) qui évolue actuellement en SCADD, la Stratégie de mise en œuvre des
+Accords Multilatéraux sur l’Environnement et (4) l’étude de vulnérabilité liée aux
+changements climatiques.
+L’élaboration et la mise en œuvre de la future Stratégie Nationale de Développement
+(SCADD) assorti de son Plan d’Actions seront basées sur les lois et les stratégies
+sectorielles pertinentes, en particulier celles concernant l’environnement, l’agriculture, la
+pêche, le tourisme, les transports, l’éducation, la santé, l’emploi et le genre. L’institution en
+charge de l’élaboration et du suivi de la mise en œuvre de cette nouvelle Stratégie est le
+tandem Commissariat Général au Plan/Secrétariat Général du Gouvernement. Quant à la
+mise en œuvre des activités, elle reviendra aux Ministères techniques suivant la feuille de
+route et les orientations qui fixées par le Gouvernement. La coordination des actions sera
+assurée par le Commissariat Général au Plan avec l’appui des organes ad ‘hoc de
+coordination et de pilotage mis en place par les autorités compétentes. De ce fait, la
+Commission Nationale du Développement Durable (CNDD) et les Commissions Insulaires de
+12
+
+--- Page 14 ---
+Développement Durable des îles Autonomes (récemment créées ou en cours de création)
+auront sans doute un rôle important à jouer dans la coordination et le pilotage de la mise en
+œuvre de la future stratégie nationale de développement d’autant plus que celle-ci intégrera
+davantage des aspects liés à l’économie verte et à la croissance durable.
+Il convient de rappeler que désormais toutes les politiques et les stratégies nationales,
+portant sur le développement économique et social, doivent être en ligne avec la Déclaration
+finale issue de la conférence de « Rio+20 ». Celle-ci stipule notamment que : « l’abandon
+des modes de consommation et de production non viables en faveur de modes durables,
+ainsi que la protection et la gestion des ressources naturelles sur lesquelles repose le
+développement économique et social sont à la fois les objectifs premiers et les préalables
+indispensables du développement durable ». Et la politique du Gouvernement comorien
+s’inscrit pleinement dans cette vision.
+On peut alors déduire qu’il existe en Union des Comores, un cadre juridique et institutionnel
+favorable à la l’élaboration et à la mise en œuvre de programmes relatifs à la lutte contre la
+désertification et la dégradation des terres.
+4. Désertification et Dégradation des Terres
+4.1 Problématique de la désertification : Définition, facteurs et conséquences
+4.1.1 Définitions :
+Dans le texte de la Convention Cadre des Nations Unies sur la lutte contre la désertification,
+la désertification est définie comme étant « la dégradation des terres dans les zones arides,
+semi-arides et subhumides sèches par suite de divers facteurs, parmi lesquels les variations
+climatiques et les activités humaines ». Elle est définie aussi comme « la dégradation des
+sols en zone aride, semi-aride et subhumide sèche ».
+Et « dégradation des terres » est définie comme la « diminution ou disparition dans les zones
+arides, semi-arides et subhumides sèches, de la productivité biologique ou économique des
+terres cultivées, des parcours, des pâturages, des forêts ou des surfaces boisées, du fait de
+l'érosion des sols, causée par le vent et/ou l'eau ». C'est-à-dire quand « la détérioration des
+propriétés physiques, chimiques et biologiques ou économiques des sols, entraine à long
+terme, la disparition de la végétation naturelle ». Le terme « zones arides, semi-arides et
+subhumides sèches » désigne, « les zones dans lesquelles le rapport entre les précipitations
+annuelles et l'évapotranspiration possible, se situe dans une fourchette allant de 0,05 à
+0,65 à l'exclusion des zones arctiques et subarctiques». Et les terres arides sont par
+définition, des terres disposant de réserves limitées en eau douce, et qui réagissent
+rapidement aux fluctuations climatique et pluviométriques en particulier, qu’elles soient intra
+ou inter annuelles. Ces dernières peuvent être très importantes, et s’étendre sur des années
+et des décennies et engendrer des sécheresses.
+Quant à la sécheresse, elle désigne « le phénomène naturel qui se produit lorsque les
+précipitations ont été sensiblement inférieures aux niveaux normalement enregistrés et qui
+entraîne de graves déséquilibres hydrologiques, préjudiciables aux systèmes de production
+des ressources en terres ».
+Suivant ces définitions et au vu de ce qui est décrit au paragraphe 2 « Description du
+milieu », les Comores font partie des pays touchés par le phénomène de la
+13
+
+--- Page 15 ---
+désertification. On retient en particulier que la désertification implique systématiquement
+une dégradation des terres, laquelle dégradation peut affecter directement ou
+indirectement d’autres ressources naturelles telles que la faune terrestre ou les
+ressources en eau, voir même les écosystèmes marins et côtiers. L’ampleur et l’étendue
+des effets réels et potentiels de ce phénomène sont, à l’état actuel, difficilement prévisibles
+pour les Comores, mais l’on sait qu’ils peuvent être très préjudiciables à la production
+agricole et à la conservation de la biodiversité. C’est pourquoi, il convient de prendre dès à
+présent, les mesures et les actions nécessaires visant à d’abord à bloquer le phénomène
+(mesures de conservation) et ensuite à inverser la tendance actuelle (mesures de
+restauration).
+4.1.2 Les facteurs de la désertification :
+La désertification est due à plusieurs facteurs dont les principaux sont des facteurs
+physiques et climatiques, socio-économiques et politico-juridiques.
+Les facteurs physiques et climatiques.
+La diminution des précipitations : les données disponibles sur 30 ans indiquent non
+seulement une diminution continue des niveaux de pluviométrie aux Comores, mais un
+décalage de la concentration des pluies du mois de janvier – habituellement le plus pluvieux
+- vers les mois de février à mai. A cela s’ajoutent une forte variabilité spatiale et temporelle
+de la pluviométrie à l’intérieur de chaque île, ainsi que des sécheresses précoces et
+prolongées, entrainant l’assèchement des rivières et une dessiccation des sols (source :
+ANACM)
+La faible perméabilité des sols à Anjouan et Mohéli due en grande partie au relief accidenté
+au taux d’argile relativement élevé: Celle-ci limite l'infiltration des eaux, et donc le
+remplissage des nappes souterraines, et provoque des ruissellements torrentiels
+synonymes d’érosion et de dégradation des sols.
+Le relief montagneux et accidenté : Il accentue l’érosion des sols de toutes origines,
+favorisées par le caractère particulièrement fragile et sensible des sols comoriens.
+Les températures : Les températures minimales varient de 14 à 23°C et les maximales de 28
+à 35°C. Le rapport du PANA réalisé en 2006 et les études du GIEC, indiquent une
+augmentation de la température moyenne de l’ordre de 1° C par an, et de 0.9°C par
+décennie depuis 1960. Et le taux d’évapotranspiration réelle (ETR) reste élevé, estimé entre
+30 et 32 % pour l’ensemble des iles.
+Les vents du Sud-est qui peuvent atteindre 75 à 110km/h (source : ANCAM) entrainent l’érosion
+des sols et un effet desséchant des terres.
+Les facteurs socioéconomiques :
+La forte pression foncière, résultant de la pression démographique entraine des
+défrichements massifs et anarchiques des forêts en faveur de l’agriculture.
+14
+
+--- Page 16 ---
+L’exploitation inappropriée des zones à forte pente (60 à 70%) favorisent le ruissellement,
+l’érosion du sol, le transport des produits terrigènes sur la zone côtière, et donc le processus
+de la dégradation des terres. Rappelons qu’aux Comores la disponibilité en terres cultivables
+serait inférieure au quart d’un hectare par habitant (Étude sur la dégradation des terres aux Comores,
+2011)
+Les pratiques agricoles inadaptées telles que l’agriculture itinérante sur brûlis accentuent
+l’érosion et la dégradation des terres, combinées à la disparition du système de jachère et à
+la surexploitation des terres,
+Les besoins croissants en biomasse ligneuse pour le bois d’œuvre, d’énergie domestique et
+les besoins de distillation des fleurs d’ylang-ylang, entrainent un déboisement massif et
+incontrôlé,
+Le métayage qui ne favorise pas l’investissement prolongé en faveur de la protection des
+sols,
+La animale en particulier des chèvres, dans les zones arides à écosystèmes
+particulièrement fragiles;
+L’urbanisation poussée et le développement de l’infrastructure économique le plus souvent
+sans études d’impact, entrainant des inondations, érosions et éboulements de terrains,
+L’insuffisance d’innovations techniques, d’information/sensibilisation et de vulgarisation de
+paquets techniques lutte contre la désertification,
+La faible compréhension du phénomène de désertification et de ses conséquences par le
+grand public,
+La pauvreté grandissante qui pousse la population à détruire les ressources naturelles : plus
+de 50% de la population vit en dessous du seuil de pauvreté et. le taux de chômage est de
+13,5 % et touche en particulier les jeunes (SCRP, 2009),
+Le coût élevé des énergies alternatives au bois, comparé au revenu moyen de la population.
+Plus de 80% de la population utilise le bois pour la cuisine (Plan d’action forestière),
+En outre, l’origine géologique ainsi que la situation géographique des îles expose le pays à
+des catastrophes naturelles (tempêtes tropicales, inondations, cyclones, éruptions
+volcaniques, ravinements, éboulements de talus..) qui favorisent la dégradation des terres.
+Les facteurs politiques et juridiques :
+L’absence d’une législation foncière permettant de réguler les modes de tenure des terres.
+Plusieurs types de droit conflictuels régissent le régime foncier des Comores, (droits
+français, musulmans et coutumiers).
+L’absence d’un plan d’aménagement du territoire et d’urbanisme et aussi l’absence de
+normes urbanistiques.
+L’absence d’un plan cadastral, permettant de planifier l’occupation du sol,
+Le manque de présence physique de services de proximité d’encadrement agricole en milieu
+rural, depuis que les CADER, devenus par suite des CEA, ont cessé de fonctionner alors
+15
+
+--- Page 17 ---
+que les CRDE nouvellement créés et en cours de mis en place, ne sont pas encore
+entièrement opérationnels.
+Les faibles capacités institutionnelles des services de l’État. Ceux-ci n’arrivant pas à faire
+appliquer la loi notamment sur les domaines publics.
+4.1.3 Les conséquences de la désertification :
+Les conséquences actuelles et prévisibles de la désertification aux Comores, sont
+nombreuses et multiformes. Elles concernent principalement l’environnement et la
+biodiversité, l’agriculture et certaines activités socioéconomiques.
+Les conséquences sur l’environnement et la biodiversité:
+ La disparition des habitats et la raréfaction de la biomasse entrainant une perte
+importante de la biodiversité et la disparition d’espèces faunistiques endémiques ou
+d’importance mondiale telles que : le Zosterops, l’Otus pauliani, l’Humblotia
+flavirostris, le Pteroptus livingstonii, le Lémur mongoz,
+ La disparition des domaines forestiers avec perte d’espèces floristiques
+d’importance mondiale telles que : Khaya comorensis, l’Ocotea, recherchées en
+ébénisterie, ou le Tambourissa, le lep tophylla et l’Aphloria theaformis, utilisées à des
+fins médicinales. Selon les dernières estimations le pays compte actuellement 3 000
+ha de couvert forestier (FRA, 2000) contre 12 375 ha en 1985 et 19 100 ha en 1974
+(Agrar, 1985).
+ L’absence de couvert végétal et la dégradation des terres accélèrent l’érosion des
+sols en amont et le transport de dépôts terrigènes vers la mer entraine une turbidité
+des eaux, et un envasement du platier et des récifs coralliens. Ce qui a comme
+conséquences l’étouffement et la mort des coraux et de l’herbier sous marin ainsi
+qu’une destruction importante de la biodiversité marine et côtière.
+Conséquence sur l’agriculture :
+ L’alternance entre pluies intenses, saison sèche précoce et températures élevées
+provoquent des décapages des sols, des fentes de retrait des sols argileux et
+accentuent la dégradation physique des sols. On estime que depuis l’indépendance le
+pays a perdu plus de 50% de ses terres agricoles, soit 65 335 ha, dont 33 120 ha en
+Grande-Comores (50%), 24 200 ha à Anjouan (65%) et 8 115 ha à Mohéli (52%) (PANA,
+2006).
+ La faible pluviométrie et la forte évaporation provoquent une dégradation chimique des
+sols, et accentue les risques de salinisation,
+ La modification structurale des sols, entraine une perte de leurs potentialités agricoles et
+donc une fragilisation des systèmes de production agricole,
+ La disparition de la jachère réduit la reconstitution de la fertilité, mais aussi les
+possibilités de production fourragère,
+Tous ces facteurs entrainent une baisse significative de la fertilité des sols, par voie de
+conséquence la production agricole, aggravant ainsi l’insécurité alimentaire et la pauvreté en
+16
+
+--- Page 18 ---
+milieu rural. Rappelons que l‘agriculture est un secteur vital de l’économie comorienne.
+Elle contribue à hauteur de 45% au PIB, absorbent 90% des emplois du pays et
+représente 95% des recettes d’exportation.
+Conséquence sur la société et sur d’autres activités économiques :
+ La dégradation des conditions de vie de la population et la paupérisation du monde rural,
+entraine des exodes massifs, accélérant l’urbanisation anarchique et des problèmes
+sociaux de tous ordres (santé, éducation, gestion de l’espace…). Les taux d’urbanisation
+aux Comores est passé de 27,9% en 2003 à 31,5% en 2008 (SCRP, 2009).
+ La diminution de la recharge des nappes souterraines engendre une baisse du niveau
+phréatique, un assèchement des rivières et le tarissement des sources en saison sèche.
+Ceci modifie le régime des cours d’eau, et le bilan hydrique des îles. Ce qui implique une
+réduction du potentiel hydroélectrique, et un risque élevé de pénurie en eau potable. On
+estime qu’environ 15 % seulement de la population a accès à une source d’eau potable
+répondant aux normes de l’OMS (SCRP 2009).
+ La pression foncière engendre des conflits intercommunautaires plus ou moins graves
+sur les espaces agricoles,
+ La perte de la biodiversité entraine une altération de l’attrait touristique des iles et donc
+une diminution des revenus éco- touristiques pour les communautés rurales notamment.
+Au final le phénomène de la désertification aux Comores constitue une menace sérieuse pour
+le développement du secteur agricole et touche en particulier les populations rurales qui
+dépendent fortement de l’agriculture et des ressources naturelles pour survivre.
+4.2. Problématique de la dégradation des terres :
+Comme indiqué plus haut, la principale conséquence de la désertification, c’est la
+dégradation des terres et tous les effets négatifs qui en découlent. Mais la dégradation des
+terres est due aussi aux actions de l’homme sur les ressources en terre, lesquelles actions
+ont des effets sur la désertification. Une étude sur la dégradation des terres a été réalisée
+aux Comores en 2011, suivant la méthode LADA (Land Degradation in Drylands). Celle-ci
+est fondée sur l’hypothèse que « l’état des ressources en terre est déterminé en grande
+partie par la façon dont l’homme utilise l’espace dans lequel il vit », et que « le niveau de
+dégradation ou de gestion durable d’une terre dépend largement des besoins et des objectifs
+de l’exploitant, des itinéraires techniques, des moyens de production employés (main-
+d’œuvre, capital…) et des niveaux de production atteints ».
+L’étude révèle également qu’il existe cinq systèmes dominants d’utilisation des terres aux
+Comores, et que chaque système contribue d’une façon ou d’une autre à la dégradation des
+terres et donc à la désertification: (1) un système axé sur les cultures vivrières, (2) un
+système axé sur les cultures de rente, (3) un système axé sur les cultures maraîchères, (4)
+un système forestier (cultures sous bois), et (5) un système concernant l’exploitation des
+terres marginales. Cette classification a été réalisée en se basant essentiellement sur cinq
+critères qui sont : l’occupation du sol, les objectifs poursuivis par le producteur, la nature du
+sol, la pluviométrie, et l’altitude. Elle tient compte aussi de l’élevage des ruminants qui est en
+marge de tous ces systèmes.
+17
+
+--- Page 19 ---
+Le système axé sur les cultures vivrières concerne surtout la banane, le manioc et la noix de
+coco qui forment la base de l’alimentation des comoriens, mais aussi le taro, le riz pluvial, le
+maïs, l’ambrevade (pois d’Angol ou Cajanus cajan) et la patate douce. L’étude ressort
+également l’existence, de systèmes de cultures vivrières associées presque dans toutes les
+zones agricoles, mais avec une disparité variable selon les îles. Sur l’île d’Anjouan, on les
+trouve surtout autour des habitations et dans la zone haute entre 500 et 600 mètres
+d’altitude. Sur la Grande Comore, les systèmes se localisent principalement dans les zones
+de basses altitudes au sud et au nord de l’île. A Mohéli, il s’étend presque partout sur les
+plaines côtières autour de l’île. La superficie occupée par ces systèmes représente environ
+36 % des terres cultivées aux Comores, dont 30% à Anjouan et à la Grande Comore, et pré
+de 50% à Mohéli. Le système est caractérisé par l’absence de fertilisation et de techniques
+antiérosives, et par le brûlage des débris avant le semis. L’ensemble de ces facteurs,
+combiné aux fortes précipitations dans certains endroits, au relief accidenté des îles, à la
+suppression de la jachère, et à la fragilité des sols, conduisent à des érosions hydriques
+massives et à une dégradation de structure, accompagnée d’une perte de fertilité des sols
+suivie parfois des ravinements et des glissements de terrains dans certains endroits. Ces
+formes de dégradation toucheraient aujourd’hui entre 35 et 60% des terres agricoles du
+pays.
+Le système axé sur les cultures de rente : Il est dominé par la vanille, le girofle et l’ylang-
+ylang, et dans une moindre importance le café et le tabac qui sont consommés localement.
+En Grande Comore et à Anjouan, ces cultures occupent les zones de basse altitude (autour
+de 250 m), tandis qu’à Mohéli, le système se développe sur le plateau et sur les plaines
+côtières au Sud de l’île. Mais le système continue à s’étendre (l’ylang-ylang en particulier)
+sur les zones en forte pente, voire sur des terres marginales. Vu la valeur ajoutée des
+produits, ces cultures sont généralement bien entretenues. On pratique souvent le paillage
+sur les jeunes plants d’ylang-ylang et aux pieds des lianes de vanille pour conserver
+l’humidité et la fertilité du sol. Toutefois, beaucoup de paysans pratiquent encore le brûlis
+pour nettoyer les plantations, ce qui provoque parfois des incendies. Ils exploitent aussi le
+couvert arboré pour le bois énergie en particulier pour la distillation traditionnelle des fleurs
+ylang-ylang. Cela se traduit par une perte plus ou moins importante de la couche arable du
+sol, accentuée par les fortes pentes et l’intensité des pluies. C’est une forme de dégradation
+plus ou moins modérée mais qui tend à s’accentuer dans le temps. A cela s’ajoute, selon
+certains constats, le problème d’acidification et d’assèchement des sols provoqué par le
+giroflier qui est la principale culture de rente sur l’île d’Anjouan.
+Le système axé sur les cultures maraîchères n’est pas très développé en termes
+d’occupation de sol, comparé aux deux autres systèmes évoqués précédemment. Il
+couvrirait 9% de la superficie des terres agricoles en Grande Comore, 5% à Mohéli, et moins
+de 1% à Anjouan, toujours selon l’étude sur la dégradation des sols en 2011. En effet,
+malgré une demande croissante des milieux urbains, le système est très limité par le
+manque de terre et surtout d’eau. Néanmoins c’est un système qui acidifie les sols (75% des
+périmètres maraîchers en Grande Comores, et 55% à Anjouan), à cause de la faible maîtrise
+des dosages d’engrais chimiques par les producteurs.
+Le système forestier (cultures sous bois) couvrirait aujourd’hui 20% de la superficie en
+Grande Comores, 29% à Anjouan et 5% à Mohéli. Il permet de garder la couverture végétale
+et limiter fortement l’érosion du sol sur les terres en forte pente. Mais la pression
+18
+
+--- Page 20 ---
+démographique, combinée à la pauvreté et à la faiblesse des services forestiers, fait qu’on
+coupe de plus en plus le bois, pour éclaircir les parcelles et augmenter la surface cultivable.
+Cela entraine une réduction de la couverture végétale qui s’accompagne d’une perte
+d’habitats et de la biodiversité, et d’une intensification de l’érosion des sols. On estime que
+cette forme de dégradation touche jusqu’à 75% des superficies couvertes par ce système à
+Anjouan.
+Les zones marginales. L’importance et la morphologie varient d’une île à une autre. A la
+Grande Comore ce sont surtout des coulées de lave récentes très peu colonisées par la
+végétation. Elles ne sont pas très mises en valeur sur le plan agricole en raison de leur
+potentiel productif très faible. Par contre elles sont souvent exploitées comme carrière
+d’extraction de matériaux de construction. A Mohéli et à Anjouan ce sont essentiellement
+des terres en forte pente à tel point qu’aucune technique antiérosive n’y est efficace. La
+disparition du couvert végétal sur ces zones engendre de fortes érosions hydriques et
+éoliennes suivies parfois de ravinements et de glissements de terrains.
+Ce qui est décrit ci-dessus confirme qu’aux Comores la désertification et la dégradation des
+terres résultent des phénomènes climatiques, mais le problème est fortement accéléré par
+les modes d’utilisation des terres en agriculture. Et la situation ne fait que s’aggraver en
+raison de la réduction continue de l’espace agricole qui s’accompagne d’une diminution ou
+disparition du temps de jachère et d’une mise en culture des terres impropres à l’agriculture.
+On estime aujourd’hui que le potentiel cultivable est de 1 ha par habitant à Mohéli, 0,20 ha à
+Anjouan et 0,32 ha. Alors qu’en 1984, ces chiffres étaient respectivement de 1 ha, 0,25 ha et
+0,38 ha. Quant à la proportion des terres effectivement cultivées par rapport au potentiel, elle
+dépasse 70% en Grande Comore et à Mohéli et 80 à 90% à Anjouan. C'est-à-dire
+qu’actuellement l’espace potentiellement cultivable est presque entièrement utilisé et une
+bonne partie est dégradée ou en voie de l’être. Par conséquent la compétition pour les
+espaces restants génère des conflits intercommunautaires et un empiètement des domaines
+de l’État, tandis que s’accélère le défrichement des derniers espaces forestiers sur des
+pentes fortes à très fortes, dépassant 60 à 70%. (PANA, 2006)
+Face à cette situation, le Gouvernement de l’Union des Comores a mis en œuvre plusieurs
+actions visant à contribuer à la lutte contre la désertification et la dégradation des terres dans
+le pays.
+4.3 Actions réalisées ou en cours de réalisation :
+Sur le plan politique et institutionnel :
+ Ratification de la convention de lutte contre la désertification
+ Élaboration des politiques et plans d’action liés à la LCD dont la politique forestière et
+son plan d’action,
+ Réorganisation de la direction de l’environnement rebaptisée Direction Générale de
+l’Environnement et des Forêts, avec des missions élargies à la protection des ressources
+forestières,
+ Signature du Manifeste d’Itsandra qui a engagé le pays sur la voie d’une économie verte
+respectueuse de l’environnement,
+ Lancement du processus d’élaboration d’une Stratégie Nationale de Développement
+Durable qui va être intégrée dans la future Stratégie de Croissance et de Réduction de
+19
+
+--- Page 21 ---
+Pauvreté, stratégie en cours de réactualisation et rebaptisée « Stratégie de Croissance
+Accélérée de Développement Durable – SCADD »
+ Adoption d’un Plan d’Action Nationale d’Adaptation aux Changements Climatiques
+ Réalisation d’une étude sur la dégradation des terres aux Comores.
+Sur le plan socioéconomique :
+ Allègement des conditions et procédures d’octroi de titres fonciers en vue d’encourager
+les investissements relatifs aux aménagements antiérosifs sur les terrains agricoles
+ Promotion des foyers améliorés visant à diminuer la consommation du bois énergie et
+donc à réduire la pression sur le déboisement et la dégradation des terres,
+Sur le plan agricole et environnemental
+ Poursuite par pratiquement tous les programmes de développement agricole, des actions
+de reboisement commencées depuis les années 1970. Lancement notamment de la
+campagne nationale de reboisement « un homme, un arbre ». Plus de 600 000 plants ont
+été ainsi mis sous terre durant la campagne 2012-2013.
+ Poursuite par les programmes d’intensification agricole, de la diffusion des techniques de
+DRS et d’embocagement introduites aux Comores dans les années 1980 par les
+structures nationales d’encadrement agricole de l’époque (Système CEFADER/CADER).
+ Mise en œuvre d’un projet national de Gestion Durable des terres de 2008 à 2012,
+ Études en cours pour la création d’au moins 3 aires protégées terrestres (forêt du
+Karthala, mont N’tringui et forêt de crête de M’lédjéle) à l’intérieur desquelles l’utilisation
+de la terre sera réglementée.
+Mais l’adoption d’un Plan d’Action de lutte contre la désertification permet de mieux cibler
+les actions à réaliser en fonction des priorités nationales. Cela permet surtout de fixer le
+cap et d’avoir donc une vision claire sur les actions à mettre en œuvre sur une période
+donnée, en fonction des objectifs visés et des résultats attendus.
+4.4. Répartition géographique de la désertification et de la dégradation des terres
+La répartition spatiale et l’intensité de la désertification et de la dégradation des terres varient
+beaucoup d’une île à une autre, et d’une région à une autre à l’intérieur de chaque île. Elles
+dépendent beaucoup de l’aridité et des activités agricoles réalisées dans la région. Les
+régions touchées par la désertification indiquées ci-dessous, ont été identifiées sur la base
+des données fournies par les services météorologiques de l’ANACM reportées dans la revue
+analytique de la désertification aux Comores réalisée en 2013.
+En Grande Comore, l’aridité touche surtout le Nord, le centre, et la Côte Est de l’île (voir
+pages 23, 24 et 25…). En effet au Nord, le déficit agricole (hydrique) dure de 4 à 6 mois sur
+l’année. Elle atteint régulièrement les 10 mois du côté de Chamlé (Nord-Ouest) et dans la
+région de Chomoni sur la côte Est. Il s’étale entre 5 et 10 mois dans la région du centre
+(Bahani). Il s’étend aussi de 2 à 6 mois au Sud, Sud-ouest, dans la région de
+Foumbouni/Malé. En revanche, il n’excède pas 3 mois, dans la région de Hambou sur le
+versant Ouest du Karthala, généralement bien arrosé
+A Anjouan, le déficit hydrique annuel oscille entre 1 et 7 mois à l’Ouest d’Anjouan vers
+Maraharé, et de 2 à 9 mois dans la région Sud (Dziani), mais aussi dans la zone Nord allant
+de Hajoho, Harimbo jusqu’à Jimlimé. Ce sont les trois régions les plus touchées par l’aridité.
+20
+
+--- Page 22 ---
+Mais il se situe autour de 2 à 3 mois au Centre, qui fait partie des régions les plus arrosées
+de l’île.
+A Mohéli l’aridité concerne surtout le Nord (Fomboni, M’batsé, et Domoni), et le Sud- Est
+dans la région d’Itsamia. Tandis que l’Ouest, (Miringoni, Ouallah) reste la région la plus
+arrosée.
+D’une manière générale, ce sont les côtes Est qui sont les plus arides et les plus dégradées,
+car elles sont les plus exposées aux vents secs et les moins arrosées. (Voir ci-dessous les
+cartes de répartition de l’aridité et des zones dégradées dans les îles).
+Ainsi les priorités d’intervention seront déterminées logiquement suivant les zones les plus
+touchées par le phénomène de la désertification et de la dégradation des terres. Mais avant
+cela, il est nécessaire de définir les objectifs du Plan d’Action, les résultats attendus ainsi
+que les activités à mettre en œuvre pour atteindre ces résultats.
+21
+
+--- Page 23 ---
+Grande Comores : Carte de localisation des zones arides et des sols dégradés
+22
+
+--- Page 24 ---
+Anjouan : Carte de localisation des zones arides et des sols dégradés
+23
+
+--- Page 25 ---
+Mohéli : Carte de localisation des zones arides et des sols dégradés
+24
+
+--- Page 26 ---
+5. Le PAN/LCD
+5.1 Objectifs, résultats attendus et activités
+Comme indiqué plus haut, le Plan-cadre décennal stratégique 2008-2018 est une reforme de
+la Convention des Nations unies sur la lutte contre la désertification (CLD) adopté en 2007
+lors de la 8e session de la Conférence des Parties (COP 8). Son objectif est d’assurer une
+vision commune et cohérente de la mise en œuvre de la CLD et d’en améliorer l’efficacité.
+Elle préconise une approche axée sur les résultats et articulée en quatre objectifs
+stratégiques :
+ Améliorer les conditions de vie des populations touchées,
+ Améliorer l’état des écosystèmes touchés,
+ Dégager des avantages généraux d’une mise en œuvre efficace de la Convention,
+ Mobiliser des ressources en faveur de la mise en œuvre de la Convention par
+l’instauration de partenariats efficaces entre acteurs nationaux et internationaux
+Chaque objectif stratégique est doté d’effets escomptés et d’indicateurs permettant de
+mesurer les progrès réalisés. En outre, comme énoncé dans l’introduction, le Plan décennal
+comprend 5 objectifs opérationnels, dotés chacun de résultats mesurables, et qui délimitent
+les actions à mettre en œuvre dans la décennie 2008-2018. Il s’agit de :
+ La mise en place d’actions de plaidoyer, de sensibilisation et d’éducation,
+ L’élaboration d’un cadre d’action qui œuvre à la création d’un climat général
+favorable à la recherche de solution,
+ Le renforcement des connaissances, de l’expertise scientifique et technologique,
+ Le renforcement des capacités pour prévenir et enrayer la désertification et la
+dégradation des terres,
+ L’accroissement des ressources financières et technologiques aux niveaux national,
+bilatéral et multilatéral,
+Le présent PAN vise à atteindre les objectifs nationaux en matière de lutte contre la
+désertification et la dégradation des terres, tout en étant cohérent avec les objectifs
+opérationnels du Plan décennal de la CLD, lesquels objectifs doivent concourir à atteindre
+les 4 objectifs stratégiques cités ci-dessus.
+25
+
+--- Page 27 ---
+Tableau présentant les objectifs du Plan d’Action national ainsi que les résultats escomptés et les activités à réaliser pour les atteindre
+Objectifs Résultats attendus Activités Indicateurs de vérification Sources de vérification
+1.1. les principaux acteurs nationaux  Élaborer et mettre en œuvre des Nombre de posters distribués Les rapports d’activités,
+1. Informer, Eduquer, y compris les décideurs politiques campagnes annuelles d’information Nombre de dépliants distribués, Les documents produits
+Sensibiliser les acteurs sont informés et sensibilisés sur et de sensibilisation incluant : la Nombre de communiqués de
+nationaux et les questions liées à la production et la diffusion des presse diffusés
+posters, des dépliants, des Nombre des émissions radio
+internationaux désertification et la dégradation
+communiqués de presse, des diffusées
+des terres aux Comores :
+émissions radio télévisées,
+Nombre de conférence débats
+Au moins 350 acteurs nationaux sont  Organiser des conférences débats organisés
+sensibilisés y compris le Président de sur la sécheresse, la désertification Nombre de personnes touchées et Contenu des archives sonores et
+la République, les membres du et la gestion durable des terres. sensibilisées audio-visuelles
+Gouvernement et les Gouverneurs.
+ Élaborer des guides pédagogiques Quantité des guides pédagogiques
+1.2. Les thèmes de la désertification, relatifs à la désertification, la élaborés et distribués dans les Les guides pédagogiques
+la dégradation des terres, la dégradation des terres, la écoles, produits,
+sécheresse et de l’agriculture sécheresse et l’agriculture durable,
+durable sont introduites dans le
+rapports des inspecteurs
+cursus scolaire :  Appuyer l’IFERE pour insérer ces Les nouveaux programmes pédagogiques,
+thématiques dans les programmes scolaires incluant les thématiques
+scolaires du cycle primaire, de la désertification,
+Produire au moins 1000 guides
+ Former les enseignants du primaire
+pédagogiques, et former 500 à la compréhension des ces Nombre d’enseignants formés à
+enseignants formateurs à l’utilisation thèmes et à l’utilisation des guides l’utilisation des guides, Nombre de certificats de
+des guides. pédagogiques Nombre d’écoles participant aux participation à la formation
+actions d’animation pédagogiques délivrés
+ Appuyer l’organisation d’animations
+pédagogiques dans les écoles
+primaires portant sur les thèmes de
+Nombre d’animations
+la désertification et de la
+pédagogiques organisées dans les
+écoles,
+dégradation des terres,
+1.3. Les partenaires internationaux  Organiser des actions de plaidoyer
+Nombre partenaires touchés et qui Les rapports d’activités de la
+et de lobbying auprès des
+sont informés et sensibilisés sur ont réagi favorablement au DGEF,
+partenaires internationaux
+la problématique de la financement des actions de lutte
+dégradation des terres aux contre la désertification Les conventions de financement
+Comores signées,
+Le montant total mobilisé pour la
+lutte contre la désertification
+Au moins 10 partenaires internationaux
+sont touchés et sensibilisés à la
+problématique de la désertification aux
+Comores.
+26
+
+--- Page 28 ---
+2.1 les techniques de DRS sont  Former les paysans aux techniques Nombre de paysans formés aux Rapports de formation,
+2. Restaurer les terres généralisées sur toutes les terres de DRS et de GDT, techniques de DRS et de la GDT,
+dégradées et lutter contre en particulier celles faisant plus Rapports d’activités
+l’érosion des sols, en vue de 20% de pente  Appuyer les organisations Nombre d’organisations paysannes
+paysannes à la production et à la produisant des boutures et plants Rapports d’enquêtes
+d’augmenter la
+distribution des boutures, destinés aux aménagements
+productivité agricole
+antiérosifs,
+30% des terres agricoles faisant plus
+ Encadrer les paysans à aménager
+de 20% de pente sont aménagées en leurs parcelles suivant les Quantité de parcelles aménagées
+DRS. techniques de DRS, en DRS Visite de terrain et rapports
+% des terres agricoles aménagées
+en DRS
+2.2 les techniques d’embocagement
+et de restauration de la fertilité  Former les paysans aux techniques Rapports de formation,
+sont bien maitrisées par les d’embocagement et de restauration Nombre de paysans formés aux
+paysans de la fertilité sans apport d’engrais techniques d’embocagement Rapports d’activités
+chimiques,
+ Encadrer et appuyer les paysans à Surface des terres agricoles Rapports d’enquêtes
+En 5 ans, 1200 paysans sont formés et pratiquer l’embocagement restaurées grâce aux pratiques
+maitrisent parfaitement les techniques d’embocagement
+d’embocagement.
+25000 ha de terres agricoles sont
+restaurés mises en valeur suivant le
+système d’embocagement
+2.3 les techniques d’agroforesterie Le nombre de cartographies Rapports d’activités,
+ Identifier, et cartographier les zones
+sont développées dans les appropriées pour l’agroforesterie, élaborées,
+périphéries des domaines Photographies aériennes
+forestiers,  Élaborer des guides techniques Le nombre de guides
+d’agroforesterie élaborer et Enquêtes de terrain
+relatifs aux systèmes de production
+distribués
+20000 ha de terres sont aménagés en associant production vivrière et
+agroforesterie dans les périphéries des couverture forestière, et les
+Surface des terres agricoles sur
+domaines forestiers. vulgariser auprès des paysans,
+lesquelles ’on pratique
+l’agroforesterie
+500 guides d’agroforesterie sont  Former, encadrer et accompagner
+élaborés et diffusés en milieu paysan les producteurs à pratiquer
+Surface d’anciennes terres
+l’agroforesterie
+défrichées en cours de Visite de terrain et rapport
+La pression humaine sur les domaines
+régénération
+forestiers est réduite de 25%
+27
+
+--- Page 29 ---
+2.4 les structures chargées de  Appuyer la réhabilitation et la mise Le nombre de CRDE rendus Rapports de réception des
+l’encadrement agricole et de la en fonction de cinq Centres Ruraux opérationnels travaux
+de Développement Économiques,
+coordination des actions en
+Rapports d’activités des CRDE
+milieu rural (les CRDE) sont
+renforcées et opérationnalisées,
+Au moins 5 CRDE sont rendus
+opérationnels
+3. Promouvoir une gestion  Appuyer, accompagner les activités Nombre d’aires protégées Le journal official, décrets de
+durable et participative des 3.1 les reliques forestières sont en cours visant à créer des aires terrestres créées et dotées de création signés
+ressources forestières et protégées et valorisés, protégées terrestres dans les zones plans de gestion
+de stopper ou atténuer la forestières,
+déforestation 4 aires protégées terrestres sont crées,
+ Appuyer l’élaboration et la mise en Surface des domaines forestiers Rapports d’activités des aires
+couvrant plus de 30 000 ha.
+œuvre des plans de gestion des classés en aires protégées et/ou protégées,
+aires protégées terrestres, cogérés avec les communautés
+État de santé des écosystèmes Rapport d’évaluation des
+forestiers classés en aires écosystèmes forestiers
+protégées,
+3.2 la pression humaine sur les  Appuyer, accompagner la mise en Surface des terres boisées par les
+place de boisements communautés ou des privés, Rapports d’activités des services
+ressources forestières ligneuses
+communautaires ou privés, agricoles,
+est réduite
+% de ménages comoriens utilisant
+ Diffuser les foyers améliorés les foyers améliorés Rapports d’enquêtes auprès de
+La consommation actuelle des produits auprès des ménages et des ménages et des distillateurs,
+forestiers ligneux a diminué de 30% en distillateurs d’ylang en vue de Nombre d’alambics équipés en
+5 ans. réduire la consommation du bois, foyers améliorés, ou utilisant de
+l’énergie alternative au bois,
+Au moins 600 000 plants forestiers
+ Promouvoir les techniques
+sont produits et mis sous terre, améliorées de fabrication de La surface forestière préservée Rapports d‘évaluation des
+charbons de bois, grâce à réduction de la services forestières,
+60 alambics fonctionnent aux foyers consommation du bois énergie,
+améliorés Photographies aériennes
+ Promouvoir les énergies
+Nombre de charbonniers qui
+alternatives au bois pour les unités
+25 Les charbonniers sont formés et pratiquent les techniques Rapports de formation
+de distillation d’ylang-ylang
+équipés améliorées de carbonisation de
+notamment le biogaz en cours
+bois,
+d’expérimentation
+40% des ménages sont équipés en
+foyers améliorés % du charbon produit à partir des
+ Promouvoir des activités
+techniques améliorées de Enquête de terrain
+alternatives pour les charbonniers
+carbonisation,
+et les bûcherons des villages les
+plus touchés par la déforestation
+28
+
+--- Page 30 ---
+3.3 Des Brigades champêtres sont  Recruter, former et équiper les Nombre de brigades forestières Textes portant création et
+créées pour la surveillance et la gardes forestiers créées et qui sont opérationnelles, recrutement de gardes forestiers
+protection des domaines
+forestiers.
+Rapports d’activités des services
+forestiers
+Une unité de gardes forestières est
+opérationnelle dans chaque île
+4. Protéger les bassins 4.1 les principaux bassins versants  Élaborer des plans d’aménagement Nombre de bassins versants dotés Les plans d’aménagement
+versants et les ressources sont dotés de plans pour les principaux bassins de plans d’aménagement,
+en eau d’aménagement et de gestion versants,
+Surface des terres aménagées Rapports d’activités des services
+ Mettre en œuvre les plans dans les bassins versants agricoles et des services
+6 bassins versants sont dotés de plan
+d’aménagement des bassins forestiers
+d’aménagement et de gestion.
+versants suivant une approche Surfaces des terres reboisées dans
+participative, les bassins versants,
+4.2 les têtes de sources des rivières
+ainsi que les cours d’eau sont  Reboiser les têtes de sources et les Nombre de têtes de sources et de Rapports d’enquêtes de terrain
+reboisés et protégés contre toute berges des rivières avec des mètres linéaires de berges de
+forme de dégradation espèces qui favorisent rivières reboisées,
+l’écoulement, en renforcement de la
+16 têtes de sources sont reboisées et campagne nationale de
+efficacement protégées. reboisement lancée en 2012.
+5. Améliorer, renforcer le 5.1 le statut foncier des terres  Revoir et compléter si nécessaire Nombre de textes législatifs et Le journal officiel
+cadre national de lutte agricoles est clarifié et sécurisé les textes en vigueur relatif au réglementaires relatifs au foncier
+contre la désertification et système foncier qui sont approuvés et promulgués,
+la dégradation des terres 5.2 Les investissements en GDT
+Rapports d’activités des services
+Nombre d’exploitations agricoles agricoles,
+sont sécurisés à travers le
+ Poursuivre le système de sécurisées sur le plan foncier grâce
+système de contractualisation, et
+contractualisation expérimenté au système de contractualisation, Rapports d’enquêtes de terrain,
+la pérennité de l’activité agricole
+dans certains sites, reconnaissant
+est ainsi garantie ; le droit de location des terres Surface des terres agricoles
+agricoles et accordant en même aménagées et mises en valeur
+Une loi sur le foncier est adoptée, et 35 temps un titre foncier aux grâce à l’application du système de
+sites pilotes en matière de sécurisation propriétaires fonciers, sécurisation foncière
+foncière sont mis en place dans les 3
+îles.
+Au moins 150 ha de terres agricoles
+sont aménagés et mis en valeur grâce
+au système de sécurisation foncière
+5.3 le cadre légal relatif à la gestion
+forestière est amélioré et  Revoir et compléter si nécessaire Le nombre de textes d’application Le journal officiel de l’Union des
+le code forestier, élaborer les textes du code forestier qui sont adoptés Comores
+complété,
+d’application, et publiés
+29
+
+--- Page 31 ---
+Tous les décrets d’application du code
+forestier sont adoptés et promulgués
+5.4 un cadre législatif et
+réglementaire relatif à la  Appuyer la mise en place des Nombre de cadastre mis en place Rapport d’enquêtes auprès des
+cadastres au niveau des îles en par les autorités locales, autorités locales,
+désertification et à la GDT est
+vue de faciliter la sécurisation
+créé et appliqué,
+foncière, et les investissements des
+agriculteurs en matière de GDT,
+Une loi relative à la lutte contre la
+désertification et à la Gestion Durable  Préparer un avant projet de loi sur Décret de promulgation de la loi Journal Officiel de l’Union des
+des terres, est adoptée, promulguée et la GDT ou intégrer les aspects liés sur la GDT Comores
+mise en application. à la GDT dans le code forestier,
+6. Renforcer les capacités et 6.1 Le système de collecte des  Acquérir et installer des nouvelles Le nombre des stations Les rapports de réception
+les connaissances données climatiques et stations météorologiques dans le météorologiques installées et
+techniques et scientifiques météorologiques est pays, fonctionnelles,
+en matière de lutte contre sensiblement amélioré,  Appuyer l’organisation de la
+collecte et le traitement des La quantité des données collectées Les bulletins de publication des
+la désertification et la
+données par la direction nationale et traitées, et la fréquence de leur informations climatiques et
+dégradation des terres 10 stations météorologiques
+de la météorologie, diffusion, météorologiques,
+supplémentaires à transmission
+automatique des données sont
+ Appuyer la mise en place d’un
+installées à travers le pays.
+système de suivi de l’évolution du
+climat et d’alerte précoce sur
+phénomènes climatiques,
+ Introduire les notions de
+6.2 Des modules de formation liés à désertification et de GDT dans les Les nouveaux programmes Les manuels des programmes
+la désertification et la gestion cursus de l’École Nationale d’enseignement de l’école d’enseignement de l’école
+durable des terres sont introduits d’Horticulture, et de l’Universités nationale d’horticulture, et de national d’horticulture et de
+des Comores, sections : Sciences l’Université, l’Université des Comores,
+les institutions de formation,
+et Techniques de l’Environnement
+(STE) et Sciences de la vie (SV),
+Le thème « désertification et GDT » est
+introduite dans les curriculums du
+Centre National d’horticulture et de
+l’Université des Comores,
+ Élaborer et appuyer la mise en Le nombre des agents formés et Les manuels de programmes
+6.3 Les cadres et agents techniques œuvre de programmes de recyclés dans le domaine de la élaborés,
+du Ministère de l’agriculture et de formation et de recyclage des lutte contre la désertification et de
+l’environnement sont recyclés agents du Ministère en charge de la dégradation des terres, Les rapports des formations
+dans le domaine de la l’agriculture et de l’environnement réalisées,
+désertification et la gestion
+durable des terres.  Former 50 agents du Ministère de
+la production et de l’environnement
+30
+
+--- Page 32 ---
+50 agents du Ministère de la Production
+(ingénieurs et techniciens supérieurs)
+sont formés ou recyclés sur la  Créer un système de collecte et de
+thématique « désertification et GDT » vulgarisation des informations La quantité des données collectées Rapport d’activités des services
+relatives à l’évolution de l’état des et traitées, de l’agriculture,
+6.4 Les terres dégradées sont terres agricoles aux Comores,
+recensées et cartographiées et % des terres dégradées
+leur évolution est régulièrement  Intégrer les données collectées répertoriées dans la base de La base de données SIG
+dans une base de données SIG et données,
+suivie
+les traiter
+Surface des terres agricoles
+70% au moins des terres dégradées
+ Mettre en place un système de dégradées dont l’évolution est Les publications sur l’évolution
+sont recensées et répertoriées dans
+suivi de l’évolution des terres régulièrement suivie, des terres dégradées,
+une base de données SIG, et leur
+dégradées,
+évolution est suivie par un service
+qualifié en la matière.
+7. Mobiliser des ressources 7.1 La stratégie nationale de  Finaliser et faire valider une Le document de stratégie nationale le rapport sur le bilan annuel du
+financières durables en mobilisation de ressources est stratégie nationale de mobilisation de mobilisation des ressources Ministère en charge de
+faveur de la Gestion finalisée et mise en œuvre, de fonds en faveur de la gestion finalisé, l’environnement
+Durable des Terres et de la durable des terres et de lutte contre
+désertification Le montant total des fonds
+lutte contre la
+ Mettre en œuvre la stratégie mobilisés pour la lutte contre la les conventions de financement
+désertification
+nationale de mobilisation de désertification signées,
+ressources,
+le document final de la SCA2D
+7.2 Les questions liées à la  Faire intégrer les principaux Le nombre de projets de GDT et de
+désertification et à la dégradation objectifs du PAN/LCD dans la lutte contre la désertification
+des terres sont prises en compte stratégie nationale de financés à travers la SCA2D
+dans les stratégies et politiques développement durable en cours
+d’élaboration, ainsi que dans les
+nationales de développement
+programmes de mise en œuvre qui
+agricole et de gestion durable
+en découleront
+des ressources naturelles.
+Les actions proposées dans le présent
+Pan sont intégrées dans la SCA2D
+31
+
+--- Page 33 ---
+5.2 Liens entre le PAN/LCD et le Plan-Cadre Stratégique de la CLD
+Le tableau ci-dessous indique les liens entre les objectifs et les résultats énoncés dans le Plan National d’action et les Objectifs Opérationnels
+(OP) du plan cadre stratégique décennal de la CLD.
+Objectifs et Résultats attendus du PAN/LCD Comores Objectifs opérationnels et résultats escomptés du plan cadre stratégique
+décennal de la CLD.
+Objectif 1 : Informer, éduquer, sensibiliser les acteurs nationaux et internationaux OP 1 : La mise en place d’actions de plaidoyer, de sensibilisation et d’éducation, qui
+permettront d’influer sur les mécanismes et les acteurs locaux, nationaux et internationaux
+Résultats attendus : compétents.
+Les principaux acteurs nationaux y compris les décideurs politiques sont informés et Résultats escomptés :
+sensibilisés sur les questions liées à la désertification et la dégradation des terres aux Les principaux groupes d’intérêts sont efficacement informés des problèmes liés à la désertification et
+Comores des synergies entre ces problèmes et ceux traités par les autres conventions de Rio, au niveau local,
+national et international.
+Les thèmes de la désertification, la dégradation des terres, la sécheresse et de
+l’agriculture durable sont introduites dans le cursus scolaire Les enjeux liés à la gestion durable des terres sont abordés au sein des enceintes internationales
+pertinentes.
+Les partenaires internationaux sont informés et sensibilisés sur la problématique de la
+dégradation des terres aux Comores Les organisations de la société civile et la communauté scientifique du Nord et du Sud sont de plus en
+plus largement associées en tant que parties prenantes aux activités liées à la Convention
+Objectif 2 : Restaurer les terres dégradées et lutter contre l’érosion des sols, en OP 2 : L’élaboration d’un cadre d’action qui œuvre à la création d’un climat général favorable à
+vue d’augmenter la productivité agricole la recherche de solutions pour combattre la désertification, la dégradation des terres et
+atténuer les effets de la sécheresse.
+Résultats attendus :
+Résultats escomptés :
+Les techniques de DRS sont généralisées sur toutes les terres en pente en particulier
+celles faisant plus de 20% Les différents facteurs conduisant à la dégradation des terres et à la désertification sont évalués et des
+mesures appropriées sont recommandées en vue de les supprimer.
+Les techniques d’embocagement et de restauration de la fertilité sont bien maitrisées par
+les paysans Des mesures créant une synergie entre les programmes d’action contre la dégradation des terres et la
+désertification et les initiatives en faveur de la préservation de la biodiversité, de l’atténuation des
+Les techniques d’agroforesterie sont développées dans les périphéries des domaines changements climatiques et de l’adaptation à ces changements sont mises en place ou renforcées.
+forestiers
+Les structures chargées de l’encadrement agricole et du pilotage des actions sur le terrain
+sont renforcées et opérationnalisées,
+32
+
+--- Page 34 ---
+Objectif 3 : Promouvoir une gestion durable et participative des ressources
+forestières
+Résultats attendus :
+Les reliques forestières sont protégées et valorisés,
+La pression humaine sur les ressources forestières ligneuses est réduite
+Objectif 4 : Protéger les bassins versants et les ressources en eau
+Résultats attendus :
+Les principaux bassins versants sont dotés de plans d’aménagement et de gestion
+Les têtes de sources des rivières et cours d’eau sont reboisés et protégées contre toute
+forme de dégradation
+Objectif 5: Améliorer, renforcer le cadre national de lutte contre la désertification et
+la dégradation des terres
+Résultats attendus :
+Le statut foncier des terres agricoles est clarifié et sécurisé
+Les investissements en GDT sont sécurisés à travers le système de contractualisation, et
+la pérennité de l’activité agricole est ainsi garantie
+Le cadre légal relatif à la gestion forestière est amélioré et complété,
+Un cadre législatif relatif à la désertification et à la GDT est créé et appliqué,
+Objectif 6 : Renforcer les capacités et les connaissances techniques et scientifiques OP 3 : Le renforcement des connaissances, de l’expertise scientifique et technologique.
+en matière de lutte contre la désertification et la dégradation des terres
+Résultats escomptés :
+Résultats attendus :
+Un soutien est apporté pour le suivi national des conditions biophysiques et socioéconomiques et pour
+Le système de collecte des données climatiques et météorologiques, est sensiblement l’analyse de la vulnérabilité correspondante dans les pays touchés.
+amélioré,
+Une base de références sur l’évolution des conditions biophysiques et socioéconomiques est
+Des modules de formation liés à la désertification et la gestion durable des terres sont constituée, et les approches scientifiques en la matière sont peu à peu harmonisées.
+introduits à l’Université et dans les institutions de formation,
+Les facteurs biophysiques et socioéconomiques et leurs interactions sont mieux connus, permettant
+Les cadres et agents techniques du Ministère de l’agriculture et de l’environnement, sont ainsi d’améliorer le processus décisionnel.
+recyclés dans le domaine de la désertification et la gestion durable des terres.
+33
+
+--- Page 35 ---
+Les interactions entre l’adaptation aux changements climatiques, l’atténuation de la sécheresse et la
+Les terres dégradées sont recensées et cartographiées et leur évolution est remise en état des terres dégradées dans les zones touchées sont mieux appréhendées, ce qui
+régulièrement suivie permet de mettre au point des outils d’aide à la décision.
+Des mécanismes efficaces de partage des connaissances sont en place à tous les niveaux
+d’intervention afin de mettre en commun les meilleures pratiques.
+Les réseaux et établissements scientifiques et technologiques compétents sont invités à apporter leur
+soutien pour la mise en œuvre de la convention.
+OP 4 : Le renforcement des capacités pour prévenir et enrayer la désertification et la
+dégradation des terres, et les effets néfastes de la sécheresse.
+Résultats escomptés :
+Les pays ayant procédé à l’auto-évaluation de leurs capacités nationales exécutent les plans d’action
+qui en résultent afin de mettre en place tous les moyens nécessaires pour lutter contre la
+désertification des terres et la sécheresse aux niveaux local et national.
+Les pays qui n’ont pas procédé à cette évaluation le font afin de déterminer les moyens nécessaires
+pour lutter contre la désertification des terres et la sécheresse aux niveaux local et national.
+Objectif 7 : Mobiliser des ressources financières durables en faveur de la Gestion OP 5 : L’accroissement des ressources financières et technologiques aux niveaux national,
+Durable des Terres et de la lutte contre la désertification bilatéral et multilatéral, et l’amélioration de leurs impacts.
+Résultats attendus : Résultats escomptés :
+Les pays touchés mettent en œuvre des cadres d’investissement intégrés visant à mobiliser des
+La stratégie nationale de mobilisation de ressources est finalisée et mise en œuvre, ressources nationales, bilatérales et multilatérales pour accroître l’efficacité et l’impact des
+interventions.
+Les questions liées à la désertification et à la dégradation des terres sont prises en
+compte dans les stratégies et politiques nationales de développement agricole et de Les pays Parties développés fournissent des ressources financières importantes, adéquates,
+gestion durable des ressources naturelles. prévisibles et en temps voulu pour appuyer les initiatives internes.
+Les Parties augmentent leurs efforts pour mobiliser des ressources financières autour des institutions
+financières, des mécanismes et des fonds internationaux compétents.
+OP 2 :
+Les pays touchés transforment leur Plan d’action national (PAN) en un document stratégique fondé
+sur des données de références biophysiques et socioéconomiques et y incorporent des cadres
+d’investissement intégrés.
+Les Parties intègrent leur PAN dans leurs plans de développement et autres politiques pertinentes.
+Les Parties introduisent les objectifs de la Convention dans leurs programmes et projets de
+coopération pour le développement et appuient les plans sectoriels et d’investissements nationaux.
+34
+
+--- Page 36 ---
+On constate ainsi que les objectifs du PAN/LCD décrits ci-dessus, sont pour l’essentiel, en ligne avec les objectifs opérationnels du Plan Cadre
+Stratégique Décennal de la Convention pour la Lutte contre la Désertification. Et de surcroit, les résultats attendus de ce PAN vont contribuer
+effectivement à atteindre les Objectifs Opérationnels du Plan Cadre Stratégique de la Convention de lutte contre la dégradation.
+35
+
+--- Page 37 ---
+5.3 Les priorités géographiques et thématiques de la mise en œuvre du PAN/LCD
+Les activités énoncées dans ce PAN seront réalisées en priorité dans les zones les plus
+touchées par les phénomènes de la sécheresse, la désertification et la dégradation des
+terres comme cela est décrit au paragraphe 4.4 ci-haut et indiqué dans les cartes de
+localisation des zones arides, insérées dans les pages 23, 24 et 25 . Il s’agit précisément
+des régions suivantes :
+Pour l’île de la Grande Comore :
+La région de Ouellah–Mitsamihouli et de M’boinkou dans le Nord ; la plaine côtière à cheval
+entre M’boudé et Hamanvou ; Au Nord-Ouest, les régions de Bouni et au Sud de M’béni
+dans le Hamahamet ; Les hauts d’Itsandra et de Oichili ; Au centre, les hauts de Vouvouni
+sur le flanc Ouest du Kartala et les hauts de Dimani et de Domba sur le flanc Est, la zone de
+Singani au Sud Ouest ; les hauts d’Ouzioini et de Simamboini et la plaine côtière de Malé à
+Foumbouni dans le Sud Est.
+Pour l’île de Mohéli :
+La priorité se situe sur la plaine côtière du Nord qui couvre Fomboni, M’batsé, jusqu’à
+Domoni. Mais aussi dans la région Sud- Est couvrant Itsamia et Hagnamoida.
+Pour l’île d’Anjouan :
+La priorité se situe dans la région de Maraharé et toute la région du Nord-Est couvrant la
+presqu’île de Jimlimé à partir de Bambao Mtsanga-Hajoho, mais aussi au Sud dans la région
+de Dziani.
+5.4 Les principaux acteurs et parties prenantes à l’élaboration, à la mise en œuvre du
+PAN
+Trois groupes d’acteurs sont parties prenantes à l’élaboration, à la mise en ouvre et au suivi
+de la mise en œuvre du présent PAN. (1) les institutions étatiques, (2) les organisations de la
+société civile incluant le secteur privé, les communautés paysannes, et (3) les partenaires
+techniques et financiers.
+Au niveau des institutions étatiques:
+La mise en œuvre de la Convention des Nations Unies pour la lutte contre la désertification,
+est assurée par le Ministère en charge de l’agriculture, de la pêche et de l’environnement.
+Celui-ci comprend, en son sein la Direction Générale de l’Environnement et des Forêts
+(DGEF), la Direction Nationale des Stratégies Agricoles et de l’Élevage (DNSAE) et les
+Centres Ruraux de Développement Économiques (CRDE).
+La DGEF est le département en charge de l’élaboration et de la mise en œuvre des
+politiques environnementales et forestières aux Comores. Elle est chargée de l’élaboration et
+du suivi de la mise en œuvre du présent Plan d’Action. A ce titre elle prendra toutes les
+initiatives relatives à la préparation et à la mise en œuvre des activités sur le terrain. Elle
+pilotera les réalisations de terrain ainsi que les actions de suivi et d’évaluation, sous la
+direction du service planification et suivi évaluation du Ministère.
+36
+
+--- Page 38 ---
+La DNSAE est en charge de la mise en œuvre des politiques et stratégies liées à
+l’agriculture et à la sécurité alimentaire. Elle sera donc pleinement associée à la mise en
+œuvre des programmes relatifs à la gestion durable des terres et des ressources forestières.
+Elle sera sollicitée notamment pour la fourniture des données et la préparation des dossiers
+techniques. Elle sera aussi impliquée à la mise en œuvre des projets sur le terrain.
+Les CRDE sont les structures décentralisées chargées de l’encadrement agricole et de
+l’appui aux activités de développement économique en milieu rural. Dans les régions où ils
+sont opérationnels, ils seront chargés partiellement ou entièrement de la mise en œuvre des
+activités relatives à la gestion durable des terres.
+D’autres institutions sont également parties prenantes à l’élaboration et/ou à la mise en
+œuvre de ce PAN/LCD des Comores :
+ L’Agence Nationale de l’Aviation Civile et de la Météorologie (ANACM). Elle est en
+charge de la collecte et de la diffusion des données météorologiques nationales.
+ Le Commissariat Général au Plan. C’est l’institution en charge de l’élaboration et du suivi
+de la mise en œuvre de la Stratégie Nationale de Développement.
+ La Commission Nationale de Développement Durable (CNDD). C’est une structure en
+cours de développement, et qui a comme mission de piloter, et coordonner toutes les
+actions relatives au développement durable. Elle est relayée dans chaque île autonome
+par une Commission Insulaire de Développement Durable (CIDD).
+ L’Université des Comores, les centres de formations agricoles, et les institutions de
+recherche. Ceux-ci seront impliqués dans toutes les actions de formation et de recherche
+scientifiques liées à la gestion durable des terres et à la préservation des écosystèmes
+forestiers en général.
+ L’Armée Nationale de Développement (AND). Elle prend part régulièrement aux
+initiatives de reboisement et de protection des écosystèmes et des espèces menacées.
+ Les services d’agriculture et de l’environnement des îles autonomes. Ils seront
+pleinement associés à la mise en œuvre des activités programmées pour leurs îles
+respectives.
+Au niveau des organisations de la société civile :
+Les principales parties prenantes sont :
+ L’Union des Chambres de Commerce, d’Industrie et d’Agriculture (UCCIA). Elle peut
+jouer un rôle capital dans les actions d’information et de sensibilisation des acteurs, ainsi
+que sur le renforcement des capacités des agriculteurs.
+ Les organisations professionnelles agricoles (SNAC, FNAC, FNAC-FA, les associations
+de distillateurs d’ylang-ylang…). Ce sont les principaux bénéficiaires cibles pour tout ce
+qui touche à la dégradation des terres.
+ Les ONG œuvrant en faveur du développement rural ou de la protection de la nature.
+Elles participeront aux actions de sensibilisation et de mobilisation des acteurs, mais
+aussi à la mise en œuvre des programmes en qualité de prestataires de services.
+D’une manière générale, tous ces acteurs cités-dessus, sont des bénéficiaires potentiels des
+futures actions à réaliser dans le cadre de la mise en œuvre du PAN/LCD. A ce titre ils
+37
+
+--- Page 39 ---
+seront tous plus ou moins associés à l’élaboration des programmes et au suivi/évaluation
+des réalisations sur le terrain.
+Au niveau des partenaires extérieurs:
+Les principaux partenaires techniques et financiers des Comores ont été associés au
+processus de validation du présent document. Il s’agit principalement du PNUD/GEF qui
+intervient régulièrement dans le domaine de l’environnement et du développement durable.
+Mais d’autres partenaires des Comores y seront également impliqués : le FIDA, la FAO, La
+Banque Mondiale, l’Union Européenne, la Banque Africaine de Développement, la Banque
+Islamique de Développement, ainsi que les agences de coopération bilatérale telles que
+l’AFD et la JICA. Toutes ces institutions seront sollicitées pour accompagner techniquement
+et financièrement la mise en œuvre de ce Plan National d’Action. Aussi, la mise en œuvre
+tiendra compte des actions prévues ou en cours de réalisation dans le cadre des
+programmes régionaux pilotés par la COI ou le COMESA entre autres.
+5.5 Synergies avec les autres conventions environnementales
+Les Comores ont ratifié au moins 15 conventions internationales relatives à l’environnement,
+parmi lesquelles la Convention sur la Diversité Biologique, le Protocole de Cartagena, la
+Convention cadre des Nations Unies sur le Changement Climatique, le protocole de Kyoto,
+et la convention de Ramsar sur les zones humides d’importance internationale.
+Dans le cadre de la mise en œuvre de la Convention sur les Changements climatiques, le
+pays a élaboré un Plan d’Action National d’Adaptation aux changements climatiques (PANA)
+adopté en 2006. Il a par ailleurs validé sa deuxième communication nationale sur les
+changements climatiques en avril 2013. Il a aussi réalisé une étude de vulnérabilité aux
+changements climatiques, validée en mars 2011 et, un cadre stratégique de programmation
+pour les changements climatiques et l’environnement naturel couvrant la période 2011-2016.
+Le PANA indique que « les pluies intenses, les saisons sèches marquées et les
+températures élevées provoquent le décapage des sols, des fentes de retrait dans les sols
+argileux et des éboulements, à l’origine de la dégradation de 65.335 hectares de terre, soit
+(57,5%) de la superficie agricole totale ». De ce fait, l’agriculture demeure le secteur le plus
+exposé au risque climatique dans l’archipel. Il précise en outre que les petits agriculteurs
+constituent le groupe le plus vulnérable aux changements climatiques avec un risque évalué
+à 71%. Toujours d’après ce document, les principaux impacts socio-économiques sur
+l’agriculture et la forêt sont : (1) les sécheresses aigues entrainant des pénuries précoces et
+prolongées en eau ; (2) la dégradation des terres cultivables ; (3) la baisse de la production
+de certaines cultures ; (4) l’augmentation de l’insécurité alimentaire ; (5) la baisse des
+revenus agricoles ; (6) l’augmentation du chômage et de la précarité, notamment chez les
+jeunes. Par conséquent le PANA préconise les mesures d’adaptation suivantes concernant
+l’agriculture, la forêt et les ressources en eau. (1) Restaurer les bassins versants et les forêts
+dégradées , réduire les déficits de recharge des nappes phréatiques, (2) Appuyer la création
+de systèmes agro forestiers mixte permettant de réduire la pression de l'agriculture sur des
+terres forestières, d'exploiter les terres abandonnées et de diversifier les revenus de la
+population locale.
+38
+
+--- Page 40 ---
+La Deuxième Communication Nationale sur les changements climatiques, indique pour sa
+part que l’Agriculture aux Comores est menacée par l’augmentation de la température et une
+diminution continue des précipitations (de l’ordre de 0,5 mm par an). Ce qui entraine une
+baisse de l’écoulement des rivières, mais également une augmentation de l’évaporation de
+l’eau et de la transpiration des plantes et, d’une manière générale, une diminution de l’eau
+disponible pour l’agriculture en particulier dans les zones arides et semi-arides. Le rapport
+indique en outre que la couverture forestière diminue à un rythme de 500 hectares environ
+par an (-4,3%), entrainant une disparition d’habitats et de nombreuses espèces animales et
+végétales, une raréfaction du bois-énergie et du bois d’œuvre, une perturbation du cycle
+hydrologique et une augmentation du ruissellement qui favorisent les inondations et l’érosion
+des sols, situations aggravées par la pénétration anarchique de l’agriculture dans la forêt et
+par des régimes de pluie de plus en plus intense..
+L’étude de vulnérabilité aux changements climatiques confirme qu’aux Comores l’agriculture
+est fortement tributaire des aléas du climat et que les changements sensibles de
+température et des précipitations ainsi que et l’élévation du niveau de la mer vont avoir des
+répercussions négatives sur la production agricole. L’étude a indiqué par ailleurs que
+l’agroforesterie traditionnelle était un agro système stable qui offrait une certaine résilience
+aux changements climatiques, par la diversité des cultures qui la composent, mélangeant
+des cultures annuelles et des cultures pérennes sous une couverture arborée. En effet, la
+présence d’une couverture arborée conserve un microclimat qui tempère les écarts de
+température, tandis que le sol couvert toute l’année reste protégé du phénomène d’érosion
+hydrique, alors que la diversité des cultures associées augmente la sécurité alimentaire des
+agriculteurs.
+Le Cadre Stratégique de Programmation rappelle qu’au niveau de l’agriculture et des forêts
+la problématique des changements climatiques se traduit notamment par : « la destruction
+des sols par dessiccation, l’érosion et la salinisation, mais aussi par le déficit hydrique et
+l’élévation de la température ; la perturbation du calendrier agricole ; la diminution des
+rendements agricoles et, la disparition et la migration de la faune et la flore associées en
+raison de la variabilité des microclimats ». Le rapport a mis en relief également « la
+dégradation des terres, accélérée par la variabilité du climat, participant à la disparition des
+forêts ; la diminution du niveau des nappes phréatiques et l’augmentation de leur taux de
+salinité; sans oublier l’érosion et les glissements des terrains ainsi que le tarissement de
+plusieurs sources d’eau ».
+Dans le cadre de la mise en œuvre de la Convention sur la Diversité Biologique, le pays a
+élaboré et adopté une Stratégie Nationale et un Plan d’Action pour la conservation de
+diversité biologique. Le document, qui a été élaboré en 2000, est actuellement en cours de
+mise à jour. L’un des principaux objectifs de cette Stratégie est d’assurer que les
+préoccupations de conservation de la diversité biologique et de gestion durable soient
+intégrées dans la conception des politiques et plans d’action sectoriels du pays. Mais la
+stratégie vise aussi à :
+ Sensibiliser, motiver et impliquer les populations et les utilisateurs des ressources dans
+la gestion des ressources (Objectif 7 du thème 2 de la stratégie)
+ Assurer la stabilité et la sécurité du système d’occupation des terres (objectif 8 du thème
+2 de la stratégie)
+39
+
+--- Page 41 ---
+ Réduire la pression sur les espèces et les ressources endémiques, rares ou vulnérables,
+et celles dont l’exploitation n’est pas durable ou dont on suspecte la surexploitation
+(objectif 2 du thème 4 de la stratégie)
+ Restaurer les écosystèmes dégradés et favoriser la reconstitution des espèces
+menacées (objectif 3 du thème 4 de la stratégie).
+En définitif, ces documents cités ci-dessus sont en parfaite cohérence avec les principaux
+objectifs de ce Plan d’Action National de Lutte contre la désertification et la dégradation des
+terres, plus précisément avec les objectifs 1, 2, 3, 4 et 5 qui visent respectivement à :
+« Informer, éduquer, sensibiliser les acteurs nationaux et internationaux », « Restaurer les
+terres dégradées et lutter contre l’érosion des sols, en vue d’augmenter la productivité
+agricole », « Promouvoir une gestion durable et participative des ressources forestières »,
+« Protéger les bassins versants et les ressources en eau », et « Améliorer et renforcer le
+cadre national de lutte contre la désertification et la dégradation des terres ». Ce qui prouve
+l’existence d’une bonne synergie entre ce Plan d’Action qui concrétise la mise en œuvre de
+la Convention des Nations Unies pour la lutte contre la désertification et les activités
+préconisées dans le cadre de la mise en œuvre des deux autres conventions de Rio
+(Biodiversité et Changements climatiques).
+5.6 Passerelles avec les autres processus politiques
+Depuis 2003, l’Union des Comores est dotée d’un document de Stratégie de Croissance et
+de Réduction de la Pauvreté (SCRP). C’est le document fédérateur de toutes les politiques
+sectorielles du pays. Il indique que pour réduire significativement la pauvreté aux Comores, il
+faut développer et accroître la productivité des secteurs porteurs de croissance, à savoir :
+l’agriculture, l’élevage, la pêche et le tourisme. La version en vigueur qui couvre la période
+2010-2014 comprend 6 axes stratégiques dont l’axe stratégique 2 relatif au renforcement
+des secteurs porteurs de croissance. Celui-ci préconise notamment le renforcement de la
+sécurité du patrimoine foncier et l’appui à la création d’un environnement favorable au
+développement du secteur agricole. Quant à l’axe stratégique 6, il porte sur la durabilité de
+l’environnement et la sureté civile, orienté vers la conservation de la biodiversité et le partage
+équitable des avantages et la conservation et la valorisation de l’agro biodiversité, et
+l’adaptation au changement climatique. A partir de 2015 un nouveau document de stratégie,
+baptisé « Stratégie de Croissance Accélérée et de Développement Durable (SCADD) entrera
+en vigueur pour une période de 5 ans. Cette nouvelle stratégie sera basée sur les nouvelles
+orientations du gouvernement qui s’est engagé à « placer le pays sur une trajectoire de
+croissance durable et de développement vert, résilient au climat et sobre en émission de
+carbone et compatible avec les objectifs de conservation de la biodiversité et de gestion
+durable des ressources naturelles » (Manifeste d’Itsandra). Mais le pays dispose également des
+documents de politiques et stratégies sectorielles relatifs à la gestion durable des ressources
+naturelles et au développement agricole. On peut citer notamment:
+Une politique et un plan d’action environnemental (PAE), élaborés et approuvés en 1994. Le
+principe de base qui sous tend la politique environnementale du pays est « l’intégration de la
+dimension environnementale dans la politique sociale et économique du pays ». Et ce, en
+visant principalement deux objectifs : (1) Assurer une gestion durable et rationnelle des
+ressources, (2) Définir ou renforcer les politiques sectorielles. Et cela en promouvant une
+agriculture économiquement et écologiquement viable, la conservation et la reconstitution du
+40
+
+--- Page 42 ---
+patrimoine forestier. Pour la mise en œuvre de cette politique, le PAE préconise plusieurs
+axes d’intervention dont :
+ La mise en place d’une reforme foncière, comme préalable essentiel à I’ ensemble des
+programmes de développement du pays, y compris l’agriculture, la forêt, le
+développement urbain et les aires protégées.
+ La promotion des foyers améliorés comme solutions alternatives pouvant alléger la
+pression exercée sur les ressources ligneuses,
+ La gestion rationnelle des ressources en eau notamment par la restauration et la
+conservation des aquifères et des rivières et le développement des reboisements
+associés ou non à des projets agricoles.
+Une politique forestière et un plan d’action de développement forestier, adoptés en 2011.
+Parmi les objectifs visés par la politique forestière, on peut noter (1) « L’amélioration des
+connaissances sur le patrimoine forestier et sa délimitation permettant la mise en place des
+plans d’aménagement, la gestion durable et la conservation des ressources naturelles », (2)
+« La conservation et la gestion durable et participative des ressources forestières afin de
+satisfaire les besoins des populations et des industries en produits forestiers tout en
+améliorant leur valeur ajoutée ». Quant au Plan d’action de développement forestier, il a
+comme principal objectif ; concrétiser la mise en œuvre de la politique forestière, en
+intervenant dans plusieurs domaines dont (1) l’aménagement des bassins versants, (2) La
+promotion et la mise en œuvre d’un programme national de reboisement, (3) Le
+développement des foresteries villageoises, (4) La sauvegarde des forêts et des terres
+boisées par une meilleure économie de bois d’énergie.
+Une stratégie nationale agricole, adoptée en 1994 et révisée en 2001. Elle vise comme
+objectif global l’augmentation des revenus des petits exploitants dans le cadre de la lutte
+contre la pauvreté. Sa mise en œuvre se fait à travers 6 objectifs spécifiques dont l’objectif
+4 : « créer un environnement propice au développement de l’agriculture » qui inclut la
+réforme foncière, et l’objectif 5 : « sauvegarder les ressources naturelles » qui comprend les
+aspects liés à l’utilisation durable des ressources productives y compris la gestion de la
+fertilité des sols et la lutte contre la dégradation des terres.
+Une note de politique sectorielle agricole validée techniquement en 2013. Elle indique parmi
+les contraintes majeures au développement du secteur agricole ; la superficie restreinte des
+terres arables, le manque d’appui technique et d’application des Bonnes Pratiques Agricoles
+(BPA), et une pression sur les ressources forestières. Et que cela se traduit par une
+dégradation du couvert forestier, un assèchement des cours d’eau, une accélération de
+l’érosion des sols ainsi que par des ravinements et d’assèchement des terres, entre autres.
+Pour y remédier, la note préconise notamment d’augmenter la productivité par l’amélioration
+de la fertilité des sols et la lutte contre la dégradation des terres. Et cela par (i) la promotion
+du système intégré agriculture/élevage (par exemple l’épandage de compost amélioré et de
+fumure); (ii) la collecte des eaux de pluie au bénéfice de l’agriculture et; (iii) le
+développement des techniques d’agroforesterie surtout sur les plus grandes parcelles.
+De plus, une étude sur l’actualisation de la politique agricole et la formulation d’une stratégie
+à court et moyen terme pour lutter durablement contre l’insécurité alimentaire vient d’être
+réalisée (sur financement de l’Union Européenne) et le rapport provisoire de la version finale
+41
+
+--- Page 43 ---
+est en cours de validation. Celle-ci conforte et fédère les politiques et stratégies antérieures
+portant sur les questions relatives aux domaines Agriculture et Développement Durable.
+Un Cadre de Programmation Pays (CPP) Comores, qui est en cours de validation par les
+autorités nationales et la FAO. C’est le document qui détermine les domaines d’interventions
+de la FAO aux Comores sur une période de 6 ans (2014-2019). Il Comprend deux domaines
+d’interventions: (1) « Intensification, diversification et commercialisation des produits
+agricoles », en développant une agriculture performante et diversifiée, capable d’améliorer
+les revenus des producteurs et contribuer significativement à la sécurité alimentaire et
+nutritionnelle des populations, et (2) « Gouvernance et gestion durable des ressources
+naturelles dans les secteurs de la forêt et de l’agroforesterie » incluant l’utilisation durable
+des terres, la protection des bassins versants, la lutte contre l’érosion des sols et la
+préservation des ressources en eau.
+Par ailleurs, les Comores ont pris part à l’élaboration de la stratégie régionale de mobilisation
+des ressources financières pour la gestion durable des terres dans les pays de la
+commission de l’océan indien (COI). Celle-ci a identifié pour l’espace COI, les domaines
+d’interventions et les activités prioritaires suivantes en matière de GDT.
+Dans le domaine de l’agriculture :
+Réhabilitation des terres dégradées (Lutte contre l’érosion, lixiviation etc.) et politique et
+réglementation foncières ;
+Dans le domaine de la forêt :
+Plans de gestion durable des forêts et de leurs biodiversités, gestion des feux et gestion des
+plantes envahissantes ;
+Dans le domaine de l’eau :
+Protection des bassins versants et de leurs biodiversités, gestion intégrée des ressources en
+eau, lutte contre la salinisation des sols avec notamment la réhabilitation des mangroves.
+Il ressort ainsi que les politiques et les stratégies énoncées plus haut, sont en parfaite
+cohérence avec la plupart des objectifs de mise en œuvre du Plan d’Action National décrits
+au paragraphe 5. Elles sont en particulier en ligne avec les objectifs : (2) relatif à la
+restauration des terres dégradées et à la lutte contre l’érosion des sols, (3) relatif à la gestion
+durable et participative des ressources forestières, (4) portant sur la protection des bassins
+versants et des ressources en eau, et (5) relatif à l’amélioration du cadre national de lutte
+contre la désertification et la dégradation des terres.
+42
+
+--- Page 44 ---
+Colline entièrement érodée, à Jimlimé Anjouan, 2011. Cliché Assane Mahamoudou
+43
+
+--- Page 45 ---
+6 Financement et Mise en œuvre
+6.4 Les besoins en financement
+Le présent Plan d’Action est élaboré pour une période de 10 ans. Les fonds nécessaires
+pour financer sa mise en œuvre sont estimés à 21 millions de dollars EU.
+4 millions $, soit 19%, seront octroyés par le gouvernement comorien dont une partie (1
+million $) sous forme d’expertises nationales et d’exonérations de taxes, et une partie (3
+millions $) sous forme de financement propre provenant du Fonds pour la Gestion de
+l’Environnement (FGE). Le FGE sera en effet rendu opérationnel à partir de 2014. Il sera
+alimenté par des subventions du gouvernement conformément aux textes en vigueur, par
+des amendes qui seront perçues conformément aux dispositions de la loi cadre N° 94-018
+sur l’environnement et par des taxes et redevances pour l’environnement qui seront
+instituées à cet effet. Le Gouvernement prélèvera alors de ce fonds, 300 000 $ EU chaque
+année, pour les allouer au financement du Plan d’Action National de lutte contre la
+désertification.
+12 millions $, soit 57 %, vont être sollicités auprès du FEM avec l’appui du Mécanisme
+Mondial. Ils serviront à financer des programmes directement liées à la Gestion Durable des
+Terres et à la lutte contre la désertification, et
+5 millions $ (24%), seront mobilisés à travers les programmes nationaux et régionaux relatifs
+au développement du secteur agricole et à la protection des ressources naturelles, et qui
+sont financés par les autres partenaires bilatéraux et multilatéraux des Comores.
+Les besoins en financement du PAN/LCD en $ EU, repartis par objectifs et par résultats:
+Objectifs du PAN/LCD Résultat 1 Résultat2 Résultat 3 Résultat4 Total
+/Objectif
+800 000 500 000 250 000 1 550 000
+Informer, éduquer, sensibiliser les acteurs
+nationaux et internationaux
+4 250 000 1 200 000 1 300 000 6 750 000
+Restaurer les terres dégradées et lutter contre
+l’érosion des sols, en vue d’augmenter la
+productivité agricole
+1 500 000 2 000 000 500 000 4 000 000
+Promouvoir une gestion durable et participative des
+ressources forestières
+2 250 000 2 250 000 4 500 000
+Protéger les bassins versants et les ressources en
+eau
+300 000 200 000 200 000 500 000 1 200 000
+Améliorer, renforcer le cadre national de lutte contre
+la désertification et la dégradation des terres
+1 000 000 500 000 600 000 500 000 2 600 000
+Renforcer les capacités et les connaissances
+techniques et scientifiques en matière de lutte
+contre la désertification et la dégradation des terres
+100 000 300 000 400 000
+Mobiliser des ressources financières durables en
+faveur de la Gestion Durable des Terres et de la lutte
+contre la désertification
+Total PAN/LCD: 21 000 000
+44
+
+--- Page 46 ---
+6.5 Mobilisation des ressources
+Le PAN/LCD est aussi un document de plaidoyer pour lever des fonds en faveur de la
+prévention et de la lutte contre la sécheresse et la désertification. Pour ce faire les autorités
+gouvernementales, et plus particulièrement le Ministère en charge de l’agriculture et de
+l’environnement, doivent développer une stratégie nationale de mobilisation des ressources
+qui va servir de guide pratique pour mener à bien cette mission de plaidoyer. Nous livrons ci-
+dessous les éléments de base nécessaires pour élaborer cette stratégie. C’est à dire: (1) une
+identification des ressources potentiellement mobilisables, (2) une analyse SWOT relative à
+la mobilisation de ressources, et (3) les différents acteurs qui seront impliqués à la démarche
+de recherche de fonds.
+6.5.1 Les principales sources potentielles de financement :
+Fonds pour C’est le principal mécanisme de financement pour les trois conventions des
+l’Environnement Mondial Nations Unies issues de la conférence de Rio. Le FEM a déjà financé plusieurs
+(FEM) : projets aux Comores relatifs à la gestion durable des ressources naturelles et à la
+protection des ressources, et le plus souvent à travers le PNUD, le PNUE, ou la
+Banque Mondiale. Pour le cycle 2012-2017, le FEM a une allocation indicative de
+4,78 millions $, dont 2 millions pour les changements climatiques, 2,08 pour la
+biodiversité et 0,7 pour la GDT. (source : GEF Star allocation).
+Financement acquis : 0,7 millions $.
+Le PNUD : C’est un partenaire privilégié des Comores dans le domaine de la gestion durable
+des ressources et de la protection des écosystèmes. Grâce à l’appui du FEM, il a
+récemment cofinancé le projet « Gestion durable des Terres » (1,48 M$)
+clôturé au début 2013. Il cofinance aussi les projets ; « Gestion des ressources en
+eau et adaptation au changement climatique » (3,7 M$), en cours de mise en
+œuvre ; et « Adaptation et résilience du secteur agricole face aux changements
+climatiques » (9 M $), en cours de préparation
+En partenariat avec le PNUE et le FEM, il finance également :
+ un programme de Le micro (Small Grant Programme) portant sur les thèmes
+de la GDT, la biodiversité, la pollution et le changement climatique.
+ Un programme de développement des capacités des Organisations
+Communautaires de Base et la promotion du volontariat en tant que modèle
+d’implication des communautés villageoises pour la réalisation des Objectifs
+du Millénaire pour le Développement (OMD).
+ Un programme de développement des capacités de gestion des risques de
+catastrophes naturelles et climatiques.
+Il est par ailleurs en train de préparer un projet de création d’un réseau d’Aires
+Protégées aux Comores, qui sera financé également par le FEM.
+Financement acquis : 9 millions $.
+La Banque Mondiale C’est un partenaire essentiel dans le secteur du développement rural incluant la
+pêche et l’agriculture. Il a dans le passé, financé d’importants projets lié au
+développement agricole et à la protection des forêts. Elle finance actuellement
+des projets de renforcement des capacités dans la gouvernance économique et
+technique, de réponses aux crises d’urgence, d’appui d’urgence à la sécurité
+alimentaire et au chômage, et de cogestion durable des ressources et des moyens
+de subsistance dans les zones côtières. Elle prépare par ailleurs un projet
+régional de développement des pêches dans la zone du Sud Ouest de l’Océan
+Indien.
+A noter que La BM a une division spécialisée dans le domaine de la finance
+carbone qui peut fournir une assistance dans le calcul de bilan carbone des terres
+agricoles et forestières. Elle participe par ailleurs au financement de l’initiative
+TerrAfrica, qui a pour objectif d’améliorer la GDT dans l’Afrique sub- saharienne,
+et duquel l’Union des Comores a déjà bénéficié des appuis.
+45
+
+--- Page 47 ---
+Financement possible (montant à déterminer) dans la cadre de l’initiative
+TerrAfrica.
+L’AFD/France Elle a récemment financé un Projet de Renforcement et de Diversification des
+filières Agricoles aux Comores, clôturé en juin 2013. Elle appuie également les
+institutions de micro-finances (MECKS et SANDUK) qui octroient de crédits pour
+l’agriculture et le développement rural entre autres.
+Elle finance également des projets de gestion durable des forêts, et
+d’infrastructures pour l’approvisionnement en eau potable. Elle prépare un projet
+d’appui au développement du parc marin de Mohéli dont l’étude est en cours de
+finalisation.
+L’Union Européenne L’UE est partenaire historique des Comores dans le domaine de l’agriculture et le
+développement rural. Elle intervient actuellement dans les secteurs des
+infrastructures routières, de la formation professionnelle, et du renforcement des
+capacités en gouvernance. Elle intervient régulièrement dans le secteur de la
+gestion des ressources naturelles à travers des projets régionaux mis en œuvre
+par la COI. Le Programme indicatif national du 11ème FED pourrait être orienté
+vers le secteur de l’agriculture et la sécurité alimentaire. Elle a signé en faveur
+des Comores, un projet sur le changement climatique d’un montant de 3 millions
+d’euros
+L’UE vient par ailleurs d’allouer 1, 3 milliards d’euros en faveur des pays de
+l’AFOA pour la pêche, les bassins versants et la biodiversité
+Financement possible (montant à déterminer) à travers l’enveloppe A du
+11ème FED.
+Le FIDA Le FIDA finance depuis 2007 un programme intitulé PNDHD qui comprend des
+composantes : gestion durable des ressources naturelles et lutte contre l’érosion
+des sols, ainsi que des actions pilotes sur la gestion foncière. Il appuie aussi
+« l’Initiative Régionale Agro écologie et Changement Climatique » (IRACC) géré
+par la COI. Il pourrait s’engager pour un projet agricole beaucoup plus important
+au bénéfice des Comores, à partir de 2015.
+Financement en cours (montant à évaluer) à travers le programme PNDHD :
+activités de reboisement et d’aménagements antiérosifs.
+Financement possible à travers un autres programme agricole qui est en
+cours d’identification.
+La FAO La FAO a une longue expérience aux Comores dans le secteur de l’agriculture et
+de la forêt incluant des volets relatifs à la gestion de la fertilité et à la lutte contre
+l’érosion des sols. Ces dernières années ses actons ont porté principalement sur
+des missions d’appuis court terme telles que la révision et l’opérationnalisation de
+la stratégie agricole, l’élaboration de la politique et du plan d’action forestier,
+l’élaboration de la loi et de la stratégie nationale des pêches, ainsi que la
+formulation d’une stratégie nationale alimentaire et nutritionnelle.
+Financement probable (montant à déterminer) à travers les programmes qui
+seront identifiés dans le cadre de la mise en œuvre du « Cadre de
+Programmation Pays » FAO/Comores, en cours de finalisation.
+La BAD La BAD a une expérience de financement et de mise en œuvre de projets de
+développement agricole et de protection des écosystèmes terrestres.
+Actuellement elle intervient surtout dans le secteur de l’eau potable et de
+l’assainissement, et du renforcement des capacités pour la gestion des finances
+publiques. Elle envisage également d’intervenir dans le secteur de l’énergie.
+La BID Elle finance un Projet d’intensification, de diversification et de valorisation des
+productions agricoles, qui comporte des volets de fertilisation et de protection des
+sols, en partenariat avec la FAO. Cet engagement de la BID démontre qu’il est
+possible de mobiliser des fonds des institutions arabes et islamiques en faveur de
+l’agriculture et de la gestion durable des terres.
+Financement en cours à travers le « Projet d’intensification, diversification
+et valorisation des productions agricoles” ( budget total 1,5 millions $) qui
+est en cours de mise en œuvre principalement dans l’île de Mohéli.
+46
+
+--- Page 48 ---
+En plus de ces partenaires « classiques », il est recommandé d’explorer les sources de
+financements novateurs telles que :
+ Le Financement lié à l’allégement de la dette :
+C’est un mécanisme de financement novateur qui peut être envisagé en faveur de la GDT
+dans le cadre de l’échange « dette contre nature ». L’Union des Comores est en effet éligible
+à ce type de financement depuis qu’elle a atteint le point d’achèvement de l’initiative en
+faveur des Pays Pauvres Très Endettés (PPTE) en décembre 2012.
+ Le système de mesure compensatoire :
+C’est un système basé sur le principe de compensation prévu dans le décret relatif aux
+Études d’Impacts Environnementaux. Il consiste à demander à l’entreprise ou au promoteur
+d’un projet de « compenser » en quelque sorte les effets négatifs de son t projet sur
+l’environnement à défaut de pouvoir les éviter, les supprimer ou les atténuer. Ces
+compensations peuvent être sous forme de travaux de restauration des milieux ou d’espèces
+par des actions de reboisement par exemple.
+ Le paiement pour les services des écosystèmes
+Le principe consiste à faire payer aux usagers les services environnementaux rendus par les
+écosystèmes naturels afin que ceux-ci puissent continuer à jouer leurs rôles respectifs de
+régulateurs et de pourvoyeur de ressources. On peut imaginer par exemple des paiements
+sous forme de droits d’entrée dans les aires protégées (en cours de mise en place) ou pour
+la séquestration du carbone par les terres forestières et agricoles. Le système n’est pas
+facile à mettre en place mais il est tout à fait envisageable lorsque le réseau national d’aires
+protégées sera fonctionnel.
+ La Responsabilité Sociale des Entreprises
+Il s’agit de demander à chaque entreprise opérant dans le pays de contribuer au financement
+des programmes de GDT en fonction de l’importance des impacts négatifs qu’elle génère sur
+le milieu social et environnemental. La démarche fonctionne assez bien dans des pays où il
+y a une activité industrielle développée. Ce qui n’est pas le cas pour les Comores, mais
+l’expérience dans les autres pays a montré que même les petites entreprises peuvent
+participer à de telles initiatives si elles sont bien informées et sensibilisées, et impliquées en
+toute transparence à la mise en œuvre des actions programmées.
+Il existe en outre, d’autres mécanismes de financements novateurs qui concernent
+spécifiquement les changements climatiques, mais qui peuvent appuyer des activités liées
+directement ou indirectement à la lutte contre la désertification et la dégradation des terres.
+On peut trouver plus de détails sur le site www.climatefundsupdate.org. Mais nous citons ici
+quelques uns de ces mécanismes qui nous semblent les plus indiqués au contexte
+comorien :
+ Réduction des Émissions dues au Déboisement et à la Dégradation des forêts
+(REDD) :
+C’est une initiative mondiale mise en place dans le cadre de la CCNUCC. Elle est fondée sur
+des mesures incitatives qui visent à récompenser la réduction des émissions du CO2 dues
+au déboisement et à la dégradation forestière dans les pays en développement. C’est à dire
+47
+
+--- Page 49 ---
+que plus on se résigne à déboiser plus on est « récompensé » par des financements ciblés
+sur la lutte contre la dégradation forestière.
+ Le fonds pour les pays les moins avancés :
+En tant qu’État faisant partie du groupe des PMA, l’Union des Comores est éligible à ce
+mécanisme, et elle a à cet effet déjà bénéficié au moins 3 financements de projets relatifs à
+l’adaptation aux changements climatiques.
+ Le fonds d’adaptation :
+Comme son nom l’indique c’est un fonds qui finance des projets liés à l’adaptation aux
+changements climatiques. Mais le plus souvent ce sont des projets qui ont des implications
+sur la lutte contre la désertification et la dégradation des terres.
+ Fonds carbone pour l’aide au développement de proximité (CDCF) :
+C’est un fonds qui appuie spécifiquement des projets associant le développement
+communautaire et la séquestration du carbone.
+ Fonds de partenariat pour la réduction des émissions de carbone forestier (FPCF) :
+C’est un fond destiné notamment à assister les pays en développement à se préparer à
+entrer dans le processus de la REDD.
+ Fonds pour la réalisation des OMD :
+C’est un fonds qui soutient les efforts visant à atteindre les Objectifs du Millénaire pour le
+Développement (OMD), plus particulièrement l’OMD7 portant sur l’environnement et les
+changements climatiques.
+On peut ainsi constater que les Comores possèdent d’opportunités importantes de sources
+de financement susceptibles d’être mobilisés en faveur de la lutte contre la désertification et
+la dégradation des terres. Il est à préciser cependant qu’à la date d’aujourd’hui, le pays ne
+remplit pas toutes les conditions requises pour bénéficier des fonds provenant de tous ces
+mécanismes cités ci-haut. Il appartient donc aux autorités compétentes de bien cibler les
+fenêtres où elles peuvent mobiliser des fonds immédiatement, tout en cherchant à améliorer
+les conditions d’éligibilité auprès des autres mécanismes de financement existants. Il faut
+noter par ailleurs que l’Union des Comores comporte aussi des faiblesses et des menaces à
+prendre en compte dans toutes les démarches à entreprendre pour la mobilisation de
+ressources. L’analyse SWOT réalisée à cet effet a donné les résultats suivants :
+6.5.2 Forces, Faiblesses, Opportunités et Menaces:
+Les Forces :
+ L’existence d’une stratégie régionale de mobilisation de ressources pour la gestion
+durable des terres pour les pays de la Commission de l’Océan Indien. C’est un document
+réalisé en 2012 avec l’appui du Mécanisme Mondial, au bénéfice des États membres de
+la COI.
+48
+
+--- Page 50 ---
+ La crédibilité de l’Etat comorien vis-à-vis des partenaires financiers internationaux grâce
+aux mesures d’assainissement des finances publiques engagées ces dernières années
+et au renforcement de la bonne gouvernance à travers notamment la mise en place de:
+(1) la Commission nationale de prévention et de la lutte contre la corruption, (2) la Cour
+suprême de justice avec en son sein une cour des comptes, et (3) l’Autorité de
+Régulation des Marchés Publics (ARMP)
+.
+ L’adoption d’une Stratégie de Croissance et de Réduction de Pauvreté (SCRP 2010-
+2014) qui fixe les priorités nationales en matière de développement socioéconomique,
+ainsi que les investissements à réaliser sur une période de cinq ans. La nouvelle
+stratégie en cours de préparation qui sera baptisée Stratégie de Croissance Accélérée et
+du Développement Durable sera orientée vers l’économie verte et intégrera ainsi
+fortement les aspects environnementaux incluant la problématique de la désertification et
+de la gestion durable des terres.
+ L’adhésion des Comores dans des organisations et conventions régionales et sous
+régionales, au sein desquelles les questions de vulnérabilité, sécheresse, et dégradation
+des terres sont traitées et défendues collectivement auprès des instances
+internationales. On peut citer notamment:
+o La Commission de l’Océan Indien qui a entre autres comme mission de défendre les
+spécificités insulaires de ses pays membres auprès des enceintes internationales,
+o L’Alliance des petits États insulaires (Alliance of Small Islands States (AOIS) qui porte la
+voix des petits états insulaires dans le cadre du changement climatique, et qui est devenu
+un groupe de lobby dans le Groupe 77,
+o Global Island Partnership (GLISPA) qui a la particularité de regrouper les états insulaires
+et les états avec des iles, développés ou en voie de développement. Parmi ses missions :
+assister les îles à relever le défi de protéger et d’utiliser durablement les ressources
+naturelles qui sont leurs principaux moyens de subsistance,
+o Le Marché commun de l'Afrique Orientale et Australe (COMESA) qui est chargé
+notamment de mettre en œuvre le Programme Détaillé pour le Développement de
+l’Agriculture en Afrique (PDDAA) incluant les thématiques : climat, agriculture, forêt,
+utilisation des sols,
+o La Convention de Nairobi qui constitue un cadre privilégié de coopération régionale pour
+la protection de l’environnement côtier et marin des pays d’Afrique orientale.
+ L’existence de stratégies et politiques sectorielles relatives à la protection de
+l’environnement, la gestion durable des ressources forestières et au développement du
+secteur agricole.
+ L’existence d’institutions de micro-finances (Réseaux MECKs et SANDUKs), et de
+structures d’appui à la création d’entreprises en milieu rural (FADC, AMIE), susceptibles
+d’encadrer et de cofinancer des initiatives de développement agricole en cas de
+nécessité.
+ L’émergence d’Organisations Professionnelles Agricoles et d’ONG capables de porter
+des projets de développement agricole ou de protection de ressources naturelles, y
+compris les projets de gestion durable des terres.
+ L’opérationnalisation des services de proximité en milieu rural (les CRDE) susceptibles
+d’assurer l’encadrement des paysans et la mobilisation des acteurs autour de projets
+relatifs à la lutte contre la désertification et la dégradation des terres,
+49
+
+--- Page 51 ---
+ Une diplomatie comorienne très active auprès des pays et institutions financières arabes
+du Moyen Orient, à partir desquels il est possible de lever des fonds importants pour des
+projets de développement agricole et de gestion durable des terres.
+ La réalisation de l’Autoévaluation Nationale des besoins des Capacités à Renforcer pour
+meilleur gestion de l’environnement (ANCAR 2009).
+ Le Ministère en charge de l’agriculture et de la pêche, comprend également les
+départements de l’environnement et les forêts, et l’énergie. Et le Secrétaire Général du
+Ministère est en même temps le point focal opérationnel du FEM aux Comores. Ce qui
+facilite énormément les actions de coordination.
+Les faiblesses :
+ Le niveau des investissements publics dans le domaine de l’agriculture et de la
+protection de l’environnement est très faible. Le budget du Ministère en charge de
+l’Agriculture, de la Pêche, de l’Environnement, de l’Energie, de l’Industrie et de
+l’Artisanat, est d’environ 2% du budget total de l’État. Ce qui est loin des 10% fixés
+par l’UA pour promouvoir la sécurité alimentaire et le développement du secteur rural
+en Afrique.
+ Le tissu économique n’est pas assez développé pour permettre de lever des fonds
+importants à partir du secteur privé.
+ Les capacités des institutions de l’Union et des îles autonomes en matière de
+gestion de l’environnement sont généralement très faibles,
+ La recherche scientifique n’est pas développée en particulier dans le domaine de
+l’agriculture et de l’environnement,
+ La quasi-totalité des investissements du pays est financée par les partenaires
+internationaux car les ressources propres sont très limitées. Ce qui rend le pays très
+dépendant de l’extérieur et ne permet pas une bonne maitrise des décisions
+nationales,
+ Il manque de données environnementales fiables permettant de prendre les bonnes
+décisions au bon moment.
+ Beaucoup de politiques, stratégies ou plans d’actions sectoriels ayant un lien avec la
+GDT et à la désertification ne sont pas mis à jour et/ou n’intègrent pas assez ou pas
+du tout les aspects de mobilisation de ressources.
+Les Opportunités :
+ En décembre 2012, l’Union des Comores a accédé au point d’achèvement de
+l’initiative PPTE. Ce qui lui a permit de bénéficier d’un allègement substantiel de la
+dette, avec des possibilités de mobilisation de fonds pour ses programmes de
+développement, soit sous forme de dons, soit sous forme de prêts à des conditions
+concessionnelles.
+ Les principaux partenaires financiers du pays ont décidé de procéder à un
+alignement temporel de leurs cadres de coopération respectifs avec le cycle de
+programmation de la nouvelle stratégie nationale dont la mise en œuvre démarrera
+en janvier 2015. Ce qui laisse la possibilité aux partenaires qui le souhaitent de se
+positionner éventuellement dans le secteur agricole et de la GDT en fonction des
+priorités qui seront définies au niveau national.
+ Comme décrit plus haut, le pays a la possibilité de mobiliser des ressources
+financières novatrices jusque là non explorées ;
+50
+
+--- Page 52 ---
+ Des groupes de parfumerie tels que Chanel et Givaudan commencent à s’intéresser
+au devenir de la filière Ylang-ylang aux Comores, et notamment à la lutte contre
+déboisement pour la distillation des fleurs. Ce qui permet d’envisager des
+opportunités de financement pour les actions de reforestation et d’aménagement des
+bassins versants.
+ La conférence de donateurs tenue à DOHA en août 2010 a été un succès pour les
+Comores en termes de promesses de dons. Et une grande partie des financements
+annoncés restent encore mobilisables et pourrait être orientée vers le secteur de la
+l’agriculture et de la GDT.
+ Le PDDAA est encore au stade de préparation au niveau des Comores. Son adoption
+pourra générer de financements additionnels pour le secteur agricole incluant la
+GDT.
+Les Menaces :
+Les menaces suivantes sont perceptibles et pourraient ralentir ou empêcher la mobilisation
+de ressources pour financer le CPP Comores.
+ Instabilité politique : le pays a renoué avec la stabilité politique depuis quelques
+années, mais la situation reste encore fragile.
+ Manque de coordination : la faiblesse institutionnelle actuelle notamment en termes
+de coordination, peut décourager les donateurs et contrarier la mobilisation des fonds
+programmés.
+ Dérapage budgétaire : en cas de non respect des mesures budgétaires exigées par
+les institutions financières internationales, celles-ci peuvent imposer des restrictions
+financières qui réduiraient sensiblement les possibilités de mobilisation de fonds à
+court et à moyen terme.
+6.5.3 Les acteurs à impliquer à la mobilisation des ressources:
+La responsabilité de « mobilisation des ressources » relève en premier lieu du Ministère en
+charge de l’agriculture et de l’environnement et, plus précisément, de la Direction Générale
+de l’Environnement et des Forêts (DGEF). Celle-ci aura la charge d’impulser le processus de
+mobilisation et de superviser les actions, en étroite collaboration avec le Commissariat
+Général au Plan, chargé du suivi de la mise en œuvre de la stratégie nationale de
+développement.
+Mais les démarches de mobilisation de ressources doivent impliquer plusieurs acteurs dont
+les principaux sont énumérés ci-dessous avec leurs missions respectives:
+Acteurs Principles missions
+Direction Générale de Initier et impulser le processus de mobilisation de ressources,
+l’Environnement des forêts Élaborer des fiches d’identification de projets à soumettre aux
+donateurs potentiels, en fonction des objectifs et priorités contenus
+dans le PAN,
+Tenir un répertoire de bailleurs de fonds potentiels contenant:
+adresses, personnes de contactes, secteurs prioritaires
+d’intervention,
+Élaborer une stratégie de communication et de plaidoyer,
+Nouer des contactes avec les bailleurs de fonds les plus pertinents et
+engager des actions de plaidoyer auprès d’eux,
+51
+
+--- Page 53 ---
+Direction Nationale des Fournir à la DGEF à chaque fois que c’est nécessaire, toutes les
+Stratégies Agricoles et de informations pertinentes relatives au secteur agricole,
+l’Élevage Contribuer à la conception et à la préparation des fiches
+d’identification de projets,
+Participer à l’exécution et/ou au suivi/évaluation des projets
+Commissariat Général au Veiller à ce que les objectifs du PAN soient pris en compte dans la
+Plan nouvelle stratégie nationale en cours de préparation,
+Intégrer les besoins en financement du PAN dans le Programme
+d’Investissement Public,
+Participer à la campagne de plaidoyer auprès des donateurs
+internationaux,
+Faciliter les contacts entre bailleurs et assurer une bonne
+coordination des différentes interventions sur le terrain,
+Le Bureau du PNUD à Moroni Jouer le rôle de chef de fil des partenaires techniques et financiers
+pour le secteur environnement et gestion durable des terres et, à ce
+titre faciliter les contacts avec les partenaires intervenant dans le
+domaine de l’environnement et la gestion durable des terres, en
+particulier ceux qui appartiennent au système des Nations Unies,
+Fournir à chaque fois que c’est nécessaire, les informations
+pertinentes sur les financements potentiels existantes pour le
+domaine de la désertification et la gestion durable des terres,
+Soutenir la préparation des fiches d’identification et la mise en
+œuvre des projets,
+6.6 Le suivi de la mise en œuvre
+La mise en œuvre de ce PAN/LCD sera faite à travers des projets et programmes qui seront
+placées sous la supervision de la direction générale de l’environnement et des forêts.
+Le suivi et l’évaluation de ces projets sera réalisé par le service Planification, suivi/évaluation
+du Ministère de la production, de l’énergie, de l’environnement de l’industrie et de l’artisanat.
+Ce service aura la charge notamment de planifier et organiser les missions de suivi et
+d’évaluations des actions réalisées sur le terrain.
+Un Plan de suivi et d’évaluation sera élaboré à cet effet et intégré dans le programme de
+suivi du Ministère et harmonisé avec le système de suivi du plan d’action de la Stratégie de
+Croissance et de Réduction de la Pauvreté (SCRP) piloté par le Commissariat Général au
+Plan.
+L’objectif principal du suivi-évaluation sera de mesurer la progression de la mise en œuvre
+des activités prévues dans le PAN ainsi que les résultats obtenus par les différents
+« projet ». Concrètement le suivi-évaluation sera conduit de la façon suivante : (i) visites de
+terrains suivant un calendrier préalablement établi. (ii) collecte de données suivant le
+canevas approuvé par la DGEF, (iii) analyse et traitement des données par le service
+suivi/évaluation, (iv) diffusion des résultats sous forme de rapports, communiqués à
+l’ensemble des parties prenantes y compris le Secrétariat de la CLD. Chaque partie prenante
+sera alors tenue régulièrement informée de l’état d’avancement des réalisations et des
+avancées enregistrées en fonction des effets attendus et des ressources allouées au
+52
+
+--- Page 54 ---
+PAN/LCD. Cela permettra à chaque partie de tirer les enseignements nécessaires et de
+prendre les dispositions qui s’imposent visant à améliorer la mise en œuvre du PAN.
+53
+
+--- Page 55 ---
+6.5. Calendrier indicatif de la mise en œuvre :
+Activités à réaliser: 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 Acteurs et Responsables
+Elaboration, validation du PAN aligné DGEF, Ministère Environnement
+Approbation par le Secrétariat CLD Secrétariat CLD
+Information sensibilisation des Direction Générale de
+autorités et des acteurs nationaux l’Environnement et des forêts
+Sensibilisation du grand public DGEF
+Elaboration des fiches projets DGEF, DNSAE, PNUD
+Plaidoyers auprès des PTF Ministère Environnement, PNUD,
+CGP, DGEF
+Mobilisation des ressources DGEF,
+financières nationales
+Intégration du PAN dans la SCADD CGP, DGEF
+Mobilisation des ressources DGEF, CGP, PTF
+financières internationales
+Mise en oeuvre des activités Unités de Gestion Projets, CRDE,
+ONG
+Evaluation à mi-parcours DGEF, Sce. Planification,
+Consultants indépendants
+Revue et actualisation du PAN DGEF, Consultants indépendants
+Suivi de la mise en oeuvre DGEF, Service Planification,
+Suivi/Evaluation
+Evaluation finale DGEF, Sce. Planification,
+Consultants indépendants
+54
+
+--- Page 56 ---
+Conclusion
+L’Union des Comores est gravement touchée par le phénomène de désertification et de
+dégradation des terres qui va en s’amplifiant au fil des années. Les facteurs de la
+désertification sont non seulement climatiques, mais aussi socioéconomiques.
+Les conséquences de ce phénomène sont d’autant plus graves que l’Union des Comores est
+constituée d’îles volcaniques au relief généralement très accidenté, favorisant l’érosion des
+sols et la dégradation des terres. A cela s’ajoutent la forte croissance démographique, la
+pauvreté grandissante et les pratiques agricoles qui ne font qu’amplifier et accélérer le
+phénomène.
+La situation est alors complexe et très critique, et nécessite donc la mise en œuvre
+immédiate d’actions bien ciblées, cohérentes, et coordonnées.
+Ce plan d’action doit servir comme cadre de référence pour les actions à prendre en vue de
+faire face aux problèmes posés. Il fait une analyse de la situation et propose des pistes
+d’actions à entreprendre en fonction des objectifs fixés au niveau national. Ces actions
+doivent être traduites sur le terrain par des activités concrètes, intégrées dans des projets
+autonomes ou dans les programmes d’actions des différents départements ministériels. Mais
+ceci est aussi un document de plaidoyer comprenant une évaluation des besoins en
+financement des activités de mise en œuvre du plan d’action.
+Toutefois, pour plus d’efficacité et de cohérence, les questions de la désertification et de la
+dégradation des terres ne doivent pas être traitées séparément des aspects de la gestion
+des ressources forestières, du développement agricole, ou des questions liées à l’adaptation
+aux changements climatiques et à la conservation de la diversité biologiques. Pour cela le
+concept de Gestion Durable des Terres, doit désormais être intégré dans les politiques et
+stratégies nationales de développement durable et dans les politiques sectorielles agricoles
+et forestières. On notera à cet effet que les activités prévues dans ce plan d’action, sont en
+parfaite synergie notamment avec les objectifs du plan d’action forestier, le PANA, et la
+politique sectorielle agricole entre autres.
+Mais la clé de réussite de la lutte contre la désertification et la dégradation des terres, passe
+aussi par un renforcement efficace des capacités des institutions en charge de l’élaboration
+des politiques et de la mise en œuvre des actions sur le terrain. C'est-à-dire la direction
+nationale de l’environnement et des forêts, la direction nationale des stratégies agricoles,
+ainsi que les directions insulaires concernées. Il y a un besoin notamment de formation des
+hommes, de restructuration des services pertinents et d’amélioration du cadre de
+concertation et de coordination des actions.
+55
+
+--- Page 57 ---
+Bibliographie
+1. PAN Comores, 2003
+2. Programme d’Action National actualisé des Comores contre la désertification
+3. Plan cadre décennal stratégique 2008-2018
+4. Directives pour l’alignement des Plans d’Action Nationaux sur la stratégie décennal
+de l’UNCCD
+5. Réflexion préliminaire pour l’alignement des PAN/LCD en Afrique Centrale
+6. Plan cadre stratégique décennal visant à renforcer la mise en œuvre de la
+Convention (2008-2018)
+7. Rapport de la Conférence des Parties sur les travaux de sa huitième session tenue à
+Madrid, Septembre 2007
+8. Programme d’Adaptation Nationale aux Changements climatiques (PANA, 2006)
+9. Stratégie de Mobilisation des ressources financières pour la gestion durable des
+terres dans les pays de la COI, octobre 2012
+10. Seconde Communication Nationale des Comores sur les changements climatiques
+11. Études sur la dégradation des terres aux Comores
+12. Bilan de la mise en œuvre des AME et stratégie de coordination pour la coopération
+et la collaboration des parties prenantes en Union des Comores
+13. Inventaire faunistique des rivières des Comores et inventaire botanique
+14. Plan d’Action Nationale de Lutte contre la désertification de Madagascar
+15. Alignment of National Action Programmes of UNCCD, 10 year strategy through use
+of IFS tools
+16. Examen analytique de la désertification aux Comores
+17. Cadre de Programmation Pays, Comores
+18. Préparation de la 3ème Conférence Internationale sur le Développement Durable des
+Petits États Insulaires en Développement, Rapport National de l’Union des Comores
+19. Politique nationale forestière des Comores,
+20. Plan d’Action Prioritaire de Développement Forestier
+21. Inventaire forestier national de l’Union des Comores
+22. Manifeste d’Itsandra sur le partenariat pour le développement vert en Union des
+Comores
+23. Stratégie de Croissance et de Réduction de la Pauvreté (SCRP, 2009)
+24. Comores - Note sectorielle de Politique Agricole
+25. Cadre Stratégique de Programmation
+56

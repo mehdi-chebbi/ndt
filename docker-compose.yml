@@ -1,0 +1,138 @@
+version: '3.8'
+
+services:
+  # PostgreSQL Database
+  db:
+    image: postgis/postgis:15-3.3-alpine
+    container_name: ndt-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: platform_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./backend/schema.sql:/docker-entrypoint-initdb.d/schema.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d platform_db"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # GeoServer
+  geoserver:
+    image: kartoza/geoserver:2.24.0
+    container_name: ndt-geoserver
+    restart: unless-stopped
+    environment:
+      GEOSERVER_ADMIN_USER: admin
+      GEOSERVER_ADMIN_PASSWORD: geoserver
+    ports:
+      - "8081:8080"
+    volumes:
+      - geoserver_data:/opt/geoserver/data_dir
+      - ./data/tiffs:/data/tiffs:ro
+      # Shared volume for clipped rasters (read-only for GeoServer)
+      - clipped_rasters:/opt/clipped-rasters:ro
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:8080/geoserver/web/ || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 60s
+    depends_on:
+      db:
+        condition: service_healthy
+
+  # Backend API
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: ndt-backend
+    restart: unless-stopped
+    ports:
+      - "3001:3001"
+    volumes:
+      - ./data/tiffs:/data/tiffs:ro
+      - ./backend/ai-imgs:/app/ai-imgs
+    environment:
+      - DB_HOST=db
+      - DB_PORT=5432
+      - DB_NAME=platform_db
+      - DB_USER=postgres
+      - DB_PASSWORD=postgres
+      - GEOSERVER_REST_URL=http://geoserver:8080/geoserver/rest
+      - GEOSERVER_WMS_URL=http://geoserver:8080/geoserver
+      - GEOSERVER_USER=admin
+      - GEOSERVER_PASSWORD=geoserver
+      - CLIP_SERVICE_URL=http://clip-service:3005
+
+      # AI Configuration
+      # For Local Model:
+      # - AI_BASE_URL=http://192.168.2.97:8080/v1
+      # - AI_MODEL=qwen35
+      # - AI_API_KEY=dummy-key
+      # For OpenRouter:
+      # - AI_BASE_URL=https://openrouter.ai/api/v1
+      # - AI_MODEL=openai/gpt-4o
+      # - AI_API_KEY=sk-or-v1-your-key-here
+      # - AI_APP_URL=http://localhost:3000
+      # - AI_APP_NAME=NDT Platform
+      - AI_BASE_URL=${AI_BASE_URL:-https://openrouter.ai/api/v1}
+      - AI_MODEL=nvidia/nemotron-3-super-120b-a12b:free
+      - AI_API_KEY=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
+ 
+    depends_on:
+      db:
+        condition: service_healthy
+
+  # Clipping Microservice
+  clip-service:
+    build:
+      context: ./mini-services/clip-service
+      dockerfile: Dockerfile
+    container_name: ndt-clip-service
+    restart: unless-stopped
+    ports:
+      - "3005:3005"
+    volumes:
+      - ./backend/geojson:/app/geojson:ro
+      - ./data/tiffs:/data/tiffs:ro
+      # Shared volume for clipped rasters (read-write for clip-service)
+      - clipped_rasters:/data/clipped-rasters
+    environment:
+      - GEOSERVER_URL=http://geoserver:8080/geoserver
+      - GEOSERVER_USER=admin
+      - GEOSERVER_PASSWORD=geoserver
+      # Shared PVC configuration
+      - OUTPUT_DIR=/data/clipped-rasters
+      - GEOSERVER_FILE_BASE=/opt/clipped-rasters
+      - GEOJSON_DIR=/app/geojson
+      - DB_HOST=db
+      - DB_PORT=5432
+      - DB_NAME=platform_db
+      - DB_USER=postgres
+      - DB_PASSWORD=postgres
+    depends_on:
+      db:
+        condition: service_healthy
+      geoserver:
+        condition: service_healthy
+
+  # Frontend Next.js
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: ndt-frontend
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+
+volumes:
+  postgres_data:
+  geoserver_data:
+  clipped_rasters:

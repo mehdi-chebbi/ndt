@@ -1,0 +1,18 @@
+{
+  "loading": "Loading report...",
+  "loadingFallback": "Loading...",
+  "errorTitle": "Error Loading Report",
+  "backToReports": "Back to Reports",
+  "notFound": "Report Not Found",
+  "reportTitle": "Report #{{id}}",
+  "layer": "Layer",
+  "unknownLayer": "Unknown",
+  "reportComment": "Report Comment",
+  "noComment": "No comment provided",
+  "reportedBy": "Reported By",
+  "dateReported": "Date Reported",
+  "mapLegend": "Map Legend",
+  "reportedInvalidArea": "Reported Invalid Area",
+  "viewingReport": "Viewing Report #{{id}}",
+  "failedToLoad": "Failed to load report"
+}

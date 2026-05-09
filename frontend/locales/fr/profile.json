@@ -1,0 +1,74 @@
+{
+  "profile": {
+    "editProfile": "Modifier le profil",
+    "changePassword": "Changer le mot de passe",
+    "goToMap": "Aller à la carte →",
+    "profileUpdatedSuccess": "Profil mis à jour avec succès",
+    "fullName": "Nom complet",
+    "email": "E-mail",
+    "country": "Pays",
+    "phoneNumber": "Numéro de téléphone",
+    "jobTitle": "Poste",
+    "institution": "Établissement",
+    "emailCannotBeChanged": "L'adresse e-mail ne peut pas être modifiée",
+    "cancel": "Annuler",
+    "saveChanges": "Enregistrer les modifications",
+    "saving": "Enregistrement...",
+    "placeholders": {
+      "searchCountry": "Rechercher ou sélectionner un pays",
+      "jobTitle": "Ex. : Chercheur",
+      "institution": "Ex. : Université de Lagos"
+    },
+    "displayLabels": {
+      "phone": "Téléphone",
+      "country": "Pays",
+      "jobTitle": "Poste",
+      "institution": "Établissement"
+    }
+  },
+  "password": {
+    "title": "Changer le mot de passe",
+    "description": "Entrez votre mot de passe actuel et choisissez-en un nouveau",
+    "currentPassword": "Mot de passe actuel",
+    "newPassword": "Nouveau mot de passe",
+    "confirmNewPassword": "Confirmer le nouveau mot de passe",
+    "placeholders": {
+      "currentPassword": "Entrez le mot de passe actuel",
+      "newPassword": "Min. 6 caractères",
+      "confirmNewPassword": "Ressaisir le nouveau mot de passe"
+    },
+    "changing": "Modification...",
+    "changePasswordBtn": "Changer le mot de passe",
+    "cancel": "Annuler",
+    "errors": {
+      "allFieldsRequired": "Tous les champs sont obligatoires",
+      "minLength": "Le nouveau mot de passe doit contenir au moins 6 caractères",
+      "noMatch": "Les nouveaux mots de passe ne correspondent pas",
+      "changedSuccess": "Mot de passe changé avec succès"
+    }
+  },
+  "chatHistory": {
+    "title": "Historique des conversations",
+    "description": "Vos conversations avec l'IA Copilot",
+    "noConversationsYet": "Aucune conversation pour le moment",
+    "startChatting": "Commencez à discuter avec l'IA Copilot depuis la",
+    "mapPage": "page de la carte",
+    "untitledConversation": "Conversation sans titre",
+    "active": "Active",
+    "noMessages": "Aucun message",
+    "noMessagesInConversation": "Aucun message dans cette conversation",
+    "messages": "messages",
+    "deleteConfirm": "Supprimer cette conversation ? Cette action est irréversible.",
+    "deleteTitle": "Supprimer la conversation"
+  },
+  "errors": {
+    "failedToLoadSessions": "Échec du chargement des sessions",
+    "failedToLoadMessages": "Échec du chargement des messages",
+    "failedToDelete": "Échec de la suppression",
+    "failedToUpdateProfile": "Échec de la mise à jour du profil",
+    "failedToChangePassword": "Échec du changement de mot de passe"
+  },
+  "footer": {
+    "copyright": "© 2025 AfriGeoData. Tous droits réservés."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Complete Your Profile",
+  "subtitle": "We need a few more details to get you started",
+  "countryPlaceholder": "Search or select your country",
+  "phoneNumberLabel": "Phone Number",
+  "jobTitleLabel": "Job Title",
+  "jobTitlePlaceholder": "e.g. Researcher, Data Scientist",
+  "institutionLabel": "Institution / Organization",
+  "institutionPlaceholder": "e.g. University of Lagos",
+  "saving": "Saving...",
+  "continueToDashboard": "Continue to Dashboard",
+  "errors": {
+    "allFieldsRequired": "Please fill in all fields",
+    "failedToComplete": "Failed to complete profile"
+  }
+}

@@ -1,0 +1,271 @@
+{
+  "shared": {
+    "loading": "Loading...",
+    "footer": "\u00a9 2025 Platform. All rights reserved.",
+    "edit": "Edit",
+    "delete": "Delete",
+    "cancel": "Cancel",
+    "saving": "Saving...",
+    "update": "Update",
+    "create": "Create",
+    "refresh": "Refresh",
+    "addClass": "Add Class",
+    "classColor": "Class - Color",
+    "classNamePlaceholder": "Class name",
+    "sortOrder": "Sort Order",
+    "howItWorks": "How it works",
+    "autoRefreshing": "Auto-refreshing every 5s",
+    "complete": "complete",
+    "remaining": "remaining",
+    "searchCountries": "Search countries..."
+  },
+  "dashboard": {
+    "manageLayerMetadata": "Manage Layer Metadata",
+    "clipManagement": "Clip Management",
+    "statsManagement": "Stats Management",
+    "totalUsers": "Total Users",
+    "adminUsers": "Admin Users",
+    "regularUsers": "Regular Users",
+    "allUsers": "All Users",
+    "noUsersFound": "No users found",
+    "table": {
+      "name": "Name",
+      "email": "Email",
+      "role": "Role",
+      "createdAt": "Created At",
+      "actions": "Actions"
+    },
+    "errors": {
+      "failedToFetchUsers": "Failed to fetch users",
+      "failedToDeleteUser": "Failed to delete user",
+      "confirmDeleteUser": "Are you sure you want to delete this user?"
+    }
+  },
+  "layers": {
+    "title": "Layer Management",
+    "subtitle": "Manage groups and layers for the map",
+    "syncing": "Syncing...",
+    "syncFromGeoServer": "Sync from GeoServer",
+    "syncComplete": "Sync complete:",
+    "syncResult": "{{added}} added, {{updated}} updated, {{total}} total layers",
+    "stats": {
+      "totalLayers": "Total Layers",
+      "activeLayers": "Active Layers",
+      "groups": "Groups",
+      "statsReady": "Stats Ready",
+      "ungrouped": "Ungrouped"
+    },
+    "tabs": {
+      "layers": "Layers",
+      "groups": "Groups"
+    },
+    "layerTab": {
+      "allLayers": "All Layers",
+      "addLayer": "+ Add Layer",
+      "noLayersFound": "No layers found",
+      "clickSyncToFetch": "Click \"Sync from GeoServer\" to fetch layers",
+      "table": {
+        "layer": "Layer",
+        "group": "Group",
+        "status": "Status",
+        "statsReady": "Stats Ready",
+        "actions": "Actions"
+      },
+      "ungrouped": "Ungrouped",
+      "active": "Active",
+      "inactive": "Inactive",
+      "ready": "Ready",
+      "needsConfig": "Needs config"
+    },
+    "groupTab": {
+      "layerGroupsNested": "Layer Groups (Nested)",
+      "addGroup": "+ Add Group",
+      "noGroupsCreated": "No groups created yet",
+      "createGroupsToOrganize": "Create groups to organize your layers",
+      "layersCount": "{{count}} layers",
+      "subgroupsCount": "{{count}} subgroups"
+    },
+    "layerModal": {
+      "editLayer": "Edit Layer",
+      "addLayer": "Add Layer",
+      "geoserverLayerName": "GeoServer Layer Name *",
+      "geoserverLayerNamePlaceholder": "e.g., LC:LandcoverOSS2000",
+      "displayName": "Display Name",
+      "displayNamePlaceholder": "e.g., Land Cover 2000",
+      "group": "Group",
+      "noGroupUngrouped": "No Group (Ungrouped)",
+      "filePath": "File Path (for stats)",
+      "filePathPlaceholder": "e.g., /data/rasters/LandcoverOSS2000.tif",
+      "classLabels": "Class Labels (JSON)",
+      "legend": "Legend (overrides group legend if set)",
+      "noLegendItems": "No legend items. Click \"Add Class\" to add a custom legend (overrides group legend).",
+      "activeOnMap": "Active (visible on map)"
+    },
+    "groupModal": {
+      "editGroup": "Edit Group",
+      "addGroup": "Add Group",
+      "groupName": "Group Name *",
+      "groupNamePlaceholder": "e.g., LC, NDVI, NDWI",
+      "parentGroup": "Parent Group",
+      "noParentRootGroup": "No Parent (Root Group)",
+      "selectParentHint": "Select a parent to create nested groups",
+      "description": "Description",
+      "descriptionPlaceholder": "e.g., Land Cover layers",
+      "legend": "Legend",
+      "noLegendItems": "No legend items. Click \"Add Class\" to start.",
+      "legendHint": "Legend will be displayed on the map for all layers in this group. Child groups without a legend will inherit this."
+    },
+    "errors": {
+      "failedToSyncLayers": "Failed to sync layers",
+      "invalidJsonFormat": "Invalid JSON format for class labels",
+      "failedToSave": "Failed to save",
+      "confirmDeleteLayer": "Are you sure you want to delete this layer?",
+      "failedToDelete": "Failed to delete",
+      "failedToUpdate": "Failed to update",
+      "confirmDeleteGroupWithChildren": "This group has child groups that will also be deleted. Layers will become ungrouped. Are you sure?",
+      "confirmDeleteGroup": "Layers in this group will become ungrouped. Are you sure?"
+    }
+  },
+  "clips": {
+    "title": "Clip Management",
+    "subtitle": "Pre-clip rasters to country boundaries for instant loading",
+    "stats": {
+      "totalRasters": "Total Rasters",
+      "fullyClipped": "Fully Clipped",
+      "partiallyClipped": "Partially Clipped",
+      "notClipped": "Not Clipped",
+      "running": "Running",
+      "totalStorage": "Total Storage"
+    },
+    "table": {
+      "rasterLayers": "Raster Layers",
+      "countriesPerRaster": "({{count}} countries per raster)",
+      "layer": "Layer",
+      "progress": "Progress",
+      "status": "Status",
+      "storage": "Storage",
+      "actions": "Actions"
+    },
+    "noClippableLayers": "No clippable layers found",
+    "noClippableLayersHint": "Layers need a file_path to be clip-able",
+    "clickToViewDetails": "Click to view country details",
+    "statusBadge": {
+      "clipping": "Clipping...",
+      "complete": "Complete",
+      "partial": "Partial",
+      "noStyle": "No Style",
+      "notClipped": "Not Clipped"
+    },
+    "processing": "Processing...",
+    "clipRemaining": "Clip Remaining",
+    "clipAll": "Clip All",
+    "clip": "Clip",
+    "syncStyleFirst": "Sync layer to assign a style first",
+    "clipRemainingTooltip": "Clip remaining countries ({{count}} left)",
+    "deleteAll": "Delete All",
+    "deleteAllTooltip": "Delete all {{count}} clipped layers",
+    "infoBox": {
+      "clickProgressBar": "Click the progress bar to see which countries are done and which remain",
+      "clipAllInfo": "Clicking \"Clip All\" clips the raster for all {{count}} countries using the clip-service",
+      "clipRemainingInfo": "Clicking \"Clip Remaining\" only processes countries not yet in cache",
+      "largeCountriesWarning": "Large countries (Algeria, DR Congo, Sudan, etc.) may take 10-15 minutes each",
+      "autoRefreshInfo": "The page auto-refreshes every 5 seconds while a batch is running",
+      "resumeInfo": "If interrupted, click Clip again to resume from where it left off",
+      "deleteAllInfo": "Use \"Delete All\" to unpublish clipped layers from GeoServer and clear the cache",
+      "individualDeleteInfo": "In the country detail modal, you can delete individual country clips"
+    },
+    "modal": {
+      "countriesClipped": "{{clipped}} of {{total}} countries clipped",
+      "clipped": "Clipped",
+      "remaining": "Remaining",
+      "noMatches": "No matches",
+      "failedToLoadDetails": "Failed to load country details",
+      "deleting": "Deleting..."
+    },
+    "confirmDialog": {
+      "deleteClippedLayer": "Delete Clipped Layer",
+      "deleteClippedLayerMessage": "Remove the clipped layer for \"{{country}}\" from {{layer}}? This will unpublish it from GeoServer.",
+      "deleteAllClippedLayers": "Delete All Clipped Layers",
+      "deleteAllClippedLayersMessage": "Remove ALL {{count}} clipped layers ({{size}}) for \"{{layer}}\" from GeoServer? This cannot be undone."
+    },
+    "errors": {
+      "failedToFetchStatus": "Failed to fetch clip status",
+      "noStyleAssigned": "This layer has no style assigned. Sync layers first.",
+      "batchInProgress": "Batch already in progress for this layer.",
+      "failedToStartBatch": "Failed to start batch",
+      "deleteFailed": "Delete failed",
+      "failedToFetchCountryDetails": "Failed to fetch country details",
+      "deletedClippedLayer": "Deleted clipped layer for {{country}}",
+      "deletedAllClippedLayers": "Deleted all clipped layers for {{layer}}",
+      "batchStarted": "Batch clipping started: {{layer}} ({{count}} countries)"
+    }
+  },
+  "stats": {
+    "title": "Stats Management",
+    "subtitle": "Pre-calculate land cover statistics for all African countries. Stats are computed once and served instantly to users.",
+    "stats": {
+      "totalRasters": "Total Rasters",
+      "fullyCalculated": "Fully Calculated",
+      "partiallyCalculated": "Partially Calculated",
+      "notCalculated": "Not Calculated",
+      "running": "Running"
+    },
+    "table": {
+      "rasterLayers": "Raster Layers",
+      "countriesPerRaster": "({{count}} countries per raster)",
+      "layer": "Layer",
+      "progress": "Progress",
+      "status": "Status",
+      "actions": "Actions"
+    },
+    "noCalculableLayers": "No calculable layers found",
+    "noCalculableLayersHint": "Layers need a file_path and class_labels to be calculable",
+    "clickToViewDetails": "Click to view country details",
+    "statusBadge": {
+      "calculating": "Calculating...",
+      "complete": "Complete",
+      "partial": "Partial",
+      "noLabels": "No Labels",
+      "notCalculated": "Not Calculated"
+    },
+    "processing": "Processing...",
+    "calculateRemaining": "Calculate Remaining",
+    "calculateAll": "Calculate All",
+    "upToDate": "Up to date",
+    "syncLabelsFirst": "Sync layer to assign class labels first",
+    "calculateRemainingTooltip": "Calculate remaining countries ({{count}} left)",
+    "infoBox": {
+      "clickProgressBar": "Click the progress bar to see which countries are done and which remain",
+      "calculateAllInfo": "Clicking \"Calculate All\" computes land cover statistics for all {{count}} countries using the clip-service",
+      "calculateRemainingInfo": "Clicking \"Calculate Remaining\" only processes countries not yet in cache",
+      "largeCountriesWarning": "Large countries (Algeria, DR Congo, Sudan, etc.) may take 10-15 minutes each",
+      "autoRefreshInfo": "The page auto-refreshes every 5 seconds while a batch is running",
+      "resumeInfo": "If interrupted, click Calculate again to resume from where it left off",
+      "statsServedInstantly": "Stats are served instantly to users once pre-calculated"
+    },
+    "modal": {
+      "countriesCalculated": "{{calculated}} of {{total}} countries calculated",
+      "calculated": "Calculated",
+      "remaining": "Remaining",
+      "noMatches": "No matches",
+      "failedToLoadDetails": "Failed to load country details"
+    },
+    "errors": {
+      "failedToFetchStatus": "Failed to fetch stats status",
+      "noClassLabels": "This layer has no class labels. Sync layers first.",
+      "batchInProgress": "Batch already in progress for this layer.",
+      "failedToStartBatch": "Failed to start batch",
+      "failedToFetchCountryDetails": "Failed to fetch country details",
+      "batchStarted": "Batch calculation started: {{layer}} ({{count}} countries)",
+      "deleteFailed": "Failed to delete stats",
+      "deletedAllStats": "Deleted all stats for {{layer}} ({{count}} countries)"
+    },
+    "deleteAll": "Delete All",
+    "deleteAllTooltip": "Delete all {{count}} calculated stats",
+    "deleting": "Deleting...",
+    "confirmDialog": {
+      "deleteAllStats": "Delete All Stats",
+      "deleteAllStatsMessage": "Remove ALL {{count}} pre-calculated stats for \"{{layer}}\"? This cannot be undone."
+    }
+  }
+}
