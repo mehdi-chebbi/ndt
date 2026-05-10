@@ -199,17 +199,17 @@ export default function HomePage() {
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-1 h-8 rounded-full bg-green-400" />
                 <h2 className="text-2xl lg:text-3xl font-bold text-white" style={serif}>
-                  Africa&apos;s Integrated Land Degradation Monitoring System
+                  {t('ldnPlatform.heading')}
                 </h2>
               </div>
               <p className="text-lg text-green-400/90 font-medium" style={serif}>
-                LDN Platform Africa
+                {t('ldnPlatform.subtitle')}
               </p>
               <p className="text-sm text-gray-400 mt-3 leading-relaxed max-w-3xl" style={sans}>
-                Monitoring land degradation in Africa to support sustainable land management and Land Degradation Neutrality (LDN).
+                {t('ldnPlatform.description')}
               </p>
               <p className="text-sm text-gray-300 mt-2 font-medium" style={{ ...sans, letterSpacing: '0.02em' }}>
-                Access data. Analyse trends. Support decision-making.
+                {t('ldnPlatform.tagline')}
               </p>
             </div>
 
@@ -220,19 +220,19 @@ export default function HomePage() {
                   <svg className="w-12 h-12 text-gray-600 mx-auto mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
                   </svg>
-                  <p className="text-xs text-gray-600 uppercase tracking-widest" style={sans}>Image Placeholder</p>
+                  <p className="text-xs text-gray-600 uppercase tracking-widest" style={sans}>{t('placeholders.image')}</p>
                 </div>
               </div>
 
               <div>
                 <h3 className="text-lg font-bold text-white mb-4" style={serif}>
-                  Overview of the Africa Land Degradation Monitoring System | LDN Platform Africa
+                  {t('ldnPlatform.overview.title')}
                 </h3>
                 <p className="text-sm text-gray-400 leading-relaxed mb-5" style={sans}>
-                  Land degradation is one of the most pressing environmental challenges in Africa, affecting agricultural productivity, water availability, biodiversity, and climate resilience. According to global assessments, Africa loses millions of hectares of productive land every year due to soil erosion, desertification, and unsustainable land use practices.
+                  {t('ldnPlatform.overview.paragraph1')}
                 </p>
                 <p className="text-sm text-gray-400 leading-relaxed mb-5" style={sans}>
-                  This platform provides a centralized and integrated system for monitoring land degradation in Africa, enabling countries, institutions, and stakeholders to:
+                  {t('ldnPlatform.overview.paragraph2')}
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3 text-sm text-gray-300" style={sans}>
@@ -240,10 +240,7 @@ export default function HomePage() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                     </svg>
                     <span>
-                      Track progress toward{' '}
-                      <a href="https://www.unccd.int/land-and-life/land-degradation-neutrality/overview" target="_blank" rel="noopener noreferrer" className="text-green-400 underline underline-offset-2 hover:text-green-300 transition-colors">
-                        Land Degradation Neutrality (LDN)
-                      </a>.
+                      {t('ldnPlatform.overview.item1')}
                     </span>
                   </li>
                   <li className="flex items-start gap-3 text-sm text-gray-300" style={sans}>
@@ -251,22 +248,18 @@ export default function HomePage() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                     </svg>
                     <span>
-                      Monitor{' '}
-                      <a href="https://www.unccd.int/resources/manuals-and-guides/good-practice-guidance-sdg-indicator-1531-proportion-land-degraded" target="_blank" rel="noopener noreferrer" className="text-green-400 underline underline-offset-2 hover:text-green-300 transition-colors">
-                        SDG indicator 15.3.1
-                      </a>{' '}
-                      (proportion of degraded land).
+                      {t('ldnPlatform.overview.item2')}
                     </span>
                   </li>
                   <li className="flex items-start gap-3 text-sm text-gray-300" style={sans}>
                     <svg className="w-4 h-4 text-green-400 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                     </svg>
-                    <span>Access harmonized geospatial datasets and indicators.</span>
+                    <span>{t('ldnPlatform.overview.item3')}</span>
                   </li>
                 </ul>
                 <p className="text-sm text-gray-400 leading-relaxed mt-5" style={sans}>
-                  By combining Earth Observation-based data, national information, and analytical tools, the platform supports evidence-based decision-making at national and regional levels.
+                  {t('ldnPlatform.overview.closingParagraph')}
                 </p>
               </div>
             </div>
@@ -286,7 +279,7 @@ export default function HomePage() {
                     </svg>
                   </div>
                   <h3 className="text-lg font-bold text-white" style={serif}>
-                    Land Degradation in Africa: Key Facts
+                    {t('keyFacts.heading')}
                   </h3>
                 </div>
 
@@ -297,7 +290,7 @@ export default function HomePage() {
                       <span className="text-xl font-bold text-red-400" style={serif}>65%</span>
                     </div>
                     <p className="text-sm text-gray-400 leading-relaxed pt-2" style={sans}>
-                      of Africa&apos;s productive land is degraded (UNCCD estimates).
+                      {t('keyFacts.fact1')}
                     </p>
                   </div>
                   <div className="flex items-start gap-4">
@@ -305,7 +298,7 @@ export default function HomePage() {
                       <span className="text-sm font-bold text-red-400" style={serif}>3M ha</span>
                     </div>
                     <p className="text-sm text-gray-400 leading-relaxed pt-2" style={sans}>
-                      Nearly 3 million hectares of forest are lost each year in Africa.
+                      {t('keyFacts.fact2')}
                     </p>
                   </div>
                   <div className="flex items-start gap-4">
@@ -313,7 +306,7 @@ export default function HomePage() {
                       <span className="text-xl font-bold text-red-400" style={serif}>40%+</span>
                     </div>
                     <p className="text-sm text-gray-400 leading-relaxed pt-2" style={sans}>
-                      Over 40% of the population depends on degraded land for livelihoods.
+                      {t('keyFacts.fact3')}
                     </p>
                   </div>
                   <div className="flex items-start gap-4">
@@ -321,7 +314,7 @@ export default function HomePage() {
                       <span className="text-sm font-bold text-red-400" style={serif}>$B</span>
                     </div>
                     <p className="text-sm text-gray-400 leading-relaxed pt-2" style={sans}>
-                      Land degradation costs African economies billions of USD annually.
+                      {t('keyFacts.fact4')}
                     </p>
                   </div>
                 </div>
@@ -329,7 +322,7 @@ export default function HomePage() {
                 {/* Closing text */}
                 <div className="mt-8 pt-6 border-t border-white/5">
                   <p className="text-sm text-gray-300 leading-relaxed" style={sans}>
-                    Monitoring and reversing these trends is essential to achieving sustainable development and climate resilience.
+                    {t('keyFacts.closingText')}
                   </p>
                 </div>
 
@@ -339,7 +332,7 @@ export default function HomePage() {
                     <svg className="w-10 h-10 text-gray-600 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
                     </svg>
-                    <p className="text-xs text-gray-600 uppercase tracking-widest" style={sans}>Image Placeholder</p>
+                    <p className="text-xs text-gray-600 uppercase tracking-widest" style={sans}>{t('placeholders.image')}</p>
                   </div>
                 </div>
               </div>
@@ -353,23 +346,23 @@ export default function HomePage() {
             <div className="flex items-center gap-3 mb-6">
               <div className="w-1 h-8 rounded-full bg-green-400" />
               <h2 className="text-2xl lg:text-3xl font-bold text-white" style={serif}>
-                The Role of the LDN Platform in Africa
+                {t('roleOfLDN.heading')}
               </h2>
             </div>
 
             <p className="text-sm text-gray-400 leading-relaxed mb-6 max-w-4xl" style={sans}>
-              The LDN Platform Africa serves as a centralized system for land degradation monitoring in Africa, integrating environmental, geospatial, and hydrological data into a single access point.
+              {t('roleOfLDN.description')}
             </p>
 
             <p className="text-sm text-white font-medium mb-3" style={sans}>
-              The platform contributes to:
+              {t('roleOfLDN.contributesTo')}
             </p>
             <ul className="space-y-3 mb-6 max-w-4xl">
               {[
-                'Improving the accuracy of land degradation monitoring at national and continental levels.',
-                'Supporting sustainable land-use planning and agricultural management.',
-                'Facilitating reporting on Land Degradation Neutrality (LDN) and SDG 15.3.1.',
-                'Strengthening evidence-based decision-making for environmental policies and restoration strategies.',
+                t('roleOfLDN.item1'),
+                t('roleOfLDN.item2'),
+                t('roleOfLDN.item3'),
+                t('roleOfLDN.item4'),
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-3 text-sm text-gray-300" style={sans}>
                   <svg className="w-4 h-4 text-green-400 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -381,7 +374,7 @@ export default function HomePage() {
             </ul>
 
             <p className="text-sm text-gray-400 leading-relaxed mb-8 max-w-4xl" style={sans}>
-              By transforming data into actionable insights, the platform enables stakeholders to better understand land degradation dynamics and take effective measures toward achieving Land Degradation Neutrality in Africa.
+              {t('roleOfLDN.closingParagraph')}
             </p>
 
             {/* Two image placeholders */}
@@ -391,7 +384,7 @@ export default function HomePage() {
                   <svg className="w-10 h-10 text-gray-600 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
                   </svg>
-                  <p className="text-xs text-gray-600 uppercase tracking-widest" style={sans}>Image Placeholder 1</p>
+                  <p className="text-xs text-gray-600 uppercase tracking-widest" style={sans}>{t('placeholders.image1')}</p>
                 </div>
               </div>
               <div className="rounded-xl border border-dashed border-white/10 bg-white/[0.02] aspect-video flex items-center justify-center">
@@ -399,7 +392,7 @@ export default function HomePage() {
                   <svg className="w-10 h-10 text-gray-600 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
                   </svg>
-                  <p className="text-xs text-gray-600 uppercase tracking-widest" style={sans}>Image Placeholder 2</p>
+                  <p className="text-xs text-gray-600 uppercase tracking-widest" style={sans}>{t('placeholders.image2')}</p>
                 </div>
               </div>
             </div>
@@ -419,20 +412,20 @@ export default function HomePage() {
                     </svg>
                   </div>
                   <h3 className="text-lg font-bold text-white" style={serif}>
-                    Key assets of Africa&apos;s Integrated Land Degradation Monitoring System
+                    {t('keyAssets.heading')}
                   </h3>
                 </div>
 
                 <p className="text-sm text-gray-400 leading-relaxed mb-6" style={sans}>
-                  This system bridges the gap between data and decision-making by providing:
+                  {t('keyAssets.description')}
                 </p>
 
                 <ul className="space-y-4 mb-6">
                   {[
-                    'Reliable and harmonized datasets across Africa.',
-                    'Tools for monitoring land degradation trends over time.',
-                    'Support for national and international reporting frameworks.',
-                    'A shared space for knowledge, collaboration, and innovation.',
+                    t('keyAssets.item1'),
+                    t('keyAssets.item2'),
+                    t('keyAssets.item3'),
+                    t('keyAssets.item4'),
                   ].map((item, i) => (
                     <li key={i} className="flex items-start gap-3 text-sm text-gray-300" style={sans}>
                       <svg className="w-5 h-5 text-green-400 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -444,7 +437,7 @@ export default function HomePage() {
                 </ul>
 
                 <p className="text-sm text-green-400/90 font-medium mb-6" style={sans}>
-                  Enabling stakeholders to move from data to action.
+                  {t('keyAssets.closingText')}
                 </p>
 
                 {/* Image placeholder UNDER the text */}
@@ -453,7 +446,7 @@ export default function HomePage() {
                     <svg className="w-10 h-10 text-gray-600 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
                     </svg>
-                    <p className="text-xs text-gray-600 uppercase tracking-widest" style={sans}>Image Placeholder</p>
+                    <p className="text-xs text-gray-600 uppercase tracking-widest" style={sans}>{t('placeholders.image')}</p>
                   </div>
                 </div>
               </div>
@@ -467,12 +460,12 @@ export default function HomePage() {
             <div className="flex items-center gap-3 mb-6">
               <div className="w-1 h-8 rounded-full bg-green-400" />
               <h2 className="text-2xl lg:text-3xl font-bold text-white" style={serif}>
-                Who is this platform for?
+                {t('audience.heading')}
               </h2>
             </div>
 
             <p className="text-sm text-gray-400 leading-relaxed mb-6 max-w-4xl" style={sans}>
-              This platform is designed for a wide range of stakeholders involved in land management and environmental monitoring:
+              {t('audience.description')}
             </p>
 
             <div className="grid sm:grid-cols-2 gap-4 max-w-4xl">
@@ -483,8 +476,8 @@ export default function HomePage() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8 14v3m4-3v3m4-3v3M3 21h18M3 10h18M3 7l9-4 9 4M4 10h16v11H4V10z" />
                     </svg>
                   ),
-                  label: 'Policymakers',
-                  desc: 'tracking LDN targets and national reporting.',
+                  label: t('audience.policymakers.label'),
+                  desc: t('audience.policymakers.desc'),
                 },
                 {
                   icon: (
@@ -492,8 +485,8 @@ export default function HomePage() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                     </svg>
                   ),
-                  label: 'Researchers and Scientists',
-                  desc: 'analysing land degradation trends.',
+                  label: t('audience.researchers.label'),
+                  desc: t('audience.researchers.desc'),
                 },
                 {
                   icon: (
@@ -501,8 +494,8 @@ export default function HomePage() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z" />
                     </svg>
                   ),
-                  label: 'NGOs and Development Partners',
-                  desc: 'implementing restoration initiatives.',
+                  label: t('audience.ngos.label'),
+                  desc: t('audience.ngos.desc'),
                 },
                 {
                   icon: (
@@ -510,8 +503,8 @@ export default function HomePage() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
                     </svg>
                   ),
-                  label: 'International Organizations',
-                  desc: 'supporting SDG monitoring and climate action.',
+                  label: t('audience.internationalOrgs.label'),
+                  desc: t('audience.internationalOrgs.desc'),
                 },
               ].map((item, i) => (
                 <div key={i} className="flex items-start gap-4 p-5 rounded-xl border border-white/5 bg-white/[0.02]">
@@ -534,15 +527,15 @@ export default function HomePage() {
             <div className="flex items-center gap-3 mb-6">
               <div className="w-1 h-8 rounded-full bg-green-400" />
               <h2 className="text-2xl lg:text-3xl font-bold text-white" style={serif}>
-                Main features of the platform
+                {t('mainFeatures.heading')}
               </h2>
             </div>
 
             <div className="space-y-5 max-w-4xl">
               {[
                 {
-                  title: 'Continental-scale land degradation data',
-                  desc: 'Derived from EO-derived and harmonized datasets across Africa.',
+                  title: t('mainFeatures.continentalData.title'),
+                  desc: t('mainFeatures.continentalData.desc'),
                   icon: (
                     <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -550,8 +543,8 @@ export default function HomePage() {
                   ),
                 },
                 {
-                  title: 'Interactive Geoportal for spatial analysis',
-                  desc: 'Explore land cover, productivity, and soil indicators through dynamic maps.',
+                  title: t('mainFeatures.geoportal.title'),
+                  desc: t('mainFeatures.geoportal.desc'),
                   icon: (
                     <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" />
@@ -559,8 +552,8 @@ export default function HomePage() {
                   ),
                 },
                 {
-                  title: 'Dashboards for LDN and SDG 15.3.1 monitoring',
-                  desc: 'Analyse trends, compare countries, and track progress over time.',
+                  title: t('mainFeatures.dashboards.title'),
+                  desc: t('mainFeatures.dashboards.desc'),
                   icon: (
                     <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
@@ -568,8 +561,8 @@ export default function HomePage() {
                   ),
                 },
                 {
-                  title: 'Resources and methodologies',
-                  desc: 'Access guidelines, tools, and documentation for land degradation assessment.',
+                  title: t('mainFeatures.resources.title'),
+                  desc: t('mainFeatures.resources.desc'),
                   icon: (
                     <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
@@ -577,8 +570,8 @@ export default function HomePage() {
                   ),
                 },
                 {
-                  title: 'Success stories and best practices',
-                  desc: 'Learn from real-world solutions implemented across African countries.',
+                  title: t('mainFeatures.successStories.title'),
+                  desc: t('mainFeatures.successStories.desc'),
                   icon: (
                     <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
@@ -606,14 +599,14 @@ export default function HomePage() {
             <div className="flex items-center gap-3 mb-6">
               <div className="w-1 h-8 rounded-full bg-green-400" />
               <h2 className="text-2xl lg:text-3xl font-bold text-white" style={serif}>
-                Start Exploring
+                {t('startExploring.heading')}
               </h2>
             </div>
 
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
               {[
                 {
-                  label: 'Explore Land Degradation Data',
+                  label: t('startExploring.exploreData'),
                   href: '/dashboard',
                   gradient: 'from-green-900/40 to-emerald-900/20',
                   icon: (
@@ -623,7 +616,7 @@ export default function HomePage() {
                   ),
                 },
                 {
-                  label: 'Access the Geoportal',
+                  label: t('startExploring.geoportal'),
                   href: '/map',
                   gradient: 'from-teal-900/40 to-green-900/20',
                   icon: (
@@ -633,7 +626,7 @@ export default function HomePage() {
                   ),
                 },
                 {
-                  label: 'View LDN Dashboard',
+                  label: t('startExploring.ldnDashboard'),
                   href: '/dashboard',
                   gradient: 'from-emerald-900/40 to-green-900/20',
                   icon: (
@@ -643,7 +636,7 @@ export default function HomePage() {
                   ),
                 },
                 {
-                  label: 'Explore Success Stories',
+                  label: t('startExploring.successStories'),
                   href: '/success-stories',
                   gradient: 'from-amber-900/30 to-yellow-900/20',
                   icon: (
@@ -653,7 +646,7 @@ export default function HomePage() {
                   ),
                 },
                 {
-                  label: 'Browse Resources',
+                  label: t('startExploring.browseResources'),
                   href: '/api-docs',
                   gradient: 'from-purple-900/30 to-indigo-900/20',
                   icon: (
@@ -676,7 +669,7 @@ export default function HomePage() {
                       {zone.label}
                     </p>
                     <div className="mt-3 flex items-center gap-1 text-xs text-gray-500 group-hover:text-green-400 transition-colors duration-300" style={sans}>
-                      <span>Explore</span>
+                      <span>{t('startExploring.explore')}</span>
                       <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                       </svg>
@@ -696,7 +689,7 @@ export default function HomePage() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4" />
               </svg>
               <p className="text-xs text-gray-500" style={sans}>
-                Data sources include <span className="text-gray-400 font-medium">OSS</span>, <span className="text-gray-400 font-medium">ESA</span>, <span className="text-gray-400 font-medium">UNCCD</span>, <span className="text-gray-400 font-medium">FAO</span>, <span className="text-gray-400 font-medium">EO products</span>, and <span className="text-gray-400 font-medium">national datasets</span>.
+                {t('dataSources.text')}
               </p>
             </div>
           </div>
@@ -708,35 +701,35 @@ export default function HomePage() {
             <div className="flex items-center gap-3 mb-8">
               <div className="w-1 h-8 rounded-full bg-green-400" />
               <h2 className="text-2xl lg:text-3xl font-bold text-white" style={serif}>
-                Events and News
+                {t('events.heading')}
               </h2>
             </div>
 
             {/* Events already held */}
             <div className="mb-10">
               <h3 className="text-sm font-medium text-green-400/90 uppercase tracking-widest mb-5" style={sans}>
-                Events Already Held
+                {t('events.eventsHeld')}
               </h3>
               <div className="space-y-4">
                 {[
                   {
-                    date: 'February 26, 2026',
-                    title: 'Second webinar dedicated to the 2026 Land Degradation Neutrality (LDN) reporting cycle for 22 French-speaking countries.',
+                    date: t('events.held1.date'),
+                    title: t('events.held1.title'),
                     url: 'https://www.oss-online.org/en/webinaire-ldn_en',
                   },
                   {
-                    date: 'February 25, 2026',
-                    title: 'First webinar dedicated to the 2026 Land Degradation Neutrality (LDN) reporting cycle for 22 English-speaking countries.',
+                    date: t('events.held2.date'),
+                    title: t('events.held2.title'),
                     url: 'https://www.oss-online.org/en/webinar-ldn',
                   },
                   {
-                    date: 'March 5, 2026',
-                    title: 'Workshop – Launch of the Land Degradation and Sustainable Land Management Monitoring System in support of the Great Green Wall Initiative.',
+                    date: t('events.held3.date'),
+                    title: t('events.held3.title'),
                     url: 'https://www.oss-online.org/en/OSS-GGWI',
                   },
                   {
-                    date: 'March 28, 2026 — Djerba, Tunisia',
-                    title: 'Workshop to strengthen the reporting of Land Degradation Neutrality, on the sidelines of the Desertif\'Actions 2026 International Summit.',
+                    date: t('events.held4.date'),
+                    title: t('events.held4.title'),
                     url: 'https://www.oss-online.org/fr/OSSUMBRELLA',
                   },
                 ].map((event, i) => (
@@ -759,7 +752,7 @@ export default function HomePage() {
                           {event.title}
                         </p>
                         <div className="flex items-center gap-1 mt-2 text-xs text-gray-600 group-hover:text-green-400 transition-colors duration-200" style={sans}>
-                          <span>View details</span>
+                          <span>{t('events.viewDetails')}</span>
                           <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                           </svg>
@@ -778,17 +771,17 @@ export default function HomePage() {
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75" />
                   <span className="relative inline-flex rounded-full h-2 w-2 bg-green-400" />
                 </span>
-                Upcoming Events
+                {t('events.upcomingEvents')}
               </h3>
               <div className="space-y-4">
                 {[
                   {
-                    date: 'May 18–21, 2026 — Dakar, Senegal',
-                    title: 'Regional capacity-building workshop on reporting for Francophone African countries (Annex I Parties).',
+                    date: t('events.upcoming1.date'),
+                    title: t('events.upcoming1.title'),
                   },
                   {
-                    date: 'June 15–18, 2026 — Nairobi, Kenya',
-                    title: 'Regional capacity-building workshop on reporting for Anglophone African countries (Annex I Parties).',
+                    date: t('events.upcoming2.date'),
+                    title: t('events.upcoming2.title'),
                   },
                 ].map((event, i) => (
                   <div
@@ -828,31 +821,31 @@ export default function HomePage() {
                     </svg>
                   </div>
                   <h3 className="text-lg font-bold text-white" style={serif}>
-                    The Sahara and Sahel Observatory (OSS)
+                    {t('oss.heading')}
                   </h3>
                 </div>
                 <p className="text-sm text-green-400/80 font-medium mb-6" style={sans}>
-                  A UNCCD strategic partner and a regional hub for reporting on Land Degradation Neutrality (LDN)
+                  {t('oss.subtitle')}
                 </p>
 
                 {/* Intro */}
                 <p className="text-sm text-gray-400 leading-relaxed mb-6" style={sans}>
-                  The Sahara and Sahel Observatory (OSS) is an Africa-focused international organization supporting countries in addressing challenges related to land degradation, climate change, biodiversity, and water resource management.
+                  {t('oss.intro')}
                 </p>
 
                 {/* Designated as Regional Support Hub */}
                 <div className="mb-8">
                   <p className="text-sm text-gray-300 leading-relaxed mb-3" style={sans}>
-                    In April 2026, OSS was designated as a Regional Support Hub to support African countries in reporting on:
+                    {t('oss.designatedHub.text')}
                   </p>
                   <ul className="space-y-2 ml-4">
                     <li className="flex items-start gap-3 text-sm text-gray-300" style={sans}>
                       <span className="text-green-400 mt-0.5">&#8226;</span>
-                      <span>SDG Indicator 15.3.1 (proportion of degraded land).</span>
+                      <span>{t('oss.designatedHub.item1')}</span>
                     </li>
                     <li className="flex items-start gap-3 text-sm text-gray-300" style={sans}>
                       <span className="text-green-400 mt-0.5">&#8226;</span>
-                      <span>Land degradation and drought monitoring.</span>
+                      <span>{t('oss.designatedHub.item2')}</span>
                     </li>
                   </ul>
                 </div>
@@ -861,16 +854,16 @@ export default function HomePage() {
                 <div className="mb-8">
                   <h4 className="text-base font-bold text-white mb-4 flex items-center gap-2" style={serif}>
                     <div className="w-1 h-5 rounded-full bg-green-400" />
-                    A Technical Engine for Africa
+                    {t('oss.technicalEngine.heading')}
                   </h4>
                   <p className="text-sm text-gray-400 leading-relaxed mb-3" style={sans}>
-                    OSS is supporting evidence-based policymaking and contributing to accelerate progress toward Land Degradation Neutrality by leveraging:
+                    {t('oss.technicalEngine.description')}
                   </p>
                   <ul className="space-y-2 ml-4">
                     {[
-                      'Earth Observation and Artificial Intelligence;',
-                      'Advanced analytics and digital tools;',
-                      'Experiences from sustainable land restoration regional initiatives.',
+                      t('oss.technicalEngine.item1'),
+                      t('oss.technicalEngine.item2'),
+                      t('oss.technicalEngine.item3'),
                     ].map((item, i) => (
                       <li key={i} className="flex items-start gap-3 text-sm text-gray-300" style={sans}>
                         <span className="text-green-400 mt-0.5">&#8226;</span>
@@ -884,16 +877,16 @@ export default function HomePage() {
                 <div className="mb-8">
                   <h4 className="text-base font-bold text-white mb-4 flex items-center gap-2" style={serif}>
                     <div className="w-1 h-5 rounded-full bg-green-400" />
-                    A Lead of Capacity-Building and Technical Support
+                    {t('oss.capacityBuilding.heading')}
                   </h4>
                   <p className="text-sm text-gray-400 leading-relaxed mb-3" style={sans}>
-                    In partnership with organizations such as UNCCD, RCMRD, OSS supports:
+                    {t('oss.capacityBuilding.description')}
                   </p>
                   <ul className="space-y-2 ml-4">
                     {[
-                      'Training and webinars;',
-                      'The 2026 LDN reporting cycle;',
-                      'English and French-speaking countries\' focal points and key experts.',
+                      t('oss.capacityBuilding.item1'),
+                      t('oss.capacityBuilding.item2'),
+                      t('oss.capacityBuilding.item3'),
                     ].map((item, i) => (
                       <li key={i} className="flex items-start gap-3 text-sm text-gray-300" style={sans}>
                         <span className="text-green-400 mt-0.5">&#8226;</span>
@@ -907,13 +900,13 @@ export default function HomePage() {
                 <div className="pt-6 border-t border-white/5">
                   <h4 className="text-base font-bold text-white mb-4 flex items-center gap-2" style={serif}>
                     <div className="w-1 h-5 rounded-full bg-green-400" />
-                    Supporting Regional Initiatives
+                    {t('oss.regionalInitiatives.heading')}
                   </h4>
                   <div className="grid sm:grid-cols-3 gap-3">
                     {[
-                      { label: 'Great Green Wall Initiative', icon: '🌿' },
-                      { label: 'Land restoration programs', icon: '🌱' },
-                      { label: 'Drought resilience efforts', icon: '💧' },
+                      { label: t('oss.regionalInitiatives.item1'), icon: '🌿' },
+                      { label: t('oss.regionalInitiatives.item2'), icon: '🌱' },
+                      { label: t('oss.regionalInitiatives.item3'), icon: '💧' },
                     ].map((item, i) => (
                       <div key={i} className="flex items-center gap-3 p-4 rounded-lg bg-white/[0.03] border border-white/5">
                         <span className="text-lg">{item.icon}</span>
@@ -933,11 +926,11 @@ export default function HomePage() {
             <div className="flex items-center gap-3 mb-6">
               <div className="w-1 h-8 rounded-full bg-green-400" />
               <h2 className="text-2xl lg:text-3xl font-bold text-white" style={serif}>
-                Contact Us
+                {t('contact.heading')}
               </h2>
             </div>
             <p className="text-sm text-gray-400 leading-relaxed mb-8 max-w-2xl" style={sans}>
-              Do you have a question or need assistance?
+              {t('contact.description')}
             </p>
 
             <div className="max-w-2xl">
@@ -946,7 +939,7 @@ export default function HomePage() {
                   {/* Name */}
                   <div>
                     <label htmlFor="contact-name" className="block text-xs text-gray-500 uppercase tracking-widest mb-2" style={sans}>
-                      Name
+                      {t('contact.name')}
                     </label>
                     <input
                       id="contact-name"
@@ -954,7 +947,7 @@ export default function HomePage() {
                       required
                       value={contactForm.name}
                       onChange={e => setContactForm(prev => ({ ...prev, name: e.target.value }))}
-                      placeholder="Your name"
+                      placeholder={t('contact.namePlaceholder')}
                       className="w-full px-4 py-3 rounded-lg bg-white/[0.04] border border-white/10 text-sm text-white placeholder-gray-600 focus:outline-none focus:border-green-400/40 focus:ring-1 focus:ring-green-400/20 transition-colors"
                       style={sans}
                     />
@@ -962,7 +955,7 @@ export default function HomePage() {
                   {/* Email */}
                   <div>
                     <label htmlFor="contact-email" className="block text-xs text-gray-500 uppercase tracking-widest mb-2" style={sans}>
-                      Email
+                      {t('contact.email')}
                     </label>
                     <input
                       id="contact-email"
@@ -970,7 +963,7 @@ export default function HomePage() {
                       required
                       value={contactForm.email}
                       onChange={e => setContactForm(prev => ({ ...prev, email: e.target.value }))}
-                      placeholder="you@example.com"
+                      placeholder={t('contact.emailPlaceholder')}
                       className="w-full px-4 py-3 rounded-lg bg-white/[0.04] border border-white/10 text-sm text-white placeholder-gray-600 focus:outline-none focus:border-green-400/40 focus:ring-1 focus:ring-green-400/20 transition-colors"
                       style={sans}
                     />
@@ -980,7 +973,7 @@ export default function HomePage() {
                 {/* Subject */}
                 <div>
                   <label htmlFor="contact-subject" className="block text-xs text-gray-500 uppercase tracking-widest mb-2" style={sans}>
-                    Subject
+                    {t('contact.subject')}
                   </label>
                   <input
                     id="contact-subject"
@@ -988,7 +981,7 @@ export default function HomePage() {
                     required
                     value={contactForm.subject}
                     onChange={e => setContactForm(prev => ({ ...prev, subject: e.target.value }))}
-                    placeholder="What is this about?"
+                    placeholder={t('contact.subjectPlaceholder')}
                     className="w-full px-4 py-3 rounded-lg bg-white/[0.04] border border-white/10 text-sm text-white placeholder-gray-600 focus:outline-none focus:border-green-400/40 focus:ring-1 focus:ring-green-400/20 transition-colors"
                     style={sans}
                   />
@@ -997,7 +990,7 @@ export default function HomePage() {
                 {/* Message */}
                 <div>
                   <label htmlFor="contact-message" className="block text-xs text-gray-500 uppercase tracking-widest mb-2" style={sans}>
-                    Message
+                    {t('contact.message')}
                   </label>
                   <textarea
                     id="contact-message"
@@ -1005,7 +998,7 @@ export default function HomePage() {
                     rows={5}
                     value={contactForm.message}
                     onChange={e => setContactForm(prev => ({ ...prev, message: e.target.value }))}
-                    placeholder="Tell us how we can help..."
+                    placeholder={t('contact.messagePlaceholder')}
                     className="w-full px-4 py-3 rounded-lg bg-white/[0.04] border border-white/10 text-sm text-white placeholder-gray-600 focus:outline-none focus:border-green-400/40 focus:ring-1 focus:ring-green-400/20 transition-colors resize-none"
                     style={sans}
                   />
@@ -1033,18 +1026,18 @@ export default function HomePage() {
                           <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
                           <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
                         </svg>
-                        Sending...
+                        {t('contact.sending')}
                       </>
                     ) : contactStatus === 'success' ? (
                       <>
                         <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                         </svg>
-                        Message Sent!
+                        {t('contact.sent')}
                       </>
                     ) : (
                       <>
-                        Send Message
+                        {t('contact.send')}
                         <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                         </svg>
@@ -1052,7 +1045,7 @@ export default function HomePage() {
                     )}
                   </button>
                   {contactStatus === 'error' && (
-                    <p className="text-sm text-red-400" style={sans}>Something went wrong. Please try again.</p>
+                    <p className="text-sm text-red-400" style={sans}>{t('contact.error')}</p>
                   )}
                 </div>
               </form>

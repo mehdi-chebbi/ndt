@@ -1,0 +1,154 @@
+{
+  "hero": {
+    "eyebrow": "Monitoring, Data & SDG 15.3.1",
+    "title": "Land Degradation Neutrality (LDN)",
+    "titleHighlight": "in Africa",
+    "description": "Learn how Africa is addressing land degradation through Land Degradation Neutrality (LDN). Explore challenges, indicators, and monitoring tools supporting SDG 15.3.1.",
+    "tagline": "Halt and reverse land degradation. Restore ecosystems. Build resilience."
+  },
+  "whatIsLdn": {
+    "paragraph1Before": "",
+    "ldnLinkText": "Land Degradation Neutrality (LDN)",
+    "paragraph1After": "is a global commitment to ensure that land degradation is balanced by restoration, so that the overall amount of healthy and productive land remains stable or increases over time.",
+    "paragraph2Before": "In Africa, where land is central to livelihoods, food systems, and ecosystems, achieving",
+    "ldnShortLinkText": "LDN",
+    "paragraph2After": "is essential for sustainable development and climate resilience."
+  },
+  "whatIsLdnCard": {
+    "heading": "What is Land Degradation Neutrality (LDN)?",
+    "paragraph1Before": "",
+    "ldnLinkText": "Land Degradation Neutrality (LDN)",
+    "paragraph1Middle": "is a target under the",
+    "unccdLinkText": "United Nations Convention to Combat Desertification (UNCCD)",
+    "paragraph1After": ". It aims to maintain or improve the quantity and quality of land resources needed to support ecosystem functions and human well-being."
+  },
+  "landDegradationInAfrica": {
+    "heading": "Land Degradation in Africa",
+    "description": "Land degradation is a major environmental and socio-economic challenge across Africa.",
+    "keyDriversLabel": "Key drivers include:",
+    "driver1": "Climate change and increasing drought frequency;",
+    "driver2": "Unsustainable agricultural and land-use practices;",
+    "driver3": "Deforestation and loss of vegetation cover;",
+    "driver4": "Soil erosion and land mismanagement."
+  },
+  "keyFacts": {
+    "heading": "Key Facts",
+    "fact1": "Over 65% of productive land in Africa is affected by degradation.",
+    "fact2": "More than 40% of the population depends directly on land resources.",
+    "fact3": "Land degradation significantly impacts food security and rural livelihoods.",
+    "fact4": "It contributes to biodiversity loss and climate vulnerability."
+  },
+  "monitoring": {
+    "heading": "Monitoring LDN in Africa",
+    "paragraph1": "Monitoring Land Degradation Neutrality in Africa is based on a set of globally agreed indicators, complemented by a broader framework under the UNCCD Performance Review and Assessment of Implementation System (PRAIS). This allows countries to assess land condition and track progress over time.",
+    "indicatorsLabel": "At the global level, LDN monitoring relies on three key indicators:",
+    "indicator1": "Land cover change, which tracks transitions between forests, croplands, grasslands, and other land types.",
+    "indicator2": "Land productivity dynamics, which measure vegetation health and biological productivity.",
+    "indicator3": "Soil organic carbon, which indicates soil quality and carbon storage capacity.",
+    "combinedIndicators": "These indicators are combined to produce the SDG Indicator 15.3.1: \"Proportion of degraded land over total land area\"."
+  },
+  "praisFramework": {
+    "heading": "Beyond Core Indicators: The PRAIS Framework:",
+    "description": "In addition to the three core indicators, countries report through the UNCCD PRAIS system, which includes a wider set of indicators and information to assess progress toward LDN.",
+    "includeLabel": "These include:",
+    "item1": "Policy and institutional indicators, integrating LDN into national strategies.",
+    "item2": "Land restoration and sustainable land management actions.",
+    "item3": "Drought monitoring and vulnerability indicators.",
+    "item4": "Implementation and reporting metrics supporting national and global assessments."
+  },
+  "implementation": {
+    "heading": "How LDN is implemented in Africa",
+    "introLabel": "African countries are actively working toward achieving LDN through:",
+    "action1": "Setting national LDN targets;",
+    "action2": "Integrating LDN into national policies and strategies;",
+    "action3": "Implementing land restoration and sustainable land management practices;",
+    "action4": "Strengthening monitoring and reporting systems;",
+    "alignedLabel": "These efforts are aligned with:",
+    "alignment1": "The 2030 Agenda for Sustainable Development;",
+    "alignment2": "Agenda 2063 of the African Union;",
+    "alignment3": "National environmental and agricultural policies."
+  },
+  "platformSupport": {
+    "heading": "How this platform supports LDN",
+    "intro": "The Africa's Land Degradation Monitoring Platform plays a key role in supporting LDN implementation by providing:",
+    "feature1Text": "Harmonized datasets across Africa",
+    "feature2Text": "Tools to monitor land degradation trends over time",
+    "feature3Before": "Geospatial analysis through the",
+    "feature3LinkText": "Geoportal",
+    "feature4Text": "Dashboards for SDG 15.3.1 reporting and analysis",
+    "feature5Text": "Decision-support systems for policymakers and stakeholders"
+  },
+  "whyLdnMatters": {
+    "heading": "Why LDN matters for Africa",
+    "introLabel": "Achieving Land Degradation Neutrality is essential to:",
+    "reason1": "Ensure food security;",
+    "reason2": "Protect ecosystems and biodiversity;",
+    "reason3": "Strengthen climate resilience;",
+    "reason4": "Sustain water resources;",
+    "reason5": "Improve livelihoods for millions of people.",
+    "closingText": "LDN is not only an environmental goal, but it is also a development priority for Africa!"
+  },
+  "exploreTools": {
+    "heading": "Explore LDN monitoring data and tools",
+    "viewDashboard": "View LDN Dashboard",
+    "accessGeoportal": "Access Geoportal",
+    "learnMoreResources": "Learn more in Resources"
+  },
+  "ldnInAfricaBox": {
+    "heading": "Land Degradation Neutrality in Africa",
+    "subtitle": "Global framework, regional action, and country-level implementation",
+    "conceptPromotion": {
+      "heading": "Concept promotion",
+      "paragraph1Before": "In October 2015, the",
+      "cop12LinkText": "12th Conference of the Parties (COP12)",
+      "paragraph1Middle": "of the",
+      "unccdLinkText": "United Nations Convention to Combat Desertification (UNCCD)",
+      "paragraph1Middle2": "introduced the concept of",
+      "ldnLinkText": "Land Degradation Neutrality (LDN)",
+      "paragraph2Before": "That same year, LDN was adopted as",
+      "targetLinkText": "Target 15.3",
+      "paragraph2Middle": "of the",
+      "sdgLinkText": "Sustainable Development Goals (SDG 15 - Life on Land)",
+      "sdgQuote": "Combat desertification, restore degraded land and soil, including land affected by desertification, drought and floods, and strive to achieve a land degradation-neutral world by 2030."
+    },
+    "globalProgress": {
+      "heading": "Global progress on LDN Targets",
+      "intro": "Countries worldwide are actively engaging in the LDN target-setting process:",
+      "item1": "130+ countries are committed to setting LDN targets;",
+      "item2": "82 countries reported on voluntary LDN targets (2022 reporting cycle);",
+      "item3": "64 countries have published high-level LDN target notes.",
+      "closing": "Additional countries are currently developing or updating their targets"
+    },
+    "supportingImplementation": {
+      "heading": "Supporting LDN implementation",
+      "intro": "International and regional partners play a key role in supporting countries, including:",
+      "faoLinkText": "FAO (Food and Agriculture Organization)",
+      "rcmrdLinkText": "RCMRD (Regional Centre for Mapping of Resources for Development)",
+      "ossLinkText": "OSS (Sahara and Sahel Observatory)",
+      "supportLabel": "These institutions support:",
+      "support1": "Strengthening LDN monitoring and reporting;",
+      "support2": "Improving data and indicators;",
+      "support3": "Promoting sustainable land management practices."
+    },
+    "countryProfiles": {
+      "heading": "Country profiles and decision support",
+      "intro": "Each participating country develops an LDN country profile, providing:",
+      "item1": "Evidence-based analysis of land degradation;",
+      "item2": "Priority areas for intervention;",
+      "item3": "Strategic guidance to support investment and policy decisions."
+    },
+    "africaEngagement": {
+      "heading": "Africa's engagement",
+      "intro": "African countries are strongly engaged in the LDN process, with many:",
+      "action1Before": "Setting or updating",
+      "action1LinkText": "national LDN targets",
+      "action2Before": "Strengthening",
+      "action2LinkText": "monitoring systems and reporting capacities",
+      "action3Before": "Implementing",
+      "action3LinkText": "land restoration and sustainable land management initiatives"
+    }
+  },
+  "placeholders": {
+    "image": "Image Placeholder"
+  }
+}

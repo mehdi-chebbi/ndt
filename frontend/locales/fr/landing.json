@@ -21,60 +21,182 @@
     "dataSources": "Sources de données",
     "communityDrivenQuality": "Qualité collaborative"
   },
-  "features": {
-    "heading": "Capacités de la plateforme",
-    "interactiveMap": {
-      "title": "Carte interactive",
-      "description": "Explorez les couches géospatiales de plus de 54 pays. Comparez les vues côte à côte, tracez des polygones personnalisés, basculez entre les styles satellite, relief et sombre.",
-      "tags": {
-        "polygonDraw": "Tracé de polygones",
-        "sideBySide": "Côte à côte",
-        "export": "Export"
-      }
-    },
-    "waterWatch": {
-      "description": "Suivez les progrès en matière d'accès à l'eau de 2000 à 2023. Consultez les classements par pays, les écarts urbain/rural et les graphiques de tendances sur plusieurs décennies à travers le continent.",
-      "tags": {
-        "dateRange": "2000–2023",
-        "urbanRural": "Urbain/Rural",
-        "rankings": "Classements"
-      }
-    },
-    "giniWatch": {
-      "description": "Suivez les inégalités de revenus (indice de Gini) de 2000 à 2023. Comparez les niveaux d'égalité, identifiez les pays qui se sont améliorés ou dégradés, et explorez les tendances statistiques.",
-      "tags": {
-        "dateRange": "2000–2023",
-        "giniIndex": "Indice de Gini",
-        "trends": "Tendances"
-      }
-    },
-    "statisticalAnalysis": {
-      "title": "Analyse statistique",
-      "description": "Tracez n'importe quelle région sur la carte et obtenez instantanément des statistiques détaillées, des ventilations de données et des mesures pour cette zone personnalisée.",
-      "tags": {
-        "customArea": "Zone personnalisée",
-        "instantStats": "Stats instantanées",
-        "breakdowns": "Ventilations"
-      }
-    },
-    "dataReporting": {
-      "title": "Signalement de données",
-      "description": "Signalez les données incorrectes directement sur la carte, ajoutez des commentaires contextuels et suivez la résolution des problèmes — pour maintenir la fiabilité du jeu de données.",
-      "tags": {
-        "flagIssues": "Signaler des erreurs",
-        "comments": "Commentaires",
-        "trackFixes": "Suivi des corrections"
-      }
+  "ldnPlatform": {
+    "heading": "Système intégré de surveillance de la dégradation des terres en Afrique",
+    "subtitle": "Plateforme LDN Afrique",
+    "description": "Suivi de la dégradation des terres en Afrique pour appuyer la gestion durable des terres et la neutralité de la dégradation des terres (NDT).",
+    "tagline": "Accéder aux données. Analyser les tendances. Soutenir la prise de décision.",
+    "overview": {
+      "title": "Aperçu du Système de Surveillance de la Dégradation des Terres en Afrique | Plateforme LDN Afrique",
+      "paragraph1": "La dégradation des terres est l'un des défis environnementaux les plus pressants en Afrique, affectant la productivité agricole, la disponibilité de l'eau, la biodiversité et la résilience climatique. Selon les évaluations mondiales, l'Afrique perd des millions d'hectares de terres productives chaque année en raison de l'érosion des sols, de la désertification et de pratiques d'utilisation des terres non durables.",
+      "paragraph2": "Cette plateforme fournit un système centralisé et intégré pour la surveillance de la dégradation des terres en Afrique, permettant aux pays, institutions et parties prenantes de :",
+      "item1": "Suivre les progrès vers la neutralité de la dégradation des terres (NDT).",
+      "item2": "Suivre l'indicateur ODD 15.3.1 (proportion de terres dégradées).",
+      "item3": "Accéder à des jeux de données géospatiales et des indicateurs harmonisés.",
+      "closingParagraph": "En combinant les données d'observation de la Terre, les informations nationales et les outils analytiques, la plateforme soutient la prise de décision fondée sur les données aux niveaux national et régional."
     }
   },
-  "audience": {
-    "title": "Conçu pour les chercheurs, les décideurs politiques et les organisations de développement",
-    "tail": " — au carrefour des données et de l'impact sur le continent africain.",
-    "requestAccess": "Demander l'accès"
+  "keyFacts": {
+    "heading": "Dégradation des terres en Afrique : Faits clés",
+    "fact1": "des terres productives de l'Afrique sont dégradées (estimations de la CNULCD).",
+    "fact2": "Près de 3 millions d'hectares de forêt sont perdus chaque année en Afrique.",
+    "fact3": "Plus de 40 % de la population dépend de terres dégradées pour sa subsistance.",
+    "fact4": "La dégradation des terres coûte aux économies africaines des milliards de dollars américains chaque année.",
+    "closingText": "Surveiller et inverser ces tendances est essentiel pour atteindre un développement durable et la résilience climatique."
   },
-  "footer": {
-    "about": "À propos",
-    "documentation": "Documentation",
-    "contact": "Contact"
+  "roleOfLDN": {
+    "heading": "Le rôle de la plateforme LDN en Afrique",
+    "description": "La plateforme LDN Afrique sert de système centralisé pour la surveillance de la dégradation des terres en Afrique, intégrant des données environnementales, géospatiales et hydrologiques en un seul point d'accès.",
+    "contributesTo": "La plateforme contribue à :",
+    "item1": "Améliorer la précision de la surveillance de la dégradation des terres aux niveaux national et continental.",
+    "item2": "Soutenir la planification de l'utilisation durable des terres et la gestion agricole.",
+    "item3": "Faciliter les rapports sur la neutralité de la dégradation des terres (NDT) et l'ODD 15.3.1.",
+    "item4": "Renforcer la prise de décision fondée sur les données pour les politiques environnementales et les stratégies de restauration.",
+    "closingParagraph": "En transformant les données en informations exploitables, la plateforme permet aux parties prenantes de mieux comprendre la dynamique de la dégradation des terres et de prendre des mesures efficaces pour atteindre la neutralité de la dégradation des terres en Afrique."
+  },
+  "keyAssets": {
+    "heading": "Atouts clés du Système intégré de surveillance de la dégradation des terres en Afrique",
+    "description": "Ce système comble le fossé entre les données et la prise de décision en fournissant :",
+    "item1": "Des jeux de données fiables et harmonisés à travers l'Afrique.",
+    "item2": "Des outils pour surveiller les tendances de dégradation des terres au fil du temps.",
+    "item3": "Un soutien pour les cadres de rapport nationaux et internationaux.",
+    "item4": "Un espace partagé pour la connaissance, la collaboration et l'innovation.",
+    "closingText": "Permettre aux parties prenantes de passer des données à l'action."
+  },
+  "audience": {
+    "heading": "À qui s'adresse cette plateforme ?",
+    "description": "Cette plateforme est conçue pour un large éventail de parties prenantes impliquées dans la gestion des terres et la surveillance environnementale :",
+    "policymakers": {
+      "label": "Décideurs politiques",
+      "desc": "suivi des objectifs NDT et des rapports nationaux."
+    },
+    "researchers": {
+      "label": "Chercheurs et scientifiques",
+      "desc": "analyse des tendances de dégradation des terres."
+    },
+    "ngos": {
+      "label": "ONG et partenaires de développement",
+      "desc": "mise en œuvre d'initiatives de restauration."
+    },
+    "internationalOrgs": {
+      "label": "Organisations internationales",
+      "desc": "soutien au suivi des ODD et à l'action climatique."
+    }
+  },
+  "mainFeatures": {
+    "heading": "Principales fonctionnalités de la plateforme",
+    "continentalData": {
+      "title": "Données sur la dégradation des terres à l'échelle continentale",
+      "desc": "Issues de jeux de données dérivés de l'observation de la Terre et harmonisés à travers l'Afrique."
+    },
+    "geoportal": {
+      "title": "Géoportail interactif pour l'analyse spatiale",
+      "desc": "Explorez les indicateurs de couverture terrestre, de productivité et des sols grâce à des cartes dynamiques."
+    },
+    "dashboards": {
+      "title": "Tableaux de bord pour le suivi de la NDT et de l'ODD 15.3.1",
+      "desc": "Analysez les tendances, comparez les pays et suivez les progrès au fil du temps."
+    },
+    "resources": {
+      "title": "Ressources et méthodologies",
+      "desc": "Accédez aux directives, outils et documentation pour l'évaluation de la dégradation des terres."
+    },
+    "successStories": {
+      "title": "Histoires de succès et bonnes pratiques",
+      "desc": "Apprenez des solutions concrètes mises en œuvre dans les pays africains."
+    }
+  },
+  "startExploring": {
+    "heading": "Commencer à explorer",
+    "exploreData": "Explorer les données sur la dégradation des terres",
+    "geoportal": "Accéder au Géoportail",
+    "ldnDashboard": "Voir le tableau de bord LDN",
+    "successStories": "Explorer les histoires de succès",
+    "browseResources": "Parcourir les ressources",
+    "explore": "Explorer"
+  },
+  "dataSources": {
+    "text": "Les sources de données incluent l'OSS, l'ESA, la CNULCD, la FAO, les produits d'observation de la Terre et les jeux de données nationaux."
+  },
+  "events": {
+    "heading": "Événements et actualités",
+    "eventsHeld": "Événements déjà tenus",
+    "upcomingEvents": "Événements à venir",
+    "viewDetails": "Voir les détails",
+    "held1": {
+      "date": "26 février 2026",
+      "title": "Deuxième webinaire dédié au cycle de rapports 2026 sur la neutralité de la dégradation des terres (NDT) pour 22 pays francophones."
+    },
+    "held2": {
+      "date": "25 février 2026",
+      "title": "Premier webinaire dédié au cycle de rapports 2026 sur la neutralité de la dégradation des terres (NDT) pour 22 pays anglophones."
+    },
+    "held3": {
+      "date": "5 mars 2026",
+      "title": "Atelier – Lancement du Système de surveillance de la dégradation des terres et de la gestion durable des terres en appui à l'Initiative de la Grande Muraille Verte."
+    },
+    "held4": {
+      "date": "28 mars 2026 — Djerba, Tunisie",
+      "title": "Atelier pour renforcer les rapports sur la neutralité de la dégradation des terres, en marge du Sommet international Desertif'Actions 2026."
+    },
+    "upcoming1": {
+      "date": "18–21 mai 2026 — Dakar, Sénégal",
+      "title": "Atelier régional de renforcement des capacités sur les rapports pour les pays africains francophones (Parties de l'Annexe I)."
+    },
+    "upcoming2": {
+      "date": "15–18 juin 2026 — Nairobi, Kenya",
+      "title": "Atelier régional de renforcement des capacités sur les rapports pour les pays africains anglophones (Parties de l'Annexe I)."
+    }
+  },
+  "oss": {
+    "heading": "L'Observatoire du Sahara et du Sahel (OSS)",
+    "subtitle": "Partenaire stratégique de la CNULCD et pôle régional pour les rapports sur la neutralité de la dégradation des terres (NDT)",
+    "intro": "L'Observatoire du Sahara et du Sahel (OSS) est une organisation internationale axée sur l'Afrique, soutenant les pays dans la lutte contre les défis liés à la dégradation des terres, au changement climatique, à la biodiversité et à la gestion des ressources en eau.",
+    "designatedHub": {
+      "text": "En avril 2026, l'OSS a été désigné comme Pôle régional d'appui pour soutenir les pays africains dans les rapports sur :",
+      "item1": "L'indicateur ODD 15.3.1 (proportion de terres dégradées).",
+      "item2": "Le suivi de la dégradation des terres et de la sécheresse."
+    },
+    "technicalEngine": {
+      "heading": "Un moteur technique pour l'Afrique",
+      "description": "L'OSS soutient la prise de décision fondée sur les données et contribue à accélérer les progrès vers la neutralité de la dégradation des terres en s'appuyant sur :",
+      "item1": "L'observation de la Terre et l'intelligence artificielle ;",
+      "item2": "L'analyse avancée et les outils numériques ;",
+      "item3": "Les expériences des initiatives régionales de restauration durable des terres."
+    },
+    "capacityBuilding": {
+      "heading": "Un leader du renforcement des capacités et de l'accompagnement technique",
+      "description": "En partenariat avec des organisations telles que la CNULCD, le RCMRD, l'OSS soutient :",
+      "item1": "Les formations et webinaires ;",
+      "item2": "Le cycle de rapports NDT 2026 ;",
+      "item3": "Les points focaux et experts clés des pays anglophones et francophones."
+    },
+    "regionalInitiatives": {
+      "heading": "Soutien aux initiatives régionales",
+      "item1": "Initiative de la Grande Muraille Verte",
+      "item2": "Programmes de restauration des terres",
+      "item3": "Efforts de résilience à la sécheresse"
+    }
+  },
+  "contact": {
+    "heading": "Contactez-nous",
+    "description": "Avez-vous une question ou besoin d'assistance ?",
+    "name": "Nom",
+    "namePlaceholder": "Votre nom",
+    "email": "E-mail",
+    "emailPlaceholder": "vous@exemple.com",
+    "subject": "Sujet",
+    "subjectPlaceholder": "De quoi s'agit-il ?",
+    "message": "Message",
+    "messagePlaceholder": "Dites-nous comment nous pouvons vous aider...",
+    "sending": "Envoi en cours...",
+    "sent": "Message envoyé !",
+    "send": "Envoyer le message",
+    "error": "Un problème est survenu. Veuillez réessayer."
+  },
+  "placeholders": {
+    "image": "Espace image",
+    "image1": "Espace image 1",
+    "image2": "Espace image 2"
   }
 }

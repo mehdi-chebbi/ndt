@@ -1,11 +1,14 @@
 'use client'
 
 import Link from 'next/link'
+import { useTranslation } from 'react-i18next'
 
 const sans = { fontFamily: 'system-ui, sans-serif' }
 const serif = { fontFamily: "'Georgia', serif" }
 
 export default function LDNInAfricaPage() {
+  const { t } = useTranslation('ldn-in-africa')
+
   return (
     <div className="min-h-screen bg-[#0a0f0d] text-white" style={serif}>
       {/* Ambient background grid */}
@@ -48,29 +51,28 @@ export default function LDNInAfricaPage() {
             <div className="flex items-center gap-2 mb-8">
               <div className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
               <span className="text-xs uppercase tracking-[0.2em] text-green-400/80" style={sans}>
-                Monitoring, Data &amp; SDG 15.3.1
+                {t('hero.eyebrow')}
               </span>
             </div>
 
             <h1 className="text-4xl lg:text-6xl font-bold leading-[1.1] mb-6 max-w-5xl" style={{ ...serif, letterSpacing: '-0.02em' }}>
-              Land Degradation Neutrality (LDN){' '}
+              {t('hero.title')}{' '}
               <span style={{
                 background: 'linear-gradient(135deg, #22c55e 0%, #4ade80 50%, #86efac 100%)',
                 WebkitBackgroundClip: 'text',
                 WebkitTextFillColor: 'transparent',
                 backgroundClip: 'text',
               }}>
-                in Africa
+                {t('hero.titleHighlight')}
               </span>
             </h1>
 
             <p className="text-lg lg:text-xl text-gray-400 max-w-3xl mb-6 leading-relaxed" style={sans}>
-              Learn how Africa is addressing land degradation through Land Degradation Neutrality (LDN).
-              Explore challenges, indicators, and monitoring tools supporting SDG 15.3.1.
+              {t('hero.description')}
             </p>
 
             <p className="text-base text-green-400/90 font-medium" style={{ ...sans, letterSpacing: '0.02em' }}>
-              Halt and reverse land degradation. Restore ecosystems. Build resilience.
+              {t('hero.tagline')}
             </p>
           </div>
 
@@ -81,7 +83,7 @@ export default function LDNInAfricaPage() {
                 <svg className="w-12 h-12 text-gray-600 mx-auto mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
                 </svg>
-                <p className="text-xs text-gray-600 uppercase tracking-widest" style={sans}>Image Placeholder</p>
+                <p className="text-xs text-gray-600 uppercase tracking-widest" style={sans}>{t('placeholders.image')}</p>
               </div>
             </div>
           </div>
@@ -96,22 +98,22 @@ export default function LDNInAfricaPage() {
                   rel="noopener noreferrer"
                   className="text-green-400 underline underline-offset-2 hover:text-green-300 transition-colors"
                 >
-                  Land Degradation Neutrality (LDN)
+                  {t('whatIsLdn.ldnLinkText')}
                 </a>{' '}
-                is a global commitment to ensure that land degradation is balanced by restoration, so that the overall amount of healthy and productive land remains stable or increases over time.
+                {t('whatIsLdn.paragraph1After')}
               </p>
 
               <p className="text-base text-gray-300 leading-relaxed mb-6" style={sans}>
-                In Africa, where land is central to livelihoods, food systems, and ecosystems, achieving{' '}
+                {t('whatIsLdn.paragraph2Before')}{' '}
                 <a
                   href="https://www.unccd.int/land-and-life/land-degradation-neutrality/ldn-principles"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-green-400 underline underline-offset-2 hover:text-green-300 transition-colors"
                 >
-                  LDN
+                  {t('whatIsLdn.ldnShortLinkText')}
                 </a>{' '}
-                is essential for sustainable development and climate resilience.
+                {t('whatIsLdn.paragraph2After')}
               </p>
             </div>
           </div>
@@ -128,7 +130,7 @@ export default function LDNInAfricaPage() {
                     </svg>
                   </div>
                   <h2 className="text-xl lg:text-2xl font-bold text-white" style={serif}>
-                    What is Land Degradation Neutrality (LDN)?
+                    {t('whatIsLdnCard.heading')}
                   </h2>
                 </div>
 
@@ -141,18 +143,18 @@ export default function LDNInAfricaPage() {
                       rel="noopener noreferrer"
                       className="text-green-400 underline underline-offset-2 hover:text-green-300 transition-colors"
                     >
-                      Land Degradation Neutrality (LDN)
+                      {t('whatIsLdnCard.ldnLinkText')}
                     </a>{' '}
-                    is a target under the{' '}
+                    {t('whatIsLdnCard.paragraph1Middle')}{' '}
                     <a
                       href="https://www.unccd.int/land-and-life"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-green-400 underline underline-offset-2 hover:text-green-300 transition-colors"
                     >
-                      United Nations Convention to Combat Desertification (UNCCD)
+                      {t('whatIsLdnCard.unccdLinkText')}
                     </a>
-                    . It aims to maintain or improve the quantity and quality of land resources needed to support ecosystem functions and human well-being.
+                    {t('whatIsLdnCard.paragraph1After')}
                   </p>
                 </div>
 
@@ -162,7 +164,7 @@ export default function LDNInAfricaPage() {
                     <svg className="w-10 h-10 text-gray-600 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
                     </svg>
-                    <p className="text-xs text-gray-600 uppercase tracking-widest" style={sans}>Image Placeholder</p>
+                    <p className="text-xs text-gray-600 uppercase tracking-widest" style={sans}>{t('placeholders.image')}</p>
                   </div>
                 </div>
               </div>
@@ -172,36 +174,36 @@ export default function LDNInAfricaPage() {
           {/* ── Land Degradation in Africa ──────────────────────────── */}
           <div className="mb-20">
             <h2 className="text-xl lg:text-2xl font-bold text-white mb-6" style={serif}>
-              Land Degradation in Africa
+              {t('landDegradationInAfrica.heading')}
             </h2>
 
             <div className="flex flex-col lg:flex-row gap-8">
               {/* Text side */}
               <div className="flex-1">
                 <p className="text-base text-gray-300 leading-relaxed mb-6" style={sans}>
-                  Land degradation is a major environmental and socio-economic challenge across Africa.
+                  {t('landDegradationInAfrica.description')}
                 </p>
 
                 <p className="text-base text-gray-300 leading-relaxed mb-3" style={sans}>
-                  Key drivers include:
+                  {t('landDegradationInAfrica.keyDriversLabel')}
                 </p>
 
                 <ul className="space-y-2 mb-0">
                   <li className="flex items-start gap-3 text-base text-gray-300" style={sans}>
                     <span className="w-1.5 h-1.5 rounded-full bg-green-400 mt-2 shrink-0" />
-                    Climate change and increasing drought frequency;
+                    {t('landDegradationInAfrica.driver1')}
                   </li>
                   <li className="flex items-start gap-3 text-base text-gray-300" style={sans}>
                     <span className="w-1.5 h-1.5 rounded-full bg-green-400 mt-2 shrink-0" />
-                    Unsustainable agricultural and land-use practices;
+                    {t('landDegradationInAfrica.driver2')}
                   </li>
                   <li className="flex items-start gap-3 text-base text-gray-300" style={sans}>
                     <span className="w-1.5 h-1.5 rounded-full bg-green-400 mt-2 shrink-0" />
-                    Deforestation and loss of vegetation cover;
+                    {t('landDegradationInAfrica.driver3')}
                   </li>
                   <li className="flex items-start gap-3 text-base text-gray-300" style={sans}>
                     <span className="w-1.5 h-1.5 rounded-full bg-green-400 mt-2 shrink-0" />
-                    Soil erosion and land mismanagement.
+                    {t('landDegradationInAfrica.driver4')}
                   </li>
                 </ul>
               </div>
@@ -213,7 +215,7 @@ export default function LDNInAfricaPage() {
                     <svg className="w-10 h-10 text-gray-600 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
                     </svg>
-                    <p className="text-xs text-gray-600 uppercase tracking-widest" style={sans}>Image Placeholder</p>
+                    <p className="text-xs text-gray-600 uppercase tracking-widest" style={sans}>{t('placeholders.image')}</p>
                   </div>
                 </div>
               </div>
@@ -232,7 +234,7 @@ export default function LDNInAfricaPage() {
                     </svg>
                   </div>
                   <h2 className="text-xl lg:text-2xl font-bold text-white" style={serif}>
-                    Key Facts
+                    {t('keyFacts.heading')}
                   </h2>
                 </div>
 
@@ -240,19 +242,19 @@ export default function LDNInAfricaPage() {
                 <ul className="space-y-4">
                   <li className="flex items-start gap-3 text-base text-gray-300" style={sans}>
                     <span className="w-1.5 h-1.5 rounded-full bg-green-400 mt-2 shrink-0" />
-                    Over 65% of productive land in Africa is affected by degradation.
+                    {t('keyFacts.fact1')}
                   </li>
                   <li className="flex items-start gap-3 text-base text-gray-300" style={sans}>
                     <span className="w-1.5 h-1.5 rounded-full bg-green-400 mt-2 shrink-0" />
-                    More than 40% of the population depends directly on land resources.
+                    {t('keyFacts.fact2')}
                   </li>
                   <li className="flex items-start gap-3 text-base text-gray-300" style={sans}>
                     <span className="w-1.5 h-1.5 rounded-full bg-green-400 mt-2 shrink-0" />
-                    Land degradation significantly impacts food security and rural livelihoods.
+                    {t('keyFacts.fact3')}
                   </li>
                   <li className="flex items-start gap-3 text-base text-gray-300" style={sans}>
                     <span className="w-1.5 h-1.5 rounded-full bg-green-400 mt-2 shrink-0" />
-                    It contributes to biodiversity loss and climate vulnerability.
+                    {t('keyFacts.fact4')}
                   </li>
                 </ul>
 
@@ -262,7 +264,7 @@ export default function LDNInAfricaPage() {
                     <svg className="w-10 h-10 text-gray-600 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
                     </svg>
-                    <p className="text-xs text-gray-600 uppercase tracking-widest" style={sans}>Image Placeholder</p>
+                    <p className="text-xs text-gray-600 uppercase tracking-widest" style={sans}>{t('placeholders.image')}</p>
                   </div>
                 </div>
               </div>
@@ -272,67 +274,67 @@ export default function LDNInAfricaPage() {
           {/* ── Monitoring LDN in Africa ─────────────────────────────── */}
           <div className="mb-20">
             <h2 className="text-xl lg:text-2xl font-bold text-white mb-6" style={serif}>
-              Monitoring LDN in Africa
+              {t('monitoring.heading')}
             </h2>
 
             <div className="max-w-4xl">
               <p className="text-base text-gray-300 leading-relaxed mb-6" style={sans}>
-                Monitoring Land Degradation Neutrality in Africa is based on a set of globally agreed indicators, complemented by a broader framework under the UNCCD Performance Review and Assessment of Implementation System (PRAIS). This allows countries to assess land condition and track progress over time.
+                {t('monitoring.paragraph1')}
               </p>
 
               <p className="text-base text-gray-300 leading-relaxed mb-4" style={sans}>
-                At the global level, LDN monitoring relies on three key indicators:
+                {t('monitoring.indicatorsLabel')}
               </p>
 
               <ul className="space-y-3 mb-6">
                 <li className="flex items-start gap-3 text-base text-gray-300" style={sans}>
                   <span className="w-1.5 h-1.5 rounded-full bg-green-400 mt-2 shrink-0" />
-                  Land cover change, which tracks transitions between forests, croplands, grasslands, and other land types.
+                  {t('monitoring.indicator1')}
                 </li>
                 <li className="flex items-start gap-3 text-base text-gray-300" style={sans}>
                   <span className="w-1.5 h-1.5 rounded-full bg-green-400 mt-2 shrink-0" />
-                  Land productivity dynamics, which measure vegetation health and biological productivity.
+                  {t('monitoring.indicator2')}
                 </li>
                 <li className="flex items-start gap-3 text-base text-gray-300" style={sans}>
                   <span className="w-1.5 h-1.5 rounded-full bg-green-400 mt-2 shrink-0" />
-                  Soil organic carbon, which indicates soil quality and carbon storage capacity.
+                  {t('monitoring.indicator3')}
                 </li>
               </ul>
 
               <p className="text-base text-gray-300 leading-relaxed mb-6" style={sans}>
-                These indicators are combined to produce the SDG Indicator 15.3.1: "Proportion of degraded land over total land area".
+                {t('monitoring.combinedIndicators')}
               </p>
 
               {/* Beyond Core Indicators sub-section */}
               <div className="rounded-xl border border-white/10 bg-white/[0.03] p-6 lg:p-8 mb-6">
                 <h3 className="text-lg font-bold text-white mb-4" style={serif}>
-                  Beyond Core Indicators: The PRAIS Framework:
+                  {t('praisFramework.heading')}
                 </h3>
 
                 <p className="text-base text-gray-300 leading-relaxed mb-4" style={sans}>
-                  In addition to the three core indicators, countries report through the UNCCD PRAIS system, which includes a wider set of indicators and information to assess progress toward LDN.
+                  {t('praisFramework.description')}
                 </p>
 
                 <p className="text-base text-gray-300 leading-relaxed mb-3" style={sans}>
-                  These include:
+                  {t('praisFramework.includeLabel')}
                 </p>
 
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3 text-base text-gray-300" style={sans}>
                     <span className="w-1.5 h-1.5 rounded-full bg-green-400 mt-2 shrink-0" />
-                    Policy and institutional indicators, integrating LDN into national strategies.
+                    {t('praisFramework.item1')}
                   </li>
                   <li className="flex items-start gap-3 text-base text-gray-300" style={sans}>
                     <span className="w-1.5 h-1.5 rounded-full bg-green-400 mt-2 shrink-0" />
-                    Land restoration and sustainable land management actions.
+                    {t('praisFramework.item2')}
                   </li>
                   <li className="flex items-start gap-3 text-base text-gray-300" style={sans}>
                     <span className="w-1.5 h-1.5 rounded-full bg-green-400 mt-2 shrink-0" />
-                    Drought monitoring and vulnerability indicators.
+                    {t('praisFramework.item3')}
                   </li>
                   <li className="flex items-start gap-3 text-base text-gray-300" style={sans}>
                     <span className="w-1.5 h-1.5 rounded-full bg-green-400 mt-2 shrink-0" />
-                    Implementation and reporting metrics supporting national and global assessments.
+                    {t('praisFramework.item4')}
                   </li>
                 </ul>
               </div>
@@ -345,7 +347,7 @@ export default function LDNInAfricaPage() {
                   <svg className="w-10 h-10 text-gray-600 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
                   </svg>
-                  <p className="text-xs text-gray-600 uppercase tracking-widest" style={sans}>Image Placeholder</p>
+                  <p className="text-xs text-gray-600 uppercase tracking-widest" style={sans}>{t('placeholders.image')}</p>
                 </div>
               </div>
             </div>
@@ -359,7 +361,7 @@ export default function LDNInAfricaPage() {
                   <svg className="w-10 h-10 text-gray-600 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
                   </svg>
-                  <p className="text-xs text-gray-600 uppercase tracking-widest" style={sans}>Image Placeholder</p>
+                  <p className="text-xs text-gray-600 uppercase tracking-widest" style={sans}>{t('placeholders.image')}</p>
                 </div>
               </div>
             </div>
@@ -368,49 +370,49 @@ export default function LDNInAfricaPage() {
           {/* ── How LDN is implemented in Africa ──────────────────────── */}
           <div className="mb-20">
             <h2 className="text-xl lg:text-2xl font-bold text-white mb-6" style={serif}>
-              How LDN is implemented in Africa
+              {t('implementation.heading')}
             </h2>
 
             <div className="max-w-4xl">
               <p className="text-base text-gray-300 leading-relaxed mb-4" style={sans}>
-                African countries are actively working toward achieving LDN through:
+                {t('implementation.introLabel')}
               </p>
 
               <ul className="space-y-3 mb-8">
                 <li className="flex items-start gap-3 text-base text-gray-300" style={sans}>
                   <span className="w-1.5 h-1.5 rounded-full bg-green-400 mt-2 shrink-0" />
-                  Setting national LDN targets;
+                  {t('implementation.action1')}
                 </li>
                 <li className="flex items-start gap-3 text-base text-gray-300" style={sans}>
                   <span className="w-1.5 h-1.5 rounded-full bg-green-400 mt-2 shrink-0" />
-                  Integrating LDN into national policies and strategies;
+                  {t('implementation.action2')}
                 </li>
                 <li className="flex items-start gap-3 text-base text-gray-300" style={sans}>
                   <span className="w-1.5 h-1.5 rounded-full bg-green-400 mt-2 shrink-0" />
-                  Implementing land restoration and sustainable land management practices;
+                  {t('implementation.action3')}
                 </li>
                 <li className="flex items-start gap-3 text-base text-gray-300" style={sans}>
                   <span className="w-1.5 h-1.5 rounded-full bg-green-400 mt-2 shrink-0" />
-                  Strengthening monitoring and reporting systems;
+                  {t('implementation.action4')}
                 </li>
               </ul>
 
               <p className="text-base text-gray-300 leading-relaxed mb-4" style={sans}>
-                These efforts are aligned with:
+                {t('implementation.alignedLabel')}
               </p>
 
               <ul className="space-y-3">
                 <li className="flex items-start gap-3 text-base text-gray-300" style={sans}>
                   <span className="w-1.5 h-1.5 rounded-full bg-green-400 mt-2 shrink-0" />
-                  The 2030 Agenda for Sustainable Development;
+                  {t('implementation.alignment1')}
                 </li>
                 <li className="flex items-start gap-3 text-base text-gray-300" style={sans}>
                   <span className="w-1.5 h-1.5 rounded-full bg-green-400 mt-2 shrink-0" />
-                  Agenda 2063 of the African Union;
+                  {t('implementation.alignment2')}
                 </li>
                 <li className="flex items-start gap-3 text-base text-gray-300" style={sans}>
                   <span className="w-1.5 h-1.5 rounded-full bg-green-400 mt-2 shrink-0" />
-                  National environmental and agricultural policies.
+                  {t('implementation.alignment3')}
                 </li>
               </ul>
             </div>
@@ -419,44 +421,44 @@ export default function LDNInAfricaPage() {
           {/* ── How this platform supports LDN ────────────────────────── */}
           <div className="mb-20">
             <h2 className="text-xl lg:text-2xl font-bold text-white mb-6" style={serif}>
-              How this platform supports LDN
+              {t('platformSupport.heading')}
             </h2>
 
             <div className="max-w-4xl">
               <p className="text-base text-gray-300 leading-relaxed mb-6" style={sans}>
-                The Africa&apos;s Land Degradation Monitoring Platform plays a key role in supporting LDN implementation by providing:
+                {t('platformSupport.intro')}
               </p>
 
               <ul className="space-y-3 mb-6">
                 <li className="flex items-start gap-3 text-base text-gray-300" style={sans}>
                   <span className="w-1.5 h-1.5 rounded-full bg-green-400 mt-2 shrink-0" />
                   <Link href="/api-docs" className="text-green-400 underline underline-offset-2 hover:text-green-300 transition-colors">
-                    Harmonized datasets across Africa
+                    {t('platformSupport.feature1Text')}
                   </Link>;
                 </li>
                 <li className="flex items-start gap-3 text-base text-gray-300" style={sans}>
                   <span className="w-1.5 h-1.5 rounded-full bg-green-400 mt-2 shrink-0" />
                   <Link href="/map" className="text-green-400 underline underline-offset-2 hover:text-green-300 transition-colors">
-                    Tools to monitor land degradation trends over time
+                    {t('platformSupport.feature2Text')}
                   </Link>;
                 </li>
                 <li className="flex items-start gap-3 text-base text-gray-300" style={sans}>
                   <span className="w-1.5 h-1.5 rounded-full bg-green-400 mt-2 shrink-0" />
-                  Geospatial analysis through the{' '}
+                  {t('platformSupport.feature3Before')}{' '}
                   <Link href="/map" className="text-green-400 underline underline-offset-2 hover:text-green-300 transition-colors">
-                    Geoportal
+                    {t('platformSupport.feature3LinkText')}
                   </Link>;
                 </li>
                 <li className="flex items-start gap-3 text-base text-gray-300" style={sans}>
                   <span className="w-1.5 h-1.5 rounded-full bg-green-400 mt-2 shrink-0" />
                   <Link href="/dashboard" className="text-green-400 underline underline-offset-2 hover:text-green-300 transition-colors">
-                    Dashboards for SDG 15.3.1 reporting and analysis
+                    {t('platformSupport.feature4Text')}
                   </Link>;
                 </li>
                 <li className="flex items-start gap-3 text-base text-gray-300" style={sans}>
                   <span className="w-1.5 h-1.5 rounded-full bg-green-400 mt-2 shrink-0" />
                   <Link href="/story" className="text-green-400 underline underline-offset-2 hover:text-green-300 transition-colors">
-                    Decision-support systems for policymakers and stakeholders
+                    {t('platformSupport.feature5Text')}
                   </Link>.
                 </li>
               </ul>
@@ -467,7 +469,7 @@ export default function LDNInAfricaPage() {
                   <svg className="w-10 h-10 text-gray-600 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
                   </svg>
-                  <p className="text-xs text-gray-600 uppercase tracking-widest" style={sans}>Image Placeholder</p>
+                  <p className="text-xs text-gray-600 uppercase tracking-widest" style={sans}>{t('placeholders.image')}</p>
                 </div>
               </div>
             </div>
@@ -476,39 +478,39 @@ export default function LDNInAfricaPage() {
           {/* ── Why LDN matters for Africa ────────────────────────────── */}
           <div className="mb-20">
             <h2 className="text-xl lg:text-2xl font-bold text-white mb-6" style={serif}>
-              Why LDN matters for Africa
+              {t('whyLdnMatters.heading')}
             </h2>
 
             <div className="max-w-4xl">
               <p className="text-base text-gray-300 leading-relaxed mb-4" style={sans}>
-                Achieving Land Degradation Neutrality is essential to:
+                {t('whyLdnMatters.introLabel')}
               </p>
 
               <ul className="space-y-3 mb-6">
                 <li className="flex items-start gap-3 text-base text-gray-300" style={sans}>
                   <span className="w-1.5 h-1.5 rounded-full bg-green-400 mt-2 shrink-0" />
-                  Ensure food security;
+                  {t('whyLdnMatters.reason1')}
                 </li>
                 <li className="flex items-start gap-3 text-base text-gray-300" style={sans}>
                   <span className="w-1.5 h-1.5 rounded-full bg-green-400 mt-2 shrink-0" />
-                  Protect ecosystems and biodiversity;
+                  {t('whyLdnMatters.reason2')}
                 </li>
                 <li className="flex items-start gap-3 text-base text-gray-300" style={sans}>
                   <span className="w-1.5 h-1.5 rounded-full bg-green-400 mt-2 shrink-0" />
-                  Strengthen climate resilience;
+                  {t('whyLdnMatters.reason3')}
                 </li>
                 <li className="flex items-start gap-3 text-base text-gray-300" style={sans}>
                   <span className="w-1.5 h-1.5 rounded-full bg-green-400 mt-2 shrink-0" />
-                  Sustain water resources;
+                  {t('whyLdnMatters.reason4')}
                 </li>
                 <li className="flex items-start gap-3 text-base text-gray-300" style={sans}>
                   <span className="w-1.5 h-1.5 rounded-full bg-green-400 mt-2 shrink-0" />
-                  Improve livelihoods for millions of people.
+                  {t('whyLdnMatters.reason5')}
                 </li>
               </ul>
 
               <p className="text-base text-green-400/90 font-medium leading-relaxed" style={sans}>
-                LDN is not only an environmental goal, but it is also a development priority for Africa!
+                {t('whyLdnMatters.closingText')}
               </p>
 
               {/* Image placeholder */}
@@ -517,7 +519,7 @@ export default function LDNInAfricaPage() {
                   <svg className="w-10 h-10 text-gray-600 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
                   </svg>
-                  <p className="text-xs text-gray-600 uppercase tracking-widest" style={sans}>Image Placeholder</p>
+                  <p className="text-xs text-gray-600 uppercase tracking-widest" style={sans}>{t('placeholders.image')}</p>
                 </div>
               </div>
             </div>
@@ -527,7 +529,7 @@ export default function LDNInAfricaPage() {
           <div className="mb-20">
             <div className="rounded-xl border border-white/10 bg-white/[0.03] p-8 lg:p-10 text-center">
               <h2 className="text-xl lg:text-2xl font-bold text-white mb-8" style={serif}>
-                Explore LDN monitoring data and tools
+                {t('exploreTools.heading')}
               </h2>
 
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -536,21 +538,21 @@ export default function LDNInAfricaPage() {
                   className="text-sm px-6 py-3 rounded-md border border-green-500/40 text-green-400 hover:bg-green-500/10 transition-all duration-200"
                   style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.03em' }}
                 >
-                  View LDN Dashboard
+                  {t('exploreTools.viewDashboard')}
                 </Link>
                 <Link
                   href="/map"
                   className="text-sm px-6 py-3 rounded-md border border-green-500/40 text-green-400 hover:bg-green-500/10 transition-all duration-200"
                   style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.03em' }}
                 >
-                  Access Geoportal
+                  {t('exploreTools.accessGeoportal')}
                 </Link>
                 <Link
                   href="/api-docs"
                   className="text-sm px-6 py-3 rounded-md border border-green-500/40 text-green-400 hover:bg-green-500/10 transition-all duration-200"
                   style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.03em' }}
                 >
-                  Learn more in Resources
+                  {t('exploreTools.learnMoreResources')}
                 </Link>
               </div>
             </div>
@@ -569,110 +571,110 @@ export default function LDNInAfricaPage() {
                     </svg>
                   </div>
                   <h2 className="text-xl lg:text-2xl font-bold text-white" style={serif}>
-                    Land Degradation Neutrality in Africa
+                    {t('ldnInAfricaBox.heading')}
                   </h2>
                 </div>
                 <p className="text-base text-green-400/80 mb-8 ml-[52px]" style={sans}>
-                  Global framework, regional action, and country-level implementation
+                  {t('ldnInAfricaBox.subtitle')}
                 </p>
 
                 {/* Concept promotion */}
                 <div className="mb-10">
                   <h3 className="text-lg font-bold text-white mb-4" style={serif}>
-                    Concept promotion
+                    {t('ldnInAfricaBox.conceptPromotion.heading')}
                   </h3>
 
                   <p className="text-base text-gray-300 leading-relaxed mb-6" style={sans}>
-                    In October 2015, the{' '}
+                    {t('ldnInAfricaBox.conceptPromotion.paragraph1Before')}{' '}
                     <a
                       href="https://www.unep.org/events/conference/twelfth-conference-parties-nairobi-convention-cop-12"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-green-400 underline underline-offset-2 hover:text-green-300 transition-colors"
                     >
-                      12th Conference of the Parties (COP12)
+                      {t('ldnInAfricaBox.conceptPromotion.cop12LinkText')}
                     </a>{' '}
-                    of the{' '}
+                    {t('ldnInAfricaBox.conceptPromotion.paragraph1Middle')}{' '}
                     <a
                       href="https://www.unccd.int/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-green-400 underline underline-offset-2 hover:text-green-300 transition-colors"
                     >
-                      United Nations Convention to Combat Desertification (UNCCD)
+                      {t('ldnInAfricaBox.conceptPromotion.unccdLinkText')}
                     </a>{' '}
-                    introduced the concept of{' '}
+                    {t('ldnInAfricaBox.conceptPromotion.paragraph1Middle2')}{' '}
                     <a
                       href="https://www.unccd.int/land-and-life/land-degradation-neutrality/overview"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-green-400 underline underline-offset-2 hover:text-green-300 transition-colors"
                     >
-                      Land Degradation Neutrality (LDN)
+                      {t('ldnInAfricaBox.conceptPromotion.ldnLinkText')}
                     </a>.
                   </p>
 
                   <p className="text-base text-gray-300 leading-relaxed" style={sans}>
-                    That same year, LDN was adopted as{' '}
+                    {t('ldnInAfricaBox.conceptPromotion.paragraph2Before')}{' '}
                     <a
                       href="https://globalgoals.org/goals/15-life-on-land/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-green-400 underline underline-offset-2 hover:text-green-300 transition-colors"
                     >
-                      Target 15.3
+                      {t('ldnInAfricaBox.conceptPromotion.targetLinkText')}
                     </a>{' '}
-                    of the{' '}
+                    {t('ldnInAfricaBox.conceptPromotion.paragraph2Middle')}{' '}
                     <a
                       href="https://globalgoals.org/goals/15-life-on-land/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-green-400 underline underline-offset-2 hover:text-green-300 transition-colors"
                     >
-                      Sustainable Development Goals (SDG 15 - Life on Land)
+                      {t('ldnInAfricaBox.conceptPromotion.sdgLinkText')}
                     </a>:{' '}
-                    &ldquo;Combat desertification, restore degraded land and soil, including land affected by desertification, drought and floods, and strive to achieve a land degradation-neutral world by 2030.&rdquo;
+                    &ldquo;{t('ldnInAfricaBox.conceptPromotion.sdgQuote')}&rdquo;
                   </p>
                 </div>
 
                 {/* Global progress on LDN Targets */}
                 <div className="mb-10">
                   <h3 className="text-lg font-bold text-white mb-4" style={serif}>
-                    Global progress on LDN Targets
+                    {t('ldnInAfricaBox.globalProgress.heading')}
                   </h3>
 
                   <p className="text-base text-gray-300 leading-relaxed mb-4" style={sans}>
-                    Countries worldwide are actively engaging in the LDN target-setting process:
+                    {t('ldnInAfricaBox.globalProgress.intro')}
                   </p>
 
                   <ul className="space-y-3 mb-4">
                     <li className="flex items-start gap-3 text-base text-gray-300" style={sans}>
                       <span className="w-1.5 h-1.5 rounded-full bg-green-400 mt-2 shrink-0" />
-                      130+ countries are committed to setting LDN targets;
+                      {t('ldnInAfricaBox.globalProgress.item1')}
                     </li>
                     <li className="flex items-start gap-3 text-base text-gray-300" style={sans}>
                       <span className="w-1.5 h-1.5 rounded-full bg-green-400 mt-2 shrink-0" />
-                      82 countries reported on voluntary LDN targets (2022 reporting cycle);
+                      {t('ldnInAfricaBox.globalProgress.item2')}
                     </li>
                     <li className="flex items-start gap-3 text-base text-gray-300" style={sans}>
                       <span className="w-1.5 h-1.5 rounded-full bg-green-400 mt-2 shrink-0" />
-                      64 countries have published high-level LDN target notes.
+                      {t('ldnInAfricaBox.globalProgress.item3')}
                     </li>
                   </ul>
 
                   <p className="text-base text-gray-300 leading-relaxed" style={sans}>
-                    Additional countries are currently developing or updating their targets
+                    {t('ldnInAfricaBox.globalProgress.closing')}
                   </p>
                 </div>
 
                 {/* Supporting LDN implementation */}
                 <div className="mb-10">
                   <h3 className="text-lg font-bold text-white mb-4" style={serif}>
-                    Supporting LDN implementation
+                    {t('ldnInAfricaBox.supportingImplementation.heading')}
                   </h3>
 
                   <p className="text-base text-gray-300 leading-relaxed mb-4" style={sans}>
-                    International and regional partners play a key role in supporting countries, including:
+                    {t('ldnInAfricaBox.supportingImplementation.intro')}
                   </p>
 
                   <ul className="space-y-3 mb-6">
@@ -684,7 +686,7 @@ export default function LDNInAfricaPage() {
                         rel="noopener noreferrer"
                         className="text-green-400 underline underline-offset-2 hover:text-green-300 transition-colors"
                       >
-                        FAO (Food and Agriculture Organization)
+                        {t('ldnInAfricaBox.supportingImplementation.faoLinkText')}
                       </a>;
                     </li>
                     <li className="flex items-start gap-3 text-base text-gray-300" style={sans}>
@@ -695,7 +697,7 @@ export default function LDNInAfricaPage() {
                         rel="noopener noreferrer"
                         className="text-green-400 underline underline-offset-2 hover:text-green-300 transition-colors"
                       >
-                        RCMRD (Regional Centre for Mapping of Resources for Development)
+                        {t('ldnInAfricaBox.supportingImplementation.rcmrdLinkText')}
                       </a>;
                     </li>
                     <li className="flex items-start gap-3 text-base text-gray-300" style={sans}>
@@ -706,27 +708,27 @@ export default function LDNInAfricaPage() {
                         rel="noopener noreferrer"
                         className="text-green-400 underline underline-offset-2 hover:text-green-300 transition-colors"
                       >
-                        OSS (Sahara and Sahel Observatory)
+                        {t('ldnInAfricaBox.supportingImplementation.ossLinkText')}
                       </a>.
                     </li>
                   </ul>
 
                   <p className="text-base text-gray-300 leading-relaxed mb-4" style={sans}>
-                    These institutions support:
+                    {t('ldnInAfricaBox.supportingImplementation.supportLabel')}
                   </p>
 
                   <ul className="space-y-3">
                     <li className="flex items-start gap-3 text-base text-gray-300" style={sans}>
                       <span className="w-1.5 h-1.5 rounded-full bg-green-400 mt-2 shrink-0" />
-                      Strengthening LDN monitoring and reporting;
+                      {t('ldnInAfricaBox.supportingImplementation.support1')}
                     </li>
                     <li className="flex items-start gap-3 text-base text-gray-300" style={sans}>
                       <span className="w-1.5 h-1.5 rounded-full bg-green-400 mt-2 shrink-0" />
-                      Improving data and indicators;
+                      {t('ldnInAfricaBox.supportingImplementation.support2')}
                     </li>
                     <li className="flex items-start gap-3 text-base text-gray-300" style={sans}>
                       <span className="w-1.5 h-1.5 rounded-full bg-green-400 mt-2 shrink-0" />
-                      Promoting sustainable land management practices.
+                      {t('ldnInAfricaBox.supportingImplementation.support3')}
                     </li>
                   </ul>
                 </div>
@@ -734,25 +736,25 @@ export default function LDNInAfricaPage() {
                 {/* Country profiles and decision support */}
                 <div className="mb-10">
                   <h3 className="text-lg font-bold text-white mb-4" style={serif}>
-                    Country profiles and decision support
+                    {t('ldnInAfricaBox.countryProfiles.heading')}
                   </h3>
 
                   <p className="text-base text-gray-300 leading-relaxed mb-4" style={sans}>
-                    Each participating country develops an LDN country profile, providing:
+                    {t('ldnInAfricaBox.countryProfiles.intro')}
                   </p>
 
                   <ul className="space-y-3">
                     <li className="flex items-start gap-3 text-base text-gray-300" style={sans}>
                       <span className="w-1.5 h-1.5 rounded-full bg-green-400 mt-2 shrink-0" />
-                      Evidence-based analysis of land degradation;
+                      {t('ldnInAfricaBox.countryProfiles.item1')}
                     </li>
                     <li className="flex items-start gap-3 text-base text-gray-300" style={sans}>
                       <span className="w-1.5 h-1.5 rounded-full bg-green-400 mt-2 shrink-0" />
-                      Priority areas for intervention;
+                      {t('ldnInAfricaBox.countryProfiles.item2')}
                     </li>
                     <li className="flex items-start gap-3 text-base text-gray-300" style={sans}>
                       <span className="w-1.5 h-1.5 rounded-full bg-green-400 mt-2 shrink-0" />
-                      Strategic guidance to support investment and policy decisions.
+                      {t('ldnInAfricaBox.countryProfiles.item3')}
                     </li>
                   </ul>
                 </div>
@@ -760,48 +762,48 @@ export default function LDNInAfricaPage() {
                 {/* Africa's engagement */}
                 <div className="mb-6">
                   <h3 className="text-lg font-bold text-white mb-4" style={serif}>
-                    Africa&apos;s engagement
+                    {t('ldnInAfricaBox.africaEngagement.heading')}
                   </h3>
 
                   <p className="text-base text-gray-300 leading-relaxed mb-4" style={sans}>
-                    African countries are strongly engaged in the LDN process, with many:
+                    {t('ldnInAfricaBox.africaEngagement.intro')}
                   </p>
 
                   <ul className="space-y-3">
                     <li className="flex items-start gap-3 text-base text-gray-300" style={sans}>
                       <span className="w-1.5 h-1.5 rounded-full bg-green-400 mt-2 shrink-0" />
-                      Setting or updating{' '}
+                      {t('ldnInAfricaBox.africaEngagement.action1Before')}{' '}
                       <a
                         href="https://www.unccd.int/our-work/country-profiles/voluntary-ldn-targets"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-green-400 underline underline-offset-2 hover:text-green-300 transition-colors"
                       >
-                        national LDN targets
+                        {t('ldnInAfricaBox.africaEngagement.action1LinkText')}
                       </a>;
                     </li>
                     <li className="flex items-start gap-3 text-base text-gray-300" style={sans}>
                       <span className="w-1.5 h-1.5 rounded-full bg-green-400 mt-2 shrink-0" />
-                      Strengthening{' '}
+                      {t('ldnInAfricaBox.africaEngagement.action2Before')}{' '}
                       <a
                         href="https://data.unccd.int/ldntargets"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-green-400 underline underline-offset-2 hover:text-green-300 transition-colors"
                       >
-                        monitoring systems and reporting capacities
+                        {t('ldnInAfricaBox.africaEngagement.action2LinkText')}
                       </a>;
                     </li>
                     <li className="flex items-start gap-3 text-base text-gray-300" style={sans}>
                       <span className="w-1.5 h-1.5 rounded-full bg-green-400 mt-2 shrink-0" />
-                      Implementing{' '}
+                      {t('ldnInAfricaBox.africaEngagement.action3Before')}{' '}
                       <a
                         href="https://www.unccd.int/land-and-life/land-management-restoration/overview"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-green-400 underline underline-offset-2 hover:text-green-300 transition-colors"
                       >
-                        land restoration and sustainable land management initiatives
+                        {t('ldnInAfricaBox.africaEngagement.action3LinkText')}
                       </a>.
                     </li>
                   </ul>
@@ -813,7 +815,7 @@ export default function LDNInAfricaPage() {
                     <svg className="w-10 h-10 text-gray-600 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
                     </svg>
-                    <p className="text-xs text-gray-600 uppercase tracking-widest" style={sans}>Image Placeholder</p>
+                    <p className="text-xs text-gray-600 uppercase tracking-widest" style={sans}>{t('placeholders.image')}</p>
                   </div>
                 </div>
 

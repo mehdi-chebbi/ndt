@@ -2,6 +2,7 @@
 
 import Link from 'next/link'
 import { useEffect, useRef, useState } from 'react'
+import { useTranslation } from 'react-i18next'
 
 const sans = { fontFamily: 'system-ui, sans-serif' }
 const serif = { fontFamily: "'Georgia', serif" }
@@ -43,17 +44,12 @@ function Stagger({ children, className = '', delay = 0, style }: {
   )
 }
 
-const CONTRIBUTION_TYPES = [
+const CONTRIBUTION_TYPE_CONFIGS = [
   {
-    title: 'Validation of False Positives / False Negatives',
-    description: 'Identify areas where datasets may incorrectly classify land condition.',
-    items: [
-      'Locality name',
-      'Coordinates (X, Y)',
-      'Area (km²)',
-      'Description of the process causing misclassification',
-    ],
-    example: 'Area classified as degraded but showing signs of recovery',
+    titleKey: 'type0Title',
+    descKey: 'type0Desc',
+    itemKeys: ['type0Item0', 'type0Item1', 'type0Item2', 'type0Item3'],
+    exampleKey: 'type0Example',
     icon: (
       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -64,18 +60,10 @@ const CONTRIBUTION_TYPES = [
     borderColor: 'border-red-400/20',
   },
   {
-    title: 'Hotspots & Brightspots Assessment',
-    description: 'Provide qualitative insights on areas identified as degraded or improved.',
-    items: [
-      'Locality name',
-      'Coordinates',
-      'Area (km²)',
-      'Assessment method (field survey, expert knowledge, etc.)',
-      'Drivers of land degradation (for hotspots)',
-      'Actions taken to restore land (for brightspots)',
-      'Ongoing or planned interventions',
-    ],
-    example: null,
+    titleKey: 'type1Title',
+    descKey: 'type1Desc',
+    itemKeys: ['type1Item0', 'type1Item1', 'type1Item2', 'type1Item3', 'type1Item4', 'type1Item5', 'type1Item6'],
+    exampleKey: null,
     icon: (
       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
@@ -87,16 +75,10 @@ const CONTRIBUTION_TYPES = [
     borderColor: 'border-orange-400/20',
   },
   {
-    title: 'Brightspots (Land Improvement)',
-    description: 'Share detailed information on areas showing positive land restoration outcomes.',
-    items: [
-      'Locality name',
-      'Coordinates',
-      'Area (km²)',
-      'Actions leading to improvement',
-      'Implementation approach (past, current, future)',
-    ],
-    example: null,
+    titleKey: 'type2Title',
+    descKey: 'type2Desc',
+    itemKeys: ['type2Item0', 'type2Item1', 'type2Item2', 'type2Item3', 'type2Item4'],
+    exampleKey: null,
     icon: (
       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
@@ -108,26 +90,14 @@ const CONTRIBUTION_TYPES = [
   },
 ]
 
-const HOW_TO_STEPS = [
-  'Select the type of contribution;',
-  'Provide location (coordinates or map selection);',
-  'Fill in the required information;',
-  'Submit your contribution for review.',
-]
+const HOW_TO_STEP_KEYS = ['howStep0', 'howStep1', 'howStep2', 'howStep3']
 
-const DATA_USE_ITEMS = [
-  'Reviewed and validated by experts;',
-  'Integrated into the platform (where relevant);',
-  'Used to improve land degradation assessments and indicators.',
-]
+const DATA_USE_KEYS = ['dataUse0', 'dataUse1', 'dataUse2']
 
-const IMPORTANT_NOTES = [
-  'Ensure data accuracy and reliability;',
-  'Provide clear and verifiable information;',
-  'Contributions may be subject to validation before publication.',
-]
+const IMPORTANT_NOTE_KEYS = ['importantNote0', 'importantNote1', 'importantNote2']
 
 export default function ContributionPage() {
+  const { t } = useTranslation('contribution')
   return (
     <div className="min-h-screen bg-[#0a0f0d] text-white overflow-x-hidden" style={serif}>
 
@@ -163,7 +133,7 @@ export default function ContributionPage() {
             <div className="flex items-center gap-2 mb-6">
               <div className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
               <span className="text-xs uppercase tracking-[0.2em] text-green-400/80" style={sans}>
-                Contribution | Land Degradation Observations in AfricaTools
+                {t('eyebrow')}
               </span>
             </div>
           </Stagger>
@@ -171,69 +141,64 @@ export default function ContributionPage() {
           {/* Main heading */}
           <Stagger delay={70}>
             <h1 className="text-4xl lg:text-6xl font-bold leading-[1.05] mb-6 max-w-4xl" style={{ ...serif, letterSpacing: '-0.02em' }}>
-              Contribute georeferenced data on{' '}
+              {t('heroBefore')}{' '}
               <span style={{
                 background: 'linear-gradient(135deg, #22c55e 0%, #4ade80 50%, #86efac 100%)',
                 WebkitBackgroundClip: 'text',
                 WebkitTextFillColor: 'transparent',
                 backgroundClip: 'text',
               }}>
-                land degradation
+                {t('heroHighlight')}
               </span>{' '}
-              in Africa
+              {t('heroAfter')}
             </h1>
           </Stagger>
 
           {/* Description */}
           <Stagger delay={140}>
             <p className="text-lg lg:text-xl text-gray-400 max-w-3xl mb-4 leading-relaxed" style={sans}>
-              Report hotspots, brightspots, and validate false positives to support LDN monitoring.
+              {t('heroDescription')}
             </p>
           </Stagger>
 
           {/* Tagline */}
           <Stagger delay={200}>
             <p className="text-sm text-green-400/90 font-medium mb-8" style={{ ...sans, letterSpacing: '0.02em' }}>
-              Share knowledge. Validate data. Strengthen LDN monitoring.
+              {t('tagline')}
             </p>
           </Stagger>
 
           {/* Intro paragraphs */}
           <Stagger delay={260}>
             <p className="text-base text-gray-300 max-w-3xl mb-4 leading-relaxed" style={sans}>
-              The Contribution section enables users and stakeholders to submit georeferenced information on land degradation and land improvement across Africa.
+              {t('intro1')}
             </p>
           </Stagger>
 
           <Stagger delay={310}>
             <p className="text-base text-gray-300 max-w-3xl mb-8 leading-relaxed" style={sans}>
-              It supports a participatory approach to monitoring Land Degradation Neutrality (LDN) by integrating field knowledge, expert insights, and local observations.
+              {t('intro2')}
             </p>
           </Stagger>
 
           {/* Contributions help list */}
           <Stagger delay={360}>
             <p className="text-sm text-white font-medium mb-4" style={sans}>
-              Contributions help:
+              {t('contributionsHelp')}:
             </p>
           </Stagger>
 
           <div className="max-w-3xl mb-12 space-y-3">
-            {[
-              'Validate spatial data.',
-              'Identify hotspots (degraded areas).',
-              'Highlight brightspots (restored or improving areas).',
-              'Detect false positives and false negatives in datasets.',
-            ].map((item, i) => (
-              <Stagger key={item} delay={400 + i * 60}>
+            {['helpValidate', 'helpHotspots', 'helpBrightspots', 'helpFalsePositives'].map((key, i) => (
+              <Stagger key={key} delay={400 + i * 60}>
                 <div className="flex items-start gap-3">
                   <svg className="w-4 h-4 text-green-400 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                   </svg>
-                  <span className="text-sm text-gray-300" style={sans}>{item}</span>
+                  <span className="text-sm text-gray-300" style={sans}>{t(key)}</span>
                 </div>
               </Stagger>
-            ))}
+            ))
           </div>
         </section>
 
@@ -245,7 +210,7 @@ export default function ContributionPage() {
                 <svg className="w-12 h-12 text-gray-600 mx-auto mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
                 </svg>
-                <p className="text-xs text-gray-600 uppercase tracking-widest" style={sans}>Image Placeholder</p>
+                <p className="text-xs text-gray-600 uppercase tracking-widest" style={sans}>{t('imagePlaceholder')}</p>
               </div>
             </div>
           </Stagger>
@@ -257,14 +222,14 @@ export default function ContributionPage() {
             <div className="flex items-center gap-3 mb-8">
               <div className="w-1 h-8 rounded-full bg-green-400" />
               <h2 className="text-2xl lg:text-3xl font-bold text-white" style={serif}>
-                Types of contributions
+                {t('typesHeading')}
               </h2>
             </div>
           </Stagger>
 
           <div className="space-y-8 max-w-4xl">
-            {CONTRIBUTION_TYPES.map((type, i) => (
-              <Stagger key={type.title} delay={i * 80}>
+            {CONTRIBUTION_TYPE_CONFIGS.map((type, i) => (
+              <Stagger key={type.titleKey} delay={i * 80}>
                 <div className={`rounded-xl border bg-white/[0.02] overflow-hidden ${type.borderColor}`}>
                   <div className="p-6 lg:p-8">
                     {/* Header */}
@@ -274,34 +239,34 @@ export default function ContributionPage() {
                       </div>
                       <div>
                         <h3 className="text-lg font-bold text-white mb-1" style={serif}>
-                          {type.title}
+                          {t(type.titleKey)}
                         </h3>
                         <p className="text-sm text-gray-400" style={sans}>
-                          {type.description}
+                          {t(type.descKey)}
                         </p>
                       </div>
                     </div>
 
                     {/* What to report / include */}
                     <p className="text-sm text-white font-medium mb-3" style={sans}>
-                      What to report:
+                      {t('whatToReport')}:
                     </p>
                     <ul className="space-y-2 mb-4">
-                      {type.items.map((item, j) => (
+                      {type.itemKeys.map((itemKey, j) => (
                         <li key={j} className="flex items-start gap-3 text-sm text-gray-300" style={sans}>
                           <svg className="w-4 h-4 text-green-400 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                           </svg>
-                          <span>{item}</span>
+                          <span>{t(itemKey)}</span>
                         </li>
                       ))}
                     </ul>
 
                     {/* Example */}
-                    {type.example && (
+                    {type.exampleKey && (
                       <div className="mt-4 pt-4 border-t border-white/5">
-                        <p className="text-xs text-gray-500 mb-1" style={sans}>Example:</p>
-                        <p className="text-sm text-gray-400 italic" style={sans}>{type.example}</p>
+                        <p className="text-xs text-gray-500 mb-1" style={sans}>{t('example')}</p>
+                        <p className="text-sm text-gray-400 italic" style={sans}>{t(type.exampleKey)}</p>
                       </div>
                     )}
                   </div>
@@ -317,19 +282,19 @@ export default function ContributionPage() {
             <div className="flex items-center gap-3 mb-8">
               <div className="w-1 h-8 rounded-full bg-green-400" />
               <h2 className="text-2xl lg:text-3xl font-bold text-white" style={serif}>
-                How to contribute
+                {t('howToHeading')}
               </h2>
             </div>
           </Stagger>
 
           <div className="max-w-3xl space-y-5">
-            {HOW_TO_STEPS.map((step, i) => (
-              <Stagger key={step} delay={i * 70}>
+            {HOW_TO_STEP_KEYS.map((key, i) => (
+              <Stagger key={key} delay={i * 70}>
                 <div className="flex items-start gap-4">
                   <div className="flex-shrink-0 w-8 h-8 rounded-full bg-green-500/10 border border-green-400/20 flex items-center justify-center text-green-400 text-sm font-bold" style={sans}>
                     {i + 1}
                   </div>
-                  <p className="text-sm text-gray-300 pt-1.5" style={sans}>{step}</p>
+                  <p className="text-sm text-gray-300 pt-1.5" style={sans}>{t(key)}</p>
                 </div>
               </Stagger>
             ))}
@@ -342,7 +307,7 @@ export default function ContributionPage() {
                 <svg className="w-12 h-12 text-gray-600 mx-auto mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
                 </svg>
-                <p className="text-xs text-gray-600 uppercase tracking-widest" style={sans}>Image Placeholder</p>
+                <p className="text-xs text-gray-600 uppercase tracking-widest" style={sans}>{t('imagePlaceholder')}</p>
               </div>
             </div>
           </Stagger>
@@ -359,21 +324,21 @@ export default function ContributionPage() {
                   </svg>
                 </div>
                 <h3 className="text-lg font-bold text-white" style={serif}>
-                  Data use and validation
+                  {t('dataUseHeading')}
                 </h3>
               </div>
 
               <p className="text-sm text-white font-medium mb-4" style={sans}>
-                Submitted data will be:
+                {t('submittedDataWillBe')}:
               </p>
 
               <ul className="space-y-3">
-                {DATA_USE_ITEMS.map((item, i) => (
+                {DATA_USE_KEYS.map((key, i) => (
                   <li key={i} className="flex items-start gap-3 text-sm text-gray-300" style={sans}>
                     <svg className="w-4 h-4 text-green-400 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span>{item}</span>
+                    <span>{t(key)}</span>
                   </li>
                 ))}
               </ul>
@@ -387,19 +352,19 @@ export default function ContributionPage() {
             <div className="flex items-center gap-3 mb-6">
               <div className="w-1 h-8 rounded-full bg-yellow-400" />
               <h2 className="text-2xl lg:text-3xl font-bold text-white" style={serif}>
-                Important notes
+                {t('importantNotesHeading')}
               </h2>
             </div>
           </Stagger>
 
           <div className="max-w-3xl space-y-3">
-            {IMPORTANT_NOTES.map((note, i) => (
-              <Stagger key={note} delay={i * 60}>
+            {IMPORTANT_NOTE_KEYS.map((key, i) => (
+              <Stagger key={key} delay={i * 60}>
                 <div className="flex items-start gap-3">
                   <svg className="w-4 h-4 text-yellow-400 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
                   </svg>
-                  <span className="text-sm text-gray-300" style={sans}>{note}</span>
+                  <span className="text-sm text-gray-300" style={sans}>{t(key)}</span>
                 </div>
               </Stagger>
             ))}
@@ -413,14 +378,14 @@ export default function ContributionPage() {
               <div className="flex items-center justify-center gap-2 mb-6">
                 <div className="w-2 h-2 rounded-full bg-green-400" />
                 <span className="text-xs uppercase tracking-[0.2em] text-green-400/80" style={sans}>
-                  Call to Action
+                  {t('ctaEyebrow')}
                 </span>
               </div>
             </Stagger>
 
             <Stagger delay={70}>
               <h2 className="text-3xl lg:text-5xl font-bold mb-4" style={serif}>
-                Contribute to LDN Monitoring
+                {t('ctaHeading')}
               </h2>
             </Stagger>
 
@@ -441,7 +406,7 @@ export default function ContributionPage() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                   </svg>
-                  Submit a Hotspot
+                  {t('ctaSubmitHotspot')}
                 </Link>
                 <Link
                   href="/map"
@@ -457,7 +422,7 @@ export default function ContributionPage() {
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
                   </svg>
-                  Share a Brightspot
+                  {t('ctaShareBrightspot')}
                 </Link>
                 <Link
                   href="/map"
@@ -467,7 +432,7 @@ export default function ContributionPage() {
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
                   </svg>
-                  Report a Data Inconsistency
+                  {t('ctaReportInconsistency')}
                 </Link>
               </div>
             </Stagger>

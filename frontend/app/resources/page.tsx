@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useMemo } from 'react'
 import Link from 'next/link'
+import { useTranslation } from 'react-i18next'
 
 const sans = { fontFamily: 'system-ui, sans-serif' }
 const serif = { fontFamily: "'Georgia', serif" }
@@ -108,7 +109,7 @@ function flattenTree(entries: FileEntry[], parentPath: string = ''): FlatFile[] 
 }
 
 /* ── FolderRow component ──────────────────────────────────────── */
-function FolderRow({ entry, depth, searchQuery }: { entry: FileEntry; depth: number; searchQuery: string }) {
+function FolderRow({ entry, depth, searchQuery, t }: { entry: FileEntry; depth: number; searchQuery: string; t: (key: string) => string }) {
   const [isOpen, setIsOpen] = useState(searchQuery.length > 0)
   const fileCount = countFiles(entry)
 
@@ -139,7 +140,7 @@ function FolderRow({ entry, depth, searchQuery }: { entry: FileEntry; depth: num
 
         {/* File count */}
         <span className="text-xs text-gray-500" style={sans}>
-          {fileCount} file{fileCount !== 1 ? 's' : ''}
+          {t('fileCount', { count: fileCount })}
         </span>
       </button>
 
@@ -148,9 +149,9 @@ function FolderRow({ entry, depth, searchQuery }: { entry: FileEntry; depth: num
         <div>
           {entry.children.map((child) => (
             child.type === 'folder' ? (
-              <FolderRow key={child.path} entry={child} depth={depth + 1} searchQuery={searchQuery} />
+              <FolderRow key={child.path} entry={child} depth={depth + 1} searchQuery={searchQuery} t={t} />
             ) : (
-              <FileRow key={child.path} entry={child} depth={depth + 1} />
+              <FileRow key={child.path} entry={child} depth={depth + 1} t={t} />
             )
           ))}
         </div>
@@ -160,7 +161,7 @@ function FolderRow({ entry, depth, searchQuery }: { entry: FileEntry; depth: num
 }
 
 /* ── FileRow component ────────────────────────────────────────── */
-function FileRow({ entry, depth }: { entry: FileEntry; depth: number }) {
+function FileRow({ entry, depth, t }: { entry: FileEntry; depth: number; t: (key: string) => string }) {
   return (
     <div
       className="flex items-center gap-3 py-2.5 px-4 rounded-lg hover:bg-white/[0.03] transition-colors duration-150 group"
@@ -191,7 +192,7 @@ function FileRow({ entry, depth }: { entry: FileEntry; depth: number }) {
         href={`/api/resources/download?file=${encodeURIComponent(entry.path)}`}
         download
         className="opacity-0 group-hover:opacity-100 transition-opacity duration-150 shrink-0 p-1.5 rounded-md hover:bg-green-400/10"
-        title="Download"
+        title={t('download')}
       >
         <svg className="w-4 h-4 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
@@ -202,7 +203,7 @@ function FileRow({ entry, depth }: { entry: FileEntry; depth: number }) {
 }
 
 /* ── Search result row ────────────────────────────────────────── */
-function SearchResultRow({ file }: { file: FlatFile }) {
+function SearchResultRow({ file, t }: { file: FlatFile; t: (key: string) => string }) {
   return (
     <div className="flex items-center gap-3 py-2.5 px-4 rounded-lg hover:bg-white/[0.03] transition-colors duration-150 group">
       {getFileIcon(file.extension)}
@@ -222,7 +223,7 @@ function SearchResultRow({ file }: { file: FlatFile }) {
         href={`/api/resources/download?file=${encodeURIComponent(file.path)}`}
         download
         className="opacity-0 group-hover:opacity-100 transition-opacity duration-150 shrink-0 p-1.5 rounded-md hover:bg-green-400/10"
-        title="Download"
+        title={t('download')}
       >
         <svg className="w-4 h-4 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
@@ -237,6 +238,7 @@ export default function ResourcesPage() {
   const [tree, setTree] = useState<FileEntry[]>([])
   const [loading, setLoading] = useState(true)
   const [searchQuery, setSearchQuery] = useState('')
+  const { t } = useTranslation('resources')
 
   useEffect(() => {
     fetch('/api/resources')
@@ -292,28 +294,28 @@ export default function ResourcesPage() {
             <div className="flex items-center gap-2 mb-8">
               <div className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
               <span className="text-xs uppercase tracking-[0.2em] text-green-400/80" style={sans}>
-                Land Degradation Resources Africa | Data, Documents &amp; Tools
+                {t('eyebrow')}
               </span>
             </div>
 
             <h1 className="text-4xl lg:text-6xl font-bold leading-[1.1] mb-6" style={{ ...serif, letterSpacing: '-0.02em' }}>
-              Resources
+              {t('heading')}
             </h1>
 
             <p className="text-lg text-gray-400 max-w-3xl mb-4 leading-relaxed" style={sans}>
-              Access documents, presentations, GIS datasets, and multimedia resources on land degradation in Africa. Explore LDN methodologies and SDG 15.3.1 materials.
+              {t('description')}
             </p>
 
             <p className="text-sm text-green-400/90 font-medium mb-6" style={{ ...sans, letterSpacing: '0.02em' }}>
-              Access knowledge. Explore resources. Support action.
+              {t('tagline')}
             </p>
 
             <p className="text-base text-gray-300 max-w-3xl mb-4 leading-relaxed" style={sans}>
-              This section provides a comprehensive collection of resources on land degradation monitoring in Africa, supporting research, policy development, and implementation of Land Degradation Neutrality (LDN) and SDG 15.3.1.
+              {t('intro1')}
             </p>
 
             <p className="text-base text-gray-300 max-w-3xl leading-relaxed" style={sans}>
-              It brings together technical documentation, geospatial data, and communication materials to facilitate knowledge sharing and capacity building across the continent.
+              {t('intro2')}
             </p>
           </div>
 
@@ -327,7 +329,7 @@ export default function ResourcesPage() {
                 type="text"
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                placeholder="Search files by name or folder..."
+                placeholder={t('searchPlaceholder')}
                 className="w-full pl-12 pr-4 py-3.5 rounded-xl border border-white/10 bg-white/[0.03] text-sm text-gray-200 placeholder-gray-500 focus:outline-none focus:border-green-400/40 focus:ring-1 focus:ring-green-400/20 transition-colors duration-200"
                 style={sans}
               />
@@ -348,7 +350,7 @@ export default function ResourcesPage() {
           {!loading && (
             <div className="flex items-center gap-6 mb-8">
               <span className="text-xs text-gray-500" style={sans}>
-                {totalFiles} file{totalFiles !== 1 ? 's' : ''} across {tree.length} folders
+                {t('fileStats', { fileCount: totalFiles, folderCount: tree.length })}
               </span>
             </div>
           )}
@@ -363,13 +365,13 @@ export default function ResourcesPage() {
             <div className="rounded-xl border border-white/10 bg-white/[0.02] overflow-hidden">
               <div className="p-4 border-b border-white/5">
                 <p className="text-sm text-gray-400" style={sans}>
-                  {searchResults.length} result{searchResults.length !== 1 ? 's' : ''} for &ldquo;{searchQuery}&rdquo;
+                  {t('searchResults', { count: searchResults.length, query: searchQuery })}
                 </p>
               </div>
               {searchResults.length > 0 ? (
                 <div className="p-2">
                   {searchResults.map((file) => (
-                    <SearchResultRow key={file.path} file={file} />
+                    <SearchResultRow key={file.path} file={file} t={t} />
                   ))}
                 </div>
               ) : (
@@ -377,7 +379,7 @@ export default function ResourcesPage() {
                   <svg className="w-12 h-12 text-gray-600 mx-auto mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
-                  <p className="text-sm text-gray-500" style={sans}>No files found matching your search.</p>
+                  <p className="text-sm text-gray-500" style={sans}>{t('noFilesFound')}</p>
                 </div>
               )}
             </div>
@@ -386,7 +388,7 @@ export default function ResourcesPage() {
             <div className="rounded-xl border border-white/10 bg-white/[0.02] overflow-hidden">
               <div className="p-2">
                 {tree.map((entry) => (
-                  <FolderRow key={entry.path} entry={entry} depth={0} searchQuery={searchQuery} />
+                  <FolderRow key={entry.path} entry={entry} depth={0} searchQuery={searchQuery} t={t} />
                 ))}
               </div>
             </div>

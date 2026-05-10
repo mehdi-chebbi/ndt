@@ -3,6 +3,8 @@
 import { useEffect, useState, useRef, useCallback } from 'react'
 import { useAuth } from '@/contexts/AuthContext'
 import { authFetch } from '@/lib/authFetch'
+import { useTranslation } from 'react-i18next'
+import i18next from 'i18next'
 import { Doughnut } from 'react-chartjs-2'
 import {
   Chart as ChartJS,
@@ -498,7 +500,7 @@ function GiniLineChart({ readings }: { readings: GiniReading[] }) {
             titleFont: { family: 'monospace', size: 10 },
             bodyFont: { size: 14 },
             callbacks: {
-              label: (ctx: any) => `Gini: ${ctx.parsed.y.toFixed(1)}`,
+              label: (ctx: any) => i18next.t('ldn-dashboard:giniTooltipLabel', { value: ctx.parsed.y.toFixed(1) }),
             },
           },
         },
@@ -581,7 +583,7 @@ function SpiTimeSeriesChart({ labels, values }: { labels: string[]; values: numb
             titleFont: { family: 'monospace', size: 10 },
             bodyFont: { size: 14 },
             callbacks: {
-              label: (ctx: any) => `Drought: ${ctx.parsed.y.toFixed(1)}% of land`,
+              label: (ctx: any) => i18next.t('ldn-dashboard:droughtTooltipLabel', { value: ctx.parsed.y.toFixed(1) }),
             },
           },
         },
@@ -617,6 +619,7 @@ function SpiTimeSeriesChart({ labels, values }: { labels: string[]; values: numb
 
 export default function LdnDashboardPage() {
   const { user, loading: authLoading } = useAuth()
+  const { t } = useTranslation('ldn-dashboard')
 
   // Data state
   const [countries, setCountries] = useState<CountryOption[]>([])
@@ -864,7 +867,7 @@ export default function LdnDashboardPage() {
       <div className="min-h-screen bg-[#0a0f0d] flex items-center justify-center">
         <div className="text-center">
           <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-green-400 mx-auto"></div>
-          <p className="mt-4 text-gray-500">Loading...</p>
+          <p className="mt-4 text-gray-500">{t('loading')}</p>
         </div>
       </div>
     )
@@ -883,9 +886,9 @@ export default function LdnDashboardPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
             <div>
-              <p className="text-xs font-mono uppercase tracking-widest text-green-400 mb-1">LDN Dashboard</p>
-              <h1 className="text-2xl sm:text-3xl font-bold">LDN Dashboard</h1>
-              <p className="text-sm text-gray-500 mt-1">SO1 · Ecosystems · SO2 · Living Conditions · SO3 · Drought</p>
+              <p className="text-xs font-mono uppercase tracking-widest text-green-400 mb-1">{t('headerBadge')}</p>
+              <h1 className="text-2xl sm:text-3xl font-bold">{t('headerTitle')}</h1>
+              <p className="text-sm text-gray-500 mt-1">{t('headerSubtitle')}</p>
             </div>
 
             {/* Country Selector */}
@@ -899,7 +902,7 @@ export default function LdnDashboardPage() {
                   <svg className="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
-                  <span>{selectedCountry?.name || 'Select country'}</span>
+                  <span>{selectedCountry?.name || t('selectCountry')}</span>
                 </div>
                 <svg className={`w-4 h-4 text-gray-500 transition-transform ${countryDropdownOpen ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
@@ -911,7 +914,7 @@ export default function LdnDashboardPage() {
                   <div className="p-2 border-b border-white/[0.06]">
                     <input
                       type="text"
-                      placeholder="Search country..."
+                      placeholder={t('searchCountry')}
                       value={countrySearch}
                       onChange={(e) => setCountrySearch(e.target.value)}
                       className="w-full px-3 py-2 text-sm bg-white/5 border border-white/10 rounded-md text-white placeholder-gray-500 focus:outline-none focus:ring-1 focus:ring-green-500"
@@ -947,7 +950,7 @@ export default function LdnDashboardPage() {
           <div className="flex items-center justify-center py-20">
             <div className="text-center">
               <div className="animate-spin rounded-full h-10 w-10 border-b-2 border-green-400 mx-auto"></div>
-              <p className="mt-4 text-gray-500 text-sm">Loading stats for {selectedCountry?.name}...</p>
+              <p className="mt-4 text-gray-500 text-sm">{t('loadingStatsFor', { country: selectedCountry?.name })}</p>
             </div>
           </div>
         )}
@@ -962,8 +965,8 @@ export default function LdnDashboardPage() {
                 </svg>
               </div>
               <div>
-                <h2 className="text-xl font-bold">SO1 — Ecosystems</h2>
-                <p className="text-sm text-gray-500">Improving affected ecosystems and promoting sustainable land management</p>
+                <h2 className="text-xl font-bold">{t('so1Title')}</h2>
+                <p className="text-sm text-gray-500">{t('so1Description')}</p>
               </div>
             </div>
 
@@ -976,15 +979,15 @@ export default function LdnDashboardPage() {
                   </svg>
                 </div>
                 <div>
-                  <h2 className="text-xl font-bold">SDG 15.3.1 — Land Degradation <span className="text-sm font-normal text-amber-400">(Reporting)</span></h2>
-                  <p className="text-sm text-gray-500">Proportion of land that is degraded over total land area · Baseline → Reporting comparison</p>
+                  <h2 className="text-xl font-bold">{t('sdgTitle')} <span className="text-sm font-normal text-amber-400">{t('sdgReporting')}</span></h2>
+                  <p className="text-sm text-gray-500">{t('sdgDescription')}</p>
                 </div>
               </div>
 
               {!sdgReporting ? (
                 <div className="text-center py-12">
-                  <p className="text-gray-500">No pre-calculated stats available for {selectedCountry?.name}</p>
-                  <p className="text-xs text-gray-600 mt-1">Stats may still be computing. Try again later.</p>
+                  <p className="text-gray-500">{t('noStatsForCountry', { country: selectedCountry?.name })}</p>
+                  <p className="text-xs text-gray-600 mt-1">{t('statsComputing')}</p>
                 </div>
               ) : (
                 <div className="grid md:grid-cols-2 gap-8">
@@ -996,7 +999,7 @@ export default function LdnDashboardPage() {
                       <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
                         <div className="text-center">
                           <p className="text-3xl font-bold text-red-400">{sdgHeadline.degradedPct ?? '—'}%</p>
-                          <p className="text-xs text-gray-500 mt-0.5">degraded</p>
+                          <p className="text-xs text-gray-500 mt-0.5">{t('degraded')}</p>
                         </div>
                       </div>
                     </div>
@@ -1009,14 +1012,14 @@ export default function LdnDashboardPage() {
                     {/* Total area */}
                     <div className="mt-6 pt-4 border-t border-white/[0.06]">
                       <div className="flex items-center justify-between">
-                        <span className="text-sm text-gray-400">Total Area</span>
+                        <span className="text-sm text-gray-400">{t('totalArea')}</span>
                         <span className="text-sm font-semibold text-white">
                           {sdgReporting.total_area_km2.toLocaleString(undefined, { maximumFractionDigits: 0 })} km²
                         </span>
                       </div>
                       {sdgHeadline.degradedArea && (
                         <div className="flex items-center justify-between mt-2">
-                          <span className="text-sm text-red-400">Degraded Area</span>
+                          <span className="text-sm text-red-400">{t('degradedArea')}</span>
                           <span className="text-sm font-semibold text-red-400">
                             {sdgHeadline.degradedArea.toLocaleString(undefined, { maximumFractionDigits: 0 })} km²
                           </span>
@@ -1027,7 +1030,7 @@ export default function LdnDashboardPage() {
                     {/* Baseline vs Reporting comparison */}
                     {sdgBaseline && sdgReporting && (
                       <div className="mt-4 p-3 rounded-lg bg-white/[0.03] border border-white/[0.06]">
-                        <p className="text-xs font-mono uppercase tracking-wider text-gray-500 mb-2">Baseline → Reporting</p>
+                        <p className="text-xs font-mono uppercase tracking-wider text-gray-500 mb-2">{t('baselineToReporting')}</p>
                         {sdgReporting.classes.map((cls, i) => {
                           const baselineClass = sdgBaseline.classes?.find(
                             bc => resolveClassName(bc.class_name) === resolveClassName(cls.class_name)
@@ -1068,13 +1071,13 @@ export default function LdnDashboardPage() {
                     </svg>
                   </div>
                   <div>
-                    <h3 className="text-sm font-semibold">Land Cover</h3>
-                    <p className="text-xs text-gray-500">SO 1-1 · 2023 Snapshot</p>
+                    <h3 className="text-sm font-semibold">{t('landCover')}</h3>
+                    <p className="text-xs text-gray-500">{t('landCoverSubtitle')}</p>
                   </div>
                 </div>
 
                 {!stats.landcover2023 ? (
-                  <div className="py-8 text-center text-sm text-gray-600">No data</div>
+                  <div className="py-8 text-center text-sm text-gray-600">{t('noData')}</div>
                 ) : (
                   <>
                     <div className="flex justify-center mb-4">
@@ -1109,13 +1112,13 @@ export default function LdnDashboardPage() {
                     </svg>
                   </div>
                   <div>
-                    <h3 className="text-sm font-semibold">Land Productivity</h3>
-                    <p className="text-xs text-gray-500">SO 1-2 · LPD Reporting</p>
+                    <h3 className="text-sm font-semibold">{t('landProductivity')}</h3>
+                    <p className="text-xs text-gray-500">{t('landProductivitySubtitle')}</p>
                   </div>
                 </div>
 
                 {!stats.lpdReporting ? (
-                  <div className="py-8 text-center text-sm text-gray-600">No data</div>
+                  <div className="py-8 text-center text-sm text-gray-600">{t('noData')}</div>
                 ) : (
                   <>
                     <div className="flex justify-center mb-4">
@@ -1137,19 +1140,19 @@ export default function LdnDashboardPage() {
                     </svg>
                   </div>
                   <div>
-                    <h3 className="text-sm font-semibold">Soil Organic Carbon</h3>
-                    <p className="text-xs text-gray-500">SO 1-3 · Baseline + Reporting</p>
+                    <h3 className="text-sm font-semibold">{t('soilOrganicCarbon')}</h3>
+                    <p className="text-xs text-gray-500">{t('soilOrganicCarbonSubtitle')}</p>
                   </div>
                 </div>
 
                 {!stats.socBaseline && !stats.socReporting ? (
-                  <div className="py-8 text-center text-sm text-gray-600">No data</div>
+                  <div className="py-8 text-center text-sm text-gray-600">{t('noData')}</div>
                 ) : (
                   <div className="space-y-4">
                     {/* SOC Baseline */}
                     {stats.socBaseline && (
                       <div className="p-3 rounded-lg bg-white/[0.03] border border-white/[0.04]">
-                        <p className="text-xs font-mono uppercase tracking-wider text-gray-500 mb-2">Baseline</p>
+                        <p className="text-xs font-mono uppercase tracking-wider text-gray-500 mb-2">{t('baseline')}</p>
                         <div className="flex justify-center mb-2">
                           <div className="w-28 h-28">
                             <DonutChart classes={stats.socBaseline.classes} colorFn={getSocColor} height={112} />
@@ -1162,7 +1165,7 @@ export default function LdnDashboardPage() {
                     {/* SOC Reporting */}
                     {stats.socReporting && (
                       <div className="p-3 rounded-lg bg-white/[0.03] border border-white/[0.04]">
-                        <p className="text-xs font-mono uppercase tracking-wider text-gray-500 mb-2">Reporting</p>
+                        <p className="text-xs font-mono uppercase tracking-wider text-gray-500 mb-2">{t('reporting')}</p>
                         <div className="flex justify-center mb-2">
                           <div className="w-28 h-28">
                             <DonutChart classes={stats.socReporting.classes} colorFn={getSocColor} height={112} />
@@ -1186,8 +1189,8 @@ export default function LdnDashboardPage() {
                     </svg>
                   </div>
                   <div>
-                    <h3 className="text-sm font-semibold">Land Cover Change</h3>
-                    <p className="text-xs text-gray-500">SO 1-1 · LC Change Reporting (Baseline → Reporting)</p>
+                    <h3 className="text-sm font-semibold">{t('landCoverChange')}</h3>
+                    <p className="text-xs text-gray-500">{t('landCoverChangeSubtitle')}</p>
                   </div>
                 </div>
 
@@ -1211,8 +1214,8 @@ export default function LdnDashboardPage() {
                   </svg>
                 </div>
                 <div>
-                  <h2 className="text-xl font-bold">SO2 — Living Conditions</h2>
-                  <p className="text-sm text-gray-500">Improving access to safe water and reducing inequality</p>
+                  <h2 className="text-xl font-bold">{t('so2Title')}</h2>
+                  <p className="text-sm text-gray-500">{t('so2Description')}</p>
                 </div>
               </div>
 
@@ -1230,13 +1233,13 @@ export default function LdnDashboardPage() {
                           </svg>
                         </div>
                         <div>
-                          <h3 className="text-sm font-semibold">Water Access</h3>
-                          <p className="text-xs text-gray-500">SO 2-1 · Safely managed / basic water services</p>
+                          <h3 className="text-sm font-semibold">{t('waterAccess')}</h3>
+                          <p className="text-xs text-gray-500">{t('waterAccessSubtitle')}</p>
                         </div>
                       </div>
 
                       {!wa ? (
-                        <div className="py-8 text-center text-sm text-gray-600">No data available for {selectedCountry?.name}</div>
+                        <div className="py-8 text-center text-sm text-gray-600">{t('noDataForCountry', { country: selectedCountry?.name })}</div>
                       ) : (
                         <div className="space-y-4">
                           {/* Main metric */}
@@ -1244,7 +1247,7 @@ export default function LdnDashboardPage() {
                             <p className="text-4xl font-bold" style={{ color: wa.y2020 !== null ? (wa.y2020 >= 70 ? '#22c55e' : wa.y2020 >= 40 ? '#eab308' : '#ef4444') : '#6b7280' }}>
                               {wa.y2020 !== null ? `${wa.y2020.toFixed(1)}%` : 'N/A'}
                             </p>
-                            <p className="text-sm text-gray-500 mb-1">access in {wa.y2000 !== null ? '2020' : 'latest'}</p>
+                            <p className="text-sm text-gray-500 mb-1">{t('accessIn', { year: wa.y2000 !== null ? '2020' : 'latest' })}</p>
                           </div>
 
                           {/* Change badge */}
@@ -1259,7 +1262,7 @@ export default function LdnDashboardPage() {
                               }`}>
                                 {wa.change > 0 ? '+' : ''}{wa.change.toFixed(1)} pp
                               </span>
-                              <span className="text-xs text-gray-500">2000 → 2020</span>
+                              <span className="text-xs text-gray-500">{t('y2000To2020')}</span>
                             </div>
                           )}
 
@@ -1283,11 +1286,11 @@ export default function LdnDashboardPage() {
                           {/* Urban vs Rural */}
                           {wg && wg.urban !== null && wg.rural !== null && (
                             <div className="p-3 rounded-lg bg-white/[0.03] border border-white/[0.04]">
-                              <p className="text-xs font-mono uppercase tracking-wider text-gray-500 mb-2">Urban vs Rural Gap</p>
+                              <p className="text-xs font-mono uppercase tracking-wider text-gray-500 mb-2">{t('urbanVsRuralGap')}</p>
                               <div className="space-y-2">
                                 <div>
                                   <div className="flex items-center justify-between text-xs mb-1">
-                                    <span className="text-cyan-400">Urban</span>
+                                    <span className="text-cyan-400">{t('urban')}</span>
                                     <span className="text-white font-medium">{wg.urban.toFixed(1)}%</span>
                                   </div>
                                   <div className="w-full h-1.5 bg-white/[0.06] rounded-full">
@@ -1296,7 +1299,7 @@ export default function LdnDashboardPage() {
                                 </div>
                                 <div>
                                   <div className="flex items-center justify-between text-xs mb-1">
-                                    <span className="text-green-400">Rural</span>
+                                    <span className="text-green-400">{t('rural')}</span>
                                     <span className="text-white font-medium">{wg.rural.toFixed(1)}%</span>
                                   </div>
                                   <div className="w-full h-1.5 bg-white/[0.06] rounded-full">
@@ -1304,7 +1307,7 @@ export default function LdnDashboardPage() {
                                   </div>
                                 </div>
                                 <div className="flex items-center justify-between pt-1 border-t border-white/[0.04]">
-                                  <span className="text-xs text-gray-400">Gap</span>
+                                  <span className="text-xs text-gray-400">{t('gap')}</span>
                                   <span className={`text-xs font-mono font-medium ${(wg.urban - wg.rural) > 40 ? 'text-red-400' : (wg.urban - wg.rural) > 20 ? 'text-amber-400' : 'text-green-400'}`}>
                                     {(wg.urban - wg.rural).toFixed(0)} pp
                                   </span>
@@ -1313,7 +1316,7 @@ export default function LdnDashboardPage() {
                             </div>
                           )}
 
-                          <p className="text-[10px] text-gray-600">Source: World Bank / JMP · 2000–2023</p>
+                          <p className="text-[10px] text-gray-600">{t('waterSource')}</p>
                         </div>
                       )}
                     </div>
@@ -1342,13 +1345,13 @@ export default function LdnDashboardPage() {
                           </svg>
                         </div>
                         <div>
-                          <h3 className="text-sm font-semibold">Income Inequality</h3>
-                          <p className="text-xs text-gray-500">SO 2-2 · Gini Index (0=equal, 100=unequal)</p>
+                          <h3 className="text-sm font-semibold">{t('incomeInequality')}</h3>
+                          <p className="text-xs text-gray-500">{t('incomeInequalitySubtitle')}</p>
                         </div>
                       </div>
 
                       {!gini || gini.readings.length === 0 ? (
-                        <div className="py-8 text-center text-sm text-gray-600">No data available for {selectedCountry?.name}</div>
+                        <div className="py-8 text-center text-sm text-gray-600">{t('noDataForCountry', { country: selectedCountry?.name })}</div>
                       ) : (
                         <div className="space-y-4">
                           {/* Main metric */}
@@ -1358,7 +1361,7 @@ export default function LdnDashboardPage() {
                             </p>
                             <div className="mb-1">
                               <p className="text-sm text-gray-500">
-                                Gini in {latestReading?.year}
+                                {t('giniIn', { year: latestReading?.year })}
                               </p>
                               <span className={`text-[10px] font-mono px-1.5 py-0.5 rounded ${
                                 latestReading && latestReading.val < 35
@@ -1367,7 +1370,7 @@ export default function LdnDashboardPage() {
                                     ? 'bg-yellow-500/10 text-yellow-400'
                                     : 'bg-red-500/10 text-red-400'
                               }`}>
-                                {latestReading && latestReading.val < 35 ? 'Low inequality' : latestReading && latestReading.val < 45 ? 'Moderate' : 'High inequality'}
+                                {latestReading && latestReading.val < 35 ? t('lowInequality') : latestReading && latestReading.val < 45 ? t('moderate') : t('highInequality')}
                               </span>
                             </div>
                           </div>
@@ -1388,7 +1391,7 @@ export default function LdnDashboardPage() {
                                 {earliestReading?.year} → {latestReading?.year}
                               </span>
                               <span className="text-[10px] text-gray-600">
-                                ({gini.readings.length} readings)
+                                ({t('readings', { count: gini.readings.length })})
                               </span>
                             </div>
                           )}
@@ -1396,7 +1399,7 @@ export default function LdnDashboardPage() {
                           {/* Gini Timeline Chart */}
                           {gini.readings.length >= 2 && (
                             <div className="p-3 rounded-lg bg-white/[0.03] border border-white/[0.04]">
-                              <p className="text-xs font-mono uppercase tracking-wider text-gray-500 mb-2">Gini Over Time</p>
+                              <p className="text-xs font-mono uppercase tracking-wider text-gray-500 mb-2">{t('giniOverTime')}</p>
                               <div style={{ height: '140px' }}>
                                 <GiniLineChart readings={gini.readings} />
                               </div>
@@ -1425,7 +1428,7 @@ export default function LdnDashboardPage() {
                             </div>
                           )}
 
-                          <p className="text-[10px] text-gray-600">Source: World Bank / PovcalNet · 2000–2023</p>
+                          <p className="text-[10px] text-gray-600">{t('giniSource')}</p>
                         </div>
                       )}
                     </div>
@@ -1443,8 +1446,8 @@ export default function LdnDashboardPage() {
                   </svg>
                 </div>
                 <div>
-                  <h2 className="text-xl font-bold">SO3 — Drought</h2>
-                  <p className="text-sm text-gray-500">Mitigating drought effects and tracking SPI over time</p>
+                  <h2 className="text-xl font-bold">{t('so3Title')}</h2>
+                  <p className="text-sm text-gray-500">{t('so3Description')}</p>
                 </div>
               </div>
 
@@ -1453,8 +1456,8 @@ export default function LdnDashboardPage() {
                   <svg className="w-12 h-12 text-amber-500/30 mx-auto mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
                   </svg>
-                  <p className="text-gray-500">No SPI layers found for {selectedCountry?.name}</p>
-                  <p className="text-xs text-gray-600 mt-1">SPI data needs to be uploaded and stats pre-calculated first.</p>
+                  <p className="text-gray-500">{t('noSpiLayers', { country: selectedCountry?.name })}</p>
+                  <p className="text-xs text-gray-600 mt-1">{t('spiDataNeedsUpload')}</p>
                 </div>
               ) : (
                 <div className="rounded-2xl bg-gradient-to-br from-white/[0.04] to-white/[0.02] border border-white/[0.08] p-6 sm:p-8">
@@ -1466,8 +1469,8 @@ export default function LdnDashboardPage() {
                       </svg>
                     </div>
                     <div>
-                      <h3 className="text-sm font-semibold">Drought Time Series (SPI)</h3>
-                      <p className="text-xs text-gray-500">SO 3-1 · % of land under drought over time</p>
+                      <h3 className="text-sm font-semibold">{t('droughtTimeSeries')}</h3>
+                      <p className="text-xs text-gray-500">{t('droughtTimeSeriesSubtitle')}</p>
                     </div>
                   </div>
 
@@ -1492,30 +1495,30 @@ export default function LdnDashboardPage() {
                       return (
                         <>
                           <div className="p-3 rounded-lg bg-white/[0.03] border border-white/[0.04]">
-                            <p className="text-xs text-gray-500 mb-1">Current Drought</p>
+                            <p className="text-xs text-gray-500 mb-1">{t('currentDrought')}</p>
                             <p className="text-2xl font-bold" style={{ color: latestDroughtPct !== null ? getSpiColor(latestDroughtPct) : '#6b7280' }}>
                               {latestDroughtPct !== null ? `${latestDroughtPct}%` : '—'}
                             </p>
                             <p className="text-[10px] text-gray-600">{latestPeriod?.period ?? ''}</p>
                           </div>
                           <div className="p-3 rounded-lg bg-white/[0.03] border border-white/[0.04]">
-                            <p className="text-xs text-gray-500 mb-1">Trend</p>
+                            <p className="text-xs text-gray-500 mb-1">{t('trend')}</p>
                             <p className="text-2xl font-bold" style={{ color: trend !== null ? (trend > 0 ? '#ef4444' : trend < 0 ? '#22c55e' : '#eab308') : '#6b7280' }}>
                               {trend !== null ? `${trend > 0 ? '+' : ''}${trend.toFixed(1)} pp` : '—'}
                             </p>
                             <p className="text-[10px] text-gray-600">{earliestPeriod?.period ?? ''} → {latestPeriod?.period ?? ''}</p>
                           </div>
                           <div className="p-3 rounded-lg bg-white/[0.03] border border-white/[0.04]">
-                            <p className="text-xs text-gray-500 mb-1">Peak Drought</p>
+                            <p className="text-xs text-gray-500 mb-1">{t('peakDrought')}</p>
                             <p className="text-2xl font-bold" style={{ color: peakPct !== null ? getSpiColor(peakPct) : '#6b7280' }}>
                               {peakPct !== null ? `${peakPct}%` : '—'}
                             </p>
                             <p className="text-[10px] text-gray-600">{peakPeriod?.period ?? ''}</p>
                           </div>
                           <div className="p-3 rounded-lg bg-white/[0.03] border border-white/[0.04]">
-                            <p className="text-xs text-gray-500 mb-1">Periods</p>
+                            <p className="text-xs text-gray-500 mb-1">{t('periods')}</p>
                             <p className="text-2xl font-bold text-amber-400">{periodsWithData.length}</p>
-                            <p className="text-[10px] text-gray-600">with data</p>
+                            <p className="text-[10px] text-gray-600">{t('withData')}</p>
                           </div>
                         </>
                       )
@@ -1527,7 +1530,7 @@ export default function LdnDashboardPage() {
                     const periodsWithData = spiPeriods.filter(p => p.stats)
                     if (periodsWithData.length < 1) {
                       return (
-                        <div className="py-8 text-center text-sm text-gray-600">No SPI stats available for {selectedCountry?.name}</div>
+                        <div className="py-8 text-center text-sm text-gray-600">{t('noSpiStatsForCountry', { country: selectedCountry?.name })}</div>
                       )
                     }
 
@@ -1536,7 +1539,7 @@ export default function LdnDashboardPage() {
 
                     return (
                       <div className="p-4 rounded-lg bg-white/[0.03] border border-white/[0.04]">
-                        <p className="text-xs font-mono uppercase tracking-wider text-gray-500 mb-3">Drought Severity Over Time</p>
+                        <p className="text-xs font-mono uppercase tracking-wider text-gray-500 mb-3">{t('droughtSeverityOverTime')}</p>
                         <div style={{ height: '220px' }}>
                           <SpiTimeSeriesChart labels={chartLabels} values={droughtPcts} />
                         </div>
@@ -1576,7 +1579,7 @@ export default function LdnDashboardPage() {
                           })}
                         </div>
 
-                        <p className="text-[10px] text-gray-600 mt-4">Source: SPI (Standardized Precipitation Index) · Geospatial analysis</p>
+                        <p className="text-[10px] text-gray-600 mt-4">{t('spiSource')}</p>
                       </div>
                     )
                   })()}

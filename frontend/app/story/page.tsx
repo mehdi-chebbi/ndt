@@ -2,6 +2,7 @@
 
 import dynamic from "next/dynamic";
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 import { StatCard } from "@/components/story/CountUp";
 // Dynamically import MapComparison (no SSR — uses Leaflet)
 const MapComparison = dynamic(
@@ -24,41 +25,14 @@ const ScrollLinkedMap = dynamic(
   { ssr: false }
 );
 
-// ── Step data (text for each scrolling panel) ─────────────────────────────────
+// ── Step keys for translation ──────────────────────────────────────────────────
 
-interface StepData {
-  id: string;
-  title: string;
-  body: string;
-  mapChapter: string;
-}
-
-const STEPS: StepData[] = [
-  {
-    id: "overview",
-    title: "Africa at a Crossroads",
-    body: "More than 65% of Africa's productive agricultural land has been degraded. This crisis threatens food security for over 1.3 billion people across the continent.",
-    mapChapter: "intro",
-  },
-  {
-    id: "sahel",
-    title: "The Sahel's Vanishing Soil",
-    body: "The Sahel — stretching 5,400 km from Senegal to Eritrea — loses millions of hectares of topsoil each year to wind erosion and desertification.",
-    mapChapter: "sahel",
-  },
-  {
-    id: "ethiopia",
-    title: "Ethiopia's Highland Collapse",
-    body: "Rapid deforestation in the Ethiopian highlands has accelerated erosion, with some watersheds losing up to 200 tonnes of soil per hectare annually.",
-    mapChapter: "ethiopia",
-  },
-  {
-    id: "southern",
-    title: "Southern Africa's Drought Belt",
-    body: "Climate change has extended drought cycles across southern Africa, compounding existing land degradation and displacing entire communities.",
-    mapChapter: "southern",
-  },
-];
+const STEP_KEYS = [
+  { id: "overview", titleKey: "stepOverviewTitle", bodyKey: "stepOverviewBody", mapChapter: "intro" },
+  { id: "sahel", titleKey: "stepSahelTitle", bodyKey: "stepSahelBody", mapChapter: "sahel" },
+  { id: "ethiopia", titleKey: "stepEthiopiaTitle", bodyKey: "stepEthiopiaBody", mapChapter: "ethiopia" },
+  { id: "southern", titleKey: "stepSouthernTitle", bodyKey: "stepSouthernBody", mapChapter: "southern" },
+] as const
 
 // ── Chapters with WMS layer configs ───────────────────────────────────────────
 // Each chapter flies to a location and optionally shows a WMS data layer.
@@ -201,6 +175,8 @@ const COMPARISON_AFTER = {
 // ── Page ──────────────────────────────────────────────────────────────────────
 
 export default function StoryPage() {
+  const { t } = useTranslation('story')
+
   return (
     <main className="bg-[#0a0f0d] text-white min-h-screen">
       {/* ═══════ HERO ═══════ */}
@@ -246,9 +222,9 @@ export default function StoryPage() {
         </div>
 
         <TitleCard
-          eyebrow="Data Story · 2024"
-          heading="Land at the Brink"
-          body="An interactive investigation into Africa's accelerating land degradation crisis. Scroll to explore the story."
+          eyebrow={t('heroEyebrow')}
+          heading={t('heroHeading')}
+          body={t('heroBody')}
           align="center"
           className="max-w-4xl mx-auto relative z-10"
         />
@@ -261,7 +237,7 @@ export default function StoryPage() {
           className="absolute bottom-12 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2"
         >
           <span className="text-xs uppercase tracking-widest text-zinc-500">
-            Scroll to explore
+            {t('scrollToExplore')}
           </span>
           <div className="w-5 h-8 rounded-full border-2 border-zinc-600 flex items-start justify-center p-1">
             <motion.div
@@ -281,10 +257,10 @@ export default function StoryPage() {
             className="flex flex-col gap-2 mb-12"
           >
             <span className="text-xs uppercase tracking-widest text-green-400/80 font-bold">
-              The Numbers
+              {t('statsEyebrow')}
             </span>
             <h2 className="text-3xl md:text-4xl font-bold">
-              A Crisis Measured in Hectares
+              {t('statsHeading')}
             </h2>
           </RevealLines>
 
@@ -293,14 +269,14 @@ export default function StoryPage() {
               to={1_200_000}
               suffix=" km²"
               duration={2.5}
-              label="Degraded Land"
-              description="Area affected across sub-Saharan Africa"
+              label={t('statDegradedLand')}
+              description={t('statDegradedLandDesc')}
             />
             <StatCard
               to={65}
               suffix="%"
               duration={2}
-              label="Farmland Affected"
+              label={t('statFarmlandAffected')}
             />
             <StatCard
               to={3.4}
@@ -308,12 +284,12 @@ export default function StoryPage() {
               decimals={1}
               prefix="$"
               duration={2.2}
-              label="Annual GDP Loss"
+              label={t('statAnnualGdpLoss')}
             />
             <StatCard
               to={54}
               duration={1.6}
-              label="Countries Impacted"
+              label={t('statCountriesImpacted')}
             />
           </div>
         </div>
@@ -323,7 +299,7 @@ export default function StoryPage() {
       <ScrollLinkedMap chapters={STORY_CHAPTERS}>
         {(chapterRef) => (
           <>
-            {STEPS.map((step, idx) => (
+            {STEP_KEYS.map((step, idx) => (
               <section
                 key={step.id}
                 ref={chapterRef(step.mapChapter)}
@@ -331,9 +307,9 @@ export default function StoryPage() {
               >
                 <div className="max-w-md">
                   <TitleCard
-                    eyebrow={`Chapter ${idx + 1}`}
-                    heading={step.title}
-                    body={step.body}
+                    eyebrow={t('chapter', { number: idx + 1 })}
+                    heading={t(step.titleKey)}
+                    body={t(step.bodyKey)}
                     delay={0.1}
                   />
                 </div>
@@ -348,22 +324,21 @@ export default function StoryPage() {
         <div className="max-w-5xl mx-auto">
           <RevealLines staggerDelay={0.1} className="flex flex-col gap-3 mb-12">
             <span className="text-xs uppercase tracking-widest text-green-400 font-bold">
-              Satellite Evidence
+              {t('comparisonEyebrow')}
             </span>
             <h2 className="text-3xl md:text-4xl font-bold">
-              14 Years of Change
+              {t('comparisonHeading')}
             </h2>
             <p className="text-zinc-400 max-w-xl">
-              Drag the handle to compare vegetation cover in the Sahel region
-              between 2010 and 2024.
+              {t('comparisonDescription')}
             </p>
           </RevealLines>
 
           <MapComparison
             before={COMPARISON_BEFORE}
             after={COMPARISON_AFTER}
-            beforeLabel="Baseline"
-            afterLabel="Reporting"
+            beforeLabel={t('comparisonBeforeLabel')}
+            afterLabel={t('comparisonAfterLabel')}
             center={[20, 5]}
             zoom={3}
             className="w-full aspect-video rounded-2xl overflow-hidden"
@@ -376,31 +351,31 @@ export default function StoryPage() {
         <div className="max-w-5xl mx-auto">
           <RevealLines staggerDelay={0.1} className="flex flex-col gap-2 mb-16">
             <span className="text-xs uppercase tracking-widest text-green-400/80 font-bold">
-              The Human Cost
+              {t('humanCostEyebrow')}
             </span>
             <h2 className="text-3xl md:text-4xl font-bold">
-              Behind Every Hectare
+              {t('humanCostHeading')}
             </h2>
           </RevealLines>
 
           <div className="grid md:grid-cols-2 gap-16 md:gap-20">
             <PullQuote
               stat="65%"
-              caption="of Africa's farmland is degraded"
+              caption={t('pullQuoteFarmland')}
             />
             <PullQuote
               stat="$3.4B"
-              caption="in annual economic losses"
+              caption={t('pullQuoteLosses')}
               delay={0.2}
             />
             <PullQuote
               stat="485M"
-              caption="people depend on degraded land"
+              caption={t('pullQuotePeople')}
               delay={0.3}
             />
             <PullQuote
               stat="12M"
-              caption="hectares lost each year to desertification"
+              caption={t('pullQuoteDesertification')}
               delay={0.4}
             />
           </div>
@@ -415,15 +390,13 @@ export default function StoryPage() {
             className="flex flex-col items-center gap-6"
           >
             <span className="text-xs uppercase tracking-widest text-green-400/80 font-bold">
-              What Can You Do?
+              {t('ctaEyebrow')}
             </span>
             <h2 className="text-3xl md:text-5xl font-bold">
-              Explore Your Country&apos;s Data
+              {t('ctaHeading')}
             </h2>
             <p className="text-zinc-400 text-lg max-w-xl leading-relaxed">
-              Use our interactive map to explore detailed statistics for every
-              African nation. Draw custom areas, compare layers, and generate
-              reports.
+              {t('ctaDescription')}
             </p>
           </RevealLines>
 
@@ -439,7 +412,7 @@ export default function StoryPage() {
                 boxShadow: "0 0 24px rgba(34,197,94,0.25)",
               }}
             >
-              Open the Map
+              {t('ctaOpenMap')}
               <svg
                 className="w-4 h-4"
                 fill="none"
@@ -462,7 +435,7 @@ export default function StoryPage() {
                 letterSpacing: "0.02em",
               }}
             >
-              Get Free Access
+              {t('ctaGetAccess')}
             </a>
           </div>
         </div>

@@ -1,0 +1,44 @@
+{
+  "hero": {
+    "eyebrow": "Cartes de dégradation des terres et données géospatiales en Afrique",
+    "title": "Géoportail",
+    "description": "Explorez des cartes interactives et des jeux de données géospatiales sur la dégradation des terres en Afrique. Accédez aux indicateurs spatiaux, statistiques et outils pour analyser les tendances environnementales et soutenir la prise de décision.",
+    "tagline": "Explorez les cartes. Visualisez les données. Découvrez des informations."
+  },
+  "about": {
+    "paragraph1": "Le Géoportail fournit un accès aux données géospatiales sur les terres et l'environnement en Afrique, permettant aux utilisateurs de visualiser, analyser et télécharger des jeux de données spatiales à travers le continent.",
+    "paragraph2": "En intégrant des indicateurs environnementaux basés sur l'observation de la Terre (OT) et des données nationales, le Géoportail offre des ressources alignées sur les quatre objectifs stratégiques (OS) de la CNULCD, soutenant une compréhension globale de la dynamique de la dégradation des terres.",
+    "paragraph3": "Il soutient l'analyse fondée sur les données probantes et la prise de décision pour la gestion durable des terres aux niveaux continental et national."
+  },
+  "keyFeatures": {
+    "heading": "Fonctionnalités et capacités clés du Géoportail",
+    "feature1": "Occupation et couverture des sols, mettant en évidence les écosystèmes et la dynamique des terres.",
+    "feature2": "Cartes interactives de dégradation des terres, mettant en évidence l'indicateur ODD 15.3.1.",
+    "feature3": "Indicateurs environnementaux, couvrant les objectifs stratégiques de la CNULCD.",
+    "feature4": "Couches de surveillance de la végétation, des terres et du climat.",
+    "feature5": "Jeux de données géospatiales téléchargeables par pays et régions dans des formats compatibles avec les outils SIG."
+  },
+  "whatYouCanDo": {
+    "heading": "Ce que vous pouvez faire avec le géoportail"
+  },
+  "howToUse": {
+    "heading": "Comment utiliser le géoportail",
+    "intro": "Commencez en quelques étapes :",
+    "step1": "Choisissez un indicateur ou un jeu de données",
+    "step2": "Ajustez la période temporelle",
+    "step3": "Visualisez les résultats sur la carte interactive",
+    "step4": "Comparez les couches thématiques",
+    "step5": "Sélectionnez un pays ou une région",
+    "step6": "Générez les statistiques",
+    "step7": "Téléchargez les données ou intégrez-les dans votre analyse"
+  },
+  "startExploring": {
+    "heading": "Commencez à explorer le Géoportail",
+    "openMap": "Ouvrir la carte interactive",
+    "exploreIndicators": "Explorer les indicateurs",
+    "downloadData": "Télécharger les données"
+  },
+  "placeholders": {
+    "image": "Espace réservé pour l'image"
+  }
+}

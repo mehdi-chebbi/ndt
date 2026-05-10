@@ -33,6 +33,20 @@ import enTutorial from '@/locales/en/tutorial.json'
 import frTutorial from '@/locales/fr/tutorial.json'
 import enAiCopilot from '@/locales/en/ai-copilot.json'
 import frAiCopilot from '@/locales/fr/ai-copilot.json'
+import enLdnInAfrica from '@/locales/en/ldn-in-africa.json'
+import frLdnInAfrica from '@/locales/fr/ldn-in-africa.json'
+import enGeoportail from '@/locales/en/geoportail.json'
+import frGeoportail from '@/locales/fr/geoportail.json'
+import enLdnDashboard from '@/locales/en/ldn-dashboard.json'
+import frLdnDashboard from '@/locales/fr/ldn-dashboard.json'
+import enSuccessStories from '@/locales/en/success-stories.json'
+import frSuccessStories from '@/locales/fr/success-stories.json'
+import enStory from '@/locales/en/story.json'
+import frStory from '@/locales/fr/story.json'
+import enContribution from '@/locales/en/contribution.json'
+import frContribution from '@/locales/fr/contribution.json'
+import enResources from '@/locales/en/resources.json'
+import frResources from '@/locales/fr/resources.json'
 
 import { DEFAULT_LANGUAGE, SUPPORTED_LANGUAGES, LANGUAGE_STORAGE_KEY } from './settings'
 
@@ -54,6 +68,13 @@ const resources = {
     admin: enAdmin,
     tutorial: enTutorial,
     'ai-copilot': enAiCopilot,
+    'ldn-in-africa': enLdnInAfrica,
+    geoportail: enGeoportail,
+    'ldn-dashboard': enLdnDashboard,
+    'success-stories': enSuccessStories,
+    story: enStory,
+    contribution: enContribution,
+    resources: enResources,
   },
   fr: {
     common: frCommon,
@@ -72,6 +93,13 @@ const resources = {
     admin: frAdmin,
     tutorial: frTutorial,
     'ai-copilot': frAiCopilot,
+    'ldn-in-africa': frLdnInAfrica,
+    geoportail: frGeoportail,
+    'ldn-dashboard': frLdnDashboard,
+    'success-stories': frSuccessStories,
+    story: frStory,
+    contribution: frContribution,
+    resources: frResources,
   },
 }
 

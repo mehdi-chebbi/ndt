@@ -1,0 +1,14 @@
+{
+  "eyebrow": "Land Degradation Resources Africa | Data, Documents & Tools",
+  "heading": "Resources",
+  "description": "Access documents, presentations, GIS datasets, and multimedia resources on land degradation in Africa. Explore LDN methodologies and SDG 15.3.1 materials.",
+  "tagline": "Access knowledge. Explore resources. Support action.",
+  "intro1": "This section provides a comprehensive collection of resources on land degradation monitoring in Africa, supporting research, policy development, and implementation of Land Degradation Neutrality (LDN) and SDG 15.3.1.",
+  "intro2": "It brings together technical documentation, geospatial data, and communication materials to facilitate knowledge sharing and capacity building across the continent.",
+  "searchPlaceholder": "Search files by name or folder...",
+  "fileStats": "{{fileCount}} file{{fileCount !== 1 ? 's' : ''}} across {{folderCount}} folder{{folderCount !== 1 ? 's' : ''}}",
+  "searchResults": "{{count}} result{{count !== 1 ? 's' : ''}} for \"{{query}}\"",
+  "noFilesFound": "No files found matching your search.",
+  "download": "Download",
+  "fileCount": "{{count}} file{{count !== 1 ? 's' : ''}}"
+}

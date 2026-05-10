@@ -1,5 +1,6 @@
 {
   "loading": "Loading...",
+  "loadingDashboard": "Loading dashboard...",
   "welcomeBack": "Welcome back, {{name}}!",
   "loggedInAs": "You are logged in as a",
   "cards": {
@@ -12,5 +13,82 @@
   },
   "footer": {
     "copyright": "© 2025 Platform. All rights reserved."
+  },
+  "hero": {
+    "badge": "SDG 15.3.1 Monitoring",
+    "title": "LDN Dashboard",
+    "titleHighlight": "Africa",
+    "subtitle": "Land Degradation & SDG 15.3.1's indicators",
+    "description": "Monitor land degradation indicators in Africa using interactive dashboards. Track SDG Indicator 15.3.1, explore trends, and analyze Land Degradation Neutrality progress.",
+    "tag1": "Track indicators",
+    "tag2": "Visualize trends",
+    "tag3": "Inform decisions"
+  },
+  "about": {
+    "paragraph1": "The Dashboard provides interactive data visualization tools for land degradation monitoring in Africa, enabling users to explore, analyze, and interpret key indicators related to Land Degradation Neutrality (LDN) and SDG 15.3.1.",
+    "paragraph2": "It allows users to visualize thematic resources aligned with the United Nations Convention to Combat Desertification (UNCCD)'s five Strategic Objectives (SOs), offering a structured and policy-relevant perspective on land degradation dynamics.",
+    "paragraph3": "Through dynamic charts, graphs, and comparative tools, the Dashboard supports evidence-based analysis and decision-making at continental, regional, and national levels."
+  },
+  "keyIndicators": {
+    "badge": "Box-2",
+    "heading": "Key Indicators",
+    "description": "Core indicators distributed according to the UNCCD's Strategic Objectives, used to monitor land degradation and support LDN reporting",
+    "so1": {
+      "title": "SO1 — Ecosystems",
+      "subtitle": "Improving affected ecosystems and promoting sustainable land management",
+      "indicator1": "Trends in land cover",
+      "indicator2": "Trends in land productivity or functioning of the land",
+      "indicator3": "Trends in carbon stocks above and below ground",
+      "indicator4": "Proportion of land that is degraded over total land area (SDG indicator 15.3.1)"
+    },
+    "so2": {
+      "title": "SO2 — Populations",
+      "subtitle": "Enhancing the living conditions of affected populations",
+      "indicator1": "Trends in population living below the relative poverty line or income inequality in affected areas",
+      "indicator2": "Trends in access to safe drinking water in affected areas",
+      "indicator3": "Trends in the Proportion of the population exposed to LD disaggregated by Sex"
+    },
+    "so3": {
+      "title": "SO3 — Drought",
+      "subtitle": "Mitigating drought effects to increase resilience",
+      "indicator1": "Trends in the proportion of land under drought over the total land area",
+      "indicator2": "Trends in the proportion of the population exposed to drought",
+      "indicator3": "Trends in the degree of drought vulnerability"
+    },
+    "so4": {
+      "title": "SO4 — Environmental Benefits",
+      "subtitle": "Generating global environmental benefits through implementation",
+      "indicator1": "Trends in carbon stocks above and below ground",
+      "indicator2": "Trends in abundance and distribution of selected species",
+      "indicator3": "Trends in protected area coverage of important biodiversity areas"
+    },
+    "closingBefore": "These objectives directly support",
+    "closingHighlight1": "SDG Target 15.3",
+    "closingMiddle": ", with a heavy emphasis on",
+    "closingHighlight2": "Land Degradation Neutrality (LDN)",
+    "closingAfter": ", drought resilience, and resource mobilization."
+  },
+  "capabilities": {
+    "heading": "Dashboard Capabilities",
+    "description": "Powerful tools to explore, analyze, and interpret land degradation data",
+    "cap1": "Country-level, regional, and continental analysis",
+    "cap2": "Time-series visualization of trends",
+    "cap3": "Custom filtering and comparison tools",
+    "cap4": "Interactive charts and graphs for deeper data exploration",
+    "cap5": "Thematic views aligned with UNCCD Strategic Objectives (SOs)"
+  },
+  "whyMatters": {
+    "heading": "Why the Dashboard Matters",
+    "description": "The Dashboard transforms complex datasets into clear and interactive visual insights",
+    "item1": "Understand land degradation trends and patterns over time",
+    "item2": "Monitor progress toward Land Degradation Neutrality through SDG 15.3.1",
+    "item3": "Support national reporting and planning",
+    "item4": "Generate custom visualizations to facilitate data-driven decision-making"
+  },
+  "cta": {
+    "heading": "Explore the Dashboard",
+    "viewIndicators": "View Indicators",
+    "analyzeTrends": "Analyze Trends",
+    "compareCountries": "Compare Countries"
   }
 }

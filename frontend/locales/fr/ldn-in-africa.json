@@ -1,0 +1,154 @@
+{
+  "hero": {
+    "eyebrow": "Suivi, Données et ODD 15.3.1",
+    "title": "Neutralité de la dégradation des terres (NDT)",
+    "titleHighlight": "en Afrique",
+    "description": "Découvrez comment l'Afrique lutte contre la dégradation des terres grâce à la Neutralité de la dégradation des terres (NDT). Explorez les défis, les indicateurs et les outils de suivi soutenant l'ODD 15.3.1.",
+    "tagline": "Arrêter et inverser la dégradation des terres. Restaurer les écosystèmes. Renforcer la résilience."
+  },
+  "whatIsLdn": {
+    "paragraph1Before": "",
+    "ldnLinkText": "Neutralité de la dégradation des terres (NDT)",
+    "paragraph1After": "est un engagement mondial visant à garantir que la dégradation des terres soit compensée par la restauration, de sorte que la quantité globale de terres saines et productives reste stable ou augmente au fil du temps.",
+    "paragraph2Before": "En Afrique, où la terre est au cœur des moyens de subsistance, des systèmes alimentaires et des écosystèmes, atteindre la",
+    "ldnShortLinkText": "NDT",
+    "paragraph2After": "est essentiel pour le développement durable et la résilience climatique."
+  },
+  "whatIsLdnCard": {
+    "heading": "Qu'est-ce que la Neutralité de la dégradation des terres (NDT) ?",
+    "paragraph1Before": "",
+    "ldnLinkText": "La Neutralité de la dégradation des terres (NDT)",
+    "paragraph1Middle": "est un objectif relevant de la",
+    "unccdLinkText": "Convention des Nations Unies sur la lutte contre la désertification (CNULCD)",
+    "paragraph1After": ". Elle vise à maintenir ou améliorer la quantité et la qualité des ressources foncières nécessaires au bon fonctionnement des écosystèmes et au bien-être humain."
+  },
+  "landDegradationInAfrica": {
+    "heading": "Dégradation des terres en Afrique",
+    "description": "La dégradation des terres est un défi environnemental et socio-économique majeur à travers l'Afrique.",
+    "keyDriversLabel": "Les principaux facteurs incluent :",
+    "driver1": "Le changement climatique et la fréquence croissante des sécheresses ;",
+    "driver2": "Les pratiques agricoles et d'utilisation des terres non durables ;",
+    "driver3": "La déforestation et la perte de couverture végétale ;",
+    "driver4": "L'érosion des sols et la mauvaise gestion des terres."
+  },
+  "keyFacts": {
+    "heading": "Faits clés",
+    "fact1": "Plus de 65 % des terres productives en Afrique sont touchées par la dégradation.",
+    "fact2": "Plus de 40 % de la population dépend directement des ressources foncières.",
+    "fact3": "La dégradation des terres affecte considérablement la sécurité alimentaire et les moyens de subsistance ruraux.",
+    "fact4": "Elle contribue à la perte de biodiversité et à la vulnérabilité climatique."
+  },
+  "monitoring": {
+    "heading": "Suivi de la NDT en Afrique",
+    "paragraph1": "Le suivi de la Neutralité de la dégradation des terres en Afrique repose sur un ensemble d'indicateurs mondialement convenus, complétés par un cadre plus large dans le cadre du Système d'examen des performances et de l'évaluation de la mise en œuvre (PRAIS) de la CNULCD. Cela permet aux pays d'évaluer l'état des terres et de suivre les progrès au fil du temps.",
+    "indicatorsLabel": "Au niveau mondial, le suivi de la NDT repose sur trois indicateurs clés :",
+    "indicator1": "L'évolution de la couverture terrestre, qui suit les transitions entre les forêts, les terres agricoles, les prairies et d'autres types de terres.",
+    "indicator2": "La dynamique de la productivité des terres, qui mesure la santé de la végétation et la productivité biologique.",
+    "indicator3": "Le carbone organique du sol, qui indique la qualité des sols et la capacité de stockage du carbone.",
+    "combinedIndicators": "Ces indicateurs sont combinés pour produire l'indicateur ODD 15.3.1 : « Proportion des terres dégradées par rapport à la superficie terrestre totale »."
+  },
+  "praisFramework": {
+    "heading": "Au-delà des indicateurs de base : Le cadre PRAIS :",
+    "description": "En plus des trois indicateurs de base, les pays rendent compte via le système PRAIS de la CNULCD, qui comprend un ensemble plus large d'indicateurs et d'informations pour évaluer les progrès vers la NDT.",
+    "includeLabel": "Cela inclut :",
+    "item1": "Les indicateurs politiques et institutionnels, intégrant la NDT dans les stratégies nationales.",
+    "item2": "Les actions de restauration des terres et de gestion durable des terres.",
+    "item3": "Le suivi de la sécheresse et les indicateurs de vulnérabilité.",
+    "item4": "Les métriques de mise en œuvre et de rapport soutenant les évaluations nationales et mondiales."
+  },
+  "implementation": {
+    "heading": "Comment la NDT est-elle mise en œuvre en Afrique",
+    "introLabel": "Les pays africains travaillent activement à la réalisation de la NDT grâce à :",
+    "action1": "La fixation d'objectifs nationaux de NDT ;",
+    "action2": "L'intégration de la NDT dans les politiques et stratégies nationales ;",
+    "action3": "La mise en œuvre de pratiques de restauration des terres et de gestion durable des terres ;",
+    "action4": "Le renforcement des systèmes de suivi et de rapport ;",
+    "alignedLabel": "Ces efforts sont alignés sur :",
+    "alignment1": "Le Programme de développement durable à l'horizon 2030 ;",
+    "alignment2": "L'Agenda 2063 de l'Union africaine ;",
+    "alignment3": "Les politiques environnementales et agricoles nationales."
+  },
+  "platformSupport": {
+    "heading": "Comment cette plateforme soutient la NDT",
+    "intro": "La Plateforme africaine de surveillance de la dégradation des terres joue un rôle clé dans le soutien à la mise en œuvre de la NDT en fournissant :",
+    "feature1Text": "Des jeux de données harmonisés à travers l'Afrique",
+    "feature2Text": "Des outils pour surveiller les tendances de dégradation des terres au fil du temps",
+    "feature3Before": "L'analyse géospatiale via le",
+    "feature3LinkText": "Géoportail",
+    "feature4Text": "Des tableaux de bord pour le rapport et l'analyse de l'ODD 15.3.1",
+    "feature5Text": "Des systèmes d'aide à la décision pour les décideurs et les parties prenantes"
+  },
+  "whyLdnMatters": {
+    "heading": "Pourquoi la NDT est importante pour l'Afrique",
+    "introLabel": "Atteindre la Neutralité de la dégradation des terres est essentiel pour :",
+    "reason1": "Garantir la sécurité alimentaire ;",
+    "reason2": "Protéger les écosystèmes et la biodiversité ;",
+    "reason3": "Renforcer la résilience climatique ;",
+    "reason4": "Préserver les ressources en eau ;",
+    "reason5": "Améliorer les moyens de subsistance de millions de personnes.",
+    "closingText": "La NDT n'est pas seulement un objectif environnemental, c'est aussi une priorité de développement pour l'Afrique !"
+  },
+  "exploreTools": {
+    "heading": "Explorer les données et outils de suivi de la NDT",
+    "viewDashboard": "Voir le tableau de bord NDT",
+    "accessGeoportal": "Accéder au Géoportail",
+    "learnMoreResources": "En savoir plus dans les Ressources"
+  },
+  "ldnInAfricaBox": {
+    "heading": "Neutralité de la dégradation des terres en Afrique",
+    "subtitle": "Cadre mondial, action régionale et mise en œuvre au niveau des pays",
+    "conceptPromotion": {
+      "heading": "Promotion du concept",
+      "paragraph1Before": "En octobre 2015, la",
+      "cop12LinkText": "12e Conférence des Parties (COP12)",
+      "paragraph1Middle": "de la",
+      "unccdLinkText": "Convention des Nations Unies sur la lutte contre la désertification (CNULCD)",
+      "paragraph1Middle2": "a introduit le concept de",
+      "ldnLinkText": "Neutralité de la dégradation des terres (NDT)",
+      "paragraph2Before": "Cette même année, la NDT a été adoptée comme",
+      "targetLinkText": "Objectif 15.3",
+      "paragraph2Middle": "des",
+      "sdgLinkText": "Objectifs de développement durable (ODD 15 - Vie terrestre)",
+      "sdgQuote": "Lutter contre la désertification, restaurer les terres et sols dégradés, y compris les terres touchées par la désertification, la sécheresse et les inondations, et s'efforcer de parvenir à un monde neutre en matière de dégradation des terres d'ici 2030."
+    },
+    "globalProgress": {
+      "heading": "Progrès mondiaux sur les objectifs NDT",
+      "intro": "Les pays du monde entier s'engagent activement dans le processus de fixation des objectifs NDT :",
+      "item1": "Plus de 130 pays se sont engagés à fixer des objectifs NDT ;",
+      "item2": "82 pays ont rendu compte des objectifs volontaires de NDT (cycle de rapport 2022) ;",
+      "item3": "64 pays ont publié des notes de haut niveau sur les objectifs NDT.",
+      "closing": "Des pays supplémentaires sont actuellement en train de développer ou de mettre à jour leurs objectifs"
+    },
+    "supportingImplementation": {
+      "heading": "Soutenir la mise en œuvre de la NDT",
+      "intro": "Les partenaires internationaux et régionaux jouent un rôle clé dans le soutien aux pays, notamment :",
+      "faoLinkText": "FAO (Organisation des Nations Unies pour l'alimentation et l'agriculture)",
+      "rcmrdLinkText": "RCMRD (Centre régional de cartographie des ressources pour le développement)",
+      "ossLinkText": "OSS (Observatoire du Sahara et du Sahel)",
+      "supportLabel": "Ces institutions soutiennent :",
+      "support1": "Le renforcement du suivi et du rapport sur la NDT ;",
+      "support2": "L'amélioration des données et des indicateurs ;",
+      "support3": "La promotion des pratiques de gestion durable des terres."
+    },
+    "countryProfiles": {
+      "heading": "Profils pays et aide à la décision",
+      "intro": "Chaque pays participant élabore un profil pays NDT, fournissant :",
+      "item1": "Une analyse fondée sur des données probantes de la dégradation des terres ;",
+      "item2": "Les zones prioritaires d'intervention ;",
+      "item3": "Des orientations stratégiques pour soutenir les décisions d'investissement et les politiques."
+    },
+    "africaEngagement": {
+      "heading": "L'engagement de l'Afrique",
+      "intro": "Les pays africains sont fortement engagés dans le processus NDT, beaucoup :",
+      "action1Before": "Fixant ou mettant à jour",
+      "action1LinkText": "les objectifs nationaux de NDT",
+      "action2Before": "Renforçant",
+      "action2LinkText": "les systèmes de suivi et les capacités de rapport",
+      "action3Before": "Mettons en œuvre",
+      "action3LinkText": "les initiatives de restauration des terres et de gestion durable des terres"
+    }
+  },
+  "placeholders": {
+    "image": "Espace réservé pour l'image"
+  }
+}

@@ -21,60 +21,182 @@
     "dataSources": "Data Sources",
     "communityDrivenQuality": "Community-Driven Quality"
   },
-  "features": {
-    "heading": "Platform capabilities",
-    "interactiveMap": {
-      "title": "Interactive Map",
-      "description": "Explore geospatial layers for all 54+ countries. Compare views side-by-side, draw custom polygons, switch between satellite, terrain, and dark styles.",
-      "tags": {
-        "polygonDraw": "Polygon draw",
-        "sideBySide": "Side-by-side",
-        "export": "Export"
-      }
-    },
-    "waterWatch": {
-      "description": "Track water access progress from 2000–2023. See country rankings, urban vs rural gaps, and multi-decade trend charts across the continent.",
-      "tags": {
-        "dateRange": "2000–2023",
-        "urbanRural": "Urban/Rural",
-        "rankings": "Rankings"
-      }
-    },
-    "giniWatch": {
-      "description": "Track income inequality (Gini index) from 2000–2023. Compare equality levels, see which countries improved or worsened, and explore statistical trends.",
-      "tags": {
-        "dateRange": "2000–2023",
-        "giniIndex": "Gini Index",
-        "trends": "Trends"
-      }
-    },
-    "statisticalAnalysis": {
-      "title": "Statistical Analysis",
-      "description": "Draw any region on the map and instantly get detailed statistics, data breakdowns, and measurements for that custom area.",
-      "tags": {
-        "customArea": "Custom area",
-        "instantStats": "Instant stats",
-        "breakdowns": "Breakdowns"
-      }
-    },
-    "dataReporting": {
-      "title": "Data Reporting",
-      "description": "Flag incorrect data directly on the map, add contextual comments, and track when issues are resolved — keeping the dataset trustworthy.",
-      "tags": {
-        "flagIssues": "Flag issues",
-        "comments": "Comments",
-        "trackFixes": "Track fixes"
-      }
+  "ldnPlatform": {
+    "heading": "Africa's Integrated Land Degradation Monitoring System",
+    "subtitle": "LDN Platform Africa",
+    "description": "Monitoring land degradation in Africa to support sustainable land management and Land Degradation Neutrality (LDN).",
+    "tagline": "Access data. Analyse trends. Support decision-making.",
+    "overview": {
+      "title": "Overview of the Africa Land Degradation Monitoring System | LDN Platform Africa",
+      "paragraph1": "Land degradation is one of the most pressing environmental challenges in Africa, affecting agricultural productivity, water availability, biodiversity, and climate resilience. According to global assessments, Africa loses millions of hectares of productive land every year due to soil erosion, desertification, and unsustainable land use practices.",
+      "paragraph2": "This platform provides a centralized and integrated system for monitoring land degradation in Africa, enabling countries, institutions, and stakeholders to:",
+      "item1": "Track progress toward Land Degradation Neutrality (LDN).",
+      "item2": "Monitor SDG indicator 15.3.1 (proportion of degraded land).",
+      "item3": "Access harmonized geospatial datasets and indicators.",
+      "closingParagraph": "By combining Earth Observation-based data, national information, and analytical tools, the platform supports evidence-based decision-making at national and regional levels."
     }
   },
-  "audience": {
-    "title": "Built for researchers, policymakers, and development organizations",
-    "tail": " — working at the intersection of data and impact across the African continent.",
-    "requestAccess": "Request access"
+  "keyFacts": {
+    "heading": "Land Degradation in Africa: Key Facts",
+    "fact1": "of Africa's productive land is degraded (UNCCD estimates).",
+    "fact2": "Nearly 3 million hectares of forest are lost each year in Africa.",
+    "fact3": "Over 40% of the population depends on degraded land for livelihoods.",
+    "fact4": "Land degradation costs African economies billions of USD annually.",
+    "closingText": "Monitoring and reversing these trends is essential to achieving sustainable development and climate resilience."
   },
-  "footer": {
-    "about": "About",
-    "documentation": "Documentation",
-    "contact": "Contact"
+  "roleOfLDN": {
+    "heading": "The Role of the LDN Platform in Africa",
+    "description": "The LDN Platform Africa serves as a centralized system for land degradation monitoring in Africa, integrating environmental, geospatial, and hydrological data into a single access point.",
+    "contributesTo": "The platform contributes to:",
+    "item1": "Improving the accuracy of land degradation monitoring at national and continental levels.",
+    "item2": "Supporting sustainable land-use planning and agricultural management.",
+    "item3": "Facilitating reporting on Land Degradation Neutrality (LDN) and SDG 15.3.1.",
+    "item4": "Strengthening evidence-based decision-making for environmental policies and restoration strategies.",
+    "closingParagraph": "By transforming data into actionable insights, the platform enables stakeholders to better understand land degradation dynamics and take effective measures toward achieving Land Degradation Neutrality in Africa."
+  },
+  "keyAssets": {
+    "heading": "Key assets of Africa's Integrated Land Degradation Monitoring System",
+    "description": "This system bridges the gap between data and decision-making by providing:",
+    "item1": "Reliable and harmonized datasets across Africa.",
+    "item2": "Tools for monitoring land degradation trends over time.",
+    "item3": "Support for national and international reporting frameworks.",
+    "item4": "A shared space for knowledge, collaboration, and innovation.",
+    "closingText": "Enabling stakeholders to move from data to action."
+  },
+  "audience": {
+    "heading": "Who is this platform for?",
+    "description": "This platform is designed for a wide range of stakeholders involved in land management and environmental monitoring:",
+    "policymakers": {
+      "label": "Policymakers",
+      "desc": "tracking LDN targets and national reporting."
+    },
+    "researchers": {
+      "label": "Researchers and Scientists",
+      "desc": "analysing land degradation trends."
+    },
+    "ngos": {
+      "label": "NGOs and Development Partners",
+      "desc": "implementing restoration initiatives."
+    },
+    "internationalOrgs": {
+      "label": "International Organizations",
+      "desc": "supporting SDG monitoring and climate action."
+    }
+  },
+  "mainFeatures": {
+    "heading": "Main features of the platform",
+    "continentalData": {
+      "title": "Continental-scale land degradation data",
+      "desc": "Derived from EO-derived and harmonized datasets across Africa."
+    },
+    "geoportal": {
+      "title": "Interactive Geoportal for spatial analysis",
+      "desc": "Explore land cover, productivity, and soil indicators through dynamic maps."
+    },
+    "dashboards": {
+      "title": "Dashboards for LDN and SDG 15.3.1 monitoring",
+      "desc": "Analyse trends, compare countries, and track progress over time."
+    },
+    "resources": {
+      "title": "Resources and methodologies",
+      "desc": "Access guidelines, tools, and documentation for land degradation assessment."
+    },
+    "successStories": {
+      "title": "Success stories and best practices",
+      "desc": "Learn from real-world solutions implemented across African countries."
+    }
+  },
+  "startExploring": {
+    "heading": "Start Exploring",
+    "exploreData": "Explore Land Degradation Data",
+    "geoportal": "Access the Geoportal",
+    "ldnDashboard": "View LDN Dashboard",
+    "successStories": "Explore Success Stories",
+    "browseResources": "Browse Resources",
+    "explore": "Explore"
+  },
+  "dataSources": {
+    "text": "Data sources include OSS, ESA, UNCCD, FAO, EO products, and national datasets."
+  },
+  "events": {
+    "heading": "Events and News",
+    "eventsHeld": "Events Already Held",
+    "upcomingEvents": "Upcoming Events",
+    "viewDetails": "View details",
+    "held1": {
+      "date": "February 26, 2026",
+      "title": "Second webinar dedicated to the 2026 Land Degradation Neutrality (LDN) reporting cycle for 22 French-speaking countries."
+    },
+    "held2": {
+      "date": "February 25, 2026",
+      "title": "First webinar dedicated to the 2026 Land Degradation Neutrality (LDN) reporting cycle for 22 English-speaking countries."
+    },
+    "held3": {
+      "date": "March 5, 2026",
+      "title": "Workshop – Launch of the Land Degradation and Sustainable Land Management Monitoring System in support of the Great Green Wall Initiative."
+    },
+    "held4": {
+      "date": "March 28, 2026 — Djerba, Tunisia",
+      "title": "Workshop to strengthen the reporting of Land Degradation Neutrality, on the sidelines of the Desertif'Actions 2026 International Summit."
+    },
+    "upcoming1": {
+      "date": "May 18–21, 2026 — Dakar, Senegal",
+      "title": "Regional capacity-building workshop on reporting for Francophone African countries (Annex I Parties)."
+    },
+    "upcoming2": {
+      "date": "June 15–18, 2026 — Nairobi, Kenya",
+      "title": "Regional capacity-building workshop on reporting for Anglophone African countries (Annex I Parties)."
+    }
+  },
+  "oss": {
+    "heading": "The Sahara and Sahel Observatory (OSS)",
+    "subtitle": "A UNCCD strategic partner and a regional hub for reporting on Land Degradation Neutrality (LDN)",
+    "intro": "The Sahara and Sahel Observatory (OSS) is an Africa-focused international organization supporting countries in addressing challenges related to land degradation, climate change, biodiversity, and water resource management.",
+    "designatedHub": {
+      "text": "In April 2026, OSS was designated as a Regional Support Hub to support African countries in reporting on:",
+      "item1": "SDG Indicator 15.3.1 (proportion of degraded land).",
+      "item2": "Land degradation and drought monitoring."
+    },
+    "technicalEngine": {
+      "heading": "A Technical Engine for Africa",
+      "description": "OSS is supporting evidence-based policymaking and contributing to accelerate progress toward Land Degradation Neutrality by leveraging:",
+      "item1": "Earth Observation and Artificial Intelligence;",
+      "item2": "Advanced analytics and digital tools;",
+      "item3": "Experiences from sustainable land restoration regional initiatives."
+    },
+    "capacityBuilding": {
+      "heading": "A Lead of Capacity-Building and Technical Support",
+      "description": "In partnership with organizations such as UNCCD, RCMRD, OSS supports:",
+      "item1": "Training and webinars;",
+      "item2": "The 2026 LDN reporting cycle;",
+      "item3": "English and French-speaking countries' focal points and key experts."
+    },
+    "regionalInitiatives": {
+      "heading": "Supporting Regional Initiatives",
+      "item1": "Great Green Wall Initiative",
+      "item2": "Land restoration programs",
+      "item3": "Drought resilience efforts"
+    }
+  },
+  "contact": {
+    "heading": "Contact Us",
+    "description": "Do you have a question or need assistance?",
+    "name": "Name",
+    "namePlaceholder": "Your name",
+    "email": "Email",
+    "emailPlaceholder": "you@example.com",
+    "subject": "Subject",
+    "subjectPlaceholder": "What is this about?",
+    "message": "Message",
+    "messagePlaceholder": "Tell us how we can help...",
+    "sending": "Sending...",
+    "sent": "Message Sent!",
+    "send": "Send Message",
+    "error": "Something went wrong. Please try again."
+  },
+  "placeholders": {
+    "image": "Image Placeholder",
+    "image1": "Image Placeholder 1",
+    "image2": "Image Placeholder 2"
   }
 }

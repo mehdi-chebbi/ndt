@@ -1,5 +1,6 @@
 {
   "loading": "Chargement...",
+  "loadingDashboard": "Chargement du tableau de bord...",
   "welcomeBack": "Bon retour, {{name}} !",
   "loggedInAs": "Vous êtes connecté en tant que",
   "cards": {
@@ -12,5 +13,82 @@
   },
   "footer": {
     "copyright": "© 2025 Platform. Tous droits réservés."
+  },
+  "hero": {
+    "badge": "Suivi ODD 15.3.1",
+    "title": "Tableau de bord NDT",
+    "titleHighlight": "Afrique",
+    "subtitle": "Indicateurs de dégradation des terres et ODD 15.3.1",
+    "description": "Surveillez les indicateurs de dégradation des terres en Afrique à l'aide de tableaux de bord interactifs. Suivez l'indicateur ODD 15.3.1, explorez les tendances et analysez les progrès vers la Neutralité de la dégradation des terres.",
+    "tag1": "Suivre les indicateurs",
+    "tag2": "Visualiser les tendances",
+    "tag3": "Éclairer les décisions"
+  },
+  "about": {
+    "paragraph1": "Le Tableau de bord fournit des outils interactifs de visualisation des données pour le suivi de la dégradation des terres en Afrique, permettant aux utilisateurs d'explorer, d'analyser et d'interpréter les indicateurs clés relatifs à la Neutralité de la dégradation des terres (NDT) et à l'ODD 15.3.1.",
+    "paragraph2": "Il permet aux utilisateurs de visualiser les ressources thématiques alignées sur les cinq objectifs stratégiques (OS) de la Convention des Nations Unies sur la lutte contre la désertification (CNULCD), offrant une perspective structurée et pertinente pour les politiques sur la dynamique de la dégradation des terres.",
+    "paragraph3": "Grâce à des graphiques dynamiques, des tableaux et des outils comparatifs, le Tableau de bord soutient l'analyse fondée sur les données probantes et la prise de décision aux niveaux continental, régional et national."
+  },
+  "keyIndicators": {
+    "badge": "Encadré-2",
+    "heading": "Indicateurs clés",
+    "description": "Indicateurs de base répartis selon les objectifs stratégiques de la CNULCD, utilisés pour surveiller la dégradation des terres et soutenir les rapports NDT",
+    "so1": {
+      "title": "OS1 — Écosystèmes",
+      "subtitle": "Améliorer les écosystèmes touchés et promouvoir la gestion durable des terres",
+      "indicator1": "Tendances de la couverture terrestre",
+      "indicator2": "Tendances de la productivité des terres ou du fonctionnement des terres",
+      "indicator3": "Tendances des stocks de carbone au-dessus et en dessous du sol",
+      "indicator4": "Proportion de terres dégradées par rapport à la superficie terrestre totale (indicateur ODD 15.3.1)"
+    },
+    "so2": {
+      "title": "OS2 — Populations",
+      "subtitle": "Améliorer les conditions de vie des populations touchées",
+      "indicator1": "Tendances de la population vivant en dessous du seuil de pauvreté relatif ou des inégalités de revenus dans les zones touchées",
+      "indicator2": "Tendances de l'accès à l'eau potable dans les zones touchées",
+      "indicator3": "Tendances de la proportion de la population exposée à la DT ventilée par sexe"
+    },
+    "so3": {
+      "title": "OS3 — Sécheresse",
+      "subtitle": "Atténuer les effets de la sécheresse pour accroître la résilience",
+      "indicator1": "Tendances de la proportion de terres en sécheresse par rapport à la superficie terrestre totale",
+      "indicator2": "Tendances de la proportion de la population exposée à la sécheresse",
+      "indicator3": "Tendances du degré de vulnérabilité à la sécheresse"
+    },
+    "so4": {
+      "title": "OS4 — Avantages environnementaux",
+      "subtitle": "Générer des avantages environnementaux mondiaux grâce à la mise en œuvre",
+      "indicator1": "Tendances des stocks de carbone au-dessus et en dessous du sol",
+      "indicator2": "Tendances de l'abondance et de la répartition d'espèces sélectionnées",
+      "indicator3": "Tendances de la couverture des aires protégées des zones importantes pour la biodiversité"
+    },
+    "closingBefore": "Ces objectifs soutiennent directement",
+    "closingHighlight1": "l'Objectif ODD 15.3",
+    "closingMiddle": ", avec un accent particulier sur",
+    "closingHighlight2": "la Neutralité de la dégradation des terres (NDT)",
+    "closingAfter": ", la résilience à la sécheresse et la mobilisation des ressources."
+  },
+  "capabilities": {
+    "heading": "Fonctionnalités du Tableau de bord",
+    "description": "Des outils puissants pour explorer, analyser et interpréter les données sur la dégradation des terres",
+    "cap1": "Analyse au niveau national, régional et continental",
+    "cap2": "Visualisation des tendances en séries temporelles",
+    "cap3": "Outils de filtrage et de comparaison personnalisés",
+    "cap4": "Graphiques et diagrammes interactifs pour une exploration approfondie des données",
+    "cap5": "Vues thématiques alignées sur les objectifs stratégiques de la CNULCD (OS)"
+  },
+  "whyMatters": {
+    "heading": "Pourquoi le Tableau de bord est important",
+    "description": "Le Tableau de bord transforme des jeux de données complexes en informations visuelles claires et interactives",
+    "item1": "Comprendre les tendances et les modèles de dégradation des terres au fil du temps",
+    "item2": "Suivre les progrès vers la Neutralité de la dégradation des terres grâce à l'ODD 15.3.1",
+    "item3": "Soutenir les rapports et la planification nationaux",
+    "item4": "Générer des visualisations personnalisées pour faciliter la prise de décision fondée sur les données"
+  },
+  "cta": {
+    "heading": "Explorer le Tableau de bord",
+    "viewIndicators": "Voir les indicateurs",
+    "analyzeTrends": "Analyser les tendances",
+    "compareCountries": "Comparer les pays"
   }
 }

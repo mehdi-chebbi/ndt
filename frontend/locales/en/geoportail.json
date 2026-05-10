@@ -1,0 +1,44 @@
+{
+  "hero": {
+    "eyebrow": "Land degradation maps and geospatial data in Africa",
+    "title": "Geoportal",
+    "description": "Explore interactive maps and geospatial datasets on land degradation in Africa. Access spatial indicators, statistics, and tools to analyse environmental trends and support decision-making.",
+    "tagline": "Explore maps. Visualize data. Discover insights."
+  },
+  "about": {
+    "paragraph1": "The Geoportal provides access to geospatial data on land and environment in Africa, enabling users to visualize, analyse, and download spatial datasets across the continent.",
+    "paragraph2": "By integrating EO-based environmental indicators and national datasets, the Geoportal offers resources aligned with the UNCCD's four Strategic Objectives (SOs), supporting a comprehensive understanding of land degradation dynamics.",
+    "paragraph3": "It supports evidence-based analysis and decision-making for sustainable land management at both continental and country levels."
+  },
+  "keyFeatures": {
+    "heading": "Geoportal's Key features and capabilities",
+    "feature1": "Land use and land cover, highlighting ecosystems and land dynamics.",
+    "feature2": "Interactive land degradation maps, highlighting SDG indicator 15.3.1.",
+    "feature3": "Environmental indicators, covering the UNCCD strategic objectives.",
+    "feature4": "Vegetation, land, and climate monitoring layers.",
+    "feature5": "Downloadable geospatial datasets across countries and regions in formats compatible with GIS tools."
+  },
+  "whatYouCanDo": {
+    "heading": "What you can do with the geoportal"
+  },
+  "howToUse": {
+    "heading": "How to use the geoportal",
+    "intro": "Get started in a few steps:",
+    "step1": "Choose an indicator or dataset",
+    "step2": "Adjust the time period",
+    "step3": "Visualize results on the interactive map",
+    "step4": "Compare thematic layers",
+    "step5": "Select a country or region",
+    "step6": "Generate the statistics",
+    "step7": "Download data or integrate into your analysis"
+  },
+  "startExploring": {
+    "heading": "Start Exploring the Geoportal",
+    "openMap": "Open Interactive Map",
+    "exploreIndicators": "Explore Indicators",
+    "downloadData": "Download Data"
+  },
+  "placeholders": {
+    "image": "Image Placeholder"
+  }
+}
