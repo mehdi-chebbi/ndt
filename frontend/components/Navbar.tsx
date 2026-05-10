@@ -125,13 +125,19 @@ export default function Navbar() {
         )}
       </NavDropdown>
 
-      {/* Stories */}
+      {/* Stories dropdown */}
+      <NavDropdown label="Stories">
+        <DropdownLink href="/success-stories" active={pathname === '/success-stories'}>Success Stories</DropdownLink>
+        <DropdownLink href="/story" active={pathname === '/story'}>Interactive Stories</DropdownLink>
+      </NavDropdown>
+
+      {/* Contribution */}
       <Link
-        href="/story"
-        className={`text-sm transition-colors duration-200 ${pathname === '/story' ? 'text-white' : 'text-gray-400 hover:text-white'}`}
+        href="/contribution"
+        className={`text-sm transition-colors duration-200 ${pathname === '/contribution' ? 'text-white' : 'text-gray-400 hover:text-white'}`}
         style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.03em' }}
       >
-        Stories
+        Contribution
       </Link>
 
       {/* Doc dropdown */}

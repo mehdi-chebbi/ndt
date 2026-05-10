@@ -292,7 +292,7 @@ export default function ResourcesPage() {
             <div className="flex items-center gap-2 mb-8">
               <div className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
               <span className="text-xs uppercase tracking-[0.2em] text-green-400/80" style={sans}>
-                Documents, Reports & Data
+                Land Degradation Resources Africa | Data, Documents &amp; Tools
               </span>
             </div>
 
@@ -300,8 +300,20 @@ export default function ResourcesPage() {
               Resources
             </h1>
 
-            <p className="text-lg text-gray-400 max-w-3xl leading-relaxed" style={sans}>
-              Access country reports, national action programmes, voluntary LDN targets, drought plans, and geospatial datasets.
+            <p className="text-lg text-gray-400 max-w-3xl mb-4 leading-relaxed" style={sans}>
+              Access documents, presentations, GIS datasets, and multimedia resources on land degradation in Africa. Explore LDN methodologies and SDG 15.3.1 materials.
+            </p>
+
+            <p className="text-sm text-green-400/90 font-medium mb-6" style={{ ...sans, letterSpacing: '0.02em' }}>
+              Access knowledge. Explore resources. Support action.
+            </p>
+
+            <p className="text-base text-gray-300 max-w-3xl mb-4 leading-relaxed" style={sans}>
+              This section provides a comprehensive collection of resources on land degradation monitoring in Africa, supporting research, policy development, and implementation of Land Degradation Neutrality (LDN) and SDG 15.3.1.
+            </p>
+
+            <p className="text-base text-gray-300 max-w-3xl leading-relaxed" style={sans}>
+              It brings together technical documentation, geospatial data, and communication materials to facilitate knowledge sharing and capacity building across the continent.
             </p>
           </div>
 

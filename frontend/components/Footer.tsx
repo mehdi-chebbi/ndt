@@ -68,7 +68,7 @@ export default function Footer() {
                 { label: 'Geoportal', href: '/geoportail' },
                 { label: 'Resources', href: '/resources' },
                 { label: 'Dashboard', href: '/dashboard' },
-                { label: 'Success stories', href: '/story' },
+                { label: 'Success stories', href: '/success-stories' },
                 { label: 'API Docs', href: '/api-docs' },
                 { label: 'Connexion', href: '/login' },
               ].map((page) => (

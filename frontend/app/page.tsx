@@ -644,7 +644,7 @@ export default function HomePage() {
                 },
                 {
                   label: 'Explore Success Stories',
-                  href: '/story',
+                  href: '/success-stories',
                   gradient: 'from-amber-900/30 to-yellow-900/20',
                   icon: (
                     <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
