@@ -2,6 +2,7 @@
 
 import { useEffect, useState, useRef } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { usePathname } from 'next/navigation'
 import { useAuth } from '@/contexts/AuthContext'
 import { useTranslation } from 'react-i18next'
@@ -104,48 +105,14 @@ export default function Navbar() {
   // Shared nav items for both auth states
   const sharedNav = (
     <>
-      {/* Geo dropdown */}
-      <NavDropdown label="Geo">
-        <DropdownLink href="/map" active={pathname === '/map'}>{t('navbar.map')}</DropdownLink>
-        <DropdownLink href="/geoportail" active={pathname === '/geoportail'}>Geoportal</DropdownLink>
-      </NavDropdown>
-
-      {/* Watch dropdown */}
-      <NavDropdown label="Watch">
-        <DropdownLink href="/waterwatch-africa" active={pathname === '/waterwatch-africa'}>{t('navbar.waterWatch')}</DropdownLink>
-        <DropdownLink href="/giniwatch-africa" active={pathname === '/giniwatch-africa'}>{t('navbar.giniWatch')}</DropdownLink>
-      </NavDropdown>
-
-      {/* Dashboard dropdown */}
-      <NavDropdown label="Dashboard">
-        <DropdownLink href="/ldn-dashboard" active={pathname === '/ldn-dashboard'}>LDN Dashboard</DropdownLink>
-        <DropdownLink href="/dashboard" active={pathname === '/dashboard'}>{t('navbar.dashboard')}</DropdownLink>
-        {user?.role === 'admin' && (
-          <DropdownLink href="/admin" active={pathname === '/admin'}>Admin</DropdownLink>
-        )}
-      </NavDropdown>
-
-      {/* Stories dropdown */}
-      <NavDropdown label="Stories">
-        <DropdownLink href="/success-stories" active={pathname === '/success-stories'}>Success Stories</DropdownLink>
-        <DropdownLink href="/story" active={pathname === '/story'}>Interactive Stories</DropdownLink>
-      </NavDropdown>
-
-      {/* Contribution */}
+      {/* Home */}
       <Link
-        href="/contribution"
-        className={`text-sm transition-colors duration-200 ${pathname === '/contribution' ? 'text-white' : 'text-gray-400 hover:text-white'}`}
+        href="/"
+        className={`text-sm transition-colors duration-200 ${pathname === '/' ? 'text-white' : 'text-gray-400 hover:text-white'}`}
         style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.03em' }}
       >
-        Contribution
+        Home
       </Link>
-
-      {/* Doc dropdown */}
-      <NavDropdown label="Doc">
-        <DropdownLink href="/api-docs" active={pathname === '/api-docs'}>API</DropdownLink>
-        <DropdownSeparator />
-        <DropdownLink href="/resources" active={pathname === '/resources'}>Resources</DropdownLink>
-      </NavDropdown>
 
       {/* LDN in Africa */}
       <Link
@@ -155,6 +122,38 @@ export default function Navbar() {
       >
         LDN in Africa
       </Link>
+
+      {/* Geoportal dropdown */}
+      <NavDropdown label="Geoportal">
+        <DropdownLink href="/map" active={pathname === '/map'}>Map</DropdownLink>
+        <DropdownLink href="/geoportail" active={pathname === '/geoportail'}>Outline</DropdownLink>
+        <DropdownSeparator />
+        <DropdownLink href="/contribution" active={pathname === '/contribution'}>Contribution</DropdownLink>
+      </NavDropdown>
+
+      {/* Dashboard dropdown */}
+      <NavDropdown label="Dashboard">
+        <DropdownLink href="/dashboard" active={pathname === '/dashboard'}>Dashboard</DropdownLink>
+        <DropdownLink href="/ldn-dashboard" active={pathname === '/ldn-dashboard'}>LDN Dashboard</DropdownLink>
+      </NavDropdown>
+
+      {/* Success Stories */}
+      <Link
+        href="/success-stories"
+        className={`text-sm transition-colors duration-200 ${pathname === '/success-stories' ? 'text-white' : 'text-gray-400 hover:text-white'}`}
+        style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.03em' }}
+      >
+        Success Stories
+      </Link>
+
+      {/* Resources */}
+      <Link
+        href="/resources"
+        className={`text-sm transition-colors duration-200 ${pathname === '/resources' ? 'text-white' : 'text-gray-400 hover:text-white'}`}
+        style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.03em' }}
+      >
+        Resources
+      </Link>
     </>
   )
 
@@ -162,32 +161,58 @@ export default function Navbar() {
     <header className="bg-[#0a0f0d] text-white sticky top-0 z-50 border-b border-white/5">
       <div className="max-w-7xl mx-auto px-6 lg:px-8 py-4">
         <div className="flex justify-between items-center">
-          {/* Logo */}
-          <Link href="/" className="flex items-center gap-3">
-            <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
-              <circle cx="16" cy="16" r="15" stroke="#22c55e" strokeWidth="1.5" />
-              <path d="M8 16 Q12 10 16 16 Q20 22 24 16" stroke="#22c55e" strokeWidth="1.5" fill="none" strokeLinecap="round"/>
-              <circle cx="16" cy="16" r="2" fill="#22c55e" />
-            </svg>
-            <span style={{ fontFamily: "'Georgia', serif", letterSpacing: '0.04em' }} className="text-white font-semibold text-lg tracking-wide">
-              AfriGeo<span className="text-green-400">Data</span>
-            </span>
-          </Link>
+          {/* Partner Logos */}
+          <div className="flex items-center gap-5">
+            <a href="https://www.oss-online.org/" target="_blank" rel="noopener noreferrer">
+              <Image
+                src="/images/Logo-OSS.png"
+                alt="OSS Logo"
+                width={240}
+                height={112}
+                className="h-14 w-auto opacity-80 hover:opacity-100 transition-opacity duration-300"
+              />
+            </a>
+            <a href="https://www.unccd.int/" target="_blank" rel="noopener noreferrer">
+              <Image
+                src="/images/Partner-Logo.png"
+                alt="Partner Logo"
+                width={420}
+                height={160}
+                className="h-20 w-auto opacity-80 hover:opacity-100 transition-opacity duration-300"
+              />
+            </a>
+          </div>
 
           <nav className="flex items-center gap-5">
             {isAuthenticated ? (
               <>
                 {sharedNav}
 
-                {/* Reports - Admin only */}
+                {/* Admin links - Admin only */}
                 {user?.role === 'admin' && (
-                  <Link
-                    href="/reports"
-                    className={`text-sm transition-colors duration-200 ${pathname === '/reports' ? 'text-white' : 'text-gray-400 hover:text-white'}`}
-                    style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.03em' }}
-                  >
-                    Reports
-                  </Link>
+                  <>
+                    <Link
+                      href="/admin"
+                      className={`text-sm transition-colors duration-200 ${pathname === '/admin' ? 'text-white' : 'text-gray-400 hover:text-white'}`}
+                      style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.03em' }}
+                    >
+                      Admin
+                    </Link>
+                    <Link
+                      href="/reports"
+                      className={`text-sm transition-colors duration-200 ${pathname === '/reports' ? 'text-white' : 'text-gray-400 hover:text-white'}`}
+                      style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.03em' }}
+                    >
+                      Reports
+                    </Link>
+                    <Link
+                      href="/report-view"
+                      className={`text-sm transition-colors duration-200 ${pathname === '/report-view' ? 'text-white' : 'text-gray-400 hover:text-white'}`}
+                      style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.03em' }}
+                    >
+                      Report View
+                    </Link>
+                  </>
                 )}
 
                 {/* Separator */}
@@ -215,23 +240,15 @@ export default function Navbar() {
                 {/* Separator */}
                 <div className="w-px h-5 bg-white/10" />
 
-                {/* Sign In */}
+                {/* Connexion */}
                 <Link
                   href="/login"
                   className="text-sm text-gray-400 hover:text-white transition-colors duration-200"
                   style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.03em' }}
                 >
-                  {t('common:signIn')}
+                  Connexion
                 </Link>
 
-                {/* Get Access */}
-                <Link
-                  href="/signup"
-                  className="text-sm px-4 py-2 rounded-md border border-green-500/40 text-green-400 hover:bg-green-500/10 transition-all duration-200"
-                  style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.03em' }}
-                >
-                  {t('navbar.getAccess')}
-                </Link>
                 <LanguageSwitcher />
               </>
             )}

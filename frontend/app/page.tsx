@@ -78,142 +78,12 @@ export default function HomePage() {
 
       {/* Hero */}
       <main className="relative z-10 max-w-7xl mx-auto px-6 lg:px-8">
-        <div className="pt-20 pb-16 lg:pt-28 lg:pb-24">
-
-          {/* Eyebrow label */}
-          <div className="flex items-center gap-2 mb-8">
-            <div className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
-            <span className="text-xs uppercase tracking-[0.2em] text-green-400/80" style={sans}>
-              {t('hero.eyebrow')}
-            </span>
-          </div>
-
-          {/* Headline with Africa Map */}
-          <div className="flex flex-col lg:flex-row items-center gap-8 lg:items-end mb-10">
-            <div className="flex-1 flex flex-col">
-              <h1 className="text-5xl lg:text-7xl font-bold leading-[1.05] mb-2 max-w-4xl" style={{ ...serif, letterSpacing: '-0.02em' }}>
-                {t('hero.headline.prefix')}{' '}
-                <span style={{
-                  background: 'linear-gradient(135deg, #22c55e 0%, #4ade80 50%, #86efac 100%)',
-                  WebkitBackgroundClip: 'text',
-                  WebkitTextFillColor: 'transparent',
-                  backgroundClip: 'text',
-                }}>
-                  {t('hero.headline.highlight')}
-                </span>{' '}
-                {t('hero.headline.suffix')}
-              </h1>
-              <p className="text-lg lg:text-xl text-gray-400 max-w-2xl mb-6 leading-relaxed" style={sans}>
-                {t('hero.description')}
-              </p>
-
-              {/* CTAs */}
-              <div className="flex flex-col sm:flex-row gap-4 mt-auto">
-                {!mounted ? (
-                  <div className="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-lg text-sm font-medium bg-gray-800 text-gray-400 cursor-not-allowed">
-                    {t('cta.loading')}
-                  </div>
-                ) : isAuthenticated ? (
-                  <>
-                    <Link
-                      href="/map"
-                      className="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-lg text-sm font-medium transition-all duration-200"
-                      style={{
-                        background: 'linear-gradient(135deg, #16a34a, #22c55e)',
-                        color: '#0a0f0d',
-                        ...sans,
-                        letterSpacing: '0.02em',
-                        boxShadow: '0 0 24px rgba(34,197,94,0.25)',
-                      }}
-                    >
-                      {t('cta.goToMap')}
-                      <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                      </svg>
-                    </Link>
-                    <Link
-                      href={user?.role === 'admin' ? '/admin' : '/dashboard'}
-                      className="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-lg text-sm font-medium border border-white/10 text-gray-300 hover:border-white/20 hover:text-white transition-all duration-200"
-                      style={{ ...sans, letterSpacing: '0.02em' }}
-                    >
-                      {t('cta.dashboard')}
-                    </Link>
-                  </>
-                ) : (
-                  <>
-                    <Link
-                      href="/signup"
-                      className="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-lg text-sm font-medium transition-all duration-200"
-                      style={{
-                        background: 'linear-gradient(135deg, #16a34a, #22c55e)',
-                        color: '#0a0f0d',
-                        ...sans,
-                        letterSpacing: '0.02em',
-                        boxShadow: '0 0 24px rgba(34,197,94,0.25)',
-                      }}
-                    >
-                      {t('cta.exploreTheMap')}
-                      <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                      </svg>
-                    </Link>
-                    <Link
-                      href="/login"
-                      className="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-lg text-sm font-medium border border-white/10 text-gray-300 hover:border-white/20 hover:text-white transition-all duration-200"
-                      style={{ ...sans, letterSpacing: '0.02em' }}
-                    >
-                      {t('cta.signIn')}
-                    </Link>
-                  </>
-                )}
-              </div>
-            </div>
-
-            {/* Africa Map - Right side of headline */}
-            <div className="hidden lg:block lg:w-[400px]">
-              <AfricaMap className="w-full h-auto opacity-80 hover:opacity-100 transition-opacity duration-300" />
-              {/* Partner logos under the map */}
-              <div className="flex items-center justify-center gap-8 mt-4">
-                <Image
-                  src="/images/Logo-OSS.png"
-                  alt="OSS Logo"
-                  width={168}
-                  height={80}
-                  className="h-20 w-auto opacity-70 hover:opacity-100 transition-opacity duration-300"
-                />
-                <Image
-                  src="/images/Logo-Screen-Shot.png"
-                  alt="Partner Logo"
-                  width={446}
-                  height={80}
-                  className="h-20 w-auto opacity-70 hover:opacity-100 transition-opacity duration-300"
-                />
-              </div>
-            </div>
-          </div>
-
-          {/* Spacing */}
-          <div className="mb-24" />
-
-          {/* Stats row */}
-          <div className="flex flex-wrap gap-10 mb-24 pt-6 border-t border-white/5">
-            {[
-              { value: '54', label: t('stats.africanCountries') },
-              { value: '2000–2023', label: t('stats.dataRange') },
-              { value: '5+', label: t('stats.dataSources') },
-              { value: '∞', label: t('stats.communityDrivenQuality') },
-            ].map((stat) => (
-              <div key={stat.label}>
-                <div className="text-2xl font-bold text-white" style={serif}>{stat.value}</div>
-                <div className="text-xs text-gray-500 mt-1 uppercase tracking-widest" style={sans}>{stat.label}</div>
-              </div>
-            ))}
-          </div>
+        <div className="pt-10 pb-16 lg:pt-16 lg:pb-24">
 
           {/* ============================================================ */}
           {/* LDN Platform Section */}
           {/* ============================================================ */}
-          <div className="mt-16 mb-16">
+          <div className="mb-16">
             <div className="mb-10">
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-1 h-8 rounded-full bg-green-400" />
@@ -289,65 +159,63 @@ export default function HomePage() {
           {/* BOX 1 — Land Degradation in Africa: Key Facts (FIXED LAYOUT) */}
           {/* ============================================================ */}
           <div className="mb-20">
-            <div className="rounded-xl border border-white/10 bg-white/[0.03] overflow-hidden">
-              <div className="p-8 lg:p-10">
-                {/* Header */}
-                <div className="flex items-center gap-3 mb-8">
-                  <div className="w-10 h-10 rounded-lg flex items-center justify-center" style={{ background: 'rgba(239,68,68,0.1)' }}>
-                    <svg className="w-5 h-5 text-red-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
-                    </svg>
-                  </div>
-                  <h3 className="text-lg font-bold text-white" style={serif}>
-                    {t('keyFacts.heading')}
-                  </h3>
-                </div>
+            <div className="rounded-2xl overflow-hidden bg-white shadow-2xl shadow-black/40">
+              {/* Red header strip */}
+              <div className="bg-red-600 px-8 py-4 flex items-center gap-3">
+                <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+                </svg>
+                <h3 className="text-lg font-bold text-white" style={serif}>
+                  {t('keyFacts.heading')}
+                </h3>
+              </div>
 
+              <div className="p-8 lg:p-10">
                 {/* Facts grid */}
                 <div className="grid sm:grid-cols-2 gap-5">
                   <div className="flex items-start gap-4">
-                    <div className="flex-shrink-0 w-14 h-14 rounded-lg bg-red-500/10 flex items-center justify-center">
-                      <span className="text-xl font-bold text-red-400" style={serif}>65%</span>
+                    <div className="flex-shrink-0 w-14 h-14 rounded-lg bg-red-50 flex items-center justify-center">
+                      <span className="text-xl font-bold text-red-600" style={serif}>65%</span>
                     </div>
-                    <p className="text-sm text-gray-400 leading-relaxed pt-2" style={sans}>
+                    <p className="text-sm text-gray-700 leading-relaxed pt-2" style={sans}>
                       {t('keyFacts.fact1')}
                     </p>
                   </div>
                   <div className="flex items-start gap-4">
-                    <div className="flex-shrink-0 w-14 h-14 rounded-lg bg-red-500/10 flex items-center justify-center">
-                      <span className="text-sm font-bold text-red-400" style={serif}>3M ha</span>
+                    <div className="flex-shrink-0 w-14 h-14 rounded-lg bg-red-50 flex items-center justify-center">
+                      <span className="text-sm font-bold text-red-600" style={serif}>3M ha</span>
                     </div>
-                    <p className="text-sm text-gray-400 leading-relaxed pt-2" style={sans}>
+                    <p className="text-sm text-gray-700 leading-relaxed pt-2" style={sans}>
                       {t('keyFacts.fact2')}
                     </p>
                   </div>
                   <div className="flex items-start gap-4">
-                    <div className="flex-shrink-0 w-14 h-14 rounded-lg bg-red-500/10 flex items-center justify-center">
-                      <span className="text-xl font-bold text-red-400" style={serif}>40%+</span>
+                    <div className="flex-shrink-0 w-14 h-14 rounded-lg bg-red-50 flex items-center justify-center">
+                      <span className="text-xl font-bold text-red-600" style={serif}>40%+</span>
                     </div>
-                    <p className="text-sm text-gray-400 leading-relaxed pt-2" style={sans}>
+                    <p className="text-sm text-gray-700 leading-relaxed pt-2" style={sans}>
                       {t('keyFacts.fact3')}
                     </p>
                   </div>
                   <div className="flex items-start gap-4">
-                    <div className="flex-shrink-0 w-14 h-14 rounded-lg bg-red-500/10 flex items-center justify-center">
-                      <span className="text-sm font-bold text-red-400" style={serif}>$B</span>
+                    <div className="flex-shrink-0 w-14 h-14 rounded-lg bg-red-50 flex items-center justify-center">
+                      <span className="text-sm font-bold text-red-600" style={serif}>$B</span>
                     </div>
-                    <p className="text-sm text-gray-400 leading-relaxed pt-2" style={sans}>
+                    <p className="text-sm text-gray-700 leading-relaxed pt-2" style={sans}>
                       {t('keyFacts.fact4')}
                     </p>
                   </div>
                 </div>
 
                 {/* Closing text */}
-                <div className="mt-8 pt-6 border-t border-white/5">
-                  <p className="text-sm text-gray-300 leading-relaxed" style={sans}>
+                <div className="mt-8 pt-6 border-t border-gray-200">
+                  <p className="text-sm text-gray-700 leading-relaxed" style={sans}>
                     {t('keyFacts.closingText')}
                   </p>
                 </div>
 
                 {/* Image under Key Facts text */}
-                <div className="mt-6 rounded-lg border border-white/10 overflow-hidden">
+                <div className="mt-6 rounded-lg border border-gray-200 overflow-hidden">
                   <Image
                     src="/images/home/Image_Land-degradation_8.png"
                     alt="Land degradation key facts"
@@ -425,21 +293,19 @@ export default function HomePage() {
           {/* BOX 2 — Key Assets of the Monitoring System */}
           {/* ============================================================ */}
           <div className="mb-20">
-            <div className="rounded-xl border border-white/10 bg-white/[0.03] overflow-hidden">
-              <div className="p-8 lg:p-10">
-                {/* Header */}
-                <div className="flex items-center gap-3 mb-6">
-                  <div className="w-10 h-10 rounded-lg flex items-center justify-center" style={{ background: 'rgba(34,197,94,0.1)' }}>
-                    <svg className="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
-                    </svg>
-                  </div>
-                  <h3 className="text-lg font-bold text-white" style={serif}>
-                    {t('keyAssets.heading')}
-                  </h3>
-                </div>
+            <div className="rounded-2xl overflow-hidden bg-white shadow-2xl shadow-black/40">
+              {/* Green header strip */}
+              <div className="bg-green-700 px-8 py-4 flex items-center gap-3">
+                <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
+                </svg>
+                <h3 className="text-lg font-bold text-white" style={serif}>
+                  {t('keyAssets.heading')}
+                </h3>
+              </div>
 
-                <p className="text-sm text-gray-400 leading-relaxed mb-6" style={sans}>
+              <div className="p-8 lg:p-10">
+                <p className="text-sm text-gray-700 leading-relaxed mb-6" style={sans}>
                   {t('keyAssets.description')}
                 </p>
 
@@ -450,8 +316,8 @@ export default function HomePage() {
                     t('keyAssets.item3'),
                     t('keyAssets.item4'),
                   ].map((item, i) => (
-                    <li key={i} className="flex items-start gap-3 text-sm text-gray-300" style={sans}>
-                      <svg className="w-5 h-5 text-green-400 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <li key={i} className="flex items-start gap-3 text-sm text-gray-700" style={sans}>
+                      <svg className="w-5 h-5 text-green-600 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                       </svg>
                       <span>{item}</span>
@@ -459,12 +325,12 @@ export default function HomePage() {
                   ))}
                 </ul>
 
-                <p className="text-sm text-green-400/90 font-medium mb-6" style={sans}>
+                <p className="text-sm text-green-700 font-medium mb-6" style={sans}>
                   {t('keyAssets.closingText')}
                 </p>
 
                 {/* Image under Key Assets text */}
-                <div className="rounded-lg border border-white/10 overflow-hidden">
+                <div className="rounded-lg border border-gray-200 overflow-hidden">
                   <Image
                     src="/images/home/Image_Land-degradation_7.png"
                     alt="Key assets of the monitoring system"
@@ -835,40 +701,39 @@ export default function HomePage() {
           {/* BOX 4 — The Sahara and Sahel Observatory (OSS) */}
           {/* ============================================================ */}
           <div className="mb-20">
-            <div className="rounded-xl border border-white/10 bg-white/[0.03] overflow-hidden">
+            <div className="rounded-2xl overflow-hidden bg-white shadow-2xl shadow-black/40">
+              {/* Green header strip */}
+              <div className="bg-green-700 px-8 py-4 flex items-center gap-3">
+                <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                </svg>
+                <h3 className="text-lg font-bold text-white" style={serif}>
+                  {t('oss.heading')}
+                </h3>
+              </div>
+
               <div className="p-8 lg:p-10">
-                {/* Header */}
-                <div className="flex items-center gap-3 mb-3">
-                  <div className="w-10 h-10 rounded-lg flex items-center justify-center" style={{ background: 'rgba(34,197,94,0.1)' }}>
-                    <svg className="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
-                    </svg>
-                  </div>
-                  <h3 className="text-lg font-bold text-white" style={serif}>
-                    {t('oss.heading')}
-                  </h3>
-                </div>
-                <p className="text-sm text-green-400/80 font-medium mb-6" style={sans}>
+                <p className="text-sm text-green-700 font-medium mb-6" style={sans}>
                   {t('oss.subtitle')}
                 </p>
 
                 {/* Intro */}
-                <p className="text-sm text-gray-400 leading-relaxed mb-6" style={sans}>
+                <p className="text-sm text-gray-700 leading-relaxed mb-6" style={sans}>
                   {t('oss.intro')}
                 </p>
 
                 {/* Designated as Regional Support Hub */}
                 <div className="mb-8">
-                  <p className="text-sm text-gray-300 leading-relaxed mb-3" style={sans}>
+                  <p className="text-sm text-gray-700 leading-relaxed mb-3" style={sans}>
                     {t('oss.designatedHub.text')}
                   </p>
                   <ul className="space-y-2 ml-4">
-                    <li className="flex items-start gap-3 text-sm text-gray-300" style={sans}>
-                      <span className="text-green-400 mt-0.5">&#8226;</span>
+                    <li className="flex items-start gap-3 text-sm text-gray-700" style={sans}>
+                      <span className="text-green-600 mt-0.5">&#8226;</span>
                       <span>{t('oss.designatedHub.item1')}</span>
                     </li>
-                    <li className="flex items-start gap-3 text-sm text-gray-300" style={sans}>
-                      <span className="text-green-400 mt-0.5">&#8226;</span>
+                    <li className="flex items-start gap-3 text-sm text-gray-700" style={sans}>
+                      <span className="text-green-600 mt-0.5">&#8226;</span>
                       <span>{t('oss.designatedHub.item2')}</span>
                     </li>
                   </ul>
@@ -876,11 +741,11 @@ export default function HomePage() {
 
                 {/* Technical Engine */}
                 <div className="mb-8">
-                  <h4 className="text-base font-bold text-white mb-4 flex items-center gap-2" style={serif}>
-                    <div className="w-1 h-5 rounded-full bg-green-400" />
+                  <h4 className="text-base font-bold text-gray-900 mb-4 flex items-center gap-2" style={serif}>
+                    <div className="w-1 h-5 rounded-full bg-green-600" />
                     {t('oss.technicalEngine.heading')}
                   </h4>
-                  <p className="text-sm text-gray-400 leading-relaxed mb-3" style={sans}>
+                  <p className="text-sm text-gray-700 leading-relaxed mb-3" style={sans}>
                     {t('oss.technicalEngine.description')}
                   </p>
                   <ul className="space-y-2 ml-4">
@@ -889,8 +754,8 @@ export default function HomePage() {
                       t('oss.technicalEngine.item2'),
                       t('oss.technicalEngine.item3'),
                     ].map((item, i) => (
-                      <li key={i} className="flex items-start gap-3 text-sm text-gray-300" style={sans}>
-                        <span className="text-green-400 mt-0.5">&#8226;</span>
+                      <li key={i} className="flex items-start gap-3 text-sm text-gray-700" style={sans}>
+                        <span className="text-green-600 mt-0.5">&#8226;</span>
                         <span>{item}</span>
                       </li>
                     ))}
@@ -899,11 +764,11 @@ export default function HomePage() {
 
                 {/* Capacity Building */}
                 <div className="mb-8">
-                  <h4 className="text-base font-bold text-white mb-4 flex items-center gap-2" style={serif}>
-                    <div className="w-1 h-5 rounded-full bg-green-400" />
+                  <h4 className="text-base font-bold text-gray-900 mb-4 flex items-center gap-2" style={serif}>
+                    <div className="w-1 h-5 rounded-full bg-green-600" />
                     {t('oss.capacityBuilding.heading')}
                   </h4>
-                  <p className="text-sm text-gray-400 leading-relaxed mb-3" style={sans}>
+                  <p className="text-sm text-gray-700 leading-relaxed mb-3" style={sans}>
                     {t('oss.capacityBuilding.description')}
                   </p>
                   <ul className="space-y-2 ml-4">
@@ -912,8 +777,8 @@ export default function HomePage() {
                       t('oss.capacityBuilding.item2'),
                       t('oss.capacityBuilding.item3'),
                     ].map((item, i) => (
-                      <li key={i} className="flex items-start gap-3 text-sm text-gray-300" style={sans}>
-                        <span className="text-green-400 mt-0.5">&#8226;</span>
+                      <li key={i} className="flex items-start gap-3 text-sm text-gray-700" style={sans}>
+                        <span className="text-green-600 mt-0.5">&#8226;</span>
                         <span>{item}</span>
                       </li>
                     ))}
@@ -921,9 +786,9 @@ export default function HomePage() {
                 </div>
 
                 {/* Supporting Regional Initiatives */}
-                <div className="pt-6 border-t border-white/5">
-                  <h4 className="text-base font-bold text-white mb-4 flex items-center gap-2" style={serif}>
-                    <div className="w-1 h-5 rounded-full bg-green-400" />
+                <div className="pt-6 border-t border-gray-200">
+                  <h4 className="text-base font-bold text-gray-900 mb-4 flex items-center gap-2" style={serif}>
+                    <div className="w-1 h-5 rounded-full bg-green-600" />
                     {t('oss.regionalInitiatives.heading')}
                   </h4>
                   <div className="grid sm:grid-cols-3 gap-3">
@@ -932,9 +797,9 @@ export default function HomePage() {
                       { label: t('oss.regionalInitiatives.item2'), icon: '🌱' },
                       { label: t('oss.regionalInitiatives.item3'), icon: '💧' },
                     ].map((item, i) => (
-                      <div key={i} className="flex items-center gap-3 p-4 rounded-lg bg-white/[0.03] border border-white/5">
+                      <div key={i} className="flex items-center gap-3 p-4 rounded-lg bg-gray-50 border border-gray-200">
                         <span className="text-lg">{item.icon}</span>
-                        <span className="text-sm text-gray-300" style={sans}>{item.label}</span>
+                        <span className="text-sm text-gray-700" style={sans}>{item.label}</span>
                       </div>
                     ))}
                   </div>
