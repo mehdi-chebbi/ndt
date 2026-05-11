@@ -3,7 +3,7 @@
 const sans = { fontFamily: 'system-ui, sans-serif' }
 
 interface InfoCardProps {
-  text: React.ReactNode
+  text: string
 }
 
 export default function InfoCard({ text }: InfoCardProps) {
@@ -64,9 +64,8 @@ export default function InfoCard({ text }: InfoCardProps) {
         <div
           className="text-sm leading-relaxed"
           style={{ color: '#2a2a2a', ...sans }}
-        >
-          {text}
-        </div>
+          dangerouslySetInnerHTML={{ __html: text }}
+        />
       </div>
 
       {/* Right illustration */}

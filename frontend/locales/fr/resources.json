@@ -6,9 +6,9 @@
   "intro1": "Cette section rassemble une collection complète de ressources sur le suivi de la dégradation des terres en Afrique, soutenant la recherche, l'élaboration de politiques et la mise en œuvre de la Neutralité de la Dégradation des Terres (NDT) et de l'ODD 15.3.1.",
   "intro2": "Elle réunit la documentation technique, les données géospatiales et les supports de communication pour faciliter le partage des connaissances et le renforcement des capacités sur le continent.",
   "searchPlaceholder": "Rechercher des fichiers par nom ou dossier...",
-  "fileStats": "{{fileCount}} fichier{{fileCount !== 1 ? 's' : ''}} dans {{folderCount}} dossier{{folderCount !== 1 ? 's' : ''}}",
-  "searchResults": "{{count}} résultat{{count !== 1 ? 's' : ''}} pour « {{query}} »",
+  "fileStats": "{{fileCount}} fichiers dans {{folderCount}} dossiers",
+  "searchResults": "{{count}} résultats pour « {{query}} »",
   "noFilesFound": "Aucun fichier trouvé correspondant à votre recherche.",
   "download": "Télécharger",
-  "fileCount": "{{count}} fichier{{count !== 1 ? 's' : ''}}"
+  "fileCount": "{{count}} fichiers"
 }

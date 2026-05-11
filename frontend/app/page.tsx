@@ -89,8 +89,8 @@ export default function HomePage() {
           </div>
 
           {/* Headline with Africa Map */}
-          <div className="flex flex-col lg:flex-row items-center gap-8 lg:items-start mb-10">
-            <div className="flex-1">
+          <div className="flex flex-col lg:flex-row items-center gap-8 lg:items-end mb-10">
+            <div className="flex-1 flex flex-col">
               <h1 className="text-5xl lg:text-7xl font-bold leading-[1.05] mb-2 max-w-4xl" style={{ ...serif, letterSpacing: '-0.02em' }}>
                 {t('hero.headline.prefix')}{' '}
                 <span style={{
@@ -106,93 +106,94 @@ export default function HomePage() {
               <p className="text-lg lg:text-xl text-gray-400 max-w-2xl mb-6 leading-relaxed" style={sans}>
                 {t('hero.description')}
               </p>
+
+              {/* CTAs */}
+              <div className="flex flex-col sm:flex-row gap-4 mt-auto">
+                {!mounted ? (
+                  <div className="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-lg text-sm font-medium bg-gray-800 text-gray-400 cursor-not-allowed">
+                    {t('cta.loading')}
+                  </div>
+                ) : isAuthenticated ? (
+                  <>
+                    <Link
+                      href="/map"
+                      className="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-lg text-sm font-medium transition-all duration-200"
+                      style={{
+                        background: 'linear-gradient(135deg, #16a34a, #22c55e)',
+                        color: '#0a0f0d',
+                        ...sans,
+                        letterSpacing: '0.02em',
+                        boxShadow: '0 0 24px rgba(34,197,94,0.25)',
+                      }}
+                    >
+                      {t('cta.goToMap')}
+                      <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                      </svg>
+                    </Link>
+                    <Link
+                      href={user?.role === 'admin' ? '/admin' : '/dashboard'}
+                      className="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-lg text-sm font-medium border border-white/10 text-gray-300 hover:border-white/20 hover:text-white transition-all duration-200"
+                      style={{ ...sans, letterSpacing: '0.02em' }}
+                    >
+                      {t('cta.dashboard')}
+                    </Link>
+                  </>
+                ) : (
+                  <>
+                    <Link
+                      href="/signup"
+                      className="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-lg text-sm font-medium transition-all duration-200"
+                      style={{
+                        background: 'linear-gradient(135deg, #16a34a, #22c55e)',
+                        color: '#0a0f0d',
+                        ...sans,
+                        letterSpacing: '0.02em',
+                        boxShadow: '0 0 24px rgba(34,197,94,0.25)',
+                      }}
+                    >
+                      {t('cta.exploreTheMap')}
+                      <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                      </svg>
+                    </Link>
+                    <Link
+                      href="/login"
+                      className="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-lg text-sm font-medium border border-white/10 text-gray-300 hover:border-white/20 hover:text-white transition-all duration-200"
+                      style={{ ...sans, letterSpacing: '0.02em' }}
+                    >
+                      {t('cta.signIn')}
+                    </Link>
+                  </>
+                )}
+              </div>
             </div>
 
             {/* Africa Map - Right side of headline */}
             <div className="hidden lg:block lg:w-[400px]">
               <AfricaMap className="w-full h-auto opacity-80 hover:opacity-100 transition-opacity duration-300" />
               {/* Partner logos under the map */}
-              <div className="flex items-center justify-center gap-6 mt-4">
+              <div className="flex items-center justify-center gap-8 mt-4">
                 <Image
                   src="/images/Logo-OSS.png"
                   alt="OSS Logo"
-                  width={100}
-                  height={48}
-                  className="h-10 w-auto opacity-70 hover:opacity-100 transition-opacity duration-300"
+                  width={168}
+                  height={80}
+                  className="h-20 w-auto opacity-70 hover:opacity-100 transition-opacity duration-300"
                 />
                 <Image
                   src="/images/Logo-Screen-Shot.png"
                   alt="Partner Logo"
-                  width={100}
-                  height={18}
-                  className="h-10 w-auto opacity-70 hover:opacity-100 transition-opacity duration-300"
+                  width={446}
+                  height={80}
+                  className="h-20 w-auto opacity-70 hover:opacity-100 transition-opacity duration-300"
                 />
               </div>
             </div>
           </div>
 
-          {/* CTAs */}
-          <div className="flex flex-col sm:flex-row gap-4 mb-24">
-            {!mounted ? (
-              <>
-                <div className="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-lg text-sm font-medium bg-gray-800 text-gray-400 cursor-not-allowed">
-                  {t('cta.loading')}
-                </div>
-              </>
-            ) : isAuthenticated ? (
-              <>
-                <Link
-                  href="/map"
-                  className="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-lg text-sm font-medium transition-all duration-200"
-                  style={{
-                    background: 'linear-gradient(135deg, #16a34a, #22c55e)',
-                    color: '#0a0f0d',
-                    ...sans,
-                    letterSpacing: '0.02em',
-                    boxShadow: '0 0 24px rgba(34,197,94,0.25)',
-                  }}
-                >
-                  {t('cta.goToMap')}
-                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                  </svg>
-                </Link>
-                <Link
-                  href={user?.role === 'admin' ? '/admin' : '/dashboard'}
-                  className="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-lg text-sm font-medium border border-white/10 text-gray-300 hover:border-white/20 hover:text-white transition-all duration-200"
-                  style={{ ...sans, letterSpacing: '0.02em' }}
-                >
-                  {t('cta.dashboard')}
-                </Link>
-              </>
-            ) : (
-              <>
-                <Link
-                  href="/signup"
-                  className="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-lg text-sm font-medium transition-all duration-200"
-                  style={{
-                    background: 'linear-gradient(135deg, #16a34a, #22c55e)',
-                    color: '#0a0f0d',
-                    ...sans,
-                    letterSpacing: '0.02em',
-                    boxShadow: '0 0 24px rgba(34,197,94,0.25)',
-                  }}
-                >
-                  {t('cta.exploreTheMap')}
-                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                  </svg>
-                </Link>
-                <Link
-                  href="/login"
-                  className="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-lg text-sm font-medium border border-white/10 text-gray-300 hover:border-white/20 hover:text-white transition-all duration-200"
-                  style={{ ...sans, letterSpacing: '0.02em' }}
-                >
-                  {t('cta.signIn')}
-                </Link>
-              </>
-            )}
-          </div>
+          {/* Spacing */}
+          <div className="mb-24" />
 
           {/* Stats row */}
           <div className="flex flex-wrap gap-10 mb-24 pt-6 border-t border-white/5">
@@ -945,18 +946,18 @@ export default function HomePage() {
           {/* ============================================================ */}
           {/* Contact Us Form */}
           {/* ============================================================ */}
-          <div className="mb-20">
-            <div className="flex items-center gap-3 mb-6">
+          <div className="mb-20 text-center">
+            <div className="flex items-center justify-center gap-3 mb-6">
               <div className="w-1 h-8 rounded-full bg-green-400" />
               <h2 className="text-2xl lg:text-3xl font-bold text-white" style={serif}>
                 {t('contact.heading')}
               </h2>
             </div>
-            <p className="text-sm text-gray-400 leading-relaxed mb-8 max-w-2xl" style={sans}>
+            <p className="text-sm text-gray-400 leading-relaxed mb-8 max-w-2xl mx-auto" style={sans}>
               {t('contact.description')}
             </p>
 
-            <div className="max-w-2xl">
+            <div className="max-w-2xl mx-auto">
               <form onSubmit={handleContactSubmit} className="space-y-5">
                 <div className="grid sm:grid-cols-2 gap-5">
                   {/* Name */}

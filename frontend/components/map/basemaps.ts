@@ -14,8 +14,8 @@ export const basemapInfo: BasemapInfo[] = [
   { name: 'Light', thumbnail: '/basemaps/light.png' },
   { name: 'Topographic', thumbnail: '/basemaps/topo.png' },
   { name: 'S2 Cloudless', thumbnail: '/basemaps/s2.png' },
-  { name: 'ESA WorldCover 2021', thumbnail: '/basemaps/2021.png' },
-  { name: 'ESA WorldCover 2020', thumbnail: '/basemaps/2020.png' },
+  // { name: 'ESA WorldCover 2021', thumbnail: '/basemaps/2021.png' },
+  // { name: 'ESA WorldCover 2020', thumbnail: '/basemaps/2020.png' },
   { name: 'Population Density', thumbnail: '/basemaps/pop.png' },
   { name: 'Macrostrat Geology', thumbnail: '/basemaps/geology.png' },
   { name: 'Stamen Watercolor', thumbnail: '/basemaps/watercolor.png' },
@@ -47,18 +47,18 @@ export const basemaps: { [key: string]: L.TileLayer | L.TileLayer.WMS } = {
     attribution: '<a href="https://s2maps.eu">Sentinel-2 cloudless</a> by <a href="https://eox.at">EOX IT Services GmbH</a>',
     crossOrigin: 'anonymous',
   }),
-  'ESA WorldCover 2021': L.tileLayer.wms('https://services.terrascope.be/wms/v2', {
-    layers: 'WORLDCOVER_2021_MAP',
-    format: 'image/png',
-    attribution: '© ESA WorldCover 2021',
-    crossOrigin: 'anonymous',
-  }),
-  'ESA WorldCover 2020': L.tileLayer.wms('https://services.terrascope.be/wms/v2', {
-    layers: 'WORLDCOVER_2020_MAP',
-    format: 'image/png',
-    attribution: '© ESA WorldCover 2020',
-    crossOrigin: 'anonymous',
-  }),
+  // 'ESA WorldCover 2021': L.tileLayer.wms('https://services.terrascope.be/wms/v2', {
+  //   layers: 'WORLDCOVER_2021_MAP',
+  //   format: 'image/png',
+  //   attribution: '© ESA WorldCover 2021',
+  //   crossOrigin: 'anonymous',
+  // }),
+  // 'ESA WorldCover 2020': L.tileLayer.wms('https://services.terrascope.be/wms/v2', {
+  //   layers: 'WORLDCOVER_2020_MAP',
+  //   format: 'image/png',
+  //   attribution: '© ESA WorldCover 2020',
+  //   crossOrigin: 'anonymous',
+  // }),
   'Population Density': L.tileLayer(
     'https://earth.gov/ghgcenter/api/raster/collections/sedac-popdensity-yeargrid5yr-v4.11/items/sedac-popdensity-yeargrid5yr-v4.11-gpw_v4_population_density_rev11_2020_30_sec_2020/tiles/WebMercatorQuad/{z}/{x}/{y}@1x?assets=population-density&colormap_name=rainbow&rescale=0,1000',
     {

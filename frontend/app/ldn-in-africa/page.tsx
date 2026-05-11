@@ -162,7 +162,7 @@ export default function LDNInAfricaPage() {
                 </div>
 
                 {/* Info card */}
-                <div className="mt-8">
+                <div className="mt-8 flex justify-center">
                   <InfoCard text={t('infoCards.whatIsLdn')} />
                 </div>
               </div>
@@ -258,7 +258,7 @@ export default function LDNInAfricaPage() {
                 </ul>
 
                 {/* Info card */}
-                <div className="mt-8">
+                <div className="mt-8 flex justify-center">
                   <InfoCard text={t('infoCards.keyFacts')} />
                 </div>
               </div>
@@ -335,14 +335,14 @@ export default function LDNInAfricaPage() {
             </div>
 
             {/* Info card */}
-            <div className="max-w-4xl">
+            <div className="max-w-4xl mx-auto">
               <InfoCard text={t('infoCards.monitoring')} />
             </div>
           </div>
 
           {/* ── Monitoring LDN Image ─────────────────────────── */}
           <div className="mb-20">
-            <div className="max-w-4xl">
+            <div className="max-w-4xl mx-auto">
               <div className="rounded-lg border border-white/10 overflow-hidden">
                 <Image
                   src="/images/ldn-africa/Image_LDN_3.png"
@@ -412,7 +412,7 @@ export default function LDNInAfricaPage() {
               {t('platformSupport.heading')}
             </h2>
 
-            <div className="max-w-4xl">
+            <div className="max-w-4xl mx-auto">
               <p className="text-base text-gray-300 leading-relaxed mb-6" style={sans}>
                 {t('platformSupport.intro')}
               </p>
@@ -452,7 +452,7 @@ export default function LDNInAfricaPage() {
               </ul>
 
               {/* Info card */}
-              <div className="mt-6">
+              <div className="mt-6 flex justify-center">
                 <InfoCard text={t('infoCards.platformSupport')} />
               </div>
             </div>
@@ -464,7 +464,7 @@ export default function LDNInAfricaPage() {
               {t('whyLdnMatters.heading')}
             </h2>
 
-            <div className="max-w-4xl">
+            <div className="max-w-4xl mx-auto">
               <p className="text-base text-gray-300 leading-relaxed mb-4" style={sans}>
                 {t('whyLdnMatters.introLabel')}
               </p>
@@ -794,7 +794,7 @@ export default function LDNInAfricaPage() {
                 </div>
 
                 {/* Info card */}
-                <div className="mt-6">
+                <div className="mt-6 flex justify-center">
                   <InfoCard text={t('infoCards.ldnInAfricaBox')} />
                 </div>
 

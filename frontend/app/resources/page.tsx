@@ -109,7 +109,7 @@ function flattenTree(entries: FileEntry[], parentPath: string = ''): FlatFile[] 
 }
 
 /* ── FolderRow component ──────────────────────────────────────── */
-function FolderRow({ entry, depth, searchQuery, t }: { entry: FileEntry; depth: number; searchQuery: string; t: (key: string) => string }) {
+function FolderRow({ entry, depth, searchQuery, t }: { entry: FileEntry; depth: number; searchQuery: string; t: (key: string, options?: Record<string, unknown>) => string }) {
   const [isOpen, setIsOpen] = useState(searchQuery.length > 0)
   const fileCount = countFiles(entry)
 
@@ -140,7 +140,7 @@ function FolderRow({ entry, depth, searchQuery, t }: { entry: FileEntry; depth: 
 
         {/* File count */}
         <span className="text-xs text-gray-500" style={sans}>
-          {t('fileCount').replace('{{count}}', String(fileCount))}
+          {t('fileCount', { count: fileCount })}
         </span>
       </button>
 
@@ -161,7 +161,7 @@ function FolderRow({ entry, depth, searchQuery, t }: { entry: FileEntry; depth: 
 }
 
 /* ── FileRow component ────────────────────────────────────────── */
-function FileRow({ entry, depth, t }: { entry: FileEntry; depth: number; t: (key: string) => string }) {
+function FileRow({ entry, depth, t }: { entry: FileEntry; depth: number; t: (key: string, options?: Record<string, unknown>) => string }) {
   return (
     <div
       className="flex items-center gap-3 py-2.5 px-4 rounded-lg hover:bg-white/[0.03] transition-colors duration-150 group"
@@ -350,7 +350,7 @@ export default function ResourcesPage() {
           {!loading && (
             <div className="flex items-center gap-6 mb-8">
               <span className="text-xs text-gray-500" style={sans}>
-                {t('fileStats').replace('{{fileCount}}', String(totalFiles)).replace('{{folderCount}}', String(tree.length))}
+                {t('fileStats', { fileCount: totalFiles, folderCount: tree.length })}
               </span>
             </div>
           )}
@@ -365,7 +365,7 @@ export default function ResourcesPage() {
             <div className="rounded-xl border border-white/10 bg-white/[0.02] overflow-hidden">
               <div className="p-4 border-b border-white/5">
                 <p className="text-sm text-gray-400" style={sans}>
-                  {t('searchResults').replace('{{count}}', String(searchResults.length)).replace('{{query}}', searchQuery)}
+                  {t('searchResults', { count: searchResults.length, query: searchQuery })}
                 </p>
               </div>
               {searchResults.length > 0 ? (

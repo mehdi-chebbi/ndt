@@ -10,13 +10,16 @@ interface LegendItem {
 interface LegendProps {
   legend: LegendItem[]
   layerName?: string
+  sidebarOpen?: boolean
 }
 
-export default function Legend({ legend, layerName }: LegendProps) {
+export default function Legend({ legend, layerName, sidebarOpen = true }: LegendProps) {
   if (!legend || legend.length === 0) return null
 
   return (
-    <div data-tutorial="legend" className="absolute bottom-4 right-4 bg-white rounded-lg shadow-lg p-3 z-40 max-w-xs">
+    <div data-tutorial="legend" className={`absolute bottom-4 bg-white rounded-lg shadow-lg p-3 z-40 max-w-xs transition-all duration-300 ${
+      sidebarOpen ? 'left-[400px]' : 'left-[60px]'
+    }`}>
       {layerName && (
         <h4 className="text-sm font-semibold text-gray-900 mb-2 pb-2 border-b border-gray-200">
           {layerName}

@@ -992,9 +992,9 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
         </div>
       )}
 
-      {/* Legend - bottom right */}
+      {/* Legend - bottom left, aligned with buttons */}
       {activeLayerLegend && activeLayerLegend.length > 0 && !state.reportingMode && !isCompareMode && (
-        <Legend legend={activeLayerLegend} layerName={activeLayerName} />
+        <Legend legend={activeLayerLegend} layerName={activeLayerName} sidebarOpen={state.sidebarOpen} />
       )}
 
 
