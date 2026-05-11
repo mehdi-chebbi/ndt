@@ -1,7 +1,9 @@
 'use client'
 
+import Image from 'next/image'
 import Link from 'next/link'
 import { useTranslation } from 'react-i18next'
+import InfoCard from '@/components/InfoCard'
 
 const sans = { fontFamily: 'system-ui, sans-serif' }
 const serif = { fontFamily: "'Georgia', serif" }
@@ -76,15 +78,16 @@ export default function LDNInAfricaPage() {
             </p>
           </div>
 
-          {/* ── Image Placeholder ─────────────────────────────────── */}
+          {/* ── Hero Image ─────────────────────────────────── */}
           <div className="mb-20">
-            <div className="rounded-xl border border-white/10 bg-white/[0.03] aspect-video flex items-center justify-center overflow-hidden">
-              <div className="text-center">
-                <svg className="w-12 h-12 text-gray-600 mx-auto mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                </svg>
-                <p className="text-xs text-gray-600 uppercase tracking-widest" style={sans}>{t('placeholders.image')}</p>
-              </div>
+            <div className="rounded-xl border border-white/10 overflow-hidden">
+              <Image
+                src="/images/ldn-africa/Image_LDN_1.png"
+                alt="LDN in Africa overview"
+                width={1536}
+                height={1024}
+                className="w-full h-auto object-cover"
+              />
             </div>
           </div>
 
@@ -158,14 +161,9 @@ export default function LDNInAfricaPage() {
                   </p>
                 </div>
 
-                {/* Image placeholder under the text */}
-                <div className="mt-8 rounded-lg border border-dashed border-white/10 bg-white/[0.02] aspect-video flex items-center justify-center">
-                  <div className="text-center">
-                    <svg className="w-10 h-10 text-gray-600 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                    </svg>
-                    <p className="text-xs text-gray-600 uppercase tracking-widest" style={sans}>{t('placeholders.image')}</p>
-                  </div>
+                {/* Info card */}
+                <div className="mt-8">
+                  <InfoCard text={t('infoCards.whatIsLdn')} />
                 </div>
               </div>
             </div>
@@ -208,15 +206,16 @@ export default function LDNInAfricaPage() {
                 </ul>
               </div>
 
-              {/* Image placeholder on the right */}
+              {/* Image on the right */}
               <div className="lg:w-[45%] shrink-0">
-                <div className="rounded-xl border border-dashed border-white/10 bg-white/[0.02] aspect-[4/3] flex items-center justify-center h-full">
-                  <div className="text-center">
-                    <svg className="w-10 h-10 text-gray-600 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                    </svg>
-                    <p className="text-xs text-gray-600 uppercase tracking-widest" style={sans}>{t('placeholders.image')}</p>
-                  </div>
+                <div className="rounded-xl border border-white/10 overflow-hidden h-full">
+                  <Image
+                    src="/images/ldn-africa/Image_LDN_2.png"
+                    alt="Land degradation in Africa"
+                    width={1536}
+                    height={1024}
+                    className="w-full h-auto object-cover"
+                  />
                 </div>
               </div>
             </div>
@@ -258,14 +257,9 @@ export default function LDNInAfricaPage() {
                   </li>
                 </ul>
 
-                {/* Image placeholder under text */}
-                <div className="mt-8 rounded-lg border border-dashed border-white/10 bg-white/[0.02] aspect-video flex items-center justify-center">
-                  <div className="text-center">
-                    <svg className="w-10 h-10 text-gray-600 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                    </svg>
-                    <p className="text-xs text-gray-600 uppercase tracking-widest" style={sans}>{t('placeholders.image')}</p>
-                  </div>
+                {/* Info card */}
+                <div className="mt-8">
+                  <InfoCard text={t('infoCards.keyFacts')} />
                 </div>
               </div>
             </div>
@@ -340,29 +334,23 @@ export default function LDNInAfricaPage() {
               </div>
             </div>
 
-            {/* Image placeholder under text */}
+            {/* Info card */}
             <div className="max-w-4xl">
-              <div className="rounded-lg border border-dashed border-white/10 bg-white/[0.02] aspect-video flex items-center justify-center">
-                <div className="text-center">
-                  <svg className="w-10 h-10 text-gray-600 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                  </svg>
-                  <p className="text-xs text-gray-600 uppercase tracking-widest" style={sans}>{t('placeholders.image')}</p>
-                </div>
-              </div>
+              <InfoCard text={t('infoCards.monitoring')} />
             </div>
           </div>
 
-          {/* ── Additional Image Placeholder ─────────────────────────── */}
+          {/* ── Monitoring LDN Image ─────────────────────────── */}
           <div className="mb-20">
             <div className="max-w-4xl">
-              <div className="rounded-lg border border-dashed border-white/10 bg-white/[0.02] aspect-video flex items-center justify-center">
-                <div className="text-center">
-                  <svg className="w-10 h-10 text-gray-600 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                  </svg>
-                  <p className="text-xs text-gray-600 uppercase tracking-widest" style={sans}>{t('placeholders.image')}</p>
-                </div>
+              <div className="rounded-lg border border-white/10 overflow-hidden">
+                <Image
+                  src="/images/ldn-africa/Image_LDN_3.png"
+                  alt="Monitoring LDN in Africa"
+                  width={1692}
+                  height={930}
+                  className="w-full h-auto object-cover"
+                />
               </div>
             </div>
           </div>
@@ -463,14 +451,9 @@ export default function LDNInAfricaPage() {
                 </li>
               </ul>
 
-              {/* Image placeholder under text */}
-              <div className="rounded-lg border border-dashed border-white/10 bg-white/[0.02] aspect-video flex items-center justify-center">
-                <div className="text-center">
-                  <svg className="w-10 h-10 text-gray-600 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                  </svg>
-                  <p className="text-xs text-gray-600 uppercase tracking-widest" style={sans}>{t('placeholders.image')}</p>
-                </div>
+              {/* Info card */}
+              <div className="mt-6">
+                <InfoCard text={t('infoCards.platformSupport')} />
               </div>
             </div>
           </div>
@@ -513,14 +496,15 @@ export default function LDNInAfricaPage() {
                 {t('whyLdnMatters.closingText')}
               </p>
 
-              {/* Image placeholder */}
-              <div className="mt-8 rounded-lg border border-dashed border-white/10 bg-white/[0.02] aspect-video flex items-center justify-center">
-                <div className="text-center">
-                  <svg className="w-10 h-10 text-gray-600 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                  </svg>
-                  <p className="text-xs text-gray-600 uppercase tracking-widest" style={sans}>{t('placeholders.image')}</p>
-                </div>
+              {/* Image */}
+              <div className="mt-8 rounded-lg border border-white/10 overflow-hidden">
+                <Image
+                  src="/images/ldn-africa/Image_LDN_5.png"
+                  alt="Why LDN matters for Africa"
+                  width={1290}
+                  height={640}
+                  className="w-full h-auto object-cover"
+                />
               </div>
             </div>
           </div>
@@ -809,14 +793,9 @@ export default function LDNInAfricaPage() {
                   </ul>
                 </div>
 
-                {/* Image placeholder under text */}
-                <div className="mt-6 rounded-lg border border-dashed border-white/10 bg-white/[0.02] aspect-video flex items-center justify-center">
-                  <div className="text-center">
-                    <svg className="w-10 h-10 text-gray-600 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                    </svg>
-                    <p className="text-xs text-gray-600 uppercase tracking-widest" style={sans}>{t('placeholders.image')}</p>
-                  </div>
+                {/* Info card */}
+                <div className="mt-6">
+                  <InfoCard text={t('infoCards.ldnInAfricaBox')} />
                 </div>
 
               </div>

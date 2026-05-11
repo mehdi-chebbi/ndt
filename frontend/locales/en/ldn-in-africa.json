@@ -150,5 +150,12 @@
   },
   "placeholders": {
     "image": "Image Placeholder"
+  },
+  "infoCards": {
+    "whatIsLdn": "Together, these principles and frameworks enable countries to <strong>monitor land degradation trends</strong>, report progress and design effective strategies to <strong>achieve Land Degradation Neutrality.</strong>",
+    "keyFacts": "Together, these indicators and the PRAIS system enable countries to <strong>monitor land degradation trends, report progress</strong> and design effective strategies to <strong>achieve Land Degradation Neutrality.</strong>",
+    "monitoring": "Together, these indicators and the PRAIS system enable countries to <strong>monitor land degradation trends, report progress</strong> and design effective strategies to <strong>achieve Land Degradation Neutrality.</strong>",
+    "platformSupport": "This platform empowers stakeholders to <strong>access critical data</strong>, collaborate on solutions and <strong>drive meaningful change</strong> towards Land Degradation Neutrality.",
+    "ldnInAfricaBox": "Through collective action and shared knowledge, African nations are <strong>advancing towards Land Degradation Neutrality</strong> and building a <strong>sustainable future for all.</strong>"
   }
 }

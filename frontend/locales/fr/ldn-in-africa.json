@@ -150,5 +150,12 @@
   },
   "placeholders": {
     "image": "Espace réservé pour l'image"
+  },
+  "infoCards": {
+    "whatIsLdn": "Ensemble, ces principes et cadres permettent aux pays de <strong>suivre les tendances de la dégradation des terres</strong>, de faire rapport sur les progrès et de concevoir des stratégies efficaces pour <strong>atteindre la neutralité de la dégradation des terres.</strong>",
+    "keyFacts": "Ensemble, ces indicateurs et le système PRAIS permettent aux pays de <strong>suivre les tendances de la dégradation des terres, de faire rapport sur les progrès</strong> et de concevoir des stratégies efficaces pour <strong>atteindre la neutralité de la dégradation des terres.</strong>",
+    "monitoring": "Ensemble, ces indicateurs et le système PRAIS permettent aux pays de <strong>suivre les tendances de la dégradation des terres, de faire rapport sur les progrès</strong> et de concevoir des stratégies efficaces pour <strong>atteindre la neutralité de la dégradation des terres.</strong>",
+    "platformSupport": "Cette plateforme permet aux parties prenantes d'<strong>accéder aux données critiques</strong>, de collaborer sur les solutions et de <strong>stimuler un changement significatif</strong> vers la neutralité de la dégradation des terres.",
+    "ldnInAfricaBox": "Par l'action collective et le partage des connaissances, les nations africaines <strong>progressent vers la neutralité de la dégradation des terres</strong> et construisent un <strong>avenir durable pour tous.</strong>"
   }
 }

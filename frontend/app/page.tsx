@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image'
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
@@ -110,6 +111,23 @@ export default function HomePage() {
             {/* Africa Map - Right side of headline */}
             <div className="hidden lg:block lg:w-[400px]">
               <AfricaMap className="w-full h-auto opacity-80 hover:opacity-100 transition-opacity duration-300" />
+              {/* Partner logos under the map */}
+              <div className="flex items-center justify-center gap-6 mt-4">
+                <Image
+                  src="/images/Logo-OSS.png"
+                  alt="OSS Logo"
+                  width={100}
+                  height={48}
+                  className="h-10 w-auto opacity-70 hover:opacity-100 transition-opacity duration-300"
+                />
+                <Image
+                  src="/images/Logo-Screen-Shot.png"
+                  alt="Partner Logo"
+                  width={100}
+                  height={18}
+                  className="h-10 w-auto opacity-70 hover:opacity-100 transition-opacity duration-300"
+                />
+              </div>
             </div>
           </div>
 
@@ -213,15 +231,16 @@ export default function HomePage() {
               </p>
             </div>
 
-            {/* Image placeholder + overview side by side */}
+            {/* Image + overview side by side */}
             <div className="grid lg:grid-cols-2 gap-8 items-start">
-              <div className="rounded-xl border border-white/10 bg-white/[0.03] aspect-video flex items-center justify-center">
-                <div className="text-center">
-                  <svg className="w-12 h-12 text-gray-600 mx-auto mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                  </svg>
-                  <p className="text-xs text-gray-600 uppercase tracking-widest" style={sans}>{t('placeholders.image')}</p>
-                </div>
+              <div className="rounded-xl border border-white/10 overflow-hidden">
+                <Image
+                  src="/images/home/Image_Land-degradation_1.png"
+                  alt="Land degradation overview"
+                  width={1536}
+                  height={1024}
+                  className="w-full h-auto object-cover"
+                />
               </div>
 
               <div>
@@ -326,14 +345,15 @@ export default function HomePage() {
                   </p>
                 </div>
 
-                {/* Image placeholder UNDER the text */}
-                <div className="mt-6 rounded-lg border border-dashed border-white/10 bg-white/[0.02] aspect-video flex items-center justify-center">
-                  <div className="text-center">
-                    <svg className="w-10 h-10 text-gray-600 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                    </svg>
-                    <p className="text-xs text-gray-600 uppercase tracking-widest" style={sans}>{t('placeholders.image')}</p>
-                  </div>
+                {/* Image under Key Facts text */}
+                <div className="mt-6 rounded-lg border border-white/10 overflow-hidden">
+                  <Image
+                    src="/images/home/Image_Land-degradation_8.png"
+                    alt="Land degradation key facts"
+                    width={1496}
+                    height={570}
+                    className="w-full h-auto object-cover"
+                  />
                 </div>
               </div>
             </div>
@@ -377,23 +397,25 @@ export default function HomePage() {
               {t('roleOfLDN.closingParagraph')}
             </p>
 
-            {/* Two image placeholders */}
+            {/* Two images side by side */}
             <div className="grid sm:grid-cols-2 gap-6">
-              <div className="rounded-xl border border-dashed border-white/10 bg-white/[0.02] aspect-video flex items-center justify-center">
-                <div className="text-center">
-                  <svg className="w-10 h-10 text-gray-600 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                  </svg>
-                  <p className="text-xs text-gray-600 uppercase tracking-widest" style={sans}>{t('placeholders.image1')}</p>
-                </div>
+              <div className="rounded-xl border border-white/10 overflow-hidden">
+                <Image
+                  src="/images/home/Image_Land-degradation_5.png"
+                  alt="LDN platform contribution"
+                  width={1536}
+                  height={1024}
+                  className="w-full h-auto object-cover"
+                />
               </div>
-              <div className="rounded-xl border border-dashed border-white/10 bg-white/[0.02] aspect-video flex items-center justify-center">
-                <div className="text-center">
-                  <svg className="w-10 h-10 text-gray-600 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                  </svg>
-                  <p className="text-xs text-gray-600 uppercase tracking-widest" style={sans}>{t('placeholders.image2')}</p>
-                </div>
+              <div className="rounded-xl border border-white/10 overflow-hidden">
+                <Image
+                  src="/images/home/Image_Land-degradation_4.png"
+                  alt="LDN platform role"
+                  width={1536}
+                  height={1024}
+                  className="w-full h-auto object-cover"
+                />
               </div>
             </div>
           </div>
@@ -440,14 +462,15 @@ export default function HomePage() {
                   {t('keyAssets.closingText')}
                 </p>
 
-                {/* Image placeholder UNDER the text */}
-                <div className="rounded-lg border border-dashed border-white/10 bg-white/[0.02] aspect-video flex items-center justify-center">
-                  <div className="text-center">
-                    <svg className="w-10 h-10 text-gray-600 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                    </svg>
-                    <p className="text-xs text-gray-600 uppercase tracking-widest" style={sans}>{t('placeholders.image')}</p>
-                  </div>
+                {/* Image under Key Assets text */}
+                <div className="rounded-lg border border-white/10 overflow-hidden">
+                  <Image
+                    src="/images/home/Image_Land-degradation_7.png"
+                    alt="Key assets of the monitoring system"
+                    width={1796}
+                    height={876}
+                    className="w-full h-auto object-cover"
+                  />
                 </div>
               </div>
             </div>

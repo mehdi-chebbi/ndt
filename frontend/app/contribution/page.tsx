@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image'
 import Link from 'next/link'
 import { useEffect, useRef, useState } from 'react'
 import { useTranslation } from 'react-i18next'
@@ -198,20 +199,21 @@ export default function ContributionPage() {
                   <span className="text-sm text-gray-300" style={sans}>{t(key)}</span>
                 </div>
               </Stagger>
-            ))
+            ))}
           </div>
         </section>
 
-        {/* ═══════ IMAGE PLACEHOLDER ═══════ */}
+        {/* ═══════ HERO IMAGE ═══════ */}
         <section className="pb-20">
           <Stagger delay={0}>
-            <div className="rounded-xl border border-dashed border-white/10 bg-white/[0.02] aspect-video flex items-center justify-center">
-              <div className="text-center">
-                <svg className="w-12 h-12 text-gray-600 mx-auto mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                </svg>
-                <p className="text-xs text-gray-600 uppercase tracking-widest" style={sans}>{t('imagePlaceholder')}</p>
-              </div>
+            <div className="rounded-xl border border-white/10 overflow-hidden">
+              <Image
+                src="/images/contribution/Image_Contribution_1.png"
+                alt="Contribution overview"
+                width={1774}
+                height={887}
+                className="w-full h-auto object-cover"
+              />
             </div>
           </Stagger>
         </section>
@@ -300,15 +302,16 @@ export default function ContributionPage() {
             ))}
           </div>
 
-          {/* Image placeholder */}
+          {/* Image */}
           <Stagger delay={300}>
-            <div className="mt-10 rounded-xl border border-dashed border-white/10 bg-white/[0.02] aspect-video flex items-center justify-center">
-              <div className="text-center">
-                <svg className="w-12 h-12 text-gray-600 mx-auto mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                </svg>
-                <p className="text-xs text-gray-600 uppercase tracking-widest" style={sans}>{t('imagePlaceholder')}</p>
-              </div>
+            <div className="mt-10 rounded-xl border border-white/10 overflow-hidden">
+              <Image
+                src="/images/contribution/Image_Contribution_2.png"
+                alt="How to contribute"
+                width={1396}
+                height={1127}
+                className="w-full h-auto object-cover"
+              />
             </div>
           </Stagger>
         </section>

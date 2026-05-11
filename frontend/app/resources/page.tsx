@@ -140,7 +140,7 @@ function FolderRow({ entry, depth, searchQuery, t }: { entry: FileEntry; depth: 
 
         {/* File count */}
         <span className="text-xs text-gray-500" style={sans}>
-          {t('fileCount', { count: fileCount })}
+          {t('fileCount').replace('{{count}}', String(fileCount))}
         </span>
       </button>
 
@@ -350,7 +350,7 @@ export default function ResourcesPage() {
           {!loading && (
             <div className="flex items-center gap-6 mb-8">
               <span className="text-xs text-gray-500" style={sans}>
-                {t('fileStats', { fileCount: totalFiles, folderCount: tree.length })}
+                {t('fileStats').replace('{{fileCount}}', String(totalFiles)).replace('{{folderCount}}', String(tree.length))}
               </span>
             </div>
           )}
@@ -365,7 +365,7 @@ export default function ResourcesPage() {
             <div className="rounded-xl border border-white/10 bg-white/[0.02] overflow-hidden">
               <div className="p-4 border-b border-white/5">
                 <p className="text-sm text-gray-400" style={sans}>
-                  {t('searchResults', { count: searchResults.length, query: searchQuery })}
+                  {t('searchResults').replace('{{count}}', String(searchResults.length)).replace('{{query}}', searchQuery)}
                 </p>
               </div>
               {searchResults.length > 0 ? (

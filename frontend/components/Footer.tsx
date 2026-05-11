@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 
@@ -18,12 +19,15 @@ export default function Footer() {
 
           {/* Column 1 — Logo & About */}
           <div className="lg:col-span-1">
-            {/* Logo placeholder */}
-            <div className="w-12 h-12 rounded-lg bg-white/[0.04] border border-white/10 flex items-center justify-center mb-5">
-              <svg width="24" height="24" viewBox="0 0 32 32" fill="none">
-                <circle cx="16" cy="16" r="15" stroke="#22c55e" strokeWidth="1.5" opacity="0.6"/>
-                <path d="M8 16 Q12 10 16 16 Q20 22 24 16" stroke="#22c55e" strokeWidth="1.5" fill="none" strokeLinecap="round" opacity="0.6"/>
-              </svg>
+            {/* Logo */}
+            <div className="mb-5">
+              <Image
+                src="/images/Logo-ILDMC.png"
+                alt="ILDMC Logo"
+                width={60}
+                height={60}
+                className="rounded-lg"
+              />
             </div>
             <h4 className="text-sm font-bold text-white uppercase tracking-widest mb-1" style={sans}>
               Africa&apos;s Integrated LDN Monitoring System
