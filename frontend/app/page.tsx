@@ -76,33 +76,82 @@ export default function HomePage() {
         }} />
       </div>
 
-      {/* Hero */}
+      {/* ============================================================ */}
+      {/* Hero Section */}
+      {/* ============================================================ */}
+      <section className="relative z-10 min-h-[85vh] flex items-center justify-center">
+        {/* Decorative green line at top */}
+        <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-green-400/50 to-transparent" />
+
+        {/* Hero content */}
+        <div className="max-w-5xl mx-auto px-6 lg:px-8 text-center pt-16 pb-12 lg:pt-20 lg:pb-16">
+          {/* Eyebrow */}
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-green-400/20 bg-green-400/5 mb-6">
+            <span className="relative flex h-2 w-2">
+              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75" />
+              <span className="relative inline-flex rounded-full h-2 w-2 bg-green-400" />
+            </span>
+            <span className="text-xs font-medium text-green-400/90 uppercase tracking-widest" style={sans}>
+              {t('ldnPlatform.subtitle')}
+            </span>
+          </div>
+
+          {/* Main heading */}
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-[1.1] tracking-tight mb-6" style={serif}>
+            <span className="block">{t('ldnPlatform.heading')}</span>
+          </h1>
+
+          {/* Description */}
+          <p className="text-base sm:text-lg text-gray-300/90 max-w-2xl mx-auto leading-relaxed mb-4" style={sans}>
+            {t('ldnPlatform.description')}
+          </p>
+
+          {/* Tagline */}
+          <p className="text-sm sm:text-base text-green-400/80 font-medium tracking-wide mb-8" style={{ ...sans, letterSpacing: '0.05em' }}>
+            {t('ldnPlatform.tagline')}
+          </p>
+
+          {/* CTA buttons */}
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <Link
+              href="/map"
+              className="inline-flex items-center gap-2 px-8 py-3.5 rounded-lg bg-green-500 hover:bg-green-400 text-[#0a0f0d] font-semibold text-sm transition-all duration-300 hover:shadow-lg hover:shadow-green-500/25"
+              style={sans}
+            >
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" />
+              </svg>
+              {t('cta.goToMap')}
+            </Link>
+            <Link
+              href="/ldn-dashboard"
+              className="inline-flex items-center gap-2 px-8 py-3.5 rounded-lg border border-white/15 bg-white/5 hover:bg-white/10 text-white font-medium text-sm transition-all duration-300 backdrop-blur-sm"
+              style={sans}
+            >
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+              </svg>
+              {t('cta.dashboard')}
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Main content */}
       <main className="relative z-10 max-w-7xl mx-auto px-6 lg:px-8">
         <div className="pt-10 pb-16 lg:pt-16 lg:pb-24">
 
           {/* ============================================================ */}
-          {/* LDN Platform Section */}
+          {/* LDN Overview Section (moved from hero) */}
           {/* ============================================================ */}
-          <div className="mb-16">
-            <div className="mb-10">
-              <div className="flex items-center gap-3 mb-4">
-                <div className="w-1 h-8 rounded-full bg-green-400" />
-                <h2 className="text-2xl lg:text-3xl font-bold text-white" style={serif}>
-                  {t('ldnPlatform.heading')}
-                </h2>
-              </div>
-              <p className="text-lg text-green-400/90 font-medium" style={serif}>
-                {t('ldnPlatform.subtitle')}
-              </p>
-              <p className="text-sm text-gray-400 mt-3 leading-relaxed max-w-3xl" style={sans}>
-                {t('ldnPlatform.description')}
-              </p>
-              <p className="text-sm text-gray-300 mt-2 font-medium" style={{ ...sans, letterSpacing: '0.02em' }}>
-                {t('ldnPlatform.tagline')}
-              </p>
+          <div className="mb-20">
+            <div className="flex items-center gap-3 mb-6">
+              <div className="w-1 h-8 rounded-full bg-green-400" />
+              <h2 className="text-2xl lg:text-3xl font-bold text-white" style={serif}>
+                {t('ldnPlatform.overview.title')}
+              </h2>
             </div>
 
-            {/* Image + overview side by side */}
             <div className="grid lg:grid-cols-2 gap-8 items-start">
               <div className="rounded-xl border border-white/10 overflow-hidden">
                 <Image
@@ -115,9 +164,6 @@ export default function HomePage() {
               </div>
 
               <div>
-                <h3 className="text-lg font-bold text-white mb-4" style={serif}>
-                  {t('ldnPlatform.overview.title')}
-                </h3>
                 <p className="text-sm text-gray-400 leading-relaxed mb-5" style={sans}>
                   {t('ldnPlatform.overview.paragraph1')}
                 </p>

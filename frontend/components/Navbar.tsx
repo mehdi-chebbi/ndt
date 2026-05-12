@@ -137,14 +137,11 @@ export default function Navbar() {
         <DropdownLink href="/ldn-dashboard" active={pathname === '/ldn-dashboard'}>LDN Dashboard</DropdownLink>
       </NavDropdown>
 
-      {/* Success Stories */}
-      <Link
-        href="/success-stories"
-        className={`text-sm transition-colors duration-200 ${pathname === '/success-stories' ? 'text-white' : 'text-gray-400 hover:text-white'}`}
-        style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.03em' }}
-      >
-        Success Stories
-      </Link>
+      {/* Stories dropdown */}
+      <NavDropdown label="Stories">
+        <DropdownLink href="/story" active={pathname === '/story'}>Data Story · 2024</DropdownLink>
+        <DropdownLink href="/success-stories" active={pathname === '/success-stories'}>Success Stories</DropdownLink>
+      </NavDropdown>
 
       {/* Resources */}
       <Link
