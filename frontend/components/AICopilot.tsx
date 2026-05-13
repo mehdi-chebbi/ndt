@@ -526,7 +526,7 @@ export default function AICopilot() {
 
       {/* Chat Window — full-height sidebar */}
       {isOpen && (
-        <div className="fixed top-[60px] right-0 bottom-0 z-50 flex flex-col w-[460px] max-w-full shadow-2xl border-l border-gray-200 bg-white animate-slide-in-right">
+        <div className="fixed top-28 right-0 bottom-0 z-50 flex flex-col w-[460px] max-w-full shadow-2xl border-l border-gray-200 bg-white animate-slide-in-right">
 
             {/* Header */}
             <div className="bg-gradient-to-r from-green-600 to-green-500 px-5 py-4 flex items-center justify-between flex-shrink-0">

@@ -143,7 +143,7 @@ function MapPageContent() {
   }
 
   return (
-    <div className="fixed top-16 left-0 right-0 bottom-0 overflow-hidden">
+    <div className="fixed top-28 left-0 right-0 bottom-0 overflow-hidden">
       {reportLoading ? (
         <div className="flex items-center justify-center h-full bg-gray-100">
           <div className="text-center">
