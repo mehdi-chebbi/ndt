@@ -7,6 +7,8 @@ import { searchKnowledgeBase, getKnowledgeStatus } from '../services/knowledgeSe
 
 const SYSTEM_PROMPT_TEMPLATE = (layerCatalog: string, knowledgeInfo: string) => `You are the AI Copilot for AfriGeoData, a geospatial platform for African development data.
 
+LANGUAGE RULE (HIGHEST PRIORITY): You MUST respond in the same language the user uses. If the user writes in English, your ENTIRE response must be in English. If the user writes in French, your ENTIRE response must be in French. NEVER echo the language of source documents, database results, or data if it differs from the user's language. Always translate concepts and findings into the user's language.
+
 You help users explore and understand:
 - Interactive maps with GeoServer WMS layers covering 54+ African countries
 - WaterWatch Africa: water access data from 2000-2023 (urban vs rural gaps, country rankings)
@@ -208,6 +210,8 @@ Respond in the same language the user uses.`;
 
 const SOURCES_MODE_SYSTEM_PROMPT = (knowledgeInfo: string) => `You are the AI Copilot for AfriGeoData in SOURCES MODE.
 
+LANGUAGE RULE (HIGHEST PRIORITY): You MUST respond in the same language the user uses. If the user writes in English, your ENTIRE response must be in English. If the user writes in French, your ENTIRE response must be in French. Knowledge base documents are often in French, but you MUST translate and respond in the user's language regardless. NEVER echo the language of retrieved documents.
+
 SOURCES MODE ACTIVE.
 You MUST search the knowledge base before answering ANY question. Do not answer from general knowledge — always search first.
 
@@ -227,7 +231,7 @@ Rules:
 - If no relevant documents are found, say so clearly. Do NOT guess or fabricate information.
 - Always cite the source document name in your response (e.g. "According to Plan National Secheresse Algerie...").
 - Keep responses focused on what the documents actually say.
-- Respond in the same language the user uses.
+- Respond in the same language the user uses. This is MANDATORY — even if all retrieved documents are in French, you must translate and respond in the user's detected language.
 - Be concise and helpful.
 
 You also have access to these database tools for geospatial data:
@@ -808,6 +812,105 @@ const toolRegistry: Record<string, (args: Record<string, any>) => Promise<any>> 
   compare_country_layers: compareCountryLayers,
 };
 
+// ── Native Tool Definitions (OpenAI function calling format) ─────────
+
+const SOURCE_MODE_TOOL_DEFINITIONS = [
+  {
+    type: 'function' as const,
+    function: {
+      name: 'search_knowledge',
+      description: 'Search the knowledge base for relevant official documents, policies, and frameworks. Always use this tool in Sources Mode before answering any question.',
+      parameters: {
+        type: 'object',
+        properties: {
+          query: {
+            type: 'string',
+            description: 'Multilingual search terms — include both English and French terms for best results (e.g. "drought secheresse Algeria Algerie")',
+          },
+        },
+        required: ['query'],
+      },
+    },
+  },
+  {
+    type: 'function' as const,
+    function: {
+      name: 'get_available_layers',
+      description: 'List all available map layers on the platform. Optionally filter by keyword or group.',
+      parameters: {
+        type: 'object',
+        properties: {
+          search: { type: 'string', description: 'Keyword to filter layers by name' },
+          group: { type: 'string', description: 'Filter by group/category name' },
+        },
+      },
+    },
+  },
+  {
+    type: 'function' as const,
+    function: {
+      name: 'get_country_stats',
+      description: 'Get pre-computed land cover statistics for a specific country and layer.',
+      parameters: {
+        type: 'object',
+        properties: {
+          country: { type: 'string', description: 'Country name in English' },
+          layer: { type: 'string', description: 'The exact display_name from the layer list' },
+          group: { type: 'string', description: 'Direct parent group name to disambiguate' },
+        },
+        required: ['country', 'layer'],
+      },
+    },
+  },
+  {
+    type: 'function' as const,
+    function: {
+      name: 'get_countries_for_layer',
+      description: 'Get all countries that have pre-computed statistics for a given layer.',
+      parameters: {
+        type: 'object',
+        properties: {
+          layer: { type: 'string', description: 'The exact display_name from the layer list' },
+          group: { type: 'string', description: 'Direct parent group name to disambiguate' },
+        },
+        required: ['layer'],
+      },
+    },
+  },
+  {
+    type: 'function' as const,
+    function: {
+      name: 'show_country_on_map',
+      description: 'Switch the map to show a clipped country layer. Checks if a pre-clipped raster exists for the country+layer combination.',
+      parameters: {
+        type: 'object',
+        properties: {
+          country: { type: 'string', description: 'Country name in English' },
+          layer: { type: 'string', description: 'The exact display_name from the layer list' },
+          group: { type: 'string', description: 'Direct parent group name to disambiguate' },
+        },
+        required: ['country', 'layer'],
+      },
+    },
+  },
+  {
+    type: 'function' as const,
+    function: {
+      name: 'compare_country_layers',
+      description: 'Compare statistics for a country across ALL layers matching a keyword. Use for comparisons, trends over time, or multi-period analysis.',
+      parameters: {
+        type: 'object',
+        properties: {
+          country: { type: 'string', description: 'Country name in English' },
+          search: { type: 'string', description: 'Keyword to find matching layers' },
+          group: { type: 'string', description: 'Filter by group/category name' },
+        },
+        required: ['country', 'search'],
+      },
+    },
+  },
+];
+
 // ── Tool Call Parsing ──────────────────────────────────────────────
 
 /**
@@ -1009,14 +1112,114 @@ function validateAiConfig(): { ok: boolean; error?: string } {
   return { ok: true };
 }
 
-// ── Round 1a: Non-streaming call (Sources Mode) ─────────────────
+// ── Round 1a: Non-streaming call with native tool calling (Sources Mode) ──
 
 /**
- * Non-streaming AI call for Sources Mode.
- * Since we KNOW the AI will always output a tool call in Sources Mode,
- * there's no need for speculative streaming. Just wait for the full response.
+ * Sources Mode Round 1: Ask the AI to call tools using native function calling.
  *
- * Uses temperature=0 and low max_tokens for deterministic JSON output.
+ * Strategy:
+ * 1. Primary: Use OpenAI-native `tools` + `tool_choice: "required"` so the model
+ *    emits tool calls into the structured `tool_calls` field — bypassing the
+ *    reasoning/content split issue entirely.
+ * 2. Fallback paths: If native `tool_calls` is missing, try parsing JSON from
+ *    `content`, then from `reasoning` field (some reasoning models put output there).
+ * 3. If all paths fail, return null so the caller can retry with a different strategy.
+ *
+ * NOTE: We do NOT send `reasoning: { enabled: false }` because some reasoning
+ * models (e.g. gpt-oss-120b:free) MANDATE reasoning — rejecting requests that
+ * try to disable it. With `tool_choice: 'required'`, the model is forced to emit
+ * a tool call regardless of reasoning behavior.
+ */
+async function round1WithToolCalling(
+  messages: ApiMessage[],
+  tools: any[] = SOURCE_MODE_TOOL_DEFINITIONS,
+): Promise<ToolCall[] | null> {
+  const body: any = {
+    model: process.env.AI_MODEL!,
+    messages,
+    stream: false,
+    temperature: 0,
+    max_tokens: 300,
+    tools,
+    tool_choice: 'required',
+  };
+
+  const response = await fetch(`${process.env.AI_BASE_URL!}/chat/completions`, {
+    method: 'POST',
+    headers: buildApiHeaders(),
+    body: JSON.stringify(body),
+  });
+
+  if (!response.ok) {
+    const errorText = await response.text();
+    throw new Error(`AI API error ${response.status}: ${errorText}`);
+  }
+
+  const data = await response.json();
+
+  // ── Path 1: Native tool_calls (preferred) ──
+  const nativeToolCalls = data.choices?.[0]?.message?.tool_calls;
+  if (nativeToolCalls && Array.isArray(nativeToolCalls) && nativeToolCalls.length > 0) {
+    const parsed: ToolCall[] = [];
+    for (const tc of nativeToolCalls) {
+      try {
+        const args = tc.function?.arguments
+          ? JSON.parse(tc.function.arguments)
+          : {};
+        parsed.push({ name: String(tc.function?.name || ''), args });
+      } catch (e) {
+        aiLogger.warning('Failed to parse native tool_call arguments', {
+          tool: tc.function?.name,
+          error: e,
+        });
+      }
+    }
+    if (parsed.length > 0) {
+      aiLogger.info('round1WithToolCalling: parsed from native tool_calls', {
+        tools: parsed.map(t => t.name),
+      });
+      return parsed;
+    }
+  }
+
+  // ── Path 2: Fallback — parse JSON from content field ──
+  const rawContent = data.choices?.[0]?.message?.content ?? '';
+  if (rawContent.trim()) {
+    const parsed = parseDbRequest(rawContent.trim());
+    if (parsed) {
+      aiLogger.info('round1WithToolCalling: parsed from content fallback', {
+        tools: parsed.map(t => t.name),
+      });
+      return parsed;
+    }
+  }
+
+  // ── Path 3: Fallback — check reasoning field for JSON ──
+  const rawReasoning = data.choices?.[0]?.message?.reasoning ?? '';
+  if (rawReasoning.includes('{')) {
+    const parsed = parseDbRequest(rawReasoning);
+    if (parsed) {
+      aiLogger.info('round1WithToolCalling: parsed from reasoning fallback', {
+        tools: parsed.map(t => t.name),
+      });
+      return parsed;
+    }
+  }
+
+  aiLogger.warning('round1WithToolCalling: no tool calls found in any field', {
+    contentPreview: rawContent.substring(0, 100),
+    reasoningPreview: rawReasoning.substring(0, 100),
+    hasToolCalls: !!nativeToolCalls,
+  });
+  return null;
+}
+
+/**
+ * Legacy non-streaming call — used as retry fallback when native tool calling
+ * is not supported by the model/API.
+ *
+ * Checks both `content` and `reasoning` fields since reasoning models may
+ * place output in either location.
  */
 async function round1NonStreaming(messages: ApiMessage[]): Promise<string> {
   const response = await fetch(`${process.env.AI_BASE_URL!}/chat/completions`, {
@@ -1027,7 +1230,7 @@ async function round1NonStreaming(messages: ApiMessage[]): Promise<string> {
       messages,
       stream: false,
       temperature: 0,
-      max_tokens: 150,
+      max_tokens: 300,
     }),
   });
 
@@ -1419,48 +1622,66 @@ export async function chat(req: Request, res: Response) {
     res.flushHeaders();
 
     // ═══════════════════════════════════════════════════════════════
-    // SOURCES MODE: Non-streaming Round 1
-    // We KNOW the AI will always output a tool call, so no need for
-    // speculative streaming. Emit "searching" immediately, wait for
-    // the full response, parse the tool JSON, then proceed to Round 2.
+    // SOURCES MODE: Round 1 with native tool calling + retry
+    // Uses OpenAI-native `tools` + `tool_choice: "required"` so the
+    // model emits tool calls into `tool_calls` field (bypasses the
+    // reasoning/content split issue). Falls back to legacy JSON-in-text
+    // parsing if the model doesn't support native tools.
     // ═══════════════════════════════════════════════════════════════
 
     if (!!sourcesMode) {
-      aiLogger.info('Sources Mode: non-streaming Round 1 with retry...');
+      aiLogger.info('Sources Mode: Round 1 with native tool calling...');
 
       // Emit "searching" immediately — zero perceived latency
       res.write(`data: ${JSON.stringify({ type: 'searching' })}\n\n`);
 
-      let round1Text = '';
       let toolCalls: ToolCall[] | null = null;
       let parseSuccess = false;
 
-      // Up to 2 attempts (initial + 1 retry)
-      for (let attempt = 1; attempt <= 2; attempt++) {
-        try {
-          if (attempt > 1) {
-            aiLogger.info(`Sources Mode: retry attempt ${attempt}...`);
-          }
+      // ── Attempt 1: Native tool calling (primary) ──
+      try {
+        toolCalls = await round1WithToolCalling(apiMessages);
+        if (toolCalls) {
+          parseSuccess = true;
+          aiLogger.info('Sources Mode: tool calls parsed via native tool calling', {
+            tools: toolCalls.map((t) => t.name),
+          });
+        }
+      } catch (error: any) {
+        // Native tool calling might not be supported — log and fall through to retry
+        aiLogger.warning('Sources Mode: native tool calling failed, will retry with legacy approach', {
+          error: error.message,
+        });
+      }
 
-          round1Text = await round1NonStreaming(apiMessages);
+      // ── Attempt 2: Legacy fallback with nudge message ──
+      if (!parseSuccess) {
+        aiLogger.info('Sources Mode: retry attempt 2 — legacy approach with nudge...');
+        try {
+          const nudgedMessages: ApiMessage[] = [
+            ...apiMessages,
+            {
+              role: 'user' as const,
+              content: 'Remember: respond with ONLY the JSON object. No explanation, no thinking — just the raw JSON tool call like {"tools": [{"name": "search_knowledge", "args": {"query": "..."}}]}',
+            },
+          ];
+          const round1Text = await round1NonStreaming(nudgedMessages);
           toolCalls = parseDbRequest(round1Text);
 
           if (toolCalls) {
             parseSuccess = true;
-            aiLogger.info(`Sources Mode: tool call parsed on attempt ${attempt}`, {
+            aiLogger.info('Sources Mode: tool call parsed on retry attempt 2 (legacy + nudge)', {
               tools: toolCalls.map((t) => t.name),
               rawLength: round1Text.length,
             });
-            break;
+          } else {
+            aiLogger.warning('Sources Mode: parse failed on retry attempt 2', {
+              rawOutput: round1Text,
+              rawLength: round1Text.length,
+            });
           }
-
-          // Log raw output for debugging
-          aiLogger.warning(`Sources Mode: parse failed on attempt ${attempt}`, {
-            rawOutput: round1Text,
-            rawLength: round1Text.length,
-          });
         } catch (error: any) {
-          aiLogger.error(`Sources Mode: Round 1 failed on attempt ${attempt}`, error);
+          aiLogger.error('Sources Mode: Round 1 retry attempt 2 failed', error);
 
           const userError = error.message?.includes('451')
             ? 'Your message was blocked by the content filter. Please rephrase and try again.'
@@ -1474,9 +1695,7 @@ export async function chat(req: Request, res: Response) {
 
       // Both attempts failed to parse
       if (!parseSuccess || !toolCalls) {
-        aiLogger.error('Sources Mode: both parse attempts failed', {
-          rawOutput: round1Text,
-        });
+        aiLogger.error('Sources Mode: all attempts failed');
 
         res.write(`data: ${JSON.stringify({ content: 'I encountered an issue searching the knowledge base. Please try again.' })}\n\n`);
         res.write('data: [DONE]\n\n');
@@ -1504,7 +1723,7 @@ export async function chat(req: Request, res: Response) {
         return `Tool: ${r.tool}(args: ${JSON.stringify(r.args)})\nResult: ${resultStr}`;
       });
 
-      const sourcesDbMessage = `DATABASE QUERY RESULTS:\n\n${sourcesDbParts.join('\n\n---\n\n')}\n\nINSTRUCTIONS:\n- If any result has status "no_documents", inform the user that no relevant documents were found in the knowledge base.\n- If results have status "found", analyze the data and provide a clear, helpful response citing the source documents.\n- Respond in the same language the user uses.`;
+      const sourcesDbMessage = `DATABASE QUERY RESULTS:\n\n${sourcesDbParts.join('\n\n---\n\n')}\n\nINSTRUCTIONS:\n- If any result has status "no_documents", inform the user that no relevant documents were found in the knowledge base.\n- If results have status "found", analyze the data and provide a clear, helpful response citing the source documents.\n- LANGUAGE RULE (CRITICAL): You MUST respond in the same language the user's original question was written in. The retrieved documents above may be in French, but you MUST translate all content and write your entire response in the user's language. NEVER respond in French when the user wrote in English, even if all source documents are in French.`;
 
       // Save tool results as system message for conversation continuity
       await pool.query(

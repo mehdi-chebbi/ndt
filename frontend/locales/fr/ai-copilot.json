@@ -4,7 +4,7 @@
   },
   "messages": {
     "loading": "Chargement...",
-    "emptyState": "Posez-moi n'importe quelle question ou partagez une image !",
+    "emptyState": "Posez-moi n'importe quelle question",
     "thinking": "Réflexion en cours...",
     "analyzing": "🔍 Analyse de la zone en cours... Cela peut prendre un instant.",
     "searching": "🔍 Recherche dans la base de données..."

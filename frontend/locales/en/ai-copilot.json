@@ -4,7 +4,7 @@
   },
   "messages": {
     "loading": "Loading...",
-    "emptyState": "Ask me anything or share an image!",
+    "emptyState": "Ask me anything",
     "thinking": "Thinking...",
     "analyzing": "🔍 Analyzing the area... This may take a moment.",
     "searching": "🔍 Searching database..."
