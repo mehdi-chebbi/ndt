@@ -495,19 +495,19 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
       const layer = allLayers.find(l => l.geoserver_name === originalLayerName)
 
       if (layer) {
-        // Activate the layer (this adds the original WMS layer to the map)
+        // Activate the layer (adds the original WMS layer to the map)
         handleDataLayerToggle(layer)
       } else if (layerId) {
         // Fallback: just set the selected layer ID
         state.setSelectedLayerId(layerId)
       }
 
-      // Load country polygon and zoom to it
+      // Set the country
       const countryObj: Country = { name: country, file: countryFile }
-      await loadCountryPolygon(countryObj)
-
-      // Select the country in the selector
       state.setSelectedCountry(countryObj)
+
+      // Load country polygon and zoom to it
+      await loadCountryPolygon(countryObj)
 
       // Switch to the clipped layer (replaces the WMS source)
       if (originalLayerName) {
@@ -521,6 +521,41 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
       window.removeEventListener('ai-map-action', handleAIMapAction)
     }
   }, [allLayers, handleDataLayerToggle, loadCountryPolygon, switchToClippedLayer, state.setSelectedLayerId, state.setSelectedCountry])
+
+  // Auto-clip: when a layer changes and a country is already selected,
+  // check the clip cache and switch to the clipped version if available.
+  // This runs as a useEffect (not inside handleDataLayerToggle) to avoid
+  // stale closure issues with selectedCountry.
+  useEffect(() => {
+    if (state.activeDataLayers.length === 0 || !state.selectedCountry) return
+
+    const activeLayerKey = state.activeDataLayers[0]
+    const layer = allLayers.find(l => l.geoserver_name === activeLayerKey)
+    if (!layer?.id) return
+
+    let cancelled = false
+
+    api.post('/clip/country', {
+      countryFile: state.selectedCountry.file,
+      layerId: layer.id,
+    })
+      .then(res => {
+        if (cancelled || !res.ok) return null
+        return res.json()
+      })
+      .then(data => {
+        if (cancelled || !data) return
+        if (data.status === 'success' && data.cached) {
+          const [workspace] = data.clippedLayerName.split(':')
+          switchToClippedLayer(activeLayerKey, data.clippedLayerName, workspace)
+        }
+      })
+      .catch(() => {
+        // Silent — just show unclipped layer
+      })
+
+    return () => { cancelled = true }
+  }, [state.activeDataLayers, state.selectedCountry, allLayers, switchToClippedLayer])
 
   // Auto-cancel stats mode when switching away from the stats tab
   useEffect(() => {

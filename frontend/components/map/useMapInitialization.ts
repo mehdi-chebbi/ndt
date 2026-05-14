@@ -473,6 +473,42 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
     setActiveBasemap(basemapName)
   }, [activeBasemap, setActiveBasemap])
 
+  // Switch to clipped layer — must be declared before handleDataLayerToggle
+  const switchToClippedLayer = useCallback((
+    originalLayerKey: string,
+    clippedLayerName: string,
+    workspace: string
+  ) => {
+    if (!mapRef.current) return
+
+    // Remove ALL existing data layers (radio behavior — same as handleDataLayerToggle)
+    Object.keys(dataLayersRef.current).forEach(key => {
+      if (dataLayersRef.current[key]) {
+        mapRef.current!.removeLayer(dataLayersRef.current[key] as L.Layer)
+        delete dataLayersRef.current[key]
+      }
+    })
+
+    // Extract just the layer name part (remove workspace: prefix if present)
+    const layersParam = clippedLayerName.includes(':')
+      ? clippedLayerName.split(':')[1]
+      : clippedLayerName
+
+    // Create and add the clipped layer
+    const clippedLayer = L.tileLayer.wms(`/api/clip/wms?workspace=${workspace}`, {
+      layers: layersParam,
+      format: 'image/png',
+      transparent: true,
+      attribution: `Clipped Layer`,
+      crossOrigin: 'anonymous',
+    })
+
+    clippedLayer.addTo(mapRef.current)
+    // Store under the ORIGINAL layer key so activeDataLayers stays in sync.
+    // This ensures handleDataLayerToggle can always find and remove the layer.
+    dataLayersRef.current[originalLayerKey] = clippedLayer
+  }, [])
+
   // Data layer toggle handler (radio behavior - only one active at a time)
   const handleDataLayerToggle = useCallback((layer: Layer) => {
     if (!mapRef.current) return
@@ -481,18 +517,22 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
 
     if (activeDataLayers.includes(layerKey)) {
       // Remove layer (deselect)
-      if (dataLayersRef.current[layerKey]) {
-        mapRef.current.removeLayer(dataLayersRef.current[layerKey] as L.Layer)
-        delete dataLayersRef.current[layerKey]
-      }
+      // Safety: remove ALL entries from dataLayersRef to catch orphaned clipped layers
+      Object.keys(dataLayersRef.current).forEach(key => {
+        if (dataLayersRef.current[key]) {
+          mapRef.current!.removeLayer(dataLayersRef.current[key] as L.Layer)
+          delete dataLayersRef.current[key]
+        }
+      })
       setActiveDataLayers([])
       setSelectedLayerId(null)
     } else {
       // Remove all existing layers first (radio behavior)
-      activeDataLayers.forEach(activeKey => {
-        if (dataLayersRef.current[activeKey]) {
-          mapRef.current!.removeLayer(dataLayersRef.current[activeKey] as L.Layer)
-          delete dataLayersRef.current[activeKey]
+      // Safety: remove ALL entries from dataLayersRef to catch orphaned clipped layers
+      Object.keys(dataLayersRef.current).forEach(key => {
+        if (dataLayersRef.current[key]) {
+          mapRef.current!.removeLayer(dataLayersRef.current[key] as L.Layer)
+          delete dataLayersRef.current[key]
         }
       })
 
@@ -507,11 +547,6 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
       })
       newLayer.addTo(mapRef.current)
       dataLayersRef.current[layerKey] = newLayer
-
-      // Don't auto-zoom - preserve user's current view
-      // if (layer.bounds) {
-      //   mapRef.current.fitBounds(layer.bounds)
-      // }
 
       setActiveDataLayers([layerKey])
       setSelectedLayerId(layer.id)
@@ -764,40 +799,6 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
       mapRef.current.removeLayer(compareRightLayerRef.current)
       compareRightLayerRef.current = null
     }
-  }, [])
-
-  // Switch from original layer to clipped layer
-  const switchToClippedLayer = useCallback((
-    originalLayerKey: string,
-    clippedLayerName: string,
-    workspace: string
-  ) => {
-    if (!mapRef.current) return
-
-    // Remove ALL existing data layers (radio behavior — same as handleDataLayerToggle)
-    Object.keys(dataLayersRef.current).forEach(key => {
-      if (dataLayersRef.current[key]) {
-        mapRef.current!.removeLayer(dataLayersRef.current[key] as L.Layer)
-        delete dataLayersRef.current[key]
-      }
-    })
-
-    // Extract just the layer name part (remove workspace: prefix if present)
-    const layersParam = clippedLayerName.includes(':')
-      ? clippedLayerName.split(':')[1]
-      : clippedLayerName
-
-    // Create and add the clipped layer
-    const clippedLayer = L.tileLayer.wms(`/api/clip/wms?workspace=${workspace}`, {
-      layers: layersParam,
-      format: 'image/png',
-      transparent: true,
-      attribution: `Clipped Layer`,
-      crossOrigin: 'anonymous',
-    })
-
-    clippedLayer.addTo(mapRef.current)
-    dataLayersRef.current[clippedLayerName] = clippedLayer
   }, [])
 
   // Rebuild compare layers (used when country is selected in compare mode)
