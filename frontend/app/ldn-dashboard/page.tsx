@@ -6,6 +6,7 @@ import { authFetch } from '@/lib/authFetch'
 import { useTranslation } from 'react-i18next'
 import i18next from 'i18next'
 import { Doughnut } from 'react-chartjs-2'
+import africaContinentalStats from '@/data/africa_continental_stats.json'
 import {
   Chart as ChartJS,
   ArcElement,
@@ -52,6 +53,60 @@ interface LayerInfo {
 }
 
 // ─── Essential SO1 Layer Mapping ──────────────────────────────────────────────
+
+// ─── Africa Option ───────────────────────────────────────────────────────────
+
+const AFRICA_OPTION: CountryOption = { name: 'Africa', file: '__africa__' }
+
+const isAfrica = (country: CountryOption | null): boolean => country?.file === '__africa__'
+
+// Mapping from SO1_LAYERS keys to JSON keys in africa_continental_stats.json
+const AFRICA_SO1_JSON_KEYS: Record<string, string> = {
+  sdgBaseline: 'sdg_15_3_1_baseline_COG.tif',
+  sdgReporting: 'sdg_15_3_1_reporting_COG.tif',
+  landcover2023: 'LandCoverOSS2023V2COG.tif',
+  lcChangeReporting: 'LC_change_OSS_Reporting_COG.tif',
+  lpdReporting: 'LP_OSS_reporting_COG.tif',
+  socBaseline: 'SOC_baseline_COG.tif',
+  socReporting: 'SOC_reporting_COG.tif',
+}
+
+// SPI JSON keys for Africa
+const AFRICA_SPI_JSON_KEYS = [
+  { key: 'band_01_SPI_min_2000-2003_COG.tif', period: '2000-2003', startYear: 2000, endYear: 2003 },
+  { key: 'band_03_SPI_min_2004-2007_COG.tif', period: '2004-2007', startYear: 2004, endYear: 2007 },
+  { key: 'band_05_SPI_min_2008-2011_COG.tif', period: '2008-2011', startYear: 2008, endYear: 2011 },
+  { key: 'band_07_SPI_min_2012-2015_COG.tif', period: '2012-2015', startYear: 2012, endYear: 2015 },
+  { key: 'band_09_SPI_min_2016-2019_COG.tif', period: '2016-2019', startYear: 2016, endYear: 2019 },
+  { key: 'band_11_SPI_min_2020-2023_COG.tif', period: '2020-2023', startYear: 2020, endYear: 2023 },
+]
+
+// Convert Africa JSON entry to LayerStats
+function africaJsonToLayerStats(jsonKey: string): LayerStats | null {
+  const entry = (africaContinentalStats as Record<string, any>)[jsonKey]
+  if (!entry) return null
+  // Filter out "No data" classes and recalculate percentages on meaningful area only
+  const meaningfulClasses = entry.classes.filter((cls: any) => {
+    const en = (cls.label?.en ?? '').toLowerCase()
+    const fr = (cls.label?.fr ?? '').toLowerCase()
+    return !en.includes('no data') && !fr.includes('aucune donnée')
+  })
+  const meaningfulArea = meaningfulClasses.reduce((sum: number, cls: any) => sum + cls.area_km2, 0)
+  return {
+    layer_name: jsonKey,
+    country_file: '__africa__',
+    total_area_km2: meaningfulArea,
+    pixel_size_m: entry.pixel_size_m,
+    computed_at: '',
+    classes: meaningfulClasses.map((cls: any) => ({
+      class_id: cls.class_id,
+      class_name: cls.label, // { en, fr } format — already compatible with StatsClass
+      pixels: cls.pixels,
+      area_km2: cls.area_km2,
+      percentage: Math.round((cls.area_km2 / meaningfulArea) * 1000) / 10,
+    })),
+  }
+}
 
 const SO1_LAYERS = {
   sdgBaseline: 'SDG:sdg_15_3_1_baseline_COG',
@@ -624,7 +679,7 @@ export default function LdnDashboardPage() {
   // Data state
   const [countries, setCountries] = useState<CountryOption[]>([])
   const [layers, setLayers] = useState<LayerInfo[]>([])
-  const [selectedCountry, setSelectedCountry] = useState<CountryOption | null>(null)
+  const [selectedCountry, setSelectedCountry] = useState<CountryOption | null>(AFRICA_OPTION)
   const [countrySearch, setCountrySearch] = useState('')
   const [countryDropdownOpen, setCountryDropdownOpen] = useState(false)
   const countryDropdownRef = useRef<HTMLDivElement>(null)
@@ -652,13 +707,8 @@ export default function LdnDashboardPage() {
         const data = await res.json()
         setCountries(data)
 
-        // Default to Tunisia
-        const tunisia = data.find((c: CountryOption) => c.file === 'Tunisia.geojson')
-        if (tunisia) {
-          setSelectedCountry(tunisia)
-        } else if (data.length > 0) {
-          setSelectedCountry(data[0])
-        }
+        // Default to Africa
+        setSelectedCountry(AFRICA_OPTION)
       } catch (error) {
         console.error('Failed to fetch countries:', error)
       }
@@ -742,7 +792,36 @@ export default function LdnDashboardPage() {
 
   // ─── Fetch stats for selected country ─────────────────────────────────
   useEffect(() => {
-    if (!selectedCountry || layers.length === 0) return
+    if (!selectedCountry) return
+
+    // ── Africa: load from JSON ──
+    if (isAfrica(selectedCountry)) {
+      setStatsLoading(true)
+      const newStats: Record<string, LayerStats | null> = {}
+      for (const [key, jsonKey] of Object.entries(AFRICA_SO1_JSON_KEYS)) {
+        newStats[key] = africaJsonToLayerStats(jsonKey)
+      }
+      setStats(newStats)
+
+      // Build SPI periods from Africa JSON
+      const newSpiPeriods: SpiPeriodData[] = AFRICA_SPI_JSON_KEYS
+        .map(spi => ({
+          period: spi.period,
+          startYear: spi.startYear,
+          endYear: spi.endYear,
+          layerId: -1,
+          geoserverName: spi.key,
+          displayName: `SPI ${spi.period}`,
+          stats: africaJsonToLayerStats(spi.key),
+        }))
+        .filter(p => p.stats !== null)
+      setSpiPeriods(newSpiPeriods)
+      setStatsLoading(false)
+      return
+    }
+
+    // ── Country: fetch from backend ──
+    if (layers.length === 0) return
 
     const fetchAllStats = async () => {
       setStatsLoading(true)
@@ -843,9 +922,12 @@ export default function LdnDashboardPage() {
   }, [])
 
   // ─── Filter countries by search ───────────────────────────────────────
-  const filteredCountries = countries.filter(c =>
-    c.name.toLowerCase().includes(countrySearch.toLowerCase())
-  )
+  const filteredCountries = [
+    ...(countrySearch.toLowerCase() === '' || 'africa'.includes(countrySearch.toLowerCase()) ? [AFRICA_OPTION] : []),
+    ...countries.filter(c =>
+      c.name.toLowerCase().includes(countrySearch.toLowerCase())
+    ),
+  ]
 
   // ─── Helper: get degraded % from SDG stats ───────────────────────────
   const getSdgHeadline = (stat: LayerStats | null) => {
@@ -934,7 +1016,16 @@ export default function LdnDashboardPage() {
                           selectedCountry?.file === country.file ? 'bg-green-500/10 text-green-400' : 'text-gray-300'
                         }`}
                       >
-                        {country.name}
+                        <div className="flex items-center gap-2">
+                          {isAfrica(country) && (
+                            <svg className="w-3.5 h-3.5 text-amber-400" fill="currentColor" viewBox="0 0 20 20">
+                              <path d="M10 2a8 8 0 100 16 8 8 0 000-16zm0 14.5a6.5 6.5 0 110-13 6.5 6.5 0 010 13z"/>
+                              <path d="M7 6.5a1 1 0 11-2 0 1 1 0 012 0zm5 0a1 1 0 11-2 0 1 1 0 012 0zm-2.5 6.5C8 13 6.5 11.5 6.5 10h7c0 1.5-1.5 3-3.5 3h-.5z"/>
+                            </svg>
+                          )}
+                          <span>{country.name}</span>
+                          {isAfrica(country) && <span className="ml-auto text-[10px] font-mono text-amber-500/60 uppercase tracking-wider">Continental</span>}
+                        </div>
                       </button>
                     ))}
                   </div>
@@ -1205,7 +1296,8 @@ export default function LdnDashboardPage() {
               </div>
             )}
 
-            {/* ─── SO2 — Living Conditions ───────────────────────────────── */}
+            {/* ─── SO2 — Living Conditions (countries only) ──────────────── */}
+            {!isAfrica(selectedCountry) && (
             <div className="mt-10 pt-8 border-t border-white/[0.06]">
               <div className="flex items-center gap-3 mb-6">
                 <div className="w-10 h-10 rounded-lg bg-cyan-500/10 flex items-center justify-center">
@@ -1436,6 +1528,7 @@ export default function LdnDashboardPage() {
                 })()}
               </div>
             </div>
+            )}
 
             {/* ─── SO3 — Drought ─────────────────────────────────────────────── */}
             <div className="mt-10 pt-8 border-t border-white/[0.06]">

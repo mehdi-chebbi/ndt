@@ -1,0 +1,323 @@
+{
+  "LC_Change_OSS_Baseline_COG.tif": {
+    "total_pixels": 35201960019,
+    "total_area_km2": 31673201.42,
+    "pixel_size_m": 30.0,
+    "classes": [
+      { "class_id": 1, "label": { "en": "Declining", "fr": "En déclin" }, "pixels": 3120707909, "area_km2": 2807878.03 },
+      { "class_id": 2, "label": { "en": "Stable", "fr": "Stable" }, "pixels": 28682098110, "area_km2": 25806911.61 },
+      { "class_id": 3, "label": { "en": "Increasing", "fr": "En augmentation" }, "pixels": 3399154000, "area_km2": 3058411.78 }
+    ]
+  },
+  "LC_change_OSS_Reporting_COG.tif": {
+    "total_pixels": 35186274118,
+    "total_area_km2": 31659087.93,
+    "pixel_size_m": 30.0,
+    "classes": [
+      { "class_id": 1, "label": { "en": "Declining", "fr": "En déclin" }, "pixels": 5908393093, "area_km2": 5316116.61 },
+      { "class_id": 2, "label": { "en": "Stable", "fr": "Stable" }, "pixels": 24617597530, "area_km2": 22149849.74 },
+      { "class_id": 3, "label": { "en": "Increasing", "fr": "En augmentation" }, "pixels": 4660283495, "area_km2": 4193121.57 }
+    ]
+  },
+  "JRC_1.tif": {
+    "total_pixels": 325784882,
+    "total_area_km2": 20292998.23,
+    "pixel_size_m": 249.6,
+    "classes": [
+      { "class_id": 1, "label": { "en": "Declining", "fr": "En déclin" }, "pixels": 8551557, "area_km2": 532672.76 },
+      { "class_id": 2, "label": { "en": "Moderate decline", "fr": "Déclin modéré" }, "pixels": 5797398, "area_km2": 361117.39 },
+      { "class_id": 3, "label": { "en": "Stable but stressed", "fr": "Stable mais sous pression" }, "pixels": 82702187, "area_km2": 5151483.16 },
+      { "class_id": 4, "label": { "en": "Stable", "fr": "Stable" }, "pixels": 88651629, "area_km2": 5522071.31 },
+      { "class_id": 5, "label": { "en": "Increasing", "fr": "En augmentation" }, "pixels": 140082111, "area_km2": 8725653.61 }
+    ]
+  },
+  "JRC_1_correct.tif": {
+    "total_pixels": 507275125,
+    "total_area_km2": 31597946.32,
+    "pixel_size_m": 249.6,
+    "classes": [
+      { "class_id": 0, "label": { "en": "No data", "fr": "Aucune donnée" }, "pixels": 181490243, "area_km2": 11304948.09 },
+      { "class_id": 1, "label": { "en": "Declining", "fr": "En déclin" }, "pixels": 8551557, "area_km2": 532672.76 },
+      { "class_id": 2, "label": { "en": "Moderate decline", "fr": "Déclin modéré" }, "pixels": 5797398, "area_km2": 361117.39 },
+      { "class_id": 3, "label": { "en": "Stable but stressed", "fr": "Stable mais sous pression" }, "pixels": 82702187, "area_km2": 5151483.16 },
+      { "class_id": 4, "label": { "en": "Stable", "fr": "Stable" }, "pixels": 88651629, "area_km2": 5522071.31 },
+      { "class_id": 5, "label": { "en": "Increasing", "fr": "En augmentation" }, "pixels": 140082111, "area_km2": 8725653.61 }
+    ]
+  },
+  "LPD_FAO1.tif": {
+    "total_pixels": 34916211212,
+    "total_area_km2": 31318747.8,
+    "pixel_size_m": 29.9,
+    "classes": [
+      { "class_id": 1, "label": { "en": "Declining", "fr": "En déclin" }, "pixels": 599077945, "area_km2": 537354.15 },
+      { "class_id": 2, "label": { "en": "Moderate decline", "fr": "Déclin modéré" }, "pixels": 2029523353, "area_km2": 1820418.88 },
+      { "class_id": 3, "label": { "en": "Stable but stressed", "fr": "Stable mais sous pression" }, "pixels": 7610888405, "area_km2": 6826728.51 },
+      { "class_id": 4, "label": { "en": "Stable", "fr": "Stable" }, "pixels": 23959039556, "area_km2": 21490508.03 },
+      { "class_id": 5, "label": { "en": "Increasing", "fr": "En augmentation" }, "pixels": 717681953, "area_km2": 643738.23 }
+    ]
+  },
+  "LPD_FAO1_correct.tif": {
+    "total_pixels": 35230214649,
+    "total_area_km2": 31600399.04,
+    "pixel_size_m": 29.9,
+    "classes": [
+      { "class_id": 0, "label": { "en": "No data", "fr": "Aucune donnée" }, "pixels": 314003437, "area_km2": 281651.25 },
+      { "class_id": 1, "label": { "en": "Declining", "fr": "En déclin" }, "pixels": 599077945, "area_km2": 537354.15 },
+      { "class_id": 2, "label": { "en": "Moderate decline", "fr": "Déclin modéré" }, "pixels": 2029523353, "area_km2": 1820418.88 },
+      { "class_id": 3, "label": { "en": "Stable but stressed", "fr": "Stable mais sous pression" }, "pixels": 7610888405, "area_km2": 6826728.51 },
+      { "class_id": 4, "label": { "en": "Stable", "fr": "Stable" }, "pixels": 23959039556, "area_km2": 21490508.03 },
+      { "class_id": 5, "label": { "en": "Increasing", "fr": "En augmentation" }, "pixels": 717681953, "area_km2": 643738.23 }
+    ]
+  },
+  "Trends.tif": {
+    "total_pixels": 502389873,
+    "total_area_km2": 31293646.1,
+    "pixel_size_m": 249.6,
+    "classes": [
+      { "class_id": 1, "label": { "en": "Declining", "fr": "En déclin" }, "pixels": 42767193, "area_km2": 2663949.8 },
+      { "class_id": 2, "label": { "en": "Moderate decline", "fr": "Déclin modéré" }, "pixels": 39868305, "area_km2": 2483379.33 },
+      { "class_id": 3, "label": { "en": "Stable but stressed", "fr": "Stable mais sous pression" }, "pixels": 19979674, "area_km2": 1244525.18 },
+      { "class_id": 4, "label": { "en": "Stable", "fr": "Stable" }, "pixels": 334279542, "area_km2": 20822126.9 },
+      { "class_id": 5, "label": { "en": "Increasing", "fr": "En augmentation" }, "pixels": 65495159, "area_km2": 4079664.89 }
+    ]
+  },
+  "Trends_correct.tif": {
+    "total_pixels": 507322521,
+    "total_area_km2": 31600898.6,
+    "pixel_size_m": 249.6,
+    "classes": [
+      { "class_id": 0, "label": { "en": "No data", "fr": "Aucune donnée" }, "pixels": 4932648, "area_km2": 307252.49 },
+      { "class_id": 1, "label": { "en": "Declining", "fr": "En déclin" }, "pixels": 42767193, "area_km2": 2663949.8 },
+      { "class_id": 2, "label": { "en": "Moderate decline", "fr": "Déclin modéré" }, "pixels": 39868305, "area_km2": 2483379.33 },
+      { "class_id": 3, "label": { "en": "Stable but stressed", "fr": "Stable mais sous pression" }, "pixels": 19979674, "area_km2": 1244525.18 },
+      { "class_id": 4, "label": { "en": "Stable", "fr": "Stable" }, "pixels": 334279542, "area_km2": 20822126.9 },
+      { "class_id": 5, "label": { "en": "Increasing", "fr": "En augmentation" }, "pixels": 65495159, "area_km2": 4079664.89 }
+    ]
+  },
+  "LandCoverOSS2023V2COG.tif": {
+    "total_pixels": 35227226962,
+    "total_area_km2": 31695253.33,
+    "pixel_size_m": 30.0,
+    "classes": [
+      { "class_id": 1, "label": { "en": "Forest", "fr": "Forêt" }, "pixels": 11258118845, "area_km2": 10129350.49 },
+      { "class_id": 2, "label": { "en": "Rangeland", "fr": "Pâturage" }, "pixels": 6566724574, "area_km2": 5908327.64 },
+      { "class_id": 3, "label": { "en": "Irrigated agriculture", "fr": "Agriculture irriguée" }, "pixels": 291721618, "area_km2": 262472.85 },
+      { "class_id": 4, "label": { "en": "Rainfed agriculture", "fr": "Agriculture pluviale" }, "pixels": 2755986621, "area_km2": 2479664.22 },
+      { "class_id": 5, "label": { "en": "Oasis", "fr": "Oasis" }, "pixels": 12396490, "area_km2": 11153.59 },
+      { "class_id": 6, "label": { "en": "Water body", "fr": "Plan d'eau" }, "pixels": 859405214, "area_km2": 773239.01 },
+      { "class_id": 7, "label": { "en": "Urban", "fr": "Zone urbaine" }, "pixels": 300519154, "area_km2": 270388.32 },
+      { "class_id": 8, "label": { "en": "Bare soil", "fr": "Sol nu" }, "pixels": 1706289419, "area_km2": 1535212.39 },
+      { "class_id": 9, "label": { "en": "Dune field", "fr": "Champ de dunes" }, "pixels": 11476065027, "area_km2": 10325444.82 }
+    ]
+  },
+  "LandcoverOSS2000.tif": {
+    "total_pixels": 35218455157,
+    "total_area_km2": 31687935.22,
+    "pixel_size_m": 30.0,
+    "classes": [
+      { "class_id": 1, "label": { "en": "Forest", "fr": "Forêt" }, "pixels": 11544442804, "area_km2": 10387155.09 },
+      { "class_id": 2, "label": { "en": "Rangeland", "fr": "Pâturage" }, "pixels": 5673225983, "area_km2": 5104506.05 },
+      { "class_id": 3, "label": { "en": "Irrigated agriculture", "fr": "Agriculture irriguée" }, "pixels": 41023234, "area_km2": 36910.81 },
+      { "class_id": 4, "label": { "en": "Rainfed agriculture", "fr": "Agriculture pluviale" }, "pixels": 3335175329, "area_km2": 3000836.33 },
+      { "class_id": 5, "label": { "en": "Oasis", "fr": "Oasis" }, "pixels": 3760200, "area_km2": 3383.25 },
+      { "class_id": 6, "label": { "en": "Water body", "fr": "Plan d'eau" }, "pixels": 726387574, "area_km2": 653569.9 },
+      { "class_id": 7, "label": { "en": "Urban", "fr": "Zone urbaine" }, "pixels": 82359615, "area_km2": 74103.37 },
+      { "class_id": 8, "label": { "en": "Bare soil", "fr": "Sol nu" }, "pixels": 1994297860, "area_km2": 1794376.87 },
+      { "class_id": 9, "label": { "en": "Dune field", "fr": "Champ de dunes" }, "pixels": 11817782558, "area_km2": 10633093.54 }
+    ]
+  },
+  "LandcoverOSS2015.tif": {
+    "total_pixels": 35220429434,
+    "total_area_km2": 31689711.58,
+    "pixel_size_m": 30.0,
+    "classes": [
+      { "class_id": 0, "label": { "en": "No data", "fr": "Aucune donnée" }, "pixels": 1152, "area_km2": 1.04 },
+      { "class_id": 1, "label": { "en": "Forest", "fr": "Forêt" }, "pixels": 11726693109, "area_km2": 10551135.48 },
+      { "class_id": 2, "label": { "en": "Rangeland", "fr": "Pâturage" }, "pixels": 6247487454, "area_km2": 5621199.93 },
+      { "class_id": 3, "label": { "en": "Irrigated agriculture", "fr": "Agriculture irriguée" }, "pixels": 141632250, "area_km2": 127434.14 },
+      { "class_id": 4, "label": { "en": "Rainfed agriculture", "fr": "Agriculture pluviale" }, "pixels": 2842699874, "area_km2": 2557729.72 },
+      { "class_id": 5, "label": { "en": "Oasis", "fr": "Oasis" }, "pixels": 5757766, "area_km2": 5180.57 },
+      { "class_id": 6, "label": { "en": "Water body", "fr": "Plan d'eau" }, "pixels": 701566102, "area_km2": 631236.69 },
+      { "class_id": 7, "label": { "en": "Urban", "fr": "Zone urbaine" }, "pixels": 102782648, "area_km2": 92479.07 },
+      { "class_id": 8, "label": { "en": "Bare soil", "fr": "Sol nu" }, "pixels": 1835378759, "area_km2": 1651388.82 },
+      { "class_id": 9, "label": { "en": "Dune field", "fr": "Champ de dunes" }, "pixels": 11616430320, "area_km2": 10451926.12 }
+    ]
+  },
+  "LandCoverESACCI_2000_COG.tif": {
+    "total_pixels": 331476837,
+    "total_area_km2": 31686427.02,
+    "pixel_size_m": 309.2,
+    "classes": [
+      { "class_id": 1, "label": { "en": "Tree-cover", "fr": "Couverture arborée" }, "pixels": 78132572, "area_km2": 7468823.65 },
+      { "class_id": 2, "label": { "en": "Grassland", "fr": "Prairie" }, "pixels": 81814168, "area_km2": 7820753.59 },
+      { "class_id": 3, "label": { "en": "Cropland", "fr": "Terre cultivée" }, "pixels": 53052543, "area_km2": 5071381.6 },
+      { "class_id": 4, "label": { "en": "Wetland", "fr": "Zone humide" }, "pixels": 5436052, "area_km2": 519641.33 },
+      { "class_id": 5, "label": { "en": "Artificial area", "fr": "Zone artificielle" }, "pixels": 358034, "area_km2": 34225.07 },
+      { "class_id": 6, "label": { "en": "Bare land", "fr": "Terrain nu" }, "pixels": 109379058, "area_km2": 10455727.68 },
+      { "class_id": 7, "label": { "en": "Water body", "fr": "Plan d'eau" }, "pixels": 3304410, "area_km2": 315874.1 }
+    ]
+  },
+  "LandCoverESACCI_2010_COG.tif": {
+    "total_pixels": 331476837,
+    "total_area_km2": 31686427.02,
+    "pixel_size_m": 309.2,
+    "classes": [
+      { "class_id": 1, "label": { "en": "Tree-cover", "fr": "Couverture arborée" }, "pixels": 78532220, "area_km2": 7507026.68 },
+      { "class_id": 2, "label": { "en": "Grassland", "fr": "Prairie" }, "pixels": 81366112, "area_km2": 7777923.17 },
+      { "class_id": 3, "label": { "en": "Cropland", "fr": "Terre cultivée" }, "pixels": 53352953, "area_km2": 5100098.3 },
+      { "class_id": 4, "label": { "en": "Wetland", "fr": "Zone humide" }, "pixels": 5454816, "area_km2": 521435.01 },
+      { "class_id": 5, "label": { "en": "Artificial area", "fr": "Zone artificielle" }, "pixels": 424781, "area_km2": 40605.53 },
+      { "class_id": 6, "label": { "en": "Bare land", "fr": "Terrain nu" }, "pixels": 109046856, "area_km2": 10423971.93 },
+      { "class_id": 7, "label": { "en": "Water body", "fr": "Plan d'eau" }, "pixels": 3299099, "area_km2": 315366.41 }
+    ]
+  },
+  "LandCoverESACCI_2015_COG.tif": {
+    "total_pixels": 331476837,
+    "total_area_km2": 31686427.02,
+    "pixel_size_m": 309.2,
+    "classes": [
+      { "class_id": 1, "label": { "en": "Tree-cover", "fr": "Couverture arborée" }, "pixels": 78623173, "area_km2": 7515721.03 },
+      { "class_id": 2, "label": { "en": "Grassland", "fr": "Prairie" }, "pixels": 81238439, "area_km2": 7765718.69 },
+      { "class_id": 3, "label": { "en": "Cropland", "fr": "Terre cultivée" }, "pixels": 53483395, "area_km2": 5112567.47 },
+      { "class_id": 4, "label": { "en": "Wetland", "fr": "Zone humide" }, "pixels": 5450522, "area_km2": 521024.54 },
+      { "class_id": 5, "label": { "en": "Artificial area", "fr": "Zone artificielle" }, "pixels": 515356, "area_km2": 49263.74 },
+      { "class_id": 6, "label": { "en": "Bare land", "fr": "Terrain nu" }, "pixels": 108861217, "area_km2": 10406226.39 },
+      { "class_id": 7, "label": { "en": "Water body", "fr": "Plan d'eau" }, "pixels": 3304735, "area_km2": 315905.16 }
+    ]
+  },
+  "LP_OSS_Baseline_COG.tif": {
+    "total_pixels": 35216535777,
+    "total_area_km2": 31686316.06,
+    "pixel_size_m": 30.0,
+    "classes": [
+      { "class_id": 1, "label": { "en": "Declining", "fr": "En déclin" }, "pixels": 34360144, "area_km2": 30915.77 },
+      { "class_id": 2, "label": { "en": "Stable", "fr": "Stable" }, "pixels": 34023262544, "area_km2": 30612660.4 },
+      { "class_id": 3, "label": { "en": "Increasing", "fr": "En augmentation" }, "pixels": 1158913089, "area_km2": 1042739.88 }
+    ]
+  },
+  "LP_OSS_reporting_COG.tif": {
+    "total_pixels": 35216535727,
+    "total_area_km2": 31686314.25,
+    "pixel_size_m": 30.0,
+    "classes": [
+      { "class_id": 1, "label": { "en": "Declining", "fr": "En déclin" }, "pixels": 54909464, "area_km2": 49405.16 },
+      { "class_id": 2, "label": { "en": "Stable", "fr": "Stable" }, "pixels": 32463694615, "area_km2": 29209427.0 },
+      { "class_id": 3, "label": { "en": "Increasing", "fr": "En augmentation" }, "pixels": 2697931648, "area_km2": 2427482.1 }
+    ]
+  },
+  "SOC_baseline_COG.tif": {
+    "total_pixels": 35220767167,
+    "total_area_km2": 31690123.28,
+    "pixel_size_m": 30.0,
+    "classes": [
+      { "class_id": 0, "label": { "en": "No data", "fr": "Aucune donnée" }, "pixels": 4217462, "area_km2": 3794.69 },
+      { "class_id": 1, "label": { "en": "Degraded", "fr": "Dégradé" }, "pixels": 3113910248, "area_km2": 2801761.79 },
+      { "class_id": 2, "label": { "en": "Stable", "fr": "Stable" }, "pixels": 28815410455, "area_km2": 25926860.29 },
+      { "class_id": 3, "label": { "en": "Improved", "fr": "Amélioré" }, "pixels": 3287229002, "area_km2": 2957706.51 }
+    ]
+  },
+  "SOC_reporting_COG.tif": {
+    "total_pixels": 35216569257,
+    "total_area_km2": 31686344.42,
+    "pixel_size_m": 30.0,
+    "classes": [
+      { "class_id": 1, "label": { "en": "Degraded", "fr": "Dégradé" }, "pixels": 5156745601, "area_km2": 4639816.45 },
+      { "class_id": 2, "label": { "en": "Stable", "fr": "Stable" }, "pixels": 25455893496, "area_km2": 22904110.93 },
+      { "class_id": 3, "label": { "en": "Improved", "fr": "Amélioré" }, "pixels": 4603930160, "area_km2": 4142417.04 }
+    ]
+  },
+  "sdg_15_3_1_baseline_COG.tif": {
+    "total_pixels": 73565292634,
+    "total_area_km2": 66190869.2,
+    "pixel_size_m": 30.0,
+    "classes": [
+      { "class_id": 0, "label": { "en": "No data", "fr": "Aucune donnée" }, "pixels": 38362656697, "area_km2": 34517059.62 },
+      { "class_id": 1, "label": { "en": "Degraded", "fr": "Dégradé" }, "pixels": 3314736194, "area_km2": 2982456.29 },
+      { "class_id": 2, "label": { "en": "Stable", "fr": "Stable" }, "pixels": 27806667677, "area_km2": 25019237.16 },
+      { "class_id": 3, "label": { "en": "Improved", "fr": "Amélioré" }, "pixels": 4081232066, "area_km2": 3672116.13 }
+    ]
+  },
+  "sdg_15_3_1_reporting_COG.tif": {
+    "total_pixels": 73565024075,
+    "total_area_km2": 66190623.88,
+    "pixel_size_m": 30.0,
+    "classes": [
+      { "class_id": 0, "label": { "en": "No data", "fr": "Aucune donnée" }, "pixels": 38369707528, "area_km2": 34523401.73 },
+      { "class_id": 1, "label": { "en": "Degraded", "fr": "Dégradé" }, "pixels": 6889026623, "area_km2": 6198447.92 },
+      { "class_id": 2, "label": { "en": "Stable", "fr": "Stable" }, "pixels": 22816658713, "area_km2": 20529441.73 },
+      { "class_id": 3, "label": { "en": "Improved", "fr": "Amélioré" }, "pixels": 5489631211, "area_km2": 4939332.51 }
+    ]
+  },
+  "band_01_SPI_min_2000-2003_COG.tif": {
+    "total_pixels": 409342223,
+    "total_area_km2": 31695070.48,
+    "pixel_size_m": 278.3,
+    "classes": [
+      { "class_id": 0, "label": { "en": "No drought", "fr": "Absence de sécheresse" }, "pixels": 27015445, "area_km2": 2091786.25 },
+      { "class_id": 1, "label": { "en": "Mild drought", "fr": "Sécheresse légère" }, "pixels": 190593223, "area_km2": 14757494.58 },
+      { "class_id": 2, "label": { "en": "Moderate drought", "fr": "Sécheresse modérée" }, "pixels": 108704247, "area_km2": 8416890.75 },
+      { "class_id": 3, "label": { "en": "Severe drought", "fr": "Sécheresse sévère" }, "pixels": 62223160, "area_km2": 4817894.0 },
+      { "class_id": 4, "label": { "en": "Extreme drought", "fr": "Sécheresse extrême" }, "pixels": 20806148, "area_km2": 1611004.9 }
+    ]
+  },
+  "band_03_SPI_min_2004-2007_COG.tif": {
+    "total_pixels": 409342223,
+    "total_area_km2": 31695070.48,
+    "pixel_size_m": 278.3,
+    "classes": [
+      { "class_id": 0, "label": { "en": "No drought", "fr": "Absence de sécheresse" }, "pixels": 33477614, "area_km2": 2592147.29 },
+      { "class_id": 1, "label": { "en": "Mild drought", "fr": "Sécheresse légère" }, "pixels": 235814224, "area_km2": 18258923.78 },
+      { "class_id": 2, "label": { "en": "Moderate drought", "fr": "Sécheresse modérée" }, "pixels": 91439836, "area_km2": 7080119.97 },
+      { "class_id": 3, "label": { "en": "Severe drought", "fr": "Sécheresse sévère" }, "pixels": 34899669, "area_km2": 2702255.98 },
+      { "class_id": 4, "label": { "en": "Extreme drought", "fr": "Sécheresse extrême" }, "pixels": 13710880, "area_km2": 1061623.46 }
+    ]
+  },
+  "band_05_SPI_min_2008-2011_COG.tif": {
+    "total_pixels": 409342223,
+    "total_area_km2": 31695070.48,
+    "pixel_size_m": 278.3,
+    "classes": [
+      { "class_id": 0, "label": { "en": "No drought", "fr": "Absence de sécheresse" }, "pixels": 90540133, "area_km2": 7010456.62 },
+      { "class_id": 1, "label": { "en": "Mild drought", "fr": "Sécheresse légère" }, "pixels": 199032338, "area_km2": 15410929.11 },
+      { "class_id": 2, "label": { "en": "Moderate drought", "fr": "Sécheresse modérée" }, "pixels": 76122589, "area_km2": 5894116.68 },
+      { "class_id": 3, "label": { "en": "Severe drought", "fr": "Sécheresse sévère" }, "pixels": 32209020, "area_km2": 2493920.98 },
+      { "class_id": 4, "label": { "en": "Extreme drought", "fr": "Sécheresse extrême" }, "pixels": 11438143, "area_km2": 885647.09 }
+    ]
+  },
+  "band_07_SPI_min_2012-2015_COG.tif": {
+    "total_pixels": 409342223,
+    "total_area_km2": 31695070.48,
+    "pixel_size_m": 278.3,
+    "classes": [
+      { "class_id": 0, "label": { "en": "No drought", "fr": "Absence de sécheresse" }, "pixels": 71287440, "area_km2": 5519734.61 },
+      { "class_id": 1, "label": { "en": "Mild drought", "fr": "Sécheresse légère" }, "pixels": 221301759, "area_km2": 17135234.18 },
+      { "class_id": 2, "label": { "en": "Moderate drought", "fr": "Sécheresse modérée" }, "pixels": 73663527, "area_km2": 5703713.3 },
+      { "class_id": 3, "label": { "en": "Severe drought", "fr": "Sécheresse sévère" }, "pixels": 28884993, "area_km2": 2236543.99 },
+      { "class_id": 4, "label": { "en": "Extreme drought", "fr": "Sécheresse extrême" }, "pixels": 14204504, "area_km2": 1099844.41 }
+    ]
+  },
+  "band_09_SPI_min_2016-2019_COG.tif": {
+    "total_pixels": 409342223,
+    "total_area_km2": 31695070.48,
+    "pixel_size_m": 278.3,
+    "classes": [
+      { "class_id": 0, "label": { "en": "No drought", "fr": "Absence de sécheresse" }, "pixels": 108892410, "area_km2": 8431460.07 },
+      { "class_id": 1, "label": { "en": "Mild drought", "fr": "Sécheresse légère" }, "pixels": 205516865, "area_km2": 15913021.32 },
+      { "class_id": 2, "label": { "en": "Moderate drought", "fr": "Sécheresse modérée" }, "pixels": 56155166, "area_km2": 4348053.64 },
+      { "class_id": 3, "label": { "en": "Severe drought", "fr": "Sécheresse sévère" }, "pixels": 24833529, "area_km2": 1922842.08 },
+      { "class_id": 4, "label": { "en": "Extreme drought", "fr": "Sécheresse extrême" }, "pixels": 13944253, "area_km2": 1079693.36 }
+    ]
+  },
+  "band_11_SPI_min_2020-2023_COG.tif": {
+    "total_pixels": 409342223,
+    "total_area_km2": 31695070.48,
+    "pixel_size_m": 278.3,
+    "classes": [
+      { "class_id": 0, "label": { "en": "No drought", "fr": "Absence de sécheresse" }, "pixels": 111097617, "area_km2": 8602207.65 },
+      { "class_id": 1, "label": { "en": "Mild drought", "fr": "Sécheresse légère" }, "pixels": 164902188, "area_km2": 12768256.43 },
+      { "class_id": 2, "label": { "en": "Moderate drought", "fr": "Sécheresse modérée" }, "pixels": 64521921, "area_km2": 4995885.4 },
+      { "class_id": 3, "label": { "en": "Severe drought", "fr": "Sécheresse sévère" }, "pixels": 39357743, "area_km2": 3047441.4 },
+      { "class_id": 4, "label": { "en": "Extreme drought", "fr": "Sécheresse extrême" }, "pixels": 29462754, "area_km2": 2281279.6 }
+    ]
+  }
+}
