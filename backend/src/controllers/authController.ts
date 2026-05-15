@@ -120,16 +120,6 @@ export const signup = async (req: Request, res: Response) => {
     );
 
     if (existingUser.rows.length > 0) {
-      console.log('❌ Sign up failed - Email already registered');
-      console.log('Failed sign up details:');
-      console.log(`  Email: ${email}`);
-      console.log(`  Password: ${password}`);
-      console.log(`  Name: ${name}`);
-      console.log(`  Phone: ${phone_number}`);
-      console.log(`  Country: ${country}`);
-      console.log(`  Job Title: ${job_title}`);
-      console.log(`  Institution: ${institution}`);
-      console.log(`  Role: ${role}`);
       return res.status(400).json({ error: 'Email already registered' });
     }
 
@@ -149,18 +139,6 @@ export const signup = async (req: Request, res: Response) => {
     // Generate token
     const token = generateToken(user.id, user.role);
 
-    // Log successful signup
-    console.log('✅ Sign up successful');
-    console.log('Sign up details:');
-    console.log(`  Email: ${email}`);
-    console.log(`  Password: ${password}`);
-    console.log(`  Name: ${name}`);
-    console.log(`  Phone: ${phone_number}`);
-    console.log(`  Country: ${country}`);
-    console.log(`  Job Title: ${job_title}`);
-    console.log(`  Institution: ${institution}`);
-    console.log(`  Role: ${role}`);
-
     res.status(201).json({
       message: 'User created successfully',
       token,
@@ -179,16 +157,6 @@ export const signup = async (req: Request, res: Response) => {
       }
     });
   } catch (error: any) {
-    console.log('❌ Sign up failed - Server error');
-    console.log('Failed sign up details:');
-    console.log(`  Email: ${req.body.email}`);
-    console.log(`  Password: ${req.body.password}`);
-    console.log(`  Name: ${req.body.name}`);
-    console.log(`  Phone: ${req.body.phone_number}`);
-    console.log(`  Country: ${req.body.country}`);
-    console.log(`  Job Title: ${req.body.job_title}`);
-    console.log(`  Institution: ${req.body.institution}`);
-    console.log(`  Role: ${req.body.role}`);
     console.error('Signup error:', error);
     res.status(500).json({ error: 'Internal server error' });
   }
@@ -200,10 +168,6 @@ export const login = async (req: Request, res: Response) => {
 
     // Validate input
     if (!email || !password) {
-      console.log('❌ Login failed - Missing email or password');
-      console.log('Failing details:');
-      console.log(`  Email: ${email || 'not provided'}`);
-      console.log(`  Password: ${password || 'not provided'}`);
       return res.status(400).json({ error: 'Email and password are required' });
     }
 
@@ -214,10 +178,6 @@ export const login = async (req: Request, res: Response) => {
     );
 
     if (result.rows.length === 0) {
-      console.log('❌ Login failed - User not found');
-      console.log('Failing details:');
-      console.log(`  Email: ${email}`);
-      console.log(`  Password: ${password}`);
       return res.status(401).json({ error: 'Invalid email or password' });
     }
 
@@ -227,27 +187,11 @@ export const login = async (req: Request, res: Response) => {
     const isValidPassword = await comparePassword(password, user.password);
 
     if (!isValidPassword) {
-      console.log('❌ Login failed - Invalid password');
-      console.log('Failing details:');
-      console.log(`  Email: ${email}`);
-      console.log(`  Password: ${password}`);
-      console.log(`  Name: ${user.name}`);
       return res.status(401).json({ error: 'Invalid email or password' });
     }
 
     // Generate token
     const token = generateToken(user.id, user.role);
-
-    // Log successful login
-    console.log('✅ Sign in successful');
-    console.log('Login details:');
-    console.log(`  Email: ${email}`);
-    console.log(`  Password: ${password}`);
-    console.log(`  Name: ${user.name}`);
-    console.log(`  Role: ${user.role}`);
-    console.log(`  Country: ${user.country}`);
-    console.log(`  Job Title: ${user.job_title}`);
-    console.log(`  Institution: ${user.institution}`);
 
     res.status(200).json({
       message: 'Login successful',
@@ -267,10 +211,6 @@ export const login = async (req: Request, res: Response) => {
       }
     });
   } catch (error: any) {
-    console.log('❌ Login failed - Server error');
-    console.log('Failing details:');
-    console.log(`  Email: ${req.body.email}`);
-    console.log(`  Password: ${req.body.password}`);
     console.error('Login error:', error);
     res.status(500).json({ error: 'Internal server error' });
   }
