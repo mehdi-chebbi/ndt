@@ -24,7 +24,7 @@
   "ldnPlatform": {
     "heading": "Africa's Integrated Land Degradation Monitoring System",
     "subtitle": "LDN Platform Africa",
-    "description": "Monitoring land degradation in Africa to support sustainable land management and Land Degradation Neutrality (LDN).",
+    "description": "to support sustainable land management and Land Degradation Neutrality (LDN).",
     "tagline": "Access data. Analyse trends. Support decision-making.",
     "overview": {
       "title": "Overview of the Africa Land Degradation Monitoring System | LDN Platform Africa",
@@ -124,12 +124,12 @@
     "upcomingEvents": "Upcoming Events",
     "viewDetails": "View details",
     "held1": {
-      "date": "February 26, 2026",
-      "title": "Second webinar dedicated to the 2026 Land Degradation Neutrality (LDN) reporting cycle for 22 French-speaking countries."
-    },
-    "held2": {
       "date": "February 25, 2026",
       "title": "First webinar dedicated to the 2026 Land Degradation Neutrality (LDN) reporting cycle for 22 English-speaking countries."
+    },
+    "held2": {
+      "date": "February 26, 2026",
+      "title": "Second webinar dedicated to the 2026 Land Degradation Neutrality (LDN) reporting cycle for 22 French-speaking countries."
     },
     "held3": {
       "date": "March 5, 2026",
@@ -140,7 +140,7 @@
       "title": "Workshop to strengthen the reporting of Land Degradation Neutrality, on the sidelines of the Desertif'Actions 2026 International Summit."
     },
     "upcoming1": {
-      "date": "May 18–21, 2026 — Dakar, Senegal",
+      "date": "May 18–22, 2026 — Dakar, Senegal",
       "title": "Regional capacity-building workshop on reporting for Francophone African countries (Annex I Parties)."
     },
     "upcoming2": {

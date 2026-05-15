@@ -3,14 +3,27 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
+import { useTranslation } from 'react-i18next'
 
 const sans = { fontFamily: 'system-ui, sans-serif' }
 
 export default function Footer() {
   const pathname = usePathname()
+  const { t } = useTranslation()
 
   // Don't show footer on the map page (full-viewport map)
   if (pathname === '/map') return null
+
+  const pageLinks = [
+    { label: t('footer.home'), href: '/' },
+    { label: t('footer.ldnInAfrica'), href: '/ldn-in-africa' },
+    { label: t('footer.geoportal'), href: '/geoportail' },
+    { label: t('footer.resources'), href: '/resources' },
+    { label: t('footer.dashboard'), href: '/dashboard' },
+    { label: t('footer.successStories'), href: '/success-stories' },
+    { label: t('footer.apiDocs'), href: '/api-docs' },
+    { label: t('footer.login'), href: '/login' },
+  ]
 
   return (
     <footer className="relative z-10 border-t border-white/5 bg-[#060a08]">
@@ -30,13 +43,13 @@ export default function Footer() {
               />
             </div>
             <h4 className="text-sm font-bold text-white uppercase tracking-widest mb-1" style={sans}>
-              Africa&apos;s Integrated LDN Monitoring System
+              {t('footer.systemName')}
             </h4>
             <p className="text-sm text-green-400/80 font-medium mb-4" style={sans}>
-              LDN Platform Africa
+              {t('footer.platformName')}
             </p>
             <p className="text-xs text-gray-500 leading-relaxed mb-6" style={sans}>
-              Monitor land degradation. Track LDN. Support sustainable land management across Africa.
+              {t('footer.tagline')}
             </p>
             {/* Social icons */}
             <div className="flex items-center gap-3">
@@ -63,20 +76,11 @@ export default function Footer() {
           {/* Column 2 — Pages */}
           <div>
             <h4 className="text-xs font-bold text-white uppercase tracking-widest mb-5" style={sans}>
-              Pages
+              {t('footer.pages')}
             </h4>
             <ul className="space-y-3">
-              {[
-                { label: 'Home', href: '/' },
-                { label: 'LDN in Africa', href: '/ldn-in-africa' },
-                { label: 'Geoportal', href: '/geoportail' },
-                { label: 'Resources', href: '/resources' },
-                { label: 'Dashboard', href: '/dashboard' },
-                { label: 'Success stories', href: '/success-stories' },
-                { label: 'API Docs', href: '/api-docs' },
-                { label: 'Connexion', href: '/login' },
-              ].map((page) => (
-                <li key={page.label}>
+              {pageLinks.map((page) => (
+                <li key={page.href}>
                   <Link href={page.href} className="text-sm text-gray-500 hover:text-gray-300 transition-colors duration-200 inline-flex items-center gap-2" style={sans}>
                     <span className="w-1 h-1 rounded-full bg-green-400/40" />
                     {page.label}
@@ -89,32 +93,32 @@ export default function Footer() {
           {/* Column 3 — Contact */}
           <div>
             <h4 className="text-xs font-bold text-white uppercase tracking-widest mb-5" style={sans}>
-              Contact
+              {t('footer.contact')}
             </h4>
             <div className="space-y-5">
               {/* Phone */}
               <div>
-                <p className="text-xs text-gray-600 uppercase tracking-widest mb-1" style={sans}>Phone</p>
+                <p className="text-xs text-gray-600 uppercase tracking-widest mb-1" style={sans}>{t('footer.phone')}</p>
                 <a href="tel:+21671206633" className="text-sm text-gray-400 hover:text-green-400 transition-colors duration-200" style={sans}>
                   (+216) 71 206 633
                 </a>
               </div>
               {/* Email */}
               <div>
-                <p className="text-xs text-gray-600 uppercase tracking-widest mb-1" style={sans}>Email</p>
+                <p className="text-xs text-gray-600 uppercase tracking-widest mb-1" style={sans}>{t('footer.email')}</p>
                 <a href="mailto:boc@oss.org.tn" className="text-sm text-gray-400 hover:text-green-400 transition-colors duration-200" style={sans}>
                   boc@oss.org.tn
                 </a>
               </div>
               {/* Address */}
               <div>
-                <p className="text-xs text-gray-600 uppercase tracking-widest mb-1" style={sans}>Address</p>
+                <p className="text-xs text-gray-600 uppercase tracking-widest mb-1" style={sans}>{t('footer.address')}</p>
                 <p className="text-sm text-gray-400 leading-relaxed" style={sans}>
-                  Sahara and Sahel Observatory (OSS),<br />
-                  Leader Yasser Arafat Blvd,<br />
-                  PO Box 31,<br />
-                  Tunis, Carthage 1080<br />
-                  Tunisia
+                  {t('footer.addressLine1')}<br />
+                  {t('footer.addressLine2')}<br />
+                  {t('footer.addressLine3')}<br />
+                  {t('footer.addressLine4')}<br />
+                  {t('footer.addressLine5')}
                 </p>
               </div>
             </div>
@@ -124,10 +128,10 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="mt-10 pt-6 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-xs text-gray-600" style={sans}>
-            Developed by OSS
+            {t('footer.developedBy')}
           </p>
           <p className="text-xs text-gray-600" style={sans}>
-            &copy; {new Date().getFullYear()} LDN Platform Africa. All rights reserved.
+            {t('footer.copyright', { year: new Date().getFullYear() })}
           </p>
         </div>
       </div>

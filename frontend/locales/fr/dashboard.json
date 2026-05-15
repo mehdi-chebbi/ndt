@@ -5,11 +5,11 @@
   "loggedInAs": "Vous êtes connecté en tant que",
   "cards": {
     "yourProfile": "Votre profil",
-    "yourProfileDesc": "Gérez les paramètres de votre compte et vos informations personnelles.",
+    "yourProfileDesc": "Gérer les paramètres de votre compte et vos informations personnelles.",
     "recentActivity": "Activité récente",
-    "recentActivityDesc": "Consultez votre activité récente et votre historique.",
+    "recentActivityDesc": "Consulter votre activité récente et votre historique.",
     "helpAndSupport": "Aide et support",
-    "helpAndSupportDesc": "Obtenez de l'aide pour votre compte et les fonctionnalités de la plateforme."
+    "helpAndSupportDesc": "Obtenir de l'aide pour votre compte et les fonctionnalités de la plateforme."
   },
   "footer": {
     "copyright": "© 2025 Platform. Tous droits réservés."
@@ -19,7 +19,7 @@
     "title": "Tableau de bord NDT",
     "titleHighlight": "Afrique",
     "subtitle": "Indicateurs de dégradation des terres et ODD 15.3.1",
-    "description": "Surveillez les indicateurs de dégradation des terres en Afrique à l'aide de tableaux de bord interactifs. Suivez l'indicateur ODD 15.3.1, explorez les tendances et analysez les progrès vers la Neutralité de la dégradation des terres.",
+    "description": "Surveiller les indicateurs de dégradation des terres en Afrique à l'aide de tableaux de bord interactifs. Suivre l'indicateur ODD 15.3.1, explorer les tendances et analyser les progrès vers la Neutralité de la dégradation des terres.",
     "tag1": "Suivre les indicateurs",
     "tag2": "Visualiser les tendances",
     "tag3": "Éclairer les décisions"

@@ -3,7 +3,7 @@
     "eyebrow": "Suivi, Données et ODD 15.3.1",
     "title": "Neutralité de la dégradation des terres (NDT)",
     "titleHighlight": "en Afrique",
-    "description": "Découvrez comment l'Afrique lutte contre la dégradation des terres grâce à la Neutralité de la dégradation des terres (NDT). Explorez les défis, les indicateurs et les outils de suivi soutenant l'ODD 15.3.1.",
+    "description": "Découvrir comment l'Afrique lutte contre la dégradation des terres grâce à la Neutralité de la dégradation des terres (NDT). Explorer les défis, les indicateurs et les outils de suivi soutenant l'ODD 15.3.1.",
     "tagline": "Arrêter et inverser la dégradation des terres. Restaurer les écosystèmes. Renforcer la résilience."
   },
   "whatIsLdn": {
@@ -40,7 +40,7 @@
   },
   "monitoring": {
     "heading": "Suivi de la NDT en Afrique",
-    "paragraph1": "Le suivi de la Neutralité de la dégradation des terres en Afrique repose sur un ensemble d'indicateurs mondialement convenus, complétés par un cadre plus large dans le cadre du Système d'examen des performances et de l'évaluation de la mise en œuvre (PRAIS) de la CNULCD. Cela permet aux pays d'évaluer l'état des terres et de suivre les progrès au fil du temps.",
+    "paragraph1": "Le suivi de la Neutralité en matière de dégradation des terres en Afrique repose sur un ensemble d'indicateurs mondialement convenus, complétés par un cadre plus large dans le cadre du Système d'examen des performances et de l'évaluation de la mise en œuvre (PRAIS) de la CNULCD. Cela permet aux pays d'évaluer l'état des terres et de suivre les progrès au fil du temps.",
     "indicatorsLabel": "Au niveau mondial, le suivi de la NDT repose sur trois indicateurs clés :",
     "indicator1": "L'évolution de la couverture terrestre, qui suit les transitions entre les forêts, les terres agricoles, les prairies et d'autres types de terres.",
     "indicator2": "La dynamique de la productivité des terres, qui mesure la santé de la végétation et la productivité biologique.",
@@ -70,7 +70,7 @@
   },
   "platformSupport": {
     "heading": "Comment cette plateforme soutient la NDT",
-    "intro": "La Plateforme africaine de surveillance de la dégradation des terres joue un rôle clé dans le soutien à la mise en œuvre de la NDT en fournissant :",
+    "intro": "La Plateforme africaine de Suivi de la dégradation des terres joue un rôle clé dans le soutien à la mise en œuvre de la NDT en fournissant :",
     "feature1Text": "Des jeux de données harmonisés à travers l'Afrique",
     "feature2Text": "Des outils pour surveiller les tendances de dégradation des terres au fil du temps",
     "feature3Before": "L'analyse géospatiale via le",

@@ -59,14 +59,7 @@ export default function LDNInAfricaPage() {
 
             <h1 className="text-4xl lg:text-6xl font-bold leading-[1.1] mb-6 max-w-5xl" style={{ ...serif, letterSpacing: '-0.02em' }}>
               {t('hero.title')}{' '}
-              <span style={{
-                background: 'linear-gradient(135deg, #22c55e 0%, #4ade80 50%, #86efac 100%)',
-                WebkitBackgroundClip: 'text',
-                WebkitTextFillColor: 'transparent',
-                backgroundClip: 'text',
-              }}>
-                {t('hero.titleHighlight')}
-              </span>
+              {t('hero.titleHighlight')}
             </h1>
 
             <p className="text-lg lg:text-xl text-gray-400 max-w-3xl mb-6 leading-relaxed" style={sans}>

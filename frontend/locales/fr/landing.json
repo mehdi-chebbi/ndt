@@ -6,7 +6,7 @@
       "highlight": "lentille géospatiale",
       "suffix": "sur le développement de l'Afrique."
     },
-    "description": "Explorez l'accès à l'eau, les inégalités de revenus et les indicateurs de développement à travers le continent — avec des cartes interactives, 23 ans de données tendancielles et des analyses au niveau des pays, conçues pour les chercheurs et les décideurs politiques."
+    "description": "Explorer l'accès à l'eau, les inégalités de revenus et les indicateurs de développement à travers le continent — avec des cartes interactives, 23 ans de données tendancielles et des analyses au niveau des pays, conçues pour les chercheurs et les décideurs politiques."
   },
   "cta": {
     "loading": "Chargement...",
@@ -22,14 +22,14 @@
     "communityDrivenQuality": "Qualité collaborative"
   },
   "ldnPlatform": {
-    "heading": "Système intégré de surveillance de la dégradation des terres en Afrique",
-    "subtitle": "Plateforme LDN Afrique",
-    "description": "Suivi de la dégradation des terres en Afrique pour appuyer la gestion durable des terres et la neutralité de la dégradation des terres (NDT).",
+    "heading": "Système intégré de Suivi de la dégradation des terres en Afrique",
+    "subtitle": "Plateforme NDT en Afrique",
+    "description": "pour appuyer la gestion durable des terres et la neutralité de la dégradation des terres (NDT).",
     "tagline": "Accéder aux données. Analyser les tendances. Soutenir la prise de décision.",
     "overview": {
-      "title": "Aperçu du Système de Surveillance de la Dégradation des Terres en Afrique | Plateforme LDN Afrique",
+      "title": "Aperçu du Système de Suivi de la Neutralité en matière de Dégradation des Terres en Afrique | Plateforme NDT en Afrique",
       "paragraph1": "La dégradation des terres est l'un des défis environnementaux les plus pressants en Afrique, affectant la productivité agricole, la disponibilité de l'eau, la biodiversité et la résilience climatique. Selon les évaluations mondiales, l'Afrique perd des millions d'hectares de terres productives chaque année en raison de l'érosion des sols, de la désertification et de pratiques d'utilisation des terres non durables.",
-      "paragraph2": "Cette plateforme fournit un système centralisé et intégré pour la surveillance de la dégradation des terres en Afrique, permettant aux pays, institutions et parties prenantes de :",
+      "paragraph2": "Cette plateforme fournit un système centralisé et intégré pour le Suivi de la Neutralité en matière de dégradation des terres en Afrique, permettant aux pays, institutions et parties prenantes de :",
       "item1": "Suivre les progrès vers la neutralité de la dégradation des terres (NDT).",
       "item2": "Suivre l'indicateur ODD 15.3.1 (proportion de terres dégradées).",
       "item3": "Accéder à des jeux de données géospatiales et des indicateurs harmonisés.",
@@ -45,17 +45,17 @@
     "closingText": "Surveiller et inverser ces tendances est essentiel pour atteindre un développement durable et la résilience climatique."
   },
   "roleOfLDN": {
-    "heading": "Le rôle de la plateforme LDN en Afrique",
-    "description": "La plateforme LDN Afrique sert de système centralisé pour la surveillance de la dégradation des terres en Afrique, intégrant des données environnementales, géospatiales et hydrologiques en un seul point d'accès.",
+    "heading": "Le rôle de la plateforme NDT en Afrique",
+    "description": "La plateforme NDT en Afrique sert de système centralisé pour le Suivi de la Neutralité en matière de dégradation des terres en Afrique, intégrant des données environnementales, géospatiales et hydrologiques en un seul point d'accès.",
     "contributesTo": "La plateforme contribue à :",
-    "item1": "Améliorer la précision de la surveillance de la dégradation des terres aux niveaux national et continental.",
+    "item1": "Améliorer la précision de le Suivi de la Neutralité en matière de dégradation des terres aux niveaux national et continental.",
     "item2": "Soutenir la planification de l'utilisation durable des terres et la gestion agricole.",
     "item3": "Faciliter les rapports sur la neutralité de la dégradation des terres (NDT) et l'ODD 15.3.1.",
     "item4": "Renforcer la prise de décision fondée sur les données pour les politiques environnementales et les stratégies de restauration.",
     "closingParagraph": "En transformant les données en informations exploitables, la plateforme permet aux parties prenantes de mieux comprendre la dynamique de la dégradation des terres et de prendre des mesures efficaces pour atteindre la neutralité de la dégradation des terres en Afrique."
   },
   "keyAssets": {
-    "heading": "Atouts clés du Système intégré de surveillance de la dégradation des terres en Afrique",
+    "heading": "Atouts clés du Système intégré de Suivi de la Neutralité en matière de dégradation des terres en Afrique",
     "description": "Ce système comble le fossé entre les données et la prise de décision en fournissant :",
     "item1": "Des jeux de données fiables et harmonisés à travers l'Afrique.",
     "item2": "Des outils pour surveiller les tendances de dégradation des terres au fil du temps.",
@@ -65,7 +65,7 @@
   },
   "audience": {
     "heading": "À qui s'adresse cette plateforme ?",
-    "description": "Cette plateforme est conçue pour un large éventail de parties prenantes impliquées dans la gestion des terres et la surveillance environnementale :",
+    "description": "Cette plateforme est conçue pour un large éventail de parties prenantes impliquées dans la gestion des terres et le Suivi environnemental :",
     "policymakers": {
       "label": "Décideurs politiques",
       "desc": "suivi des objectifs NDT et des rapports nationaux."
@@ -91,26 +91,26 @@
     },
     "geoportal": {
       "title": "Géoportail interactif pour l'analyse spatiale",
-      "desc": "Explorez les indicateurs de couverture terrestre, de productivité et des sols grâce à des cartes dynamiques."
+      "desc": "Explorer les indicateurs de couverture terrestre, de productivité et des sols grâce à des cartes dynamiques."
     },
     "dashboards": {
       "title": "Tableaux de bord pour le suivi de la NDT et de l'ODD 15.3.1",
-      "desc": "Analysez les tendances, comparez les pays et suivez les progrès au fil du temps."
+      "desc": "Analyser les tendances, comparer les pays et suivre les progrès au fil du temps."
     },
     "resources": {
       "title": "Ressources et méthodologies",
-      "desc": "Accédez aux directives, outils et documentation pour l'évaluation de la dégradation des terres."
+      "desc": "Accéder aux directives, outils et documentation pour l'évaluation de la dégradation des terres."
     },
     "successStories": {
       "title": "Histoires de succès et bonnes pratiques",
-      "desc": "Apprenez des solutions concrètes mises en œuvre dans les pays africains."
+      "desc": "Apprendre des solutions concrètes mises en œuvre dans les pays africains."
     }
   },
   "startExploring": {
     "heading": "Commencer à explorer",
     "exploreData": "Explorer les données sur la dégradation des terres",
     "geoportal": "Accéder au Géoportail",
-    "ldnDashboard": "Voir le tableau de bord LDN",
+    "ldnDashboard": "Voir le tableau de bord NDT",
     "successStories": "Explorer les histoires de succès",
     "browseResources": "Parcourir les ressources",
     "explore": "Explorer"
@@ -124,23 +124,23 @@
     "upcomingEvents": "Événements à venir",
     "viewDetails": "Voir les détails",
     "held1": {
-      "date": "26 février 2026",
-      "title": "Deuxième webinaire dédié au cycle de rapports 2026 sur la neutralité de la dégradation des terres (NDT) pour 22 pays francophones."
-    },
-    "held2": {
       "date": "25 février 2026",
       "title": "Premier webinaire dédié au cycle de rapports 2026 sur la neutralité de la dégradation des terres (NDT) pour 22 pays anglophones."
     },
+    "held2": {
+      "date": "26 février 2026",
+      "title": "Deuxième webinaire dédié au cycle de rapports 2026 sur la neutralité de la dégradation des terres (NDT) pour 22 pays francophones."
+    },
     "held3": {
       "date": "5 mars 2026",
-      "title": "Atelier – Lancement du Système de surveillance de la dégradation des terres et de la gestion durable des terres en appui à l'Initiative de la Grande Muraille Verte."
+      "title": "Atelier – Lancement du Système de Suivi de la Neutralité en matière de dégradation des terres et de la gestion durable des terres en appui à l'Initiative de la Grande Muraille Verte."
     },
     "held4": {
       "date": "28 mars 2026 — Djerba, Tunisie",
       "title": "Atelier pour renforcer les rapports sur la neutralité de la dégradation des terres, en marge du Sommet international Desertif'Actions 2026."
     },
     "upcoming1": {
-      "date": "18–21 mai 2026 — Dakar, Sénégal",
+      "date": "18–22 mai 2026 — Dakar, Sénégal",
       "title": "Atelier régional de renforcement des capacités sur les rapports pour les pays africains francophones (Parties de l'Annexe I)."
     },
     "upcoming2": {
@@ -155,7 +155,7 @@
     "designatedHub": {
       "text": "En avril 2026, l'OSS a été désigné comme Pôle régional d'appui pour soutenir les pays africains dans les rapports sur :",
       "item1": "L'indicateur ODD 15.3.1 (proportion de terres dégradées).",
-      "item2": "Le suivi de la dégradation des terres et de la sécheresse."
+      "item2": "Le suivi de la Neutralité en matière de dégradation des terres et de la sécheresse."
     },
     "technicalEngine": {
       "heading": "Un moteur technique pour l'Afrique",
@@ -179,7 +179,7 @@
     }
   },
   "contact": {
-    "heading": "Contactez-nous",
+    "heading": "Nous contacter",
     "description": "Avez-vous une question ou besoin d'assistance ?",
     "name": "Nom",
     "namePlaceholder": "Votre nom",

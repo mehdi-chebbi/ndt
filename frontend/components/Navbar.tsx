@@ -111,7 +111,7 @@ export default function Navbar() {
         className={`text-sm transition-colors duration-200 ${pathname === '/' ? 'text-white' : 'text-gray-400 hover:text-white'}`}
         style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.03em' }}
       >
-        Home
+        {t('navbar.home')}
       </Link>
 
       {/* LDN in Africa */}
@@ -120,27 +120,26 @@ export default function Navbar() {
         className={`text-sm transition-colors duration-200 ${pathname === '/ldn-in-africa' ? 'text-white' : 'text-gray-400 hover:text-white'}`}
         style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.03em' }}
       >
-        LDN in Africa
+        {t('navbar.ldnInAfrica')}
       </Link>
 
       {/* Geoportal dropdown */}
-      <NavDropdown label="Geoportal">
-        <DropdownLink href="/map" active={pathname === '/map'}>Map</DropdownLink>
-        <DropdownLink href="/geoportail" active={pathname === '/geoportail'}>Outline</DropdownLink>
-        <DropdownSeparator />
-        <DropdownLink href="/contribution" active={pathname === '/contribution'}>Contribution</DropdownLink>
+      <NavDropdown label={t('navbar.geoportal')}>
+        <DropdownLink href="/map" active={pathname === '/map'}>{t('navbar.map')}</DropdownLink>
+        <DropdownLink href="/geoportail" active={pathname === '/geoportail'}>{t('navbar.outline')}</DropdownLink>
+
       </NavDropdown>
 
       {/* Dashboard dropdown */}
-      <NavDropdown label="Dashboard">
-        <DropdownLink href="/dashboard" active={pathname === '/dashboard'}>Dashboard</DropdownLink>
-        <DropdownLink href="/ldn-dashboard" active={pathname === '/ldn-dashboard'}>LDN Dashboard</DropdownLink>
+      <NavDropdown label={t('navbar.dashboard')}>
+        <DropdownLink href="/dashboard" active={pathname === '/dashboard'}>{t('navbar.dashboard')}</DropdownLink>
+        <DropdownLink href="/ldn-dashboard" active={pathname === '/ldn-dashboard'}>{t('navbar.ldnDashboard')}</DropdownLink>
       </NavDropdown>
 
       {/* Stories dropdown */}
-      <NavDropdown label="Stories">
-        <DropdownLink href="/story" active={pathname === '/story'}>Data Story · 2024</DropdownLink>
-        <DropdownLink href="/success-stories" active={pathname === '/success-stories'}>Success Stories</DropdownLink>
+      <NavDropdown label={t('navbar.stories')}>
+        <DropdownLink href="/story" active={pathname === '/story'}>{t('navbar.dataStory')}</DropdownLink>
+        <DropdownLink href="/success-stories" active={pathname === '/success-stories'}>{t('navbar.successStories')}</DropdownLink>
       </NavDropdown>
 
       {/* Resources */}
@@ -149,7 +148,7 @@ export default function Navbar() {
         className={`text-sm transition-colors duration-200 ${pathname === '/resources' ? 'text-white' : 'text-gray-400 hover:text-white'}`}
         style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.03em' }}
       >
-        Resources
+        {t('navbar.resources')}
       </Link>
     </>
   )
@@ -193,21 +192,21 @@ export default function Navbar() {
                       className={`text-sm transition-colors duration-200 ${pathname === '/admin' ? 'text-white' : 'text-gray-400 hover:text-white'}`}
                       style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.03em' }}
                     >
-                      Admin
+                      {t('navbar.admin')}
                     </Link>
                     <Link
                       href="/reports"
                       className={`text-sm transition-colors duration-200 ${pathname === '/reports' ? 'text-white' : 'text-gray-400 hover:text-white'}`}
                       style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.03em' }}
                     >
-                      Reports
+                      {t('navbar.reports')}
                     </Link>
                     <Link
                       href="/report-view"
                       className={`text-sm transition-colors duration-200 ${pathname === '/report-view' ? 'text-white' : 'text-gray-400 hover:text-white'}`}
                       style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.03em' }}
                     >
-                      Report View
+                      {t('navbar.reportView')}
                     </Link>
                   </>
                 )}
@@ -243,7 +242,7 @@ export default function Navbar() {
                   className="text-sm text-gray-400 hover:text-white transition-colors duration-200"
                   style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.03em' }}
                 >
-                  Connexion
+                  {t('navbar.login')}
                 </Link>
 
                 <LanguageSwitcher />

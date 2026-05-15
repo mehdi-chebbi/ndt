@@ -2,8 +2,8 @@
   "hero": {
     "eyebrow": "Cartes de dégradation des terres et données géospatiales en Afrique",
     "title": "Géoportail",
-    "description": "Explorez des cartes interactives et des jeux de données géospatiales sur la dégradation des terres en Afrique. Accédez aux indicateurs spatiaux, statistiques et outils pour analyser les tendances environnementales et soutenir la prise de décision.",
-    "tagline": "Explorez les cartes. Visualisez les données. Découvrez des informations."
+    "description": "Explorer des cartes interactives et des jeux de données géospatiales sur la dégradation des terres en Afrique. Accédez aux indicateurs spatiaux, statistiques et outils pour analyser les tendances environnementales et soutenir la prise de décision.",
+    "tagline": "Explorer les cartes. Visualiser les données. Découvrir des informations."
   },
   "about": {
     "paragraph1": "Le Géoportail fournit un accès aux données géospatiales sur les terres et l'environnement en Afrique, permettant aux utilisateurs de visualiser, analyser et télécharger des jeux de données spatiales à travers le continent.",
@@ -23,17 +23,17 @@
   },
   "howToUse": {
     "heading": "Comment utiliser le géoportail",
-    "intro": "Commencez en quelques étapes :",
-    "step1": "Choisissez un indicateur ou un jeu de données",
-    "step2": "Ajustez la période temporelle",
-    "step3": "Visualisez les résultats sur la carte interactive",
-    "step4": "Comparez les couches thématiques",
-    "step5": "Sélectionnez un pays ou une région",
-    "step6": "Générez les statistiques",
-    "step7": "Téléchargez les données ou intégrez-les dans votre analyse"
+    "intro": "Commencer en quelques étapes :",
+    "step1": "Choisir un indicateur ou un jeu de données",
+    "step2": "Ajuster la période temporelle",
+    "step3": "Visualiser les résultats sur la carte interactive",
+    "step4": "Comparer les couches thématiques",
+    "step5": "Sélectionner un pays ou une région",
+    "step6": "Générer les statistiques",
+    "step7": "Télécharger les données ou les intégrer dans votre analyse"
   },
   "startExploring": {
-    "heading": "Commencez à explorer le Géoportail",
+    "heading": "Commencer à explorer le Géoportail",
     "openMap": "Ouvrir la carte interactive",
     "exploreIndicators": "Explorer les indicateurs",
     "downloadData": "Télécharger les données"
