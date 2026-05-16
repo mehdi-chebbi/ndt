@@ -8,7 +8,8 @@ const sans = { fontFamily: 'system-ui, sans-serif' }
 const serif = { fontFamily: "'Georgia', serif" }
 
 export default function GeoportailPage() {
-  const { t } = useTranslation('geoportail')
+  const { t, i18n } = useTranslation('geoportail')
+  const lang = i18n.language
 
   return (
     <div className="min-h-screen bg-[#0a0f0d] text-white" style={serif}>
@@ -87,7 +88,7 @@ export default function GeoportailPage() {
               {/* Image under About text */}
               <div className="rounded-lg border border-white/10 overflow-hidden">
                 <Image
-                  src="/images/geoportal/Image_Geoportal_1.png"
+                  src={lang === 'fr' ? '/images/geoportal/Image_Geoportal_1_fr.png' : '/images/geoportal/Image_Geoportal_1.png'}
                   alt="About the Geoportal"
                   width={1536}
                   height={1024}
@@ -139,7 +140,7 @@ export default function GeoportailPage() {
             <div className="max-w-4xl">
               <div className="rounded-lg border border-white/10 overflow-hidden">
                 <Image
-                  src="/images/geoportal/Image_Geoportal_2.png"
+                  src={lang === 'fr' ? '/images/geoportal/Image_Geoportal_2_fr.png' : '/images/geoportal/Image_Geoportal_2.png'}
                   alt="What you can do with the Geoportal"
                   width={1536}
                   height={1024}

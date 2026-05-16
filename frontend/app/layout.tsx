@@ -9,8 +9,11 @@ import ScrollToTop from '@/components/ScrollToTop'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Platform',
-  description: 'A simple platform',
+  title: 'LDN in Africa',
+  description: 'Africa\'s Integrated Land Degradation Monitoring System',
+  icons: {
+    icon: '/images/Logo-ILDMC.png',
+  },
 }
 
 export default function RootLayout({

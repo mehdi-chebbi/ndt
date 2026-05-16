@@ -23,11 +23,11 @@
   },
   "ldnPlatform": {
     "heading": "Africa's Integrated Land Degradation Monitoring System",
-    "subtitle": "LDN Platform Africa",
+    "subtitle": "LDN in Africa Platform",
     "description": "to support sustainable land management and Land Degradation Neutrality (LDN).",
     "tagline": "Access data. Analyse trends. Support decision-making.",
     "overview": {
-      "title": "Overview of the Africa Land Degradation Monitoring System | LDN Platform Africa",
+      "title": "Overview of the Africa Land Degradation Monitoring System | LDN in Africa Platform",
       "paragraph1": "Land degradation is one of the most pressing environmental challenges in Africa, affecting agricultural productivity, water availability, biodiversity, and climate resilience. According to global assessments, Africa loses millions of hectares of productive land every year due to soil erosion, desertification, and unsustainable land use practices.",
       "paragraph2": "This platform provides a centralized and integrated system for monitoring land degradation in Africa, enabling countries, institutions, and stakeholders to:",
       "item1": "Track progress toward Land Degradation Neutrality (LDN).",
@@ -45,8 +45,8 @@
     "closingText": "Monitoring and reversing these trends is essential to achieving sustainable development and climate resilience."
   },
   "roleOfLDN": {
-    "heading": "The Role of the LDN Platform in Africa",
-    "description": "The LDN Platform Africa serves as a centralized system for land degradation monitoring in Africa, integrating environmental, geospatial, and hydrological data into a single access point.",
+    "heading": "The Role of the LDN in Africa Platform",
+    "description": "The LDN in Africa Platform serves as a centralized system for land degradation monitoring in Africa, integrating environmental, geospatial, and hydrological data into a single access point.",
     "contributesTo": "The platform contributes to:",
     "item1": "Improving the accuracy of land degradation monitoring at national and continental levels.",
     "item2": "Supporting sustainable land-use planning and agricultural management.",
@@ -122,6 +122,7 @@
     "heading": "Events and News",
     "eventsHeld": "Events Already Held",
     "upcomingEvents": "Upcoming Events",
+    "ongoingEvents": "Ongoing Events",
     "viewDetails": "View details",
     "held1": {
       "date": "February 25, 2026",
@@ -139,7 +140,7 @@
       "date": "March 28, 2026 — Djerba, Tunisia",
       "title": "Workshop to strengthen the reporting of Land Degradation Neutrality, on the sidelines of the Desertif'Actions 2026 International Summit."
     },
-    "upcoming1": {
+    "ongoing1": {
       "date": "May 18–22, 2026 — Dakar, Senegal",
       "title": "Regional capacity-building workshop on reporting for Francophone African countries (Annex I Parties)."
     },

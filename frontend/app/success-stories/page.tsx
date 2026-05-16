@@ -63,7 +63,8 @@ const TOPIC_ICONS = [
 ]
 
 export default function SuccessStoriesPage() {
-  const { t } = useTranslation('success-stories')
+  const { t, i18n } = useTranslation('success-stories')
+  const lang = i18n.language
 
   return (
     <div className="min-h-screen bg-[#0a0f0d] text-white overflow-x-hidden" style={serif}>
@@ -170,7 +171,7 @@ export default function SuccessStoriesPage() {
           <Stagger delay={0}>
             <div className="rounded-xl border border-white/10 overflow-hidden">
               <Image
-                src="/images/success-stories/Sucess_Story_Image_1.png"
+                src={lang === 'fr' ? '/images/success-stories/Sucess_Story_Image_1_fr.png' : '/images/success-stories/Sucess_Story_Image_1.png'}
                 alt="Success stories"
                 width={1536}
                 height={1024}

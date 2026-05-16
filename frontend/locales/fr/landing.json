@@ -56,7 +56,7 @@
   },
   "keyAssets": {
     "heading": "Atouts clés du Système intégré de Suivi de la Neutralité en matière de dégradation des terres en Afrique",
-    "description": "Ce système comble le fossé entre les données et la prise de décision en fournissant :",
+    "description": "Ce système fait le lien entre les données et la prise de décision en fournissant :",
     "item1": "Des jeux de données fiables et harmonisés à travers l'Afrique.",
     "item2": "Des outils pour surveiller les tendances de dégradation des terres au fil du temps.",
     "item3": "Un soutien pour les cadres de rapport nationaux et internationaux.",
@@ -122,6 +122,7 @@
     "heading": "Événements et actualités",
     "eventsHeld": "Événements déjà tenus",
     "upcomingEvents": "Événements à venir",
+    "ongoingEvents": "Événements en cours",
     "viewDetails": "Voir les détails",
     "held1": {
       "date": "25 février 2026",
@@ -139,7 +140,7 @@
       "date": "28 mars 2026 — Djerba, Tunisie",
       "title": "Atelier pour renforcer les rapports sur la neutralité de la dégradation des terres, en marge du Sommet international Desertif'Actions 2026."
     },
-    "upcoming1": {
+    "ongoing1": {
       "date": "18–22 mai 2026 — Dakar, Sénégal",
       "title": "Atelier régional de renforcement des capacités sur les rapports pour les pays africains francophones (Parties de l'Annexe I)."
     },

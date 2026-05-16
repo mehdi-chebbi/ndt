@@ -9,7 +9,8 @@ const sans = { fontFamily: 'system-ui, sans-serif' }
 const serif = { fontFamily: "'Georgia', serif" }
 
 export default function LDNInAfricaPage() {
-  const { t } = useTranslation('ldn-in-africa')
+  const { t, i18n } = useTranslation('ldn-in-africa')
+  const lang = i18n.language
 
   return (
     <div className="min-h-screen bg-[#0a0f0d] text-white" style={serif}>
@@ -75,7 +76,7 @@ export default function LDNInAfricaPage() {
           <div className="mb-20">
             <div className="rounded-xl border border-white/10 overflow-hidden">
               <Image
-                src="/images/ldn-africa/Image_LDN_1.png"
+                src={lang === 'fr' ? '/images/ldn-africa/Image_LDN_1_fr.png' : '/images/ldn-africa/Image_LDN_1.png'}
                 alt="LDN in Africa overview"
                 width={1536}
                 height={1024}
@@ -199,7 +200,7 @@ export default function LDNInAfricaPage() {
               <div className="lg:w-[45%] shrink-0">
                 <div className="rounded-xl border border-white/10 overflow-hidden h-full">
                   <Image
-                    src="/images/ldn-africa/Image_LDN_2.png"
+                    src={lang === 'fr' ? '/images/ldn-africa/Image_LDN_2_fr.png' : '/images/ldn-africa/Image_LDN_2.png'}
                     alt="Land degradation in Africa"
                     width={1536}
                     height={1024}
@@ -339,7 +340,7 @@ export default function LDNInAfricaPage() {
             <div className="max-w-4xl mx-auto">
               <div className="rounded-lg border border-white/10 overflow-hidden">
                 <Image
-                  src="/images/ldn-africa/Image_LDN_3.png"
+                  src={lang === 'fr' ? '/images/ldn-africa/Image_LDN_3_fr.png' : '/images/ldn-africa/Image_LDN_3.png'}
                   alt="Monitoring LDN in Africa"
                   width={1692}
                   height={930}
@@ -493,7 +494,7 @@ export default function LDNInAfricaPage() {
               {/* Image */}
               <div className="mt-8 rounded-lg border border-white/10 overflow-hidden">
                 <Image
-                  src="/images/ldn-africa/Image_LDN_5.png"
+                  src={lang === 'fr' ? '/images/ldn-africa/Image_LDN_5_fr.png' : '/images/ldn-africa/Image_LDN_5.png'}
                   alt="Why LDN matters for Africa"
                   width={1290}
                   height={640}

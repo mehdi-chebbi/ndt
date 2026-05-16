@@ -67,7 +67,7 @@
   "selectCountryHint": "Select a country above to enable the phone field",
   "footer": {
     "systemName": "Africa's Integrated LDN Monitoring System",
-    "platformName": "LDN Platform Africa",
+    "platformName": "LDN in Africa Platform",
     "tagline": "Monitor land degradation. Track LDN. Support sustainable land management across Africa.",
     "pages": "Pages",
     "home": "Home",
@@ -88,7 +88,7 @@
     "addressLine4": "Tunis, Carthage 1080",
     "addressLine5": "Tunisia",
     "developedBy": "Developed by OSS",
-    "copyright": "© {{year}} LDN Platform Africa. All rights reserved.",
+    "copyright": "© {{year}} LDN in Africa Platform. All rights reserved.",
     "about": "About",
     "documentation": "Documentation"
   },

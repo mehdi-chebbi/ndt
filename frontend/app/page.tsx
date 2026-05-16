@@ -12,7 +12,8 @@ const serif = { fontFamily: "'Georgia', serif" }
 
 export default function HomePage() {
   const { isAuthenticated, user } = useAuth()
-  const { t } = useTranslation('landing')
+  const { t, i18n } = useTranslation('landing')
+  const lang = i18n.language
   const [mounted, setMounted] = useState(false)
 
   // Contact form state
@@ -263,7 +264,7 @@ export default function HomePage() {
                 {/* Image under Key Facts text */}
                 <div className="mt-6 rounded-lg border border-gray-200 overflow-hidden">
                   <Image
-                    src="/images/home/Image_Land-degradation_8.png"
+                    src={lang === 'fr' ? '/images/home/Image_Land-degradation_8_fr.png' : '/images/home/Image_Land-degradation_8.png'}
                     alt="Land degradation key facts"
                     width={1496}
                     height={570}
@@ -378,7 +379,7 @@ export default function HomePage() {
                 {/* Image under Key Assets text */}
                 <div className="rounded-lg border border-gray-200 overflow-hidden">
                   <Image
-                    src="/images/home/Image_Land-degradation_7.png"
+                    src={lang === 'fr' ? '/images/home/Image_Land-degradation_7_fr.png' : '/images/home/Image_Land-degradation_7.png'}
                     alt="Key assets of the monitoring system"
                     width={1796}
                     height={876}
@@ -700,7 +701,45 @@ export default function HomePage() {
               </div>
             </div>
 
-            {/* Events in progress */}
+            {/* Events in progress — Ongoing */}
+            <div>
+              <h3 className="text-sm font-medium text-amber-400/90 uppercase tracking-widest mb-5 flex items-center gap-2" style={sans}>
+                <span className="relative flex h-2 w-2">
+                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-amber-400 opacity-75" />
+                  <span className="relative inline-flex rounded-full h-2 w-2 bg-amber-400" />
+                </span>
+                {t('events.ongoingEvents')}
+              </h3>
+              <div className="space-y-4">
+                {[
+                  {
+                    date: t('events.ongoing1.date'),
+                    title: t('events.ongoing1.title'),
+                  },
+                ].map((event, i) => (
+                  <div
+                    key={i}
+                    className="block p-5 rounded-xl border border-amber-400/20 bg-amber-400/[0.03]"
+                  >
+                    <div className="flex items-start gap-4">
+                      <div className="flex-shrink-0 w-12 h-12 rounded-lg bg-amber-500/10 flex items-center justify-center mt-0.5">
+                        <svg className="w-5 h-5 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                        </svg>
+                      </div>
+                      <div className="flex-1 min-w-0">
+                        <p className="text-xs text-amber-400/80 mb-1 font-medium" style={sans}>{event.date}</p>
+                        <p className="text-sm text-gray-200 leading-relaxed" style={sans}>
+                          {event.title}
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Upcoming Events */}
             <div>
               <h3 className="text-sm font-medium text-green-400/90 uppercase tracking-widest mb-5 flex items-center gap-2" style={sans}>
                 <span className="relative flex h-2 w-2">
@@ -711,10 +750,6 @@ export default function HomePage() {
               </h3>
               <div className="space-y-4">
                 {[
-                  {
-                    date: t('events.upcoming1.date'),
-                    title: t('events.upcoming1.title'),
-                  },
                   {
                     date: t('events.upcoming2.date'),
                     title: t('events.upcoming2.title'),
