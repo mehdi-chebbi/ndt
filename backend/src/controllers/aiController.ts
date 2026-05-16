@@ -1489,6 +1489,8 @@ async function streamAiToClient(
   let buffer = '';
   let accumulated = '';
   let toolJsonLeaked = false; // track if we detected a tool JSON leak
+  let hasSeenContent = false; // track if the model ever produced real content
+  let reasoningBuffer = '';   // buffer for reasoning_content (in case model never produces content)
 
   while (true) {
     const { done, value } = await reader.read();
@@ -1500,9 +1502,14 @@ async function streamAiToClient(
         if (trimmed && trimmed !== 'data: [DONE]' && trimmed.startsWith('data: ')) {
           try {
             const parsed = JSON.parse(trimmed.slice(6));
-            const content = parsed.choices?.[0]?.delta?.content;
+            const delta = parsed.choices?.[0]?.delta;
+            const content = delta?.content || '';
+            const reasoning = delta?.reasoning_content || '';
             if (content) {
+              hasSeenContent = true;
               accumulated += content;
+            } else if (reasoning) {
+              reasoningBuffer += reasoning;
             }
           } catch { /* skip */ }
         }
@@ -1522,25 +1529,35 @@ async function streamAiToClient(
       if (trimmed.startsWith('data: ')) {
         try {
           const parsed = JSON.parse(trimmed.slice(6));
-          const content = parsed.choices?.[0]?.delta?.content;
+          const delta = parsed.choices?.[0]?.delta;
+
+          // Handle reasoning models (e.g. Qwen3):
+          // - Some models put final answer in `content` and thinking in `reasoning_content`
+          // - Some models put EVERYTHING in `reasoning_content` and never populate `content`
+          // Strategy: prefer `content`; silently buffer `reasoning_content` as fallback.
+          const content = delta?.content || '';
+          const reasoning = delta?.reasoning_content || '';
+
           if (content) {
+            hasSeenContent = true;
             accumulated += content;
 
             // Guard: if filtering is on and we detect a tool JSON leak, stop forwarding
             if (filterToolJson && !toolJsonLeaked && accumulated.includes('{"tools"')) {
               toolJsonLeaked = true;
               aiLogger.warning('Round 2: tool JSON leak detected — suppressing output');
-              // Silently suppress: continue accumulating for cleanup, but don't forward to client
               continue;
             }
 
             if (toolJsonLeaked) {
-              // Still accumulating for DB storage but not forwarding to client
               continue;
             }
 
             const payload = eventType ? { type: eventType, content } : { content };
             res.write(`data: ${JSON.stringify(payload)}\n\n`);
+          } else if (reasoning) {
+            // Buffer reasoning silently — only used as fallback if no content ever arrives
+            reasoningBuffer += reasoning;
           }
         } catch {
           // Non-critical parse error, skip
@@ -1560,6 +1577,18 @@ async function streamAiToClient(
       accumulated = 'I retrieved the data but encountered an issue formatting the response. Please try again.';
     }
     res.write(`data: ${JSON.stringify({ content: accumulated })}\n\n`);
+  }
+
+  // Fallback for reasoning-only models (e.g. Qwen3):
+  // If the model never produced `content` but put everything in `reasoning_content`,
+  // use the reasoning buffer as the final answer.
+  if (!hasSeenContent && reasoningBuffer.trim()) {
+    accumulated = reasoningBuffer.trim();
+    aiLogger.info('streamAiToClient: no content field — using reasoning_content as fallback', {
+      length: accumulated.length,
+    });
+    // Stream the buffered reasoning content to the client
+    await fakeStreamToClient(res, accumulated);
   }
 
   return accumulated;
