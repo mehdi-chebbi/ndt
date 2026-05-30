@@ -245,8 +245,7 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
     // Store reference but don't add to map yet
     drawControlRef.current = drawControl
 
-    // Add zoom control to bottom-right
-    L.control.zoom({ position: 'bottomright' }).addTo(map)
+    // Zoom control removed — users can zoom with scroll wheel / pinch
 
     mapRef.current = map
 

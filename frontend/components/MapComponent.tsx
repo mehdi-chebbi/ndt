@@ -27,6 +27,7 @@ import { useMapHandlers } from './map/useMapHandlers'
 import { api } from '@/lib/authFetch'
 import { useTranslation } from 'react-i18next'
 import i18next from 'i18next'
+import SearchableSelect from './ui/SearchableSelect'
 
 interface ReportToView {
   id: number
@@ -179,11 +180,11 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
     return flattenGroupsWithLayers(state.groupedLayers.groups, state.groupedLayers.ungroupedLayers)
   }, [state.groupedLayers])
 
-  // Get all layers flattened
-  const allLayers = [
+  // Get all layers flattened (memoized to keep stable reference)
+  const allLayers = useMemo(() => [
     ...flattenLayers(state.groupedLayers.groups),
     ...state.groupedLayers.ungroupedLayers
-  ]
+  ], [state.groupedLayers.groups, state.groupedLayers.ungroupedLayers])
 
   // Find the active layer and its inherited legend
   const { activeLayerLegend, activeLayerName } = useMemo(() => {
@@ -557,6 +558,51 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
     return () => { cancelled = true }
   }, [state.activeDataLayers, state.selectedCountry, allLayers, switchToClippedLayer])
 
+  // Re-fetch country stats when the active layer changes while a country is selected
+  useEffect(() => {
+    if (state.activeDataLayers.length === 0 || !state.selectedCountry) {
+      setCountryStats(null)
+      return
+    }
+
+    const activeLayerKey = state.activeDataLayers[0]
+    const layer = allLayers.find(l => l.geoserver_name === activeLayerKey)
+    if (!layer?.id) {
+      setCountryStats(null)
+      return
+    }
+
+    let cancelled = false
+    setIsCountryStatsLoading(true)
+
+    api.get(`/stats/country/${state.selectedCountry.file}/layer/${layer.id}`)
+      .then(res => {
+        if (cancelled || !res.ok) return null
+        return res.json()
+      })
+      .then(data => {
+        if (cancelled || !data) return
+        if (data.classes && data.classes.length > 0) {
+          setCountryStats({
+            layer_name: data.layer_name || layer.name,
+            total_area_km2: data.total_area_km2,
+            pixel_size_m: data.pixel_size_m,
+            classes: data.classes,
+          })
+        } else {
+          setCountryStats(null)
+        }
+      })
+      .catch(() => {
+        if (!cancelled) setCountryStats(null)
+      })
+      .finally(() => {
+        if (!cancelled) setIsCountryStatsLoading(false)
+      })
+
+    return () => { cancelled = true }
+  }, [state.activeDataLayers, state.selectedCountry, allLayers])
+
   // Auto-cancel stats mode when switching away from the stats tab
   useEffect(() => {
     if (state.activeTab !== 'stats' && state.statsMode) {
@@ -872,7 +918,8 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
         </div>
       </div>
 
-      {/* Sidebar Toggle Button */}
+      {/* Sidebar Toggle Button — hidden in compare mode */}
+      {!isCompareMode && (
       <button
         onClick={() => state.setSidebarOpen(!state.sidebarOpen)}
         className={`left-0 top-1/2 transform -translate-y-1/2 bg-gray-900 text-white p-3 rounded-r-lg shadow-lg transition-all duration-300 z-50 absolute ${
@@ -888,6 +935,7 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
         </svg>
       </button>
+      )}
 
       {/* Country Selector - positioned right next to sidebar */}
       <div
@@ -1058,10 +1106,10 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
             onClick={() => handleOpenLayerChange('left')}
             className="absolute top-4 left-4 z-[1000] bg-black/75 text-white
                             text-sm font-medium px-3 py-2 rounded shadow-lg
-                            max-w-xs truncate cursor-pointer hover:bg-black/85
+                            max-w-xs cursor-pointer hover:bg-black/85
                             transition-colors flex items-center gap-2"
           >
-            <span>{getFullLayerLabel(leftGroupId, leftLayerId)}</span>
+            <span className="break-words">{getFullLayerLabel(leftGroupId, leftLayerId)}</span>
             <svg className="w-4 h-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
             </svg>
@@ -1072,13 +1120,13 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
             onClick={() => handleOpenLayerChange('right')}
             className="absolute top-4 right-4 z-[1000] bg-black/75 text-white
                             text-sm font-medium px-3 py-2 rounded shadow-lg
-                            max-w-xs truncate cursor-pointer hover:bg-black/85
+                            max-w-xs cursor-pointer hover:bg-black/85
                             transition-colors flex items-center gap-2"
           >
             <svg className="w-4 h-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
             </svg>
-            <span>{getFullLayerLabel(rightGroupId, rightLayerId)}</span>
+            <span className="break-words">{getFullLayerLabel(rightGroupId, rightLayerId)}</span>
           </div>
 
           {/* Left Layer Legend - Bottom Left */}
@@ -1104,7 +1152,7 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
       {/* Compare Layer Picker Modal */}
       {showComparePicker && (
         <div className="absolute inset-0 z-[2000] flex items-center justify-center bg-black/30">
-          <div className="bg-white rounded-lg shadow-xl p-6 w-[600px]">
+          <div className="bg-white rounded-lg shadow-xl p-6 w-full max-w-md mx-4">
             <h3 className="text-lg font-semibold mb-6 text-gray-900">{t('mapComponent.compareLayers')}</h3>
 
             {/* Left Layer Selection */}
@@ -1112,37 +1160,31 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
               <label className="block text-sm font-medium text-gray-700 mb-2">
                 {t('mapComponent.leftLayer')}
               </label>
-              <div className="flex gap-2">
-                <select
+              <div className="space-y-2">
+                <SearchableSelect
                   data-tutorial="compare-left-group"
-                  value={leftGroupId ?? ''}
-                  onChange={(e) => {
-                    setLeftGroupId(e.target.value ? (isNaN(Number(e.target.value)) ? e.target.value : Number(e.target.value)) : null)
+                  options={allGroupsWithLayers.filter(g => g.layers.length > 0).map(group => ({
+                    value: String(group.id),
+                    label: group.path,
+                  }))}
+                  value={leftGroupId != null ? String(leftGroupId) : ''}
+                  onChange={(val) => {
+                    setLeftGroupId(val ? (isNaN(Number(val)) ? val : Number(val)) : null)
                     setLeftLayerId('')
                   }}
-                  className="flex-1 border border-gray-300 rounded-lg px-3 py-2 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-blue-500"
-                >
-                  <option value="">{t('mapComponent.selectGroup')}</option>
-                  {allGroupsWithLayers.filter(g => g.layers.length > 0).map(group => (
-                    <option key={group.id} value={group.id}>
-                      {group.path}
-                    </option>
-                  ))}
-                </select>
-                <select
+                  placeholder={t('mapComponent.selectGroup')}
+                />
+                <SearchableSelect
                   data-tutorial="compare-left-layer"
+                  options={getLayersForGroup(leftGroupId).map(layer => ({
+                    value: layer.geoserver_name,
+                    label: layer.name,
+                  }))}
                   value={leftLayerId}
-                  onChange={(e) => setLeftLayerId(e.target.value)}
+                  onChange={setLeftLayerId}
+                  placeholder={t('mapComponent.selectLayer')}
                   disabled={!leftGroupId}
-                  className="flex-1 border border-gray-300 rounded-lg px-3 py-2 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-blue-500 disabled:bg-gray-100 disabled:cursor-not-allowed"
-                >
-                  <option value="">{t('mapComponent.selectLayer')}</option>
-                  {getLayersForGroup(leftGroupId).map(layer => (
-                    <option key={layer.geoserver_name} value={layer.geoserver_name}>
-                      {layer.name}
-                    </option>
-                  ))}
-                </select>
+                />
               </div>
             </div>
 
@@ -1151,37 +1193,31 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
               <label className="block text-sm font-medium text-gray-700 mb-2">
                 {t('mapComponent.rightLayer')}
               </label>
-              <div className="flex gap-2">
-                <select
+              <div className="space-y-2">
+                <SearchableSelect
                   data-tutorial="compare-right-group"
-                  value={rightGroupId ?? ''}
-                  onChange={(e) => {
-                    setRightGroupId(e.target.value ? (isNaN(Number(e.target.value)) ? e.target.value : Number(e.target.value)) : null)
+                  options={allGroupsWithLayers.filter(g => g.layers.length > 0).map(group => ({
+                    value: String(group.id),
+                    label: group.path,
+                  }))}
+                  value={rightGroupId != null ? String(rightGroupId) : ''}
+                  onChange={(val) => {
+                    setRightGroupId(val ? (isNaN(Number(val)) ? val : Number(val)) : null)
                     setRightLayerId('')
                   }}
-                  className="flex-1 border border-gray-300 rounded-lg px-3 py-2 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-blue-500"
-                >
-                  <option value="">{t('mapComponent.selectGroup')}</option>
-                  {allGroupsWithLayers.filter(g => g.layers.length > 0).map(group => (
-                    <option key={group.id} value={group.id}>
-                      {group.path}
-                    </option>
-                  ))}
-                </select>
-                <select
+                  placeholder={t('mapComponent.selectGroup')}
+                />
+                <SearchableSelect
                   data-tutorial="compare-right-layer"
+                  options={getLayersForGroup(rightGroupId).map(layer => ({
+                    value: layer.geoserver_name,
+                    label: layer.name,
+                  }))}
                   value={rightLayerId}
-                  onChange={(e) => setRightLayerId(e.target.value)}
+                  onChange={setRightLayerId}
+                  placeholder={t('mapComponent.selectLayer')}
                   disabled={!rightGroupId}
-                  className="flex-1 border border-gray-300 rounded-lg px-3 py-2 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-blue-500 disabled:bg-gray-100 disabled:cursor-not-allowed"
-                >
-                  <option value="">{t('mapComponent.selectLayer')}</option>
-                  {getLayersForGroup(rightGroupId).map(layer => (
-                    <option key={layer.geoserver_name} value={layer.geoserver_name}>
-                      {layer.name}
-                    </option>
-                  ))}
-                </select>
+                />
               </div>
             </div>
 
@@ -1222,7 +1258,7 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
       {/* Layer Change Modal */}
       {showLayerChangeModal && (
         <div className="absolute inset-0 z-[2100] flex items-center justify-center bg-black/30">
-          <div className="bg-white rounded-lg shadow-xl p-6 w-[600px]">
+          <div className="bg-white rounded-lg shadow-xl p-6 w-full max-w-md mx-4">
             <h3 className="text-lg font-semibold mb-6 text-gray-900">
               {t('mapComponent.changeLayer', { side: editingSide === 'left' ? t('mapComponent.leftLayer') : t('mapComponent.rightLayer') })}
             </h3>
@@ -1232,21 +1268,18 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
               <label className="block text-sm font-medium text-gray-700 mb-2">
                 {t('mapComponent.selectGroupLabel')}
               </label>
-              <select
-                value={tempGroupId ?? ''}
-                onChange={(e) => {
-                  setTempGroupId(e.target.value ? (isNaN(Number(e.target.value)) ? e.target.value : Number(e.target.value)) : null)
+              <SearchableSelect
+                options={allGroupsWithLayers.filter(g => g.layers.length > 0).map(group => ({
+                  value: String(group.id),
+                  label: group.path,
+                }))}
+                value={tempGroupId != null ? String(tempGroupId) : ''}
+                onChange={(val) => {
+                  setTempGroupId(val ? (isNaN(Number(val)) ? val : Number(val)) : null)
                   setTempLayerId('')
                 }}
-                className="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-blue-500"
-              >
-                <option value="">{t('mapComponent.selectGroup')}</option>
-                {allGroupsWithLayers.filter(g => g.layers.length > 0).map(group => (
-                  <option key={group.id} value={group.id}>
-                    {group.path}
-                  </option>
-                ))}
-              </select>
+                placeholder={t('mapComponent.selectGroup')}
+              />
             </div>
 
             {/* Layer Selection */}
@@ -1254,19 +1287,16 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
               <label className="block text-sm font-medium text-gray-700 mb-2">
                 {t('mapComponent.selectLayerLabel')}
               </label>
-              <select
+              <SearchableSelect
+                options={getLayersForGroup(tempGroupId).map(layer => ({
+                  value: layer.geoserver_name,
+                  label: layer.name,
+                }))}
                 value={tempLayerId}
-                onChange={(e) => setTempLayerId(e.target.value)}
+                onChange={setTempLayerId}
+                placeholder={t('mapComponent.selectLayer')}
                 disabled={!tempGroupId}
-                className="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-blue-500 disabled:bg-gray-100 disabled:cursor-not-allowed"
-              >
-                <option value="">{t('mapComponent.selectLayer')}</option>
-                {getLayersForGroup(tempGroupId).map(layer => (
-                  <option key={layer.geoserver_name} value={layer.geoserver_name}>
-                    {layer.name}
-                  </option>
-                ))}
-              </select>
+              />
             </div>
 
             {/* Action Buttons */}
