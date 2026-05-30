@@ -168,7 +168,7 @@ export const getUserActivity = async (req: AuthRequest, res: Response) => {
 
     // Get user info
     const userResult = await pool.query(
-      'SELECT id, name, email, role, country, institution, created_at FROM users WHERE id = $1',
+      'SELECT id, name, email, role, country, institution, phone_number, job_title, created_at FROM users WHERE id = $1',
       [userId]
     );
 

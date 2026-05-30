@@ -85,7 +85,7 @@ interface UserDetailChatSession {
 }
 
 interface UserDetail {
-  user: { id: number; name: string; email: string; role: string; country: string | null; institution: string | null; created_at: string }
+  user: { id: number; name: string; email: string; role: string; country: string | null; institution: string | null; phone_number: string | null; job_title: string | null; created_at: string }
   actions: UserDetailAction[]
   chatSessions: UserDetailChatSession[]
   actionCounts: { action_type: string; count: string }[]
@@ -620,7 +620,7 @@ export default function AnalyticsPage() {
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900">{selectedUser.user.name}</h3>
                     <p className="text-sm text-gray-500">{selectedUser.user.email}</p>
-                    <div className="flex gap-2 mt-1">
+                    <div className="flex gap-2 mt-1 flex-wrap">
                       <span className={`px-2 py-0.5 text-xs font-medium rounded-full ${
                         selectedUser.user.role === 'admin' ? 'bg-purple-100 text-purple-800' : 'bg-green-100 text-green-800'
                       }`}>
@@ -630,6 +630,26 @@ export default function AnalyticsPage() {
                         <span className="px-2 py-0.5 text-xs font-medium rounded-full bg-gray-100 text-gray-700">
                           {selectedUser.user.country}
                         </span>
+                      )}
+                    </div>
+                    <div className="mt-2 space-y-1 text-sm text-gray-600">
+                      {selectedUser.user.job_title && (
+                        <div className="flex items-center gap-2">
+                          <span className="text-gray-400">💼</span>
+                          <span>{selectedUser.user.job_title}</span>
+                        </div>
+                      )}
+                      {selectedUser.user.institution && (
+                        <div className="flex items-center gap-2">
+                          <span className="text-gray-400">🏛️</span>
+                          <span>{selectedUser.user.institution}</span>
+                        </div>
+                      )}
+                      {selectedUser.user.phone_number && (
+                        <div className="flex items-center gap-2">
+                          <span className="text-gray-400">📞</span>
+                          <span>{selectedUser.user.phone_number}</span>
+                        </div>
                       )}
                     </div>
                   </div>
