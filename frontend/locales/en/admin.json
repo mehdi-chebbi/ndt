@@ -23,6 +23,7 @@
     "manageLayerMetadata": "Manage Layer Metadata",
     "clipManagement": "Clip Management",
     "statsManagement": "Stats Management",
+    "analytics": "Analytics",
     "totalUsers": "Total Users",
     "adminUsers": "Admin Users",
     "regularUsers": "Regular Users",
@@ -39,6 +40,35 @@
       "failedToFetchUsers": "Failed to fetch users",
       "failedToDeleteUser": "Failed to delete user",
       "confirmDeleteUser": "Are you sure you want to delete this user?"
+    }
+  },
+  "analytics": {
+    "title": "Analytics",
+    "subtitle": "Track how users interact with the platform",
+    "totalActions": "Total Actions",
+    "layerViews": "Layer Views",
+    "aiChats": "AI Chats",
+    "activeUsers7d": "Active (7d)",
+    "activityTimeline": "Activity Timeline (30 days)",
+    "featurePopularity": "Feature Popularity",
+    "topLayers": "Top Viewed Layers",
+    "userActivity": "User Activity",
+    "searchUsers": "Search users...",
+    "noDataYet": "No data yet — tracking starts from deployment",
+    "viewDetails": "Details",
+    "userDetails": "User Details",
+    "recentActivity": "Recent Activity",
+    "chatSessions": "Chat Sessions",
+    "noActivityRecorded": "No activity recorded yet",
+    "table": {
+      "user": "User",
+      "layerViews": "Views",
+      "compares": "Compares",
+      "exports": "Exports",
+      "chats": "Sessions",
+      "messages": "Messages",
+      "lastActive": "Last Active",
+      "details": "Details"
     }
   },
   "layers": {

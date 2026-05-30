@@ -181,6 +181,7 @@ import tutorialRoutes from './routes/tutorialRoutes';
 import imageRoutes from './routes/imageRoutes';
 import statsBatchRoutes from './routes/statsBatchRoutes';
 import contactRoutes from './routes/contactRoutes';
+import analyticsRoutes from './routes/analyticsRoutes';
 
 app.use('/api/auth', authRoutes);
 app.use('/api/admin', userRoutes);
@@ -195,6 +196,7 @@ app.use('/api/users', tutorialRoutes);
 app.use('/api/ai', imageRoutes);
 app.use('/api/stats', statsBatchRoutes);
 app.use('/api/contact', contactRoutes);
+app.use('/api/analytics', analyticsRoutes);
 
 
 // Health check
@@ -452,6 +454,29 @@ async function initializeDatabase() {
 
     await pool.query(`
       CREATE INDEX IF NOT EXISTS idx_country_stats_layer ON country_stats(layer_id)
+    `);
+
+    // Create user_actions table (analytics tracking)
+    await pool.query(`
+      CREATE TABLE IF NOT EXISTS user_actions (
+        id SERIAL PRIMARY KEY,
+        user_id INTEGER NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+        action_type VARCHAR(50) NOT NULL CHECK (action_type IN ('layer_view', 'compare_started', 'map_exported')),
+        metadata JSONB,
+        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+      )
+    `);
+
+    await pool.query(`
+      CREATE INDEX IF NOT EXISTS idx_user_actions_user ON user_actions(user_id, created_at DESC)
+    `);
+
+    await pool.query(`
+      CREATE INDEX IF NOT EXISTS idx_user_actions_type ON user_actions(action_type, created_at DESC)
+    `);
+
+    await pool.query(`
+      CREATE INDEX IF NOT EXISTS idx_user_actions_created ON user_actions(created_at DESC)
     `);
 
     console.log('Database tables initialized successfully');

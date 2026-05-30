@@ -162,3 +162,17 @@ CREATE TABLE IF NOT EXISTS country_stats (
 -- Create indexes for country_stats
 CREATE INDEX IF NOT EXISTS idx_country_stats_country ON country_stats(country_file);
 CREATE INDEX IF NOT EXISTS idx_country_stats_layer ON country_stats(layer_id);
+
+-- Create user_actions table (analytics tracking)
+CREATE TABLE IF NOT EXISTS user_actions (
+  id SERIAL PRIMARY KEY,
+  user_id INTEGER NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+  action_type VARCHAR(50) NOT NULL CHECK (action_type IN ('layer_view', 'compare_started', 'map_exported')),
+  metadata JSONB,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Create indexes for user_actions
+CREATE INDEX IF NOT EXISTS idx_user_actions_user ON user_actions(user_id, created_at DESC);
+CREATE INDEX IF NOT EXISTS idx_user_actions_type ON user_actions(action_type, created_at DESC);
+CREATE INDEX IF NOT EXISTS idx_user_actions_created ON user_actions(created_at DESC);

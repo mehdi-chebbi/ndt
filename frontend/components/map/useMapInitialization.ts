@@ -11,6 +11,7 @@ import { basemaps } from './basemaps'
 import { Group, GroupedLayers, Layer, Polygon, PolygonGeometry } from './types'
 import { Country } from './useMapState'
 import { authFetch } from '@/lib/authFetch'
+import { trackAction } from '@/lib/analytics'
 
 // Helper function to calculate polygon area in km² using spherical calculation
 function calculatePolygonAreaKm2(polygon: Polygon): number {
@@ -550,6 +551,9 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
       setActiveDataLayers([layerKey])
       setSelectedLayerId(layer.id)
       setCurrentPolygon(null)
+
+      // Track layer view
+      trackAction('layer_view', { layerId: layer.id, layerName: layer.name, geoserverName: layer.geoserver_name })
     }
   }, [activeDataLayers, setActiveDataLayers, setSelectedLayerId, setCurrentPolygon])
 
@@ -712,6 +716,9 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
     if (!mapRef.current) return
     setIsExporting(true)
 
+    // Track map export
+    trackAction('map_exported', { format: 'jpeg' })
+
     leafletImage(mapRef.current, (err, canvas) => {
       if (err) {
         console.error('Export failed:', err)
@@ -729,6 +736,9 @@ export function useMapInitialization(props: UseMapInitializationProps): UseMapIn
   // Start compare mode with two layers side by side
   const handleStartCompare = useCallback((leftLayer: Layer, rightLayer: Layer, shouldZoom = true) => {
     if (!mapRef.current) return
+
+    // Track compare started
+    trackAction('compare_started', { leftLayer: leftLayer.name, rightLayer: rightLayer.name })
 
     // Remove any existing compare layers
     if (compareLeftLayerRef.current) mapRef.current.removeLayer(compareLeftLayerRef.current)

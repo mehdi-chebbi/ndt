@@ -23,6 +23,7 @@
     "manageLayerMetadata": "Gérer les métadonnées des couches",
     "clipManagement": "Gestion des découpages",
     "statsManagement": "Gestion des statistiques",
+    "analytics": "Analytique",
     "totalUsers": "Total utilisateurs",
     "adminUsers": "Utilisateurs admin",
     "regularUsers": "Utilisateurs standards",
@@ -39,6 +40,35 @@
       "failedToFetchUsers": "Échec du chargement des utilisateurs",
       "failedToDeleteUser": "Échec de la suppression de l'utilisateur",
       "confirmDeleteUser": "Êtes-vous sûr de vouloir supprimer cet utilisateur\u00a0?"
+    }
+  },
+  "analytics": {
+    "title": "Analytique",
+    "subtitle": "Suivez la façon dont les utilisateurs interagissent avec la plateforme",
+    "totalActions": "Actions totales",
+    "layerViews": "Vues de couches",
+    "aiChats": "Chats IA",
+    "activeUsers7d": "Actifs (7j)",
+    "activityTimeline": "Chronologie d'activité (30 jours)",
+    "featurePopularity": "Popularité des fonctionnalités",
+    "topLayers": "Couches les plus vues",
+    "userActivity": "Activité des utilisateurs",
+    "searchUsers": "Rechercher des utilisateurs...",
+    "noDataYet": "Pas encore de données — le suivi commence au déploiement",
+    "viewDetails": "Détails",
+    "userDetails": "Détails de l'utilisateur",
+    "recentActivity": "Activité récente",
+    "chatSessions": "Sessions de chat",
+    "noActivityRecorded": "Aucune activité enregistrée",
+    "table": {
+      "user": "Utilisateur",
+      "layerViews": "Vues",
+      "compares": "Comparaisons",
+      "exports": "Exports",
+      "chats": "Sessions",
+      "messages": "Messages",
+      "lastActive": "Dernière activité",
+      "details": "Détails"
     }
   },
   "layers": {
