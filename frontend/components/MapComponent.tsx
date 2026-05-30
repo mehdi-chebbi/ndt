@@ -939,7 +939,7 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
 
       {/* Country Selector - positioned right next to sidebar */}
       <div
-        className={`absolute top-16 z-40 transition-all duration-300 ${
+        className={`absolute top-16 z-[1100] transition-all duration-300 ${
           state.sidebarOpen ? 'left-[400px]' : 'left-[60px]'
         }`}
       >
