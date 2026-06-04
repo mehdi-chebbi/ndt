@@ -142,14 +142,11 @@ export default function Navbar() {
         <DropdownLink href="/success-stories" active={pathname === '/success-stories'}>{t('navbar.successStories')}</DropdownLink>
       </NavDropdown>
 
-      {/* Resources */}
-      <Link
-        href="/resources"
-        className={`text-sm transition-colors duration-200 ${pathname === '/resources' ? 'text-white' : 'text-gray-400 hover:text-white'}`}
-        style={{ fontFamily: 'system-ui, sans-serif', letterSpacing: '0.03em' }}
-      >
-        {t('navbar.resources')}
-      </Link>
+      {/* Library dropdown */}
+      <NavDropdown label={t('navbar.library')}>
+        <DropdownLink href="/resources" active={pathname === '/resources'}>{t('navbar.resources')}</DropdownLink>
+        <DropdownLink href="/api-docs" active={pathname === '/api-docs'}>{t('navbar.apiDocs')}</DropdownLink>
+      </NavDropdown>
     </>
   )
 

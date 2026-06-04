@@ -151,6 +151,7 @@ export default function ApiDocsPage() {
     try {
       const res = await authFetch('/clip/country', {
         method: 'POST',
+        skipAuth: true,
         body: JSON.stringify({ countryFile: countryFile, layerId: selectedLayer.id }),
       })
       if (res.ok) {
@@ -631,7 +632,7 @@ export default function ApiDocsPage() {
                           <select
                             value={selectedCountry}
                             onChange={function (e) { handleSelectCountry(e.target.value) }}
-                            className="w-full px-3 py-2 bg-white/5 border border-white/10 rounded-lg text-sm text-gray-300 focus:outline-none focus:ring-2 focus:ring-green-500/40 focus:border-green-500/40 transition appearance-none cursor-pointer"
+                            className="w-full px-3 py-2 bg-white/5 border border-white/10 rounded-lg text-sm text-gray-300 focus:outline-none focus:ring-2 focus:ring-green-500/40 focus:border-green-500/40 transition appearance-none cursor-pointer [&>option]:text-black [&>option]:bg-white"
                           >
                             <option value="" disabled>
                               Choose a country...

@@ -107,7 +107,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
   // Watch for auth changes and redirect to login if needed
   useEffect(() => {
-    const publicPaths = ['/', '/login', '/signup', '/forgot-password', '/giniwatch-africa', '/waterwatch-africa', '/geoportail', '/ldn-in-africa', '/resources']
+    const publicPaths = ['/', '/login', '/signup', '/forgot-password', '/giniwatch-africa', '/waterwatch-africa', '/geoportail', '/ldn-in-africa', '/resources', '/api-docs']
     const isPublicPath = publicPaths.includes(pathname) || pathname.startsWith('/auth/')
 
     if (!isAuthenticated && !loading && !isPublicPath) {
