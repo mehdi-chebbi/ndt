@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useState, useRef, useCallback } from 'react'
+import { useEffect, useState, useRef, useCallback, forwardRef, useImperativeHandle } from 'react'
 import { useAuth } from '@/contexts/AuthContext'
 import { authFetch } from '@/lib/authFetch'
 import { useTranslation } from 'react-i18next'
@@ -414,15 +414,16 @@ const LC_COLORS = [
 
 // ─── Donut Chart Component ────────────────────────────────────────────────────
 
-function DonutChart({
-  classes,
-  colorFn,
-  height = 180,
-}: {
+const DonutChart = forwardRef<{ getImage: () => string | null }, {
   classes: StatsClass[]
   colorFn: (name: string) => string
   height?: number
-}) {
+}>(function DonutChart({ classes, colorFn, height = 180 }, ref) {
+  const innerRef = useRef<any>(null)
+  useImperativeHandle(ref, () => ({
+    getImage: () => innerRef.current?.toBase64Image() ?? null
+  }))
+
   if (!classes || classes.length === 0) return null
 
   const sortedClasses = [...classes].sort((a, b) => b.percentage - a.percentage)
@@ -465,10 +466,10 @@ function DonutChart({
 
   return (
     <div style={{ width: '100%', height: `${height}px` }}>
-      <Doughnut data={data} options={options} />
+      <Doughnut ref={innerRef} data={data} options={options} />
     </div>
   )
-}
+})
 
 // ─── Class List Component ─────────────────────────────────────────────────────
 
@@ -499,9 +500,26 @@ function ClassList({ classes, colorFn }: { classes: StatsClass[]; colorFn: (name
 
 // ─── Gini Line Chart Component ────────────────────────────────────────────────
 
-function GiniLineChart({ readings }: { readings: GiniReading[] }) {
+const GiniLineChart = forwardRef<{ getImage: () => string | null }, { readings: GiniReading[] }>(function GiniLineChart({ readings }, ref) {
   const chartRef = useRef<HTMLCanvasElement>(null)
   const chartInstanceRef = useRef<any>(null)
+
+  useImperativeHandle(ref, () => ({
+    getImage: () => {
+      const chart = chartInstanceRef.current
+      if (!chart) return null
+      // Force non-animated render to capture final state.
+      // Without this, toBase64Image() can capture mid-animation frames
+      // where all values appear as 0 (e.g. after parent re-render triggers
+      // chart recreation when the export modal opens).
+      const anim = chart.options.animation
+      chart.options.animation = false as any
+      chart.update('none')
+      const img = chart.toBase64Image()
+      chart.options.animation = anim
+      return img
+    }
+  }))
 
   useEffect(() => {
     if (!chartRef.current || readings.length < 2) return
@@ -580,13 +598,30 @@ function GiniLineChart({ readings }: { readings: GiniReading[] }) {
   }, [readings])
 
   return <canvas ref={chartRef} />
-}
+})
 
 // ─── SPI Time Series Chart Component ──────────────────────────────────────────
 
-function SpiTimeSeriesChart({ labels, values }: { labels: string[]; values: number[] }) {
+const SpiTimeSeriesChart = forwardRef<{ getImage: () => string | null }, { labels: string[]; values: number[] }>(function SpiTimeSeriesChart({ labels, values }, ref) {
   const chartRef = useRef<HTMLCanvasElement>(null)
   const chartInstanceRef = useRef<any>(null)
+
+  useImperativeHandle(ref, () => ({
+    getImage: () => {
+      const chart = chartInstanceRef.current
+      if (!chart) return null
+      // Force non-animated render to capture final state.
+      // Without this, toBase64Image() can capture mid-animation frames
+      // where all values appear as 0 (e.g. after parent re-render triggers
+      // chart recreation when the export modal opens).
+      const anim = chart.options.animation
+      chart.options.animation = false as any
+      chart.update('none')
+      const img = chart.toBase64Image()
+      chart.options.animation = anim
+      return img
+    }
+  }))
 
   useEffect(() => {
     if (!chartRef.current || labels.length === 0) return
@@ -668,7 +703,7 @@ function SpiTimeSeriesChart({ labels, values }: { labels: string[]; values: numb
   }, [labels, values])
 
   return <canvas ref={chartRef} />
-}
+})
 
 // ─── Main Page ────────────────────────────────────────────────────────────────
 
@@ -690,6 +725,20 @@ export default function LdnDashboardPage() {
 
   // SO3 SPI state
   const [spiPeriods, setSpiPeriods] = useState<SpiPeriodData[]>([])
+
+  // Export modal state
+  const [exportModalOpen, setExportModalOpen] = useState(false)
+  const [pngGenerating, setPngGenerating] = useState(false)
+
+  // Chart refs for PNG export
+  const sdgReportingChartRef = useRef<{ getImage: () => string | null }>(null)
+  const landcoverChartRef = useRef<{ getImage: () => string | null }>(null)
+  const lpdChartRef = useRef<{ getImage: () => string | null }>(null)
+  const socBaselineChartRef = useRef<{ getImage: () => string | null }>(null)
+  const socReportingChartRef = useRef<{ getImage: () => string | null }>(null)
+  const lcChangeChartRef = useRef<{ getImage: () => string | null }>(null)
+  const giniChartRef = useRef<{ getImage: () => string | null }>(null)
+  const spiChartRef = useRef<{ getImage: () => string | null }>(null)
 
   // ─── Auth guard ────────────────────────────────────────────────────────
   useEffect(() => {
@@ -929,6 +978,546 @@ export default function LdnDashboardPage() {
     ),
   ]
 
+  // ─── CSV Export ─────────────────────────────────────────────────────
+  const generateAndDownloadCSV = useCallback(() => {
+    if (!selectedCountry) return
+    const lines: string[] = []
+    const esc = (v: string) => `"${v.replace(/"/g, '""')}"`
+    const countryLabel = isAfrica(selectedCountry) ? 'Africa (Continental)' : selectedCountry.name
+
+    lines.push(`Country,${esc(countryLabel)}`)
+    lines.push(`Exported,${new Date().toISOString().slice(0, 10)}`)
+    lines.push('')
+
+    // Helper to append a stats section
+    const appendLayerSection = (title: string, layerStat: LayerStats | null) => {
+      if (!layerStat || !layerStat.classes || layerStat.classes.length === 0) return
+      lines.push(`--- ${title} ---`)
+      lines.push(`Class,Area (km²),Percentage (%)`)
+      const sorted = [...layerStat.classes].sort((a, b) => b.percentage - a.percentage)
+      for (const cls of sorted) {
+        lines.push(`${esc(resolveClassName(cls.class_name))},${cls.area_km2.toFixed(2)},${cls.percentage}`)
+      }
+      lines.push(`Total,${layerStat.total_area_km2.toFixed(2)},100`)
+      lines.push('')
+    }
+
+    // SO1
+    appendLayerSection('SDG 15.3.1 (Reporting Period)', stats.sdgReporting)
+    appendLayerSection('SDG 15.3.1 (Baseline)', stats.sdgBaseline)
+    appendLayerSection('Land Cover 2023', stats.landcover2023)
+    appendLayerSection('Land Productivity (Reporting Period)', stats.lpdReporting)
+    appendLayerSection('Soil Organic Carbon (Baseline)', stats.socBaseline)
+    appendLayerSection('Soil Organic Carbon (Reporting Period)', stats.socReporting)
+    appendLayerSection('Land Cover Change (Reporting Period)', stats.lcChangeReporting)
+
+    // SO2 (countries only)
+    if (!isAfrica(selectedCountry)) {
+      const wa = findWaterAccess(selectedCountry.name)
+      const wg = findWaterGap(selectedCountry.name)
+      const gini = findGiniData(selectedCountry.name)
+
+      if (wa) {
+        lines.push('--- Water Access (Safe Drinking Water - % of population) ---')
+        lines.push('Year,Access (%)')
+        if (wa.y2000 !== null) lines.push(`2000,${wa.y2000}`)
+        if (wa.y2020 !== null) lines.push(`2020,${wa.y2020}`)
+        if (wa.change !== null) lines.push(`Change (pp),${wa.change > 0 ? '+' : ''}${wa.change}`)
+        lines.push('')
+      }
+
+      if (wg) {
+        lines.push('--- Water Gap (Urban vs Rural - % with safe access) ---')
+        lines.push('Type,Access (%)')
+        if (wg.urban !== null) lines.push(`Urban,${wg.urban}`)
+        if (wg.rural !== null) lines.push(`Rural,${wg.rural}`)
+        lines.push('')
+      }
+
+      if (gini && gini.readings.length > 0) {
+        lines.push('--- Gini Index (Income Inequality) ---')
+        lines.push('Year,Value')
+        const sorted = [...gini.readings].sort((a, b) => a.year - b.year)
+        for (const r of sorted) {
+          lines.push(`${r.year},${r.val}`)
+        }
+        lines.push('')
+      }
+    }
+
+    // SO3 — dedupe by period (one row per period), prefer entries with stats,
+    // keep all periods (including those without data)
+    if (spiPeriods.length > 0) {
+      lines.push('--- Drought (SPI) ---')
+      lines.push('Period,Drought (%)')
+
+      const byPeriod = new Map<string, { startYear: number; stats: LayerStats | null }>()
+      for (const p of spiPeriods) {
+        const existing = byPeriod.get(p.period)
+        if (!existing || (existing.stats === null && p.stats !== null)) {
+          byPeriod.set(p.period, { startYear: p.startYear, stats: p.stats })
+        }
+      }
+
+      const deduped = Array.from(byPeriod.entries())
+        .sort((a, b) => a[1].startYear - b[1].startYear)
+
+      for (const [period, { stats }] of deduped) {
+        const pct = getSpiDroughtPct(stats)
+        lines.push(`${period},${pct}`)
+      }
+      lines.push('')
+    }
+
+    // Trigger download
+    const csv = lines.join('\n')
+    // Prepend UTF-8 BOM so Excel correctly decodes km² and other non-ASCII chars
+    const blob = new Blob(['\uFEFF' + csv], { type: 'text/csv;charset=utf-8;' })
+    const url = URL.createObjectURL(blob)
+    const a = document.createElement('a')
+    a.href = url
+    a.download = `${selectedCountry.file.replace(/[^a-zA-Z0-9]/g, '_')}_ldn_stats.csv`
+    a.click()
+    URL.revokeObjectURL(url)
+
+    setExportModalOpen(false)
+  }, [selectedCountry, stats, spiPeriods])
+
+  // ─── PNG Export (canvas composition) ─────────────────────────────────
+  const generateAndDownloadPNG = useCallback(async () => {
+    setPngGenerating(true)
+    try {
+      const W = 1600
+      const M = 60
+      const CW = W - M * 2
+      const isCountry = !isAfrica(selectedCountry)
+      const countryLabel = isAfrica(selectedCountry) ? 'Africa (Continental)' : selectedCountry!.name
+
+      // Gather data
+      const sdgR = stats.sdgReporting
+      const sdgB = stats.sdgBaseline
+      const lc = stats.landcover2023
+      const lpd = stats.lpdReporting
+      const socB = stats.socBaseline
+      const socR = stats.socReporting
+      const lcc = stats.lcChangeReporting
+      const wa = isCountry ? findWaterAccess(selectedCountry!.name) : null
+      const wg = isCountry ? findWaterGap(selectedCountry!.name) : null
+      const gini = isCountry ? findGiniData(selectedCountry!.name) : null
+      const spiWithData = spiPeriods.filter(p => p.stats)
+
+      // Load chart images async
+      const loadImg = (src: string | null | undefined): Promise<HTMLImageElement | null> => {
+        if (!src) return Promise.resolve(null)
+        return new Promise((resolve) => {
+          const img = new Image()
+          img.onload = () => resolve(img)
+          img.onerror = () => resolve(null)
+          img.src = src
+        })
+      }
+
+      const sdgRImg = await loadImg(sdgReportingChartRef.current?.getImage())
+      const lcImg = await loadImg(landcoverChartRef.current?.getImage())
+      const lpdImg = await loadImg(lpdChartRef.current?.getImage())
+      const socBImg = await loadImg(socBaselineChartRef.current?.getImage())
+      const socRImg = await loadImg(socReportingChartRef.current?.getImage())
+      const lccImg = await loadImg(lcChangeChartRef.current?.getImage())
+      const giniImg = await loadImg(giniChartRef.current?.getImage())
+      const spiImg = await loadImg(spiChartRef.current?.getImage())
+      const logoImg = await loadImg('/images/Logo-OSS.png')
+
+      // Compute height
+      let H = 150 // header
+      H += 70 // SO1 title
+      if (sdgR) H += 520
+      if (lc || lpd || socB || socR) H += 460
+      if (lcc) H += 440
+      if (isCountry && (wa || gini)) {
+        H += 70
+        H += 480
+      }
+      if (spiPeriods.length > 0) {
+        H += 70
+        H += 160
+        if (spiWithData.length > 0) H += 560
+      }
+      H += 60
+
+      const canvas = document.createElement('canvas')
+      canvas.width = W
+      canvas.height = H
+      const ctx = canvas.getContext('2d')!
+
+      // ── Helpers ──
+      const rrect = (x: number, y: number, w: number, h: number, r: number) => {
+        ctx.beginPath()
+        ctx.moveTo(x + r, y)
+        ctx.arcTo(x + w, y, x + w, y + h, r)
+        ctx.arcTo(x + w, y + h, x, y + h, r)
+        ctx.arcTo(x, y + h, x, y, r)
+        ctx.arcTo(x, y, x + w, y, r)
+        ctx.closePath()
+      }
+      const text = (s: string, x: number, y: number, opts: { font?: string; color?: string; align?: CanvasTextAlign } = {}) => {
+        ctx.font = opts.font || '14px system-ui, sans-serif'
+        ctx.fillStyle = opts.color || '#ffffff'
+        ctx.textAlign = opts.align || 'left'
+        ctx.textBaseline = 'alphabetic'
+        ctx.fillText(s, x, y)
+      }
+      const sectionHeader = (badge: string, title: string, subtitle: string) => {
+        y += 20
+        text(badge, M, y, { font: '600 11px monospace', color: '#22c55e' })
+        y += 22
+        text(title, M, y, { font: 'bold 22px system-ui, sans-serif', color: '#ffffff' })
+        y += 24
+        text(subtitle, M, y, { font: '13px system-ui, sans-serif', color: '#6b7280' })
+        y += 20
+      }
+      const classList = (classes: StatsClass[], colorFn: (n: string) => string, x: number, startY: number, w: number) => {
+        let cy = startY
+        const sorted = [...classes].sort((a, b) => b.percentage - a.percentage)
+        for (const cls of sorted) {
+          const name = resolveClassName(cls.class_name)
+          const color = colorFn(name)
+          ctx.fillStyle = color
+          ctx.beginPath()
+          ctx.arc(x + 4, cy - 4, 4, 0, Math.PI * 2)
+          ctx.fill()
+          text(name, x + 16, cy, { font: '12px system-ui, sans-serif', color: '#d1d5db' })
+          text(cls.percentage + '%', x + w - 100, cy, { font: '600 12px system-ui, sans-serif', color: '#ffffff' })
+          text(cls.area_km2.toLocaleString(undefined, { maximumFractionDigits: 0 }) + ' km\u00b2', x + w, cy, { font: '11px system-ui, sans-serif', color: '#6b7280', align: 'right' })
+          cy += 22
+        }
+        return cy
+      }
+      const card = (x: number, y: number, w: number, h: number) => {
+        rrect(x, y, w, h, 16)
+        ctx.fillStyle = 'rgba(255,255,255,0.03)'
+        ctx.fill()
+        ctx.strokeStyle = 'rgba(255,255,255,0.06)'
+        ctx.lineWidth = 1
+        ctx.stroke()
+      }
+
+      // ── Background ──
+      ctx.fillStyle = '#0a0f0d'
+      ctx.fillRect(0, 0, W, H)
+
+      // ── Header (logo + text) ──
+      const logoMaxH = 56
+      let logoWidth = 0
+      if (logoImg) {
+        const drawH = logoMaxH
+        logoWidth = (logoImg.width / logoImg.height) * drawH
+        ctx.drawImage(logoImg, M, 42, logoWidth, drawH)
+      }
+      const textX = logoImg ? M + logoWidth + 30 : M
+
+      let y = 50
+      text('LDN DASHBOARD', textX, y, { font: '600 11px monospace', color: '#22c55e' })
+      y += 32
+      text(countryLabel, textX, y, { font: 'bold 28px system-ui, sans-serif', color: '#ffffff' })
+      y += 24
+      text('Land Degradation Monitoring  \u2022  Exported ' + new Date().toISOString().slice(0, 10), textX, y, { font: '13px system-ui, sans-serif', color: '#6b7280' })
+      y += 15
+
+      // ── SO1 ──
+      sectionHeader('SO1', 'Land Degradation', 'SDG 15.3.1 \u2014 Strategic Objective 1')
+
+      // SDG Hero
+      if (sdgR) {
+        const cardH = 500
+        card(M, y, CW, cardH)
+        let cy = y + 35
+        text('SDG 15.3.1', M + 30, cy, { font: 'bold 18px system-ui, sans-serif', color: '#ffffff' })
+        const sdgW = ctx.measureText('SDG 15.3.1').width
+        text('Reporting Period', M + 30 + sdgW + 12, cy, { font: '13px system-ui, sans-serif', color: '#eab308' })
+        cy += 20
+        text('Land degradation status based on the three sub-indicators', M + 30, cy, { font: '12px system-ui, sans-serif', color: '#6b7280' })
+        cy += 20
+
+        // Donut on left
+        const donutSize = 300
+        if (sdgRImg) {
+          ctx.drawImage(sdgRImg, M + 50, cy, donutSize, donutSize)
+        }
+        // Center label on donut
+        const degraded = sdgR.classes.find(c => resolveClassName(c.class_name).toLowerCase().includes('degrad'))
+        if (degraded) {
+          text(degraded.percentage + '%', M + 50 + donutSize / 2, cy + donutSize / 2 - 5, { font: 'bold 36px system-ui, sans-serif', color: '#ef4444', align: 'center' })
+          text('degraded', M + 50 + donutSize / 2, cy + donutSize / 2 + 18, { font: '12px system-ui, sans-serif', color: '#6b7280', align: 'center' })
+        }
+
+        // Class list on right
+        const listX = M + 50 + donutSize + 40
+        const listW = CW - (50 + donutSize + 40 + 30)
+        const listEndY = classList(sdgR.classes, getSdgColor, listX, cy + 10, listW)
+
+        // Total area
+        const totalY = listEndY + 16
+        text('Total area', listX, totalY, { font: '12px system-ui, sans-serif', color: '#9ca3af' })
+        text(sdgR.total_area_km2.toLocaleString(undefined, { maximumFractionDigits: 0 }) + ' km\u00b2', listX + listW, totalY, { font: '600 12px system-ui, sans-serif', color: '#ffffff', align: 'right' })
+
+        // Baseline vs Reporting comparison
+        if (sdgB) {
+          const cmpY = totalY + 25
+          const cmpH = sdgR.classes.length * 22 + 30
+          rrect(listX - 10, cmpY - 15, listW + 20, cmpH, 8)
+          ctx.fillStyle = 'rgba(255,255,255,0.02)'
+          ctx.fill()
+          text('BASELINE \u2192 REPORTING', listX, cmpY, { font: '600 10px monospace', color: '#6b7280' })
+          let ry = cmpY + 22
+          for (const cls of [...sdgR.classes].sort((a, b) => b.percentage - a.percentage)) {
+            const baseCls = sdgB.classes?.find(bc => resolveClassName(bc.class_name) === resolveClassName(cls.class_name))
+            const basePct = baseCls?.percentage ?? 0
+            const diff = cls.percentage - basePct
+            text(resolveClassName(cls.class_name), listX, ry, { font: '11px system-ui, sans-serif', color: '#9ca3af' })
+            text(basePct + '%', listX + listW - 80, ry, { font: '11px system-ui, sans-serif', color: '#6b7280' })
+            text('\u2192', listX + listW - 50, ry, { font: '11px system-ui, sans-serif', color: '#4b5563' })
+            text(cls.percentage + '%', listX + listW - 30, ry, { font: '600 11px system-ui, sans-serif', color: '#ffffff' })
+            if (diff !== 0) {
+              text((diff > 0 ? '+' : '') + diff.toFixed(1), listX + listW, ry, { font: '11px monospace', color: diff > 0 ? '#ef4444' : '#22c55e', align: 'right' })
+            }
+            ry += 22
+          }
+        }
+
+        y += cardH + 20
+      }
+
+      // Sub-indicators (3 cards)
+      if (lc || lpd || socB || socR) {
+        const cardW = (CW - 40) / 3
+        const cardH = 420
+        const cards = [
+          { title: 'Land Cover 2023', sub: 'Land cover classes', stat: lc, img: lcImg, colorFn: (n: string) => { const idx = lc ? lc.classes.findIndex(c => resolveClassName(c.class_name) === n) : 0; return LC_COLORS[idx % LC_COLORS.length] } },
+          { title: 'Land Productivity', sub: 'LPD (Reporting)', stat: lpd, img: lpdImg, colorFn: getLpdColor },
+          { title: 'Soil Organic Carbon', sub: 'Baseline & Reporting', stat: socR, img: socRImg, colorFn: getSocColor },
+        ]
+        for (let i = 0; i < 3; i++) {
+          const cx = M + i * (cardW + 20)
+          card(cx, y, cardW, cardH)
+          const c = cards[i]
+          let cy = y + 30
+          text(c.title, cx + 20, cy, { font: '600 14px system-ui, sans-serif', color: '#ffffff' })
+          cy += 16
+          text(c.sub, cx + 20, cy, { font: '11px system-ui, sans-serif', color: '#6b7280' })
+          cy += 20
+          if (c.img) {
+            const ds = 150
+            ctx.drawImage(c.img, cx + (cardW - ds) / 2, cy, ds, ds)
+            cy += ds + 10
+          }
+          if (c.stat) {
+            classList(c.stat.classes, c.colorFn, cx + 20, cy, cardW - 40)
+          } else {
+            text('No data', cx + 20, cy, { font: '12px system-ui, sans-serif', color: '#4b5563' })
+          }
+        }
+        y += cardH + 20
+      }
+
+      // LC Change
+      if (lcc) {
+        const cardH = 440
+        card(M, y, CW, cardH)
+        let cy = y + 30
+        text('Land Cover Change', M + 30, cy, { font: '600 14px system-ui, sans-serif', color: '#ffffff' })
+        cy += 16
+        text('Reporting Period', M + 30, cy, { font: '11px system-ui, sans-serif', color: '#6b7280' })
+        cy += 20
+        if (lccImg) {
+          const ds = 250
+          ctx.drawImage(lccImg, M + 40, cy, ds, ds)
+        }
+        const listX = M + 40 + 200 + 30
+        const listW = CW - (40 + 200 + 30 + 30)
+        classList(lcc.classes, getLcChangeColor, listX, cy + 10, listW)
+        y += cardH + 20
+      }
+
+      // ── SO2 ──
+      if (isCountry && (wa || gini)) {
+        sectionHeader('SO2', 'Living Conditions', 'Water access & income inequality')
+
+        const cardW = (CW - 20) / 2
+        const cardH = 440
+
+        // Water Access card
+        {
+          const cx = M
+          card(cx, y, cardW, cardH)
+          let cy = y + 30
+          text('Water Access', cx + 20, cy, { font: '600 14px system-ui, sans-serif', color: '#ffffff' })
+          cy += 16
+          text('Safe drinking water (% of population)', cx + 20, cy, { font: '11px system-ui, sans-serif', color: '#6b7280' })
+          cy += 35
+
+          if (wa) {
+            const val = wa.y2020
+            const col = val !== null ? (val >= 70 ? '#22c55e' : val >= 40 ? '#eab308' : '#ef4444') : '#6b7280'
+            text(val !== null ? val.toFixed(1) + '%' : 'N/A', cx + 20, cy, { font: 'bold 40px system-ui, sans-serif', color: col })
+            cy += 20
+            if (wa.change !== null) {
+              const ccol = wa.change > 0 ? '#22c55e' : wa.change < 0 ? '#ef4444' : '#9ca3af'
+              text((wa.change > 0 ? '+' : '') + wa.change.toFixed(1) + ' pp', cx + 20, cy, { font: '600 12px monospace', color: ccol })
+              text('2000 \u2192 2020', cx + 100, cy, { font: '11px system-ui, sans-serif', color: '#6b7280' })
+            }
+            cy += 25
+            if (wa.y2000 !== null && wa.y2020 !== null) {
+              text('2000', cx + 20, cy, { font: '11px system-ui, sans-serif', color: '#9ca3af' })
+              text(wa.y2000.toFixed(1) + '%', cx + cardW - 20, cy, { font: '600 11px system-ui, sans-serif', color: '#ffffff', align: 'right' })
+              cy += 8
+              rrect(cx + 20, cy, cardW - 40, 4, 2)
+              ctx.fillStyle = 'rgba(255,255,255,0.06)'; ctx.fill()
+              rrect(cx + 20, cy, (cardW - 40) * wa.y2020 / 100, 4, 2)
+              ctx.fillStyle = '#22c55e'; ctx.fill()
+              cy += 14
+              text('2020', cx + 20, cy, { font: '11px system-ui, sans-serif', color: '#9ca3af' })
+              text(wa.y2020.toFixed(1) + '%', cx + cardW - 20, cy, { font: '600 11px system-ui, sans-serif', color: '#ffffff', align: 'right' })
+              cy += 25
+            }
+            if (wg && wg.urban !== null && wg.rural !== null) {
+              text('URBAN vs RURAL GAP', cx + 20, cy, { font: '600 10px monospace', color: '#6b7280' })
+              cy += 18
+              text('Urban', cx + 20, cy, { font: '11px system-ui, sans-serif', color: '#22d3ee' })
+              text(wg.urban.toFixed(1) + '%', cx + cardW - 20, cy, { font: '600 11px system-ui, sans-serif', color: '#ffffff', align: 'right' })
+              cy += 8
+              rrect(cx + 20, cy, cardW - 40, 4, 2); ctx.fillStyle = 'rgba(255,255,255,0.06)'; ctx.fill()
+              rrect(cx + 20, cy, (cardW - 40) * wg.urban / 100, 4, 2); ctx.fillStyle = '#22d3ee'; ctx.fill()
+              cy += 14
+              text('Rural', cx + 20, cy, { font: '11px system-ui, sans-serif', color: '#22c55e' })
+              text(wg.rural.toFixed(1) + '%', cx + cardW - 20, cy, { font: '600 11px system-ui, sans-serif', color: '#ffffff', align: 'right' })
+              cy += 8
+              rrect(cx + 20, cy, cardW - 40, 4, 2); ctx.fillStyle = 'rgba(255,255,255,0.06)'; ctx.fill()
+              rrect(cx + 20, cy, (cardW - 40) * wg.rural / 100, 4, 2); ctx.fillStyle = '#22c55e'; ctx.fill()
+            }
+          } else {
+            text('No data for this country', cx + 20, cy, { font: '12px system-ui, sans-serif', color: '#4b5563' })
+          }
+        }
+
+        // Gini card
+        {
+          const cx = M + cardW + 20
+          card(cx, y, cardW, cardH)
+          let cy = y + 30
+          text('Income Inequality (Gini)', cx + 20, cy, { font: '600 14px system-ui, sans-serif', color: '#ffffff' })
+          cy += 16
+          text('World Bank Gini index', cx + 20, cy, { font: '11px system-ui, sans-serif', color: '#6b7280' })
+          cy += 35
+
+          if (gini && gini.readings.length > 0) {
+            const latest = gini.readings.reduce((a, b) => b.year > a.year ? b : a)
+            const earliest = gini.readings.reduce((a, b) => b.year < a.year ? b : a)
+            const change = latest !== earliest ? parseFloat((latest.val - earliest.val).toFixed(1)) : null
+
+            text(latest.val.toFixed(1), cx + 20, cy, { font: 'bold 40px system-ui, sans-serif', color: giniColor(latest.val) })
+            cy += 20
+            text('in ' + latest.year, cx + 20, cy, { font: '12px system-ui, sans-serif', color: '#6b7280' })
+            const badge = latest.val < 35 ? 'Low inequality' : latest.val < 45 ? 'Moderate' : 'High inequality'
+            text(badge, cx + 80, cy, { font: '600 10px monospace', color: giniColor(latest.val) })
+            cy += 25
+
+            if (change !== null) {
+              const ccol = change < 0 ? '#22c55e' : change > 0 ? '#ef4444' : '#9ca3af'
+              text((change > 0 ? '+' : '') + change.toFixed(1), cx + 20, cy, { font: '600 12px monospace', color: ccol })
+              text(earliest.year + ' \u2192 ' + latest.year, cx + 80, cy, { font: '11px system-ui, sans-serif', color: '#6b7280' })
+              text('(' + gini.readings.length + ' readings)', cx + 220, cy, { font: '10px system-ui, sans-serif', color: '#4b5563' })
+            }
+            cy += 20
+
+            if (giniImg) {
+              ctx.drawImage(giniImg, cx + 10, cy, cardW - 20, 180)
+            }
+          } else {
+            text('No data for this country', cx + 20, cy, { font: '12px system-ui, sans-serif', color: '#4b5563' })
+          }
+        }
+
+        y += cardH + 20
+      }
+
+      // ── SO3 ──
+      if (spiPeriods.length > 0) {
+        sectionHeader('SO3', 'Drought', 'Standardized Precipitation Index (SPI)')
+
+        if (spiWithData.length > 0) {
+          const latest = spiWithData[spiWithData.length - 1]
+          const earliest = spiWithData[0]
+          const latestPct = getSpiDroughtPct(latest.stats)
+          const earliestPct = getSpiDroughtPct(earliest.stats)
+          const trend = spiWithData.length >= 2 ? latestPct - earliestPct : null
+          const peakPct = Math.max(...spiWithData.map(p => getSpiDroughtPct(p.stats)))
+          const peakPeriod = spiWithData.reduce((a, b) => getSpiDroughtPct(a.stats) >= getSpiDroughtPct(b.stats) ? a : b)
+
+          const tileW = (CW - 30) / 4
+          const tileH = 120
+          const tiles = [
+            { label: 'Current Drought', val: latestPct + '%', sub: latest.period, color: getSpiColor(latestPct) },
+            { label: 'Trend', val: trend !== null ? (trend > 0 ? '+' : '') + trend.toFixed(1) + ' pp' : '\u2014', sub: earliest.period + ' \u2192 ' + latest.period, color: trend !== null ? (trend > 0 ? '#ef4444' : trend < 0 ? '#22c55e' : '#eab308') : '#6b7280' },
+            { label: 'Peak Drought', val: peakPct + '%', sub: peakPeriod.period, color: getSpiColor(peakPct) },
+            { label: 'Periods', val: String(spiWithData.length), sub: 'with data', color: '#f59e0b' },
+          ]
+          for (let i = 0; i < 4; i++) {
+            const tx = M + i * (tileW + 10)
+            card(tx, y, tileW, tileH)
+            const t = tiles[i]
+            text(t.label, tx + 15, y + 25, { font: '11px system-ui, sans-serif', color: '#6b7280' })
+            text(t.val, tx + 15, y + 60, { font: 'bold 26px system-ui, sans-serif', color: t.color })
+            text(t.sub, tx + 15, y + 85, { font: '10px system-ui, sans-serif', color: '#4b5563' })
+          }
+          y += tileH + 20
+
+          // Time series chart + breakdown
+          const chartH = 540
+          card(M, y, CW, chartH)
+          let cy = y + 30
+          text('Drought Severity Over Time', M + 30, cy, { font: '600 14px system-ui, sans-serif', color: '#ffffff' })
+          cy += 20
+          if (spiImg) {
+            ctx.drawImage(spiImg, M + 30, cy, CW - 60, 260)
+          }
+          cy += 220
+          text('PERIOD BREAKDOWN', M + 30, cy, { font: '600 10px monospace', color: '#6b7280' })
+          cy += 18
+          for (const p of spiWithData) {
+            const pct = getSpiDroughtPct(p.stats)
+            text(p.period, M + 30, cy, { font: '11px monospace', color: '#9ca3af' })
+            text(pct.toFixed(1) + '%', M + 180, cy, { font: '600 11px system-ui, sans-serif', color: '#ffffff' })
+            const barX = M + 250
+            const barW = CW - 60 - (250 - 30)
+            rrect(barX, cy - 6, barW, 4, 2); ctx.fillStyle = 'rgba(255,255,255,0.06)'; ctx.fill()
+            rrect(barX, cy - 6, barW * Math.min(pct, 100) / 100, 4, 2); ctx.fillStyle = getSpiColor(pct); ctx.fill()
+            cy += 18
+          }
+          y += chartH + 20
+        } else {
+          text('No SPI data available for this country yet.', M, y + 30, { font: '13px system-ui, sans-serif', color: '#6b7280' })
+          y += 60
+        }
+      }
+
+      // ── Export ──
+      canvas.toBlob((blob) => {
+        if (!blob) { setPngGenerating(false); return }
+        const url = URL.createObjectURL(blob)
+        const a = document.createElement('a')
+        a.href = url
+        a.download = selectedCountry!.file.replace(/[^a-zA-Z0-9]/g, '_') + '_ldn_dashboard.png'
+        a.click()
+        URL.revokeObjectURL(url)
+        setPngGenerating(false)
+        setExportModalOpen(false)
+      }, 'image/png')
+    } catch (err) {
+      console.error('PNG export failed:', err)
+      setPngGenerating(false)
+    }
+  }, [selectedCountry, stats, spiPeriods])
+
   // ─── Helper: get degraded % from SDG stats ───────────────────────────
   const getSdgHeadline = (stat: LayerStats | null) => {
     if (!stat || !stat.classes) return { degradedPct: null, degradedArea: null, totalArea: null }
@@ -973,7 +1562,8 @@ export default function LdnDashboardPage() {
               <p className="text-sm text-gray-500 mt-1">{t('headerSubtitle')}</p>
             </div>
 
-            {/* Country Selector */}
+            {/* Country Selector + Export Button */}
+            <div className="flex items-center gap-3 w-full sm:w-auto">
             <div ref={countryDropdownRef} className="relative w-full sm:w-72">
               <button
                 onClick={() => setCountryDropdownOpen(!countryDropdownOpen)}
@@ -1032,6 +1622,19 @@ export default function LdnDashboardPage() {
                 </div>
               )}
             </div>
+
+            {/* Export Data Button */}
+            <button
+              onClick={() => setExportModalOpen(true)}
+              disabled={statsLoading}
+              className="shrink-0 flex items-center gap-2 px-4 py-2.5 bg-white/5 border border-white/10 rounded-lg text-sm text-white hover:bg-white/10 transition-colors disabled:opacity-50"
+            >
+              <svg className="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+              </svg>
+              <span className="hidden sm:inline">Export Data</span>
+            </button>
+            </div>
           </div>
         </div>
       </div>
@@ -1085,7 +1688,7 @@ export default function LdnDashboardPage() {
                   {/* Left: Donut */}
                   <div className="flex items-center justify-center">
                     <div className="relative w-64 h-64">
-                      <DonutChart classes={sdgReporting.classes} colorFn={getSdgColor} height={256} />
+                      <DonutChart ref={sdgReportingChartRef} classes={sdgReporting.classes} colorFn={getSdgColor} height={256} />
                       {/* Center label */}
                       <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
                         <div className="text-center">
@@ -1173,7 +1776,7 @@ export default function LdnDashboardPage() {
                   <>
                     <div className="flex justify-center mb-4">
                       <div className="w-36 h-36">
-                        <DonutChart
+                        <DonutChart ref={landcoverChartRef}
                           classes={stats.landcover2023.classes}
                           colorFn={(name) => {
                             const idx = stats.landcover2023!.classes.findIndex(c => resolveClassName(c.class_name) === name)
@@ -1214,7 +1817,7 @@ export default function LdnDashboardPage() {
                   <>
                     <div className="flex justify-center mb-4">
                       <div className="w-36 h-36">
-                        <DonutChart classes={stats.lpdReporting.classes} colorFn={getLpdColor} height={144} />
+                        <DonutChart ref={lpdChartRef} classes={stats.lpdReporting.classes} colorFn={getLpdColor} height={144} />
                       </div>
                     </div>
                     <ClassList classes={stats.lpdReporting.classes} colorFn={getLpdColor} />
@@ -1246,7 +1849,7 @@ export default function LdnDashboardPage() {
                         <p className="text-xs font-mono uppercase tracking-wider text-gray-500 mb-2">{t('baseline')}</p>
                         <div className="flex justify-center mb-2">
                           <div className="w-28 h-28">
-                            <DonutChart classes={stats.socBaseline.classes} colorFn={getSocColor} height={112} />
+                            <DonutChart ref={socBaselineChartRef} classes={stats.socBaseline.classes} colorFn={getSocColor} height={112} />
                           </div>
                         </div>
                         <ClassList classes={stats.socBaseline.classes} colorFn={getSocColor} />
@@ -1259,7 +1862,7 @@ export default function LdnDashboardPage() {
                         <p className="text-xs font-mono uppercase tracking-wider text-gray-500 mb-2">{t('reporting')}</p>
                         <div className="flex justify-center mb-2">
                           <div className="w-28 h-28">
-                            <DonutChart classes={stats.socReporting.classes} colorFn={getSocColor} height={112} />
+                            <DonutChart ref={socReportingChartRef} classes={stats.socReporting.classes} colorFn={getSocColor} height={112} />
                           </div>
                         </div>
                         <ClassList classes={stats.socReporting.classes} colorFn={getSocColor} />
@@ -1288,7 +1891,7 @@ export default function LdnDashboardPage() {
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="flex justify-center">
                     <div className="w-48 h-48">
-                      <DonutChart classes={stats.lcChangeReporting.classes} colorFn={getLcChangeColor} height={192} />
+                      <DonutChart ref={lcChangeChartRef} classes={stats.lcChangeReporting.classes} colorFn={getLcChangeColor} height={192} />
                     </div>
                   </div>
                   <ClassList classes={stats.lcChangeReporting.classes} colorFn={getLcChangeColor} />
@@ -1493,7 +2096,7 @@ export default function LdnDashboardPage() {
                             <div className="p-3 rounded-lg bg-white/[0.03] border border-white/[0.04]">
                               <p className="text-xs font-mono uppercase tracking-wider text-gray-500 mb-2">{t('giniOverTime')}</p>
                               <div style={{ height: '140px' }}>
-                                <GiniLineChart readings={gini.readings} />
+                                <GiniLineChart ref={giniChartRef} readings={gini.readings} />
                               </div>
                             </div>
                           )}
@@ -1634,7 +2237,7 @@ export default function LdnDashboardPage() {
                       <div className="p-4 rounded-lg bg-white/[0.03] border border-white/[0.04]">
                         <p className="text-xs font-mono uppercase tracking-wider text-gray-500 mb-3">{t('droughtSeverityOverTime')}</p>
                         <div style={{ height: '220px' }}>
-                          <SpiTimeSeriesChart labels={chartLabels} values={droughtPcts} />
+                          <SpiTimeSeriesChart ref={spiChartRef} labels={chartLabels} values={droughtPcts} />
                         </div>
 
                         {/* Period breakdown below chart */}
@@ -1682,6 +2285,72 @@ export default function LdnDashboardPage() {
           </>
         )}
       </main>
+
+      {/* ─── Export Modal ───────────────────────────────────────────────── */}
+      {exportModalOpen && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
+          {/* Backdrop */}
+          <div className="absolute inset-0 bg-black/60 backdrop-blur-sm" onClick={() => setExportModalOpen(false)} />
+          {/* Modal */}
+          <div className="relative w-full max-w-sm bg-[#111714] border border-white/10 rounded-2xl shadow-2xl p-6">
+            <div className="flex items-center justify-between mb-5">
+              <h3 className="text-lg font-semibold">Export Data</h3>
+              <button onClick={() => setExportModalOpen(false)} className="text-gray-500 hover:text-white transition-colors">
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
+            </div>
+
+            <p className="text-sm text-gray-400 mb-5">
+              Export all available indicators for <span className="text-white font-medium">{selectedCountry?.name}</span>
+            </p>
+
+            {/* CSV Option */}
+            <button
+              onClick={generateAndDownloadCSV}
+              className="w-full flex items-center gap-3 p-4 rounded-xl bg-white/[0.04] border border-white/[0.08] hover:bg-white/[0.08] hover:border-green-500/20 transition-all duration-200 group"
+            >
+              <div className="shrink-0 w-10 h-10 rounded-lg bg-green-500/10 flex items-center justify-center group-hover:bg-green-500/20 transition-colors">
+                <svg className="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                </svg>
+              </div>
+              <div className="text-left">
+                <p className="text-sm font-medium text-white">CSV</p>
+                <p className="text-xs text-gray-500">Spreadsheet-compatible format</p>
+              </div>
+              <svg className="w-4 h-4 text-gray-600 ml-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </button>
+
+            {/* PNG Option */}
+            <button
+              onClick={generateAndDownloadPNG}
+              disabled={pngGenerating || statsLoading}
+              className="w-full flex items-center gap-3 p-4 rounded-xl bg-white/[0.04] border border-white/[0.08] hover:bg-white/[0.08] hover:border-amber-500/20 transition-all duration-200 group mt-3 disabled:opacity-50"
+            >
+              <div className="shrink-0 w-10 h-10 rounded-lg bg-amber-500/10 flex items-center justify-center group-hover:bg-amber-500/20 transition-colors">
+                {pngGenerating ? (
+                  <div className="w-5 h-5 border-2 border-amber-400/30 border-t-amber-400 rounded-full animate-spin" />
+                ) : (
+                  <svg className="w-5 h-5 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                  </svg>
+                )}
+              </div>
+              <div className="text-left">
+                <p className="text-sm font-medium text-white">PNG</p>
+                <p className="text-xs text-gray-500">{pngGenerating ? 'Generating...' : 'Image for presentations'}</p>
+              </div>
+              <svg className="w-4 h-4 text-gray-600 ml-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      )}
     </div>
   )
 }
