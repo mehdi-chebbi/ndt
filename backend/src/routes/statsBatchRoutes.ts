@@ -182,8 +182,7 @@ async function calculateStatsForCountry(
     const geojsonPath = path.join(GEOJSON_DIR, countryFile);
 
     const controller = new AbortController();
-    const timeoutId = setTimeout(() => controller.abort(), 10 * 60 * 1000); // 10 min
-
+const timeoutId = setTimeout(() => controller.abort(), parseInt(process.env.STATS_TIMEOUT || '1200000', 10));
     const response = await fetch(`${CLIP_SERVICE_URL}/stats`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },

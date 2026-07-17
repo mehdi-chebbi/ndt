@@ -3,8 +3,7 @@ import pool from '../config/database';
 import path from 'path';
 
 const CLIP_SERVICE_URL = process.env.CLIP_SERVICE_URL || 'http://clip-service:3005';
-const STATS_TIMEOUT = 10 * 60 * 1000; // 10 minutes
-
+const STATS_TIMEOUT = parseInt(process.env.STATS_TIMEOUT || '1200000', 10);
 // Helper function to count coordinates in a polygon
 function countPolygonCoordinates(polygon: any): number {
   if (!polygon || !polygon.coordinates) return 0;

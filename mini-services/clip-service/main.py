@@ -349,6 +349,13 @@ def calculate_raster_stats(raster_path: str, polygon_geojson: dict) -> dict:
         pixel_width_m = pixel_size_deg[0] * 111320 * math.cos(math.radians(center_lat))
         pixel_area_ha = (pixel_width_m * pixel_height_m) / 10000
 
+        # Simplify polygon for faster geometry_mask rasterization.
+        # Tolerance = half pixel size: boundary shifts by at most 0.5px, invisible in results.
+        # Original GeoJSON files are NOT modified — this is in-memory only.
+        simplify_tolerance = (pixel_width_m + pixel_height_m) / 4
+        polygon = polygon.simplify(simplify_tolerance, preserve_topology=True)
+        logger.info(f"[STATS] Simplified polygon with tolerance {simplify_tolerance:.1f}m (half pixel)")
+
         raster_bounds = src.bounds
         clamped_bounds = (
             max(poly_bounds[0], raster_bounds.left),
