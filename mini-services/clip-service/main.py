@@ -303,6 +303,25 @@ def count_geojson_vertices(geojson: dict) -> int:
     return total
 
 
+def calculate_overview_levels(width: int, height: int, min_size: int = 256) -> list[int]:
+    """
+    Calculate appropriate overview levels for a raster of given dimensions.
+    Generates powers of 2 until the smallest overview dimension is <= min_size.
+
+    Example: 14977x26335 -> [2, 4, 8, 16, 32, 64, 128]
+    """
+    levels = []
+    factor = 2
+    while True:
+        ov_w = width // factor
+        ov_h = height // factor
+        if ov_w < min_size or ov_h < min_size:
+            break
+        levels.append(factor)
+        factor *= 2
+    return levels
+
+
 def calculate_raster_stats(raster_path: str, polygon_geojson: dict) -> dict:
     """
     Calculate pixel statistics for a raster clipped to a polygon.
@@ -473,36 +492,102 @@ def calculate_raster_stats(raster_path: str, polygon_geojson: dict) -> dict:
 
 def run_gdalwarp(geojson_path: str, raster_path: str, output_path: str, num_threads: int = None) -> bool:
     """
-    Run gdalwarp to clip raster to GeoJSON boundary with multi-threading optimization
+    Run a 3-step pipeline to produce a proper COG with baked-in overviews:
+      1. gdalwarp  -> intermediate GeoTIFF (tiled + LZW, no overviews yet)
+      2. gdaladdo  -> build overviews on the intermediate file (average resampling)
+      3. gdal_translate -> convert to final COG with COPY_SRC_OVERVIEWS=YES
+
+    This guarantees overviews are correct for the clipped extent and instantly
+    available to map viewers at all zoom levels.
     """
-    import os
-
-    # Use provided thread count or all available CPU cores
     num_threads = num_threads or (os.cpu_count() or 4)
-
-    cmd = [
-        "gdalwarp",
-        "-cutline", geojson_path,
-        "-crop_to_cutline",
-        "-of", "COG",
-        "-ot", "Byte",
-        "-r", "near",
-        "-dstnodata", "255",
-        "-multi",  # Enable multi-threading
-        "-wo", f"NUM_THREADS={num_threads}",  # Use all CPU cores
-        raster_path,
-        output_path
-    ]
-
-    logger.info(f"Running GDAL warp with {num_threads} threads: {' '.join(cmd)}")
+    tmp_path = output_path.replace(".tif", "_tmp.tif")
 
     try:
-        result = run(cmd, capture_output=True, text=True, check=True)
-        logger.info(f"GDAL warp completed successfully: {output_path}")
+        # ------------------------------------------------------------------
+        # Step 1: Warp + clip to intermediate GeoTIFF
+        # ------------------------------------------------------------------
+        cmd_warp = [
+            "gdalwarp",
+            "-cutline", geojson_path,
+            "-crop_to_cutline",
+            "-of", "GTiff",
+            "-co", "TILED=YES",
+            "-co", "BLOCKXSIZE=512",
+            "-co", "BLOCKYSIZE=512",
+            "-co", "COMPRESS=LZW",
+            "-co", f"NUM_THREADS={num_threads}",
+            "-ot", "Byte",
+            "-r", "near",
+            "-dstnodata", "255",
+            "-multi",
+            "-wo", f"NUM_THREADS={num_threads}",
+            raster_path,
+            tmp_path,
+        ]
+        logger.info(f"[COG Pipeline] Step 1/3 - Warping to tmp GeoTIFF: {tmp_path}")
+        result = run(cmd_warp, capture_output=True, text=True, check=True)
+        if result.stderr:
+            logger.debug(f"gdalwarp stderr: {result.stderr}")
+
+        # ------------------------------------------------------------------
+        # Step 2: Build overviews sized to the clipped raster dimensions
+        # ------------------------------------------------------------------
+        # Read the tmp file dimensions to compute appropriate overview levels
+        with rasterio.open(tmp_path) as _ds:
+            width, height = _ds.width, _ds.height
+
+        overview_levels = calculate_overview_levels(width, height, min_size=256)
+        logger.info(
+            f"[COG Pipeline] Step 2/3 - Building overviews for {width}x{height}: "
+            f"levels={overview_levels}"
+        )
+
+        if overview_levels:
+            cmd_addo = [
+                "gdaladdo",
+                "-r", "average",
+                "--config", "COMPRESS_OVERVIEW", "LZW",
+                "--config", "USE_RRD", "NO",
+                tmp_path,
+            ] + [str(l) for l in overview_levels]
+            result = run(cmd_addo, capture_output=True, text=True, check=True)
+            if result.stderr:
+                logger.debug(f"gdaladdo stderr: {result.stderr}")
+        else:
+            logger.info("[COG Pipeline] Raster too small for overviews, skipping gdaladdo")
+
+        # ------------------------------------------------------------------
+        # Step 3: Convert to final COG with overviews baked in
+        # ------------------------------------------------------------------
+        cmd_cog = [
+            "gdal_translate",
+            "-of", "COG",
+            "-co", "COMPRESS=LZW",
+            "-co", "BLOCKSIZE=512",
+            "-co", "RESAMPLING=AVERAGE",
+            "-co", f"NUM_THREADS={num_threads}",
+            "-co", "COPY_SRC_OVERVIEWS=YES",
+            tmp_path,
+            output_path,
+        ]
+        logger.info(f"[COG Pipeline] Step 3/3 - Converting to final COG: {output_path}")
+        result = run(cmd_cog, capture_output=True, text=True, check=True)
+        if result.stderr:
+            logger.debug(f"gdal_translate stderr: {result.stderr}")
+
+        logger.info(f"[COG Pipeline] Done: {output_path} ({width}x{height}, overviews: {overview_levels})")
         return True
+
     except CalledProcessError as e:
-        logger.error(f"GDAL warp failed: {e.stderr}")
+        logger.error(f"[COG Pipeline] GDAL command failed: {e.stderr}")
         raise RuntimeError(f"GDAL clipping failed: {e.stderr}")
+
+    finally:
+        # Always clean up the intermediate file
+        if os.path.exists(tmp_path):
+            os.remove(tmp_path)
+            logger.debug(f"[COG Pipeline] Cleaned up tmp file: {tmp_path}")
 
 
 def publish_to_geoserver(
@@ -562,7 +647,6 @@ def publish_to_geoserver(
     # Step 3: Create the coverage (layer) in the store
     logger.info(f"[GeoServer] Step 3/3 - Creating coverage: {layer_id}")
     coverage_url = f"{store_url}/{layer_id}/coverages"
-    # nativeName = filename without extension (how GeoServer identifies it from the store)
     tif_filename = Path(geoserver_file_path).stem
     coverage_config = {
         "coverage": {
@@ -604,7 +688,6 @@ def assign_style(workspace: str, layer_id: str, style_name: str) -> bool:
 
     if response.status_code not in [200, 201]:
         logger.warning(f"Style assignment failed: {response.status_code} - {response.text}")
-        # Don't fail the entire operation if style assignment fails
         return False
 
     logger.info(f"Successfully assigned style: {style_name}")
@@ -620,7 +703,7 @@ async def perform_clip(
     country_name: str,
 ) -> dict:
     """
-    Core clip operation: validate → gdalwarp → publish → style
+    Core clip operation: validate → gdalwarp pipeline → publish → style
     Returns dict with: clipped_layer_name, output_tif_path, file_size_bytes
 
     Raises RuntimeError on failure.
@@ -647,7 +730,7 @@ async def perform_clip(
 
     logger.info(f"Output layer name: {workspace}:{output_layer_id}")
 
-    # 3. Run GDAL warp (in thread pool to avoid blocking the event loop)
+    # 3. Run GDAL 3-step pipeline (in thread pool to avoid blocking the event loop)
     cpu_count = os.cpu_count() or 4
     threads_per_clip = max(2, cpu_count // 3)
     gdal_start = time.time()
@@ -659,7 +742,7 @@ async def perform_clip(
         num_threads=threads_per_clip
     )
     gdal_time = time.time() - gdal_start
-    logger.info(f"GDAL warp took {gdal_time:.2f} seconds")
+    logger.info(f"GDAL pipeline took {gdal_time:.2f} seconds")
 
     # 4. Publish to GeoServer (in thread pool — requests is blocking)
     publish_start = time.time()
@@ -775,7 +858,6 @@ async def clip_layer_async(request: AsyncClipRequest):
 
     Clip-service handles the full lifecycle: clip → publish → DB cache insert.
     """
-    # Register the job
     job_id = job_tracker.create_job(request.country_name)
 
     logger.info(
@@ -783,7 +865,6 @@ async def clip_layer_async(request: AsyncClipRequest):
         f"(layer {request.layer_db_id}, queue: {job_tracker.get_all_jobs().__len__()})"
     )
 
-    # Spawn background task
     asyncio.create_task(_process_async_job(job_id, request))
 
     return AsyncClipResponse(
@@ -804,7 +885,6 @@ async def _process_async_job(job_id: str, request: AsyncClipRequest):
             logger.info(f"[Async Clip] Job {job_id} started processing: {request.country_name}")
             start_time = time.time()
 
-            # Check cache (skip if already clipped)
             if check_clip_cache(request.country_file, request.layer_db_id):
                 logger.info(f"[Async Clip] Job {job_id} cache hit, skipping: {request.country_name}")
                 job_tracker.update_job(
@@ -815,7 +895,6 @@ async def _process_async_job(job_id: str, request: AsyncClipRequest):
                 )
                 return
 
-            # Perform the clip
             result = await perform_clip(
                 geojson_path=request.geojson_path,
                 raster_path=request.raster_path,
@@ -825,7 +904,6 @@ async def _process_async_job(job_id: str, request: AsyncClipRequest):
                 country_name=request.country_name,
             )
 
-            # Insert into DB cache
             insert_clip_cache(
                 country_file=request.country_file,
                 layer_db_id=request.layer_db_id,
@@ -836,7 +914,7 @@ async def _process_async_job(job_id: str, request: AsyncClipRequest):
             total_time = time.time() - start_time
             logger.info(
                 f"[Async Clip] Job {job_id} completed: {result['clipped_layer_name']} "
-                f"(Total: {total_time:.2f}s, GDAL included, Size: {result['file_size_bytes']} bytes)"
+                f"(Total: {total_time:.2f}s, Size: {result['file_size_bytes']} bytes)"
             )
 
             job_tracker.update_job(
@@ -860,7 +938,6 @@ async def _process_async_job(job_id: str, request: AsyncClipRequest):
 @app.get("/clip/jobs")
 async def list_jobs():
     """List all async clip jobs and their statuses"""
-    # Cleanup old completed/failed jobs
     job_tracker.cleanup_old_jobs()
     return {"jobs": job_tracker.get_all_jobs()}
 
@@ -880,41 +957,35 @@ async def delete_clip_file(request: FileDeleteRequest):
     The file is found by walking the OUTPUT_DIR looking for the matching filename.
     """
     try:
-        layer_name = request.clipped_layer_name  # e.g., "LC:clip_Nigeria_JRC_1_a1b2c3d4"
-        
-        # Extract just the store name (after the colon)
+        layer_name = request.clipped_layer_name
         store_name = layer_name.split(":")[-1] if ":" in layer_name else layer_name
-        
-        # Walk OUTPUT_DIR to find the file
+
         found_path = None
         output_dir_path = Path(OUTPUT_DIR)
-        
+
         if output_dir_path.exists():
             for file_path in output_dir_path.rglob(f"{store_name}.tif"):
                 found_path = file_path
                 break
-        
+
         if found_path is None:
             logger.warning(f"File not found for deletion: {layer_name}")
             return {"status": "not_found", "message": "File not found"}
-        
-        # Delete the file
+
         os.remove(found_path)
         logger.info(f"Deleted clip file: {found_path}")
-        
-        # Clean up empty parent directories
+
         parent = found_path.parent
         while parent != output_dir_path and parent.exists():
             try:
-                parent.rmdir()  # Only removes if empty
+                parent.rmdir()
                 parent = parent.parent
                 logger.info(f"Cleaned up empty directory: {parent}")
             except OSError:
-                # Directory not empty, stop
                 break
-        
+
         return {"status": "deleted", "path": str(found_path)}
-        
+
     except Exception as e:
         logger.error(f"Error deleting clip file: {e}")
         raise HTTPException(status_code=500, detail=f"Failed to delete file: {str(e)}")
@@ -929,34 +1000,31 @@ async def delete_clip_files_batch(request: BatchFileDeleteRequest):
     deleted = []
     not_found = []
     errors = []
-    
+
     for layer_name in request.clipped_layer_names:
         try:
             store_name = layer_name.split(":")[-1] if ":" in layer_name else layer_name
-            
-            # Walk OUTPUT_DIR to find the file
+
             found_path = None
             output_dir_path = Path(OUTPUT_DIR)
-            
+
             if output_dir_path.exists():
                 for file_path in output_dir_path.rglob(f"{store_name}.tif"):
                     found_path = file_path
                     break
-            
+
             if found_path is None:
                 not_found.append(layer_name)
                 continue
-            
-            # Delete the file
+
             os.remove(found_path)
             deleted.append(str(found_path))
             logger.info(f"Deleted clip file: {found_path}")
-            
+
         except Exception as e:
             logger.error(f"Error deleting file for {layer_name}: {e}")
             errors.append({"layer_name": layer_name, "error": str(e)})
-    
-    # Clean up empty directories
+
     output_dir_path = Path(OUTPUT_DIR)
     if output_dir_path.exists():
         for dir_path in sorted(output_dir_path.rglob("*"), reverse=True):
@@ -965,8 +1033,8 @@ async def delete_clip_files_batch(request: BatchFileDeleteRequest):
                     dir_path.rmdir()
                     logger.info(f"Cleaned up empty directory: {dir_path}")
                 except OSError:
-                    pass  # Directory not empty
-    
+                    pass
+
     return {
         "status": "completed",
         "deleted": deleted,
@@ -997,7 +1065,6 @@ async def compute_stats(request: StatsRequest):
             detail=f"Raster file not found: {request.raster_path}"
         )
 
-    # Load polygon: from file path or from body
     if request.geojson_path:
         geojson_file = Path(request.geojson_path)
         if not geojson_file.exists():
