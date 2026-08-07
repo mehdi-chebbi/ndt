@@ -384,10 +384,6 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
           // so the sidebar still shows "Active" and legend still renders
           switchToClippedLayer(activeLayerKey, data.clippedLayerName, workspace)
 
-          if (data.downloadUrl) {
-            setTiffDownloadUrl(data.downloadUrl)
-          }
-
           console.log('[AutoClip] Switched to cached clipped layer:', data.clippedLayerName)
         }
       }
@@ -528,6 +524,11 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
   // This runs as a useEffect (not inside handleDataLayerToggle) to avoid
   // stale closure issues with selectedCountry.
   useEffect(() => {
+    // The TIFF URL belongs to the exact active-layer/country combination.
+    // Invalidate it immediately so a previous layer cannot be downloaded
+    // while this combination is being checked.
+    setTiffDownloadUrl(null)
+
     if (state.activeDataLayers.length === 0 || !state.selectedCountry) return
 
     const activeLayerKey = state.activeDataLayers[0]
@@ -549,6 +550,9 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
         if (data.status === 'success' && data.cached) {
           const [workspace] = data.clippedLayerName.split(':')
           switchToClippedLayer(activeLayerKey, data.clippedLayerName, workspace)
+          if (data.downloadUrl) {
+            setTiffDownloadUrl(data.downloadUrl)
+          }
         }
       })
       .catch(() => {
