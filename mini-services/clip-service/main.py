@@ -78,7 +78,13 @@ def get_db_connection():
 
 
 def insert_clip_cache(country_file: str, layer_db_id: int, clipped_layer_name: str, file_size_bytes: Optional[int] = None):
-    """Insert or update a clipped layer in the cache table"""
+    """Insert or update a clipped layer in the cache table.
+
+    A failed cache write must fail the clip job. Otherwise the raster can be
+    published successfully while the admin UI remains stuck below 100%.
+    """
+    conn = None
+    cur = None
     try:
         conn = get_db_connection()
         cur = conn.cursor()
@@ -91,11 +97,17 @@ def insert_clip_cache(country_file: str, layer_db_id: int, clipped_layer_name: s
             (country_file, layer_db_id, clipped_layer_name, file_size_bytes)
         )
         conn.commit()
-        cur.close()
-        conn.close()
         logger.info(f"DB cache updated: {country_file} -> {clipped_layer_name}")
     except Exception as e:
+        if conn is not None:
+            conn.rollback()
         logger.error(f"Failed to update DB cache for {country_file}: {e}")
+        raise RuntimeError(f"Failed to update DB cache for {country_file}: {e}") from e
+    finally:
+        if cur is not None:
+            cur.close()
+        if conn is not None:
+            conn.close()
 
 
 def check_clip_cache(country_file: str, layer_db_id: int) -> bool:
@@ -501,16 +513,22 @@ def run_gdalwarp(geojson_path: str, raster_path: str, output_path: str, num_thre
     """
     Run a 3-step pipeline to produce a proper COG with baked-in overviews:
       1. gdalwarp  -> intermediate GeoTIFF (tiled + LZW, no overviews yet)
-      2. gdaladdo  -> build overviews on the intermediate file (average resampling)
-      3. gdal_translate -> convert to final COG with COPY_SRC_OVERVIEWS=YES
+      2. gdaladdo  -> build categorical overviews with nearest-neighbor
+      3. gdal_translate -> convert to final COG while preserving those overviews
 
-    This guarantees overviews are correct for the clipped extent and instantly
-    available to map viewers at all zoom levels.
+    Nearest-neighbor is required here because these rasters contain discrete
+    classes. Averaging class identifiers creates false colors/classes at lower
+    zoom levels that disappear when the user zooms in.
     """
     num_threads = num_threads or (os.cpu_count() or 4)
     tmp_path = output_path.replace(".tif", "_tmp.tif")
 
     try:
+        # Batch deletion deliberately leaves layer directories in place. Still
+        # ensure the destination exists immediately before starting GDAL so a
+        # fresh PVC or manually cleaned directory is handled safely.
+        Path(output_path).parent.mkdir(parents=True, exist_ok=True)
+
         # ------------------------------------------------------------------
         # Step 1: Warp + clip to intermediate GeoTIFF
         # ------------------------------------------------------------------
@@ -553,7 +571,7 @@ def run_gdalwarp(geojson_path: str, raster_path: str, output_path: str, num_thre
         if overview_levels:
             cmd_addo = [
                 "gdaladdo",
-                "-r", "average",
+                "-r", "nearest",
                 "--config", "COMPRESS_OVERVIEW", "LZW",
                 "--config", "USE_RRD", "NO",
                 tmp_path,
@@ -572,9 +590,10 @@ def run_gdalwarp(geojson_path: str, raster_path: str, output_path: str, num_thre
             "-of", "COG",
             "-co", "COMPRESS=LZW",
             "-co", "BLOCKSIZE=512",
-            "-co", "RESAMPLING=AVERAGE",
+            "-co", "RESAMPLING=NEAREST",
+            "-co", "OVERVIEW_RESAMPLING=NEAREST",
             "-co", f"NUM_THREADS={num_threads}",
-            "-co", "COPY_SRC_OVERVIEWS=YES",
+            "-co", "OVERVIEWS=FORCE_USE_EXISTING",
             tmp_path,
             output_path,
         ]
@@ -982,14 +1001,8 @@ async def delete_clip_file(request: FileDeleteRequest):
         os.remove(found_path)
         logger.info(f"Deleted clip file: {found_path}")
 
-        parent = found_path.parent
-        while parent != output_dir_path and parent.exists():
-            try:
-                parent.rmdir()
-                parent = parent.parent
-                logger.info(f"Cleaned up empty directory: {parent}")
-            except OSError:
-                break
+        # Keep per-layer directories. Removing an empty directory can race
+        # with a new clip that has created it but has not written its TIFF yet.
 
         return {"status": "deleted", "path": str(found_path)}
 
@@ -1002,7 +1015,9 @@ async def delete_clip_file(request: FileDeleteRequest):
 async def delete_clip_files_batch(request: BatchFileDeleteRequest):
     """
     Batch delete multiple clipped .tif files from the shared PVC.
-    Also cleans up empty directories.
+
+    Empty per-layer directories are intentionally retained to avoid racing
+    with clipping jobs that are starting at the same time.
     """
     deleted = []
     not_found = []
@@ -1031,16 +1046,6 @@ async def delete_clip_files_batch(request: BatchFileDeleteRequest):
         except Exception as e:
             logger.error(f"Error deleting file for {layer_name}: {e}")
             errors.append({"layer_name": layer_name, "error": str(e)})
-
-    output_dir_path = Path(OUTPUT_DIR)
-    if output_dir_path.exists():
-        for dir_path in sorted(output_dir_path.rglob("*"), reverse=True):
-            if dir_path.is_dir():
-                try:
-                    dir_path.rmdir()
-                    logger.info(f"Cleaned up empty directory: {dir_path}")
-                except OSError:
-                    pass
 
     return {
         "status": "completed",
