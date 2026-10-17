@@ -2,6 +2,11 @@ import { Request, Response } from 'express';
 import pool from '../config/database';
 import { aiLogger } from '../utils/logger';
 import { searchKnowledgeBase, getKnowledgeStatus } from '../services/knowledgeService';
+import {
+  AiRequestPlan,
+  expandKnowledgeQuery,
+  planAiRequest,
+} from '../services/aiRequestPlanner';
 
 // ── System Prompts ─────────────────────────────────────────────────
 
@@ -251,6 +256,27 @@ When presenting numerical data with 3+ categories, include a chart:
 \`\`\`
 Chart types: pie, donut, bar, horizontal-bar, line.`;
 
+const RESPONSE_SYSTEM_PROMPT = (sourcesMode: boolean) => `You are the AI Copilot for AfriGeoData, an African geospatial data platform.
+
+Respond in the same language as the user's latest message. Be concise, accurate, and focused on African geospatial data, land degradation, water access, inequality, map layers, reports, and platform usage.
+
+${sourcesMode
+  ? `SOURCES MODE IS ACTIVE. Base factual claims only on the supplied SOURCE RESULTS. Cite sources using their exact document title in square brackets. If the supplied evidence is insufficient, say that the available official documents do not contain enough information. Never fabricate a source or claim.`
+  : `For general conceptual or platform-usage questions, answer directly. When verified platform data is supplied, use it instead of guessing.`}
+
+OUTPUT SAFETY:
+- Return natural-language Markdown only.
+- Never output internal plans, tool calls, JSON request objects, database queries, or reasoning traces.
+- Do not claim that an operation succeeded unless the supplied results say it succeeded.
+- Preserve supplied layer names and identifiers exactly, and use supplied totals instead of recounting them.
+- If a result is ambiguous, present the choices and ask the user to clarify.
+- If a result is missing, explain that clearly without generalizing beyond that result.
+
+When numerical results contain 3 or more useful categories, you may include one fenced \`chart\` block using this shape:
+\`\`\`chart
+{"type":"bar","title":"...","data":[{"name":"...","value":1}]}
+\`\`\``;
+
 const MAX_CONTEXT_MESSAGES = 20;
 const MAX_MESSAGE_LENGTH = 4000;
 
@@ -318,6 +344,57 @@ async function buildLayerCatalog(): Promise<string> {
 
 // ── Shared Layer Lookup ────────────────────────────────────────────
 
+const LAYER_TERM_ALIASES: Record<string, string[]> = {
+  ndvi: ['normalized', 'difference', 'vegetation', 'index'],
+  spi: ['standardized', 'precipitation', 'index'],
+  lc: ['land', 'cover'],
+  ldn: ['land', 'degradation', 'neutrality'],
+};
+
+const LAYER_QUERY_STOP_WORDS = new Set([
+  'the', 'a', 'an', 'for', 'of', 'in', 'on', 'show', 'display', 'map', 'data',
+  'layer', 'layers', 'please', 'me', 'what', 'is', 'are', 'country', 'compare',
+  'le', 'la', 'les', 'de', 'des', 'du', 'pour', 'dans', 'sur', 'affiche', 'montre',
+  'couche', 'couches', 'donnees', 'données', 'pays', 'comparer',
+]);
+
+function normalizeLayerText(value: string): string {
+  return value
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/([a-z])([A-Z])/g, '$1 $2')
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, ' ')
+    .trim();
+}
+
+function layerTokens(value: string): string[] {
+  const raw = normalizeLayerText(value)
+    .split(/\s+/)
+    .filter(token => token.length > 1 && !LAYER_QUERY_STOP_WORDS.has(token));
+  const expanded = raw.flatMap(token => [token, ...(LAYER_TERM_ALIASES[token] || [])]);
+  return [...new Set(expanded)];
+}
+
+function scoreLayerCandidate(keyword: string, row: any): number {
+  const query = normalizeLayerText(keyword);
+  const display = normalizeLayerText(row.display_name || '');
+  const geoserver = normalizeLayerText(row.geoserver_name || '');
+  const group = normalizeLayerText(row.group_name || '');
+
+  if (query === display || query === geoserver) return 1;
+  if (display.includes(query) || geoserver.includes(query)) return 0.92;
+  if (query.includes(display) && display.length > 3) return 0.88;
+
+  const queryTerms = layerTokens(keyword);
+  if (queryTerms.length === 0) return 0;
+  const candidateTerms = new Set(layerTokens(`${display} ${geoserver} ${group}`));
+  const matched = queryTerms.filter(term => candidateTerms.has(term)).length;
+  const coverage = matched / queryTerms.length;
+  const precision = matched / Math.max(candidateTerms.size, 1);
+  return coverage * 0.8 + precision * 0.2;
+}
+
 async function findLayer(
   layerKeyword: string,
   groupKeyword?: string,
@@ -327,12 +404,11 @@ async function findLayer(
     FROM layers l
     LEFT JOIN layer_groups g ON l.group_id = g.id
     WHERE l.is_active = true
-      AND l.display_name ILIKE $1
   `;
-  const layerParams: any[] = [`%${layerKeyword}%`];
+  const layerParams: any[] = [];
 
   if (groupKeyword) {
-    layerQuery += ` AND g.name ILIKE $2`;
+    layerQuery += ` AND g.name ILIKE $1`;
     layerParams.push(`%${groupKeyword}%`);
   }
 
@@ -340,26 +416,95 @@ async function findLayer(
 
   const layerResult = await pool.query(layerQuery, layerParams);
 
-  if (layerResult.rows.length === 0) {
+  const ranked = layerResult.rows
+    .map((row: any) => ({ row, score: scoreLayerCandidate(layerKeyword, row) }))
+    .sort((a: any, b: any) => b.score - a.score);
+
+  const best = ranked[0];
+
+  if (!best || best.score < 0.45) {
     return {
       status: 'not_found',
       message: `No layer found matching "${layerKeyword}"${groupKeyword ? ` in group "${groupKeyword}"` : ''}`,
-    };
-  }
-
-  if (layerResult.rows.length > 1) {
-    return {
-      status: 'multiple_matches',
-      message: `Multiple layers match "${layerKeyword}"${groupKeyword ? ` in group "${groupKeyword}"` : ''}. Please ask the user to clarify.`,
-      matches: layerResult.rows.map((r) => ({
-        name: r.geoserver_name,
-        display_name: r.display_name,
-        group: r.group_name,
+      matches: ranked.slice(0, 5).map(({ row, score }: any) => ({
+        name: row.geoserver_name,
+        display_name: row.display_name,
+        group: row.group_name,
+        confidence: Math.round(score * 100) / 100,
       })),
     };
   }
 
-  return { status: 'found', layer: layerResult.rows[0] };
+  const closeMatches = ranked.filter(({ score }: any) =>
+    score >= 0.45 && (best.score - score <= 0.08),
+  );
+
+  if (closeMatches.length > 1) {
+    return {
+      status: 'multiple_matches',
+      message: `Multiple layers match "${layerKeyword}"${groupKeyword ? ` in group "${groupKeyword}"` : ''}. Please ask the user to clarify.`,
+      matches: closeMatches.slice(0, 10).map(({ row, score }: any) => ({
+        name: row.geoserver_name,
+        display_name: row.display_name,
+        group: row.group_name,
+        confidence: Math.round(score * 100) / 100,
+      })),
+    };
+  }
+
+  return { status: 'found', layer: best.row };
+}
+
+function editDistance(left: string, right: string): number {
+  const rows = left.length + 1;
+  const columns = right.length + 1;
+  const matrix = Array.from({ length: rows }, () => Array<number>(columns).fill(0));
+  for (let i = 0; i < rows; i++) matrix[i][0] = i;
+  for (let j = 0; j < columns; j++) matrix[0][j] = j;
+  for (let i = 1; i < rows; i++) {
+    for (let j = 1; j < columns; j++) {
+      matrix[i][j] = Math.min(
+        matrix[i - 1][j] + 1,
+        matrix[i][j - 1] + 1,
+        matrix[i - 1][j - 1] + (left[i - 1] === right[j - 1] ? 0 : 1),
+      );
+    }
+  }
+  return matrix[left.length][right.length];
+}
+
+async function resolveCountryName(countryQuery: string): Promise<{
+  status: 'found' | 'not_found' | 'multiple_matches';
+  country?: string;
+  matches?: string[];
+}> {
+  const result = await pool.query(`
+    SELECT DISTINCT country_file FROM (
+      SELECT country_file FROM country_stats
+      UNION
+      SELECT country_file FROM clipped_layers_cache
+    ) countries
+    WHERE country_file IS NOT NULL
+  `);
+
+  const requested = normalizeLayerText(countryQuery.replace(/\.geojson$/i, ''));
+  const ranked = result.rows
+    .map((row: any) => {
+      const country = String(row.country_file).replace(/\.geojson$/i, '');
+      const normalized = normalizeLayerText(country);
+      const contains = normalized.includes(requested) || requested.includes(normalized);
+      const distance = editDistance(requested, normalized);
+      const similarity = contains ? 0.95 : 1 - distance / Math.max(requested.length, normalized.length, 1);
+      return { country, similarity };
+    })
+    .sort((a: any, b: any) => b.similarity - a.similarity);
+
+  if (!ranked[0] || ranked[0].similarity < 0.62) return { status: 'not_found' };
+  const close = ranked.filter((item: any) => ranked[0].similarity - item.similarity <= 0.04);
+  if (close.length > 1) {
+    return { status: 'multiple_matches', matches: close.slice(0, 8).map((item: any) => item.country) };
+  }
+  return { status: 'found', country: ranked[0].country };
 }
 
 // ── DB Tools ───────────────────────────────────────────────────────
@@ -376,25 +521,25 @@ async function getAvailableLayers(args: Record<string, any>): Promise<any> {
     WHERE l.is_active = true
   `;
   const params: any[] = [];
-  let paramIndex = 1;
-
-  if (search) {
-    query += ` AND (l.geoserver_name ILIKE $${paramIndex} OR l.display_name ILIKE $${paramIndex})`;
-    params.push(`%${search}%`);
-    paramIndex++;
-  }
 
   if (group) {
-    query += ` AND g.name ILIKE $${paramIndex}`;
+    query += ` AND g.name ILIKE $1`;
     params.push(`%${group}%`);
-    paramIndex++;
   }
 
   query += ` ORDER BY g.sort_order ASC NULLS LAST, l.sort_order ASC`;
 
   const result = await pool.query(query, params);
 
-  if (result.rows.length === 0) {
+  const matchingRows = search
+    ? result.rows
+        .map((row: any) => ({ row, score: scoreLayerCandidate(search, row) }))
+        .filter(({ score }: any) => score >= 0.45)
+        .sort((a: any, b: any) => b.score - a.score)
+        .map(({ row }: any) => row)
+    : result.rows;
+
+  if (matchingRows.length === 0) {
     return {
       status: 'not_found',
       message: search
@@ -405,7 +550,8 @@ async function getAvailableLayers(args: Record<string, any>): Promise<any> {
 
   return {
     status: 'found',
-    layers: result.rows.map((row) => ({
+    total: matchingRows.length,
+    layers: matchingRows.map((row: any) => ({
       name: row.geoserver_name,
       display_name: row.display_name,
       group: row.group_name,
@@ -415,13 +561,23 @@ async function getAvailableLayers(args: Record<string, any>): Promise<any> {
 }
 
 async function getCountryStats(args: Record<string, any>): Promise<any> {
-  const country = args.country ? String(args.country) : null;
+  let country = args.country ? String(args.country) : null;
   const layerKeyword = args.layer ? String(args.layer) : null;
   const groupKeyword = args.group ? String(args.group) : null;
 
   if (!country || !layerKeyword) {
     return { status: 'error', message: 'Both "country" and "layer" are required' };
   }
+
+  const countryLookup = await resolveCountryName(country);
+  if (countryLookup.status !== 'found') {
+    return {
+      status: countryLookup.status,
+      message: `Could not uniquely resolve country "${country}"`,
+      matches: countryLookup.matches,
+    };
+  }
+  country = countryLookup.country!;
 
   const layerLookup = await findLayer(layerKeyword, groupKeyword);
   if (layerLookup.status !== 'found') return layerLookup;
@@ -503,13 +659,23 @@ async function getCountryStats(args: Record<string, any>): Promise<any> {
 }
 
 async function showCountryOnMap(args: Record<string, any>): Promise<any> {
-  const country = args.country ? String(args.country) : null;
+  let country = args.country ? String(args.country) : null;
   const layerKeyword = args.layer ? String(args.layer) : null;
   const groupKeyword = args.group ? String(args.group) : null;
 
   if (!country || !layerKeyword) {
     return { status: 'error', message: 'Both "country" and "layer" are required' };
   }
+
+  const countryLookup = await resolveCountryName(country);
+  if (countryLookup.status !== 'found') {
+    return {
+      status: countryLookup.status,
+      message: `Could not uniquely resolve country "${country}"`,
+      matches: countryLookup.matches,
+    };
+  }
+  country = countryLookup.country!;
 
   const layerLookup = await findLayer(layerKeyword, groupKeyword);
   if (layerLookup.status !== 'found') return layerLookup;
@@ -597,13 +763,23 @@ async function getCountriesForLayer(args: Record<string, any>): Promise<any> {
 }
 
 async function compareCountryLayers(args: Record<string, any>): Promise<any> {
-  const country = args.country ? String(args.country) : null;
+  let country = args.country ? String(args.country) : null;
   const search = args.search ? String(args.search) : null;
   const groupKeyword = args.group ? String(args.group) : null;
 
   if (!country || !search) {
     return { status: 'error', message: '"country" and "search" are required' };
   }
+
+  const countryLookup = await resolveCountryName(country);
+  if (countryLookup.status !== 'found') {
+    return {
+      status: countryLookup.status,
+      message: `Could not uniquely resolve country "${country}"`,
+      matches: countryLookup.matches,
+    };
+  }
+  country = countryLookup.country!;
 
   // Find ALL layers matching the search keyword
   let layerQuery = `
@@ -991,44 +1167,125 @@ function parseDbRequest(content: string): ToolCall[] | null {
 // ── Execute Tools ──────────────────────────────────────────────────
 
 async function executeTools(toolCalls: ToolCall[]): Promise<ToolResult[]> {
-  const results: ToolResult[] = [];
-
-  for (const call of toolCalls) {
+  return Promise.all(toolCalls.map(async (call): Promise<ToolResult> => {
     const toolFn = toolRegistry[call.name];
 
     if (!toolFn) {
       aiLogger.warning('Unknown tool requested', { tool: call.name });
-      results.push({
+      return {
         tool: call.name,
         args: call.args,
         status: 'error',
         message: `Unknown tool: ${call.name}`,
-      });
-      continue;
+      };
     }
 
     try {
       aiLogger.info(`Executing tool: ${call.name}`, { args: call.args });
       const result = await toolFn(call.args);
-      results.push({
+      const toolResult: ToolResult = {
         tool: call.name,
         args: call.args,
         status: result.status || 'found',
         data: result,
-      });
+      };
       aiLogger.info(`Tool ${call.name} completed`, { status: result.status });
+      return toolResult;
     } catch (error: any) {
       aiLogger.error(`Tool ${call.name} failed`, error);
-      results.push({
+      return {
         tool: call.name,
         args: call.args,
         status: 'error',
         message: `Database error: ${error.message}`,
-      });
+      };
     }
+  }));
+}
+
+function planToToolCalls(plan: AiRequestPlan, originalMessage: string): ToolCall[] {
+  switch (plan.intent) {
+    case 'search_sources':
+      return [{
+        name: 'search_knowledge',
+        args: { query: expandKnowledgeQuery(plan.searchQuery || originalMessage) },
+      }];
+    case 'list_layers':
+      return [{
+        name: 'get_available_layers',
+        args: {
+          search: plan.searchQuery,
+          group: plan.groupQuery,
+        },
+      }];
+    case 'recover_with_catalog':
+      // Planning failed, not the user. Supplying the verified catalogue lets
+      // the final model answer naturally or recover a typo without inventing
+      // layer names and without phrase-specific routing.
+      return [{
+        name: 'get_available_layers',
+        args: {},
+      }];
+    case 'country_statistics':
+      return [
+        {
+          name: 'get_country_stats',
+          args: { country: plan.country, layer: plan.layerQuery, group: plan.groupQuery },
+        },
+        {
+          name: 'show_country_on_map',
+          args: { country: plan.country, layer: plan.layerQuery, group: plan.groupQuery },
+        },
+      ];
+    case 'countries_for_layer':
+      return [{
+        name: 'get_countries_for_layer',
+        args: { layer: plan.layerQuery, group: plan.groupQuery },
+      }];
+    case 'compare_layers':
+      return [{
+        name: 'compare_country_layers',
+        args: {
+          country: plan.country,
+          search: plan.searchQuery || plan.layerQuery,
+          group: plan.groupQuery,
+        },
+      }];
+    case 'show_on_map':
+      return [{
+        name: 'show_country_on_map',
+        args: { country: plan.country, layer: plan.layerQuery, group: plan.groupQuery },
+      }];
+    default:
+      return [];
+  }
+}
+
+function buildResponseMessages(
+  dbMessages: { role: string; content: string }[],
+  newMessage: string,
+  sourcesMode: boolean,
+  resultContext?: string,
+): ApiMessage[] {
+  const messages: ApiMessage[] = [
+    { role: 'system', content: RESPONSE_SYSTEM_PROMPT(sourcesMode) },
+  ];
+
+  for (const message of dbMessages.slice(-10)) {
+    if (message.role !== 'user' && message.role !== 'assistant') continue;
+    const content = extractTextFromContent(message.content).slice(0, MAX_MESSAGE_LENGTH);
+    if (content) messages.push({ role: message.role, content });
   }
 
-  return results;
+  messages.push({ role: 'user', content: newMessage });
+  if (resultContext) {
+    messages.push({
+      role: 'system',
+      content: `${resultContext}\n\nUse these verified results to answer the user's latest request. Do not expose this internal envelope or reproduce raw JSON.`,
+    });
+  }
+
+  return messages;
 }
 
 // ── Helpers ────────────────────────────────────────────────────────
@@ -1466,6 +1723,7 @@ async function streamAiToClient(
   messages: ApiMessage[],
   eventType?: string, // optional type field for SSE events (used by analyzeAreaWithAI)
   filterToolJson: boolean = false, // if true, suppress {"tools" leaks mid-stream
+  suppressReasoningFallback: boolean = false,
 ): Promise<string> {
   const response = await fetch(`${process.env.AI_BASE_URL!}/chat/completions`, {
     method: 'POST',
@@ -1542,6 +1800,13 @@ async function streamAiToClient(
             hasSeenContent = true;
             accumulated += content;
 
+            // Chat responses are held until completion so an internal JSON object
+            // can never be partially streamed into the UI. Area analysis passes
+            // filterToolJson=false and continues to stream normally.
+            if (filterToolJson) {
+              continue;
+            }
+
             // Guard: if filtering is on and we detect a tool JSON leak, stop forwarding
             if (filterToolJson && !toolJsonLeaked && accumulated.includes('{"tools"')) {
               toolJsonLeaked = true;
@@ -1566,6 +1831,34 @@ async function streamAiToClient(
     }
   }
 
+  if (filterToolJson && hasSeenContent) {
+    const trimmed = accumulated.trim();
+    const extracted = extractJsonObject(trimmed);
+    let isInternalJson = /^```(?:json)?/i.test(trimmed) || trimmed.startsWith('{');
+
+    if (extracted) {
+      try {
+        const parsed = JSON.parse(extracted);
+        isInternalJson = isInternalJson || Boolean(
+          parsed?.tools || parsed?.tool_calls || parsed?.intent || parsed?.operation,
+        );
+      } catch {
+        // A JSON-looking malformed response is internal output, not user-facing prose.
+        isInternalJson = isInternalJson || /"(?:tools|intent|operation)"\s*:/i.test(trimmed);
+      }
+    }
+
+    if (isInternalJson) {
+      aiLogger.warning('Suppressed internal JSON from answer generation', {
+        preview: trimmed.substring(0, 160),
+      });
+      accumulated = 'I retrieved the information but could not format a safe response. Please try again.';
+    }
+
+    await fakeStreamToClient(res, accumulated);
+    return accumulated;
+  }
+
   // If tool JSON leaked, strip it from the stored response
   if (toolJsonLeaked) {
     const toolMatch = accumulated.match(/\{[\s\S]*?"tools"[\s\S]*\}/);
@@ -1583,9 +1876,15 @@ async function streamAiToClient(
   // If the model never produced `content` but put everything in `reasoning_content`,
   // use the reasoning buffer as the final answer.
   if (!hasSeenContent && reasoningBuffer.trim()) {
-    accumulated = reasoningBuffer.trim();
-    aiLogger.info('streamAiToClient: no content field — using reasoning_content as fallback', {
-      length: accumulated.length,
+    // Never expose a reasoning trace in chat. Some providers place plans,
+    // internal JSON, or chain-of-thought in this field. The dedicated area
+    // analysis flow retains its legacy fallback behavior.
+    accumulated = (filterToolJson || suppressReasoningFallback)
+      ? 'I could not generate a complete response. Please try again.'
+      : reasoningBuffer.trim();
+    aiLogger.info('streamAiToClient: no content field — applying safe fallback', {
+      reasoningLength: reasoningBuffer.length,
+      reasoningExposed: !(filterToolJson || suppressReasoningFallback),
     });
     // Stream the buffered reasoning content to the client
     await fakeStreamToClient(res, accumulated);
@@ -1652,24 +1951,7 @@ export async function chat(req: Request, res: Response) {
     );
     const dbMessages = messagesResult.rows as { role: string; content: string }[];
 
-    // ── Build layer catalog ──
-    let layerCatalog: string;
-    try {
-      layerCatalog = await buildLayerCatalog();
-    } catch (error: any) {
-      aiLogger.warning('Failed to build layer catalog, using fallback', { error: error.message });
-      layerCatalog = 'Layer catalog temporarily unavailable.';
-    }
-
-    // ── Build messages for AI ──
-    const apiMessages = buildApiMessages(dbMessages, messageText, layerCatalog, !!sourcesMode);
     aiLogger.info('Sources mode', { sourcesMode: !!sourcesMode });
-
-    aiLogger.info('Context built', {
-      totalDbMessages: dbMessages.length,
-      sentToApi: apiMessages.length,
-      model: process.env.AI_MODEL,
-    });
 
     // ── Save user message to DB ──
     // Done BEFORE flushHeaders so we can still return HTTP errors if this fails.
@@ -1700,91 +1982,57 @@ export async function chat(req: Request, res: Response) {
     res.setHeader('X-Accel-Buffering', 'no');
     res.flushHeaders();
 
-    // ═══════════════════════════════════════════════════════════════
-    // ROUND 1: Non-streaming decision (both modes)
-    // Ask the AI: "Do you need tools, or can you answer directly?"
-    // This is a fast, cheap, non-streaming call with retry on garbage.
-    // ═══════════════════════════════════════════════════════════════
+    // ── Resolve a private, validated request plan ──
+    // The raw planner response is never streamed to the browser.
+    res.write(`data: ${JSON.stringify({ type: 'status', stage: 'resolving' })}\n\n`);
 
-    aiLogger.info('Round 1: Non-streaming decision...');
-
-    let round1Result: { toolResults: ToolResult[] | null; directContent: string };
+    let plan: AiRequestPlan;
     try {
-      round1Result = await round1WithRetry(apiMessages, !!sourcesMode);
+      plan = await planAiRequest({
+        requestId,
+        message: messageText,
+        history: dbMessages,
+        sourcesMode: !!sourcesMode,
+        apiBaseUrl: process.env.AI_BASE_URL!,
+        apiKey: process.env.AI_API_KEY!,
+        model: process.env.AI_MODEL!,
+        appUrl: process.env.AI_APP_URL,
+        appName: process.env.AI_APP_NAME,
+      });
     } catch (error: any) {
-      aiLogger.error('Round 1 failed', error);
+      aiLogger.warning('Planner failed unexpectedly; falling back to general response', {
+        error: error.message,
+      });
+      plan = { intent: 'general_question' };
+    }
 
-      const userError = error.message?.includes('451')
-        ? 'Your message was blocked by the content filter. Please rephrase and try again.'
-        : 'Failed to get AI response. Please try again.';
+    aiLogger.info('Validated request plan', { plan });
 
-      res.write(`data: ${JSON.stringify({ error: userError })}\n\n`);
+    if (plan.intent === 'clarification' && plan.clarification) {
+      const clarification = plan.clarification;
+      await pool.query(
+        'INSERT INTO chat_messages (session_id, role, content) VALUES ($1, $2, $3)',
+        [sessionId, 'assistant', clarification],
+      );
+      res.write(`data: ${JSON.stringify({ content: clarification })}\n\n`);
+      res.write('data: [DONE]\n\n');
       res.end();
       return;
     }
 
-    const { toolResults: round1ToolResults, directContent: round1DirectContent } = round1Result;
-
-    // ── Path A: Direct response (no tools needed) ──
-
-    if (!round1ToolResults || round1ToolResults.length === 0) {
-      if (round1DirectContent) {
-        // Valid direct response — fake-stream to user
-        aiLogger.info('No tool calls — fake-streaming direct response', {
-          responseLength: round1DirectContent.length,
-        });
-
-        await pool.query(
-          'INSERT INTO chat_messages (session_id, role, content) VALUES ($1, $2, $3)',
-          [sessionId, 'assistant', round1DirectContent],
-        );
-        await pool.query(
-          'UPDATE chat_sessions SET updated_at = CURRENT_TIMESTAMP WHERE id = $1',
-          [sessionId],
-        );
-
-        await fakeStreamToClient(res, round1DirectContent);
-        res.write('data: [DONE]\n\n');
-        res.end();
-
-        aiLogger.success(`Request [${requestId}] completed (direct)`, {
-          responseLength: round1DirectContent.length,
-        });
-        aiLogger.separator();
-        return;
-      } else {
-        // No tools and no content (all retries gave garbage)
-        aiLogger.warning('Round 1 returned no tools and no content');
-
-        const fallbackMsg = 'I encountered an issue processing your request. Please try again.';
-        await pool.query(
-          'INSERT INTO chat_messages (session_id, role, content) VALUES ($1, $2, $3)',
-          [sessionId, 'assistant', fallbackMsg],
-        );
-
-        res.write(`data: ${JSON.stringify({ content: fallbackMsg })}\n\n`);
-        res.write('data: [DONE]\n\n');
-        res.end();
-
-        aiLogger.success(`Request [${requestId}] completed (fallback — garbage recovery)`);
-        aiLogger.separator();
-        return;
-      }
+    const toolCalls = planToToolCalls(plan, messageText);
+    let toolResults: ToolResult[] = [];
+    if (toolCalls.length > 0) {
+      res.write(`data: ${JSON.stringify({ type: 'status', stage: sourcesMode ? 'searching_sources' : 'querying_data' })}\n\n`);
+      // Backward-compatible status for the current frontend.
+      res.write(`data: ${JSON.stringify({ type: 'searching' })}\n\n`);
+      toolResults = await executeTools(toolCalls);
     }
-
-    // ── Path B: Tools were called — execute, then stream round 2 ──
-
-    aiLogger.info(`Tool calls detected — executing ${round1ToolResults.length} tool(s)`, {
-      tools: round1ToolResults.map((r) => r.tool),
-    });
-
-    // Emit "searching" so frontend shows loading state while tools run
-    res.write(`data: ${JSON.stringify({ type: 'searching' })}\n\n`);
 
     // Emit map_action SSE events — automatically for any tool returning country+layer data
     const mapActionCandidates: { country: string; layerId: number }[] = [];
 
-    for (const result of round1ToolResults) {
+    for (const result of toolResults) {
       if (result.tool === 'show_country_on_map' && result.status === 'clipped' && result.data) {
         const mapAction = {
           type: 'map_action',
@@ -1828,50 +2076,52 @@ export async function chat(req: Request, res: Response) {
       }
     }
 
-    // Build DB results context for round 2
-    const dbContextParts = round1ToolResults.map((r) => {
-      const resultStr = JSON.stringify(r.data, null, 2);
-      return `Tool: ${r.tool}(args: ${JSON.stringify(r.args)})\nResult: ${resultStr}`;
-    });
-
     const isSourcesMode = !!sourcesMode;
-    const dbResultsMessage = `DATABASE QUERY RESULTS:\n\n${dbContextParts.join('\n\n---\n\n')}\n\nINSTRUCTIONS:\n- If any result has status "multiple_matches", list the matching options and ask the user to clarify. NEVER guess.\n- If any result has status "not_found" or "no_stats", inform the user accordingly.\n- If results have status "found", analyze the data and provide a clear, helpful response.${isSourcesMode ? '\n- If any result has status "no_documents", inform the user that no relevant documents were found in the knowledge base.\n- LANGUAGE RULE (CRITICAL): You MUST respond in the same language the user\'s original question was written in. The retrieved documents above may be in French, but you MUST translate all content and write your entire response in the user\'s language. NEVER respond in French when the user wrote in English, even if all source documents are in French.' : ''}`;
+    const resultContext = toolResults.length > 0
+      ? `VERIFIED ${isSourcesMode ? 'SOURCE' : 'PLATFORM DATA'} RESULTS:\n${toolResults
+          .map(result => JSON.stringify({
+            operation: result.tool,
+            requested: result.args,
+            status: result.status,
+            result: result.data ?? result.message,
+          }))
+          .join('\n')}`
+      : plan.intent === 'clarification' && plan.clarificationContext
+        ? `CLARIFICATION REQUIRED: ${plan.clarificationContext}. Ask one concise question for the missing information in the user's language. Do not claim that any action was performed.`
+        : undefined;
 
-    // Save tool results as system message for conversation continuity
-    await pool.query(
-      'INSERT INTO chat_messages (session_id, role, content) VALUES ($1, $2, $3)',
-      [sessionId, 'system', dbResultsMessage],
+    const responseMessages = buildResponseMessages(
+      dbMessages,
+      messageText,
+      isSourcesMode,
+      resultContext,
     );
 
-    // ═══════════════════════════════════════════════════════════════
-    // ROUND 2: Streaming — AI analyzes DB results and responds
-    // ═══════════════════════════════════════════════════════════════
+    res.write(`data: ${JSON.stringify({ type: 'status', stage: 'answering' })}\n\n`);
 
-    aiLogger.info('Round 2: Streaming AI response with DB context...');
-
-    const round2Messages: ApiMessage[] = [
-      ...apiMessages,
-      { role: 'assistant', content: JSON.stringify({ tools: round1ToolResults.map(r => ({ name: r.tool, args: r.args })) }) },
-      { role: 'system', content: dbResultsMessage },
-      { role: 'system', content: 'IMPORTANT: You have already called the tools and received the results above. Do NOT output any tool-call JSON (like {"tools": [...]}) in your response now. Respond ONLY with natural language analysis of the data. Never echo back the tool JSON or raw database output.' },
-    ];
-
-    let round2Content: string;
+    let responseContent: string;
     try {
-      round2Content = await streamAiToClient(res, round2Messages, undefined, true);
+      // This is a dedicated prose-only generation call. Stream it directly for
+      // responsiveness while still refusing provider reasoning traces.
+      responseContent = await streamAiToClient(res, responseMessages, undefined, false, true);
     } catch (error: any) {
-      aiLogger.error('Round 2 failed', error);
+      aiLogger.error('Answer generation failed', error);
       res.write(
-        `data: ${JSON.stringify({ error: 'Failed to analyze database results. Please try again.' })}\n\n`,
+        `data: ${JSON.stringify({ error: 'Failed to generate a response. Please try again.' })}\n\n`,
       );
       res.end();
       return;
     }
 
-    if (round2Content) {
+    if (!responseContent.trim()) {
+      responseContent = 'I could not generate a complete response. Please try again.';
+      res.write(`data: ${JSON.stringify({ content: responseContent })}\n\n`);
+    }
+
+    if (responseContent) {
       await pool.query(
         'INSERT INTO chat_messages (session_id, role, content) VALUES ($1, $2, $3)',
-        [sessionId, 'assistant', round2Content],
+        [sessionId, 'assistant', responseContent],
       );
       await pool.query(
         'UPDATE chat_sessions SET updated_at = CURRENT_TIMESTAMP WHERE id = $1',
@@ -1882,10 +2132,11 @@ export async function chat(req: Request, res: Response) {
     res.write('data: [DONE]\n\n');
     res.end();
 
-    aiLogger.success(`Request [${requestId}] completed (DB-assisted${isSourcesMode ? ', Sources Mode' : ''})`, {
-      toolsUsed: round1ToolResults.map((r) => r.tool),
-      toolResults: round1ToolResults.map((r) => r.status),
-      responseLength: round2Content.length,
+    aiLogger.success(`Request [${requestId}] completed`, {
+      intent: plan.intent,
+      operations: toolResults.map((result) => result.tool),
+      operationStatuses: toolResults.map((result) => result.status),
+      responseLength: responseContent.length,
     });
     aiLogger.separator();
   } catch (error: any) {

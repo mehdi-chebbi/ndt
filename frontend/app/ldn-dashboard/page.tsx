@@ -113,7 +113,7 @@ const SO1_LAYERS = {
   sdgReporting: 'SDG:sdg_15_3_1_reporting_COG',
   landcover2023: 'LC:LandCoverOSS2023V2COG',
   lcChangeReporting: 'LCC:LC_change_OSS_Reporting_COG',
-  lpdReporting: 'LP:LP_OSS_reporting_COG',
+  lpdReporting: 'LP:LandProductivity_5classes_reporting_Africa_COG',
   socBaseline: 'SoilOrganicCarbon:SOC_baseline_COG',
   socReporting: 'SoilOrganicCarbon:SOC_reporting_COG',
 }

@@ -78,8 +78,31 @@ const markdownComponents = {
 
 // ── Render assistant content with charts ────────────────────────────
 
+function sanitizeAssistantContent(text: string): string {
+  const trimmed = text.trim()
+  if (!trimmed.startsWith('{') && !/^```json/i.test(trimmed)) return text
+
+  const candidate = trimmed
+    .replace(/^```json\s*/i, '')
+    .replace(/```\s*$/i, '')
+
+  try {
+    const parsed = JSON.parse(candidate)
+    if (parsed?.tools || parsed?.tool_calls || parsed?.intent || parsed?.operation) {
+      return 'I could not format the response correctly. Please try your request again.'
+    }
+  } catch {
+    if (/"(?:tools|tool_calls|intent|operation)"\s*:/i.test(candidate)) {
+      return 'I could not format the response correctly. Please try your request again.'
+    }
+  }
+
+  return text
+}
+
 /** Split text on ```chart ... ``` blocks and render each segment */
 function renderAssistantContent(text: string) {
+  text = sanitizeAssistantContent(text)
   const segments: Array<{ type: 'text' | 'chart'; content: string }> = []
 
   // Match ```chart ... ``` blocks (non-greedy, supports multiline JSON)
@@ -624,7 +647,7 @@ export default function AICopilot() {
                 {/* Sources toggle button */}
                 <button
                   onClick={toggleSourcesMode}
-                  disabled={isLoading && !sourcesMode}
+                  disabled={isLoading}
                   className={`flex-shrink-0 p-2 rounded-lg transition-colors ${
                     sourcesMode
                       ? 'bg-amber-100 text-amber-700 hover:bg-amber-200'
