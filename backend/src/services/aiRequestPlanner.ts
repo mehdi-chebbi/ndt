@@ -67,10 +67,12 @@ Routing rules:
 - Comparisons, trends, multiple years or multiple periods are compare_layers.
 - Questions asking which countries have a layer are countries_for_layer.
 - Questions asking what layers/data are available are list_layers.
-- Conceptual or platform-usage questions are general_question.
-- For list_layers, put only the requested theme in searchQuery. Use no searchQuery when the user asks for every layer.
+- Questions asking whether the platform has layers related to any theme or concept are list_layers, even when the exact concept may not appear in a layer name.
+- Conceptual questions unrelated to discovering platform layers, and platform-usage questions, are general_question.
+- For list_layers, preserve the requested theme in searchQuery for answer context. The backend will provide the complete verified catalogue so the answering model can reason about conceptual relationships.
 - Correct obvious spelling mistakes in country, layer, and theme names (for example "ladn cover" means "land cover").
 - Keep layerQuery semantic and concise. Never guess an exact catalog display name.
+- groupQuery is only for an explicitly named source or stored category. Do not copy general theme words from the layer request into groupQuery; keep those in layerQuery/searchQuery.
 - A follow-up such as "what about land productivity?" inherits the previous intent when the conversation was listing or searching layers.
 - When the assistant has asked the user to choose a layer/source for a pending map action, a short selection such as "Landcover 2000" or "from OSS" inherits show_on_map and the previously selected details.
 - When the assistant asks which country to use for a pending map action, a short country reply inherits show_on_map and the previously selected layer and source.

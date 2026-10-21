@@ -8,6 +8,8 @@ export interface LegendItem {
 export interface Layer {
   id: number
   name: string
+  name_en: string | null
+  name_fr: string | null
   geoserver_name: string
   layerName: string
   wmsUrl: string
@@ -15,6 +17,8 @@ export interface Layer {
   hasStats: boolean
   group_id: number | null
   group_name: string | null
+  group_name_en: string | null
+  group_name_fr: string | null
   group_legend: LegendItem[] | null
   legend: LegendItem[] | null
 }
@@ -22,7 +26,11 @@ export interface Layer {
 export interface Group {
   id: number
   name: string
+  name_en: string | null
+  name_fr: string | null
   description: string | null
+  description_en: string | null
+  description_fr: string | null
   legend: LegendItem[] | null
   parent_id: number | null
   children: Group[]

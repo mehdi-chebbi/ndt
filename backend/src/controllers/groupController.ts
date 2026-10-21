@@ -5,7 +5,7 @@ import pool from '../config/database';
 export const getAllGroups = async (req: AuthRequest, res: Response) => {
   try {
     const result = await pool.query(`
-      SELECT g.*, p.name as parent_name,
+      SELECT g.*, p.name as parent_name, p.name_en as parent_name_en, p.name_fr as parent_name_fr,
              (SELECT COUNT(*) FROM layers l WHERE l.group_id = g.id) as layer_count,
              (SELECT COUNT(*) FROM layer_groups cg WHERE cg.parent_id = g.id) as child_count
       FROM layer_groups g
@@ -27,7 +27,7 @@ export const getGroupsTree = async (req: AuthRequest, res: Response) => {
   try {
     // Get all groups
     const groupsResult = await pool.query(`
-      SELECT g.*, p.name as parent_name
+      SELECT g.*, p.name as parent_name, p.name_en as parent_name_en, p.name_fr as parent_name_fr
       FROM layer_groups g
       LEFT JOIN layer_groups p ON g.parent_id = p.id
       ORDER BY g.sort_order ASC, g.created_at ASC
@@ -99,7 +99,8 @@ export const getGroupById = async (req: AuthRequest, res: Response) => {
     const { id } = req.params;
 
     const result = await pool.query(
-      'SELECT g.*, p.name as parent_name FROM layer_groups g LEFT JOIN layer_groups p ON g.parent_id = p.id WHERE g.id = $1',
+      `SELECT g.*, p.name as parent_name, p.name_en as parent_name_en, p.name_fr as parent_name_fr
+       FROM layer_groups g LEFT JOIN layer_groups p ON g.parent_id = p.id WHERE g.id = $1`,
       [id]
     );
 
@@ -109,13 +110,15 @@ export const getGroupById = async (req: AuthRequest, res: Response) => {
 
     // Get layers in this group
     const layersResult = await pool.query(
-      'SELECT id, geoserver_name, display_name, is_active, sort_order FROM layers WHERE group_id = $1 ORDER BY sort_order ASC',
+      `SELECT id, geoserver_name, display_name, display_name_en, display_name_fr, is_active, sort_order
+       FROM layers WHERE group_id = $1 ORDER BY sort_order ASC`,
       [id]
     );
 
     // Get child groups
     const childGroupsResult = await pool.query(
-      'SELECT id, name, description, sort_order FROM layer_groups WHERE parent_id = $1 ORDER BY sort_order ASC',
+      `SELECT id, name, name_en, name_fr, description, description_en, description_fr, sort_order
+       FROM layer_groups WHERE parent_id = $1 ORDER BY sort_order ASC`,
       [id]
     );
 
@@ -135,7 +138,7 @@ export const getGroupById = async (req: AuthRequest, res: Response) => {
 // Create group (admin only)
 export const createGroup = async (req: AuthRequest, res: Response) => {
   try {
-    const { name, parent_id, description, legend, sort_order } = req.body;
+    const { name, name_en, name_fr, parent_id, description, description_en, description_fr, legend, sort_order } = req.body;
 
     if (!name) {
       return res.status(400).json({ error: 'Group name is required' });
@@ -150,10 +153,11 @@ export const createGroup = async (req: AuthRequest, res: Response) => {
     }
 
     const result = await pool.query(
-      `INSERT INTO layer_groups (name, parent_id, description, legend, sort_order)
-       VALUES ($1, $2, $3, $4, $5)
+      `INSERT INTO layer_groups (name, name_en, name_fr, parent_id, description, description_en, description_fr, legend, sort_order)
+       VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9)
        RETURNING *`,
-      [name, parent_id || null, description || null, legend ? JSON.stringify(legend) : null, sort_order || 0]
+      [name, name_en || null, name_fr || null, parent_id || null, description || null,
+       description_en || null, description_fr || null, legend ? JSON.stringify(legend) : null, sort_order || 0]
     );
 
     res.status(201).json({
@@ -170,7 +174,7 @@ export const createGroup = async (req: AuthRequest, res: Response) => {
 export const updateGroup = async (req: AuthRequest, res: Response) => {
   try {
     const { id } = req.params;
-    const { name, parent_id, description, legend, sort_order } = req.body;
+    const { name, name_en, name_fr, parent_id, description, description_en, description_fr, legend, sort_order } = req.body;
 
     const groupId = parseInt(id);
     if (isNaN(groupId)) {
@@ -213,14 +217,19 @@ export const updateGroup = async (req: AuthRequest, res: Response) => {
     const result = await pool.query(
       `UPDATE layer_groups
        SET name = COALESCE($1, name),
-           parent_id = CASE WHEN $2::integer IS NULL THEN NULL ELSE COALESCE($2, parent_id) END,
-           description = COALESCE($3, description),
-           legend = COALESCE($4, legend),
-           sort_order = COALESCE($5, sort_order),
+           name_en = COALESCE($2, name_en),
+           name_fr = COALESCE($3, name_fr),
+           parent_id = CASE WHEN $4::integer IS NULL THEN NULL ELSE COALESCE($4, parent_id) END,
+           description = COALESCE($5, description),
+           description_en = COALESCE($6, description_en),
+           description_fr = COALESCE($7, description_fr),
+           legend = COALESCE($8, legend),
+           sort_order = COALESCE($9, sort_order),
            updated_at = CURRENT_TIMESTAMP
-       WHERE id = $6
+       WHERE id = $10
        RETURNING *`,
-      [name, parent_id === null ? null : (parent_id || undefined), description, legend ? JSON.stringify(legend) : undefined, sort_order, groupId]
+      [name, name_en, name_fr, parent_id === null ? null : (parent_id || undefined), description,
+       description_en, description_fr, legend ? JSON.stringify(legend) : undefined, sort_order, groupId]
     );
 
     res.status(200).json({

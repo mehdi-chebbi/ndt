@@ -268,6 +268,8 @@ OUTPUT SAFETY:
 - Return natural-language Markdown only.
 - Never output internal plans, tool calls, JSON request objects, database queries, or reasoning traces.
 - Do not claim that an operation succeeded unless the supplied results say it succeeded.
+- Offer only actions that are supported by the supplied platform operations. Never imply that you can perform an unsupported action now or later.
+- You cannot create, trigger, or request layer clipping or pre-clipping jobs. Never offer to clip or pre-clip a layer.
 - Preserve supplied layer names and identifiers exactly, and use supplied totals instead of recounting them.
 - If a result is ambiguous, present the choices and ask the user to clarify.
 - If a result is missing, explain that clearly without generalizing beyond that result.
@@ -311,18 +313,22 @@ interface ChatRequestBody {
 async function buildLayerCatalog(): Promise<string> {
   const result = await pool.query(`
     WITH RECURSIVE group_path AS (
-      SELECT id, name, name::text AS breadcrumb
+      SELECT id, name, name_en, name_fr,
+             CONCAT_WS(' / ', COALESCE(name_en, name), COALESCE(name_fr, name))::text AS breadcrumb
       FROM layer_groups
       WHERE parent_id IS NULL
 
       UNION ALL
 
-      SELECT g.id, g.name, CONCAT(gp.breadcrumb, ' > ', g.name)
+      SELECT g.id, g.name, g.name_en, g.name_fr,
+             CONCAT(gp.breadcrumb, ' > ', CONCAT_WS(' / ', COALESCE(g.name_en, g.name), COALESCE(g.name_fr, g.name)))
       FROM layer_groups g
       JOIN group_path gp ON g.parent_id = gp.id
     )
     SELECT
       l.display_name,
+      l.display_name_en,
+      l.display_name_fr,
       gp.breadcrumb AS group_path
     FROM layers l
     LEFT JOIN group_path gp ON l.group_id = gp.id
@@ -337,7 +343,8 @@ async function buildLayerCatalog(): Promise<string> {
   return result.rows
     .map((row) => {
       const groupPath = row.group_path || 'Ungrouped';
-      return `  - "${row.display_name}" → ${groupPath}`;
+      const names = [...new Set([row.display_name_en, row.display_name_fr, row.display_name].filter(Boolean))].join(' / ');
+      return `  - "${names}" → ${groupPath}`;
     })
     .join('\n');
 }
@@ -353,8 +360,9 @@ const LAYER_TERM_ALIASES: Record<string, string[]> = {
 
 const LAYER_QUERY_STOP_WORDS = new Set([
   'the', 'a', 'an', 'for', 'of', 'in', 'on', 'show', 'display', 'map', 'data',
-  'layer', 'layers', 'please', 'me', 'what', 'is', 'are', 'country', 'compare',
+  'layer', 'layers', 'please', 'me', 'what', 'is', 'are', 'any', 'available', 'country', 'compare',
   'le', 'la', 'les', 'de', 'des', 'du', 'pour', 'dans', 'sur', 'affiche', 'montre',
+  'il', 'elle', 'existe', 'disponible', 'disponibles', 'quel', 'quelle', 'quels', 'quelles',
   'couche', 'couches', 'donnees', 'données', 'pays', 'comparer',
 ]);
 
@@ -368,31 +376,73 @@ function normalizeLayerText(value: string): string {
     .trim();
 }
 
+function canonicalizeLayerToken(token: string): string {
+  // Lightweight language-agnostic normalization for the common English/French
+  // plural forms used by catalog labels. Avoid short acronyms such as OSS.
+  if (token.length <= 4) return token;
+  if (token.endsWith('ies') && token.length > 5) return `${token.slice(0, -3)}y`;
+  if (token.endsWith('eaux')) return `${token.slice(0, -1)}`;
+  if (token.endsWith('s') && !token.endsWith('ss') && !token.endsWith('us') && !token.endsWith('is')) {
+    return token.slice(0, -1);
+  }
+  return token;
+}
+
 function layerTokens(value: string): string[] {
   const raw = normalizeLayerText(value)
     .split(/\s+/)
-    .filter(token => token.length > 1 && !LAYER_QUERY_STOP_WORDS.has(token));
-  const expanded = raw.flatMap(token => [token, ...(LAYER_TERM_ALIASES[token] || [])]);
+    .filter(token => token.length > 1 && !LAYER_QUERY_STOP_WORDS.has(token))
+    .map(canonicalizeLayerToken);
+  const expanded = raw.flatMap(token => [token, ...(LAYER_TERM_ALIASES[token] || []).map(canonicalizeLayerToken)]);
   return [...new Set(expanded)];
+}
+
+function tokensAreSimilar(left: string, right: string): boolean {
+  if (left === right) return true;
+  if (left.length < 5 || right.length < 5) return false;
+  return editDistance(left, right) <= 1;
+}
+
+function scoreTokenMatch(keyword: string, candidateValues: string[]): number {
+  const queryTerms = layerTokens(keyword);
+  if (queryTerms.length === 0) return 0;
+
+  const candidateTerms = [...new Set(candidateValues.flatMap(layerTokens))];
+  const matched = queryTerms.filter(queryTerm =>
+    candidateTerms.some(candidateTerm => tokensAreSimilar(queryTerm, candidateTerm)),
+  ).length;
+  const coverage = matched / queryTerms.length;
+  const precision = matched / Math.max(candidateTerms.length, 1);
+  return coverage * 0.85 + precision * 0.15;
+}
+
+function scoreGroupCandidate(keyword: string, row: any): number {
+  const values = [row.group_name, row.group_name_en, row.group_name_fr]
+    .filter(Boolean)
+    .map(String);
+  const query = normalizeLayerText(keyword);
+  const normalizedValues = values.map(normalizeLayerText);
+
+  if (normalizedValues.some(value => value === query)) return 1;
+  if (normalizedValues.some(value => value.includes(query) || query.includes(value))) return 0.94;
+  return scoreTokenMatch(keyword, values);
 }
 
 function scoreLayerCandidate(keyword: string, row: any): number {
   const query = normalizeLayerText(keyword);
   const display = normalizeLayerText(row.display_name || '');
+  const displayEn = normalizeLayerText(row.display_name_en || '');
+  const displayFr = normalizeLayerText(row.display_name_fr || '');
   const geoserver = normalizeLayerText(row.geoserver_name || '');
   const group = normalizeLayerText(row.group_name || '');
+  const groupEn = normalizeLayerText(row.group_name_en || '');
+  const groupFr = normalizeLayerText(row.group_name_fr || '');
 
-  if (query === display || query === geoserver) return 1;
-  if (display.includes(query) || geoserver.includes(query)) return 0.92;
-  if (query.includes(display) && display.length > 3) return 0.88;
+  if ([display, displayEn, displayFr, geoserver].some(value => value && query === value)) return 1;
+  if ([display, displayEn, displayFr, geoserver].some(value => value && value.includes(query))) return 0.92;
+  if ([display, displayEn, displayFr].some(value => value.length > 3 && query.includes(value))) return 0.88;
 
-  const queryTerms = layerTokens(keyword);
-  if (queryTerms.length === 0) return 0;
-  const candidateTerms = new Set(layerTokens(`${display} ${geoserver} ${group}`));
-  const matched = queryTerms.filter(term => candidateTerms.has(term)).length;
-  const coverage = matched / queryTerms.length;
-  const precision = matched / Math.max(candidateTerms.size, 1);
-  return coverage * 0.8 + precision * 0.2;
+  return scoreTokenMatch(keyword, [display, displayEn, displayFr, geoserver, group, groupEn, groupFr]);
 }
 
 async function findLayer(
@@ -400,23 +450,33 @@ async function findLayer(
   groupKeyword?: string,
 ): Promise<{ status: string; layer?: any; matches?: any[]; message?: string }> {
   let layerQuery = `
-    SELECT l.id, l.geoserver_name, l.display_name, g.name as group_name
+    SELECT l.id, l.geoserver_name, l.display_name, l.display_name_en, l.display_name_fr, l.file_path,
+           g.name as group_name, g.name_en as group_name_en, g.name_fr as group_name_fr
     FROM layers l
     LEFT JOIN layer_groups g ON l.group_id = g.id
     WHERE l.is_active = true
   `;
-  const layerParams: any[] = [];
-
-  if (groupKeyword) {
-    layerQuery += ` AND g.name ILIKE $1`;
-    layerParams.push(`%${groupKeyword}%`);
-  }
-
   layerQuery += ` ORDER BY l.sort_order ASC`;
 
-  const layerResult = await pool.query(layerQuery, layerParams);
+  const layerResult = await pool.query(layerQuery);
+  const matchingGroupRows = groupKeyword
+    ? layerResult.rows.filter((row: any) => scoreGroupCandidate(groupKeyword, row) >= 0.55)
+    : [];
+  // A group is a disambiguation hint, not a gate. The planner may describe a
+  // semantic category (for example a theme) while the stored group uses an
+  // indicator code. Only constrain by group when that hint matches real data.
+  const candidateRows = groupKeyword && matchingGroupRows.length > 0
+    ? matchingGroupRows
+    : layerResult.rows;
 
-  const ranked = layerResult.rows
+  if (groupKeyword && matchingGroupRows.length === 0) {
+    aiLogger.info('Layer group hint did not match catalog; falling back to layer names', {
+      groupKeyword,
+      layerKeyword,
+    });
+  }
+
+  const ranked = candidateRows
     .map((row: any) => ({ row, score: scoreLayerCandidate(layerKeyword, row) }))
     .sort((a: any, b: any) => b.score - a.score);
 
@@ -429,7 +489,11 @@ async function findLayer(
       matches: ranked.slice(0, 5).map(({ row, score }: any) => ({
         name: row.geoserver_name,
         display_name: row.display_name,
+        display_name_en: row.display_name_en,
+        display_name_fr: row.display_name_fr,
         group: row.group_name,
+        group_en: row.group_name_en,
+        group_fr: row.group_name_fr,
         confidence: Math.round(score * 100) / 100,
       })),
     };
@@ -446,7 +510,11 @@ async function findLayer(
       matches: closeMatches.slice(0, 10).map(({ row, score }: any) => ({
         name: row.geoserver_name,
         display_name: row.display_name,
+        display_name_en: row.display_name_en,
+        display_name_fr: row.display_name_fr,
         group: row.group_name,
+        group_en: row.group_name_en,
+        group_fr: row.group_name_fr,
         confidence: Math.round(score * 100) / 100,
       })),
     };
@@ -514,30 +582,31 @@ async function getAvailableLayers(args: Record<string, any>): Promise<any> {
   const group = args.group ? String(args.group) : null;
 
   let query = `
-    SELECT l.geoserver_name, l.display_name, l.is_active, l.sort_order,
-           g.name as group_name, g.description as group_description
+    SELECT l.geoserver_name, l.display_name, l.display_name_en, l.display_name_fr,
+           l.is_active, l.sort_order, g.name as group_name, g.name_en as group_name_en,
+           g.name_fr as group_name_fr, g.description as group_description,
+           g.description_en as group_description_en, g.description_fr as group_description_fr
     FROM layers l
     LEFT JOIN layer_groups g ON l.group_id = g.id
     WHERE l.is_active = true
   `;
-  const params: any[] = [];
-
-  if (group) {
-    query += ` AND g.name ILIKE $1`;
-    params.push(`%${group}%`);
-  }
-
   query += ` ORDER BY g.sort_order ASC NULLS LAST, l.sort_order ASC`;
 
-  const result = await pool.query(query, params);
+  const result = await pool.query(query);
+  const matchingGroupRows = group
+    ? result.rows.filter((row: any) => scoreGroupCandidate(group, row) >= 0.55)
+    : [];
+  const candidateRows = group && matchingGroupRows.length > 0
+    ? matchingGroupRows
+    : result.rows;
 
   const matchingRows = search
-    ? result.rows
+    ? candidateRows
         .map((row: any) => ({ row, score: scoreLayerCandidate(search, row) }))
         .filter(({ score }: any) => score >= 0.45)
         .sort((a: any, b: any) => b.score - a.score)
         .map(({ row }: any) => row)
-    : result.rows;
+    : candidateRows;
 
   if (matchingRows.length === 0) {
     return {
@@ -554,8 +623,14 @@ async function getAvailableLayers(args: Record<string, any>): Promise<any> {
     layers: matchingRows.map((row: any) => ({
       name: row.geoserver_name,
       display_name: row.display_name,
+      display_name_en: row.display_name_en,
+      display_name_fr: row.display_name_fr,
       group: row.group_name,
+      group_en: row.group_name_en,
+      group_fr: row.group_name_fr,
       group_description: row.group_description,
+      group_description_en: row.group_description_en,
+      group_description_fr: row.group_description_fr,
     })),
   };
 }
@@ -688,6 +763,32 @@ async function showCountryOnMap(args: Record<string, any>): Promise<any> {
   );
 
   if (cacheResult.rows.length === 0) {
+    // Service/continent layers without a source raster cannot and do not need
+    // to be clipped. Display their original WMS layer and use the country only
+    // as the map viewport. This is capability-based, not group-name based.
+    if (!layer.file_path) {
+      const [workspace] = layer.geoserver_name.includes(':')
+        ? layer.geoserver_name.split(':')
+        : [null];
+      return {
+        status: 'original',
+        country,
+        countryFile,
+        clipped: false,
+        workspace,
+        originalLayerName: layer.geoserver_name,
+        message: `The original continent-scale layer "${layer.display_name}" is ready to display and the map can zoom to "${country}".`,
+        layer: {
+          id: layer.id,
+          name: layer.geoserver_name,
+          display_name: layer.display_name,
+          display_name_en: layer.display_name_en,
+          display_name_fr: layer.display_name_fr,
+          group: layer.group_name,
+        },
+      };
+    }
+
     return {
       status: 'not_clipped',
       message: `The layer "${layer.display_name}" has not been clipped for "${country}" yet. Ask the user to contact an admin to pre-clip it.`,
@@ -782,25 +883,29 @@ async function compareCountryLayers(args: Record<string, any>): Promise<any> {
   country = countryLookup.country!;
 
   // Find ALL layers matching the search keyword
-  let layerQuery = `
-    SELECT l.id, l.geoserver_name, l.display_name, g.name as group_name
+  const layerQuery = `
+    SELECT l.id, l.geoserver_name, l.display_name, l.display_name_en, l.display_name_fr,
+           g.name as group_name, g.name_en as group_name_en, g.name_fr as group_name_fr
     FROM layers l
     LEFT JOIN layer_groups g ON l.group_id = g.id
     WHERE l.is_active = true
-      AND (l.geoserver_name ILIKE $1 OR l.display_name ILIKE $1)
+    ORDER BY l.display_name ASC
   `;
-  const layerParams: any[] = [`%${search}%`];
 
-  if (groupKeyword) {
-    layerQuery += ` AND g.name ILIKE $2`;
-    layerParams.push(`%${groupKeyword}%`);
-  }
+  const allLayersResult = await pool.query(layerQuery);
+  const matchingGroupRows = groupKeyword
+    ? allLayersResult.rows.filter((row: any) => scoreGroupCandidate(groupKeyword, row) >= 0.55)
+    : [];
+  const candidateRows = groupKeyword && matchingGroupRows.length > 0
+    ? matchingGroupRows
+    : allLayersResult.rows;
+  const matchingLayers = candidateRows
+    .map((row: any) => ({ row, score: scoreLayerCandidate(search, row) }))
+    .filter(({ score }: any) => score >= 0.45)
+    .sort((a: any, b: any) => b.score - a.score)
+    .map(({ row }: any) => row);
 
-  layerQuery += ` ORDER BY l.display_name ASC`;
-
-  const layerResult = await pool.query(layerQuery, layerParams);
-
-  if (layerResult.rows.length === 0) {
+  if (matchingLayers.length === 0) {
     return {
       status: 'not_found',
       message: `No layers found matching "${search}"${groupKeyword ? ` in group "${groupKeyword}"` : ''}`,
@@ -809,7 +914,7 @@ async function compareCountryLayers(args: Record<string, any>): Promise<any> {
 
   // Query stats for each matching layer in parallel
   const results = await Promise.all(
-    layerResult.rows.map(async (layer: any) => {
+    matchingLayers.map(async (layer: any) => {
       try {
         const statsResult = await pool.query(
           `SELECT country_file, total_area_km2, pixel_size_m, class_stats, computed_at
@@ -1211,12 +1316,13 @@ function planToToolCalls(plan: AiRequestPlan, originalMessage: string): ToolCall
         args: { query: expandKnowledgeQuery(plan.searchQuery || originalMessage) },
       }];
     case 'list_layers':
+      // Discovery is semantic, not lexical. The final model receives the raw
+      // user request plus the complete small verified catalogue and decides
+      // which exact entries are relevant. Filters remain available to legacy
+      // callers, but must not gate conversational discovery.
       return [{
         name: 'get_available_layers',
-        args: {
-          search: plan.searchQuery,
-          group: plan.groupQuery,
-        },
+        args: {},
       }];
     case 'recover_with_catalog':
       // Planning failed, not the user. Supplying the verified catalogue lets
@@ -2033,9 +2139,12 @@ export async function chat(req: Request, res: Response) {
     const mapActionCandidates: { country: string; layerId: number }[] = [];
 
     for (const result of toolResults) {
-      if (result.tool === 'show_country_on_map' && result.status === 'clipped' && result.data) {
+      if (result.tool === 'show_country_on_map'
+          && (result.status === 'clipped' || result.status === 'original')
+          && result.data) {
         const mapAction = {
           type: 'map_action',
+          displayMode: result.status,
           country: result.data.country,
           countryFile: result.data.countryFile,
           clippedLayerName: result.data.clippedLayerName,
@@ -2077,8 +2186,28 @@ export async function chat(req: Request, res: Response) {
     }
 
     const isSourcesMode = !!sourcesMode;
+    const isCompleteCatalogDiscovery = toolResults.some(result =>
+      result.tool === 'get_available_layers'
+      && !result.args.search
+      && !result.args.group,
+    );
+    const catalogReasoningInstruction = isCompleteCatalogDiscovery
+      ? `\n\nCATALOG DISCOVERY RULES:
+- The complete verified layer catalogue is supplied below together with the user's original request.
+- Interpret the user's theme semantically; do not require the exact request words to occur in a display name.
+- Use your geospatial/domain knowledge to explain why catalogue entries are directly relevant or related.
+- Availability claims must use only exact entries present in the supplied catalogue. Never invent a layer.
+- If useful, distinguish direct indicators from supporting component layers.`
+      : '';
+    const hasMapOperation = toolResults.some(result => result.tool === 'show_country_on_map');
+    const mapOperationInstruction = hasMapOperation
+      ? `\n\nMAP OPERATION RULES:
+- Describe only the verified map result supplied below.
+- Never offer to clip or pre-clip a layer; that capability is not available to the copilot.
+- A result with status "original" means the original layer was displayed and the requested country was used only to position or zoom the map. Do not say clipping is required or suggest clipping as a next step.`
+      : '';
     const resultContext = toolResults.length > 0
-      ? `VERIFIED ${isSourcesMode ? 'SOURCE' : 'PLATFORM DATA'} RESULTS:\n${toolResults
+      ? `VERIFIED ${isSourcesMode ? 'SOURCE' : 'PLATFORM DATA'} RESULTS:${catalogReasoningInstruction}${mapOperationInstruction}\n${toolResults
           .map(result => JSON.stringify({
             operation: result.tool,
             requested: result.args,

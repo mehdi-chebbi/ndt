@@ -16,8 +16,12 @@ interface Layer {
   id: number
   geoserver_name: string
   display_name: string | null
+  display_name_en: string | null
+  display_name_fr: string | null
   group_id: number | null
   group_name: string | null
+  group_name_en: string | null
+  group_name_fr: string | null
   group_legend: LegendItem[] | null
   file_path: string | null
   class_labels: { [key: string]: string } | null
@@ -31,9 +35,13 @@ interface Layer {
 interface Group {
   id: number
   name: string
+  name_en: string | null
+  name_fr: string | null
   parent_id: number | null
   parent_name: string | null
   description: string | null
+  description_en: string | null
+  description_fr: string | null
   legend: LegendItem[] | null
   sort_order: number
   layer_count: string
@@ -54,7 +62,14 @@ const defaultClassLabels = {
 
 export default function LayerManagementPage() {
   const { user, loading: authLoading } = useAuth()
-  const { t } = useTranslation('admin')
+  const { t, i18n } = useTranslation('admin')
+  const isFrench = i18n.language.startsWith('fr')
+  const localizedLayerName = (layer: Layer) =>
+    (isFrench ? layer.display_name_fr : layer.display_name_en) || layer.display_name || layer.geoserver_name
+  const localizedGroupName = (group: Group) =>
+    (isFrench ? group.name_fr : group.name_en) || group.name
+  const localizedGroupDescription = (group: Group) =>
+    (isFrench ? group.description_fr : group.description_en) || group.description
   const [layers, setLayers] = useState<Layer[]>([])
   const [groups, setGroups] = useState<Group[]>([])
   const [loading, setLoading] = useState(true)
@@ -74,6 +89,8 @@ export default function LayerManagementPage() {
   const [layerFormData, setLayerFormData] = useState({
     geoserver_name: '',
     display_name: '',
+    display_name_en: '',
+    display_name_fr: '',
     group_id: '',
     file_path: '',
     class_labels: JSON.stringify(defaultClassLabels, null, 2),
@@ -89,8 +106,12 @@ export default function LayerManagementPage() {
   const [editingGroup, setEditingGroup] = useState<Group | null>(null)
   const [groupFormData, setGroupFormData] = useState({
     name: '',
+    name_en: '',
+    name_fr: '',
     parent_id: '',
     description: '',
+    description_en: '',
+    description_fr: '',
     legend: [] as LegendItem[],
     sort_order: 0
   })
@@ -168,6 +189,8 @@ export default function LayerManagementPage() {
       setLayerFormData({
         geoserver_name: layer.geoserver_name,
         display_name: layer.display_name || '',
+        display_name_en: layer.display_name_en || '',
+        display_name_fr: layer.display_name_fr || '',
         group_id: layer.group_id ? String(layer.group_id) : '',
         file_path: layer.file_path || '',
         class_labels: layer.class_labels ? JSON.stringify(layer.class_labels, null, 2) : JSON.stringify(defaultClassLabels, null, 2),
@@ -180,6 +203,8 @@ export default function LayerManagementPage() {
       setLayerFormData({
         geoserver_name: '',
         display_name: '',
+        display_name_en: '',
+        display_name_fr: '',
         group_id: '',
         file_path: '',
         class_labels: JSON.stringify(defaultClassLabels, null, 2),
@@ -219,6 +244,8 @@ export default function LayerManagementPage() {
         ? await api.put(`/layers/${editingLayer.id}`, {
             geoserver_name: layerFormData.geoserver_name,
             display_name: layerFormData.display_name || null,
+            display_name_en: layerFormData.display_name_en || null,
+            display_name_fr: layerFormData.display_name_fr || null,
             group_id: layerFormData.group_id ? parseInt(layerFormData.group_id) : null,
             file_path: layerFormData.file_path || null,
             class_labels: classLabelsObj,
@@ -229,6 +256,8 @@ export default function LayerManagementPage() {
         : await api.post('/layers', {
             geoserver_name: layerFormData.geoserver_name,
             display_name: layerFormData.display_name || null,
+            display_name_en: layerFormData.display_name_en || null,
+            display_name_fr: layerFormData.display_name_fr || null,
             group_id: layerFormData.group_id ? parseInt(layerFormData.group_id) : null,
             file_path: layerFormData.file_path || null,
             class_labels: classLabelsObj,
@@ -292,8 +321,12 @@ export default function LayerManagementPage() {
       setEditingGroup(group)
       setGroupFormData({
         name: group.name,
+        name_en: group.name_en || '',
+        name_fr: group.name_fr || '',
         parent_id: group.parent_id ? String(group.parent_id) : '',
         description: group.description || '',
+        description_en: group.description_en || '',
+        description_fr: group.description_fr || '',
         legend: group.legend || [],
         sort_order: group.sort_order
       })
@@ -301,8 +334,12 @@ export default function LayerManagementPage() {
       setEditingGroup(null)
       setGroupFormData({
         name: '',
+        name_en: '',
+        name_fr: '',
         parent_id: '',
         description: '',
+        description_en: '',
+        description_fr: '',
         legend: [],
         sort_order: 0
       })
@@ -323,18 +360,30 @@ export default function LayerManagementPage() {
     setIsGroupSubmitting(true)
 
     try {
+      const fallbackGroupName = groupFormData.name || groupFormData.name_en || groupFormData.name_fr
+      if (!fallbackGroupName) {
+        throw new Error(t('layers.errors.groupNameRequired'))
+      }
       const response = editingGroup
         ? await api.put(`/groups/${editingGroup.id}`, {
-            name: groupFormData.name,
+            name: fallbackGroupName,
+            name_en: groupFormData.name_en || null,
+            name_fr: groupFormData.name_fr || null,
             parent_id: groupFormData.parent_id ? parseInt(groupFormData.parent_id) : null,
             description: groupFormData.description || null,
+            description_en: groupFormData.description_en || null,
+            description_fr: groupFormData.description_fr || null,
             legend: groupFormData.legend.length > 0 ? groupFormData.legend : null,
             sort_order: groupFormData.sort_order
           })
         : await api.post('/groups', {
-            name: groupFormData.name,
+            name: fallbackGroupName,
+            name_en: groupFormData.name_en || null,
+            name_fr: groupFormData.name_fr || null,
             parent_id: groupFormData.parent_id ? parseInt(groupFormData.parent_id) : null,
             description: groupFormData.description || null,
+            description_en: groupFormData.description_en || null,
+            description_fr: groupFormData.description_fr || null,
             legend: groupFormData.legend.length > 0 ? groupFormData.legend : null,
             sort_order: groupFormData.sort_order
           })
@@ -427,9 +476,9 @@ export default function LayerManagementPage() {
               </svg>
             )}
             <div>
-              <h3 className="font-semibold text-gray-900">{group.name}</h3>
-              {group.description && (
-                <p className="text-gray-500 text-sm">{group.description}</p>
+              <h3 className="font-semibold text-gray-900">{localizedGroupName(group)}</h3>
+              {localizedGroupDescription(group) && (
+                <p className="text-gray-500 text-sm">{localizedGroupDescription(group)}</p>
               )}
               <div className="flex gap-4 text-xs text-gray-400 mt-1">
                 <span>{t('layers.groupTab.layersCount', { count: group.layer_count || 0 })}</span>
@@ -477,8 +526,9 @@ export default function LayerManagementPage() {
     const options: { id: number; name: string; path: string }[] = []
     const addGroup = (groupList: any[], parentPath = '') => {
       groupList.forEach(g => {
-        const currentPath = parentPath ? `${parentPath} → ${g.name}` : g.name
-        options.push({ id: g.id, name: g.name, path: currentPath })
+        const translatedName = localizedGroupName(g)
+        const currentPath = parentPath ? `${parentPath} → ${translatedName}` : translatedName
+        options.push({ id: g.id, name: translatedName, path: currentPath })
         if (g.children?.length > 0) {
           addGroup(g.children, currentPath)
         }
@@ -672,7 +722,7 @@ export default function LayerManagementPage() {
                         <td className="px-6 py-4 whitespace-nowrap">
                           <div>
                             <div className="font-medium text-gray-900">
-                              {layer.display_name || layer.geoserver_name}
+                              {localizedLayerName(layer)}
                             </div>
                             <div className="text-xs text-gray-500">{layer.geoserver_name}</div>
                           </div>
@@ -680,7 +730,7 @@ export default function LayerManagementPage() {
                         <td className="px-6 py-4 whitespace-nowrap">
                           {layer.group_name ? (
                             <span className="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs font-medium">
-                              {layer.group_name}
+                              {(isFrench ? layer.group_name_fr : layer.group_name_en) || layer.group_name}
                             </span>
                           ) : (
                             <span className="text-gray-400 text-sm">{t('layers.layerTab.ungrouped')}</span>
@@ -794,16 +844,43 @@ export default function LayerManagementPage() {
                 />
               </div>
 
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                    {t('layers.layerModal.displayNameEn')}
+                  </label>
+                  <input
+                    type="text"
+                    value={layerFormData.display_name_en}
+                    onChange={(e) => setLayerFormData({ ...layerFormData, display_name_en: e.target.value })}
+                    className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-900 focus:border-transparent"
+                    placeholder={t('layers.layerModal.displayNameEnPlaceholder')}
+                  />
+                </div>
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                    {t('layers.layerModal.displayNameFr')}
+                  </label>
+                  <input
+                    type="text"
+                    value={layerFormData.display_name_fr}
+                    onChange={(e) => setLayerFormData({ ...layerFormData, display_name_fr: e.target.value })}
+                    className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-900 focus:border-transparent"
+                    placeholder={t('layers.layerModal.displayNameFrPlaceholder')}
+                  />
+                </div>
+              </div>
+
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-2">
-                  {t('layers.layerModal.displayName')}
+                  {t('layers.layerModal.legacyDisplayName')}
                 </label>
                 <input
                   type="text"
                   value={layerFormData.display_name}
                   onChange={(e) => setLayerFormData({ ...layerFormData, display_name: e.target.value })}
                   className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-900 focus:border-transparent"
-                  placeholder={t('layers.layerModal.displayNamePlaceholder')}
+                  placeholder={t('layers.layerModal.legacyDisplayNamePlaceholder')}
                 />
               </div>
 
@@ -1002,18 +1079,29 @@ export default function LayerManagementPage() {
                 </div>
               )}
 
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">{t('layers.groupModal.groupNameEn')}</label>
+                  <input type="text" value={groupFormData.name_en}
+                    onChange={(e) => setGroupFormData({ ...groupFormData, name_en: e.target.value })}
+                    className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-900 focus:border-transparent"
+                    placeholder={t('layers.groupModal.groupNameEnPlaceholder')} />
+                </div>
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">{t('layers.groupModal.groupNameFr')}</label>
+                  <input type="text" value={groupFormData.name_fr}
+                    onChange={(e) => setGroupFormData({ ...groupFormData, name_fr: e.target.value })}
+                    className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-900 focus:border-transparent"
+                    placeholder={t('layers.groupModal.groupNameFrPlaceholder')} />
+                </div>
+              </div>
+
               <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">
-                  {t('layers.groupModal.groupName')}
-                </label>
-                <input
-                  type="text"
-                  value={groupFormData.name}
+                <label className="block text-sm font-medium text-gray-700 mb-2">{t('layers.groupModal.legacyGroupName')}</label>
+                <input type="text" value={groupFormData.name}
                   onChange={(e) => setGroupFormData({ ...groupFormData, name: e.target.value })}
                   className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-900 focus:border-transparent"
-                  placeholder={t('layers.groupModal.groupNamePlaceholder')}
-                  required
-                />
+                  placeholder={t('layers.groupModal.legacyGroupNamePlaceholder')} />
               </div>
 
               <div>
@@ -1037,17 +1125,21 @@ export default function LayerManagementPage() {
                 </p>
               </div>
 
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">
-                  {t('layers.groupModal.description')}
-                </label>
-                <textarea
-                  value={groupFormData.description}
-                  onChange={(e) => setGroupFormData({ ...groupFormData, description: e.target.value })}
-                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-900 focus:border-transparent"
-                  placeholder={t('layers.groupModal.descriptionPlaceholder')}
-                  rows={3}
-                />
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">{t('layers.groupModal.descriptionEn')}</label>
+                  <textarea value={groupFormData.description_en}
+                    onChange={(e) => setGroupFormData({ ...groupFormData, description_en: e.target.value })}
+                    className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-900 focus:border-transparent"
+                    placeholder={t('layers.groupModal.descriptionEnPlaceholder')} rows={3} />
+                </div>
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">{t('layers.groupModal.descriptionFr')}</label>
+                  <textarea value={groupFormData.description_fr}
+                    onChange={(e) => setGroupFormData({ ...groupFormData, description_fr: e.target.value })}
+                    className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-900 focus:border-transparent"
+                    placeholder={t('layers.groupModal.descriptionFrPlaceholder')} rows={3} />
+                </div>
               </div>
 
               {/* Legend Editor */}

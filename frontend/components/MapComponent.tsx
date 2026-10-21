@@ -14,7 +14,7 @@ import CountrySelector from './map/CountrySelector'
 import CountryStatsPanel from './map/CountryStatsPanel'
 
 // Import types
-import { Group, LegendItem, Layer, StatsResult } from './map/types'
+import { Group, GroupedLayers, LegendItem, Layer, StatsResult } from './map/types'
 import { Country } from './map/useMapState'
 
 // Import tutorial components
@@ -106,6 +106,27 @@ function flattenGroupsWithLayers(groups: Group[], ungroupedLayers: Layer[]): Gro
   return result
 }
 
+function localizeGroupedLayers(data: GroupedLayers, language: string): GroupedLayers {
+  const french = language.startsWith('fr')
+  const localizeLayer = (layer: Layer): Layer => ({
+    ...layer,
+    name: (french ? layer.name_fr : layer.name_en) || layer.name,
+    group_name: (french ? layer.group_name_fr : layer.group_name_en) || layer.group_name,
+  })
+  const localizeGroup = (group: Group): Group => ({
+    ...group,
+    name: (french ? group.name_fr : group.name_en) || group.name,
+    description: (french ? group.description_fr : group.description_en) || group.description,
+    layers: group.layers.map(localizeLayer),
+    children: group.children.map(localizeGroup),
+  })
+
+  return {
+    groups: data.groups.map(localizeGroup),
+    ungroupedLayers: data.ungroupedLayers.map(localizeLayer),
+  }
+}
+
 // Helper: Find inherited legend by traversing parent chain
 function findInheritedLegend(
   groupId: number,
@@ -134,7 +155,7 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
   onStartTutorial,
 }, ref) => {
   const router = useRouter()
-  const { t } = useTranslation('map')
+  const { t, i18n } = useTranslation('map')
   const [isExporting, setIsExporting] = useState(false)
   const [showExportMenu, setShowExportMenu] = useState(false)
   const [tiffDownloadUrl, setTiffDownloadUrl] = useState<string | null>(null)
@@ -159,6 +180,10 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
 
   // Get all state from custom hook
   const state = useMapState()
+  const localizedGroupedLayers = useMemo(
+    () => localizeGroupedLayers(state.groupedLayers, i18n.language),
+    [state.groupedLayers, i18n.language]
+  )
 
   // Compare mode state
   const [isCompareMode, setIsCompareMode] = useState(false)
@@ -177,14 +202,14 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
 
   // Get all groups with their layers for compare picker
   const allGroupsWithLayers = useMemo(() => {
-    return flattenGroupsWithLayers(state.groupedLayers.groups, state.groupedLayers.ungroupedLayers)
-  }, [state.groupedLayers])
+    return flattenGroupsWithLayers(localizedGroupedLayers.groups, localizedGroupedLayers.ungroupedLayers)
+  }, [localizedGroupedLayers])
 
   // Get all layers flattened (memoized to keep stable reference)
   const allLayers = useMemo(() => [
-    ...flattenLayers(state.groupedLayers.groups),
-    ...state.groupedLayers.ungroupedLayers
-  ], [state.groupedLayers.groups, state.groupedLayers.ungroupedLayers])
+    ...flattenLayers(localizedGroupedLayers.groups),
+    ...localizedGroupedLayers.ungroupedLayers
+  ], [localizedGroupedLayers])
 
   // Find the active layer and its inherited legend
   const { activeLayerLegend, activeLayerName } = useMemo(() => {
@@ -201,14 +226,14 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
     const legend = activeLayer.legend && activeLayer.legend.length > 0
       ? activeLayer.legend
       : (activeLayer.group_id
-          ? findInheritedLegend(activeLayer.group_id, state.groupedLayers.groups)
+          ? findInheritedLegend(activeLayer.group_id, localizedGroupedLayers.groups)
           : null)
 
     return {
       activeLayerLegend: legend,
       activeLayerName: activeLayer.name
     }
-  }, [state.activeDataLayers, allLayers, state.groupedLayers.groups])
+  }, [state.activeDataLayers, allLayers, localizedGroupedLayers.groups])
 
   // Find left and right layer legends for compare mode
   const { leftLayerLegend, leftLayerName, rightLayerLegend, rightLayerName } = useMemo(() => {
@@ -228,13 +253,13 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
     const leftLegend = leftLayer?.legend && leftLayer.legend.length > 0
       ? leftLayer.legend
       : (leftLayer?.group_id
-          ? findInheritedLegend(leftLayer.group_id, state.groupedLayers.groups)
+          ? findInheritedLegend(leftLayer.group_id, localizedGroupedLayers.groups)
           : null)
 
     const rightLegend = rightLayer?.legend && rightLayer.legend.length > 0
       ? rightLayer.legend
       : (rightLayer?.group_id
-          ? findInheritedLegend(rightLayer.group_id, state.groupedLayers.groups)
+          ? findInheritedLegend(rightLayer.group_id, localizedGroupedLayers.groups)
           : null)
 
     return {
@@ -243,7 +268,7 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
       rightLayerLegend: rightLegend,
       rightLayerName: rightLayer?.name || null
     }
-  }, [leftLayerId, rightLayerId, allLayers, state.groupedLayers.groups])
+  }, [leftLayerId, rightLayerId, allLayers, localizedGroupedLayers.groups])
 
   // Initialize map and get handlers
   const {
@@ -263,7 +288,7 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
   } = useMapInitialization({
     activeBasemap: state.activeBasemap,
     setActiveBasemap: state.setActiveBasemap,
-    groupedLayers: state.groupedLayers,
+    groupedLayers: localizedGroupedLayers,
     setGroupedLayers: state.setGroupedLayers,
     setIsLoadingLayers: state.setIsLoadingLayers,
     setLayerError: state.setLayerError,
@@ -481,19 +506,25 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
     }
   }, [reportToView, state.isLoadingLayers, allLayers.length, viewReportOnMap])
 
-  // Handle AI map action — switch to clipped country layer from AI copilot
+  // Handle AI map action — activate either a clipped country raster or an
+  // original continent/service layer, then zoom to the requested country.
   useEffect(() => {
     const handleAIMapAction = async (e: any) => {
-      const { country, countryFile, clippedLayerName, workspace, originalLayerName, layerId } = e.detail
+      const { displayMode, country, countryFile, clippedLayerName, workspace, originalLayerName, layerId } = e.detail
 
-      if (!country || !countryFile || !clippedLayerName || !workspace) return
+      if (!country || !countryFile || !originalLayerName) return
+      if (displayMode === 'clipped' && (!clippedLayerName || !workspace)) return
 
       // Find the layer in allLayers to activate it in the sidebar
       const layer = allLayers.find(l => l.geoserver_name === originalLayerName)
 
       if (layer) {
-        // Activate the layer (adds the original WMS layer to the map)
-        handleDataLayerToggle(layer)
+        // Activate the original WMS layer if it is not already active.
+        if (!state.activeDataLayers.includes(layer.geoserver_name)) {
+          handleDataLayerToggle(layer)
+        } else {
+          state.setSelectedLayerId(layer.id)
+        }
       } else if (layerId) {
         // Fallback: just set the selected layer ID
         state.setSelectedLayerId(layerId)
@@ -507,7 +538,7 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
       await loadCountryPolygon(countryObj)
 
       // Switch to the clipped layer (replaces the WMS source)
-      if (originalLayerName) {
+      if (displayMode === 'clipped' && clippedLayerName && workspace) {
         switchToClippedLayer(originalLayerName, clippedLayerName, workspace)
       }
     }
@@ -517,7 +548,7 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
     return () => {
       window.removeEventListener('ai-map-action', handleAIMapAction)
     }
-  }, [allLayers, handleDataLayerToggle, loadCountryPolygon, switchToClippedLayer, state.setSelectedLayerId, state.setSelectedCountry])
+  }, [allLayers, handleDataLayerToggle, loadCountryPolygon, switchToClippedLayer, state.activeDataLayers, state.setSelectedLayerId, state.setSelectedCountry])
 
   // Auto-clip: when a layer changes and a country is already selected,
   // check the clip cache and switch to the clipped version if available.
@@ -792,9 +823,11 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
         } overflow-hidden absolute`}
       >
         <div className="h-full overflow-y-auto p-6">
-          <div className="flex items-center justify-between mb-6">
-            <h2 className="text-lg font-bold text-gray-900">{t('mapComponent.mapControls')}</h2>
-            <div className="flex items-center gap-2">
+          <div className="flex items-start justify-between gap-2 mb-6">
+            <h2 className="text-lg leading-snug font-bold text-left text-gray-900 min-w-0 flex-1">
+              {t('mapComponent.mapControls')}
+            </h2>
+            <div className="flex items-center gap-1 flex-shrink-0">
               {onStartTutorial && (
                 <TutorialButton
                   onStart={onStartTutorial}
@@ -861,7 +894,7 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
             {state.activeTab === 'data' && (
               <div data-tutorial="data-tab-content">
               <DataTab
-                groupedLayers={state.groupedLayers}
+                groupedLayers={localizedGroupedLayers}
                 expandedGroups={state.expandedGroups}
                 activeDataLayers={state.activeDataLayers}
                 isLoadingLayers={state.isLoadingLayers}
@@ -906,7 +939,7 @@ const MapComponent = forwardRef<TutorialCallbacks, MapComponentProps>(({
                 statsResults={state.statsResults}
                 isCalculatingStats={state.isCalculatingStats}
                 statsError={state.statsError}
-                groupedLayers={state.groupedLayers}
+                groupedLayers={localizedGroupedLayers}
                 expandedGroups={state.expandedGroups}
                 allLayers={allLayers}
                 onStartStats={handleStartStats}

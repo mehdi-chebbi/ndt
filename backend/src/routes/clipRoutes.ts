@@ -166,7 +166,11 @@ function buildGroupTree(groups: any[], layers: any[]): any[] {
     groupMap[g.id] = {
       id: g.id,
       name: g.name,
+      name_en: g.name_en,
+      name_fr: g.name_fr,
       description: g.description,
+      description_en: g.description_en,
+      description_fr: g.description_fr,
       legend: g.legend,
       parent_id: g.parent_id,
       children: [],
@@ -207,8 +211,10 @@ router.get('/layers', async (req: Request, res: Response) => {
   try {
     // Get all active layers with group info and legends
     const layersResult = await pool.query(`
-      SELECT l.id, l.geoserver_name, l.display_name, l.group_id, l.file_path, l.class_labels, l.legend, l.sort_order,
-             g.id as group_table_id, g.name as group_name, g.parent_id as group_parent_id, g.legend as group_legend
+      SELECT l.id, l.geoserver_name, l.display_name, l.display_name_en, l.display_name_fr,
+             l.group_id, l.file_path, l.class_labels, l.legend, l.sort_order,
+             g.id as group_table_id, g.name as group_name, g.name_en as group_name_en,
+             g.name_fr as group_name_fr, g.parent_id as group_parent_id, g.legend as group_legend
       FROM layers l
       LEFT JOIN layer_groups g ON l.group_id = g.id
       WHERE l.is_active = true
@@ -217,7 +223,8 @@ router.get('/layers', async (req: Request, res: Response) => {
 
     // Get all groups with legend
     const groupsResult = await pool.query(`
-      SELECT id, name, description, parent_id, legend, sort_order
+      SELECT id, name, name_en, name_fr, description, description_en, description_fr,
+             parent_id, legend, sort_order
       FROM layer_groups
       ORDER BY sort_order ASC, created_at ASC
     `);
@@ -232,6 +239,8 @@ router.get('/layers', async (req: Request, res: Response) => {
       return {
         id: layer.id,
         name: layer.display_name || layer.geoserver_name,
+        name_en: layer.display_name_en,
+        name_fr: layer.display_name_fr,
         geoserver_name: layer.geoserver_name,
         layerName: layer.geoserver_name,
         // Use WMS proxy endpoint instead of direct GeoServer URL
@@ -241,6 +250,8 @@ router.get('/layers', async (req: Request, res: Response) => {
         hasStats: !!layer.file_path && !!layer.class_labels,
         group_id: layer.group_id,
         group_name: layer.group_name,
+        group_name_en: layer.group_name_en,
+        group_name_fr: layer.group_name_fr,
         group_legend: layer.group_legend,
         legend: layer.legend,
       };
